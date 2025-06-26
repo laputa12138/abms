@@ -4,8 +4,7 @@ import os
 import sys
 from datetime import datetime
 
-# Ensure the project root is in PYTHONPATH to allow imports from core, agents, etc.
-# This is often needed when running scripts from a subdirectory or when modules are not installed.
+# Ensure the project root is in PYTHONPATH
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '.'))
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
@@ -17,13 +16,12 @@ from core.reranker_service import RerankerService
 from pipelines.report_generation_pipeline import ReportGenerationPipeline, ReportGenerationPipelineError
 
 # Setup basic logging configuration
-# The level can be overridden by LOG_LEVEL from settings if more verbosity is needed.
 log_level_from_settings = getattr(logging, settings.LOG_LEVEL.upper(), logging.INFO)
 logging.basicConfig(
     level=log_level_from_settings,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    format='%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s', # Added filename and lineno
     handlers=[
-        logging.StreamHandler(sys.stdout) # Ensure logs go to stdout
+        logging.StreamHandler(sys.stdout)
     ]
 )
 logger = logging.getLogger(__name__)
@@ -35,100 +33,143 @@ def main():
     Parses command-line arguments, initializes the pipeline, and runs it.
     """
     parser = argparse.ArgumentParser(
-        description="RAG Multi-Agent Report Generation System.",
+        description="RAG Multi-Agent Report Generation System with Parent-Child Chunking and Hybrid Search.",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
+
+    # Core arguments
     parser.add_argument(
-        "--topic",
-        type=str,
-        required=True,
+        "--topic", type=str, required=True,
         help="The main topic for the report."
     )
     parser.add_argument(
-        "--pdfs",
-        type=str,
-        required=True,
-        help="Comma-separated list of paths to PDF documents to use as context."
+        "--data_path", type=str, default="./data/",
+        help="Path to the directory containing source documents (PDF, DOCX, TXT)."
     )
     parser.add_argument(
-        "--output_path",
-        type=str,
-        default=f"output/report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.md",
+        "--output_path", type=str, default=f"output/report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.md",
         help="File path to save the generated Markdown report."
     )
     parser.add_argument(
-        "--report_title",
-        type=str,
-        default=None,
+        "--report_title", type=str, default=None,
         help="Optional custom title for the report. If not provided, one will be generated based on the topic."
     )
-    parser.add_argument(
-        "--xinference_url",
-        type=str,
-        default=settings.XINFERENCE_API_URL,
+
+    # Xinference and Model Configuration arguments
+    xinference_group = parser.add_argument_group('Xinference and Model Configuration')
+    xinference_group.add_argument(
+        "--xinference_url", type=str, default=settings.XINFERENCE_API_URL,
         help="URL of the Xinference API server."
     )
-    parser.add_argument(
-        "--llm_model",
-        type=str,
-        default=settings.DEFAULT_LLM_MODEL_NAME,
+    xinference_group.add_argument(
+        "--llm_model", type=str, default=settings.DEFAULT_LLM_MODEL_NAME,
         help="Name of the LLM model to use via Xinference."
     )
-    parser.add_argument(
-        "--embedding_model",
-        type=str,
-        default=settings.DEFAULT_EMBEDDING_MODEL_NAME,
+    xinference_group.add_argument(
+        "--embedding_model", type=str, default=settings.DEFAULT_EMBEDDING_MODEL_NAME,
         help="Name of the Embedding model to use via Xinference."
     )
-    parser.add_argument(
-        "--reranker_model",
-        type=str,
-        default=settings.DEFAULT_RERANKER_MODEL_NAME,
-        help="Name of the Reranker model to use via Xinference. Set to 'None' or empty to disable reranker."
+    xinference_group.add_argument(
+        "--reranker_model", type=str, default=settings.DEFAULT_RERANKER_MODEL_NAME,
+        help="Name of the Reranker model. Set to 'None' or empty to disable."
     )
-    parser.add_argument(
-        "--max_refinement_iterations",
-        type=int,
-        default=settings.DEFAULT_MAX_REFINEMENT_ITERATIONS,
+
+    # Document Processing (Chunking) arguments
+    chunking_group = parser.add_argument_group('Document Processing - Chunking Parameters')
+    chunking_group.add_argument(
+        "--parent_chunk_size", type=int, default=settings.DEFAULT_PARENT_CHUNK_SIZE,
+        help="Target character size for parent chunks."
+    )
+    chunking_group.add_argument(
+        "--parent_chunk_overlap", type=int, default=settings.DEFAULT_PARENT_CHUNK_OVERLAP,
+        help="Character overlap for parent chunks."
+    )
+    chunking_group.add_argument(
+        "--child_chunk_size", type=int, default=settings.DEFAULT_CHILD_CHUNK_SIZE,
+        help="Target character size for child chunks."
+    )
+    chunking_group.add_argument(
+        "--child_chunk_overlap", type=int, default=settings.DEFAULT_CHILD_CHUNK_OVERLAP,
+        help="Character overlap for child chunks."
+    )
+
+    # Retrieval arguments
+    retrieval_group = parser.add_argument_group('Retrieval Parameters')
+    retrieval_group.add_argument(
+        "--vector_top_k", type=int, default=settings.DEFAULT_VECTOR_STORE_TOP_K,
+        help="Number of top documents to retrieve from vector search."
+    )
+    retrieval_group.add_argument(
+        "--keyword_top_k", type=int, default=settings.DEFAULT_KEYWORD_SEARCH_TOP_K,
+        help="Number of top documents to retrieve from keyword search (BM25)."
+    )
+    retrieval_group.add_argument(
+        "--hybrid_search_alpha", type=float, default=settings.DEFAULT_HYBRID_SEARCH_ALPHA,
+        help="Blending factor for hybrid search (0.0 for keyword-only, 1.0 for vector-only)."
+    )
+    retrieval_group.add_argument(
+        "--final_top_n_retrieval", type=int, default=None, # Will default in pipeline if None
+        help="Final number of documents to use for chapter generation after retrieval and reranking. Defaults to vector_top_k."
+    )
+
+    # Pipeline execution arguments
+    pipeline_group = parser.add_argument_group('Pipeline Execution Parameters')
+    pipeline_group.add_argument(
+        "--max_refinement_iterations", type=int, default=settings.DEFAULT_MAX_REFINEMENT_ITERATIONS,
         help="Maximum number of refinement iterations for each chapter."
     )
 
     args = parser.parse_args()
 
-    logger.info("Starting Report Generation System with the following arguments:")
+    logger.info("Starting Report Generation System with resolved arguments:")
     for arg, value in vars(args).items():
         logger.info(f"  {arg}: {value}")
 
+    # Validate data_path
+    if not os.path.isdir(args.data_path):
+        logger.error(f"The provided data_path '{args.data_path}' is not a valid directory or does not exist.")
+        print(f"Error: Data path '{args.data_path}' is invalid. Please provide a valid directory path.")
+        sys.exit(1)
+    logger.info(f"Using data_path: {os.path.abspath(args.data_path)}")
+
+
     # Initialize services
     try:
-        logger.info(f"Initializing LLMService with URL: {args.xinference_url}, Model: {args.llm_model}")
+        logger.info(f"Initializing LLMService (URL: {args.xinference_url}, Model: {args.llm_model})")
         llm_service = LLMService(api_url=args.xinference_url, model_name=args.llm_model)
 
-        logger.info(f"Initializing EmbeddingService with URL: {args.xinference_url}, Model: {args.embedding_model}")
+        logger.info(f"Initializing EmbeddingService (URL: {args.xinference_url}, Model: {args.embedding_model})")
         embedding_service = EmbeddingService(api_url=args.xinference_url, model_name=args.embedding_model)
 
         reranker_service = None
-        if args.reranker_model and args.reranker_model.lower() != 'none':
-            logger.info(f"Initializing RerankerService with URL: {args.xinference_url}, Model: {args.reranker_model}")
+        if args.reranker_model and args.reranker_model.lower() != 'none' and args.reranker_model.strip() != '':
+            logger.info(f"Initializing RerankerService (URL: {args.xinference_url}, Model: {args.reranker_model})")
             try:
                 reranker_service = RerankerService(api_url=args.xinference_url, model_name=args.reranker_model)
-            except Exception as e: # Catch if reranker model is specified but fails to load
+            except Exception as e:
                 logger.warning(f"Failed to initialize RerankerService for model '{args.reranker_model}': {e}. Proceeding without reranker.")
-                reranker_service = None # Ensure it's None if init fails
         else:
-            logger.info("Reranker model not specified or set to 'None'. Proceeding without reranker.")
+            logger.info("Reranker model not specified or disabled. Proceeding without reranker.")
 
-    except Exception as e: # Catch errors from service initialization (e.g., Xinference connection)
+    except Exception as e:
         logger.error(f"Failed to initialize core AI services: {e}", exc_info=True)
-        print(f"Error: Could not initialize AI services. Please ensure Xinference is running and models are available at {args.xinference_url}.")
+        print(f"Error: Could not initialize AI services. Ensure Xinference is running and models are available at {args.xinference_url}.")
         sys.exit(1)
 
-    # Initialize the pipeline
+    # Initialize the pipeline with all relevant parameters
     try:
         pipeline = ReportGenerationPipeline(
             llm_service=llm_service,
             embedding_service=embedding_service,
             reranker_service=reranker_service,
+            parent_chunk_size=args.parent_chunk_size,
+            parent_chunk_overlap=args.parent_chunk_overlap,
+            child_chunk_size=args.child_chunk_size,
+            child_chunk_overlap=args.child_chunk_overlap,
+            vector_top_k=args.vector_top_k,
+            keyword_top_k=args.keyword_top_k,
+            hybrid_alpha=args.hybrid_search_alpha,
+            final_top_n_retrieval=args.final_top_n_retrieval,
             max_refinement_iterations=args.max_refinement_iterations
         )
     except Exception as e:
@@ -136,19 +177,12 @@ def main():
         print(f"Error: Could not initialize the report generation pipeline.")
         sys.exit(1)
 
-    # Parse PDF paths
-    pdf_paths_list = [path.strip() for path in args.pdfs.split(',') if path.strip()]
-    if not pdf_paths_list:
-        logger.error("No PDF files provided. Please specify at least one PDF path.")
-        print("Error: No PDF files specified. Use the --pdfs argument.")
-        sys.exit(1)
-
     # Ensure output directory exists
     output_dir = os.path.dirname(args.output_path)
     if output_dir and not os.path.exists(output_dir):
         try:
-            os.makedirs(output_dir)
-            logger.info(f"Created output directory: {output_dir}")
+            os.makedirs(output_dir, exist_ok=True) # exist_ok=True to prevent error if dir already exists
+            logger.info(f"Ensured output directory exists: {output_dir}")
         except OSError as e:
             logger.error(f"Failed to create output directory {output_dir}: {e}")
             print(f"Error: Could not create output directory {output_dir}.")
@@ -159,15 +193,14 @@ def main():
         logger.info(f"Running report generation pipeline for topic: '{args.topic}'...")
         final_report_md = pipeline.run(
             user_topic=args.topic,
-            pdf_paths=pdf_paths_list,
+            data_path=args.data_path, # Pass the directory path
             report_title=args.report_title
         )
 
-        # Save the report
         with open(args.output_path, "w", encoding="utf-8") as f:
             f.write(final_report_md)
-        logger.info(f"Successfully generated report and saved to: {args.output_path}")
-        print(f"\nReport generation complete. Output saved to: {args.output_path}")
+        logger.info(f"Successfully generated report and saved to: {os.path.abspath(args.output_path)}")
+        print(f"\nReport generation complete. Output saved to: {os.path.abspath(args.output_path)}")
 
     except ReportGenerationPipelineError as e:
         logger.error(f"Report generation pipeline failed: {e}", exc_info=True)
@@ -179,22 +212,8 @@ def main():
         sys.exit(1)
 
 if __name__ == "__main__":
-    # Example usage (for when user runs `python main.py --help` or with args):
-    # python main.py --topic "AI in Healthcare" --pdfs "path/to/doc1.pdf,path/to/doc2.pdf" --output_path "reports/ai_healthcare_report.md"
-    #
-    # To test without actual Xinference running, one would typically mock the services
-    # or use a development/testing configuration that points to mock endpoints.
-    # The current main.py is intended for use with a live Xinference server.
-    #
-    # If you want to run a quick test with dummy PDFs and mocked services (like in pipeline example),
-    # you would need to modify this main() or create a separate test script.
-    # For now, this main.py assumes real services.
-
-    # A simple check to guide user if no args are provided (though argparse handles required ones)
-    if len(sys.argv) == 1:
-        # No arguments provided, print help message (argparse does this, but can be more explicit)
-        # logger.info("No command-line arguments provided. Use --help for usage information.")
-        # parser.print_help(sys.stderr) # Argparse handles this for missing required args
-        pass # Argparse will handle missing required arguments.
-
+    # Example usage:
+    # python main.py --topic "The Future of Renewable Energy" --data_path "./sample_documents/"
+    #                --output_path "reports/renewable_energy_report.md"
+    #                --parent_chunk_size 1500 --child_chunk_size 300 --hybrid_search_alpha 0.6
     main()

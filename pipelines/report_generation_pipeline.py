@@ -1,6 +1,8 @@
 import logging
 import json
-from typing import List, Dict, Optional
+import os # For joining paths and checking file existence
+from typing import List, Dict, Optional, Any
+from rank_bm25 import BM25Okapi # For BM25 indexing
 
 from config import settings
 from core.llm_service import LLMService, LLMServiceError
@@ -27,383 +29,364 @@ class ReportGenerationPipeline:
     """
     Orchestrates the entire report generation process, from document processing
     to final report compilation, using a sequence of specialized agents.
+    Now supports parent-child chunking, multiple document types, and hybrid retrieval.
     """
 
     def __init__(self,
                  llm_service: LLMService,
                  embedding_service: EmbeddingService,
-                 reranker_service: Optional[RerankerService] = None, # Reranker is optional
-                 max_refinement_iterations: int = settings.DEFAULT_MAX_REFINEMENT_ITERATIONS):
+                 reranker_service: Optional[RerankerService] = None,
+                 # Document processing params (can be overridden by CLI in main.py)
+                 parent_chunk_size: int = settings.DEFAULT_PARENT_CHUNK_SIZE,
+                 parent_chunk_overlap: int = settings.DEFAULT_PARENT_CHUNK_OVERLAP,
+                 child_chunk_size: int = settings.DEFAULT_CHILD_CHUNK_SIZE,
+                 child_chunk_overlap: int = settings.DEFAULT_CHILD_CHUNK_OVERLAP,
+                 # Retrieval params (can be overridden by CLI in main.py)
+                 vector_top_k: int = settings.DEFAULT_VECTOR_STORE_TOP_K,
+                 keyword_top_k: int = settings.DEFAULT_KEYWORD_SEARCH_TOP_K,
+                 hybrid_alpha: float = settings.DEFAULT_HYBRID_SEARCH_ALPHA,
+                 final_top_n_retrieval: Optional[int] = None, # top_n for ContentRetriever output
+                 # Pipeline execution params
+                 max_refinement_iterations: int = settings.DEFAULT_MAX_REFINEMENT_ITERATIONS
+                ):
         """
         Initializes the ReportGenerationPipeline.
-
-        Args:
-            llm_service (LLMService): Instance of LLMService.
-            embedding_service (EmbeddingService): Instance of EmbeddingService.
-            reranker_service (Optional[RerankerService]): Instance of RerankerService.
-            max_refinement_iterations (int): Maximum number of times to refine each chapter.
+        Params related to chunking and retrieval can be passed here, often from main.py CLI args.
         """
         self.llm_service = llm_service
         self.embedding_service = embedding_service
         self.reranker_service = reranker_service
         self.max_refinement_iterations = max_refinement_iterations
 
-        # Initialize services and agents
+        # Initialize services and agents, passing down relevant parameters
         self.document_processor = DocumentProcessor(
-            chunk_size=settings.DEFAULT_CHUNK_SIZE,
-            chunk_overlap=settings.DEFAULT_CHUNK_OVERLAP
+            parent_chunk_size=parent_chunk_size,
+            parent_chunk_overlap=parent_chunk_overlap,
+            child_chunk_size=child_chunk_size,
+            child_chunk_overlap=child_chunk_overlap,
+            supported_extensions=settings.SUPPORTED_DOC_EXTENSIONS
         )
-        # VectorStore dimension will be inferred upon first embedding
         self.vector_store = VectorStore(embedding_service=self.embedding_service)
+
+        # BM25 index will be built after documents are processed
+        self.bm25_index: Optional[BM25Okapi] = None
+        self.all_child_chunks_for_bm25_corpus: List[Dict[str, Any]] = []
+
 
         self.topic_analyzer = TopicAnalyzerAgent(llm_service=self.llm_service)
         self.outline_generator = OutlineGeneratorAgent(llm_service=self.llm_service)
-        self.content_retriever = ContentRetrieverAgent(
-            vector_store=self.vector_store,
-            reranker_service=self.reranker_service, # Pass the reranker here
-            default_top_k_retrieval=settings.DEFAULT_VECTOR_STORE_TOP_K
-        )
+
+        # ContentRetrieverAgent will be initialized later, after bm25_index is ready
+        self.content_retriever: Optional[ContentRetrieverAgent] = None
+        self.retrieval_params = {
+            "default_vector_top_k": vector_top_k,
+            "default_keyword_top_k": keyword_top_k,
+            "default_hybrid_alpha": hybrid_alpha,
+            "default_final_top_n": final_top_n_retrieval or vector_top_k # Default final_top_n to vector_top_k if not specified
+        }
+
         self.chapter_writer = ChapterWriterAgent(llm_service=self.llm_service)
         self.evaluator = EvaluatorAgent(llm_service=self.llm_service)
         self.refiner = RefinerAgent(llm_service=self.llm_service)
-        self.report_compiler = ReportCompilerAgent(add_table_of_contents=True) # Default to add TOC
+        self.report_compiler = ReportCompilerAgent(add_table_of_contents=True)
 
-        logger.info("ReportGenerationPipeline initialized with all services and agents.")
+        logger.info("ReportGenerationPipeline initialized.")
 
-    def _process_and_load_documents(self, pdf_paths: List[str]):
-        """Processes PDFs, extracts text, splits into chunks, and loads into VectorStore."""
-        logger.info(f"Starting document processing for {len(pdf_paths)} PDF(s).")
-        all_chunks = []
-        for pdf_path in pdf_paths:
+    def _initialize_content_retriever(self):
+        """Initializes the ContentRetrieverAgent once BM25 index is available."""
+        if not self.content_retriever:
+            self.content_retriever = ContentRetrieverAgent(
+                vector_store=self.vector_store,
+                bm25_index=self.bm25_index,
+                all_child_chunks_for_bm25=self.all_child_chunks_for_bm25_corpus,
+                reranker_service=self.reranker_service,
+                **self.retrieval_params
+            )
+            logger.info("ContentRetrieverAgent initialized with BM25 index.")
+
+
+    def _process_and_load_data(self, data_path: str):
+        """
+        Scans a directory for supported files, extracts text, performs parent-child
+        chunking, loads child chunks into VectorStore, and builds BM25 index.
+        """
+        logger.info(f"Starting document processing from data_path: {data_path}")
+
+        if not os.path.isdir(data_path):
+            logger.error(f"Data path '{data_path}' is not a valid directory.")
+            raise ReportGenerationPipelineError(f"Invalid data_path: {data_path} is not a directory.")
+
+        all_parent_child_data: List[Dict[str, Any]] = []
+        processed_file_count = 0
+
+        for filename in os.listdir(data_path):
+            file_path = os.path.join(data_path, filename)
+            if not os.path.isfile(file_path):
+                logger.debug(f"Skipping non-file item: {filename}")
+                continue
+
+            _, extension = os.path.splitext(filename.lower())
+            if extension not in settings.SUPPORTED_DOC_EXTENSIONS:
+                logger.debug(f"Skipping unsupported file type: {filename} (extension: {extension})")
+                continue
+
             try:
-                logger.info(f"Processing PDF: {pdf_path}")
-                raw_text = self.document_processor.extract_text_from_pdf(pdf_path)
+                logger.info(f"Processing file: {file_path}")
+                raw_text = self.document_processor.extract_text_from_file(file_path)
                 if not raw_text.strip():
-                    logger.warning(f"No text extracted from PDF: {pdf_path}. Skipping.")
+                    logger.warning(f"No text extracted from file: {file_path}. Skipping.")
                     continue
-                chunks = self.document_processor.split_text_into_chunks(raw_text)
-                all_chunks.extend(chunks)
-                logger.info(f"Extracted {len(chunks)} chunks from {pdf_path}.")
+
+                # Use filename (without extension) or a UUID as document ID
+                doc_id_base = os.path.splitext(filename)[0]
+                parent_child_chunks = self.document_processor.split_text_into_parent_child_chunks(
+                    raw_text, source_document_id=doc_id_base
+                )
+                all_parent_child_data.extend(parent_child_chunks)
+                logger.info(f"Processed {file_path} into {len(parent_child_chunks)} parent chunks.")
+                processed_file_count +=1
+
             except (DocumentProcessorError, FileNotFoundError) as e:
-                logger.error(f"Failed to process PDF {pdf_path}: {e}. It will be skipped.")
-                # Optionally, re-raise if one PDF failure should halt the process
-                # raise ReportGenerationPipelineError(f"Critical error processing PDF {pdf_path}: {e}")
+                logger.error(f"Failed to process file {file_path}: {e}. It will be skipped.")
+            except Exception as e: # Catch any other unexpected error during individual file processing
+                logger.error(f"Unexpected error processing file {file_path}: {e}. Skipping.", exc_info=True)
 
-        if not all_chunks:
-            logger.error("No text chunks were extracted from any PDF. Cannot proceed.")
-            raise ReportGenerationPipelineError("No usable content extracted from provided PDFs.")
 
+        if not all_parent_child_data:
+            logger.error("No parent-child chunks were generated from any file in the data_path. Cannot proceed.")
+            raise ReportGenerationPipelineError("No usable content extracted or chunked from provided data_path.")
+
+        logger.info(f"Total parent chunks from {processed_file_count} files: {len(all_parent_child_data)}")
+
+        # Load into VectorStore (embeds child chunks and stores parent/child metadata)
         try:
-            logger.info(f"Adding {len(all_chunks)} total chunks to VectorStore.")
-            self.vector_store.add_documents(all_chunks)
-            logger.info("Successfully added document chunks to VectorStore.")
+            logger.info(f"Adding data to VectorStore...")
+            self.vector_store.add_documents(all_parent_child_data)
+            logger.info("Successfully added document data to VectorStore.")
         except VectorStoreError as e:
             logger.error(f"Failed to add documents to VectorStore: {e}")
             raise ReportGenerationPipelineError(f"VectorStore population failed: {e}")
 
+        # Build BM25 Index using child chunks from the vector_store's document_store
+        # self.vector_store.document_store should contain {'child_id', 'child_text', 'parent_id', 'parent_text', ...}
+        self.all_child_chunks_for_bm25_corpus = [
+            {"child_id": item['child_id'], "child_text": item['child_text']}
+            for item in self.vector_store.document_store
+        ]
+
+        if self.all_child_chunks_for_bm25_corpus:
+            tokenized_corpus_for_bm25 = [
+                self.content_retriever._tokenize_query(item['child_text']) if self.content_retriever else item['child_text'].lower().split() # Use agent's tokenizer if available
+                for item in self.all_child_chunks_for_bm25_corpus
+            ]
+            self.bm25_index = BM25Okapi(tokenized_corpus_for_bm25)
+            logger.info(f"BM25 index built successfully with {len(tokenized_corpus_for_bm25)} child chunks.")
+        else:
+            logger.warning("No child chunks available to build BM25 index.")
+            self.bm25_index = None # Ensure it's None if no corpus
+
+        # Now that BM25 index is ready (or None), initialize ContentRetrieverAgent
+        self._initialize_content_retriever()
+
 
     def _parse_outline_to_chapter_titles(self, markdown_outline: str) -> List[str]:
-        """
-        Parses a Markdown outline (potentially hierarchical) and extracts a flat list
-        of chapter/section titles that require content generation.
-        This is a simplified parser; ReportCompilerAgent has a more detailed one for TOC.
-        """
+        # (This method remains largely the same as before, but ensure it's robust)
         titles = []
         lines = markdown_outline.strip().split('\n')
         for line in lines:
             line = line.strip()
-            if not line:
-                continue
+            if not line: continue
 
-            # Simple heuristic: lines starting with '-', '*', '+', or '#' are titles
+            # Heuristic for Markdown list items or headers
             if line.startswith(("- ", "* ", "+ ")):
-                titles.append(line[2:].strip())
+                title = line[2:].strip()
+                if title: titles.append(title)
             elif line.startswith("#"):
-                titles.append(line.lstrip("# ").strip())
-            # More complex parsing (like in ReportCompilerAgent) could be used for levels,
-            # but for content generation, we just need the list of titles to write for.
+                title = line.lstrip("# ").strip()
+                if title: titles.append(title)
 
         if not titles:
             logger.warning("Could not parse any chapter titles from the generated outline.")
         logger.debug(f"Parsed outline titles for content generation: {titles}")
         return titles
 
-
-    def run(self, user_topic: str, pdf_paths: List[str], report_title: Optional[str] = None) -> str:
+    def run(self, user_topic: str, data_path: str, report_title: Optional[str] = None) -> str:
         """
         Executes the full report generation pipeline.
 
         Args:
-            user_topic (str): The main topic for the report, provided by the user.
-            pdf_paths (List[str]): A list of file paths to PDF documents to be used as context.
-            report_title (Optional[str]): The desired title for the final report.
-                                          If None, derived from user_topic.
+            user_topic (str): The main topic for the report.
+            data_path (str): Path to the directory containing source documents.
+            report_title (Optional[str]): Desired title for the final report.
 
         Returns:
             str: The final compiled report in Markdown format.
-
-        Raises:
-            ReportGenerationPipelineError: If any critical step in the pipeline fails.
         """
-        logger.info(f"Starting report generation pipeline for topic: '{user_topic}'")
+        logger.info(f"Starting report generation pipeline for topic: '{user_topic}' using data from '{data_path}'")
         final_report_title = report_title or f"关于“{user_topic}”的分析报告"
 
-        # 1. Process and Load Documents
+        # 1. Process and Load Documents (and build BM25 index)
         try:
-            self._process_and_load_documents(pdf_paths)
-        except ReportGenerationPipelineError as e: # Catch errors from the helper
-             raise # Re-raise critical errors
+            self._process_and_load_data(data_path)
+        except ReportGenerationPipelineError as e:
+             raise
+
+        if not self.content_retriever: # Should have been initialized in _process_and_load_data
+            logger.error("ContentRetrieverAgent was not initialized. This indicates an issue in the setup phase.")
+            raise ReportGenerationPipelineError("ContentRetrieverAgent failed to initialize.")
+
 
         # 2. Analyze Topic
         logger.info("Step 2: Analyzing topic...")
-        try:
-            analyzed_topic_details = self.topic_analyzer.run(user_topic)
-            logger.info(f"Topic analysis complete. Generalized CN topic: {analyzed_topic_details.get('generalized_topic_cn')}")
-        except TopicAnalyzerAgentError as e:
-            logger.error(f"Failed to analyze topic: {e}")
-            raise ReportGenerationPipelineError(f"Topic analysis failed: {e}")
+        analyzed_topic_details = self.topic_analyzer.run(user_topic)
+        logger.info(f"Topic analysis complete. Generalized CN topic: {analyzed_topic_details.get('generalized_topic_cn')}")
 
         # 3. Generate Outline
         logger.info("Step 3: Generating outline...")
-        try:
-            markdown_outline = self.outline_generator.run(analyzed_topic_details)
-            if not markdown_outline.strip():
-                logger.error("Outline generation resulted in an empty outline.")
-                raise ReportGenerationPipelineError("Outline generation failed: Empty outline.")
-            logger.info("Outline generation complete.")
-            logger.debug(f"Generated Markdown Outline:\n{markdown_outline}")
-        except OutlineGeneratorAgentError as e:
-            logger.error(f"Failed to generate outline: {e}")
-            raise ReportGenerationPipelineError(f"Outline generation failed: {e}")
+        markdown_outline = self.outline_generator.run(analyzed_topic_details)
+        if not markdown_outline.strip():
+            raise ReportGenerationPipelineError("Outline generation failed: Empty outline.")
+        logger.info("Outline generation complete.")
 
-        # 4. Process each chapter/section from the outline
+        # 4. Process each chapter
         logger.info("Step 4: Processing chapters...")
-        # Use the simple parser for titles to iterate for content generation
         chapter_titles_for_writing = self._parse_outline_to_chapter_titles(markdown_outline)
-
         if not chapter_titles_for_writing:
-            logger.error("No chapter titles could be parsed from the outline. Cannot proceed with chapter writing.")
             raise ReportGenerationPipelineError("Failed to parse chapter titles from outline.")
 
         compiled_chapter_contents: Dict[str, str] = {}
-
         for i, chapter_title in enumerate(chapter_titles_for_writing):
             logger.info(f"Processing chapter {i+1}/{len(chapter_titles_for_writing)}: '{chapter_title}'")
 
-            # a. Content Retrieval
-            # Combine chapter title with keywords from topic analysis for a richer query
             query_keywords_cn = analyzed_topic_details.get('keywords_cn', [])
-            query_keywords_en = analyzed_topic_details.get('keywords_en', [])
-            # Simple concatenation for retrieval query. Could be more sophisticated.
-            retrieval_query = f"{chapter_title} {' '.join(query_keywords_cn)} {' '.join(query_keywords_en)}".strip()
+            # query_keywords_en = analyzed_topic_details.get('keywords_en', []) # Not used in simple concat below
+            retrieval_query = f"{chapter_title} {' '.join(query_keywords_cn)}".strip() # Focus on Chinese keywords for query
 
-            try:
-                retrieved_docs = self.content_retriever.run(query=retrieval_query) # Uses default top_k, top_n
-                logger.info(f"Retrieved {len(retrieved_docs)} documents for chapter '{chapter_title}'.")
-                if not retrieved_docs:
-                    logger.warning(f"No relevant documents found for chapter '{chapter_title}'. Chapter content might be sparse.")
-            except ContentRetrieverAgentError as e:
-                logger.error(f"Content retrieval failed for chapter '{chapter_title}': {e}. Skipping content for this chapter.")
-                retrieved_docs = [] # Proceed with empty docs for this chapter
+            retrieved_parent_chunks_data = self.content_retriever.run(query=retrieval_query) # Uses agent's defaults
 
-            # b. Chapter Writing (Initial Draft)
-            try:
-                current_chapter_content = self.chapter_writer.run(
-                    chapter_title=chapter_title,
-                    retrieved_content=retrieved_docs
-                )
-                logger.info(f"Initial draft written for chapter '{chapter_title}'. Length: {len(current_chapter_content)}")
-            except ChapterWriterAgentError as e:
-                logger.error(f"Chapter writing failed for '{chapter_title}': {e}. Using placeholder content.")
-                current_chapter_content = f"Error generating content for this chapter: {e}"
+            # retrieved_parent_chunks_data is now List[Dict{'document': parent_text, 'score':..., other_meta...}]
+            logger.info(f"Retrieved {len(retrieved_parent_chunks_data)} parent chunks for chapter '{chapter_title}'.")
+            if not retrieved_parent_chunks_data:
+                logger.warning(f"No relevant parent chunks found for chapter '{chapter_title}'. Content might be sparse.")
 
+            current_chapter_content = self.chapter_writer.run(
+                chapter_title=chapter_title,
+                retrieved_content=retrieved_parent_chunks_data # Pass the list of dicts
+            )
+            logger.info(f"Initial draft for '{chapter_title}'. Length: {len(current_chapter_content)}")
 
-            # c. Evaluation and Refinement Loop
-            if current_chapter_content.strip() and not current_chapter_content.startswith("Error generating content"): # Only refine if there's actual content
+            if current_chapter_content.strip() and not current_chapter_content.startswith("Error"):
                 for ref_iter in range(self.max_refinement_iterations):
-                    logger.info(f"Refinement iteration {ref_iter + 1}/{self.max_refinement_iterations} for chapter '{chapter_title}'")
-                    try:
-                        evaluation = self.evaluator.run(content_to_evaluate=current_chapter_content)
-                        logger.info(f"Evaluation for '{chapter_title}': Score {evaluation.get('score')}")
+                    logger.info(f"Refinement iteration {ref_iter + 1}/{self.max_refinement_iterations} for '{chapter_title}'")
+                    evaluation = self.evaluator.run(content_to_evaluate=current_chapter_content)
+                    logger.info(f"Evaluation for '{chapter_title}': Score {evaluation.get('score')}")
 
-                        # Basic refinement condition: if score is below a threshold (e.g., 80)
-                        # This threshold could be configurable.
-                        # For now, we refine regardless of score for the specified number of iterations,
-                        # as the prompt asks the refiner to improve based on *any* feedback.
-                        # A more sophisticated check could be: if evaluation['score'] < REFINEMENT_SCORE_THRESHOLD:
-
-                        refined_content = self.refiner.run(
-                            original_content=current_chapter_content,
-                            evaluation_feedback=evaluation
-                        )
-                        # Log length change to see if refinement is substantial
-                        logger.info(f"Refinement complete for '{chapter_title}'. Original length: {len(current_chapter_content)}, Refined length: {len(refined_content)}")
-                        current_chapter_content = refined_content
-
-                    except (EvaluatorAgentError, RefinerAgentError) as e:
-                        logger.error(f"Evaluation or Refinement failed for chapter '{chapter_title}' on iteration {ref_iter + 1}: {e}. Using previous version of content.")
-                        break # Break from refinement loop for this chapter on error
+                    refined_content = self.refiner.run(
+                        original_content=current_chapter_content,
+                        evaluation_feedback=evaluation
+                    )
+                    logger.info(f"Refinement for '{chapter_title}'. Orig len: {len(current_chapter_content)}, New len: {len(refined_content)}")
+                    current_chapter_content = refined_content
             else:
-                logger.warning(f"Skipping refinement for chapter '{chapter_title}' due to empty or error content.")
-
+                logger.warning(f"Skipping refinement for '{chapter_title}' due to empty or error content.")
             compiled_chapter_contents[chapter_title] = current_chapter_content
 
         # 5. Compile Report
         logger.info("Step 5: Compiling final report...")
-        try:
-            final_report_md = self.report_compiler.run(
-                report_title=final_report_title,
-                markdown_outline=markdown_outline, # Pass the original generated outline
-                chapter_contents=compiled_chapter_contents,
-                report_topic_details=analyzed_topic_details # For optional intro
-            )
-            logger.info("Report compilation complete.")
-            logger.debug(f"Final Report Markdown (first 500 chars):\n{final_report_md[:500]}")
-        except ReportCompilerAgentError as e:
-            logger.error(f"Failed to compile final report: {e}")
-            raise ReportGenerationPipelineError(f"Report compilation failed: {e}")
+        final_report_md = self.report_compiler.run(
+            report_title=final_report_title,
+            markdown_outline=markdown_outline,
+            chapter_contents=compiled_chapter_contents,
+            report_topic_details=analyzed_topic_details
+        )
+        logger.info("Report compilation complete.")
 
         logger.info("Report generation pipeline finished successfully.")
         return final_report_md
 
 
 if __name__ == '__main__':
-    # This example demonstrates the pipeline structure.
-    # It requires mock services or a fully running Xinference setup with all models.
-    # For simplicity, we will use Mocks for external services here.
+    logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    logger.info("ReportGenerationPipeline (Hybrid & Parent-Child) Example Start")
 
-    logging.basicConfig(level=logging.INFO, # Use INFO for pipeline overview, DEBUG for agent details
-                        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-    logger.info("ReportGenerationPipeline Example Start")
-
-    # --- Mock Services Setup ---
-    # (These would be more detailed in a real test setup)
-    class MockLLMServiceForPipeline(LLMService):
+    # --- Mock Services (similar to previous main.py example, adapted for new flow) ---
+    class MockLLMServiceForPipeline(LLMService): # Copied from previous main.py, should be fine
         def __init__(self): super().__init__(api_url="mock://llm", model_name="mock-llm")
         def chat(self, query, system_prompt, **kwargs):
             logger.debug(f"MockLLMService.chat called. Query starts with: {query[:60]}")
-            if "你是一个主题分析专家" in query: # Topic Analyzer
-                return json.dumps({
-                    "generalized_topic_cn": "模拟主题：先进系统", "generalized_topic_en": "Mock Topic: Advanced Systems",
-                    "keywords_cn": ["核心技术", "未来发展"], "keywords_en": ["core tech", "future dev"]
-                })
-            if "你是一个报告大纲撰写助手" in query: # Outline Generator
-                return "- 章节一：介绍\n  - 1.1 背景\n- 章节二：核心分析\n- 章节三：结论"
-            if "你是一位专业的报告撰写员" in query: # Chapter Writer
-                title_search = "章节标题：\n"
-                title_start = query.find(title_search)
-                if title_start != -1:
-                    title_end = query.find("\n", title_start + len(title_search))
-                    title = query[title_start + len(title_search):title_end].strip()
-                    return f"这是关于“{title}”的模拟章节内容。包含了一些基于模拟检索资料的分析。"
-                return "模拟章节内容。"
-            if "你是一位资深的报告评审员" in query: # Evaluator
-                return json.dumps({
-                    "score": 80, "feedback_cn": "模拟反馈：内容基本合格，可以更充实。",
-                    "evaluation_criteria_met": {"relevance": "高", "fluency": "良好", "completeness": "一般", "accuracy": "待核实"}
-                })
-            if "你是一位报告修改专家" in query: # Refiner
-                 original_content_marker = "原始内容：\n---\n"
-                 original_content_start = query.find(original_content_marker)
-                 if original_content_start != -1:
-                    original_content_end = query.find("\n---", original_content_start + len(original_content_marker))
-                    original_text = query[original_content_start + len(original_content_marker) : original_content_end]
-                    return original_text + "\n（已根据模拟反馈进行修订）"
-                 return "模拟修订后的内容。"
+            if "你是一个主题分析专家" in query:
+                return json.dumps({"generalized_topic_cn": "模拟混合检索主题", "generalized_topic_en": "Mock Hybrid Topic", "keywords_cn": ["父子分块", "关键词"], "keywords_en": ["parent-child", "keyword"]})
+            if "你是一个报告大纲撰写助手" in query:
+                return "- 章节一：父子分块策略\n  - 1.1 定义\n- 章节二：混合检索实现"
+            if "你是一位专业的报告撰写员" in query:
+                title_search = "章节标题：\n"; ts_idx = query.find(title_search); te_idx = query.find("\n", ts_idx + len(title_search) if ts_idx != -1 else -1)
+                title = query[ts_idx + len(title_search):te_idx].strip() if ts_idx != -1 and te_idx != -1 else "未知章节"
+                return f"这是“{title}”的模拟章节内容，基于父块上下文撰写。"
+            if "你是一位资深的报告评审员" in query: return json.dumps({"score": 82, "feedback_cn": "模拟反馈：良好。", "evaluation_criteria_met": {"relevance": "高", "fluency": "良好", "completeness": "良好", "accuracy": "良好"}})
+            if "你是一位报告修改专家" in query: return query.split("原始内容：\n---\n")[1].split("\n---")[0] + "\n（已根据模拟反馈进行修订 - 父子分块版）"
             return "Unknown LLM query for mock."
-        # Need to mock get_model if Client() is called inside LLMService init
-        def get_model(self, model_name): return self # Return self to allow attribute access like .chat
-
-    class MockEmbeddingServiceForPipeline(EmbeddingService):
-        def __init__(self): super().__init__(api_url="mock://emb", model_name="mock-emb")
-        def create_embeddings(self, texts): return [[0.1] * 10 for _ in texts] # 10-dim dummy
         def get_model(self, model_name): return self
 
-    class MockRerankerServiceForPipeline(RerankerService):
+    class MockEmbeddingServiceForPipeline(EmbeddingService): # Copied
+        def __init__(self): super().__init__(api_url="mock://emb", model_name="mock-emb")
+        def create_embeddings(self, texts): return [[0.1] * 10 for _ in texts]
+        def get_model(self, model_name): return self
+
+    class MockRerankerServiceForPipeline(RerankerService): # Copied
         def __init__(self): super().__init__(api_url="mock://rerank", model_name="mock-rerank")
         def rerank(self, query, documents, top_n=None):
-            results = [{"document": doc, "relevance_score": 0.9 - (i*0.1), "original_index": i} for i, doc in enumerate(documents)]
-            return results[:top_n] if top_n else results
+            res = [{"document": d, "relevance_score": 0.9-(i*0.1), "original_index": i} for i,d in enumerate(documents)]
+            return res[:top_n] if top_n else res
         def get_model(self, model_name): return self
 
-    # --- (End Mock Services) ---
+    # --- Dummy Data Path Setup ---
+    dummy_data_dir = "temp_pipeline_data"
+    if not os.path.exists(dummy_data_dir): os.makedirs(dummy_data_dir)
 
-    # Create dummy PDF files for testing DocumentProcessor
-    dummy_pdf_path1 = "dummy_doc1.pdf"
-    dummy_pdf_path2 = "dummy_doc2.pdf"
+    # Create dummy files (TXT, DOCX - PDF is harder to make with text simply)
+    with open(os.path.join(dummy_data_dir, "doc1.txt"), "w", encoding="utf-8") as f:
+        f.write("这是第一个文本文档。它讨论了苹果和香蕉。\n\n第二段关于橙子。")
+    try:
+        import docx as python_docx_lib # Alias to avoid conflict with module name
+        doc = python_docx_lib.Document()
+        doc.add_paragraph("这是一个Word文档，关于红色汽车。")
+        doc.add_paragraph("还提到了蓝色自行车和快速交通工具。")
+        doc.save(os.path.join(dummy_data_dir, "doc2.docx"))
+    except ImportError: logger.warning("python-docx not installed, cannot create dummy .docx for test.")
+
 
     try:
-        from PyPDF2 import PdfWriter # Use PdfWriter
-        # Create Dummy PDF 1
-        writer1 = PdfWriter()
-        writer1.add_blank_page(width=210, height=297) # A4 size in points (approx)
-        # PyPDF2 PdfWriter doesn't have a direct way to add text easily to a new PDF.
-        # We'll rely on DocumentProcessor's error handling if it can't extract text from these blank PDFs.
-        # For a real test, actual PDFs with text are needed.
-        # This setup is primarily to test the file handling part.
-        # A more robust mock for DocumentProcessor itself might be needed if PyPDF2 causes issues.
-        # For now, let's assume it will extract empty string from blank PDF.
-        with open(dummy_pdf_path1, "wb") as f:
-            writer1.write(f)
-
-        # Create Dummy PDF 2 (similar, or with some metadata if possible)
-        writer2 = PdfWriter()
-        writer2.add_blank_page(width=210, height=297)
-        writer2.add_metadata({"/Title": "Dummy Document 2"})
-        with open(dummy_pdf_path2, "wb") as f:
-            writer2.write(f)
-
-        logger.info(f"Created dummy PDF files: {dummy_pdf_path1}, {dummy_pdf_path2}")
-
-        # Instantiate mock services
         mock_llm = MockLLMServiceForPipeline()
         mock_embed = MockEmbeddingServiceForPipeline()
-        mock_rerank = MockRerankerServiceForPipeline() # Optional
+        mock_rerank = MockRerankerServiceForPipeline()
 
-        # Initialize Pipeline with Mocks
         pipeline = ReportGenerationPipeline(
             llm_service=mock_llm,
             embedding_service=mock_embed,
-            reranker_service=mock_rerank, # Can be None
-            max_refinement_iterations=1 # Keep it short for example
+            reranker_service=mock_rerank,
+            max_refinement_iterations=1
         )
 
-        # Override document processor for the dummy PDFs to return some text
-        # As creating PDFs with text via PyPDF2 is complex.
-        original_extract_text = pipeline.document_processor.extract_text_from_pdf
-        def mock_extract_text(pdf_path):
-            if pdf_path == dummy_pdf_path1:
-                return "This is the content of the first dummy PDF document. It talks about core technologies."
-            if pdf_path == dummy_pdf_path2:
-                return "The second dummy PDF discusses future developments and challenges in advanced systems."
-            return original_extract_text(pdf_path) # Fallback for other paths
-        pipeline.document_processor.extract_text_from_pdf = mock_extract_text
+        user_topic_ex = "文档处理与检索新方法"
 
-
-        # Run the pipeline
-        user_topic_example = "未来先进系统的发展趋势"
-        pdf_files_example = [dummy_pdf_path1, dummy_pdf_path2]
-
-        logger.info(f"Running pipeline with topic: '{user_topic_example}' and PDFs: {pdf_files_example}")
+        logger.info(f"Running pipeline example with topic: '{user_topic_ex}' and data_path: '{dummy_data_dir}'")
 
         final_report = pipeline.run(
-            user_topic=user_topic_example,
-            pdf_paths=pdf_files_example
+            user_topic=user_topic_ex,
+            data_path=dummy_data_dir # Pass directory path
         )
 
-        print("\n" + "="*30 + " FINAL REPORT (Mocked) " + "="*30)
+        print("\n" + "="*30 + " FINAL REPORT (Mocked - Hybrid & Parent-Child) " + "="*30)
         print(final_report)
-        print("="*78)
+        print("="*80)
 
     except ReportGenerationPipelineError as e:
-        logger.error(f"Pipeline execution failed: {e}")
+        logger.error(f"Pipeline execution failed: {e}", exc_info=True)
     except Exception as e:
         logger.error(f"An unexpected error occurred during pipeline example: {e}", exc_info=True)
     finally:
-        # Clean up dummy PDF files
-        import os
-        if os.path.exists(dummy_pdf_path1): os.remove(dummy_pdf_path1)
-        if os.path.exists(dummy_pdf_path2): os.remove(dummy_pdf_path2)
-        logger.info("Cleaned up dummy PDF files.")
+        import shutil
+        if os.path.exists(dummy_data_dir): shutil.rmtree(dummy_data_dir)
+        logger.info(f"Cleaned up dummy data directory: {dummy_data_dir}")
 
-    logger.info("ReportGenerationPipeline Example End")
+    logger.info("ReportGenerationPipeline (Hybrid & Parent-Child) Example End")
