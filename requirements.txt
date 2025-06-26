@@ -1,0 +1,18 @@
+# Core Xinference client for interacting with LLM, Embedding, Reranker models
+xinference>=0.9.0 # Specify a version or range if known, otherwise latest
+
+# PDF processing
+pypdf2>=3.0.0 # For PDF text extraction
+
+# Vector store and numerical operations
+faiss-cpu>=1.7.0 # For local vector similarity search (CPU version)
+numpy>=1.20.0 # Required by FAISS and for numerical operations
+
+# Optional, but good for managing settings via .env files
+# python-dotenv
+
+# Optional, for more complex configuration file formats if needed in future
+# PyYAML
+
+# Note: Ensure that the Python version used is compatible with these libraries.
+# Typically Python 3.8+ is recommended.
