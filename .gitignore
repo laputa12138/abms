@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+*.so
+*.manifest
+*.spec
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*~
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and runtime data
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+celerybeat-schedule
+celerybeat.pid
+
+# Coverage reports
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+*.cover
+
+# Test artifacts
+.tox/
+.pytest_cache/
+.hypothesis/
+
+# Project-specific
+# Ignore contents of data and output directories, but keep the directories themselves
+# by tracking the .gitkeep file.
+data/*
+!data/.gitkeep
+
+output/*
+!output/.gitkeep
+
+# FAISS index files (if saved locally and not versioned)
+*.idx
+*.index
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# mypy cache
+.mypy_cache/
+
+# pytype cache
+.pytype/
+
+# If using python-dotenv for environment variables
+.env
+.env.*
+!.env.example # Often an example .env file is versioned
