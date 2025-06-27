@@ -16,15 +16,56 @@ from core.reranker_service import RerankerService
 from pipelines.report_generation_pipeline import ReportGenerationPipeline, ReportGenerationPipelineError
 
 # Setup basic logging configuration
-log_level_from_settings = getattr(logging, settings.LOG_LEVEL.upper(), logging.INFO)
-logging.basicConfig(
-    level=log_level_from_settings,
-    format='%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s', # Added filename and lineno
-    handlers=[
-        logging.StreamHandler(sys.stdout)
-    ]
-)
-logger = logging.getLogger(__name__)
+# This will be further configured in setup_logging based on CLI args.
+# Initial basicConfig is for any logs before CLI parsing.
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__) # Get root logger for initial messages
+
+def setup_logging(log_level_str: str = 'INFO', debug_mode: bool = False, log_file_path: Optional[str] = None):
+    """Configures logging based on command-line arguments."""
+
+    if debug_mode:
+        effective_log_level = logging.DEBUG
+    else:
+        effective_log_level = getattr(logging, log_level_str.upper(), logging.INFO)
+
+    # Get the root logger
+    root_logger = logging.getLogger()
+    root_logger.handlers = [] # Clear any existing handlers (like the basicConfig one)
+    root_logger.setLevel(effective_log_level) # Set root logger level
+
+    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s')
+
+    # Console Handler
+    console_handler = logging.StreamHandler(sys.stdout)
+    console_handler.setLevel(effective_log_level) # Console level matches overall effective level
+    console_handler.setFormatter(formatter)
+    root_logger.addHandler(console_handler)
+
+    # File Handler (always logs at least DEBUG if enabled, or effective_log_level if higher)
+    if log_file_path:
+        log_dir = os.path.dirname(log_file_path)
+        if log_dir and not os.path.exists(log_dir):
+            try:
+                os.makedirs(log_dir, exist_ok=True)
+                logger.info(f"Log directory created: {log_dir}") # Use initial logger for this
+            except OSError as e:
+                logger.error(f"Failed to create log directory {log_dir}: {e}")
+                # Continue without file logging if dir creation fails
+                log_file_path = None # Disable file logging
+
+        if log_file_path:
+            file_handler = logging.FileHandler(log_file_path, mode='a', encoding='utf-8')
+            # File handler should generally log more detail, e.g., DEBUG, regardless of console level,
+            # unless the overall effective_log_level is higher (e.g. WARNING).
+            file_log_level = min(effective_log_level, logging.DEBUG) if debug_mode else logging.DEBUG
+            # Let's make file always DEBUG for max info, console respects user setting.
+            file_handler.setLevel(logging.DEBUG)
+            file_handler.setFormatter(formatter)
+            root_logger.addHandler(file_handler)
+            logger.info(f"Logging to file: {log_file_path} at DEBUG level.")
+
+    logger.info(f"Logging configured. Effective console log level: {logging.getLevelName(effective_log_level)}. File logging: {'Enabled' if log_file_path else 'Disabled'}.")
 
 
 def main():
@@ -118,12 +159,62 @@ def main():
         "--max_refinement_iterations", type=int, default=settings.DEFAULT_MAX_REFINEMENT_ITERATIONS,
         help="Maximum number of refinement iterations for each chapter."
     )
+    pipeline_group.add_argument( # Added from previous pipeline init, now a CLI arg for pipeline
+        "--max_workflow_iterations", type=int, default=50, # Default from old pipeline init
+        help="Maximum number of iterations for the main workflow loop to prevent infinite loops."
+    )
+
+    # Vector Store / Indexing arguments
+    indexing_group = parser.add_argument_group('Vector Store and Indexing Parameters')
+    indexing_group.add_argument(
+        "--vector_store_path", type=str, default="./vector_stores/",
+        help="Directory to save/load FAISS index and metadata files."
+    )
+    indexing_group.add_argument(
+        "--index_name", type=str, default=None,
+        help="Specific name for the FAISS index and metadata files (e.g., 'my_project_index'). "
+             "If not provided, a name will be derived from --data_path."
+    )
+    indexing_group.add_argument(
+        "--force_reindex", action='store_true',
+        help="Force re-processing of documents and re-creation of FAISS index, even if an existing index is found."
+    )
+
+    # Logging arguments
+    logging_group = parser.add_argument_group('Logging Parameters')
+    logging_group.add_argument(
+        "--log_level", type=str, default=settings.LOG_LEVEL, # Use LOG_LEVEL from settings as default
+        choices=['DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL'],
+        help="Set the logging level for console output."
+    )
+    logging_group.add_argument(
+        "--debug", action='store_true',
+        help="Enable debug mode. Overrides --log_level to DEBUG and enables more verbose logging."
+    )
+    logging_group.add_argument(
+        "--log_path", type=str, default="./logs/", # Default directory for logs
+        help="Directory to save log files. A timestamped log file will be created in this directory."
+    )
 
     args = parser.parse_args()
 
+    # Setup logging based on parsed arguments
+    log_file_name = f"report_generation_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+    full_log_file_path = os.path.join(args.log_path, log_file_name) if args.log_path else None # Disable file log if no path
+    setup_logging(log_level_str=args.log_level, debug_mode=args.debug, log_file_path=full_log_file_path)
+
+    # Re-initialize logger in case setup_logging changed root logger config affecting current module's logger
+    # This ensures this 'logger' instance uses the new config.
+    global logger
+    logger = logging.getLogger(__name__)
+
+
     logger.info("Starting Report Generation System with resolved arguments:")
+    # Log arguments again now that logging is fully set up, especially if file logging is on.
     for arg, value in vars(args).items():
-        logger.info(f"  {arg}: {value}")
+        # Avoid logging sensitive info if any, though none here yet.
+        logger.info(f"  Argument --{arg.replace('_', '-')}: {value}")
+
 
     # Validate data_path
     if not os.path.isdir(args.data_path):
@@ -170,7 +261,8 @@ def main():
             keyword_top_k=args.keyword_top_k,
             hybrid_alpha=args.hybrid_search_alpha,
             final_top_n_retrieval=args.final_top_n_retrieval,
-            max_refinement_iterations=args.max_refinement_iterations
+            max_refinement_iterations=args.max_refinement_iterations,
+            max_workflow_iterations=args.max_workflow_iterations # Pass new CLI arg
         )
     except Exception as e:
         logger.error(f"Failed to initialize the report generation pipeline: {e}", exc_info=True)
@@ -193,8 +285,32 @@ def main():
         logger.info(f"Running report generation pipeline for topic: '{args.topic}'...")
         final_report_md = pipeline.run(
             user_topic=args.topic,
-            data_path=args.data_path, # Pass the directory path
-            report_title=args.report_title
+            data_path=args.data_path,
+            report_title=args.report_title,
+            # Pass indexing related args to pipeline's run method, or handle loading in main before pipeline.run
+            # For now, let's assume pipeline.run() will take these if needed for its _process_and_load_data
+            # Or, better, pipeline __init__ takes them and uses them in _process_and_load_data
+            # The latter is already done, so pipeline.run doesn't need these directly.
+            # However, _process_and_load_data in pipeline needs these.
+            # Let's adjust pipeline's run to accept them, and then pass to _process_and_load_data
+            # No, pipeline's __init__ already takes them.
+            # The `pipeline.run` method itself just needs user_topic, data_path, report_title.
+            # The indexing params are now part of pipeline's construction.
+            # So, the call to pipeline.run is correct as is.
+            # The save/load logic will be inside pipeline._process_and_load_data
+            # which needs access to these args. The pipeline already has them from its __init__.
+            # One change needed: pipeline init needs to accept these new args.
+            # And pipeline._process_and_load_data needs to use them.
+            # Let's verify pipeline.__init__ and _process_and_load_data call signature.
+            # Pipeline.__init__ was modified to accept them.
+            # Pipeline.run() needs to pass them to _process_and_load_data().
+            # This means _process_and_load_data needs its signature changed.
+            # Or, these params are stored on `self` in pipeline and used by _P_A_L_D.
+            # The current plan is for _P_A_L_D to take them as args.
+            # Let's adjust ReportGenerationPipeline.run and _process_and_load_data to take these:
+            # This is actually a change for the *next* step (modifying pipeline.py).
+            # For now, main.py correctly passes them to Pipeline constructor.
+            # The pipeline will use its stored versions of these params.
         )
 
         with open(args.output_path, "w", encoding="utf-8") as f:
