@@ -1,8 +1,9 @@
 import logging
-from typing import List, Dict, Optional, Union
+from typing import List, Dict, Optional
 
 from agents.base_agent import BaseAgent
 from core.llm_service import LLMService, LLMServiceError
+from core.workflow_state import WorkflowState, TASK_TYPE_EVALUATE_CHAPTER, STATUS_EVALUATION_NEEDED # Import constants
 
 logger = logging.getLogger(__name__)
 
@@ -13,10 +14,11 @@ class ChapterWriterAgentError(Exception):
 class ChapterWriterAgent(BaseAgent):
     """
     Agent responsible for writing a chapter of a report based on a given
-    chapter title and relevant retrieved content.
+    chapter title and relevant retrieved content (parent chunks).
+    Updates WorkflowState with the written content and queues evaluation task.
     """
 
-    DEFAULT_PROMPT_TEMPLATE = """你是一位专业的报告撰写员。请根据以下报告章节标题和相关的参考资料，撰写详细、流畅、专业、连贯的中文章节内容。
+    DEFAULT_PROMPT_TEMPLATE = """你是一位专业的报告撰写员。请根据以下报告章节标题和相关的参考资料（这些是与章节最相关的父文本块），撰写详细、流畅、专业、连贯的中文章节内容。
 
 章节标题：
 {chapter_title}
@@ -31,14 +33,6 @@ class ChapterWriterAgent(BaseAgent):
 """
 
     def __init__(self, llm_service: LLMService, prompt_template: Optional[str] = None):
-        """
-        Initializes the ChapterWriterAgent.
-
-        Args:
-            llm_service (LLMService): An instance of the LLMService.
-            prompt_template (Optional[str]): A custom prompt template for the LLM.
-                                             If None, DEFAULT_PROMPT_TEMPLATE is used.
-        """
         super().__init__(agent_name="ChapterWriterAgent", llm_service=llm_service)
         self.prompt_template = prompt_template or self.DEFAULT_PROMPT_TEMPLATE
         if not self.llm_service:
@@ -46,44 +40,55 @@ class ChapterWriterAgent(BaseAgent):
 
     def _format_retrieved_content(self, retrieved_content: List[Dict[str, any]]) -> str:
         """
-        Formats the list of retrieved content dictionaries into a string for the prompt.
-        Each piece of content is numbered.
+        Formats the list of retrieved content (parent chunks) for the prompt.
+        Input `retrieved_content` is expected to be a list of dicts, where each dict
+        has a 'document' key (parent_text) and optionally 'score', 'source'.
         """
         if not retrieved_content:
             return "无参考资料提供。"
 
         formatted_str = ""
         for i, item in enumerate(retrieved_content):
+            # 'document' key now holds the parent_text from RetrievalService output
             doc_text = item.get('document', '无效的参考资料片段')
-            score = item.get('score', 'N/A') # Could be distance or relevance
-            source = item.get('source', 'unknown') # vector_search or reranker
-            formatted_str += f"参考资料 {i+1} (来源: {source}, 得分/距离: {score:.4f}):\n\"\"\"\n{doc_text}\n\"\"\"\n\n"
+            score = item.get('score', 'N/A')
+            source = item.get('source', 'unknown')
+            child_preview = item.get('child_text_preview', '') # Optional preview from retriever
+
+            formatted_str += f"参考资料 {i+1} (来源: {source}, 得分: {score:.4f})\n"
+            if child_preview:
+                formatted_str += f"[匹配子块预览: {child_preview}]\n"
+            formatted_str += f"\"\"\"\n{doc_text}\n\"\"\"\n\n"
         return formatted_str.strip()
 
-    def run(self, chapter_title: str, retrieved_content: List[Dict[str, any]]) -> str:
+    def execute_task(self, workflow_state: WorkflowState, task_payload: Dict) -> None:
         """
-        Writes a chapter using the LLM based on the title and retrieved content.
+        Writes a chapter based on data from WorkflowState and task_payload.
+        Updates WorkflowState with the content and adds an evaluation task.
 
         Args:
-            chapter_title (str): The title of the chapter to be written.
-            retrieved_content (List[Dict[str, any]]): A list of dictionaries,
-                where each dictionary contains 'document' (str) and 'score' (float),
-                representing relevant content snippets.
-
-        Returns:
-            str: The written chapter content (text).
-
-        Raises:
-            ChapterWriterAgentError: If the LLM call fails or input is invalid.
+            workflow_state (WorkflowState): The current state of the workflow.
+            task_payload (Dict): Payload for this task, expects:
+                                 'chapter_key': Unique key/ID of the chapter.
+                                 'chapter_title': Title of the chapter.
         """
-        self._log_input(chapter_title=chapter_title, retrieved_content_count=len(retrieved_content))
+        chapter_key = task_payload.get('chapter_key')
+        chapter_title = task_payload.get('chapter_title')
 
-        if not chapter_title:
-            msg = "Chapter title cannot be empty."
-            logger.error(msg)
-            raise ChapterWriterAgentError(msg)
+        if not chapter_key or not chapter_title:
+            raise ChapterWriterAgentError("Chapter key or title not found in task payload for ChapterWriterAgent.")
 
-        formatted_content_str = self._format_retrieved_content(retrieved_content)
+        chapter_data = workflow_state.get_chapter_data(chapter_key)
+        if not chapter_data:
+            # This should ideally not happen if tasks are chained correctly
+            workflow_state.log_event(f"Chapter data for key '{chapter_key}' not found.", level="ERROR")
+            raise ChapterWriterAgentError(f"Chapter data for key '{chapter_key}' not found in WorkflowState.")
+
+        retrieved_docs = chapter_data.get('retrieved_docs', []) # These are dicts with 'document' as parent_text
+
+        self._log_input(chapter_title=chapter_title, retrieved_docs_count=len(retrieved_docs))
+
+        formatted_content_str = self._format_retrieved_content(retrieved_docs)
 
         prompt = self.prompt_template.format(
             chapter_title=chapter_title,
@@ -91,98 +96,119 @@ class ChapterWriterAgent(BaseAgent):
         )
 
         try:
-            logger.info(f"Sending request to LLM for chapter writing. Chapter: '{chapter_title}'")
-            # System prompt guides the LLM's persona.
+            logger.info(f"Sending request to LLM for chapter writing. Chapter: '{chapter_title}' (Key: {chapter_key})")
             chapter_text = self.llm_service.chat(
                 query=prompt,
                 system_prompt="你是一位精通特定领域知识的专业中文报告撰写者，擅长整合信息并清晰表达。"
             )
-
-            logger.debug(f"Raw LLM response for chapter writing (first 200 chars): {chapter_text[:200]}")
+            logger.debug(f"Raw LLM response for chapter '{chapter_title}' (first 200 chars): {chapter_text[:200]}")
 
             if not chapter_text or not chapter_text.strip():
                 logger.warning(f"LLM returned empty content for chapter: '{chapter_title}'.")
-                # Depending on requirements, could return a placeholder or raise error.
-                # For now, we'll return empty string, pipeline can decide how to handle.
-                return ""
+                # Handle empty content, perhaps by setting an error state or using a placeholder
+                # For now, we'll store it as is, and evaluation can pick it up.
+                chapter_text = "" # Ensure it's an empty string not None
 
-            self._log_output(chapter_text)
-            return chapter_text.strip()
+            # Update WorkflowState
+            workflow_state.update_chapter_content(chapter_key, chapter_text.strip(), retrieved_docs=retrieved_docs, is_new_version=False) # First version
+            workflow_state.update_chapter_status(chapter_key, STATUS_EVALUATION_NEEDED)
+
+            # Add next task: Evaluate Chapter
+            workflow_state.add_task(
+                task_type=TASK_TYPE_EVALUATE_CHAPTER,
+                payload={'chapter_key': chapter_key, 'chapter_title': chapter_title}, # Pass key and title
+                priority=task_payload.get('priority', 6) + 1 # Slightly lower priority
+            )
+
+            self._log_output({"chapter_key": chapter_key, "content_length": len(chapter_text)})
+            logger.info(f"Chapter writing successful for '{chapter_title}'. Next task (Evaluate Chapter) added.")
 
         except LLMServiceError as e:
-            logger.error(f"LLM service error during chapter writing for '{chapter_title}': {e}")
+            workflow_state.log_event(f"LLM service error writing chapter '{chapter_title}'", {"error": str(e)}, level="ERROR")
+            workflow_state.add_chapter_error(chapter_key, f"LLM service error: {e}")
             raise ChapterWriterAgentError(f"LLM service failed for chapter '{chapter_title}': {e}")
         except Exception as e:
-            logger.error(f"An unexpected error occurred in ChapterWriterAgent for '{chapter_title}': {e}")
+            workflow_state.log_event(f"Unexpected error in ChapterWriterAgent for '{chapter_title}'", {"error": str(e)}, level="CRITICAL")
+            workflow_state.add_chapter_error(chapter_key, f"Unexpected error: {e}")
             raise ChapterWriterAgentError(f"Unexpected error writing chapter '{chapter_title}': {e}")
 
 if __name__ == '__main__':
-    print("ChapterWriterAgent Example (requires running Xinference for LLMService)")
+    logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s')
 
-    logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-
-    class MockLLMService:
+    class MockLLMService: # Same mock as before
         def chat(self, query: str, system_prompt: str) -> str:
-            logger.info(f"MockLLMService received query (first 150 chars): {query[:150]}")
-            if "ABMS系统概述" in query:
-                return """
-根据提供的资料，ABMS（先进战斗管理系统）是美军为了应对未来复杂战场环境而提出的一项关键发展项目。
-其核心目标在于构建一个能够连接所有传感器、平台和作战人员的统一网络，实现信息的快速共享和协同决策，从而在多域作战中取得优势。
-资料1指出ABMS的设计理念是开放架构和敏捷开发，这与传统武器系统的封闭模式形成对比。
-资料2则强调了JADC2（联合全域指挥控制）是ABMS实现其目标的重要框架，ABMS可以被视为JADC2概念下的具体技术和系统实现之一。
-总的来说，ABMS旨在通过技术创新，提升美军的战场感知、指挥控制和作战效能。
-                """
-            elif "气候变化的主要表现" in query:
-                return """
-气候变化已成为全球共同关注的焦点议题，其表现形式多样且影响深远。
-根据参考资料1，全球平均气温的持续上升是气候变化最显著的特征之一，这导致了冰川融化和海平面上升。
-同时，如资料2所述，极端天气事件，例如热浪、干旱、洪水和强风暴的频率和强度也在增加，对全球各地的生态系统和人类社会造成了严重威胁。
-此外，资料3提到生物多样性的减少也是气候变化的一个重要表现，许多物种因无法适应快速变化的环境而面临生存危机。
-这些现象共同构成了当前气候变化的主要表现，警示我们需要采取紧急行动。
-                """
-            return "根据提供的内容，本章节主要讨论了[自动生成内容]..."
+            if "ABMS系统概述" in query: return "这是ABMS系统概述的初稿，基于提供的父块上下文。"
+            return "模拟生成的章节内容。"
 
+    from core.workflow_state import WorkflowState, TASK_TYPE_EVALUATE_CHAPTER, STATUS_EVALUATION_NEEDED, STATUS_WRITING_NEEDED
+
+    class MockWorkflowStateCWA(WorkflowState): # CWA for ChapterWriterAgent
+        def __init__(self, user_topic: str, chapter_key: str, chapter_title: str, retrieved_docs: List):
+            super().__init__(user_topic)
+            # Pre-populate chapter data as if retrieval was done
+            self.chapter_data[chapter_key] = {
+                'title': chapter_title, 'level': 1, 'status': STATUS_WRITING_NEEDED,
+                'content': None, 'retrieved_docs': retrieved_docs,
+                'evaluations': [], 'versions': [], 'errors': []
+            }
+            self.added_tasks_cwa = []
+
+        def update_chapter_content(self, chapter_key: str, content: str,
+                                   retrieved_docs: Optional[List[Dict[str, Any]]] = None,
+                                   is_new_version: bool = True):
+            super().update_chapter_content(chapter_key, content, retrieved_docs, is_new_version)
+            logger.debug(f"MockWorkflowStateCWA: Chapter '{chapter_key}' content updated.")
+
+        def update_chapter_status(self, chapter_key: str, status: str):
+            super().update_chapter_status(chapter_key, status)
+            logger.debug(f"MockWorkflowStateCWA: Chapter '{chapter_key}' status updated to {status}")
+
+        def add_task(self, task_type: str, payload: Optional[Dict[str, Any]] = None, priority: int = 0):
+            self.added_tasks_cwa.append({'type': task_type, 'payload': payload, 'priority': priority})
+            super().add_task(task_type, payload, priority)
+
+
+    llm_service_instance = MockLLMService()
+    writer_agent = ChapterWriterAgent(llm_service=llm_service_instance)
+
+    test_chapter_key = "chap_abms_overview"
+    test_chapter_title = "ABMS系统概述"
+    mock_retrieved_data = [
+        {"document": "父块1：ABMS是一个复杂的系统...", "score": 0.9, "source": "hybrid", "child_text_preview": "子块1预览..."},
+        {"document": "父块2：JADC2与ABMS的关系...", "score": 0.85, "source": "hybrid", "child_text_preview": "子块2预览..."}
+    ]
+
+    mock_state_cwa = MockWorkflowStateCWA(user_topic="ABMS",
+                                          chapter_key=test_chapter_key,
+                                          chapter_title=test_chapter_title,
+                                          retrieved_docs=mock_retrieved_data)
+
+    task_payload_for_agent_cwa = {'chapter_key': test_chapter_key, 'chapter_title': test_chapter_title}
+
+    print(f"\nExecuting ChapterWriterAgent for chapter: '{test_chapter_title}' with MockWorkflowStateCWA")
     try:
-        # llm_service_instance = LLMService()
-        print("Using MockLLMService for ChapterWriterAgent example.")
-        llm_service_instance = MockLLMService()
+        writer_agent.execute_task(mock_state_cwa, task_payload_for_agent_cwa)
 
-        writer_agent = ChapterWriterAgent(llm_service=llm_service_instance)
+        print("\nWorkflowState after ChapterWriterAgent execution:")
+        chapter_info = mock_state_cwa.get_chapter_data(test_chapter_key)
+        if chapter_info:
+            print(f"  Chapter '{test_chapter_key}' Status: {chapter_info.get('status')}")
+            print(f"  Content Preview: {chapter_info.get('content', '')[:100]}...")
+            print(f"  Retrieved Docs were used: {bool(chapter_info.get('retrieved_docs'))}")
 
-        # Test case 1
-        title1 = "ABMS系统概述"
-        content1 = [
-            {"document": "ABMS (Advanced Battle Management System) is designed with an open architecture approach.", "score": 0.95, "source": "reranker"},
-            {"document": "JADC2 is the overarching framework for connecting sensors and shooters across all domains. ABMS is a key component of JADC2.", "score": 0.92, "source": "reranker"},
-            {"document": "The primary goal of ABMS is to enable rapid decision-making in multi-domain operations.", "score": 0.88, "source": "reranker"}
-        ]
-        print(f"\nWriting chapter: '{title1}'")
-        chapter_text1 = writer_agent.run(chapter_title=title1, retrieved_content=content1)
-        print(f"Generated Chapter Text for '{title1}':\n{chapter_text1}")
+        print(f"  Tasks added by agent: {json.dumps(mock_state_cwa.added_tasks_cwa, indent=2, ensure_ascii=False)}")
 
-        # Test case 2
-        title2 = "气候变化的主要表现"
-        content2 = [
-            {"document": "Global warming leads to rising sea levels and melting glaciers.", "score": 0.98, "source": "reranker"},
-            {"document": "Extreme weather events like heatwaves and floods are becoming more frequent and intense due to climate change.", "score": 0.95, "source": "reranker"},
-            {"document": "Climate change is a major driver of biodiversity loss.", "score": 0.90, "source": "reranker"}
-        ]
-        print(f"\nWriting chapter: '{title2}'")
-        chapter_text2 = writer_agent.run(chapter_title=title2, retrieved_content=content2)
-        print(f"Generated Chapter Text for '{title2}':\n{chapter_text2}")
+        assert chapter_info is not None
+        assert chapter_info.get('status') == STATUS_EVALUATION_NEEDED
+        assert chapter_info.get('content') == "这是ABMS系统概述的初稿，基于提供的父块上下文。" # From mock LLM
+        assert len(mock_state_cwa.added_tasks_cwa) == 1
+        assert mock_state_cwa.added_tasks_cwa[0]['type'] == TASK_TYPE_EVALUATE_CHAPTER
+        assert mock_state_cwa.added_tasks_cwa[0]['payload']['chapter_key'] == test_chapter_key
 
-        # Test case 3: No content
-        title3 = "一个没有内容的章节"
-        content3 = []
-        print(f"\nWriting chapter: '{title3}' (with no reference content)")
-        chapter_text3 = writer_agent.run(chapter_title=title3, retrieved_content=content3)
-        print(f"Generated Chapter Text for '{title3}':\n'{chapter_text3}'")
+        print("\nChapterWriterAgent test successful with MockWorkflowStateCWA.")
 
-
-    except (LLMServiceError, ChapterWriterAgentError) as e:
-        print(f"Agent error: {e}")
     except Exception as e:
-        print(f"An unexpected error occurred: {e}")
+        print(f"Error during ChapterWriterAgent test: {e}")
         import traceback
         traceback.print_exc()
 

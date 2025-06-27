@@ -1,7 +1,9 @@
 import logging
+import re # For more robust anchor generation
 from typing import List, Dict, Optional
 
 from agents.base_agent import BaseAgent
+from core.workflow_state import WorkflowState # For type hinting if execute_task uses it
 
 logger = logging.getLogger(__name__)
 
@@ -11,308 +13,300 @@ class ReportCompilerAgentError(Exception):
 
 class ReportCompilerAgent(BaseAgent):
     """
-    Agent responsible for compiling all the refined (or initially written) chapters
-    into a single, coherent report string, following a given outline.
-    It can also add a title, table of contents (optional), and other formatting.
+    Agent responsible for compiling chapters into a single report string.
+    It now primarily uses its `compile_report_from_context` method, which
+    can be called by the pipeline when a COMPILE_REPORT task is processed.
+    The `_parse_markdown_outline` is a utility that might also be used by
+    OutlineGeneratorAgent or WorkflowState to structure the outline.
     """
 
     def __init__(self, add_table_of_contents: bool = True):
-        """
-        Initializes the ReportCompilerAgent.
-
-        Args:
-            add_table_of_contents (bool): Whether to generate and add a simple
-                                          table of contents (based on Markdown outline).
-                                          Defaults to True.
-        """
-        super().__init__(agent_name="ReportCompilerAgent") # No LLM needed directly for simple compilation
+        super().__init__(agent_name="ReportCompilerAgent")
         self.add_table_of_contents = add_table_of_contents
         logger.info(f"ReportCompilerAgent initialized. Add Table of Contents: {self.add_table_of_contents}")
 
+    def _generate_anchor(self, title: str) -> str:
+        """Generates a GitHub-style anchor link from a title."""
+        anchor = title.lower()
+        anchor = re.sub(r'[^\w\s-]', '', anchor) # Remove non-alphanumeric (except spaces and hyphens)
+        anchor = re.sub(r'\s+', '-', anchor)    # Replace spaces with hyphens
+        return anchor
+
     def _parse_markdown_outline(self, markdown_outline: str) -> List[Dict[str, any]]:
         """
-        Parses a Markdown list outline into a structured list of chapters/sections.
-        Each item in the list is a dict with 'level' and 'title'.
-        Example:
-        - Chapter 1
-          - Section 1.1
-        becomes:
-        [ {'title': 'Chapter 1', 'level': 1}, {'title': 'Section 1.1', 'level': 2} ]
+        Parses a Markdown list/header outline into a structured list.
+        Each item: {'title': str, 'level': int, 'id': str (unique ID for chapter_data key)}.
+        This method is crucial for structuring content and is also used by WorkflowState via OutlineGenerator.
+        The 'id' field is expected by WorkflowState.update_outline.
         """
-        parsed_outline = []
+        parsed_items = []
         lines = markdown_outline.strip().split('\n')
-        for line in lines:
-            line = line.strip()
-            if not line:
+
+        # For list items, keep track of indentation to determine level
+        # This is a simplified heuristic. A proper Markdown AST parser would be more robust.
+        # Assuming 2 spaces per indent level for list items.
+        # Headers (#, ##, etc.) define their own levels.
+
+        for line_idx, line_content in enumerate(lines):
+            stripped_line = line_content.strip()
+            if not stripped_line:
                 continue
 
             level = 0
-            title = line
+            title = ""
+            item_id = f"outline_item_{line_idx}_{self._generate_anchor(stripped_line[:20])}" # Basic unique ID
 
-            # Determine level by leading characters ('-', '*', '+', or spaces for indentation)
-            # This is a simple parser, might need to be more robust for complex Markdown.
-            if line.startswith("- ") or line.startswith("* ") or line.startswith("+ "):
-                level = 1
-                title = line[2:].strip()
-                # Check for further indentation for sub-levels (e.g. "  - Section")
-                # This part is tricky with simple line parsing; a true Markdown parser would be better.
-                # For now, we assume simple list structure.
-                # A more robust way would be to count leading spaces for sub-items.
+            if stripped_line.startswith("#"):
+                level = stripped_line.count("#", 0, 6) # Max header level 6
+                title = stripped_line.lstrip("# ").strip()
+            elif stripped_line.startswith(("- ", "* ", "+ ")):
+                # Calculate level based on leading spaces of the original line
+                leading_spaces = len(line_content) - len(line_content.lstrip())
+                level = 1 + (leading_spaces // 2) # Base level 1 for list item, +1 for each 2 spaces
+                title = stripped_line.lstrip("-*+ ").strip()
+            else:
+                # Could be a continuation line or non-standard format, skip for now
+                # Or, if we want to capture all non-empty lines as potential sections:
+                # title = stripped_line
+                # level = 1 # Default level
+                logger.debug(f"Skipping non-standard outline line: '{line_content}'")
+                continue
 
-                # Simplified: Count leading spaces before the bullet for sub-levels
-                # This requires consistent spacing in the outline.
-                leading_spaces = 0
-                temp_line = line
-                while temp_line.startswith("  "): # Two spaces per indent level
-                    level +=1
-                    temp_line = temp_line[2:]
+            if title:
+                parsed_items.append({
+                    "id": item_id, # WorkflowState will use this as chapter_key
+                    "title": title,
+                    "level": level
+                })
 
-                # Re-extract title if level was adjusted by spaces
-                if level > 1 :
-                    # find first non-space character after initial bullet stripping attempts
-                    stripped_line = line.lstrip()
-                    if stripped_line.startswith("- ") or stripped_line.startswith("* ") or stripped_line.startswith("+ "):
-                         title = stripped_line[2:].strip()
-                    else: # If it's just indented text without a new bullet (less common for outlines)
-                         title = stripped_line.strip()
-
-
-            elif line.startswith("#"): # Also support Markdown headers if used in outline
-                level = line.count("#")
-                title = line.lstrip("# ").strip()
-
-            else: # Assume it's a top-level item if no clear marker (could be problematic)
-                  # Or, if the outline is purely list-based, non-bullet items might be ignored or handled differently
-                  # For now, let's assume well-formed Markdown lists.
-                  # If line doesn't start with a list marker, we might skip it or treat as level 1.
-                  # For robustness, let's only process lines that seem like list items or headers.
-                continue # Skip lines not recognized as outline items
+        logger.debug(f"Parsed outline into {len(parsed_items)} items: {parsed_items}")
+        return parsed_items
 
 
-            if title: # Only add if a title was successfully extracted
-                parsed_outline.append({"title": title, "level": level, "content_key": title}) # Use title as key for content
-
-        logger.debug(f"Parsed outline: {parsed_outline}")
-        return parsed_outline
-
-    def _generate_table_of_contents(self, parsed_outline: List[Dict[str, any]]) -> str:
-        """Generates a Markdown table of contents from the parsed outline."""
-        if not self.add_table_of_contents or not parsed_outline:
+    def _generate_table_of_contents(self, structured_outline: List[Dict[str, any]]) -> str:
+        """Generates a Markdown table of contents from the structured outline."""
+        if not self.add_table_of_contents or not structured_outline:
             return ""
 
         toc = "## 目录\n\n"
-        for item in parsed_outline:
+        for item in structured_outline: # structured_outline now comes from WorkflowState.parsed_outline
             title = item['title']
-            level = item['level']
-            # Create a simple anchor link (GitHub-style, needs to be URL-encoded and lowercased)
-            # This is a naive anchor generation. Real Markdown processors have more complex rules.
-            anchor = title.lower().replace(" ", "-").translate(str.maketrans("", "", '()[]{}<>/"\'?!,:;.')) # Basic sanitization
+            level = item.get('level', 1) # Default to level 1 if not specified
+            # Use the 'id' from parsed_outline for anchor, as it's the unique key
+            anchor = item.get('id', self._generate_anchor(title))
 
-            indent = "  " * (level - 1)
+            indent = "  " * (level - 1) if level > 0 else ""
             toc += f"{indent}- [{title}](#{anchor})\n"
-        toc += "\n---\n" # Separator
+        toc += "\n---\n"
         return toc
 
-    def run(self,
-            report_title: str,
-            markdown_outline: str,
-            chapter_contents: Dict[str, str],
-            report_topic_details: Optional[Dict[str, any]] = None
-           ) -> str:
+    def compile_report_from_context(self, report_context: Dict[str, Any]) -> str:
         """
-        Compiles the report.
-
-        Args:
-            report_title (str): The main title of the report.
-            markdown_outline (str): The Markdown formatted outline of the report.
-            chapter_contents (Dict[str, str]): A dictionary where keys are chapter titles
-                                               (matching those in the outline) and values
-                                               are the text content for each chapter.
-            report_topic_details (Optional[Dict[str, any]]): The output from TopicAnalyzerAgent,
-                                                             containing generalized topics and keywords.
-                                                             Used for an optional introduction/summary.
-
-        Returns:
-            str: The fully compiled report as a single Markdown string.
-
-        Raises:
-            ReportCompilerAgentError: If essential inputs are missing or formatting fails.
+        Compiles the report using data prepared by WorkflowState.get_full_report_context_for_compilation().
+        This is the main method called by the pipeline's task handler.
         """
-        self._log_input(report_title=report_title, outline_length=len(markdown_outline),
-                        num_chapters_content=len(chapter_contents), report_topic_details_present=bool(report_topic_details))
+        report_title = report_context.get('report_title', "未命名报告")
+        # markdown_outline_str = report_context.get('markdown_outline', "") # Raw MD outline
+        # Use the parsed_outline from workflow_state for structure and IDs
+        structured_outline_from_state = report_context.get('parsed_outline', [])
 
-        if not report_title:
-            raise ReportCompilerAgentError("Report title cannot be empty.")
-        if not markdown_outline:
-            raise ReportCompilerAgentError("Markdown outline cannot be empty.")
-        if not chapter_contents:
-            logger.warning("Compiling report with no chapter contents provided.")
-            # Depending on strictness, could raise error or return minimal report.
+        # chapter_contents is Dict[chapter_title (from original MD), chapter_text_content]
+        # We need to map this to chapter_ids if we use ids for anchors.
+        # For simplicity, if ReportCompilerAgent's _parse_markdown_outline was used to create
+        # the structure in workflow_state, then chapter_contents keys should match titles.
+        chapter_contents_by_title = report_context.get('chapter_contents', {})
+        report_topic_details = report_context.get('report_topic_details')
 
-        final_report_parts = []
+        self._log_input(report_title=report_title,
+                        num_outline_items=len(structured_outline_from_state),
+                        num_chapter_contents=len(chapter_contents_by_title))
 
-        # 1. Report Title
-        final_report_parts.append(f"# {report_title}\n")
+        if not report_title: raise ReportCompilerAgentError("Report title cannot be empty.")
+        # if not markdown_outline_str and not structured_outline_from_state:
+        #     raise ReportCompilerAgentError("Markdown outline or structured outline must be provided.")
+        if not structured_outline_from_state:
+             logger.warning("Compiling report with no structured outline provided. TOC and chapter structure might be affected.")
+             # Fallback: if no structured_outline, but we have MD and contents, try to parse MD here.
+             # This shouldn't happen if workflow is correct.
+             markdown_outline_str = report_context.get('markdown_outline', "")
+             if markdown_outline_str:
+                 structured_outline_from_state = self._parse_markdown_outline(markdown_outline_str)
+             else:
+                 raise ReportCompilerAgentError("No outline information (MD or structured) provided.")
 
-        # (Optional) Add a brief introduction/summary based on topic details
+
+        final_report_parts = [f"# {report_title}\n"]
+
         if report_topic_details:
             topic_cn = report_topic_details.get("generalized_topic_cn", "未提供")
             keywords_cn_list = report_topic_details.get("keywords_cn", [])
             keywords_cn_str = ", ".join(keywords_cn_list) if keywords_cn_list else "无"
-
-            intro_summary = f"## 引言\n\n本报告围绕主题“**{topic_cn}**”展开，"
-            if keywords_cn_list:
-                intro_summary += f"重点探讨与关键词“{keywords_cn_str}”相关的议题。\n"
-            intro_summary += "报告旨在提供对此主题的深入分析和全面概述。\n\n---\n"
-            final_report_parts.append(intro_summary)
-
-
-        # 2. Parse Outline and Generate Table of Contents (Optional)
-        # The parsed_outline will determine the order and hierarchy of chapters.
-        # The keys in chapter_contents should match the 'title' from parsed_outline.
-        parsed_outline = self._parse_markdown_outline(markdown_outline)
-        if not parsed_outline:
-            logger.warning("Could not parse the provided Markdown outline. Report structure might be incorrect.")
-            # Fallback: try to iterate chapter_contents if outline parsing fails?
-            # For now, we rely on a parsable outline.
+            intro = f"## 引言\n\n本报告围绕主题“**{topic_cn}**”展开"
+            if keywords_cn_list: intro += f"，重点探讨与关键词“{keywords_cn_str}”相关的议题。\n"
+            else: intro += "。\n"
+            intro += "报告旨在提供对此主题的深入分析和全面概述。\n\n---\n"
+            final_report_parts.append(intro)
 
         if self.add_table_of_contents:
-            toc_md = self._generate_table_of_contents(parsed_outline)
-            if toc_md:
-                final_report_parts.append(toc_md)
+            toc_md = self._generate_table_of_contents(structured_outline_from_state) # Use structured outline
+            if toc_md: final_report_parts.append(toc_md)
 
-        # 3. Add Chapters based on Parsed Outline
-        # We use the parsed_outline to ensure correct order and hierarchy.
-        # Chapter titles from the outline are used as keys to fetch content from chapter_contents.
-
-        # To create proper Markdown headers for chapters, we need to know their level.
-        # The _parse_markdown_outline should provide this.
-
-        for item in parsed_outline:
-            chapter_key = item['title'] # The key used in chapter_contents should match this.
-            level = item['level']
-
-            content = chapter_contents.get(chapter_key)
+        # Iterate through the structured_outline_from_state to maintain order and hierarchy
+        for item in structured_outline_from_state:
+            # The key for chapter_contents is the title as parsed by _parse_markdown_outline
+            # which should match the titles in structured_outline_from_state.
+            chapter_title_key = item['title']
+            content = chapter_contents_by_title.get(chapter_title_key)
+            level = item.get('level', 1)
+            item_id_anchor = item.get('id', self._generate_anchor(chapter_title_key)) # Anchor based on unique ID
 
             if content is None:
-                logger.warning(f"No content found for chapter/section: '{chapter_key}'. It will be omitted or marked as TBD.")
-                # Optionally add a placeholder
-                # final_report_parts.append(f"\n{'#' * level} {chapter_key}\n\n*内容待定 (Content TBD)*\n")
-                continue # Skip if no content
+                logger.warning(f"No content found for chapter/section: '{chapter_title_key}'. Omitting.")
+                # Optionally add placeholder: final_report_parts.append(f"\n{'#' * level} {chapter_title_key}\n\n*内容待定*\n")
+                continue
 
-            # Add chapter title as a Markdown header
-            # Ensure there's a newline before starting a new chapter's content
-            # Also, add an anchor for the TOC. This is a simplified anchor.
-            anchor = chapter_key.lower().replace(" ", "-").translate(str.maketrans("", "", '()[]{}<>/"\'?!,:;.'))
-            final_report_parts.append(f"\n<a id=\"{anchor}\"></a>\n{'#' * level} {chapter_key}\n\n{content}\n")
+            final_report_parts.append(f"\n<a id=\"{item_id_anchor}\"></a>\n{'#' * level} {chapter_title_key}\n\n{content}\n")
 
-        # Fallback for any content provided in chapter_contents but not found in outline
-        # This might indicate an issue with outline parsing or content keys.
-        # For now, we prioritize the outline. Content not in outline is ignored.
-        # outlined_keys = {item['title'] for item in parsed_outline}
-        # for key, content in chapter_contents.items():
-        #     if key not in outlined_keys:
-        #         logger.warning(f"Content for '{key}' was provided but not found in the parsed outline. It will be appended at the end or ignored.")
-        #         # final_report_parts.append(f"\n## {key} (未在目录中)\n\n{content}\n") # Example of appending
+        compiled_report = "".join(final_report_parts).strip()
+        self._log_output(compiled_report[:500] + "...") # Log preview
+        return compiled_report
 
-        compiled_report = "".join(final_report_parts)
-        self._log_output(compiled_report)
-        return compiled_report.strip()
+    def execute_task(self, workflow_state: WorkflowState, task_payload: Dict) -> None:
+        """
+        Called by the pipeline to compile the report.
+        It fetches all necessary context from WorkflowState.
+        """
+        self._log_input(workflow_state_id=workflow_state.workflow_id, task_payload=task_payload)
 
+        if not workflow_state.are_all_chapters_completed():
+            msg = "Not all chapters are marked as completed. Report compilation aborted."
+            workflow_state.log_event(msg, level="WARNING")
+            # This task might be re-queued by the pipeline if called prematurely.
+            # Or, we can raise an error to signal the pipeline.
+            # For now, let's just log and not produce a report if this happens.
+            # The pipeline's main loop should ideally only trigger this when ready.
+            workflow_state.complete_task(task_payload['id'], msg, status='deferred') # Use task_payload for ID
+            return
+
+        report_context = workflow_state.get_full_report_context_for_compilation()
+        # Ensure parsed_outline is included, as it's now the source of truth for structure
+        report_context['parsed_outline'] = workflow_state.parsed_outline
+
+
+        try:
+            final_report_md = self.compile_report_from_context(report_context)
+            workflow_state.set_flag('final_report_md', final_report_md) # Store in state
+            workflow_state.set_flag('report_generation_complete', True) # Signal completion
+            logger.info("Report compilation successful and stored in WorkflowState.")
+        except ReportCompilerAgentError as e:
+            workflow_state.log_event(f"Report compilation failed: {e}", level="ERROR")
+            workflow_state.add_chapter_error("REPORT_COMPILATION", f"Compilation error: {e}") # Generic error for compilation
+            raise # Re-raise to be caught by pipeline's task handler
 
 if __name__ == '__main__':
-    print("ReportCompilerAgent Example")
-    logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s')
+
+    # Mock WorkflowState and its get_full_report_context_for_compilation method
+    from core.workflow_state import WorkflowState, STATUS_COMPLETED # Import for mock
+    from datetime import datetime # For workflow_state log
+
+    class MockWorkflowStateRCA(WorkflowState):
+        def __init__(self, user_topic: str):
+            super().__init__(user_topic)
+            self.mock_report_context = {}
+
+        def get_full_report_context_for_compilation(self) -> Dict[str, Any]:
+            # Ensure parsed_outline is part of this context if used by compiler
+            self.mock_report_context['parsed_outline'] = self.parsed_outline
+            return self.mock_report_context
+
+        def are_all_chapters_completed(self) -> bool: return True # Assume true for test
+        def set_flag(self, flag_name: str, value: Any): # Override to see what's set
+            super().set_flag(flag_name, value)
+            logger.debug(f"MockWorkflowStateRCA: Flag '{flag_name}' set to '{value}'")
+
+
+    compiler_agent = ReportCompilerAgent(add_table_of_contents=True)
+
+    # --- Test _parse_markdown_outline ---
+    print("\n--- Testing _parse_markdown_outline ---")
+    md_outline_test = """
+    # Chapter 1: Intro
+    ## Section 1.1: Background
+    - Point 1.1.1
+    - Point 1.1.2
+      - Sub-point 1.1.2.1
+    ## Section 1.2: Significance
+    # Chapter 2: Methods
+    - Method A
+    - Method B
+    """
+    parsed_test_outline = compiler_agent._parse_markdown_outline(md_outline_test)
+    print("Parsed test outline:")
+    for item in parsed_test_outline: print(f"  {item}")
+    assert len(parsed_test_outline) == 8 # Check number of items
+    assert parsed_test_outline[0]['level'] == 1 and parsed_test_outline[0]['title'] == "Chapter 1: Intro"
+    assert parsed_test_outline[2]['level'] == 3 and parsed_test_outline[2]['title'] == "Point 1.1.1" # Based on simplified list indent
+    assert parsed_test_outline[4]['level'] == 4 and parsed_test_outline[4]['title'] == "Sub-point 1.1.2.1"
+
+
+    # --- Test execute_task ---
+    print("\n--- Testing execute_task with MockWorkflowStateRCA ---")
+    mock_state_rca = MockWorkflowStateRCA("Compiler Test Topic")
+
+    # Populate mock_state_rca with data that get_full_report_context_for_compilation would use
+    # This data would normally be set by previous agents (OutlineGenerator, ChapterWriter)
+    mock_state_rca.report_title = "Final Compiled Report Title"
+    mock_state_rca.current_outline_md = "- Chapter Alpha\n  - Section Alpha.1\n- Chapter Beta"
+    # WorkflowState.update_outline would have called the parser. We simulate that here.
+    # The parser used by OutlineGeneratorAgent should be consistent with this one.
+    # For testing compile_report_from_context, we need `parsed_outline` in the context.
+    mock_state_rca.parsed_outline = compiler_agent._parse_markdown_outline(mock_state_rca.current_outline_md)
+
+    mock_state_rca.topic_analysis_results = {"generalized_topic_cn": "编译测试", "keywords_cn": ["测试", "报告"]}
+
+    # Chapter contents keys must match titles from the parsed outline
+    mock_chapter_contents_for_compiler = {}
+    for item in mock_state_rca.parsed_outline:
+        # Simulate all chapters are completed and have content
+        mock_state_rca.chapter_data[item['id']] = { # Use item['id'] as key
+            'title': item['title'], 'level': item['level'],
+            'status': STATUS_COMPLETED,
+            'content': f"This is the final content for {item['title']}.",
+            'evaluations': [], 'versions': [], 'errors': []
+        }
+        mock_chapter_contents_for_compiler[item['title']] = f"This is the final content for {item['title']}."
+
+    # This is what get_full_report_context_for_compilation in WorkflowState should prepare
+    mock_state_rca.mock_report_context = {
+        "report_title": mock_state_rca.report_title,
+        "markdown_outline": mock_state_rca.current_outline_md, # Raw MD for TOC generation if needed
+        "chapter_contents": mock_chapter_contents_for_compiler, # title -> content map
+        "report_topic_details": mock_state_rca.topic_analysis_results,
+        "parsed_outline": mock_state_rca.parsed_outline # Crucial for structured compilation
+    }
+
+    # Task payload for the agent's execute_task method
+    task_payload_for_agent_rca = {'id': 'compile_task_id'} # ID is important for complete_task
 
     try:
-        compiler_agent_with_toc = ReportCompilerAgent(add_table_of_contents=True)
-        compiler_agent_no_toc = ReportCompilerAgent(add_table_of_contents=False)
+        compiler_agent.execute_task(mock_state_rca, task_payload_for_agent_rca)
 
-        report_title_ex = "关于ABMS系统的综合分析报告"
+        final_report_output = mock_state_rca.get_flag('final_report_md')
+        assert final_report_output is not None
+        assert mock_state_rca.get_flag('report_generation_complete') is True
 
-        # Example topic details from TopicAnalyzerAgent
-        topic_details_ex = {
-            "generalized_topic_cn": "先进战斗管理系统（ABMS）及其影响",
-            "generalized_topic_en": "Advanced Battle Management System (ABMS) and its Implications",
-            "keywords_cn": ["ABMS", "JADC2", "军事技术", "指挥控制"],
-            "keywords_en": ["ABMS", "JADC2", "Military Technology", "C2"]
-        }
+        print("\nGenerated Report (first 500 chars from WorkflowState flag):")
+        print(final_report_output[:500] + "...")
+        assert "Chapter Alpha" in final_report_output
+        assert "Section Alpha.1" in final_report_output
+        assert "Chapter Beta" in final_report_output
+        assert "目录" in final_report_output # TOC should be there
 
-        # Example Markdown outline (could come from OutlineGeneratorAgent)
-        outline_ex = """
-        - 章节一：ABMS系统概述
-          - 1.1 ABMS定义与目标
-          - 1.2 发展背景
-        - 章节二：核心技术分析
-          - 2.1 数据与网络
-          - 2.2 人工智能应用
-        - 章节三：挑战与展望
-        - 章节四：结论
-        """
-        # A more complex outline for testing parser
-        outline_complex_ex = """
-        # 第一章：引言 (H1)
-        ## 1.1 研究背景 (H2)
-        - 1.1.1 技术驱动 (List item, effective level 3 if under H2)
-        ## 1.2 研究意义 (H2)
-        # 第二章：系统分析 (H1)
-        - 2.1 架构设计 (List item, effective level 2)
-          - 2.1.1 模块A (List item, effective level 3)
-          - 2.1.2 模块B (List item, effective level 3)
-        - 2.2 功能特性 (List item, effective level 2)
-        # 第三章：总结 (H1)
-        """
+        print("\nReportCompilerAgent execute_task test successful.")
 
-
-        # Example chapter contents (keys should match titles in the outline)
-        # For simplicity, using the simple outline_ex titles.
-        chapters_data_ex = {
-            "章节一：ABMS系统概述": "这是关于ABMS系统概述的详细内容...",
-            "1.1 ABMS定义与目标": "ABMS旨在实现全域信息的无缝共享和协同决策...",
-            "1.2 发展背景": "随着现代战争形态的演变，对高效指挥控制系统的需求日益迫切...",
-            "章节二：核心技术分析": "ABMS的核心技术涵盖了多个方面...",
-            "2.1 数据与网络": "强大的数据链和弹性网络是ABMS的基础...",
-            "2.2 人工智能应用": "AI在ABMS中用于辅助决策、目标识别等...",
-            "章节三：挑战与展望": "ABMS面临技术成熟度、成本控制和安全等多重挑战。未来，ABMS有望...",
-            "章节四：结论": "综上所述，ABMS是未来智能化军队建设的关键组成部分...",
-            "额外章节不在大纲中": "这部分内容不应出现在基于大纲的报告中，除非有特殊处理。"
-        }
-
-        # Test with TOC
-        print("\n--- Compiling report WITH Table of Contents ---")
-        compiled_report_with_toc = compiler_agent_with_toc.run(
-            report_title=report_title_ex,
-            markdown_outline=outline_ex,
-            chapter_contents=chapters_data_ex,
-            report_topic_details=topic_details_ex
-        )
-        print(f"\n**Compiled Report (with TOC):**\n{compiled_report_with_toc}")
-
-        # Test without TOC
-        print("\n\n--- Compiling report WITHOUT Table of Contents ---")
-        compiled_report_no_toc = compiler_agent_no_toc.run(
-            report_title=report_title_ex,
-            markdown_outline=outline_ex,
-            chapter_contents=chapters_data_ex,
-            report_topic_details=None # No intro summary
-        )
-        print(f"\n**Compiled Report (no TOC, no intro):**\n{compiled_report_no_toc}")
-
-        # Test complex outline parsing (just the parsing part)
-        print("\n\n--- Testing Complex Outline Parsing ---")
-        parsed_complex = compiler_agent_with_toc._parse_markdown_outline(outline_complex_ex)
-        print("Parsed Complex Outline Structure:")
-        for item in parsed_complex:
-            print(item)
-        # And generate TOC for it
-        # toc_complex = compiler_agent_with_toc._generate_table_of_contents(parsed_complex)
-        # print(f"\nGenerated TOC for Complex Outline:\n{toc_complex}")
-
-
-    except ReportCompilerAgentError as e:
-        print(f"Agent error: {e}")
     except Exception as e:
-        print(f"An unexpected error occurred: {e}")
+        print(f"Error during ReportCompilerAgent execute_task test: {e}")
         import traceback
         traceback.print_exc()
 
