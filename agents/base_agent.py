@@ -51,11 +51,13 @@ class BaseAgent(ABC):
 
         logger.info(f"Agent '{self.agent_name}' initialized.")
 
-    @abstractmethod
+    # @abstractmethod # Removed as direct run() is no longer the primary execution path
     def run(self, *args: Any, **kwargs: Any) -> Any:
         """
-        The main execution method for the agent.
-        Subclasses must implement this method to define their specific logic.
+        Legacy main execution method for the agent.
+        This method is deprecated in favor of execute_task() within the orchestrated workflow.
+        Subclasses might still implement this for standalone testing or specific use cases
+        not fitting the task-driven workflow.
 
         Args:
             *args: Variable length argument list.
@@ -64,8 +66,15 @@ class BaseAgent(ABC):
         Returns:
             Any: The result of the agent's execution.
         """
-        logger.info(f"Agent '{self.agent_name}' starting run method.")
-        pass
+        logger.warning(
+            f"Agent '{self.agent_name}' legacy run() method was called directly. "
+            f"The primary execution path is now via execute_task() within the orchestrated workflow."
+        )
+        # raise NotImplementedError(
+        #     f"Direct call to run() for agent '{self.agent_name}' is deprecated or not implemented. "
+        #     f"Use execute_task() within the orchestrated workflow."
+        # )
+        pass # Default behavior is to do nothing if not overridden
 
     def _log_input(self, *args: Any, **kwargs: Any):
         """Helper method to log input parameters."""
@@ -93,73 +102,47 @@ class BaseAgent(ABC):
         return self.config.get(key, default)
 
 # Example of a concrete agent (for demonstration, will be moved/refined later)
-class MyDummyAgent(BaseAgent):
-    def __init__(self, llm_service: LLMService, config: Optional[dict]=None):
-        super().__init__(agent_name="MyDummyAgent", llm_service=llm_service, config=config)
+# class MyDummyAgent(BaseAgent):
+#     def __init__(self, llm_service: LLMService, config: Optional[dict]=None):
+#         super().__init__(agent_name="MyDummyAgent", llm_service=llm_service, config=config)
 
-    def run(self, user_query: str) -> str:
-        self._log_input(user_query=user_query)
-        if not self.llm_service:
-            logger.error(f"Agent '{self.agent_name}' requires LLMService but it was not provided.")
-            return "Error: LLMService not available."
+#     # This agent would now primarily implement execute_task if used in the new workflow
+#     def execute_task(self, workflow_state: Any, task_payload: Dict) -> None:
+#         logger.info(f"MyDummyAgent executing task with payload: {task_payload}")
+#         # ... dummy logic ...
+#         query = task_payload.get("user_query", "default query")
+#         self._log_input(user_query=query)
 
-        prompt = f"User asked: {user_query}. Respond briefly."
-        try:
-            response = self.llm_service.chat(prompt, system_prompt="You are a dummy agent.")
-            self._log_output(response)
-            return response
-        except Exception as e:
-            logger.error(f"Agent '{self.agent_name}' encountered an error: {e}")
-            return f"Error during processing: {e}"
+#         if not self.llm_service:
+#             logger.error(f"Agent '{self.agent_name}' requires LLMService.")
+#             # Update workflow_state with error, or let orchestrator handle exception
+#             return
+
+#         prompt = f"User asked: {query}. Respond briefly as a dummy."
+#         try:
+#             response = self.llm_service.chat(prompt, system_prompt="You are a dummy agent.")
+#             self._log_output(response)
+#             # In a real scenario, update workflow_state with this response
+#             # workflow_state.some_update_method(task_payload.get('chapter_key'), response)
+#             # And add next task
+#             # workflow_state.add_task("NEXT_DUMMY_TASK", {"source_output": response})
+#         except Exception as e:
+#             logger.error(f"Agent '{self.agent_name}' encountered an error: {e}")
+#             # Update workflow_state with error
 
 if __name__ == '__main__':
-    # This is an example of how to use the BaseAgent and a dummy implementation.
-    # Requires a running Xinference server for LLMService to function fully.
-    print("BaseAgent and MyDummyAgent Example")
+    # This example primarily shows BaseAgent's structure.
+    # For agent execution, see individual agent files or pipeline/orchestrator examples.
+    print("BaseAgent Definition Example")
 
-    # Configure basic logging for the example
     logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
-    try:
-        # Attempt to initialize LLMService (will try to connect to Xinference)
-        # from core.llm_service import LLMService, LLMServiceError
-        # try:
-        #     llm_service_instance = LLMService() # Uses defaults from settings
-        #     print("Successfully initialized LLMService for the example.")
-        # except LLMServiceError as e:
-        #     print(f"Could not initialize LLMService (Xinference might not be running or model not available): {e}")
-        #     print("Proceeding with None for LLMService in dummy agent (it will handle this).")
-        #     llm_service_instance = None
+    # Direct instantiation of BaseAgent itself is not very useful as its run() is a placeholder.
+    # base_agent_instance = BaseAgent(agent_name="TestBaseAgent")
+    # base_agent_instance.run() # This will now log a warning.
 
-        # Forcing None for llm_service_instance for this example run to avoid external dependency for automated test
-        print("Using None for LLMService in dummy agent for this example run.")
-        llm_service_instance = None
+    # To test a concrete agent, you'd instantiate that, e.g., TopicAnalyzerAgent,
+    # and call its execute_task method with a mock WorkflowState and payload.
+    # See individual agent files for their specific __main__ test blocks.
 
-
-        # Create a dummy agent instance
-        # If llm_service_instance is None, the dummy agent's run method should handle it.
-        dummy_agent_config = {"temperature_override": 0.8}
-        dummy_agent = MyDummyAgent(llm_service=llm_service_instance, config=dummy_agent_config)
-
-        print(f"\nRunning {dummy_agent.agent_name}...")
-        # query = "What is the purpose of a RAG system?"
-        # result = dummy_agent.run(user_query=query)
-        # print(f"Response from {dummy_agent.agent_name}: {result}")
-
-        # query2 = "Tell me a joke."
-        # result2 = dummy_agent.run(user_query=query2)
-        # print(f"Response from {dummy_agent.agent_name}: {result2}")
-
-        # Accessing config
-        # temp_override = dummy_agent._get_config_value("temperature_override")
-        # print(f"Dummy agent's temperature_override config: {temp_override}")
-        # non_existent_config = dummy_agent._get_config_value("non_existent_key", "default_val")
-        # print(f"Dummy agent's non_existent_key config: {non_existent_config}")
-
-        print("\nNote: Actual LLM calls in MyDummyAgent are commented out if LLMService was None.")
-        print("BaseAgent example finished.")
-
-    except Exception as e:
-        print(f"An unexpected error occurred in BaseAgent example: {e}")
-        import traceback
-        traceback.print_exc()
+    print("\nBaseAgent example finished. See individual agent files for execution examples with WorkflowState.")
