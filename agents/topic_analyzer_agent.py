@@ -1,9 +1,10 @@
 import logging
 import json
-from typing import Dict, List, Optional
+from typing import Dict, Optional
 
 from agents.base_agent import BaseAgent
 from core.llm_service import LLMService, LLMServiceError
+from core.workflow_state import WorkflowState, TASK_TYPE_GENERATE_OUTLINE # Import constants
 
 logger = logging.getLogger(__name__)
 
@@ -14,7 +15,7 @@ class TopicAnalyzerAgentError(Exception):
 class TopicAnalyzerAgent(BaseAgent):
     """
     Agent responsible for analyzing the user's topic, generalizing it,
-    and extracting relevant keywords in both Chinese and English.
+    and extracting relevant keywords. Updates the WorkflowState.
     """
 
     DEFAULT_PROMPT_TEMPLATE = """你是一个主题分析专家。请分析以下用户提供的主题，对其进行理解、扩展和泛化，并生成相关的中文和英文关键词/主题概念，以便于后续的文档检索。请确保关键词的全面性。
@@ -31,145 +32,129 @@ class TopicAnalyzerAgent(BaseAgent):
 """
 
     def __init__(self, llm_service: LLMService, prompt_template: Optional[str] = None):
-        """
-        Initializes the TopicAnalyzerAgent.
-
-        Args:
-            llm_service (LLMService): An instance of the LLMService.
-            prompt_template (Optional[str]): A custom prompt template for the LLM.
-                                             If None, DEFAULT_PROMPT_TEMPLATE is used.
-        """
         super().__init__(agent_name="TopicAnalyzerAgent", llm_service=llm_service)
         self.prompt_template = prompt_template or self.DEFAULT_PROMPT_TEMPLATE
         if not self.llm_service:
             raise TopicAnalyzerAgentError("LLMService is required for TopicAnalyzerAgent.")
 
-    def run(self, user_topic: str) -> Dict[str, any]:
+    def execute_task(self, workflow_state: WorkflowState, task_payload: Dict) -> None:
         """
-        Analyzes the user topic using the LLM.
+        Analyzes the user topic using the LLM and updates the WorkflowState.
+        Then, adds a task to generate the outline.
 
         Args:
-            user_topic (str): The topic provided by the user.
-
-        Returns:
-            Dict[str, any]: A dictionary containing:
-                - 'generalized_topic_cn': Generalized topic in Chinese.
-                - 'generalized_topic_en': Generalized topic in English.
-                - 'keywords_cn': A list of Chinese keywords.
-                - 'keywords_en': A list of English keywords.
+            workflow_state (WorkflowState): The current state of the workflow.
+            task_payload (Dict): Payload for this task, expects 'user_topic'.
 
         Raises:
             TopicAnalyzerAgentError: If the LLM call fails or the response is not as expected.
         """
-        self._log_input(user_topic=user_topic)
+        user_topic = task_payload.get('user_topic')
+        if not user_topic:
+            raise TopicAnalyzerAgentError("User topic not found in task payload for TopicAnalyzerAgent.")
+
+        self._log_input(user_topic=user_topic) # BaseAgent helper
 
         prompt = self.prompt_template.format(user_topic=user_topic)
 
         try:
             logger.info(f"Sending request to LLM for topic analysis. User topic: '{user_topic}'")
-            raw_response = self.llm_service.chat(query=prompt, system_prompt="你是一个高效的主题分析助手。") # System prompt can be minimal if main instructions are in user prompt
-
+            raw_response = self.llm_service.chat(query=prompt, system_prompt="你是一个高效的主题分析助手。")
             logger.debug(f"Raw LLM response for topic analysis: {raw_response}")
 
-            # Attempt to parse the JSON response
-            # The LLM might sometimes add extra text around the JSON.
-            # We'll try to extract the JSON part.
             try:
-                # Find the start and end of the JSON object
                 json_start_index = raw_response.find('{')
                 json_end_index = raw_response.rfind('}') + 1
-
                 if json_start_index != -1 and json_end_index != -1 and json_start_index < json_end_index:
                     json_string = raw_response[json_start_index:json_end_index]
                     parsed_response = json.loads(json_string)
                 else:
-                    logger.error(f"Could not find valid JSON object in LLM response: {raw_response}")
-                    raise TopicAnalyzerAgentError("LLM response does not contain a valid JSON object.")
-
+                    raise TopicAnalyzerAgentError(f"LLM response does not contain a valid JSON object: {raw_response}")
             except json.JSONDecodeError as e:
-                logger.error(f"Failed to parse JSON response from LLM: {raw_response}. Error: {e}")
-                raise TopicAnalyzerAgentError(f"LLM response was not valid JSON: {e}")
+                raise TopicAnalyzerAgentError(f"LLM response was not valid JSON: {raw_response}. Error: {e}")
 
-            # Validate the structure of the parsed response
             required_keys = ["generalized_topic_cn", "generalized_topic_en", "keywords_cn", "keywords_en"]
             if not all(key in parsed_response for key in required_keys):
-                logger.error(f"LLM response missing required keys. Response: {parsed_response}")
-                raise TopicAnalyzerAgentError("LLM response is missing one or more required keys.")
+                raise TopicAnalyzerAgentError(f"LLM response missing required keys. Response: {parsed_response}")
+            if not isinstance(parsed_response.get("keywords_cn"), list) or \
+               not isinstance(parsed_response.get("keywords_en"), list):
+                raise TopicAnalyzerAgentError(f"Keywords in LLM response are not lists. Response: {parsed_response}")
 
-            if not isinstance(parsed_response["keywords_cn"], list) or \
-               not isinstance(parsed_response["keywords_en"], list):
-                logger.error(f"Keywords in LLM response are not lists. Response: {parsed_response}")
-                raise TopicAnalyzerAgentError("Keywords in LLM response must be lists.")
+            # Update WorkflowState
+            workflow_state.update_topic_analysis(parsed_response)
 
-            self._log_output(parsed_response)
-            return parsed_response
+            # Add next task: Generate Outline
+            workflow_state.add_task(
+                task_type=TASK_TYPE_GENERATE_OUTLINE,
+                payload={'topic_details': parsed_response}, # Pass analysis results to next task
+                priority=2 # Assuming topic analysis is priority 1
+            )
+
+            self._log_output(parsed_response) # BaseAgent helper
+            logger.info(f"Topic analysis successful for '{user_topic}'. Next task (Generate Outline) added.")
 
         except LLMServiceError as e:
-            logger.error(f"LLM service error during topic analysis: {e}")
+            workflow_state.log_event(f"LLM service error during topic analysis for '{user_topic}'", {"error": str(e)}, level="ERROR")
             raise TopicAnalyzerAgentError(f"LLM service failed: {e}")
+        except TopicAnalyzerAgentError as e: # Catch our own errors for specific logging
+            workflow_state.log_event(f"Topic analysis failed for '{user_topic}'", {"error": str(e)}, level="ERROR")
+            raise # Re-raise to be caught by pipeline
         except Exception as e:
-            logger.error(f"An unexpected error occurred in TopicAnalyzerAgent: {e}")
+            workflow_state.log_event(f"Unexpected error in TopicAnalyzerAgent for '{user_topic}'", {"error": str(e)}, level="CRITICAL")
             raise TopicAnalyzerAgentError(f"Unexpected error in topic analysis: {e}")
 
 if __name__ == '__main__':
-    # This is an example of how to use the TopicAnalyzerAgent.
-    # Requires a running Xinference server for LLMService.
-    print("TopicAnalyzerAgent Example (requires running Xinference for LLMService)")
+    # Updated example for WorkflowState interaction
+    logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s')
 
-    logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-
-    # Mock LLMService for example if Xinference is not available
-    class MockLLMService:
+    class MockLLMService: # Same mock as before
         def chat(self, query: str, system_prompt: str) -> str:
-            logger.info(f"MockLLMService received query (first 100 chars): {query[:100]}")
-            # Simulate a valid JSON response based on the prompt
-            if "ABMS系统" in query:
-                return """
-                {
-                  "generalized_topic_cn": "先进战斗管理系统（ABMS）",
-                  "generalized_topic_en": "Advanced Battle Management System (ABMS)",
-                  "keywords_cn": ["ABMS", "先进战斗管理", "美军", "JADC2", "多域作战", "指挥控制"],
-                  "keywords_en": ["ABMS", "Advanced Battle Management", "US Military", "JADC2", "Multi-Domain Operations", "Command and Control"]
-                }
-                """
-            elif "气候变化的影响" in query:
-                 return """
-                {
-                  "generalized_topic_cn": "气候变化及其全球影响",
-                  "generalized_topic_en": "Climate Change and its Global Impacts",
-                  "keywords_cn": ["气候变化", "全球变暖", "极端天气", "环境影响", "碳排放"],
-                  "keywords_en": ["Climate Change", "Global Warming", "Extreme Weather", "Environmental Impact", "Carbon Emissions"]
-                }
-                """
-            return "{}" # Default empty JSON
+            if "ABMS系统" in query: return json.dumps({"generalized_topic_cn": "先进战斗管理系统（ABMS）", "generalized_topic_en": "Advanced Battle Management System (ABMS)", "keywords_cn": ["ABMS", "JADC2"], "keywords_en": ["ABMS", "JADC2"]})
+            return json.dumps({"generalized_topic_cn": "模拟主题", "generalized_topic_en": "Mock Topic", "keywords_cn": ["关键词1"], "keywords_en": ["Keyword1"]})
 
+    # Mock WorkflowState for testing the agent
+    class MockWorkflowState(WorkflowState):
+        def __init__(self, user_topic: str):
+            super().__init__(user_topic)
+            self.updated_analysis = None
+            self.added_tasks = []
+
+        def update_topic_analysis(self, results: Dict[str, Any]):
+            self.updated_analysis = results
+            super().update_topic_analysis(results) # Call parent for logging etc.
+
+        def add_task(self, task_type: str, payload: Optional[Dict[str, Any]] = None, priority: int = 0):
+            self.added_tasks.append({'type': task_type, 'payload': payload, 'priority': priority})
+            # Don't call super().add_task here if we just want to inspect, or do if full behavior is needed.
+            # For this test, just capturing is enough.
+            logger.debug(f"MockWorkflowState: Task added - Type: {task_type}, Payload: {payload}")
+
+
+    llm_service_instance = MockLLMService()
+    analyzer_agent = TopicAnalyzerAgent(llm_service=llm_service_instance)
+
+    test_topic = "介绍美国的ABMS系统"
+    mock_state = MockWorkflowState(user_topic=test_topic)
+
+    task_payload_for_agent = {'user_topic': test_topic}
+
+    print(f"\nExecuting TopicAnalyzerAgent for topic: '{test_topic}' with MockWorkflowState")
     try:
-        # llm_service_instance = LLMService() # Uses defaults from settings
-        # print("Attempting to use actual LLMService.")
-        # Forcing mock for example run
-        print("Using MockLLMService for TopicAnalyzerAgent example.")
-        llm_service_instance = MockLLMService()
+        analyzer_agent.execute_task(mock_state, task_payload_for_agent)
 
-        analyzer_agent = TopicAnalyzerAgent(llm_service=llm_service_instance)
+        print("\nWorkflowState after TopicAnalyzerAgent execution:")
+        print(f"  Topic Analysis Results: {json.dumps(mock_state.topic_analysis_results, indent=2, ensure_ascii=False)}")
+        print(f"  Tasks added by agent: {json.dumps(mock_state.added_tasks, indent=2, ensure_ascii=False)}")
 
-        # Test case 1
-        topic1 = "介绍美国的ABMS系统"
-        print(f"\nAnalyzing topic: '{topic1}'")
-        analysis_result1 = analyzer_agent.run(user_topic=topic1)
-        print("Analysis Result 1:")
-        print(json.dumps(analysis_result1, indent=2, ensure_ascii=False))
+        assert mock_state.topic_analysis_results is not None
+        assert mock_state.topic_analysis_results['generalized_topic_cn'] == "先进战斗管理系统（ABMS）"
+        assert len(mock_state.added_tasks) == 1
+        assert mock_state.added_tasks[0]['type'] == TASK_TYPE_GENERATE_OUTLINE
+        assert mock_state.added_tasks[0]['payload']['topic_details'] == mock_state.topic_analysis_results
+        print("\nTopicAnalyzerAgent test successful with MockWorkflowState.")
 
-        # Test case 2
-        topic2 = "气候变化的影响"
-        print(f"\nAnalyzing topic: '{topic2}'")
-        analysis_result2 = analyzer_agent.run(user_topic=topic2)
-        print("Analysis Result 2:")
-        print(json.dumps(analysis_result2, indent=2, ensure_ascii=False))
-
-    except (LLMServiceError, TopicAnalyzerAgentError) as e:
-        print(f"Agent error: {e}")
     except Exception as e:
-        print(f"An unexpected error occurred: {e}")
+        print(f"Error during TopicAnalyzerAgent test: {e}")
         import traceback
         traceback.print_exc()
 
