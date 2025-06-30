@@ -148,27 +148,40 @@ class OutlineGeneratorAgent(BaseAgent):
             # Update WorkflowState
             workflow_state.update_outline(outline_markdown, parsed_outline_with_ids)
 
-            # Add tasks to process each chapter/section from the new outline
-            for item in workflow_state.parsed_outline: # Iterate over the newly set parsed_outline
-                chapter_key = item['id'] # This is the unique ID
-                chapter_title = item['title']
-                workflow_state.add_task(
-                    task_type=TASK_TYPE_PROCESS_CHAPTER, # This meta-task will trigger retrieval then writing
-                    payload={'chapter_key': chapter_key, 'chapter_title': chapter_title, 'level': item['level']},
-                    priority=3 # Assuming outline generation is priority 2
-                )
+            # Removed: Agent no longer adds PROCESS_CHAPTER tasks. MasterControlAgent will do this.
+            # for item in workflow_state.parsed_outline:
+            #     chapter_key = item['id']
+            #     chapter_title = item['title']
+            #     workflow_state.add_task(
+            #         task_type=TASK_TYPE_PROCESS_CHAPTER,
+            #         payload={'chapter_key': chapter_key, 'chapter_title': chapter_title, 'level': item['level']},
+            #         priority=3
+            #     )
 
             self._log_output({"markdown_outline": outline_markdown, "parsed_items_count": len(parsed_outline_with_ids)})
-            logger.info(f"Outline generation successful for '{topic_cn}'. {len(parsed_outline_with_ids)} chapter processing tasks added.")
+
+            task_id = workflow_state.current_processing_task_id
+            if task_id:
+                workflow_state.complete_task(task_id, f"Outline generation successful for '{topic_cn}'.")
+            else:
+                logger.error("OutlineGeneratorAgent: task_id not found in workflow_state to complete the task.")
+
+            logger.info(f"Outline generation successful for '{topic_cn}'. Outline stored in WorkflowState.")
 
         except LLMServiceError as e:
             workflow_state.log_event(f"LLM service error during outline generation for '{topic_cn}'", {"error": str(e)}, level="ERROR")
+            task_id = workflow_state.current_processing_task_id
+            if task_id: workflow_state.complete_task(task_id, f"LLM Error: {e}", status="failed")
             raise OutlineGeneratorAgentError(f"LLM service failed: {e}")
         except OutlineGeneratorAgentError as e:
             workflow_state.log_event(f"Outline generation failed for '{topic_cn}'", {"error": str(e)}, level="ERROR")
+            task_id = workflow_state.current_processing_task_id
+            if task_id: workflow_state.complete_task(task_id, f"Outline Gen Error: {e}", status="failed")
             raise
         except Exception as e:
             workflow_state.log_event(f"Unexpected error in OutlineGeneratorAgent for '{topic_cn}'", {"error": str(e)}, level="CRITICAL")
+            task_id = workflow_state.current_processing_task_id
+            if task_id: workflow_state.complete_task(task_id, f"Unexpected Error: {e}", status="failed")
             raise OutlineGeneratorAgentError(f"Unexpected error in outline generation: {e}")
 
 if __name__ == '__main__':

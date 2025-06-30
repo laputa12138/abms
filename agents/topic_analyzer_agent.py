@@ -83,24 +83,40 @@ class TopicAnalyzerAgent(BaseAgent):
             # Update WorkflowState
             workflow_state.update_topic_analysis(parsed_response)
 
-            # Add next task: Generate Outline
-            workflow_state.add_task(
-                task_type=TASK_TYPE_GENERATE_OUTLINE,
-                payload={'topic_details': parsed_response}, # Pass analysis results to next task
-                priority=2 # Assuming topic analysis is priority 1
-            )
+            # Removed: Agent no longer adds the next macro task. MasterControlAgent will do this.
+            # workflow_state.add_task(
+            #     task_type=TASK_TYPE_GENERATE_OUTLINE,
+            #     payload={'topic_details': parsed_response},
+            #     priority=2
+            # )
 
             self._log_output(parsed_response) # BaseAgent helper
-            logger.info(f"Topic analysis successful for '{user_topic}'. Next task (Generate Outline) added.")
+            # The agent now just completes its task. Orchestrator/MCA will decide what's next.
+            # The task_id for completion should be part of the task_payload or passed if Orchestrator handles it.
+            # For now, assuming task_id is implicitly workflow_state.current_processing_task_id
+            task_id = workflow_state.current_processing_task_id
+            if task_id:
+                 workflow_state.complete_task(task_id, f"Topic analysis successful for '{user_topic}'.")
+            else:
+                logger.error("TopicAnalyzerAgent: task_id not found in workflow_state to complete the task.")
+
+            logger.info(f"Topic analysis successful for '{user_topic}'. Results stored in WorkflowState.")
 
         except LLMServiceError as e:
             workflow_state.log_event(f"LLM service error during topic analysis for '{user_topic}'", {"error": str(e)}, level="ERROR")
+            # Ensure task is marked as failed in workflow_state
+            task_id = workflow_state.current_processing_task_id
+            if task_id: workflow_state.complete_task(task_id, f"LLM Error: {e}", status="failed")
             raise TopicAnalyzerAgentError(f"LLM service failed: {e}")
-        except TopicAnalyzerAgentError as e: # Catch our own errors for specific logging
+        except TopicAnalyzerAgentError as e:
             workflow_state.log_event(f"Topic analysis failed for '{user_topic}'", {"error": str(e)}, level="ERROR")
-            raise # Re-raise to be caught by pipeline
+            task_id = workflow_state.current_processing_task_id
+            if task_id: workflow_state.complete_task(task_id, f"Analysis Error: {e}", status="failed")
+            raise
         except Exception as e:
             workflow_state.log_event(f"Unexpected error in TopicAnalyzerAgent for '{user_topic}'", {"error": str(e)}, level="CRITICAL")
+            task_id = workflow_state.current_processing_task_id
+            if task_id: workflow_state.complete_task(task_id, f"Unexpected Error: {e}", status="failed")
             raise TopicAnalyzerAgentError(f"Unexpected error in topic analysis: {e}")
 
 if __name__ == '__main__':
