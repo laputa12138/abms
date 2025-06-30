@@ -4,7 +4,7 @@ from typing import Dict, Any, Optional
 from core.workflow_state import WorkflowState, TASK_TYPE_ANALYZE_TOPIC, \
     TASK_TYPE_GENERATE_OUTLINE, TASK_TYPE_PROCESS_CHAPTER, TASK_TYPE_RETRIEVE_FOR_CHAPTER, \
     TASK_TYPE_WRITE_CHAPTER, TASK_TYPE_EVALUATE_CHAPTER, TASK_TYPE_REFINE_CHAPTER, \
-    TASK_TYPE_COMPILE_REPORT, STATUS_COMPLETED, STATUS_ERROR
+    TASK_TYPE_COMPILE_REPORT, STATUS_COMPLETED, STATUS_ERROR, STATUS_PENDING
 # Import all agent classes
 from agents.topic_analyzer_agent import TopicAnalyzerAgent
 from agents.outline_generator_agent import OutlineGeneratorAgent
@@ -82,8 +82,7 @@ class Orchestrator:
             except Exception as e: # Catch errors from agent execution
                 logger.error(f"Error executing task {task_type} ({task_id}) with agent {getattr(agent, 'agent_name', 'UnknownAgent')}: {e}", exc_info=True)
                 self.workflow_state.log_event(f"Agent execution error for task {task_type} ({task_id})",
-                                             {"error": str(e), "agent": getattr(agent, 'agent_name', 'UnknownAgent')},
-                                             level="CRITICAL")
+                                             {"error": str(e), "agent": getattr(agent, 'agent_name', 'UnknownAgent'), "level": "CRITICAL"})
                 self.workflow_state.complete_task(task_id, f"Agent failed: {e}", status='failed')
                 if 'chapter_key' in payload:
                     self.workflow_state.add_chapter_error(payload['chapter_key'], f"Agent {task_type} failed: {e}")
@@ -103,7 +102,7 @@ class Orchestrator:
 
         else:
             logger.warning(f"No agent or direct handler registered for task type: {task_type} (task_id: {task_id}).")
-            self.workflow_state.log_event(f"Unknown task type: {task_type}", {"task_id": task_id}, level="ERROR")
+            self.workflow_state.log_event(f"Unknown task type: {task_type}", {"task_id": task_id, "level": "ERROR"})
             self.workflow_state.complete_task(task_id, f"Unknown task type {task_type}", status='failed')
 
 
@@ -116,7 +115,7 @@ class Orchestrator:
 
         while not self.workflow_state.get_flag('report_generation_complete', False):
             if iteration_count >= self.max_workflow_iterations:
-                self.workflow_state.log_event("Max workflow iterations reached by Orchestrator. Halting.", level="ERROR")
+                self.workflow_state.log_event("Max workflow iterations reached by Orchestrator. Halting.", {"level": "ERROR"})
                 self.workflow_state.set_flag('report_generation_complete', True) # Force stop
                 break
 
@@ -141,8 +140,8 @@ class Orchestrator:
                     self.workflow_state.log_event("Task queue empty, but report not complete and compilation not triggerable yet. Checking for stall.",
                                                  {"all_chapters_done": self.workflow_state.are_all_chapters_completed(),
                                                   "outline_finalized": self.workflow_state.get_flag('outline_finalized'),
-                                                  "compilation_requested": self.workflow_state.get_flag('report_compilation_requested')},
-                                                 level="WARNING")
+                                                  "compilation_requested": self.workflow_state.get_flag('report_compilation_requested'),
+                                                  "level": "WARNING"})
                     # Break if it seems stuck (e.g., after a few iterations with no tasks)
                     # This needs a more robust stall detection or timeout.
                     # For now, if the queue is empty and compilation isn't the next step, we might be done or stuck.
