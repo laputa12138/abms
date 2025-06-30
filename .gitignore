@@ -84,3 +84,7 @@ output/*
 .env
 .env.*
 !.env.example # Often an example .env file is versioned
+
+vector_store/
+*.faiss
+*.meta.json
