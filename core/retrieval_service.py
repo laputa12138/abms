@@ -188,7 +188,16 @@ class RetrievalService:
             # Keep track of original full data to re-associate
             original_items_before_rerank = list(scored_results) # shallow copy
             try:
-                reranked_outputs = self.reranker_service.rerank(query=query_text, documents=parents_for_reranking, top_n=final_top_n) # Reranker handles top_n
+                # Add batch_size argument. Using a default of 4 for now.
+                # This could be made configurable via settings and pipeline parameters later if needed.
+                RERANKER_BATCH_SIZE = 4
+                logger.debug(f"Calling reranker service with batch_size = {RERANKER_BATCH_SIZE}")
+                reranked_outputs = self.reranker_service.rerank(
+                    query=query_text,
+                    documents=parents_for_reranking,
+                    top_n=final_top_n, # Reranker's top_n is applied after batch processing
+                    batch_size=RERANKER_BATCH_SIZE
+                )
 
                 temp_reranked_list = []
                 for reranked_item_from_service in reranked_outputs:
