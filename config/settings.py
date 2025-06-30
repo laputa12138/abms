@@ -26,11 +26,11 @@ DEFAULT_CHUNK_OVERLAP = int(os.getenv("DEFAULT_CHUNK_OVERLAP", "100")) # General
 
 # Parent-Child Chunking Configuration
 # For parent chunks, aim for larger, context-rich segments (e.g., paragraphs)
-DEFAULT_PARENT_CHUNK_SIZE = int(os.getenv("DEFAULT_PARENT_CHUNK_SIZE", "2000")) # Target characters per parent chunk
+DEFAULT_PARENT_CHUNK_SIZE = int(os.getenv("DEFAULT_PARENT_CHUNK_SIZE", "4000")) # Target characters per parent chunk
 DEFAULT_PARENT_CHUNK_OVERLAP = int(os.getenv("DEFAULT_PARENT_CHUNK_OVERLAP", "200")) # Overlap for parent chunks
 # For child chunks, aim for smaller, more focused segments (e.g., sentences or few sentences)
-DEFAULT_CHILD_CHUNK_SIZE = int(os.getenv("DEFAULT_CHILD_CHUNK_SIZE", "400"))  # Target characters per child chunk
-DEFAULT_CHILD_CHUNK_OVERLAP = int(os.getenv("DEFAULT_CHILD_CHUNK_OVERLAP", "40"))   # Overlap for child chunks
+DEFAULT_CHILD_CHUNK_SIZE = int(os.getenv("DEFAULT_CHILD_CHUNK_SIZE", "500"))  # Target characters per child chunk
+DEFAULT_CHILD_CHUNK_OVERLAP = int(os.getenv("DEFAULT_CHILD_CHUNK_OVERLAP", "50"))   # Overlap for child chunks
 # Separators can be used for more semantic chunking. E.g., "\n\n" for paragraphs.
 # If using NLTK for sentence tokenization, this might not be directly used for child chunks,
 # but could be for parent chunks or as a fallback.
@@ -42,7 +42,8 @@ DEFAULT_CHILD_CHUNK_OVERLAP = int(os.getenv("DEFAULT_CHILD_CHUNK_OVERLAP", "40")
 SUPPORTED_DOC_EXTENSIONS = [".pdf", ".docx", ".txt"]
 
 # Vector Store Configuration
-DEFAULT_VECTOR_STORE_TOP_K = int(os.getenv("DEFAULT_VECTOR_STORE_TOP_K", "5")) # Number of documents to retrieve from vector search
+DEFAULT_VECTOR_STORE_TOP_K = int(os.getenv("DEFAULT_VECTOR_STORE_TOP_K", "10")) # Number of documents to retrieve from vector search
+DEFAULT_VECTOR_STORE_PATH = "/home/ISTIC_0/abms/vector_store"
 
 # Hybrid Search Configuration
 # Alpha parameter for blending vector search and keyword search scores.

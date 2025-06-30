@@ -100,7 +100,7 @@ class ReportCompilerAgent(BaseAgent):
         toc += "\n---\n"
         return toc
 
-    def compile_report_from_context(self, report_context: Dict[str, Any]) -> str:
+    def compile_report_from_context(self, report_context: Dict[str, any]) -> str:
         """
         Compiles the report using data prepared by WorkflowState.get_full_report_context_for_compilation().
         This is the main method called by the pipeline's task handler.

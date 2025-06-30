@@ -37,7 +37,7 @@ class EvaluatorAgent(BaseAgent):
 总评分范围为0-100分。反馈意见应具体指出优点和需要改进的地方。
 
 JSON输出格式：
-{
+{{
   "score": <总评分，整数>,
   "feedback_cn": "具体的中文反馈意见，包括优点和改进建议。",
   "evaluation_criteria_met": {
@@ -45,8 +45,7 @@ JSON输出格式：
     "fluency": "<关于流畅性的简短评价，例如：优秀/良好/一般/较差，具体说明>",
     "completeness": "<关于完整性的简短评价，例如：非常全面/基本全面/部分缺失/严重缺失，具体说明>",
     "accuracy": "<关于准确性的简短评价（基于常识），例如：高/待核实/部分存疑/低，具体说明>"
-  }
-}
+}}
 """
     # Arbitrary score threshold for deciding if refinement is needed
     REFINEMENT_SCORE_THRESHOLD = 80

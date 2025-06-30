@@ -3,6 +3,7 @@ import logging
 import os
 import sys
 from datetime import datetime
+from typing import Optional
 
 # Ensure the project root is in PYTHONPATH
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '.'))

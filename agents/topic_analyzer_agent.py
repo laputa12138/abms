@@ -23,12 +23,12 @@ class TopicAnalyzerAgent(BaseAgent):
 用户主题：'{user_topic}'
 
 请严格按照以下JSON格式返回结果，不要添加任何额外的解释或说明文字：
-{
+{{
   "generalized_topic_cn": "泛化后的中文主题",
   "generalized_topic_en": "Generalized English Topic",
   "keywords_cn": ["中文关键词1", "中文关键词2", "中文关键词3"],
   "keywords_en": ["English Keyword1", "English Keyword2", "English Keyword3"]
-}
+}}
 """
 
     def __init__(self, llm_service: LLMService, prompt_template: Optional[str] = None):
@@ -55,6 +55,10 @@ class TopicAnalyzerAgent(BaseAgent):
 
         self._log_input(user_topic=user_topic) # BaseAgent helper
 
+        # print
+        print('--' * 20)
+        print(f"TopicAnalyzerAgent executing for user topic: '{user_topic}'")
+        print('--' * 20)
         prompt = self.prompt_template.format(user_topic=user_topic)
 
         try:
