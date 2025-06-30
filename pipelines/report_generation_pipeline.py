@@ -148,9 +148,9 @@ class ReportGenerationPipeline:
                         loaded_from_file = True
                         self.workflow_state.log_event(f"Successfully loaded VectorStore. {self.vector_store.count_child_chunks} child chunks.")
                     else:
-                        self.workflow_state.log_event("Loaded VectorStore files but store is empty. Will re-process.", level="WARNING")
+                        self.workflow_state.log_event("Loaded VectorStore files but store is empty. Will re-process.", {"level": "WARNING"})
                 except Exception as e:
-                    self.workflow_state.log_event(f"Failed to load existing VectorStore from {self.index_name}: {e}. Will re-process.", level="WARNING")
+                    self.workflow_state.log_event(f"Failed to load existing VectorStore from {self.index_name}: {e}. Will re-process.", {"level": "WARNING"})
             else:
                 self.workflow_state.log_event(f"No existing index found for '{self.index_name}' at '{vs_dir}'. Will process documents from data_path.")
 
@@ -174,7 +174,7 @@ class ReportGenerationPipeline:
                     all_parent_child_data.extend(parent_child_chunks)
                     processed_file_count +=1
                 except Exception as e:
-                    self.workflow_state.log_event(f"Error processing file {file_path}", {"error": str(e)}, level="ERROR")
+                    self.workflow_state.log_event(f"Error processing file {file_path}", {"error": str(e), "level": "ERROR"})
 
             if not all_parent_child_data:
                 raise ReportGenerationPipelineError("No usable content extracted/chunked from data_path to build a new index.")
@@ -194,7 +194,7 @@ class ReportGenerationPipeline:
                 self.vector_store.save_store(save_faiss_path, save_meta_path)
                 self.workflow_state.log_event(f"New VectorStore saved: index='{save_faiss_path}', meta='{save_meta_path}'")
             except Exception as e:
-                 self.workflow_state.log_event(f"Failed to save new VectorStore: {e}. Processing will continue with in-memory store.", level="ERROR")
+                 self.workflow_state.log_event(f"Failed to save new VectorStore: {e}. Processing will continue with in-memory store.", {"level": "ERROR"})
 
         self.workflow_state.set_flag('data_loaded', True)
 
@@ -207,7 +207,7 @@ class ReportGenerationPipeline:
             self.workflow_state.log_event(f"BM25 index built with {len(tokenized_corpus)} child chunks.")
         else:
             self.bm25_index = None
-            self.workflow_state.log_event("No child chunks available to build BM25 index.", level="WARNING")
+            self.workflow_state.log_event("No child chunks available to build BM25 index.", {"level": "WARNING"})
 
         self._initialize_retrieval_and_orchestration_components()
 
@@ -221,7 +221,7 @@ class ReportGenerationPipeline:
         try:
             self._process_and_load_data(data_path)
         except Exception as e:
-            self.workflow_state.log_event(f"Critical error during data processing: {e}", {"level": "CRITICAL"},)
+            self.workflow_state.log_event(f"Critical error during data processing: {e}", {"level": "CRITICAL", "details": str(e)})
             self.workflow_state.set_flag('report_generation_complete', True)
             self.workflow_state.increment_error_count()
             logger.error(f"Pipeline run failed during data processing: {e}", exc_info=True)
@@ -230,7 +230,7 @@ class ReportGenerationPipeline:
 
         if not self.orchestrator:
             msg = "Orchestrator not initialized. This is a critical error in pipeline setup."
-            self.workflow_state.log_event(msg, level="CRITICAL")
+            self.workflow_state.log_event(msg, {"level": "CRITICAL"})
             raise ReportGenerationPipelineError(msg)
 
         self.workflow_state.add_task(TASK_TYPE_ANALYZE_TOPIC, payload={'user_topic': user_topic}, priority=0)
@@ -238,7 +238,7 @@ class ReportGenerationPipeline:
         try:
             self.orchestrator.coordinate_workflow()
         except Exception as e:
-            self.workflow_state.log_event(f"Critical error during workflow coordination: {e}", {"level": "CRITICAL"})
+            self.workflow_state.log_event(f"Critical error during workflow coordination: {e}", {"level": "CRITICAL", "details": str(e)})
             self.workflow_state.set_flag('report_generation_complete', True) # Ensure loop terminates
             self.workflow_state.increment_error_count()
             logger.error(f"Orchestrator failed: {e}", exc_info=True)
@@ -249,7 +249,7 @@ class ReportGenerationPipeline:
             self.workflow_state.log_event("Report generation process concluded successfully.")
             return final_report_md
         else:
-            self.workflow_state.log_event("Report generation failed or did not produce a complete report.", level="ERROR")
+            self.workflow_state.log_event("Report generation failed or did not produce a complete report.", {"level": "ERROR"})
             error_summary = "Workflow finished without generating a report. Check logs. "
             if self.workflow_state.error_count > 0: error_summary += f"Total errors: {self.workflow_state.error_count}. "
             log_path_info = self.workflow_state.get_flag('log_file_path', 'log file (path not set)') if self.workflow_state else 'log file'
