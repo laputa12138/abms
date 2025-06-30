@@ -5,10 +5,7 @@ from rank_bm25 import BM25Okapi
 
 from core.vector_store import VectorStore, VectorStoreError
 from core.reranker_service import RerankerService, RerankerServiceError
-# Assuming settings will be accessed for defaults if not passed directly,
-# or that defaults are handled by the caller (e.g., ContentRetrieverAgent or Pipeline)
-# For now, let's make parameters explicit in the retrieve method.
-# from config.settings import (...)
+from config import settings # Import settings for reranker defaults
 
 logger = logging.getLogger(__name__)
 
@@ -188,15 +185,15 @@ class RetrievalService:
             # Keep track of original full data to re-associate
             original_items_before_rerank = list(scored_results) # shallow copy
             try:
-                # Add batch_size argument. Using a default of 4 for now.
-                # This could be made configurable via settings and pipeline parameters later if needed.
-                RERANKER_BATCH_SIZE = 4
-                logger.debug(f"Calling reranker service with batch_size = {RERANKER_BATCH_SIZE}")
+                # Use batch_size and max_text_length from settings
+                logger.debug(f"Calling reranker service with batch_size from settings ({settings.DEFAULT_RERANKER_BATCH_SIZE}) "
+                             f"and max_text_length from settings ({settings.DEFAULT_RERANKER_MAX_TEXT_LENGTH})")
                 reranked_outputs = self.reranker_service.rerank(
                     query=query_text,
                     documents=parents_for_reranking,
-                    top_n=final_top_n, # Reranker's top_n is applied after batch processing
-                    batch_size=RERANKER_BATCH_SIZE
+                    top_n=final_top_n, # Reranker's top_n is applied after batch processing and sorting
+                    batch_size=settings.DEFAULT_RERANKER_BATCH_SIZE,
+                    max_text_length=settings.DEFAULT_RERANKER_MAX_TEXT_LENGTH
                 )
 
                 temp_reranked_list = []
