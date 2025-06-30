@@ -36,21 +36,23 @@ class RerankerService:
             logger.error(f"Failed to initialize Xinference client or load reranker model {self.model_name} from {self.api_url}: {e}")
             raise RerankerServiceError(f"Xinference client/reranker model initialization failed: {e}")
 
-    def rerank(self, query: str, documents: list[str], top_n: int = None) -> list[dict]:
+    def rerank(self, query: str, documents: list[str], top_n: int = None, batch_size: int = 4) -> list[dict]:
         """
-        Reranks a list of documents based on a query.
+        Reranks a list of documents based on a query, processing in batches.
 
         Args:
             query (str): The query string.
             documents (list[str]): A list of documents (strings) to be reranked.
-            top_n (int, optional): The number of top documents to return.
+            top_n (int, optional): The number of top documents to return after processing all batches.
                                    If None, returns all reranked documents.
+            batch_size (int): The number of documents to send to the reranker model in each batch.
 
         Returns:
             list[dict]: A list of reranked results, typically containing 'index',
                         'relevance_score', and potentially 'document'. The 'document'
                         field in the response from Xinference is often None, so we
                         will augment it with the original document content.
+                        The 'original_index' refers to the index in the input 'documents' list.
 
         Raises:
             RerankerServiceError: If the rerank request fails or the response is malformed.
@@ -59,45 +61,69 @@ class RerankerService:
             logger.warning("rerank called with empty query or documents.")
             return []
 
-        logger.info(f"Requesting rerank for query '{query}' with {len(documents)} documents using model {self.model_name}.")
+        if batch_size <= 0:
+            logger.warning(f"rerank called with invalid batch_size {batch_size}. Defaulting to 1.")
+            batch_size = 1
 
-        try:
-            # The Xinference rerank method expects 'corpus' for documents.
-            response = self.model.rerank(
-                documents=documents, # In Xinference SDK `rerank` method, this parameter is `documents`
-                query=query,
-                top_n=top_n
-            )
+        num_documents = len(documents)
+        logger.info(f"Requesting rerank for query '{query}' with {num_documents} documents using model {self.model_name}, batch_size={batch_size}.")
 
-            if response and "results" in response and isinstance(response["results"], list):
-                reranked_results = []
-                for result in response["results"]:
-                    if isinstance(result, dict) and "index" in result and "relevance_score" in result:
-                        original_document_index = result["index"]
-                        # Augment the result with the original document text
-                        # as Xinference response might have 'document': None
-                        reranked_results.append({
-                            "document": documents[original_document_index],
-                            "relevance_score": result["relevance_score"],
-                            "original_index": original_document_index # Keep original index if needed elsewhere
-                        })
-                    else:
-                        logger.warning(f"Skipping malformed result item in reranker response: {result}")
+        all_batched_results = []
 
-                # Sort by relevance_score descending if not already sorted by the model
-                reranked_results.sort(key=lambda x: x["relevance_score"], reverse=True)
+        for i in range(0, num_documents, batch_size):
+            batch_documents = documents[i:i + batch_size]
+            batch_original_indices = list(range(i, min(i + batch_size, num_documents)))
 
-                logger.info(f"Successfully reranked {len(documents)} documents. Returned {len(reranked_results)} results.")
-                return reranked_results
-            else:
-                logger.error(f"No valid 'results' in reranker model response. Response: {response}")
-                raise RerankerServiceError("No valid 'results' in reranker model response.")
-        except Exception as e:
-            logger.error(f"Error during rerank operation: {e}")
-            # Check if the parameters are mismatched based on SDK version
-            if "unexpected keyword argument 'corpus'" in str(e) or "unexpected keyword argument 'documents'" in str(e):
-                 logger.warning("The error might indicate a mismatch in parameter names for the rerank method (e.g., 'corpus' vs 'documents'). Check Xinference SDK version.")
-            raise RerankerServiceError(f"Rerank operation failed: {e}")
+            logger.debug(f"Processing batch {i//batch_size + 1}: documents {i} to {min(i + batch_size, num_documents) - 1}")
+
+            try:
+                # The Xinference rerank method expects 'documents' as the parameter name.
+                # It does not have a top_n parameter at the batch level; top_n is applied globally later.
+                response = self.model.rerank(
+                    documents=batch_documents,
+                    query=query
+                    # top_n is not applied per batch, but to the final aggregated list
+                )
+
+                if response and "results" in response and isinstance(response["results"], list):
+                    for result_item in response["results"]:
+                        if isinstance(result_item, dict) and "index" in result_item and "relevance_score" in result_item:
+                            # 'index' from Xinference is the index within the current batch_documents
+                            batch_internal_index = result_item["index"]
+                            # Map it back to the original index in the input 'documents' list
+                            original_document_index = batch_original_indices[batch_internal_index]
+
+                            all_batched_results.append({
+                                "document": documents[original_document_index], # Get original document text
+                                "relevance_score": result_item["relevance_score"],
+                                "original_index": original_document_index
+                            })
+                        else:
+                            logger.warning(f"Skipping malformed result item in reranker batch response: {result_item}")
+                else:
+                    logger.error(f"No valid 'results' in reranker model response for batch. Response: {response}")
+                    # Depending on desired robustness, could continue or raise error.
+                    # For now, let's log and continue, results might be partial.
+                    # If a single batch fails, it might be better to raise RerankerServiceError.
+                    # Let's assume for now that a partial failure means we can't trust the overall reranking.
+                    raise RerankerServiceError(f"No valid 'results' in reranker model response for batch {i//batch_size + 1}.")
+
+            except Exception as e:
+                logger.error(f"Error during rerank operation for batch {i//batch_size + 1}: {e}")
+                if "unexpected keyword argument 'corpus'" in str(e) or "unexpected keyword argument 'documents'" in str(e):
+                     logger.warning("The error might indicate a mismatch in parameter names for the rerank method (e.g., 'corpus' vs 'documents'). Check Xinference SDK version.")
+                raise RerankerServiceError(f"Rerank operation failed for batch: {e}")
+
+        # Sort all collected results by relevance_score in descending order
+        all_batched_results.sort(key=lambda x: x["relevance_score"], reverse=True)
+
+        # Apply top_n to the sorted, aggregated list
+        final_results = all_batched_results
+        if top_n is not None and top_n > 0:
+            final_results = all_batched_results[:top_n]
+
+        logger.info(f"Successfully reranked {num_documents} documents in batches. Returned {len(final_results)} final results.")
+        return final_results
 
 if __name__ == '__main__':
     # This is an example of how to use the RerankerService.
