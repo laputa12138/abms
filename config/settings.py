@@ -1,73 +1,94 @@
 import os
 
-# Xinference API Configuration
-XINFERENCE_API_URL = os.getenv("XINFERENCE_API_URL", "http://124.128.251.61:1874") # 使用您提供的默认URL
+# ==============================================================================
+# Xinference 服务配置 (Xinference Service Configuration)
+# ==============================================================================
+XINFERENCE_API_URL = os.getenv("XINFERENCE_API_URL", "http://124.128.251.61:1874") # Xinference API 服务器 URL
 
-# LLM Configuration
-DEFAULT_LLM_MODEL_NAME = os.getenv("DEFAULT_LLM_MODEL_NAME", "qwen3")
-DEFAULT_LLM_MAX_TOKENS = int(os.getenv("DEFAULT_LLM_MAX_TOKENS", "14000"))
-DEFAULT_LLM_TEMPERATURE = float(os.getenv("DEFAULT_LLM_TEMPERATURE", "0.6"))
-DEFAULT_LLM_TOP_P = float(os.getenv("DEFAULT_LLM_TOP_P", "0.95"))
-DEFAULT_LLM_ENABLE_THINKING = os.getenv("DEFAULT_LLM_ENABLE_THINKING", "True").lower() == "true"
-DEFAULT_LLM_TOP_K = int(os.getenv("DEFAULT_LLM_TOP_K", "20"))
-DEFAULT_LLM_MIN_P = float(os.getenv("DEFAULT_LLM_MIN_P", "0"))
+# ==============================================================================
+# 大语言模型 (LLM) 配置 (Large Language Model Configuration)
+# ==============================================================================
+DEFAULT_LLM_MODEL_NAME = os.getenv("DEFAULT_LLM_MODEL_NAME", "qwen3") # 默认 LLM 模型名称
+DEFAULT_LLM_MAX_TOKENS = int(os.getenv("DEFAULT_LLM_MAX_TOKENS", "14000")) # LLM 生成时最大 token 数量
+DEFAULT_LLM_TEMPERATURE = float(os.getenv("DEFAULT_LLM_TEMPERATURE", "0.6")) # LLM 生成温度
+DEFAULT_LLM_TOP_P = float(os.getenv("DEFAULT_LLM_TOP_P", "0.95")) # LLM nucleus sampling (top-p) 参数
+DEFAULT_LLM_ENABLE_THINKING = os.getenv("DEFAULT_LLM_ENABLE_THINKING", "True").lower() == "true" # 是否启用 LLM 的 "思考" 模式 (如果模型支持)
+DEFAULT_LLM_TOP_K = int(os.getenv("DEFAULT_LLM_TOP_K", "20")) # LLM top-k 采样参数
+DEFAULT_LLM_MIN_P = float(os.getenv("DEFAULT_LLM_MIN_P", "0")) # LLM min-p 采样参数 (一些模型可能支持)
 
+# ==============================================================================
+# 词嵌入模型配置 (Embedding Model Configuration)
+# ==============================================================================
+DEFAULT_EMBEDDING_MODEL_NAME = os.getenv("DEFAULT_EMBEDDING_MODEL_NAME", "Qwen3-Embedding-0.6B") # 默认词嵌入模型名称
 
-# Embedding Model Configuration
-DEFAULT_EMBEDDING_MODEL_NAME = os.getenv("DEFAULT_EMBEDDING_MODEL_NAME", "Qwen3-Embedding-0.6B")
+# ==============================================================================
+# Reranker 模型配置 (Reranker Model Configuration)
+# ==============================================================================
+DEFAULT_RERANKER_MODEL_NAME = os.getenv("DEFAULT_RERANKER_MODEL_NAME", "Qwen3-Reranker-0.6B") # 默认 Reranker 模型名称
+DEFAULT_RERANKER_BATCH_SIZE = int(os.getenv("DEFAULT_RERANKER_BATCH_SIZE", "4")) # Reranker 处理文档时的批次大小
+DEFAULT_RERANKER_MAX_TEXT_LENGTH = int(os.getenv("DEFAULT_RERANKER_MAX_TEXT_LENGTH", "1024")) # 发送给 Reranker 的文档最大字符长度 (超长会截断)
 
-# Reranker Model Configuration
-DEFAULT_RERANKER_MODEL_NAME = os.getenv("DEFAULT_RERANKER_MODEL_NAME", "Qwen3-Reranker-0.6B")
+# ==============================================================================
+# 文档处理配置 (Document Processing Configuration)
+# ==============================================================================
+# --- 通用分块设置 (General Chunking Settings) ---
+# (如果未使用父子分块，则为后备设置)
+DEFAULT_CHUNK_SIZE = int(os.getenv("DEFAULT_CHUNK_SIZE", "1000")) # 通用分块大小 (字符数)
+DEFAULT_CHUNK_OVERLAP = int(os.getenv("DEFAULT_CHUNK_OVERLAP", "100")) # 通用分块重叠大小 (字符数)
 
-# Document Processing Configuration
-# General settings (can be overridden by parent/child specific if they are used)
-DEFAULT_CHUNK_SIZE = int(os.getenv("DEFAULT_CHUNK_SIZE", "1000")) # General fallback if not using parent-child
-DEFAULT_CHUNK_OVERLAP = int(os.getenv("DEFAULT_CHUNK_OVERLAP", "100")) # General fallback
+# --- 父子分块配置 (Parent-Child Chunking Configuration) ---
+# 父块旨在包含更丰富的上下文 (例如段落)
+DEFAULT_PARENT_CHUNK_SIZE = int(os.getenv("DEFAULT_PARENT_CHUNK_SIZE", "4000")) # 父块目标字符数
+DEFAULT_PARENT_CHUNK_OVERLAP = int(os.getenv("DEFAULT_PARENT_CHUNK_OVERLAP", "200")) # 父块重叠字符数
+# 子块旨在包含更小、更集中的片段 (例如句子或少量句子)
+DEFAULT_CHILD_CHUNK_SIZE = int(os.getenv("DEFAULT_CHILD_CHUNK_SIZE", "500"))  # 子块目标字符数
+DEFAULT_CHILD_CHUNK_OVERLAP = int(os.getenv("DEFAULT_CHILD_CHUNK_OVERLAP", "50"))   # 子块重叠字符数
+# 注意: 分隔符可用于更语义化的分块 (例如, "\n\n" 代表段落)。
+# 如果使用 NLTK 进行句子切分，这可能不直接用于子块，但可用于父块或作为后备。
+# 为简单起见，目前主要依赖大小进行分块。
 
-# Parent-Child Chunking Configuration
-# For parent chunks, aim for larger, context-rich segments (e.g., paragraphs)
-DEFAULT_PARENT_CHUNK_SIZE = int(os.getenv("DEFAULT_PARENT_CHUNK_SIZE", "4000")) # Target characters per parent chunk
-DEFAULT_PARENT_CHUNK_OVERLAP = int(os.getenv("DEFAULT_PARENT_CHUNK_OVERLAP", "200")) # Overlap for parent chunks
-# For child chunks, aim for smaller, more focused segments (e.g., sentences or few sentences)
-DEFAULT_CHILD_CHUNK_SIZE = int(os.getenv("DEFAULT_CHILD_CHUNK_SIZE", "500"))  # Target characters per child chunk
-DEFAULT_CHILD_CHUNK_OVERLAP = int(os.getenv("DEFAULT_CHILD_CHUNK_OVERLAP", "50"))   # Overlap for child chunks
-# Separators can be used for more semantic chunking. E.g., "\n\n" for paragraphs.
-# If using NLTK for sentence tokenization, this might not be directly used for child chunks,
-# but could be for parent chunks or as a fallback.
-# For simplicity, we might primarily rely on size for now, but a regex could be an option.
-# Example: DEFAULT_CHUNK_SEPARATOR_REGEX = os.getenv("DEFAULT_CHUNK_SEPARATOR_REGEX", "\\n\\n")
-# For sentence-based child chunking, NLTK will be used, so regex might be less critical here.
+# --- 支持的文档类型 (Supported Document Types) ---
+SUPPORTED_DOC_EXTENSIONS = [".pdf", ".docx", ".txt"] # 支持处理的文档扩展名
 
-# Supported document types for processing
-SUPPORTED_DOC_EXTENSIONS = [".pdf", ".docx", ".txt"]
+# ==============================================================================
+# 向量存储配置 (Vector Store Configuration)
+# ==============================================================================
+DEFAULT_VECTOR_STORE_TOP_K = int(os.getenv("DEFAULT_VECTOR_STORE_TOP_K", "10")) # 向量搜索时检索的文档数量
+DEFAULT_VECTOR_STORE_PATH = os.getenv("DEFAULT_VECTOR_STORE_PATH", "/home/ISTIC_0/abms/vector_store") # 向量存储索引文件的默认保存路径
 
-# Vector Store Configuration
-DEFAULT_VECTOR_STORE_TOP_K = int(os.getenv("DEFAULT_VECTOR_STORE_TOP_K", "10")) # Number of documents to retrieve from vector search
-DEFAULT_VECTOR_STORE_PATH = "/home/ISTIC_0/abms/vector_store"
-
-# Hybrid Search Configuration
-# Alpha parameter for blending vector search and keyword search scores.
-# Alpha = 1.0 means pure vector search, Alpha = 0.0 means pure keyword search.
+# ==============================================================================
+# 混合搜索配置 (Hybrid Search Configuration)
+# ==============================================================================
+# 用于混合向量搜索和关键字搜索分数的 Alpha 参数。
+# Alpha = 1.0 表示纯向量搜索，Alpha = 0.0 表示纯关键字搜索。
 DEFAULT_HYBRID_SEARCH_ALPHA = float(os.getenv("DEFAULT_HYBRID_SEARCH_ALPHA", "0.5"))
-# Top K for keyword search (BM25) before fusion, can be different from vector search K
+# 融合前关键字搜索 (BM25) 的 Top K 数量，可以与向量搜索的 K 不同。
 DEFAULT_KEYWORD_SEARCH_TOP_K = int(os.getenv("DEFAULT_KEYWORD_SEARCH_TOP_K", "10"))
 
+# ==============================================================================
+# Pipeline (工作流) 配置 (Pipeline Configuration)
+# ==============================================================================
+DEFAULT_MAX_REFINEMENT_ITERATIONS = int(os.getenv("DEFAULT_MAX_REFINEMENT_ITERATIONS", "1")) # 每个章节内容的最大精炼迭代次数
 
-# Pipeline Configuration
-DEFAULT_MAX_REFINEMENT_ITERATIONS = int(os.getenv("DEFAULT_MAX_REFINEMENT_ITERATIONS", "1")) # Number of refinement loops
+# ==============================================================================
+# 日志配置 (Logging Configuration)
+# ==============================================================================
+LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO").upper() # 日志级别 (DEBUG, INFO, WARNING, ERROR, CRITICAL)
 
-# Logging Configuration
-LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO").upper()
 
-# Example of how to use these settings in other modules:
+# ==============================================================================
+# 使用示例 (Example of how to use these settings)
+# ==============================================================================
 # from config.settings import XINFERENCE_API_URL, DEFAULT_LLM_MODEL_NAME
 #
 # client = Client(XINFERENCE_API_URL)
 # model = client.get_model(DEFAULT_LLM_MODEL_NAME)
 
 if __name__ == '__main__':
-    # Print out all settings for verification
+    print("--- Xinference 服务配置 ---")
     print(f"XINFERENCE_API_URL: {XINFERENCE_API_URL}")
+
+    print("\n--- 大语言模型 (LLM) 配置 ---")
     print(f"DEFAULT_LLM_MODEL_NAME: {DEFAULT_LLM_MODEL_NAME}")
     print(f"DEFAULT_LLM_MAX_TOKENS: {DEFAULT_LLM_MAX_TOKENS}")
     print(f"DEFAULT_LLM_TEMPERATURE: {DEFAULT_LLM_TEMPERATURE}")
@@ -75,17 +96,34 @@ if __name__ == '__main__':
     print(f"DEFAULT_LLM_ENABLE_THINKING: {DEFAULT_LLM_ENABLE_THINKING}")
     print(f"DEFAULT_LLM_TOP_K: {DEFAULT_LLM_TOP_K}")
     print(f"DEFAULT_LLM_MIN_P: {DEFAULT_LLM_MIN_P}")
+
+    print("\n--- 词嵌入模型配置 ---")
     print(f"DEFAULT_EMBEDDING_MODEL_NAME: {DEFAULT_EMBEDDING_MODEL_NAME}")
+
+    print("\n--- Reranker 模型配置 ---")
     print(f"DEFAULT_RERANKER_MODEL_NAME: {DEFAULT_RERANKER_MODEL_NAME}")
-    print(f"DEFAULT_CHUNK_SIZE (general): {DEFAULT_CHUNK_SIZE}")
-    print(f"DEFAULT_CHUNK_OVERLAP (general): {DEFAULT_CHUNK_OVERLAP}")
+    print(f"DEFAULT_RERANKER_BATCH_SIZE: {DEFAULT_RERANKER_BATCH_SIZE}")
+    print(f"DEFAULT_RERANKER_MAX_TEXT_LENGTH: {DEFAULT_RERANKER_MAX_TEXT_LENGTH}")
+
+    print("\n--- 文档处理配置 ---")
+    print(f"DEFAULT_CHUNK_SIZE (通用): {DEFAULT_CHUNK_SIZE}")
+    print(f"DEFAULT_CHUNK_OVERLAP (通用): {DEFAULT_CHUNK_OVERLAP}")
     print(f"DEFAULT_PARENT_CHUNK_SIZE: {DEFAULT_PARENT_CHUNK_SIZE}")
     print(f"DEFAULT_PARENT_CHUNK_OVERLAP: {DEFAULT_PARENT_CHUNK_OVERLAP}")
     print(f"DEFAULT_CHILD_CHUNK_SIZE: {DEFAULT_CHILD_CHUNK_SIZE}")
     print(f"DEFAULT_CHILD_CHUNK_OVERLAP: {DEFAULT_CHILD_CHUNK_OVERLAP}")
     print(f"SUPPORTED_DOC_EXTENSIONS: {SUPPORTED_DOC_EXTENSIONS}")
+
+    print("\n--- 向量存储配置 ---")
     print(f"DEFAULT_VECTOR_STORE_TOP_K: {DEFAULT_VECTOR_STORE_TOP_K}")
+    print(f"DEFAULT_VECTOR_STORE_PATH: {DEFAULT_VECTOR_STORE_PATH}")
+
+    print("\n--- 混合搜索配置 ---")
     print(f"DEFAULT_HYBRID_SEARCH_ALPHA: {DEFAULT_HYBRID_SEARCH_ALPHA}")
     print(f"DEFAULT_KEYWORD_SEARCH_TOP_K: {DEFAULT_KEYWORD_SEARCH_TOP_K}")
+
+    print("\n--- Pipeline (工作流) 配置 ---")
     print(f"DEFAULT_MAX_REFINEMENT_ITERATIONS: {DEFAULT_MAX_REFINEMENT_ITERATIONS}")
+
+    print("\n--- 日志配置 ---")
     print(f"LOG_LEVEL: {LOG_LEVEL}")

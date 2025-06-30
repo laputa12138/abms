@@ -1,9 +1,9 @@
 import logging
 from xinference.client import Client as XinferenceClient
-from config.settings import XINFERENCE_API_URL, DEFAULT_RERANKER_MODEL_NAME
+from config import settings # Import the settings module
 
 # Configure logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+# logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s') # Configured in main
 logger = logging.getLogger(__name__)
 
 class RerankerServiceError(Exception):
@@ -21,12 +21,12 @@ class RerankerService:
 
         Args:
             api_url (str, optional): The URL of the Xinference API.
-                                     Defaults to XINFERENCE_API_URL from settings.
+                                     Defaults to settings.XINFERENCE_API_URL.
             model_name (str, optional): The name of the Reranker model to use.
-                                        Defaults to DEFAULT_RERANKER_MODEL_NAME from settings.
+                                        Defaults to settings.DEFAULT_RERANKER_MODEL_NAME.
         """
-        self.api_url = api_url or XINFERENCE_API_URL
-        self.model_name = model_name or DEFAULT_RERANKER_MODEL_NAME
+        self.api_url = api_url or settings.XINFERENCE_API_URL
+        self.model_name = model_name or settings.DEFAULT_RERANKER_MODEL_NAME
 
         try:
             self.client = XinferenceClient(self.api_url)
@@ -36,23 +36,33 @@ class RerankerService:
             logger.error(f"Failed to initialize Xinference client or load reranker model {self.model_name} from {self.api_url}: {e}")
             raise RerankerServiceError(f"Xinference client/reranker model initialization failed: {e}")
 
-    def rerank(self, query: str, documents: list[str], top_n: int = None, batch_size: int = 4) -> list[dict]:
+    def rerank(self,
+                 query: str,
+                 documents: list[str],
+                 top_n: int = None,
+                 batch_size: int = None, # Now defaults to setting
+                 max_text_length: int = None # Now defaults to setting
+                ) -> list[dict]:
         """
-        Reranks a list of documents based on a query, processing in batches.
+        Reranks a list of documents based on a query, processing in batches and truncating long texts.
 
         Args:
             query (str): The query string.
             documents (list[str]): A list of documents (strings) to be reranked.
             top_n (int, optional): The number of top documents to return after processing all batches.
                                    If None, returns all reranked documents.
-            batch_size (int): The number of documents to send to the reranker model in each batch.
+            batch_size (int, optional): The number of documents to send to the reranker model in each batch.
+                                        Defaults to settings.DEFAULT_RERANKER_BATCH_SIZE.
+            max_text_length (int, optional): Maximum character length for each document sent to the reranker.
+                                             Longer texts will be truncated.
+                                             Defaults to settings.DEFAULT_RERANKER_MAX_TEXT_LENGTH.
 
         Returns:
-            list[dict]: A list of reranked results, typically containing 'index',
-                        'relevance_score', and potentially 'document'. The 'document'
-                        field in the response from Xinference is often None, so we
-                        will augment it with the original document content.
-                        The 'original_index' refers to the index in the input 'documents' list.
+            list[dict]: A list of reranked results. Each dict contains:
+                        'document': str (original document, possibly truncated if sent to model truncated,
+                                         but here we return the original full document for context)
+                        'relevance_score': float
+                        'original_index': int (index in the input 'documents' list)
 
         Raises:
             RerankerServiceError: If the rerank request fails or the response is malformed.
@@ -61,40 +71,54 @@ class RerankerService:
             logger.warning("rerank called with empty query or documents.")
             return []
 
-        if batch_size <= 0:
-            logger.warning(f"rerank called with invalid batch_size {batch_size}. Defaulting to 1.")
-            batch_size = 1
+        # Use defaults from settings if parameters are None
+        effective_batch_size = batch_size if batch_size is not None else settings.DEFAULT_RERANKER_BATCH_SIZE
+        effective_max_length = max_text_length if max_text_length is not None else settings.DEFAULT_RERANKER_MAX_TEXT_LENGTH
+
+
+        if effective_batch_size <= 0:
+            logger.warning(f"rerank called with invalid batch_size {effective_batch_size}. Defaulting to 1.")
+            effective_batch_size = 1
 
         num_documents = len(documents)
-        logger.info(f"Requesting rerank for query '{query}' with {num_documents} documents using model {self.model_name}, batch_size={batch_size}.")
+        logger.info(f"Requesting rerank for query '{query[:100]}...' with {num_documents} documents using model {self.model_name}. "
+                    f"Batch_size={effective_batch_size}, Max_text_length={effective_max_length}.")
 
         all_batched_results = []
 
-        for i in range(0, num_documents, batch_size):
-            batch_documents = documents[i:i + batch_size]
-            batch_original_indices = list(range(i, min(i + batch_size, num_documents)))
+        for i in range(0, num_documents, effective_batch_size):
+            batch_documents_original = documents[i : i + effective_batch_size]
+            batch_original_indices = list(range(i, min(i + effective_batch_size, num_documents)))
 
-            logger.debug(f"Processing batch {i//batch_size + 1}: documents {i} to {min(i + batch_size, num_documents) - 1}")
+            # Truncate documents in the batch if necessary
+            batch_documents_for_model = []
+            for doc_idx, doc_text in enumerate(batch_documents_original):
+                if effective_max_length > 0 and len(doc_text) > effective_max_length:
+                    truncated_text = doc_text[:effective_max_length]
+                    batch_documents_for_model.append(truncated_text)
+                    if i + doc_idx < 5 : # Log truncation only for first few docs to avoid spam
+                         logger.debug(f"Document {i + doc_idx} (len {len(doc_text)}) truncated to {effective_max_length} chars for reranker.")
+                else:
+                    batch_documents_for_model.append(doc_text)
+
+
+            logger.debug(f"Processing batch {i//effective_batch_size + 1}: "
+                         f"documents original indices {batch_original_indices[0]} to {batch_original_indices[-1]}")
 
             try:
-                # The Xinference rerank method expects 'documents' as the parameter name.
-                # It does not have a top_n parameter at the batch level; top_n is applied globally later.
                 response = self.model.rerank(
-                    documents=batch_documents,
+                    documents=batch_documents_for_model, # Send potentially truncated documents
                     query=query
-                    # top_n is not applied per batch, but to the final aggregated list
                 )
 
                 if response and "results" in response and isinstance(response["results"], list):
                     for result_item in response["results"]:
                         if isinstance(result_item, dict) and "index" in result_item and "relevance_score" in result_item:
-                            # 'index' from Xinference is the index within the current batch_documents
                             batch_internal_index = result_item["index"]
-                            # Map it back to the original index in the input 'documents' list
                             original_document_index = batch_original_indices[batch_internal_index]
 
                             all_batched_results.append({
-                                "document": documents[original_document_index], # Get original document text
+                                "document": documents[original_document_index], # Return original full document
                                 "relevance_score": result_item["relevance_score"],
                                 "original_index": original_document_index
                             })
@@ -102,22 +126,16 @@ class RerankerService:
                             logger.warning(f"Skipping malformed result item in reranker batch response: {result_item}")
                 else:
                     logger.error(f"No valid 'results' in reranker model response for batch. Response: {response}")
-                    # Depending on desired robustness, could continue or raise error.
-                    # For now, let's log and continue, results might be partial.
-                    # If a single batch fails, it might be better to raise RerankerServiceError.
-                    # Let's assume for now that a partial failure means we can't trust the overall reranking.
-                    raise RerankerServiceError(f"No valid 'results' in reranker model response for batch {i//batch_size + 1}.")
+                    raise RerankerServiceError(f"No valid 'results' in reranker model response for batch {i//effective_batch_size + 1}.")
 
             except Exception as e:
-                logger.error(f"Error during rerank operation for batch {i//batch_size + 1}: {e}")
+                logger.error(f"Error during rerank operation for batch {i//effective_batch_size + 1}: {e}")
                 if "unexpected keyword argument 'corpus'" in str(e) or "unexpected keyword argument 'documents'" in str(e):
                      logger.warning("The error might indicate a mismatch in parameter names for the rerank method (e.g., 'corpus' vs 'documents'). Check Xinference SDK version.")
                 raise RerankerServiceError(f"Rerank operation failed for batch: {e}")
 
-        # Sort all collected results by relevance_score in descending order
         all_batched_results.sort(key=lambda x: x["relevance_score"], reverse=True)
 
-        # Apply top_n to the sorted, aggregated list
         final_results = all_batched_results
         if top_n is not None and top_n > 0:
             final_results = all_batched_results[:top_n]
@@ -127,6 +145,7 @@ class RerankerService:
 
 if __name__ == '__main__':
     # This is an example of how to use the RerankerService.
+    # It requires a running Xinference server with the configured reranker model.
     # It requires a running Xinference server with the 'Qwen3-Reranker-0.6B' model.
     # As per instructions, this will not be run during the automated process.
     print("RerankerService Example (requires running Xinference server)")
