@@ -99,7 +99,7 @@ class ReportGenerationPipeline:
         self.outline_generator = OutlineGeneratorAgent(llm_service=self.llm_service)
         # ContentRetrieverAgent is initialized in _initialize_retrieval_and_orchestration_components
         self.chapter_writer = ChapterWriterAgent(llm_service=self.llm_service)
-        self.evaluator = EvaluatorAgent(llm_service=self.llm_service, refinement_threshold=80) # Example threshold
+        self.evaluator = EvaluatorAgent(llm_service=self.llm_service) # Example threshold
         self.refiner = RefinerAgent(llm_service=self.llm_service)
         self.report_compiler = ReportCompilerAgent(add_table_of_contents=True)
 
