@@ -18,23 +18,12 @@ class ChapterWriterAgent(BaseAgent):
     Updates WorkflowState with the written content and queues evaluation task.
     """
 
-    DEFAULT_PROMPT_TEMPLATE = """你是一位专业的报告撰写员。请根据以下报告章节标题和相关的参考资料（这些是与章节最相关的父文本块），撰写详细、流畅、专业、连贯的中文章节内容。
-
-章节标题：
-{chapter_title}
-
-参考资料（请基于这些资料进行撰写，不要杜撰）：
-{retrieved_content_formatted}
-
-请确保内容与章节标题紧密相关，并充分、合理地利用提供的参考资料。避免直接复制粘贴参考资料，而是要理解、整合信息，并用自己的话语有条理地表达出来。
-输出的章节内容应具有良好的可读性和专业性。
-
-撰写的章节内容（纯文本，不需要包含章节标题本身）：
-"""
+    # DEFAULT_PROMPT_TEMPLATE will be removed and sourced from settings
 
     def __init__(self, llm_service: LLMService, prompt_template: Optional[str] = None):
         super().__init__(agent_name="ChapterWriterAgent", llm_service=llm_service)
-        self.prompt_template = prompt_template or self.DEFAULT_PROMPT_TEMPLATE
+        from config import settings as app_settings
+        self.prompt_template = prompt_template or app_settings.DEFAULT_CHAPTER_WRITER_PROMPT
         if not self.llm_service:
             raise ChapterWriterAgentError("LLMService is required for ChapterWriterAgent.")
 
@@ -72,21 +61,29 @@ class ChapterWriterAgent(BaseAgent):
                                  'chapter_key': Unique key/ID of the chapter.
                                  'chapter_title': Title of the chapter.
         """
+        task_id = workflow_state.current_processing_task_id
+        logger.info(f"[{self.agent_name}] Task ID: {task_id} - Starting execution for chapter_key: {task_payload.get('chapter_key')}, title: {task_payload.get('chapter_title')}")
+
         chapter_key = task_payload.get('chapter_key')
         chapter_title = task_payload.get('chapter_title')
 
         if not chapter_key or not chapter_title:
-            raise ChapterWriterAgentError("Chapter key or title not found in task payload for ChapterWriterAgent.")
+            err_msg = "Chapter key or title not found in task payload."
+            logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}")
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+            raise ChapterWriterAgentError(err_msg)
 
         chapter_data = workflow_state.get_chapter_data(chapter_key)
         if not chapter_data:
-            # This should ideally not happen if tasks are chained correctly
-            workflow_state.log_event(f"Chapter data for key '{chapter_key}' not found.", level="ERROR")
-            raise ChapterWriterAgentError(f"Chapter data for key '{chapter_key}' not found in WorkflowState.")
+            err_msg = f"Chapter data for key '{chapter_key}' not found in WorkflowState."
+            workflow_state.log_event(err_msg, level="ERROR") # Keep this log
+            logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}")
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+            raise ChapterWriterAgentError(err_msg)
 
-        retrieved_docs = chapter_data.get('retrieved_docs', []) # These are dicts with 'document' as parent_text
-
-        self._log_input(chapter_title=chapter_title, retrieved_docs_count=len(retrieved_docs))
+        retrieved_docs = chapter_data.get('retrieved_docs', [])
+        logger.info(f"[{self.agent_name}] Task ID: {task_id} - Chapter: '{chapter_title}', Retrieved docs count: {len(retrieved_docs)}")
+        self._log_input(chapter_title=chapter_title, retrieved_docs_count=len(retrieved_docs)) # Keep for agent's own structured log
 
         formatted_content_str = self._format_retrieved_content(retrieved_docs)
 
@@ -121,16 +118,24 @@ class ChapterWriterAgent(BaseAgent):
             )
 
             self._log_output({"chapter_key": chapter_key, "content_length": len(chapter_text)})
-            logger.info(f"Chapter writing successful for '{chapter_title}'. Next task (Evaluate Chapter) added.")
+            success_msg = f"Chapter writing successful for '{chapter_title}'. Next task (Evaluate Chapter) added."
+            logger.info(f"[{self.agent_name}] Task ID: {task_id} - {success_msg}")
+            if task_id: workflow_state.complete_task(task_id, success_msg, status='success')
 
         except LLMServiceError as e:
-            workflow_state.log_event(f"LLM service error writing chapter '{chapter_title}'", {"error": str(e)}, level="ERROR")
+            err_msg = f"LLM service failed for chapter '{chapter_title}': {e}"
+            workflow_state.log_event(f"LLM service error writing chapter '{chapter_title}'", {"error": str(e)}, level="ERROR") # Keep this
             workflow_state.add_chapter_error(chapter_key, f"LLM service error: {e}")
-            raise ChapterWriterAgentError(f"LLM service failed for chapter '{chapter_title}': {e}")
+            logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}", exc_info=True)
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+            raise ChapterWriterAgentError(err_msg) # Re-raise
         except Exception as e:
-            workflow_state.log_event(f"Unexpected error in ChapterWriterAgent for '{chapter_title}'", {"error": str(e)}, level="CRITICAL")
+            err_msg = f"Unexpected error writing chapter '{chapter_title}': {e}"
+            workflow_state.log_event(f"Unexpected error in ChapterWriterAgent for '{chapter_title}'", {"error": str(e)}, level="CRITICAL") # Keep this
             workflow_state.add_chapter_error(chapter_key, f"Unexpected error: {e}")
-            raise ChapterWriterAgentError(f"Unexpected error writing chapter '{chapter_title}': {e}")
+            logger.critical(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}", exc_info=True)
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+            raise ChapterWriterAgentError(err_msg) # Re-raise
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s')

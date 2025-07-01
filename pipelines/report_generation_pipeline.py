@@ -34,56 +34,73 @@ class ReportGenerationPipeline:
     def __init__(self,
                  llm_service: LLMService,
                  embedding_service: EmbeddingService,
+                 # Services
                  reranker_service: Optional[RerankerService] = None,
-                 parent_chunk_size: int = settings.DEFAULT_PARENT_CHUNK_SIZE,
-                 parent_chunk_overlap: int = settings.DEFAULT_PARENT_CHUNK_OVERLAP,
-                 child_chunk_size: int = settings.DEFAULT_CHILD_CHUNK_SIZE,
-                 child_chunk_overlap: int = settings.DEFAULT_CHILD_CHUNK_OVERLAP,
-                 vector_top_k: int = settings.DEFAULT_VECTOR_STORE_TOP_K,
-                 keyword_top_k: int = settings.DEFAULT_KEYWORD_SEARCH_TOP_K,
-                 hybrid_alpha: float = settings.DEFAULT_HYBRID_SEARCH_ALPHA,
-                 final_top_n_retrieval: Optional[int] = None,
-                 max_refinement_iterations: int = settings.DEFAULT_MAX_REFINEMENT_ITERATIONS,
-                 max_workflow_iterations: int = 50,
+                 # Execution context parameters (from CLI or their defaults from settings)
                  vector_store_path: str = settings.DEFAULT_VECTOR_STORE_PATH,
                  index_name: Optional[str] = None,
-                 force_reindex: bool = False
+                 force_reindex: bool = False,
+                 max_workflow_iterations: int = settings.DEFAULT_PIPELINE_MAX_WORKFLOW_ITERATIONS,
+                 # CLI-overridden hyperparameters (main.py passes these using args.*)
+                 # Their names in constructor match the names in main.py's args
+                 cli_overridden_parent_chunk_size: int = settings.DEFAULT_PARENT_CHUNK_SIZE,
+                 cli_overridden_parent_chunk_overlap: int = settings.DEFAULT_PARENT_CHUNK_OVERLAP,
+                 cli_overridden_child_chunk_size: int = settings.DEFAULT_CHILD_CHUNK_SIZE,
+                 cli_overridden_child_chunk_overlap: int = settings.DEFAULT_CHILD_CHUNK_OVERLAP,
+                 cli_overridden_vector_top_k: int = settings.DEFAULT_VECTOR_STORE_TOP_K,
+                 cli_overridden_keyword_top_k: int = settings.DEFAULT_KEYWORD_SEARCH_TOP_K,
+                 cli_overridden_hybrid_alpha: float = settings.DEFAULT_HYBRID_SEARCH_ALPHA,
+                 cli_overridden_final_top_n_retrieval: int = settings.DEFAULT_RETRIEVAL_FINAL_TOP_N,
+                 cli_overridden_max_refinement_iterations: int = settings.DEFAULT_MAX_REFINEMENT_ITERATIONS
                 ):
 
         self.llm_service = llm_service
         self.embedding_service = embedding_service
         self.reranker_service = reranker_service
-        self.max_refinement_iterations = max_refinement_iterations # Used by EvaluatorAgent logic via WorkflowState
-        self.max_workflow_iterations = max_workflow_iterations # Passed to Orchestrator
 
+        # Store execution context parameters
         self.vector_store_path = vector_store_path
         self.index_name = index_name
         self.force_reindex = force_reindex
+        self.max_workflow_iterations = max_workflow_iterations # Passed to Orchestrator
 
+        # Store CLI-overridden hyperparameters (or their defaults from settings if not overridden by CLI)
+        # These will be used to initialize components like DocumentProcessor and ContentRetrieverAgent
+        self.parent_chunk_size = cli_overridden_parent_chunk_size
+        self.parent_chunk_overlap = cli_overridden_parent_chunk_overlap
+        self.child_chunk_size = cli_overridden_child_chunk_size
+        self.child_chunk_overlap = cli_overridden_child_chunk_overlap
+        self.vector_top_k = cli_overridden_vector_top_k
+        self.keyword_top_k = cli_overridden_keyword_top_k
+        self.hybrid_alpha = cli_overridden_hybrid_alpha
+        self.final_top_n_retrieval = cli_overridden_final_top_n_retrieval
+        self.max_refinement_iterations = cli_overridden_max_refinement_iterations # Used by WorkflowState
+
+        # Initialize DocumentProcessor with effective chunking parameters
         self.document_processor = DocumentProcessor(
-            parent_chunk_size=parent_chunk_size, parent_chunk_overlap=parent_chunk_overlap,
-            child_chunk_size=child_chunk_size, child_chunk_overlap=child_chunk_overlap,
-            supported_extensions=settings.SUPPORTED_DOC_EXTENSIONS
+            parent_chunk_size=self.parent_chunk_size,
+            parent_chunk_overlap=self.parent_chunk_overlap,
+            child_chunk_size=self.child_chunk_size,
+            child_chunk_overlap=self.child_chunk_overlap
+            # supported_extensions is read from settings by DocumentProcessor itself
         )
         self.vector_store = VectorStore(embedding_service=self.embedding_service)
 
         self.bm25_index: Optional[BM25Okapi] = None
         self.all_child_chunks_for_bm25_mapping: List[Dict[str, Any]] = []
 
-        self.retrieval_service: Optional[RetrievalService] = None
-        self.content_retriever_agent: Optional[ContentRetrieverAgent] = None
+        self.retrieval_service: Optional[RetrievalService] = None # Initialized later
+        self.content_retriever_agent: Optional[ContentRetrieverAgent] = None # Initialized later
 
-        self.retrieval_params = {
-            "vector_top_k": vector_top_k, "keyword_top_k": keyword_top_k,
-            "hybrid_alpha": hybrid_alpha, "final_top_n": final_top_n_retrieval or vector_top_k
-        }
+        # self.retrieval_params dictionary is no longer needed as params are passed directly or sourced from settings.
 
-        # Initialize all agents here, they will be passed to the Orchestrator
+        # Initialize agents that don't depend on dynamically configured retrieval params here
         self.topic_analyzer = TopicAnalyzerAgent(llm_service=self.llm_service)
         self.outline_generator = OutlineGeneratorAgent(llm_service=self.llm_service)
         # ContentRetrieverAgent is initialized in _initialize_retrieval_and_orchestration_components
         self.chapter_writer = ChapterWriterAgent(llm_service=self.llm_service)
-        self.evaluator = EvaluatorAgent(llm_service=self.llm_service, refinement_threshold=80) # Example threshold
+        # EvaluatorAgent now gets its threshold from config.settings
+        self.evaluator = EvaluatorAgent(llm_service=self.llm_service)
         self.refiner = RefinerAgent(llm_service=self.llm_service)
         self.report_compiler = ReportCompilerAgent(add_table_of_contents=True)
 
@@ -107,14 +124,16 @@ class ReportGenerationPipeline:
             self.workflow_state.log_event("RetrievalService initialized.")
 
         if not self.content_retriever_agent:
+            # ContentRetrieverAgent is initialized with the effective parameters
+            # (either from CLI overrides via main.py -> pipeline, or settings defaults if no CLI override)
             self.content_retriever_agent = ContentRetrieverAgent(
                 retrieval_service=self.retrieval_service,
-                default_vector_top_k=self.retrieval_params["vector_top_k"],
-                default_keyword_top_k=self.retrieval_params["keyword_top_k"],
-                default_hybrid_alpha=self.retrieval_params["hybrid_alpha"],
-                default_final_top_n=self.retrieval_params["final_top_n"]
+                default_vector_top_k=self.vector_top_k, # Use the value stored in self, which came from CLI/settings
+                default_keyword_top_k=self.keyword_top_k,
+                default_hybrid_alpha=self.hybrid_alpha,
+                default_final_top_n=self.final_top_n_retrieval
             )
-            self.workflow_state.log_event("ContentRetrieverAgent initialized using RetrievalService.")
+            self.workflow_state.log_event("ContentRetrieverAgent initialized using RetrievalService with effective parameters.")
 
         if not self.orchestrator:
             self.orchestrator = Orchestrator(
@@ -132,16 +151,50 @@ class ReportGenerationPipeline:
 
 
     def _process_and_load_data(self, data_path: str):
+        logger.debug(f"Starting _process_and_load_data: initial data_path='{data_path}', "
+                     f"initial self.vector_store_path='{self.vector_store_path}', "
+                     f"initial self.index_name='{self.index_name}', "
+                     f"initial self.force_reindex={self.force_reindex}")
         self.workflow_state.log_event(f"Data processing: data_path='{data_path}', vs_path='{self.vector_store_path}', "
                                      f"index_name='{self.index_name}', force_reindex={self.force_reindex}")
         loaded_from_file = False
-        if not self.force_reindex and self.index_name:
-            vs_dir = os.path.abspath(self.vector_store_path)
-            faiss_index_path = os.path.join(vs_dir, f"{self.index_name}.faiss")
-            metadata_path = os.path.join(vs_dir, f"{self.index_name}.meta.json")
 
+        # Determine the effective index name
+        # If self.index_name is provided, use it. Otherwise, derive from data_path.
+        if self.index_name:
+            effective_index_name = self.index_name
+        else:
+            if data_path and os.path.isdir(data_path): # Ensure data_path is a directory before using its basename
+                effective_index_name = os.path.basename(os.path.normpath(data_path))
+            else: # Fallback if data_path is not suitable for basename
+                effective_index_name = "default_rag_index"
+            if not effective_index_name: # Further fallback if basename was empty (e.g. data_path was '/')
+                effective_index_name = "default_rag_index"
+
+        logger.debug(f"Determined effective_index_name: '{effective_index_name}'")
+        self.workflow_state.log_event(f"Effective index name for VectorStore: '{effective_index_name}'")
+
+        # Prepare vector store directory and paths
+        vs_dir = os.path.abspath(self.vector_store_path)
+        logger.debug(f"Absolute vector store directory (vs_dir): '{vs_dir}'")
+        if not os.path.exists(vs_dir):
+            try:
+                os.makedirs(vs_dir, exist_ok=True)
+                self.workflow_state.log_event(f"Created vector store directory: {vs_dir}")
+            except OSError as e:
+                self.workflow_state.log_event(f"Failed to create vector store directory {vs_dir}: {e}. "
+                                             "Will attempt to proceed but saving/loading may fail.", {"level": "ERROR"})
+                # Allow to proceed, VectorStore will handle errors if paths are unusable
+
+        faiss_index_path = os.path.join(vs_dir, f"{effective_index_name}.faiss")
+        metadata_path = os.path.join(vs_dir, f"{effective_index_name}.meta.json")
+        logger.debug(f"Calculated FAISS index path: '{faiss_index_path}'")
+        logger.debug(f"Calculated metadata path: '{metadata_path}'")
+
+        if not self.force_reindex:
             if os.path.exists(faiss_index_path) and os.path.exists(metadata_path):
                 try:
+                    logger.info(f"Attempting to load existing VectorStore: index='{faiss_index_path}', meta='{metadata_path}'")
                     self.workflow_state.log_event(f"Attempting to load existing VectorStore: index='{faiss_index_path}', meta='{metadata_path}'")
                     self.vector_store.load_store(faiss_index_path, metadata_path)
                     if self.vector_store.count_child_chunks > 0:
@@ -150,14 +203,15 @@ class ReportGenerationPipeline:
                     else:
                         self.workflow_state.log_event("Loaded VectorStore files but store is empty. Will re-process.", {"level": "WARNING"})
                 except Exception as e:
-                    self.workflow_state.log_event(f"Failed to load existing VectorStore from {self.index_name}: {e}. Will re-process.", {"level": "WARNING"})
+                    self.workflow_state.log_event(f"Failed to load existing VectorStore from '{effective_index_name}': {e}. Will re-process.", {"level": "WARNING"})
             else:
-                self.workflow_state.log_event(f"No existing index found for '{self.index_name}' at '{vs_dir}'. Will process documents from data_path.")
+                self.workflow_state.log_event(f"No existing index found for '{effective_index_name}' at '{vs_dir}'. Will process documents from data_path.")
 
         if not loaded_from_file:
             self.workflow_state.log_event(f"Processing documents from directory: {data_path}")
-            if not os.path.isdir(data_path):
-                raise ReportGenerationPipelineError(f"Invalid data_path for processing: {data_path} is not a directory.")
+            if not data_path or not os.path.isdir(data_path): # Added check for data_path being None or not a dir
+                # If data_path is invalid and we couldn't load an index, we cannot proceed.
+                raise ReportGenerationPipelineError(f"Invalid data_path for processing: '{data_path}' is not a directory or not provided, and no existing index could be loaded.")
 
             all_parent_child_data: List[Dict[str, Any]] = []
             processed_file_count = 0
@@ -177,22 +231,18 @@ class ReportGenerationPipeline:
                     self.workflow_state.log_event(f"Error processing file {file_path}", {"error": str(e), "level": "ERROR"})
 
             if not all_parent_child_data:
-                raise ReportGenerationPipelineError("No usable content extracted/chunked from data_path to build a new index.")
+                raise ReportGenerationPipelineError(f"No usable content extracted/chunked from data_path '{data_path}' to build a new index.")
 
+            # Re-initialize vector_store to ensure it's clean before adding new documents
             self.vector_store = VectorStore(embedding_service=self.embedding_service)
             self.vector_store.add_documents(all_parent_child_data)
             self.workflow_state.log_event(f"Data from {processed_file_count} files processed and added to new VectorStore.",
                                          {"child_chunks_count": self.vector_store.count_child_chunks})
 
-            effective_index_name_to_save = self.index_name or os.path.basename(os.path.normpath(data_path)) or "default_rag_index"
-            vs_dir_to_save = os.path.abspath(self.vector_store_path)
-            if not os.path.exists(vs_dir_to_save): os.makedirs(vs_dir_to_save, exist_ok=True)
-
-            save_faiss_path = os.path.join(vs_dir_to_save, f"{effective_index_name_to_save}.faiss")
-            save_meta_path = os.path.join(vs_dir_to_save, f"{effective_index_name_to_save}.meta.json")
+            # Use the same faiss_index_path and metadata_path determined earlier for saving
             try:
-                self.vector_store.save_store(save_faiss_path, save_meta_path)
-                self.workflow_state.log_event(f"New VectorStore saved: index='{save_faiss_path}', meta='{save_meta_path}'")
+                self.vector_store.save_store(faiss_index_path, metadata_path)
+                self.workflow_state.log_event(f"New VectorStore saved: index='{faiss_index_path}', meta='{metadata_path}'")
             except Exception as e:
                  self.workflow_state.log_event(f"Failed to save new VectorStore: {e}. Processing will continue with in-memory store.", {"level": "ERROR"})
 

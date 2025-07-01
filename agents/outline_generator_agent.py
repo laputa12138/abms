@@ -23,31 +23,12 @@ class OutlineGeneratorAgent(BaseAgent):
     and adds tasks to process each chapter.
     """
 
-    DEFAULT_PROMPT_TEMPLATE = """你是一个报告大纲撰写助手。请根据以下主题和关键词，生成一份详细的中文报告大纲。
-大纲应包含主要章节和子章节（如果适用）。请确保大纲结构清晰、逻辑连贯，并覆盖主题的核心方面。
-
-主题：
-{topic_cn} (英文参考: {topic_en})
-
-关键词：
-中文: {keywords_cn}
-英文: {keywords_en}
-
-请以Markdown列表格式返回大纲。例如：
-- 章节一：介绍
-  - 1.1 背景
-  - 1.2 研究意义
-- 章节二：主要发现
-  - 2.1 发现点A
-  - 2.2 发现点B
-- 章节三：结论
-
-输出的大纲内容：
-"""
+    # DEFAULT_PROMPT_TEMPLATE will be removed and sourced from settings
 
     def __init__(self, llm_service: LLMService, prompt_template: Optional[str] = None):
         super().__init__(agent_name="OutlineGeneratorAgent", llm_service=llm_service)
-        self.prompt_template = prompt_template or self.DEFAULT_PROMPT_TEMPLATE
+        from config import settings as app_settings
+        self.prompt_template = prompt_template or app_settings.DEFAULT_OUTLINE_GENERATOR_PROMPT
         if not self.llm_service:
             raise OutlineGeneratorAgentError("LLMService is required for OutlineGeneratorAgent.")
         # For parsing the generated Markdown outline into a structured list with IDs
@@ -108,15 +89,24 @@ class OutlineGeneratorAgent(BaseAgent):
             workflow_state (WorkflowState): The current state of the workflow.
             task_payload (Dict): Payload for this task, expects 'topic_details'.
         """
+        task_id = workflow_state.current_processing_task_id
+        logger.info(f"[{self.agent_name}] Task ID: {task_id} - Starting execution.")
+
         analyzed_topic = task_payload.get('topic_details')
         if not analyzed_topic:
-            raise OutlineGeneratorAgentError("Topic details not found in task payload for OutlineGeneratorAgent.")
+            err_msg = "Topic details not found in task payload."
+            logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}")
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+            raise OutlineGeneratorAgentError(err_msg)
 
         self._log_input(analyzed_topic=analyzed_topic)
 
         required_keys = ["generalized_topic_cn", "generalized_topic_en", "keywords_cn", "keywords_en"]
         if not all(key in analyzed_topic for key in required_keys):
-            raise OutlineGeneratorAgentError(f"Invalid input: analyzed_topic missing keys: {required_keys}")
+            err_msg = f"Invalid input: analyzed_topic missing keys: {required_keys}. Payload: {analyzed_topic}"
+            logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}")
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+            raise OutlineGeneratorAgentError(err_msg)
 
         topic_cn = analyzed_topic["generalized_topic_cn"]
         topic_en = analyzed_topic["generalized_topic_en"]
@@ -158,18 +148,33 @@ class OutlineGeneratorAgent(BaseAgent):
                     priority=3 # Assuming outline generation is priority 2
                 )
 
+            # After successfully adding all chapter tasks, mark the outline as finalized for this run.
+            workflow_state.set_flag('outline_finalized', True)
+            logger.info(f"[{self.agent_name}] Task ID: {task_id} - Outline finalized flag set to True.")
+
             self._log_output({"markdown_outline": outline_markdown, "parsed_items_count": len(parsed_outline_with_ids)})
-            logger.info(f"Outline generation successful for '{topic_cn}'. {len(parsed_outline_with_ids)} chapter processing tasks added.")
+            success_msg = f"Outline generation successful for '{topic_cn}'. {len(parsed_outline_with_ids)} chapter processing tasks added. Outline finalized."
+            logger.info(f"[{self.agent_name}] Task ID: {task_id} - {success_msg}")
+            if task_id: workflow_state.complete_task(task_id, success_msg, status='success')
 
         except LLMServiceError as e:
-            workflow_state.log_event(f"LLM service error during outline generation for '{topic_cn}'", {"error": str(e)}, level="ERROR")
-            raise OutlineGeneratorAgentError(f"LLM service failed: {e}")
+            err_msg = f"LLM service failed for outline generation on topic '{topic_cn}': {e}"
+            workflow_state.log_event(f"LLM service error during outline generation for '{topic_cn}'", {"error": str(e)}, level="ERROR") # Keep
+            logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}", exc_info=True)
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+            raise OutlineGeneratorAgentError(err_msg) # Re-raise
         except OutlineGeneratorAgentError as e:
-            workflow_state.log_event(f"Outline generation failed for '{topic_cn}'", {"error": str(e)}, level="ERROR")
-            raise
+            err_msg = f"Outline generation failed for '{topic_cn}': {e}"
+            workflow_state.log_event(err_msg, {"error": str(e)}, level="ERROR") # Keep
+            logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}", exc_info=True)
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+            raise # Re-raise
         except Exception as e:
-            workflow_state.log_event(f"Unexpected error in OutlineGeneratorAgent for '{topic_cn}'", {"error": str(e)}, level="CRITICAL")
-            raise OutlineGeneratorAgentError(f"Unexpected error in outline generation: {e}")
+            err_msg = f"Unexpected error in outline generation for '{topic_cn}': {e}"
+            workflow_state.log_event(f"Unexpected error in OutlineGeneratorAgent for '{topic_cn}'", {"error": str(e)}, level="CRITICAL") # Keep
+            logger.critical(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}", exc_info=True)
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+            raise OutlineGeneratorAgentError(err_msg) # Re-raise
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s')

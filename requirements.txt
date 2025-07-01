@@ -18,6 +18,7 @@ nltk>=3.8.0 # For sentence tokenization in parent-child chunking
 # Vector store and numerical operations
 faiss-cpu>=1.7.0 # For local vector similarity search (CPU version)
 numpy>=1.20.0 # Required by FAISS and for numerical operations
+json-repair>=0.14.0 # For repairing potentially malformed JSON from LLMs
 
 # Optional, but good for managing settings via .env files
 # python-dotenv

@@ -4,13 +4,7 @@ from typing import List, Dict, Optional, Any
 from agents.base_agent import BaseAgent
 from core.retrieval_service import RetrievalService, RetrievalServiceError
 from core.workflow_state import WorkflowState, TASK_TYPE_WRITE_CHAPTER, STATUS_WRITING_NEEDED # Import constants
-# Import settings only for default values if needed by the agent itself,
-# but RetrievalService now handles its own defaults based on what pipeline passes to it.
-from config.settings import (
-    DEFAULT_VECTOR_STORE_TOP_K,
-    DEFAULT_HYBRID_SEARCH_ALPHA,
-    DEFAULT_KEYWORD_SEARCH_TOP_K
-)
+from config import settings # Import settings for default retrieval parameters
 
 logger = logging.getLogger(__name__)
 
@@ -27,25 +21,29 @@ class ContentRetrieverAgent(BaseAgent):
 
     def __init__(self,
                  retrieval_service: RetrievalService,
-                 default_vector_top_k: int = DEFAULT_VECTOR_STORE_TOP_K,
-                 default_keyword_top_k: int = DEFAULT_KEYWORD_SEARCH_TOP_K,
-                 default_hybrid_alpha: float = DEFAULT_HYBRID_SEARCH_ALPHA,
-                 default_final_top_n: Optional[int] = None):
+                 # These parameters are passed by ReportGenerationPipeline,
+                 # reflecting CLI overrides or settings defaults.
+                 default_vector_top_k: int = settings.DEFAULT_VECTOR_STORE_TOP_K,
+                 default_keyword_top_k: int = settings.DEFAULT_KEYWORD_SEARCH_TOP_K,
+                 default_hybrid_alpha: float = settings.DEFAULT_HYBRID_SEARCH_ALPHA,
+                 default_final_top_n: int = settings.DEFAULT_RETRIEVAL_FINAL_TOP_N
+                 ):
 
-        super().__init__(agent_name="ContentRetrieverAgent", llm_service=None) # No LLM needed
+        super().__init__(agent_name="ContentRetrieverAgent", llm_service=None)
 
         if not retrieval_service:
             raise ContentRetrieverAgentError("RetrievalService is required for ContentRetrieverAgent.")
-
         self.retrieval_service = retrieval_service
 
-        self.default_vector_top_k = default_vector_top_k
-        self.default_keyword_top_k = default_keyword_top_k
-        self.default_hybrid_alpha = default_hybrid_alpha
-        # If default_final_top_n is None, it implies RetrievalService might use its own default or return all from previous step
-        self.default_final_top_n = default_final_top_n
+        # Store the effective parameters passed from the pipeline
+        self.vector_top_k = default_vector_top_k
+        self.keyword_top_k = default_keyword_top_k
+        self.hybrid_alpha = default_hybrid_alpha
+        self.final_top_n = default_final_top_n
 
-        logger.info(f"ContentRetrieverAgent initialized with RetrievalService and default retrieval params.")
+        logger.info(f"ContentRetrieverAgent initialized. Effective params: "
+                    f"vector_k={self.vector_top_k}, keyword_k={self.keyword_top_k}, "
+                    f"alpha={self.hybrid_alpha}, final_n={self.final_top_n}")
 
     def execute_task(self, workflow_state: WorkflowState, task_payload: Dict) -> None:
         """
@@ -63,11 +61,22 @@ class ContentRetrieverAgent(BaseAgent):
         Raises:
             ContentRetrieverAgentError: If retrieval fails or essential payload info is missing.
         """
+        task_id = workflow_state.current_processing_task_id
+        if not task_id: # Should be set by orchestrator
+            logger.error(f"{self.agent_name}: current_processing_task_id not found in workflow_state. This is unexpected.")
+            # Attempt to find task_id from payload if passed by a previous version or for safety
+            task_id = task_payload.get('task_id_if_passed_explicitly') # Unlikely to be there with current orchestrator
+
+        logger.info(f"[{self.agent_name}] Task ID: {task_id} - Starting execution for chapter_key: {task_payload.get('chapter_key')}, title: {task_payload.get('chapter_title')}")
+
         chapter_key = task_payload.get('chapter_key')
         chapter_title = task_payload.get('chapter_title')
 
         if not chapter_key or not chapter_title:
-            raise ContentRetrieverAgentError("Chapter key or title not found in task payload for ContentRetrieverAgent.")
+            err_msg = "Chapter key or title not found in task payload."
+            logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}")
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+            raise ContentRetrieverAgentError(err_msg)
 
         self._log_input(chapter_key=chapter_key, chapter_title=chapter_title, overrides=task_payload)
 
@@ -80,24 +89,26 @@ class ContentRetrieverAgent(BaseAgent):
         if not query: # Fallback if title and keywords are empty
             query = workflow_state.user_topic
 
-        # Determine operational retrieval parameters (payload overrides agent defaults)
-        op_vector_top_k = task_payload.get('vector_top_k', self.default_vector_top_k)
-        op_keyword_top_k = task_payload.get('keyword_top_k', self.default_keyword_top_k)
-        op_hybrid_alpha = task_payload.get('hybrid_alpha', self.default_hybrid_alpha)
-        # If default_final_top_n was None for the agent, and not in payload, it will be None for service.
-        # If agent had a default (e.g. self.default_vector_top_k), use that.
-        effective_default_final_top_n = self.default_final_top_n if self.default_final_top_n is not None else op_vector_top_k
-        op_final_top_n = task_payload.get('final_top_n', effective_default_final_top_n)
+        # Use the parameters stored in the agent (which were set by the pipeline from CLI/settings)
+        # Task_payload could potentially override these further if we design for per-chapter retrieval variation,
+        # but for now, we use the agent's configured (effective) parameters.
+        current_vector_top_k = task_payload.get('vector_top_k', self.vector_top_k)
+        current_keyword_top_k = task_payload.get('keyword_top_k', self.keyword_top_k)
+        current_hybrid_alpha = task_payload.get('hybrid_alpha', self.hybrid_alpha)
+        current_final_top_n = task_payload.get('final_top_n', self.final_top_n)
 
-
-        logger.info(f"ContentRetrieverAgent retrieving for chapter '{chapter_title}' (key: {chapter_key}) with query: '{query[:100]}...'")
+        logger.info(f"[{self.agent_name}] Task ID: {task_id} - Retrieving for chapter '{chapter_title}' (key: {chapter_key}) with query: '{query[:100]}...'. "
+                    f"Params: vector_k={current_vector_top_k}, keyword_k={current_keyword_top_k}, "
+                    f"alpha={current_hybrid_alpha}, final_n={current_final_top_n}")
         try:
+            # RetrievalService will use its own defaults (from settings) if any of these are None,
+            # but ContentRetrieverAgent now ensures they are int/float based on its init.
             retrieved_docs_for_chapter = self.retrieval_service.retrieve(
                 query_text=query,
-                vector_top_k=op_vector_top_k,
-                keyword_top_k=op_keyword_top_k,
-                hybrid_alpha=op_hybrid_alpha,
-                final_top_n=op_final_top_n
+                vector_top_k=current_vector_top_k,
+                keyword_top_k=current_keyword_top_k,
+                hybrid_alpha=current_hybrid_alpha,
+                final_top_n=current_final_top_n
             )
 
             # Update WorkflowState with retrieved documents for this chapter
@@ -113,20 +124,30 @@ class ContentRetrieverAgent(BaseAgent):
                     priority=task_payload.get('priority', 5) + 1 # Slightly lower priority than retrieval
                 )
                 self._log_output({"chapter_key": chapter_key, "num_retrieved": len(retrieved_docs_for_chapter)})
-                logger.info(f"Retrieval successful for chapter '{chapter_title}'. "
-                            f"{len(retrieved_docs_for_chapter)} parent contexts retrieved. Next task (Write Chapter) added.")
+                success_msg = (f"Retrieval successful for chapter '{chapter_title}'. "
+                               f"{len(retrieved_docs_for_chapter)} parent contexts retrieved. Next task (Write Chapter) added.")
+                logger.info(f"[{self.agent_name}] Task ID: {task_id} - {success_msg}")
+                if task_id: workflow_state.complete_task(task_id, success_msg, status='success')
             else: # Should not happen if _get_chapter_entry creates it
-                raise ContentRetrieverAgentError(f"Failed to get or create chapter entry for key '{chapter_key}' in WorkflowState.")
+                err_msg = f"Failed to get or create chapter entry for key '{chapter_key}' in WorkflowState."
+                logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}")
+                if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+                raise ContentRetrieverAgentError(err_msg)
 
         except RetrievalServiceError as e:
-            workflow_state.log_event(f"RetrievalService failed for chapter '{chapter_title}'", {"error": str(e)}, level="ERROR")
+            err_msg = f"RetrievalService failed for chapter '{chapter_title}': {e}"
+            workflow_state.log_event(err_msg, {"error": str(e)}, level="ERROR") # Keep this log
             workflow_state.add_chapter_error(chapter_key, f"RetrievalService error: {e}")
-            # No next task added, pipeline's main loop will see this chapter in error state or stuck.
-            raise ContentRetrieverAgentError(f"Core retrieval failed for chapter '{chapter_title}': {e}")
+            logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}", exc_info=True)
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+            raise ContentRetrieverAgentError(err_msg) # Re-raise
         except Exception as e:
-            workflow_state.log_event(f"Unexpected error in ContentRetrieverAgent for chapter '{chapter_title}'", {"error": str(e)}, level="CRITICAL")
+            err_msg = f"Unexpected error during content retrieval for '{chapter_title}': {e}"
+            workflow_state.log_event(err_msg, {"error": str(e)}, level="CRITICAL") # Keep this log
             workflow_state.add_chapter_error(chapter_key, f"Unexpected error: {e}")
-            raise ContentRetrieverAgentError(f"Unexpected error during content retrieval for '{chapter_title}': {e}")
+            logger.critical(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}", exc_info=True)
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+            raise ContentRetrieverAgentError(err_msg) # Re-raise
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s')

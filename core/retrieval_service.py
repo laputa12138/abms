@@ -5,10 +5,7 @@ from rank_bm25 import BM25Okapi
 
 from core.vector_store import VectorStore, VectorStoreError
 from core.reranker_service import RerankerService, RerankerServiceError
-# Assuming settings will be accessed for defaults if not passed directly,
-# or that defaults are handled by the caller (e.g., ContentRetrieverAgent or Pipeline)
-# For now, let's make parameters explicit in the retrieve method.
-# from config.settings import (...)
+from config import settings # Import settings for reranker defaults
 
 logger = logging.getLogger(__name__)
 
@@ -84,21 +81,22 @@ class RetrievalService:
 
     def retrieve(self,
                  query_text: str,
-                 vector_top_k: int,
-                 keyword_top_k: int,
-                 hybrid_alpha: float, # 0 for keyword only, 1 for vector only
-                 final_top_n: Optional[int] = None
+                 # Parameters now default to values from settings.py
+                 # They can be overridden by ContentRetrieverAgent if it passes explicit values.
+                 vector_top_k: int = settings.DEFAULT_VECTOR_STORE_TOP_K,
+                 keyword_top_k: int = settings.DEFAULT_KEYWORD_SEARCH_TOP_K,
+                 hybrid_alpha: float = settings.DEFAULT_HYBRID_SEARCH_ALPHA,
+                 final_top_n: int = settings.DEFAULT_RETRIEVAL_FINAL_TOP_N
                 ) -> List[Dict[str, Any]]:
         """
-        Performs hybrid retrieval and optional reranking.
+        Performs hybrid retrieval, optional reranking, and score thresholding.
 
         Args:
             query_text (str): The user's query.
-            vector_top_k (int): Number of results from vector search.
-            keyword_top_k (int): Number of results from keyword search.
-            hybrid_alpha (float): Weight for blending vector and keyword scores.
-            final_top_n (Optional[int]): Number of final results to return after all steps.
-                                         If None, returns all processed results.
+            vector_top_k (int): Number of results from vector search. Defaults to settings.
+            keyword_top_k (int): Number of results from keyword search. Defaults to settings.
+            hybrid_alpha (float): Weight for blending vector and keyword scores. Defaults to settings.
+            final_top_n (int): Number of final results to return after all steps. Defaults to settings.
 
         Returns:
             List[Dict[str, Any]]: A list of result dictionaries, structured for consumption
@@ -181,14 +179,40 @@ class RetrievalService:
 
         scored_results.sort(key=lambda x: x['final_score'], reverse=True)
 
+        # --- 3a. Apply Score Threshold (before reranking) ---
+        # The scores at this stage are normalized [0,1] where higher is better.
+        # This threshold is applied to the 'final_score' from hybrid search.
+        min_score_threshold = settings.DEFAULT_RETRIEVAL_MIN_SCORE_THRESHOLD
+        if min_score_threshold > 0:
+            results_before_thresholding_count = len(scored_results)
+            scored_results = [res for res in scored_results if res['final_score'] >= min_score_threshold]
+            logger.debug(f"Applied score threshold {min_score_threshold}. "
+                         f"Reduced results from {results_before_thresholding_count} to {len(scored_results)}.")
+
         # --- 4. Optional Reranking (operates on parent_text) ---
-        results_after_rerank_or_hybrid = scored_results # Default if no reranking
+        # Reranker uses its own scoring, so thresholding before might be good.
+        # Reranker also has a top_n, which is our final_top_n for the retrieval process.
+        results_after_processing = scored_results
         if self.reranker_service and scored_results:
+            # If reranking, the final_top_n applies to the reranker's output.
+            # The number of documents sent to reranker can be all `scored_results` or a capped amount.
+            # For simplicity, send all results that passed the initial threshold.
             parents_for_reranking = [res['parent_text'] for res in scored_results]
-            # Keep track of original full data to re-associate
-            original_items_before_rerank = list(scored_results) # shallow copy
+            original_items_before_rerank = list(scored_results)
+
             try:
-                reranked_outputs = self.reranker_service.rerank(query=query_text, documents=parents_for_reranking, top_n=final_top_n) # Reranker handles top_n
+                logger.debug(f"Calling reranker service for {len(parents_for_reranking)} documents. "
+                             f"Reranker batch_size: {settings.DEFAULT_RERANKER_BATCH_SIZE}, "
+                             f"max_text_length: {settings.DEFAULT_RERANKER_MAX_TEXT_LENGTH}. "
+                             f"Reranker top_n (final_top_n for retrieval): {final_top_n}")
+
+                reranked_outputs = self.reranker_service.rerank(
+                    query=query_text,
+                    documents=parents_for_reranking,
+                    top_n=final_top_n, # Reranker applies its own top_n based on this
+                    batch_size=settings.DEFAULT_RERANKER_BATCH_SIZE,
+                    max_text_length=settings.DEFAULT_RERANKER_MAX_TEXT_LENGTH
+                )
 
                 temp_reranked_list = []
                 for reranked_item_from_service in reranked_outputs:
@@ -196,22 +220,24 @@ class RetrievalService:
                     original_full_data = original_items_before_rerank[original_idx]
                     temp_reranked_list.append({
                         **original_full_data,
-                        'parent_text': reranked_item_from_service['document'], # This is the parent_text
-                        'final_score': reranked_item_from_service['relevance_score'], # Update score
+                        'parent_text': reranked_item_from_service['document'],
+                        'final_score': reranked_item_from_service['relevance_score'], # Update score with reranker's score
                         'retrieval_source': original_full_data['retrieval_source'] + "_reranked"
                     })
-                results_after_rerank_or_hybrid = temp_reranked_list
-                logger.debug(f"Reranking complete. Produced {len(results_after_rerank_or_hybrid)} results.")
+                results_after_processing = temp_reranked_list # These are already sorted and top_n applied by reranker
+                logger.debug(f"Reranking complete. Produced {len(results_after_processing)} results.")
             except RerankerServiceError as e:
-                logger.error(f"Reranker service error: {e}. Using pre-reranked results.")
-                # Fallback to results before reranking, respecting final_top_n if reranker was supposed to do it
-                results_after_rerank_or_hybrid = scored_results[:final_top_n] if final_top_n else scored_results
+                logger.error(f"Reranker service error: {e}. Using pre-reranked, thresholded results, then applying final_top_n.")
+                results_after_processing = scored_results[:final_top_n]
             except Exception as e:
-                 logger.error(f"Unexpected error during reranking: {e}. Using pre-reranked results.", exc_info=True)
-                 results_after_rerank_or_hybrid = scored_results[:final_top_n] if final_top_n else scored_results
-        elif final_top_n is not None: # No reranker, but final_top_n is set
-            results_after_rerank_or_hybrid = scored_results[:final_top_n]
+                 logger.error(f"Unexpected error during reranking: {e}. Using pre-reranked, thresholded results, then applying final_top_n.", exc_info=True)
+                 results_after_processing = scored_results[:final_top_n]
+        elif final_top_n is not None: # No reranker, but final_top_n is set (apply to thresholded results)
+            results_after_processing = scored_results[:final_top_n]
 
+        # If reranker was used, its output count is already limited by final_top_n.
+        # If no reranker, and no final_top_n, results_after_processing is just scored_results (after threshold).
+        # If no reranker, but final_top_n is set, it's applied above.
 
         # --- 5. Format for Output ---
         # Ensure the output format is suitable for ChapterWriterAgent
