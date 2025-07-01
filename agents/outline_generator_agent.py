@@ -23,31 +23,12 @@ class OutlineGeneratorAgent(BaseAgent):
     and adds tasks to process each chapter.
     """
 
-    DEFAULT_PROMPT_TEMPLATE = """你是一个报告大纲撰写助手。请根据以下主题和关键词，生成一份详细的中文报告大纲。
-大纲应包含主要章节和子章节（如果适用）。请确保大纲结构清晰、逻辑连贯，并覆盖主题的核心方面。
-
-主题：
-{topic_cn} (英文参考: {topic_en})
-
-关键词：
-中文: {keywords_cn}
-英文: {keywords_en}
-
-请以Markdown列表格式返回大纲。例如：
-- 章节一：介绍
-  - 1.1 背景
-  - 1.2 研究意义
-- 章节二：主要发现
-  - 2.1 发现点A
-  - 2.2 发现点B
-- 章节三：结论
-
-输出的大纲内容：
-"""
+    # DEFAULT_PROMPT_TEMPLATE will be removed and sourced from settings
 
     def __init__(self, llm_service: LLMService, prompt_template: Optional[str] = None):
         super().__init__(agent_name="OutlineGeneratorAgent", llm_service=llm_service)
-        self.prompt_template = prompt_template or self.DEFAULT_PROMPT_TEMPLATE
+        from config import settings as app_settings
+        self.prompt_template = prompt_template or app_settings.DEFAULT_OUTLINE_GENERATOR_PROMPT
         if not self.llm_service:
             raise OutlineGeneratorAgentError("LLMService is required for OutlineGeneratorAgent.")
         # For parsing the generated Markdown outline into a structured list with IDs
