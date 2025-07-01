@@ -18,23 +18,12 @@ class ChapterWriterAgent(BaseAgent):
     Updates WorkflowState with the written content and queues evaluation task.
     """
 
-    DEFAULT_PROMPT_TEMPLATE = """你是一位专业的报告撰写员。请根据以下报告章节标题和相关的参考资料（这些是与章节最相关的父文本块），撰写详细、流畅、专业、连贯的中文章节内容。
-
-章节标题：
-{chapter_title}
-
-参考资料（请基于这些资料进行撰写，不要杜撰）：
-{retrieved_content_formatted}
-
-请确保内容与章节标题紧密相关，并充分、合理地利用提供的参考资料。避免直接复制粘贴参考资料，而是要理解、整合信息，并用自己的话语有条理地表达出来。
-输出的章节内容应具有良好的可读性和专业性。
-
-撰写的章节内容（纯文本，不需要包含章节标题本身）：
-"""
+    # DEFAULT_PROMPT_TEMPLATE will be removed and sourced from settings
 
     def __init__(self, llm_service: LLMService, prompt_template: Optional[str] = None):
         super().__init__(agent_name="ChapterWriterAgent", llm_service=llm_service)
-        self.prompt_template = prompt_template or self.DEFAULT_PROMPT_TEMPLATE
+        from config import settings as app_settings
+        self.prompt_template = prompt_template or app_settings.DEFAULT_CHAPTER_WRITER_PROMPT
         if not self.llm_service:
             raise ChapterWriterAgentError("LLMService is required for ChapterWriterAgent.")
 

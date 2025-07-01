@@ -1,5 +1,6 @@
 import logging
-import json
+import json # Keep for other JSON operations if any, or remove if only repair is used for loading
+import json_repair # Added
 from typing import Dict, Optional
 
 from agents.base_agent import BaseAgent
@@ -18,22 +19,13 @@ class TopicAnalyzerAgent(BaseAgent):
     and extracting relevant keywords. Updates the WorkflowState.
     """
 
-    DEFAULT_PROMPT_TEMPLATE = """你是一个主题分析专家。请分析以下用户提供的主题，对其进行理解、扩展和泛化，并生成相关的中文和英文关键词/主题概念，以便于后续的文档检索。请确保关键词的全面性。
-
-用户主题：'{user_topic}'
-
-请严格按照以下JSON格式返回结果，不要添加任何额外的解释或说明文字：
-{{
-  "generalized_topic_cn": "泛化后的中文主题",
-  "generalized_topic_en": "Generalized English Topic",
-  "keywords_cn": ["中文关键词1", "中文关键词2", "中文关键词3"],
-  "keywords_en": ["English Keyword1", "English Keyword2", "English Keyword3"]
-}}
-"""
+    # DEFAULT_PROMPT_TEMPLATE will be removed and sourced from settings
 
     def __init__(self, llm_service: LLMService, prompt_template: Optional[str] = None):
         super().__init__(agent_name="TopicAnalyzerAgent", llm_service=llm_service)
-        self.prompt_template = prompt_template or self.DEFAULT_PROMPT_TEMPLATE
+        # Import settings here or ensure it's available if prompt_template is None
+        from config import settings as app_settings # Use a different alias to avoid conflict if 'settings' is a var
+        self.prompt_template = prompt_template or app_settings.DEFAULT_TOPIC_ANALYZER_PROMPT
         if not self.llm_service:
             raise TopicAnalyzerAgentError("LLMService is required for TopicAnalyzerAgent.")
 
@@ -77,11 +69,14 @@ class TopicAnalyzerAgent(BaseAgent):
                 json_end_index = raw_response.rfind('}') + 1
                 if json_start_index != -1 and json_end_index != -1 and json_start_index < json_end_index:
                     json_string = raw_response[json_start_index:json_end_index]
-                    parsed_response = json.loads(json_string)
+                    # Attempt to repair and load the JSON string
+                    parsed_response = json_repair.loads(json_string)
                 else:
-                    raise TopicAnalyzerAgentError(f"LLM response does not contain a valid JSON object: {raw_response}")
-            except json.JSONDecodeError as e:
-                raise TopicAnalyzerAgentError(f"LLM response was not valid JSON: {raw_response}. Error: {e}")
+                    # If no clear JSON structure is found, try to repair the whole raw_response
+                    logger.warning(f"No clear JSON object found in LLM response for topic analysis, attempting to repair entire response: {raw_response}")
+                    parsed_response = json_repair.loads(raw_response) # Try repairing the whole thing
+            except (json.JSONDecodeError, ValueError) as e: # json_repair can also raise ValueError
+                raise TopicAnalyzerAgentError(f"LLM response was not valid or repairable JSON: {raw_response}. Error: {e}")
 
             required_keys = ["generalized_topic_cn", "generalized_topic_en", "keywords_cn", "keywords_en"]
             if not all(key in parsed_response for key in required_keys):

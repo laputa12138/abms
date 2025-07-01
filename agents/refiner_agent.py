@@ -18,31 +18,12 @@ class RefinerAgent(BaseAgent):
     evaluation feedback. Updates WorkflowState and queues re-evaluation.
     """
 
-    DEFAULT_PROMPT_TEMPLATE = """你是一位报告修改专家。请根据以下原始内容和评审反馈，对内容进行修改和完善，输出修改后的中文版本。
-你的目标是解决反馈中指出的问题，并提升内容的整体质量，包括相关性、流畅性、完整性和准确性。
-
-章节标题：{chapter_title}
-
-原始内容：
----
-{original_content}
----
-
-评审反馈：
----
-{evaluation_feedback}
----
-
-请仔细阅读评审反馈，理解需要改进的关键点。
-在修改时，请尽量保留原始内容的合理部分，重点针对反馈中提出的不足之处进行优化。
-如果反馈中包含具体的修改建议，请优先考虑采纳。
-
-修改后的内容（纯文本）：
-"""
+    # DEFAULT_PROMPT_TEMPLATE will be removed and sourced from settings
 
     def __init__(self, llm_service: LLMService, prompt_template: Optional[str] = None):
         super().__init__(agent_name="RefinerAgent", llm_service=llm_service)
-        self.prompt_template = prompt_template or self.DEFAULT_PROMPT_TEMPLATE
+        from config import settings as app_settings
+        self.prompt_template = prompt_template or app_settings.DEFAULT_REFINER_PROMPT
         if not self.llm_service:
             raise RefinerAgentError("LLMService is required for RefinerAgent.")
 
