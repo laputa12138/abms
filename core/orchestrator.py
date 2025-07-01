@@ -1,4 +1,5 @@
 import logging
+import json # Added for logging incomplete chapters
 from typing import Dict, Any, Optional
 
 from core.workflow_state import WorkflowState, TASK_TYPE_ANALYZE_TOPIC, \
@@ -112,6 +113,8 @@ class Orchestrator:
         """
         self.workflow_state.log_event("Orchestrator starting workflow coordination.")
         iteration_count = 0
+        stall_patience_counter = 0
+        STALL_PATIENCE_THRESHOLD = 5 # Number of consecutive empty-queue iterations before declaring a stall
 
         while not self.workflow_state.get_flag('report_generation_complete', False):
             if iteration_count >= self.max_workflow_iterations:
@@ -122,54 +125,82 @@ class Orchestrator:
             task = self.workflow_state.get_next_task() # Pops task and marks 'in_progress'
 
             if not task:
-                # No more tasks in the queue.
-                # Check conditions for triggering report compilation.
+                # Task queue is empty
+                stall_patience_counter += 1
+                self.workflow_state.log_event(f"Task queue empty. Stall patience: {stall_patience_counter}/{STALL_PATIENCE_THRESHOLD}.",
+                                             {"level": "DEBUG"})
+
                 if self.workflow_state.are_all_chapters_completed() and \
                    self.workflow_state.get_flag('outline_finalized', False) and \
                    not self.workflow_state.get_flag('report_compilation_requested', False):
 
-                    self.workflow_state.add_task(TASK_TYPE_COMPILE_REPORT, priority=100) # Low priority
+                    self.workflow_state.add_task(TASK_TYPE_COMPILE_REPORT, priority=100)
                     self.workflow_state.set_flag('report_compilation_requested', True)
                     self.workflow_state.log_event("All chapters completed, outline final. Compilation task added by Orchestrator.")
+                    stall_patience_counter = 0 # Reset patience as a new task was added
                     # Loop will continue and pick up this new task
-                elif self.workflow_state.get_flag('report_generation_complete'): # If flag was set by compile task
+                elif self.workflow_state.get_flag('report_generation_complete'):
+                    # This can happen if COMPILE_REPORT task itself set this flag
                     break
-                else:
-                    # No tasks, not all chapters done, or outline not final, or compilation already requested but not done
-                    # This might indicate a stall if no new tasks are being generated.
-                    self.workflow_state.log_event("Task queue empty, but report not complete and compilation not triggerable yet. Checking for stall.",
-                                                 {"all_chapters_done": self.workflow_state.are_all_chapters_completed(),
-                                                  "outline_finalized": self.workflow_state.get_flag('outline_finalized'),
-                                                  "compilation_requested": self.workflow_state.get_flag('report_compilation_requested'),
-                                                  "level": "WARNING"})
-                    # Break if it seems stuck (e.g., after a few iterations with no tasks)
-                    # This needs a more robust stall detection or timeout.
-                    # For now, if the queue is empty and compilation isn't the next step, we might be done or stuck.
-                    # The report_generation_complete flag is the ultimate decider.
-                    if iteration_count > 5 and not self.workflow_state.pending_tasks : # Arbitrary small number for test
-                         logger.warning("Orchestrator: Potential stall detected (empty queue, not complete). Halting.")
-                         self.workflow_state.set_flag('report_generation_complete', True) # Force stop due to stall
-                         break
+                elif stall_patience_counter >= STALL_PATIENCE_THRESHOLD:
+                    # Stall detected: Queue is empty, not all chapters done, and patience ran out
+                    logger.warning(f"Orchestrator: Potential stall detected after {stall_patience_counter} iterations with empty queue. Halting.")
+                    self.workflow_state.log_event(
+                        "Stall detected: Task queue empty for too long and report not complete.",
+                        {
+                            "all_chapters_done": self.workflow_state.are_all_chapters_completed(),
+                            "outline_finalized": self.workflow_state.get_flag('outline_finalized'),
+                            "compilation_requested": self.workflow_state.get_flag('report_compilation_requested'),
+                            "level": "ERROR"
+                        }
+                    )
+                    if not self.workflow_state.are_all_chapters_completed():
+                        incomplete_chapters = []
+                        for item in self.workflow_state.parsed_outline:
+                            ch_key = item['id']
+                            ch_data = self.workflow_state.get_chapter_data(ch_key)
+                            ch_status = ch_data.get('status', 'NO_DATA') if ch_data else 'NO_DATA_FOR_KEY'
+                            if ch_status != STATUS_COMPLETED:
+                                incomplete_chapters.append({
+                                    'key': ch_key,
+                                    'title': item.get('title', 'N/A'),
+                                    'status': ch_status
+                                })
+                        logger.error(f"Orchestrator: Stall detected. Incomplete chapters: {json.dumps(incomplete_chapters, ensure_ascii=False, indent=2)}")
+                        self.workflow_state.log_event("Stall details: Incomplete chapters logged.", {"incomplete_chapters_summary": incomplete_chapters})
+
+                    self.workflow_state.set_flag('report_generation_complete', True) # Force stop due to stall
+                    break
+                # If queue is empty but patience not exhausted, just continue to next iteration (will sleep briefly)
             else:
+                # Task found, reset stall patience
+                stall_patience_counter = 0
                 # Handle the retrieved task
                 self._execute_task_type(task) # This will call agent's execute_task
 
             iteration_count += 1
 
             # Log chapter completion progress
-            num_total_chapters = len(self.workflow_state.parsed_outline)
+            num_total_chapters = len(self.workflow_state.parsed_outline) if self.workflow_state.parsed_outline else 0
             num_completed_chapters = self.workflow_state.count_completed_chapters()
             progress_log_msg = (f"Orchestrator: Workflow iteration {iteration_count} complete. "
                                 f"Chapters: {num_completed_chapters}/{num_total_chapters} completed.")
-            logger.debug(progress_log_msg) # More frequent, so debug level
-            if iteration_count % 5 == 0 or num_total_chapters == num_completed_chapters : # Log to workflow state less frequently
+            logger.debug(progress_log_msg)
+            if iteration_count % 5 == 0 or \
+               (num_total_chapters > 0 and num_total_chapters == num_completed_chapters) or \
+               not task : # Log to workflow state if queue was empty this iter
                 self.workflow_state.log_event(progress_log_msg)
 
+        final_log_details = {
+            "total_iterations": iteration_count,
+            "final_status_complete": self.workflow_state.get_flag('report_generation_complete')
+        }
+        if self.workflow_state.parsed_outline: # Avoid error if outline never generated
+            final_log_details["chapters_completed_at_end"] = f"{self.workflow_state.count_completed_chapters()}/{len(self.workflow_state.parsed_outline)}"
+        else:
+            final_log_details["chapters_completed_at_end"] = "Outline not generated"
 
-        self.workflow_state.log_event("Orchestrator finished workflow coordination.",
-                                     {"total_iterations": iteration_count,
-                                      "final_status_complete": self.workflow_state.get_flag('report_generation_complete'),
-                                      "chapters_completed_at_end": f"{self.workflow_state.count_completed_chapters()}/{len(self.workflow_state.parsed_outline)}"})
+        self.workflow_state.log_event("Orchestrator finished workflow coordination.", final_log_details)
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s')
