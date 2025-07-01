@@ -4,5 +4,4 @@ python main.py \
     --output_path "output/ADTC.md" \
     --index_name "abms" \
     --vector_store_path "./my_vector_indexes/" \
-    --log_level DEBUG \
-    --debug
+    --log_level DEBUG
