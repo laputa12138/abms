@@ -263,7 +263,10 @@ def main():
             hybrid_alpha=args.hybrid_search_alpha,
             final_top_n_retrieval=args.final_top_n_retrieval,
             max_refinement_iterations=args.max_refinement_iterations,
-            max_workflow_iterations=args.max_workflow_iterations # Pass new CLI arg
+            max_workflow_iterations=args.max_workflow_iterations,
+            vector_store_path=args.vector_store_path,
+            index_name=args.index_name,
+            force_reindex=args.force_reindex
         )
     except Exception as e:
         logger.error(f"Failed to initialize the report generation pipeline: {e}", exc_info=True)

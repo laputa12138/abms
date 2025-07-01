@@ -132,6 +132,10 @@ class ReportGenerationPipeline:
 
 
     def _process_and_load_data(self, data_path: str):
+        logger.debug(f"Starting _process_and_load_data: initial data_path='{data_path}', "
+                     f"initial self.vector_store_path='{self.vector_store_path}', "
+                     f"initial self.index_name='{self.index_name}', "
+                     f"initial self.force_reindex={self.force_reindex}")
         self.workflow_state.log_event(f"Data processing: data_path='{data_path}', vs_path='{self.vector_store_path}', "
                                      f"index_name='{self.index_name}', force_reindex={self.force_reindex}")
         loaded_from_file = False
@@ -147,10 +151,13 @@ class ReportGenerationPipeline:
                 effective_index_name = "default_rag_index"
             if not effective_index_name: # Further fallback if basename was empty (e.g. data_path was '/')
                 effective_index_name = "default_rag_index"
+
+        logger.debug(f"Determined effective_index_name: '{effective_index_name}'")
         self.workflow_state.log_event(f"Effective index name for VectorStore: '{effective_index_name}'")
 
         # Prepare vector store directory and paths
         vs_dir = os.path.abspath(self.vector_store_path)
+        logger.debug(f"Absolute vector store directory (vs_dir): '{vs_dir}'")
         if not os.path.exists(vs_dir):
             try:
                 os.makedirs(vs_dir, exist_ok=True)
@@ -162,10 +169,13 @@ class ReportGenerationPipeline:
 
         faiss_index_path = os.path.join(vs_dir, f"{effective_index_name}.faiss")
         metadata_path = os.path.join(vs_dir, f"{effective_index_name}.meta.json")
+        logger.debug(f"Calculated FAISS index path: '{faiss_index_path}'")
+        logger.debug(f"Calculated metadata path: '{metadata_path}'")
 
         if not self.force_reindex:
             if os.path.exists(faiss_index_path) and os.path.exists(metadata_path):
                 try:
+                    logger.info(f"Attempting to load existing VectorStore: index='{faiss_index_path}', meta='{metadata_path}'")
                     self.workflow_state.log_event(f"Attempting to load existing VectorStore: index='{faiss_index_path}', meta='{metadata_path}'")
                     self.vector_store.load_store(faiss_index_path, metadata_path)
                     if self.vector_store.count_child_chunks > 0:
