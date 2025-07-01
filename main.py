@@ -150,9 +150,10 @@ def main():
         help="Blending factor for hybrid search (0.0 for keyword-only, 1.0 for vector-only)."
     )
     retrieval_group.add_argument(
-        "--final_top_n_retrieval", type=int, default=None, # Will default in pipeline if None
-        help="Final number of documents to use for chapter generation after retrieval and reranking. Defaults to vector_top_k."
+        "--final_top_n_retrieval", type=int, default=settings.DEFAULT_RETRIEVAL_FINAL_TOP_N,
+        help="Final number of documents to use for chapter generation after retrieval and reranking."
     )
+    # Note: DEFAULT_RETRIEVAL_MIN_SCORE_THRESHOLD is not a CLI argument, taken directly from settings.
 
     # Pipeline execution arguments
     pipeline_group = parser.add_argument_group('Pipeline Execution Parameters')
@@ -160,8 +161,9 @@ def main():
         "--max_refinement_iterations", type=int, default=settings.DEFAULT_MAX_REFINEMENT_ITERATIONS,
         help="Maximum number of refinement iterations for each chapter."
     )
-    pipeline_group.add_argument( # Added from previous pipeline init, now a CLI arg for pipeline
-        "--max_workflow_iterations", type=int, default=200, # Default from old pipeline init
+
+    pipeline_group.add_argument(
+        "--max_workflow_iterations", type=int, default=settings.DEFAULT_PIPELINE_MAX_WORKFLOW_ITERATIONS,
         help="Maximum number of iterations for the main workflow loop to prevent infinite loops."
     )
 
@@ -250,23 +252,49 @@ def main():
 
     # Initialize the pipeline with all relevant parameters
     try:
+        # Pass services, execution controls, and CLI-overridable hyperparameters.
+        # Other hyperparameters will be sourced from settings.py by components.
         pipeline = ReportGenerationPipeline(
             llm_service=llm_service,
             embedding_service=embedding_service,
             reranker_service=reranker_service,
-            parent_chunk_size=args.parent_chunk_size,
-            parent_chunk_overlap=args.parent_chunk_overlap,
-            child_chunk_size=args.child_chunk_size,
-            child_chunk_overlap=args.child_chunk_overlap,
-            vector_top_k=args.vector_top_k,
-            keyword_top_k=args.keyword_top_k,
-            hybrid_alpha=args.hybrid_search_alpha,
-            final_top_n_retrieval=args.final_top_n_retrieval,
-            max_refinement_iterations=args.max_refinement_iterations,
-            max_workflow_iterations=args.max_workflow_iterations,
+            # Execution context / Overridable settings
             vector_store_path=args.vector_store_path,
             index_name=args.index_name,
-            force_reindex=args.force_reindex
+            force_reindex=args.force_reindex,
+            max_workflow_iterations=args.max_workflow_iterations,
+            # Pass CLI-overridden hyperparameters explicitly if pipeline/agents need them early
+            # or if they don't directly read from settings.
+            # For this refactor, we aim for components to read from settings where possible.
+            # The pipeline might only need to pass these if its direct setup needs them,
+            # or if it orchestrates agents that don't have direct settings access.
+            # Let's assume DocumentProcessor and RetrievalService will use settings.
+            # The pipeline constructor will be simplified.
+            # Parameters like parent_chunk_size, vector_top_k etc. will be used by
+            # DocumentProcessor and RetrievalService (via ContentRetrieverAgent) by
+            # reading from settings, allowing CLI args to provide the values TO settings via main.py.
+            # No, this is incorrect. The CLI args are distinct from settings.
+            # We need to pass the *values from args* if they are meant to override settings.
+            # So, the pipeline constructor WILL still receive these, but its internal components
+            # will be simplified.
+            # The pipeline constructor will use these args, and if its components are modified
+            # to take them, they will. If components are modified to *only* use settings,
+            # then these args to pipeline are only for pipeline's direct use or if it
+            # explicitly passes them down.
+
+            # Corrected approach: Pipeline constructor takes the CLI-overridden values.
+            # Internal components will be initialized by the pipeline using these values.
+            cli_overridden_parent_chunk_size=args.parent_chunk_size,
+            cli_overridden_parent_chunk_overlap=args.parent_chunk_overlap,
+            cli_overridden_child_chunk_size=args.child_chunk_size,
+            cli_overridden_child_chunk_overlap=args.child_chunk_overlap,
+            cli_overridden_vector_top_k=args.vector_top_k,
+            cli_overridden_keyword_top_k=args.keyword_top_k,
+            cli_overridden_hybrid_alpha=args.hybrid_search_alpha,
+            cli_overridden_final_top_n_retrieval=args.final_top_n_retrieval,
+            cli_overridden_max_refinement_iterations=args.max_refinement_iterations
+            # Note: The new DEFAULT_RETRIEVAL_MIN_SCORE_THRESHOLD is not passed via CLI,
+            # so RetrievalService will use it directly from settings.
         )
     except Exception as e:
         logger.error(f"Failed to initialize the report generation pipeline: {e}", exc_info=True)

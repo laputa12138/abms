@@ -4,13 +4,7 @@ from typing import List, Dict, Optional, Any
 from agents.base_agent import BaseAgent
 from core.retrieval_service import RetrievalService, RetrievalServiceError
 from core.workflow_state import WorkflowState, TASK_TYPE_WRITE_CHAPTER, STATUS_WRITING_NEEDED # Import constants
-# Import settings only for default values if needed by the agent itself,
-# but RetrievalService now handles its own defaults based on what pipeline passes to it.
-from config.settings import (
-    DEFAULT_VECTOR_STORE_TOP_K,
-    DEFAULT_HYBRID_SEARCH_ALPHA,
-    DEFAULT_KEYWORD_SEARCH_TOP_K
-)
+from config import settings # Import settings for default retrieval parameters
 
 logger = logging.getLogger(__name__)
 
@@ -27,25 +21,29 @@ class ContentRetrieverAgent(BaseAgent):
 
     def __init__(self,
                  retrieval_service: RetrievalService,
-                 default_vector_top_k: int = DEFAULT_VECTOR_STORE_TOP_K,
-                 default_keyword_top_k: int = DEFAULT_KEYWORD_SEARCH_TOP_K,
-                 default_hybrid_alpha: float = DEFAULT_HYBRID_SEARCH_ALPHA,
-                 default_final_top_n: Optional[int] = None):
+                 # These parameters are passed by ReportGenerationPipeline,
+                 # reflecting CLI overrides or settings defaults.
+                 default_vector_top_k: int = settings.DEFAULT_VECTOR_STORE_TOP_K,
+                 default_keyword_top_k: int = settings.DEFAULT_KEYWORD_SEARCH_TOP_K,
+                 default_hybrid_alpha: float = settings.DEFAULT_HYBRID_SEARCH_ALPHA,
+                 default_final_top_n: int = settings.DEFAULT_RETRIEVAL_FINAL_TOP_N
+                 ):
 
-        super().__init__(agent_name="ContentRetrieverAgent", llm_service=None) # No LLM needed
+        super().__init__(agent_name="ContentRetrieverAgent", llm_service=None)
 
         if not retrieval_service:
             raise ContentRetrieverAgentError("RetrievalService is required for ContentRetrieverAgent.")
-
         self.retrieval_service = retrieval_service
 
-        self.default_vector_top_k = default_vector_top_k
-        self.default_keyword_top_k = default_keyword_top_k
-        self.default_hybrid_alpha = default_hybrid_alpha
-        # If default_final_top_n is None, it implies RetrievalService might use its own default or return all from previous step
-        self.default_final_top_n = default_final_top_n
+        # Store the effective parameters passed from the pipeline
+        self.vector_top_k = default_vector_top_k
+        self.keyword_top_k = default_keyword_top_k
+        self.hybrid_alpha = default_hybrid_alpha
+        self.final_top_n = default_final_top_n
 
-        logger.info(f"ContentRetrieverAgent initialized with RetrievalService and default retrieval params.")
+        logger.info(f"ContentRetrieverAgent initialized. Effective params: "
+                    f"vector_k={self.vector_top_k}, keyword_k={self.keyword_top_k}, "
+                    f"alpha={self.hybrid_alpha}, final_n={self.final_top_n}")
 
     def execute_task(self, workflow_state: WorkflowState, task_payload: Dict) -> None:
         """
@@ -91,24 +89,26 @@ class ContentRetrieverAgent(BaseAgent):
         if not query: # Fallback if title and keywords are empty
             query = workflow_state.user_topic
 
-        # Determine operational retrieval parameters (payload overrides agent defaults)
-        op_vector_top_k = task_payload.get('vector_top_k', self.default_vector_top_k)
-        op_keyword_top_k = task_payload.get('keyword_top_k', self.default_keyword_top_k)
-        op_hybrid_alpha = task_payload.get('hybrid_alpha', self.default_hybrid_alpha)
-        # If default_final_top_n was None for the agent, and not in payload, it will be None for service.
-        # If agent had a default (e.g. self.default_vector_top_k), use that.
-        effective_default_final_top_n = self.default_final_top_n if self.default_final_top_n is not None else op_vector_top_k
-        op_final_top_n = task_payload.get('final_top_n', effective_default_final_top_n)
+        # Use the parameters stored in the agent (which were set by the pipeline from CLI/settings)
+        # Task_payload could potentially override these further if we design for per-chapter retrieval variation,
+        # but for now, we use the agent's configured (effective) parameters.
+        current_vector_top_k = task_payload.get('vector_top_k', self.vector_top_k)
+        current_keyword_top_k = task_payload.get('keyword_top_k', self.keyword_top_k)
+        current_hybrid_alpha = task_payload.get('hybrid_alpha', self.hybrid_alpha)
+        current_final_top_n = task_payload.get('final_top_n', self.final_top_n)
 
-
-        logger.info(f"ContentRetrieverAgent retrieving for chapter '{chapter_title}' (key: {chapter_key}) with query: '{query[:100]}...'")
+        logger.info(f"[{self.agent_name}] Task ID: {task_id} - Retrieving for chapter '{chapter_title}' (key: {chapter_key}) with query: '{query[:100]}...'. "
+                    f"Params: vector_k={current_vector_top_k}, keyword_k={current_keyword_top_k}, "
+                    f"alpha={current_hybrid_alpha}, final_n={current_final_top_n}")
         try:
+            # RetrievalService will use its own defaults (from settings) if any of these are None,
+            # but ContentRetrieverAgent now ensures they are int/float based on its init.
             retrieved_docs_for_chapter = self.retrieval_service.retrieve(
                 query_text=query,
-                vector_top_k=op_vector_top_k,
-                keyword_top_k=op_keyword_top_k,
-                hybrid_alpha=op_hybrid_alpha,
-                final_top_n=op_final_top_n
+                vector_top_k=current_vector_top_k,
+                keyword_top_k=current_keyword_top_k,
+                hybrid_alpha=current_hybrid_alpha,
+                final_top_n=current_final_top_n
             )
 
             # Update WorkflowState with retrieved documents for this chapter
