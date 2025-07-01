@@ -72,21 +72,29 @@ class ChapterWriterAgent(BaseAgent):
                                  'chapter_key': Unique key/ID of the chapter.
                                  'chapter_title': Title of the chapter.
         """
+        task_id = workflow_state.current_processing_task_id
+        logger.info(f"[{self.agent_name}] Task ID: {task_id} - Starting execution for chapter_key: {task_payload.get('chapter_key')}, title: {task_payload.get('chapter_title')}")
+
         chapter_key = task_payload.get('chapter_key')
         chapter_title = task_payload.get('chapter_title')
 
         if not chapter_key or not chapter_title:
-            raise ChapterWriterAgentError("Chapter key or title not found in task payload for ChapterWriterAgent.")
+            err_msg = "Chapter key or title not found in task payload."
+            logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}")
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+            raise ChapterWriterAgentError(err_msg)
 
         chapter_data = workflow_state.get_chapter_data(chapter_key)
         if not chapter_data:
-            # This should ideally not happen if tasks are chained correctly
-            workflow_state.log_event(f"Chapter data for key '{chapter_key}' not found.", level="ERROR")
-            raise ChapterWriterAgentError(f"Chapter data for key '{chapter_key}' not found in WorkflowState.")
+            err_msg = f"Chapter data for key '{chapter_key}' not found in WorkflowState."
+            workflow_state.log_event(err_msg, level="ERROR") # Keep this log
+            logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}")
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+            raise ChapterWriterAgentError(err_msg)
 
-        retrieved_docs = chapter_data.get('retrieved_docs', []) # These are dicts with 'document' as parent_text
-
-        self._log_input(chapter_title=chapter_title, retrieved_docs_count=len(retrieved_docs))
+        retrieved_docs = chapter_data.get('retrieved_docs', [])
+        logger.info(f"[{self.agent_name}] Task ID: {task_id} - Chapter: '{chapter_title}', Retrieved docs count: {len(retrieved_docs)}")
+        self._log_input(chapter_title=chapter_title, retrieved_docs_count=len(retrieved_docs)) # Keep for agent's own structured log
 
         formatted_content_str = self._format_retrieved_content(retrieved_docs)
 
@@ -121,16 +129,24 @@ class ChapterWriterAgent(BaseAgent):
             )
 
             self._log_output({"chapter_key": chapter_key, "content_length": len(chapter_text)})
-            logger.info(f"Chapter writing successful for '{chapter_title}'. Next task (Evaluate Chapter) added.")
+            success_msg = f"Chapter writing successful for '{chapter_title}'. Next task (Evaluate Chapter) added."
+            logger.info(f"[{self.agent_name}] Task ID: {task_id} - {success_msg}")
+            if task_id: workflow_state.complete_task(task_id, success_msg, status='success')
 
         except LLMServiceError as e:
-            workflow_state.log_event(f"LLM service error writing chapter '{chapter_title}'", {"error": str(e)}, level="ERROR")
+            err_msg = f"LLM service failed for chapter '{chapter_title}': {e}"
+            workflow_state.log_event(f"LLM service error writing chapter '{chapter_title}'", {"error": str(e)}, level="ERROR") # Keep this
             workflow_state.add_chapter_error(chapter_key, f"LLM service error: {e}")
-            raise ChapterWriterAgentError(f"LLM service failed for chapter '{chapter_title}': {e}")
+            logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}", exc_info=True)
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+            raise ChapterWriterAgentError(err_msg) # Re-raise
         except Exception as e:
-            workflow_state.log_event(f"Unexpected error in ChapterWriterAgent for '{chapter_title}'", {"error": str(e)}, level="CRITICAL")
+            err_msg = f"Unexpected error writing chapter '{chapter_title}': {e}"
+            workflow_state.log_event(f"Unexpected error in ChapterWriterAgent for '{chapter_title}'", {"error": str(e)}, level="CRITICAL") # Keep this
             workflow_state.add_chapter_error(chapter_key, f"Unexpected error: {e}")
-            raise ChapterWriterAgentError(f"Unexpected error writing chapter '{chapter_title}': {e}")
+            logger.critical(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}", exc_info=True)
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+            raise ChapterWriterAgentError(err_msg) # Re-raise
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s')

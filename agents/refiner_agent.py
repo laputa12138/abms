@@ -70,32 +70,44 @@ class RefinerAgent(BaseAgent):
             workflow_state (WorkflowState): The current state of the workflow.
             task_payload (Dict): Payload, expects 'chapter_key' and 'chapter_title'.
         """
+        task_id = workflow_state.current_processing_task_id
+        logger.info(f"[{self.agent_name}] Task ID: {task_id} - Starting execution for chapter_key: {task_payload.get('chapter_key')}, title: {task_payload.get('chapter_title')}")
+
         chapter_key = task_payload.get('chapter_key')
         chapter_title = task_payload.get('chapter_title')
 
         if not chapter_key or not chapter_title:
-            raise RefinerAgentError("Chapter key or title not found in task payload for RefinerAgent.")
+            err_msg = "Chapter key or title not found in task payload."
+            logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}")
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+            raise RefinerAgentError(err_msg)
 
         chapter_data = workflow_state.get_chapter_data(chapter_key)
         if not chapter_data or not chapter_data.get('content'):
-            workflow_state.log_event(f"No original content to refine for chapter '{chapter_title}'. Skipping refinement.", level="WARNING")
-            # Potentially mark as error or re-queue evaluation if this state is unexpected
-            workflow_state.update_chapter_status(chapter_key, STATUS_EVALUATION_NEEDED) # Back to eval to see if it can proceed
+            err_msg = f"No original content to refine for chapter '{chapter_title}'. Skipping refinement."
+            workflow_state.log_event(err_msg, level="WARNING") # Keep this
+            workflow_state.update_chapter_status(chapter_key, STATUS_EVALUATION_NEEDED) # Back to eval
+            logger.warning(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}")
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='success') # Task done, but chapter reverted
             return
 
         original_content = chapter_data['content']
-
-        # Get the latest evaluation feedback
         evaluations = chapter_data.get('evaluations', [])
         if not evaluations:
-            workflow_state.log_event(f"No evaluation feedback found for chapter '{chapter_title}' to refine upon. Skipping refinement.", level="WARNING")
-            workflow_state.update_chapter_status(chapter_key, STATUS_EVALUATION_NEEDED) # Re-evaluate if no feedback
+            err_msg = f"No evaluation feedback found for chapter '{chapter_title}' to refine upon. Skipping refinement."
+            workflow_state.log_event(err_msg, level="WARNING") # Keep this
+            workflow_state.update_chapter_status(chapter_key, STATUS_EVALUATION_NEEDED) # Re-evaluate
+            logger.warning(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}")
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='success') # Task done, chapter reverted
             return
 
-        latest_evaluation_feedback = evaluations[-1] # Use the most recent one
+        latest_evaluation_feedback = evaluations[-1]
+        num_prior_evals = len(evaluations) # This is also refinement attempt number
 
+        logger.info(f"[{self.agent_name}] Task ID: {task_id} - Refining chapter '{chapter_title}' (Refinement attempt {num_prior_evals}). "
+                    f"Original content length: {len(original_content)}, Last score: {latest_evaluation_feedback.get('score')}")
         self._log_input(chapter_key=chapter_key, original_content_length=len(original_content),
-                        evaluation_feedback_score=latest_evaluation_feedback.get('score'))
+                        evaluation_feedback_score=latest_evaluation_feedback.get('score')) # Agent's own structured log
 
         formatted_feedback_str = self._format_feedback(latest_evaluation_feedback)
 
@@ -133,16 +145,24 @@ class RefinerAgent(BaseAgent):
             )
 
             self._log_output({"chapter_key": chapter_key, "refined_content_length": len(refined_text_to_store)})
-            logger.info(f"Refinement successful for '{chapter_title}'. Next task (Evaluate Chapter) added.")
+            success_msg = f"Refinement successful for '{chapter_title}'. Next task (Evaluate Chapter) added."
+            logger.info(f"[{self.agent_name}] Task ID: {task_id} - {success_msg}")
+            if task_id: workflow_state.complete_task(task_id, success_msg, status='success')
 
         except LLMServiceError as e:
-            workflow_state.log_event(f"LLM service error during refinement of chapter '{chapter_title}'", {"error": str(e)}, level="ERROR")
+            err_msg = f"LLM service failed for chapter '{chapter_title}': {e}"
+            workflow_state.log_event(f"LLM service error during refinement of chapter '{chapter_title}'", {"error": str(e)}, level="ERROR") # Keep
             workflow_state.add_chapter_error(chapter_key, f"LLM service error during refinement: {e}")
-            raise RefinerAgentError(f"LLM service failed for chapter '{chapter_title}': {e}")
+            logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}", exc_info=True)
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+            raise RefinerAgentError(err_msg) # Re-raise
         except Exception as e:
-            workflow_state.log_event(f"Unexpected error in RefinerAgent for '{chapter_title}'", {"error": str(e)}, level="CRITICAL")
-            workflow_state.add_chapter_error(chapter_key, f"Unexpected error during refinement: {e}")
-            raise RefinerAgentError(f"Unexpected error refining chapter '{chapter_title}': {e}")
+            err_msg = f"Unexpected error refining chapter '{chapter_title}': {e}"
+            workflow_state.log_event(f"Unexpected error in RefinerAgent for '{chapter_title}'", {"error": str(e)}, level="CRITICAL") # Keep
+            workflow_state.add_chapter_error(chapter_key, f"Unexpected error during refinement: e")
+            logger.critical(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}", exc_info=True)
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+            raise RefinerAgentError(err_msg) # Re-raise
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s')
