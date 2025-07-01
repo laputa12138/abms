@@ -167,8 +167,12 @@ class OutlineGeneratorAgent(BaseAgent):
                     priority=3 # Assuming outline generation is priority 2
                 )
 
+            # After successfully adding all chapter tasks, mark the outline as finalized for this run.
+            workflow_state.set_flag('outline_finalized', True)
+            logger.info(f"[{self.agent_name}] Task ID: {task_id} - Outline finalized flag set to True.")
+
             self._log_output({"markdown_outline": outline_markdown, "parsed_items_count": len(parsed_outline_with_ids)})
-            success_msg = f"Outline generation successful for '{topic_cn}'. {len(parsed_outline_with_ids)} chapter processing tasks added."
+            success_msg = f"Outline generation successful for '{topic_cn}'. {len(parsed_outline_with_ids)} chapter processing tasks added. Outline finalized."
             logger.info(f"[{self.agent_name}] Task ID: {task_id} - {success_msg}")
             if task_id: workflow_state.complete_task(task_id, success_msg, status='success')
 
