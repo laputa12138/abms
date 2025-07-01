@@ -176,32 +176,45 @@ class ReportCompilerAgent(BaseAgent):
         Called by the pipeline to compile the report.
         It fetches all necessary context from WorkflowState.
         """
-        self._log_input(workflow_state_id=workflow_state.workflow_id, task_payload=task_payload)
+        task_id = workflow_state.current_processing_task_id
+        # Try to get task_id from payload if not set by orchestrator (e.g. direct call or old orchestrator)
+        # However, current orchestrator always sets current_processing_task_id before calling agent.
+        if not task_id and 'id' in task_payload: task_id = task_payload['id']
+
+        logger.info(f"[{self.agent_name}] Task ID: {task_id} - Starting execution.")
+        self._log_input(workflow_state_id=workflow_state.workflow_id, task_payload=task_payload) # Agent's own structured log
 
         if not workflow_state.are_all_chapters_completed():
             msg = "Not all chapters are marked as completed. Report compilation aborted."
+            logger.warning(f"[{self.agent_name}] Task ID: {task_id} - {msg}")
             workflow_state.log_event(msg, level="WARNING")
-            # This task might be re-queued by the pipeline if called prematurely.
-            # Or, we can raise an error to signal the pipeline.
-            # For now, let's just log and not produce a report if this happens.
-            # The pipeline's main loop should ideally only trigger this when ready.
-            workflow_state.complete_task(task_payload['id'], msg, status='deferred') # Use task_payload for ID
+            if task_id: workflow_state.complete_task(task_id, msg, status='deferred')
             return
 
         report_context = workflow_state.get_full_report_context_for_compilation()
         # Ensure parsed_outline is included, as it's now the source of truth for structure
-        report_context['parsed_outline'] = workflow_state.parsed_outline
+        # get_full_report_context_for_compilation should ideally provide this.
+        # Let's assume it does or add it there if missing.
+        # For safety here, we ensure it's in the context we pass to compile_report_from_context
+        if 'parsed_outline' not in report_context:
+            report_context['parsed_outline'] = workflow_state.parsed_outline
+            logger.debug(f"[{self.agent_name}] Task ID: {task_id} - Manually added parsed_outline to report_context for compiler.")
 
 
         try:
             final_report_md = self.compile_report_from_context(report_context)
-            workflow_state.set_flag('final_report_md', final_report_md) # Store in state
-            workflow_state.set_flag('report_generation_complete', True) # Signal completion
-            logger.info("Report compilation successful and stored in WorkflowState.")
+            workflow_state.set_flag('final_report_md', final_report_md)
+            workflow_state.set_flag('report_generation_complete', True)
+            success_msg = "Report compilation successful and stored in WorkflowState."
+            logger.info(f"[{self.agent_name}] Task ID: {task_id} - {success_msg}")
+            if task_id: workflow_state.complete_task(task_id, success_msg, status='success')
         except ReportCompilerAgentError as e:
-            workflow_state.log_event(f"Report compilation failed: {e}", level="ERROR")
-            workflow_state.add_chapter_error("REPORT_COMPILATION", f"Compilation error: {e}") # Generic error for compilation
-            raise # Re-raise to be caught by pipeline's task handler
+            err_msg = f"Report compilation failed: {e}"
+            workflow_state.log_event(err_msg, level="ERROR") # Keep this
+            workflow_state.add_chapter_error("REPORT_COMPILATION", f"Compilation error: {e}")
+            logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}", exc_info=True)
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+            raise # Re-raise
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s')

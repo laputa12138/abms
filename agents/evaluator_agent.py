@@ -70,34 +70,42 @@ JSON输出格式：
             workflow_state (WorkflowState): The current state of the workflow.
             task_payload (Dict): Payload, expects 'chapter_key' and 'chapter_title'.
         """
+        task_id = workflow_state.current_processing_task_id
+        logger.info(f"[{self.agent_name}] Task ID: {task_id} - Starting execution for chapter_key: {task_payload.get('chapter_key')}, title: {task_payload.get('chapter_title')}")
+
         chapter_key = task_payload.get('chapter_key')
-        chapter_title = task_payload.get('chapter_title') # Get title for prompt context
+        chapter_title = task_payload.get('chapter_title')
 
         if not chapter_key or not chapter_title:
-            raise EvaluatorAgentError("Chapter key or title not found in task payload for EvaluatorAgent.")
+            err_msg = "Chapter key or title not found in task payload."
+            logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}")
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+            raise EvaluatorAgentError(err_msg)
 
         chapter_data = workflow_state.get_chapter_data(chapter_key)
         if not chapter_data or not chapter_data.get('content'):
-            # This might happen if writing failed or produced empty content.
-            workflow_state.log_event(f"No content to evaluate for chapter '{chapter_title}' (Key: {chapter_key}). Marking as error.", level="ERROR")
+            err_msg = f"No content to evaluate for chapter '{chapter_title}' (Key: {chapter_key}). Marking as error."
+            workflow_state.log_event(err_msg, level="ERROR") # Keep this
             workflow_state.add_chapter_error(chapter_key, "No content available for evaluation.")
-            workflow_state.update_chapter_status(chapter_key, STATUS_ERROR) # Mark chapter as error
-            # No further task added for this chapter from here.
+            workflow_state.update_chapter_status(chapter_key, STATUS_ERROR)
+            logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}")
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='failed') # Complete task as failed
             return
 
         content_to_evaluate = chapter_data['content']
-        self._log_input(chapter_key=chapter_key, content_length=len(content_to_evaluate))
+        logger.info(f"[{self.agent_name}] Task ID: {task_id} - Evaluating content for chapter '{chapter_title}', length: {len(content_to_evaluate)}")
+        self._log_input(chapter_key=chapter_key, content_length=len(content_to_evaluate)) # Agent's own structured log
 
         if not content_to_evaluate.strip():
-            logger.warning(f"EvaluatorAgent received empty content for chapter '{chapter_title}'.")
+            logger.warning(f"[{self.agent_name}] Task ID: {task_id} - Received empty content for chapter '{chapter_title}'. Assigning score 0.")
             evaluation_result = {"score": 0, "feedback_cn": "无法评估空内容。",
                                  "evaluation_criteria_met": {k: "无法评估" for k in ["relevance", "fluency", "completeness", "accuracy"]}}
         else:
             prompt = self.prompt_template.format(content_to_evaluate=content_to_evaluate, chapter_title=chapter_title)
             try:
-                logger.info(f"Sending request to LLM for evaluation of chapter '{chapter_title}'.")
+                logger.info(f"[{self.agent_name}] Task ID: {task_id} - Sending request to LLM for evaluation of chapter '{chapter_title}'.")
                 raw_response = self.llm_service.chat(query=prompt, system_prompt="你是一个严格且公正的AI内容评审专家。")
-                logger.debug(f"Raw LLM response for evaluation: {raw_response}")
+                logger.debug(f"[{self.agent_name}] Task ID: {task_id} - Raw LLM response for evaluation: {raw_response}")
 
                 try:
                     json_start_index = raw_response.find('{')
@@ -119,45 +127,59 @@ JSON输出格式：
                     raise EvaluatorAgentError(f"LLM eval response malformed types: {evaluation_result}")
 
             except LLMServiceError as e:
-                workflow_state.log_event(f"LLM service error evaluating chapter '{chapter_title}'", {"error": str(e)}, level="ERROR")
+                err_msg = f"LLM service failed for chapter '{chapter_title}': {e}"
+                workflow_state.log_event(f"LLM service error evaluating chapter '{chapter_title}'", {"error": str(e)}, level="ERROR") # Keep
                 workflow_state.add_chapter_error(chapter_key, f"LLM service error during evaluation: {e}")
-                raise EvaluatorAgentError(f"LLM service failed for chapter '{chapter_title}': {e}")
-            except Exception as e: # Catch other parsing or validation errors from above
-                workflow_state.log_event(f"Error processing LLM evaluation response for '{chapter_title}'", {"error": str(e)}, level="ERROR")
+                logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}", exc_info=True)
+                if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+                raise EvaluatorAgentError(err_msg) # Re-raise
+            except Exception as e:
+                err_msg = f"Error processing LLM evaluation response for '{chapter_title}': {e}"
+                workflow_state.log_event(err_msg, {"error": str(e)}, level="ERROR") # Keep
                 workflow_state.add_chapter_error(chapter_key, f"Processing LLM evaluation response error: {e}")
-                raise EvaluatorAgentError(f"Error processing LLM evaluation response: {e}")
+                logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}", exc_info=True)
+                if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+                raise EvaluatorAgentError(err_msg) # Re-raise
 
-        # Update WorkflowState with the evaluation
         workflow_state.add_chapter_evaluation(chapter_key, evaluation_result)
-
-        # Decide next step based on evaluation score and refinement iterations
-        # Max refinement iterations should be a global or pipeline-level config.
-        # For now, let's assume it's passed or available via settings.
-        max_ref_iters = workflow_state.get_flag('max_refinement_iterations', settings.DEFAULT_MAX_REFINEMENT_ITERATIONS)
-
-        num_evaluations = len(workflow_state.get_chapter_data(chapter_key).get('evaluations', []))
-
         current_score = evaluation_result.get('score', 0)
+        max_ref_iters = workflow_state.get_flag('max_refinement_iterations', settings.DEFAULT_MAX_REFINEMENT_ITERATIONS)
+        # Count existing evaluations for this chapter to determine refinement attempts.
+        # The current evaluation (just added) means this is evaluation attempt number N.
+        # Refinement is needed if this is attempt N and N <= max_refinement_iterations.
+        num_evaluation_attempts = len(workflow_state.get_chapter_data(chapter_key).get('evaluations', []))
 
-        if current_score < self.refinement_threshold and num_evaluations <= max_ref_iters:
+        decision_log_payload = {
+            "chapter_key": chapter_key, "title": chapter_title, "score": current_score,
+            "threshold": self.refinement_threshold, "evaluation_attempts": num_evaluation_attempts,
+            "max_refinement_iterations": max_ref_iters
+        }
+
+        if current_score < self.refinement_threshold and num_evaluation_attempts <= max_ref_iters:
             workflow_state.update_chapter_status(chapter_key, STATUS_REFINEMENT_NEEDED)
             workflow_state.add_task(
                 task_type=TASK_TYPE_REFINE_CHAPTER,
-                payload={'chapter_key': chapter_key, 'chapter_title': chapter_title}, # Pass key and title
+                payload={'chapter_key': chapter_key, 'chapter_title': chapter_title},
                 priority=task_payload.get('priority', 7) + 1
             )
-            logger.info(f"Evaluation of '{chapter_title}' (Score: {current_score}) requires refinement. "
-                        f"Attempt {num_evaluations}/{max_ref_iters}. Next task (Refine Chapter) added.")
+            log_msg = (f"Evaluation score {current_score} < {self.refinement_threshold}. "
+                       f"Refinement attempt {num_evaluation_attempts}/{max_ref_iters}. Queuing REFINE task.")
+            logger.info(f"[{self.agent_name}] Task ID: {task_id} - {log_msg} {decision_log_payload}")
+            if task_id: workflow_state.complete_task(task_id, log_msg, status='success')
         else:
+            final_status_reason = ""
             if current_score >= self.refinement_threshold:
-                logger.info(f"Evaluation of '{chapter_title}' (Score: {current_score}) meets threshold. Marking as complete.")
-            else: # Score is low, but max refinement iterations reached
-                logger.warning(f"Evaluation of '{chapter_title}' (Score: {current_score}) is below threshold, "
-                               f"but max refinement iterations ({max_ref_iters}) reached. Marking as complete.")
-            workflow_state.update_chapter_status(chapter_key, STATUS_COMPLETED)
-            # No further task for this chapter from here. Pipeline will check if all chapters are done.
+                final_status_reason = f"Score {current_score} >= threshold {self.refinement_threshold}."
+            else:
+                final_status_reason = (f"Score {current_score} < threshold {self.refinement_threshold}, "
+                                       f"but max refinement attempts ({num_evaluation_attempts}/{max_ref_iters}) reached.")
 
-        self._log_output(evaluation_result)
+            workflow_state.update_chapter_status(chapter_key, STATUS_COMPLETED)
+            log_msg = f"Chapter '{chapter_title}' processing complete. {final_status_reason} Marking chapter COMPLETED."
+            logger.info(f"[{self.agent_name}] Task ID: {task_id} - {log_msg} {decision_log_payload}")
+            if task_id: workflow_state.complete_task(task_id, log_msg, status='success')
+
+        self._log_output(evaluation_result) # Agent's own structured log
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s')

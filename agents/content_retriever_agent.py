@@ -63,11 +63,22 @@ class ContentRetrieverAgent(BaseAgent):
         Raises:
             ContentRetrieverAgentError: If retrieval fails or essential payload info is missing.
         """
+        task_id = workflow_state.current_processing_task_id
+        if not task_id: # Should be set by orchestrator
+            logger.error(f"{self.agent_name}: current_processing_task_id not found in workflow_state. This is unexpected.")
+            # Attempt to find task_id from payload if passed by a previous version or for safety
+            task_id = task_payload.get('task_id_if_passed_explicitly') # Unlikely to be there with current orchestrator
+
+        logger.info(f"[{self.agent_name}] Task ID: {task_id} - Starting execution for chapter_key: {task_payload.get('chapter_key')}, title: {task_payload.get('chapter_title')}")
+
         chapter_key = task_payload.get('chapter_key')
         chapter_title = task_payload.get('chapter_title')
 
         if not chapter_key or not chapter_title:
-            raise ContentRetrieverAgentError("Chapter key or title not found in task payload for ContentRetrieverAgent.")
+            err_msg = "Chapter key or title not found in task payload."
+            logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}")
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+            raise ContentRetrieverAgentError(err_msg)
 
         self._log_input(chapter_key=chapter_key, chapter_title=chapter_title, overrides=task_payload)
 
@@ -113,20 +124,30 @@ class ContentRetrieverAgent(BaseAgent):
                     priority=task_payload.get('priority', 5) + 1 # Slightly lower priority than retrieval
                 )
                 self._log_output({"chapter_key": chapter_key, "num_retrieved": len(retrieved_docs_for_chapter)})
-                logger.info(f"Retrieval successful for chapter '{chapter_title}'. "
-                            f"{len(retrieved_docs_for_chapter)} parent contexts retrieved. Next task (Write Chapter) added.")
+                success_msg = (f"Retrieval successful for chapter '{chapter_title}'. "
+                               f"{len(retrieved_docs_for_chapter)} parent contexts retrieved. Next task (Write Chapter) added.")
+                logger.info(f"[{self.agent_name}] Task ID: {task_id} - {success_msg}")
+                if task_id: workflow_state.complete_task(task_id, success_msg, status='success')
             else: # Should not happen if _get_chapter_entry creates it
-                raise ContentRetrieverAgentError(f"Failed to get or create chapter entry for key '{chapter_key}' in WorkflowState.")
+                err_msg = f"Failed to get or create chapter entry for key '{chapter_key}' in WorkflowState."
+                logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}")
+                if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+                raise ContentRetrieverAgentError(err_msg)
 
         except RetrievalServiceError as e:
-            workflow_state.log_event(f"RetrievalService failed for chapter '{chapter_title}'", {"error": str(e)}, level="ERROR")
+            err_msg = f"RetrievalService failed for chapter '{chapter_title}': {e}"
+            workflow_state.log_event(err_msg, {"error": str(e)}, level="ERROR") # Keep this log
             workflow_state.add_chapter_error(chapter_key, f"RetrievalService error: {e}")
-            # No next task added, pipeline's main loop will see this chapter in error state or stuck.
-            raise ContentRetrieverAgentError(f"Core retrieval failed for chapter '{chapter_title}': {e}")
+            logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}", exc_info=True)
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+            raise ContentRetrieverAgentError(err_msg) # Re-raise
         except Exception as e:
-            workflow_state.log_event(f"Unexpected error in ContentRetrieverAgent for chapter '{chapter_title}'", {"error": str(e)}, level="CRITICAL")
+            err_msg = f"Unexpected error during content retrieval for '{chapter_title}': {e}"
+            workflow_state.log_event(err_msg, {"error": str(e)}, level="CRITICAL") # Keep this log
             workflow_state.add_chapter_error(chapter_key, f"Unexpected error: {e}")
-            raise ContentRetrieverAgentError(f"Unexpected error during content retrieval for '{chapter_title}': {e}")
+            logger.critical(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}", exc_info=True)
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+            raise ContentRetrieverAgentError(err_msg) # Re-raise
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s')
