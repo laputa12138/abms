@@ -25,8 +25,8 @@ DEFAULT_EMBEDDING_MODEL_NAME = os.getenv("DEFAULT_EMBEDDING_MODEL_NAME", "Qwen3-
 # Reranker 模型配置 (Reranker Model Configuration)
 # ==============================================================================
 DEFAULT_RERANKER_MODEL_NAME = os.getenv("DEFAULT_RERANKER_MODEL_NAME", "Qwen3-Reranker-0.6B") # 默认 Reranker 模型名称
-DEFAULT_RERANKER_BATCH_SIZE = int(os.getenv("DEFAULT_RERANKER_BATCH_SIZE", "4")) # Reranker 处理文档时的批次大小
-DEFAULT_RERANKER_MAX_TEXT_LENGTH = int(os.getenv("DEFAULT_RERANKER_MAX_TEXT_LENGTH", "1024")) # 发送给 Reranker 的文档最大字符长度 (超长会截断)
+DEFAULT_RERANKER_BATCH_SIZE = int(os.getenv("DEFAULT_RERANKER_BATCH_SIZE", "2")) # Reranker 处理文档时的批次大小 (调小默认值)
+DEFAULT_RERANKER_MAX_TEXT_LENGTH = int(os.getenv("DEFAULT_RERANKER_MAX_TEXT_LENGTH", "512")) # 发送给 Reranker 的文档最大字符长度 (调小默认值)
 
 # ==============================================================================
 # 文档处理配置 (Document Processing Configuration)
@@ -57,18 +57,27 @@ DEFAULT_VECTOR_STORE_TOP_K = int(os.getenv("DEFAULT_VECTOR_STORE_TOP_K", "10")) 
 DEFAULT_VECTOR_STORE_PATH = os.getenv("DEFAULT_VECTOR_STORE_PATH", "/home/ISTIC_0/abms/vector_store") # 向量存储索引文件的默认保存路径
 
 # ==============================================================================
-# 混合搜索配置 (Hybrid Search Configuration)
+# 混合搜索与检索配置 (Hybrid Search & Retrieval Configuration)
 # ==============================================================================
 # 用于混合向量搜索和关键字搜索分数的 Alpha 参数。
 # Alpha = 1.0 表示纯向量搜索，Alpha = 0.0 表示纯关键字搜索。
 DEFAULT_HYBRID_SEARCH_ALPHA = float(os.getenv("DEFAULT_HYBRID_SEARCH_ALPHA", "0.5"))
-# 融合前关键字搜索 (BM25) 的 Top K 数量，可以与向量搜索的 K 不同。
+# 融合前关键字搜索 (BM25) 的 Top K 数量。
 DEFAULT_KEYWORD_SEARCH_TOP_K = int(os.getenv("DEFAULT_KEYWORD_SEARCH_TOP_K", "10"))
+# RAG检索后，送入LLM生成答案的最终文档数量。
+DEFAULT_RETRIEVAL_FINAL_TOP_N = int(os.getenv("DEFAULT_RETRIEVAL_FINAL_TOP_N", "7"))
+# 检索结果的最低分数阈值 (例如，基于相似度分数, 0.0 到 1.0)。低于此阈值的文档将被丢弃。
+# 注意: FAISS L2距离分数越低越好。BM25 和 Reranker 分数越高越好。
+# 此阈值将在 RetrievalService 中应用于归一化后的混合分数或Reranker分数。
+DEFAULT_RETRIEVAL_MIN_SCORE_THRESHOLD = float(os.getenv("DEFAULT_RETRIEVAL_MIN_SCORE_THRESHOLD", "0.2"))
+
 
 # ==============================================================================
 # Pipeline (工作流) 配置 (Pipeline Configuration)
 # ==============================================================================
 DEFAULT_MAX_REFINEMENT_ITERATIONS = int(os.getenv("DEFAULT_MAX_REFINEMENT_ITERATIONS", "1")) # 每个章节内容的最大精炼迭代次数
+DEFAULT_PIPELINE_MAX_WORKFLOW_ITERATIONS = int(os.getenv("DEFAULT_PIPELINE_MAX_WORKFLOW_ITERATIONS", "300")) # 工作流最大迭代次数，防止无限循环
+DEFAULT_EVALUATOR_REFINEMENT_THRESHOLD = int(os.getenv("DEFAULT_EVALUATOR_REFINEMENT_THRESHOLD", "80")) # Evaluator Agent 评估分数阈值，低于此分数则需要精炼
 
 # ==============================================================================
 # 日志配置 (Logging Configuration)
@@ -118,12 +127,16 @@ if __name__ == '__main__':
     print(f"DEFAULT_VECTOR_STORE_TOP_K: {DEFAULT_VECTOR_STORE_TOP_K}")
     print(f"DEFAULT_VECTOR_STORE_PATH: {DEFAULT_VECTOR_STORE_PATH}")
 
-    print("\n--- 混合搜索配置 ---")
+    print("\n--- 混合搜索与检索配置 ---")
     print(f"DEFAULT_HYBRID_SEARCH_ALPHA: {DEFAULT_HYBRID_SEARCH_ALPHA}")
     print(f"DEFAULT_KEYWORD_SEARCH_TOP_K: {DEFAULT_KEYWORD_SEARCH_TOP_K}")
+    print(f"DEFAULT_RETRIEVAL_FINAL_TOP_N: {DEFAULT_RETRIEVAL_FINAL_TOP_N}")
+    print(f"DEFAULT_RETRIEVAL_MIN_SCORE_THRESHOLD: {DEFAULT_RETRIEVAL_MIN_SCORE_THRESHOLD}")
 
     print("\n--- Pipeline (工作流) 配置 ---")
     print(f"DEFAULT_MAX_REFINEMENT_ITERATIONS: {DEFAULT_MAX_REFINEMENT_ITERATIONS}")
+    print(f"DEFAULT_PIPELINE_MAX_WORKFLOW_ITERATIONS: {DEFAULT_PIPELINE_MAX_WORKFLOW_ITERATIONS}")
+    print(f"DEFAULT_EVALUATOR_REFINEMENT_THRESHOLD: {DEFAULT_EVALUATOR_REFINEMENT_THRESHOLD}")
 
     print("\n--- 日志配置 ---")
     print(f"LOG_LEVEL: {LOG_LEVEL}")

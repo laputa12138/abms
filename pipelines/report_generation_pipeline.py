@@ -34,51 +34,67 @@ class ReportGenerationPipeline:
     def __init__(self,
                  llm_service: LLMService,
                  embedding_service: EmbeddingService,
+                 # Services
                  reranker_service: Optional[RerankerService] = None,
-                 parent_chunk_size: int = settings.DEFAULT_PARENT_CHUNK_SIZE,
-                 parent_chunk_overlap: int = settings.DEFAULT_PARENT_CHUNK_OVERLAP,
-                 child_chunk_size: int = settings.DEFAULT_CHILD_CHUNK_SIZE,
-                 child_chunk_overlap: int = settings.DEFAULT_CHILD_CHUNK_OVERLAP,
-                 vector_top_k: int = settings.DEFAULT_VECTOR_STORE_TOP_K,
-                 keyword_top_k: int = settings.DEFAULT_KEYWORD_SEARCH_TOP_K,
-                 hybrid_alpha: float = settings.DEFAULT_HYBRID_SEARCH_ALPHA,
-                 final_top_n_retrieval: Optional[int] = None,
-                 max_refinement_iterations: int = settings.DEFAULT_MAX_REFINEMENT_ITERATIONS,
-                 max_workflow_iterations: int = 50,
+                 # Execution context parameters (from CLI or their defaults from settings)
                  vector_store_path: str = settings.DEFAULT_VECTOR_STORE_PATH,
                  index_name: Optional[str] = None,
-                 force_reindex: bool = False
+                 force_reindex: bool = False,
+                 max_workflow_iterations: int = settings.DEFAULT_PIPELINE_MAX_WORKFLOW_ITERATIONS,
+                 # CLI-overridden hyperparameters (main.py passes these using args.*)
+                 # Their names in constructor match the names in main.py's args
+                 cli_overridden_parent_chunk_size: int = settings.DEFAULT_PARENT_CHUNK_SIZE,
+                 cli_overridden_parent_chunk_overlap: int = settings.DEFAULT_PARENT_CHUNK_OVERLAP,
+                 cli_overridden_child_chunk_size: int = settings.DEFAULT_CHILD_CHUNK_SIZE,
+                 cli_overridden_child_chunk_overlap: int = settings.DEFAULT_CHILD_CHUNK_OVERLAP,
+                 cli_overridden_vector_top_k: int = settings.DEFAULT_VECTOR_STORE_TOP_K,
+                 cli_overridden_keyword_top_k: int = settings.DEFAULT_KEYWORD_SEARCH_TOP_K,
+                 cli_overridden_hybrid_alpha: float = settings.DEFAULT_HYBRID_SEARCH_ALPHA,
+                 cli_overridden_final_top_n_retrieval: int = settings.DEFAULT_RETRIEVAL_FINAL_TOP_N,
+                 cli_overridden_max_refinement_iterations: int = settings.DEFAULT_MAX_REFINEMENT_ITERATIONS
                 ):
 
         self.llm_service = llm_service
         self.embedding_service = embedding_service
         self.reranker_service = reranker_service
-        self.max_refinement_iterations = max_refinement_iterations # Used by EvaluatorAgent logic via WorkflowState
-        self.max_workflow_iterations = max_workflow_iterations # Passed to Orchestrator
 
+        # Store execution context parameters
         self.vector_store_path = vector_store_path
         self.index_name = index_name
         self.force_reindex = force_reindex
+        self.max_workflow_iterations = max_workflow_iterations # Passed to Orchestrator
 
+        # Store CLI-overridden hyperparameters (or their defaults from settings if not overridden by CLI)
+        # These will be used to initialize components like DocumentProcessor and ContentRetrieverAgent
+        self.parent_chunk_size = cli_overridden_parent_chunk_size
+        self.parent_chunk_overlap = cli_overridden_parent_chunk_overlap
+        self.child_chunk_size = cli_overridden_child_chunk_size
+        self.child_chunk_overlap = cli_overridden_child_chunk_overlap
+        self.vector_top_k = cli_overridden_vector_top_k
+        self.keyword_top_k = cli_overridden_keyword_top_k
+        self.hybrid_alpha = cli_overridden_hybrid_alpha
+        self.final_top_n_retrieval = cli_overridden_final_top_n_retrieval
+        self.max_refinement_iterations = cli_overridden_max_refinement_iterations # Used by WorkflowState
+
+        # Initialize DocumentProcessor with effective chunking parameters
         self.document_processor = DocumentProcessor(
-            parent_chunk_size=parent_chunk_size, parent_chunk_overlap=parent_chunk_overlap,
-            child_chunk_size=child_chunk_size, child_chunk_overlap=child_chunk_overlap,
-            supported_extensions=settings.SUPPORTED_DOC_EXTENSIONS
+            parent_chunk_size=self.parent_chunk_size,
+            parent_chunk_overlap=self.parent_chunk_overlap,
+            child_chunk_size=self.child_chunk_size,
+            child_chunk_overlap=self.child_chunk_overlap
+            # supported_extensions is read from settings by DocumentProcessor itself
         )
         self.vector_store = VectorStore(embedding_service=self.embedding_service)
 
         self.bm25_index: Optional[BM25Okapi] = None
         self.all_child_chunks_for_bm25_mapping: List[Dict[str, Any]] = []
 
-        self.retrieval_service: Optional[RetrievalService] = None
-        self.content_retriever_agent: Optional[ContentRetrieverAgent] = None
+        self.retrieval_service: Optional[RetrievalService] = None # Initialized later
+        self.content_retriever_agent: Optional[ContentRetrieverAgent] = None # Initialized later
 
-        self.retrieval_params = {
-            "vector_top_k": vector_top_k, "keyword_top_k": keyword_top_k,
-            "hybrid_alpha": hybrid_alpha, "final_top_n": final_top_n_retrieval or vector_top_k
-        }
+        # self.retrieval_params dictionary is no longer needed as params are passed directly or sourced from settings.
 
-        # Initialize all agents here, they will be passed to the Orchestrator
+        # Initialize agents that don't depend on dynamically configured retrieval params here
         self.topic_analyzer = TopicAnalyzerAgent(llm_service=self.llm_service)
         self.outline_generator = OutlineGeneratorAgent(llm_service=self.llm_service)
         # ContentRetrieverAgent is initialized in _initialize_retrieval_and_orchestration_components
@@ -107,14 +123,16 @@ class ReportGenerationPipeline:
             self.workflow_state.log_event("RetrievalService initialized.")
 
         if not self.content_retriever_agent:
+            # ContentRetrieverAgent is initialized with the effective parameters
+            # (either from CLI overrides via main.py -> pipeline, or settings defaults if no CLI override)
             self.content_retriever_agent = ContentRetrieverAgent(
                 retrieval_service=self.retrieval_service,
-                default_vector_top_k=self.retrieval_params["vector_top_k"],
-                default_keyword_top_k=self.retrieval_params["keyword_top_k"],
-                default_hybrid_alpha=self.retrieval_params["hybrid_alpha"],
-                default_final_top_n=self.retrieval_params["final_top_n"]
+                default_vector_top_k=self.vector_top_k, # Use the value stored in self, which came from CLI/settings
+                default_keyword_top_k=self.keyword_top_k,
+                default_hybrid_alpha=self.hybrid_alpha,
+                default_final_top_n=self.final_top_n_retrieval
             )
-            self.workflow_state.log_event("ContentRetrieverAgent initialized using RetrievalService.")
+            self.workflow_state.log_event("ContentRetrieverAgent initialized using RetrievalService with effective parameters.")
 
         if not self.orchestrator:
             self.orchestrator = Orchestrator(

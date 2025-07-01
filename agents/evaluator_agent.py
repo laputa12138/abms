@@ -47,17 +47,14 @@ JSON输出格式：
     "accuracy": "<关于准确性的简短评价（基于常识），例如：高/待核实/部分存疑/低，具体说明>"
 }}
 """
-    # Arbitrary score threshold for deciding if refinement is needed
-    REFINEMENT_SCORE_THRESHOLD = 80
-
+    # REFINEMENT_SCORE_THRESHOLD will now be taken from settings
 
     def __init__(self,
                  llm_service: LLMService,
-                 prompt_template: Optional[str] = None,
-                 refinement_threshold: int = REFINEMENT_SCORE_THRESHOLD):
+                 prompt_template: Optional[str] = None):
         super().__init__(agent_name="EvaluatorAgent", llm_service=llm_service)
         self.prompt_template = prompt_template or self.DEFAULT_PROMPT_TEMPLATE
-        self.refinement_threshold = refinement_threshold
+        # refinement_threshold is now read from settings within execute_task or globally
         if not self.llm_service:
             raise EvaluatorAgentError("LLMService is required for EvaluatorAgent.")
 
@@ -149,29 +146,33 @@ JSON输出格式：
         # Refinement is needed if this is attempt N and N <= max_refinement_iterations.
         num_evaluation_attempts = len(workflow_state.get_chapter_data(chapter_key).get('evaluations', []))
 
+        # Use threshold from settings
+        current_refinement_threshold = settings.DEFAULT_EVALUATOR_REFINEMENT_THRESHOLD
+
         decision_log_payload = {
             "chapter_key": chapter_key, "title": chapter_title, "score": current_score,
-            "threshold": self.refinement_threshold, "evaluation_attempts": num_evaluation_attempts,
+            "threshold": current_refinement_threshold, # Using value from settings
+            "evaluation_attempts": num_evaluation_attempts,
             "max_refinement_iterations": max_ref_iters
         }
 
-        if current_score < self.refinement_threshold and num_evaluation_attempts <= max_ref_iters:
+        if current_score < current_refinement_threshold and num_evaluation_attempts <= max_ref_iters:
             workflow_state.update_chapter_status(chapter_key, STATUS_REFINEMENT_NEEDED)
             workflow_state.add_task(
                 task_type=TASK_TYPE_REFINE_CHAPTER,
                 payload={'chapter_key': chapter_key, 'chapter_title': chapter_title},
                 priority=task_payload.get('priority', 7) + 1
             )
-            log_msg = (f"Evaluation score {current_score} < {self.refinement_threshold}. "
+            log_msg = (f"Evaluation score {current_score} < {current_refinement_threshold}. "
                        f"Refinement attempt {num_evaluation_attempts}/{max_ref_iters}. Queuing REFINE task.")
             logger.info(f"[{self.agent_name}] Task ID: {task_id} - {log_msg} {decision_log_payload}")
             if task_id: workflow_state.complete_task(task_id, log_msg, status='success')
         else:
             final_status_reason = ""
-            if current_score >= self.refinement_threshold:
-                final_status_reason = f"Score {current_score} >= threshold {self.refinement_threshold}."
+            if current_score >= current_refinement_threshold:
+                final_status_reason = f"Score {current_score} >= threshold {current_refinement_threshold}."
             else:
-                final_status_reason = (f"Score {current_score} < threshold {self.refinement_threshold}, "
+                final_status_reason = (f"Score {current_score} < threshold {current_refinement_threshold}, "
                                        f"but max refinement attempts ({num_evaluation_attempts}/{max_ref_iters}) reached.")
 
             workflow_state.update_chapter_status(chapter_key, STATUS_COMPLETED)
