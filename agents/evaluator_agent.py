@@ -5,7 +5,7 @@ from typing import Dict, Optional
 
 from agents.base_agent import BaseAgent
 from core.llm_service import LLMService, LLMServiceError
-from core.workflow_state import WorkflowState, TASK_TYPE_REFINE_CHAPTER, STATUS_REFINEMENT_NEEDED, STATUS_COMPLETED # Import constants
+from core.workflow_state import WorkflowState, TASK_TYPE_REFINE_CHAPTER, STATUS_REFINEMENT_NEEDED, STATUS_COMPLETED, STATUS_ERROR # Import constants
 from config import settings # For DEFAULT_MAX_REFINEMENT_ITERATIONS
 
 logger = logging.getLogger(__name__)
@@ -184,11 +184,11 @@ if __name__ == '__main__':
             self.added_tasks_ea = []
             self.max_ref_iter_config = settings.DEFAULT_MAX_REFINEMENT_ITERATIONS # Store this for test
 
-        def add_task(self, task_type: str, payload: Optional[Dict[str, Any]] = None, priority: int = 0):
+        def add_task(self, task_type: str, payload: Optional[Dict[str, any]] = None, priority: int = 0):
             self.added_tasks_ea.append({'type': task_type, 'payload': payload, 'priority': priority})
             super().add_task(task_type, payload, priority)
 
-        def get_flag(self, flag_name: str, default: Optional[Any] = None) -> Any:
+        def get_flag(self, flag_name: str, default: Optional[any] = None) -> any:
             if flag_name == 'max_refinement_iterations': return self.max_ref_iter_config
             return super().get_flag(flag_name, default)
 
