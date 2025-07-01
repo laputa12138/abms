@@ -242,7 +242,7 @@ class RetrievalService:
         # --- 5. Format for Output ---
         # Ensure the output format is suitable for ChapterWriterAgent
         output_for_chapter_writer: List[Dict[str, Any]] = []
-        for res_item in results_after_rerank_or_hybrid:
+        for res_item in results_after_processing:
             output_for_chapter_writer.append({
                 "document": res_item["parent_text"], # Key for ChapterWriterAgent
                 "score": res_item["final_score"],

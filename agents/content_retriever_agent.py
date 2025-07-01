@@ -1,6 +1,6 @@
 import logging
 from typing import List, Dict, Optional, Any
-
+import json
 from agents.base_agent import BaseAgent
 from core.retrieval_service import RetrievalService, RetrievalServiceError
 from core.workflow_state import WorkflowState, TASK_TYPE_WRITE_CHAPTER, STATUS_WRITING_NEEDED # Import constants
