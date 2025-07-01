@@ -143,7 +143,7 @@ class ContentRetrieverAgent(BaseAgent):
             raise ContentRetrieverAgentError(err_msg) # Re-raise
         except Exception as e:
             err_msg = f"Unexpected error during content retrieval for '{chapter_title}': {e}"
-            workflow_state.log_event(err_msg, {"error": str(e)}, level="CRITICAL") # Keep this log
+            workflow_state.log_event(err_msg, {"error": str(e)}) # Removed level="CRITICAL"
             workflow_state.add_chapter_error(chapter_key, f"Unexpected error: {e}")
             logger.critical(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}", exc_info=True)
             if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
