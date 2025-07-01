@@ -155,11 +155,21 @@ class Orchestrator:
                 self._execute_task_type(task) # This will call agent's execute_task
 
             iteration_count += 1
-            self.workflow_state.log_event(f"Orchestrator: Workflow iteration {iteration_count} complete.")
+
+            # Log chapter completion progress
+            num_total_chapters = len(self.workflow_state.parsed_outline)
+            num_completed_chapters = self.workflow_state.count_completed_chapters()
+            progress_log_msg = (f"Orchestrator: Workflow iteration {iteration_count} complete. "
+                                f"Chapters: {num_completed_chapters}/{num_total_chapters} completed.")
+            logger.debug(progress_log_msg) # More frequent, so debug level
+            if iteration_count % 5 == 0 or num_total_chapters == num_completed_chapters : # Log to workflow state less frequently
+                self.workflow_state.log_event(progress_log_msg)
+
 
         self.workflow_state.log_event("Orchestrator finished workflow coordination.",
                                      {"total_iterations": iteration_count,
-                                      "final_status_complete": self.workflow_state.get_flag('report_generation_complete')})
+                                      "final_status_complete": self.workflow_state.get_flag('report_generation_complete'),
+                                      "chapters_completed_at_end": f"{self.workflow_state.count_completed_chapters()}/{len(self.workflow_state.parsed_outline)}"})
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s')

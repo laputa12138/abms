@@ -240,6 +240,18 @@ class WorkflowState:
                 return False
         return True
 
+    def count_completed_chapters(self) -> int:
+        """Counts how many chapters (from parsed_outline) are marked as COMPLETED."""
+        if not self.parsed_outline:
+            return 0
+        count = 0
+        for item in self.parsed_outline:
+            chapter_key = item['id']
+            chapter_info = self.chapter_data.get(chapter_key)
+            if chapter_info and chapter_info.get('status') == STATUS_COMPLETED:
+                count += 1
+        return count
+
     def increment_error_count(self):
         self.error_count += 1
         self.log_event("Global error count incremented.", {"current_error_count": self.error_count})
