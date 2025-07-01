@@ -25,8 +25,8 @@ DEFAULT_EMBEDDING_MODEL_NAME = os.getenv("DEFAULT_EMBEDDING_MODEL_NAME", "Qwen3-
 # Reranker 模型配置 (Reranker Model Configuration)
 # ==============================================================================
 DEFAULT_RERANKER_MODEL_NAME = os.getenv("DEFAULT_RERANKER_MODEL_NAME", "Qwen3-Reranker-0.6B") # 默认 Reranker 模型名称
-DEFAULT_RERANKER_BATCH_SIZE = int(os.getenv("DEFAULT_RERANKER_BATCH_SIZE", "4")) # Reranker 处理文档时的批次大小
-DEFAULT_RERANKER_MAX_TEXT_LENGTH = int(os.getenv("DEFAULT_RERANKER_MAX_TEXT_LENGTH", "1024")) # 发送给 Reranker 的文档最大字符长度 (超长会截断)
+DEFAULT_RERANKER_BATCH_SIZE = int(os.getenv("DEFAULT_RERANKER_BATCH_SIZE", "1")) # Reranker 处理文档时的批次大小
+DEFAULT_RERANKER_MAX_TEXT_LENGTH = int(os.getenv("DEFAULT_RERANKER_MAX_TEXT_LENGTH", "5000")) # 发送给 Reranker 的文档最大字符长度 (超长会截断)
 
 # ==============================================================================
 # 文档处理配置 (Document Processing Configuration)

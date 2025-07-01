@@ -20,7 +20,8 @@ class EvaluatorAgent(BaseAgent):
     then queues the next task (refinement or marks chapter as complete).
     """
 
-    DEFAULT_PROMPT_TEMPLATE = """你是一位资深的报告评审员。请根据以下标准评估提供的报告内容：
+    DEFAULT_PROMPT_TEMPLATE = """
+你是一位资深的报告评审员。请根据以下标准评估提供的报告内容：
 1.  **相关性**：内容是否紧扣主题和章节要求？信息是否与讨论的核心问题直接相关？
 2.  **流畅性**：语句是否通顺自然？段落之间过渡是否平滑？逻辑是否清晰？
 3.  **完整性**：信息是否全面？论点是否得到了充分的论证和支持？是否涵盖了应有的关键点？
@@ -40,11 +41,12 @@ JSON输出格式：
 {{
   "score": <总评分，整数>,
   "feedback_cn": "具体的中文反馈意见，包括优点和改进建议。",
-  "evaluation_criteria_met": {
+  "evaluation_criteria_met": {{
     "relevance": "<关于相关性的简短评价，例如：高/中/低，具体说明>",
     "fluency": "<关于流畅性的简短评价，例如：优秀/良好/一般/较差，具体说明>",
     "completeness": "<关于完整性的简短评价，例如：非常全面/基本全面/部分缺失/严重缺失，具体说明>",
     "accuracy": "<关于准确性的简短评价（基于常识），例如：高/待核实/部分存疑/低，具体说明>"
+    }}
 }}
 """
     # Arbitrary score threshold for deciding if refinement is needed
