@@ -161,7 +161,7 @@ def main():
         help="Maximum number of refinement iterations for each chapter."
     )
     pipeline_group.add_argument( # Added from previous pipeline init, now a CLI arg for pipeline
-        "--max_workflow_iterations", type=int, default=200, # Default from old pipeline init
+        "--max_workflow_iterations", type=int, default=500, # Default from old pipeline init
         help="Maximum number of iterations for the main workflow loop to prevent infinite loops."
     )
 
