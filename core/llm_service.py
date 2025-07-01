@@ -86,10 +86,22 @@ class LLMService:
             "top_p": top_p if top_p is not None else DEFAULT_LLM_TOP_P, # Corrected from TopP
             "enable_thinking": enable_thinking if enable_thinking is not None else DEFAULT_LLM_ENABLE_THINKING,
             "top_k": top_k if top_k is not None else DEFAULT_LLM_TOP_K, # Corrected from TopK
-            "min_p": min_p if min_p is not None else DEFAULT_LLM_MIN_P, # Corrected from MinP
+            "min_p": min_p if min_p is not None else DEFAULT_LLM_MIN_P,
         }
 
-        logger.info(f"Sending chat request to LLM {self.model_name} with query: '{query[:100]}...' and config: {generate_config}")
+        # Detailed logging for LLM interaction
+        logger.debug(f"LLM Request to model: {self.model_name}")
+        logger.debug(f"System Prompt: {system_prompt}")
+
+        # Log query (potentially truncated for brevity in standard logs, full in debug file if needed)
+        log_query_display = query if len(query) < 500 else query[:500] + "... (truncated)"
+        logger.debug(f"User Query (preview): {log_query_display}")
+        if len(query) > 500: # For very long queries, consider writing to a temp file
+            # For now, we'll rely on debug level being sufficient. If not, implement file logging for prompts.
+            logger.debug(f"Full User Query (first 2000 chars for very long inputs): \n{query[:2000]}")
+
+        logger.debug(f"Generation Config: {generate_config}")
+
 
         try:
             response = self.model.chat(
@@ -97,19 +109,25 @@ class LLMService:
                 generate_config=generate_config
             )
 
+            # Detailed logging for LLM response
+            logger.debug(f"Raw LLM Response object: {response}")
+
             if response and "choices" in response and len(response["choices"]) > 0:
                 assistant_message = response["choices"][0].get("message", {}).get("content")
                 if assistant_message:
-                    logger.info(f"Received response from LLM: '{assistant_message[:100]}...'")
+                    log_assistant_message_display = assistant_message if len(assistant_message) < 500 else assistant_message[:500] + "... (truncated)"
+                    logger.debug(f"LLM Assistant Message (preview): {log_assistant_message_display}")
+                    if len(assistant_message) > 2000: # Log more for very long outputs if necessary
+                        logger.debug(f"Full LLM Assistant Message (first 2000 chars for very long outputs): \n{assistant_message[:2000]}")
                     return assistant_message
                 else:
-                    logger.error(f"Malformed response from LLM: 'content' field missing. Response: {response}")
+                    logger.error(f"Malformed response from LLM: 'content' field missing. Full Response: {response}")
                     raise LLMServiceError("Malformed response from LLM: 'content' field missing.")
             else:
-                logger.error(f"No valid choices in LLM response. Response: {response}")
+                logger.error(f"No valid choices in LLM response. Full Response: {response}")
                 raise LLMServiceError("No valid choices in LLM response.")
         except Exception as e:
-            logger.error(f"Error during LLM chat request: {e}")
+            logger.error(f"Error during LLM chat request to {self.model_name}: {e}", exc_info=True)
             raise LLMServiceError(f"LLM chat request failed: {e}")
 
 if __name__ == '__main__':

@@ -49,9 +49,15 @@ class TopicAnalyzerAgent(BaseAgent):
         Raises:
             TopicAnalyzerAgentError: If the LLM call fails or the response is not as expected.
         """
+        task_id = workflow_state.current_processing_task_id
+        logger.info(f"[{self.agent_name}] Task ID: {task_id} - Starting execution for user_topic: {task_payload.get('user_topic')}")
+
         user_topic = task_payload.get('user_topic')
         if not user_topic:
-            raise TopicAnalyzerAgentError("User topic not found in task payload for TopicAnalyzerAgent.")
+            err_msg = "User topic not found in task payload."
+            logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}")
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+            raise TopicAnalyzerAgentError(err_msg)
 
         self._log_input(user_topic=user_topic) # BaseAgent helper
 
@@ -95,17 +101,28 @@ class TopicAnalyzerAgent(BaseAgent):
             )
 
             self._log_output(parsed_response) # BaseAgent helper
-            logger.info(f"Topic analysis successful for '{user_topic}'. Next task (Generate Outline) added.")
+            success_msg = f"Topic analysis successful for '{user_topic}'. Next task (Generate Outline) added."
+            logger.info(f"[{self.agent_name}] Task ID: {task_id} - {success_msg}")
+            if task_id: workflow_state.complete_task(task_id, success_msg, status='success')
 
         except LLMServiceError as e:
-            workflow_state.log_event(f"LLM service error during topic analysis for '{user_topic}'", {"error": str(e)}, level="ERROR")
-            raise TopicAnalyzerAgentError(f"LLM service failed: {e}")
-        except TopicAnalyzerAgentError as e: # Catch our own errors for specific logging
-            workflow_state.log_event(f"Topic analysis failed for '{user_topic}'", {"error": str(e)}, level="ERROR")
-            raise # Re-raise to be caught by pipeline
+            err_msg = f"LLM service failed for topic '{user_topic}': {e}"
+            workflow_state.log_event(f"LLM service error during topic analysis for '{user_topic}'", {"error": str(e)}, level="ERROR") # Keep
+            logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}", exc_info=True)
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+            raise TopicAnalyzerAgentError(err_msg) # Re-raise
+        except TopicAnalyzerAgentError as e:
+            err_msg = f"Topic analysis failed for '{user_topic}': {e}"
+            workflow_state.log_event(err_msg, {"error": str(e)}, level="ERROR") # Keep
+            logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}", exc_info=True)
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+            raise # Re-raise
         except Exception as e:
-            workflow_state.log_event(f"Unexpected error in TopicAnalyzerAgent for '{user_topic}'", {"error": str(e)}, level="CRITICAL")
-            raise TopicAnalyzerAgentError(f"Unexpected error in topic analysis: {e}")
+            err_msg = f"Unexpected error in topic analysis for '{user_topic}': {e}"
+            workflow_state.log_event(f"Unexpected error in TopicAnalyzerAgent for '{user_topic}'", {"error": str(e)}, level="CRITICAL") # Keep
+            logger.critical(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}", exc_info=True)
+            if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
+            raise TopicAnalyzerAgentError(err_msg) # Re-raise
 
 if __name__ == '__main__':
     # Updated example for WorkflowState interaction
