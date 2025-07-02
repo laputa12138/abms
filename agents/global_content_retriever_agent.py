@@ -80,11 +80,12 @@ class GlobalContentRetrieverAgent(BaseAgent):
             logger.info(f"[{self.agent_name}] Retrieving global context for chapter ID '{chapter_id}' (Title: '{chapter_title}') using query: '{query}'")
 
             try:
-                # Assuming retrieval_service.search() returns a list of document dicts
+                # Assuming retrieval_service.retrieve() returns a list of document dicts
                 # And ContentRetrieverAgent.MAX_RESULTS_PER_CHAPTER can be a shared constant or configured.
                 # Let's use a smaller number for global retrieval to keep it light.
                 MAX_GLOBAL_RESULTS_PER_CHAPTER = 3
-                retrieved_docs = self.retrieval_service.search(query, k=MAX_GLOBAL_RESULTS_PER_CHAPTER)
+                # Changed search to retrieve and k to final_top_n
+                retrieved_docs = self.retrieval_service.retrieve(query_text=query, final_top_n=MAX_GLOBAL_RESULTS_PER_CHAPTER)
 
                 if retrieved_docs:
                     global_docs_map[chapter_id] = retrieved_docs
@@ -96,7 +97,7 @@ class GlobalContentRetrieverAgent(BaseAgent):
             except Exception as e:
                 logger.error(f"[{self.agent_name}] Error retrieving documents for chapter '{chapter_id}': {e}", exc_info=True)
                 global_docs_map[chapter_id] = [] # Store empty list on error for this chapter
-                workflow_state.log_event(f"Global retrieval error for chapter {chapter_id}", {"error": str(e)}, level="ERROR")
+                workflow_state.log_event(f"Global retrieval error for chapter {chapter_id}", {"error": str(e)})
 
 
         workflow_state.set_global_retrieved_docs_map(global_docs_map)

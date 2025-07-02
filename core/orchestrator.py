@@ -91,7 +91,7 @@ class Orchestrator:
             except Exception as e: # Catch errors from agent execution
                 logger.error(f"Error executing task {task_type} ({task_id}) with agent {getattr(agent, 'agent_name', 'UnknownAgent')}: {e}", exc_info=True)
                 self.workflow_state.log_event(f"Agent execution error for task {task_type} ({task_id})",
-                                             {"error": str(e), "agent": getattr(agent, 'agent_name', 'UnknownAgent'), "level": "CRITICAL"})
+                                             {"error": str(e), "agent": getattr(agent, 'agent_name', 'UnknownAgent')})
                 self.workflow_state.complete_task(task_id, f"Agent failed: {e}", status='failed')
                 if 'chapter_key' in payload:
                     self.workflow_state.add_chapter_error(payload['chapter_key'], f"Agent {task_type} failed: {e}")
@@ -111,7 +111,7 @@ class Orchestrator:
 
         else:
             logger.warning(f"No agent or direct handler registered for task type: {task_type} (task_id: {task_id}).")
-            self.workflow_state.log_event(f"Unknown task type: {task_type}", {"task_id": task_id, "level": "ERROR"})
+            self.workflow_state.log_event(f"Unknown task type: {task_type}", {"task_id": task_id})
             self.workflow_state.complete_task(task_id, f"Unknown task type {task_type}", status='failed')
 
     def _handle_apply_outline_refinement(self, task_id: str, payload: Dict[str, Any]):
@@ -126,7 +126,7 @@ class Orchestrator:
         if not original_parsed_outline or suggested_refinements is None: # Empty list is acceptable
             err_msg = "Missing original_parsed_outline or suggested_refinements in payload for APPLY_OUTLINE_REFINEMENT."
             logger.error(err_msg)
-            self.workflow_state.log_event(err_msg, {"task_id": task_id, "level": "ERROR"})
+            self.workflow_state.log_event(err_msg, {"task_id": task_id})
             self.workflow_state.complete_task(task_id, err_msg, status='failed')
             return
 
@@ -243,8 +243,7 @@ class Orchestrator:
             if not task:
                 # Task queue is empty
                 stall_patience_counter += 1
-                self.workflow_state.log_event(f"Task queue empty. Stall patience: {stall_patience_counter}/{STALL_PATIENCE_THRESHOLD}.",
-                                             {"level": "DEBUG"})
+                self.workflow_state.log_event(f"Task queue empty. Stall patience: {stall_patience_counter}/{STALL_PATIENCE_THRESHOLD}.")
 
                 if self.workflow_state.are_all_chapters_completed() and \
                    self.workflow_state.get_flag('outline_finalized', False) and \
@@ -266,8 +265,7 @@ class Orchestrator:
                         {
                             "all_chapters_done": self.workflow_state.are_all_chapters_completed(),
                             "outline_finalized": self.workflow_state.get_flag('outline_finalized'),
-                            "compilation_requested": self.workflow_state.get_flag('report_compilation_requested'),
-                            "level": "ERROR"
+                            "compilation_requested": self.workflow_state.get_flag('report_compilation_requested')
                         }
                     )
                     if not self.workflow_state.are_all_chapters_completed():
