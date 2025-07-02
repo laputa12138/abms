@@ -14,6 +14,8 @@ from agents.chapter_writer_agent import ChapterWriterAgent
 from agents.evaluator_agent import EvaluatorAgent
 from agents.refiner_agent import RefinerAgent
 from agents.report_compiler_agent import ReportCompilerAgent
+from agents.outline_refinement_agent import OutlineRefinementAgent # Added
+from core.workflow_state import TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT, TASK_TYPE_APPLY_OUTLINE_REFINEMENT # Added
 
 logger = logging.getLogger(__name__)
 
@@ -30,6 +32,7 @@ class Orchestrator:
                  workflow_state: WorkflowState,
                  topic_analyzer: TopicAnalyzerAgent,
                  outline_generator: OutlineGeneratorAgent,
+                 outline_refiner: OutlineRefinementAgent, # Added
                  content_retriever: ContentRetrieverAgent, # This is the agent, not the service
                  chapter_writer: ChapterWriterAgent,
                  evaluator: EvaluatorAgent,
@@ -43,6 +46,8 @@ class Orchestrator:
         self.agents = {
             TASK_TYPE_ANALYZE_TOPIC: topic_analyzer,
             TASK_TYPE_GENERATE_OUTLINE: outline_generator,
+            TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT: outline_refiner, # Added
+            # TASK_TYPE_APPLY_OUTLINE_REFINEMENT is handled by Orchestrator directly
             # TASK_TYPE_PROCESS_CHAPTER is a meta-task, handled by adding retrieve then write
             TASK_TYPE_RETRIEVE_FOR_CHAPTER: content_retriever, # Agent uses RetrievalService internally
             TASK_TYPE_WRITE_CHAPTER: chapter_writer,
@@ -98,13 +103,121 @@ class Orchestrator:
                                          priority=task.get('priority', 3))
             self.workflow_state.complete_task(task_id, f"PROCESS_CHAPTER task for '{payload.get('chapter_title')}' initiated retrieval.")
 
-        # TODO: Handle TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT, TASK_TYPE_APPLY_OUTLINE_REFINEMENT here
-        # These might involve more complex logic, potentially calling OutlineGeneratorAgent again or LLM.
+        elif task_type == TASK_TYPE_APPLY_OUTLINE_REFINEMENT:
+            self._handle_apply_outline_refinement(task_id, payload)
 
         else:
             logger.warning(f"No agent or direct handler registered for task type: {task_type} (task_id: {task_id}).")
             self.workflow_state.log_event(f"Unknown task type: {task_type}", {"task_id": task_id, "level": "ERROR"})
             self.workflow_state.complete_task(task_id, f"Unknown task type {task_type}", status='failed')
+
+    def _handle_apply_outline_refinement(self, task_id: str, payload: Dict[str, Any]):
+        """
+        Handles the application of suggested outline refinements.
+        Updates the workflow state's outline and manages chapter tasks accordingly.
+        """
+        logger.info(f"Orchestrator handling TASK_TYPE_APPLY_OUTLINE_REFINEMENT (Task ID: {task_id}).")
+        original_parsed_outline = payload.get('original_parsed_outline')
+        suggested_refinements = payload.get('suggested_refinements')
+
+        if not original_parsed_outline or suggested_refinements is None: # Empty list is acceptable
+            err_msg = "Missing original_parsed_outline or suggested_refinements in payload for APPLY_OUTLINE_REFINEMENT."
+            logger.error(err_msg)
+            self.workflow_state.log_event(err_msg, {"task_id": task_id, "level": "ERROR"})
+            self.workflow_state.complete_task(task_id, err_msg, status='failed')
+            return
+
+        # Get current set of chapter IDs before refinement
+        original_ids = {item['id'] for item in original_parsed_outline}
+
+        # Apply refinements to get the new parsed outline
+        new_parsed_outline = self.workflow_state.apply_refinements_to_parsed_outline(
+            original_parsed_outline,
+            suggested_refinements
+        )
+
+        # Generate new Markdown outline from the new parsed outline
+        new_outline_md = self.workflow_state.generate_markdown_from_parsed_outline(new_parsed_outline)
+
+        # Update the workflow state with the new outline
+        self.workflow_state.update_outline(new_outline_md, new_parsed_outline)
+        logger.info(f"Outline updated after applying {len(suggested_refinements)} refinements. New chapter count: {len(new_parsed_outline)}")
+        self.workflow_state.log_event("Outline updated via APPLY_OUTLINE_REFINEMENT.",
+                                     {"num_refinements": len(suggested_refinements),
+                                      "new_chapter_count": len(new_parsed_outline)})
+
+        # Get new set of chapter IDs
+        new_ids = {item['id'] for item in new_parsed_outline}
+
+        # Manage tasks:
+        # 1. Identify deleted chapters and remove their pending tasks
+        deleted_ids = original_ids - new_ids
+        if deleted_ids:
+            logger.info(f"Chapters to remove tasks for (deleted): {deleted_ids}")
+            tasks_to_remove = []
+            for task_in_queue in self.workflow_state.pending_tasks:
+                chap_key = task_in_queue.get('payload', {}).get('chapter_key')
+                if chap_key and chap_key in deleted_ids:
+                    tasks_to_remove.append(task_in_queue)
+
+            for task_to_remove in tasks_to_remove:
+                self.workflow_state.pending_tasks.remove(task_to_remove)
+                logger.info(f"Removed pending task {task_to_remove['id']} ({task_to_remove['type']}) for deleted chapter {task_to_remove.get('payload', {}).get('chapter_key')}")
+                self.workflow_state.log_event(f"Task removed for deleted chapter.", {"removed_task_id": task_to_remove['id'], "chapter_id": task_to_remove.get('payload', {}).get('chapter_key')})
+
+
+        # 2. (Re-)Add PROCESS_CHAPTER tasks for ALL chapters in the NEW outline.
+        # This ensures new chapters get tasks, and existing ones are processed if they weren't already.
+        # If a chapter was already processed, PROCESS_CHAPTER might be redundant but should be handled
+        # gracefully (e.g., if status is already 'completed', it might do nothing or re-verify).
+        # For simplicity now, we add PROCESS_CHAPTER for all.
+        # A more sophisticated approach might only add for new/modified chapters if we can track 'modified'.
+
+        # Clear existing PROCESS_CHAPTER, RETRIEVE_FOR_CHAPTER, WRITE_CHAPTER etc. to avoid duplicates or processing outdated items.
+        # This is a bit aggressive but ensures a clean slate for the new outline structure.
+        # A gentler approach would be to only remove tasks for *deleted* chapters (done above)
+        # and only add for *new* chapters. For existing chapters, their state would be preserved.
+        # Let's try the gentler approach: only add for new_ids - original_ids.
+        # And assume existing chapters that survived continue their lifecycle.
+        # However, if titles/levels changed, their existing tasks might be based on old info.
+        # The current `update_outline` in WorkflowState already re-initializes `chapter_data` entries,
+        # preserving status/content if IDs match. This is good.
+        # So, adding PROCESS_CHAPTER for all current chapters in new_parsed_outline seems robust.
+        # If a chapter is already completed, its PROCESS_CHAPTER task will find it completed.
+
+        # First, clear out any old PROCESS_CHAPTER tasks to avoid duplicates if some chapters persist.
+        # This ensures that chapters are processed according to the *new* outline structure and order.
+        self.workflow_state.pending_tasks = [
+            pt for pt in self.workflow_state.pending_tasks
+            if pt['type'] not in [TASK_TYPE_PROCESS_CHAPTER, TASK_TYPE_RETRIEVE_FOR_CHAPTER, TASK_TYPE_WRITE_CHAPTER, TASK_TYPE_EVALUATE_CHAPTER, TASK_TYPE_REFINE_CHAPTER]
+        ]
+        logger.info("Cleared existing chapter processing tasks before adding new ones for the refined outline.")
+        self.workflow_state.log_event("Cleared pending chapter-specific tasks before re-adding for refined outline.")
+
+        for item in new_parsed_outline:
+            chapter_key = item['id']
+            chapter_title = item['title']
+            # Reset status to pending for all chapters to ensure they go through the process with the new outline context
+            # Or, rely on PROCESS_CHAPTER to correctly determine next steps based on existing status.
+            # For now, let's not reset status here, let PROCESS_CHAPTER handle it.
+            # self.workflow_state.update_chapter_status(chapter_key, STATUS_PENDING) # Optional: force re-processing
+
+            self.workflow_state.add_task(
+                task_type=TASK_TYPE_PROCESS_CHAPTER,
+                payload={'chapter_key': chapter_key, 'chapter_title': chapter_title, 'level': item['level']},
+                priority=3 # Default priority for chapter processing
+            )
+        logger.info(f"Added/Re-added PROCESS_CHAPTER tasks for all {len(new_parsed_outline)} chapters in the refined outline.")
+
+        # Mark the outline as finalized for now.
+        # In a more complex system, we might loop back to SUGGEST_OUTLINE_REFINEMENT
+        # or have a specific condition to finalize.
+        self.workflow_state.set_flag('outline_finalized', True)
+        logger.info("Outline marked as finalized after applying refinements.")
+        self.workflow_state.log_event("Outline finalized after APPLY_OUTLINE_REFINEMENT.",
+                                     {"final_chapter_count": len(new_parsed_outline)})
+
+        self.workflow_state.complete_task(task_id, f"Outline refinements applied. {len(new_parsed_outline)} chapters in new outline. Process tasks added.", status='success')
 
 
     def coordinate_workflow(self) -> None:
@@ -267,8 +380,9 @@ if __name__ == '__main__':
 
     # Create mock agents
     mock_topic_analyzer = MockAgent("TopicAnalyzerMock", TASK_TYPE_ANALYZE_TOPIC, TASK_TYPE_GENERATE_OUTLINE)
-    mock_outline_generator = MockAgent("OutlineGenMock", TASK_TYPE_GENERATE_OUTLINE, TASK_TYPE_PROCESS_CHAPTER)
-    # PROCESS_CHAPTER is meta, leads to RETRIEVE_FOR_CHAPTER
+    mock_outline_generator = MockAgent("OutlineGenMock", TASK_TYPE_GENERATE_OUTLINE, TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT) # Changed next task
+    mock_outline_refiner = MockAgent("OutlineRefinerMock", TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT, TASK_TYPE_APPLY_OUTLINE_REFINEMENT) # Mock for suggestion
+    # APPLY_OUTLINE_REFINEMENT is handled by orchestrator, then adds PROCESS_CHAPTER tasks
     mock_retriever = MockAgent("RetrieverMock", TASK_TYPE_RETRIEVE_FOR_CHAPTER, TASK_TYPE_WRITE_CHAPTER)
     mock_writer = MockAgent("WriterMock", TASK_TYPE_WRITE_CHAPTER, TASK_TYPE_EVALUATE_CHAPTER)
     mock_evaluator = MockAgent("EvaluatorMock", TASK_TYPE_EVALUATE_CHAPTER) # No next task by default, unless refinement needed
@@ -280,12 +394,13 @@ if __name__ == '__main__':
         workflow_state=mock_wf_state,
         topic_analyzer=mock_topic_analyzer,
         outline_generator=mock_outline_generator,
+        outline_refiner=mock_outline_refiner, # Added
         content_retriever=mock_retriever,
         chapter_writer=mock_writer,
         evaluator=mock_evaluator,
         refiner=mock_refiner,
         report_compiler=mock_compiler,
-        max_workflow_iterations=20 # Limit for test
+        max_workflow_iterations=25 # Limit for test, increased slightly for new steps
     )
 
     # Add initial task to workflow state
