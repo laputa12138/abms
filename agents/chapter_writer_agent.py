@@ -36,18 +36,20 @@ class ChapterWriterAgent(BaseAgent):
         if not retrieved_content:
             return "无参考资料提供。"
 
-        formatted_str = ""
+        # This initial instruction is now part of the main prompt template.
+        # formatted_str = "请参考以下资料撰写本章节内容。在引用具体信息时，请明确指出所引用的【资料编号】、【文档名称】以及【原文片段】。\n\n"
+        formatted_str = "" # Start empty, the main prompt will give overall instruction
         for i, item in enumerate(retrieved_content):
-            # 'document' key now holds the parent_text from RetrievalService output
-            doc_text = item.get('document', '无效的参考资料片段')
-            score = item.get('score', 'N/A')
-            source = item.get('source', 'unknown')
-            child_preview = item.get('child_text_preview', '') # Optional preview from retriever
+            doc_text = item.get('document', '无效的参考资料片段') # This is parent_text
+            source_doc_id = item.get('source_document_id', '未知文档')
+            reference_id = item.get('parent_id', item.get('child_id', f"ref_{i+1}")) # Use parent_id or child_id
+            # score = item.get('score', 0.0) # Default to float for formatting - No longer shown to LLM directly in this block
+            # retrieval_source_type = item.get('retrieval_source', 'unknown') # Renamed from 'source' - No longer shown to LLM
 
-            formatted_str += f"参考资料 {i+1} (来源: {source}, 得分: {score:.4f})\n"
-            if child_preview:
-                formatted_str += f"[匹配子块预览: {child_preview}]\n"
-            formatted_str += f"\"\"\"\n{doc_text}\n\"\"\"\n\n"
+            formatted_str += f"【资料编号】: {reference_id}\n"
+            formatted_str += f"【文档名称】: {source_doc_id}\n"
+            # formatted_str += f"  (检索方式: {retrieval_source_type}, 相关性得分: {score:.4f})\n" # Removed for LLM clarity
+            formatted_str += f"【原文片段】:\n\"\"\"\n{doc_text}\n\"\"\"\n\n"
         return formatted_str.strip()
 
     def execute_task(self, workflow_state: WorkflowState, task_payload: Dict) -> None:
