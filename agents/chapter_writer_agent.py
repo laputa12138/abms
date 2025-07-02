@@ -1,9 +1,11 @@
 import logging
+import json # For parsing LLM relevance check response
 from typing import List, Dict, Optional
 
 from agents.base_agent import BaseAgent
 from core.llm_service import LLMService, LLMServiceError
 from core.workflow_state import WorkflowState, TASK_TYPE_EVALUATE_CHAPTER, STATUS_EVALUATION_NEEDED # Import constants
+from config import settings as app_settings # Import settings for prompts
 
 logger = logging.getLogger(__name__)
 
@@ -13,56 +15,89 @@ class ChapterWriterAgentError(Exception):
 
 class ChapterWriterAgent(BaseAgent):
     """
-    Agent responsible for writing a chapter of a report based on a given
-    chapter title and relevant retrieved content (parent chunks).
+    Agent responsible for writing a chapter of a report.
+    It first uses an LLM to verify relevance of retrieved documents.
+    Then, it uses relevant documents to generate chapter content via LLM.
+    Finally, it programmatically appends citations for used documents.
     Updates WorkflowState with the written content and queues evaluation task.
     """
 
-    # DEFAULT_PROMPT_TEMPLATE will be removed and sourced from settings
-
-    def __init__(self, llm_service: LLMService, prompt_template: Optional[str] = None):
+    def __init__(self, llm_service: LLMService,
+                 writer_prompt_template: Optional[str] = None,
+                 relevance_check_prompt_template: Optional[str] = None):
         super().__init__(agent_name="ChapterWriterAgent", llm_service=llm_service)
-        from config import settings as app_settings
-        self.prompt_template = prompt_template or app_settings.DEFAULT_CHAPTER_WRITER_PROMPT
+        self.writer_prompt_template = writer_prompt_template or app_settings.DEFAULT_CHAPTER_WRITER_PROMPT
+        self.relevance_check_prompt_template = relevance_check_prompt_template or app_settings.DEFAULT_RELEVANCE_CHECK_PROMPT # Placeholder, will be added in settings.py
         if not self.llm_service:
             raise ChapterWriterAgentError("LLMService is required for ChapterWriterAgent.")
 
-    def _format_retrieved_content(self, retrieved_content: List[Dict[str, any]]) -> str:
+    def _is_document_relevant(self, chapter_title: str, document_text: str, document_id: str) -> bool:
         """
-        Formats the list of retrieved content (parent chunks) for the prompt.
-        Input `retrieved_content` is expected to be a list of dicts, where each dict
-        has a 'document' key (parent_text) and optionally 'score', 'source'.
+        Uses LLM to check if a document is relevant to the chapter title.
         """
-        if not retrieved_content:
-            return "无参考资料提供。"
+        if not self.relevance_check_prompt_template:
+            logger.warning(f"Relevance check prompt template is not set. Assuming all documents are relevant for doc ID: {document_id}")
+            return True # Fallback if prompt is missing, though this should be configured
 
-        # This initial instruction is now part of the main prompt template.
-        # formatted_str = "请参考以下资料撰写本章节内容。在引用具体信息时，请明确指出所引用的【资料编号】、【文档名称】以及【原文片段】。\n\n"
-        formatted_str = "" # Start empty, the main prompt will give overall instruction
-        for i, item in enumerate(retrieved_content):
-            doc_text = item.get('document', '无效的参考资料片段') # This is parent_text
-            source_doc_id = item.get('source_document_id', '未知文档')
-            reference_id = item.get('parent_id', item.get('child_id', f"ref_{i+1}")) # Use parent_id or child_id
-            # score = item.get('score', 0.0) # Default to float for formatting - No longer shown to LLM directly in this block
-            # retrieval_source_type = item.get('retrieval_source', 'unknown') # Renamed from 'source' - No longer shown to LLM
+        prompt = self.relevance_check_prompt_template.format(
+            chapter_title=chapter_title,
+            document_text=document_text[:2000] # Truncate to avoid overly long prompts for relevance check
+        )
+        try:
+            response_str = self.llm_service.chat(
+                query=prompt,
+                system_prompt="你是一个内容相关性判断助手。请根据提供的章节标题和文档片段，判断文档片段是否与章节标题高度相关，并严格以JSON格式返回结果。"
+            )
+            logger.debug(f"Relevance check for doc ID '{document_id}', chapter '{chapter_title}'. LLM response: {response_str}")
+            # Expecting a JSON response like: {"is_relevant": true/false}
+            response_json = json.loads(response_str)
+            is_relevant = response_json.get("is_relevant", False)
+            if not isinstance(is_relevant, bool):
+                logger.warning(f"LLM relevance check for doc ID '{document_id}' returned non-boolean 'is_relevant' value: {is_relevant}. Defaulting to False.")
+                return False
+            return is_relevant
+        except LLMServiceError as e:
+            logger.error(f"LLM service error during relevance check for doc ID '{document_id}': {e}. Assuming not relevant.")
+            return False
+        except json.JSONDecodeError as e:
+            logger.error(f"Failed to parse JSON from LLM relevance check for doc ID '{document_id}': {response_str}. Error: {e}. Assuming not relevant.")
+            return False
+        except Exception as e:
+            logger.error(f"Unexpected error during relevance check for doc ID '{document_id}': {e}. Assuming not relevant.", exc_info=True)
+            return False
 
-            formatted_str += f"【资料编号】: {reference_id}\n"
-            formatted_str += f"【文档名称】: {source_doc_id}\n"
-            # formatted_str += f"  (检索方式: {retrieval_source_type}, 相关性得分: {score:.4f})\n" # Removed for LLM clarity
-            formatted_str += f"【原文片段】:\n\"\"\"\n{doc_text}\n\"\"\"\n\n"
+    def _format_content_for_generation(self, relevant_docs: List[Dict[str, any]]) -> str:
+        """
+        Formats the text of relevant documents for the main generation prompt.
+        """
+        if not relevant_docs:
+            return "无相关参考资料提供。"
+
+        formatted_str = ""
+        for i, item in enumerate(relevant_docs):
+            doc_text = item.get('document', '无效的参考资料片段')
+            # Simple concatenation, no source info here for the LLM
+            formatted_str += f"参考资料片段 {i+1}:\n\"\"\"\n{doc_text}\n\"\"\"\n\n"
         return formatted_str.strip()
 
-    def execute_task(self, workflow_state: WorkflowState, task_payload: Dict) -> None:
+    def _generate_citations_string(self, used_documents: List[Dict[str, any]]) -> str:
         """
-        Writes a chapter based on data from WorkflowState and task_payload.
-        Updates WorkflowState with the content and adds an evaluation task.
+        Generates the citation string for all used documents.
+        Format: [引用来源：{file_name}。原文表述：{source_text_of_parent}]
+        """
+        if not used_documents:
+            return ""
 
-        Args:
-            workflow_state (WorkflowState): The current state of the workflow.
-            task_payload (Dict): Payload for this task, expects:
-                                 'chapter_key': Unique key/ID of the chapter.
-                                 'chapter_title': Title of the chapter.
-        """
+        citations = []
+        for doc in used_documents:
+            file_name = doc.get('source_document_id', '未知文档')
+            source_text_of_parent = doc.get('document', '无法获取原文') # 'document' holds parent_text
+            citations.append(f"[引用来源：{file_name}。原文表述：{source_text_of_parent}]")
+
+        return "\n\n" + "\n".join(citations) if citations else ""
+
+
+    def execute_task(self, workflow_state: WorkflowState, task_payload: Dict) -> None:
         task_id = workflow_state.current_processing_task_id
         logger.info(f"[{self.agent_name}] Task ID: {task_id} - Starting execution for chapter_key: {task_payload.get('chapter_key')}, title: {task_payload.get('chapter_title')}")
 
@@ -78,66 +113,102 @@ class ChapterWriterAgent(BaseAgent):
         chapter_data = workflow_state.get_chapter_data(chapter_key)
         if not chapter_data:
             err_msg = f"Chapter data for key '{chapter_key}' not found in WorkflowState."
-            workflow_state.log_event(err_msg, level="ERROR") # Keep this log
+            workflow_state.log_event(err_msg, level="ERROR")
             logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}")
             if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
             raise ChapterWriterAgentError(err_msg)
 
-        retrieved_docs = chapter_data.get('retrieved_docs', [])
-        logger.info(f"[{self.agent_name}] Task ID: {task_id} - Chapter: '{chapter_title}', Retrieved docs count: {len(retrieved_docs)}")
-        self._log_input(chapter_title=chapter_title, retrieved_docs_count=len(retrieved_docs)) # Keep for agent's own structured log
+        all_retrieved_docs = chapter_data.get('retrieved_docs', [])
+        logger.info(f"[{self.agent_name}] Task ID: {task_id} - Chapter: '{chapter_title}'. Initial retrieved docs count: {len(all_retrieved_docs)}")
+        self._log_input(chapter_title=chapter_title, initial_retrieved_docs_count=len(all_retrieved_docs))
 
-        formatted_content_str = self._format_retrieved_content(retrieved_docs)
+        # 1. LLM Relevance Check for each document
+        relevant_docs_for_generation = []
+        if not self.relevance_check_prompt_template: # Check if template is loaded
+             logger.warning("Relevance check prompt template is missing from settings. "
+                            "ChapterWriterAgent will proceed assuming all documents are relevant, "
+                            "but this is not the intended behavior for full traceability.")
+             relevant_docs_for_generation = all_retrieved_docs # Fallback
+        else:
+            for doc in all_retrieved_docs:
+                doc_text = doc.get('document', '')
+                doc_id = doc.get('parent_id', doc.get('child_id', 'unknown_id'))
+                if doc_text:
+                    if self._is_document_relevant(chapter_title, doc_text, doc_id):
+                        relevant_docs_for_generation.append(doc)
+                        logger.debug(f"Document '{doc_id}' deemed relevant for chapter '{chapter_title}'.")
+                    else:
+                        logger.debug(f"Document '{doc_id}' deemed NOT relevant for chapter '{chapter_title}'.")
+                else:
+                    logger.warning(f"Document '{doc_id}' has no text content. Skipping relevance check.")
 
-        prompt = self.prompt_template.format(
+        logger.info(f"[{self.agent_name}] Task ID: {task_id} - Relevant docs after LLM check: {len(relevant_docs_for_generation)} (out of {len(all_retrieved_docs)})")
+        workflow_state.log_event(f"Relevance check complete for chapter '{chapter_title}'. Relevant docs: {len(relevant_docs_for_generation)}/{len(all_retrieved_docs)}",
+                                 {"chapter_key": chapter_key, "relevant_count": len(relevant_docs_for_generation), "total_initial_count": len(all_retrieved_docs)})
+
+
+        # 2. Content Generation using relevant documents
+        formatted_content_for_llm = self._format_content_for_generation(relevant_docs_for_generation)
+        writer_prompt = self.writer_prompt_template.format(
             chapter_title=chapter_title,
-            retrieved_content_formatted=formatted_content_str
+            retrieved_content_formatted=formatted_content_for_llm # This is now just text snippets
         )
 
         try:
-            logger.info(f"Sending request to LLM for chapter writing. Chapter: '{chapter_title}' (Key: {chapter_key})")
-            chapter_text = self.llm_service.chat(
-                query=prompt,
-                system_prompt="你是一位精通特定领域知识的专业中文报告撰写者，擅长整合信息并清晰表达。"
+            logger.info(f"Sending request to LLM for chapter writing. Chapter: '{chapter_title}' (Key: {chapter_key}). Using {len(relevant_docs_for_generation)} relevant documents.")
+            generated_chapter_text = self.llm_service.chat(
+                query=writer_prompt,
+                system_prompt="你是一位精通特定领域知识的专业中文报告撰写者，擅长整合信息并清晰表达。请专注于根据提供的参考资料撰写内容，不要自行添加引用标记。"
             )
-            logger.debug(f"Raw LLM response for chapter '{chapter_title}' (first 200 chars): {chapter_text[:200]}")
+            logger.debug(f"Raw LLM response for chapter '{chapter_title}' (first 200 chars): {generated_chapter_text[:200]}")
 
-            if not chapter_text or not chapter_text.strip():
+            if not generated_chapter_text or not generated_chapter_text.strip():
                 logger.warning(f"LLM returned empty content for chapter: '{chapter_title}'.")
-                # Handle empty content, perhaps by setting an error state or using a placeholder
-                # For now, we'll store it as is, and evaluation can pick it up.
-                chapter_text = "" # Ensure it's an empty string not None
+                generated_chapter_text = "" # Ensure empty string
+
+            # 3. Programmatic Citation
+            # Citations are generated based on the documents that were *actually sent* to the LLM for generation.
+            # This assumes the LLM used (or had the chance to use) all `relevant_docs_for_generation`.
+            citations_string = self._generate_citations_string(relevant_docs_for_generation)
+            final_chapter_text_with_citations = generated_chapter_text.strip() + citations_string
 
             # Update WorkflowState
-            workflow_state.update_chapter_content(chapter_key, chapter_text.strip(), retrieved_docs=retrieved_docs, is_new_version=False) # First version
+            # Store the list of documents that passed relevance check and were used for generation.
+            workflow_state.update_chapter_content(
+                chapter_key,
+                final_chapter_text_with_citations,
+                retrieved_docs=relevant_docs_for_generation, # Store only the relevant (used) docs
+                is_new_version=False # First version
+            )
             workflow_state.update_chapter_status(chapter_key, STATUS_EVALUATION_NEEDED)
 
             # Add next task: Evaluate Chapter
             workflow_state.add_task(
                 task_type=TASK_TYPE_EVALUATE_CHAPTER,
-                payload={'chapter_key': chapter_key, 'chapter_title': chapter_title}, # Pass key and title
-                priority=task_payload.get('priority', 6) + 1 # Slightly lower priority
+                payload={'chapter_key': chapter_key, 'chapter_title': chapter_title},
+                priority=task_payload.get('priority', 6) + 1
             )
 
-            self._log_output({"chapter_key": chapter_key, "content_length": len(chapter_text)})
-            success_msg = f"Chapter writing successful for '{chapter_title}'. Next task (Evaluate Chapter) added."
+            self._log_output({"chapter_key": chapter_key, "content_length": len(final_chapter_text_with_citations), "used_sources_count": len(relevant_docs_for_generation)})
+            success_msg = (f"Chapter writing successful for '{chapter_title}'. {len(relevant_docs_for_generation)} sources used. "
+                           f"Next task (Evaluate Chapter) added.")
             logger.info(f"[{self.agent_name}] Task ID: {task_id} - {success_msg}")
             if task_id: workflow_state.complete_task(task_id, success_msg, status='success')
 
         except LLMServiceError as e:
             err_msg = f"LLM service failed for chapter '{chapter_title}': {e}"
-            workflow_state.log_event(f"LLM service error writing chapter '{chapter_title}'", {"error": str(e)}, level="ERROR") # Keep this
+            workflow_state.log_event(f"LLM service error writing chapter '{chapter_title}'", {"error": str(e)}, level="ERROR")
             workflow_state.add_chapter_error(chapter_key, f"LLM service error: {e}")
             logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}", exc_info=True)
             if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
-            raise ChapterWriterAgentError(err_msg) # Re-raise
+            raise ChapterWriterAgentError(err_msg)
         except Exception as e:
             err_msg = f"Unexpected error writing chapter '{chapter_title}': {e}"
-            workflow_state.log_event(f"Unexpected error in ChapterWriterAgent for '{chapter_title}'", {"error": str(e)}, level="CRITICAL") # Keep this
+            workflow_state.log_event(f"Unexpected error in ChapterWriterAgent for '{chapter_title}'", {"error": str(e)}, level="CRITICAL")
             workflow_state.add_chapter_error(chapter_key, f"Unexpected error: {e}")
             logger.critical(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}", exc_info=True)
             if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
-            raise ChapterWriterAgentError(err_msg) # Re-raise
+            raise ChapterWriterAgentError(err_msg)
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s')
