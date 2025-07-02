@@ -383,9 +383,9 @@ if __name__ == '__main__':
 
     # Create mock agents
     mock_topic_analyzer = MockAgent("TopicAnalyzerMock", TASK_TYPE_ANALYZE_TOPIC, TASK_TYPE_GENERATE_OUTLINE)
-     mock_outline_generator = MockAgent("OutlineGenMock", TASK_TYPE_GENERATE_OUTLINE, TASK_TYPE_GLOBAL_RETRIEVE_FOR_OUTLINE) # Next is global retrieve
-     mock_global_retriever = MockAgent("GlobalRetrieverMock", TASK_TYPE_GLOBAL_RETRIEVE_FOR_OUTLINE, TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT) # Next is suggest refinement
-     mock_outline_refiner = MockAgent("OutlineRefinerMock", TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT, TASK_TYPE_APPLY_OUTLINE_REFINEMENT)
+    mock_outline_generator = MockAgent("OutlineGenMock", TASK_TYPE_GENERATE_OUTLINE, TASK_TYPE_GLOBAL_RETRIEVE_FOR_OUTLINE) # Next is global retrieve
+    mock_global_retriever = MockAgent("GlobalRetrieverMock", TASK_TYPE_GLOBAL_RETRIEVE_FOR_OUTLINE, TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT) # Next is suggest refinement
+    mock_outline_refiner = MockAgent("OutlineRefinerMock", TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT, TASK_TYPE_APPLY_OUTLINE_REFINEMENT)
     # APPLY_OUTLINE_REFINEMENT is handled by orchestrator, then adds PROCESS_CHAPTER tasks
     mock_retriever = MockAgent("RetrieverMock", TASK_TYPE_RETRIEVE_FOR_CHAPTER, TASK_TYPE_WRITE_CHAPTER)
     mock_writer = MockAgent("WriterMock", TASK_TYPE_WRITE_CHAPTER, TASK_TYPE_EVALUATE_CHAPTER)

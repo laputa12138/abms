@@ -1,6 +1,6 @@
 import logging
 from typing import Dict, Optional, List, Any
-
+import json
 from agents.base_agent import BaseAgent
 from core.workflow_state import WorkflowState, TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT
 # We need access to a retrieval mechanism. This could be via ContentRetrieverAgent or a shared RetrievalService.
@@ -8,6 +8,7 @@ from core.workflow_state import WorkflowState, TASK_TYPE_SUGGEST_OUTLINE_REFINEM
 # Or, more ideally, it uses RetrievalService directly if ContentRetrieverAgent is too heavy or has other duties.
 # Let's assume direct use of RetrievalService for now if available, or simulate if not.
 from core.retrieval_service import RetrievalService # Assuming this service exists and is usable
+from core.llm_service import LLMService # Optional, for query generation or summarization
 from agents.content_retriever_agent import ContentRetrieverAgent # Fallback or helper
 
 logger = logging.getLogger(__name__)

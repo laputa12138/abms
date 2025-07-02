@@ -79,8 +79,8 @@ JSON Output of Suggested Refinements:
 
     def _format_global_retrieved_docs_for_prompt(
         self,
-        parsed_outline: List[Dict[str, Any]],
-        global_docs_map: Optional[Dict[str, List[Dict[str, Any]]]],
+        parsed_outline: List[Dict[str, any]],
+        global_docs_map: Optional[Dict[str, List[Dict[str, any]]]],
         max_docs_per_chapter_summary: int = 2,
         max_text_snippet_len: int = 100 # Max length of text snippet from each doc
     ) -> str:
@@ -297,7 +297,7 @@ if __name__ == '__main__':
             super().__init__(user_topic)
             self.added_tasks_ora = []
 
-        def add_task(self, task_type: str, payload: Optional[Dict[str, Any]] = None, priority: int = 0):
+        def add_task(self, task_type: str, payload: Optional[Dict[str, any]] = None, priority: int = 0):
             self.added_tasks_ora.append({'type': task_type, 'payload': payload, 'priority': priority})
             super().add_task(task_type, payload, priority) # For logging or other side effects
 

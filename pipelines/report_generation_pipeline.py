@@ -24,6 +24,8 @@ from agents.chapter_writer_agent import ChapterWriterAgent
 from agents.evaluator_agent import EvaluatorAgent
 from agents.refiner_agent import RefinerAgent
 from agents.report_compiler_agent import ReportCompilerAgent
+from agents.global_content_retriever_agent import GlobalContentRetrieverAgent
+from agents.outline_refinement_agent import OutlineRefinementAgent
 
 logger = logging.getLogger(__name__)
 
@@ -105,6 +107,10 @@ class ReportGenerationPipeline:
         self.report_compiler = ReportCompilerAgent(add_table_of_contents=True)
 
         self.workflow_state: Optional[WorkflowState] = None
+        self.global_content_retriever=GlobalContentRetrieverAgent(retrieval_service=self.retrieval_service,llm_service=self.llm_service)
+        outline_refiner_prompt_template = getattr(settings, 'OUTLINE_REFINEMENT_PROMPT_TEMPLATE', None)
+        self.outline_refinement_agent = OutlineRefinementAgent(llm_service=self.llm_service, prompt_template=outline_refiner_prompt_template)
+
         self.orchestrator: Optional[Orchestrator] = None
 
         logger.info("ReportGenerationPipeline initialized.")
@@ -140,6 +146,8 @@ class ReportGenerationPipeline:
                 workflow_state=self.workflow_state,
                 topic_analyzer=self.topic_analyzer,
                 outline_generator=self.outline_generator,
+                global_content_retriever=self.global_content_retriever_agent,
+                outline_refiner=self.outline_refinement_agent,
                 content_retriever=self.content_retriever_agent,
                 chapter_writer=self.chapter_writer,
                 evaluator=self.evaluator,
