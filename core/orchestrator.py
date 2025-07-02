@@ -14,8 +14,9 @@ from agents.chapter_writer_agent import ChapterWriterAgent
 from agents.evaluator_agent import EvaluatorAgent
 from agents.refiner_agent import RefinerAgent
 from agents.report_compiler_agent import ReportCompilerAgent
-from agents.outline_refinement_agent import OutlineRefinementAgent # Added
-from core.workflow_state import TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT, TASK_TYPE_APPLY_OUTLINE_REFINEMENT # Added
+from agents.outline_refinement_agent import OutlineRefinementAgent
+from agents.global_content_retriever_agent import GlobalContentRetrieverAgent # New
+from core.workflow_state import TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT, TASK_TYPE_APPLY_OUTLINE_REFINEMENT, TASK_TYPE_GLOBAL_RETRIEVE_FOR_OUTLINE # New
 
 logger = logging.getLogger(__name__)
 
@@ -32,7 +33,8 @@ class Orchestrator:
                  workflow_state: WorkflowState,
                  topic_analyzer: TopicAnalyzerAgent,
                  outline_generator: OutlineGeneratorAgent,
-                 outline_refiner: OutlineRefinementAgent, # Added
+                 global_content_retriever: GlobalContentRetrieverAgent, # New
+                 outline_refiner: OutlineRefinementAgent,
                  content_retriever: ContentRetrieverAgent, # This is the agent, not the service
                  chapter_writer: ChapterWriterAgent,
                  evaluator: EvaluatorAgent,
@@ -46,7 +48,8 @@ class Orchestrator:
         self.agents = {
             TASK_TYPE_ANALYZE_TOPIC: topic_analyzer,
             TASK_TYPE_GENERATE_OUTLINE: outline_generator,
-            TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT: outline_refiner, # Added
+            TASK_TYPE_GLOBAL_RETRIEVE_FOR_OUTLINE: global_content_retriever, # New
+            TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT: outline_refiner,
             # TASK_TYPE_APPLY_OUTLINE_REFINEMENT is handled by Orchestrator directly
             # TASK_TYPE_PROCESS_CHAPTER is a meta-task, handled by adding retrieve then write
             TASK_TYPE_RETRIEVE_FOR_CHAPTER: content_retriever, # Agent uses RetrievalService internally
@@ -380,8 +383,9 @@ if __name__ == '__main__':
 
     # Create mock agents
     mock_topic_analyzer = MockAgent("TopicAnalyzerMock", TASK_TYPE_ANALYZE_TOPIC, TASK_TYPE_GENERATE_OUTLINE)
-    mock_outline_generator = MockAgent("OutlineGenMock", TASK_TYPE_GENERATE_OUTLINE, TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT) # Changed next task
-    mock_outline_refiner = MockAgent("OutlineRefinerMock", TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT, TASK_TYPE_APPLY_OUTLINE_REFINEMENT) # Mock for suggestion
+     mock_outline_generator = MockAgent("OutlineGenMock", TASK_TYPE_GENERATE_OUTLINE, TASK_TYPE_GLOBAL_RETRIEVE_FOR_OUTLINE) # Next is global retrieve
+     mock_global_retriever = MockAgent("GlobalRetrieverMock", TASK_TYPE_GLOBAL_RETRIEVE_FOR_OUTLINE, TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT) # Next is suggest refinement
+     mock_outline_refiner = MockAgent("OutlineRefinerMock", TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT, TASK_TYPE_APPLY_OUTLINE_REFINEMENT)
     # APPLY_OUTLINE_REFINEMENT is handled by orchestrator, then adds PROCESS_CHAPTER tasks
     mock_retriever = MockAgent("RetrieverMock", TASK_TYPE_RETRIEVE_FOR_CHAPTER, TASK_TYPE_WRITE_CHAPTER)
     mock_writer = MockAgent("WriterMock", TASK_TYPE_WRITE_CHAPTER, TASK_TYPE_EVALUATE_CHAPTER)
@@ -394,7 +398,8 @@ if __name__ == '__main__':
         workflow_state=mock_wf_state,
         topic_analyzer=mock_topic_analyzer,
         outline_generator=mock_outline_generator,
-        outline_refiner=mock_outline_refiner, # Added
+        global_content_retriever=mock_global_retriever, # New
+        outline_refiner=mock_outline_refiner,
         content_retriever=mock_retriever,
         chapter_writer=mock_writer,
         evaluator=mock_evaluator,

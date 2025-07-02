@@ -32,9 +32,19 @@ Current Outline (Parsed Structure with IDs):
 {parsed_outline_json}
 ---
 
-Please suggest refinements to make the outline more logical, comprehensive, coherent, and well-structured.
+Globally Retrieved Information (Preliminary context for each chapter based on titles):
+---
+{global_retrieved_info_summary}
+---
+
+Based on the current outline AND the globally retrieved information, please suggest refinements to make the outline more logical, comprehensive, coherent, and well-structured.
+Pay attention to:
+- Whether the retrieved information suggests missing subtopics or new relevant chapters.
+- Whether any chapters seem to have very little supporting information, perhaps indicating they are too niche or could be merged.
+- Whether information for different chapters seems highly overlapping, suggesting potential merges or restructuring.
+
 Consider the following types of changes:
-- Add new chapters or sub-chapters where important information seems missing.
+- Add new chapters or sub-chapters where important information seems missing (especially if suggested by retrieved content).
 - Delete chapters or sub-chapters that are redundant, irrelevant, or too granular.
 - Modify titles of chapters or sub-chapters to be clearer, more concise, or more impactful.
 - Reorder chapters or sub-chapters for better flow and logical progression.
@@ -66,6 +76,39 @@ JSON Output of Suggested Refinements:
         self.prompt_template = prompt_template or self.DEFAULT_PROMPT_TEMPLATE
         if not self.llm_service:
             raise OutlineRefinementAgentError("LLMService is required for OutlineRefinementAgent.")
+
+    def _format_global_retrieved_docs_for_prompt(
+        self,
+        parsed_outline: List[Dict[str, Any]],
+        global_docs_map: Optional[Dict[str, List[Dict[str, Any]]]],
+        max_docs_per_chapter_summary: int = 2,
+        max_text_snippet_len: int = 100 # Max length of text snippet from each doc
+    ) -> str:
+        """
+        Formats the globally retrieved documents into a string summary for the LLM prompt.
+        """
+        if not global_docs_map:
+            return "No globally retrieved information was provided or found."
+
+        summary_lines = []
+        for chapter_item in parsed_outline:
+            chapter_id = chapter_item.get('id')
+            chapter_title = chapter_item.get('title', 'Untitled Chapter')
+
+            summary_lines.append(f"\nFor Chapter: \"{chapter_title}\" (ID: {chapter_id})")
+
+            docs_for_chapter = global_docs_map.get(chapter_id)
+            if docs_for_chapter:
+                for i, doc in enumerate(docs_for_chapter[:max_docs_per_chapter_summary]):
+                    doc_title = doc.get('title', f"Document {i+1}")
+                    doc_text_snippet = doc.get('text', '')[:max_text_snippet_len]
+                    if doc.get('text') and len(doc.get('text')) > max_text_snippet_len:
+                        doc_text_snippet += "..."
+                    summary_lines.append(f"  - Retrieved Doc: \"{doc_title}\"\n    Snippet: \"{doc_text_snippet}\"")
+            else:
+                summary_lines.append("  - No specific documents retrieved for this chapter title in the global pass.")
+
+        return "\n".join(summary_lines).strip()
 
     def _validate_suggestions(self, suggestions: List[Dict], parsed_outline: List[Dict]) -> List[Dict]:
         """Basic validation of suggestions from LLM."""
@@ -139,10 +182,20 @@ JSON Output of Suggested Refinements:
         topic_description = topic_analysis_results.get('generalized_topic_cn', workflow_state.user_topic)
         parsed_outline_json_str = json.dumps(parsed_outline, ensure_ascii=False, indent=2)
 
+        # Fetch and format globally retrieved documents
+        global_retrieved_docs = workflow_state.get_global_retrieved_docs_map()
+        global_info_summary_str = self._format_global_retrieved_docs_for_prompt(
+            parsed_outline,
+            global_retrieved_docs
+        )
+        logger.debug(f"Formatted global retrieved info summary for prompt:\n{global_info_summary_str}")
+
+
         prompt = self.prompt_template.format(
             topic_description=topic_description,
             current_outline_md=current_outline_md,
             parsed_outline_json=parsed_outline_json_str,
+            global_retrieved_info_summary=global_info_summary_str, # New field for prompt
             max_chapters=max_chapters,
             min_chapters=min_chapters
         )
@@ -274,7 +327,15 @@ if __name__ == '__main__':
     # Simulate current_processing_task_id being set by orchestrator
     mock_state_ora.current_processing_task_id = "mock_suggestion_task_id_123"
 
-    print(f"\nExecuting OutlineRefinementAgent with MockWorkflowStateORA")
+    # Simulate global retrieved docs being present in workflow state
+    mock_global_docs = {
+        "ch_mock1": [{"title": "Global Doc for Mock1", "text": "Some initial context for chapter 1..."}],
+        "ch_mock2": [{"title": "Global Doc for Mock2", "text": "Preliminary findings for chapter 2..."}]
+    }
+    mock_state_ora.set_global_retrieved_docs_map(mock_global_docs)
+
+
+    print(f"\nExecuting OutlineRefinementAgent with MockWorkflowStateORA (with global retrieved docs)")
     try:
         outline_refinement_agent.execute_task(mock_state_ora, task_payload_for_agent_ora)
 

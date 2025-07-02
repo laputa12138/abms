@@ -14,6 +14,7 @@ TASK_TYPE_WRITE_CHAPTER = "write_chapter"
 TASK_TYPE_EVALUATE_CHAPTER = "evaluate_chapter"
 TASK_TYPE_REFINE_CHAPTER = "refine_chapter"
 TASK_TYPE_COMPILE_REPORT = "compile_report"
+TASK_TYPE_GLOBAL_RETRIEVE_FOR_OUTLINE = "global_retrieve_for_outline" # New task type
 TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT = "suggest_outline_refinement" # Agent can suggest
 TASK_TYPE_APPLY_OUTLINE_REFINEMENT = "apply_outline_refinement" # Pipeline/Orchestrator handles this
 
@@ -46,6 +47,9 @@ class WorkflowState:
 
         # Chapter data: key is a unique chapter_id (e.g., from parsed_outline)
         self.chapter_data: Dict[str, Dict[str, Any]] = {}
+
+        # Stores documents retrieved globally for each chapter ID before detailed chapter processing
+        self.global_retrieved_docs_map: Optional[Dict[str, List[Dict[str, Any]]]] = None
 
         # Optional: A pool for caching retrieved information to avoid redundant searches
         # Key could be a normalized query string or a content hash.
@@ -447,6 +451,15 @@ class WorkflowState:
                 md_lines.append(f"{indent}- {title}")
         return "\n".join(md_lines)
 
+    def set_global_retrieved_docs_map(self, docs_map: Dict[str, List[Dict[str, Any]]]):
+        """Sets the map of globally retrieved documents."""
+        self.global_retrieved_docs_map = docs_map
+        self.log_event("Global retrieved documents map updated.", {"num_chapters_with_docs": len(docs_map)})
+
+    def get_global_retrieved_docs_map(self) -> Optional[Dict[str, List[Dict[str, Any]]]]:
+        """Gets the map of globally retrieved documents."""
+        return self.global_retrieved_docs_map
+
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG)
@@ -510,6 +523,16 @@ if __name__ == '__main__':
 
     print(f"\nChapter data for '{chapter_task['payload']['chapter_key'] if chapter_task else ''}':")
     if chapter_task : print(json.dumps(state.get_chapter_data(chapter_task['payload']['chapter_key']), indent=2, default=str))
+
+    # Test global retrieved docs map
+    mock_global_docs = {
+        "chap_intro": [{"title": "Global Doc A", "text": "Content for intro"}],
+        "chap_main": [{"title": "Global Doc B", "text": "Content for main"}]
+    }
+    state.set_global_retrieved_docs_map(mock_global_docs)
+    retrieved_map = state.get_global_retrieved_docs_map()
+    print(f"\nGlobal retrieved docs map set and get: {'Success' if retrieved_map == mock_global_docs else 'Failure'}")
+    assert retrieved_map == mock_global_docs
 
     print(f"\nAre all chapters completed? {state.are_all_chapters_completed()}") # Will be false
 

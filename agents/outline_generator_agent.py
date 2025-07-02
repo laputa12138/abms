@@ -137,28 +137,28 @@ class OutlineGeneratorAgent(BaseAgent):
 
             # Update WorkflowState
             workflow_state.update_outline(outline_markdown, parsed_outline_with_ids)
-            # Ensure outline_finalized is False as it will go to refinement next
+            # Ensure outline_finalized is False as it will go through global retrieval then refinement
             workflow_state.set_flag('outline_finalized', False)
 
-            # Add a task to suggest outline refinements
-            refinement_payload = {
-                "current_outline_md": outline_markdown,
-                "parsed_outline": parsed_outline_with_ids, # Use the freshly parsed one
-                "topic_analysis_results": task_payload.get('topic_details'), # Pass along topic details
-                # Constraints can be sourced from config or passed in task_payload if dynamic
-                "max_chapters": workflow_state.get_flag('max_chapters_constraint', 10), # Example
-                "min_chapters": workflow_state.get_flag('min_chapters_constraint', 3)  # Example
+            # Add a task for global content retrieval for the generated outline
+            global_retrieve_payload = {
+                "current_outline_md": outline_markdown, # Pass along the MD string
+                "parsed_outline": parsed_outline_with_ids,
+                "topic_analysis_results": task_payload.get('topic_details'),
+                # Pass through constraints if they were part of this task's context or from config
+                "max_chapters_constraint": task_payload.get('max_chapters_constraint', workflow_state.get_flag('max_chapters_constraint', 10)),
+                "min_chapters_constraint": task_payload.get('min_chapters_constraint', workflow_state.get_flag('min_chapters_constraint', 3))
             }
-            # Import the constant if not already imported at the top
-            from core.workflow_state import TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT
+
+            from core.workflow_state import TASK_TYPE_GLOBAL_RETRIEVE_FOR_OUTLINE # Import new task type
             workflow_state.add_task(
-                task_type=TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT,
-                payload=refinement_payload,
-                priority=task_payload.get('priority', 2) + 1 # Slightly lower priority than generation
+                task_type=TASK_TYPE_GLOBAL_RETRIEVE_FOR_OUTLINE,
+                payload=global_retrieve_payload,
+                priority=task_payload.get('priority', 2) + 1 # Next step after outline generation
             )
 
             self._log_output({"markdown_outline": outline_markdown, "parsed_items_count": len(parsed_outline_with_ids)})
-            success_msg = f"Initial outline generation successful for '{topic_cn}'. {len(parsed_outline_with_ids)} chapters. Task for outline refinement suggestion added."
+            success_msg = f"Initial outline generation successful for '{topic_cn}'. {len(parsed_outline_with_ids)} chapters. Task for global outline content retrieval added."
             logger.info(f"[{self.agent_name}] Task ID: {task_id} - {success_msg}")
             if task_id: workflow_state.complete_task(task_id, success_msg, status='success')
 
@@ -190,7 +190,7 @@ if __name__ == '__main__':
             return "- 默认章节1\n  - 默认子章节1.1"
 
     # Mock WorkflowState for testing
-    from core.workflow_state import WorkflowState, TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT # Updated import
+    from core.workflow_state import WorkflowState, TASK_TYPE_GLOBAL_RETRIEVE_FOR_OUTLINE # Updated import
 
     class MockWorkflowStateOGA(WorkflowState): # OGA for OutlineGeneratorAgent
         def __init__(self, user_topic: str, topic_analysis_results: Dict):
@@ -238,17 +238,19 @@ if __name__ == '__main__':
 
         assert mock_state_oga.current_outline_md is not None
         assert mock_state_oga.parsed_outline is not None and len(mock_state_oga.parsed_outline) > 0
-        assert mock_state_oga.get_flag('outline_finalized') is False # Should be false, refinement comes next
+        assert mock_state_oga.get_flag('outline_finalized') is False # Should be false, global retrieval then refinement comes next
 
-        assert len(mock_state_oga.added_tasks_oga) == 1 # Only one task should be added (suggest refinement)
+        assert len(mock_state_oga.added_tasks_oga) == 1 # Only one task should be added (global retrieve)
         added_task_details = mock_state_oga.added_tasks_oga[0]
-        assert added_task_details['type'] == TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT
-        assert 'current_outline_md' in added_task_details['payload']
+        assert added_task_details['type'] == TASK_TYPE_GLOBAL_RETRIEVE_FOR_OUTLINE
+        assert 'current_outline_md' in added_task_details['payload'], "'current_outline_md' is crucial for later refinement agent"
+        assert added_task_details['payload']['current_outline_md'] == mock_state_oga.current_outline_md
         assert 'parsed_outline' in added_task_details['payload']
-        assert 'topic_analysis_results' in added_task_details['payload']
         assert added_task_details['payload']['parsed_outline'] == mock_state_oga.parsed_outline
+        assert 'topic_analysis_results' in added_task_details['payload']
 
-        print("\nOutlineGeneratorAgent test successful with MockWorkflowStateOGA (New flow).")
+
+        print("\nOutlineGeneratorAgent test successful with MockWorkflowStateOGA (New flow with Global Retrieval).")
 
     except Exception as e:
         print(f"Error during OutlineGeneratorAgent test: {e}")
