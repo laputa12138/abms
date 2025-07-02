@@ -137,41 +137,46 @@ class OutlineGeneratorAgent(BaseAgent):
 
             # Update WorkflowState
             workflow_state.update_outline(outline_markdown, parsed_outline_with_ids)
+            # Ensure outline_finalized is False as it will go through global retrieval then refinement
+            workflow_state.set_flag('outline_finalized', False)
 
-            # Add tasks to process each chapter/section from the new outline
-            for item in workflow_state.parsed_outline: # Iterate over the newly set parsed_outline
-                chapter_key = item['id'] # This is the unique ID
-                chapter_title = item['title']
-                workflow_state.add_task(
-                    task_type=TASK_TYPE_PROCESS_CHAPTER, # This meta-task will trigger retrieval then writing
-                    payload={'chapter_key': chapter_key, 'chapter_title': chapter_title, 'level': item['level']},
-                    priority=3 # Assuming outline generation is priority 2
-                )
+            # Add a task for global content retrieval for the generated outline
+            global_retrieve_payload = {
+                "current_outline_md": outline_markdown, # Pass along the MD string
+                "parsed_outline": parsed_outline_with_ids,
+                "topic_analysis_results": task_payload.get('topic_details'),
+                # Pass through constraints if they were part of this task's context or from config
+                "max_chapters_constraint": task_payload.get('max_chapters_constraint', workflow_state.get_flag('max_chapters_constraint', 10)),
+                "min_chapters_constraint": task_payload.get('min_chapters_constraint', workflow_state.get_flag('min_chapters_constraint', 3))
+            }
 
-            # After successfully adding all chapter tasks, mark the outline as finalized for this run.
-            workflow_state.set_flag('outline_finalized', True)
-            logger.info(f"[{self.agent_name}] Task ID: {task_id} - Outline finalized flag set to True.")
+            from core.workflow_state import TASK_TYPE_GLOBAL_RETRIEVE_FOR_OUTLINE # Import new task type
+            workflow_state.add_task(
+                task_type=TASK_TYPE_GLOBAL_RETRIEVE_FOR_OUTLINE,
+                payload=global_retrieve_payload,
+                priority=task_payload.get('priority', 2) + 1 # Next step after outline generation
+            )
 
             self._log_output({"markdown_outline": outline_markdown, "parsed_items_count": len(parsed_outline_with_ids)})
-            success_msg = f"Outline generation successful for '{topic_cn}'. {len(parsed_outline_with_ids)} chapter processing tasks added. Outline finalized."
+            success_msg = f"Initial outline generation successful for '{topic_cn}'. {len(parsed_outline_with_ids)} chapters. Task for global outline content retrieval added."
             logger.info(f"[{self.agent_name}] Task ID: {task_id} - {success_msg}")
             if task_id: workflow_state.complete_task(task_id, success_msg, status='success')
 
         except LLMServiceError as e:
             err_msg = f"LLM service failed for outline generation on topic '{topic_cn}': {e}"
-            workflow_state.log_event(f"LLM service error during outline generation for '{topic_cn}'", {"error": str(e)}, level="ERROR") # Keep
+            workflow_state.log_event(f"LLM service error during outline generation for '{topic_cn}'", {"error": str(e)}, level="ERROR")
             logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}", exc_info=True)
             if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
             raise OutlineGeneratorAgentError(err_msg) # Re-raise
         except OutlineGeneratorAgentError as e:
             err_msg = f"Outline generation failed for '{topic_cn}': {e}"
-            workflow_state.log_event(err_msg, {"error": str(e)}, level="ERROR") # Keep
+            workflow_state.log_event(err_msg, {"error": str(e)}, level="ERROR")
             logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}", exc_info=True)
             if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
             raise # Re-raise
         except Exception as e:
             err_msg = f"Unexpected error in outline generation for '{topic_cn}': {e}"
-            workflow_state.log_event(f"Unexpected error in OutlineGeneratorAgent for '{topic_cn}'", {"error": str(e)}, level="CRITICAL") # Keep
+            workflow_state.log_event(f"Unexpected error in OutlineGeneratorAgent for '{topic_cn}'", {"error": str(e)}, level="CRITICAL")
             logger.critical(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}", exc_info=True)
             if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
             raise OutlineGeneratorAgentError(err_msg) # Re-raise
@@ -185,8 +190,7 @@ if __name__ == '__main__':
             return "- 默认章节1\n  - 默认子章节1.1"
 
     # Mock WorkflowState for testing
-    # Import necessary constants if not already (TASK_TYPE_PROCESS_CHAPTER)
-    from core.workflow_state import WorkflowState, TASK_TYPE_PROCESS_CHAPTER
+    from core.workflow_state import WorkflowState, TASK_TYPE_GLOBAL_RETRIEVE_FOR_OUTLINE # Updated import
 
     class MockWorkflowStateOGA(WorkflowState): # OGA for OutlineGeneratorAgent
         def __init__(self, user_topic: str, topic_analysis_results: Dict):
@@ -203,8 +207,6 @@ if __name__ == '__main__':
 
         def add_task(self, task_type: str, payload: Optional[Dict[str, Any]] = None, priority: int = 0):
             self.added_tasks_oga.append({'type': task_type, 'payload': payload, 'priority': priority})
-            # For this test, we might not need to call super().add_task if we only inspect added_tasks_oga.
-            # However, for more integrated testing, super().add_task would be called.
             logger.debug(f"MockWorkflowStateOGA: Task added - Type: {task_type}, Payload: {payload}")
 
 
@@ -215,11 +217,15 @@ if __name__ == '__main__':
         "generalized_topic_cn": "ABMS系统", "generalized_topic_en": "ABMS",
         "keywords_cn": ["ABMS", "JADC2"], "keywords_en": ["ABMS", "JADC2"]
     }
+    # Simulate current_processing_task_id being set by orchestrator
     mock_state_oga = MockWorkflowStateOGA(user_topic="ABMS系统", topic_analysis_results=mock_topic_analysis)
+    mock_state_oga.current_processing_task_id = "mock_outline_gen_task_id_123"
 
-    task_payload_for_agent_oga = {'topic_details': mock_topic_analysis}
 
-    print(f"\nExecuting OutlineGeneratorAgent with MockWorkflowStateOGA")
+    task_payload_for_agent_oga = {'topic_details': mock_topic_analysis, 'priority': 2}
+
+
+    print(f"\nExecuting OutlineGeneratorAgent with MockWorkflowStateOGA (New flow with Refinement Suggestion)")
     try:
         outline_agent.execute_task(mock_state_oga, task_payload_for_agent_oga)
 
@@ -227,18 +233,24 @@ if __name__ == '__main__':
         print(f"  Outline Markdown: \n{mock_state_oga.current_outline_md}")
         print(f"  Parsed Outline (from state): {json.dumps(mock_state_oga.parsed_outline, indent=2, ensure_ascii=False)}")
         print(f"  Tasks added by agent: {json.dumps(mock_state_oga.added_tasks_oga, indent=2, ensure_ascii=False)}")
+        print(f"  Outline Finalized Flag: {mock_state_oga.get_flag('outline_finalized')}")
+
 
         assert mock_state_oga.current_outline_md is not None
         assert mock_state_oga.parsed_outline is not None and len(mock_state_oga.parsed_outline) > 0
-        assert len(mock_state_oga.added_tasks_oga) == len(mock_state_oga.parsed_outline) # One task per outline item
-        for task in mock_state_oga.added_tasks_oga:
-            assert task['type'] == TASK_TYPE_PROCESS_CHAPTER
-            assert 'chapter_key' in task['payload']
-            assert 'chapter_title' in task['payload']
-            # Check if chapter_key exists in the state's chapter_data initialization (done by update_outline)
-            assert task['payload']['chapter_key'] in mock_state_oga.chapter_data
+        assert mock_state_oga.get_flag('outline_finalized') is False # Should be false, global retrieval then refinement comes next
 
-        print("\nOutlineGeneratorAgent test successful with MockWorkflowStateOGA.")
+        assert len(mock_state_oga.added_tasks_oga) == 1 # Only one task should be added (global retrieve)
+        added_task_details = mock_state_oga.added_tasks_oga[0]
+        assert added_task_details['type'] == TASK_TYPE_GLOBAL_RETRIEVE_FOR_OUTLINE
+        assert 'current_outline_md' in added_task_details['payload'], "'current_outline_md' is crucial for later refinement agent"
+        assert added_task_details['payload']['current_outline_md'] == mock_state_oga.current_outline_md
+        assert 'parsed_outline' in added_task_details['payload']
+        assert added_task_details['payload']['parsed_outline'] == mock_state_oga.parsed_outline
+        assert 'topic_analysis_results' in added_task_details['payload']
+
+
+        print("\nOutlineGeneratorAgent test successful with MockWorkflowStateOGA (New flow with Global Retrieval).")
 
     except Exception as e:
         print(f"Error during OutlineGeneratorAgent test: {e}")

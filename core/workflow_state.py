@@ -14,6 +14,7 @@ TASK_TYPE_WRITE_CHAPTER = "write_chapter"
 TASK_TYPE_EVALUATE_CHAPTER = "evaluate_chapter"
 TASK_TYPE_REFINE_CHAPTER = "refine_chapter"
 TASK_TYPE_COMPILE_REPORT = "compile_report"
+TASK_TYPE_GLOBAL_RETRIEVE_FOR_OUTLINE = "global_retrieve_for_outline" # New task type
 TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT = "suggest_outline_refinement" # Agent can suggest
 TASK_TYPE_APPLY_OUTLINE_REFINEMENT = "apply_outline_refinement" # Pipeline/Orchestrator handles this
 
@@ -46,6 +47,9 @@ class WorkflowState:
 
         # Chapter data: key is a unique chapter_id (e.g., from parsed_outline)
         self.chapter_data: Dict[str, Dict[str, Any]] = {}
+
+        # Stores documents retrieved globally for each chapter ID before detailed chapter processing
+        self.global_retrieved_docs_map: Optional[Dict[str, List[Dict[str, Any]]]] = None
 
         # Optional: A pool for caching retrieved information to avoid redundant searches
         # Key could be a normalized query string or a content hash.
@@ -277,6 +281,186 @@ class WorkflowState:
             "report_topic_details": self.topic_analysis_results
         }
 
+    def apply_refinements_to_parsed_outline(
+        self,
+        current_parsed_outline: List[Dict[str, Any]],
+        refinement_operations: List[Dict[str, Any]]
+    ) -> List[Dict[str, Any]]:
+        """
+        Applies a list of refinement operations to a parsed outline.
+        Returns a new parsed_outline list.
+        Does not modify the state's own outline directly; Orchestrator will use the result.
+        Operations should be validated before being passed here.
+        """
+        import copy # Ensure copy is imported
+        new_parsed_outline = copy.deepcopy(current_parsed_outline)
+
+        # Helper to find an item's index by ID
+        def find_item_index(outline_list, item_id):
+            if item_id is None: return -1 # Cannot find a None item_id
+            for idx, item in enumerate(outline_list):
+                if item.get('id') == item_id:
+                    return idx
+            return -1
+
+        for op in refinement_operations:
+            action = op['action']
+            item_id = op.get('id') # Used by most actions
+
+            if action == "add":
+                new_item = {
+                    "id": f"ch_{str(uuid.uuid4())[:8]}",
+                    "title": op['title'],
+                    "level": op['level'],
+                }
+                after_id = op.get('after_id')
+                insert_index = -1
+                if after_id: # if after_id is provided, find its index
+                    idx = find_item_index(new_parsed_outline, after_id)
+                    if idx != -1:
+                        insert_index = idx + 1
+                    else: # after_id not found, append to end (or log warning)
+                        logger.warning(f"apply_refinements: 'add' action's after_id '{after_id}' not found. Appending.")
+                        new_parsed_outline.append(new_item)
+                        continue
+
+                if insert_index != -1: # Found after_id or it was None (implies append/prepend based on context)
+                    new_parsed_outline.insert(insert_index, new_item)
+                else: # after_id was None or not found, append to the end
+                    new_parsed_outline.append(new_item)
+
+            elif action == "delete":
+                idx = find_item_index(new_parsed_outline, item_id)
+                if idx != -1:
+                    del new_parsed_outline[idx]
+                else:
+                    logger.warning(f"apply_refinements: 'delete' action's id '{item_id}' not found.")
+
+            elif action == "modify_title":
+                idx = find_item_index(new_parsed_outline, item_id)
+                if idx != -1:
+                    new_parsed_outline[idx]['title'] = op['new_title']
+                else:
+                    logger.warning(f"apply_refinements: 'modify_title' action's id '{item_id}' not found.")
+
+            elif action == "modify_level":
+                idx = find_item_index(new_parsed_outline, item_id)
+                if idx != -1:
+                    new_parsed_outline[idx]['level'] = op['new_level']
+                else:
+                    logger.warning(f"apply_refinements: 'modify_level' action's id '{item_id}' not found.")
+
+            elif action == "move":
+                item_idx = find_item_index(new_parsed_outline, item_id)
+                if item_idx == -1:
+                    logger.warning(f"apply_refinements: 'move' action's item_id '{item_id}' not found.")
+                    continue
+
+                item_to_move = new_parsed_outline.pop(item_idx)
+
+                after_id = op.get('after_id') # ID of chapter to move it after
+                # before_id = op.get('before_id') # ID of chapter to move it before (optional alternative)
+
+                insert_at_idx = -1 # Default to indicating not found or prepend
+
+                if after_id is not None:
+                    target_idx = find_item_index(new_parsed_outline, after_id)
+                    if target_idx != -1:
+                        insert_at_idx = target_idx + 1
+                    else: # after_id specified but not found, could append or error
+                        logger.warning(f"apply_refinements: 'move' action's after_id '{after_id}' not found. Appending item '{item_id}'.")
+                        new_parsed_outline.append(item_to_move)
+                        continue
+                # elif before_id is not None:
+                #     target_idx = find_item_index(new_parsed_outline, before_id)
+                #     if target_idx != -1:
+                #         insert_at_idx = target_idx
+                #     else: # before_id specified but not found
+                #          logger.warning(f"apply_refinements: 'move' action's before_id '{before_id}' not found. Prepending item '{item_id}'.")
+                #          new_parsed_outline.insert(0, item_to_move)
+                #          continue
+
+                if insert_at_idx != -1 : # Specific index found via after_id (or potentially before_id)
+                     new_parsed_outline.insert(insert_at_idx, item_to_move)
+                elif after_id is None: # No after_id (and no before_id implies move to start)
+                    new_parsed_outline.insert(0, item_to_move) # Default: move to beginning if no specific target
+                # else: after_id was not None, but not found, already handled by appending.
+
+            elif action == "merge":
+                primary_idx = find_item_index(new_parsed_outline, op['primary_id'])
+                secondary_idx = find_item_index(new_parsed_outline, op['secondary_id'])
+
+                if primary_idx != -1 and secondary_idx != -1:
+                    if primary_idx == secondary_idx:
+                        logger.warning(f"apply_refinements: 'merge' action's primary and secondary IDs are the same ('{op['primary_id']}'). Skipping.")
+                        continue
+                    if 'new_title_for_primary' in op:
+                        new_parsed_outline[primary_idx]['title'] = op['new_title_for_primary']
+
+                    # Ensure secondary_idx is still valid after potential list modifications if primary_idx < secondary_idx
+                    # However, standard list deletion handles index shifts correctly if deleting higher index first, or if they are distinct.
+                    # For safety, if primary_idx was before secondary_idx and an element was removed, secondary_idx might shift.
+                    # But since we are finding them independently and then deleting one, it's safer.
+                    # If we pop secondary_idx, primary_idx remains valid if it was smaller.
+                    # If primary_idx was larger, its index would shift if secondary_idx was popped first.
+                    # Simplest: delete by value or re-find index if necessary, but direct index deletion is fine if careful.
+                    del new_parsed_outline[secondary_idx]
+                else:
+                    logger.warning(f"apply_refinements: 'merge' action's primary_id '{op.get('primary_id')}' or secondary_id '{op.get('secondary_id')}' not found.")
+
+            elif action == "split":
+                item_idx = find_item_index(new_parsed_outline, item_id)
+                if item_idx != -1:
+                    original_item_level = new_parsed_outline[item_idx].get('level', 1) # Get level of item being split
+                    del new_parsed_outline[item_idx] # Remove original
+
+                    for i, new_chap_info in enumerate(op['new_chapters']):
+                        new_item_level = new_chap_info.get('level', original_item_level) # Use new level or inherit
+                        new_item = {
+                            "id": f"ch_{str(uuid.uuid4())[:8]}",
+                            "title": new_chap_info['title'],
+                            "level": new_item_level,
+                        }
+                        new_parsed_outline.insert(item_idx + i, new_item)
+                else:
+                    logger.warning(f"apply_refinements: 'split' action's id '{item_id}' not found.")
+
+        return new_parsed_outline
+
+    def generate_markdown_from_parsed_outline(self, parsed_outline: List[Dict[str, Any]]) -> str:
+        """
+        Generates a Markdown string representation from a parsed outline structure.
+        Assumes 'title' and 'level' keys in each dictionary.
+        Level 1 -> # Title
+        Level 2 -> ## Title
+        Level 3+ -> uses '-' with indentation relative to level 2.
+                     e.g. Level 3 is "- Title", Level 4 is "  - Title"
+        """
+        md_lines = []
+        for item in parsed_outline:
+            title = item.get('title', 'Untitled')
+            level = item.get('level', 1)
+            if level == 1:
+                md_lines.append(f"# {title}")
+            elif level == 2:
+                md_lines.append(f"## {title}")
+            else: # level 3+
+                # Indentation: level 3 has 0 spaces, level 4 has 2, level 5 has 4, etc.
+                indent_count = (level - 3) * 2
+                indent = " " * indent_count
+                md_lines.append(f"{indent}- {title}")
+        return "\n".join(md_lines)
+
+    def set_global_retrieved_docs_map(self, docs_map: Dict[str, List[Dict[str, Any]]]):
+        """Sets the map of globally retrieved documents."""
+        self.global_retrieved_docs_map = docs_map
+        self.log_event("Global retrieved documents map updated.", {"num_chapters_with_docs": len(docs_map)})
+
+    def get_global_retrieved_docs_map(self) -> Optional[Dict[str, List[Dict[str, Any]]]]:
+        """Gets the map of globally retrieved documents."""
+        return self.global_retrieved_docs_map
+
+
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG)
     logger.info("WorkflowState Example Start")
@@ -339,6 +523,16 @@ if __name__ == '__main__':
 
     print(f"\nChapter data for '{chapter_task['payload']['chapter_key'] if chapter_task else ''}':")
     if chapter_task : print(json.dumps(state.get_chapter_data(chapter_task['payload']['chapter_key']), indent=2, default=str))
+
+    # Test global retrieved docs map
+    mock_global_docs = {
+        "chap_intro": [{"title": "Global Doc A", "text": "Content for intro"}],
+        "chap_main": [{"title": "Global Doc B", "text": "Content for main"}]
+    }
+    state.set_global_retrieved_docs_map(mock_global_docs)
+    retrieved_map = state.get_global_retrieved_docs_map()
+    print(f"\nGlobal retrieved docs map set and get: {'Success' if retrieved_map == mock_global_docs else 'Failure'}")
+    assert retrieved_map == mock_global_docs
 
     print(f"\nAre all chapters completed? {state.are_all_chapters_completed()}") # Will be false
 
