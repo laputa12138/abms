@@ -107,9 +107,9 @@ class ReportGenerationPipeline:
         self.report_compiler = ReportCompilerAgent(add_table_of_contents=True)
 
         self.workflow_state: Optional[WorkflowState] = None
-        self.global_content_retriever=GlobalContentRetrieverAgent(retrieval_service=self.retrieval_service,llm_service=self.llm_service)
-        outline_refiner_prompt_template = getattr(settings, 'OUTLINE_REFINEMENT_PROMPT_TEMPLATE', None)
-        self.outline_refinement_agent = OutlineRefinementAgent(llm_service=self.llm_service, prompt_template=outline_refiner_prompt_template)
+        self.global_content_retriever= None
+        outline_refiner_prompt_template = None
+        self.outline_refinement_agent = None
 
         self.orchestrator: Optional[Orchestrator] = None
 
@@ -141,12 +141,16 @@ class ReportGenerationPipeline:
             )
             self.workflow_state.log_event("ContentRetrieverAgent initialized using RetrievalService with effective parameters.")
 
+        self.global_content_retriever=GlobalContentRetrieverAgent(retrieval_service=self.retrieval_service,llm_service=self.llm_service)
+        outline_refiner_prompt_template = getattr(settings, 'OUTLINE_REFINEMENT_PROMPT_TEMPLATE', None)
+        self.outline_refinement_agent = OutlineRefinementAgent(llm_service=self.llm_service, prompt_template=outline_refiner_prompt_template)
+
         if not self.orchestrator:
             self.orchestrator = Orchestrator(
                 workflow_state=self.workflow_state,
                 topic_analyzer=self.topic_analyzer,
                 outline_generator=self.outline_generator,
-                global_content_retriever=self.global_content_retriever_agent,
+                global_content_retriever=self.global_content_retriever,
                 outline_refiner=self.outline_refinement_agent,
                 content_retriever=self.content_retriever_agent,
                 chapter_writer=self.chapter_writer,
