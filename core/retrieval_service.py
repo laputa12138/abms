@@ -249,7 +249,7 @@ class RetrievalService:
                 "child_text_preview": res_item["child_text"][:150] + "...", # For context/logging
                 "child_id": res_item["child_id"],
                 "parent_id": res_item["parent_id"],
-                "source_document_id": res_item["source_document_id"],
+                "source_document_name": res_item["source_document_name"], # Changed key
                 "retrieval_source": res_item["retrieval_source"] # For tracing
             })
 
@@ -281,7 +281,7 @@ if __name__ == '__main__':
                     self.document_store.append({
                         'child_id': c_data['child_id'], 'child_text': c_data['child_text'],
                         'parent_id': p_data['parent_id'], 'parent_text': p_data['parent_text'],
-                        'source_document_id': p_data['source_document_id']
+                        'source_document_name': p_data['source_document_name'] # Changed key
                     })
             self.count_child_chunks = len(self.document_store)
             logger.debug(f"MockVectorStoreForRS populated with {self.count_child_chunks} items via mock add.")
@@ -317,11 +317,11 @@ if __name__ == '__main__':
 
     # --- Setup Data for Mocks ---
     sample_p_c_data = [
-        {"parent_id": "P1", "parent_text": "Parent One: Apples are red. Oranges are orange.", "source_document_id": "DocA",
+        {"parent_id": "P1", "parent_text": "Parent One: Apples are red. Oranges are orange.", "source_document_name": "DocA.txt", # Changed key
          "children": [{"child_id": "P1C1", "child_text": "Apples are red."}, {"child_id": "P1C2", "child_text": "Oranges are orange."}]},
-        {"parent_id": "P2", "parent_text": "Parent Two: Bananas are yellow. Grapes are purple.", "source_document_id": "DocA",
+        {"parent_id": "P2", "parent_text": "Parent Two: Bananas are yellow. Grapes are purple.", "source_document_name": "DocA.txt", # Changed key
          "children": [{"child_id": "P2C1", "child_text": "Bananas are yellow."}, {"child_id": "P2C2", "child_text": "Grapes are purple."}]},
-        {"parent_id": "P3", "parent_text": "Parent Three: Cars are fast. Bikes are good for exercise.", "source_document_id": "DocB",
+        {"parent_id": "P3", "parent_text": "Parent Three: Cars are fast. Bikes are good for exercise.", "source_document_name": "DocB.pdf", # Changed key
          "children": [{"child_id": "P3C1", "child_text": "Cars are fast and come in red or blue."}, {"child_id": "P3C2", "child_text": "Bikes are good for exercise and fun."}]}
     ]
 

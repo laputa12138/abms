@@ -37,7 +37,7 @@ class VectorStore:
         # self.documents list will now store dictionaries for each child chunk,
         # including its text, its parent's text, and relevant IDs.
         # Format: {'child_id': str, 'child_text': str, 'parent_id': str, 'parent_text': str,
-        #          'source_document_id': str}
+        #          'source_document_name': str} # Changed key name
         # The FAISS index will map to the index of this list.
         self.document_store: List[Dict[str, Any]] = []
 
@@ -67,7 +67,7 @@ class VectorStore:
 
         Args:
             parent_child_data (List[Dict[str, Any]]): A list of parent chunk dictionaries,
-                each containing 'parent_id', 'parent_text', 'source_document_id',
+                each containing 'parent_id', 'parent_text', 'source_document_name', # Changed key name
                 and a 'children' list (List[Dict{'child_id': str, 'child_text': str}]).
                 This structure comes from DocumentProcessor.
 
@@ -86,7 +86,7 @@ class VectorStore:
         for parent_info in parent_child_data:
             parent_id = parent_info['parent_id']
             parent_text = parent_info['parent_text']
-            source_doc_id = parent_info['source_document_id']
+            source_doc_name = parent_info['source_document_name'] # Changed key name
 
             for child_info in parent_info.get('children', []):
                 child_id = child_info['child_id']
@@ -102,7 +102,7 @@ class VectorStore:
                     'child_text': child_text,
                     'parent_id': parent_id,
                     'parent_text': parent_text, # Store parent text for easy retrieval
-                    'source_document_id': source_doc_id
+                    'source_document_name': source_doc_name # Changed key name
                 })
 
         if not child_texts_for_embedding:
@@ -171,7 +171,7 @@ class VectorStore:
                     'child_text': str,
                     'parent_id': str,
                     'parent_text': str,
-                    'source_document_id': str,
+                    'source_document_name': str, # Changed key name
                     'score': float (distance score from FAISS)
                 }
                 Lower scores (distances) mean higher similarity for L2.
@@ -214,7 +214,7 @@ class VectorStore:
                             'child_text': retrieved_item_meta['child_text'],
                             'parent_id': retrieved_item_meta['parent_id'],
                             'parent_text': retrieved_item_meta['parent_text'],
-                            'source_document_id': retrieved_item_meta['source_document_id'],
+                            'source_document_name': retrieved_item_meta['source_document_name'], # Changed key name
                             'score': float(distances[0, i]) # L2 distance
                         }
                         results.append(result_entry)
@@ -329,7 +329,7 @@ if __name__ == '__main__':
     sample_data = [
         {
             "parent_id": "doc1-p1", "parent_text": "Parent One. It talks about apples and oranges. Also mentions bananas.",
-            "source_document_id": "doc1",
+            "source_document_name": "doc1.txt", # Changed key name and made it more file-like
             "children": [
                 {"child_id": "doc1-p1-c1", "child_text": "Parent One. It talks about apples and oranges."},
                 {"child_id": "doc1-p1-c2", "child_text": "Also mentions bananas."}
@@ -337,7 +337,7 @@ if __name__ == '__main__':
         },
         {
             "parent_id": "doc1-p2", "parent_text": "Parent Two. This one is about grapes and strawberries. And kiwi fruit.",
-            "source_document_id": "doc1",
+            "source_document_name": "doc1.txt", # Changed key name
             "children": [
                 {"child_id": "doc1-p2-c1", "child_text": "Parent Two. This one is about grapes and strawberries."},
                 {"child_id": "doc1-p2-c2", "child_text": "And kiwi fruit is tasty."}
@@ -345,7 +345,7 @@ if __name__ == '__main__':
         },
         {
             "parent_id": "doc2-p1", "parent_text": "Another document. Parent Three. Discusses red cars and blue bikes. Fast vehicles.",
-            "source_document_id": "doc2",
+            "source_document_name": "doc2.pdf", # Changed key name
             "children": [
                 {"child_id": "doc2-p1-c1", "child_text": "Another document. Parent Three. Discusses red cars and blue bikes."},
                 {"child_id": "doc2-p1-c2", "child_text": "Fast vehicles are exciting."}

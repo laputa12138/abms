@@ -90,7 +90,7 @@ class ChapterWriterAgent(BaseAgent):
 
         citations = []
         for doc in used_documents:
-            file_name = doc.get('source_document_id', '未知文档')
+            file_name = doc.get('source_document_name', '未知文档') # Changed key
             source_text_of_parent = doc.get('document', '无法获取原文') # 'document' holds parent_text
             citations.append(f"[引用来源：{file_name}。原文表述：{source_text_of_parent}]")
 
@@ -252,9 +252,23 @@ if __name__ == '__main__':
     test_chapter_key = "chap_abms_overview"
     test_chapter_title = "ABMS系统概述"
     mock_retrieved_data = [
-        {"document": "父块1：ABMS是一个复杂的系统...", "score": 0.9, "source": "hybrid", "child_text_preview": "子块1预览..."},
-        {"document": "父块2：JADC2与ABMS的关系...", "score": 0.85, "source": "hybrid", "child_text_preview": "子块2预览..."}
+        {
+            "document": "父块1：ABMS是一个复杂的系统...", "score": 0.9, "retrieval_source": "hybrid",
+            "child_text_preview": "子块1预览...", "child_id": "p1c1", "parent_id": "p1",
+            "source_document_name": "source_doc_A.pdf" # Changed key
+        },
+        {
+            "document": "父块2：JADC2与ABMS的关系...", "score": 0.85, "retrieval_source": "hybrid",
+            "child_text_preview": "子块2预览...", "child_id": "p2c1", "parent_id": "p2",
+            "source_document_name": "source_doc_B.txt" # Changed key
+        }
     ]
+
+    # The mock LLM doesn't use citations, so the output won't show them,
+    # but we are testing the logic that _would_ generate them.
+    # To see the generated citations in the test output, we'd have to modify MockLLMService
+    # or inspect the `citations_string` variable directly if we had access.
+    # For now, we confirm the `source_document_name` is correctly accessed.
 
     mock_state_cwa = MockWorkflowStateCWA(user_topic="ABMS",
                                           chapter_key=test_chapter_key,
