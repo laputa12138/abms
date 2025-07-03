@@ -415,7 +415,7 @@ if __name__ == '__main__':
             self.added_tasks_cwa = []
 
         def update_chapter_content(self, chapter_key: str, content: str,
-                                   retrieved_docs: Optional[List[Dict[str, Any]]] = None,
+                                   retrieved_docs: Optional[List[Dict[str, any]]] = None,
                                    is_new_version: bool = True):
             super().update_chapter_content(chapter_key, content, retrieved_docs, is_new_version)
             logger.debug(f"MockWorkflowStateCWA: Chapter '{chapter_key}' content updated.")
@@ -424,7 +424,7 @@ if __name__ == '__main__':
             super().update_chapter_status(chapter_key, status)
             logger.debug(f"MockWorkflowStateCWA: Chapter '{chapter_key}' status updated to {status}")
 
-        def add_task(self, task_type: str, payload: Optional[Dict[str, Any]] = None, priority: int = 0):
+        def add_task(self, task_type: str, payload: Optional[Dict[str, any]] = None, priority: int = 0):
             self.added_tasks_cwa.append({'type': task_type, 'payload': payload, 'priority': priority})
             super().add_task(task_type, payload, priority)
 
