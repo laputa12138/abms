@@ -53,11 +53,14 @@ class ReportGenerationPipeline:
                  cli_overridden_keyword_top_k: int = settings.DEFAULT_KEYWORD_SEARCH_TOP_K,
                  cli_overridden_hybrid_alpha: float = settings.DEFAULT_HYBRID_SEARCH_ALPHA,
                  cli_overridden_final_top_n_retrieval: int = settings.DEFAULT_RETRIEVAL_FINAL_TOP_N,
-                 cli_overridden_max_refinement_iterations: int = settings.DEFAULT_MAX_REFINEMENT_ITERATIONS
+                 cli_overridden_max_refinement_iterations: int = settings.DEFAULT_MAX_REFINEMENT_ITERATIONS,
+                 # New parameter for key terms
+                 key_terms_definitions: Optional[Dict[str, str]] = None
                 ):
 
         self.llm_service = llm_service
         self.embedding_service = embedding_service
+        self.key_terms_definitions = key_terms_definitions # Store for use in run()
         self.reranker_service = reranker_service
 
         # Store execution context parameters
@@ -274,10 +277,19 @@ class ReportGenerationPipeline:
         self._initialize_retrieval_and_orchestration_components()
 
 
-    def run(self, user_topic: str, data_path: str, report_title: Optional[str] = None) -> str:
+    def run(self, user_topic: str, data_path: str, report_title: Optional[str] = None,
+            # Allow key_terms_definitions to be passed at runtime as well, potentially overriding __init__
+            key_terms_definitions: Optional[Dict[str, str]] = None) -> str:
         self.workflow_state = WorkflowState(user_topic, report_title)
         # Pass max_refinement_iterations to workflow_state so agents (Evaluator) can access it
         self.workflow_state.set_flag('max_refinement_iterations', self.max_refinement_iterations)
+
+        # Prioritize runtime key_terms_definitions, then __init__ provided, then None
+        final_key_terms = key_terms_definitions if key_terms_definitions is not None else self.key_terms_definitions
+        if final_key_terms:
+            self.workflow_state.update_key_terms_definitions(final_key_terms)
+            self.workflow_state.log_event("Key terms definitions populated in WorkflowState.", {"source": "pipeline_input", "count": len(final_key_terms)})
+
         self.workflow_state.log_event("Pipeline run initiated.")
 
         try:
@@ -358,22 +370,43 @@ if __name__ == '__main__':
             index_name="pipeline_test_index",
             force_reindex=True, # Force reindex for consistent test runs
             max_refinement_iterations=0, # No refinement for this test
-            max_workflow_iterations=30 # Generous limit for test
+            max_workflow_iterations=30, # Generous limit for test
+            key_terms_definitions={"CLI_TERM": "Command Line Interface Term, provided at init."} # Test __init__ propagation
         )
 
         # Set log file path in workflow_state for the error message, if needed by main.py setup
         # In a real run, main.py's setup_logging would handle this.
         # For this test, we can simulate it.
-        if pipeline.workflow_state: # Should be created by pipeline.run()
-             pipeline.workflow_state.set_flag('log_file_path', './logs/test_pipeline_run.log')
+        # Note: workflow_state is created inside pipeline.run(), so this log path setting might be tricky here.
+        # It's better if main.py or the test runner sets up logging that WorkflowState can use.
+        # For this specific test, we'll rely on the default logging.
 
+        mock_runtime_key_terms = {
+            "ADTC": "Advanced Data Transmission and Control technology.",
+            "RUNTIME_TERM": "Term provided at pipeline.run() call."
+        }
 
         final_report = pipeline.run(
             user_topic="Comprehensive Test of Pipeline with Orchestrator",
-            data_path=dummy_data_dir_pipe
+            data_path=dummy_data_dir_pipe,
+            report_title="Test Report on Pipeline Orchestration",
+            key_terms_definitions=mock_runtime_key_terms # Test runtime override/provision
         )
         print("\n" + "="*30 + " FINAL REPORT (Mocked - Pipeline with Orchestrator) " + "="*30)
         print(final_report)
+
+        # Check if key terms were correctly set in workflow_state (runtime should override init)
+        # This requires pipeline.workflow_state to be accessible after run()
+        if pipeline.workflow_state:
+            final_ws_key_terms = pipeline.workflow_state.get_key_terms_definitions()
+            print(f"\nKey terms in WorkflowState after run: {final_ws_key_terms}")
+            assert final_ws_key_terms is not None
+            assert "ADTC" in final_ws_key_terms
+            assert "RUNTIME_TERM" in final_ws_key_terms
+            assert "CLI_TERM" not in final_ws_key_terms # Because runtime arg should take precedence
+        else:
+            print("\nWorkflowState not accessible post-run for key term check.")
+
         print("="*80)
 
         # Verify index files were created

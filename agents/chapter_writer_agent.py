@@ -119,9 +119,19 @@ class ChapterWriterAgent(BaseAgent):
             if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
             raise ChapterWriterAgentError(err_msg)
 
+        # Get global context from workflow_state
+        report_global_theme = workflow_state.get_report_global_theme() or "未提供全局主题"
+        key_terms_definitions_dict = workflow_state.get_key_terms_definitions() or {}
+
+        key_terms_definitions_formatted = "\n".join(
+            [f"- {term}: {definition}" for term, definition in key_terms_definitions_dict.items()]
+        )
+        if not key_terms_definitions_formatted:
+            key_terms_definitions_formatted = "未提供关键术语定义"
+
         all_retrieved_docs = chapter_data.get('retrieved_docs', [])
         logger.info(f"[{self.agent_name}] Task ID: {task_id} - Chapter: '{chapter_title}'. Initial retrieved docs count: {len(all_retrieved_docs)}")
-        self._log_input(chapter_title=chapter_title, initial_retrieved_docs_count=len(all_retrieved_docs))
+        self._log_input(chapter_title=chapter_title, initial_retrieved_docs_count=len(all_retrieved_docs), report_global_theme=report_global_theme, key_terms_definitions=key_terms_definitions_dict)
 
         # 1. LLM Relevance Check for each document
         relevant_docs_for_generation = []
@@ -164,10 +174,18 @@ class ChapterWriterAgent(BaseAgent):
                 # The _format_single_snippet_for_llm is very simple now, directly passing single_doc_text to prompt.
                 # formatted_snippet = self._format_single_snippet_for_llm(single_doc_text)
 
-                snippet_writer_prompt = self.single_snippet_writer_prompt_template.format(
-                    chapter_title=chapter_title,
-                    single_document_snippet=single_doc_text
-                )
+                try:
+                    snippet_writer_prompt = self.single_snippet_writer_prompt_template.format(
+                        report_global_theme=report_global_theme,
+                        key_terms_definitions_formatted=key_terms_definitions_formatted,
+                        chapter_title=chapter_title,
+                        single_document_snippet=single_doc_text
+                    )
+                except KeyError as e:
+                    logger.error(f"KeyError formatting snippet_writer_prompt: {e}. This might indicate missing keys in the prompt template. Using fallback prompt structure.")
+                    # Fallback if the new keys are not in the template (e.g. old template still in use)
+                    snippet_writer_prompt = f"章节标题：\n{chapter_title}\n\n单一段落参考资料：\n\"\"\"\n{single_doc_text}\n\"\"\"\n\n请撰写内容。"
+
 
                 try:
                     logger.debug(f"Generating text for snippet {i+1}/{len(relevant_docs_for_generation)} of chapter '{chapter_title}'. Snippet source: {doc.get('source_document_name', 'unknown')}")
@@ -220,7 +238,13 @@ class ChapterWriterAgent(BaseAgent):
         # --- Actual Integration Step ---
         try:
             logger.info(f"Proceeding to content integration for chapter '{chapter_title}'.")
-            final_integrated_content = self._integrate_chapter_content(chapter_title, content_blocks)
+            # Pass global context to integration step
+            final_integrated_content = self._integrate_chapter_content(
+                chapter_title=chapter_title,
+                content_blocks=content_blocks,
+                report_global_theme=report_global_theme,
+                key_terms_definitions_formatted=key_terms_definitions_formatted
+            )
 
             # Update WorkflowState with the integrated content
             workflow_state.update_chapter_content(
@@ -259,10 +283,14 @@ class ChapterWriterAgent(BaseAgent):
             # For now, re-raise to signal a problem with the agent's execution itself.
             raise ChapterWriterAgentError(err_msg) from e_integration_final
 
-    def _integrate_chapter_content(self, chapter_title: str, content_blocks: List[Dict[str, str]]) -> str:
+    def _integrate_chapter_content(self,
+                                   chapter_title: str,
+                                   content_blocks: List[Dict[str, str]],
+                                   report_global_theme: str,
+                                   key_terms_definitions_formatted: str) -> str:
         """
         Integrates multiple preliminary content blocks (each with its citation) into a single,
-        coherent chapter using an LLM.
+        coherent chapter using an LLM, incorporating global theme and key terms.
         """
         if not content_blocks:
             logger.warning(f"No content blocks provided for integration for chapter '{chapter_title}'. Returning placeholder content.")
@@ -280,10 +308,18 @@ class ChapterWriterAgent(BaseAgent):
             formatted_blocks_for_integration += f"内容：\n{block_text.strip()}\n" # Ensure text is stripped
             formatted_blocks_for_integration += f"溯源：{block_citation.strip()}\n---\n\n" # Ensure citation is stripped
 
-        integration_prompt_str = self.integration_prompt_template.format(
-            chapter_title=chapter_title,
-            preliminary_content_blocks_formatted=formatted_blocks_for_integration.strip()
-        )
+        try:
+            integration_prompt_str = self.integration_prompt_template.format(
+                report_global_theme=report_global_theme,
+                key_terms_definitions_formatted=key_terms_definitions_formatted,
+                chapter_title=chapter_title,
+                preliminary_content_blocks_formatted=formatted_blocks_for_integration.strip()
+            )
+        except KeyError as e:
+            logger.error(f"KeyError formatting integration_prompt_str: {e}. This might indicate missing keys in the prompt template. Using fallback prompt structure.")
+            # Fallback if the new keys are not in the template
+            integration_prompt_str = f"章节标题：\n{chapter_title}\n\n待整合的文本块列表：\n---\n{formatted_blocks_for_integration.strip()}\n---\n请整合内容。"
+
 
         try:
             logger.info(f"Sending {len(content_blocks)} content blocks to LLM for integration for chapter '{chapter_title}'. Prompt length: {len(integration_prompt_str)}")
@@ -329,24 +365,29 @@ if __name__ == '__main__':
         def __init__(self):
             self.snippet_call_count = 0
             self.integration_call_count = 0
+            self.last_snippet_query = None # To store the actual query for snippet generation
             self.last_integration_query = None # Store the last query received by integration
 
         def chat(self, query: str, system_prompt: str) -> str:
-            # Check if it's a snippet generation prompt
-            # This relies on keywords from DEFAULT_SINGLE_SNIPPET_WRITER_PROMPT
-            if "单一段落参考资料" in query and "围绕该参考资料撰写一段相关的中文描述性内容" in system_prompt:
+            # Updated check for snippet generation prompt
+            if "专业的报告撰写员" in system_prompt and "单一段落参考资料" in query:
                 self.snippet_call_count += 1
-                # Extract snippet text for more specific mock if needed, or just return generic
-                # For simplicity, let's assume snippet text is after "单一段落参考资料：\n\"\"\"\n"
+                self.last_snippet_query = query # Store the actual query
                 try:
-                    snippet_content = query.split("单一段落参考资料：\n\"\"\"\n")[1].split("\n\"\"\"")[0]
-                    return f"基于片段“{snippet_content[:20]}...”的生成内容 (片段{self.snippet_call_count})"
-                except IndexError:
-                    return f"通用片段生成内容 (片段{self.snippet_call_count})"
+                    # This parsing is simplified and assumes the snippet is the last major block.
+                    # A more robust test might need to parse based on the known prompt structure.
+                    parts = query.split("单一段落参考资料：\n\"\"\"\n")
+                    if len(parts) > 1:
+                        snippet_content = parts[1].split("\n\"\"\"")[0]
+                        return f"基于片段“{snippet_content[:20]}...”的生成内容 (片段{self.snippet_call_count})"
+                    else: # Fallback if the specific split fails
+                        return f"通用片段生成内容（无法提取片段） (片段{self.snippet_call_count})"
+                except Exception as e: # Catch any parsing error
+                    logger.error(f"MockLLMService snippet parsing error: {e} in query: {query[:200]}")
+                    return f"通用片段生成内容（解析错误） (片段{self.snippet_call_count})"
 
-            # Check if it's an integration prompt
-            # This relies on keywords from DEFAULT_CHAPTER_INTEGRATION_PROMPT
-            elif "待整合的文本块列表" in query and "整合成一篇连贯、流畅、结构清晰的完整中文章节" in system_prompt:
+            # Updated check for integration prompt
+            elif "高级报告编辑" in system_prompt and "待整合的文本块列表" in query:
                 self.integration_call_count += 1
                 self.last_integration_query = query # Store the received query
                 # The query for integration will contain all generated snippets and their citations
@@ -404,7 +445,8 @@ if __name__ == '__main__':
     from core.workflow_state import WorkflowState, TASK_TYPE_EVALUATE_CHAPTER, STATUS_EVALUATION_NEEDED, STATUS_WRITING_NEEDED
 
     class MockWorkflowStateCWA(WorkflowState): # CWA for ChapterWriterAgent
-        def __init__(self, user_topic: str, chapter_key: str, chapter_title: str, retrieved_docs: List):
+        def __init__(self, user_topic: str, chapter_key: str, chapter_title: str, retrieved_docs: List,
+                     global_theme: Optional[str] = None, key_terms: Optional[Dict[str, str]] = None): # Added global_theme and key_terms
             super().__init__(user_topic)
             # Pre-populate chapter data as if retrieval was done
             self.chapter_data[chapter_key] = {
@@ -413,6 +455,12 @@ if __name__ == '__main__':
                 'evaluations': [], 'versions': [], 'errors': []
             }
             self.added_tasks_cwa = []
+            # Set global theme and key terms for the mock state
+            if global_theme:
+                self.update_report_global_theme(global_theme)
+            if key_terms:
+                self.update_key_terms_definitions(key_terms)
+
 
         def update_chapter_content(self, chapter_key: str, content: str,
                                    retrieved_docs: Optional[List[Dict[str, any]]] = None,
@@ -450,14 +498,23 @@ if __name__ == '__main__':
         }
     ]
 
+    # Define mock global theme and key terms for testing
+    mock_global_theme = "探讨ABMS在现代军事行动中的核心作用及其对未来战争形态的影响。"
+    mock_key_terms = {
+        "ABMS": "Advanced Battle Management System - 先进作战管理系统，旨在连接战场上的各种传感器、平台和决策者。",
+        "JADC2": "Joint All-Domain Command and Control - 联合全域指挥与控制，是ABMS旨在实现的关键军事概念。"
+    }
+
     mock_state_cwa = MockWorkflowStateCWA(user_topic="ABMS",
                                           chapter_key=test_chapter_key,
                                           chapter_title=test_chapter_title,
-                                          retrieved_docs=mock_retrieved_data)
+                                          retrieved_docs=mock_retrieved_data,
+                                          global_theme=mock_global_theme, # Pass to mock state
+                                          key_terms=mock_key_terms)      # Pass to mock state
 
     task_payload_for_agent_cwa = {'chapter_key': test_chapter_key, 'chapter_title': test_chapter_title, 'priority': 5}
 
-    print(f"\nExecuting ChapterWriterAgent for chapter: '{test_chapter_title}' with MockWorkflowStateCWA (New Two-Stage Logic)")
+    print(f"\nExecuting ChapterWriterAgent for chapter: '{test_chapter_title}' with MockWorkflowStateCWA (New Two-Stage Logic with Global Context)")
     try:
         writer_agent.execute_task(mock_state_cwa, task_payload_for_agent_cwa)
 
@@ -505,8 +562,22 @@ if __name__ == '__main__':
         expected_integration_input_block2 = f"内容：\n{expected_content_part2}\n溯源：{expected_citation2}"
         assert expected_integration_input_block1 in llm_service_instance.last_integration_query
         assert expected_integration_input_block2 in llm_service_instance.last_integration_query
+        # Verify global context in integration prompt
+        assert mock_global_theme in llm_service_instance.last_integration_query
+        assert "ABMS: Advanced Battle Management System" in llm_service_instance.last_integration_query # Check one of the key terms
         print(f"Integration input check: Block 1 format correct: {expected_integration_input_block1 in llm_service_instance.last_integration_query}")
         print(f"Integration input check: Block 2 format correct: {expected_integration_input_block2 in llm_service_instance.last_integration_query}")
+        print(f"Integration input check: Global theme present: {mock_global_theme in llm_service_instance.last_integration_query}")
+        print(f"Integration input check: Key term present: {'ABMS: Advanced Battle Management System' in llm_service_instance.last_integration_query}")
+
+
+        # Verify global context in snippet prompt (checking the last one called)
+        assert llm_service_instance.last_snippet_query is not None
+        assert mock_global_theme in llm_service_instance.last_snippet_query
+        assert "JADC2: Joint All-Domain Command and Control" in llm_service_instance.last_snippet_query # Check the other key term
+        print(f"Snippet input check: Global theme present: {mock_global_theme in llm_service_instance.last_snippet_query}")
+        print(f"Snippet input check: Key term present: {'JADC2: Joint All-Domain Command and Control' in llm_service_instance.last_snippet_query}")
+
 
         print(f"Content check: Snippet 1 text found in final output: {expected_content_part1 in final_content}")
         print(f"Content check: Citation 1 found in final output: {expected_citation1 in final_content}")
@@ -518,10 +589,10 @@ if __name__ == '__main__':
         assert mock_state_cwa.added_tasks_cwa[0]['type'] == TASK_TYPE_EVALUATE_CHAPTER
         assert mock_state_cwa.added_tasks_cwa[0]['payload']['chapter_key'] == test_chapter_key
 
-        print("\nChapterWriterAgent test with new two-stage logic successful.")
+        print("\nChapterWriterAgent test with new two-stage logic and global context successful.")
 
     except Exception as e:
-        print(f"Error during ChapterWriterAgent test (New Two-Stage Logic): {e}")
+        print(f"Error during ChapterWriterAgent test (New Two-Stage Logic with Global Context): {e}")
         import traceback
         traceback.print_exc()
 

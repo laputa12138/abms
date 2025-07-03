@@ -20,14 +20,34 @@ class TopicAnalyzerAgent(BaseAgent):
     """
 
     # DEFAULT_PROMPT_TEMPLATE will be removed and sourced from settings
+    DEFAULT_SYSTEM_PROMPT = "你是一个高效的主题分析助手，能够准确理解用户主题，生成泛化主题、关键词，并对用户主题进行详细的阐述作为报告的全局背景。"
+    DEFAULT_PROMPT_TEMPLATE_WITH_THEME_GENERATION = """请分析以下用户提供的主题，并严格按照以下JSON格式返回结果。
+用户主题：'{user_topic}'
 
-    def __init__(self, llm_service: LLMService, prompt_template: Optional[str] = None):
+JSON输出格式：
+{{
+  "generalized_topic_cn": "对用户主题进行泛化后的中文主题表述",
+  "generalized_topic_en": "Generalized English Topic based on user_topic",
+  "keywords_cn": ["中文关键词1", "中文关键词2", "中文关键词3"],
+  "keywords_en": ["English Keyword1", "English Keyword2", "English Keyword3"],
+  "report_global_theme_elaboration": "针对'{user_topic}'的详细阐述，作为整个报告的全局背景和核心思想。这段阐述应至少50字，力求全面、深刻，为后续章节的撰写提供明确的方向。"
+}}
+"""
+
+    def __init__(self, llm_service: LLMService, prompt_template: Optional[str] = None, system_prompt: Optional[str] = None):
         super().__init__(agent_name="TopicAnalyzerAgent", llm_service=llm_service)
         # Import settings here or ensure it's available if prompt_template is None
         from config import settings as app_settings # Use a different alias to avoid conflict if 'settings' is a var
-        self.prompt_template = prompt_template or app_settings.DEFAULT_TOPIC_ANALYZER_PROMPT
+        # Check if the old DEFAULT_TOPIC_ANALYZER_PROMPT is still in app_settings for backward compatibility or specific use cases
+        # For this change, we assume we want to use the new prompt that includes theme elaboration.
+        self.prompt_template = prompt_template or self.DEFAULT_PROMPT_TEMPLATE_WITH_THEME_GENERATION
+        self.system_prompt = system_prompt or self.DEFAULT_SYSTEM_PROMPT
+
         if not self.llm_service:
             raise TopicAnalyzerAgentError("LLMService is required for TopicAnalyzerAgent.")
+        if not self.prompt_template: # Should always be true now with internal default
+            raise TopicAnalyzerAgentError("Prompt template is required for TopicAnalyzerAgent.")
+
 
     def execute_task(self, workflow_state: WorkflowState, task_payload: Dict) -> None:
         """
@@ -60,8 +80,8 @@ class TopicAnalyzerAgent(BaseAgent):
         prompt = self.prompt_template.format(user_topic=user_topic)
 
         try:
-            logger.info(f"Sending request to LLM for topic analysis. User topic: '{user_topic}'")
-            raw_response = self.llm_service.chat(query=prompt, system_prompt="你是一个高效的主题分析助手。")
+            logger.info(f"Sending request to LLM for topic analysis. User topic: '{user_topic}' using system prompt: '{self.system_prompt}'")
+            raw_response = self.llm_service.chat(query=prompt, system_prompt=self.system_prompt)
             logger.debug(f"Raw LLM response for topic analysis: {raw_response}")
 
             try:
@@ -78,15 +98,37 @@ class TopicAnalyzerAgent(BaseAgent):
             except (json.JSONDecodeError, ValueError) as e: # json_repair can also raise ValueError
                 raise TopicAnalyzerAgentError(f"LLM response was not valid or repairable JSON: {raw_response}. Error: {e}")
 
-            required_keys = ["generalized_topic_cn", "generalized_topic_en", "keywords_cn", "keywords_en"]
-            if not all(key in parsed_response for key in required_keys):
-                raise TopicAnalyzerAgentError(f"LLM response missing required keys. Response: {parsed_response}")
+            # Updated required keys to include the new theme elaboration
+            required_keys = ["generalized_topic_cn", "generalized_topic_en", "keywords_cn", "keywords_en", "report_global_theme_elaboration"]
+            missing_keys = [key for key in required_keys if key not in parsed_response]
+            if missing_keys:
+                raise TopicAnalyzerAgentError(f"LLM response missing required keys: {', '.join(missing_keys)}. Response: {parsed_response}")
+
             if not isinstance(parsed_response.get("keywords_cn"), list) or \
                not isinstance(parsed_response.get("keywords_en"), list):
                 raise TopicAnalyzerAgentError(f"Keywords in LLM response are not lists. Response: {parsed_response}")
 
-            # Update WorkflowState
+            if not isinstance(parsed_response.get("report_global_theme_elaboration"), str) or \
+               not parsed_response.get("report_global_theme_elaboration").strip():
+                logger.warning(f"LLM response provided an empty or non-string report_global_theme_elaboration. Key present: {'report_global_theme_elaboration' in parsed_response}, Value: {parsed_response.get('report_global_theme_elaboration')}")
+                # Allow to proceed but log a warning. Downstream might use a default.
+                # Or, make this a hard fail:
+                # raise TopicAnalyzerAgentError(f"report_global_theme_elaboration is missing, empty or not a string. Response: {parsed_response}")
+
+
+            # Update WorkflowState with all analysis results
             workflow_state.update_topic_analysis(parsed_response)
+
+            # Specifically update the report_global_theme in workflow_state
+            theme_elaboration = parsed_response.get("report_global_theme_elaboration")
+            if theme_elaboration and isinstance(theme_elaboration, str) and theme_elaboration.strip():
+                workflow_state.update_report_global_theme(theme_elaboration)
+            else:
+                # Fallback or use a default if theme is crucial and missing
+                fallback_theme = f"基于用户主题“{user_topic}”的综合分析报告。"
+                workflow_state.update_report_global_theme(fallback_theme)
+                logger.warning(f"Using fallback global theme: {fallback_theme} due to missing/empty elaboration from LLM.")
+
 
             # Add next task: Generate Outline
             workflow_state.add_task(
@@ -123,10 +165,24 @@ if __name__ == '__main__':
     # Updated example for WorkflowState interaction
     logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s')
 
-    class MockLLMService: # Same mock as before
+    class MockLLMService:
         def chat(self, query: str, system_prompt: str) -> str:
-            if "ABMS系统" in query: return json.dumps({"generalized_topic_cn": "先进战斗管理系统（ABMS）", "generalized_topic_en": "Advanced Battle Management System (ABMS)", "keywords_cn": ["ABMS", "JADC2"], "keywords_en": ["ABMS", "JADC2"]})
-            return json.dumps({"generalized_topic_cn": "模拟主题", "generalized_topic_en": "Mock Topic", "keywords_cn": ["关键词1"], "keywords_en": ["Keyword1"]})
+            # Updated mock response to include report_global_theme_elaboration
+            if "ABMS系统" in query:
+                return json.dumps({
+                    "generalized_topic_cn": "先进战斗管理系统（ABMS）",
+                    "generalized_topic_en": "Advanced Battle Management System (ABMS)",
+                    "keywords_cn": ["ABMS", "JADC2", "军事"],
+                    "keywords_en": ["ABMS", "JADC2", "military"],
+                    "report_global_theme_elaboration": "ABMS是美国空军开发的一套先进的战场管理和指挥控制系统，旨在连接各种传感器、武器和数据源，实现跨域作战的无缝协同。它对于提升态势感知能力、加速决策循环以及实现JADC2概念至关重要。"
+                })
+            return json.dumps({
+                "generalized_topic_cn": "模拟主题",
+                "generalized_topic_en": "Mock Topic",
+                "keywords_cn": ["关键词1"],
+                "keywords_en": ["Keyword1"],
+                "report_global_theme_elaboration": "这是一个关于模拟主题的详细阐述，旨在为报告提供全局背景和核心思想，确保内容连贯一致。"
+            })
 
     # Mock WorkflowState for testing the agent
     class MockWorkflowState(WorkflowState):
@@ -160,14 +216,16 @@ if __name__ == '__main__':
 
         print("\nWorkflowState after TopicAnalyzerAgent execution:")
         print(f"  Topic Analysis Results: {json.dumps(mock_state.topic_analysis_results, indent=2, ensure_ascii=False)}")
+        print(f"  Report Global Theme: {mock_state.get_report_global_theme()}") # Check the new theme
         print(f"  Tasks added by agent: {json.dumps(mock_state.added_tasks, indent=2, ensure_ascii=False)}")
 
         assert mock_state.topic_analysis_results is not None
         assert mock_state.topic_analysis_results['generalized_topic_cn'] == "先进战斗管理系统（ABMS）"
+        assert "ABMS是美国空军开发的一套先进的战场管理和指挥控制系统" in mock_state.get_report_global_theme() # Verify theme content
         assert len(mock_state.added_tasks) == 1
         assert mock_state.added_tasks[0]['type'] == TASK_TYPE_GENERATE_OUTLINE
         assert mock_state.added_tasks[0]['payload']['topic_details'] == mock_state.topic_analysis_results
-        print("\nTopicAnalyzerAgent test successful with MockWorkflowState.")
+        print("\nTopicAnalyzerAgent test successful with MockWorkflowState (including theme generation).")
 
     except Exception as e:
         print(f"Error during TopicAnalyzerAgent test: {e}")
