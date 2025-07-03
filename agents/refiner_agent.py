@@ -1,5 +1,6 @@
 import logging
 import json
+import json_repair
 from typing import Dict, Optional
 
 from agents.base_agent import BaseAgent
@@ -106,13 +107,43 @@ class RefinerAgent(BaseAgent):
             )
             logger.debug(f"Raw LLM response for refinement (first 200 chars): {refined_text[:200]}")
 
-            if not refined_text or not refined_text.strip():
-                logger.warning(f"LLM returned empty refined content for '{chapter_title}'. Keeping original.")
-                # If LLM returns empty, it implies no changes or failure. We keep original and re-evaluate.
-                # The evaluation can then decide if it's "complete" or needs another try/different action.
-                refined_text_to_store = original_content
+            refined_content_from_llm = None
+            modification_notes_from_llm = None
+
+            if refined_text and refined_text.strip():
+                try:
+                    # Attempt to parse the JSON response
+                    parsed_response = json_repair.loads(refined_text)
+                    refined_content_from_llm = parsed_response.get("refined_content")
+                    modification_notes_from_llm = parsed_response.get("modification_notes")
+
+                    if refined_content_from_llm:
+                        logger.info(f"Successfully parsed refined content for chapter '{chapter_title}'.")
+                        if modification_notes_from_llm:
+                            logger.info(f"Modification notes for '{chapter_title}': {modification_notes_from_llm}")
+                        else:
+                            logger.warning(f"No modification notes found in LLM response for '{chapter_title}'.")
+                    else:
+                        logger.warning(f"LLM response for '{chapter_title}' parsed, but 'refined_content' key is missing or empty. Raw response: {refined_text}")
+                        # Fallback to original content if 'refined_content' is missing
+                        refined_content_from_llm = None
+
+                except json.JSONDecodeError as e:
+                    logger.error(f"Failed to parse JSON response from LLM for chapter '{chapter_title}'. Error: {e}. Raw response: {refined_text}")
+                    # Fallback to original content if JSON parsing fails
+                    refined_content_from_llm = None
+                except Exception as e: # Catch any other unexpected errors during parsing
+                    logger.error(f"Unexpected error parsing LLM JSON response for chapter '{chapter_title}'. Error: {e}. Raw response: {refined_text}")
+                    refined_content_from_llm = None
             else:
-                refined_text_to_store = refined_text.strip()
+                logger.warning(f"LLM returned empty or whitespace-only response for '{chapter_title}'.")
+
+            # Determine what content to store
+            if refined_content_from_llm and refined_content_from_llm.strip():
+                refined_text_to_store = refined_content_from_llm.strip()
+            else:
+                logger.warning(f"Using original content for chapter '{chapter_title}' due to issues with LLM response or parsing.")
+                refined_text_to_store = original_content
 
             # Update WorkflowState with the refined content (as a new version)
             workflow_state.update_chapter_content(chapter_key, refined_text_to_store, is_new_version=True)
@@ -148,14 +179,43 @@ class RefinerAgent(BaseAgent):
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s')
 
-    class MockLLMService: # Same mock as before
-        def chat(self, query: str, system_prompt: str) -> str:
-            if "原始内容" in query and "评审反馈" in query:
-                original_content_part = query.split("原始内容：\n---\n")[1].split("\n---")[0]
-                return original_content_part + "\n\n[LLM Mock Refinement: 针对反馈进行了修改。]"
-            return "（模拟的LLM无法处理此refinement请求）"
+    class MockLLMService:
+        def __init__(self, response_type="valid"):
+            self.response_type = response_type
 
-    from core.workflow_state import WorkflowState, TASK_TYPE_EVALUATE_CHAPTER, STATUS_EVALUATION_NEEDED, STATUS_REFINEMENT_NEEDED
+        def chat(self, query: str, system_prompt: str) -> str:
+            original_content_part = "默认原始内容"
+            if "原始内容：\n---\n" in query:
+                try:
+                    original_content_part = query.split("原始内容：\n---\n")[1].split("\n---")[0].strip()
+                except IndexError:
+                    pass # Keep default if parsing fails
+
+            if self.response_type == "valid":
+                return json.dumps({
+                    "refined_content": f"{original_content_part}\n\n[LLM Mock Refinement: Valid JSON response. 针对反馈进行了修改。]",
+                    "modification_notes": "这是有效的修改说明。"
+                })
+            elif self.response_type == "missing_content":
+                return json.dumps({
+                    "modification_notes": "内容字段丢失的修改说明。"
+                })
+            elif self.response_type == "missing_notes":
+                return json.dumps({
+                    "refined_content": f"{original_content_part}\n\n[LLM Mock Refinement: Notes missing. 针对反馈进行了修改。]"
+                })
+            elif self.response_type == "invalid_json":
+                return "{'refined_content': 'bad json, not really', modification_notes: 'notes'}" # Malformed
+            elif self.response_type == "empty_string":
+                return ""
+            elif self.response_type == "empty_json": # Valid JSON but empty content
+                return json.dumps({
+                    "refined_content": " ",
+                    "modification_notes": "内容为空格的修改说明。"
+                })
+            return "（模拟的LLM无法处理此refinement请求 - 未知响应类型）"
+
+    from core.workflow_state import WorkflowState, TASK_TYPE_EVALUATE_CHAPTER, STATUS_EVALUATION_NEEDED, STATUS_REFINEMENT_NEEDED, List, Any # Added List, Any
 
     class MockWorkflowStateRA(WorkflowState): # RA for RefinerAgent
         def __init__(self, user_topic: str, chapter_key: str, chapter_title: str, original_content: str, latest_eval: Dict):
@@ -183,43 +243,67 @@ if __name__ == '__main__':
             super().add_task(task_type, payload, priority)
 
 
-    llm_service_instance = MockLLMService()
-    refiner_agent = RefinerAgent(llm_service=llm_service_instance)
-
-    test_chap_key_refine = "chap_to_refine"
-    test_chap_title_refine = "Chapter Being Refined"
     original_c = "This is the first draft. It has some issues."
     evaluation_f = {"score": 60, "feedback_cn": "Needs more examples and better flow.",
                     "evaluation_criteria_met": {"completeness": "不足"}}
+    test_chap_key_refine_base = "chap_to_refine"
+    test_chap_title_refine = "Chapter Being Refined"
 
-    mock_state_ra = MockWorkflowStateRA("Refinement Test", test_chap_key_refine, test_chap_title_refine, original_c, evaluation_f)
+    test_cases = [
+        ("valid", f"{original_c}\n\n[LLM Mock Refinement: Valid JSON response. 针对反馈进行了修改。]", True, "Valid JSON test successful."),
+        ("missing_content", original_c, False, "Missing 'refined_content' key test successful (fallback to original)."),
+        ("missing_notes", f"{original_c}\n\n[LLM Mock Refinement: Notes missing. 针对反馈进行了修改。]", True, "Missing 'modification_notes' key test successful."),
+        ("invalid_json", original_c, False, "Invalid JSON test successful (fallback to original)."),
+        ("empty_string", original_c, False, "Empty string response test successful (fallback to original)."),
+        ("empty_json", original_c, False, "Empty 'refined_content' in JSON test successful (fallback to original).")
+    ]
 
-    task_payload_for_agent_ra = {'chapter_key': test_chap_key_refine, 'chapter_title': test_chap_title_refine}
+    for i, (response_type, expected_content_part, expect_refined, success_message) in enumerate(test_cases):
+        print(f"\n--- Test Case {i+1}: response_type = '{response_type}' ---")
 
-    print(f"\nExecuting RefinerAgent for chapter: '{test_chap_title_refine}' with MockWorkflowStateRA")
-    try:
-        refiner_agent.execute_task(mock_state_ra, task_payload_for_agent_ra)
+        current_chap_key = f"{test_chap_key_refine_base}_{response_type}"
+        llm_service_instance = MockLLMService(response_type=response_type)
+        refiner_agent = RefinerAgent(llm_service=llm_service_instance)
 
-        print("\nWorkflowState after RefinerAgent execution:")
-        chapter_info = mock_state_ra.get_chapter_data(test_chap_key_refine)
-        if chapter_info:
-            print(f"  Chapter '{test_chap_key_refine}' Status: {chapter_info.get('status')}")
-            print(f"  Content Preview: {chapter_info.get('content', '')[:100]}...")
-            print(f"  Number of versions: {len(chapter_info.get('versions', []))}") # Should be 1 if original was saved
+        mock_state_ra = MockWorkflowStateRA(
+            f"Refinement Test - {response_type}",
+            current_chap_key,
+            test_chap_title_refine,
+            original_c,
+            evaluation_f
+        )
+        task_payload_for_agent_ra = {'chapter_key': current_chap_key, 'chapter_title': test_chap_title_refine}
 
-        print(f"  Tasks added by agent: {json.dumps(mock_state_ra.added_tasks_ra, indent=2, ensure_ascii=False)}")
+        print(f"Executing RefinerAgent for chapter: '{test_chap_title_refine}' (key: {current_chap_key})")
+        try:
+            refiner_agent.execute_task(mock_state_ra, task_payload_for_agent_ra)
 
-        assert chapter_info is not None
-        assert chapter_info.get('status') == STATUS_EVALUATION_NEEDED # Back to evaluation
-        assert "[LLM Mock Refinement: 针对反馈进行了修改。]" in chapter_info.get('content', '')
-        assert len(mock_state_ra.added_tasks_ra) == 1
-        assert mock_state_ra.added_tasks_ra[0]['type'] == TASK_TYPE_EVALUATE_CHAPTER
+            chapter_info = mock_state_ra.get_chapter_data(current_chap_key)
+            assert chapter_info is not None, "Chapter info should exist"
 
-        print("\nRefinerAgent test successful with MockWorkflowStateRA.")
+            print(f"  Content after refinement: '{chapter_info.get('content', '')[:150]}...'")
+            print(f"  Status: {chapter_info.get('status')}")
+            print(f"  Versions: {len(chapter_info.get('versions', []))}")
 
-    except Exception as e:
-        print(f"Error during RefinerAgent test: {e}")
-        import traceback
-        traceback.print_exc()
+            assert chapter_info.get('status') == STATUS_EVALUATION_NEEDED, "Status should be STATUS_EVALUATION_NEEDED"
 
+            actual_content = chapter_info.get('content', '')
+            if expect_refined:
+                assert expected_content_part in actual_content, f"Expected refined content part '{expected_content_part}' not in '{actual_content}'"
+                assert actual_content != original_c, "Content should have been refined"
+            else:
+                assert actual_content == original_c, f"Expected original content, but got '{actual_content}'"
+
+            assert len(mock_state_ra.added_tasks_ra) == 1, "One task should be added for re-evaluation"
+            assert mock_state_ra.added_tasks_ra[0]['type'] == TASK_TYPE_EVALUATE_CHAPTER, "Task type should be TASK_TYPE_EVALUATE_CHAPTER"
+
+            print(f"  {success_message}")
+
+        except Exception as e:
+            print(f"Error during RefinerAgent test case '{response_type}': {e}")
+            import traceback
+            traceback.print_exc()
+            raise # Re-raise to fail the test run if any assertion fails
+
+    print("\nAll RefinerAgent test cases passed successfully.")
     print("\nRefinerAgent example finished.")
