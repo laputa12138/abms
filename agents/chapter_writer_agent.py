@@ -301,12 +301,15 @@ class ChapterWriterAgent(BaseAgent):
         formatted_blocks_for_integration = ""
         for i, block in enumerate(content_blocks):
             # Ensure text and citation are not None before stripping or formatting
-            block_text = block.get('generated_text', "")
-            block_citation = block.get('citation_string', "[溯源信息缺失]") # Default if citation is missing
+            block_text = block.get('generated_text', "").strip() # Strip here
+            block_citation = block.get('citation_string', "[溯源信息缺失]").strip() # Strip here
 
-            formatted_blocks_for_integration += f"文本块 {i+1}:\n"
-            formatted_blocks_for_integration += f"内容：\n{block_text.strip()}\n" # Ensure text is stripped
-            formatted_blocks_for_integration += f"溯源：{block_citation.strip()}\n---\n\n" # Ensure citation is stripped
+            # Combine text and citation for each block
+            # The citation should directly follow the text it refers to.
+            # Adding a space for readability if block_text is not empty.
+            combined_text_with_citation = f"{block_text} {block_citation}" if block_text else block_citation
+
+            formatted_blocks_for_integration += f"文本块 {i+1}:\n{combined_text_with_citation.strip()}\n---\n\n"
 
         try:
             integration_prompt_str = self.integration_prompt_template.format(
@@ -325,7 +328,7 @@ class ChapterWriterAgent(BaseAgent):
             logger.info(f"Sending {len(content_blocks)} content blocks to LLM for integration for chapter '{chapter_title}'. Prompt length: {len(integration_prompt_str)}")
             integrated_chapter_text = self.llm_service.chat(
                 query=integration_prompt_str,
-                system_prompt="你是一位高级报告编辑，负责将多个附带引用的文本块整合成连贯的章节内容，并完整保留所有原始引用信息。"
+                system_prompt="你是一位高级报告编辑。你的任务是将多个文本块整合成一个连贯的章节。每个文本块包含一段内容和其对应的引用标记。在整合时，你必须确保每个引用标记都紧跟在其对应的文本内容之后，或者以其他方式清晰地保持文本与其原始引用的直接关联。整合后的章节中，原始文本和其引用的配对关系必须清晰可见且准确无误。"
             )
 
             if not integrated_chapter_text or not integrated_chapter_text.strip():
@@ -407,39 +410,36 @@ if __name__ == '__main__':
                 # The content blocks in the query will look like:
                 # 文本块 1:\n内容：\n[generated_text]\n溯源：[citation_string]\n---\n\n文本块 2:...
 
-                # For a simple mock, let's just confirm it received blocks and combine them:
+                # For a simple mock, let's just confirm it received blocks and combine them.
                 if "文本块 1:" in query: # Check if there are blocks to integrate
-                    # This is a very basic mock of integration.
-                    # A real LLM would re-structure and make it flow.
-                    # The key is that the `query` to this integration call should contain the generated text + citations.
-                    # And the output should also contain them.
-                    # For example, if query contains "基于片段“父块1...”的生成内容 (片段1)\n[引用来源：source_doc_A.pdf...]"
-                    # the output should also reflect that.
-
-                    # Let's make the mock integration output slightly different to show it was processed.
-                    integrated_text = f"《{chapter_title_for_mock}》的整合内容：\n\n"
-
-                    # Simplistic way to extract and reformat blocks for the mock output
+                    # The input query now has blocks like: "文本块 1:\nGenerated text [citation]\n---\n\n"
+                    # The mock should reflect that the LLM tries to integrate these, keeping text and citation together.
+                    integrated_text = f"《{chapter_title_for_mock}》的整合章节内容：\n\n"
                     parts = query.split("文本块 ")[1:] # Split by "文本块 " and ignore first part
-                    for part_content_with_num in parts:
-                        # part_content_with_num will be like "1:\n内容：\ntext\n溯源：cite\n---\n\n"
-                        # We want to extract the "内容：\ntext\n溯源：cite" part
-                        try:
-                            actual_block_content = part_content_with_num.split(":\n", 1)[1].replace("\n---", "").strip()
-                            integrated_text += f"整合段落：\n{actual_block_content}\n\n"
-                        except IndexError:
-                            integrated_text += f"无法解析的文本块：{part_content_with_num[:50]}...\n\n"
 
+                    processed_blocks_for_mock = []
+                    for part_content_with_num in parts:
+                        # part_content_with_num will be like "1:\nActual text content [citation string]\n---\n\n"
+                        try:
+                            # Extract the content part after "N:\n" and before "\n---"
+                            actual_block_content_with_citation = part_content_with_num.split(":\n", 1)[1].replace("\n---", "").strip()
+                            # Simulate some light integration, e.g., by wrapping each block.
+                            # A real LLM would do more, but the key is to show the citation remains with its text.
+                            processed_blocks_for_mock.append(f"段落：{actual_block_content_with_citation}")
+                        except IndexError:
+                            processed_blocks_for_mock.append(f"无法解析的文本块（保留原始格式）：{part_content_with_num[:70]}...")
+
+                    integrated_text += "\n\n".join(processed_blocks_for_mock)
                     return integrated_text.strip()
                 else: # No blocks found in query
                     return f"《{chapter_title_for_mock}》的整合内容：(无初步文本块可供整合)"
 
             # Fallback for relevance check or other calls (if any)
-            elif "内容相关性判断助手" in system_prompt:
+            elif "内容相关性判断助手" in system_prompt: # Corrected system_prompt check
                  # Simulate relevance check - assume all relevant for simplicity in this test
                 return json.dumps({"is_relevant": True})
 
-            logger.warning(f"MockLLMService received unexpected query: {query[:200]}...")
+            logger.warning(f"MockLLMService received unexpected query type for system_prompt: '{system_prompt}'. Query: {query[:200]}...")
             return "通用模拟LLM响应（未知请求类型）。"
 
     from core.workflow_state import WorkflowState, TASK_TYPE_EVALUATE_CHAPTER, STATUS_EVALUATION_NEEDED, STATUS_WRITING_NEEDED
@@ -542,34 +542,47 @@ if __name__ == '__main__':
         # Expected citation 1: "[引用来源：source_doc_A.pdf。原文表述：父块1：ABMS是一个复杂的系统，具有多种功能...]"
         # Expected snippet 2 text: "基于片段“父块2：JADC2与ABMS紧密相...”的生成内容 (片段2)"
         # Expected citation 2: "[引用来源：source_doc_B.txt。原文表述：父块2：JADC2与ABMS紧密相关，是其关键组成部分...]"
-        # The mock integration output is "《ABMS系统概述》的整合内容：\n\n整合段落：\n[snippet1_text]\n[citation1_text]\n\n整合段落：\n[snippet2_text]\n[citation2_text]\n\n"
 
-        expected_content_part1 = "基于片段“父块1：ABMS是一个复杂的系统...”的生成内容 (片段1)"
-        expected_content_part2 = "基于片段“父块2：JADC2与ABMS紧密相...”的生成内容 (片段2)"
-        expected_citation1 = "[引用来源：source_doc_A.pdf。原文表述：父块1：ABMS是一个复杂的系统，具有多种功能...]"
-        expected_citation2 = "[引用来源：source_doc_B.txt。原文表述：父块2：JADC2与ABMS紧密相关，是其关键组成部分...]"
+        # New mock integration output format:
+        # "《Chapter Title》的整合章节内容：\n\n段落：[snippet1_text] [citation1_text]\n\n段落：[snippet2_text] [citation2_text]"
 
-        assert f"《{test_chapter_title}》的整合内容：" in final_content
-        assert expected_content_part1 in final_content
-        assert expected_citation1 in final_content
-        assert expected_content_part2 in final_content
-        assert expected_citation2 in final_content
+        expected_snippet_text1 = "基于片段“父块1：ABMS是一个复杂的系统...”的生成内容 (片段1)"
+        expected_citation1_str = "[引用来源：source_doc_A.pdf。原文表述：父块1：ABMS是一个复杂的系统，具有多种功能...]"
+        expected_combined_block1 = f"{expected_snippet_text1} {expected_citation1_str}"
+
+        expected_snippet_text2 = "基于片段“父块2：JADC2与ABMS紧密相...”的生成内容 (片段2)"
+        expected_citation2_str = "[引用来源：source_doc_B.txt。原文表述：父块2：JADC2与ABMS紧密相关，是其关键组成部分...]"
+        expected_combined_block2 = f"{expected_snippet_text2} {expected_citation2_str}"
+
+        assert f"《{test_chapter_title}》的整合章节内容：" in final_content
+        # Check for the combined blocks in the final output
+        assert f"段落：{expected_combined_block1}" in final_content
+        assert f"段落：{expected_combined_block2}" in final_content
+
+        print(f"Final content structure check: Title prefix present: {'《' + test_chapter_title + '》的整合章节内容：' in final_content}")
+        print(f"Final content check: Combined block 1 present as '段落：...': {f'段落：{expected_combined_block1}' in final_content}")
+        print(f"Final content check: Combined block 2 present as '段落：...': {f'段落：{expected_combined_block2}' in final_content}")
 
         # Verify the structure of the query sent to the integration LLM call
         assert llm_service_instance.last_integration_query is not None
-        # The formatting in _integrate_chapter_content is "文本块 {i+1}:\n内容：\n{block_text}\n溯源：{block_citation}\n---\n\n"
-        expected_integration_input_block1 = f"内容：\n{expected_content_part1}\n溯源：{expected_citation1}"
-        expected_integration_input_block2 = f"内容：\n{expected_content_part2}\n溯源：{expected_citation2}"
-        assert expected_integration_input_block1 in llm_service_instance.last_integration_query
-        assert expected_integration_input_block2 in llm_service_instance.last_integration_query
+        # The formatting in _integrate_chapter_content is now "文本块 {i+1}:\n{block_text} {block_citation}\n---\n\n"
+        # So, expected_combined_block1 and expected_combined_block2 should be directly in the query,
+        # prefixed by "文本块 N:\n" and suffixed by "\n---".
+
+        expected_integration_input_formatted_block1 = f"文本块 1:\n{expected_combined_block1}\n---"
+        expected_integration_input_formatted_block2 = f"文本块 2:\n{expected_combined_block2}\n---"
+
+        assert expected_integration_input_formatted_block1 in llm_service_instance.last_integration_query
+        assert expected_integration_input_formatted_block2 in llm_service_instance.last_integration_query
+
         # Verify global context in integration prompt
         assert mock_global_theme in llm_service_instance.last_integration_query
         assert "ABMS: Advanced Battle Management System" in llm_service_instance.last_integration_query # Check one of the key terms
-        print(f"Integration input check: Block 1 format correct: {expected_integration_input_block1 in llm_service_instance.last_integration_query}")
-        print(f"Integration input check: Block 2 format correct: {expected_integration_input_block2 in llm_service_instance.last_integration_query}")
+
+        print(f"Integration input format check: Formatted block 1 correct: {expected_integration_input_formatted_block1 in llm_service_instance.last_integration_query}")
+        print(f"Integration input format check: Formatted block 2 correct: {expected_integration_input_formatted_block2 in llm_service_instance.last_integration_query}")
         print(f"Integration input check: Global theme present: {mock_global_theme in llm_service_instance.last_integration_query}")
         print(f"Integration input check: Key term present: {'ABMS: Advanced Battle Management System' in llm_service_instance.last_integration_query}")
-
 
         # Verify global context in snippet prompt (checking the last one called)
         assert llm_service_instance.last_snippet_query is not None
@@ -577,13 +590,6 @@ if __name__ == '__main__':
         assert "JADC2: Joint All-Domain Command and Control" in llm_service_instance.last_snippet_query # Check the other key term
         print(f"Snippet input check: Global theme present: {mock_global_theme in llm_service_instance.last_snippet_query}")
         print(f"Snippet input check: Key term present: {'JADC2: Joint All-Domain Command and Control' in llm_service_instance.last_snippet_query}")
-
-
-        print(f"Content check: Snippet 1 text found in final output: {expected_content_part1 in final_content}")
-        print(f"Content check: Citation 1 found in final output: {expected_citation1 in final_content}")
-        print(f"Content check: Snippet 2 text found: {expected_content_part2 in final_content}")
-        print(f"Content check: Citation 2 found: {expected_citation2 in final_content}")
-
 
         assert len(mock_state_cwa.added_tasks_cwa) == 1
         assert mock_state_cwa.added_tasks_cwa[0]['type'] == TASK_TYPE_EVALUATE_CHAPTER
