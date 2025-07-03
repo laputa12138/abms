@@ -23,13 +23,19 @@ class ChapterWriterAgent(BaseAgent):
     """
 
     def __init__(self, llm_service: LLMService,
-                 writer_prompt_template: Optional[str] = None,
+                 single_snippet_writer_prompt_template: Optional[str] = None,
+                 integration_prompt_template: Optional[str] = None,
                  relevance_check_prompt_template: Optional[str] = None):
         super().__init__(agent_name="ChapterWriterAgent", llm_service=llm_service)
-        self.writer_prompt_template = writer_prompt_template or app_settings.DEFAULT_CHAPTER_WRITER_PROMPT
-        self.relevance_check_prompt_template = relevance_check_prompt_template or app_settings.DEFAULT_RELEVANCE_CHECK_PROMPT # Placeholder, will be added in settings.py
+        self.single_snippet_writer_prompt_template = single_snippet_writer_prompt_template or app_settings.DEFAULT_SINGLE_SNIPPET_WRITER_PROMPT
+        self.integration_prompt_template = integration_prompt_template or app_settings.DEFAULT_CHAPTER_INTEGRATION_PROMPT
+        self.relevance_check_prompt_template = relevance_check_prompt_template or app_settings.DEFAULT_RELEVANCE_CHECK_PROMPT
         if not self.llm_service:
             raise ChapterWriterAgentError("LLMService is required for ChapterWriterAgent.")
+        if not self.single_snippet_writer_prompt_template:
+            raise ChapterWriterAgentError("Single snippet writer prompt template is required.")
+        if not self.integration_prompt_template:
+            raise ChapterWriterAgentError("Integration prompt template is required.")
 
     def _is_document_relevant(self, chapter_title: str, document_text: str, document_id: str) -> bool:
         """
@@ -66,35 +72,30 @@ class ChapterWriterAgent(BaseAgent):
             logger.error(f"Unexpected error during relevance check for doc ID '{document_id}': {e}. Assuming not relevant.", exc_info=True)
             return False
 
-    def _format_content_for_generation(self, relevant_docs: List[Dict[str, any]]) -> str:
+    def _format_single_snippet_for_llm(self, single_doc_text: str) -> str:
         """
-        Formats the text of relevant documents for the main generation prompt.
+        Formats a single document snippet for the LLM.
+        Currently, this is straightforward, but can be expanded if needed.
         """
-        if not relevant_docs:
-            return "无相关参考资料提供。"
+        if not single_doc_text:
+            return "无有效参考资料片段。"
+        # The prompt itself will wrap this in triple quotes, so just return the text.
+        return single_doc_text
 
-        formatted_str = ""
-        for i, item in enumerate(relevant_docs):
-            doc_text = item.get('document', '无效的参考资料片段')
-            # Simple concatenation, no source info here for the LLM
-            formatted_str += f"参考资料片段 {i+1}:\n\"\"\"\n{doc_text}\n\"\"\"\n\n"
-        return formatted_str.strip()
-
-    def _generate_citations_string(self, used_documents: List[Dict[str, any]]) -> str:
+    def _generate_citations_string(self, used_document: Dict[str, any]) -> str: # Takes a single doc now
         """
-        Generates the citation string for all used documents.
+        Generates the citation string for a single used document.
         Format: [引用来源：{file_name}。原文表述：{source_text_of_parent}]
         """
-        if not used_documents:
+        if not used_document: # Check single document
             return ""
 
-        citations = []
-        for doc in used_documents:
-            file_name = doc.get('source_document_name', '未知文档') # Changed key
-            source_text_of_parent = doc.get('document', '无法获取原文') # 'document' holds parent_text
-            citations.append(f"[引用来源：{file_name}。原文表述：{source_text_of_parent}]")
+        # No loop needed as it's a single document
+        file_name = used_document.get('source_document_name', '未知文档')
+        source_text_of_parent = used_document.get('document', '无法获取原文') # 'document' holds parent_text
 
-        return "\n\n" + "\n".join(citations) if citations else ""
+        # Return a single citation string, a newline will be added by the caller if needed or by integration prompt
+        return f"[引用来源：{file_name}。原文表述：{source_text_of_parent}]"
 
 
     def execute_task(self, workflow_state: WorkflowState, task_payload: Dict) -> None:
@@ -146,39 +147,87 @@ class ChapterWriterAgent(BaseAgent):
         workflow_state.log_event(f"Relevance check complete for chapter '{chapter_title}'. Relevant docs: {len(relevant_docs_for_generation)}/{len(all_retrieved_docs)}",
                                  {"chapter_key": chapter_key, "relevant_count": len(relevant_docs_for_generation), "total_initial_count": len(all_retrieved_docs)})
 
+        # Initialize list to store content blocks
+        content_blocks: List[Dict[str, str]] = []
 
-        # 2. Content Generation using relevant documents
-        formatted_content_for_llm = self._format_content_for_generation(relevant_docs_for_generation)
-        writer_prompt = self.writer_prompt_template.format(
-            chapter_title=chapter_title,
-            retrieved_content_formatted=formatted_content_for_llm # This is now just text snippets
-        )
+        if not relevant_docs_for_generation:
+            logger.warning(f"No relevant documents found for chapter '{chapter_title}'. Integration step will handle this.")
+            # The integration step will later be responsible for creating a placeholder or empty chapter.
+        else:
+            logger.info(f"Generating content for chapter '{chapter_title}' snippet by snippet using {len(relevant_docs_for_generation)} relevant documents.")
+            for i, doc in enumerate(relevant_docs_for_generation):
+                single_doc_text = doc.get('document', '')
+                if not single_doc_text.strip():
+                    logger.warning(f"Skipping snippet generation for doc ID '{doc.get('parent_id', 'unknown')}' from source '{doc.get('source_document_name', 'unknown')}' due to empty content.")
+                    continue
 
+                # The _format_single_snippet_for_llm is very simple now, directly passing single_doc_text to prompt.
+                # formatted_snippet = self._format_single_snippet_for_llm(single_doc_text)
+
+                snippet_writer_prompt = self.single_snippet_writer_prompt_template.format(
+                    chapter_title=chapter_title,
+                    single_document_snippet=single_doc_text
+                )
+
+                try:
+                    logger.debug(f"Generating text for snippet {i+1}/{len(relevant_docs_for_generation)} of chapter '{chapter_title}'. Snippet source: {doc.get('source_document_name', 'unknown')}")
+                    preliminary_text = self.llm_service.chat(
+                        query=snippet_writer_prompt,
+                        system_prompt="你是一位专业的报告撰写员，请根据提供的单一段落参考资料撰写相关的描述性内容。"
+                    )
+
+                    if not preliminary_text or not preliminary_text.strip():
+                        logger.warning(f"LLM returned empty content for snippet from doc: {doc.get('source_document_name', 'unknown')} for chapter '{chapter_title}'. Using empty string.")
+                        preliminary_text = ""
+
+                    citation_for_snippet = self._generate_citations_string(doc)
+
+                    content_blocks.append({
+                        "generated_text": preliminary_text.strip(),
+                        "citation_string": citation_for_snippet
+                    })
+                    logger.debug(f"Generated content block for snippet {i+1}. Text length: {len(preliminary_text)}, Citation: {citation_for_snippet}")
+
+                except LLMServiceError as e:
+                    err_msg_snippet = f"LLM service failed while generating text for snippet from doc {doc.get('source_document_name', 'unknown')} in chapter '{chapter_title}': {e}"
+                    logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg_snippet}", exc_info=False) # Keep log less verbose for expected errors
+                    # Add a placeholder error block to content_blocks to signify failure for this part
+                    content_blocks.append({
+                        "generated_text": f"[系统提示：生成此部分内容时遇到LLM服务错误 - {e}]",
+                        "citation_string": self._generate_citations_string(doc) # Still cite the problematic source
+                    })
+                except Exception as e_snippet: # Catch any other unexpected error during snippet generation
+                    err_msg_snippet_unexpected = f"Unexpected error generating content for snippet from doc {doc.get('source_document_name', 'unknown')} in chapter '{chapter_title}': {e_snippet}"
+                    logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg_snippet_unexpected}", exc_info=True)
+                    content_blocks.append({
+                        "generated_text": f"[系统提示：生成此部分内容时发生意外错误 - {e_snippet}]",
+                        "citation_string": self._generate_citations_string(doc)
+                    })
+
+        # --- Integration Step (to be fully implemented in Plan Step 3) ---
+        # This section will call a new method like self._integrate_chapter_content(chapter_title, content_blocks)
+        # and use its result as final_chapter_text_with_citations.
+
+        # For now, as a temporary measure until integration is built,
+        # we will just log that snippet generation is done and prepare for integration.
+        # The actual update to WorkflowState with final content will happen *after* integration.
+
+        logger.info(f"[{self.agent_name}] Task ID: {task_id} - Preliminary content blocks generation phase complete for chapter '{chapter_title}'. {len(content_blocks)} blocks generated.")
+        if not content_blocks and relevant_docs_for_generation: # All snippet generations failed
+             workflow_state.add_chapter_error(chapter_key, "All snippet generation attempts failed.")
+             # Fall through to integration, which might produce an error chapter or empty.
+
+        # --- Actual Integration Step ---
         try:
-            logger.info(f"Sending request to LLM for chapter writing. Chapter: '{chapter_title}' (Key: {chapter_key}). Using {len(relevant_docs_for_generation)} relevant documents.")
-            generated_chapter_text = self.llm_service.chat(
-                query=writer_prompt,
-                system_prompt="你是一位精通特定领域知识的专业中文报告撰写者，擅长整合信息并清晰表达。请专注于根据提供的参考资料撰写内容，不要自行添加引用标记。"
-            )
-            logger.debug(f"Raw LLM response for chapter '{chapter_title}' (first 200 chars): {generated_chapter_text[:200]}")
+            logger.info(f"Proceeding to content integration for chapter '{chapter_title}'.")
+            final_integrated_content = self._integrate_chapter_content(chapter_title, content_blocks)
 
-            if not generated_chapter_text or not generated_chapter_text.strip():
-                logger.warning(f"LLM returned empty content for chapter: '{chapter_title}'.")
-                generated_chapter_text = "" # Ensure empty string
-
-            # 3. Programmatic Citation
-            # Citations are generated based on the documents that were *actually sent* to the LLM for generation.
-            # This assumes the LLM used (or had the chance to use) all `relevant_docs_for_generation`.
-            citations_string = self._generate_citations_string(relevant_docs_for_generation)
-            final_chapter_text_with_citations = generated_chapter_text.strip() + citations_string
-
-            # Update WorkflowState
-            # Store the list of documents that passed relevance check and were used for generation.
+            # Update WorkflowState with the integrated content
             workflow_state.update_chapter_content(
                 chapter_key,
-                final_chapter_text_with_citations,
-                retrieved_docs=relevant_docs_for_generation, # Store only the relevant (used) docs
-                is_new_version=False # First version
+                final_integrated_content,
+                retrieved_docs=relevant_docs_for_generation, # Store the list of docs that went into snippets
+                is_new_version=False
             )
             workflow_state.update_chapter_status(chapter_key, STATUS_EVALUATION_NEEDED)
 
@@ -186,37 +235,171 @@ class ChapterWriterAgent(BaseAgent):
             workflow_state.add_task(
                 task_type=TASK_TYPE_EVALUATE_CHAPTER,
                 payload={'chapter_key': chapter_key, 'chapter_title': chapter_title},
-                priority=task_payload.get('priority', 6) + 1
+                priority=task_payload.get('priority', 6) + 1 # Assuming priority system
             )
 
-            self._log_output({"chapter_key": chapter_key, "content_length": len(final_chapter_text_with_citations), "used_sources_count": len(relevant_docs_for_generation)})
-            success_msg = (f"Chapter writing successful for '{chapter_title}'. {len(relevant_docs_for_generation)} sources used. "
-                           f"Next task (Evaluate Chapter) added.")
+            self._log_output({
+                "chapter_key": chapter_key,
+                "content_length": len(final_integrated_content),
+                "used_sources_count": len(relevant_docs_for_generation),
+                "blocks_integrated": len(content_blocks)
+            })
+            success_msg = (f"Chapter '{chapter_title}' writing and integration successful. "
+                           f"{len(content_blocks)} blocks integrated. Next task (Evaluate Chapter) added.")
             logger.info(f"[{self.agent_name}] Task ID: {task_id} - {success_msg}")
             if task_id: workflow_state.complete_task(task_id, success_msg, status='success')
 
-        except LLMServiceError as e:
-            err_msg = f"LLM service failed for chapter '{chapter_title}': {e}"
-            workflow_state.log_event(f"LLM service error writing chapter '{chapter_title}'", {"error": str(e)}, level="ERROR")
-            workflow_state.add_chapter_error(chapter_key, f"LLM service error: {e}")
-            logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}", exc_info=True)
-            if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
-            raise ChapterWriterAgentError(err_msg)
-        except Exception as e:
-            err_msg = f"Unexpected error writing chapter '{chapter_title}': {e}"
-            workflow_state.log_event(f"Unexpected error in ChapterWriterAgent for '{chapter_title}'", {"error": str(e)}, level="CRITICAL")
-            workflow_state.add_chapter_error(chapter_key, f"Unexpected error: {e}")
+        except Exception as e_integration_final: # Catch any unexpected error from integration or workflow update
+            err_msg = f"Critical error during final integration or workflow update for chapter '{chapter_title}': {e_integration_final}"
+            workflow_state.log_event(err_msg, {"error": str(e_integration_final)}, level="CRITICAL")
+            workflow_state.add_chapter_error(chapter_key, f"Integration/Workflow critical error: {e_integration_final}")
             logger.critical(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}", exc_info=True)
             if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
-            raise ChapterWriterAgentError(err_msg)
+            # Depending on design, might re-raise or just let task be marked failed.
+            # For now, re-raise to signal a problem with the agent's execution itself.
+            raise ChapterWriterAgentError(err_msg) from e_integration_final
+
+    def _integrate_chapter_content(self, chapter_title: str, content_blocks: List[Dict[str, str]]) -> str:
+        """
+        Integrates multiple preliminary content blocks (each with its citation) into a single,
+        coherent chapter using an LLM.
+        """
+        if not content_blocks:
+            logger.warning(f"No content blocks provided for integration for chapter '{chapter_title}'. Returning placeholder content.")
+            # Return a specific message that can be identified by evaluators or compilers.
+            return "(本章节未能生成内容，因为没有相关的文本片段可供处理，或者所有片段处理均失败。)"
+
+        # Format the content blocks for the integration prompt
+        formatted_blocks_for_integration = ""
+        for i, block in enumerate(content_blocks):
+            # Ensure text and citation are not None before stripping or formatting
+            block_text = block.get('generated_text', "")
+            block_citation = block.get('citation_string', "[溯源信息缺失]") # Default if citation is missing
+
+            formatted_blocks_for_integration += f"文本块 {i+1}:\n"
+            formatted_blocks_for_integration += f"内容：\n{block_text.strip()}\n" # Ensure text is stripped
+            formatted_blocks_for_integration += f"溯源：{block_citation.strip()}\n---\n\n" # Ensure citation is stripped
+
+        integration_prompt_str = self.integration_prompt_template.format(
+            chapter_title=chapter_title,
+            preliminary_content_blocks_formatted=formatted_blocks_for_integration.strip()
+        )
+
+        try:
+            logger.info(f"Sending {len(content_blocks)} content blocks to LLM for integration for chapter '{chapter_title}'. Prompt length: {len(integration_prompt_str)}")
+            integrated_chapter_text = self.llm_service.chat(
+                query=integration_prompt_str,
+                system_prompt="你是一位高级报告编辑，负责将多个附带引用的文本块整合成连贯的章节内容，并完整保留所有原始引用信息。"
+            )
+
+            if not integrated_chapter_text or not integrated_chapter_text.strip():
+                logger.warning(f"LLM returned empty content during integration for chapter: '{chapter_title}'. "
+                               "Falling back to simple concatenation of content blocks.")
+                # Fallback: return a concatenation of blocks if integration fails to produce output.
+                # This ensures that at least the snippet-level work is not lost.
+                concatenated_fallback_parts = []
+                for block in content_blocks:
+                    concatenated_fallback_parts.append(f"{block.get('generated_text', '').strip()}\n{block.get('citation_string', '').strip()}")
+                return "\n\n".join(concatenated_fallback_parts).strip()
+
+            logger.info(f"LLM integration successful for chapter '{chapter_title}'. Output length: {len(integrated_chapter_text)}")
+            return integrated_chapter_text.strip()
+
+        except LLMServiceError as e:
+            logger.error(f"LLM service error during content integration for chapter '{chapter_title}': {e}", exc_info=True)
+            # Fallback: return a concatenation of blocks with an error message
+            error_intro = f"[系统提示：章节内容整合因LLM服务错误而失败 (错误详情: {e})。以下为基于各片段的初步生成内容，可能未完全整合：]\n\n"
+            concatenated_fallback_parts = []
+            for block in content_blocks:
+                 concatenated_fallback_parts.append(f"{block.get('generated_text', '').strip()}\n{block.get('citation_string', '').strip()}")
+            return error_intro + "\n\n".join(concatenated_fallback_parts).strip()
+        except Exception as e_integration:
+            logger.error(f"Unexpected error during content integration for chapter '{chapter_title}': {e_integration}", exc_info=True)
+            # Fallback for unexpected errors
+            error_intro = f"[系统提示：章节内容整合因发生意外错误而失败 (错误详情: {e_integration})。以下为基于各片段的初步生成内容，可能未完全整合：]\n\n"
+            concatenated_fallback_parts = []
+            for block in content_blocks:
+                concatenated_fallback_parts.append(f"{block.get('generated_text', '').strip()}\n{block.get('citation_string', '').strip()}")
+            return error_intro + "\n\n".join(concatenated_fallback_parts).strip()
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s')
 
-    class MockLLMService: # Same mock as before
+    class MockLLMService:
+        def __init__(self):
+            self.snippet_call_count = 0
+            self.integration_call_count = 0
+            self.last_integration_query = None # Store the last query received by integration
+
         def chat(self, query: str, system_prompt: str) -> str:
-            if "ABMS系统概述" in query: return "这是ABMS系统概述的初稿，基于提供的父块上下文。"
-            return "模拟生成的章节内容。"
+            # Check if it's a snippet generation prompt
+            # This relies on keywords from DEFAULT_SINGLE_SNIPPET_WRITER_PROMPT
+            if "单一段落参考资料" in query and "围绕该参考资料撰写一段相关的中文描述性内容" in system_prompt:
+                self.snippet_call_count += 1
+                # Extract snippet text for more specific mock if needed, or just return generic
+                # For simplicity, let's assume snippet text is after "单一段落参考资料：\n\"\"\"\n"
+                try:
+                    snippet_content = query.split("单一段落参考资料：\n\"\"\"\n")[1].split("\n\"\"\"")[0]
+                    return f"基于片段“{snippet_content[:20]}...”的生成内容 (片段{self.snippet_call_count})"
+                except IndexError:
+                    return f"通用片段生成内容 (片段{self.snippet_call_count})"
+
+            # Check if it's an integration prompt
+            # This relies on keywords from DEFAULT_CHAPTER_INTEGRATION_PROMPT
+            elif "待整合的文本块列表" in query and "整合成一篇连贯、流畅、结构清晰的完整中文章节" in system_prompt:
+                self.integration_call_count += 1
+                self.last_integration_query = query # Store the received query
+                # The query for integration will contain all generated snippets and their citations
+                # We can mock the integration by simply joining them with a header.
+                # A more sophisticated mock could try to rephrase or combine.
+                # For testing, we want to see if the input to this call is correctly formatted.
+
+                # Extract chapter title for the mock response
+                try:
+                    chapter_title_for_mock = query.split("章节标题：\n")[1].split("\n\n待整合的文本块列表：")[0]
+                except IndexError:
+                    chapter_title_for_mock = "未知章节"
+
+                # Simulate integration: prepend a title and append a footer, keeping original blocks.
+                # The actual LLM is expected to do a much better job of true integration.
+                # The prompt asks the LLM to preserve citations, so the mock should reflect that.
+                # The content blocks in the query will look like:
+                # 文本块 1:\n内容：\n[generated_text]\n溯源：[citation_string]\n---\n\n文本块 2:...
+
+                # For a simple mock, let's just confirm it received blocks and combine them:
+                if "文本块 1:" in query: # Check if there are blocks to integrate
+                    # This is a very basic mock of integration.
+                    # A real LLM would re-structure and make it flow.
+                    # The key is that the `query` to this integration call should contain the generated text + citations.
+                    # And the output should also contain them.
+                    # For example, if query contains "基于片段“父块1...”的生成内容 (片段1)\n[引用来源：source_doc_A.pdf...]"
+                    # the output should also reflect that.
+
+                    # Let's make the mock integration output slightly different to show it was processed.
+                    integrated_text = f"《{chapter_title_for_mock}》的整合内容：\n\n"
+
+                    # Simplistic way to extract and reformat blocks for the mock output
+                    parts = query.split("文本块 ")[1:] # Split by "文本块 " and ignore first part
+                    for part_content_with_num in parts:
+                        # part_content_with_num will be like "1:\n内容：\ntext\n溯源：cite\n---\n\n"
+                        # We want to extract the "内容：\ntext\n溯源：cite" part
+                        try:
+                            actual_block_content = part_content_with_num.split(":\n", 1)[1].replace("\n---", "").strip()
+                            integrated_text += f"整合段落：\n{actual_block_content}\n\n"
+                        except IndexError:
+                            integrated_text += f"无法解析的文本块：{part_content_with_num[:50]}...\n\n"
+
+                    return integrated_text.strip()
+                else: # No blocks found in query
+                    return f"《{chapter_title_for_mock}》的整合内容：(无初步文本块可供整合)"
+
+            # Fallback for relevance check or other calls (if any)
+            elif "内容相关性判断助手" in system_prompt:
+                 # Simulate relevance check - assume all relevant for simplicity in this test
+                return json.dumps({"is_relevant": True})
+
+            logger.warning(f"MockLLMService received unexpected query: {query[:200]}...")
+            return "通用模拟LLM响应（未知请求类型）。"
 
     from core.workflow_state import WorkflowState, TASK_TYPE_EVALUATE_CHAPTER, STATUS_EVALUATION_NEEDED, STATUS_WRITING_NEEDED
 
@@ -247,37 +430,34 @@ if __name__ == '__main__':
 
 
     llm_service_instance = MockLLMService()
+    # Pass the explicit prompt templates to ensure the agent uses them,
+    # or ensure the mock LLM can identify calls even with default templates.
+    # For this test, MockLLMService identifies calls by content keywords, so defaults in agent are fine.
     writer_agent = ChapterWriterAgent(llm_service=llm_service_instance)
 
     test_chapter_key = "chap_abms_overview"
     test_chapter_title = "ABMS系统概述"
     mock_retrieved_data = [
         {
-            "document": "父块1：ABMS是一个复杂的系统...", "score": 0.9, "retrieval_source": "hybrid",
+            "document": "父块1：ABMS是一个复杂的系统，具有多种功能...", "score": 0.9, "retrieval_source": "hybrid",
             "child_text_preview": "子块1预览...", "child_id": "p1c1", "parent_id": "p1",
-            "source_document_name": "source_doc_A.pdf" # Changed key
+            "source_document_name": "source_doc_A.pdf"
         },
         {
-            "document": "父块2：JADC2与ABMS的关系...", "score": 0.85, "retrieval_source": "hybrid",
+            "document": "父块2：JADC2与ABMS紧密相关，是其关键组成部分...", "score": 0.85, "retrieval_source": "hybrid",
             "child_text_preview": "子块2预览...", "child_id": "p2c1", "parent_id": "p2",
-            "source_document_name": "source_doc_B.txt" # Changed key
+            "source_document_name": "source_doc_B.txt"
         }
     ]
-
-    # The mock LLM doesn't use citations, so the output won't show them,
-    # but we are testing the logic that _would_ generate them.
-    # To see the generated citations in the test output, we'd have to modify MockLLMService
-    # or inspect the `citations_string` variable directly if we had access.
-    # For now, we confirm the `source_document_name` is correctly accessed.
 
     mock_state_cwa = MockWorkflowStateCWA(user_topic="ABMS",
                                           chapter_key=test_chapter_key,
                                           chapter_title=test_chapter_title,
                                           retrieved_docs=mock_retrieved_data)
 
-    task_payload_for_agent_cwa = {'chapter_key': test_chapter_key, 'chapter_title': test_chapter_title}
+    task_payload_for_agent_cwa = {'chapter_key': test_chapter_key, 'chapter_title': test_chapter_title, 'priority': 5}
 
-    print(f"\nExecuting ChapterWriterAgent for chapter: '{test_chapter_title}' with MockWorkflowStateCWA")
+    print(f"\nExecuting ChapterWriterAgent for chapter: '{test_chapter_title}' with MockWorkflowStateCWA (New Two-Stage Logic)")
     try:
         writer_agent.execute_task(mock_state_cwa, task_payload_for_agent_cwa)
 
@@ -285,22 +465,63 @@ if __name__ == '__main__':
         chapter_info = mock_state_cwa.get_chapter_data(test_chapter_key)
         if chapter_info:
             print(f"  Chapter '{test_chapter_key}' Status: {chapter_info.get('status')}")
-            print(f"  Content Preview: {chapter_info.get('content', '')[:100]}...")
-            print(f"  Retrieved Docs were used: {bool(chapter_info.get('retrieved_docs'))}")
+            final_content = chapter_info.get('content', '')
+            print(f"  Final Content:\n{final_content}\n") # Print full content for inspection
+            print(f"  Retrieved Docs were used (count): {len(chapter_info.get('retrieved_docs', []))}")
 
         print(f"  Tasks added by agent: {json.dumps(mock_state_cwa.added_tasks_cwa, indent=2, ensure_ascii=False)}")
 
         assert chapter_info is not None
         assert chapter_info.get('status') == STATUS_EVALUATION_NEEDED
-        assert chapter_info.get('content') == "这是ABMS系统概述的初稿，基于提供的父块上下文。" # From mock LLM
+
+        # Check if LLM mock was called for snippets and integration
+        assert llm_service_instance.snippet_call_count == len(mock_retrieved_data), \
+            f"Expected {len(mock_retrieved_data)} snippet calls, got {llm_service_instance.snippet_call_count}"
+        assert llm_service_instance.integration_call_count == 1, \
+            f"Expected 1 integration call, got {llm_service_instance.integration_call_count}"
+
+        # Check the content based on the new MockLLMService output
+        # Expected snippet 1 text: "基于片段“父块1：ABMS是一个复杂的系统...”的生成内容 (片段1)"
+        # Expected citation 1: "[引用来源：source_doc_A.pdf。原文表述：父块1：ABMS是一个复杂的系统，具有多种功能...]"
+        # Expected snippet 2 text: "基于片段“父块2：JADC2与ABMS紧密相...”的生成内容 (片段2)"
+        # Expected citation 2: "[引用来源：source_doc_B.txt。原文表述：父块2：JADC2与ABMS紧密相关，是其关键组成部分...]"
+        # The mock integration output is "《ABMS系统概述》的整合内容：\n\n整合段落：\n[snippet1_text]\n[citation1_text]\n\n整合段落：\n[snippet2_text]\n[citation2_text]\n\n"
+
+        expected_content_part1 = "基于片段“父块1：ABMS是一个复杂的系统...”的生成内容 (片段1)"
+        expected_content_part2 = "基于片段“父块2：JADC2与ABMS紧密相...”的生成内容 (片段2)"
+        expected_citation1 = "[引用来源：source_doc_A.pdf。原文表述：父块1：ABMS是一个复杂的系统，具有多种功能...]"
+        expected_citation2 = "[引用来源：source_doc_B.txt。原文表述：父块2：JADC2与ABMS紧密相关，是其关键组成部分...]"
+
+        assert f"《{test_chapter_title}》的整合内容：" in final_content
+        assert expected_content_part1 in final_content
+        assert expected_citation1 in final_content
+        assert expected_content_part2 in final_content
+        assert expected_citation2 in final_content
+
+        # Verify the structure of the query sent to the integration LLM call
+        assert llm_service_instance.last_integration_query is not None
+        # The formatting in _integrate_chapter_content is "文本块 {i+1}:\n内容：\n{block_text}\n溯源：{block_citation}\n---\n\n"
+        expected_integration_input_block1 = f"内容：\n{expected_content_part1}\n溯源：{expected_citation1}"
+        expected_integration_input_block2 = f"内容：\n{expected_content_part2}\n溯源：{expected_citation2}"
+        assert expected_integration_input_block1 in llm_service_instance.last_integration_query
+        assert expected_integration_input_block2 in llm_service_instance.last_integration_query
+        print(f"Integration input check: Block 1 format correct: {expected_integration_input_block1 in llm_service_instance.last_integration_query}")
+        print(f"Integration input check: Block 2 format correct: {expected_integration_input_block2 in llm_service_instance.last_integration_query}")
+
+        print(f"Content check: Snippet 1 text found in final output: {expected_content_part1 in final_content}")
+        print(f"Content check: Citation 1 found in final output: {expected_citation1 in final_content}")
+        print(f"Content check: Snippet 2 text found: {expected_content_part2 in final_content}")
+        print(f"Content check: Citation 2 found: {expected_citation2 in final_content}")
+
+
         assert len(mock_state_cwa.added_tasks_cwa) == 1
         assert mock_state_cwa.added_tasks_cwa[0]['type'] == TASK_TYPE_EVALUATE_CHAPTER
         assert mock_state_cwa.added_tasks_cwa[0]['payload']['chapter_key'] == test_chapter_key
 
-        print("\nChapterWriterAgent test successful with MockWorkflowStateCWA.")
+        print("\nChapterWriterAgent test with new two-stage logic successful.")
 
     except Exception as e:
-        print(f"Error during ChapterWriterAgent test: {e}")
+        print(f"Error during ChapterWriterAgent test (New Two-Stage Logic): {e}")
         import traceback
         traceback.print_exc()
 
