@@ -128,21 +128,46 @@ DEFAULT_OUTLINE_GENERATOR_PROMPT = """你是一个报告大纲撰写助手。请
 """
 
 # --- ChapterWriterAgent ---
-DEFAULT_CHAPTER_WRITER_PROMPT = """你是一位专业的报告撰写员。请根据以下报告章节标题和相关的参考资料，撰写详细、流畅、专业、连贯的中文章节内容。
+DEFAULT_SINGLE_SNIPPET_WRITER_PROMPT = """你是一位专业的报告撰写员。请根据以下报告章节标题和提供的**单一段落参考资料**，围绕该参考资料撰写一段相关的中文描述性内容。
 
 章节标题：
 {chapter_title}
 
-参考资料：
-{retrieved_content_formatted}
+单一段落参考资料：
+\"\"\"
+{single_document_snippet}
+\"\"\"
 
 撰写要求：
-1. 内容需与章节标题紧密相关，并充分、合理地利用提供的参考资料。
-2. 避免直接复制粘贴参考资料，而是要理解、整合信息，并用自己的话语有条理地表达出来。
-3. 请专注于根据提供的参考资料撰写章节内容。引用和溯源信息将由系统在后续步骤自动处理，你不需要在生成的内容中添加任何引用标记或来源说明。
-4. 输出的章节内容应具有良好的可读性和专业性。
+1. 生成的内容必须严格基于提供的单一段落参考资料，并与其主题紧密相关。
+2. 内容应当是对参考资料的阐述、总结或基于其信息的扩展。
+3. 避免直接复制粘贴参考资料的原文，请用自己的话语进行表述。
+4. 语句要通顺、专业。
+5. 输出的内容是针对此单一参考资料的描述，后续会进行整合。
 
-撰写的章节内容（纯文本，不需要包含章节标题本身）：
+撰写的段落内容（纯文本，不需要包含章节标题本身）：
+"""
+
+DEFAULT_CHAPTER_INTEGRATION_PROMPT = """你是一位高级报告编辑。你的任务是将以下多个独立生成的文本块（每个文本块都已经包含了其原始的引用溯源信息）整合成一篇连贯、流畅、结构清晰的完整中文章节。
+
+章节标题：
+{chapter_title}
+
+待整合的文本块列表：
+---
+{preliminary_content_blocks_formatted}
+---
+（注意：每个文本块末尾的 `[引用来源：...]` 是其溯源信息，必须完整保留在最终整合内容中，并紧随其对应的描述文字之后。）
+
+整合要求：
+1. **保持信息准确性**：确保每个初步文本块中的核心信息和观点在整合后的章节中得到准确的体现。
+2. **提升流畅性和连贯性**：消除各个文本块之间可能存在的重复内容，确保段落和句子之间的过渡自然平滑，逻辑清晰。
+3. **维持结构**：如果文本块的顺序暗示了某种逻辑结构，请尽量保持。你可以调整句子和段落结构以增强可读性。
+4. **完整保留溯源信息**：在整合过程中，每个文本块末尾附带的 `[引用来源：...]` 格式的溯源信息必须原封不动地保留，并且仍然清晰地对应于由该原始文本块生成的内容部分。不要修改或删除这些溯源标记。
+5. **统一风格**：确保最终输出的章节在语言风格和专业程度上保持一致。
+6. **专注于整合和润色**：不要添加原始文本块中未包含的新的事实信息或观点。
+
+整合后的完整章节内容（纯文本，不需要包含章节标题本身）：
 """
 
 # --- EvaluatorAgent ---
@@ -281,6 +306,7 @@ if __name__ == '__main__':
     print("\n--- Agent 默认 Prompt 模板 ---")
     print(f"DEFAULT_TOPIC_ANALYZER_PROMPT (first 50 chars): {DEFAULT_TOPIC_ANALYZER_PROMPT[:50]}...")
     print(f"DEFAULT_OUTLINE_GENERATOR_PROMPT (first 50 chars): {DEFAULT_OUTLINE_GENERATOR_PROMPT[:50]}...")
-    print(f"DEFAULT_CHAPTER_WRITER_PROMPT (first 50 chars): {DEFAULT_CHAPTER_WRITER_PROMPT[:50]}...")
+    print(f"DEFAULT_SINGLE_SNIPPET_WRITER_PROMPT (first 50 chars): {DEFAULT_SINGLE_SNIPPET_WRITER_PROMPT[:50]}...")
+    print(f"DEFAULT_CHAPTER_INTEGRATION_PROMPT (first 50 chars): {DEFAULT_CHAPTER_INTEGRATION_PROMPT[:50]}...")
     print(f"DEFAULT_EVALUATOR_PROMPT (first 50 chars): {DEFAULT_EVALUATOR_PROMPT[:50]}...")
     print(f"DEFAULT_REFINER_PROMPT (first 50 chars): {DEFAULT_REFINER_PROMPT[:50]}...")
