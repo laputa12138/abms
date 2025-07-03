@@ -39,6 +39,8 @@ class WorkflowState:
 
         self.user_topic: str = user_topic
         self.report_title: Optional[str] = report_title or f"关于“{user_topic}”的分析报告"
+        self.report_global_theme: Optional[str] = None # Added for global theme
+        self.key_terms_definitions: Optional[Dict[str, str]] = None # Added for key terms
 
         self.topic_analysis_results: Optional[Dict[str, Any]] = None
         self.current_outline_md: Optional[str] = None
@@ -72,7 +74,7 @@ class WorkflowState:
         self.error_count: int = 0
         self.current_processing_task_id: Optional[str] = None
 
-        self.log_event("WorkflowState initialized.", {"user_topic": user_topic, "report_title": self.report_title})
+        self.log_event("WorkflowState initialized.", {"user_topic": user_topic, "report_title": self.report_title, "workflow_id": self.workflow_id})
 
     def log_event(self, message: str, details: Optional[Dict[str, Any]] = None):
         timestamp = datetime.now()
@@ -460,12 +462,40 @@ class WorkflowState:
         """Gets the map of globally retrieved documents."""
         return self.global_retrieved_docs_map
 
+    def update_report_global_theme(self, theme: str):
+        """Updates the global theme/core idea of the report."""
+        self.report_global_theme = theme
+        self.log_event("Report global theme updated.", {"theme_preview": theme[:100]+"..."})
+
+    def get_report_global_theme(self) -> Optional[str]:
+        """Gets the global theme/core idea of the report."""
+        return self.report_global_theme
+
+    def update_key_terms_definitions(self, definitions: Dict[str, str]):
+        """Updates the definitions for key terms."""
+        self.key_terms_definitions = definitions
+        self.log_event("Key terms definitions updated.", {"terms_count": len(definitions)})
+
+    def get_key_terms_definitions(self) -> Optional[Dict[str, str]]:
+        """Gets the definitions for key terms."""
+        return self.key_terms_definitions
+
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG)
     logger.info("WorkflowState Example Start")
 
     state = WorkflowState(user_topic="AI in Education", report_title="The Impact of AI on Education")
+
+    # Test new methods for global theme and key terms
+    state.update_report_global_theme("This report explores the multifaceted impact of Artificial Intelligence on modern educational paradigms, focusing on personalized learning, administrative efficiency, and ethical considerations.")
+    state.update_key_terms_definitions({
+        "AI": "Artificial Intelligence - The theory and development of computer systems able to perform tasks normally requiring human intelligence.",
+        "ML": "Machine Learning - A subset of AI that provides systems the ability to automatically learn and improve from experience without being explicitly programmed."
+    })
+    print(f"\nReport Global Theme: {state.get_report_global_theme()}")
+    print(f"Key Terms Definitions: {json.dumps(state.get_key_terms_definitions(), indent=2, ensure_ascii=False)}")
+
 
     # Add initial task
     state.add_task(TASK_TYPE_ANALYZE_TOPIC, payload={"user_topic": state.user_topic}, priority=1)
