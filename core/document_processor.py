@@ -167,21 +167,21 @@ class DocumentProcessor:
 
     def split_text_into_parent_child_chunks(self,
                                             full_text: str,
-                                            source_document_id: str = None
+                                            source_document_name: str # Changed from source_document_id
                                            ) -> List[Dict[str, Any]]:
         """
         Splits text into parent chunks, and each parent chunk into child chunks.
 
         Args:
             full_text (str): The entire text content of a document.
-            source_document_id (str, optional): An identifier for the source document.
-                                                If None, a new UUID will be generated.
+            source_document_name (str): The name or path of the source document.
+                                        This will be used to identify the origin of the chunks.
 
         Returns:
             List[Dict[str, Any]]: A list of parent chunk dictionaries. Each dictionary has:
                 - 'parent_id': str (unique ID for the parent chunk)
                 - 'parent_text': str (text of the parent chunk)
-                - 'source_document_id': str (ID of the source document)
+                - 'source_document_name': str (name/path of the source document)
                 - 'children': List[Dict[str, Any]], where each child dict has:
                     - 'child_id': str (unique ID for the child chunk)
                     - 'child_text': str (text of the child chunk)
@@ -191,7 +191,12 @@ class DocumentProcessor:
             logger.warning("split_text_into_parent_child_chunks called with empty text.")
             return []
 
-        doc_id = source_document_id or str(uuid.uuid4())
+        # Use the provided source_document_name directly.
+        # We can extract a base name if needed for the parent_id prefix, or use it as is.
+        # For simplicity, let's use a hash or a cleaned version for ID generation if it's too long/complex,
+        # but store the original name.
+        doc_name_for_id = os.path.basename(source_document_name) # Use basename for cleaner IDs
+
         structured_chunks = []
 
         # 1. Split into Parent Chunks (e.g., by paragraphs or fixed size)
@@ -202,17 +207,17 @@ class DocumentProcessor:
             full_text, self.parent_chunk_size, self.parent_chunk_overlap
         )
 
-        logger.info(f"Document '{doc_id}' split into {len(parent_texts)} parent candidates.")
+        logger.info(f"Document '{source_document_name}' (using id base '{doc_name_for_id}') split into {len(parent_texts)} parent candidates.")
 
         for i, p_text in enumerate(parent_texts):
             if not p_text.strip():
                 continue
 
-            parent_id = f"{doc_id}-p{i+1}"
+            parent_id = f"{doc_name_for_id}-p{i+1}" # Use doc_name_for_id for the ID
             parent_chunk_data = {
                 "parent_id": parent_id,
                 "parent_text": p_text,
-                "source_document_id": doc_id,
+                "source_document_name": source_document_name, # Store the original name
                 "children": []
             }
 
@@ -268,7 +273,7 @@ class DocumentProcessor:
                 logger.warning(f"Parent chunk '{parent_id}' produced no valid child chunks. Skipping this parent.")
 
 
-        logger.info(f"Document '{doc_id}' processed into {len(structured_chunks)} parent chunks with children.")
+        logger.info(f"Document '{source_document_name}' processed into {len(structured_chunks)} parent chunks with children.")
         return structured_chunks
 
 
@@ -357,13 +362,13 @@ if __name__ == '__main__':
                                                            child_chunk_size=30, child_chunk_overlap=5)
 
                 parent_child_chunks = processor_small_chunks.split_text_into_parent_child_chunks(
-                    text_content, source_document_id=f"doc_{file_type}"
+                    text_content, source_document_name=path # Pass the file path as the name
                 )
 
                 print(f"Generated {len(parent_child_chunks)} parent chunks.")
                 for i, parent_data in enumerate(parent_child_chunks):
                     print(f"  Parent {i+1} (ID: {parent_data['parent_id']}): '{parent_data['parent_text'][:50]}...'")
-                    print(f"    Source Doc ID: {parent_data['source_document_id']}")
+                    print(f"    Source Doc Name: {parent_data['source_document_name']}") # Updated key
                     print(f"    Contains {len(parent_data['children'])} child chunks:")
                     for j, child_data in enumerate(parent_data['children']):
                         print(f"      Child {j+1} (ID: {child_data['child_id']}): '{child_data['child_text'][:40]}...'")
