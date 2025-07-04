@@ -332,3 +332,57 @@ if __name__ == '__main__':
     print(f"DEFAULT_CHAPTER_INTEGRATION_PROMPT (first 50 chars): {DEFAULT_CHAPTER_INTEGRATION_PROMPT[:50]}...")
     print(f"DEFAULT_EVALUATOR_PROMPT (first 50 chars): {DEFAULT_EVALUATOR_PROMPT[:50]}...")
     print(f"DEFAULT_REFINER_PROMPT (first 50 chars): {DEFAULT_REFINER_PROMPT[:50]}...")
+
+# --- OutlineRefinementAgent ---
+DEFAULT_OUTLINE_REFINEMENT_PROMPT_CN = """\
+你是大纲评审和优化专家。你的任务是审查所提供的报告大纲，并提出具体的改进建议。
+报告主题：{topic_description}
+
+当前大纲 (Markdown 格式):
+---
+{current_outline_md}
+---
+
+当前大纲 (解析后的结构及ID):
+---
+{parsed_outline_json}
+---
+
+全局检索信息 (基于章节标题的初步上下文):
+---
+{global_retrieved_info_summary}
+---
+
+请根据当前大纲和全局检索信息，提出优化建议，使大纲在逻辑性、全面性、连贯性和结构性方面更佳。
+请关注：
+- 检索到的信息是否暗示了缺失的子主题或新的相关章节。
+- 是否有章节看起来缺乏足够的支撑信息，可能表明它们过于专门或可以合并。
+- 不同章节的信息是否高度重叠，可能表明需要合并或重组。
+
+考虑以下类型的更改：
+- 增加新的章节或子章节，尤其是在检索内容暗示信息缺失的地方。
+- 删除冗余、不相关或过于细化的章节或子章节。
+- 修改章节或子章节的标题，使其更清晰、简洁或更具影响力。
+- 重新排序章节或子章节，以获得更好的流程和逻辑进展。
+- 合并过于相似或内容重叠的章节。
+-拆分过于宽泛或涵盖多个不同主题的章节。
+- 调整章节的级别（缩进）以实现正确的层级结构。
+
+约束条件 (如有):
+- 最大章节数: {max_chapters}
+- 最少章节数: {min_chapters}
+
+请以 JSON 操作列表的形式提供你的建议。每个操作都应该是一个包含 "action" 键和其他必要键的对象。
+支持的操作及其格式:
+1.  `{{ "action": "add", "title": "新章节标题", "level": <层级编号>, "after_id": "<在此ID之后的章节ID或null>" }}` (如果 after_id 为 null, 则附加到该层级末尾或整个大纲末尾)
+2.  `{{ "action": "delete", "id": "<要删除的章节ID>" }}`
+3.  `{{ "action": "modify_title", "id": "<要修改的章节ID>", "new_title": "修改后的标题" }}`
+4.  `{{ "action": "modify_level", "id": "<要修改的章节ID>", "new_level": <新层级编号> }}`
+5.  `{{ "action": "move", "id": "<要移动的章节ID>", "after_id": "<移动到此ID之后的章节ID或null>" }}` (如果 after_id 为 null, 则移动到其层级开头或整个大纲开头)
+6.  `{{ "action": "merge", "primary_id": "<合并目标章节ID>", "secondary_id": "<被合并并删除的章节ID>", "new_title_for_primary": "可选的新标题" }}`
+7.  `{{ "action": "split", "id": "<要拆分的章节ID>", "new_chapters": [{{ "title": "部分1", "level": <层级编号> }}, {{ "title": "部分2", "level": <层级编号> }}] }}` (ID为'id'的原始章节将被删除, 新章节将获得新ID)
+
+如果不需要优化，请返回一个空的 JSON 列表: `[]`。
+
+建议优化的 JSON 输出:
+"""

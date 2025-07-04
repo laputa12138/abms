@@ -165,7 +165,8 @@ class WorkflowState:
                 'retrieved_docs': existing_data.get('retrieved_docs'),
                 'evaluations': existing_data.get('evaluations', []),
                 'versions': existing_data.get('versions', []),
-                'errors': existing_data.get('errors', [])
+                'errors': existing_data.get('errors', []),
+                'citations_structured': existing_data.get('citations_structured', []) # New field for structured citations
             }
         self.chapter_data = temp_chapter_data # Replace with new structure
         self.set_flag('outline_generated', True)
@@ -184,7 +185,8 @@ class WorkflowState:
                 self.chapter_data[chapter_key] = {
                     'title': title, 'level': level, 'status': STATUS_PENDING,
                     'content': None, 'retrieved_docs': None,
-                    'evaluations': [], 'versions': [], 'errors': []
+                    'evaluations': [], 'versions': [], 'errors': [],
+                    'citations_structured': [] # Initialize new field
                 }
                 self.log_event(f"Chapter entry created on demand: {chapter_key}")
             else:
@@ -200,6 +202,7 @@ class WorkflowState:
 
     def update_chapter_content(self, chapter_key: str, content: str,
                                retrieved_docs: Optional[List[Dict[str, Any]]] = None,
+                               citations_structured_list: Optional[List[Dict[str, Any]]] = None, # New parameter
                                is_new_version: bool = True):
         entry = self._get_chapter_entry(chapter_key, create_if_missing=True)
         if entry:
@@ -208,7 +211,12 @@ class WorkflowState:
             entry['content'] = content
             if retrieved_docs is not None: # Update if new docs are provided
                 entry['retrieved_docs'] = retrieved_docs
-            self.log_event(f"Chapter '{chapter_key}' content updated.", {"content_length": len(content)})
+            if citations_structured_list is not None: # Store structured citations
+                entry['citations_structured'] = citations_structured_list
+            self.log_event(f"Chapter '{chapter_key}' content updated.", {
+                "content_length": len(content),
+                "num_structured_citations": len(citations_structured_list) if citations_structured_list else 0
+            })
 
     def add_chapter_evaluation(self, chapter_key: str, evaluation: Dict[str, Any]):
         entry = self._get_chapter_entry(chapter_key, create_if_missing=True)
