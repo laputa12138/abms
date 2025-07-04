@@ -26,6 +26,7 @@ from agents.refiner_agent import RefinerAgent
 from agents.report_compiler_agent import ReportCompilerAgent
 from agents.global_content_retriever_agent import GlobalContentRetrieverAgent
 from agents.outline_refinement_agent import OutlineRefinementAgent
+from agents.missing_content_resolution_agent import MissingContentResolutionAgent # New
 
 logger = logging.getLogger(__name__)
 
@@ -110,18 +111,20 @@ class ReportGenerationPipeline:
         self.evaluator = EvaluatorAgent(llm_service=self.llm_service)
         self.refiner = RefinerAgent(llm_service=self.llm_service)
         self.report_compiler = ReportCompilerAgent(add_table_of_contents=True)
+        self.missing_content_resolver = MissingContentResolutionAgent(llm_service=self.llm_service) # Instantiate new agent
+
 
         self.workflow_state: Optional[WorkflowState] = None
         self.global_content_retriever= None
-        outline_refiner_prompt_template = None
-        self.outline_refinement_agent = None
+        # outline_refiner_prompt_template variable is defined later, directly before use.
+        self.outline_refinement_agent = None # Initialized in _initialize_retrieval_and_orchestration_components
 
         self.orchestrator: Optional[Orchestrator] = None
 
-        logger.info("ReportGenerationPipeline initialized.")
+        logger.info("ReportGenerationPipeline initialized (MissingContentResolver included).")
 
     def _initialize_retrieval_and_orchestration_components(self):
-        """Initializes RetrievalService, ContentRetrieverAgent, and Orchestrator."""
+        """Initializes RetrievalService, ContentRetrieverAgent, OutlineRefinementAgent and Orchestrator."""
         if not self.workflow_state:
             raise ReportGenerationPipelineError("WorkflowState must be initialized before retrieval/orchestration components.")
 
@@ -161,13 +164,15 @@ class ReportGenerationPipeline:
 
         if not self.orchestrator:
             # Ensure all agents required by orchestrator are initialized
-            if not self.outline_generator:
-                raise ReportGenerationPipelineError("OutlineGeneratorAgent failed to initialize before Orchestrator setup.")
+            if not self.outline_generator or not self.content_retriever_agent or \
+               not self.global_content_retriever or not self.outline_refinement_agent or \
+               not self.missing_content_resolver: # Check new agent
+                raise ReportGenerationPipelineError("One or more agents failed to initialize before Orchestrator setup.")
 
             self.orchestrator = Orchestrator(
                 workflow_state=self.workflow_state,
                 topic_analyzer=self.topic_analyzer,
-                outline_generator=self.outline_generator, # Now guaranteed to be initialized
+                outline_generator=self.outline_generator,
                 global_content_retriever=self.global_content_retriever,
                 outline_refiner=self.outline_refinement_agent,
                 content_retriever=self.content_retriever_agent,
@@ -175,9 +180,10 @@ class ReportGenerationPipeline:
                 evaluator=self.evaluator,
                 refiner=self.refiner,
                 report_compiler=self.report_compiler,
+                missing_content_resolver=self.missing_content_resolver, # Pass new agent
                 max_workflow_iterations=self.max_workflow_iterations
             )
-            self.workflow_state.log_event("Orchestrator initialized.")
+            self.workflow_state.log_event("Orchestrator initialized (with MissingContentResolver).")
 
 
     def _process_and_load_data(self, data_path: str):

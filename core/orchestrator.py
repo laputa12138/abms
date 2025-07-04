@@ -15,8 +15,11 @@ from agents.evaluator_agent import EvaluatorAgent
 from agents.refiner_agent import RefinerAgent
 from agents.report_compiler_agent import ReportCompilerAgent
 from agents.outline_refinement_agent import OutlineRefinementAgent
-from agents.global_content_retriever_agent import GlobalContentRetrieverAgent # New
-from core.workflow_state import TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT, TASK_TYPE_APPLY_OUTLINE_REFINEMENT, TASK_TYPE_GLOBAL_RETRIEVE_FOR_OUTLINE # New
+from agents.global_content_retriever_agent import GlobalContentRetrieverAgent
+from agents.missing_content_resolution_agent import MissingContentResolutionAgent # New Agent
+from core.workflow_state import TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT, \
+    TASK_TYPE_APPLY_OUTLINE_REFINEMENT, TASK_TYPE_GLOBAL_RETRIEVE_FOR_OUTLINE, \
+    TASK_TYPE_RESOLVE_MISSING_CONTENT # New Task Type
 
 logger = logging.getLogger(__name__)
 
@@ -33,34 +36,33 @@ class Orchestrator:
                  workflow_state: WorkflowState,
                  topic_analyzer: TopicAnalyzerAgent,
                  outline_generator: OutlineGeneratorAgent,
-                 global_content_retriever: GlobalContentRetrieverAgent, # New
+                 global_content_retriever: GlobalContentRetrieverAgent,
                  outline_refiner: OutlineRefinementAgent,
-                 content_retriever: ContentRetrieverAgent, # This is the agent, not the service
+                 content_retriever: ContentRetrieverAgent,
                  chapter_writer: ChapterWriterAgent,
                  evaluator: EvaluatorAgent,
                  refiner: RefinerAgent,
                  report_compiler: ReportCompilerAgent,
+                 missing_content_resolver: MissingContentResolutionAgent, # New
                  max_workflow_iterations: int = 50,
-                 # Optional: Pass RetrievalService if some tasks need direct access
-                 # retrieval_service: Optional[RetrievalService] = None
                 ):
         self.workflow_state = workflow_state
         self.agents = {
             TASK_TYPE_ANALYZE_TOPIC: topic_analyzer,
             TASK_TYPE_GENERATE_OUTLINE: outline_generator,
-            TASK_TYPE_GLOBAL_RETRIEVE_FOR_OUTLINE: global_content_retriever, # New
+            TASK_TYPE_GLOBAL_RETRIEVE_FOR_OUTLINE: global_content_retriever,
             TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT: outline_refiner,
             # TASK_TYPE_APPLY_OUTLINE_REFINEMENT is handled by Orchestrator directly
             # TASK_TYPE_PROCESS_CHAPTER is a meta-task, handled by adding retrieve then write
-            TASK_TYPE_RETRIEVE_FOR_CHAPTER: content_retriever, # Agent uses RetrievalService internally
+            TASK_TYPE_RETRIEVE_FOR_CHAPTER: content_retriever,
             TASK_TYPE_WRITE_CHAPTER: chapter_writer,
             TASK_TYPE_EVALUATE_CHAPTER: evaluator,
             TASK_TYPE_REFINE_CHAPTER: refiner,
+            TASK_TYPE_RESOLVE_MISSING_CONTENT: missing_content_resolver, # New mapping
             TASK_TYPE_COMPILE_REPORT: report_compiler,
         }
-        # self.retrieval_service = retrieval_service # If needed directly
         self.max_workflow_iterations = max_workflow_iterations
-        logger.info("Orchestrator initialized with all agents and workflow state.")
+        logger.info("Orchestrator initialized with all agents (including MissingContentResolutionAgent) and workflow state.")
 
     def _execute_task_type(self, task: Dict[str, Any]):
         """Executes a specific task by calling the appropriate agent."""
@@ -74,21 +76,9 @@ class Orchestrator:
             try:
                 self.workflow_state.log_event(f"Orchestrator dispatching task '{task_type}' to agent '{agent.agent_name}'.",
                                              {"task_id": task_id, "payload": payload})
-                # Assuming all agents now have an 'execute_task' method
                 agent.execute_task(self.workflow_state, payload)
-                # Agent's execute_task is responsible for adding next tasks and completing current one via workflow_state
-                # So, we don't call workflow_state.complete_task here in orchestrator for agent-handled tasks.
-                # Agent should call it. If agent raises error, it's caught below.
-                # However, for tasks handled *directly* by orchestrator (like PROCESS_CHAPTER), we need to complete it.
-
-                # If an agent's execute_task doesn't call complete_task itself, then orchestrator should.
-                # For now, let's assume agents will call workflow_state.complete_task(task_id, ...)
-                # This needs to be consistently implemented in all agents.
-                # Let's refine: if agent.execute_task doesn't raise, we assume it handled completion.
-                # This is a bit implicit. A better way: agent returns a status or next actions.
-                # For now, let's assume agent calls complete_task.
-
-            except Exception as e: # Catch errors from agent execution
+                # Agents are responsible for calling workflow_state.complete_task for their own tasks.
+            except Exception as e:
                 logger.error(f"Error executing task {task_type} ({task_id}) with agent {getattr(agent, 'agent_name', 'UnknownAgent')}: {e}", exc_info=True)
                 self.workflow_state.log_event(f"Agent execution error for task {task_type} ({task_id})",
                                              {"error": str(e), "agent": getattr(agent, 'agent_name', 'UnknownAgent')})
@@ -96,13 +86,11 @@ class Orchestrator:
                 if 'chapter_key' in payload:
                     self.workflow_state.add_chapter_error(payload['chapter_key'], f"Agent {task_type} failed: {e}")
 
-        elif task_type == TASK_TYPE_PROCESS_CHAPTER: # Meta-task handled by orchestrator
-            # This task initiates the sequence for a chapter: retrieve -> write (-> eval -> refine)*
+        elif task_type == TASK_TYPE_PROCESS_CHAPTER:
             chapter_key = payload['chapter_key']
-            self.workflow_state.update_chapter_status(chapter_key, STATUS_PENDING) # Reset/confirm status
-            # Add retrieval task as the first concrete step for this chapter
+            self.workflow_state.update_chapter_status(chapter_key, STATUS_PENDING)
             self.workflow_state.add_task(TASK_TYPE_RETRIEVE_FOR_CHAPTER,
-                                         payload=payload, # Pass on chapter_key, chapter_title
+                                         payload=payload,
                                          priority=task.get('priority', 3))
             self.workflow_state.complete_task(task_id, f"PROCESS_CHAPTER task for '{payload.get('chapter_title')}' initiated retrieval.")
 
@@ -123,37 +111,26 @@ class Orchestrator:
         original_parsed_outline = payload.get('original_parsed_outline')
         suggested_refinements = payload.get('suggested_refinements')
 
-        if not original_parsed_outline or suggested_refinements is None: # Empty list is acceptable
+        if not original_parsed_outline or suggested_refinements is None:
             err_msg = "Missing original_parsed_outline or suggested_refinements in payload for APPLY_OUTLINE_REFINEMENT."
             logger.error(err_msg)
             self.workflow_state.log_event(err_msg, {"task_id": task_id})
             self.workflow_state.complete_task(task_id, err_msg, status='failed')
             return
 
-        # Get current set of chapter IDs before refinement
         original_ids = {item['id'] for item in original_parsed_outline}
-
-        # Apply refinements to get the new parsed outline
         new_parsed_outline = self.workflow_state.apply_refinements_to_parsed_outline(
             original_parsed_outline,
             suggested_refinements
         )
-
-        # Generate new Markdown outline from the new parsed outline
         new_outline_md = self.workflow_state.generate_markdown_from_parsed_outline(new_parsed_outline)
-
-        # Update the workflow state with the new outline
         self.workflow_state.update_outline(new_outline_md, new_parsed_outline)
         logger.info(f"Outline updated after applying {len(suggested_refinements)} refinements. New chapter count: {len(new_parsed_outline)}")
         self.workflow_state.log_event("Outline updated via APPLY_OUTLINE_REFINEMENT.",
                                      {"num_refinements": len(suggested_refinements),
                                       "new_chapter_count": len(new_parsed_outline)})
 
-        # Get new set of chapter IDs
         new_ids = {item['id'] for item in new_parsed_outline}
-
-        # Manage tasks:
-        # 1. Identify deleted chapters and remove their pending tasks
         deleted_ids = original_ids - new_ids
         if deleted_ids:
             logger.info(f"Chapters to remove tasks for (deleted): {deleted_ids}")
@@ -164,32 +141,10 @@ class Orchestrator:
                     tasks_to_remove.append(task_in_queue)
 
             for task_to_remove in tasks_to_remove:
-                self.workflow_state.pending_tasks.remove(task_to_remove)
+                self.workflow_state.pending_tasks.remove(task_to_remove) # Direct removal, ensure thread-safety if applicable
                 logger.info(f"Removed pending task {task_to_remove['id']} ({task_to_remove['type']}) for deleted chapter {task_to_remove.get('payload', {}).get('chapter_key')}")
                 self.workflow_state.log_event(f"Task removed for deleted chapter.", {"removed_task_id": task_to_remove['id'], "chapter_id": task_to_remove.get('payload', {}).get('chapter_key')})
 
-
-        # 2. (Re-)Add PROCESS_CHAPTER tasks for ALL chapters in the NEW outline.
-        # This ensures new chapters get tasks, and existing ones are processed if they weren't already.
-        # If a chapter was already processed, PROCESS_CHAPTER might be redundant but should be handled
-        # gracefully (e.g., if status is already 'completed', it might do nothing or re-verify).
-        # For simplicity now, we add PROCESS_CHAPTER for all.
-        # A more sophisticated approach might only add for new/modified chapters if we can track 'modified'.
-
-        # Clear existing PROCESS_CHAPTER, RETRIEVE_FOR_CHAPTER, WRITE_CHAPTER etc. to avoid duplicates or processing outdated items.
-        # This is a bit aggressive but ensures a clean slate for the new outline structure.
-        # A gentler approach would be to only remove tasks for *deleted* chapters (done above)
-        # and only add for *new* chapters. For existing chapters, their state would be preserved.
-        # Let's try the gentler approach: only add for new_ids - original_ids.
-        # And assume existing chapters that survived continue their lifecycle.
-        # However, if titles/levels changed, their existing tasks might be based on old info.
-        # The current `update_outline` in WorkflowState already re-initializes `chapter_data` entries,
-        # preserving status/content if IDs match. This is good.
-        # So, adding PROCESS_CHAPTER for all current chapters in new_parsed_outline seems robust.
-        # If a chapter is already completed, its PROCESS_CHAPTER task will find it completed.
-
-        # First, clear out any old PROCESS_CHAPTER tasks to avoid duplicates if some chapters persist.
-        # This ensures that chapters are processed according to the *new* outline structure and order.
         self.workflow_state.pending_tasks = [
             pt for pt in self.workflow_state.pending_tasks
             if pt['type'] not in [TASK_TYPE_PROCESS_CHAPTER, TASK_TYPE_RETRIEVE_FOR_CHAPTER, TASK_TYPE_WRITE_CHAPTER, TASK_TYPE_EVALUATE_CHAPTER, TASK_TYPE_REFINE_CHAPTER]
@@ -200,21 +155,13 @@ class Orchestrator:
         for item in new_parsed_outline:
             chapter_key = item['id']
             chapter_title = item['title']
-            # Reset status to pending for all chapters to ensure they go through the process with the new outline context
-            # Or, rely on PROCESS_CHAPTER to correctly determine next steps based on existing status.
-            # For now, let's not reset status here, let PROCESS_CHAPTER handle it.
-            # self.workflow_state.update_chapter_status(chapter_key, STATUS_PENDING) # Optional: force re-processing
-
             self.workflow_state.add_task(
                 task_type=TASK_TYPE_PROCESS_CHAPTER,
                 payload={'chapter_key': chapter_key, 'chapter_title': chapter_title, 'level': item['level']},
-                priority=3 # Default priority for chapter processing
+                priority=3
             )
         logger.info(f"Added/Re-added PROCESS_CHAPTER tasks for all {len(new_parsed_outline)} chapters in the refined outline.")
 
-        # Mark the outline as finalized for now.
-        # In a more complex system, we might loop back to SUGGEST_OUTLINE_REFINEMENT
-        # or have a specific condition to finalize.
         self.workflow_state.set_flag('outline_finalized', True)
         logger.info("Outline marked as finalized after applying refinements.")
         self.workflow_state.log_event("Outline finalized after APPLY_OUTLINE_REFINEMENT.",
@@ -230,67 +177,85 @@ class Orchestrator:
         self.workflow_state.log_event("Orchestrator starting workflow coordination.")
         iteration_count = 0
         stall_patience_counter = 0
-        STALL_PATIENCE_THRESHOLD = 5 # Number of consecutive empty-queue iterations before declaring a stall
+        STALL_PATIENCE_THRESHOLD = 5
 
         while not self.workflow_state.get_flag('report_generation_complete', False):
             if iteration_count >= self.max_workflow_iterations:
                 self.workflow_state.log_event("Max workflow iterations reached by Orchestrator. Halting.", {"level": "ERROR"})
-                self.workflow_state.set_flag('report_generation_complete', True) # Force stop
+                self.workflow_state.set_flag('report_generation_complete', True)
                 break
 
-            task = self.workflow_state.get_next_task() # Pops task and marks 'in_progress'
+            task = self.workflow_state.get_next_task()
 
             if not task:
-                # Task queue is empty
                 stall_patience_counter += 1
                 self.workflow_state.log_event(f"Task queue empty. Stall patience: {stall_patience_counter}/{STALL_PATIENCE_THRESHOLD}.")
 
-                if self.workflow_state.are_all_chapters_completed() and \
-                   self.workflow_state.get_flag('outline_finalized', False) and \
-                   not self.workflow_state.get_flag('report_compilation_requested', False):
+                all_chapters_processed_flag = self.workflow_state.are_all_chapter_tasks_processed_or_terminal()
+                outline_finalized_flag = self.workflow_state.get_flag('outline_finalized', False)
 
-                    self.workflow_state.add_task(TASK_TYPE_COMPILE_REPORT, priority=100)
+                # Check if it's time to run MissingContentResolutionAgent
+                if all_chapters_processed_flag and \
+                   outline_finalized_flag and \
+                   not self.workflow_state.get_flag('missing_content_resolution_requested', False) and \
+                   not self.workflow_state.get_flag('report_compilation_requested', False): # Ensure it runs before compilation
+
+                    self.workflow_state.add_task(TASK_TYPE_RESOLVE_MISSING_CONTENT, payload={}, priority=90) # High priority, before compile
+                    self.workflow_state.set_flag('missing_content_resolution_requested', True)
+                    self.workflow_state.log_event("All chapter processing seems complete. Missing Content Resolution task added by Orchestrator.")
+                    stall_patience_counter = 0
+
+                # Check if it's time to compile the report (after missing content resolution)
+                elif all_chapters_processed_flag and \
+                     outline_finalized_flag and \
+                     self.workflow_state.get_flag('missing_content_resolution_completed', False) and \
+                     not self.workflow_state.get_flag('report_compilation_requested', False):
+
+                    self.workflow_state.add_task(TASK_TYPE_COMPILE_REPORT, priority=100) # Highest priority
                     self.workflow_state.set_flag('report_compilation_requested', True)
-                    self.workflow_state.log_event("All chapters completed, outline final. Compilation task added by Orchestrator.")
-                    stall_patience_counter = 0 # Reset patience as a new task was added
-                    # Loop will continue and pick up this new task
+                    self.workflow_state.log_event("All chapters processed and missing content resolution done. Compilation task added by Orchestrator.")
+                    stall_patience_counter = 0
+
                 elif self.workflow_state.get_flag('report_generation_complete'):
-                    # This can happen if COMPILE_REPORT task itself set this flag
                     break
                 elif stall_patience_counter >= STALL_PATIENCE_THRESHOLD:
-                    # Stall detected: Queue is empty, not all chapters done, and patience ran out
                     logger.warning(f"Orchestrator: Potential stall detected after {stall_patience_counter} iterations with empty queue. Halting.")
                     self.workflow_state.log_event(
                         "Stall detected: Task queue empty for too long and report not complete.",
                         {
-                            "all_chapters_done": self.workflow_state.are_all_chapters_completed(),
-                            "outline_finalized": self.workflow_state.get_flag('outline_finalized'),
-                            "compilation_requested": self.workflow_state.get_flag('report_compilation_requested')
+                            "all_chapters_processed": all_chapters_processed_flag,
+                            "outline_finalized": outline_finalized_flag,
+                            "missing_content_resolution_requested": self.workflow_state.get_flag('missing_content_resolution_requested'),
+                            "missing_content_resolution_completed": self.workflow_state.get_flag('missing_content_resolution_completed'),
+                            "report_compilation_requested": self.workflow_state.get_flag('report_compilation_requested')
                         }
                     )
-                    if not self.workflow_state.are_all_chapters_completed():
+                    if not self.workflow_state.are_all_chapters_completed(): # This uses the old check, might need update too
                         incomplete_chapters = []
-                        for item in self.workflow_state.parsed_outline:
-                            ch_key = item['id']
-                            ch_data = self.workflow_state.get_chapter_data(ch_key)
-                            ch_status = ch_data.get('status', 'NO_DATA') if ch_data else 'NO_DATA_FOR_KEY'
-                            if ch_status != STATUS_COMPLETED:
-                                incomplete_chapters.append({
-                                    'key': ch_key,
-                                    'title': item.get('title', 'N/A'),
-                                    'status': ch_status
-                                })
-                        logger.error(f"Orchestrator: Stall detected. Incomplete chapters: {json.dumps(incomplete_chapters, ensure_ascii=False, indent=2)}")
-                        self.workflow_state.log_event("Stall details: Incomplete chapters logged.", {"incomplete_chapters_summary": incomplete_chapters})
+                        if self.workflow_state.parsed_outline: # Check if outline exists
+                            for item in self.workflow_state.parsed_outline:
+                                ch_key = item['id']
+                                ch_data = self.workflow_state.get_chapter_data(ch_key)
+                                ch_status = ch_data.get('status', 'NO_DATA') if ch_data else 'NO_DATA_FOR_KEY'
+                                if ch_status != STATUS_COMPLETED:
+                                    incomplete_chapters.append({
+                                        'key': ch_key,
+                                        'title': item.get('title', 'N/A'),
+                                        'status': ch_status
+                                    })
+                            if incomplete_chapters:
+                                logger.error(f"Orchestrator: Stall detected. Incomplete chapters: {json.dumps(incomplete_chapters, ensure_ascii=False, indent=2)}")
+                                self.workflow_state.log_event("Stall details: Incomplete chapters logged.", {"incomplete_chapters_summary": incomplete_chapters})
+                        else:
+                            logger.error("Orchestrator: Stall detected. Parsed outline is missing, cannot list incomplete chapters.")
+                            self.workflow_state.log_event("Stall details: Parsed outline missing.", {"level": "ERROR"})
 
-                    self.workflow_state.set_flag('report_generation_complete', True) # Force stop due to stall
+
+                    self.workflow_state.set_flag('report_generation_complete', True)
                     break
-                # If queue is empty but patience not exhausted, just continue to next iteration (will sleep briefly)
             else:
-                # Task found, reset stall patience
                 stall_patience_counter = 0
-                # Handle the retrieved task
-                self._execute_task_type(task) # This will call agent's execute_task
+                self._execute_task_type(task)
 
             iteration_count += 1
 

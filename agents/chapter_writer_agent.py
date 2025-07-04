@@ -47,7 +47,7 @@ class ChapterWriterAgent(BaseAgent):
 
         prompt = self.relevance_check_prompt_template.format(
             chapter_title=chapter_title,
-            document_text=document_text[:2000] # Truncate to avoid overly long prompts for relevance check
+            document_text=document_text[:app_settings.RELEVANCE_CHECK_MAX_TEXT_LENGTH] # Use configured length
         )
         try:
             response_str = self.llm_service.chat(
@@ -55,7 +55,6 @@ class ChapterWriterAgent(BaseAgent):
                 system_prompt="你是一个内容相关性判断助手。请根据提供的章节标题和文档片段，判断文档片段是否与章节标题高度相关，并严格以JSON格式返回结果。"
             )
             logger.debug(f"Relevance check for doc ID '{document_id}', chapter '{chapter_title}'. LLM response: {response_str}")
-            # Expecting a JSON response like: {"is_relevant": true/false}
             response_json = json.loads(response_str)
             is_relevant = response_json.get("is_relevant", False)
             if not isinstance(is_relevant, bool):
@@ -73,28 +72,15 @@ class ChapterWriterAgent(BaseAgent):
             return False
 
     def _format_single_snippet_for_llm(self, single_doc_text: str) -> str:
-        """
-        Formats a single document snippet for the LLM.
-        Currently, this is straightforward, but can be expanded if needed.
-        """
         if not single_doc_text:
             return "无有效参考资料片段。"
-        # The prompt itself will wrap this in triple quotes, so just return the text.
         return single_doc_text
 
     def _generate_citations_string(self, used_document: Dict[str, any]) -> str: # Takes a single doc now
-        """
-        Generates the citation string for a single used document.
-        Format: [引用来源：{file_name}。原文表述：{source_text_of_parent}]
-        """
-        if not used_document: # Check single document
+        if not used_document:
             return ""
-
-        # No loop needed as it's a single document
         file_name = used_document.get('source_document_name', '未知文档')
-        source_text_of_parent = used_document.get('document', '无法获取原文') # 'document' holds parent_text
-
-        # Return a single citation string, a newline will be added by the caller if needed or by integration prompt
+        source_text_of_parent = used_document.get('document', '无法获取原文')
         return f"[引用来源：{file_name}。原文表述：{source_text_of_parent}]"
 
 
@@ -119,55 +105,56 @@ class ChapterWriterAgent(BaseAgent):
             if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
             raise ChapterWriterAgentError(err_msg)
 
-        # Get global context from workflow_state
         report_global_theme = workflow_state.get_report_global_theme() or "未提供全局主题"
         key_terms_definitions_dict = workflow_state.get_key_terms_definitions() or {}
-
         key_terms_definitions_formatted = "\n".join(
             [f"- {term}: {definition}" for term, definition in key_terms_definitions_dict.items()]
         )
         if not key_terms_definitions_formatted:
             key_terms_definitions_formatted = "未提供关键术语定义"
 
-        all_retrieved_docs = chapter_data.get('retrieved_docs', [])
-        logger.info(f"[{self.agent_name}] Task ID: {task_id} - Chapter: '{chapter_title}'. Initial retrieved docs count: {len(all_retrieved_docs)}")
-        self._log_input(chapter_title=chapter_title, initial_retrieved_docs_count=len(all_retrieved_docs), report_global_theme=report_global_theme, key_terms_definitions=key_terms_definitions_dict)
+        all_retrieved_docs_for_chapter = chapter_data.get('retrieved_docs', [])
+        logger.info(f"[{self.agent_name}] Task ID: {task_id} - Chapter: '{chapter_title}'. Initial retrieved docs count: {len(all_retrieved_docs_for_chapter)}")
+        self._log_input(chapter_title=chapter_title, initial_retrieved_docs_count=len(all_retrieved_docs_for_chapter), report_global_theme=report_global_theme, key_terms_definitions=key_terms_definitions_dict)
 
-        # 1. LLM Relevance Check for each document
         relevant_docs_for_generation = []
-        if not self.relevance_check_prompt_template: # Check if template is loaded
-             logger.warning("Relevance check prompt template is missing from settings. "
-                            "ChapterWriterAgent will proceed assuming all documents are relevant, "
-                            "but this is not the intended behavior for full traceability.")
-             relevant_docs_for_generation = all_retrieved_docs # Fallback
+        if not self.relevance_check_prompt_template:
+             logger.warning("Relevance check prompt template is missing from settings. ChapterWriterAgent will proceed assuming all documents are relevant.")
+             relevant_docs_for_generation = all_retrieved_docs_for_chapter
         else:
-            for doc in all_retrieved_docs:
+            for doc_idx, doc in enumerate(all_retrieved_docs_for_chapter):
                 doc_text = doc.get('document', '')
-                doc_id = doc.get('parent_id', doc.get('child_id', 'unknown_id'))
+                doc_id = doc.get('parent_id', doc.get('child_id', f'unknown_id_idx_{doc_idx}'))
                 if doc_text:
                     if self._is_document_relevant(chapter_title, doc_text, doc_id):
                         relevant_docs_for_generation.append(doc)
-                        logger.debug(f"Document '{doc_id}' deemed relevant for chapter '{chapter_title}'.")
+                        logger.debug(f"Document '{doc_id}' (Source: {doc.get('source_document_name', 'N/A')}) deemed relevant for chapter '{chapter_title}'.")
                     else:
-                        logger.debug(f"Document '{doc_id}' deemed NOT relevant for chapter '{chapter_title}'.")
+                        logger.debug(f"Document '{doc_id}' (Source: {doc.get('source_document_name', 'N/A')}) deemed NOT relevant for chapter '{chapter_title}'.")
                 else:
-                    logger.warning(f"Document '{doc_id}' has no text content. Skipping relevance check.")
+                    logger.warning(f"Document '{doc_id}' (Source: {doc.get('source_document_name', 'N/A')}) has no text content. Skipping relevance check.")
 
-        logger.info(f"[{self.agent_name}] Task ID: {task_id} - Relevant docs after LLM check: {len(relevant_docs_for_generation)} (out of {len(all_retrieved_docs)})")
-        workflow_state.log_event(f"Relevance check complete for chapter '{chapter_title}'. Relevant docs: {len(relevant_docs_for_generation)}/{len(all_retrieved_docs)}",
-                                 {"chapter_key": chapter_key, "relevant_count": len(relevant_docs_for_generation), "total_initial_count": len(all_retrieved_docs)})
+        num_initial_docs = len(all_retrieved_docs_for_chapter)
+        num_relevant_docs = len(relevant_docs_for_generation)
+        logger.info(f"[{self.agent_name}] Task ID: {task_id} - Relevant docs after LLM check: {num_relevant_docs} (out of {num_initial_docs}) for chapter '{chapter_title}'")
+        workflow_state.log_event(
+            f"Relevance check complete for chapter '{chapter_title}'. Relevant docs: {num_relevant_docs}/{num_initial_docs}",
+            {
+                "chapter_key": chapter_key,
+                "relevant_count": num_relevant_docs,
+                "total_initial_count": num_initial_docs,
+            }
+        )
 
-        # Initialize list to store content blocks and structured citations
-        content_blocks: List[Dict[str, str]] = [] # For LLM integration prompt
-        all_snippet_citation_jsons_for_chapter: List[Dict] = [] # For structured storage
+        content_blocks: List[Dict[str, str]] = []
+        all_snippet_citation_jsons_for_chapter: List[Dict] = []
 
         if not relevant_docs_for_generation:
-            logger.warning(f"No relevant documents found for chapter '{chapter_title}'. Integration step will handle this.")
-            # The integration step will later be responsible for creating a placeholder or empty chapter.
+            logger.warning(f"No relevant documents found to generate content blocks for chapter '{chapter_title}'. Integration step will handle this.")
         else:
             logger.info(f"Generating content for chapter '{chapter_title}' snippet by snippet using {len(relevant_docs_for_generation)} relevant documents.")
             for i, doc in enumerate(relevant_docs_for_generation):
-                single_doc_text = doc.get('document', '') # This is the parent chunk text
+                single_doc_text = doc.get('document', '')
                 doc_name = doc.get('source_document_name', '未知文档')
                 doc_score = doc.get('score')
                 doc_chunk_id = doc.get('parent_id', doc.get('child_id', 'unknown_id'))
@@ -190,10 +177,10 @@ class ChapterWriterAgent(BaseAgent):
                 preliminary_text_str = ""
                 citation_json_for_snippet = {
                     "generated_snippet_id": f"snippet_{chapter_key}_{i}",
-                    "generated_text": "", # Will be filled after LLM call
+                    "generated_text": "",
                     "source_references": [{
                         "document_name": doc_name,
-                        "original_text_snippet": single_doc_text, # Storing parent chunk text
+                        "original_text_snippet": single_doc_text,
                         "retrieved_score": doc_score,
                         "document_chunk_id": doc_chunk_id
                     }]
@@ -210,20 +197,18 @@ class ChapterWriterAgent(BaseAgent):
                         logger.warning(f"LLM returned empty content for snippet from doc: {doc_name} for chapter '{chapter_title}'. Using empty string.")
                         preliminary_text_str = ""
 
-                except LLMServiceError as e:
-                    err_msg_snippet = f"LLM service failed while generating text for snippet from doc {doc_name} in chapter '{chapter_title}': {e}"
+                except LLMServiceError as e_snippet_llm:
+                    err_msg_snippet = f"LLM service failed while generating text for snippet from doc {doc_name} in chapter '{chapter_title}': {e_snippet_llm}"
                     logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg_snippet}", exc_info=False)
-                    preliminary_text_str = f"[系统提示：生成此部分内容时遇到LLM服务错误 - {e}]"
-                except Exception as e_snippet:
-                    err_msg_snippet_unexpected = f"Unexpected error generating content for snippet from doc {doc_name} in chapter '{chapter_title}': {e_snippet}"
+                    preliminary_text_str = f"[系统提示：生成此部分内容时遇到LLM服务错误 - {e_snippet_llm}]"
+                except Exception as e_snippet_unexpected:
+                    err_msg_snippet_unexpected = f"Unexpected error generating content for snippet from doc {doc_name} in chapter '{chapter_title}': {e_snippet_unexpected}"
                     logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg_snippet_unexpected}", exc_info=True)
-                    preliminary_text_str = f"[系统提示：生成此部分内容时发生意外错误 - {e_snippet}]"
+                    preliminary_text_str = f"[系统提示：生成此部分内容时发生意外错误 - {e_snippet_unexpected}]"
 
-                # Update generated_text in citation_json and add to list
                 citation_json_for_snippet["generated_text"] = preliminary_text_str.strip()
                 all_snippet_citation_jsons_for_chapter.append(citation_json_for_snippet)
 
-                # Prepare content_block for integration (uses string citation)
                 citation_string_for_integration = self._generate_citations_string(doc)
                 content_blocks.append({
                     "generated_text": preliminary_text_str.strip(),
@@ -233,55 +218,72 @@ class ChapterWriterAgent(BaseAgent):
 
         logger.info(f"[{self.agent_name}] Task ID: {task_id} - Preliminary content blocks generation phase complete for chapter '{chapter_title}'. {len(content_blocks)} blocks generated.")
         if not content_blocks and relevant_docs_for_generation:
-             workflow_state.add_chapter_error(chapter_key, "All snippet generation attempts failed.")
+             workflow_state.add_chapter_error(chapter_key, "All snippet generation attempts failed despite having relevant documents.")
 
-        # --- Actual Integration Step ---
         try:
             logger.info(f"Proceeding to content integration for chapter '{chapter_title}'.")
             final_integrated_content = self._integrate_chapter_content(
                 chapter_title=chapter_title,
-                content_blocks=content_blocks, # These still contain the string citations for the prompt
+                content_blocks=content_blocks,
                 report_global_theme=report_global_theme,
                 key_terms_definitions_formatted=key_terms_definitions_formatted
             )
 
-            # Append formatted citations from JSON to the end of the integrated content
-            appended_citations_text = "\n\n" # Start with newlines to separate from main content
+            # Check if placeholder was returned, and if so, log details
+            # Use the specific placeholder defined in settings or a constant
+            # This string is now fetched from settings in _integrate_chapter_content
+            # We compare against that method's known return for empty content.
+            # The actual string might be app_settings.DEFAULT_CHAPTER_MISSING_CONTENT_PLACEHOLDER
+            # or the fallback defined in _integrate_chapter_content.
+            # For robustness, check against both if settings might not be populated.
+            placeholder_from_settings = getattr(app_settings, 'DEFAULT_CHAPTER_MISSING_CONTENT_PLACEHOLDER', "[本章节未能生成有效内容，我们正在努力改进。]")
+            # Also check against the old placeholder in case it's encountered from a previous run state not yet migrated
+            old_placeholder_text = "(本章节未能生成内容，因为没有相关的文本片段可供处理，或者所有片段处理均失败。)"
+
+
+            if final_integrated_content == placeholder_from_settings or final_integrated_content == old_placeholder_text:
+                logger.error(
+                    f"ChapterWriterAgent: Chapter '{chapter_title}' (key: {chapter_key}) resulted in placeholder content. "
+                    f"Initial docs retrieved: {num_initial_docs}. "
+                    f"Docs deemed relevant: {num_relevant_docs}. "
+                    f"Content blocks generated for integration: {len(content_blocks)}. "
+                    "This indicates either no relevant documents were found, or all attempts to generate text from them failed, "
+                    "or the integration step itself decided to return a placeholder."
+                )
+                workflow_state.add_chapter_error(chapter_key,
+                    f"Content generation resulted in placeholder. Initial docs: {num_initial_docs}, Relevant: {num_relevant_docs}, Blocks: {len(content_blocks)}")
+
+            appended_citations_text = "\n\n"
             if all_snippet_citation_jsons_for_chapter:
                 appended_citations_text += "--- 参考来源列表 ---\n"
                 for idx, citation_json in enumerate(all_snippet_citation_jsons_for_chapter):
-                    source_ref = citation_json.get("source_references", [{}])[0] # Assuming one primary reference per snippet
+                    source_ref = citation_json.get("source_references", [{}])[0]
                     doc_name = source_ref.get("document_name", "未知文档")
                     original_snippet = source_ref.get("original_text_snippet", "无原始片段")
-                    # generated_text_for_ref = citation_json.get("generated_text", "N/A") # Could be used to show what text this refers to
-
                     appended_citations_text += (
                         f"\n[{idx+1}] 文档名: {doc_name}\n"
-                        # Optional: f"   对应生成内容片段: \"{generated_text_for_ref[:50]}...\"\n"
-                        f"   原始参考依据: \"{original_snippet[:200]}...\"\n" # Truncate for readability
+                        f"   原始参考依据: \"{original_snippet[:200]}...\"\n"
                     )
                 appended_citations_text += "\n--- 参考来源列表结束 ---\n"
                 final_content_with_appended_citations = final_integrated_content + appended_citations_text
             else:
                 final_content_with_appended_citations = final_integrated_content
-                logger.info(f"No structured citations to append for chapter '{chapter_title}'.")
+                if not (final_integrated_content == placeholder_from_settings or final_integrated_content == old_placeholder_text):
+                    logger.info(f"No structured citations to append for chapter '{chapter_title}' but content was generated.")
 
-
-            # Update WorkflowState with the integrated content (now including appended citations) AND the structured citations
             workflow_state.update_chapter_content(
                 chapter_key,
-                final_content_with_appended_citations, # Save content with appended string citations
+                final_content_with_appended_citations,
                 retrieved_docs=relevant_docs_for_generation,
-                citations_structured_list=all_snippet_citation_jsons_for_chapter, # Still save the raw JSON data
-                is_new_version=False # Assuming this is the first write after retrieval for this version
+                citations_structured_list=all_snippet_citation_jsons_for_chapter,
+                is_new_version=False
             )
             workflow_state.update_chapter_status(chapter_key, STATUS_EVALUATION_NEEDED)
 
-            # Add next task: Evaluate Chapter
             workflow_state.add_task(
                 task_type=TASK_TYPE_EVALUATE_CHAPTER,
                 payload={'chapter_key': chapter_key, 'chapter_title': chapter_title},
-                priority=task_payload.get('priority', 6) + 1 # Assuming priority system
+                priority=task_payload.get('priority', 6) + 1
             )
 
             self._log_output({
@@ -290,19 +292,17 @@ class ChapterWriterAgent(BaseAgent):
                 "used_sources_count": len(relevant_docs_for_generation),
                 "blocks_integrated": len(content_blocks)
             })
-            success_msg = (f"Chapter '{chapter_title}' writing and integration successful. "
-                           f"{len(content_blocks)} blocks integrated. Next task (Evaluate Chapter) added.")
+            success_msg = (f"Chapter '{chapter_title}' writing and integration process completed. "
+                           f"{len(content_blocks)} blocks processed. Next task (Evaluate Chapter) added.")
             logger.info(f"[{self.agent_name}] Task ID: {task_id} - {success_msg}")
             if task_id: workflow_state.complete_task(task_id, success_msg, status='success')
 
-        except Exception as e_integration_final: # Catch any unexpected error from integration or workflow update
+        except Exception as e_integration_final:
             err_msg = f"Critical error during final integration or workflow update for chapter '{chapter_title}': {e_integration_final}"
             workflow_state.log_event(err_msg, {"error": str(e_integration_final)}, level="CRITICAL")
             workflow_state.add_chapter_error(chapter_key, f"Integration/Workflow critical error: {e_integration_final}")
             logger.critical(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}", exc_info=True)
             if task_id: workflow_state.complete_task(task_id, err_msg, status='failed')
-            # Depending on design, might re-raise or just let task be marked failed.
-            # For now, re-raise to signal a problem with the agent's execution itself.
             raise ChapterWriterAgentError(err_msg) from e_integration_final
 
     def _integrate_chapter_content(self,
@@ -313,24 +313,22 @@ class ChapterWriterAgent(BaseAgent):
         """
         Integrates multiple preliminary content blocks (each with its citation) into a single,
         coherent chapter using an LLM, incorporating global theme and key terms.
+        If no content_blocks are provided, returns a standard placeholder message from settings.
         """
         if not content_blocks:
-            logger.warning(f"No content blocks provided for integration for chapter '{chapter_title}'. Returning placeholder content.")
-            # Return a specific message that can be identified by evaluators or compilers.
-            return "(本章节未能生成内容，因为没有相关的文本片段可供处理，或者所有片段处理均失败。)"
+            logger.warning(
+                f"No content blocks provided for integration for chapter '{chapter_title}'. "
+                f"This usually means no relevant documents were found/passed relevance check, or all snippet generations failed. "
+                f"Returning standard placeholder."
+            )
+            return getattr(app_settings, 'DEFAULT_CHAPTER_MISSING_CONTENT_PLACEHOLDER',
+                           "[本章节未能生成有效内容，我们正在努力改进。]") # New default placeholder
 
-        # Format the content blocks for the integration prompt
         formatted_blocks_for_integration = ""
         for i, block in enumerate(content_blocks):
-            # Ensure text and citation are not None before stripping or formatting
-            block_text = block.get('generated_text', "").strip() # Strip here
-            block_citation = block.get('citation_string', "[溯源信息缺失]").strip() # Strip here
-
-            # Combine text and citation for each block
-            # The citation should directly follow the text it refers to.
-            # Adding a space for readability if block_text is not empty.
+            block_text = block.get('generated_text', "").strip()
+            block_citation = block.get('citation_string', "[溯源信息缺失]").strip()
             combined_text_with_citation = f"{block_text} {block_citation}" if block_text else block_citation
-
             formatted_blocks_for_integration += f"文本块 {i+1}:\n{combined_text_with_citation.strip()}\n---\n\n"
 
         try:
@@ -341,10 +339,8 @@ class ChapterWriterAgent(BaseAgent):
                 preliminary_content_blocks_formatted=formatted_blocks_for_integration.strip()
             )
         except KeyError as e:
-            logger.error(f"KeyError formatting integration_prompt_str: {e}. This might indicate missing keys in the prompt template. Using fallback prompt structure.")
-            # Fallback if the new keys are not in the template
+            logger.error(f"KeyError formatting integration_prompt_str: {e}. Using fallback.")
             integration_prompt_str = f"章节标题：\n{chapter_title}\n\n待整合的文本块列表：\n---\n{formatted_blocks_for_integration.strip()}\n---\n请整合内容。"
-
 
         try:
             logger.info(f"Sending {len(content_blocks)} content blocks to LLM for integration for chapter '{chapter_title}'. Prompt length: {len(integration_prompt_str)}")
@@ -354,10 +350,7 @@ class ChapterWriterAgent(BaseAgent):
             )
 
             if not integrated_chapter_text or not integrated_chapter_text.strip():
-                logger.warning(f"LLM returned empty content during integration for chapter: '{chapter_title}'. "
-                               "Falling back to simple concatenation of content blocks.")
-                # Fallback: return a concatenation of blocks if integration fails to produce output.
-                # This ensures that at least the snippet-level work is not lost.
+                logger.warning(f"LLM returned empty content during integration for chapter: '{chapter_title}'. Falling back to simple concatenation.")
                 concatenated_fallback_parts = []
                 for block in content_blocks:
                     concatenated_fallback_parts.append(f"{block.get('generated_text', '').strip()}\n{block.get('citation_string', '').strip()}")
@@ -366,18 +359,16 @@ class ChapterWriterAgent(BaseAgent):
             logger.info(f"LLM integration successful for chapter '{chapter_title}'. Output length: {len(integrated_chapter_text)}")
             return integrated_chapter_text.strip()
 
-        except LLMServiceError as e:
-            logger.error(f"LLM service error during content integration for chapter '{chapter_title}': {e}", exc_info=True)
-            # Fallback: return a concatenation of blocks with an error message
-            error_intro = f"[系统提示：章节内容整合因LLM服务错误而失败 (错误详情: {e})。以下为基于各片段的初步生成内容，可能未完全整合：]\n\n"
+        except LLMServiceError as e_llm_integrate:
+            logger.error(f"LLM service error during content integration for chapter '{chapter_title}': {e_llm_integrate}", exc_info=True)
+            error_intro = f"[系统提示：章节内容整合因LLM服务错误而失败 (错误详情: {e_llm_integrate})。以下为基于各片段的初步生成内容，可能未完全整合：]\n\n"
             concatenated_fallback_parts = []
             for block in content_blocks:
                  concatenated_fallback_parts.append(f"{block.get('generated_text', '').strip()}\n{block.get('citation_string', '').strip()}")
             return error_intro + "\n\n".join(concatenated_fallback_parts).strip()
-        except Exception as e_integration:
-            logger.error(f"Unexpected error during content integration for chapter '{chapter_title}': {e_integration}", exc_info=True)
-            # Fallback for unexpected errors
-            error_intro = f"[系统提示：章节内容整合因发生意外错误而失败 (错误详情: {e_integration})。以下为基于各片段的初步生成内容，可能未完全整合：]\n\n"
+        except Exception as e_integration_unexpected:
+            logger.error(f"Unexpected error during content integration for chapter '{chapter_title}': {e_integration_unexpected}", exc_info=True)
+            error_intro = f"[系统提示：章节内容整合因发生意外错误而失败 (错误详情: {e_integration_unexpected})。以下为基于各片段的初步生成内容，可能未完全整合：]\n\n"
             concatenated_fallback_parts = []
             for block in content_blocks:
                 concatenated_fallback_parts.append(f"{block.get('generated_text', '').strip()}\n{block.get('citation_string', '').strip()}")

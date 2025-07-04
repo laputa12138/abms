@@ -14,9 +14,10 @@ TASK_TYPE_WRITE_CHAPTER = "write_chapter"
 TASK_TYPE_EVALUATE_CHAPTER = "evaluate_chapter"
 TASK_TYPE_REFINE_CHAPTER = "refine_chapter"
 TASK_TYPE_COMPILE_REPORT = "compile_report"
-TASK_TYPE_GLOBAL_RETRIEVE_FOR_OUTLINE = "global_retrieve_for_outline" # New task type
-TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT = "suggest_outline_refinement" # Agent can suggest
-TASK_TYPE_APPLY_OUTLINE_REFINEMENT = "apply_outline_refinement" # Pipeline/Orchestrator handles this
+TASK_TYPE_GLOBAL_RETRIEVE_FOR_OUTLINE = "global_retrieve_for_outline"
+TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT = "suggest_outline_refinement"
+TASK_TYPE_APPLY_OUTLINE_REFINEMENT = "apply_outline_refinement"
+TASK_TYPE_RESOLVE_MISSING_CONTENT = "resolve_missing_content" # New Task Type
 
 # Define chapter status constants
 STATUS_PENDING = "pending"
@@ -69,18 +70,36 @@ class WorkflowState:
             'outline_finalized': False, # Can be set to True to prevent further outline changes
             'report_compilation_requested': False, # Flag to trigger compilation when all else is done
             'report_generation_complete': False,
-            'max_iterations_reached_for_all_chapters': False # Placeholder
+            'max_iterations_reached_for_all_chapters': False, # Placeholder
+            'missing_content_resolution_requested': False, # New flag
+            'missing_content_resolution_completed': False, # New flag
         }
         self.error_count: int = 0
         self.current_processing_task_id: Optional[str] = None
 
         self.log_event("WorkflowState initialized.", {"user_topic": user_topic, "report_title": self.report_title, "workflow_id": self.workflow_id})
 
-    def log_event(self, message: str, details: Optional[Dict[str, Any]] = None):
+    def log_event(self, message: str, details: Optional[Dict[str, Any]] = None, level: str = "INFO"): # Added level
         timestamp = datetime.now()
-        log_entry = (timestamp, message, details or {})
+        # Store log level in details if not already there, for richer file logs
+        log_details = details or {}
+        if 'level' not in log_details: # Allow details to override default level for this entry
+            log_details['level_implicit'] = level.upper()
+
+
+        log_entry = (timestamp, message, log_details) # Storing tuple in memory
         self.workflow_log.append(log_entry)
-        logger.debug(f"[WorkflowState Log - {timestamp.isoformat()}] {message} {details or ''}")
+
+        # For direct logger output, use the level
+        if level.upper() == "ERROR":
+            logger.error(f"[WF Log] {message} {log_details if log_details else ''}")
+        elif level.upper() == "WARNING":
+            logger.warning(f"[WF Log] {message} {log_details if log_details else ''}")
+        elif level.upper() == "DEBUG":
+            logger.debug(f"[WF Log] {message} {log_details if log_details else ''}")
+        else: # INFO and others
+            logger.info(f"[WF Log] {message} {log_details if log_details else ''}")
+
 
     def add_task(self, task_type: str, payload: Optional[Dict[str, Any]] = None, priority: int = 0) -> str:
         task_id = str(uuid.uuid4())
@@ -118,21 +137,56 @@ class WorkflowState:
         # For now, we just log its completion and move it to completed_tasks.
 
         # Find the original task dict to move it (this part is a bit simplified)
-        original_task_ref = None
+        # original_task_ref = None # Not used currently
         # This is inefficient, a better way would be to hold the task object.
         # For now, let's assume the calling context has the task dict.
         # We'll just record its completion.
 
+        # Attempt to find more details about the task being completed if it was the current one
+        task_type_for_log = "UnknownType"
+        # This reconstruction is imperfect because task object is not passed to complete_task.
+        # Agents should log their own completion with type. Orchestrator handles tasks it directly manages.
+        # For now, rely on task_id.
+
         completed_task_info = {
             'id': task_id,
-            'completed_at': datetime.now(),
+            'type': task_type_for_log, # Placeholder, ideally agent sets this or Orchestrator reconstructs
+            'completed_at': datetime.now().isoformat(),
             'status': status,
-            'result_summary': result_summary or "N/A"
+            'message': result_summary or "N/A" # Using message field consistent with add_task
         }
         self.completed_tasks.append(completed_task_info)
-        self.log_event(f"Task completed: {task_id}", {"status": status, "result": result_summary})
+
+        log_level = "INFO"
         if status == 'failed':
             self.increment_error_count()
+            log_level = "ERROR"
+
+        self.log_event(f"Task completed: {task_id} (Type: {task_type_for_log})",
+                       {"status": status, "result_summary": result_summary}, level=log_level)
+
+        if self.current_processing_task_id == task_id:
+            self.current_processing_task_id = None # Clear if it was the active task
+
+        # Specific post-completion actions based on task type
+        # This requires knowing the task type. If an agent calls this, it should ensure
+        # workflow_state is updated with any flags. Orchestrator handles its own managed tasks' flags.
+        # Example for a task type that this method might know about (e.g. if Orchestrator calls it):
+        # if task_type_for_log == TASK_TYPE_RESOLVE_MISSING_CONTENT and status == 'success':
+        #    self.set_flag('missing_content_resolution_completed', True)
+        # This is now handled more directly by agents or orchestrator setting flags.
+        # However, if an Agent calls complete_task, it's also responsible for setting its output flags.
+        # Let's add the specific flag setting for RESOLVE_MISSING_CONTENT here if it's completed.
+        # This assumes 'task_type_for_log' could be correctly identified or passed.
+        # For a cleaner design, agent's execute_task should set this flag before calling complete_task.
+        # Let's assume for now that the MissingContentResolutionAgent will set this flag itself.
+        # The Orchestrator will set it for tasks it manages directly.
+        # The logic in complete_task in previous iteration was:
+        # if task_type_of_completed_task == TASK_TYPE_RESOLVE_MISSING_CONTENT and status == 'success':
+        #    self.set_flag('missing_content_resolution_completed', True)
+        # This requires task_type_of_completed_task to be known.
+        # The MissingContentResolutionAgent itself calls complete_task and will set this flag.
+
 
     def update_topic_analysis(self, results: Dict[str, Any]):
         self.topic_analysis_results = results
@@ -265,6 +319,36 @@ class WorkflowState:
             if chapter_info and chapter_info.get('status') == STATUS_COMPLETED:
                 count += 1
         return count
+
+    def are_all_chapter_tasks_processed_or_terminal(self) -> bool:
+        """
+        Checks if all chapter-specific tasks are done or if chapters are in a terminal state
+        (e.g., completed or errored out with no more processing tasks for them).
+        This is used by Orchestrator to decide when to move to MissingContentResolution or Compilation.
+        """
+        if not self.parsed_outline or not self.get_flag('outline_finalized', False):
+            # If there's no outline or it's not finalized, chapter processing hasn't meaningfully concluded.
+            self.log_event("are_all_chapter_tasks_processed_or_terminal: False (no parsed_outline or outline not finalized).", level="DEBUG")
+            return False
+
+        # Check if any chapter-specific tasks are still pending in the main task queue.
+        # These are tasks that would lead to content generation or modification for a chapter.
+        chapter_processing_task_types = [
+            TASK_TYPE_PROCESS_CHAPTER, TASK_TYPE_RETRIEVE_FOR_CHAPTER,
+            TASK_TYPE_WRITE_CHAPTER, TASK_TYPE_EVALUATE_CHAPTER, TASK_TYPE_REFINE_CHAPTER
+        ]
+        for task in self.pending_tasks:
+            if task['type'] in chapter_processing_task_types:
+                self.log_event(f"are_all_chapter_tasks_processed_or_terminal: False (pending task found: {task['id']}, type: {task['type']}).", level="DEBUG")
+                return False # Found an active chapter processing task, so not all are done.
+
+        # If the queue is clear of these tasks, it implies that for every chapter,
+        # either it reached STATUS_COMPLETED, or it reached STATUS_ERROR and no further
+        # automated processing tasks (like refine/rewrite loops) were added for it.
+        # The MissingContentResolutionAgent will then get a chance to inspect actual content.
+        self.log_event("are_all_chapter_tasks_processed_or_terminal: True (no pending chapter-specific tasks in queue).", level="DEBUG")
+        return True
+
 
     def increment_error_count(self):
         self.error_count += 1
