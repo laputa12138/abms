@@ -157,8 +157,9 @@ class ChapterWriterAgent(BaseAgent):
         workflow_state.log_event(f"Relevance check complete for chapter '{chapter_title}'. Relevant docs: {len(relevant_docs_for_generation)}/{len(all_retrieved_docs)}",
                                  {"chapter_key": chapter_key, "relevant_count": len(relevant_docs_for_generation), "total_initial_count": len(all_retrieved_docs)})
 
-        # Initialize list to store content blocks
-        content_blocks: List[Dict[str, str]] = []
+        # Initialize list to store content blocks and structured citations
+        content_blocks: List[Dict[str, str]] = [] # For LLM integration prompt
+        all_snippet_citation_jsons_for_chapter: List[Dict] = [] # For structured storage
 
         if not relevant_docs_for_generation:
             logger.warning(f"No relevant documents found for chapter '{chapter_title}'. Integration step will handle this.")
@@ -166,13 +167,14 @@ class ChapterWriterAgent(BaseAgent):
         else:
             logger.info(f"Generating content for chapter '{chapter_title}' snippet by snippet using {len(relevant_docs_for_generation)} relevant documents.")
             for i, doc in enumerate(relevant_docs_for_generation):
-                single_doc_text = doc.get('document', '')
-                if not single_doc_text.strip():
-                    logger.warning(f"Skipping snippet generation for doc ID '{doc.get('parent_id', 'unknown')}' from source '{doc.get('source_document_name', 'unknown')}' due to empty content.")
-                    continue
+                single_doc_text = doc.get('document', '') # This is the parent chunk text
+                doc_name = doc.get('source_document_name', '未知文档')
+                doc_score = doc.get('score')
+                doc_chunk_id = doc.get('parent_id', doc.get('child_id', 'unknown_id'))
 
-                # The _format_single_snippet_for_llm is very simple now, directly passing single_doc_text to prompt.
-                # formatted_snippet = self._format_single_snippet_for_llm(single_doc_text)
+                if not single_doc_text.strip():
+                    logger.warning(f"Skipping snippet generation for doc ID '{doc_chunk_id}' from source '{doc_name}' due to empty content.")
+                    continue
 
                 try:
                     snippet_writer_prompt = self.single_snippet_writer_prompt_template.format(
@@ -182,76 +184,96 @@ class ChapterWriterAgent(BaseAgent):
                         single_document_snippet=single_doc_text
                     )
                 except KeyError as e:
-                    logger.error(f"KeyError formatting snippet_writer_prompt: {e}. This might indicate missing keys in the prompt template. Using fallback prompt structure.")
-                    # Fallback if the new keys are not in the template (e.g. old template still in use)
+                    logger.error(f"KeyError formatting snippet_writer_prompt: {e}. Using fallback.")
                     snippet_writer_prompt = f"章节标题：\n{chapter_title}\n\n单一段落参考资料：\n\"\"\"\n{single_doc_text}\n\"\"\"\n\n请撰写内容。"
 
+                preliminary_text_str = ""
+                citation_json_for_snippet = {
+                    "generated_snippet_id": f"snippet_{chapter_key}_{i}",
+                    "generated_text": "", # Will be filled after LLM call
+                    "source_references": [{
+                        "document_name": doc_name,
+                        "original_text_snippet": single_doc_text, # Storing parent chunk text
+                        "retrieved_score": doc_score,
+                        "document_chunk_id": doc_chunk_id
+                    }]
+                }
 
                 try:
-                    logger.debug(f"Generating text for snippet {i+1}/{len(relevant_docs_for_generation)} of chapter '{chapter_title}'. Snippet source: {doc.get('source_document_name', 'unknown')}")
-                    preliminary_text = self.llm_service.chat(
+                    logger.debug(f"Generating text for snippet {i+1}/{len(relevant_docs_for_generation)} of chapter '{chapter_title}'. Snippet source: {doc_name}")
+                    preliminary_text_str = self.llm_service.chat(
                         query=snippet_writer_prompt,
                         system_prompt="你是一位专业的报告撰写员，请根据提供的单一段落参考资料撰写相关的描述性内容。"
                     )
 
-                    if not preliminary_text or not preliminary_text.strip():
-                        logger.warning(f"LLM returned empty content for snippet from doc: {doc.get('source_document_name', 'unknown')} for chapter '{chapter_title}'. Using empty string.")
-                        preliminary_text = ""
-
-                    citation_for_snippet = self._generate_citations_string(doc)
-
-                    content_blocks.append({
-                        "generated_text": preliminary_text.strip(),
-                        "citation_string": citation_for_snippet
-                    })
-                    logger.debug(f"Generated content block for snippet {i+1}. Text length: {len(preliminary_text)}, Citation: {citation_for_snippet}")
+                    if not preliminary_text_str or not preliminary_text_str.strip():
+                        logger.warning(f"LLM returned empty content for snippet from doc: {doc_name} for chapter '{chapter_title}'. Using empty string.")
+                        preliminary_text_str = ""
 
                 except LLMServiceError as e:
-                    err_msg_snippet = f"LLM service failed while generating text for snippet from doc {doc.get('source_document_name', 'unknown')} in chapter '{chapter_title}': {e}"
-                    logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg_snippet}", exc_info=False) # Keep log less verbose for expected errors
-                    # Add a placeholder error block to content_blocks to signify failure for this part
-                    content_blocks.append({
-                        "generated_text": f"[系统提示：生成此部分内容时遇到LLM服务错误 - {e}]",
-                        "citation_string": self._generate_citations_string(doc) # Still cite the problematic source
-                    })
-                except Exception as e_snippet: # Catch any other unexpected error during snippet generation
-                    err_msg_snippet_unexpected = f"Unexpected error generating content for snippet from doc {doc.get('source_document_name', 'unknown')} in chapter '{chapter_title}': {e_snippet}"
+                    err_msg_snippet = f"LLM service failed while generating text for snippet from doc {doc_name} in chapter '{chapter_title}': {e}"
+                    logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg_snippet}", exc_info=False)
+                    preliminary_text_str = f"[系统提示：生成此部分内容时遇到LLM服务错误 - {e}]"
+                except Exception as e_snippet:
+                    err_msg_snippet_unexpected = f"Unexpected error generating content for snippet from doc {doc_name} in chapter '{chapter_title}': {e_snippet}"
                     logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg_snippet_unexpected}", exc_info=True)
-                    content_blocks.append({
-                        "generated_text": f"[系统提示：生成此部分内容时发生意外错误 - {e_snippet}]",
-                        "citation_string": self._generate_citations_string(doc)
-                    })
+                    preliminary_text_str = f"[系统提示：生成此部分内容时发生意外错误 - {e_snippet}]"
 
-        # --- Integration Step (to be fully implemented in Plan Step 3) ---
-        # This section will call a new method like self._integrate_chapter_content(chapter_title, content_blocks)
-        # and use its result as final_chapter_text_with_citations.
+                # Update generated_text in citation_json and add to list
+                citation_json_for_snippet["generated_text"] = preliminary_text_str.strip()
+                all_snippet_citation_jsons_for_chapter.append(citation_json_for_snippet)
 
-        # For now, as a temporary measure until integration is built,
-        # we will just log that snippet generation is done and prepare for integration.
-        # The actual update to WorkflowState with final content will happen *after* integration.
+                # Prepare content_block for integration (uses string citation)
+                citation_string_for_integration = self._generate_citations_string(doc)
+                content_blocks.append({
+                    "generated_text": preliminary_text_str.strip(),
+                    "citation_string": citation_string_for_integration
+                })
+                logger.debug(f"Generated content block for snippet {i+1}. Text length: {len(preliminary_text_str)}, Citation (string): {citation_string_for_integration}")
 
         logger.info(f"[{self.agent_name}] Task ID: {task_id} - Preliminary content blocks generation phase complete for chapter '{chapter_title}'. {len(content_blocks)} blocks generated.")
-        if not content_blocks and relevant_docs_for_generation: # All snippet generations failed
+        if not content_blocks and relevant_docs_for_generation:
              workflow_state.add_chapter_error(chapter_key, "All snippet generation attempts failed.")
-             # Fall through to integration, which might produce an error chapter or empty.
 
         # --- Actual Integration Step ---
         try:
             logger.info(f"Proceeding to content integration for chapter '{chapter_title}'.")
-            # Pass global context to integration step
             final_integrated_content = self._integrate_chapter_content(
                 chapter_title=chapter_title,
-                content_blocks=content_blocks,
+                content_blocks=content_blocks, # These still contain the string citations for the prompt
                 report_global_theme=report_global_theme,
                 key_terms_definitions_formatted=key_terms_definitions_formatted
             )
 
-            # Update WorkflowState with the integrated content
+            # Append formatted citations from JSON to the end of the integrated content
+            appended_citations_text = "\n\n" # Start with newlines to separate from main content
+            if all_snippet_citation_jsons_for_chapter:
+                appended_citations_text += "--- 参考来源列表 ---\n"
+                for idx, citation_json in enumerate(all_snippet_citation_jsons_for_chapter):
+                    source_ref = citation_json.get("source_references", [{}])[0] # Assuming one primary reference per snippet
+                    doc_name = source_ref.get("document_name", "未知文档")
+                    original_snippet = source_ref.get("original_text_snippet", "无原始片段")
+                    # generated_text_for_ref = citation_json.get("generated_text", "N/A") # Could be used to show what text this refers to
+
+                    appended_citations_text += (
+                        f"\n[{idx+1}] 文档名: {doc_name}\n"
+                        # Optional: f"   对应生成内容片段: \"{generated_text_for_ref[:50]}...\"\n"
+                        f"   原始参考依据: \"{original_snippet[:200]}...\"\n" # Truncate for readability
+                    )
+                appended_citations_text += "\n--- 参考来源列表结束 ---\n"
+                final_content_with_appended_citations = final_integrated_content + appended_citations_text
+            else:
+                final_content_with_appended_citations = final_integrated_content
+                logger.info(f"No structured citations to append for chapter '{chapter_title}'.")
+
+
+            # Update WorkflowState with the integrated content (now including appended citations) AND the structured citations
             workflow_state.update_chapter_content(
                 chapter_key,
-                final_integrated_content,
-                retrieved_docs=relevant_docs_for_generation, # Store the list of docs that went into snippets
-                is_new_version=False
+                final_content_with_appended_citations, # Save content with appended string citations
+                retrieved_docs=relevant_docs_for_generation,
+                citations_structured_list=all_snippet_citation_jsons_for_chapter, # Still save the raw JSON data
+                is_new_version=False # Assuming this is the first write after retrieval for this version
             )
             workflow_state.update_chapter_status(chapter_key, STATUS_EVALUATION_NEEDED)
 

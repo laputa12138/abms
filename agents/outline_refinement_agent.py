@@ -18,62 +18,13 @@ class OutlineRefinementAgent(BaseAgent):
     It uses an LLM to analyze the current outline and propose changes.
     """
 
-    DEFAULT_PROMPT_TEMPLATE = """\
-You are an expert outline reviewer and refiner. Your task is to review the provided report outline and suggest specific improvements.
-The report is about: {topic_description}
-
-Current Outline (Markdown format):
----
-{current_outline_md}
----
-
-Current Outline (Parsed Structure with IDs):
----
-{parsed_outline_json}
----
-
-Globally Retrieved Information (Preliminary context for each chapter based on titles):
----
-{global_retrieved_info_summary}
----
-
-Based on the current outline AND the globally retrieved information, please suggest refinements to make the outline more logical, comprehensive, coherent, and well-structured.
-Pay attention to:
-- Whether the retrieved information suggests missing subtopics or new relevant chapters.
-- Whether any chapters seem to have very little supporting information, perhaps indicating they are too niche or could be merged.
-- Whether information for different chapters seems highly overlapping, suggesting potential merges or restructuring.
-
-Consider the following types of changes:
-- Add new chapters or sub-chapters where important information seems missing (especially if suggested by retrieved content).
-- Delete chapters or sub-chapters that are redundant, irrelevant, or too granular.
-- Modify titles of chapters or sub-chapters to be clearer, more concise, or more impactful.
-- Reorder chapters or sub-chapters for better flow and logical progression.
-- Merge chapters that are too similar or cover overlapping content.
-- Split chapters that are too broad or cover multiple distinct topics.
-- Adjust levels (indentation) of chapters for proper hierarchy.
-
-Constraints (if any):
-- Maximum chapters: {max_chapters}
-- Minimum chapters: {min_chapters}
-
-Provide your suggestions as a JSON list of operations. Each operation should be an object with an "action" key and other necessary keys.
-Supported actions and their formats:
-1.  `{{ "action": "add", "title": "New Chapter Title", "level": <level_num>, "after_id": "<id_of_chapter_before_it_or_null>" }}` (if after_id is null, appends to the end of that level or overall outline)
-2.  `{{ "action": "delete", "id": "<chapter_id_to_delete>" }}`
-3.  `{{ "action": "modify_title", "id": "<chapter_id_to_modify>", "new_title": "Revised Title" }}`
-4.  `{{ "action": "modify_level", "id": "<chapter_id_to_modify>", "new_level": <level_num> }}`
-5.  `{{ "action": "move", "id": "<chapter_id_to_move>", "after_id": "<id_of_chapter_to_move_it_after_or_null>" }}` (if after_id is null, move to beginning of its level or overall outline)
-6.  `{{ "action": "merge", "primary_id": "<chapter_id_to_merge_into>", "secondary_id": "<chapter_id_to_be_merged_and_deleted>", "new_title_for_primary": "Optional new title" }}`
-7.  `{{ "action": "split", "id": "<chapter_id_to_split>", "new_chapters": [{{ "title": "Part 1", "level": <level_num> }}, {{ "title": "Part 2", "level": <level_num> }}] }}` (original chapter with 'id' will be deleted, new chapters get new IDs)
-
-If no refinements are needed, return an empty JSON list: `[]`.
-
-JSON Output of Suggested Refinements:
-"""
+    # DEFAULT_PROMPT_TEMPLATE is now moved to config.settings.py as DEFAULT_OUTLINE_REFINEMENT_PROMPT_CN
 
     def __init__(self, llm_service: LLMService, prompt_template: Optional[str] = None):
         super().__init__(agent_name="OutlineRefinementAgent", llm_service=llm_service)
-        self.prompt_template = prompt_template or self.DEFAULT_PROMPT_TEMPLATE
+        # Import the prompt from settings
+        from config.settings import DEFAULT_OUTLINE_REFINEMENT_PROMPT_CN
+        self.prompt_template = prompt_template or DEFAULT_OUTLINE_REFINEMENT_PROMPT_CN
         if not self.llm_service:
             raise OutlineRefinementAgentError("LLMService is required for OutlineRefinementAgent.")
 
