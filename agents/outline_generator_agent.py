@@ -1,11 +1,12 @@
 import logging
 import json
-from typing import Dict, Optional, List # Added List
+from typing import Dict, Optional, List, Any # Added Any
 import uuid # For generating chapter IDs
 
 from agents.base_agent import BaseAgent
 from core.llm_service import LLMService, LLMServiceError
 from core.workflow_state import WorkflowState, TASK_TYPE_PROCESS_CHAPTER # Import constants
+from core.retrieval_service import RetrievalService, RetrievalServiceError # Added
 # It might be useful to have a temporary ReportCompiler instance for its parsing logic,
 # or replicate a simplified parser here if ReportCompilerAgent isn't available yet or for decoupling.
 from agents.report_compiler_agent import ReportCompilerAgent # Assuming it's available for parsing
@@ -18,24 +19,31 @@ class OutlineGeneratorAgentError(Exception):
 
 class OutlineGeneratorAgent(BaseAgent):
     """
-    Agent responsible for generating a report outline based on topic analysis results.
+    Agent responsible for generating a report outline based on topic analysis results
+    and retrieved context.
     Updates the WorkflowState with the generated outline (both MD and parsed structure)
     and adds tasks to process each chapter.
     """
 
     # DEFAULT_PROMPT_TEMPLATE will be removed and sourced from settings
 
-    def __init__(self, llm_service: LLMService, prompt_template: Optional[str] = None):
+    def __init__(self,
+                 llm_service: LLMService,
+                 retrieval_service: RetrievalService, # Added
+                 prompt_template: Optional[str] = None):
         super().__init__(agent_name="OutlineGeneratorAgent", llm_service=llm_service)
-        from config import settings as app_settings
+        from config import settings as app_settings # Import here to avoid circular dependency at module load time
         self.prompt_template = prompt_template or app_settings.DEFAULT_OUTLINE_GENERATOR_PROMPT
         if not self.llm_service:
             raise OutlineGeneratorAgentError("LLMService is required for OutlineGeneratorAgent.")
+        if not retrieval_service: # Added check for retrieval_service
+            raise OutlineGeneratorAgentError("RetrievalService is required for OutlineGeneratorAgent.")
+        self.retrieval_service = retrieval_service # Added
+
         # For parsing the generated Markdown outline into a structured list with IDs
-        # We can use the parser from ReportCompilerAgent or a similar one here.
         self._outline_parser = ReportCompilerAgent() # Temporary instance for parsing
 
-    def _parse_markdown_outline_with_ids(self, markdown_outline: str) -> List[Dict[str, any]]:
+    def _parse_markdown_outline_with_ids(self, markdown_outline: str) -> List[Dict[str, Any]]:
         """
         Parses a Markdown list outline and adds unique IDs to each item.
         Leverages ReportCompilerAgent's parsing logic or a similar internal parser.
@@ -110,16 +118,58 @@ class OutlineGeneratorAgent(BaseAgent):
 
         topic_cn = analyzed_topic["generalized_topic_cn"]
         topic_en = analyzed_topic["generalized_topic_en"]
-        keywords_cn_str = ", ".join(analyzed_topic["keywords_cn"])
-        keywords_en_str = ", ".join(analyzed_topic["keywords_en"])
+        keywords_cn = analyzed_topic["keywords_cn"]
+        keywords_en = analyzed_topic["keywords_en"]
+        keywords_cn_str = ", ".join(keywords_cn)
+        keywords_en_str = ", ".join(keywords_en)
+
+        # --- New: Retrieve context before generating outline ---
+        retrieved_context_str = "无相关参考资料。" # Default if nothing found or error
+        try:
+            # Combine topic and keywords for a comprehensive query
+            query_parts = [topic_cn, topic_en] + keywords_cn + keywords_en
+            # Remove duplicates and filter out empty strings
+            # Also, join with space, as RetrievalService._tokenize_query splits by space.
+            retrieval_query = " ".join(list(filter(None, dict.fromkeys(query_parts))))
+
+
+            if retrieval_query.strip():
+                logger.info(f"[{self.agent_name}] Retrieving initial context for outline generation with query: '{retrieval_query}'")
+                # Using final_top_n for the number of documents to retrieve for context
+                # TODO: Make PRE_OUTLINE_RETRIEVAL_TOP_N configurable in settings.py
+                PRE_OUTLINE_RETRIEVAL_TOP_N = 3
+                retrieved_docs = self.retrieval_service.retrieve(
+                    query_text=retrieval_query,
+                    final_top_n=PRE_OUTLINE_RETRIEVAL_TOP_N
+                )
+                if retrieved_docs:
+                    context_parts = []
+                    for i, doc in enumerate(retrieved_docs):
+                        # Using parent_text which is the 'document' field from RetrievalService
+                        context_parts.append(f"参考资料片段 {i+1}:\n\"\"\"\n{doc.get('document', '')}\n\"\"\"")
+                    retrieved_context_str = "\n\n".join(context_parts)
+                    logger.info(f"[{self.agent_name}] Successfully retrieved {len(retrieved_docs)} documents for pre-outline context.")
+                else:
+                    logger.info(f"[{self.agent_name}] No documents found during pre-outline retrieval for query: '{retrieval_query}'")
+            else:
+                logger.info(f"[{self.agent_name}] Retrieval query is empty. Skipping pre-outline retrieval.")
+
+        except RetrievalServiceError as r_err:
+            logger.error(f"[{self.agent_name}] RetrievalService failed during pre-outline context retrieval: {r_err}")
+            # Fallback to default retrieved_context_str
+        except Exception as e:
+            logger.error(f"[{self.agent_name}] Unexpected error during pre-outline context retrieval: {e}", exc_info=True)
+            # Fallback to default retrieved_context_str
+        # --- End of new retrieval section ---
 
         prompt = self.prompt_template.format(
             topic_cn=topic_cn, topic_en=topic_en,
-            keywords_cn=keywords_cn_str, keywords_en=keywords_en_str
+            keywords_cn=keywords_cn_str, keywords_en=keywords_en_str,
+            retrieved_context=retrieved_context_str # Added new context
         )
 
         try:
-            logger.info(f"Sending request to LLM for outline generation. Topic: '{topic_cn}'")
+            logger.info(f"Sending request to LLM for outline generation. Topic: '{topic_cn}'. Context provided: {len(retrieved_context_str)} chars.")
             outline_markdown = self.llm_service.chat(query=prompt, system_prompt="你是一个专业的报告大纲规划师。")
             logger.debug(f"Raw LLM response for outline generation: {outline_markdown}")
 
@@ -191,6 +241,17 @@ if __name__ == '__main__':
 
     # Mock WorkflowState for testing
     from core.workflow_state import WorkflowState, TASK_TYPE_GLOBAL_RETRIEVE_FOR_OUTLINE # Updated import
+    from core.retrieval_service import RetrievalService # For mock
+
+    class MockRetrievalServiceForOGA: # OGA for OutlineGeneratorAgent
+        def retrieve(self, query_text: str, final_top_n: int) -> List[Dict[str, Any]]:
+            logger.debug(f"MockRetrievalServiceForOGA.retrieve called with query: '{query_text}', final_top_n={final_top_n}")
+            if "ABMS" in query_text:
+                return [
+                    {"document": "这是关于ABMS的第一个参考资料片段。", "score": 0.9, "child_text_preview": "ABMS片段1...", "child_id": "c1", "parent_id": "p1", "source_document_name": "docA.txt", "retrieval_source": "mock_vector"},
+                    {"document": "ABMS的第二个重要参考信息。", "score": 0.8, "child_text_preview": "ABMS片段2...", "child_id": "c2", "parent_id": "p2", "source_document_name": "docB.txt", "retrieval_source": "mock_vector"}
+                ]
+            return []
 
     class MockWorkflowStateOGA(WorkflowState): # OGA for OutlineGeneratorAgent
         def __init__(self, user_topic: str, topic_analysis_results: Dict):
@@ -211,7 +272,9 @@ if __name__ == '__main__':
 
 
     llm_service_instance = MockLLMService()
-    outline_agent = OutlineGeneratorAgent(llm_service=llm_service_instance)
+    retrieval_service_instance = MockRetrievalServiceForOGA() # Create mock retrieval
+    # Pass retrieval_service to constructor
+    outline_agent = OutlineGeneratorAgent(llm_service=llm_service_instance, retrieval_service=retrieval_service_instance)
 
     mock_topic_analysis = {
         "generalized_topic_cn": "ABMS系统", "generalized_topic_en": "ABMS",

@@ -105,8 +105,9 @@ DEFAULT_TOPIC_ANALYZER_PROMPT = """你是一个主题分析专家。请分析以
 """
 
 # --- OutlineGeneratorAgent ---
-DEFAULT_OUTLINE_GENERATOR_PROMPT = """你是一个报告大纲撰写助手。请根据以下主题和关键词，生成一份详细的中文报告大纲。
+DEFAULT_OUTLINE_GENERATOR_PROMPT = """你是一个报告大纲撰写助手。请根据以下主题、关键词以及提供的参考资料，生成一份详细的中文报告大纲。
 大纲应包含主要章节和子章节（如果适用）。请确保大纲结构清晰、逻辑连贯，并覆盖主题的核心方面。
+如果参考资料与主题相关，请尝试在大纲中体现参考资料中的关键信息点，并确保这些章节有据可循。
 
 主题：
 {topic_cn} (英文参考: {topic_en})
@@ -115,13 +116,18 @@ DEFAULT_OUTLINE_GENERATOR_PROMPT = """你是一个报告大纲撰写助手。请
 中文: {keywords_cn}
 英文: {keywords_en}
 
+参考资料：
+---
+{retrieved_context}
+---
+
 请以Markdown列表格式返回大纲。例如：
 - 章节一：介绍
   - 1.1 背景
   - 1.2 研究意义
-- 章节二：主要发现
-  - 2.1 发现点A
-  - 2.2 发现点B
+- 章节二：主要发现 (可能基于参考资料)
+  - 2.1 发现点A (来自资料1)
+  - 2.2 发现点B (来自资料2)
 - 章节三：结论
 
 输出的大纲内容：

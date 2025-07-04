@@ -101,7 +101,9 @@ class ReportGenerationPipeline:
 
         # Initialize agents that don't depend on dynamically configured retrieval params here
         self.topic_analyzer = TopicAnalyzerAgent(llm_service=self.llm_service)
-        self.outline_generator = OutlineGeneratorAgent(llm_service=self.llm_service)
+        # self.outline_generator will be initialized in _initialize_retrieval_and_orchestration_components
+        # after retrieval_service is available.
+        self.outline_generator: Optional[OutlineGeneratorAgent] = None
         # ContentRetrieverAgent is initialized in _initialize_retrieval_and_orchestration_components
         self.chapter_writer = ChapterWriterAgent(llm_service=self.llm_service)
         # EvaluatorAgent now gets its threshold from config.settings
@@ -144,15 +146,28 @@ class ReportGenerationPipeline:
             )
             self.workflow_state.log_event("ContentRetrieverAgent initialized using RetrievalService with effective parameters.")
 
+        # Initialize OutlineGeneratorAgent now that retrieval_service is available
+        if not self.outline_generator:
+            self.outline_generator = OutlineGeneratorAgent(
+                llm_service=self.llm_service,
+                retrieval_service=self.retrieval_service
+                # prompt_template can be omitted to use default from settings
+            )
+            self.workflow_state.log_event("OutlineGeneratorAgent initialized with RetrievalService.")
+
         self.global_content_retriever=GlobalContentRetrieverAgent(retrieval_service=self.retrieval_service,llm_service=self.llm_service)
         outline_refiner_prompt_template = getattr(settings, 'OUTLINE_REFINEMENT_PROMPT_TEMPLATE', None)
         self.outline_refinement_agent = OutlineRefinementAgent(llm_service=self.llm_service, prompt_template=outline_refiner_prompt_template)
 
         if not self.orchestrator:
+            # Ensure all agents required by orchestrator are initialized
+            if not self.outline_generator:
+                raise ReportGenerationPipelineError("OutlineGeneratorAgent failed to initialize before Orchestrator setup.")
+
             self.orchestrator = Orchestrator(
                 workflow_state=self.workflow_state,
                 topic_analyzer=self.topic_analyzer,
-                outline_generator=self.outline_generator,
+                outline_generator=self.outline_generator, # Now guaranteed to be initialized
                 global_content_retriever=self.global_content_retriever,
                 outline_refiner=self.outline_refinement_agent,
                 content_retriever=self.content_retriever_agent,
