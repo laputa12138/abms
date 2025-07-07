@@ -207,9 +207,15 @@ class RetrievalService:
         min_score_threshold = settings.DEFAULT_RETRIEVAL_MIN_SCORE_THRESHOLD
         if min_score_threshold > 0:
             results_before_thresholding_count = len(scored_results)
-            scored_results = [res for res in scored_results if res['final_score'] >= min_score_threshold]
+            results_after_thresholding = [res for res in scored_results if res['final_score'] >= min_score_threshold]
             logger.debug(f"Applied score threshold {min_score_threshold}. "
-                         f"Reduced results from {results_before_thresholding_count} to {len(scored_results)}.")
+                         f"Reduced results from {results_before_thresholding_count} to {len(results_after_thresholding)}.")
+
+            if results_before_thresholding_count > 0 and not results_after_thresholding:
+                logger.warning(f"All {results_before_thresholding_count} potential documents were filtered out by the score threshold {min_score_threshold}. "
+                               "This might lead to empty content for chapters if no documents met the quality criteria. "
+                               "Consider reviewing threshold, query formulation, or document quality/relevance if this happens frequently.")
+            scored_results = results_after_thresholding
 
         # --- 4. Optional Reranking (operates on parent_text of aggregated results) ---
         # Reranker needs a single representative query if it's query-dependent.

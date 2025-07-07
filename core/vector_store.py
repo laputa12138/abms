@@ -84,16 +84,28 @@ class VectorStore:
         child_metadata_for_store: List[Dict[str, Any]] = []
 
         for parent_info in parent_child_data:
-            parent_id = parent_info['parent_id']
-            parent_text = parent_info['parent_text']
-            source_doc_name = parent_info['source_document_name'] # Changed key name
+            parent_id = parent_info.get('parent_id')
+            parent_text = parent_info.get('parent_text')
+
+            if not parent_id or not parent_text:
+                logger.warning(f"Skipping parent_info due to missing 'parent_id' or 'parent_text'. Data: {str(parent_info)[:200]}")
+                continue
+
+            source_doc_name = parent_info.get('source_document_name')
+            if not source_doc_name:
+                logger.warning(f"Missing 'source_document_name' for parent_id: {parent_id}. Using default value 'Unknown Source Document'.")
+                source_doc_name = 'Unknown Source Document' # Provide a default value
 
             for child_info in parent_info.get('children', []):
-                child_id = child_info['child_id']
-                child_text = child_info['child_text']
+                child_id = child_info.get('child_id')
+                child_text = child_info.get('child_text') # Also make child_text access safe
 
-                if not child_text.strip():
-                    logger.debug(f"Skipping empty child chunk {child_id} from parent {parent_id}.")
+                if not child_id:
+                    logger.warning(f"Skipping child_info due to missing 'child_id' in parent {parent_id}. Data: {str(child_info)[:200]}")
+                    continue
+
+                if not child_text or not child_text.strip():
+                    logger.debug(f"Skipping empty or missing child_text for child_id {child_id} from parent {parent_id}.")
                     continue
 
                 child_texts_for_embedding.append(child_text)
@@ -214,9 +226,12 @@ class VectorStore:
                             'child_text': retrieved_item_meta['child_text'],
                             'parent_id': retrieved_item_meta['parent_id'],
                             'parent_text': retrieved_item_meta['parent_text'],
-                            'source_document_name': retrieved_item_meta['source_document_name'], # Changed key name
+                            'source_document_name': retrieved_item_meta.get('source_document_name', 'Unknown Source Document'),
                             'score': float(distances[0, i]) # L2 distance
                         }
+                        if 'source_document_name' not in retrieved_item_meta:
+                            logger.warning(f"Missing 'source_document_name' in document_store item for child_id: {retrieved_item_meta.get('child_id', 'Unknown Child ID')}. "
+                                           f"FAISS index: {doc_index_in_store}. Using default value.")
                         results.append(result_entry)
                     else:
                         logger.warning(f"Search returned invalid document index: {doc_index_in_store} "
@@ -263,8 +278,33 @@ class VectorStore:
                 self.document_store = data.get("document_store", [])
                 loaded_dimension = data.get("dimension")
 
+            # --- Metadata Compatibility Check ---
+            migrated_count = 0
+            defaulted_count = 0
+            if self.document_store:
+                logger.info(f"Performing metadata compatibility check for 'source_document_name' on {len(self.document_store)} loaded items...")
+                for i, item_meta in enumerate(self.document_store):
+                    if 'source_document_name' not in item_meta or not item_meta['source_document_name']:
+                        # Try to migrate from a known old key, e.g., 'doc_name'
+                        old_key_name = 'doc_name' # Example old key
+                        if old_key_name in item_meta and item_meta[old_key_name]:
+                            item_meta['source_document_name'] = item_meta[old_key_name]
+                            del item_meta[old_key_name] # Clean up old key
+                            migrated_count += 1
+                            logger.debug(f"Migrated '{old_key_name}' to 'source_document_name' for item at index {i} (child_id: {item_meta.get('child_id', 'N/A')}).")
+                        else:
+                            # If no old key to migrate from, set to default
+                            item_meta['source_document_name'] = 'Unknown Source Document (Loaded)'
+                            defaulted_count += 1
+                            logger.warning(f"Missing 'source_document_name' and no suitable old key for migration in loaded item at index {i} (child_id: {item_meta.get('child_id', 'N/A')}). Set to default.")
+            if migrated_count > 0:
+                logger.info(f"Successfully migrated 'source_document_name' for {migrated_count} items during load.")
+            if defaulted_count > 0:
+                logger.warning(f"Set 'source_document_name' to default for {defaulted_count} items during load due to missing information.")
+            # --- End Metadata Compatibility Check ---
+
             # Verify consistency
-            if self.index.d != loaded_dimension:
+            if loaded_dimension is not None and self.index.d != loaded_dimension:
                 logger.warning(f"Dimension mismatch: FAISS index dimension ({self.index.d}) "
                                f"vs loaded metadata dimension ({loaded_dimension}). Using FAISS index's.")
             self.dimension = self.index.d
