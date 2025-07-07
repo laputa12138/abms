@@ -10,6 +10,7 @@ from core.workflow_state import WorkflowState, TASK_TYPE_SUGGEST_OUTLINE_REFINEM
 from core.retrieval_service import RetrievalService # Assuming this service exists and is usable
 from core.llm_service import LLMService # Optional, for query generation or summarization
 from agents.content_retriever_agent import ContentRetrieverAgent # Fallback or helper
+from config import settings # Added import for settings
 
 logger = logging.getLogger(__name__)
 
@@ -32,23 +33,42 @@ class GlobalContentRetrieverAgent(BaseAgent):
         # Alternatively, could take a ContentRetrieverAgent instance.
         # self.content_retriever = content_retriever_agent
 
-    def _generate_query_for_chapter(self, chapter_title: str, topic_analysis: Optional[Dict] = None) -> str:
+    def _generate_queries_for_chapter(self, chapter_title: str, topic_analysis: Optional[Dict] = None, max_queries: int = 3) -> List[str]:
         """
-        Generates a search query for a given chapter title.
-        Can be enhanced with topic analysis details.
+        Generates a list of search queries for a given chapter title.
+        Includes the chapter title itself, combinations with the main topic, and with keywords.
         """
-        # Simple query for now
-        query = f"{chapter_title}"
-        if topic_analysis:
-            main_topic = topic_analysis.get("generalized_topic_cn", topic_analysis.get("generalized_topic_en", ""))
-            if main_topic:
-                query = f"{main_topic} {chapter_title}" # Combine topic with chapter title
+        queries = []
 
-            # Consider adding keywords, but be mindful of query length and specificity
-            # keywords = topic_analysis.get("keywords_cn", []) + topic_analysis.get("keywords_en", [])
-            # if keywords:
-            #     query += " " + " ".join(keywords[:3]) # Add a few keywords
-        return query
+        # Query 1: Just the chapter title
+        if chapter_title:
+            queries.append(chapter_title)
+
+        if topic_analysis:
+            main_topic_cn = topic_analysis.get("generalized_topic_cn", "")
+            main_topic_en = topic_analysis.get("generalized_topic_en", "")
+
+            # Query 2: Main topic + Chapter title (try both CN and EN main topics if available)
+            if main_topic_cn and chapter_title:
+                queries.append(f"{main_topic_cn} {chapter_title}")
+            if main_topic_en and chapter_title and main_topic_en != main_topic_cn: # Avoid duplicate if they are same
+                queries.append(f"{main_topic_en} {chapter_title}")
+
+            # Query 3: Chapter title + some keywords
+            keywords_cn = topic_analysis.get("keywords_cn", [])
+            keywords_en = topic_analysis.get("keywords_en", [])
+
+            all_keywords = list(dict.fromkeys(keywords_cn + keywords_en)) # Combine and deduplicate
+
+            if chapter_title and all_keywords:
+                # Take first few keywords to keep query focused
+                relevant_keywords_str = " ".join(all_keywords[:2]) # e.g., first 2 keywords
+                queries.append(f"{chapter_title} {relevant_keywords_str}".strip())
+
+        # Deduplicate and filter empty/whitespace queries, then limit
+        final_queries = list(dict.fromkeys(q.strip() for q in queries if q and q.strip()))
+        return final_queries[:max_queries]
+
 
     def execute_task(self, workflow_state: WorkflowState, task_payload: Dict) -> None:
         task_id = workflow_state.current_processing_task_id
@@ -76,19 +96,32 @@ class GlobalContentRetrieverAgent(BaseAgent):
                 logger.warning(f"[{self.agent_name}] Skipping chapter item with missing ID or title: {chapter_item}")
                 continue
 
-            query = self._generate_query_for_chapter(chapter_title, topic_analysis_results)
-            logger.info(f"[{self.agent_name}] Retrieving global context for chapter ID '{chapter_id}' (Title: '{chapter_title}') using query: '{query}'")
+            # Generate multiple queries for the chapter
+            chapter_queries = self._generate_queries_for_chapter(
+                chapter_title,
+                topic_analysis_results,
+                max_queries=settings.DEFAULT_MAX_CHAPTER_QUERIES_GLOBAL_RETRIEVAL # Use setting
+            )
+
+            if not chapter_queries:
+                logger.warning(f"[{self.agent_name}] No valid queries generated for chapter ID '{chapter_id}' (Title: '{chapter_title}'). Skipping retrieval for this chapter.")
+                global_docs_map[chapter_id] = []
+                continue
+
+            logger.info(f"[{self.agent_name}] Retrieving global context for chapter ID '{chapter_id}' (Title: '{chapter_title}') using {len(chapter_queries)} queries: {chapter_queries}")
 
             try:
-                # Assuming retrieval_service.retrieve() returns a list of document dicts
-                # And ContentRetrieverAgent.MAX_RESULTS_PER_CHAPTER can be a shared constant or configured.
-                # Let's use a smaller number for global retrieval to keep it light.
-                MAX_GLOBAL_RESULTS_PER_CHAPTER = 3
-                # Changed search to retrieve and k to final_top_n
-                retrieved_docs = self.retrieval_service.retrieve(query_text=query, final_top_n=MAX_GLOBAL_RESULTS_PER_CHAPTER)
+                # MAX_GLOBAL_RESULTS_PER_CHAPTER applies to the aggregated results from multiple queries for this chapter
+                MAX_GLOBAL_RESULTS_PER_CHAPTER = settings.DEFAULT_GLOBAL_RETRIEVAL_TOP_N_PER_CHAPTER # Use setting
+
+                retrieved_docs = self.retrieval_service.retrieve(
+                    query_texts=chapter_queries, # Pass list of queries
+                    final_top_n=MAX_GLOBAL_RESULTS_PER_CHAPTER
+                    # Other params like vector_top_k use defaults from RetrievalService
+                )
 
                 if retrieved_docs:
-                    global_docs_map[chapter_id] = retrieved_docs
+                    global_docs_map[chapter_id] = retrieved_docs # Already a list
                     retrieved_something_overall = True
                     logger.debug(f"Retrieved {len(retrieved_docs)} documents for chapter '{chapter_id}'.")
                 else:
@@ -139,15 +172,25 @@ if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s')
 
     # --- Mock dependencies ---
-    class MockRetrievalService:
-        def search(self, query: str, k: int) -> List[Dict[str, Any]]:
-            logger.debug(f"MockRetrievalService searching for: '{query}', k={k}")
-            if "Introduction" in query:
-                return [{"doc_id": "doc1", "text": "This is an intro doc.", "title": "Intro Doc 1", "score":0.8}]
-            if "Methods" in query:
-                return [{"doc_id": "doc2", "text": "Details about methods.", "title": "Methods Doc 1", "score":0.9},
-                        {"doc_id": "doc3", "text": "More methods.", "title": "Methods Doc 2", "score":0.7}]
-            return []
+    class MockRetrievalServiceGCRA: # GCRA for GlobalContentRetrieverAgent
+        def retrieve(self, query_texts: List[str], final_top_n: int, **kwargs) -> List[Dict[str, Any]]:
+            logger.debug(f"MockRetrievalServiceGCRA.retrieve called with queries: {query_texts}, final_top_n={final_top_n}")
+            docs_to_return = []
+            # Simulate different results based on query content for more realistic testing
+            if any("Introduction" in qt for qt in query_texts):
+                docs_to_return.append({"document": "Intro doc from multi-query.", "score": 0.8, "child_id": "c_intro", "parent_id": "p_intro", "source_document_name": "intro_src.txt"})
+            if any("Methods" in qt for qt in query_texts):
+                docs_to_return.extend([
+                    {"document": "Methods doc 1 from multi-query.", "score": 0.9, "child_id": "c_meth1", "parent_id": "p_meth1", "source_document_name": "meth_src.txt"},
+                    {"document": "Methods doc 2 (lower score).", "score": 0.7, "child_id": "c_meth2", "parent_id": "p_meth2", "source_document_name": "meth_src.txt"}
+                ])
+            if any("Conclusion" in qt for qt in query_texts) and any("测试主题" in qt for qt in query_texts) : # Example of more specific query combination
+                 docs_to_return.append({"document": "Conclusion for 测试主题.", "score": 0.85, "child_id": "c_conc", "parent_id": "p_conc", "source_document_name": "conc_src.txt"})
+
+            docs_to_return.sort(key=lambda x: x['score'], reverse=True)
+            logger.debug(f"MockRetrievalServiceGCRA returning {len(docs_to_return[:final_top_n])} docs out of {len(docs_to_return)} potential docs for queries: {query_texts}")
+            return docs_to_return[:final_top_n]
+
 
     class MockWorkflowStateGCRA(WorkflowState): # GCRA for GlobalContentRetrieverAgent
         def __init__(self, user_topic: str):
@@ -164,58 +207,76 @@ if __name__ == '__main__':
             super().add_task(task_type, payload, priority)
     # --- End Mock dependencies ---
 
-    retrieval_service_instance = MockRetrievalService()
-    agent = GlobalContentRetrieverAgent(retrieval_service=retrieval_service_instance)
+    retrieval_service_instance_gcra = MockRetrievalServiceGCRA() # Use updated mock
+    agent = GlobalContentRetrieverAgent(retrieval_service=retrieval_service_instance_gcra)
 
-    mock_parsed_outline = [
+    mock_parsed_outline_gcra = [
         {"id": "ch_intro", "title": "Introduction to Topic", "level": 1},
-        {"id": "ch_methods", "title": "Core Methods", "level": 1},
-        {"id": "ch_conclusion", "title": "Conclusion", "level": 1}
+        {"id": "ch_methods", "title": "Core Methods for Topic", "level": 1},
+        {"id": "ch_conclusion", "title": "Conclusion for 测试主题", "level": 1}, # Title to trigger specific mock logic
+        {"id": "ch_empty", "title": "Chapter With No Mock Docs", "level":1}
     ]
-    mock_topic_analysis = {"generalized_topic_cn": "测试主题"}
-    # This payload would be constructed by OutlineGeneratorAgent
-    # Crucially, it needs 'current_outline_md' for the next step (OutlineRefinementAgent)
-    # This implies OutlineGeneratorAgent must now also pass its MD outline string in the payload
-    # when it creates the TASK_TYPE_GLOBAL_RETRIEVE_FOR_OUTLINE task.
-    mock_current_md = "# Introduction to Topic\n# Core Methods\n# Conclusion"
-
-    task_payload = {
-        "parsed_outline": mock_parsed_outline,
-        "current_outline_md": mock_current_md, # Important for next agent
-        "topic_analysis_results": mock_topic_analysis,
-        "priority": 3,
-        "max_chapters_constraint": 5, # Example pass-through
-        "min_chapters_constraint": 2  # Example pass-through
+    # Enriched topic_analysis for better query generation in _generate_queries_for_chapter
+    mock_topic_analysis_gcra = {
+        "generalized_topic_cn": "测试主题",
+        "generalized_topic_en": "Test Topic",
+        "keywords_cn": ["核心", "技术"],
+        "keywords_en": ["core", "technology"]
     }
 
-    mock_state = MockWorkflowStateGCRA(user_topic="Test Topic")
-    mock_state.current_processing_task_id = "gcra_task_123" # Simulate orchestrator setting this
+    mock_current_md_gcra = "# Introduction to Topic\n# Core Methods for Topic\n# Conclusion for 测试主题\n# Chapter With No Mock Docs"
 
-    print(f"\nExecuting GlobalContentRetrieverAgent with MockWorkflowState")
+    task_payload_gcra = {
+        "parsed_outline": mock_parsed_outline_gcra,
+        "current_outline_md": mock_current_md_gcra,
+        "topic_analysis_results": mock_topic_analysis_gcra,
+        "priority": 3,
+        "max_chapters_constraint": 5,
+        "min_chapters_constraint": 2
+    }
+
+    mock_state_gcra = MockWorkflowStateGCRA(user_topic="Test Topic Full")
+    mock_state_gcra.current_processing_task_id = "gcra_task_multi_query_001"
+
+    # Set a default for the setting used by the agent, if not already set by actual settings import
+    if not hasattr(settings, 'DEFAULT_GLOBAL_RETRIEVAL_TOP_N_PER_CHAPTER'):
+        settings.DEFAULT_GLOBAL_RETRIEVAL_TOP_N_PER_CHAPTER = 2 # Mock setting value for test
+
+    print(f"\nExecuting GlobalContentRetrieverAgent with MockWorkflowStateGCRA (Multi-Query per Chapter)")
     try:
-        agent.execute_task(mock_state, task_payload)
+        agent.execute_task(mock_state_gcra, task_payload_gcra)
 
         print("\nWorkflowState after GlobalContentRetrieverAgent execution:")
-        print(f"  Global Retrieved Docs Map: {json.dumps(mock_state.global_docs_map_set, indent=2, ensure_ascii=False)}")
-        print(f"  Tasks added by agent: {json.dumps(mock_state.added_tasks_gcra, indent=2, ensure_ascii=False)}")
+        retrieved_map = mock_state_gcra.global_docs_map_set
+        print(f"  Global Retrieved Docs Map: {json.dumps(retrieved_map, indent=2, ensure_ascii=False)}")
+        print(f"  Tasks added by agent: {json.dumps(mock_state_gcra.added_tasks_gcra, indent=2, ensure_ascii=False)}")
 
-        assert mock_state.global_docs_map_set is not None
-        assert "ch_intro" in mock_state.global_docs_map_set
-        assert len(mock_state.global_docs_map_set["ch_intro"]) == 1
-        assert "ch_methods" in mock_state.global_docs_map_set
-        assert len(mock_state.global_docs_map_set["ch_methods"]) == 2
-        assert "ch_conclusion" in mock_state.global_docs_map_set # Should be present with empty list
-        assert len(mock_state.global_docs_map_set["ch_conclusion"]) == 0
+        assert retrieved_map is not None
+        # Check ch_intro (expects 1 doc from mock based on "Introduction")
+        assert "ch_intro" in retrieved_map and len(retrieved_map["ch_intro"]) == 1
+        assert retrieved_map["ch_intro"][0]['document'] == "Intro doc from multi-query."
 
-        assert len(mock_state.added_tasks_gcra) == 1
-        next_task_info = mock_state.added_tasks_gcra[0]
-        assert next_task_info['type'] == TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT
-        assert next_task_info['payload']['parsed_outline'] == mock_parsed_outline
-        assert next_task_info['payload']['current_outline_md'] == mock_current_md
-        assert next_task_info['payload']['topic_analysis_results'] == mock_topic_analysis
+        # Check ch_methods (expects 2 docs from mock based on "Methods", limited by DEFAULT_GLOBAL_RETRIEVAL_TOP_N_PER_CHAPTER)
+        assert "ch_methods" in retrieved_map
+        # The number of docs for ch_methods depends on the mock logic and final_top_n for the retrieve call.
+        # MockRetrievalServiceGCRA returns 2 for "Methods", and final_top_n is 2 for the test setting.
+        assert len(retrieved_map["ch_methods"]) == settings.DEFAULT_GLOBAL_RETRIEVAL_TOP_N_PER_CHAPTER
+        assert retrieved_map["ch_methods"][0]['document'] == "Methods doc 1 from multi-query." # Highest score
 
+        # Check ch_conclusion (expects 1 doc from mock based on "Conclusion" and "测试主题")
+        assert "ch_conclusion" in retrieved_map and len(retrieved_map["ch_conclusion"]) == 1
+        assert retrieved_map["ch_conclusion"][0]['document'] == "Conclusion for 测试主题."
 
-        print("\nGlobalContentRetrieverAgent test successful.")
+        # Check ch_empty (expects 0 docs)
+        assert "ch_empty" in retrieved_map and len(retrieved_map["ch_empty"]) == 0
+
+        assert len(mock_state_gcra.added_tasks_gcra) == 1
+        next_task_info_gcra = mock_state_gcra.added_tasks_gcra[0]
+        assert next_task_info_gcra['type'] == TASK_TYPE_SUGGEST_OUTLINE_REFINEMENT
+        assert next_task_info_gcra['payload']['parsed_outline'] == mock_parsed_outline_gcra
+        assert next_task_info_gcra['payload']['topic_analysis_results'] == mock_topic_analysis_gcra
+
+        print("\nGlobalContentRetrieverAgent test successful (Multi-Query per Chapter).")
 
     except Exception as e:
         print(f"Error during GlobalContentRetrieverAgent test: {e}")

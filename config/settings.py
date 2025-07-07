@@ -73,6 +73,20 @@ DEFAULT_RETRIEVAL_FINAL_TOP_N = int(os.getenv("DEFAULT_RETRIEVAL_FINAL_TOP_N", "
 # 此阈值将在 RetrievalService 中应用于归一化后的混合分数或Reranker分数。
 DEFAULT_RETRIEVAL_MIN_SCORE_THRESHOLD = float(os.getenv("DEFAULT_RETRIEVAL_MIN_SCORE_THRESHOLD", "0.7"))
 
+# --- Agent Specific Retrieval Settings ---
+# For OutlineGeneratorAgent: Number of documents for initial outline context
+DEFAULT_OUTLINE_GENERATION_RETRIEVAL_TOP_N = int(os.getenv("DEFAULT_OUTLINE_GENERATION_RETRIEVAL_TOP_N", "5"))
+# For GlobalContentRetrieverAgent: Number of documents per chapter
+DEFAULT_GLOBAL_RETRIEVAL_TOP_N_PER_CHAPTER = int(os.getenv("DEFAULT_GLOBAL_RETRIEVAL_TOP_N_PER_CHAPTER", "2")) # Reduced default
+
+# --- Query Generation/Expansion Settings ---
+# Max expanded queries from TopicAnalyzerAgent (LLM prompt also guides this)
+DEFAULT_MAX_EXPANDED_QUERIES_TOPIC = int(os.getenv("DEFAULT_MAX_EXPANDED_QUERIES_TOPIC", "7"))
+# Max heuristic queries for GlobalContentRetrieverAgent per chapter
+DEFAULT_MAX_CHAPTER_QUERIES_GLOBAL_RETRIEVAL = int(os.getenv("DEFAULT_MAX_CHAPTER_QUERIES_GLOBAL_RETRIEVAL", "3"))
+# Max heuristic queries for ContentRetrieverAgent per chapter
+DEFAULT_MAX_CHAPTER_QUERIES_CONTENT_RETRIEVAL = int(os.getenv("DEFAULT_MAX_CHAPTER_QUERIES_CONTENT_RETRIEVAL", "4"))
+
 
 # ==============================================================================
 # Pipeline (工作流) 配置 (Pipeline Configuration)
@@ -332,6 +346,18 @@ if __name__ == '__main__':
     print(f"DEFAULT_CHAPTER_INTEGRATION_PROMPT (first 50 chars): {DEFAULT_CHAPTER_INTEGRATION_PROMPT[:50]}...")
     print(f"DEFAULT_EVALUATOR_PROMPT (first 50 chars): {DEFAULT_EVALUATOR_PROMPT[:50]}...")
     print(f"DEFAULT_REFINER_PROMPT (first 50 chars): {DEFAULT_REFINER_PROMPT[:50]}...")
+    print(f"DEFAULT_RELEVANCE_CHECK_PROMPT (first 50 chars): {DEFAULT_RELEVANCE_CHECK_PROMPT[:50]}...")
+
+
+    print("\n--- Agent Specific Retrieval Settings ---")
+    print(f"DEFAULT_OUTLINE_GENERATION_RETRIEVAL_TOP_N: {DEFAULT_OUTLINE_GENERATION_RETRIEVAL_TOP_N}")
+    print(f"DEFAULT_GLOBAL_RETRIEVAL_TOP_N_PER_CHAPTER: {DEFAULT_GLOBAL_RETRIEVAL_TOP_N_PER_CHAPTER}")
+
+    print("\n--- Query Generation/Expansion Settings ---")
+    print(f"DEFAULT_MAX_EXPANDED_QUERIES_TOPIC: {DEFAULT_MAX_EXPANDED_QUERIES_TOPIC}")
+    print(f"DEFAULT_MAX_CHAPTER_QUERIES_GLOBAL_RETRIEVAL: {DEFAULT_MAX_CHAPTER_QUERIES_GLOBAL_RETRIEVAL}")
+    print(f"DEFAULT_MAX_CHAPTER_QUERIES_CONTENT_RETRIEVAL: {DEFAULT_MAX_CHAPTER_QUERIES_CONTENT_RETRIEVAL}")
+
 
 # --- OutlineRefinementAgent ---
 DEFAULT_OUTLINE_REFINEMENT_PROMPT_CN = """\
