@@ -39,7 +39,7 @@ class MissingContentResolutionAgent(BaseAgent):
                                                    'DEFAULT_CHAPTER_MISSING_CONTENT_PLACEHOLDER_RETRY_FAILED',
                                                    "[尽管我们已尝试补充，本章节当前仍未能生成足够内容。我们对此表示歉意并会持续改进。]")
 
-        parsed_outline = workflow_state.get_parsed_outline()
+        parsed_outline = workflow_state.parsed_outline
         if not parsed_outline:
             logger.warning(f"[{self.agent_name}] No parsed outline found in workflow state. Cannot resolve missing content.")
             if task_id: workflow_state.complete_task(task_id, "No outline to process for missing content resolution.", status='success')
@@ -126,4 +126,3 @@ class MissingContentResolutionAgent(BaseAgent):
         if task_id: workflow_state.complete_task(task_id, log_msg, status='success')
         logger.info(f"[{self.agent_name}] Task ID: {task_id} - Execution finished. Orchestrator will now proceed to ReportCompilerAgent if conditions met.")
 
-```
