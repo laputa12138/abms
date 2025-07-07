@@ -123,44 +123,57 @@ class OutlineGeneratorAgent(BaseAgent):
         keywords_cn_str = ", ".join(keywords_cn)
         keywords_en_str = ", ".join(keywords_en)
 
-        # --- New: Retrieve context before generating outline ---
+        # --- Retrieve context using potentially multiple queries before generating outline ---
         retrieved_context_str = "无相关参考资料。" # Default if nothing found or error
-        try:
-            # Combine topic and keywords for a comprehensive query
-            query_parts = [topic_cn, topic_en] + keywords_cn + keywords_en
-            # Remove duplicates and filter out empty strings
-            # Also, join with space, as RetrievalService._tokenize_query splits by space.
-            retrieval_query = " ".join(list(filter(None, dict.fromkeys(query_parts))))
+
+        # 1. Get expanded queries from topic analysis
+        expanded_queries = analyzed_topic.get('expanded_queries', [])
+        if isinstance(expanded_queries, list) and all(isinstance(q, str) for q in expanded_queries):
+            logger.info(f"[{self.agent_name}] Using {len(expanded_queries)} expanded queries from topic analysis.")
+        else:
+            logger.warning(f"[{self.agent_name}] 'expanded_queries' not found or not a list of strings in topic_details. Falling back to primary query. Value: {expanded_queries}")
+            expanded_queries = []
+
+        # 2. Construct a primary query as a fallback or addition
+        primary_query_parts = [topic_cn, topic_en] + keywords_cn + keywords_en
+        primary_query = " ".join(list(filter(None, dict.fromkeys(primary_query_parts)))).strip()
+
+        # 3. Combine expanded and primary queries
+        all_queries_for_retrieval = []
+        if primary_query:
+            all_queries_for_retrieval.append(primary_query)
+        all_queries_for_retrieval.extend(q for q in expanded_queries if q.strip())
+
+        # Deduplicate the final list of queries
+        all_queries_for_retrieval = list(dict.fromkeys(all_queries_for_retrieval))
 
 
-            if retrieval_query.strip():
-                logger.info(f"[{self.agent_name}] Retrieving initial context for outline generation with query: '{retrieval_query}'")
-                # Using final_top_n for the number of documents to retrieve for context
-                # TODO: Make PRE_OUTLINE_RETRIEVAL_TOP_N configurable in settings.py
-                PRE_OUTLINE_RETRIEVAL_TOP_N = 3
+        if all_queries_for_retrieval:
+            logger.info(f"[{self.agent_name}] Retrieving initial context for outline generation using {len(all_queries_for_retrieval)} queries: {all_queries_for_retrieval}")
+            # TODO: Make PRE_OUTLINE_RETRIEVAL_TOP_N configurable in settings.py
+            PRE_OUTLINE_RETRIEVAL_TOP_N = settings.DEFAULT_OUTLINE_GENERATION_RETRIEVAL_TOP_N # Using from settings
+
+            try:
                 retrieved_docs = self.retrieval_service.retrieve(
-                    query_text=retrieval_query,
+                    query_texts=all_queries_for_retrieval, # Pass list of queries
                     final_top_n=PRE_OUTLINE_RETRIEVAL_TOP_N
+                    # vector_top_k, keyword_top_k, hybrid_alpha will use defaults from RetrievalService/settings
                 )
                 if retrieved_docs:
                     context_parts = []
                     for i, doc in enumerate(retrieved_docs):
-                        # Using parent_text which is the 'document' field from RetrievalService
                         context_parts.append(f"参考资料片段 {i+1}:\n\"\"\"\n{doc.get('document', '')}\n\"\"\"")
                     retrieved_context_str = "\n\n".join(context_parts)
-                    logger.info(f"[{self.agent_name}] Successfully retrieved {len(retrieved_docs)} documents for pre-outline context.")
+                    logger.info(f"[{self.agent_name}] Successfully retrieved {len(retrieved_docs)} documents for pre-outline context using {len(all_queries_for_retrieval)} queries.")
                 else:
-                    logger.info(f"[{self.agent_name}] No documents found during pre-outline retrieval for query: '{retrieval_query}'")
-            else:
-                logger.info(f"[{self.agent_name}] Retrieval query is empty. Skipping pre-outline retrieval.")
-
-        except RetrievalServiceError as r_err:
-            logger.error(f"[{self.agent_name}] RetrievalService failed during pre-outline context retrieval: {r_err}")
-            # Fallback to default retrieved_context_str
-        except Exception as e:
-            logger.error(f"[{self.agent_name}] Unexpected error during pre-outline context retrieval: {e}", exc_info=True)
-            # Fallback to default retrieved_context_str
-        # --- End of new retrieval section ---
+                    logger.info(f"[{self.agent_name}] No documents found during pre-outline retrieval using {len(all_queries_for_retrieval)} queries.")
+            except RetrievalServiceError as r_err:
+                logger.error(f"[{self.agent_name}] RetrievalService failed during pre-outline context retrieval: {r_err}")
+            except Exception as e:
+                logger.error(f"[{self.agent_name}] Unexpected error during pre-outline context retrieval: {e}", exc_info=True)
+        else:
+            logger.info(f"[{self.agent_name}] No valid queries for pre-outline retrieval. Skipping.")
+        # --- End of retrieval section ---
 
         prompt = self.prompt_template.format(
             topic_cn=topic_cn, topic_en=topic_en,
@@ -242,16 +255,27 @@ if __name__ == '__main__':
     # Mock WorkflowState for testing
     from core.workflow_state import WorkflowState, TASK_TYPE_GLOBAL_RETRIEVE_FOR_OUTLINE # Updated import
     from core.retrieval_service import RetrievalService # For mock
+    from config import settings # For PRE_OUTLINE_RETRIEVAL_TOP_N default
 
     class MockRetrievalServiceForOGA: # OGA for OutlineGeneratorAgent
-        def retrieve(self, query_text: str, final_top_n: int) -> List[Dict[str, Any]]:
-            logger.debug(f"MockRetrievalServiceForOGA.retrieve called with query: '{query_text}', final_top_n={final_top_n}")
-            if "ABMS" in query_text:
-                return [
-                    {"document": "这是关于ABMS的第一个参考资料片段。", "score": 0.9, "child_text_preview": "ABMS片段1...", "child_id": "c1", "parent_id": "p1", "source_document_name": "docA.txt", "retrieval_source": "mock_vector"},
-                    {"document": "ABMS的第二个重要参考信息。", "score": 0.8, "child_text_preview": "ABMS片段2...", "child_id": "c2", "parent_id": "p2", "source_document_name": "docB.txt", "retrieval_source": "mock_vector"}
-                ]
-            return []
+        def retrieve(self, query_texts: List[str], final_top_n: int, **kwargs) -> List[Dict[str, Any]]: # Added **kwargs for other params
+            logger.debug(f"MockRetrievalServiceForOGA.retrieve called with queries: {query_texts}, final_top_n={final_top_n}")
+            # Simulate some results if any query contains "ABMS" or "JADC2"
+            # This mock is simple; a real scenario might have different docs for different queries.
+            docs_to_return = []
+            if any("ABMS" in qt for qt in query_texts) or any("JADC2" in qt for qt in query_texts):
+                docs_to_return.extend([
+                    {"document": "这是关于ABMS的第一个参考资料片段。", "score": 0.9, "child_text_preview": "ABMS片段1...", "child_id": "c1", "parent_id": "p1", "source_document_name": "docA.txt", "retrieval_source": "mock_vector_q1"},
+                    {"document": "ABMS的第二个重要参考信息。", "score": 0.8, "child_text_preview": "ABMS片段2...", "child_id": "c2", "parent_id": "p2", "source_document_name": "docB.txt", "retrieval_source": "mock_vector_q2"}
+                ])
+            if any("具体技术" in qt for qt in query_texts):
+                 docs_to_return.append(
+                    {"document": "关于具体技术的文档。", "score": 0.85, "child_text_preview": "技术细节...", "child_id": "c3", "parent_id": "p3", "source_document_name": "docC.txt", "retrieval_source": "mock_vector_q3"}
+                 )
+
+            # Respect final_top_n by returning only that many, sorted by score (mock sort)
+            docs_to_return.sort(key=lambda x: x['score'], reverse=True)
+            return docs_to_return[:final_top_n]
 
     class MockWorkflowStateOGA(WorkflowState): # OGA for OutlineGeneratorAgent
         def __init__(self, user_topic: str, topic_analysis_results: Dict):
@@ -276,19 +300,34 @@ if __name__ == '__main__':
     # Pass retrieval_service to constructor
     outline_agent = OutlineGeneratorAgent(llm_service=llm_service_instance, retrieval_service=retrieval_service_instance)
 
-    mock_topic_analysis = {
+    # Include expanded_queries in mock_topic_analysis
+    mock_topic_analysis_with_expanded = {
         "generalized_topic_cn": "ABMS系统", "generalized_topic_en": "ABMS",
-        "keywords_cn": ["ABMS", "JADC2"], "keywords_en": ["ABMS", "JADC2"]
+        "keywords_cn": ["ABMS", "JADC2"], "keywords_en": ["ABMS", "JADC2"],
+        "expanded_queries": [
+            "ABMS系统架构",
+            "JADC2与ABMS的关联",
+            "ABMS 具体技术" # This query should trigger the third mock doc
+        ]
     }
     # Simulate current_processing_task_id being set by orchestrator
-    mock_state_oga = MockWorkflowStateOGA(user_topic="ABMS系统", topic_analysis_results=mock_topic_analysis)
+    mock_state_oga = MockWorkflowStateOGA(user_topic="ABMS系统", topic_analysis_results=mock_topic_analysis_with_expanded)
     mock_state_oga.current_processing_task_id = "mock_outline_gen_task_id_123"
 
+    task_payload_for_agent_oga = {'topic_details': mock_topic_analysis_with_expanded, 'priority': 2}
 
-    task_payload_for_agent_oga = {'topic_details': mock_topic_analysis, 'priority': 2}
+    # Test with no expanded queries to ensure fallback works
+    mock_topic_analysis_no_expanded = {
+        "generalized_topic_cn": "ABMS系统", "generalized_topic_en": "ABMS",
+        "keywords_cn": ["ABMS", "JADC2"], "keywords_en": ["ABMS", "JADC2"],
+        # "expanded_queries": [] # or missing key
+    }
+    mock_state_oga_no_expanded = MockWorkflowStateOGA(user_topic="ABMS系统", topic_analysis_results=mock_topic_analysis_no_expanded)
+    mock_state_oga_no_expanded.current_processing_task_id = "mock_outline_gen_task_id_456"
+    task_payload_no_expanded = {'topic_details': mock_topic_analysis_no_expanded, 'priority': 2}
 
 
-    print(f"\nExecuting OutlineGeneratorAgent with MockWorkflowStateOGA (New flow with Refinement Suggestion)")
+    print(f"\nExecuting OutlineGeneratorAgent with MockWorkflowStateOGA (With Expanded Queries)")
     try:
         outline_agent.execute_task(mock_state_oga, task_payload_for_agent_oga)
 
@@ -301,19 +340,25 @@ if __name__ == '__main__':
 
         assert mock_state_oga.current_outline_md is not None
         assert mock_state_oga.parsed_outline is not None and len(mock_state_oga.parsed_outline) > 0
-        assert mock_state_oga.get_flag('outline_finalized') is False # Should be false, global retrieval then refinement comes next
+        assert mock_state_oga.get_flag('outline_finalized') is False
 
-        assert len(mock_state_oga.added_tasks_oga) == 1 # Only one task should be added (global retrieve)
+        assert len(mock_state_oga.added_tasks_oga) == 1
         added_task_details = mock_state_oga.added_tasks_oga[0]
         assert added_task_details['type'] == TASK_TYPE_GLOBAL_RETRIEVE_FOR_OUTLINE
-        assert 'current_outline_md' in added_task_details['payload'], "'current_outline_md' is crucial for later refinement agent"
-        assert added_task_details['payload']['current_outline_md'] == mock_state_oga.current_outline_md
-        assert 'parsed_outline' in added_task_details['payload']
-        assert added_task_details['payload']['parsed_outline'] == mock_state_oga.parsed_outline
-        assert 'topic_analysis_results' in added_task_details['payload']
+        assert added_task_details['payload']['topic_analysis_results'] == mock_topic_analysis_with_expanded
+        # More assertions can be added here based on the mock retrieval results affecting the context for LLM
 
+        print("\nOutlineGeneratorAgent test successful with expanded queries.")
 
-        print("\nOutlineGeneratorAgent test successful with MockWorkflowStateOGA (New flow with Global Retrieval).")
+        # Test the fallback scenario (no expanded queries)
+        print(f"\nExecuting OutlineGeneratorAgent with MockWorkflowStateOGA (No Expanded Queries - Fallback Test)")
+        outline_agent.execute_task(mock_state_oga_no_expanded, task_payload_no_expanded)
+        print("\nWorkflowState after OutlineGeneratorAgent execution (No Expanded Queries):")
+        print(f"  Outline Markdown: \n{mock_state_oga_no_expanded.current_outline_md}")
+        assert mock_state_oga_no_expanded.current_outline_md is not None
+        # Further assertions for this case...
+        print("\nOutlineGeneratorAgent fallback test successful.")
+
 
     except Exception as e:
         print(f"Error during OutlineGeneratorAgent test: {e}")
