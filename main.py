@@ -250,25 +250,23 @@ def main():
 
     # Initialize the pipeline with all relevant parameters
     try:
-        # pipeline = ReportGenerationPipeline(
-        #     llm_service=llm_service,
-        #     embedding_service=embedding_service,
-        #     reranker_service=reranker_service,
-        #     parent_chunk_size=args.parent_chunk_size,
-        #     parent_chunk_overlap=args.parent_chunk_overlap,
-        #     child_chunk_size=args.child_chunk_size,
-        #     child_chunk_overlap=args.child_chunk_overlap,
-        #     vector_top_k=args.vector_top_k,
-        #     keyword_top_k=args.keyword_top_k,
-        #     hybrid_alpha=args.hybrid_search_alpha,
-        #     final_top_n_retrieval=args.final_top_n_retrieval,
-        #     max_refinement_iterations=args.max_refinement_iterations,
-        #     max_workflow_iterations=args.max_workflow_iterations # Pass new CLI arg
-        # )
         pipeline = ReportGenerationPipeline(
             llm_service=llm_service,
             embedding_service=embedding_service,
             reranker_service=reranker_service,
+            parent_chunk_size=args.parent_chunk_size,
+            parent_chunk_overlap=args.parent_chunk_overlap,
+            child_chunk_size=args.child_chunk_size,
+            child_chunk_overlap=args.child_chunk_overlap,
+            vector_store_path=args.vector_store_path,
+            index_name=args.index_name,
+            force_reindex=args.force_reindex,
+            vector_top_k=args.vector_top_k,
+            keyword_top_k=args.keyword_top_k,
+            hybrid_alpha=args.hybrid_search_alpha,
+            final_top_n_retrieval=args.final_top_n_retrieval,
+            max_refinement_iterations=args.max_refinement_iterations,
+            max_workflow_iterations=args.max_workflow_iterations
         )
     except Exception as e:
         logger.error(f"Failed to initialize the report generation pipeline: {e}", exc_info=True)
