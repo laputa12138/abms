@@ -269,6 +269,9 @@ def main():
             llm_service=llm_service,
             embedding_service=embedding_service,
             reranker_service=reranker_service,
+            vector_store_path=args.vector_store_path,
+            index_name=args.index_name,
+            force_reindex=args.force_reindex
         )
     except Exception as e:
         logger.error(f"Failed to initialize the report generation pipeline: {e}", exc_info=True)
