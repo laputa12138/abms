@@ -25,17 +25,85 @@ class ChapterWriterAgent(BaseAgent):
     def __init__(self, llm_service: LLMService,
                  single_snippet_writer_prompt_template: Optional[str] = None,
                  integration_prompt_template: Optional[str] = None,
-                 relevance_check_prompt_template: Optional[str] = None):
+                 relevance_check_prompt_template: Optional[str] = None,
+                 introduction_prompt_template: Optional[str] = None): # Added new template
         super().__init__(agent_name="ChapterWriterAgent", llm_service=llm_service)
         self.single_snippet_writer_prompt_template = single_snippet_writer_prompt_template or app_settings.DEFAULT_SINGLE_SNIPPET_WRITER_PROMPT
         self.integration_prompt_template = integration_prompt_template or app_settings.DEFAULT_CHAPTER_INTEGRATION_PROMPT
         self.relevance_check_prompt_template = relevance_check_prompt_template or app_settings.DEFAULT_RELEVANCE_CHECK_PROMPT
+        self.introduction_prompt_template = introduction_prompt_template or app_settings.INTRODUCTION_GENERATOR_PROMPT_TEMPLATE # Load new template
         if not self.llm_service:
             raise ChapterWriterAgentError("LLMService is required for ChapterWriterAgent.")
         if not self.single_snippet_writer_prompt_template:
             raise ChapterWriterAgentError("Single snippet writer prompt template is required.")
         if not self.integration_prompt_template:
             raise ChapterWriterAgentError("Integration prompt template is required.")
+        if not self.introduction_prompt_template: # Added check
+            raise ChapterWriterAgentError("Introduction generator prompt template is required.")
+
+    def _is_introduction_chapter(self, chapter_title: str, workflow_state: WorkflowState) -> bool:
+        """
+        Determines if the current chapter is the introduction.
+        Considers title keywords and if it's the first chapter in the outline.
+        """
+        # Keywords that might indicate an introduction chapter
+        intro_keywords = ["引言", "介绍", "概述", "绪论", "前言"]
+        normalized_title = chapter_title.lower().strip()
+        for keyword in intro_keywords:
+            if keyword in normalized_title:
+                return True
+
+        # Check if it's the first chapter in the parsed_outline
+        if workflow_state.parsed_outline and workflow_state.parsed_outline[0].get('title') == chapter_title:
+            return True
+
+        return False
+
+    def _format_intro_prompt_payload(self, workflow_state: WorkflowState) -> Dict[str, str]:
+        """
+        Prepares the payload for the introduction prompt template.
+        """
+        topic_analysis = workflow_state.topic_analysis_results or {}
+
+        core_questions = topic_analysis.get('core_research_questions_cn', [])
+        if core_questions:
+            core_questions_formatted = "本报告将探讨以下核心研究问题：\n" + "\n".join([f"- {q}" for q in core_questions])
+        else:
+            core_questions_formatted = "本报告将对指定主题进行深入分析和阐述。"
+
+        # Use keywords_cn as a proxy for main_concepts for now
+        # Consider if 'generalized_topic_cn' itself can be a main concept if keywords are missing.
+        main_concepts_list = topic_analysis.get('keywords_cn', [])
+        if not main_concepts_list and topic_analysis.get('generalized_topic_cn'): # Fallback to generalized topic
+            main_concepts_list = [topic_analysis.get('generalized_topic_cn')]
+
+        if main_concepts_list:
+            main_concepts_formatted = "报告将聚焦于以下主要概念或对象：\n" + "\n".join([f"- {c}" for c in main_concepts_list])
+        else:
+            main_concepts_formatted = "报告将围绕主题展开详细讨论。"
+
+        methodologies = topic_analysis.get('potential_methodologies_cn', [])
+        if methodologies:
+            methodologies_formatted = "研究可能采用的研究方法或分析视角包括：\n" + "\n".join([f"- {m}" for m in methodologies])
+        else:
+            methodologies_formatted = "研究将采用合适的分析方法以确保结论的严谨性。"
+
+        outline_overview_parts = []
+        if workflow_state.parsed_outline:
+            for item in workflow_state.parsed_outline:
+                indent = "  " * (item.get('level', 1) -1)
+                outline_overview_parts.append(f"{indent}- {item.get('title', '未命名章节')}")
+        outline_overview = "\n".join(outline_overview_parts) if outline_overview_parts else "报告大纲尚未生成或为空。"
+
+        return {
+            "report_title": workflow_state.report_title or "未指定报告标题",
+            "user_topic": workflow_state.user_topic,
+            "generalized_topic_cn": topic_analysis.get('generalized_topic_cn', "未分析出泛化主题"),
+            "core_research_questions_formatted": core_questions_formatted,
+            "main_concepts_formatted": main_concepts_formatted,
+            "potential_methodologies_formatted": methodologies_formatted,
+            "outline_overview": outline_overview,
+        }
 
     def _is_document_relevant(self, chapter_title: str, document_text: str, document_id: str) -> bool:
         """
@@ -149,8 +217,13 @@ class ChapterWriterAgent(BaseAgent):
         content_blocks: List[Dict[str, str]] = []
         all_snippet_citation_jsons_for_chapter: List[Dict] = []
 
-        if not relevant_docs_for_generation:
-            logger.warning(f"No relevant documents found to generate content blocks for chapter '{chapter_title}'. Integration step will handle this.")
+        if not relevant_docs_for_generation and not self._is_introduction_chapter(chapter_title, workflow_state):
+            logger.warning(f"No relevant documents found to generate content blocks for non-introduction chapter '{chapter_title}'. Integration step will handle this.")
+        elif self._is_introduction_chapter(chapter_title, workflow_state):
+            logger.info(f"Processing introduction chapter: '{chapter_title}'. Skipping snippet-based generation.")
+            # For introduction, content_blocks and all_snippet_citation_jsons_for_chapter will remain empty.
+            # The final_integrated_content will be generated directly using the introduction prompt.
+            pass # Handled later by directly calling LLM with intro prompt
         else:
             logger.info(f"Generating content for chapter '{chapter_title}' snippet by snippet using {len(relevant_docs_for_generation)} relevant documents.")
             for i, doc in enumerate(relevant_docs_for_generation):
@@ -221,13 +294,40 @@ class ChapterWriterAgent(BaseAgent):
              workflow_state.add_chapter_error(chapter_key, "All snippet generation attempts failed despite having relevant documents.")
 
         try:
-            logger.info(f"Proceeding to content integration for chapter '{chapter_title}'.")
-            final_integrated_content = self._integrate_chapter_content(
-                chapter_title=chapter_title,
-                content_blocks=content_blocks,
-                report_global_theme=report_global_theme,
-                key_terms_definitions_formatted=key_terms_definitions_formatted
-            )
+            final_integrated_content = ""
+            if self._is_introduction_chapter(chapter_title, workflow_state):
+                logger.info(f"Generating content directly for introduction chapter: '{chapter_title}'.")
+                intro_payload = self._format_intro_prompt_payload(workflow_state)
+                intro_prompt_formatted = self.introduction_prompt_template.format(**intro_payload)
+
+                try:
+                    final_integrated_content = self.llm_service.chat(
+                        query=intro_prompt_formatted,
+                        system_prompt="你是一位专业的报告引言撰写专家。" # System prompt for introduction
+                    )
+                    if not final_integrated_content or not final_integrated_content.strip():
+                        logger.warning(f"LLM returned empty content for introduction chapter '{chapter_title}'. Using placeholder.")
+                        final_integrated_content = app_settings.DEFAULT_CHAPTER_MISSING_CONTENT_PLACEHOLDER
+                except LLMServiceError as e_intro_llm:
+                    err_msg_intro = f"LLM service failed while generating introduction for chapter '{chapter_title}': {e_intro_llm}"
+                    logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg_intro}", exc_info=False)
+                    final_integrated_content = f"[系统提示：生成引言时遇到LLM服务错误 - {e_intro_llm}]"
+                except Exception as e_intro_unexpected:
+                    err_msg_intro_unexpected = f"Unexpected error generating introduction for chapter '{chapter_title}': {e_intro_unexpected}"
+                    logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg_intro_unexpected}", exc_info=True)
+                    final_integrated_content = f"[系统提示：生成引言时发生意外错误 - {e_intro_unexpected}]"
+
+                # For introduction, citations are typically not from snippets, so all_snippet_citation_jsons_for_chapter remains empty.
+                # relevant_docs_for_generation for intro might be empty or a global set, not used for snippet citations here.
+
+            else: # For non-introduction chapters, use existing integration logic
+                logger.info(f"Proceeding to content integration for chapter '{chapter_title}'.")
+                final_integrated_content = self._integrate_chapter_content(
+                    chapter_title=chapter_title,
+                    content_blocks=content_blocks,
+                    report_global_theme=report_global_theme,
+                    key_terms_definitions_formatted=key_terms_definitions_formatted
+                )
 
             # Check if placeholder was returned, and if so, log details
             # Use the specific placeholder defined in settings or a constant
@@ -380,105 +480,64 @@ if __name__ == '__main__':
     class MockLLMService:
         def __init__(self):
             self.snippet_call_count = 0
-            self.integration_call_count = 0
-            self.last_snippet_query = None # To store the actual query for snippet generation
-            self.last_integration_query = None # Store the last query received by integration
+            self.integration_call_count = 0 # Will be used for both regular integration and intro generation
+            self.last_snippet_query = None
+            self.last_integration_query = None
 
         def chat(self, query: str, system_prompt: str) -> str:
-            # Updated check for snippet generation prompt
             if "专业的报告撰写员" in system_prompt and "单一段落参考资料" in query:
                 self.snippet_call_count += 1
-                self.last_snippet_query = query # Store the actual query
-                try:
-                    # This parsing is simplified and assumes the snippet is the last major block.
-                    # A more robust test might need to parse based on the known prompt structure.
-                    parts = query.split("单一段落参考资料：\n\"\"\"\n")
-                    if len(parts) > 1:
-                        snippet_content = parts[1].split("\n\"\"\"")[0]
-                        return f"基于片段“{snippet_content[:20]}...”的生成内容 (片段{self.snippet_call_count})"
-                    else: # Fallback if the specific split fails
-                        return f"通用片段生成内容（无法提取片段） (片段{self.snippet_call_count})"
-                except Exception as e: # Catch any parsing error
-                    logger.error(f"MockLLMService snippet parsing error: {e} in query: {query[:200]}")
-                    return f"通用片段生成内容（解析错误） (片段{self.snippet_call_count})"
-
-            # Updated check for integration prompt
+                self.last_snippet_query = query
+                parts = query.split("单一段落参考资料：\n\"\"\"\n")
+                if len(parts) > 1:
+                    snippet_content = parts[1].split("\n\"\"\"")[0]
+                    return f"基于片段“{snippet_content[:20]}...”的生成内容 (片段{self.snippet_call_count})"
+                return f"通用片段生成内容（无法提取片段） (片段{self.snippet_call_count})"
             elif "高级报告编辑" in system_prompt and "待整合的文本块列表" in query:
                 self.integration_call_count += 1
-                self.last_integration_query = query # Store the received query
-                # The query for integration will contain all generated snippets and their citations
-                # We can mock the integration by simply joining them with a header.
-                # A more sophisticated mock could try to rephrase or combine.
-                # For testing, we want to see if the input to this call is correctly formatted.
-
-                # Extract chapter title for the mock response
+                self.last_integration_query = query
+                chapter_title_for_mock = "未知章节"
                 try:
                     chapter_title_for_mock = query.split("章节标题：\n")[1].split("\n\n待整合的文本块列表：")[0]
-                except IndexError:
-                    chapter_title_for_mock = "未知章节"
-
-                # Simulate integration: prepend a title and append a footer, keeping original blocks.
-                # The actual LLM is expected to do a much better job of true integration.
-                # The prompt asks the LLM to preserve citations, so the mock should reflect that.
-                # The content blocks in the query will look like:
-                # 文本块 1:\n内容：\n[generated_text]\n溯源：[citation_string]\n---\n\n文本块 2:...
-
-                # For a simple mock, let's just confirm it received blocks and combine them.
-                if "文本块 1:" in query: # Check if there are blocks to integrate
-                    # The input query now has blocks like: "文本块 1:\nGenerated text [citation]\n---\n\n"
-                    # The mock should reflect that the LLM tries to integrate these, keeping text and citation together.
+                except IndexError: pass
+                if "文本块 1:" in query:
                     integrated_text = f"《{chapter_title_for_mock}》的整合章节内容：\n\n"
-                    parts = query.split("文本块 ")[1:] # Split by "文本块 " and ignore first part
-
-                    processed_blocks_for_mock = []
-                    for part_content_with_num in parts:
-                        # part_content_with_num will be like "1:\nActual text content [citation string]\n---\n\n"
-                        try:
-                            # Extract the content part after "N:\n" and before "\n---"
-                            actual_block_content_with_citation = part_content_with_num.split(":\n", 1)[1].replace("\n---", "").strip()
-                            # Simulate some light integration, e.g., by wrapping each block.
-                            # A real LLM would do more, but the key is to show the citation remains with its text.
-                            processed_blocks_for_mock.append(f"段落：{actual_block_content_with_citation}")
-                        except IndexError:
-                            processed_blocks_for_mock.append(f"无法解析的文本块（保留原始格式）：{part_content_with_num[:70]}...")
-
-                    integrated_text += "\n\n".join(processed_blocks_for_mock)
+                    # Simplified mock integration
+                    parts = query.split("文本块 ")[1:]
+                    processed_blocks_for_mock = [part.split(":\n", 1)[1].replace("\n---", "").strip() for part in parts if ":\n" in part]
+                    integrated_text += "\n\n".join([f"段落：{p}" for p in processed_blocks_for_mock])
                     return integrated_text.strip()
-                else: # No blocks found in query
-                    return f"《{chapter_title_for_mock}》的整合内容：(无初步文本块可供整合)"
-
-            # Fallback for relevance check or other calls (if any)
-            elif "内容相关性判断助手" in system_prompt: # Corrected system_prompt check
-                 # Simulate relevance check - assume all relevant for simplicity in this test
+                return f"《{chapter_title_for_mock}》的整合内容：(无初步文本块可供整合)"
+            elif "内容相关性判断助手" in system_prompt:
                 return json.dumps({"is_relevant": True})
-
-            logger.warning(f"MockLLMService received unexpected query type for system_prompt: '{system_prompt}'. Query: {query[:200]}...")
+            elif "专业的报告引言撰写专家" in system_prompt: # Mock for introduction
+                self.integration_call_count +=1
+                title_in_query = "未知报告标题（引言）"
+                if "报告标题：" in query:
+                    try: title_in_query = query.split("报告标题：")[1].split("\n")[0]
+                    except: pass
+                return f"这是为报告《{title_in_query}》生成的模拟引言。它将包含背景、问题、范围和结构概述。"
+            logger.warning(f"MockLLMService received unexpected query: {system_prompt} / {query[:100]}")
             return "通用模拟LLM响应（未知请求类型）。"
 
+    import re
     from core.workflow_state import WorkflowState, TASK_TYPE_EVALUATE_CHAPTER, STATUS_EVALUATION_NEEDED, STATUS_WRITING_NEEDED
 
-    class MockWorkflowStateCWA(WorkflowState): # CWA for ChapterWriterAgent
+    class MockWorkflowStateCWA(WorkflowState):
         def __init__(self, user_topic: str, chapter_key: str, chapter_title: str, retrieved_docs: List,
-                     global_theme: Optional[str] = None, key_terms: Optional[Dict[str, str]] = None): # Added global_theme and key_terms
-            super().__init__(user_topic)
-            # Pre-populate chapter data as if retrieval was done
+                     global_theme: Optional[str] = None, key_terms: Optional[Dict[str, str]] = None):
+            super().__init__(user_topic, report_title=f"关于“{user_topic}”的报告") # Ensure report_title is set
             self.chapter_data[chapter_key] = {
                 'title': chapter_title, 'level': 1, 'status': STATUS_WRITING_NEEDED,
                 'content': None, 'retrieved_docs': retrieved_docs,
                 'evaluations': [], 'versions': [], 'errors': []
             }
             self.added_tasks_cwa = []
-            # Set global theme and key terms for the mock state
-            if global_theme:
-                self.update_report_global_theme(global_theme)
-            if key_terms:
-                self.update_key_terms_definitions(key_terms)
+            if global_theme: self.update_report_global_theme(global_theme)
+            if key_terms: self.update_key_terms_definitions(key_terms)
 
-
-        def update_chapter_content(self, chapter_key: str, content: str,
-                                   retrieved_docs: Optional[List[Dict[str, any]]] = None,
-                                   is_new_version: bool = True):
-            super().update_chapter_content(chapter_key, content, retrieved_docs, is_new_version)
+        def update_chapter_content(self, chapter_key: str, content: str, retrieved_docs: Optional[List[Dict[str, any]]] = None, is_new_version: bool = True, citations_structured_list: Optional[List[Dict[str, Any]]] = None): # Added citations_structured_list
+            super().update_chapter_content(chapter_key, content, retrieved_docs, citations_structured_list, is_new_version) # Pass it on
             logger.debug(f"MockWorkflowStateCWA: Chapter '{chapter_key}' content updated.")
 
         def update_chapter_status(self, chapter_key: str, status: str):
@@ -489,129 +548,89 @@ if __name__ == '__main__':
             self.added_tasks_cwa.append({'type': task_type, 'payload': payload, 'priority': priority})
             super().add_task(task_type, payload, priority)
 
-
     llm_service_instance = MockLLMService()
-    # Pass the explicit prompt templates to ensure the agent uses them,
-    # or ensure the mock LLM can identify calls even with default templates.
-    # For this test, MockLLMService identifies calls by content keywords, so defaults in agent are fine.
     writer_agent = ChapterWriterAgent(llm_service=llm_service_instance)
 
-    test_chapter_key = "chap_abms_overview"
-    test_chapter_title = "ABMS系统概述"
-    mock_retrieved_data = [
-        {
-            "document": "父块1：ABMS是一个复杂的系统，具有多种功能...", "score": 0.9, "retrieval_source": "hybrid",
-            "child_text_preview": "子块1预览...", "child_id": "p1c1", "parent_id": "p1",
-            "source_document_name": "source_doc_A.pdf"
-        },
-        {
-            "document": "父块2：JADC2与ABMS紧密相关，是其关键组成部分...", "score": 0.85, "retrieval_source": "hybrid",
-            "child_text_preview": "子块2预览...", "child_id": "p2c1", "parent_id": "p2",
-            "source_document_name": "source_doc_B.txt"
-        }
-    ]
+    def test_regular_chapter(writer_agent_instance, llm_service_instance_mock):
+        test_chapter_key_regular = "chap_regular_content"
+        test_chapter_title_regular = "ABMS核心技术分析"
+        mock_retrieved_data = [
+            {"document": "父块1：ABMS...", "score": 0.9, "source_document_name": "docA.pdf"},
+            {"document": "父块2：JADC2...", "score": 0.85, "source_document_name": "docB.txt"}
+        ]
+        mock_global_theme = "探讨ABMS在现代军事行动中的核心作用。"
+        mock_key_terms = {"ABMS": "先进作战管理系统", "JADC2": "联合全域指挥与控制"}
 
-    # Define mock global theme and key terms for testing
-    mock_global_theme = "探讨ABMS在现代军事行动中的核心作用及其对未来战争形态的影响。"
-    mock_key_terms = {
-        "ABMS": "Advanced Battle Management System - 先进作战管理系统，旨在连接战场上的各种传感器、平台和决策者。",
-        "JADC2": "Joint All-Domain Command and Control - 联合全域指挥与控制，是ABMS旨在实现的关键军事概念。"
-    }
+        mock_state_regular = MockWorkflowStateCWA(user_topic="ABMS",
+                                              chapter_key=test_chapter_key_regular,
+                                              chapter_title=test_chapter_title_regular,
+                                              retrieved_docs=mock_retrieved_data,
+                                              global_theme=mock_global_theme,
+                                              key_terms=mock_key_terms)
+        mock_state_regular.current_processing_task_id = "task_regular_chap"
+        task_payload_regular = {'chapter_key': test_chapter_key_regular, 'chapter_title': test_chapter_title_regular, 'priority': 5}
 
-    mock_state_cwa = MockWorkflowStateCWA(user_topic="ABMS",
-                                          chapter_key=test_chapter_key,
-                                          chapter_title=test_chapter_title,
-                                          retrieved_docs=mock_retrieved_data,
-                                          global_theme=mock_global_theme, # Pass to mock state
-                                          key_terms=mock_key_terms)      # Pass to mock state
+        print(f"\nExecuting ChapterWriterAgent for REGULAR chapter: '{test_chapter_title_regular}'")
+        llm_service_instance_mock.snippet_call_count = 0
+        llm_service_instance_mock.integration_call_count = 0
+        writer_agent_instance.execute_task(mock_state_regular, task_payload_regular)
 
-    task_payload_for_agent_cwa = {'chapter_key': test_chapter_key, 'chapter_title': test_chapter_title, 'priority': 5}
+        chapter_info = mock_state_regular.get_chapter_data(test_chapter_key_regular)
+        assert chapter_info is not None and chapter_info.get('status') == STATUS_EVALUATION_NEEDED
+        assert llm_service_instance_mock.snippet_call_count == len(mock_retrieved_data)
+        assert llm_service_instance_mock.integration_call_count == 1
+        final_content = chapter_info.get('content', '')
+        assert f"《{test_chapter_title_regular}》的整合章节内容：" in final_content
+        assert "--- 参考来源列表 ---" in final_content # Check for citation block
+        print(f"REGULAR chapter test successful. LLM calls: Snippets={llm_service_instance_mock.snippet_call_count}, Integration={llm_service_instance_mock.integration_call_count}")
 
-    print(f"\nExecuting ChapterWriterAgent for chapter: '{test_chapter_title}' with MockWorkflowStateCWA (New Two-Stage Logic with Global Context)")
+    def test_introduction_chapter(writer_agent_instance, llm_service_instance_mock):
+        test_chapter_key_intro = "chap_introduction"
+        test_chapter_title_intro = "引言"
+
+        mock_state_intro = MockWorkflowStateCWA(user_topic="未来战争形态",
+                                            chapter_key=test_chapter_key_intro,
+                                            chapter_title=test_chapter_title_intro,
+                                            retrieved_docs=[])
+        mock_state_intro.report_title = "未来战争形态深度分析报告"
+        mock_state_intro.current_processing_task_id = "task_intro_chap"
+        mock_state_intro.update_topic_analysis({
+            "generalized_topic_cn": "未来战争的演变与挑战",
+            "keywords_cn": ["AI军事应用", "无人作战"],
+            "core_research_questions_cn": ["AI技术将如何重塑未来战场？"],
+            "potential_methodologies_cn": ["趋势分析"]
+        })
+        mock_state_intro.parsed_outline = [
+            {'title': '引言', 'level': 1, 'id': 'chap_introduction'},
+            {'title': 'AI技术', 'level': 1, 'id': 'chap_ai_military'}
+        ]
+        task_payload_intro = {'chapter_key': test_chapter_key_intro, 'chapter_title': test_chapter_title_intro, 'priority': 1}
+
+        print(f"\nExecuting ChapterWriterAgent for INTRODUCTION chapter: '{test_chapter_title_intro}'")
+        llm_service_instance_mock.snippet_call_count = 0
+        llm_service_instance_mock.integration_call_count = 0
+        writer_agent_instance.execute_task(mock_state_intro, task_payload_intro)
+
+        chapter_info = mock_state_intro.get_chapter_data(test_chapter_key_intro)
+        assert chapter_info is not None and chapter_info.get('status') == STATUS_EVALUATION_NEEDED
+        assert llm_service_instance_mock.snippet_call_count == 0
+        assert llm_service_instance_mock.integration_call_count == 1
+        final_content = chapter_info.get('content', '')
+        assert f"这是为报告《{mock_state_intro.report_title}》生成的模拟引言" in final_content
+        assert "--- 参考来源列表 ---" not in final_content # Intro usually doesn't have this specific citation block
+        print(f"INTRODUCTION chapter test successful. LLM calls: Snippets={llm_service_instance_mock.snippet_call_count}, IntroGen={llm_service_instance_mock.integration_call_count}")
+
     try:
-        writer_agent.execute_task(mock_state_cwa, task_payload_for_agent_cwa)
-
-        print("\nWorkflowState after ChapterWriterAgent execution:")
-        chapter_info = mock_state_cwa.get_chapter_data(test_chapter_key)
-        if chapter_info:
-            print(f"  Chapter '{test_chapter_key}' Status: {chapter_info.get('status')}")
-            final_content = chapter_info.get('content', '')
-            print(f"  Final Content:\n{final_content}\n") # Print full content for inspection
-            print(f"  Retrieved Docs were used (count): {len(chapter_info.get('retrieved_docs', []))}")
-
-        print(f"  Tasks added by agent: {json.dumps(mock_state_cwa.added_tasks_cwa, indent=2, ensure_ascii=False)}")
-
-        assert chapter_info is not None
-        assert chapter_info.get('status') == STATUS_EVALUATION_NEEDED
-
-        # Check if LLM mock was called for snippets and integration
-        assert llm_service_instance.snippet_call_count == len(mock_retrieved_data), \
-            f"Expected {len(mock_retrieved_data)} snippet calls, got {llm_service_instance.snippet_call_count}"
-        assert llm_service_instance.integration_call_count == 1, \
-            f"Expected 1 integration call, got {llm_service_instance.integration_call_count}"
-
-        # Check the content based on the new MockLLMService output
-        # Expected snippet 1 text: "基于片段“父块1：ABMS是一个复杂的系统...”的生成内容 (片段1)"
-        # Expected citation 1: "[引用来源：source_doc_A.pdf。原文表述：父块1：ABMS是一个复杂的系统，具有多种功能...]"
-        # Expected snippet 2 text: "基于片段“父块2：JADC2与ABMS紧密相...”的生成内容 (片段2)"
-        # Expected citation 2: "[引用来源：source_doc_B.txt。原文表述：父块2：JADC2与ABMS紧密相关，是其关键组成部分...]"
-
-        # New mock integration output format:
-        # "《Chapter Title》的整合章节内容：\n\n段落：[snippet1_text] [citation1_text]\n\n段落：[snippet2_text] [citation2_text]"
-
-        expected_snippet_text1 = "基于片段“父块1：ABMS是一个复杂的系统...”的生成内容 (片段1)"
-        expected_citation1_str = "[引用来源：source_doc_A.pdf。原文表述：父块1：ABMS是一个复杂的系统，具有多种功能...]"
-        expected_combined_block1 = f"{expected_snippet_text1} {expected_citation1_str}"
-
-        expected_snippet_text2 = "基于片段“父块2：JADC2与ABMS紧密相...”的生成内容 (片段2)"
-        expected_citation2_str = "[引用来源：source_doc_B.txt。原文表述：父块2：JADC2与ABMS紧密相关，是其关键组成部分...]"
-        expected_combined_block2 = f"{expected_snippet_text2} {expected_citation2_str}"
-
-        assert f"《{test_chapter_title}》的整合章节内容：" in final_content
-        # Check for the combined blocks in the final output
-        assert f"段落：{expected_combined_block1}" in final_content
-        assert f"段落：{expected_combined_block2}" in final_content
-
-        print(f"Final content structure check: Title prefix present: {'《' + test_chapter_title + '》的整合章节内容：' in final_content}")
-        print(f"Final content check: Combined block 1 present as '段落：...': {f'段落：{expected_combined_block1}' in final_content}")
-        print(f"Final content check: Combined block 2 present as '段落：...': {f'段落：{expected_combined_block2}' in final_content}")
-
-        # Verify the structure of the query sent to the integration LLM call
-        assert llm_service_instance.last_integration_query is not None
-        # The formatting in _integrate_chapter_content is now "文本块 {i+1}:\n{block_text} {block_citation}\n---\n\n"
-        # So, expected_combined_block1 and expected_combined_block2 should be directly in the query,
-        # prefixed by "文本块 N:\n" and suffixed by "\n---".
-
-        expected_integration_input_formatted_block1 = f"文本块 1:\n{expected_combined_block1}\n---"
-        expected_integration_input_formatted_block2 = f"文本块 2:\n{expected_combined_block2}\n---"
-
-        assert expected_integration_input_formatted_block1 in llm_service_instance.last_integration_query
-        assert expected_integration_input_formatted_block2 in llm_service_instance.last_integration_query
-
-        # Verify global context in integration prompt
-        assert mock_global_theme in llm_service_instance.last_integration_query
-        assert "ABMS: Advanced Battle Management System" in llm_service_instance.last_integration_query # Check one of the key terms
-
-        print(f"Integration input format check: Formatted block 1 correct: {expected_integration_input_formatted_block1 in llm_service_instance.last_integration_query}")
-        print(f"Integration input format check: Formatted block 2 correct: {expected_integration_input_formatted_block2 in llm_service_instance.last_integration_query}")
-        print(f"Integration input check: Global theme present: {mock_global_theme in llm_service_instance.last_integration_query}")
-        print(f"Integration input check: Key term present: {'ABMS: Advanced Battle Management System' in llm_service_instance.last_integration_query}")
-
-        # Verify global context in snippet prompt (checking the last one called)
-        assert llm_service_instance.last_snippet_query is not None
-        assert mock_global_theme in llm_service_instance.last_snippet_query
-        assert "JADC2: Joint All-Domain Command and Control" in llm_service_instance.last_snippet_query # Check the other key term
-        print(f"Snippet input check: Global theme present: {mock_global_theme in llm_service_instance.last_snippet_query}")
-        print(f"Snippet input check: Key term present: {'JADC2: Joint All-Domain Command and Control' in llm_service_instance.last_snippet_query}")
-
-        assert len(mock_state_cwa.added_tasks_cwa) == 1
-        assert mock_state_cwa.added_tasks_cwa[0]['type'] == TASK_TYPE_EVALUATE_CHAPTER
-        assert mock_state_cwa.added_tasks_cwa[0]['payload']['chapter_key'] == test_chapter_key
-
-        print("\nChapterWriterAgent test with new two-stage logic and global context successful.")
-
+        print("\n--- Running ChapterWriterAgent Tests ---")
+        test_regular_chapter(writer_agent, llm_service_instance)
+        test_introduction_chapter(writer_agent, llm_service_instance)
+        print("\nAll ChapterWriterAgent tests passed.")
+    except AssertionError as e:
+        print(f"\nChapterWriterAgent test FAILED: {e}")
+        import traceback
+        traceback.print_exc()
     except Exception as e:
-        print(f"Error during ChapterWriterAgent test (New Two-Stage Logic with Global Context): {e}")
+        print(f"\nError during ChapterWriterAgent tests: {e}")
         import traceback
         traceback.print_exc()
 
