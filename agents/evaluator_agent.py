@@ -74,9 +74,37 @@ class EvaluatorAgent(BaseAgent):
             evaluation_result = {"score": 0, "feedback_cn": "无法评估空内容。",
                                  "evaluation_criteria_met": {k: "无法评估" for k in ["relevance", "fluency", "completeness", "accuracy"]}}
         else:
-            prompt = self.prompt_template.format(content_to_evaluate=content_to_evaluate, chapter_title=chapter_title)
+            report_topic = workflow_state.user_topic or "未提供报告主题"
+
+            # Prepare report_outline_summary
+            outline_summary_parts = []
+            if workflow_state.parsed_outline:
+                for item in workflow_state.parsed_outline:
+                    indent = "  " * (item.get('level', 1) - 1)
+                    outline_summary_parts.append(f"{indent}- {item.get('title', '未命名章节')}")
+            report_outline_summary = "\n".join(outline_summary_parts) if outline_summary_parts else "报告大纲不可用或为空。"
+
+            # Prepare retrieved_references_summary
+            # Using 'retrieved_docs' from the chapter_data, which should contain docs used for writing.
+            # These are the most relevant for evaluating how well references were used for this specific chapter.
+            chapter_retrieved_docs = chapter_data.get('retrieved_docs', [])
+            references_summary_parts = []
+            if chapter_retrieved_docs:
+                for i, doc in enumerate(chapter_retrieved_docs[:5]): # Show summary of first 5 docs for brevity
+                    doc_text_snippet = doc.get('document', '摘要不可用')[:100] # First 100 chars as snippet
+                    source_name = doc.get('source_document_name', '未知来源')
+                    references_summary_parts.append(f"- [{i+1}] 来自 '{source_name}': \"{doc_text_snippet}...\"")
+            retrieved_references_summary = "\n".join(references_summary_parts) if references_summary_parts else "本章节无特定检索参考资料或摘要不可用。"
+
+            prompt = self.prompt_template.format(
+                report_topic=report_topic,
+                report_outline_summary=report_outline_summary,
+                chapter_title=chapter_title,
+                retrieved_references_summary=retrieved_references_summary,
+                content_to_evaluate=content_to_evaluate
+            )
             try:
-                logger.info(f"[{self.agent_name}] Task ID: {task_id} - Sending request to LLM for evaluation of chapter '{chapter_title}'.")
+                logger.info(f"[{self.agent_name}] Task ID: {task_id} - Sending request to LLM for evaluation of chapter '{chapter_title}'. Prompt includes report_topic, outline_summary, references_summary.")
                 raw_response = self.llm_service.chat(query=prompt, system_prompt="你是一个严格且公正的AI内容评审专家。")
                 logger.debug(f"[{self.agent_name}] Task ID: {task_id} - Raw LLM response for evaluation: {raw_response}")
 

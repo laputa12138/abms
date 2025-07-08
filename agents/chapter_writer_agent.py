@@ -181,9 +181,52 @@ class ChapterWriterAgent(BaseAgent):
         if not key_terms_definitions_formatted:
             key_terms_definitions_formatted = "未提供关键术语定义"
 
+        # Prepare report_outline_summary
+        outline_summary_parts = []
+        current_outline = workflow_state.parsed_outline
+        if current_outline:
+            for item in current_outline:
+                indent = "  " * (item.get('level', 1) - 1)
+                outline_marker = "*" if item.get('title') == chapter_title else "" # Mark current chapter
+                outline_summary_parts.append(f"{indent}- {item.get('title', '未命名章节')} {outline_marker}")
+        report_outline_summary = "\n".join(outline_summary_parts) if outline_summary_parts else "报告大纲不可用或为空。"
+
+        # Prepare previous_chapters_summary
+        previous_chapters_summary_parts = []
+        if current_outline:
+            current_chapter_index = -1
+            for i, item in enumerate(current_outline):
+                if item.get('id') == chapter_key: # Assuming chapter_key is the ID in the outline
+                    current_chapter_index = i
+                    break
+
+            if current_chapter_index > 0:
+                for i in range(current_chapter_index):
+                    prev_chap_item = current_outline[i]
+                    prev_chap_key = prev_chap_item.get('id')
+                    prev_chap_title = prev_chap_item.get('title', '未知标题')
+                    prev_chap_data = workflow_state.get_chapter_data(prev_chap_key)
+                    if prev_chap_data and prev_chap_data.get('content'):
+                        # Extract a brief summary, e.g., first N chars, stripping newlines
+                        content_preview = prev_chap_data['content'][:200].replace("\n", " ").strip()
+                        previous_chapters_summary_parts.append(f"  - {prev_chap_title}: \"{content_preview}...\"")
+                    else:
+                        previous_chapters_summary_parts.append(f"  - {prev_chap_title}: (内容尚未生成或不可用)")
+
+        previous_chapters_summary = "\n".join(previous_chapters_summary_parts) if previous_chapters_summary_parts \
+                                   else "无前序章节内容可供参考，或这是报告的第一章。"
+
+
         all_retrieved_docs_for_chapter = chapter_data.get('retrieved_docs', [])
         logger.info(f"[{self.agent_name}] Task ID: {task_id} - Chapter: '{chapter_title}'. Initial retrieved docs count: {len(all_retrieved_docs_for_chapter)}")
-        self._log_input(chapter_title=chapter_title, initial_retrieved_docs_count=len(all_retrieved_docs_for_chapter), report_global_theme=report_global_theme, key_terms_definitions=key_terms_definitions_dict)
+        self._log_input(
+            chapter_title=chapter_title,
+            initial_retrieved_docs_count=len(all_retrieved_docs_for_chapter),
+            report_global_theme=report_global_theme,
+            key_terms_definitions=key_terms_definitions_dict,
+            report_outline_summary_len=len(report_outline_summary),
+            previous_chapters_summary_len=len(previous_chapters_summary)
+        )
 
         relevant_docs_for_generation = []
         if not self.relevance_check_prompt_template:
@@ -239,13 +282,21 @@ class ChapterWriterAgent(BaseAgent):
                 try:
                     snippet_writer_prompt = self.single_snippet_writer_prompt_template.format(
                         report_global_theme=report_global_theme,
+                        report_outline_summary=report_outline_summary,
+                        previous_chapters_summary=previous_chapters_summary,
                         key_terms_definitions_formatted=key_terms_definitions_formatted,
                         chapter_title=chapter_title,
                         single_document_snippet=single_doc_text
                     )
                 except KeyError as e:
-                    logger.error(f"KeyError formatting snippet_writer_prompt: {e}. Using fallback.")
-                    snippet_writer_prompt = f"章节标题：\n{chapter_title}\n\n单一段落参考资料：\n\"\"\"\n{single_doc_text}\n\"\"\"\n\n请撰写内容。"
+                    logger.error(f"KeyError formatting snippet_writer_prompt: {e}. Using fallback with available context.")
+                    # Fallback might be less effective but better than crashing
+                    snippet_writer_prompt = (
+                        f"报告全局主题：\n{report_global_theme}\n\n"
+                        f"当前章节标题：\n{chapter_title}\n\n"
+                        f"单一段落参考资料：\n\"\"\"\n{single_doc_text}\n\"\"\"\n\n"
+                        f"请撰写内容。注意：部分上下文信息可能因错误未能加载。"
+                    )
 
                 preliminary_text_str = ""
                 citation_json_for_snippet = {
@@ -326,7 +377,9 @@ class ChapterWriterAgent(BaseAgent):
                     chapter_title=chapter_title,
                     content_blocks=content_blocks,
                     report_global_theme=report_global_theme,
-                    key_terms_definitions_formatted=key_terms_definitions_formatted
+                    key_terms_definitions_formatted=key_terms_definitions_formatted,
+                    report_outline_summary=report_outline_summary, # Pass new context
+                    previous_chapters_summary=previous_chapters_summary # Pass new context
                 )
 
             # Check if placeholder was returned, and if so, log details
@@ -409,7 +462,10 @@ class ChapterWriterAgent(BaseAgent):
                                    chapter_title: str,
                                    content_blocks: List[Dict[str, str]],
                                    report_global_theme: str,
-                                   key_terms_definitions_formatted: str) -> str:
+                                   key_terms_definitions_formatted: str,
+                                   report_outline_summary: str, # Added
+                                   previous_chapters_summary: str # Added
+                                   ) -> str:
         """
         Integrates multiple preliminary content blocks (each with its citation) into a single,
         coherent chapter using an LLM, incorporating global theme and key terms.
@@ -434,13 +490,20 @@ class ChapterWriterAgent(BaseAgent):
         try:
             integration_prompt_str = self.integration_prompt_template.format(
                 report_global_theme=report_global_theme,
+                report_outline_summary=report_outline_summary, # Use new context
+                previous_chapters_summary=previous_chapters_summary, # Use new context
                 key_terms_definitions_formatted=key_terms_definitions_formatted,
                 chapter_title=chapter_title,
                 preliminary_content_blocks_formatted=formatted_blocks_for_integration.strip()
             )
         except KeyError as e:
-            logger.error(f"KeyError formatting integration_prompt_str: {e}. Using fallback.")
-            integration_prompt_str = f"章节标题：\n{chapter_title}\n\n待整合的文本块列表：\n---\n{formatted_blocks_for_integration.strip()}\n---\n请整合内容。"
+            logger.error(f"KeyError formatting integration_prompt_str: {e}. Using fallback with available context.")
+            integration_prompt_str = (
+                f"报告全局主题：\n{report_global_theme}\n\n"
+                f"当前章节标题：\n{chapter_title}\n\n"
+                f"待整合的文本块列表：\n---\n{formatted_blocks_for_integration.strip()}\n---\n"
+                f"请整合内容。注意：部分上下文信息可能因错误未能加载。"
+            )
 
         try:
             logger.info(f"Sending {len(content_blocks)} content blocks to LLM for integration for chapter '{chapter_title}'. Prompt length: {len(integration_prompt_str)}")
