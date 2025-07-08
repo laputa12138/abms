@@ -151,6 +151,7 @@ class OutlineGeneratorAgent(BaseAgent):
         if all_queries_for_retrieval:
             logger.info(f"[{self.agent_name}] Retrieving initial context for outline generation using {len(all_queries_for_retrieval)} queries: {all_queries_for_retrieval}")
             # TODO: Make PRE_OUTLINE_RETRIEVAL_TOP_N configurable in settings.py
+            from config import settings
             PRE_OUTLINE_RETRIEVAL_TOP_N = settings.DEFAULT_OUTLINE_GENERATION_RETRIEVAL_TOP_N # Using from settings
 
             try:
