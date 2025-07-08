@@ -105,36 +105,33 @@ LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO").upper() # 日志级别 (DEBUG, INFO, 
 # ==============================================================================
 
 # --- TopicAnalyzerAgent ---
-DEFAULT_TOPIC_ANALYZER_PROMPT = """你是一个深度主题分析专家和研究助理。请对以下用户提供的主题进行深入分析和解构。你的任务是：
-1.  **泛化主题**：对用户主题进行适当的泛化，以覆盖更广阔的背景。
-2.  **提取核心关键词/概念**：识别并列出与主题最相关的中文和英文核心关键词或概念。
-3.  **识别核心研究问题**：根据主题，推断出1-3个该主题下可能探讨的核心研究问题。这些问题应该是开放性的，能够引导深入研究。
-4.  **推断潜在研究方法/视角**：根据主题，推断出可能适用的1-2种主要研究方法、分析视角或理论框架。
-5.  **生成扩展查询建议**：基于以上分析，生成{max_expanded_queries}个相关的、多样化的搜索查询建议，用于后续的深入信息检索。这些查询应该有助于全面覆盖主题的各个方面。
+DEFAULT_TOPIC_ANALYZER_PROMPT = """你是一个深度主题分析专家。请严格按照任务指令分析用户主题。
+
+任务指令：
+1.  泛化用户主题，分别提供中文和英文版本。
+2.  提取与用户主题最相关的3-5个核心关键词（中文和英文）。
+3.  识别1-3个核心研究问题（中文）。
+4.  推断1-2种潜在研究方法或视角（中文）。
+5.  生成{max_expanded_queries}个相关的、多样化的搜索查询建议（中文或英文）。
 
 用户主题：'{user_topic}'
 
-请严格按照以下JSON格式返回结果，不要添加任何额外的解释或说明文字：
+输出格式要求：
+必须严格按照以下JSON结构返回结果。不要添加任何额外的解释、注释或说明文字。
+确保所有键名（例如 "generalized_topic_cn"）都用双引号括起来。
+确保所有字符串值（例如泛化主题、关键词、问题、方法、查询）都用双引号括起来。
+确保列表类型的字段（例如 "keywords_cn", "core_research_questions_cn", "potential_methodologies_cn", "expanded_queries"）的值是JSON数组格式（例如 ["示例1", "示例2"]）。
+不要生成任何未在以下JSON格式定义中出现的键名。
+
+JSON输出格式定义：
 {{
-  "generalized_topic_cn": "泛化后的中文主题",
-  "generalized_topic_en": "Generalized English Topic",
-  "keywords_cn": ["中文关键词1", "中文关键词2", "中文关键词3"],
-  "keywords_en": ["English Keyword1", "English Keyword2", "English Keyword3"],
-  "core_research_questions_cn": [
-    "核心研究问题1？",
-    "核心研究问题2？"
-  ],
-  "potential_methodologies_cn": [
-    "潜在研究方法或视角1",
-    "潜在研究方法或视角2"
-  ],
-  "expanded_queries": [
-    "扩展查询1",
-    "扩展查询2",
-    "扩展查询3",
-    "扩展查询4",
-    "扩展查询5"
-  ]
+  "generalized_topic_cn": "此处填写泛化后的中文主题",
+  "generalized_topic_en": "Fill generalized English topic here",
+  "keywords_cn": ["关键词一", "关键词二"],
+  "keywords_en": ["Keyword One", "Keyword Two"],
+  "core_research_questions_cn": ["核心研究问题一？", "核心研究问题二？"],
+  "potential_methodologies_cn": ["潜在研究方法一", "潜在研究方法二"],
+  "expanded_queries": ["扩展查询一", "扩展查询二", "扩展查询三"]
 }}
 """
 
