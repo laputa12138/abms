@@ -352,6 +352,11 @@ class VectorStore:
                     'child_id': item['child_id'], 'parent_id': item['parent_id']}
         return None
 
+    @property
+    def is_loaded(self) -> bool:
+        """Returns True if the VectorStore has been initialized (either by adding docs or loading)."""
+        return self._is_initialized
+
 
 if __name__ == '__main__':
     print("VectorStore (Parent-Child Adapted) Example")
