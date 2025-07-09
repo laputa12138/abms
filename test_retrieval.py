@@ -1,6 +1,7 @@
 import argparse
 import logging
 import json
+import os # Added os import
 
 from rank_bm25 import BM25Okapi
 
@@ -50,19 +51,25 @@ def main():
         # 2. Initialize VectorStore and load index
         logger.info("Initializing VectorStore...")
         vector_store = VectorStore(
-            embedding_service=embedding_service,
-            index_name=args.index_name,
-            vector_store_path=args.vector_store_path,
-            # document_store is loaded/built by load() if index exists or build_and_save()
+            embedding_service=embedding_service
+            # dimension can be inferred by the VectorStore from embeddings
         )
+
+        # Construct paths for loading
+        index_file_path = os.path.join(args.vector_store_path, f"{args.index_name}.faiss")
+        metadata_file_path = os.path.join(args.vector_store_path, f"{args.index_name}_meta.json")
+
         try:
-            vector_store.load() # This should load both FAISS index and the document_store (child chunk metadata)
-            logger.info(f"VectorStore loaded successfully. Index name: '{args.index_name}'. Found {vector_store.count_child_chunks} child chunks in store.")
-            if not vector_store.document_store: # Should be populated by load()
-                 logger.warning("VectorStore's document_store is empty after load(). BM25 might not work as expected if it relies on this.")
+            logger.info(f"Attempting to load VectorStore from: Index='{index_file_path}', Metadata='{metadata_file_path}'")
+            vector_store.load_store(index_path=index_file_path, metadata_path=metadata_file_path)
+            logger.info(f"VectorStore loaded successfully. Index name (from args): '{args.index_name}'. "
+                        f"FAISS index dimension: {vector_store.dimension}, "
+                        f"Found {vector_store.count_child_chunks} child chunks in store.")
+            if not vector_store.document_store: # Should be populated by load_store()
+                 logger.warning("VectorStore's document_store is empty after load_store(). BM25 might not work as expected if it relies on this.")
 
         except VectorStoreError as e:
-            logger.error(f"Failed to load VectorStore: {e}. Attempting to build BM25 from data_path as a fallback for BM25 data.")
+            logger.error(f"Failed to load VectorStore from '{index_file_path}' and '{metadata_file_path}': {e}. Attempting to build BM25 from data_path as a fallback for BM25 data.")
             # If vector store loading fails, we might still try to proceed if BM25 can be built
             # from raw data, but retrieval service will likely fail if vector_store is not usable.
             # For this script, we'll assume vector_store must load for vector search part.
