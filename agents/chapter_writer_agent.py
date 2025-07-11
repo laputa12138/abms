@@ -1,11 +1,12 @@
 import logging
-import json # For parsing LLM relevance check response
+import json # For parsing LLM relevance check response (though clean_and_parse_json may supersede direct json usage here)
 from typing import List, Dict, Optional
 
 from agents.base_agent import BaseAgent
 from core.llm_service import LLMService, LLMServiceError
 from core.workflow_state import WorkflowState, TASK_TYPE_EVALUATE_CHAPTER, STATUS_EVALUATION_NEEDED # Import constants
 from config import settings as app_settings # Import settings for prompts
+from core.json_utils import clean_and_parse_json # Import the new helper
 
 logger = logging.getLogger(__name__)
 
@@ -120,23 +121,29 @@ class ChapterWriterAgent(BaseAgent):
         try:
             response_str = self.llm_service.chat(
                 query=prompt,
-                system_prompt="你是一个内容相关性判断助手。请根据提供的章节标题和文档片段，判断文档片段是否与章节标题高度相关，并严格以JSON格式返回结果。"
+                system_prompt="你是一个内容相关性判断助手。请根据提供的章节标题和文档片段，判断文档片段是否与章节标题高度相关，并严格以JSON格式返回结果。确保返回的是纯净的JSON，不包含Markdown标记或注释。"
             )
-            logger.debug(f"Relevance check for doc ID '{document_id}', chapter '{chapter_title}'. LLM response: {response_str}")
-            response_json = json.loads(response_str)
-            is_relevant = response_json.get("is_relevant", False)
+            logger.debug(f"Relevance check for doc ID '{document_id}', chapter '{chapter_title}'. LLM raw response: {response_str}")
+
+            response_json = clean_and_parse_json(response_str, context=f"relevance_check_doc_{document_id}_chapter_{chapter_title}")
+
+            if response_json is None:
+                # clean_and_parse_json logs the detailed error.
+                logger.error(f"Failed to parse JSON from LLM relevance check for doc ID '{document_id}' after cleaning. Raw response: {response_str[:500]}... Assuming not relevant.")
+                return False
+
+            is_relevant = response_json.get("is_relevant") # No default here, check type below
             if not isinstance(is_relevant, bool):
-                logger.warning(f"LLM relevance check for doc ID '{document_id}' returned non-boolean 'is_relevant' value: {is_relevant}. Defaulting to False.")
+                logger.warning(f"LLM relevance check for doc ID '{document_id}' returned non-boolean or missing 'is_relevant' value: {is_relevant}. Type: {type(is_relevant)}. Defaulting to False.")
                 return False
             return is_relevant
         except LLMServiceError as e:
             logger.error(f"LLM service error during relevance check for doc ID '{document_id}': {e}. Assuming not relevant.")
             return False
-        except json.JSONDecodeError as e:
-            logger.error(f"Failed to parse JSON from LLM relevance check for doc ID '{document_id}': {response_str}. Error: {e}. Assuming not relevant.")
-            return False
-        except Exception as e:
-            logger.error(f"Unexpected error during relevance check for doc ID '{document_id}': {e}. Assuming not relevant.", exc_info=True)
+        # json.JSONDecodeError is already handled by clean_and_parse_json or its absence if json_repair is used.
+        # Other exceptions might still occur if response_json is not a dict, for example.
+        except Exception as e: # Catch other unexpected errors, e.g. if response_json is not a dict
+            logger.error(f"Unexpected error processing relevance check for doc ID '{document_id}': {e}. LLM raw response: {response_str[:500]}... Assuming not relevant.", exc_info=True)
             return False
 
     def _format_single_snippet_for_llm(self, single_doc_text: str) -> str:

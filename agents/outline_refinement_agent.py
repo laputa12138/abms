@@ -5,6 +5,7 @@ from typing import Dict, Optional, List
 from agents.base_agent import BaseAgent
 from core.llm_service import LLMService, LLMServiceError
 from core.workflow_state import WorkflowState, TASK_TYPE_APPLY_OUTLINE_REFINEMENT
+from core.json_utils import clean_and_parse_json # Import the new helper
 
 logger = logging.getLogger(__name__)
 
@@ -161,23 +162,23 @@ class OutlineRefinementAgent(BaseAgent):
                 suggested_refinements = []
             else:
                 try:
-                    # The LLM is asked to return JSON directly.
-                    # Strip potential markdown code fences if LLM wraps JSON in them
-                    if llm_response_str.strip().startswith("```json"):
-                        llm_response_str = llm_response_str.strip()[7:]
-                        if llm_response_str.endswith("```"):
-                             llm_response_str = llm_response_str[:-3]
-                    llm_response_str = llm_response_str.strip()
+                    # Use the new robust JSON parsing helper
+                    parsed_data = clean_and_parse_json(llm_response_str, context=f"outline_refinement_agent_task_{task_id}")
 
-                    suggested_refinements = json.loads(llm_response_str)
-                    suggested_refinements = self._validate_suggestions(suggested_refinements, parsed_outline)
-                except json.JSONDecodeError as e:
-                    err_msg = f"Failed to decode LLM JSON response for outline refinements: {e}. Response: {llm_response_str}"
-                    logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}")
-                    # Potentially try to parse with more resilient methods or return empty list
-                    suggested_refinements = [] # Fallback to no refinements on parse error
-                    workflow_state.log_event(f"LLM response for outline refinement was not valid JSON.", {"error": str(e), "llm_response": llm_response_str}, level="WARNING")
+                    if parsed_data is not None:
+                        suggested_refinements = self._validate_suggestions(parsed_data, parsed_outline)
+                    else:
+                        # clean_and_parse_json already logs the error with context
+                        err_msg = f"Failed to decode or validate LLM JSON response for outline refinements after cleaning. Raw response: {llm_response_str[:500]}..."
+                        logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}")
+                        suggested_refinements = [] # Fallback to no refinements on parse error
+                        workflow_state.log_event(f"LLM response for outline refinement was not valid JSON or failed validation.", {"llm_response": llm_response_str}, level="WARNING")
 
+                except Exception as e_val: # Catch errors from _validate_suggestions or other unexpected issues
+                    err_msg = f"Error processing LLM response after parsing for outline refinements: {e_val}. Raw response: {llm_response_str[:500]}..."
+                    logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg}", exc_info=True)
+                    suggested_refinements = [] # Fallback to no refinements
+                    workflow_state.log_event(f"Error processing LLM response for outline refinement.", {"error": str(e_val), "llm_response": llm_response_str}, level="ERROR")
 
             # Add task to apply these refinements
             apply_payload = {
