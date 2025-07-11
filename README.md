@@ -16,15 +16,18 @@
     *   支持将FAISS索引和相关元数据保存到磁盘，并在后续运行时加载，避免重复处理相同文档集。
 3.  **动态任务驱动的多智能体协作 (通过WorkflowState和Orchestrator)**：
     *   **WorkflowState**: 作为中央“工作记忆”，管理整个报告生成流程的动态状态，包括任务队列、大纲、章节内容、评估结果等。
-    *   **Orchestrator**: 驱动工作流，从`WorkflowState`获取任务，并分发给相应的Agent执行。Agent执行后更新`WorkflowState`并可能添加新任务。
+    *   **Orchestrator**: 驱动工作流，从`WorkflowState`获取任务，并分发给相应的Agent执行。Agent执行后更新`WorkflowState`并可能添加新任务。Orchestrator也会处理特定任务类型如大纲应用和最终报告编译的触发。
     *   **各Agent职责** (已适配WorkflowState交互模式):
-        *   `TopicAnalyzerAgent`: 解析主题，生成中英文关键词和泛化主题。
-        *   `OutlineGeneratorAgent`: 生成Markdown报告大纲，并为每个章节创建处理任务。
-        *   `ContentRetrieverAgent` (依赖`RetrievalService`): 为章节执行混合检索（向量+BM25），获取父块上下文。
-        *   `ChapterWriterAgent`: 基于检索到的父块撰写章节初稿。
-        *   `EvaluatorAgent`: 评估章节质量，根据评分决定是否需要精炼。
-        *   `RefinerAgent`: 根据评估反馈修改和完善章节内容。
-        *   `ReportCompilerAgent`: 在所有章节完成后，整合内容生成最终报告。
+        *   `TopicAnalyzerAgent`: 解析用户主题，生成泛化主题（中英文）、核心关键词（中英文）、关键研究问题、潜在研究方法以及多样化的搜索查询建议。
+        *   `OutlineGeneratorAgent`: 基于主题分析和初步检索的上下文，生成初步的Markdown格式报告大纲。章节处理任务的创建由Orchestrator根据此大纲驱动。
+        *   `GlobalContentRetrieverAgent`: (依赖`RetrievalService`) 为整个大纲或主要部分进行全局内容检索，提供宏观上下文信息，可能用于大纲优化。
+        *   `OutlineRefinementAgent`: (依赖`GlobalContentRetrieverAgent`的输出) 审查初步大纲和全局上下文，提出结构性优化建议（如增删改章节、调整顺序等）。
+        *   `ContentRetrieverAgent`: (依赖`RetrievalService`) 为单个具体章节执行混合检索（向量+BM25），获取精确的父块上下文用于撰写。
+        *   `ChapterWriterAgent`: 基于检索到的章节具体上下文（父块）和全局上下文信息，撰写章节初稿。
+        *   `EvaluatorAgent`: 评估已撰写章节的质量（相关性、充实度、流畅性等），并给出评分和反馈。
+        *   `RefinerAgent`: 根据`EvaluatorAgent`的评估反馈，修改和完善章节内容。
+        *   `MissingContentResolutionAgent`: 在主要章节撰写和精炼后，尝试识别和补充报告中可能缺失的关键信息或章节。
+        *   `ReportCompilerAgent`: 在所有章节内容最终确定后，将各章节整合，添加目录（可选），生成最终的完整报告文档。
 4.  **本地化模型部署**：所有核心AI能力均依赖通过Xinference部署的本地模型API。
 
 ## 功能特性
@@ -34,9 +37,11 @@
 *   **父子分块**：优化长文档处理，通过子块精确检索，父块补充上下文。
 *   **混合检索**：结合向量检索和关键词检索，提高检索质量。
 *   **FAISS索引持久化**: 允许保存和加载处理好的文档向量及元数据，提高重复运行效率。
-*   **动态任务驱动流程**: 基于`WorkflowState`和`Orchestrator`，实现更灵活的迭代式报告生成。
+*   **动态任务驱动流程**: 基于`WorkflowState`和`Orchestrator`，实现更灵活的迭代式报告生成，包括大纲调整和内容补充。
 *   **增强的日志系统**: 支持控制台和文件日志，级别可配置，便于追踪和调试。
-*   **中英文关键词**：主题分析阶段生成中英文关键词。
+*   **深度主题分析**：主题分析阶段生成中英文关键词、研究问题、研究方法和扩展查询。
+*   **大纲优化机制**：支持对初步生成的大纲进行审查和结构性优化。
+*   **内容补全**：尝试在报告生成后期识别并补充可能缺失的内容。
 *   **高度可配置**：模型、分块、检索、日志、索引等均可通过配置文件或命令行调整。
 *   **中文报告生成**：专注于生成中文报告。
 
@@ -44,33 +49,54 @@
 
 ```
 .
-├── agents/                     # 智能体实现 (已适配WorkflowState)
-│   └── ...
-├── config/
-│   └── settings.py             # 项目配置 (API, 模型名, 默认参数等)
+├── .gitignore                  # Git忽略配置
+├── README.md                   # 项目说明（本文档）
+├── agents/                     # 智能体实现
+│   ├── __init__.py
+│   ├── base_agent.py
+│   ├── chapter_writer_agent.py
+│   ├── content_retriever_agent.py
+│   ├── evaluator_agent.py
+│   ├── global_content_retriever_agent.py
+│   ├── missing_content_resolution_agent.py
+│   ├── outline_generator_agent.py
+│   ├── outline_refinement_agent.py
+│   ├── refiner_agent.py
+│   ├── report_compiler_agent.py
+│   └── topic_analyzer_agent.py
+├── config/                     # 项目配置
+│   ├── __init__.py
+│   └── settings.py             # API, 模型名, 默认参数等
 ├── core/                       # 核心逻辑模块
+│   ├── __init__.py
 │   ├── document_processor.py   # 多文档处理, 父子分块
 │   ├── embedding_service.py    # Embedding模型接口
 │   ├── llm_service.py          # LLM接口
-│   ├── orchestrator.py         # 新增：工作流编排器
+│   ├── orchestrator.py         # 工作流编排器
 │   ├── reranker_service.py     # Reranker模型接口
-│   ├── retrieval_service.py    # 新增：核心检索服务 (混合检索)
+│   ├── retrieval_service.py    # 核心检索服务 (混合检索)
 │   ├── vector_store.py         # FAISS向量存储 (支持父子块, 持久化)
-│   └── workflow_state.py       # 新增：工作流状态管理器
+│   └── workflow_state.py       # 工作流状态管理器
 ├── data/                       # (Git忽略) 存放用户上传的源文档
 │   └── .gitkeep
-├── logs/                       # (Git忽略) 存放日志文件
+├── logs/                       # (Git忽略, 可配置) 存放日志文件
 │   └── .gitkeep
 ├── output/                     # (Git忽略) 存放生成的报告
 │   └── .gitkeep
-├── vector_stores/              # (Git忽略, 可配置) 存放持久化的FAISS索引和元数据
-│   └── .gitkeep
-├── pipelines/
-│   └── report_generation_pipeline.py # 已重构为使用Orchestrator和WorkflowState, 支持索引加载/保存
-├── .gitignore                  # 已更新，包含logs/和vector_stores/
-├── main.py                     # 主入口 (命令行接口, 已更新日志和索引参数)
-├── README.md                   # 项目说明（本文档）
-└── requirements.txt            # Python依赖 (已更新)
+├── pipelines/                  # 报告生成流程定义
+│   ├── __init__.py
+│   └── report_generation_pipeline.py # 使用Orchestrator和WorkflowState, 支持索引加载/保存
+├── requirements.txt            # Python依赖
+├── run.sh                      # 便捷运行脚本示例
+├── src/                        # 其他源代码 (如有特定工具或库)
+│   └── abms/
+│       └── tools/
+│           └── rag_tool.py     # 示例工具
+├── test_retrieval.py           # 检索功能测试脚本示例
+├── utils/                      # 通用工具模块
+│   └── __init__.py
+└── vector_stores/              # (Git忽略, 可配置) 存放持久化的FAISS索引和元数据
+    └── .gitkeep
 ```
 
 ## 环境配置
@@ -101,27 +127,36 @@ python main.py --topic "您的报告主题" --data_path "存放源文档的文�
 
 *   `--topic "主题字符串"` (必需): 报告主题。
 *   `--data_path "文件夹路径"` (可选, 默认: `./data/`): 源文档文件夹路径。
-*   `--output_path "输出文件.md"` (可选, 默认: `output/report_时间戳.md`): 报告保存路径。
+*   `--output_path "输出文件.md"` (可选, 默认: `output/report_YYYYMMDD_HHMMSS.md`): 报告保存路径。
 *   `--report_title "自定义标题"` (可选): 报告的自定义标题。
 
 **Xinference与模型配置**:
-*   `--xinference_url`, `--llm_model`, `--embedding_model`, `--reranker_model`.
+*   `--xinference_url` (可选, 默认: 见`config/settings.py`): Xinference API服务器URL。
+*   `--llm_model` (可选, 默认: 见`config/settings.py`): LLM模型名称。
+*   `--embedding_model` (可选, 默认: 见`config/settings.py`): Embedding模型名称。
+*   `--reranker_model` (可选, 默认: 见`config/settings.py`): Reranker模型名称。设为 'None' 或空字符串禁用。
 
 **文档处理 - 分块参数**:
-*   `--parent_chunk_size`, `--parent_chunk_overlap`, `--child_chunk_size`, `--child_chunk_overlap`.
+*   `--parent_chunk_size` (可选, 默认: 见`config/settings.py`): 父块目标字符数。
+*   `--parent_chunk_overlap` (可选, 默认: 见`config/settings.py`): 父块重叠字符数。
+*   `--child_chunk_size` (可选, 默认: 见`config/settings.py`): 子块目标字符数。
+*   `--child_chunk_overlap` (可选, 默认: 见`config/settings.py`): 子块重叠字符数。
 
 **检索参数**:
-*   `--vector_top_k`, `--keyword_top_k`, `--hybrid_search_alpha`, `--final_top_n_retrieval`.
+*   `--vector_top_k` (可选, 默认: 见`config/settings.py`): 向量搜索检索文档数。
+*   `--keyword_top_k` (可选, 默认: 见`config/settings.py`): 关键词搜索(BM25)检索文档数。
+*   `--final_top_n_retrieval` (可选, 默认: `vector_top_k`的值): 最终用于章节生成的文档数。
+    *   注意: `--hybrid_search_alpha` 参数当前在代码中未激活。
 
 **流程执行与索引参数**:
-*   `--max_refinement_iterations <整数>`: 章节内容最大精炼次数。
-*   `--max_workflow_iterations <整数>`: 工作流主循环最大迭代次数 (防死循环)。
-*   `--vector_store_path "路径"` (可选, 默认: `./vector_stores/`): FAISS索引和元数据文件的保存/加载目录。
-*   `--index_name "名称"` (可选): FAISS索引文件的特定名称（不含扩展名）。若提供且文件存在（且未指定`--force_reindex`），则会尝试加载。若不提供，则会基于`--data_path`的目录名自动生成。
+*   `--max_refinement_iterations` (可选, 默认: 见`config/settings.py`): 章节内容最大精炼次数。
+*   `--max_workflow_iterations` (可选, 默认: `50`): 工作流主循环最大迭代次数 (防死循环)。
+*   `--vector_store_path` (可选, 默认: `./vector_stores/`): FAISS索引和元数据文件的保存/加载目录。
+*   `--index_name` (可选): FAISS索引文件的特定名称（不含扩展名）。若提供且文件存在（且未指定`--force_reindex`），则会尝试加载。若不提供，则会基于`--data_path`的目录名自动生成。
 *   `--force_reindex` (可选标志): 若设置，则强制重新处理文档并创建新索引，即使存在同名旧索引也会覆盖。
 
 **日志参数**:
-*   `--log_level <级别>` (可选, 默认: `INFO`): 控制台日志级别 (DEBUG, INFO, WARNING, ERROR, CRITICAL)。
+*   `--log_level <级别>` (可选, 默认: `DEBUG` from `config/settings.py`): 控制台日志级别 (DEBUG, INFO, WARNING, ERROR, CRITICAL)。
 *   `--debug` (可选标志): 若设置，则全局日志级别（控制台和文件）设为DEBUG。
 *   `--log_path "路径"` (可选, 默认: `./logs/`): 日志文件保存目录。
 
