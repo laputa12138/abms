@@ -3,7 +3,7 @@ from typing import List, Dict, Optional, Any
 import json
 from agents.base_agent import BaseAgent
 from core.retrieval_service import RetrievalService, RetrievalServiceError
-from core.workflow_state import WorkflowState, TASK_TYPE_WRITE_CHAPTER, STATUS_WRITING_NEEDED # Import constants
+from core.workflow_state import WorkflowState, TASK_TYPE_WRITE_CHAPTER, STATUS_WRITING_NEEDED, STATUS_PENDING # Import constants
 from config import settings # Import settings for default retrieval parameters
 
 logger = logging.getLogger(__name__)
@@ -25,7 +25,7 @@ class ContentRetrieverAgent(BaseAgent):
                  # reflecting CLI overrides or settings defaults.
                  default_vector_top_k: int = settings.DEFAULT_VECTOR_STORE_TOP_K,
                  default_keyword_top_k: int = settings.DEFAULT_KEYWORD_SEARCH_TOP_K,
-                 default_hybrid_alpha: float = settings.DEFAULT_HYBRID_SEARCH_ALPHA,
+                #  default_hybrid_alpha: float = settings.DEFAULT_HYBRID_SEARCH_ALPHA,
                  default_final_top_n: int = settings.DEFAULT_RETRIEVAL_FINAL_TOP_N
                  ):
 
@@ -38,12 +38,12 @@ class ContentRetrieverAgent(BaseAgent):
         # Store the effective parameters passed from the pipeline
         self.vector_top_k = default_vector_top_k
         self.keyword_top_k = default_keyword_top_k
-        self.hybrid_alpha = default_hybrid_alpha
+        # self.hybrid_alpha = default_hybrid_alpha
         self.final_top_n = default_final_top_n
 
         logger.info(f"ContentRetrieverAgent initialized. Effective params: "
-                    f"vector_k={self.vector_top_k}, keyword_k={self.keyword_top_k}, "
-                    f"alpha={self.hybrid_alpha}, final_n={self.final_top_n}")
+                    f"vector_k={self.vector_top_k}, keyword_k={self.keyword_top_k}, ")
+                    # f"alpha={self.hybrid_alpha}, final_n={self.final_top_n}")
 
     def execute_task(self, workflow_state: WorkflowState, task_payload: Dict) -> None:
         """
@@ -104,19 +104,19 @@ class ContentRetrieverAgent(BaseAgent):
         # Task_payload can override these for this specific chapter retrieval.
         current_vector_top_k = task_payload.get('vector_top_k', self.vector_top_k)
         current_keyword_top_k = task_payload.get('keyword_top_k', self.keyword_top_k)
-        current_hybrid_alpha = task_payload.get('hybrid_alpha', self.hybrid_alpha)
+        # current_hybrid_alpha = task_payload.get('hybrid_alpha', self.hybrid_alpha)
         current_final_top_n = task_payload.get('final_top_n', self.final_top_n)
 
         logger.info(f"[{self.agent_name}] Task ID: {task_id} - Retrieving for chapter '{chapter_title}' (key: {chapter_key}) "
                     f"using {len(queries_for_chapter)} queries (first: '{queries_for_chapter[0][:100]}...'). "
-                    f"Params: vector_k={current_vector_top_k}, keyword_k={current_keyword_top_k}, "
-                    f"alpha={current_hybrid_alpha}, final_n={current_final_top_n}")
+                    f"Params: vector_k={current_vector_top_k}, keyword_k={current_keyword_top_k}, ")
+                    # f"alpha={current_hybrid_alpha}, final_n={current_final_top_n}")
         try:
             retrieved_docs_for_chapter = self.retrieval_service.retrieve(
                 query_texts=queries_for_chapter, # Pass list of queries
                 vector_top_k=current_vector_top_k,
                 keyword_top_k=current_keyword_top_k,
-                hybrid_alpha=current_hybrid_alpha,
+                # hybrid_alpha=current_hybrid_alpha,
                 final_top_n=current_final_top_n
             )
 
@@ -207,7 +207,7 @@ if __name__ == '__main__':
 
     class MockRetrievalServiceCRA: # CRA for ContentRetrieverAgent
         def retrieve(self, query_texts: List[str], vector_top_k: int, keyword_top_k: int,
-                     hybrid_alpha: float, final_top_n: Optional[int], **kwargs) -> List[Dict[str, Any]]: # Added **kwargs
+                      final_top_n: Optional[int], **kwargs) -> List[Dict[str, Any]]: # Added **kwargs
             logger.debug(f"MockRetrievalServiceCRA.retrieve called with queries: {query_texts}, final_top_n={final_top_n}")
             # Simulate returning docs based on the *first* query for simplicity in mock
             # A more complex mock could try to match content from any of the queries.

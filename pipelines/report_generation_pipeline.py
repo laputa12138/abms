@@ -52,7 +52,7 @@ class ReportGenerationPipeline:
                  cli_overridden_child_chunk_overlap: int = settings.DEFAULT_CHILD_CHUNK_OVERLAP,
                  cli_overridden_vector_top_k: int = settings.DEFAULT_VECTOR_STORE_TOP_K,
                  cli_overridden_keyword_top_k: int = settings.DEFAULT_KEYWORD_SEARCH_TOP_K,
-                 cli_overridden_hybrid_alpha: float = settings.DEFAULT_HYBRID_SEARCH_ALPHA,
+                #  cli_overridden_hybrid_alpha: float = settings.DEFAULT_HYBRID_SEARCH_ALPHA,
                  cli_overridden_final_top_n_retrieval: int = settings.DEFAULT_RETRIEVAL_FINAL_TOP_N,
                  cli_overridden_max_refinement_iterations: int = settings.DEFAULT_MAX_REFINEMENT_ITERATIONS,
                  # New parameter for key terms
@@ -78,7 +78,7 @@ class ReportGenerationPipeline:
         self.child_chunk_overlap = cli_overridden_child_chunk_overlap
         self.vector_top_k = cli_overridden_vector_top_k
         self.keyword_top_k = cli_overridden_keyword_top_k
-        self.hybrid_alpha = cli_overridden_hybrid_alpha
+        # self.hybrid_alpha = cli_overridden_hybrid_alpha
         self.final_top_n_retrieval = cli_overridden_final_top_n_retrieval
         self.max_refinement_iterations = cli_overridden_max_refinement_iterations # Used by WorkflowState
 
@@ -144,7 +144,7 @@ class ReportGenerationPipeline:
                 retrieval_service=self.retrieval_service,
                 default_vector_top_k=self.vector_top_k, # Use the value stored in self, which came from CLI/settings
                 default_keyword_top_k=self.keyword_top_k,
-                default_hybrid_alpha=self.hybrid_alpha,
+                # default_hybrid_alpha=self.hybrid_alpha,
                 default_final_top_n=self.final_top_n_retrieval
             )
             self.workflow_state.log_event("ContentRetrieverAgent initialized using RetrievalService with effective parameters.")
