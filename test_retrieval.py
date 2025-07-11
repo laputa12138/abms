@@ -26,7 +26,7 @@ def main():
     # Retrieval parameters from settings.py, allowing override
     parser.add_argument("--vector_top_k", type=int, default=settings.DEFAULT_VECTOR_STORE_TOP_K, help="Top K results from vector search.")
     parser.add_argument("--keyword_top_k", type=int, default=settings.DEFAULT_KEYWORD_SEARCH_TOP_K, help="Top K results from keyword search.")
-    parser.add_argument("--hybrid_alpha", type=float, default=settings.DEFAULT_HYBRID_SEARCH_ALPHA, help="Alpha for hybrid search (0=keyword, 1=vector).")
+    # parser.add_argument("--hybrid_alpha", type=float, default=settings.DEFAULT_HYBRID_SEARCH_ALPHA, help="Alpha for hybrid search (0=keyword, 1=vector).")
     parser.add_argument("--final_top_n", type=int, default=settings.DEFAULT_RETRIEVAL_FINAL_TOP_N, help="Final top N results to return.")
     parser.add_argument("--min_score_threshold", type=float, default=settings.DEFAULT_RETRIEVAL_MIN_SCORE_THRESHOLD, help="Minimum score threshold for results.")
 
@@ -57,7 +57,7 @@ def main():
 
         # Construct paths for loading
         index_file_path = os.path.join(args.vector_store_path, f"{args.index_name}.faiss")
-        metadata_file_path = os.path.join(args.vector_store_path, f"{args.index_name}_meta.json")
+        metadata_file_path = os.path.join(args.vector_store_path, f"{args.index_name}.meta.json")
 
         try:
             logger.info(f"Attempting to load VectorStore from: Index='{index_file_path}', Metadata='{metadata_file_path}'")
@@ -205,7 +205,7 @@ def main():
         # Override settings with args for retrieval parameters
         settings.DEFAULT_VECTOR_STORE_TOP_K = args.vector_top_k
         settings.DEFAULT_KEYWORD_SEARCH_TOP_K = args.keyword_top_k
-        settings.DEFAULT_HYBRID_SEARCH_ALPHA = args.hybrid_alpha
+        # settings.DEFAULT_HYBRID_SEARCH_ALPHA = args.hybrid_alpha
         settings.DEFAULT_RETRIEVAL_FINAL_TOP_N = args.final_top_n
         settings.DEFAULT_RETRIEVAL_MIN_SCORE_THRESHOLD = args.min_score_threshold
 
@@ -213,7 +213,7 @@ def main():
             query_texts=[args.query], # retrieve expects a list of queries
             vector_top_k=args.vector_top_k,
             keyword_top_k=args.keyword_top_k,
-            hybrid_alpha=args.hybrid_alpha,
+            # hybrid_alpha=args.hybrid_alpha,
             final_top_n=args.final_top_n
             # min_score_threshold is applied inside retrieve based on settings.DEFAULT_RETRIEVAL_MIN_SCORE_THRESHOLD
         )

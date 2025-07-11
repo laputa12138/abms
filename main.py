@@ -145,10 +145,10 @@ def main():
         "--keyword_top_k", type=int, default=settings.DEFAULT_KEYWORD_SEARCH_TOP_K,
         help="Number of top documents to retrieve from keyword search (BM25)."
     )
-    retrieval_group.add_argument(
-        "--hybrid_search_alpha", type=float, default=settings.DEFAULT_HYBRID_SEARCH_ALPHA,
-        help="Blending factor for hybrid search (0.0 for keyword-only, 1.0 for vector-only)."
-    )
+    # retrieval_group.add_argument(
+    #     "--hybrid_search_alpha", type=float, default=settings.DEFAULT_HYBRID_SEARCH_ALPHA,
+    #     help="Blending factor for hybrid search (0.0 for keyword-only, 1.0 for vector-only)."
+    # )
     retrieval_group.add_argument(
         "--final_top_n_retrieval", type=int, default=None, # Will default in pipeline if None
         help="Final number of documents to use for chapter generation after retrieval and reranking. Defaults to vector_top_k."

@@ -33,15 +33,15 @@ DEFAULT_RERANKER_MAX_TEXT_LENGTH = int(os.getenv("DEFAULT_RERANKER_MAX_TEXT_LENG
 # ==============================================================================
 # --- 通用分块设置 (General Chunking Settings) ---
 # (如果未使用父子分块，则为后备设置)
-DEFAULT_CHUNK_SIZE = int(os.getenv("DEFAULT_CHUNK_SIZE", "1000")) # 通用分块大小 (字符数)
+DEFAULT_CHUNK_SIZE = int(os.getenv("DEFAULT_CHUNK_SIZE", "500")) # 通用分块大小 (字符数)
 DEFAULT_CHUNK_OVERLAP = int(os.getenv("DEFAULT_CHUNK_OVERLAP", "100")) # 通用分块重叠大小 (字符数)
 
 # --- 父子分块配置 (Parent-Child Chunking Configuration) ---
 # 父块旨在包含更丰富的上下文 (例如段落)
-DEFAULT_PARENT_CHUNK_SIZE = int(os.getenv("DEFAULT_PARENT_CHUNK_SIZE", "5000")) # 父块目标字符数
-DEFAULT_PARENT_CHUNK_OVERLAP = int(os.getenv("DEFAULT_PARENT_CHUNK_OVERLAP", "500")) # 父块重叠字符数
+DEFAULT_PARENT_CHUNK_SIZE = int(os.getenv("DEFAULT_PARENT_CHUNK_SIZE", "2000")) # 父块目标字符数
+DEFAULT_PARENT_CHUNK_OVERLAP = int(os.getenv("DEFAULT_PARENT_CHUNK_OVERLAP", "400")) # 父块重叠字符数
 # 子块旨在包含更小、更集中的片段 (例如句子或少量句子)
-DEFAULT_CHILD_CHUNK_SIZE = int(os.getenv("DEFAULT_CHILD_CHUNK_SIZE", "1000"))  # 子块目标字符数
+DEFAULT_CHILD_CHUNK_SIZE = int(os.getenv("DEFAULT_CHILD_CHUNK_SIZE", "500"))  # 子块目标字符数
 DEFAULT_CHILD_CHUNK_OVERLAP = int(os.getenv("DEFAULT_CHILD_CHUNK_OVERLAP", "100"))   # 子块重叠字符数
 # 注意: 分隔符可用于更语义化的分块 (例如, "\n\n" 代表段落)。
 # 如果使用 NLTK 进行句子切分，这可能不直接用于子块，但可用于父块或作为后备。
@@ -63,7 +63,7 @@ DEFAULT_VECTOR_STORE_PATH = os.getenv("DEFAULT_VECTOR_STORE_PATH", "/home/ISTIC_
 # ==============================================================================
 # 用于混合向量搜索和关键字搜索分数的 Alpha 参数。
 # Alpha = 1.0 表示纯向量搜索，Alpha = 0.0 表示纯关键字搜索。
-DEFAULT_HYBRID_SEARCH_ALPHA = float(os.getenv("DEFAULT_HYBRID_SEARCH_ALPHA", "0.5"))
+# DEFAULT_HYBRID_SEARCH_ALPHA = float(os.getenv("DEFAULT_HYBRID_SEARCH_ALPHA", "0.5"))
 # 融合前关键字搜索 (BM25) 的 Top K 数量。
 DEFAULT_KEYWORD_SEARCH_TOP_K = int(os.getenv("DEFAULT_KEYWORD_SEARCH_TOP_K", "20"))
 # RAG检索后，送入LLM生成答案的最终文档数量。
@@ -401,7 +401,7 @@ if __name__ == '__main__':
     print(f"DEFAULT_VECTOR_STORE_PATH: {DEFAULT_VECTOR_STORE_PATH}")
 
     print("\n--- 混合搜索与检索配置 ---")
-    print(f"DEFAULT_HYBRID_SEARCH_ALPHA: {DEFAULT_HYBRID_SEARCH_ALPHA}")
+    # print(f"DEFAULT_HYBRID_SEARCH_ALPHA: {DEFAULT_HYBRID_SEARCH_ALPHA}")
     print(f"DEFAULT_KEYWORD_SEARCH_TOP_K: {DEFAULT_KEYWORD_SEARCH_TOP_K}")
     print(f"DEFAULT_RETRIEVAL_FINAL_TOP_N: {DEFAULT_RETRIEVAL_FINAL_TOP_N}")
     print(f"DEFAULT_RETRIEVAL_MIN_SCORE_THRESHOLD: {DEFAULT_RETRIEVAL_MIN_SCORE_THRESHOLD}")
