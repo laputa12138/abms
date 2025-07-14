@@ -80,8 +80,10 @@ class OutlineGeneratorAgent(BaseAgent):
                 continue # Skip lines not recognized as outline items
 
             if title:
+                # Use a simpler, index-based ID for consistency, as UUIDs are not used for linking.
+                item_id = f"outline_{len(parsed_items) + 1}"
                 parsed_items.append({
-                    "id": f"ch_{str(uuid.uuid4())[:8]}", # Unique ID for this chapter/section
+                    "id": item_id,
                     "title": title,
                     "level": level
                 })
