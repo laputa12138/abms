@@ -92,8 +92,8 @@ class ReportCompilerAgent(BaseAgent):
         for item in structured_outline: # structured_outline now comes from WorkflowState.parsed_outline
             title = item['title']
             level = item.get('level', 1) # Default to level 1 if not specified
-            # Use the 'id' from parsed_outline for anchor, as it's the unique key
-            anchor = item.get('id', self._generate_anchor(title))
+            # Use the generated anchor from the title for linking.
+            anchor = self._generate_anchor(title)
 
             indent = "  " * (level - 1) if level > 0 else ""
             toc += f"{indent}- [{title}](#{anchor})\n"
@@ -165,7 +165,8 @@ class ReportCompilerAgent(BaseAgent):
                 # Optionally add placeholder: final_report_parts.append(f"\n{'#' * level} {chapter_title_key}\n\n*内容待定*\n")
                 continue
 
-            final_report_parts.append(f"\n<a id=\"{item_id_anchor}\"></a>\n{'#' * level} {chapter_title_key}\n\n{content}\n")
+            # Rely on Markdown renderer to create anchors from headers.
+            final_report_parts.append(f"\n{'#' * level} {chapter_title_key}\n\n{content}\n")
 
         compiled_report = "".join(final_report_parts).strip()
         self._log_output(compiled_report[:500] + "...") # Log preview
