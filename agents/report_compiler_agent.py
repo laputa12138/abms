@@ -101,7 +101,7 @@ class ReportCompilerAgent(BaseAgent):
 
             indent = "  " * (level - 1) if level > 0 else ""
             toc += f"{indent}- [{title}](#{anchor})\n"
-    toc += "\n"
+        toc += "\n"
         return toc
 
     def compile_report_from_context(self, report_context: Dict[str, any]) -> str:

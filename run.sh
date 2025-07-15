@@ -1,7 +1,7 @@
 python main.py \
     --topic "美国空军的情报、监视和侦察（Intelligence, Surveillance, and Reconnaissance,ISR）活动的总体情况调研分析" \
     --data_path "./data/" \
-    --output_path "output/ISR-v18-#45-修改了多轮检索策略.md" \
+    --output_path "output/ISR-v18-#45-修改了多轮检索策略以及reranker上下文长度.md" \
     --index_name "abms-V2" \
     --vector_store_path "./my_vector_indexes/" \
     --log_level DEBUG 
