@@ -146,6 +146,7 @@ class ReportGenerationPipeline:
             # ContentRetrieverAgent is initialized with the effective parameters
             # (either from CLI overrides via main.py -> pipeline, or settings defaults if no CLI override)
             self.content_retriever_agent = ContentRetrieverAgent(
+                llm_service=self.llm_service,
                 retrieval_service=self.retrieval_service,
                 default_vector_top_k=self.vector_top_k, # Use the value stored in self, which came from CLI/settings
                 default_keyword_top_k=self.keyword_top_k,

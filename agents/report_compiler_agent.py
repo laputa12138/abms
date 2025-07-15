@@ -101,7 +101,7 @@ class ReportCompilerAgent(BaseAgent):
 
             indent = "  " * (level - 1) if level > 0 else ""
             toc += f"{indent}- [{title}](#{anchor})\n"
-        toc += "\n---\n"
+    toc += "\n"
         return toc
 
     def compile_report_from_context(self, report_context: Dict[str, any]) -> str:
@@ -148,7 +148,7 @@ class ReportCompilerAgent(BaseAgent):
             intro = f"## 引言\n\n本报告围绕主题“**{topic_cn}**”展开"
             if keywords_cn_list: intro += f"，重点探讨与关键词“{keywords_cn_str}”相关的议题。\n"
             else: intro += "。\n"
-            intro += "报告旨在提供对此主题的深入分析和全面概述。\n\n---\n"
+            intro += "报告旨在提供对此主题的深入分析和全面概述。\n\n"
             final_report_parts.append(intro)
 
         if self.add_table_of_contents:
