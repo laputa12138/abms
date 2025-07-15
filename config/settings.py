@@ -87,6 +87,16 @@ DEFAULT_MAX_CHAPTER_QUERIES_GLOBAL_RETRIEVAL = int(os.getenv("DEFAULT_MAX_CHAPTE
 # Max heuristic queries for ContentRetrieverAgent per chapter
 DEFAULT_MAX_CHAPTER_QUERIES_CONTENT_RETRIEVAL = int(os.getenv("DEFAULT_MAX_CHAPTER_QUERIES_CONTENT_RETRIEVAL", "20"))
 
+# --- Iterative Retrieval Settings ---
+# Global retrieval during topic analysis
+GLOBAL_RETRIEVAL_MAX_ITERATIONS = int(os.getenv("GLOBAL_RETRIEVAL_MAX_ITERATIONS", "2"))
+GLOBAL_RETRIEVAL_QUERIES_PER_ITERATION = int(os.getenv("GLOBAL_RETRIEVAL_QUERIES_PER_ITERATION", "5"))
+GLOBAL_RETRIEVAL_TOP_N_PER_ITERATION = int(os.getenv("GLOBAL_RETRIEVAL_TOP_N_PER_ITERATION", "10"))
+
+# Per-chapter retrieval
+CHAPTER_RETRIEVAL_MAX_ITERATIONS = int(os.getenv("CHAPTER_RETRIEVAL_MAX_ITERATIONS", "2"))
+CHAPTER_RETRIEVAL_QUERIES_PER_ITERATION = int(os.getenv("CHAPTER_RETRIEVAL_QUERIES_PER_ITERATION", "3"))
+
 
 # ==============================================================================
 # Pipeline (工作流) 配置 (Pipeline Configuration)
@@ -134,6 +144,63 @@ JSON输出格式定义：
   "expanded_queries": ["扩展查询一", "扩展查询二", "扩展查询三"]
 }}
 """
+
+# --- Query Expansion Prompts ---
+QUERY_EXPANSION_PROMPT = """你是一名资深研究员，正在为一个关于“{topic}”的报告收集资料。
+你已经有了一些初步的检索查询：
+{existing_queries}
+
+并且已经通过这些查询找到了一些相关内容：
+--- 开始 ---
+{retrieved_content}
+--- 结束 ---
+
+你的任务是基于以上信息，进行头脑风暴，提出 {num_new_queries} 个全新的、更深入的、或者不同角度的检索查询。
+
+请遵循以下原则：
+1.  **避免重复**：不要提出与已有查询 ({existing_queries}) 过于相似的查询。
+2.  **探索性**：新查询应该能帮助我们探索未知领域、发现新的子主题、或者挖掘更具体的细节。
+3.  **多样性**：尝试从不同角度提问，例如：技术细节、应用案例、未来趋势、相关挑战、不同实体之间的关系等。
+4.  **简洁高效**：查询应简洁明了，适合搜索引擎。
+
+请以 JSON 格式返回你的建议，格式如下：
+{{
+  "new_queries": [
+    "查询1",
+    "查询2",
+    "..."
+  ]
+}}
+"""
+
+CHAPTER_QUERY_EXPANSION_PROMPT = """你是一名资深研究员，正在为一个报告中的具体章节：“{topic}” 收集资料。
+你已经有了一些初步的检索查询：
+{existing_queries}
+
+并且已经通过这些查询找到了一些相关内容：
+--- 开始 ---
+{retrieved_content}
+--- 结束 ---
+
+你的任务是基于以上信息，进行头脑风暴，提出 {num_new_queries} 个全新的、更深入的、或者不同角度的检索查询，以确保章节内容全面而深入。
+
+请遵循以下原则：
+1.  **聚焦章节**：所有新查询必须严格围绕章节标题 “{topic}” 相关。
+2.  **避免重复**：不要提出与已有查询 ({existing_queries}) 过于相似的查询。
+3.  **探索性**：新查询应该能帮助我们探索未知领域、发现新的子主题、或者挖掘更具体的细节。
+4.  **多样性**：尝试从不同角度提问，例如：技术细节、应用案例、未来趋势、相关挑战、不同实体之间的关系等。
+5.  **简洁高效**：查询应简洁明了，适合搜索引擎。
+
+请以 JSON 格式返回你的建议，格式如下：
+{{
+  "new_queries": [
+    "查询1",
+    "查询2",
+    "..."
+  ]
+}}
+"""
+
 
 # --- OutlineGeneratorAgent ---
 DEFAULT_OUTLINE_GENERATOR_PROMPT = """你是一个报告大纲撰写助手。请根据以下主题、关键词以及提供的参考资料，生成一份详细的中文报告大纲。
