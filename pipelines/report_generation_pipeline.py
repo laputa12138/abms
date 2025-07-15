@@ -101,7 +101,7 @@ class ReportGenerationPipeline:
         # self.retrieval_params dictionary is no longer needed as params are passed directly or sourced from settings.
 
         # Initialize agents that don't depend on dynamically configured retrieval params here
-        self.topic_analyzer = TopicAnalyzerAgent(llm_service=self.llm_service)
+        self.topic_analyzer: Optional[TopicAnalyzerAgent] = None
         # self.outline_generator will be initialized in _initialize_retrieval_and_orchestration_components
         # after retrieval_service is available.
         self.outline_generator: Optional[OutlineGeneratorAgent] = None
@@ -137,6 +137,11 @@ class ReportGenerationPipeline:
             )
             self.workflow_state.log_event("RetrievalService initialized.")
 
+        if not self.topic_analyzer:
+            self.topic_analyzer = TopicAnalyzerAgent(
+                llm_service=self.llm_service,
+                retrieval_service=self.retrieval_service
+            )
         if not self.content_retriever_agent:
             # ContentRetrieverAgent is initialized with the effective parameters
             # (either from CLI overrides via main.py -> pipeline, or settings defaults if no CLI override)
@@ -164,7 +169,7 @@ class ReportGenerationPipeline:
 
         if not self.orchestrator:
             # Ensure all agents required by orchestrator are initialized
-            if not self.outline_generator or not self.content_retriever_agent or \
+            if not self.topic_analyzer or not self.outline_generator or not self.content_retriever_agent or \
                not self.global_content_retriever or not self.outline_refinement_agent or \
                not self.missing_content_resolver: # Check new agent
                 raise ReportGenerationPipelineError("One or more agents failed to initialize before Orchestrator setup.")

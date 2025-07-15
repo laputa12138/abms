@@ -64,6 +64,10 @@ class ReportCompilerAgent(BaseAgent):
                 leading_spaces = len(line_content) - len(line_content.lstrip())
                 level = 1 + (leading_spaces // 2) # Base level 1 for list item, +1 for each 2 spaces
                 title = stripped_line.lstrip("-*+ ").strip()
+            elif re.match(r'^\d+(\.\d+)*\s+', stripped_line):
+                # Match numbered lists like "1. ", "2.1. ", "3.1.2 "
+                level = stripped_line.count('.') + 1
+                title = re.sub(r'^\d+(\.\d+)*\s+', '', stripped_line).strip()
             else:
                 # Could be a continuation line or non-standard format, skip for now
                 # Or, if we want to capture all non-empty lines as potential sections:
