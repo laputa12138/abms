@@ -54,6 +54,9 @@ class WorkflowState:
         # Stores documents retrieved globally for each chapter ID before detailed chapter processing
         self.global_retrieved_docs_map: Optional[Dict[str, List[Dict[str, Any]]]] = None
 
+        # Stores a single list of documents retrieved during the initial global topic analysis phase
+        self.global_retrieved_docs: List[Dict[str, Any]] = []
+
         # Optional: A pool for caching retrieved information to avoid redundant searches
         # Key could be a normalized query string or a content hash.
         self.retrieved_information_pool: Dict[str, List[Dict[str, Any]]] = {}
@@ -546,13 +549,22 @@ class WorkflowState:
         return "\n".join(md_lines)
 
     def set_global_retrieved_docs_map(self, docs_map: Dict[str, List[Dict[str, Any]]]):
-        """Sets the map of globally retrieved documents."""
+        """Sets the map of globally retrieved documents per chapter."""
         self.global_retrieved_docs_map = docs_map
-        self.log_event("Global retrieved documents map updated.", {"num_chapters_with_docs": len(docs_map)})
+        self.log_event("Global retrieved documents map (per-chapter) updated.", {"num_chapters_with_docs": len(docs_map)})
 
     def get_global_retrieved_docs_map(self) -> Optional[Dict[str, List[Dict[str, Any]]]]:
-        """Gets the map of globally retrieved documents."""
+        """Gets the map of globally retrieved documents per chapter."""
         return self.global_retrieved_docs_map
+
+    def set_global_retrieved_docs(self, docs: List[Dict[str, Any]]):
+        """Sets the list of globally retrieved documents from the initial analysis phase."""
+        self.global_retrieved_docs = docs
+        self.log_event("Global retrieved documents list updated.", {"doc_count": len(docs)})
+
+    def get_global_retrieved_docs(self) -> List[Dict[str, Any]]:
+        """Gets the list of globally retrieved documents."""
+        return self.global_retrieved_docs
 
     def update_report_global_theme(self, theme: str):
         """Updates the global theme/core idea of the report."""
