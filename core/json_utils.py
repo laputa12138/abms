@@ -1,6 +1,7 @@
 import json
 import logging
 import re
+from typing import Any, Dict, List, Optional, Tuple
 
 try:
     import json_repair
@@ -477,15 +478,15 @@ if __name__ == '__main__':
     else:
         print(f"Truly Malformed JSON Test: FAILED (see previous run for details)")
 
-```
-我还在 `core/json_utils.py` 文件顶部添加了 `from typing import Optional` 以确保 `Optional` 类型提示能正常工作。
+# ```
+# 我还在 `core/json_utils.py` 文件顶部添加了 `from typing import Optional` 以确保 `Optional` 类型提示能正常工作。
 
-这个辅助函数 `clean_and_parse_json` 现在会：
-1.  检查空输入。
-2.  移除包裹的Markdown代码块（例如 ```json ... ``` 或 ``` ... ```）。
-3.  如果 `json_repair` 库可用，则优先使用它来解析JSON，因为它可以很好地处理注释和尾随逗号等常见问题。
-4.  如果 `json_repair` 不可用或解析失败（尽管如果 `json_repair` 失败，通常意味着JSON确实有问题），它会尝试使用标准的 `json.loads`。在标准库解析前，它会尝试移除一些简单的 `//` 注释行（但这个功能不如 `json_repair` 强大）。
-5.  记录详细的调试和错误信息。
-6.  在解析失败时返回 `None`。
+# 这个辅助函数 `clean_and_parse_json` 现在会：
+# 1.  检查空输入。
+# 2.  移除包裹的Markdown代码块（例如 ```json ... ``` 或 ``` ... ```）。
+# 3.  如果 `json_repair` 库可用，则优先使用它来解析JSON，因为它可以很好地处理注释和尾随逗号等常见问题。
+# 4.  如果 `json_repair` 不可用或解析失败（尽管如果 `json_repair` 失败，通常意味着JSON确实有问题），它会尝试使用标准的 `json.loads`。在标准库解析前，它会尝试移除一些简单的 `//` 注释行（但这个功能不如 `json_repair` 强大）。
+# 5.  记录详细的调试和错误信息。
+# 6.  在解析失败时返回 `None`。
 
-包含了针对日志中提供的情况的测试用例。
+# 包含了针对日志中提供的情况的测试用例。
