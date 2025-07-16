@@ -219,17 +219,21 @@ DEFAULT_OUTLINE_GENERATOR_PROMPT = """你是一个报告大纲撰写助手。请
 {retrieved_context}
 ---
 
-请以Markdown列表格式返回大纲。例如：
-- 章节一：介绍
-  - 1.1 背景
-  - 1.2 研究意义
-- 章节二：主要发现 (可能基于参考资料)
-  - 2.1 发现点A (来自资料1)
-  - 2.2 发现点B (来自资料2)
-- 章节三：结论
+请以Markdown列表格式返回大纲。
 
 输出的大纲内容：
-请严格按照Markdown的层级关系来生成大纲，例如一级标题使用#，二级标题使用##，以此类推，确保层级清晰，不要在标题编号和标题文本之间添加不必要的空格。
+- 请严格按照Markdown的层级关系来生成大纲，例如一级标题使用#，二级标题使用##，以此类推。
+- 确保层级清晰，逻辑连贯。
+- 章节标题应简洁明了，准确反映其内容。
+- 不要包含任何与章节标题无关的额外注释，如 `(可能基于参考资料)` 或 `(来自资料1)` 等。
+- 示例：
+  - # 第一章 引言
+    - ## 1.1 研究背景
+    - ## 1.2 研究意义
+  - # 第二章 XXX分析
+    - ## 2.1 XXX的现状
+    - ## 2.2 XXX的挑战
+  - # 第三章 结论与建议
 """
 
 # --- ChapterWriterAgent ---
@@ -489,6 +493,64 @@ DEFAULT_OUTLINE_REFINEMENT_PROMPT_CN = """\
 建议优化的 JSON 输出:
 """
 
+# --- OutlineRefinementAgent ---
+DEFAULT_OUTLINE_REFINEMENT_PROMPT_CN = """\
+你是大纲评审和优化专家。你的任务是审查所提供的报告大纲，并提出具体的改进建议。
+报告主题：{topic_description}
+
+当前大纲 (Markdown 格式):
+---
+{current_outline_md}
+---
+
+当前大纲 (解析后的结构及ID):
+---
+{parsed_outline_json}
+---
+
+背景参考资料 (综合检索信息):
+---
+{global_retrieved_info_summary}
+---
+
+请根据当前大纲和背景参考资料，对大纲进行评审和优化，使其在逻辑性、全面性、连贯性和结构性方面更佳。
+你的核心任务是优化大纲的结构和流程，而不是为每个章节寻找直接的资料出处。
+
+请重点关注：
+- **逻辑流程**: 章节顺序是否合理？是否存在逻辑跳跃或不连贯之处？
+- **全面性**: 背景资料中提到的重要主题或概念，是否已在大纲中得到体现？是否需要增加新的章节或子章节来覆盖关键的缺失信息？
+- **结构合理性**: 是否有章节内容过于宽泛可以拆分？或者内容高度重叠可以合并？章节层级是否清晰、得当？
+- **准确性**: 章节标题是否准确地反映了其预期的内容？
+
+考虑以下类型的更改：
+- 增加新的章节或子章节，尤其是在检索内容暗示信息缺失的地方。
+- 删除冗余、不相关或过于细化的章节或子章节。
+- 修改章节或子章节的标题，使其更清晰、简洁或更具影响力。
+- 重新排序章节或子章节，以获得更好的流程和逻辑进展。
+- 合并过于相似或内容重叠的章节。
+-拆分过于宽泛或涵盖多个不同主题的章节。
+- 调整章节的级别（缩进）以实现正确的层级结构。
+
+约束条件 (如有):
+- 最大章节数: {max_chapters}
+- 最少章节数: {min_chapters}
+
+请以 JSON 操作列表的形式提供你的建议。每个操作都应该是一个包含 "action" 键和其他必要键的对象。
+支持的操作及其格式:
+1.  `{{ "action": "add", "title": "新章节标题", "level": <层级编号>, "after_id": "<在此ID之后的章节ID或null>" }}` (如果 after_id 为 null, 则附加到该层级末尾或整个大纲末尾)
+2.  `{{ "action": "delete", "id": "<要删除的章节ID>" }}`
+3.  `{{ "action": "modify_title", "id": "<要修改的章节ID>", "new_title": "修改后的标题" }}`
+4.  `{{ "action": "modify_level", "id": "<要修改的章节ID>", "new_level": <新层级编号> }}`
+5.  `{{ "action": "move", "id": "<要移动的章节ID>", "after_id": "<移动到此ID之后的章节ID或null>" }}` (如果 after_id 为 null, 则移动到其层级开头或整个大纲开头)
+6.  `{{ "action": "merge", "primary_id": "<合并目标章节ID>", "secondary_id": "<被合并并删除的章节ID>", "new_title_for_primary": "可选的新标题" }}`
+7.  `{{ "action": "split", "id": "<要拆分的章节ID>", "new_chapters": [{{ "title": "部分1", "level": <层级编号> }}, {{ "title": "部分2", "level": <层级编号> }}] }}` (ID为'id'的原始章节将被删除, 新章节将获得新ID)
+
+如果不需要优化，请返回一个空的 JSON 列表: `[]`。
+
+建议优化的 JSON 输出:
+"""
+
+
 
 if __name__ == '__main__':
     print("--- Xinference 服务配置 ---")
@@ -556,3 +618,4 @@ if __name__ == '__main__':
     print(f"DEFAULT_MAX_EXPANDED_QUERIES_TOPIC: {DEFAULT_MAX_EXPANDED_QUERIES_TOPIC}")
     print(f"DEFAULT_MAX_CHAPTER_QUERIES_GLOBAL_RETRIEVAL: {DEFAULT_MAX_CHAPTER_QUERIES_GLOBAL_RETRIEVAL}")
     print(f"DEFAULT_MAX_CHAPTER_QUERIES_CONTENT_RETRIEVAL: {DEFAULT_MAX_CHAPTER_QUERIES_CONTENT_RETRIEVAL}")
+
