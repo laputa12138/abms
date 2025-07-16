@@ -1,0 +1,1665 @@
+BY ORDER OF THE  
+SECRETARY OF THE AIR FORCE 
+AIR FORCE TACTICS, TECHNIQUES 
+AND PROCEDURES 3-42.5 
+23 JULY 2019 
+Tactical Doctrine 
+AEROMEDICAL EVACUATION 
+ACCESSIBILITY:  Publications and forms are available on the e-Publishing website at 
+www.e-Publishing.af.mil for downloading or ordering and on the 
+Headquarters Air Mobility Command, Command Surgeon, Manpower & 
+Equipment Force Packaging (MEFPAK) SharePoint at: 
+https://cs2.eis.af.mil/sites/12956/default.aspx 
+RELEASABILITY:  There are no releasability restrictions on this publication. 
+OPR: HQ AMC/A3OE 
+Supersedes: 
+AFTTP 3-42.5, 1 November 2003 
+Certified by: AF/A3T 
+(Maj Gen Scott F. Smith) 
+Pages: 41 
+The Air Force Tactics, Techniques and Procedures (AFTTP) 3-42 series is the primary reference 
+for medical combat support capabilities. This document provides Tactics, Techniques and 
+Procedures (TTP) for Aeromedical Evacuation (AE) across the full range of military operations, 
+Defense Support of Civil Authorities (DSCA) responses, and other operations in accordance with 
+Joint Publication (JP) 4-02, Joint Health Services, and Air Force Doctrine (AFD) Annex 3-17, Air 
+Mobility Operations. This publication applies to all Air Force military personnel in the Regular 
+Air Force, Air Reserve Component (ARC), and Air Force civilian personnel (Air National Guard 
+[ANG] is considered to be a Major Command [MAJCOM] in this publication). The doctrine in 
+this document is authoritative but not directive. Ensure all records created as a result of processes 
+prescribed in this publication are maintained in accordance with Air Force Manual 33-363, 
+Management of Records, and disposed of in accordance with the Air Force Records Disposition 
+Schedule located in the Air Force Records Information Management System. Refer recommended 
+changes and questions about this publication to the Office of Primary Responsibility using the AF 
+Form 847, Recommendation for Change of Publication. Route AF Form 847 through the 
+appropriate chain of command and parent MAJCOM. The use of the name or mark of any specific 
+manufacturer, commercial product, commodity, or service in this publication does not imply 
+endorsement by the Air Force. 
+2 
+AFTTP3-42.5  23 JULY 2019 
+SUMMARY OF CHANGES 
+This AFTTP has been significantly revised. It should be reviewed in its entirety. 
+Chapter 1— OVERVIEW 
+4 
+1.1. 
+ Purpose....................................................................................................................  
+4 
+1.2. 
+ Scope .......................................................................................................................  
+4 
+1.3. 
+ Caution ....................................................................................................................  
+4 
+Chapter 2— AEROMEDICAL EVACUATION MISSION 
+5 
+2.1. 
+ AE Mission .............................................................................................................  
+5 
+2.2. 
+ AE Concepts ...........................................................................................................  
+5 
+2.3. 
+ Theater Aeromedical Evacuation System (TAES) Elements.  ...............................  
+6 
+2.4. 
+ Planning for AE.   ...................................................................................................  
+7 
+2.5. 
+ Medical Operations in Denied Environments (MODE) Concept.   ........................  
+7 
+Chapter 3— COMMAND AND CONTROL 
+9 
+3.1. 
+ Introduction.   ..........................................................................................................  
+9 
+3.2. 
+ Roles and Responsibilities.   ...................................................................................  
+9 
+3.3. 
+ Patient Movement Management.  ...........................................................................  
+10 
+3.4. 
+ Joint Force Air Mobility Operations Structure.   ....................................................  
+10 
+3.5. 
+ Operational C2.   .....................................................................................................  
+11 
+3.6. 
+ Airlift Control Agencies. ........................................................................................  
+13 
+3.7. 
+ Air Expeditionary Forces. .......................................................................................  
+14 
+3.8. 
+ Clinical Oversight. ..................................................................................................  
+14 
+Chapter 4— OPERATIONS 
+16 
+4.1. 
+ AE Across the Range of Military Operations.   ......................................................  
+16 
+4.2. 
+ Steady-State/Peacetime Engagement and Crisis Response.   .................................  
+16 
+4.3. 
+ Deterrence and Contingency Operations.   .............................................................  
+17 
+4.4. 
+ CONUS Contingency AE.   ....................................................................................  
+17 
+4.5. 
+ AE Interface with the Joint Community.   ..............................................................  
+17 
+4.6. 
+ AE Interface with the Patient Movement Process.   ...............................................  
+18 
+AFTTP3-42.5  23 JULY 2019 
+3 
+4.7. 
+ Mission Coordination and Operational Considerations.   .......................................  
+19 
+Chapter 5— PLANNING AND SUPPORT CONSIDERATIONS 
+21 
+5.1. 
+ CONOPS.   ..............................................................................................................  
+21 
+5.2. 
+ Movement of Casualties.   ......................................................................................  
+22 
+5.3. 
+ PM Evacuation Precedence Categories and Movement Precedence.   ...................  
+22 
+5.4. 
+ AE Planning Factors.   ............................................................................................  
+23 
+5.5. 
+ Theater Evacuation Policy.   ...................................................................................  
+23 
+5.6. 
+ Airframe Considerations.   ......................................................................................  
+24 
+5.7. 
+ Airfield Capability.   ...............................................................................................  
+24 
+5.8. 
+ Uncertain or Hostile Operational Environment.   ...................................................  
+24 
+5.9. 
+ Base Operating Support (BOS) and Operations Support.   .....................................  
+24 
+5.10. 
+ Biomedical Equipment Technician (BMET) Support.   .........................................  
+24 
+5.11. 
+ Communications.   ..................................................................................................  
+25 
+5.12. 
+ Ground Transportation.   .........................................................................................  
+25 
+5.13. 
+ Determining Crew Support.   ..................................................................................  
+26 
+5.14. 
+ AE Interface with Special Mission Forces.   ...........................................................  
+26 
+5.15. 
+ AE UTC Employment Concept.   ...........................................................................  
+26 
+5.16. 
+ AE UTC Selection and Utilization.   ......................................................................  
+26 
+5.17. 
+ AE Mission Support Equipment. ............................................................................  
+29 
+5.18. 
+ AE Equipment and Supplies. ..................................................................................  
+30 
+5.19. 
+ Patient Movement Items (PMI). .............................................................................  
+31 
+Attachment 1— GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+33 
+Attachment 2— ADDITIONAL RESOURCES 
+39 
+4 
+AFTTP3-42.5  23 JULY 2019 
+Chapter 1 
+OVERVIEW 
+1.1.  Purpose.    This guidance is designed to assist AE planners to successfully integrate and 
+execute AE within the greater Department of Defense (DOD) Patient Movement (PM) system. 
+1.2.  Scope.    AE is just one component of the DOD En Route Care (ERC) Capability, or En Route 
+Casualty Care System (ERCCS), which enables continuation of care during movement 
+(evacuation) without clinically compromising a patient’s condition. The Air Force AE system 
+provides a critical PM capability which cuts across traditional Service lines. Historically, the 
+majority of AE patients generated during wars and contingency operations since World War II 
+came from Army and Marine Corps ground combat units. Therefore, it is important that the AE 
+system integrates well with medical components of all Services, not just those of the Air Force. 
+Moreover, the past decade has increasingly revealed the necessity of advancing AE interoperability 
+with coalition and allied AE partners (reference AFD Annex 3-17 and JP 4-02). 
+1.3.  Caution.    Do not use this instruction as permission to move patients (AFI 48-307V1, En 
+Route Care and Aeromedical Evacuation Medical Operations). Patients must be eligible for 
+aeromedical transportation according to Department of Defense (DOD) Instruction 4515.13, Air 
+Transportation Eligibility (additionally reference AFI 24-101, Passenger Movement, Air Force 
+Policy Directive (AFPD) 24-1, Personnel Movement, and any current, operational DOD, AF, or 
+theater-specific directives). 
+AFTTP3-42.5  23 JULY 2019 
+5 
+Chapter 2 
+AEROMEDICAL EVACUATION MISSION 
+2.1.  AE Mission.    The United States Air Force (USAF) AE system provides a critical patient 
+movement capability that crosses traditional Service lines. Since World War II, the preponderance 
+of AE patients generated during wars and contingency operations has come from U.S. Army 
+(USA) and U.S. Marine Corps (USMC) ground combat units. Therefore, it is important the AE 
+system integrates well with the medical components of all Services. Moreover, during the past 
+decade, it has become increasingly important the USAF AE system continue to develop its 
+capability to integrate with components of our Nation’s allies. Air Mobility Command Surgeon 
+(HQ AMC/SG) is the Manpower and Equipment Force Packaging (MEFPAK) Responsible 
+Agency (MRA) and HQ AMC A3/10 is the Functional Area Manager (FAM). 
+2.1.1.  The rapid evacuation of patients during contingencies is necessary to prevent undue 
+suffering and preserve military strength. AE provides time-sensitive En Route Care (ERC) of 
+regulated and unregulated casualties to and between medical treatment facilities using organic 
+and/or contracted aircraft with medical aircrew trained explicitly for the mission. AE forces 
+can operate as far forward as aircraft are able to conduct air operations, across the full range of 
+military operations, and in all operating environments. Specialty medical teams may be 
+assigned to work with the aeromedical evacuation crewmembers (AECM) to support patients 
+requiring more intensive ERC. 
+2.2.  AE Concepts.    The AE system provides: (1) Integrated control of casualty movement by air 
+transport; (2) Specialty trained aircrew clinicians and operational support personnel; (3) 
+Equipment for in-flight supportive medical care and ground support operations; (4) En Route 
+Critical Care (ERCC) to monitor and manage specific patients requiring intensive care; and (5) En 
+Route Patient Staging System (ERPSS) capability/patient preparation at or near secure airstrips for 
+the processing and care of casualties entering, en route, or leaving the AE system. 
+2.2.1.  The primary mission of the DOD Patient Movement (PM) system is to transport U.S. 
+military casualties from within the Joint Operations Area (JOA) to the appropriate role of care 
+provided in or out of the theater, as required. United States Transportation Command 
+(USTRANSCOM) is designated as the DOD single-manager for global Patient Movement 
+(PM). USTRANSCOM oversees PM via the regionalized United States Transporation 
+Command Patient Movement Requirements Centers (TPMRCs). Timely PM plays an 
+important role in support of the Joint Task Force (JTF) Concept of Operations (CONOPS) and 
+evacuation requirements. The PM system provides a continuum of care and coordinates the 
+movement of patients from site of injury or onset of disease, through successive roles of care, 
+to a Medical Treatment Facility (MTF) meeting the needs of the patient. Each Service 
+component has an organic PM capability and is responsible for evacuation from point of injury 
+(POI) to initial treatment at a Military Treatment Facility (MTF). 
+2.2.2.  Casualty evacuation (CASEVAC), a term used by all Services in the forward 
+environment from the POI, refers to the unregulated movement of casualties aboard ships, 
+vehicles, or aircraft. Joint/Service intra-theater PM is accomplished in the “forward or tactical” 
+environment evacuating or moving regulated and unregulated patients through a combination 
+of medical evacuation (MEDEVAC) and CASEVAC assets. MEDEVAC assets are dedicated 
+ground and air ambulances permanently equipped and staffed with medical attendants for ERC 
+6 
+AFTTP3-42.5  23 JULY 2019 
+and are the preferred method of patient movement. In the forward or tactical environment 
+CASEVAC assets, which are designated and may or may not have appropriate ERC, 
+supplement the MEDEVAC and greater PM mission throughout the operational area (OA) to 
+meet necessary mission requirements. In addition to MEDEVAC/CASEVAC assets in the 
+intra-theater environment, USAF fixed-wing AE assets move patients over extended distances 
+to meet intra-theater PM requirements. Joint/Service inter-theater PM is accomplished solely 
+by the USAF AE system to move patients out of the OA and to Role 3 and 4 MTFs to meet the 
+patients’ definitive care needs. 
+2.2.3.  The operational environment (OE) during major operations and campaigns may present 
+lethal threats requiring the evacuation of casualties to highly developed medical capabilities in 
+the JOA and locations outside the JOA for advanced medical services and rehabilitative care. 
+The decreased medical footprint and the increased PM requirements demand a more 
+interdependent medical community, improved interagency and multinational partnerships, and 
+joint solutions. 
+2.3.  Theater Aeromedical Evacuation System (TAES) Elements.  A component of ERCCS, 
+the TAES is modular by design and can be tailored and deployed to meet situational requirements. 
+The AE process is dependent upon reliable, pertinent, and timely communication and coordination 
+between the originating requestor, the Patient Movement Requirements Center (PMRC), the 
+appropriate airlift agency, AE elements, and the destination MTF. When deployed, the TAES 
+provides a rapid, flexible, incremental, mobile response. Unit type codes (UTCs), elements of the 
+TAES, are employed to provide command, control, communications, patient care, and system 
+support. The AE system needs to have the capability to move casualties after minimal stabilization 
+from forward areas. The concept is to employ an immediate, versatile, and flexible AE presence 
+to respond to the needs of deployed forces. After the initial buildup, planners can augment the 
+deployed teams with additional manpower and equipment (augmentation packages), as required, 
+to support more intense or ongoing operations. 
+2.3.1.  Expeditionary Aeromedical Evacuation Squadron/Flight (EAES/EAEF). The EAES 
+may be assigned to an expeditionary wing, air expeditionary operations group, or expeditionary 
+operations support squadron as an expeditionary AE flight. The EAES provides command 
+functions for all AE personnel assigned to the air expeditionary wing. The EAES ensures all 
+elements are prepared to conduct AE operations as tasked by the Air Operations Center (AOC) 
+and will provide AE assets to support the wing operations center. The EAES can arrange 
+support requirements for follow on AE forces, as required. 
+2.3.2.  AE Command Squadron (AECS). Provides command of assigned AE forces. This UTC 
+provides procedural and technical guidance and management oversight for assigned, attached, 
+and transiting AE elements. 
+2.3.3.  Aeromedical Evacuation Crews. AE crews are specially trained to perform in-flight 
+medical care, are experts on aircraft configuration and aerospace physiology (how stresses of 
+flight affect patients), and provide the operational interface between the patient, medical 
+equipment, and aircraft systems. 
+2.3.4.  ERCC Teams. Critical Care Air Transport Team (CCATT). CCATT is an example of 
+one type of ERCC team. CCATTs provide specialized care, in conjunction with AE crews, to 
+evacuate patients requiring critical care during transport. CCATTs represent a specialty or 
+critical care team added to the basic AE crew in order to offer a higher level of care to stabilized 
+AFTTP3-42.5  23 JULY 2019 
+7 
+patients during AE staging and flight. AE missions moving regulated patients that require the 
+addition of a CCATT will be validated by the PMRC and tasked by an AE control team 
+(AECT). Refer to AFTTP 3-42.51, Critical Care Air Transport Team (CCATT), for command 
+and control (C2) relationships. 
+2.3.5.  En Route Patient Staging System. The ERPSS is a flexible modular patient staging 
+system able to operate across the spectrum of scenarios, such as military operations, Foreign 
+Humanitarian Assistance (FHA), and Defense Support of Civil Authorities (DSCA). Utilizing 
+the ERPSS force modules to support operations ranging from 10-250 beds, patients may be 
+held from 6 to 72 hours, dependent upon the arrival of the earliest opportune aircraft for which 
+a patient can be prepared for AE. The primary mission of the ERPSS is to provide personnel 
+and equipment necessary for 24-hour staging operations for patients entering and transiting the 
+ERC system worldwide. The ERPSS coordinates and communicates with medical and AE 
+elements to accomplish patient care and PM, including ground transportation. It provides 
+patient reception, provides complex medical/surgical nursing, provides limited emergent 
+intervention, and ensures patients are medically and administratively prepared for flights. Refer 
+to AFTTP 3-42.57, En Route Patient Staging System, for C2 relationships. 
+2.3.6.  Aeromedical Evacuation Liaison Team (AELT). The AELT provides support between 
+the forward user and the AE system in the form of operational and clinical interface. This 
+interface may occur at locations that do not otherwise have USAF personnel on them such as 
+far forward/bare bases and shipboard. 
+2.3.7.  Aeromedical Evacuation Operations Team (AEOT). AEOTs are located at strategic 
+airlift hubs or en route locations to support aircrews, equipment, and launch and recovery 
+operations. The AEOT provides direct supervision and crew management for assigned, 
+attached, and transiting AE crews and CCATTs in conjunction with the air mobility operations 
+control center, AECT, and base operations, as applicable. 
+2.4.  Planning for AE.  AE planners are an integral part of the airlift planning team and should 
+build appropriate AE support into the en route structure. The AE planner should interface with 
+medical planners to ensure appropriate medical capability along airlift routes. Comprehensive 
+planning will ensure a coordinated effort in providing timely and effective evacuation. 
+2.4.1.  Aeromedical Evacuation Planning Factors. AE planners must take many factors into 
+account to select the best or most appropriate means of executing each AE mission. Airlift 
+routes must be identified in order to establish potential AE plans. Based on planning directives, 
+the Combatant Command (CCMD) operation plans (OPLAN) and concept plans (CONPLAN) 
+will include bed- down of AE capable airlift, strategic aerial port of debarkations and/or aerial 
+ports of embarkation, planned mission routing, availability of intra/inter-theater retrograde 
+airlift for AE missions, and planned patient movement requirements (evacuees) by C-Day (the 
+unnamed day on which a deployment operation commences or is to commence). For more on 
+AE Planning Factors, see Chapter 5 of this publication and Air Force Pamphlet (AFPAM) 10-
+1403, Air Mobility Planning Factors. 
+2.5.  Medical Operations in Denied Environments (MODE) Concept.  Future adversaries will 
+employ Anti-Access and Area Denial (A2/AD) against the United States and our allies in order to 
+deter and prevent access of U.S. and coalition forces. The AE system must be prepared to provide 
+health service support over vast distances and in areas with little to no patient staging capability. 
+MODE is a limited objective concept, describing the necessary joint medical force required to treat 
+8 
+AFTTP3-42.5  23 JULY 2019 
+and evacuate casualties from the POI to definitive medical care and subsequent evacuation to low 
+risk areas within the JOA or uncontested environments outside the JOA. To address the A2/AD 
+contested environment, the MODE concept suggests integrated medical forces create cross-domain 
+synergies to produce the required medical forces with the capability and capacity to operate in 
+contested environments. Anti-Access (A2) strategies impede movement into a theater and compel 
+forces to operate from greater distances. Area Denial (AD) strategies threaten maneuverability 
+within a particular theater. The emerging concepts of A2/AD could significantly alter how military 
+medicine and patient movement operations are delivered in future conflicts. Medically, an inherent 
+tension exists between the potential mass casualty of an A2/AD missile strike and the imperative 
+need to reduce the large combat support capability. For additional information, reference JP 3-0, 
+Joint Operations. 
+AFTTP3-42.5  23 JULY 2019 
+9 
+Chapter 3 
+COMMAND AND CONTROL 
+3.1.  Introduction.  Command and Control (C2) functions exercised over AE missions are 
+consistent with those for all air mobility missions and are conducted in accordance with (IAW) the 
+C2 processes as described in Joint Publication 3-17, Air Mobility Operations; Air Force Doctrine 
+Annex 3-30, Command and Control; and Air Force Doctrine Annex 3-17, Air Mobility Operations, 
+which includes specific sections on AE doctrine. In contingency operations, AE-specific tasks and 
+objectives will be outlined in the military order (execute order [EXORD], deployment order 
+[DEPORD], operation order [OPORD]) and may include references such as Annex C, Appendix 
+30, and Annex Q from supporting deliberate planning products (base plan [BPLAN], concept plan 
+[CONPLAN], operation plan [OPLAN]).  AE assets are integrated within the inherent mobility 
+structure established to support airlift operations through the Air Mobility Division (AMD) to the 
+wing and down to the assigned expeditionary AE squadron/element. A comprehensive summary 
+of command functions and relationships may be found in Chapter 2 of AFI 48-307V1, En Route 
+Care and Aeromedical Evacuation Medical Operations. 
+3.2.  Roles and Responsibilities.  Patient evacuation from point of injury to initial treatment at a 
+health care facility is the responsibility of each Service component. The Geographic Combatant 
+Commander (GCC), in conjunction with the supporting commanders, sets the theater PM policy 
+for contingency planning. USTRANSCOM, as Distribution Process Owner (with the exception of 
+intra-theater PM) and single “point” manager for PM coordinates with the GCCs and the Services 
+on the implementation and enforcement of PM policies. Upon execution, the GCC adjusts the 
+theater PM policy as required. The joint command validates theater requirements for peacetime 
+and contingency PM and identifies potential channel movement to USTRANSCOM transportation 
+validation process. CCMD OPLANs will include appropriate information to support Service 
+planning for patient evacuation. 
+3.2.1.  USTRANSCOM is the DOD single manager for PM, providing global PM in 
+coordination with the GCCs, through the Defense Transportation System. USTRANSCOM is 
+responsible for PM in the U.S. and worldwide. This includes support for natural disasters, 
+counterterrorist activities, and the redistribution of normal support through a direct support 
+relationship rather than transferring forces. USTRANSCOM will typically retain operational 
+control (OPCON) of its assets for intertheater AE operations, with C2 provided by the 618 
+AOC (Tanker/Airlift Control Center [TACC]). USTRANSCOM provides standardized 
+processes for managing PM events, ensuring patient safety and quality of care, to include 
+conducting any event reviews or investigations of PM activities from entry of the patient into 
+the PM system to arrival at the destination MTF. 
+3.2.1.1.  Service units operating within the scope of the PM system should develop an 
+active PM safety program. Instructions apply to all Services, GCCs, military MTFs, and 
+divisions deployed or in garrison involved in the PM process. 
+3.2.1.2.  The Commander (CC)/USTRANSCOM, through the USTRANSCOM Command 
+Surgeon (SG), oversees the worldwide PM safety program, coordinates with the Secretaries 
+of the military departments to ensure compliance through implementation of effective 
+quality assurance/quality control consistent with Joint Staff health support policies, and has 
+10 
+AFTTP3-42.5  23 JULY 2019 
+authority to direct an event review and/or medical incident investigation for all events in 
+coordination with GCC SGs. 
+3.2.2.  Each Service is responsible for organizing, training, and equipping their forces to ensure 
+the capability to meet their PM requirements. Evacuation may require any combination of air, 
+ground, or sea resources. To ensure patients receive continuous, timely, and quality care, all 
+personnel involved in the PM system must be fully trained, and essential evacuation assets 
+(such as personnel, platforms, equipment, and supplies) must be programmed, procured, and 
+sustained. Establishing a seamless PM system requires close coordination with the Services on 
+employment of PM doctrine, CONOPS, modernization and sustainment of equipment and 
+platform capabilities, and interoperability of Patient Movement Items (PMI)/PMI in-kind. 
+3.3.  Patient Movement Management. 
+3.3.1.  The Joint PMRC (JPMRC) integrates medical regulation responsibilities (the proper 
+MTF specialty bed), transportation movement requirements (best mode of transportation, such 
+as aircraft/ships/ground vehicles), mission requirements determination (the right medical crew 
+members and medical equipment), coordination, and related activities supporting DOD PM 
+requirements. The JPMRC provides the TPMRC type, automated information system support, 
+and operations for a joint force. Normally, supporting activities are established to support joint 
+force DOD PM operations within the designated OA. When operating within an area that 
+already has an established TPMRC, the TPMRC maintains overall visibility for theater DOD 
+PM operations, while the JPMRC supports DOD PM operations within the OA and coordinates 
+with the TPMRC for USAF intratheater PM and the Global PMRC (GPMRC) for intertheater 
+PM. 
+3.3.2.  TPMRC. The TPMRC consists of TPMRC-Americas, supporting the Americas; 
+TPMRC-West, supporting the western hemisphere; and TPMRC-East, supporting the eastern 
+hemisphere. All three have a permanent PMRC managing the validation and regulation of PM 
+within, and between, their respective theaters. The TPMRC is responsible for theater-wide PM 
+(e.g., medical regulating and in coordination with the AE control team, AE scheduling) and 
+coordinates with theater MTFs to allocate the proper treatment assets required to support its 
+role. The TPMRC communicates this transport to bed plan to the theater Service transportation 
+component or other agencies responsible for executing the mission. 
+3.3.3.  GPMRC. The GPMRC is a joint activity reporting directly to the Commander, 
+USTRANSCOM, which provides medical regulating and aeromedical evacuation scheduling 
+for the continental United States and intertheater operations, provides support to the TPMRCs, 
+and coordinates with supporting resource providers to identify available assets and 
+communicates transport to bed plans to the appropriate transportation agency for execution. 
+3.4.  Joint Force Air Mobility Operations Structure.  During joint operations, a GCC may 
+conduct operations at the theater level within their area of responsibility (AOR), or they may 
+establish a JTF with a designated joint operations area (JOA) to conduct operations. In both cases, 
+the commander is a joint force commander (JFC), and if Air Force forces are assigned/attached, a 
+commander of Air Force forces (COMAFFOR) will be designated, typically delegated OPCON of 
+those Air Force forces. If the COMAFFOR is also designated the joint force air component 
+commander (JFACC), they will normally be delegated tactical control (TACON) over forces made 
+available for tasking. A JFC is responsible for PM within their operational area. 
+AFTTP3-42.5  23 JULY 2019 
+11 
+3.4.1.  The COMAFFOR is delegated authority from the JFC who assigns missions, directs 
+coordination among subordinate commanders, and redirects and organizes forces to ensure the 
+air component can accomplish the overall mission. AE operations are an important part of the 
+JFC’s mission, and the COMAFFOR plays a critical role in successful AE operations. 
+3.4.1.1.  An AE contingency planner should be incorporated into the COMAFFOR staff to 
+outline, develop, and coordinate AE theater plans along airlift routes, including number 
+and location of AE assets needed to support operational requirements. The AE contingency 
+planner should also coordinate with the Air Force Forces (AFFOR) Surgeon to ensure 
+visibility of theater medical facilities/capabilities affecting AE plans. These functions may 
+be provided from HQ AMC Subject Matter Experts (SMEs), utilized in a reach back status 
+to support operations until a senior AE expert or AE planner is identified. 
+3.4.2.  COMAFFOR Special Staff. For contingency operations, the COMAFFOR special staff 
+includes a senior AE expert as identified, in conjunction with the AE force provider, HQ AMC 
+A3/10, to support the COMAFFOR on the special staff. The AE expert will have extensive 
+experience in the AE and ERC system, airlift operations and plans, and will have attended 
+mandatory training as part of HQ AMC A3/10 pre-selection and training requirements. This 
+person will serve on the advanced echelon (ADVON) support staff, assist with the 
+development of the initial AE force lay down, C2, and coordinate the interface with airlift 
+operations. 
+3.4.3.  The Director of Mobility Forces (DIRMOBFOR) is the COMAFFOR’s designated 
+coordinating authority with all agencies affecting air mobility operations. The DIRMOBFOR 
+is also the advisor on how best to effectively and efficiently use air mobility assets. He or she 
+is normally assigned or attached to the COMAFFOR’s special staff to assist in planning and 
+conducting air mobility operations and should be given appropriate liaison authority. The 
+DIRMOBFOR normally exercises coordinating authority between the geographic Air 
+Operations Center (AOC), the 618 AOC (TACC), and deployment and distribution operations 
+centers to expedite the resolution of air mobility issues. They normally have direct liaison 
+authority (DIRLAUTH) with other organizations. Additionally, the DIRMOBFOR ensures the 
+effective integration of inter-theater and intra-theater air mobility operations and facilitates the 
+conduct of intra-theater air mobility operations. 
+3.4.4.  A Deputy DIRMOBFOR/AE may deploy as part of an ADVON, or as a member of the 
+AMD. Deputy DIRMOBFOR/AE candidates with AE expertise will be selected by HQ AMC 
+/A3/10 and trained in the AOC, and will attend the theater validation course. This individual, 
+when tasked, will fully integrate into the AMD and assist the DIRMOBFOR in all other duties 
+as required. 
+3.5.  Operational C2.  The AE system has been standardized to ensure peacetime processes mirror 
+wartime processes. This allows for the system to exercise its wartime infrastructure in peacetime 
+and enhance wartime training. Command and control of AE assets, to include tasking authority for 
+AE and mobility forces, resides with the normal airlift and mobility C2 structure. Field and AE 
+squadron operations will be conducted through operational inter-theater wing C2 channels. Intra-
+theater air mobility operations are defined by geographic boundaries. Air mobility forces assigned 
+or attached to that GCC normally conduct these operations. Intra-theater common-user air mobility 
+assets are normally scheduled and controlled by the theater Air Force AOC or Joint Air Operations 
+Center (JAOC) if established. 618 AOC (TACC) serves as the AOC for the HQ AMC air mobility 
+12 
+AFTTP3-42.5  23 JULY 2019 
+mission and is responsible for tasking and controlling operational missions for all activities 
+supporting HQ AMC’s global air mission. 
+3.5.1.  HQ AMC manages and operates the inter-theater and AE subsystems, and provides AE 
+elements and planning assistance to the theater, in intermediate supporting theaters, or in the 
+U.S. The United States Air Forces in Europe (USAFE) and United States Pacific Air Forces 
+(PACAF) are responsible for theater-assigned AE units and associated airlift units. When 
+contingencies exceed theater AE capabilities, HQ AMC will provide mission-specific 
+augmentation forces to support increased theater requirements and will expand or establish the 
+inter-theater capability to support movement between theaters, or to and within the U.S., as 
+required. 
+3.5.2.  Movement of patients between points within a GCC’s area of responsibility is referred 
+to as intra-theater, while movement of patients between GCC’s area of responsibility to points 
+outside the area of responsibility, is referred to as inter-theater. In both cases, AE’s portion of 
+en route medical care is provided by qualified flight nurses (FN) and Aeromedical Evacuation 
+Technician (AET) and can be supported with medical attendants (MA), CCATTs, or other 
+ERCC teams. 
+3.5.2.1.  Intra-theater. These operations are regional in nature and serve a single CCMD’s 
+requirements. They are normally conducted using forces assigned, attached, or made 
+available for tasking to the CCMD. Patients are most likely to enter the joint system for 
+evacuation and medical regulation at the theater hospitalization capability. However, 
+casualties can enter at the forward resuscitative care capability, depending on the type of 
+operation and forces supported. Intra-theater patient movement requires a coordinated 
+effort between Service and host nation (HN) MTFs, the responsible PMRC, and Service 
+component organic and theater evacuation assets. The Joint Force Surgeon (JFS) is 
+responsible for developing intra-theater policies in coordination with Service component 
+evacuation representatives. 
+3.5.2.2.  Inter-theater. These operations are generally global in nature and serve the 
+transportation needs of the CCMD outside the JOA supporting the conduct of operations 
+within the JOA. USTRANSCOM directs policies and procedures for inter-theater patient 
+movement and identifies transport resources. Currently, inter-theater patient movement is 
+primarily conducted utilizing airlift assets because long evacuation distances may preclude 
+other modes of patient movement in supporting rapid evacuation out of the CCMD AOR. 
+However, circumstances permitting other modes and lift assets may be used for inter-
+theater patient movement. Patients are most likely to enter the inter-theater system from a 
+theater hospitalization capability for movement to a definitive care capability, outside the 
+theater, and eventually to the U.S. Inter-theater patient movement requires a coordinated 
+effort between Service or HN MTFs, responsible PMRCs, and transportation agencies. 
+3.5.3.  The airlift agency (AOC/JAOC/AMD) will execute the AE mission by optimizing the 
+use of available multi-mission aircraft, mixing cargo and AE on mobility missions, and 
+integrating AE requirements into cargo channel routes. Airlift for urgent and priority patients 
+will be tasked from alert AE crews, if necessary, diversion of in-system select aircraft, or 
+contracting with a civilian air ambulance. Each patient’s clinical requirements may also dictate 
+specific airframe use. To enhance responsiveness, AE crews and CCATTs should be 
+strategically positioned based on airlift and key patient originating locations. On execution, 
+AFTTP3-42.5  23 JULY 2019 
+13 
+AE plans may integrate allied and/or other Services’ airlift capabilities, when appropriate. AE 
+and airlift elements are tasked through the Air Expeditionary Wing (AEW) using an air tasking 
+order. The AEW will provide airlift, aircrews, and augmentation assets (equipment and/or 
+specialized medical personnel) to comply with the tasking. AE assets are placed at strategic 
+locations throughout the JOA for rapid response. 
+3.6.  Airlift Control Agencies. 
+3.6.1.  618 AOC (TACC). The 618 AOC (TACC) is responsible for tasking and controlling 
+operational missions for all activities supporting USTRANSCOM’s global air mobility 
+mission. Its functions include, but aren’t limited to: current operations, C2, AE and aerial port 
+operations, mission management, flight planning, deployment, diplomatic clearances, weather, 
+and intelligence. 
+3.6.1.1.  618 AOC (TACC) Aeromedical Evacuation Division. The AE Division is the 
+source of AE operational expertise and mission execution within the 618 AOC (TACC) for 
+USTRANSCOM assigned intra- and inter-theater AE Forces. The AE Division provides 
+C2 to assigned AE elements and provides the clinical and operational interface between 
+airlift operations and the PMRC. AE Division personnel have extensive knowledge of 
+flight physiology, airlift AE capability, and information technology such as operational 
+mission planning, tasking, scheduling, and mission monitoring of airlift and AE assets to 
+support PM, as well as coordination with the PMRC for medical issues. 
+3.6.2.  Geographic AOC/Air Mobility Division. The Geographic AOC/AMD plans, 
+coordinates, tasks, and executes the intra-theater air mobility mission. The AMD is led by the 
+AMD Chief who ensures the AMD works as an effective division of the AOC in the air and 
+space planning and execution process. The AMD is normally organized into four functionally 
+oriented teams: Airlift Control Team, Air Refueling Control Team, Air Mobility Control Team, 
+and Aeromedical Evacuation Control Team (AECT). The AMD coordinates with the theater’s 
+Deployment and Distribution Operations Center (DDOC) for validated cargo and passenger 
+movement requirements. Due to the mission uniqueness of some theaters, you may find 
+additional teams within an AMD, such as an aerial port control team or theater direct delivery 
+cell. Team composition (e.g., numbers, specialties and skill levels) will normally be tailored to 
+unique mission demands. All AMD teams integrate their activities to deliver mobility effects 
+in support of the COMAFFOR/JFACC objectives. 
+3.6.3.  AE Control Team. The AECT is one of four teams assigned to the Geographic 
+AOC/AMD and is responsible to the AMD Chief and AOC Director for intra-theater AE 
+operational planning, tasking, and mission execution. Once a validated patient movement 
+request (PMR) is received, the AECT coordinates and integrates theater airlift and AE assets 
+to meet AE movement requirements, tasks the appropriate airlift wings through the Airlift 
+Control Team (ALCT) and air tasking order (ATO), and passes mission information to the 
+PMRC. This team also coordinates with the 618 AOC (TACC) to integrate inter-theater AE 
+missions and requirements into the theater AE plan. AECT members require an in-depth 
+knowledge of AE specific regulations, to include operations, aircrew management, aircraft 
+configuration, and aircraft systems. However, current qualification as an AECM is not 
+required. 
+14 
+AFTTP3-42.5  23 JULY 2019 
+3.7.  Air Expeditionary Forces. 
+3.7.1.  Air Expeditionary Wing. When the size and scope of the operation warrants establishing 
+an AEW, AE forces will be aligned as part of the Air Expeditionary Group (AEG) under the 
+total AEW construct. AE standardization/evaluation will be integrated with similar group-level 
+functions. 
+3.7.2.  Air Expeditionary Group (AEG). When the size and scope of the operation warrants a 
+minimal footprint, a smaller AEG may be deployed instead of the larger AEW. AE elements 
+will then be aligned as part of the Air Expeditionary Squadron under the total AEG construct. 
+3.7.3.  Expeditionary AE Squadron (EAES). The EAES is assigned to an AEW and operations 
+group. The deployed UTC (FFQCC) integrates into AEW operations with the senior ranking 
+officer designated as the EAES/CC on G-series orders. 
+3.7.3.1.  The AE Command Squadron (AECS), (FFQCC). Provides command of assigned 
+AE Forces. The AECS can deploy in advance of other AE UTCs to establish the support 
+required for AE forces and establishment of a theater aeromedical evacuation system 
+(TAES). The AECS will advise Wing and Operations Group commanders, as well as other 
+appropriate personnel/agencies on AE CONOPS, doctrine, capabilities, and requirements. 
+This UTC provides procedural guidance, technical guidance and management oversight 
+for assigned, attached, and transiting AE elements. The AE Operations Team (FFQNT), 
+AE Manpower Augmentation Team (FFQCM), AE Liaison Team (FFQLL) or AE 
+Communications Team (FFQCR) UTCs may augment the AECS as required. The AECS 
+deploys with the AE Command Squadron equipment package (FFQC1) UTC. 
+3.8.  Clinical Oversight. 
+3.8.1.  The Joint Force Surgeon is appointed by the JFC to serve as the theater or JTF special 
+staff officer responsible for establishing, monitoring, or evaluating joint force health service 
+support (reference JP 4-02). The JFS is responsible for coordinating and integrating health 
+service support within the AOR as well as coordinating intra-theater patient movement support 
+to the Joint Task Force Commander (JTF/CC). The JFS should appoint a theater Medical 
+Director who is responsible for the quality of patient movement and clinical care provided 
+within the AOR. 
+3.8.2.  The Air Force Forces (AFFOR) Surgeon is the designated medical advisor to the 
+COMAFFOR on all Air Force specific health services support resources, including health 
+surveillance, risk assessment, and other Force Health Protection (FHP) issues. The AFFOR 
+Surgeon provides professional oversight for deployed Air Force medical units, writes 
+supporting CONOPS, and coordinates with HQ AMC/SG to establish clinical policies for AE, 
+supported CCMD, and other Component Commands. 
+3.8.3.  The theater Validating Flight Surgeon (VFS) works with the PMRC and complies with 
+DOD and Service-specific medical licensing requirements. The VFS must have the appropriate 
+knowledge base and experience sufficient to ensure proper medical care during transport, as 
+well as the ability to provide medical direction during transport for all patient types served by 
+the patient movement system. The theater VFS must ensure compliance with applicable 
+accepted practice standards for air and ground patient movement. Medical direction can be 
+transferred from the theater VFS to a physician traveling with patients as a Medical Attendant 
+(MA) or to an En Route Critical Care (ERCC) physician. 
+AFTTP3-42.5  23 JULY 2019 
+15 
+3.8.4.  En Route Critical Care Director. During major contingency operations the CCMD may 
+establish a theater ERCC Director. In coordination with HQ AMC/SGK (Command Surgeon 
+En Route Medical Care Division), the HQ AF/SG CCATT consultant will nominate a qualified 
+member for the position from a list of candidates to be maintained by the consultant. Generally, 
+the theater ERCC Director will be assigned to the AFFOR/SG staff. They will serve as an 
+advisor to CCMD/SG and AFFOR/SG for the development, utilization, and optimization of a 
+theater-wide ERC capability including utilization of UTC FFCCT and other special ERC 
+capabilities, such as Tactical Critical Care Evacuation Teams (TCCET), Acute Lung Rescue 
+Teams (ALRT), and other special and coalition medical critical care air transport assets. 
+3.8.5.  In accordance with (IAW) AFI 48-307V2, En Route Critical Care, the EAES 
+commander will appoint a unit ERCC director for management and oversight of all assigned 
+ERCC teams, and to serve as ERCC-liaison for the AE command section. The ERCC director 
+appointment will be assigned to a physician who may be of lesser rank but with greater ERCC 
+experience. The ERCC director will be responsible for managing each of the ERCC teams 
+assigned to the squadron, establishing the rotational schedule, coordinating with the Director 
+of Operations (DO), reviewing clinical processes, liaising with local MTFs to establish 
+processes for ERCC team clinical sustainment, and all other team issues that may arise. The 
+ERCC director reports directly to the AE commander and is integrated into the AE unit 
+executive leadership structure at the equivalent level of the DO and the Chief Nurse. 
+16 
+AFTTP3-42.5  23 JULY 2019 
+Chapter 4 
+OPERATIONS 
+4.1.  AE Across the Range of Military Operations.  HQ AMC is charged with the responsibility 
+to operate the common-user Air Force AE system and has been given the overall responsibility as 
+the AE lead command for the Air Force to manage and operate the inter-theater and AE sub-
+systems, and provide the AE elements and the planning assistance to the theater of operations, in 
+intermediate supporting theaters or in CONUS. 
+4.2.  Steady-State/Peacetime Engagement and Crisis Response. 
+4.2.1.  Theaters will validate patient movement mission requirements through the existing 
+theater unified command cargo/passenger annual validation process. Patients traveling as 
+passengers in a Temporary Duty (TDY) status must be validated as clinically able to do so by 
+the TPMRC/VFS and granted duty passenger priority. Associated costs with the use of seats 
+on military lift by patients, MAs, and AE assets will be outlined in appropriate DOD 
+Instructions (DODI) and joint publications. 
+4.2.2.  Patients requiring in-flight medical care but not supported by the organic AE system, 
+may be moved via other Service assets or civilian air ambulance (CAA). Outpatients and 
+eligible beneficiaries needing air transportation, but not requiring in-flight care, can be moved 
+by commercial airline travel, contract airlift, duty passenger travel, or in a space available 
+status in the DOD transportation system, as validated by the PMRC. 
+4.2.3.  AE Defense Support of Civil Authorities (DSCA). DSCA is support provided by U.S. 
+Federal military forces, National Guard forces performing duty, DOD civilians, DOD contract 
+personnel, and DOD component assets, in response to requests for assistance from civil 
+authorities for special events, domestic emergencies, designated law enforcement support, and 
+other domestic activities. Support provided by National Guard forces performing duty is 
+considered DSCA, but is conducted as a state-directed action, also known as civil support. 
+Requests for health support during disasters in the U.S. will normally be initiated by 
+Department of Health and Human Services through submission of a request for assistance or 
+mission assignment. Requests typically flow from the Federal Emergency Management 
+Agency (FEMA) to the Joint Director of Military Support and are processed forward to the 
+Secretary of Defense for approval. 
+4.2.3.1.  The Air Force AE system supports patient evacuations accomplished through the 
+National Disaster Medical System (NDMS). USTRANSCOM is the authority that 
+validates the requirement to support civilian authorities with Director of Aerial Port of 
+Embarkation (APOE), FEMA, and the NDMS. Once validated, HQ AMC and 618 AOC 
+(TACC) are the lead operational authority (LOA) for AE planning, coordinating, and, when 
+directed, executing DSCA support. HQ AMC also provides trained AE coordinating 
+officers and coordinating elements for DSCA from existing active and reserve component 
+forces in execution of the National Response Framework (NRF) in CONUS. AE assets 
+required will depend on the size and scope dictated by the disaster or contingency and may 
+be supported by in-place AE infrastructure or the deployment of AE assets to the disaster 
+area. 
+AFTTP3-42.5  23 JULY 2019 
+17 
+4.2.3.2.  ANG AE assets, as part of their state’s Emergency Management Plan (EMP), may 
+be mobilized and deployed/employed in a state activated status prior to federalization. 
+4.2.3.3.  HQ AMC plays a key role in response efforts by providing specifically trained AE 
+personnel, planners, and support staff. With proper authorization, AE personnel may be 
+used to support local efforts at command and control centers, staging at existing airports, 
+and/or AE liaisons at medical treatment facilities preparing patients for transport. 
+4.3.  Deterrence and Contingency Operations.  AE forces are incremental and can be built from 
+a small liaison team to a fully operations Theater Aeromedical Evacuation System (TAES). The 
+initial, expeditionary, AE assets that can deploy far forward, are mobile, and support the various 
+medical ground units from all user services. 
+4.3.1.  During support of operations, AE employs its full capability, to include staging, 
+AECMs, ERCC specialty teams, and integrated communications. During wartime, AE includes 
+the movement of military casualties from forward airfields to more capable facilities, and if 
+required, on to definitive care facilities. The AE system may be tasked to transport injured/ill 
+special operations forces, provide support for noncombatant evacuation operations (NEO), 
+and/or evacuate injured/ill repatriated U.S. or allied prisoners of war (POW). The AE system 
+may also be tasked to evacuate injured/ill enemy prisoners of war (EPW), detainees, and 
+coalition forces. AE also includes transportation of patients to and from redistribution centers 
+within CONUS and in support of Humanitarian Assistance or Disaster Response (HA/DR) 
+operations. 
+4.4.  CONUS Contingency AE.  AE missions returning patients from the theater deliver the 
+patients to CONUS staging facilities that will be strategically placed to support defined airlift 
+routes. Additional medical assets may be required to support patients at organic en route hubs, and 
+redistribution of casualties in CONUS may also involve a network of commercial airlift.  For 
+example, critical care and mental health patients will not be held in the staging facility (En Route 
+Patient Staging System [ERPSS]), as these facilities are not staffed with providers to treat these 
+types of patients.  See AFTTP 3-42.57 for further information on ERPSS capabilities. 
+4.5.  AE Interface with the Joint Community.  Movement of patients between points within a 
+GCC’s AOR is referred to as intra-theater, while movement of patients between the GCC’s AOR 
+to points outside the AOR is referred to as inter-theater (refer to para. 3.5.2.). PMRCs are 
+responsible for identifying MTF capability, regulating patients to the closest capable facility, 
+clinically validating, and coordinating with Service components for patient evacuation. This 
+process aligns the patient to an MTF with the necessary capabilities and bed availability. PMRs 
+are validated then passed to the service air component for execution. The airlift operations centers 
+may request other destinations due to availability of airlift and routes to support AE, but these 
+decisions will be coordinated with the PMRC prior to execution. 
+4.5.1.  PM and Roles of Care. 
+4.5.1.1.  POI/illness to Role 2. Generally, the component commands are responsible for 
+evacuation of the casualty from POI/illness to Role 1 or Role 2 MTFs via dedicated, 
+designated, or opportune ground or air transportation. This is accomplished through a 
+combination of litter carries, manual carries, ground transportation, and limited air (rotary- 
+or fixed-wing) transport. The USA generally employs dedicated MEDEVAC assets such 
+as ground and air ambulances. The U.S. Navy (USN) normally relies on lifts of 
+18 
+AFTTP3-42.5  23 JULY 2019 
+opportunity. The USMC has some dedicated ground evacuation and relies on designated 
+air and other lifts of opportunity. If USAF assets are required, at this level, lifts of 
+opportunity may be used. 
+4.5.1.2.  Role 2 to Role 3. Movement within and from Role 2 capabilities is normally a 
+Service component responsibility; however, some operations may require evacuation by 
+the joint common-user PM system. For example, the USMC has no organic theater 
+hospitalization (Role 3) capabilities, and this care is provided by the USN. The USN does 
+not have dedicated or designated evacuation vehicles with the capacity to go forward and 
+retrieve patients from units with Role 1 and Role 2 capabilities to evacuate them to the 
+Role 3 capability. For this reason, the USA will be tasked with providing PM support for 
+ship-to-shore and shore-to-ship evacuation. For environments beyond the capabilities of 
+rotary-wing PM support, joint common-user resources may be required. Requests to the 
+joint common-user PM system are submitted to the PMRC for coordination. 
+4.5.1.3.  Role 3 to Role 4. If a patient cannot be returned to duty within the limits of the 
+theater PM policy, the originating Role 3 MTF will normally request PM to a Role 4 MTF 
+for more definitive care and disposition. The originating MTF will submit a PM request, 
+in accordance with prescribed procedures, using the USTRANSCOM Regulating and 
+Command and Control (C2) Evacuation System (TRAC2ES). PM requests are submitted 
+to the appropriate PMRC (or Joint Patient Movement Regulating Center [JPMRC] if one 
+is established). When operating within an area that already has an established TPMRC, the 
+TPMRC maintains overall visibility for theater USAF PM operations, but the JPMRC is 
+responsible for USAF PM operations within the OA and coordinates with the TPMRC for 
+USAF intra-theater PM and the Global PMRC (GPMRC) for inter-theater PM. The JPMRC 
+identifies intra-theater PM requirements through the theater AOC/JAOC/AECT, and the 
+TPMRC coordinates with the theater air mobility operations control center to identify 
+theater airlift assets available, and with the GPMRC to identify inter-theater PM 
+requirements through USTRANSCOM’s Joint Mobility Control Group. 
+4.5.1.4.  Role 1/Role 2 to Role 4. Some joint operations may present unique situations and 
+considerations where a theater hospitalization (Role 3) capability may not exist. Stabilized 
+casualties may enter the joint common-user PM system near the Role 1 capability and be 
+evacuated directly to a Role 4 capability in another theater. In such cases, the component 
+command medical regulating officer will submit a PM request to the JPMRC. 
+4.6.  AE Interface with the Patient Movement Process. 
+4.6.1.  Patient Movement Request (PMR). The PM process begins when the health care unit 
+sends a PMR to the servicing PMRC. The PMRC evaluates the request for eligibility, necessity, 
+and acuity. PMRs are then submitted to the PMRC by the Service medical patient 
+administration section in each facility and will be communicated through TRAC2ES for patient 
+in-transit visibility (ITV). Operational tracking of AE missions will be through standard air 
+mobility automated systems. 
+4.6.2.  Patient Movement Requirements Centers (PMRCs) - Global, Theater, and Joint. The 
+PMRC is a joint activity responsible for PM management and coordination. The PMRC 
+validates patient movement requests, regulates patients to appropriate medical facilities for 
+continued medical care, and determines the mode of transportation (air, sea, and ground). 
+PMRCs should exist at the joint level as an element of the joint movement center, to ensure 
+AFTTP3-42.5  23 JULY 2019 
+19 
+visibility of joint assets for PM lift options. PMRC staffing includes nurses as Patient 
+Movement Clinical Coordinators (PMCC), and one or more theater VFSs who are assigned or 
+delegated by the theater Command Surgeon to work with the PMCC. Theater VFSs provide 
+physician medical direction and clinical oversight of PM validation, transfer/en route care 
+planning, and en route care during AE. The PMCCs provide clinical and administrative 
+expertise during validation and may be delegated validation authority by the VFS for routine 
+patients using approved algorithms. 
+4.6.3.  Patient Movement Clinical Coordinator (PMCC). A PMCC is a nurse assigned to a 
+PMRC who provides clinical and aerospace oversight for clinical validation of patient 
+movement requests. The senior PMCC ensures standardized training requirements for PMRC 
+personnel are met, conducts case reviews, implements PMRC clinical practice guidelines for 
+personnel (nurses and medical technicians) performing clinical regulation/validation in the 
+PMRC, and defines the scope of practice for clearing patients by PMCC’s when an originating 
+MTF flight surgeon is not available. 
+4.6.4.  Patient Administration Director (Clerk/Officer) (PAD) or the Medical Regulating 
+Officer (MRO) is responsible for contacting the PMRC with PM requirements and submitting 
+patient movement data. This individual manages patient numbers and bed classifications, 
+determines availability of facility-based resources to assist with the movement of patients, and 
+coordinates the use of those assets. The PAD/MRO serves as the liaison between the referring 
+physician and medical staff, the patient, the PMRC, and is responsible for inputting patient 
+data for PMRs. 
+4.7.  Mission Coordination and Operational Considerations. 
+4.7.1.  Management of AECMs is essential for efficient system operations. Crew management 
+and tasking includes support to all AECMs, CCATTs, ERCC teams, and other supporting 
+medical augmentees. AECMs will comply with appropriate crew duty days, and alert 
+procedures IAW governing AFIs. AECMs normally fall under the direct control of an AEOT 
+(FFQNT) responsible for crew management. AECMs that remain overnight (RON) from 
+deployed C2 structure will align with the Pilot in Command (PIC) for reporting location, 
+availability, and follow on mission requirements. AE crew management will be integrated into 
+local mobility ATOs, airlift stage management operations, and crew alerting processes. AE 
+crews will be alerted following the same process as other flight crews for that location and/or 
+IAW AFI 11-2AEV3, Aeromedical Evacuation (AE) Operations Procedures. It is the medical 
+crew director’s (MCD) responsibility to contact the en route controlling C2 authority, to 
+determine return mission/follow-on mission availability. AE equipment will be considered part 
+of aircrew equipment. 
+4.7.2.  DOD Definitions for Theater Evacuation Precedence. Times begin once a patient is 
+validated. The timeframes are expected response time, but can be negotiated with the lift 
+agency. In contingencies, follow OPORD Annex Q, “Medical Support,” for specific directives 
+and joint operations priorities. 
+4.7.3.  Mission Coordination. Once the mission has been identified, the AOC/AMD/618 AOC 
+(TACC) will task mobility wings for airlift, crews, and augmentation assets (equipment and/or 
+specialized medical personnel support). The AE cell/AECT will pass mission information 
+including aircraft arrival and departure times through the Wing, servicing PMRC, and the 
+20 
+AFTTP3-42.5  23 JULY 2019 
+originating and destination health care facilities. The AE cell/AECT will track missions and 
+all operational aspects of the patient movement. 
+4.7.4.  Unregulated Casualties. When security or operational conditions exist which require 
+casualties to be moved immediately, patients may be moved without prior PMRC validation. 
+In this case, the originating AE component will attempt to alert the AECT of the departure of 
+AE missions with unregulated patients. AECT will then notify the PMRC, and a VFS will be 
+identified to clear the patients for movement within the AE environment. 
+4.7.5.  Patient Considerations and Preparation for AE. Proper clinical preparation for AE 
+increases the likelihood of successful patient outcomes. Originating physicians and staff, in 
+consultation with local flight medicine personnel, should begin preparatory actions by 
+outlining the care plan the patient requires en route to the PMRC. For patient preparation and 
+considerations for flight, please reference AFI 48-307V1. 
+4.7.6.  Management of Patient Weapons. During contingency operations, weapons will be 
+returned to the user Service, or in special situations, will be cleared and transported IAW 
+aircraft regulations and the Geneva Conventions. 
+4.7.7.  Patient Essentials. Regulated patients will be transported with their medical records or 
+evacuation battle tag, valuables, personal effects, and medical essential items IAW established 
+regulations. Medical equipment, referred to as patient movement items (PMI)/PMI in-kind, 
+and supplies required to support patients during evacuation should be coordinated in advance. 
+While in theater, patients should also be transported with their personal protective equipment 
+readily accessible to them, and any chemical warfare/biological warfare (CW/BW) gear will 
+be available as applicable. 
+4.7.8.  ERC Medical Equipment. ERC medical equipment and supplies will be standardized 
+throughout the system and will comply with air-worthiness requirements. This will ensure 
+rapid medical equipment exchanges and forward re-supply. For further guidance on ERC and 
+patient preparation please refer to AFI 48-307V1, AFI 10-2909, Aeromedical Evacuation 
+Equipment Standards, the current Aeromedical Evacuation Non-PMI (Non-Standard) Medical 
+Equipment Compendium available on the A3VM “Master Library Verified AE” SharePoint 
+site (see Attachment 2, “Additional Resources” for URL), and/or current theater/local medical 
+equipment guidance. 
+AFTTP3-42.5  23 JULY 2019 
+21 
+Chapter 5 
+PLANNING AND SUPPORT CONSIDERATIONS 
+5.1.  CONOPS. 
+5.1.1.  Each Service component is responsible for all functions of the Service-specific PM 
+system, including operational guidance, intelligence, medical direction, logistics, and 
+communications support. From initial injury to definitive care, the treatment and evacuation of 
+patients from the battlefield transcends many levels of communication and coordination, 
+routinely crossing Service boundaries. Thorough knowledge of the PM systems will expedite 
+casualty care and save lives. Patient evacuation must be planned to support any operation. JFCs 
+should integrate and coordinate the use of evacuation resources toward the common purpose 
+of reducing mortality while maintaining the medical continuum of care. It is, therefore, critical 
+that each Service component properly plan to operate its portion of the overall PM system. 
+Planning ensures a coordinated effort in providing timely and effective PM, which involves 
+determining theater movement estimates, identifying frequency channel lift requirements, and 
+regulating appropriate MTFs. All available forms of transportation must be considered within 
+the constraints of the tactical situation and the details of patient handling. 
+5.1.2.  The evacuation of casualties within the joint special mission arena can be a particularly 
+complex issue since these forces often operate in small, widely dispersed teams, and in 
+locations not easily accessible. Flexibility and sensitivity to the particular needs of the special 
+mission community, both clinically and administratively, is important to consider in 
+determining how to best support their AE requirements. The special mission forces are 
+responsible for care and evacuation of casualties from the forward location to the secure airfield 
+where AE forces will assume responsibility for the casualties, freeing special mission medical 
+assets to return to forward locations. The AE planner must understand the need for limited 
+resources and yet versatile, flexible capability to support special missions. 
+5.1.3.  Evacuation plans should integrate and include ground ambulances, rotary- and fixed-
+wing evacuation platforms, crew, and attendants. Plans should also include en route (ground 
+and air) critical care teams for transporting patients with critical care needs, Service staging or 
+holding MTFs, Service liaisons, appropriate Service operational requirements, C2 elements, 
+equipment, and handling to include reconstitution of PMI/PMI in-kind. 
+5.1.4.  The USA is responsible for providing medical rotary-wing support for ship-to-shore 
+and shore-to-ship patient transport operations in support of PM requirements for the hospital 
+ships. USA MEDEVAC is conducted as an area support mission including support to all 
+Services operating within the assigned grid coordinates. Requests for the USA evacuation 
+support under the auspices of its area support role from the USN and/or USMC will be 
+prioritized by urgency and not by Service of origin. Plans should reflect this arrangement when 
+it supports the commander’s CONOPS. If the USA MEDEVAC assets are not available or are 
+not deployed as part of the operation, the USN and USMC have responsibility for ship-to-shore 
+and shore-to-ship movement of patients. 
+5.1.5.  The USAF is responsible for providing AE. The AE system provides time-sensitive 
+mission-critical ERC to patients to and between MTFs. Care is delivered by USAF medical 
+personnel specially trained to operate within a global AE system. The USAF’s AE capability 
+22 
+AFTTP3-42.5  23 JULY 2019 
+comprises a system including ground and airborne forces providing and supporting medical 
+care within MTFs, patient staging platforms, and in the air. AE personnel and ERCC Teams 
+execute PM predominately on mobility air force aircraft, as well as aboard Sister Service, 
+contracted, and international partner airframes. AE forces operate as far forward as air 
+operations occur in support of the full range of military operations, humanitarian assistance 
+(HA), and disaster response. The system is designed to be flexible to enable it to operate across 
+the spectrum of potential scenarios and interface with joint forces, multi-national forces, and 
+Special Operations Forces (SOF). 
+5.2.  Movement of Casualties.  The movement of U.S./coalition casualties is accomplished by all 
+available forms of transportation including ships, ground vehicles, and rotary- and fixed-wing 
+assets. Although evacuation of patients through first responder and forward resuscitation is 
+normally a Service responsibility, AE units may, depending upon the operational situation, 
+evacuate casualties from forward airfields when requested to do so by the combatant commander. 
+AE planning requires the integration of Joint and Service specific capabilities into the theater or 
+JFC's CONOPS. Health service support considerations include the tactical mission and situation, 
+enemy and friendly capabilities, threat assessment and the theater evacuation policy. AE planners 
+are an integral part of the airlift planning team and should build appropriate AE support into the 
+en route structure. The AE planner should interface with medical planners to ensure appropriate 
+medical capability along airlift routes. 
+5.2.1.  The process of patient categorization determines how quickly a patient will be 
+evacuated within the PM system and has a significant impact on lift assets. PM priorities are 
+derived from situational factors or individual patient clinical conditions. Refer to OPORD 
+Annex Q, “Adaptive Planning and Execution” (APEX) for directives and specific joint 
+operations priorities. Senior medical personnel, or if no medical personnel are present, the 
+senior military personnel, recommend the precedence for PM to the PMRC based on each 
+patient’s condition/status. Patient condition/status may be upgraded or downgraded at each 
+succeeding role of care. Timeframes to provide evacuation assets on-site ready to conduct PM 
+begin once a PM request is passed to the responsible PMRC. The tables in JP 4-02, Appendix 
+G, “Service Component Transportation and Medical Evacuation Assets,” identify these 
+timeframe objectives within which the PM system should respond. 
+5.3.  PM Evacuation Precedence Categories and Movement Precedence.  Due to the nature of 
+AE operations and the use of mobility airframes to provide this expeditionary patient movement 
+asset, the AE precedence categories are different than those utilized for other patient movement 
+options. Refer to JP 4-02, Appendix A, “Patient Movement,” and AFI 48-307V1, paragraph 3.5. 
+for complete descriptions. AE patient movement categories: 
+5.3.1.  Priority I—Urgent (stabilizing/unstable). Patients requiring immediate PM to save life, 
+limb, eyesight, or prevent serious complications of injury or existing medical condition. 
+Immediate action shall be taken to obtain suitable transportation to meet patient requirements. 
+Timeline for movement is as soon as possible and will be validated by supporting PMRC 
+Theater Validating Flight Surgeon (TVFS). PM should commence within 12 hours of a 
+validated patient movement request. Note: It may be necessary, in some cases, to skip a medical 
+capability echelon and evacuate a patient directly to a greater medical capability echelon in 
+order to increase the survivability of the patient. To do so, the patient must be stable enough to 
+endure the additional flight time to the greater medical capability. 
+AFTTP3-42.5  23 JULY 2019 
+23 
+5.3.2.  Priority II—Priority (stabilizing/stabilized). Patients requiring expedient PM and 
+prompt medical intervention when care is unavailable locally and medical condition could 
+deteriorate; PM is required sooner than the next scheduled channel AE mission. Timeline for 
+movement will be defined by the competent medical authority and validated by the supporting 
+PMRC TVFS. PM typically commences within 24 hours of a validated patient movement 
+request, but may be modified based on the patient's requirement for next clinical intervention. 
+5.3.3.  Priority III—Routine (stabilized/stable). Patients requiring timely PM, can tolerate 
+longer periods except when clinical requirements/or status change warrants higher movement 
+precedence. Timeline for movement will be defined by competent medical authority and 
+validated by the supporting PMRC TVFS. PM typically commences within 7 days of a 
+validated patient movement request, but may be modified based on the patient's requirement 
+for next clinical intervention. 
+5.4.  AE Planning Factors.  The 618 AOC (TACC) AE division is divided into two planning 
+branches and one execution branch. 
+5.4.1.  AE Current Operations Planning Branch is responsible for the planning and scheduling 
+of inter-theater and CONUS intra-theater AE missions. This is done in coordination with the 
+GCC OPLAN requirements and the PMRC. This branch develops and establishes the AE 
+theater airlift plans and frequency requirements. Lastly, it coordinates with the Joint 
+Operational Support Airlift Center (JOSAC), and CAA companies, if necessary, for airlift 
+support to conduct the AE mission. 
+5.4.2.  AE Mission Support Branch is responsible for mission support and current  contingency 
+plan operations. In coordination with the AE Current Operations Planning Branch, they 
+develop inter-theater and CONUS AE execution plans in support of military and civil 
+operations. Furthermore, they define and validate USTRANSCOM AE forces and equipment 
+requirements to include G-series Unit Line Numbers (ULN) and coordinate with MAJCOMs, 
+CCMDs, and federal and state agencies to support the AE mission. This branch is 
+USTRANSCOM’s tasking authority for AE personnel and ERCC Teams for HQ AMC AE 
+missions. 
+5.4.3.  AE Current Operations Branch is responsible for centralized C2 of HQ AMC-gained 
+inter-theater and CONUS AE missions. It balances the medical requirements of the mission 
+with the operational airlift requirements, receives urgent and priority patient movement 
+requirements from PMRCs and AECTs, and is responsible for developing short-notice airlift 
+plans to meet these time critical patient requirements. 
+5.5.  Theater Evacuation Policy.  The theater evacuation policy states the maximum number of 
+days (hospitalization and convalescence) a patient may be held within the theater for treatment, 
+prior to being evacuated, and who in the opinion of appropriate medical authority, cannot be 
+returned to duty (RTD) within the prescribed period are evacuated as soon as practical to the next 
+appropriate level of care for further treatment. The evacuation policy is determined by guidance 
+from the Secretary of Defense in coordination with the GCC and Chairman of the Joint Chiefs of 
+Staff. Upon execution and during operations, the theater evacuation policy may be adjusted based 
+on various factors including the number of definitive care beds available in or deployable to the 
+theater. The evacuation policy does not imply a patient must be held in the theater for the entire 
+period identified in the theater evacuation policy. 
+24 
+AFTTP3-42.5  23 JULY 2019 
+5.6.  Airframe Considerations.  It is critical to identify the availability of various airlift platforms 
+appropriate for the volume and clinical requirements of the patients to be moved. The AECT is the 
+authority for USAF mobility airlift capabilities and system interface. 
+5.6.1.  Organic Mobility Lift and In-System Select (ISS). Organic aircraft are Service airframe 
+assets obtained primarily through mission tasking or through en route diversion and mission 
+reprioritization for AE use. Organic airlift is the major airframe component of expeditionary 
+AE. Requirements can vary from obtaining a seat to move ambulatory patients to procuring a 
+pallet position to move litter patients, or an entire aircraft to perform a single mission or routine 
+frequency mission. The AOC has visibility of airlift operating in the AOR and may divert a 
+mission conducting an ISS to support the patient request. The AECT coordinates the AE 
+tasking to ensure all assets are available to support the ISS mission. 
+5.7.  Airfield Capability.  The mobility en route structure and proximity of medical facilities to 
+the airfield determine AE laydown. Proposed on load, en route, and offload airfields must be able 
+to support the operation. The AECT coordinates with airlift operators to determine operating 
+restrictions such as quiet hours, low light operations, approach restrictions, refueling restrictions, 
+time to enplane and deplane patients, etc. Mission planners must consider flight line security, 
+secured launch, and PHOENIX Raven requirements for designated airfield locations. 
+5.8.  Uncertain or Hostile Operational Environment.  The requirements for Security Forces to 
+support aircraft during AE missions must be considered in the airlift planning process. The 
+PHOENIX Raven program provides specially trained Security Forces personnel to protect HQ 
+AMC aircraft and will be included on all AE missions to locations designated “Ravens required.”  
+AECMs will carry weapons, when appropriate and authorized, to protect themselves and their 
+patients. 
+5.9.  Base Operating Support (BOS) and Operations Support.  AE operations depend on 
+integration with the Line of the Air Force (LAF) to provide BOS and Senior Airfield Authority 
+synchronization. This support is needed for AE units attached to specific locations, as well as en 
+route transient support during patient evacuation through the system, and must be coordinated with 
+appropriate agencies prior to deployment. These requirements include, but are not limited to, 
+transportation (including patient transportation), messing and other consumable materials, water, 
+fuels, cryogenics, liquid oxygen (LOX) and other gases (obtained from fuels or on a contract basis), 
+billeting, latrines, showers, laundry, and security. 
+5.9.1.  Additional requirements include: alternate generator support (primary generator 
+capability is included in allowance standards), fire protection, vehicle maintenance support, 
+vehicle decontamination, maintenance and logistics, Aircrew Flight Equipment (AFE), 
+contracting, 
+supportive 
+information/communications 
+systems 
+maintenance, 
+waste 
+management, and personnel decontamination. AE UTC mission capabilities statements 
+(MISCAP) must be reviewed to determine specific requirements especially in regard to 
+communication and transportation support. 
+5.10.  Biomedical Equipment Technician (BMET) Support.  Equipment repair is essential in 
+the theater for routine maintenance and minor repair. Deployed MTFs (and potentially civilian and 
+multinational facilities) can support AE equipment repair and maintenance in steady state, but not 
+surge periods. Therefore, the AE planner should insert AE BMET capability into airlift hubs and 
+align with local MTFs to ensure AE equipment is processed to meet mission requirements. 
+AFTTP3-42.5  23 JULY 2019 
+25 
+5.11.  Communications.  A responsive communications system is essential to the conduct of PM. 
+The JFC should establish a system which integrates the available capabilities of the PM system, 
+synchronizes its application, and prepares to employ air, land, and sea forces to achieve PM 
+objectives. This system should also support the operational requirements of medical information 
+management as it relates to patient accounting and reporting, medical regulating, and patient in-
+transit visibility. 
+5.11.1.  Service component commanders are responsible for C2 of their respective 
+transportation agencies involved in joint PM. However, the JFS is responsible for establishing 
+a joint PM CONOPS and identifying communications requirements necessary to integrate the 
+functional aspects of the joint PM, medical regulating, and evacuation protocols out of the 
+theater. This may include defining the requirements needed for intra-theater and inter-theater 
+support. Effective PM during joint operations will require a closely coordinated and mutually 
+supportive effort of all participating forces carefully balancing mission requirements while 
+contributing to the total theater PM effort. 
+5.11.2.  The JFC may provide detailed theater communications plans or assign theater 
+communication management responsibilities to a single-Service component for specific 
+functions during joint PM operations. Early identification of a theater’s communications 
+system requirements for evacuation connectivity is essential. At a minimum, medical 
+communications in support of PM must provide reliable, real-time and, when possible, 
+redundant communications within a theater, and from the theater to the U.S. They must also 
+provide a link between the most forward point where the patient enters the PM system, long 
+haul communication to PMRC, and each role in the medical system to the destination MTF or 
+medical element. 
+5.11.3.  The degree of success of PM operations is a function of the availability of reliable 
+communications over dedicated and interoperable systems. Planners must identify frequencies 
+common between Service component support forces assigned a PM mission. If no 
+commonality exists, the JFC develops a theater plan ensuring adequate communications 
+support to all Service components. All frequency requirements for organic equipment must be 
+coordinated with the GCC’s planning staff. 
+5.11.4.  Short-range radio communications should be provided by each Service component to 
+ensure communication between MTFs, evacuation vehicles, boats, aircraft, and operational C2. 
+5.11.5.  When available, theater-based, long-range communications will be provided by 
+satellite communications, and defense voice services, such as the Defense Switched Network 
+(DSN), Defense Information Systems Network, and the Defense Messaging System. Satellite 
+communications offering access to commercial telephones or point-to-point systems should be 
+used when available. 
+5.11.6.  TRAC2ES provides a responsive communications system essential to the conduct of 
+PM. TRAC2ES is a web-based system, which maximizes the Internet while maintaining and 
+protecting privacy and troop strength information. TRAC2ES provides global support 
+throughout the full operational medical continuum for fixed and deployable MTFs and 
+PMRCs. 
+5.12.  Ground Transportation.  Most AE units deploy with integral transportation capability 
+specifically designated for the movement of assigned equipment packages with limited capability 
+26 
+AFTTP3-42.5  23 JULY 2019 
+to transport AE personnel. AE planners should ensure proper aircraft support equipment is 
+available at the airfield (i.e., stanchion and loading systems). The staging facility, or MTF if there 
+is no staging facility, is responsible for patient transport to and from the aircraft. Medical planners 
+should determine the availability of other Service ambulances and vehicles and establish contracts 
+or obtain HN support if required. 
+5.13.  Determining Crew Support.  It is imperative that planners ensure crew resources are 
+allocated appropriately, and a designated replacement schedule for AE crews departing the theater 
+must be established. Consideration must be given to length of crew duty day, augmentation of 
+basic crews, required crew rest period, as well as ensuring transportation and billeting 
+arrangements. 
+5.14.  AE Interface with Special Mission Forces.  Some special mission operations and 
+expeditionary forward deployed operations, such as SOF, Marine expeditionary forces, and 
+combat search and rescue (CSAR), do not possess organic conventional AE capability and must 
+identify requirements for and obtain, conventional AE support at forward airbases. 
+5.15.  AE UTC Employment Concept.  AE UTCs optimize use of limited airlift during the initial 
+phases of an operation without sacrificing capability. Some of the equipment UTCs are portable 
+to ensure AE can be employed in the very early stages of a contingency. The concept is to employ 
+an immediate, versatile, and flexible AE presence to respond to the needs of the deployed forces. 
+Personnel will need to be multifunctional and capable of performing additional duties. After the 
+initial buildup, the planners can augment the deployed teams with more manpower and equipment 
+(augmentation packages), as required, to support more intense or ongoing operations. 
+5.16.  AE UTC Selection and Utilization.  AE UTCs are developed based on the building-block 
+principle allowing planners to select specific UTCs capable of supporting the range of steady state, 
+contingency operations, or OPLANs. The UTCs are divided into three major categories: command 
+and control, patient care, and support. Designed to meet highly mobile and austere conditions, and 
+as workload changes are projected to change, the UTC packages may be deployed or redeployed 
+in small increments or combined with other UTCs to provide capability as needed. 
+5.16.1.  Command and Control UTCs: AECT and AECS, are outlined in Chapter 3 and 
+integrated with airlift operations. 
+5.16.2.  Patient Care UTCs. 
+5.16.2.1.  Aeromedical Evacuation Crew (FFQDE). AECMs are explicitly trained to 
+perform in-flight patient care on opportune fixed-wing aircraft using medical equipment 
+certified for use by airworthiness testing standards. AECMs are knowledgeable about the 
+stresses of flight, aerospace physiology, basic trauma skills, patient safety, and are experts 
+on the interface between aircraft systems and medical equipment to meet clinical care 
+requirements. Crews can also augment any ground UTC requiring additional clinical 
+management or mission support capability as assigned by the C2 commander when AE 
+mission support is not impacted. The basic AECM team may be tailored by the designated 
+chief nurse to support the patient’s needs and requirements. During execution of the AE 
+mission, AECMs and ERCC Teams are directed by AOCs in control of the airlift mission 
+(i.e., AECT/AMD for theater or 618 AOC (TACC) for inter-theater airlift. Planners must 
+task the FFQDM (AE In-flight kit equipment package) to support each FFQDE (AE 
+Crew)). 
+AFTTP3-42.5  23 JULY 2019 
+27 
+5.16.2.2.  Critical Care Air Transport Team (CCATT), (FFCCT). CCATTs provide 
+advanced, specialty medical capability to evacuate (in conjunction with AECMs) critically 
+ill or injured patients requiring continuous stabilization or advanced care during transport 
+to the next level of care. Prior to transport, the role of the CCATT is to assess and prepare 
+the critically ill patient for movement. The CCATT should normally originate with a 
+patient from a nearby/co-located medical treatment facility (MTF) located at a theater AE 
+hub. CCATTs may also be transported from an AE hub to forward locations to pick up 
+patients for transport to higher levels of care. The CCATT will accompany the patient from 
+the originating facility to the aircraft and continue to monitor and intervene during in-flight 
+operations as required. When in-flight, the CCATT works with and receives mission 
+operational direction from the MCD. The mission operational management authority and 
+responsibility remains with MCD. 
+5.16.2.2.1.  In conjunction with equipment package, FFCC4, the CCATT provides care 
+for a maximum patient load of up to three high-acuity (e.g., ventilated) patients, or up 
+to six lower-acuity (e.g., non-ventilated) stabilized patients.  Introduction of untreated 
+or unstable patients will degrade CCATT capability and deplete resources accordingly 
+unless augmented. Consultation with the PMRC validating flight surgeon (VFS) and/or 
+the Theater En Route Critical Care Director will be required prior to mission execution 
+to determine the ideal provider mix to transport neonatal and pediatric critical patients. 
+5.16.2.2.2.  When deployed, teams may be assigned to a deployed expeditionary AE 
+unit or another en route care patient movement element. When assigned to any en route 
+care element (AE or other), the unit commander will appoint a unit CCATT Director 
+for management and oversight of all assigned CCATT teams and to serve as CCATT 
+liaison for the unit command section. The CCATT Director will be a physician – that 
+physician may be of lesser rank but greater CCATT experience from the pool of 
+CCATTs assigned. The CCATT Director will be responsible for managing each of the 
+CCATTs assigned to the squadron, establishing the rotational schedule, coordinating 
+with the Director of Operations (DO), reviewing clinical processes, liaison with local 
+ground medical treatment facility to establish processes for CCATT clinical 
+sustainment, and all other team issues that may arise. The CCATT Director reports 
+directly to the unit commander and is integrated into the unit executive leadership 
+structure at the equivalent level of the DO and the Chief Nurse at AE units. Reference 
+AFTTP 3-42.51 for further guidance. 
+5.16.2.3.  En Route Care Expeditionary Support Package (FFEC1). When AECMs and 
+ERCC Teams are deployed to forward locations early in an operation or to support Global 
+Mobility CONOPS, an equipment package, including tents, generators, and a vehicle 
+(when tasked), may be used to support their BOS requirements. 
+5.16.2.4.  En Route Patient Staging System-10 (ERPSS-10), (FFEPS). The ERPSS-10 
+provides rapid response patient staging and limited holding capability to support 
+humanitarian and civil disaster response operations and major theater wars (MTWs). 
+ERPSS-10 is normally physically located to afford ready access to active taxiways/runways 
+as feasible. ERPSS-10 is designed to provide forward support with the smallest footprint, 
+which includes a capability to receive patients, provide supportive patient care, and meet 
+administrative requirements on the ground while awaiting AE. Additionally, the ERPSS-
+10 equipment package contains tentage which is used to provide BOS for ERPSS-10 
+28 
+AFTTP3-42.5  23 JULY 2019 
+personnel. The communications capability assigned to the ERPSS-10 may be integrated 
+into the tanker/airlift control element or operations cell. For deliberate planning, patient 
+throughput is 40 patients per 24 hours. The team should be able to sustain this tempo for 
+72 hours before augmentation is required. The 40-patient throughput is based on aircraft 
+constraints in a theater of war. Additional throughput may be achieved with increased 
+aircraft availability and personnel augmentation. This UTC can be deployed on aircraft 
+pallets (463L) or as rolling stock if UTC UFMVE, High Mobility Multi-purpose Wheeled 
+Vehicle (HMMWV) is also tasked. The ERPSS-10 cannot be considered mobile unless two 
+UFMVE UTCs are tasked to support each FFPS1 (ERPSS-10 equipment package). 
+5.16.2.5.  En Route Patient Staging System-50/100 (ERPSS-50/100), (FFPPS, FFFPS, 
+FFHPS). ERPSS-50/100 may be used at major inter-theater hubs to support the full 
+spectrum of contingency operations and Air Expeditionary Force (AEF) operations 
+including humanitarian relief operations (HUMRO) and homeland defense missions. 
+ERPSS-50/100 interfaces with the AE mission and falls under the C2 of the medical group 
+commander. Reference AFTTP 3-42.57 for more ERPSS information. Planners must task 
+FFPS1, FFPS2, FFPS3, FFPS4, FFPS7, FFPS8 ERPSS equipment packages to support this 
+capability. 
+5.16.3.  Support UTCs. 
+5.16.3.1.  AE Liaison Team (AELT), (FFQLL). The AELT provides support between the 
+forward user and the AE system in the form of operational and clinical interface. This 
+interface may occur at locations without other AF personnel such as far forward bases and 
+onboard ships. An AELT may be geographically separated from other AF assets. The FN 
+provides clinical expertise to facilitate clinical support for administrative, aircraft specific 
+requirements, equipment requirements, and clinical implications of altitude and stresses of 
+flight. The FN on the team assists the medical unit in preparing AE patients for flight. The 
+Medical Service Corps (MSC) Officer is responsible for providing guidance and assisting 
+with coordination on patient movement processes and acts as a coordinator between user 
+and AE operations. The MSC Officer assists in patient manifesting if TRAC2ES is not 
+available. They normally work with the patient regulating component or the PAD section 
+of a user Service. Planners must task FFQCR and FFQL1 equipment package to support 
+the AELT. This is a rolling stock UTC and one HMMWV (UTC UFMVE) must be tasked. 
+5.16.3.2.  AE Operations Team (AEOT), (FFQNT)/AEOT Augmentation Team, 
+(FFQCM). The AEOT provides operations and mission management support to airfields 
+supporting AE. It provides supervision and crew management for all assigned, attached or 
+transiting AECMs and CCATT crews. It performs AECM and CCATT scheduling. The 
+AEOT also coordinates AECM and CCATT requirements for AFE, billeting, food service, 
+transportation, finance, and administration. In addition, this team assists AE crews with 
+aircraft configuration for AE missions, manages AE supplies and equipment, supports AE 
+communications, and assists in enplaning/deplaning as required. It may coordinate with 
+MAF flight crew stage management teams at strategic AE hubs and CONUS reception 
+airfields. This team can support up to 10 AE crews and 4 CCATTs and can manage at least 
+6 mission launches/recoveries in a 24-hour time frame. Planners must task FFQCR and 
+FFQN1 (AEOT equipment package) to support each FFQNT. 
+AFTTP3-42.5  23 JULY 2019 
+29 
+5.16.3.3.  Patient Movement Items (PMI) teams are composed of FFLG1 (medical 
+logistics) and FFBMM (biomedical equipment repair teams). The FFLG1 logistics teams 
+provide operational PMI management capability. They can be deployed to support PMI 
+centers, cells, and tracking nodes. Their duties consist of storage, reception, inventory 
+control, issue, palletizing, shipping, recycling and identification of equipment 
+requirements. The FFBMM equipment repair teams provide regional maintenance and 
+repair capability for equipment in PMI Centers and/or cells. The FFBM1 biomedical 
+maintenance equipment package must be tasked to support the FFBMM team. Duties 
+include scheduling and completing scheduled preventative maintenance and calibration, 
+repair and maintenance services, and updating the PMI Asset Tracking System and Defense 
+Medical Logistics Support System (if available). Planners may task FFBM1 to support 
+initial stand-up of a PMI cell, or to increase throughput. For further guidance refer to JP 4-
+02, AFTTP 3-42.8, Expeditionary Medical Logistics (EML) System, AFI 41-201, 
+Managing Clinical Engineering, AFI 41-209, Medical Logistics Support, AFI 10-2909, 
+Aeromedical Evacuation Equipment Standards, the current “Aeromedical Evacuation Non-
+PMI (Non-Standard) Medical Equipment Compendium” available on the A3VM “Master 
+Library Verified AE” SharePoint site (see Attachment 2, “Additional Resources” for URL), 
+and applicable OPLANS. 
+5.16.3.4.  AE Communications Team (FFQCR). This team provides UTC voice and data 
+communication equipment that is survivable, interoperable, flexible, mobile, and secure 
+separated into 3 specific areas: 1) Initial contingency operations using organic 
+communication devices; 2) Sustainment contingency operations coordinating with user 
+service to provide Non-classified Internet Protocol Router Network/ Secret Internet 
+Protocol Router Network (NIPRNET/SIPRNET), local area network (LAN) lines, web 
+based applications, computer and software support; and 3) Homeland/natural disaster 
+responses (CONUS only), for which cellular phones have been added to enhance organic 
+communications. Equipment UTCs embedded with communication equipment are: 
+FFQC1, FFQL1, FFPS1, and FFQN1. 
+5.16.3.5.  AFE Aeromedical Evacuation Support (9ALAE). These personnel may deploy 
+with UTCs FFQDE and FFQNT. AFE personnel support primary aeromedical aircrew 
+stage operations to maintain AECM AFE. They provide scheduled and unscheduled 
+aircrew AFE inspections (e.g. survival vests, survival radios, aircrew body armor, quick 
+don masks, life preserver units, and aircrew Chemical, Biological, Radiological, and 
+Nuclear (CBRN) equipment). 
+5.17.  AE Mission Support Equipment. 
+5.17.1.  SPECTRUM Series. The SPECTRUM Series patient care module is routinely used on 
+operational support aircraft to support urgent, single patient requirements (including infant 
+isolette). The aircraft usually requires modification to accept the SPECTRUM Series. The litter 
+system has self-contained oxygen, vacuum, compressed air, electrical power and an overhead 
+light. Reference Chapter 7 in AFMAN 11-2AEV3 Addenda-A, Aeromedical Evacuation 
+Operations Configuration/Mission Planning. 
+5.17.2.  Litter Station Augmentation Set (LSAS). The LSAS is intended for patient loads that 
+exceed the C-17's organic litter carrying capability. Although a mission may not require a full 
+36 litter positions (9 organic litters to the aircraft and 27 litters within the set), the LSAS is a 
+30 
+AFTTP3-42.5  23 JULY 2019 
+kit and the full complement of components (ISU-90 CONEX) will be transported on the 
+mission. This ensures the equipment set is kept together for all stages of employment. 
+Reference LSAS CONOPS available on the A3VM “Master Library Verified AE” SharePoint 
+site (see Attachment 2, “Additional Resources” for URL). 
+5.17.3.  Stanchion Litter System (SLS). The SLS increases and enhances operational 
+capabilities for patient movement on multiple airframes during steady-state operations, times 
+of war and military operations other than war. The SLS is a stand-alone stationary, non-
+mechanical structure that attaches to the existing aircraft attachment hard points and consists 
+of three basic components, the vertical support stanchions, lower base frame, and the litter 
+platforms. They are centrally managed by HQ AMC/SG. Reference operations and 
+troubleshooting guides which are available on the A3VM “Master Library Verified AE” and/or 
+“Approved Publications – AE” SharePoint areas (see Attachment 2, “Additional Resources” 
+for URL). 
+5.17.4.  High Deck Patient Loading Platform (HDPLP). The HDPLP is a special purpose 
+vehicle (UFM849 UTC) with capability to transport, lift, and lower patients with disabilities 
+or special needs onto and off of high-deck, fixed-wing aircraft (i.e. KC-135, KC-10, etc.). It 
+has an enclosed, environmentally controlled cabin, and is scissors-hoist lifted. It has self-
+sustaining power; can be connected to shore power; and possesses redundant safety measures 
+to include lighting, equipment/floor/wall tie-downs, non-slips floors, emergency egress 
+capable, fall protection, etc. 
+5.17.5.  Patient Loading System (PLS). The PLS is a specialized mobile ramp deployed to 
+facilitate enplaning/deplaning patients on KC-135/KC-10 aircraft. If the PLS/High Deck 
+Patient Loading Platform (HDPLP) is not available, request a Hi-lift truck, Halverson Lift, or 
+Tunner (K-Loader), for patient enplaning/deplaning. This equipment is normally operated by 
+aeromedical staging personnel at strategic hubs to support KC-135/KC-10 aircraft during day-
+to-day peacetime and wartime operations at forward locations. 
+5.17.6.  KC-135 Portable Cargo Light System. The KC- 135 Portable Cargo Light System is 
+an LED lighting system that consists of 12 light bars (each 3ft long) that are clamped to 
+overhead support bars to provide light from the galley to the auxiliary power unit (APU). The 
+lighting system covers 75 percent of the cargo bay. There are 10 along the length of the cargo 
+bay and 2 additional over the cargo door. Reference “KC-135 Light System Manual” which is 
+available on the A3VM “Master Library Verified AE” SharePoint area (see Attachment 2, 
+“Additional Resources” for URL). 
+5.18.  AE Equipment and Supplies. 
+5.18.1.  Sustained medical logistics support for AE operations is essential. Reach back and 
+resupply operations ensure sustainment of theater AE forces. Maintenance and refilling of 
+liquid oxygen (LOX) containers requires qualified personnel. LOX refilling agreements should 
+be coordinated by the EAES commander with the respective supporting operations group. 
+Other items of interest are the shipment of in-flight medical kits and interface with prime 
+vendor suppliers to fulfill deferred procurement items. Planners should identify base and 
+medical logistics supply hub requirements and request additional manpower/equipment needed 
+to support AE operations (i.e., additional LOX support personnel and refill/maintenance 
+capability at airlift hubs). The initial point of entry into the logistics chain will be at the attached 
+wing level. Medical supplies may be supported by the closest MTF medical logistics function. 
+AFTTP3-42.5  23 JULY 2019 
+31 
+In large operations or contingencies, AE operations may be required to interface with Theater 
+Lead Agent for Medical Materiel (TLAMM). Requirements for Class VIII medical 
+supplies/equipment will be processed through the established theater system. 
+5.18.2.  Responsibilities. 
+5.18.2.1.  HQ AMC is the lead command for AE and provides continuous review and 
+oversight of the AE system thus ensuring the AE force is appropriately supplied and 
+equipped to perform the mission. HQ AMC/SG and HQ AMC A3/10 (Directorate of 
+Operations, Strategic Deterrence, and Nuclear Integration) personnel will work together 
+closely to ensure the viability of all assigned UTCs. 
+5.18.2.2.  AE Equipment. The in-flight and theater AE environment exposes medical 
+equipment to unique stresses. Equipment should be able to withstand environmental 
+extremes of temperature and humidity, aircraft vibration, altitude and rapid decompression 
+of the aircraft, and electromagnetic interference to and from the aircraft. Interface with the 
+aircraft should not pose any safety hazards to the patients or aircrew. Equipment items are 
+tested and certified as airworthy and compatible with Air Force mobility airlift. 
+5.18.2.3.  The Air Force Aeronautical Systems Center Human Systems Division 
+(ASC/WNU) at Wright-Patterson AFB, Ohio, is responsible for the airworthiness 
+evaluation process for new or proposed medical devices for AE and coordinating with HQ 
+AMC/SG. All medical equipment utilized for AE must be certified by ASC/WNU as safe 
+for use in AF aircraft. 
+5.19.  Patient Movement Items (PMI). 
+5.19.1.  The system provides a seamless in-transit patient and/or equipment management 
+process from initial patient entry into AE system to the patient’s final destination and recycles 
+back. The PMI system is comprised of the following UTCs:  FFQP4 – Deployable Patient 
+Movement Item Asset Tracking System, FFQP5 Spare Parts package, FFQP6 Shipping 
+Supplies package, and FFQP3 – notional UTC built based on specific patient throughput 
+requirements. These UTCs deploy in support of the AE system and are collocated with AE at 
+key interface points to provide initial AE operational capability, to sustain AE operations and 
+support equipment recycles. Equipment will be managed, supplied and resupplied through the 
+PMI centers, cells, nodes, and joint medical logistics organizations. It is the responsibility of 
+the originating health care facility to provide the PMI in-kind required to support the patient 
+during evacuation. Services should outfit sets, kits, and assemblages with PMI in-kind medical 
+equipment (same, make, model) and air-certified for use in deployable platforms. In a 
+contingency, the PMI cell may be collocated with the TLAMM, normally at a robust air and 
+logistics hub. 
+5.19.2.  USTRANSCOM is the PMI system manager. HQ AMC/SGXLM (HQ AMC 
+Command Surgeon/Medical Readiness/Logistics and MEFPAK) is the program execution 
+office. All Services will fund the original initial quantities of approved PMI in-kind assets. 
+PMI in-kind assets are defined as the exact medical equipment by type and model approved 
+for patient movement. All Services will maintain initial quantities of approved PMI in-kind 
+equipment in their medical assemblages, kits/sets/outfits, table of allowance, or allowance 
+standards. This will ensure standardization and the PMI programs ability to seamlessly support 
+patient movement. This capability is critical to enabling the PMI system to properly 
+32 
+AFTTP3-42.5  23 JULY 2019 
+recycle/replace medical equipment in medical assemblages and to ensure their designed 
+operational capability is not diminished due to equipment shortfalls. HQ AMC/SGXM 
+manages and receives Defense Health Program funds to support DOD OPLAN patient 
+movement requirements and is responsible for life cycle management of equipment assets in 
+the PMI centers. 
+DOROTHY A. HOGG, 
+Lieutenant General, USAF, NC 
+Surgeon General 
+AFTTP3-42.5  23 JULY 2019 
+33 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+AFI 10-2909, Aeromedical Evacuation (AE) Equipment Standards, 13 March 2019 
+AFI 11-2AEV3, Aeromedical Evacuations (AE) Operations Procedures, 15 August 2014 
+AFI 24-101, Passenger Movement, 28 April 2017 
+AFI 36-2101, Classifying Military Personnel (Officer and Enlisted), 25 June 2013 
+AFI 41-201, Managing Clinical Engineering Programs, 10 October 2017 
+AFI 41-209, Medical Logistics Support, 04 January 2019 
+AFI 48-307V1, En Route Care and Aeromedical Evacuation Medical Operations, 09 January 
+2017 
+AFI 48-307V2, En Route Critical Care, 10 January 2017 
+AFMAN 11-2AEV3 Addenda-A, Aeromedical Evacuation Operations Configuration/Mission 
+Planning, 19 October 2018 
+AFMAN 33-363, Management of Records, 01 March 2008 
+AFPAM 10-1403, Air Mobility Planning Factors, 24 October 2018 
+AFTTP 3-42.51, Critical Care Air Transport Team (CCATT), 07 April 2015 
+AFTTP 3-42.57, En Route Patient Staging System, 10 August 2016 
+Air Force Doctrine Annex 3-17, Air Mobility Operations, 05 April 2016 
+Air Force Doctrine Annex 3-30, Command and Control, 07 November 2014 
+DODI 4515.13, Air Transportation Eligibility, 31 August 2018 
+JP 3-0, Joint Operations, 17 January 2017 
+JP 3-17, Air Mobility Operations, 05 February 2019 
+JP 4-02, Joint Health Services, 11 December 2017 
+Secretary of the Air Force, (10 U.S.C. § 9013) 
+The Privacy Act of 1974, (5 U.S.C. § 552a) 
+Adopted Forms 
+AF Form 847, Recommendation for Change of Publication, 22 September 2009 
+Abbreviations and Acronyms 
+A2/AD—Anti-Access/Area Denial 
+A3/10—Directorate of Operations, Strategic Deterrence, and Nuclear Integration 
+AD—Area Denial 
+34 
+AFTTP3-42.5  23 JULY 2019 
+ADVON—Advanced Echelon 
+AE—Aeromedical Evacuation 
+AECM—Aeromedical Evacuation Crewmember 
+AECS—Aeromedical Evacuation Command Squadron 
+AECT—Aeromedical Evacuation control team 
+AEG—Air Expeditionary Group 
+AELT—Aeromedical Evacuation Liaison Team 
+AEOT—Aeromedical Evacuation Operations Team 
+AESC—Aeromedical Evacuation Support Cell 
+AET—Aeromedical Evacuation Technician 
+AEW—Air Expeditionary Wing 
+AFD—Air Force Doctrine 
+AFE—Aircrew Flight Equipment 
+AFFOR—Air Force Forces 
+AFPAM—Air Force Pamphlet 
+AFPD—Air Force Policy Directive 
+AFTTP—Air Force Tactics, Techniques and Procedures 
+ALCT—Airlift Control Team 
+ALRT—Acute Lung Rescue Team 
+HQ AMC—Headquarters Air Mobility Command 
+AMD—Air Mobility Division 
+ANG—Air National Guard 
+AOC—Air Operations Center 
+APEX—Adaptive Planning and Execution 
+APOE—Aeromedical Evacuation Arial Port of Embarkation 
+APU—Auxiliary Power Unit 
+ARC—Air Reserve Component 
+ASC/WNU—Air Force Aeronautical Systems Center Human Systems Division 
+AST—Austere Surgical Team 
+ATO—Air Tasking Order 
+BMET—Biomedical Equipment Technician 
+BOS—Base Operating Support 
+35 
+AFTTP3-42.5  23 JULY 2019 
+BPLAN—Base plan 
+C2—Command and Control 
+CAA—Civilian Air Ambulance 
+CASEVAC—Casualty Evacuation 
+CBRN—Chemical, Biological, Radiological, and Nuclear 
+CC—Commander 
+CCATT—Critical Care Air Transport Team 
+CCMD—Combatant Command 
+COMAFFOR—Commander of Air Force Forces 
+CONOPS—Concept of Operations 
+CONPLAN—Concept Plan 
+CONUS—Continental United States 
+CSAR—Combat Search and Rescue 
+CW/BW—Chemical Warfare/Biological Warfare 
+DDOC—Deployment and Distribution Operations Center 
+DEPORD—Deployment order 
+DIRLAUTH—Direct Liaison Authority 
+DIRMOBFOR—Director of Mobility Forces 
+DO—Director of Operations 
+DOD—Department of Defense 
+DODI—Department of Defense Instruction 
+DSCA—Defense Support of Civil Authorities 
+DSN—Defense Switched Network 
+EAEF—Expeditionary Aeromedical Evacuation Flight 
+EAES—Expeditionary Aeromedical Evacuation Squadron 
+EMP—Emergency Management Plan 
+EPW—Enemy Prisoners of War 
+ERC—En Route Care 
+ERCC—En Route Critical Care 
+ERCCS—En Route Casualty Care System 
+ERPSS—En Route Patient Staging System 
+EXORD—Execute order 
+36 
+AFTTP3-42.5  23 JULY 2019 
+FAM—Functional Area Manager 
+FEMA—Federal Emergency Management Agency 
+FHA—Foreign Humanitarian Assistance 
+FHP—Force Health Protection 
+FN—Flight Nurse 
+GCC—Geographic Combatant Commander 
+GPMRC—Global Patient Movement Regulating Center 
+HA/DR—Humanitarian Assistance or Disaster Response 
+HDPLP—High Deck Patient Loading Platform 
+HMMWV—High Mobility Multi-purpose Wheeled Vehicle 
+HN—Host Nation 
+HQ AMC/SGXM—HQ AMC Command Surgeon/Medical Readiness/Logistics and MEFPAK 
+HUMRO—Humanitarian Relief Operations 
+IAW—In Accordance With 
+ISS—In-System Select 
+ITV—In-Transit Visibility 
+JAOC—Joint Air Operations Center 
+JFACC—Joint Force Air Component Commander 
+JFC—Joint Force Commander 
+JFS—Joint Force Surgeon 
+JOA—Joint Operations Area 
+JP—Joint Publication 
+JTF—Joint Task Force 
+LAF—Line of the Air Force 
+LAN—Local Area Network 
+LOA—Lead Operational Authority 
+LOX—Liquid Oxygen 
+LSAS—Litter Station Augmentation Set 
+MA—Medical Attendant 
+MAJCOM—Major Command 
+MCD—Medical Crew Director 
+MEDEVAC—Medical Evacuation 
+37 
+AFTTP3-42.5  23 JULY 2019 
+MEFPAK—Manpower & Equipment Force Packaging 
+MISCAP—Mission Capabilities Statement 
+MODE—Medical Operations in Denied Environments 
+MRA—MEFPAK Responsible Agency 
+MRO—Medical Regulating Officer 
+MSC—Medical Service Corps 
+MTF—Military Treatment Facility 
+NDMS—National Disaster Medical System 
+NEO—Noncombatant Evacuation Operations 
+NIPRNET—Non-classified Internet Protocol Router Network 
+NRF—National Response Framework 
+OA—Operational Area 
+OPCON—Operational Control 
+OPLAN—Operation Plan 
+OPORD—Operation Order 
+PACAF—United States Pacific Air Forces 
+PAD—Patient Administration Director (Clerk/Officer) 
+PIC—Pilot in Command 
+PLS—Patient Loading System 
+PM—Patient Movement 
+PMCC—Patient Movement Clinical Coordinator 
+PMI—Patient Movement Item 
+PMRC—Patient Movement Requirements Center 
+POI—Point Of Injury 
+POW—Prisoner Of War 
+RON—Remain Overnight 
+RTD—Returned To Duty 
+SG—Command Surgeon/Surgeon General 
+HQ AMC/SGK—HQ AMC, Command Surgeon, En Route Medical Care Division 
+SIPRNET—Secret Internet Protocol Router Network 
+SOF—Special Operations Forces 
+TACC—Tanker/Airlift Control Center 
+38 
+AFTTP3-42.5  23 JULY 2019 
+TACON—Tactical Control 
+TAES—Theater Aeromedical Evacuation System 
+TCCET—Tactical Critical Care Evacuation Team 
+TDY—Temporary Duty 
+TLAMM—Theater Lead Agent for Medical Materiel 
+TPMRC—United States Transportation Command Patient Movement Requirements Center 
+TTP—Tactics, Techniques and Procedures 
+TVFS—Theater Validating Flight Surgeon 
+ULN—Unit Line Number 
+USA—United States Army 
+USAF—United States Air Force 
+USAFE—United States Air Forces in Europe 
+USC—United States Code 
+USMC—United States Marine Corps 
+USN—United States Navy 
+USNORTHCOM—United States Northern Command 
+USTRANSCOM—United States Transportation Command 
+UTC—Unit Type Code 
+VFS—Validating Flight Surgeon 
+AFTTP3-42.5  23 JULY 2019 
+39 
+Attachment 2 
+ADDITIONAL RESOURCES 
+Aeromedical Evacuation References 
+AFI 10-2912, Aeromedical Evacuation Readiness Programs, 20 June 2018 
+AFI 10-401, Air Force Operations Planning and Execution, 07 December 2006 
+AFI 10-403, Deployment Planning and Execution, 20 September 2012 
+AFI 11-202V2, Aircrew Standardization and Evaluation Program, 06 December 2018 
+AFI 11-202V3, General Flight Rules, 10 August 2016 
+AFI 11-301V1, Aircrew Flight Equipment (AFE) Program, 10 October 2017 
+AFI 11-301V2, Management and Configuration Requirements for Aircrew Flight Equipment 
+(AFE), 20 December 2013 
+AFI 11-401, Aviation Management, 10 December 2010 
+AFI 13-207-O, Preventing and Resisting Aircraft Piracy (Hijacking), 05 February 2019 
+AFI 24-301, Vehicle Operations, 01 November 2018 
+AFI 24-302, Vehicle Management, 26 June 2012 
+AFI 25-201, Intra-Services, Intra-Agency, and Inter-Agency, Support Agreements Procedures, 
+18 October 2013 
+AFI 31-101, Integrated Defense, 05 July 2017 
+AFI 31-117, Arming and Use of Force by Air Force Personnel, 02 February 2016 
+AFI 44-102, Medical Care Management, 17 March 2015 
+AFI 44-108, Infection Prevention and Control Program, 11 December 2014 
+AFI 48-307V3, En Route Care Documentation, 12 April 2016 
+AFI 64-117, Air Force Government-Wide Purchase Card (GPC) Program, 22 June 2018 
+AFMAN 10-206, Operational Reporting (OPREP), 18 June 2018 
+AFMAN 10-2503, Operations in a Chemical Biological, Radiological, Nuclear, and High-Yield 
+Explosive (CBRNE) Environment, 06 July 2011 
+AFMAN 11-2AEV1, Aeromedical Evacuation Aircrew Training, 04 January 2019 
+AFMAN 11-2AEV2, Aeromedical Evacuation Aircrew Evaluation Criteria, 25 October 2018 
+AFMAN 11-421, Aviation Resource Management, 12 September 2018 
+AFMAN 24-204, Preparing Hazardous Materials for Military Air Shipments, 13 July 2017 
+AFMAN 41-209, Medical Logistics Support, 04 January 2019 
+AFPD 10-29, Worldwide Aeromedical Evacuation Operations, 13 February 2019 
+AFPD 10-3, Operational Utilization of the Air Reserve Component Forces, 29 November 2017 
+AFTTP 3-2.18, Multi-Service Tactics, Techniques, and Procedures for Tactical Radios, 16 June 
+2017 
+AFTTP 3-2.67, Multi-Service Tactics, Techniques, and Procedures for Defense Support of Civil 
+Authorities (DSCA), 13 October 2015 
+AFTTP 3-2.68, Multi-Service Tactics, Techniques, and Procedures for Airfield Opening, 01 June 
+2015 
+AFTTP 3-4, Airman's Manual, 11 January 2019 
+AFTTP 3-42.3, Multi-Service Tactics, Techniques, and Procedures for Health Service Support in 
+Chemical, Biological, and Radiological, and Nuclear Environments, 01 March 2016 
+AFTTP 3-42.5, Aeromedical Evacuation, 01 November 2003 
+AFTTP 3-42.6, USAF Medical Support for Special Operations Forces, 09 January 2012 
+AFTTP 3-42.8, Expeditionary Medical Logistics (EML) System, 16 November 2018 
+40 
+AFTTP3-42.5  23 JULY 2019 
+Air Force Doctrine Annex 3-0, Operations and Planning, 04 November 2016 
+AMCI 10-202V1, Presentation of Air Mobility Forces, 08 February 2017 
+DTR 4500.9-R-Part II, Cargo Movement, 01 May 2014 
+JP 3-11, Operations in Nuclear, Biological, Chemical, and Radiological (CBRN) Environments, 
+29 October 2018 
+Aeromedical Evacuation Resources 
+847 Central (AMC/A3V, Mobility AF lead command, change recommendations to aircrew 
+publications): https://cs2.eis.af.mil/sites/12797/SitePages/847%20Central.aspx 
+Aeromedical Evacuation Medical Equipment Compendium, 14 March 2019, and Medical 
+Equipment Manuals may be found at the HQ AMC, Aircrew Standardization & Evaluation, 
+Aeromedical Airlift (A3VM) SharePoint site. 
+AEF Online Personal Deployment Preparedness Tool (PDPT) (e-deployment folder, e-readiness 
+tracker [After signing in, click "PDPT," populates information from ADLS, ASIMS, MILPDS]): 
+https://aefonline.afpc.randolph.af.mil/personalprep.aspx 
+AF Combat Support Tactics, Techniques, and Procedures (TTP) Repository: 
+https://cs2.eis.af.mil/sites/10070/default.aspx 
+AF Doctrine: http://www.doctrine.af.mil/ 
+AF E-Publishing: http://www.e-publishing.af.mil/ 
+AF Medical Readiness Decision Support System (MRDSS-Ultra): 
+https://mrdss1.gunter.af.mil/ultra4/login 
+AF Medical Service Knowledge Exchange Nurse Corps Consultants (including AE): 
+https://kx.afms.mil/kj/kx2/AFNCConsultantsCorner/Pages/home.aspx 
+AF Medical Service Knowledge Exchange: https://kx2.afms.mil/Pages/default.aspx 
+AF Reporting Instruction Tool (AFRIT): 
+https://aefonline.afpc.randolph.af.mil/AFRIT/Afrit.aspx 
+Aviation/Airman Safety Action Program (ASAP): https://asap.safety.af.mil/ 
+Air & Space Expeditionary Forces Online (AEF Online): 
+https://aefonline.afpc.randolph.af.mil/ 
+Airman's Manual: https://cs2.eis.af.mil/sites/10070/Airman_Manual/SitePages/Home.aspx 
+DOD Dictionary and Terminology Repository (Military Acronym Finder): 
+https://jdeis.js.mil/jdeis/index.jsp?pindex=4 
+DOD Directives Division (DOD Publications and Forms): http://www.esd.whs.mil/DD/ 
+Education & Training Course Announcements (ETCA) (*use email certificate* May have to go 
+to IE Options, Content, clear SSL State): https://app10-
+eis.aetc.af.mil/etca/SitePages/Home.aspx 
+HQ AMC, Aircrew Standardization & Evaluation, Aeromedical Airlift (A3VM) 
+“Master_Library Verified AE” SharePoint: 
+https://cs2.eis.af.mil/sites/12679/aircrew%20pubs%20library/forms/better.aspx  
+HQ AMC, Aircrew Standardization & Evaluation, MAF Aircrew Information Site, FCIF/SII 
+Library (Select "…" to filter for AE, SII, etc.): 
+https://cs2.eis.af.mil/sites/10370/SitePages/Home.aspx 
+HQ AMC, Command Surgeon, Manpower & Equipment Force Packaging (MEFPAK) 
+SharePoint: https://cs2.eis.af.mil/sites/12956/default.aspx 
+Joint Chiefs of Staff Joint Doctrine Publications: http://www.jcs.mil/Doctrine/Joint-Doctine-
+Pubs/ 
+AFTTP3-42.5  23 JULY 2019 
+41 
+Joint Electronic Library Plus (JEL+): https://jdeis.js.mil/jdeis/ 
+Joint Knowledge Online: http://jko.jten.mil/ 
+Multi-Service Tactics, Techniques, and Procedures (MTTPS) Publications on the Air, Land, Sea 
+Application Center website: http://www.alsa.mil/mttps/ 
+Safe to Fly Matrix: https://www.wpafb.af.mil/stf/ 
+Safe to Fly SharePoint: https://cs2.eis.af.mil/sites/10567/sitepages/home.aspx 
+TRANSCOM Regulating and Command & Control Evacuation System (TRAC2ES): 
+https://www.trac2es.ustranscom.mil/ 
+USAF Individual Medical Readiness (IMR) Status: https://imr.afms.mil/imr/myIMR.aspx 

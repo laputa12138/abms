@@ -1,0 +1,3727 @@
+ii 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+AFTTP 3-2.75/CGTTP 3-95.17 
+MILITARY 
+DIVING 
+MULTI-SERVICE 
+TACTICS, TECHNIQUES, 
+AND PROCEDURES FOR 
+MILITARY DIVING 
+ATP 3-34.84 
+MCRP 3-10.2 
+NTTP 3-07.7 
+AFTTP 3-2.75 
+CGTTP 3-95.17 
+JUNE 2023 
+DISTRIBUTION: Approved for public release, distribution is 
+unlimited. 
+*Supersedes ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/AFTTP 
+3-2.75/ CGTTP 3-95.17, dated 02 January 2019.
+FOREWORD 
+This multi-Service tactics, techniques, and procedures (MTTP) publication is a product 
+of the Air Land Sea Space Application (ALSSA) Center in accordance with the 
+memorandum of agreement between the Headquarters of the United States (US) Army, 
+Marine Corps, Navy, and Air Force doctrine commanders directing ALSSA to develop 
+MTTP publications to meet the immediate needs of the warfighter. 
+This MTTP publication has been prepared by ALSSA under our direction for 
+implementation by our respective commands and for use by other commands as 
+appropriate. 
+JASON C. SLIDER 
+E. R. QUEHL 
+Brigadier General, US Army 
+Colonel, US Marine Corps 
+Director 
+Director, Policy and Standards Division 
+Mission Command Center of Excellence 
+Training and Education Command 
+MICHAEL R. DURKIN 
+WILLIAM G. HOLT II 
+Director 
+Major General, US Air Force 
+Navy Warfare Development Center 
+Commander  
+Curtis E. Lemay Center for Doctrine 
+Development and Education 
+MICHAEL W. RAYMOND 
+Rear Admiral, US Coast Guard 
+Commander 
+Coast Guard Force Readiness Command 
+This publication is available through the following websites:  
+ALSSA (https://www.alsa.mil/);  
+US Army (https://armypubs.army.mil);  
+US Marine Corps 
+(https://homeport.usmc.mil/sites/mcdoctrine/SitePages/Home.aspx);  
+US Navy at Navy Doctrine Library (https://doctrine.navy.mil);  
+US Air Force at US Air Force Center for Doctrine Development and Education 
+(http://www.doctrine.af.mil/); US Coast Guard TTP Library 
+(https://cg.ortal.uscg.mil/communities/HP/HPCenter/TTP/Default.aspx); and Joint 
+Electronic Library Plus (https://jdeis.js.mil/jdeis/index.jsp?pindex=0).
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+i 
+AFTTP 3-2.75/CGTTP 3-95.17 
+PREFACE 
+1. Purpose
+This multi-Service tactics, techniques, and procedures (MTTP) publication for Military 
+Diving is a single source, descriptive reference guide to ensure effective planning and 
+integration for diving operations.  
+2. Scope
+This MTTP describes United States (US) military dive mission areas, force structure, 
+equipment, and capabilities each Service could provide, in support of joint operations, to 
+assist commanders and staffs at all levels. 
+3. Applicability
+This MTTP publication applies to all commanders and their staffs that plan diving 
+operations across the Services.  
+4. Implementation Plan
+Participating Service command offices of primary responsibility will review this 
+publication; validate the information; and, where appropriate, use it as a reference and 
+incorporate it in Service manuals, regulations, and curricula as follows. 
+ 
+Army. Upon approval and authentication, this publication incorporates the TTP 
+contained herein into the US Army Doctrine and Training Literature Program as directed 
+by the Commander, US Army Training and Doctrine Command. Distribution is in 
+accordance with applicable directives listed on the authentication page. 
+ 
+Marine Corps.1 The Marine Corps will incorporate the procedures in this publication 
+in United States Marine Corps (USMC) doctrine and training publications as directed by 
+Commanding General, Training and Education Command (TECOM). Distribution is in 
+accordance with the Marine Corps Order 5600.31, Marine Corps Printing, Publishing, 
+and Reprographics Equipment Regulations. 
+ 
+Navy. The Navy will incorporate these procedures in US Navy training and doctrine 
+publications as directed by the Director, Navy Warfare Development Center (NWDC) 
+[N5]. Distribution is in accordance with MILSTRIP/MILSTRAP Desk Guide, Naval 
+Supply Systems Command Publication 409. 
+ 
+Air Force. The Air Force will incorporate the procedures in this publication in 
+accordance with applicable governing directives. Distribution is in accordance with 
+Department of the Air Force Instruction 33-360, Publications and Forms Management. 
+ 
+Coast Guard. The Coast Guard will incorporate the procedures in this publication as 
+directed by the Commander, Force Readiness Command. Distribution is in accordance 
+with the Coast Guard Directives System. 
+5. User Information
+a. US Army Combined Arms Center; USMC, TECOM; NWDC; Curtis E. LeMay
+Center for Doctrine Development and Education; Force Readiness Command; and
+Air Land Sea Space Application (ALSSA) Center developed this publication with the
+1  Marine Corps PCN: 144 000198 01 
+ii 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+joint participation of the approving Service commands. ALSSA will review and 
+update this publication as necessary. 
+b. This publication reflects current joint and Service doctrine, command and control
+organizations, facilities, personnel, responsibilities, and procedures. Changes in
+Service protocol, appropriately reflected in joint and Service publications, will be
+incorporated in revisions to this document.
+c. We encourage recommended changes for improving this publication. Key your
+comments to the specific page and paragraph and provide a rationale for each
+recommendation. Send comments and recommendations directly to:
+Army 
+Commander, US Army Combined Arms Center 
+ATTN: ATZL-MCD 
+Fort Leavenworth, KS 66027-6900 
+DSN 552-4885 COMM (913) 684-4885 
+E-mail: usarmy.leavenworth.mccoe.mbx.cadd-org-mailbox@mail.mil
+Marine Corps 
+Commanding General, Training and Education Command 
+Policy and Standards Division, Doctrine Branch 
+ATTN: C466 
+Quantico, VA 22134 
+DSN 278-6228 COMM (703) 784-6228 
+E-mail: doctrine@usmc.mil
+Navy 
+Director, Navy Warfare Development Center 
+ATTN: N5 
+1528 Piersey St, Building O-27 
+Norfolk, VA 23511-2723 
+DSN 341-4185 COMM (757) 341-4185 
+E-mail: nwdc_nrfk_fleetpubs@navy.mil
+Air Force 
+Commander, Curtis E. LeMay Center for Doctrine Development and Education 
+ATTN: DDJ 
+401 Chennault Circle 
+Maxwell AFB, AL 36112-6428 
+DSN 493-7864/1681 COMM (334) 953-7864/1681 
+E-mail: afddec.ddj@us.af.mil
+Coast Guard 
+Commander, Force Readiness Command 
+US Coast Guard 
+300 East Main Street 
+Suite 1100 
+Norfolk, VA 23510 
+COMM (757) 628-4149 
+E-mail: HQS-SG-M-FORCECOM-TTP-Integration@uscg.mil
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+iii 
+AFTTP 3-2.75/CGTTP 3-95.17 
+ALSSA 
+Director, ALSSA Center 
+114 Andrews Street 
+Joint Base Langley-Eustis, VA 23665-2785 
+DSN 575-0902 COMM (757) 225-0902 
+E-mail: alsadirector@us.af.mil
+This page intentionally left blank.
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+v 
+AFTTP 3-2.75/CGTTP 3-95.17 
+SUMMARY OF CHANGES 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/AFTTP 3-2.75/CGTTP 3-95.17, Multi-Service 
+Tactics, Techniques, and Procedures for Military Diving. 
+This revision: 
+Updates: 
+
+Table of Contents. Service appendices are identified as chapters.
+
+Dive Mission Areas. Explosive hazards and ordnance disposal is replaced by
+explosive ordnance disposal and explosive hazards.
+
+Contaminated water categories and capability areas table.
+
+Dive mission area unit capability chart.
+
+Army engineer dive unit mission and capabilities.
+
+United States Marine Corps organization and capabilities.
+
+Navy explosive ordnance disposal missions.
+
+Air Force organization and capabilities.
+
+Coast Guard mission, organization, and capabilities.
+
+Points of contact table.
+
+Common equipment table.
+Removes: 
+
+MDO as an acronym for military diving operations.
+Adds: 
+
+The following references:
+
+Office of the Chief of Naval Operations (OPNAV) Instruction 4740.2H,
+Salvage and Recovery Program, 07 January 2021.
+
+SS521-AG-PRO-010, US Navy Diving Manual Revision 7, 01 December
+2016 (Change A, 30 April 2018).
+
+Air Force Instruction 10-3504, Dive Program, 28 January 2021.
+
+Commandant Instruction (COMDTINST) M3150.1D, Diving Program
+Manual, 28 July 2017.
+
+COMDTINST M3501.11 (series), Required Operational Capabilities
+(ROC) and Projected Operational Environment (POE) for Coast Guard
+Regional Dive Lockers.
+
+OPNAV Instruction 3150.27D, Navy Diving Policy and Joint Military
+Diving Technology and Training Program, 01 March 2021.
+vi 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+
+SS521-AJ-PRO-010, Guidance for Diving in Contaminated Waters
+Revision 2, 04 October 2019.
+DISTRIBUTION: Approved for public release, distribution is unlimited. 
+*Supersedes ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/AFTTP 3-2.75/ CGTTP 3-95.17, dated 02 January 2019.
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+vii 
+AFTTP 3-2.75/CGTTP 3-95.17 
+*ATP 3-34.84
+MCRP 3-10.2
+NTTP 3-07.7
+AFTTP 3-2.75
+CGTTP 3-95.17 
+ATP 3-34.84 
+US Army Training and Doctrine Command 
+Joint Base Langley-Eustis, Virginia 
+US Army Combined Arms Center 
+Fort Leavenworth, Kansas 
+MCRP 3-10.2 
+USMC, Training and Education Command 
+Quantico, Virginia 
+NTTP 3-07.7 
+Navy Warfare Development Center 
+Norfolk, Virginia 
+AFTTP 3-2.75 
+Curtis E. LeMay Center for Doctrine 
+Development and Education 
+Maxwell Air Force Base, Alabama 
+CGTTP 3-95.17 
+Coast Guard Readiness Command 
+Norfolk, Virginia 
+16 June 2023 
+MILITARY DIVING 
+MULTI-SERVICE TACTICS, TECHNIQUES, AND PROCEDURES FOR 
+MILITARY DIVING 
+EXECUTIVE SUMMARY ................................................................................................ x 
+CHAPTER I DIVE CAPABILITIES IN JOINT OPERATIONS ......................................... 1 
+1. Diving in Joint Operations .................................................................................. 1 
+2. Dive Missions in Support of Joint Activities ........................................................ 1 
+CHAPTER II DIVE MISSION AREAS ............................................................................. 7 
+1. Introduction ........................................................................................................ 7 
+2. Dive Mission Area Descriptions ......................................................................... 7 
+CHAPTER III PLANNING CONSIDERATIONS ............................................................ 15 
+1. Requesting Dive Assets ................................................................................... 15 
+2. Considerations When Using Dive Assets ......................................................... 17 
+CHAPTER IV UNITED STATES ARMY DIVING .......................................................... 21 
+1. Overview .......................................................................................................... 21 
+2. Engineer Divers ............................................................................................... 21 
+3. SF Missions ..................................................................................................... 23 
+viii 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+CHAPTER V UNITED STATES MARINE CORPS COMBATANT DIVING .................. 25 
+1. Overview .......................................................................................................... 25 
+2. Marine Combatant Divers ................................................................................ 25 
+3. MARSOF Combatant Divers ............................................................................ 27 
+CHAPTER VI UNITED STATES NAVY DIVING ........................................................... 29 
+1. Overview .......................................................................................................... 29 
+2. MDSUs ............................................................................................................ 29 
+3. Navy UCTs ...................................................................................................... 33 
+4. Regional Maintenance Center (RMC) .............................................................. 36 
+5. EOD ................................................................................................................. 38 
+6. Navy Undersea Rescue Command.................................................................. 41 
+7. US Navy SEALs ............................................................................................... 43 
+CHAPTER VII UNITED STATES AIR FORCE DIVING ................................................ 45 
+1. Overview .......................................................................................................... 45 
+2. USAF Guardian Angel Combat Divers ............................................................. 45 
+3. AFSOC Special Tactics Combat Divers ........................................................... 46 
+CHAPTER VIII SPECIAL OPERATIONS FORCES DIVING ........................................ 49 
+1. Overview .......................................................................................................... 49 
+2. US Army Special Forces (SF) .......................................................................... 49 
+3. Marine Forces Special Operations Command (MARFORSOC) ....................... 50 
+4. Navy SEAL Team ............................................................................................ 50 
+5. United States Air Force Special Operations Command (AFSOC) Special
+Tactics Combat Divers ......................................................................................... 51 
+CHAPTER IX UNITED STATES COAST GUARD DIVING .......................................... 53 
+1. Overview. ......................................................................................................... 53 
+2. Task Organization. ........................................................................................... 54 
+3. Inter-Service Operations. ................................................................................. 55 
+4. Employment Considerations and Limitations ................................................... 56 
+APPENDIX A DIVE MISSION AREA UNIT CAPABILITY CHART............................... 57 
+APPENDIX B DIVE POINTS OF CONTACT LIST ....................................................... 63 
+APPENDIX C COMMON EQUIPMENT ........................................................................ 67 
+1. Description of Common Equipment ................................................................. 67 
+2. Equipment Capabilities by Service .................................................................. 67 
+REFERENCES .............................................................................................................. 69 
+GLOSSARY .................................................................................................................. 71 
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+ix 
+AFTTP 3-2.75/CGTTP 3-95.17 
+List of Figures 
+Figure 1. 
+A Notional Joint Combat Operation Model.................................................... 2 
+Figure 2. 
+Salvage Response Process ........................................................................ 16 
+Figure 3. 
+Engineer Dive Detachment Organization.................................................... 22 
+Figure 4. 
+MDSU Company Organization ................................................................... 32 
+Figure 5. 
+UCT Organization ....................................................................................... 35 
+Figure 6. 
+Navy EOD Force Structure ......................................................................... 40 
+Figure 7. 
+EOD Group Structure ................................................................................. 41 
+Figure 8. 
+USAF Guardian Angel Organization ........................................................... 46 
+List of Tables 
+Table 1. Dive Mission Areas ............................................................................................ 7 
+Table 2. Dive Unit Initial Coordination ........................................................................... 17 
+Table 3. Contaminated Water Categories and Capability Areas ................................... 19 
+Table 4. RMC/IMF and Area of Responsibility .............................................................. 38 
+Table 5. Dive Mission Area Unit Capability Reference Chart ........................................ 58 
+Table 6. Dive Points of Contact List .............................................................................. 63 
+Table 7. Common Equipment ........................................................................................ 67 
+x 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+EXECUTIVE SUMMARY 
+MILITARY DIVING 
+Throughout the history of diving, each of the Services has evolved its diving capabilities 
+to meet the demands of Service-specific mission requirements. The divers have 
+specialized training, equipment, and capabilities based on Service-specific missions. 
+This Military Diving multi-Service tactics, techniques, and procedures publication is 
+designed to assist commanders and planning staffs who require divers. It is a reference 
+which details Service and unit dive capabilities. Additionally, this publication highlights 
+the advantages of using diving in joint operations and provides some decision aids for 
+commanders and staff planners. This publication also provides an overview of major 
+types of operations which can incorporate joint diving and provides subcategory 
+descriptions of the 15 dive mission areas performed in these operations. Finally, it 
+highlights some planning considerations for operations requiring dive capabilities, 
+including immediate response situations. 
+Chapter I Dive Capabilities in Joint Operations 
+Introduces diving operations by explaining their relevancy in joint operations and 
+showcases how diving can be used across the various activities in a joint environment. 
+Chapter II Dive Mission Areas 
+Describes the 15 dive mission areas and their subcategories that may be performed by 
+military divers. 
+Chapter III Planning Considerations 
+Outlines planning considerations for coordinating dive operations. 
+Chapter IV United States Army Diving 
+Provides United States Army dive missions, capabilities, task organization and 
+employment information. 
+Chapter V United States Marine Corps Combatant Diving 
+Provides United States Marine Corps (USMC) dive missions, capabilities, task 
+organization and employment information. 
+Chapter VI United States Navy Diving 
+Provides United States Navy (USN) dive missions, capabilities, task organization and 
+employment information, specific to operational commands in the Navy. 
+Chapter VII United States Air Force Diving 
+Provides United States Air Force (USAF) dive missions, capabilities, and task 
+organization. 
+Chapter VIII Special Operations Forces Diving 
+Provides Special Operations Forces (SOF) dive missions and capabilities in the various 
+Services. 
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+xi 
+AFTTP 3-2.75/CGTTP 3-95.17 
+Chapter IX United States Coast Guard Diving 
+Provides a summary on the United States Coast Guard diving missions. 
+Appendix A Dive Mission Area Unit Capability Chart 
+Provides a quick-reference chart listing dive unit capabilities by Service to accomplish 
+each of the dive mission areas and subcategories. 
+Appendix B Dive Points of Contact List 
+Provides a comprehensive list of dive program points of contact, including Service 
+program managers and major units. 
+Appendix C Common Equipment 
+Provides a list of common equipment to divers from all Services. 
+xii 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+PROGRAM PARTICIPANTS 
+The following commanders and agencies participated in creating this publication: 
+Joint 
+Headquarters (HQ), United States (US) Special Operations Command, MacDill Air 
+Force Base, Florida 
+Army 
+US Army Combined Arms Center, Fort Leavenworth, Kansas 
+US Army Engineer Dive Detachments (74th, 86th, 511th, 569th), Joint Base Langley-
+Eustis, Virginia 
+US Army Engineer Dive Detachments (7th), Joint Base Pearl Harbor-Hickam, Hawaii 
+US Army Engineer School, Fort Leonard Wood, Missouri 
+Marine Corps 
+Marine Corps Combat Development Command, Quantico, Virginia 
+Marine Corps Plans, Policy, and Operations, Washington, District of Columbia 
+Marine Corps Systems Command, Air and Amphibious Section, Quantico, Virginia 
+Marine Forces Special Operations Command, Camp Lejeune, North Carolina 
+Training and Education Command, Reconnaissance and Special Skills, Quantico, 
+Virginia 
+Navy 
+Commander Explosive Ordnance Group One, San Diego, California 
+Commander Explosive Ordnance Group Two, Joint Expeditionary Base Little Creek, 
+Virginia Beach, Virginia 
+Mid Atlantic Regional Maintenance Center, Norfolk, Virginia 
+Mobile Diving and Salvage Unit One, Pearl Harbor, Hawaii 
+Mobile Diving and Salvage Unit Two, Virginia Beach, Virginia 
+Naval Diving and Salvage Training Center, Panama City, Florida 
+Naval Facilities Engineering Command, Washington Navy Yard, Washington, District of 
+Columbia 
+Naval Sea Systems Command, Washington Navy Yard, Washington, District of 
+Columbia 
+Naval Surface Warfare Center, Washington Navy Yard, District of Columbia 
+Navy Expeditionary Combat Command, N3 Force Integration, Joint Expeditionary Base 
+Little Creek, Virginia Beach, Virginia 
+Navy Warfare Development Center, Norfolk, Virginia 
+South West Regional Maintenance Center, San Diego, California 
+Air Force 
+Curtis E. LeMay Center for Doctrine Development and Education, Maxwell Air Force 
+Base, Alabama 
+HQ Air Combat Command/A3J, Air Combat Command Dive Program Manager, Joint 
+Base Langley-Eustis, Virginia 
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+xiii 
+AFTTP 3-2.75/CGTTP 3-95.17 
+HQ Air Force Special Operations Command (AFSOC), Dive Program Manager, Hurlburt 
+Field, Florida 
+HQ Air Force A3O, USAF Dive Program Manager, Pentagon, Washington, District 
+of Columbia 
+Coast Guard 
+Force Readiness Command, Norfolk, Virginia 
+Special Missions Training Center, Camp Lejeune, North Carolina 
+Special Missions Training Detachment-Dive, Panama City, Florida 
+This page intentionally left blank. 
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+1 
+AFTTP 3-2.75/CGTTP 3-95.17 
+Chapter I 
+DIVE CAPABILITIES IN JOINT OPERATIONS 
+1. Diving in Joint Operations
+In the United States (US) military, dive capabilities are maintained as specialized skill 
+sets to facilitate accomplishing a unit’s assigned missions. Diving does not have to be a 
+stand-alone mission, rather it can be incorporated in joint activities across the 
+competition continuum to enhance military success. Additionally, integrating diving 
+operations into the three major types of operations, offensive, defensive, and stability 
+can enable or enhance tactical success. The following examples show how diving can 
+be integrated. 
+a. Offensive. These operations are conducted to defeat and destroy enemy forces
+and seize terrain, resources, and population centers. Divers can be employed to
+infiltrate enemy areas, install devices on land that will disable enemy key
+infrastructure, and aid follow-on forces.
+b. Defensive. These operations are conducted to defeat an enemy attack, gain time,
+economize forces, and develop conditions favorable for offensive and stability tasks.
+Divers can be rapidly deployed in response to national security concerns and assist
+in placing and maintaining physical security systems in critical areas, such as ports,
+bridges, and dams.
+c. Stability. Diving operations can include salvage (for repair), logistical support, and
+search and recovery. Salvage (for repair) is conducted to recover or restore assets
+or equipment which has been submerged in depths of water. Diving provides
+logistical support for global force or civilian infrastructure sustainment, especially
+after a disaster. Also, search and recovery diving is conducted to recover personnel
+to the joint force component commanders.
+2. Dive Missions in Support of Joint Activities
+The use of diving in support of joint activities has steadily increased since the inception 
+of military divers; however, the benefit of using diving assets is not generally understood 
+at the tactical level. To help showcase diving across joint activities (which range from 
+shaping to enabling in Joint Publication (JP), 3-0, Joint Campaigns and Operations), 
+some diving vignettes are highlighted on subsequent pages. To best understand how 
+diving is related to each joint activity, a brief explanation precedes each vignette and 
+figure 1 explains a notional joint combat operation model from JP 3-0. 
+2 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+Figure 1. A Notional Joint Combat Operation Model 
+a. Shaping Activities. Shaping activities include long-term persistent and preventive
+military engagement, security cooperation, and deterrence actions to assure friends,
+build partner capacity and capability, and promote regional stability. One example of
+using diving assets for this purpose is exemplified in the following vignette, when the
+US Navy assisted the Philippine Navy in 2001.
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+3 
+AFTTP 3-2.75/CGTTP 3-95.17 
+COOPERATION AFLOAT READINESS AND TRAINING 2001, 
+SHAPING ACTIVITIES 
+While deployed on a combined readiness and training exercise in 2001, United 
+States (US) military divers trained the Philippine diving and explosive ordnance 
+disposal (EOD) forces on basic salvage and demolition core skills. The Philippine 
+Navy requested help in identification and disposal of ordnance found on WWII 
+sunken US ships in Subic Bay, Philippines. Additionally, the Philippine Navy 
+requested assistance in salvage and disposal of the same ships. US Navy EOD 
+divers identified and provided training and guidance for safe ordnance disposal 
+while multi-Service divers, simultaneously, trained and assisted in salvage of the 
+same sunk US ships. This greatly enabled the Philippine Navy in clearing these 
+harbor obstructions and provided a safer environment for the host country, as 
+well as building partnership capability and honing strategic and regional 
+relationships. 
+SOURCE: United States Pacific Command, 21-26 July 2001 
+b. Deterrence Activities. Diving operations can provide options to deter enemy
+forces. According to JP 3-0, once a crisis is defined, deterrence actions may include
+mobilization, tailoring forces, and other predeployment activities. Predeployment
+activities may include initial deployment into a theater; employing intelligence
+collection assets; and developing mission-tailored command and control,
+intelligence, force protection, and logistic requirements to support contingency
+operations. The following vignette showcases using diving assets to emplace
+underwater countermobility measures, such as emplacing obstacles and mines.
+WORLD WAR II, DETERRENCE 
+In March of 1945, Navy Underwater Demolition Teams 7, 11, 12,13,14, 16, and 
+17 conducted a series of military dive operations in Okinawa [Japan] to clear 
+potential beach landing sites for Marine assault forces, as well as conduct feints 
+to create the illusion of landing sites in other locations. This was the largest 
+single diving operation of World War II. These operations consisted of mobility 
+and countermobility dive missions that emplaced obstacles in areas assumed to 
+be used as avenues of approach by Japanese forces, and reduced and removed 
+obstacles in sites chosen for Marine beach landing sites. These missions were 
+conducted to deter Japanese forces from focusing their attention and forces on 
+the actual beach landing sites used by Marine landing forces. These dive 
+missions facilitated Marine forces landing and ensured the successful invasion 
+and seizure of the island of Okinawa. Furthermore, this type of diving asset use 
+can provide an option to use underwater security detection and monitoring 
+devices, which not only enable a commander to gain insight for potential future 
+plans, but also work as flexible deterrent options for enemy forces. 
+SOURCE: United States Marine Corps, March 1945 
+c. Seize Initiative Activities. Commanders seek to seize the initiative by using
+decisive joint force capabilities. In combat, this involves starting defensive and
+offensive operations at the earliest possible time, forcing the enemy to culminate
+4 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+offensively and setting the conditions for decisive operations. Applying joint combat 
+power rapidly may be required to delay, impede, or halt the enemy’s initial 
+aggression and deny the enemy’s initial objectives. Operations to gain access to 
+theater infrastructure and expand friendly freedom of action continue during this 
+phase, while the commander seeks to degrade enemy capabilities with the intent of 
+resolving the crisis at the earliest opportunity. Diving operations during this activity 
+are often not immediately considered but divers can execute missions well and 
+provide a commander with the tactical surprise to control the battlefield. The 
+following vignette highlights these endeavors. 
+OPERATION LIGHTS OUT, SEIZING THE INITIATIVE 
+At approximately 0200, special operations forces divers conducted a clandestine 
+infiltration and emplaced demolitions on strategic infrastructure and a key main 
+supply route bridge to deny the enemy’s ability to quickly reinforce and sustain 
+themselves. Upon H-hour, the enemy’s sudden and total loss of power, water, 
+and communications, disrupted the ability to react and enabled the follow-on 
+ground and air assaults by United States (US) Special Operations Command 
+land forces. Near simultaneously, previously infiltrated elements led indigenous 
+forces to capture and control strategic airfields and ports. Conventional ground 
+forces deployed through these seized entry points and achieved their strategic 
+objectives. The use of diving assets over conventional methods to accomplish 
+these objectives greatly reduced visibility and the risk of US detection. This 
+enabled tactical surprise and provided minimal collateral damage. This operation 
+caused scalable damage to infrastructure, which allowed for ease of repair and 
+minimized risk to follow-on, conventional ground and air forces. 
+SOURCE: US Special Operations Command, March 2017 
+d. Dominate Activities. Diving operations can be used to break an enemy’s will to
+resist. When used with other activities, diving can assist forces with the ability to
+dominate in a joint operation. A commander can employ diving assets for offensive
+operations (such as mobility, infiltration and exfiltration, and using explosives).
+Reducing obstacles increases mobility which will allow forces to dominate. Additional
+operations, which include countermobility, physical protection and using explosives,
+capitalize on the friendly’s momentum and initiative. Some of these activities include
+demolishing bridge structures, facilities, and infrastructure, which ultimately impede
+an enemy’s ability to maneuver.
+e. Stabilize and Enable Activities. During stabilizing and enabling activities of a joint
+operation, diving assets can be invaluable in reestablishing a safe and secure
+environment, providing essential government services, emergency infrastructure
+reconstruction, and humanitarian relief. Through diving support to the host
+government, the host nation’s civil authority can regain its ability to administer the
+services and needs of the population. Diving assets were critical to accomplish this,
+as highlighted in the vignette discussing the US assistance after the Haiti earthquake
+in 2010. This operation also exemplifies one of the first successful US joint diving
+operations.
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+5 
+AFTTP 3-2.75/CGTTP 3-95.17 
+OPERATION UNIFIED RESPONSE, STABILIZING AND ENABLING 
+On 12 January 2010, a magnitude 7.0 earthquake struck Haiti. The 544th 
+Engineer Dive Team was deployed on the United States Naval Ship Grasp (T-
+ARS-51) on a mission to train the Belizean Navy in diving techniques in support 
+of US Southern Command. Immediately after the earthquake, the 544th was 
+redirected from Belize to Haiti to participate in disaster relief efforts. 
+A US Air Force special tactics squadron was also deployed. Its mission was 
+to secure the airfield and coordinate air traffic to facilitate inbound relief efforts 
+and additional personnel. Pararescue teams provided emergency services and 
+waterborne rescue capabilities to the commander. 
+Upon arrival in Port-au-Prince, Haiti, the 544th immediately began 
+assessments of three different ports and waterfront facilities to determine 
+feasibility for disaster relief usage. The hasty inspections determined that the port 
+structures in Port-au-Prince were so severely damaged that they could not be 
+used for cargo off-load, and posed a severe risk to all vessels currently moored 
+to the pier. 
+US Navy Mobile Diving and Salvage Unit (MDSU) 2, and Underwater 
+Construction Team (UCT) 1, were activated to assist the joint task force (JTF) 
+commander with port-opening operations. The task force was commanded by a 
+Navy O-6 and consisted of divers from the Army, Navy, and Air Force. 
+The dive team conducted a hasty underwater inspection (of the remaining 
+pier) and hydrographic surveys to determine landing sites for Army shore landing 
+vessels. (Within 48 hours of the Army’s arrival, the Navy dive teams were on the 
+ground, supporting the joint diving task force.) 
+The UCT 1 expertise was critical in establishing a plan of action to return the 
+port to operational status. Under UCT 1 guidance, the MDSU 2 and 544th divers 
+conducted a detailed underwater inspection of the existing port facilities. The 
+inspection determined that 200 feet of pier could be repaired using underwater 
+concrete emplacement techniques. The JTF immediately began pier repair 
+operations. 
+Concurrently, salvage operations were underway within the port to clear 
+channels of obstacles and obstructions. Under MDSU 2 guidance, the UCT 1 and 
+544th dive teams assisted in these efforts to clear a path for Army shore landing 
+vessels. For larger ships, MDSU 2 employed a more accurate and automated 
+bathymetric survey system. 
+The commander used other diving capabilities the dive teams provided for 
+various activities. These included hyperbaric chamber operations, medical 
+support, small boat support; and side-scan sonar, unmanned underwater vehicle, 
+remotely operated vehicles, ship husbandry, and search and recovery 
+capabilities. 
+The combination of expertise and capabilities used across the operation 
+enabled 200 feet of pier to be repaired, the port deemed safe, operational, and 
+handed over to Haitian civil authorities within three months. The port opening 
+6 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+allowed cargo ships to off-load aid, and was a key contribution to the overall 
+disaster relief efforts. 
+SOURCE: Sergeant First Class Tracy Bower, Master Diver, US Army, Army 
+Noncommissioned Officer in Charge during Operation 
+UNIFIED RESPONSE, 12 January 2010 
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+7 
+AFTTP 3-2.75/CGTTP 3-95.17 
+Chapter II 
+DIVE MISSION AREAS 
+1. Introduction
+Dive mission areas describe capabilities to which military divers may be trained. There 
+are 15 dive mission areas, as listed in table 1. Dive mission areas may include 
+subcategories, of which some are detailed in this chapter. It is important to note, 
+however, that diving units may not be trained in all dive mission areas. For example, a 
+dive unit may only be trained in scuba and limited to capabilities in which scuba can be 
+used. Refer to appendix A for an overview of Service-specific dive mission areas. 
+Table 1.  Dive Mission Areas 
+Mobility 
+Countermobility 
+Protection (physical security) 
+Explosive ordnance disposal and explosive 
+hazards 
+Infiltration and exfiltration 
+Maritime disablement operations 
+Underwater ship husbandry 
+Underwater construction 
+Port and harbor clearance operations 
+Joint logistics over-the-shore 
+Offshore petroleum discharge systems operation 
+Salvage operations 
+Search and rescue/recovery operations 
+Disaster response measures 
+Hyperbaric chamber operations 
+2. Dive Mission Area Descriptions
+a. Mobility. Divers provide critical support for water obstacle crossing by supplying
+the information needed to determine crossing sites, bridging locations, and time
+estimates for reducing or removing obstacles. Divers gather this information by
+conducting hydrographic or bathymetric surveys and shore reconnaissance, which
+leads to obstacle reduction or removal.
+(1) Structural, Bridge, and Fording Site Reconnaissance. Divers determine the
+type of construction used and condition of the structure, perform a battle damage
+assessment (BDA), and prepare repair estimates. Structural engineer
+augmentation may be required. Engineer divers can reconnoiter fording sites and
+their near- and far-shore approaches to provide data to higher echelons and help
+determine the best fording site.
+8 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+(2) River Reconnaissance Operations (as a full river or sections of a river).
+Divers conduct reconnaissance of the near and far shores of a water obstacle to
+determine the ability of the site to support future wet gap-crossing operations.
+They identify the bottom composition and establish bank slopes, water depths
+and velocity, and possible staging areas and rally points on the near and far
+shores.
+(3) Obstacle Reduction. After identifying obstacles to mobility, divers can remove
+or reduce the obstacles using mechanical or explosive methods.
+(4) Installing Protective Barriers for Bridging Structures. Divers assist in installing
+impact booms, antimine booms, and antiswimmer nets upstream and
+downstream of crossing sites. Also, they can inspect these devices routinely for
+signs of tampering or damage and repair them.
+(5) Underwater Surveys. Dive units can create accurate charts of the waterway’s
+bottom and note any obstacles to navigation. A few personnel and small
+watercraft (configured with various types of technology packages) can conduct
+the initial survey to provide a quick, and fairly accurate, description of the
+underwater terrain. If divers find obstructions or receive questionable readings,
+they can physically inspect the underwater anomalies. The following are the
+three kinds of underwater surveys.
+(a) High Resolution. A high-resolution survey involves post-survey data
+rendering and aerial photograph overlays, and provides sub meter accuracy.
+Survey data can be provided in paper and digital form. High-resolution
+surveys take the most time compared to the other types of underwater
+surveys.
+(b) Medium Resolution. A medium resolution survey provides a graphic
+representation of the bottom profile with sub meter accuracy. A digital copy is
+available within hours of the survey.
+(c) Low Resolution. A low resolution survey provides 1- to 3-
+meter/approximately 3- to 9-foot accuracy with a verbal description of the site
+and basic markings.
+(6) Very Shallow Water (VSW) Operations. Divers conduct advanced force and
+preassault mine countermeasures (MCM) and reconnaissance operations in the
+VSW zone (from 3- to 12-meter/10- to 40-foot water depths) to locate and clear
+potential landing sites in support of joint littoral power-projection operations.
+b. Countermobility. Divers aid the countermobility mission by creating obstacles in
+and around potential crossing sites. They can emplace underwater minefields and
+other explosive and nonexplosive obstacles, and rigging bridges for command and
+time fused detonations.
+(1) Obstacle Emplacement. Divers can build various types of obstacles designed
+to slow or impede the enemy’s ability to conduct wet gap-crossing operations.
+These obstacles can be placed underwater with sub meter accuracy, creating
+interlocking barriers navigable by allied forces and an obstacle to enemy forces.
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+9 
+AFTTP 3-2.75/CGTTP 3-95.17 
+(2) Bridge Structure Demolition. To impede an enemy’s ability to cross bridges,
+dive units can demolish bridges to render them impassible. Some dive units have
+substantial training in precisely conducting demolitions. These teams, when
+augmented with structural engineers, can demolish a bridge in such a manner as
+to create an obstacle for the enemy.
+c. Protection (Physical Security). Divers can enhance protection in contingency
+operations in response to national security concerns (including counterterrorism and
+counterdrug operations) and large-scale operations. Divers can rapidly deploy to
+secure critical areas. Physical security of bridges, ports, locks, and dams may
+include active and passive systems to protect or provide early warning of impending
+breaches.
+(1) Passive or Active Detection Methods. Divers assist in placing and
+maintaining physical security systems in port areas, waterways, and on bridges,
+locks, or dams.
+(2) Security Inspections. Divers provide security and active early detection of
+explosive hazards (EHs) by searching the underside of ships’ hulls and the
+adjacent piers. Divers conduct these inspections before vessels enter a facility or
+while moored outside a secured perimeter.
+(3) Vulnerability Assessments. Divers perform inspections and surveys to
+facilitate assessment of vulnerabilities to threats.
+(4) Contraband Search. Divers conduct searches on the underside of ships’ hulls
+to locate foreign devices and objects.
+d. Explosive Ordnance Disposal (EOD) and EH.
+(1) Locate and Mark. An EH is material posing a potential threat that contains an
+explosive component such as unexploded explosive ordnance, booby traps,
+improvised explosive devices (IEDs), captured enemy ammunition, and bulk
+explosives. EHs may be found above or below the waterline. Types of
+underwater EHs are sea mines, limpet mines, torpedoes, unexploded ordnance
+(UXO) and underwater improvised explosive devices. Underwater EHs may be
+located on the seafloor, on ship hulls, on pier pylons and in the vicinity of port
+and underwater infrastructure. Without disturbing EHs once they are located,
+divers should record all identifying EH features and mark the location so that
+EOD can reacquire expeditiously.
+(2) Render Safe or Dispose of Underwater Ordnance and EHs. EOD forces
+detect, locate, access, identify, diagnose, render safe/neutralize, recover, exploit,
+and dispose of weapons and explosives that threaten personnel, property, and
+lines of communications. For underwater EHs, water depth will be a factor when
+determining EOD response. For instance, it might be possible to access EHs
+within a few feet of the surface with little to no diving capability required.
+However, for deeper EHs, diving equipment will be required. For maritime mine
+threats, Navy EOD MCM platoons (PLTs) are equipped with special low influence
+signature gear to operate in close proximity to influence initiated ordnance.
+10 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+NOTE: Navy EOD has very unique and specific requirements when conducting 
+underwater EOD operations. Navy EOD is the only Service EOD that is manned, 
+trained, and equipped to perform underwater render safe procedures and 
+conduct EOD dive operations. 
+(3) Marine Mammal System Operations. The marine mammal system (also
+referred to as MMS) detachments are tasked through the global force
+management process for worldwide MCM and force protection missions or to
+provide support to fleet commanders for MCM contingencies. These PLTs can be
+supported from a well deck-equipped amphibious ship or from expeditionary
+shore facilities within small boat range of the area of operations. The PLTs
+provide an enhanced capability for underwater MCM in the shallow water and
+VSW zones of the littoral battlespace. The PLTs provide an enhanced capability
+to detect, identify, mark, render safe, recover, and neutralize objects within the
+water column to include mine hunting and neutralization operations against
+bottom, moored, and buried mines in the shallow water and VSW zones.
+e. Infiltration and Exfiltration. These operations use diving as a means to circumvent
+enemy lines and defenses to facilitate follow-on missions, such as offense, defense,
+or stability.
+f. Maritime Disablement Operations. These operations use diving as a means to
+install or deploy devices to disable or reduce maritime vessels’ ability to maneuver.
+This operation can be conducted on static or moving vessels. The maritime
+disablement operations are nondestructive and temporary.
+g. Underwater Ship Husbandry. Ship husbandry is in-water vessel inspection,
+maintenance, and repair. Vessel inspections are performed to assess the condition
+of the underwater hull and appendages. These inspections cover all parts of the
+vessel below the waterline and are part of a scheduled or emergent maintenance or
+damage assessment.
+(1) Inspections.
+(a) Hull inspections assess damage and identify buildup from marine growth
+on the hull, and the condition of antifouling paint surfaces.
+(b) Propulsion and steering systems inspections check the condition of
+shafts, propellers, and rudders, and the serviceability of protective coatings,
+seals, and bearings.
+(c) Vessel appendages inspections check the general condition and
+operational ability of the vessel.
+(2) Maintenance. Underwater maintenance tasks include hull cleaning; replacing
+sacrificial anodes; maintaining cathodic protection systems; replacing worn or
+corroded nuts, bolts, and screws; maintaining fairing in hydrodynamic surfaces;
+and servicing any items that would fall into disrepair if they are not maintained.
+Maintenance procedures require hand tools, pneumatic or hydraulic tools, and
+other special equipment, such as hull-cleaning devices.
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+11 
+AFTTP 3-2.75/CGTTP 3-95.17 
+(3) Repair. Most underwater repairs are intended to be permanent. Tasks
+consist of removing and replacing hull appendages, sealing cracks or separated
+seams, and performing mechanical and metal repairs. Divers may accomplish
+repairs in a wet environment or a cofferdam (a watertight enclosure pumped dry
+to permit construction work below the waterline).
+(4) BDA and Repair. BDA and repair provide immediate assistance to a vessel in
+distress. A remotely operated vehicle (ROV) can be used to inspect and assess
+areas of damage and provide real-time video feed to repair facilities via satellite.
+Repairs are temporary and are meant to keep the vessel afloat until permanent
+repairs are made. Divers conduct BDAs and repairs in a semi-permissive or
+permissive environment. BDA and repair capabilities are grouped into two
+categories. They are:
+(a) Temporary Repair. Install small damage control plugs as well as design
+and emplace patches.
+(b) Permanent Repair. Wet weld large patches and repair or replace
+underwater propulsion and steering systems.
+h. Underwater Construction. Underwater construction is the construction,
+inspection, repair, or  removal of in-water facilities in support of military operations.
+An in-water facility can be defined as a structure, system, device, or utility adjacent
+to, floating upon, or submerged in a freshwater or marine environment including in
+shore, rivers, and lakes. Pipelines, cables, sensor systems, and fixed or advanced
+base structures are examples of in-water facilities. More information on ocean
+construction may be obtained from Naval Facilities Engineering Systems Command
+(NAVFAC) Ocean Facilities Program managers. Underwater construction planning
+resources can be found in: Navy Tactical Reference Publication (NTRP) 4-04.2.8,
+Conventional Underwater Construction and Repair Techniques; NTRP 4-04.2.9,
+Expedient Underwater Construction and Repair Techniques; and NAVFAC P-992,
+UCT Arctic Operations Manual.
+i. Port and Harbor Clearance. Port and harbor clearance operations include
+facilities’ opening, construction, clearance, and rehabilitation. Ports, harbors, and
+inland waterway facilities are fundamental to moving personnel and equipment for
+any military operation. Inspection, maintenance, and repair of these facilities can
+greatly contribute to the long term success of phased operations. Facilities can be
+improved for friendly forces and civil relief, or modified to deny use by the enemy.
+(1) Planning and Inspection. Divers assist in planning port operations to help
+determine priorities of work or prepare work estimates. A completed inspection
+can provide the area commander with a report of existing conditions of
+underwater port facility structures.
+(2) Hydrographic and Bathymetric Survey. Divers conduct surveys to depict
+water depths, bottom contours, and obstruction locations to determine the size of
+ship a port can support.
+12 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+(3) Clearance. Divers undertake clearance operations to neutralize or reduce
+obstacles blocking shipping channels in ports, loading facilities, mooring sites,
+marine railways, dry dock facilities, lock and dam structures, and other navigable
+waterways.
+(4) Repair. Repairing port facilities is more desirable than initial construction
+because it requires far less time and fewer resources. A repair may involve
+underwater and surface operations and will depend on closely integrating divers
+and general engineer assets. Inspecting and repairing structures may require
+specialized equipment and additional support personnel.
+(5) Construction. Constructing new ports and facilities is a major undertaking,
+requiring an extensive use of divers. Divers provide valuable information during
+the initial site selection and survey. Divers conduct hydrographic surveys of the
+proposed area to determine water depths, sea bottom contours, shipping
+channels, and underwater obstacle locations. New port or facility construction
+would require additional support personnel working with diving assets.
+j. Joint Logistics Over-the-Shore (JLOTS). JLOTS operations occur when Navy and
+Army logistics over-the-shore (LOTS) forces conduct LOTS operations together
+under a joint force commander. LOTS is the process of loading and unloading ships
+without the benefit of deep-draft capable, fixed-port facilities; or as a means of
+moving forces closer to tactical assembly areas. Divers support JLOTS operations
+through the following tasks.
+(1) Survey. Divers conduct a survey of the operation site, including an
+underwater bottom profile, to determine potential LOTS operation sites. Dive
+units create sub-meter accurate charts of the bottom and note any obstacles to
+navigation. The initial survey can be conducted by a few personnel with small
+watercraft (configured with various types of technology packages) which will
+provide a quick, and fairly accurate, description of the underwater terrain. If
+obstructions are found or there are questionable readings, divers can conduct a
+physical inspection of the anomalies.
+(2) Obstacle Reduction. After identifying obstacles to LOTS sites, divers can
+remove or reduce obstacles using mechanical or explosive methods.
+(3) Medium Salvage (Objects Weighing 10 to 75 Tons). In the event supplies are
+lost overboard, dive units can search the area to locate the submerged
+equipment. Depending on the size and depth of the submerged equipment,
+divers will attach lifting devices to the object for surface cranes to raise. If
+overhead lift support is not available, divers can attach inflatable bags and
+pontoons to the object, float it to the surface, and tow it into shore.
+(4) Anchoring System Recovery and Repair. During LOTS operations, a ship’s
+anchor and anchor chains may become entangled in underwater cables, caught
+on reef structures, or wrapped around sunken objects. Divers can unfoul an
+anchor and anchor chain so the surface vessel can get underway. Anchors may
+also become detached from their chains and cables. Divers can locate and
+reattach them.
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+13 
+AFTTP 3-2.75/CGTTP 3-95.17 
+(5) Anchoring Systems to Stabilize Causeway. Divers imbed anchoring systems
+into the seafloor to provide greater stability to a causeway during rough seas.
+k. Offshore Petroleum Discharge System (OPDS). OPDSs are designed to facilitate
+the high-volume movement of bulk, liquid cargo from ship to shore and are used
+extensively during fuel transfer operations. Divers and transportation watercraft
+groups play important roles in preparing, installing, repairing, and operating OPDSs.
+Divers are required to support OPDSs by performing the following actions.
+(1) Installing a single-anchor leg mooring (SALM) system. The SALM system is
+emplaced as a mooring station and discharge manifold providing a semi-
+permanent installation for bulk fuel transfer directly from an offshore tanker to
+port storage.
+(2) Conducting hydrographic surveys to determine beach gradient, underwater
+contour, and geotechnical information.
+(3) Improving beach approaches.
+(4) Clearing enemy emplaced or natural obstacles from beach approaches.
+(5) Anchoring underwater pipelines to the seafloor.
+(6) Inspecting pipelines and their components.
+l. Salvage. Major salvage operations include clearing and removing submersed or
+sunken vessels, equipment, supplies, or other materials from port channels, berthing
+and docking facilities, mooring sites, lakes, lock and dam facilities, and other
+navigable waterways. A diver’s ability to salvage vessels or other equipment
+depends on the type, size, and location of the object and the time available for the
+salvage effort. Salvage methods range from simple to large-scale operations
+requiring complex integration of surface-support assets, including multiple vessels
+and lift assets. There are three categories of salvage operations: light, medium, and
+heavy.
+(1) Light salvage is done to clear berthing spaces. Objects weighing less than 10
+tons are considered light salvage.
+(2) Heavy salvage is anything weighing more than 75 tons.
+m. Search and Rescue/Recovery. Divers assist in search and rescue/recovery of
+personnel and equipment lost in or near water.
+(1) Physical searches. Divers use various techniques to locate personnel during
+combat, natural disasters, and other emergencies.
+(2) Recovery. Recovery operations are focused on recovering personnel,
+sensitive equipment, or material of forensic value.
+(3) Dewatering. Divers provide dewatering capabilities for vessels impacted by
+flooding. Dewatering restores buoyancy to a sunken or partially sunken ship. It
+can be completed with pumps, compressed air, and water replacement.
+Additional techniques are detailed in the US Navy Salvor’s Handbook, Revision
+2, 1 January 2021.
+14 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+(4) Submarine Disaster Rescue. Operations to recover personnel and equipment
+from distressed submarines.
+n. Disaster Response Measures. Divers assist local, state, tribal, and federal
+authorities after a natural disaster.
+(1) Assist in making plans and assessments of damage caused by natural
+disasters.
+(2) Remove obstacles to navigation in areas damaged or covered by floods,
+earthquakes, or other naturally occurring and man-made disasters.
+(3) Repair dams, levees, breakwaters, and other man-made retaining structures.
+(4) Validate hydrographic surveys by verifying existing charts are accurate and
+waterways were not affected by the disaster.
+(5) Provide dewatering capabilities for facilitates or areas impacted by flooding.
+o. Hyperbaric Chamber Operations. Provide recompression therapy for pressure-
+related injuries resulting from flight or diving operations. Dive units may provide their
+own hyperbaric chambers. If not, available chambers may be located through the
+Naval Sea Systems Command (NAVSEA) worldwide web address
+(http://www.navsea.navy.mil/Home/SUPSALV/00C3-Diving/) or by contacting the
+Naval Experimental Dive Unit emergency number (850) 230-3100. These are not the
+definitive sources for all recompression chambers worldwide but can be used as
+planning resources.
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+15 
+AFTTP 3-2.75/CGTTP 3-95.17 
+Chapter III 
+PLANNING CONSIDERATIONS 
+1. Requesting Dive Assets
+a. Not every Service can perform every category within each dive mission area and
+some Services are not trained at all in some of the dive mission areas.
+b. The timelines and scalable diving packages are specific to each Service and are
+detailed in chapters IV to IX. Once diving units are in theater, they will be likely task-
+organized to the joint task force commander; however, this can change based on the
+duration of the diving mission and if follow-on requirements occur. There are two
+methods to use to request diving assets. Both methods require the requestor to ask
+for a capability, such as one of the dive mission areas, not a specific Service or unit
+to perform a mission.
+(1) The first method is the standard process through the global force
+management, which flows through the combatant command and onward to the
+Secretary of Defense. The Secretary of Defense, upon approving the request,
+would task the Service chiefs who have the ability to complete the request. This
+method processes nonemergent, noncontingency diving requests.
+(2) The second method is to request diving assets through Service Authority.
+This is the method of request used when there is an emergency or an unplanned
+mission needing diving assets. Tactical units can reach out to Service diving
+entities within their theater by requesting Service authority assistance. An
+example is a high mobility multipurpose wheeled vehicle roll over with either
+immediate personnel or sensitive equipment recovery or recovery within a strict
+timeline. Then, the unit needing diving assets could first determine which Service
+has diving assets closest to their location, using the diving contact list in
+appendix B, and contact that Service command to request Service authority
+assistance. The Navy has two references for how to request diving assistance.
+(a) The Office of the Chief of Naval Operations (OPNAV) has published step-
+by-step instructions on how to request Navy salvage and recovery assets
+based on the situation in OPNAV Instruction 4740.2H titled Salvage and
+Recovery Program, specifically section 7, Procedures.
+(b) Pacific Fleet and Fleet Forces commands provide instructions on how to
+request Navy diving assets, see Commander Pacific Fleet/Commander US
+Fleet Forces Instructions 4740.1K, titled Salvage, Recovery, Towing, and
+Offshore Oil Spill Response Operations, which provide guidance such as in
+figure 2. The instructions also include a sample salvage situation report
+format.
+16 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+Figure 2. Salvage Response Process 
+c. When considering diving operations, it is imperative that planners understand the
+first 12–24 hours can make the difference between an accident (a ship grounding
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+17 
+AFTTP 3-2.75/CGTTP 3-95.17 
+that can be refloated), and a disaster (a ship gets driven ashore or broken up by 
+seas creating an environmental and military crisis). If diving capabilities are required 
+and diving assets are not already assigned to the command, NAVSEA can provide 
+immediate technical direction for initial triage and assist the unit with potential asset 
+requests. 
+2. Considerations When Using Dive Assets
+a. Dive-Site Security. Most dive teams have a limited self-defense capability. Plan to
+provide site security at the support facilities and around the dive site.
+b. Logistic and Environmental Considerations. Dive operations have specific
+logistical and environmental considerations that must be addressed during planning.
+These considerations will determine the manning, equipment, qualifications, and
+time required to accomplish the mission. Planners requesting dive capabilities
+should provide as much information about the operating environment as possible.
+Table 2 provides a minimum checklist to assist in initial coordination.
+Table 2.  Dive Unit Initial Coordination 
+This checklist is an example of what could be asked when a unit is requesting dive assets. These items are not 
+all inclusive and could change based on which Service is in the theater and requires support. Timely dive unit 
+notification, with as much of the basic information listed below as possible, will increase the degree of mission 
+success. Use weather observers and forecasters, on-scene personnel, the Internet, and any other available 
+sources to gather data. 
+1. Determine the required capabilities.
+a) Dive Mission Area(s).
+b) Subcategories.
+2. Determine requested location for dive or linkup
+location with dive units.
+a) Grid Coordinate or Latitude/Longitude.
+3. Point of Contact for Requesting Unit.
+a)
+Higher Headquarters Point of Contact (Contact
+Number).
+b)
+Dive Unit Point of Contact (Contact Number).
+4. If known, provide the following information to
+assist the dive unit: 
+
+Permissive or nonpermissive dive site.
+
+Water contamination.
+
+Air and water temperatures.
+
+Water depth.
+
+Current.
+
+Tide charts.
+
+Underwater visibility.
+5. If possible, and as necessary, be prepared to
+coordinate logistics for these prior to dive team
+arrival:
+
+Hazardous materials transportation.
+
+Compressed gas.
+
+Explosives.
+
+Generators and motors.
+
+Transportation requirements.
+
+Site security.
+
+Fuel (gas or diesel).
+
+Dive platform.
+
+Other.
+(1) Logistics.
+(a) Transporting and Storing Compressed Air. Dive tanks (full of compressed
+air) are not allowed on aircraft without appropriate hazardous material
+declarations. If the dive team is transported by air, the tanks may have to be
+refilled at the destination. Logistics officers at the tactical units will be able to
+coordinate this for the dive units (through the base fire department or area
+civilian dive shops). If this is not possible, the dive units will bring
+compressors to refill their own tanks.
+18 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+(b) Diver and Equipment Transportation Requirements. Requesting units
+may be tasked to provide transportation.
+(c) Diving Platform. Divers operate from a wide variety of platforms, including
+piers, shores, barges, boats, and vessels of opportunity. The required
+platform depends on the mission. This will be coordinated once the diving
+mission is identified.
+(d) Other Concerns. If there are additional considerations pertaining to the
+US classes of supply, one through nine, they will be detailed in the specific
+operation order for the diving mission.
+(2) Environmental Conditions.
+(a) Contaminated Water. Fuel, biological, or chemical contaminants may be
+damaging to dive equipment and hazardous to divers. Additional equipment
+or post-dive medical assistance may be required if these conditions exist.
+Tactical units requesting diving assistance should communicate any potential
+requests to medical personnel. Table 3 provides an overview of which
+Services have the best equipment for diving in contaminated water.
+(b) Water Temperature. Cold water will reduce submerged times for divers
+and may require additional equipment or manning, such as the cold weather
+diving equipment or cold weather clothing. The tactical unit requesting the
+diving assets can provide this information.
+(c) Water Depth. Deep dive operations reduce submerged times for divers.
+Maximum operating depths depend, in part, on equipment.
+(d) Currents. If currents are greater than one knot, the diving unit must be
+informed prior to its arrival.
+(e) Tide Charts. Tidal phases may influence water depth and currents at the
+dive site. Tide charts are included in the initial briefing of the operating
+environment or can be requested through the weather officer.
+(f) Underwater Visibility. Low visibility may increase the time required to
+accomplish a task. For example, if searching an area for a piece of
+equipment, low visibility may require a dense search pattern or alternate
+search technique.
+(g) UXO. The presence of UXO may require additional considerations for the
+type of dive being conducted, which would require the diving team to bring
+specialized underwater demolition tools.
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+19 
+AFTTP 3-2.75/CGTTP 3-95.17 
+Table 3.  Contaminated Water Categories and Capability Areas 
+Contaminated Water Categories 
+(and Capability Explanations) 
+Full capability (F) means this dive mission 
+area is a primary task this unit is trained and 
+equipped to conduct. Limited capability (L) 
+means this dive mission area is a task this 
+unit may be able to perform based on skill 
+sets inherent in primary tasks. However, the 
+unit may be limited by equipment or the unit 
+has not trained to this task 
+Army Engineer Diver 
+Army Special Forces 
+Marine Combatant Diver 
+Mobile Diving Salvage Unit 
+Navy Underwater Construction 
+Navy Regional Maintenance 
+Navy Explosive Ordnance Disposal 
+Units 
+Navy Undersea Rescue Command 
+SEALs 
+Air Force Special Tactics 
+Air Force Guardian Angel 
+Coast Guard 
+Category 1
+a. Grossly contaminated.
+b. Extreme risk of injury or death.
+c. A fully-encapsulated diver requires
+surface exhaust (note 1).
+L 
+L 
+Category 2 
+a. Heavily contaminated.
+b. High risk of injury (note 2).
+c. A fully encapsulated diver with in-water
+exhaust (note 1).
+L 
+F 
+F 
+L 
+Category 3 
+a. Moderately contaminated.
+b. Some risk of injury, especially if ingested.
+c. Full face mask with skin covered, as
+necessary.
+F 
+F 
+F 
+L 
+L 
+F 
+Category 4 
+a. Baseline contamination.
+b. Low risk of injury (note 3).
+c. Standard diving dress.
+All Service units have full capability. 
+Notes: 
+1. Fully encapsulated means a vulcanized rubbery dry suit with integrated boots, mated to dry
+gloves with a ring system. In addition, gloves must be taped or clamped to the suit. Divers must not
+use equalization tubes between their gloves and cuffs.
+2. Injuries may be major and could include such things as skin irritation, rashes, and eye or sinus
+irritation.
+3. Low risk refers only to risk from contaminants and does not relate to any other aspect of the
+dive. A full risk analysis is still required.
+This page intentionally left blank.
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+21 
+AFTTP 3-2.75/CGTTP 3-95.17 
+Chapter IV 
+UNITED STATES ARMY DIVING 
+1. Overview
+The United States Army has two types of divers: engineer and special operations. The 
+engineer divers specialize in conducting diving operations in support of combat, defense 
+support of civil authorities (DSCA), general engineering, and geospatial engineering. 
+Engineer dive detachments have a diverse range of capabilities and are able to conduct 
+nearly every dive mission area, with only limited capability in the EH and ordnance 
+disposal category. Special operations divers are members of a special forces (SF) team 
+and will be discussed in detail in Chapter VIII, Special Operations Forces Diving. 
+2. Engineer Divers
+Note: For a detailed description on Army engineer diver capabilities, see Technical 
+Manual 3-34.83, Engineer Diving Operations, 2 August 2013. 
+a. Mission. The engineer diving detachment conducts diving operations in a
+maritime environment in support of combat, general engineering, geospatial
+engineering, and DSCA. Engineer divers provide support to assure mobility for the
+forward movement of troops and equipment. Divers provide support to disaster
+response, general engineering, and geospatial engineering operations in and around
+water. Divers enhance protection by conducting force protection swims and
+emplacing underwater obstacles and barriers. Divers also enable expeditionary
+logistics by providing accurate waterway datum, surveys, and repair of existing
+waterfront facilities.
+(1) Engineer diving missions assist in infrastructure support and sustainment
+operations.
+(2) Dive detachment capabilities can be tailored to the mission allowing the use
+of surface-supplied diving apparatus; scuba; and ROVs.
+b. Capabilities. Engineer divers can rapidly deploy scalable assets to perform scuba
+diving and surface-supplied diving in nearly all environmental conditions: swift water;
+zero visibility; multiple levels of contamination; day or night; under-ice; and in rivers,
+harbors, or open ocean. The Army has tasked 13 of the 15 dive mission areas to its
+engineer divers. They are the following.
+(1) Mobility.
+(2) Countermobility.
+(3) Protection (physical security).
+(4) EH and ordnance disposal (limited capability, can only locate and mark).
+(5) Underwater ship husbandry.
+(6) Underwater construction.
+(7) Port and harbor operations.
+22 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+(8) JLOTS.
+(9) OPDS (limited due to the inability to install a SLAM system).
+(10) Salvage (can only conduct light and medium).
+(11) Search and rescue/recovery.
+(12) Disaster response measures.
+(13) Hyperbaric chamber operations.
+c. Task Organization. Engineer dive detachments are relatively small, specialized
+organizations assigned as theater assets and may be assigned or attached to
+supported units anywhere within an area of operations. Engineer dive detachments
+consist of 25 personnel and a full complement of diving equipment to support Army
+engineer dive capabilities. Each detachment can be split to conduct simultaneous
+dive operations at multiple locations. Figure 3 depicts an engineer dive detachment
+organization.
+Figure 3. Engineer Dive Detachment Organization 
+d. Concept of Employment. The primary objective of engineer diving operations is to
+conduct underwater engineering and disaster response operations. Engineer divers
+are an integral part of a task organization that supports movement in or around any
+wet gap-crossing, including ports, harbors, inland waterways, beachfronts, and
+rivers. For short-term missions, diving assets are assigned, in direct support, to the
+supported commander. For long-term or complex missions, divers are attached to a
+company- or battalion-sized unit.
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+23 
+AFTTP 3-2.75/CGTTP 3-95.17 
+e. Tiered Rapid Deployment Capability. Engineer divers can rapidly deploy assets
+to respond to time-sensitive emergencies. The following are tier deployment
+capabilities and timelines.
+(1) Tier one. Less than 48 hours from notification to departure from the current
+station. Requires a 4- to 7-Soldier dive squad capable of conducting:
+(a) Emergency response and a rapid assessment.
+(b) Search and recovery.
+(c) Engineer reconnaissance, inspections, and hydrographic surveys.
+(d) Antiterrorism or force protection swims.
+(e) Vessel inspections and maintenance.
+(f) Underwater demolition.
+(2) Tier two. Fewer than 5 days from notification or tier one assessment.
+Requires an 8- to 14-Soldier dive element (can be two squads) capable of all tier
+one capabilities plus:
+(a) Light construction operations.
+(b) Minor ports, harbors, and inland waterway repair.
+(c) Light salvage operations.
+(3) Tier three. Fewer than 7 days from notification or tier one and two
+assessments. Requires a 25-Soldier dive detachment capable of all tier one and
+two capabilities plus the 13 dive mission areas listed in paragraph 2. (Tier one
+and two capabilities are detailed in chapter II).
+f. Employment Considerations and Limitations. Engineer divers do not possess
+organic transportation assets, so planners must make arrangements for support to
+meet tiered deployment timelines. Engineer divers will require a security detail.
+Engineer diving units have organic equipment to support diving operations to a
+depth of 190 feet.
+3. SF Missions
+SF maritime operations are some of the many options available to a commander to 
+infiltrate and exfiltrate a detachment into or out of a designated area of operations to 
+execute SF missions. Other missions for SF combat divers include tactical 
+reconnaissance, demolition raids against bridges and other maritime structures, and 
+underwater searches for security and recovery. SF divers are covered in more detail in 
+chapter VIII. 
+This page intentionally left blank.
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+25 
+AFTTP 3-2.75/CGTTP 3-95.17 
+Chapter V 
+UNITED STATES MARINE CORPS COMBATANT DIVING 
+1. Overview
+The primary purpose of the Marine combatant diver is to provide a clandestine 
+infiltration and exfiltration means for USMC ground reconnaissance elements, which 
+facilitates the full range of amphibious reconnaissance and ground reconnaissance 
+operations for Marine reconnaissance units, Marine special operations forces 
+(MARSOF), and other supported commanders. (See chapter VIII for MARSOF dive 
+mission capabilities.) The USMC underwater reconnaissance capability provides the 
+supported unit commander with a capability to conduct clandestine subsurface 
+operations in support of the force. Combatant diving is one of numerous specialized 
+insertion and extraction methods used by Marine ground reconnaissance units to 
+infiltrate and exfiltrate mission areas.  
+Note: For a detailed description of USMC diver program management, see Marine 
+Corps Order 3150.4A, Marine Corps Diving Policy and Program Administration, and 
+Marine Corps Reference Publication (MCRP) 2-10A.6, Ground Reconnaissance 
+Operations, with Change 1. 
+2. Marine Combatant Divers
+a. Mission. Marine combatant divers conduct underwater operations to facilitate
+amphibious reconnaissance, ground reconnaissance, surveillance, and operational
+environment shaping in support of the Marine expeditionary force (MEF), other
+Marine air-ground task forces, or the Marine Corps component of a joint force.
+b. Capabilities. Task-organized USMC ground reconnaissance elements plan,
+coordinate, and execute over the horizon, clandestine, subsurface dive operations
+via naval ships or aircraft to conduct full-spectrum amphibious and ground
+reconnaissance missions. USMC ground reconnaissance elements are manned,
+trained, and equipped for dive operations in the following mission areas.
+(1) Conduct amphibious reconnaissance to collect and report information about
+the activities and resources of an enemy or information concerning the
+hydrographic characteristics of a particular area, well in advance of an
+amphibious landing force.
+(2) Conduct subsurface hydrographic surveys in support of all US Navy landing
+craft and amphibious assault vehicles.
+(3) Conduct initial and confirmatory beach reconnaissance.
+(4) Conduct initial terminal guidance of amphibious assault vehicles, tactical
+boats, amphibious ships, landing craft, and aircraft.
+(5) Conduct subsurface insertion and extraction of combatant dive teams to
+clandestinely infiltrate and exfiltrate designated ground reconnaissance mission
+areas and other reconnaissance and battlespace shaping operations.
+26 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+(6) Conduct subsurface infiltration and exfiltration in support of specialized
+reconnaissance of littoral and coastal areas and defenses; including ports,
+harbors, piers, and estuaries; and fords and bridges.
+(7) Conduct subsurface limited search and recovery of personnel or sensitive
+equipment.
+(8) Conduct search operations for the amphibious ready group, expeditionary
+strike group, and maritime pre-positioning ship in fleet support of force protection
+to locate and mark limpet mines and IEDs. These operations include ship’s hulls,
+piers, harbors, ports, fords and bridges.
+c. Task Organization.
+(1) The USMC combatant dive capability resides within the Active and Reserve
+Component reconnaissance battalions and force reconnaissance companies. A
+complete list of USMC units with an organic dive capability and their geographic
+locations is provided in appendix B.
+(2) USMC ground reconnaissance units are task organized to conduct the full
+range of ground reconnaissance missions, including combatant diving. The
+commander of deployed USMC ground reconnaissance elements and the
+supported unit will plan, direct, and coordinate the actions of USMC combatant
+dive teams. The general organization of the Marine combatant diver capability
+within task-organized reconnaissance elements is as follows.
+(a) Reconnaissance battalion: 13 dive teams each.
+(b) Reconnaissance company: 3 dive teams each.
+(c) Force reconnaissance company: 4 dive teams each.
+d. Concept of Employment.
+(1) A Marine ground reconnaissance unit employs six-person teams to conduct
+reconnaissance. The unit can be employed in general support of the MEF or in
+direct support or attached to a subordinate unit of the MEF or a joint force.
+(2) Marine reconnaissance PLTs are assigned to the ground combat element of
+each forward-deployed Marine expeditionary unit (MEU). If a company-sized
+element is assigned to a MEF or another subordinate unit, the company
+headquarters (HQ) will establish and maintain a reconnaissance operations
+center in support of the MEF or supported unit’s combat operations center to
+conduct command and control functions of subordinate units conducting ground
+or amphibious reconnaissance missions.
+(3) USMC reconnaissance PLTs can be task-organized and attached to
+subordinate units of the MEF or a joint force. Under such employment, the PLT
+HQ will establish and maintain a reconnaissance operations center in support of
+the supported unit’s combat operations center.
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+27 
+AFTTP 3-2.75/CGTTP 3-95.17 
+e. Employment Considerations. Marine combatant divers have unique
+considerations for their employment. The following must be considered when
+employing Marine combatant divers.
+(1) MEUs possess the organic tactical boat assets to conduct over-the-horizon
+surface movement to a dive insertion point. The USMC tactical boat asset is the
+combat rubber reconnaissance craft, which has very limited applicability in this
+mission area.
+(2) For planning purposes, the average speed for surface and subsurface
+swimming for Marine combatant divers is one knot, unassisted. This translates
+into a maximum distance of one nautical mile, subsurface, under ideal conditions.
+Assisted by the diver propulsion device, the average motorized speed is 1.2
+knots. Due to less expended energy, the diver propulsion device increases the
+distance a dive team is able to travel.
+3. MARSOF Combatant Divers
+A MARSOF maritime operation is one of the many options available to a commander to 
+infiltrate and exfiltrate a detachment into or out of a designated area of operations to 
+execute special operations forces (SOF) missions. Other missions for MARSOF 
+combatant divers include special reconnaissance, direct action raids against maritime 
+structures, and underwater searches for security and recovery. MARSOF divers are 
+covered in detail in chapter VIII. 
+This page intentionally left blank. 
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+29 
+AFTTP 3-2.75/CGTTP 3-95.17 
+Chapter VI 
+UNITED STATES NAVY DIVING 
+1. Overview
+a. The United States Navy is the Service with the most divers that are assigned to
+commands within the Navy. However, this publication will focus on the diving
+missions of six operational commands, specifically those listed in appendix H. These
+commands have divers who can be requested to support diving missions for other
+Services or the Navy.
+b. The missions for the following will be covered in this appendix.
+(1) Mobile diving salvage unit (MDSU).
+(2) Navy underwater construction team (UCT).
+(3) Navy regional maintenance centers (RMCs).
+(4) Navy EOD.
+(5) Navy undersea rescue command.
+(6) The US Navy SEAL team will be detailed in Chapter VIII, Special Operations
+Forces Diving.
+c. Navy assets stationed on the East Coast of the US fall under Fleet Forces
+Command while the West Coast units fall under the Pacific Fleet command.
+Note: For a detailed description of Navy diving capabilities, see SS521-AG-PRO-010, 
+US Navy Diving Manual Revision 7, Change A. For Navy EOD diving capabilities and 
+limitations see: OPNAV Instruction F3501.97H Ch-1, OPNAV Required Operational 
+Capabilities/Projected Operational Environment For Explosive Ordnance Disposal 
+Group Forces; and JP 3-42, Joint Explosive Ordnance Disposal.  
+2. MDSUs
+a. Mission.
+(1) Mobile diving and salvage (MDS) companies and the area search platoons
+(ASPs) can execute the following dive mission areas.
+(a) Mobility.
+(b) Countermobility.
+(c) Protection (physical security).
+(d) A limited capability in EH and ordnance disposal.
+(e) Underwater ship husbandry.
+(f) Limited underwater construction.
+(g) Port and harbor clearance operations.
+(h) JLOTS.
+30 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+(i) OPDS operation.
+(j) Salvage.
+(k) Search and rescue/recovery.
+(l) Disaster response measures.
+(m) Hyperbaric operations.
+(2) They execute missions in support of Chief of Naval Operations projects, fleet
+and Navy installation commander requirements, contingencies, and provide
+special operational support. They can operate from vessels of opportunity
+(VOOs), shorelines, and fixed waterfront facilities in varying maritime settings.
+The conditions can be open ocean, inland, riverine, coastal, or littoral and may
+include water temperatures ranging from polar to tropical/desert conditions, swift
+water and contaminated water.
+b. MDS Companies Capabilities.
+(1) Rescue, Salvage and Recovery. MDS forces primarily, conduct expeditionary
+salvage and diving operations. These operations encompass the entire spectrum
+of diving and salvage operations, from providing humanitarian assistance to
+supporting combat operations. They enable friendly forces increased access to,
+and freedom of movement throughout, the maritime and riverine operating
+environments. MDS forces provide rescue, salvage, and recovery capabilities
+including:
+(a) Stabilization, retraction, refloating, dewatering, salvage of ships, aircraft
+and watercraft, items of national interest, and strategic assets.
+(b) Damage assessment.
+(c) Port recovery and harbor clearance.
+(d) Emergency underwater ship husbandry.
+(e) Shallow water search and recovery (<300 feet of water).
+(f) Submarine search and limited rescue.
+(g) High-value object recovery.
+(h) Rigging and crane related services.
+(i) Rigging for and augmented towing.
+(j) Explosives employment in underwater ship husbandry.
+(k) Manned and unmanned underwater inspection, search, location, and
+detection.
+(l) Hydrographic surveys.
+(m) Debeaching. Debeaching includes operations between ships that work
+together to exercise their “beach gear” in order to conduct a salvage mission.
+(n) Aircraft recovery.
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+31 
+AFTTP 3-2.75/CGTTP 3-95.17 
+(o) Prisoner of war and missing in action underwater identification and
+support.
+(p) ROVs.
+(q) Rigging ships for tow at sea.
+(2) Enabling Area Access. This is a proactive means to ensure forces can freely
+enter and exit the theater of operations enabling increased access and freedom
+of movement throughout the maritime and riverine operating environments.
+Subcapabilities to enable area access include:
+(a) Port, harbor, riverine, and waterways assessment and clearance.
+(b) Manned and unmanned underwater inspection, search, location, and
+detection.
+(c) Hydrographic surveys.
+(d) Aids to navigation operations.
+(e) Beach clearance and salvage.
+(f) Stabilization, retraction, refloating, dewatering, and salvage of ships,
+aircraft, spacecraft, and watercraft; items of national interest; and strategic
+assets.
+(g) Search and recovery.
+(h) Demolition.
+(3) BDA and Repair. BDA is the practice of assessing damage inflicted on a
+target. MDS can provide BDA and repair for vessels in distress needing
+immediate assistance and located in remote, semipermissive or permissive
+environments.
+(4) Force Protection. MDS has a limited self-defense capability. MDS forces can
+conduct preventative actions to mitigate hostile actions against Department of
+Defense (DOD) personnel, resources, facilities, and critical information. For
+MDSU, force protection does not include direct action against the enemy or
+protecting against accidents, weather, or disease.
+(5) Diving and Salvage used for DSCA and humanitarian assistance and disaster
+relief operations.
+(6) Fly away recompression chamber teams diagnose and treat decompression
+sickness and other diving and aviation related illnesses.
+c. Task Organization. There are two MDSUs, with locations to cover east and west
+coasts of the US.
+(1) MDSU 1 is stationed at Pearl Harbor, Hawaii and is tasked through Pacific
+Fleet. MDSU 1 has seven MDS companies. Figure 4 depicts an MDSU company
+organization.
+32 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+(2) MDSU 2 is stationed at Little Creek, Virginia and is tasked through Fleet
+Forces. MDSU 2 has five companies. Each company is staffed with 17 divers,
+including one diving officer and one master diver. Within the MDSU, there is an
+area search PLT (listed in figure 4 as PLT 2), which consists of eight personnel,
+when it is fully manned.
+Figure 4. MDSU Company Organization 
+d. Concept of Employment. MDSU deploy MDS companies to support salvage
+operations. MDSUs can deploy multiple MDS companies, simultaneously, to support
+larger operations. In these cases, deploying units can be augmented with a
+deployable command and control cell to provide control and direction for a task
+group commander exercising control over larger expeditionary salvage operations.
+(1) MDS companies are equipped with a diverse range of diving and salvage
+equipment deployable, scalable, and tailorable according to mission objectives;
+employ the full spectrum of surface supplied, open and closed circuit, self-
+contained, and recompression chamber diving.
+(2) MDSU companies provide expeditionary salvage, clearance reconnaissance,
+BDA, underwater explosive demolition, site survey, lightweight towing, and
+aircraft recovery with a craft of opportunity. A MDSU company can exploit
+available retrograde or abandoned opposition-force craft and assets to augment
+a mission. An MDSU company has an organic capability of air dives to depths of
+190 feet. Dives deeper than 190 feet and mixed gas to depths of 300 feet utilizing
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+33 
+AFTTP 3-2.75/CGTTP 3-95.17 
+MK16 underwater breathing apparatus and surface supplied diving systems. 
+Heavier salvage capability is represented in the emergency ship salvage 
+materials equipment pool. This equipment is provided by the MDS parent 
+command or through the in-theater emergency ship salvage materials pool. Due 
+to their size, MDSU companies are limited in their ability to provide self-protection 
+and may require nonorganic force protection when in a nonpermissive 
+environment. 
+(a) Area search PLTs employ underwater scanning, ROV and unmanned
+underwater vehicle (UUV) capabilities to:
+Search for, locate, identify, and mark designated targets in support
+of MDSU operations.
+Scan harbor bottoms and waterways to enable freedom to
+maneuver.
+Restore access to ports and facilities.
+(b) The primary mission of the area search PLT is to provide a capability to
+detect and localize submerged objects in support of salvage operations.
+These units are equipped with side-scan sonar, ROVs with a variety of
+sensors, and expeditionary equipment to conduct area search operations via
+organic small craft. Due to their small size, area search PLTs are limited in
+their ability to provide force protection and require nonorganic, waterborne
+force protection when in a nonpermissive environment.
+3. Navy UCTs
+a. Mission. Navy UCTs conduct inshore and deep-ocean facility underwater
+construction, inspection, repair, and maintenance operations in climates ranging
+from the arctic to desert and tropical regions. UCTs support amphibious landing
+operations and deploying the OPDS in support of JLOTS. Other supported missions
+include: foreign humanitarian assistance, DSCA, and recovery operations. The
+UCTs conduct:
+(1) Responsive underwater engineering and construction, inspection, repair,
+maintenance, and demolition of ocean and waterfront facilities. This is in support
+of Navy, Marine Corps, and combatant command operations in permissive and
+combat environments. When assigned by fleet commanders, UCTs accomplish
+additional underwater construction projects for other naval commands,
+laboratories, and offices.
+(2) Diving operations to provide underwater construction in support of other
+naval construction force units, amphibious operations for naval beach groups,
+operating forces, sealift support facilities, and other fleet units, as directed.
+(3) Installation, inspection, maintenance, and repair of undersea range facilities
+and in-shore cables for undersea surveillance systems.
+(4) Foreign humanitarian assistance, humanitarian mine action, humanitarian
+aid, disaster response, DSCA, and military civil action activities.
+34 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+b. Capabilities. UCTs are capable of scuba and surface supplied diving operations
+in nearly all environmental conditions. These include zero visibility, contamination,
+day or night operations, and ice diving in rivers, harbors, and open-ocean. UCT
+capabilities and functional tasks include the following.
+(1) Underwater Engineering and Construction, Repair, and Maintenance. This
+includes shallow and deep-water structures, mooring systems, underwater
+instrumentation, light salvage, and precise demolition.
+(2) Inspection.
+(a) The UCTs conduct hydrographic surveys using differential Global
+Positioning System and hydrographic survey systems to collect data within
+sub meter accuracy. Survey teams can be rapidly deployed to perform field
+data collection and postprocessing operations using a small boat deployable,
+mobile workstation or vessel of opportunity. Advanced underwater
+reconnaissance techniques include bathymetric surveys to sub meter
+accuracy, side-scan imagery, still photography, and full-motion video.
+(b) The UCTs operate ROVs to a depth of 500 feet. They can deploy
+vertically or horizontally. Hydrographic survey data can be georectified and
+processed in the field by the UCT construction diving detachment and sent to
+HQ via organic high-frequency radio, ultrahigh frequency radio, or satellite
+communications.
+(c) This information assists commanders in assessing battle damage;
+avoiding navigational hazards; locating debris in support of ports, harbors,
+and inland waterway recovery operations. It also assists in locating and
+recovering lost equipment and selecting locations for installing underwater
+facilities (such as pilings, moorings, and cable landings).
+(3) Data Collection. The UCT collects water-crossing data for bridging
+operations.
+(4) Blasting and Demolition. The UCT performs precision terrestrial and
+underwater blasting using military or commercial explosives.
+c. Task Organization. The two UCTs are commanded by a civil engineer corps
+officer who specializes in ocean engineering and are permanently structured units
+composed of personnel with the capability to plan, coordinate, and supervise general
+engineering and construction diving operations. The UCTs are organized into sea
+duty and shore duty components. Figure 5 depicts the UCT organization, with the
+shore and sea duty components.
+(1) The shore duty component is comprised of support departments that consist
+of administration, engineering support, supply, equipment and material readiness,
+communications, medical, and training. These are the garrison staff elements,
+which only deploy in exceptional circumstances.
+(2) The sea duty component of each UCT consists of independent, worldwide
+deployable construction diving detachments, comprised of personnel capable of
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+35 
+AFTTP 3-2.75/CGTTP 3-95.17 
+conducting marine and terrestrial construction operations. The construction diving 
+detachments can be task-organized to support various mission or operation sets. 
+Figure 5. UCT Organization 
+d. Concept of Employment. Each UCT functions independently, as an integral unit
+of the naval construction force. UCTs operate with decentralized control providing
+specialized underwater and general engineering services to the supported unit.
+UCTs are deployed as independent construction diving detachments equipped and
+trained for self-sufficiency in underwater construction to respond to emergency and
+contingency operations to support underwater construction and repair in any
+environment. The UCTs also provide:
+(1) The UCT can deploy a certified Construction Diving Detachment (CDD) or
+battle staff with weapons; procedures, guidance, and information (PGI); and a
+light table of allowance (TOA) package within 48 hours of receiving an execute
+order. The UCT can deploy additional CDDs with personnel and TOA within 96
+hours of receiving an order.
+(2) Trained and equipped construction diving detachments to conduct defensive
+combat tactics. The UCTs can conduct force protection operations on open water
+and urban terrain. Due to the UCTs’ small unit size, specialized equipment, and
+expertise, they employ these tactics in direct support of construction diving
+operations only. The UCTs require assistance from the supported unit with
+transportation, perimeter security, and waterfront security operations in
+nonpermissive environments.
+(3) Construction diving operations in permissive and nonpermissive
+environments in climates ranging from extreme cold weather to tropical or desert.
+36 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+The UCTs conduct operations in unsecured and isolated locations with prior 
+coordination of the supported unit.  
+4. Regional Maintenance Center (RMC)
+a. Mission. RMC divers provide the theater maintenance coordinator with
+underwater ship husbandry; and battle and terrorist damage waterborne inspections,
+evaluations, and repairs to return the combatant to the fight.
+b. Capabilities. The following are RMC capabilities.
+(1) Repairs.
+(2) Security swims and antiterrorism or force protection hull searches to locate
+and mark limpet mines or IEDs.
+(3) Submarine countermeasure set, acoustic pod inspection, repair, and
+replacement.
+(4) Submarine predeployment noise inspection and sound silencing.
+(5) Special installations (sea-view, submarine).
+(6) Main seawater or auxiliary seawater hydro blast and repair (submarine).
+(7) Cathodic protection, inspection, cleaning, repair, and replacement.
+(8) Bridal air and main ballast tank cofferdams (submarine high pressure air
+system).
+(9) Towed array inspection preventive maintenance system and repair;
+component replacement (submarine).
+(10) Range and special pinger installation and removal (submarine).
+(11) Rudder inspection, sounding, repair, measuring, wrap, and replacement.
+(12) All underwater inspections (manned and unmanned).
+(13) Auxiliary power unit repair and replacement.
+(14) Fixed pitch and control pitch blade replacement.
+(15) Propeller repair and replacement.
+(16) Secondary propulsion motor inspections, preventive maintenance system,
+repair, and replacement (submarine).
+(17) All cofferdams, patches, plugs, and hull blanks and seals installation and
+removal.
+(18) Sonar dome inspection (wet and dry) and repair.
+(19) Shaft re-lamination and repair.
+(20) Prairie air system inspection, cleaning, and repair.
+(21) Stave bearing inspection, measurement, repair, and replacement.
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+37 
+AFTTP 3-2.75/CGTTP 3-95.17 
+(22) Shallow-water, antisubmarine warfare target installation and removal
+(submarine).
+(23) Sound hull tile repairs (submarine).
+(24) Various radiological control services, including primary affluent tank hook-up
+and removal (submarine) and hull survey swipes (ships, carriers, and
+submarines).
+(25) NAVSEA emergent underwater welding and nondestructive, ultrasonic,
+visual, and magnetic testing services.
+(26) Transducer and hydrophone repair and replacement, with associated cable.
+(27) Bow plane cofferdams.
+(28) Outboard transducer acoustic array assembly repair and replacement
+(submarine).
+(29) Torpedo tube and variable launch system repair and component
+replacement, with associated cable.
+(30) Anchor and associated handling equipment inspection, preventative
+maintenance services, repair, and component replacement (submarine).
+(31) Light and medium salvage.
+(32) Dry-docking (ship and submarine) and bearing block inspection.
+(33) Fin inspection, repair, and replacement.
+(34) Shaft seal and wrap (ship and submarine).
+(35) Pitsword and speedlog clean, repair, and replace (ship and submarine).
+(36) Rope guard line removal and repair or replacement (bolted or welded).
+(37) Underwater photography, video, and borescope.
+(38) ROV inspection with broadband global area network and view cast satellite
+uplink.
+38 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+c. Task Organization. RMCs and intermediate maintenance facilities (IMFs) are
+under the command of the NAVSEA Supervisor of Salvage and Diving/Director of
+Ocean Engineering (SUPSALV) 00C (www.supsalv.org). Table 4 lists maintenance
+facility locations and areas of responsibility.
+5. EOD
+a. Mission. EOD personnel detect, identify, render safe, recover, evaluate, and
+dispose of explosive ordnance which has been fired, dropped, launched, projected,
+or placed to constitute a hazard to operations, installations, personnel, or material.
+The mission extends to all EHs and ordnance, particularly in those areas which are
+the responsibility of the Navy; or ordnance discovered within oceans, inlets, bays,
+and harbors.
+b. Capabilities. Navy EOD units integrate into fleet battle groups to support SOF
+and conduct expeditionary MCM operations.
+Table 4.  RMC/IMF and Area of Responsibility 
+Area Regional Maintenance Center 
+(RMC)/Intermediate Maintenance 
+Facility (IMF)
+Area of Responsibility (AOR) 
+Mid-Atlantic RMC, 
+Norfolk, Virginia 
+Supports ships, fast attack submarines (SSN class), 
+aircraft carriers, and craft in port or operating off the 
+east coast of the United States (US). Support 
+forward deployed repair teams in the US Second, 
+Fourth, and Sixth Fleet AORs.
+Southwest RMC, 
+San Diego, California 
+Supports ships, fast attack submarines (SSN class), 
+aircraft carriers, and craft in port or operating off the 
+west coast of the US from the San Francisco Bay to 
+the southern point of South America. Support 
+forward deployed repair teams in the US Fifth and 
+Seventh Fleet AORs.
+Puget Sound Naval Shipyard and 
+IMF, Bremerton, Washington 
+Supports ships, SSNs, aircraft carriers, and craft in 
+port or operating in the Pacific Northwest area from 
+north of San Francisco to the Northern Pacific and 
+Alaska areas, and all US Pacific Fleet ballistic-
+missile and guided-missile submarines (SSBN and 
+SSGN classes).  
+Pearl Harbor Naval Shipyard and IMF,
+Pearl Harbor, Hawaii 
+Supports ships, submarines (excluding SSBN and 
+SSGN classes), aircraft carriers, and craft in port or 
+operating in the Mid-Pacific area.
+Ship Repair Facility and Japan RMC, 
+Yokosuka, Japan
+Supports ships, aircraft carriers, and craft in port or 
+operating in the US Seventh Fleet AOR.
+Legend: 
+SSBN—ballistic missile submarine (nuclear-powered) 
+SSGN—guided missile submarine (nuclear-powered) 
+SSN—submarine (nuclear-powered)
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+39 
+AFTTP 3-2.75/CGTTP 3-95.17 
+(1) Expeditionary MCM companies are dedicated capabilities that support the
+mine warfare (MIW) missions to search, classify, map, acquire, identify, re-
+acquire, countermine or neutralize, recover or exploit, and dispose or eliminate
+hazards. Some hazards include floating, bottom, volume, and buried sea mines
+and IEDs that impede freedom of navigation and are comprised of: one MCM
+PLT, one unmanned system (UMS) PLT, one postmission analysis cell, and one
+expeditionary MCM HQ.
+(a) EOD MCM PLT. These types of PLTs are dedicated to supporting the
+MIW mission and are functionally organized to locate, identify, neutralize,
+recover, exploit, and dispose of underwater ordnance and EHs impeding
+maneuver for friendly forces. MCM PLTs support other MIW platforms and
+units, but are capable of limited independent MCM operations.
+(b) UMS PLT. These types of PLTs, primarily, provide mine exploration,
+reconnaissance, and hunting capabilities in support of MCM operations. In
+addition, they provide fleet support for the purpose of recovering objects,
+mapping other items of interest, and performing intelligence preparation of the
+operational environment. Their focus is on the search, classification, and
+mapping underwater mines and other hazards impeding friendly forces
+dominant maneuver. Each UMS PLT is task organized to support
+simultaneous operations in two disparate locations.
+(c) Expeditionary MCM HQ. These HQ are functionally organized to provide
+command and control over normal manning for an expeditionary MCM HQ
+element.
+(d) MCM PLTs. MCM PLTs provide diving and demolition support,
+intelligence collection, range clearance, and underwater clearance. They also
+provide shore detachment augmentation, riverine operations, Chief of Naval
+Operations project support, contingency, and special operational support.
+MCM PLTs can be a force multiplier to support aircraft and ordnance
+recovery.
+(2) Area Search PLT. This type of PLT employs underwater scanning, ROV and
+UUV capabilities to search for, locate, identify, and mark designated targets in
+support of MDS and EOD operations. An area search PLT scans harbor bottoms
+and waterways to enable freedom to maneuver and restore access to ports and
+facilities.
+c. Task Organization. The Navy organizes EOD forces to support combatant
+commanders. EOD officers within each numbered fleet, combatant commands, and
+theater special operations command provide staff planning support for operational
+EOD activities. (See a force structure flow chart in figure 6.) EOD warfare-qualified
+officers are the subject matter experts for maritime MCM and can direct MCM
+operations at the strategic, operational, and tactical levels.
+40 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+Figure 6. Navy EOD Force Structure 
+(1) Explosive Ordnance Disposal Groups (EODGRUs). Navy EOD operating
+forces are organized under two deployable echelon 4 EODGRUs (see figure 7).
+The EODGRUs are the O-6-led brigade/regimental equivalent HQ that provide
+centralized planning, coordination, and integration of subordinate EOD forces
+relating to movement, control (when exercising operational control), readiness
+and training, administration, and logistics. They are organized to deploy as a
+commander, task force controlling Navy EOD and expeditionary salvage forces
+or as the core of a joint EOD task force. Group staff EOD-qualified personnel
+may be selectively mobilized, individually, as liaison officers to support local,
+regional, littoral, or wartime EOD tasks. The EODGRU exercises Service
+authority over assigned EOD forces to provide EOD services to the operational
+commanders through explosive ordnance disposal mobile units, MDSUs, EOD
+expeditionary support units, and EOD training and evaluation units. For additional
+information on the EOD mission, task organization or planning considerations,
+see JP 3-42.
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+41 
+AFTTP 3-2.75/CGTTP 3-95.17 
+Figure 7. EOD Group Structure 
+6. Navy Undersea Rescue Command
+a. Mission. The mission of the Undersea Rescue Command is to rescue Sailors of
+all nations during a submarine crisis. The goal of the Underwater Rescue Command
+42 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+is to reach a distressed submarine within 96 hours. Its mission is worldwide 
+submarine assessment, intervention, and rescue. 
+b. Capabilities. The unit’s capabilities include a ROV, submarine rescue chamber,
+pressurized rescue module, and two launch and recovery systems. The submarine
+rescue chamber can rescue up to six persons at a time and reach a bottomed
+submarine at depths of 850 feet.
+c. Task Organization. The Undersea Rescue Command is homeported at Naval Air
+Station North Island, Coronado, San Diego, California. The unit is comprised of
+approximately 150 personnel. This includes active duty officer and enlisted Sailors,
+contractors, and reservists.
+d. Concept of Employment. The explanation of the multiple components within this
+command follow.
+(1) The Undersea Rescue Command uses a McCann rescue chamber operated
+by two crewmembers and lowered to the submarine in peril using a tether. Once
+the chamber reaches the submarine, it seals over the submarine’s hatch,
+allowing Sailors to be safely transferred to the rescue chamber from the
+submarine. The submarine rescue chamber is the main component of the
+submarine rescue chamber flyaway system, which is capable of worldwide
+submarine rescue missions. Once launched, the submarine rescue chamber
+flyaway system can operate around the clock. The chamber consists of upper
+and lower compartments. The upper compartment is maintained at atmospheric
+pressure and contains operators, passengers, and controls. The lower
+compartment is flooded at ambient sea pressure and blown dry to transfer
+personnel after mating with a submarine. It contains a downhaul drum and
+spooling device. The ballast tanks are normally dry, but flooded during the mating
+process to add weight.
+(2) The pressurized rescue module, called Falcon, is a tethered, remotely
+operated submarine rescue vehicle. It can dive to depths up to 2,000 feet and
+mate with a disabled submarine trapped on the sea floor up to a 45-degree angle
+in pitch and roll. Two crewmembers operate the pressurized rescue module,
+which can rescue up to 16 people at a time. The module is the main component
+of the submarine rescue diving and recompression system, which can be flown
+anywhere in the world to rescue either US or partner nation submariners in
+distress. The submarine rescue diving and recompression system is designed for
+quick worldwide deployment in the event of a submarine accident. The module is
+transportable by truck, aircraft, or ship.
+(3) The ROV, Sibitzky, consists of a 13.5 foot operations van, a 6.5 foot spares
+van, a winch with 3,000 feet of soft umbilical cord, a launch and recovery system,
+and the vehicle. The vehicle weighs 2,000 pounds, is variably buoyant and has a
+maximum depth of 2,000 feet. It consists of six thrusters for maneuvering, five
+high-definition cameras for intervention and salvage, two robust manipulators
+capable of lifting 100 pounds each, a front-looking sonar system, and an
+advanced navigation system that allows station keeping so the pilot can focus on
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+43 
+AFTTP 3-2.75/CGTTP 3-95.17 
+the work at hand. The ROV is the main component of the 
+assessment/underwater work system, which also includes a launch and recovery 
+system, and flyaway sonar and associated support equipment. This is the first 
+system mobilized in the event a submarine becomes disabled. The system will 
+help confirm and mark the disabled submarine, assess surrounding conditions, 
+clear debris from a submarine’s hatch and provide emergency life support stores 
+replenishment. 
+7. US Navy SEALs
+Naval Special Warfare Command (NAVSPECWARCOM) specializes in maritime special 
+operations and oversees, trains, and equips SEALs. SEAL combat swimming and diving 
+capabilities are covered in detail in chapter VIII. 
+This page intentionally left blank. 
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+45 
+AFTTP 3-2.75/CGTTP 3-95.17 
+Chapter VII 
+UNITED STATES AIR FORCE DIVING 
+1. Overview
+The United States Air Force (USAF) employs combat divers to conduct three missions: 
+personnel recovery (PR), global access, and precision strike. There are USAF divers 
+assigned to Air Combat Command (ACC), Air Force Reserve Command, the Air 
+National Guard, and Pacific Air Forces (PACAF) and United States Air Forces in Europe 
+(USAFE), all as part of the Guardian Angel weapon system; and to Air Force Special 
+Operations Command (AFSOC). The USAF Guardian Angel divers deploy as full units 
+(squadrons) and do not have scalable diving packages. AFSOC special tactics combat 
+divers employ dive teams as part of special tactics teams (STTs). 
+Note: For a detailed description of USAF diver program management, see Air Force 
+Instruction 10-3504, Dive Program, 28 January 2021. 
+2. USAF Guardian Angel Combat Divers
+a. Mission. USAF Guardian Angel combat divers are Pararescuemen and Combat
+Rescue Officers. Their primary mission is to affect PR across the range of military
+operations providing capabilities to support a joint force commander’s objectives and
+directly impact the theater security cooperation goals. Guardian Angel forces plan,
+prepare, execute, and assess PR operations. Executing PR operations includes the
+doctrinal execution tasks of report, locate, support, recover, and reintegrate. PR
+pertains to the recovering personnel only; however, Guardian Angel forces perform
+other recovery operations, to include recovering sensitive technology.
+b. Collateral Missions. These include casualty evacuation, civil search and rescue,
+emergency aeromedical evacuation, and humanitarian assistance and disaster
+relief. Furthermore, they provide international aid, noncombatant evacuation
+operations, support for National Aeronautics and Space Administration flight
+operations, special operations missions, and support to the President of the United
+States.
+c. Capabilities. Guardian Angel is organized as an independent ground force with
+the ability to be augmented by enablers as mission requirements dictate. Guardian
+Angel is deployed in proximity to specialized aviation assets that can provide rapid
+access across the area of operations. Guardian Angel’s ground force capabilities are
+employed by conducting sea, land, and air warfare tasks to recover isolated
+personnel and sensitive equipment. In addition to being employed as ground forces,
+Guardian Angel personnel can act as individual augmentees to other joint and
+coalition forces.
+d. Task Organization.
+(1) Guardian Angel dive capability resides within the USAF PR dive rescue and
+recovery in the Active and Reserve Components’ Guardian Angel rescue
+squadrons. Rescue squadrons deploy with individual and team dive equipment,
+watercraft, and aerial delivery equipment to provide commanders a dive search
+46 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+and rescue capability. See figure 8 for an illustration of a Guardian Angel 
+organization. 
+(2) The theater USAF PR dive rescue and recovery capabilities are embedded in
+expeditionary rescue squadrons and may be collocated with rescue-specialized
+fixed- and rotary-wing aircraft. These squadrons are task organized to provide
+full-spectrum PR missions, including recovery of personnel and sensitive
+equipment.
+Figure 8. USAF Guardian Angel Organization 
+e. Concept of Employment. The USAF employs combat divers as part of the
+combatant commander’s PR capability and provide a rapid response search and
+rescue/recovery capability. USAF PR forces are designed to penetrate hostile areas
+to rescue/recover isolated personnel or sensitive equipment. PR divers are open
+circuit or closed circuit combat divers and skilled in shallow water search and
+rescue/recovery operations. They can conduct dives from shore or surface craft in
+bodies of water at elevations up to 10,000 feet mean sea level. They can conduct
+PR operations up to contaminated water category 3. Once assigned to a combatant
+commander, PR divers are part of the joint force air component commander’s PR
+force. In this capacity, they maintain an on-call alert with USAF fixed- and rotary-
+wing aircraft to provide a quick response, in-land PR capability for combatant
+commanders.
+3. AFSOC Special Tactics Combat Divers
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+47 
+AFTTP 3-2.75/CGTTP 3-95.17 
+a.
+As part of STTs, AFSOC special tactics combat dive teams support humanitarian
+assistance and disaster relief operations and SOF missions for special operations
+component commanders. Special tactics combat dive mission, capabilities, task
+organization, and concept of employment are covered in detail in chapter VIII.
+This page intentionally left blank. 
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+49 
+AFTTP 3-2.75/CGTTP 3-95.17 
+Chapter VIII 
+SPECIAL OPERATIONS FORCES DIVING 
+1. Overview
+SOF maritime operations are options available to a commander to infiltrate and exfiltrate 
+a detachment into or out of a designated area of operations to execute SOF missions. 
+Examples of missions for SOF divers include: tactical reconnaissance, demolition raids 
+against bridges or other maritime structures, and underwater searches for security and 
+recovery (of personnel or equipment). SOF combat divers are task organized in 
+accordance with the assigned mission, and are aligned under a joint special operations 
+task force.  
+2. US Army Special Forces (SF)
+a. Mission. SF use dive operations when required to execute any mission, including
+infiltrating and exfiltrating into or out of a designated area of operations. Other
+missions for SF combat divers include tactical reconnaissance, demolition raids
+against bridges and other maritime structures, and underwater searches for security
+and recovery.
+b. Capabilities. SF combat divers use closed circuit oxygen rebreathers to make low
+visibility, underwater approaches to land or maritime targets. These approaches are
+the last legs of longer infiltration routes that may use air, surface, submarine, or a
+combination of movement assets. Open circuit scuba diving is used for nontactical
+search and recovery. The following six dive mission areas are identified for SF
+combat divers.
+Note: For detailed descriptions, see ATP 3-18.12, Special Forces Waterborne 
+Operations, 14 July 2016.  
+(1) Mobility.
+(2) Countermobility.
+(3) Protection (physical security).
+(4) Infiltration and exfiltration.
+(5) Search and rescue/recovery.
+(6) Hyperbaric chamber operations.
+c. Task Organization. Each SF battalion is comprised of three SF companies. Each
+company has six SF operational detachments. One detachment per company is
+designated as a combat dive team. Therefore, each SF battalion has three combat
+diving teams.
+d. Concept of Employment. The primary objective of SF diving operations is to
+conduct stealthy approaches to preselected beach landing sites where the assault
+force transitions environments to conduct missions ashore. This may be the most
+advantageous avenue of approach, and combined with other movement techniques,
+extends infiltration and exfiltration ranges.
+50 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+3. Marine Forces Special Operations Command (MARFORSOC)
+a. Mission. MARFORSOC recruits, organizes, trains, equips, and deploys task-
+organized, scalable, expeditionary MARSOF worldwide to accomplish special
+operations missions assigned by United States Special Operations Command
+(USSOCOM) or combatant commanders via the theater special operations
+commands.
+b. Capabilities. MARSOF combatant divers are capable of performing the following
+dive mission areas:
+(1) Mobility.
+(2) Infiltration and exfiltration.
+(3) Protection (physical security).
+(4) Search and rescue/recovery.
+c. Task Organization. Headquarters MARFORSOC is located at Camp Lejeune,
+North Carolina. Subordinate commands within MARFORSOC, that maintain a
+combatant dive capability, are the Marine Raider battalions. The 1st, 2nd, and 3rd
+Marine Raider Battalions are located at Camp Lejeune, North Carolina. Each
+battalion has four Marine special operations companies. Each company has four
+Marine special operations teams (MSOTs) with qualified combatant divers.
+d. Concept of Employment. MSOT dive teams employ scuba, MK 25, and the diver
+propulsion device for subsurface, clandestine entry into nonpermissive, uncertain, or
+hostile environments where MSOTs transition to conduct missions that may include
+direct action or special sensitive reconnaissance.
+4. Navy SEAL Team
+a. Mission. NAVSPECWARCOM is the USSOCOM lead component for special
+operations conducted in and around all maritime environments.
+NAVSPECWARCOM trains, equips, organizes, provides resources for, deploys, and
+sustains naval special warfare (NSW) forces. This is in support of the Commander,
+USSOCOM and other combatant commander requirements, including maritime
+direct action, special reconnaissance, security force assistance, and foreign internal
+defense.
+b. Capabilities. NSW forces are tasked with maritime missions that require
+sophisticated combat diving skills which facilitate the clandestine approach and
+assault on targets by swimmers beneath, at, and from the waterline. NSW-unique
+combat swimming operations include:
+(1) Combat swimmer ship attack.
+(2) Underwater demolition raids.
+(3) Harbor reconnaissance.
+(4) Submerged hydrographic reconnaissance.
+(5) Underwater obstacle demolition.
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+51 
+AFTTP 3-2.75/CGTTP 3-95.17 
+(6) Maritime disablement operations.
+c. Task Organization. The NAVSPECWARCOM HQ is a USSOCOM echelon II
+command located in San Diego, California.
+(1) NSW task groups are task organized into three NSW task units, comprised of
+up to three PLTs each. Each NSW task unit can operate as a full task unit or
+three individual PLTs. Moreover, when NSW task units deploy, they may also
+include elements of a special boat detachment, a cross-functional detachment of
+combat support personnel (e.g., EOD or interpreters), an unmanned aerial
+vehicle system detachment, or a combat service support detachment. In any of
+these configurations, NSW task groups have great flexibility in the manner they
+can operate, either as a small contingent, or as an integrated cell within a larger
+amphibious or land-based force.
+(2) The SEAL delivery vehicle team has a similar NSW task unit level capability
+and configuration. These SEAL delivery vehicle task units conduct direct action
+and special reconnaissance missions from various surface and subsurface
+platforms in support of national and combatant command priorities.
+d. Concept of Employment. SEAL combat swimmers specialize in clandestine,
+direct action, and special reconnaissance missions in permissive and nonpermissive
+environments. NAVSPECWARCOM employs an array of open-circuit, semi-closed
+circuit, and closed circuit underwater breathing apparatuses to meet force readiness
+objectives.
+5. United States Air Force Special Operations Command (AFSOC) Special Tactics
+Combat Divers
+a. Mission. Special tactics units provide the interface between sea, air, and land
+assets to synergize the capabilities of each. They produce precise sea, air, ground,
+and space power effects in the operational environment for special operations and
+conventional forces.
+b. Capabilities. AFSOC special tactics combat divers employ dive teams as part of
+special tactics teams (STTs). STTs are task-organized and may include combat
+controller, special tactics officer, pararescuemen, combat rescue officer, and special
+reconnaissance. They employ and operate by sea, air, and land in all environmental
+conditions and terrain. Once assigned to a combatant commander, STTs are part of
+the joint special operations component. In this capacity, special tactics combat
+divers may be attached to other components. All special tactics core capabilities can
+use combat dive as a means of infiltration and exfiltration.
+(1) Precision Strike. This is the ability for joint forces to locate, survey, discern,
+and track objectives or targets; select, organize, and use the correct munitions;
+generate desired effects; assess results; and reengage with decisive speed and
+an overwhelming operating tempo, as required. These include:
+(a) Terminal control operations.
+(b) Joint terminal attack control.
+52 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+(2) Global Access. Global access provides capabilities from air, land, space, and
+cyberspace domains to affect an adversary’s warfighting capacity and to set the
+conditions required by joint forces. Global access enables the strategic reach of
+long-range missiles and multipurpose combat aircraft for a variety of
+complementary missions across the range of military operations. These include
+the following.
+(a) An assault zone assessment or survey.
+(b) Terminal control operations in support of global access.
+(c) Specialized reconnaissance.
+(d) Weather operations and environmental reconnaissance.
+(3) Personnel Recovery. PR is the ability to report, locate and positively identify;
+support, extricate, recover, evaluate; provide triage for, stabilize, transport to
+definitive care; and reintegrate personnel and equipment during SOF and
+humanitarian operations.
+c. Task Organization. AFSOC, Hurlburt Field, Florida.
+(1) Special tactics combat dive capability resides within the Active and Reserve
+Components’ special tactics squadrons (STSs). The commander of the
+expeditionary special tactics unit plans, directs, and coordinates the actions of
+dive teams as part of STTs. The 123rd STS and 125th STS Air National Guard
+units augment the 24th Special Operations Wing.
+d. Concept of Employment. Air Force STS employ open- or closed-circuit dive
+teams as part of the special operations component commander’s forces. In this
+capacity, special tactics divers may be attached to other components or conduct PR
+or global access in support of the joint special operations component, and may be
+tasked to support one or more components of a joint force during the same
+campaign. When employed in a forward theater of operations, special tactics assets
+are assigned to an expeditionary STS reporting directly to the joint special
+operations air component commander.
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+53 
+AFTTP 3-2.75/CGTTP 3-95.17 
+Chapter IX 
+UNITED STATES COAST GUARD DIVING 
+1. Overview.
+a. Although the United States Coast Guard (USCG) is not a DOD entity, a few of its
+dive missions overlap with some of the DOD’s dive mission areas. These include
+categories within mobility, protection (physical security), EH and ordnance disposal,
+and port and harbor clearance operations. The USCG military diver is trained in both
+scuba and surface supplied diving systems. Divers are trained in the use of
+underwater tools and advanced search and recovery techniques to perform such
+complex underwater tasking as aids to navigation or cold water ice diving
+operations.
+Note: For detailed descriptions of policy and procedures for the administration, 
+application, training and execution of all diving operations within the United States 
+Coast Guard can be found in the Diving Program Manual, Commandant Instruction 
+(COMDTINST) M3150.1D.  
+b. Mission. The USCG dive mission is to provide diving capabilities and other
+subsurface equipment and technologies to support all subsurface needs of the
+Service. These capabilities are available to support the 11 statutory USCG missions.
+c. Capabilities. USCG divers provide the following support to the 11 statutory USCG
+missions.
+(1) Ports, Waterways, and Coastal Security. USCG dive teams conduct
+subsurface inspections of piers, vessels, and adjacent shorelines to detect,
+identify, and mark underwater threats. These include mines, parasitic devices,
+IEDs, hazards to navigation, or other conditions that may hazard a vessel or
+critical infrastructure.
+Note: Coast Guard divers are not capable of conducting Render Safe Procedures. Only 
+qualified EOD divers must attempt to render safe underwater ordnance or IEDs. 
+(2) Aids to Navigation. Divers provide the ability to conduct extensive,
+independent aid to navigation operations requiring minimal support. Divers can
+inspect moorings, change out buoys and chains, salvage sunken buoys, and lift
+buoy sinkers. Dive teams dive from small boats allowing them to work on aids to
+navigation in shallow water that are not accessible by buoy tenders. The ability to
+conduct fly-away aid to navigation missions in the aftermath of tropical storms
+affords an immediate response in the event a buoy tender cannot arrive on scene
+in sufficient time to reestablish commerce. This mission includes providing
+subsurface capabilities for aid to navigation units and waterways managers in
+support of the maritime transportation system.
+(3) Drug Interdiction. The mission includes subsurface searches and inspections
+of piers, bridges, vessels, adjacent shorelines, and any other maritime
+infrastructure or structure to detect, identify, mark, and recover potential
+contraband.
+54 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+(4) Defense Readiness. This mission includes operations, exercises, and joint
+training with other US military Services and allied and partner nations. This
+mission also includes underwater ship husbandry tasks in support of defense
+readiness for the underway fleet.
+(5) Other Law Enforcement. This mission includes search and recovery of
+weapons, human remains, and other evidence in support of USCG law
+enforcement or other agencies. USCG divers provide diving subject matter
+expertise support for USCG investigations and case prosecution.
+(6) Migrant Interdiction. This mission includes assisting in the enforcement of
+immigration laws at sea to interdict and process illegal and undocumented
+migrants as far from US shores as possible. USCG divers provide support to this
+mission set as requested by operational commanders.
+(7) Marine Safety. This mission includes a variety of underwater tasks that
+support maritime safety. These include such as identification and removal of
+hazards to navigation, channel clearance for reestablishment of maritime
+transportation systems following natural or man-made disasters, and assistance
+in marine casualty investigations.
+(8) Living Marine Resources. This mission includes environmental surveys and
+search/recovery of derelict fishing nets and other marine debris. It also includes
+oceanographic research and scientific sampling.
+(9) Marine Environmental Protection. This mission includes oil spill response,
+hazardous materials response, other search and recovery, and investigation of
+hazards to the marine environment.
+(10) Ice Operations. This mission includes hull maintenance, damage
+assessments, and repair of USCG ice breakers and other cutters operating in the
+polar latitudes, and other mission areas requiring subsurface capabilities in the
+vicinity of floating ice environments. The US Navy-USCG Memorandum of
+Agreement on the Operation of Ice Breakers of 22 June 1965, commits the
+USCG to maintaining diving and salvage services in polar latitudes.
+(11) Search and Rescue. This mission includes, but is not limited, underwater
+search, identification, and potential rescue or recovery of persons, vehicles,
+vessels, and aircraft.
+2. Task Organization.
+a. The USCG has designated three primary duty regional dive lockers (RDLs) which
+all function within the Operations Department of USCG Maritime Security Response
+Team West (MSRT West). The names and locations of each dive locker are:
+(1) Regional Dive Locker East, Portsmouth, Virginia.
+(2) Regional Dive Locker West, San Diego, California.
+(3) Regional Dive Locker Pacific, Honolulu, Hawaii.
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+55 
+AFTTP 3-2.75/CGTTP 3-95.17 
+b. USCG RDLs were primarily designed, resourced, and equipped to support Coast
+Guard ports, ports waterways and coastal security; aids to navigation; ice
+operations; and defense readiness missions. RDLs operate in diverse environments
+that include the inland, coastal, offshore regions; homeland and US littorals; polar
+regions; and open ocean for subsurface operations. RDLs are organized to support
+all primary missions as a deployable, adaptive force package provider with
+capabilities to perform both pre-planned and short notice operations. RDLs can
+rapidly deploy a dive team within 24 hours of notification to conduct subsurface
+operations in most global environmental conditions.
+c. The RDLs operate under the operational control and tactical control of MSRT-
+West commanding officer. Tactical control is normally delegated to a sector
+commander or specific joint, interagency, or coalition task force commander. The
+most demanding projected operating environments for a RDL is a short notice
+deployment to an arctic environment.
+d. Each RDL has 15- to 18-active duty diver billets assigned under the supervision
+of a command diving officer.
+e. When deployed, RDLs have limited organic logistics capabilities. The supported
+commander must provide berthing, messing, medical care (other than first
+responder), appropriate towing vehicles, and marine support platforms with
+adequate capacity for operations.
+f. RDLs are equipped, trained, and outfitted to conduct operations in the following
+environments:
+(1) Inland, coastal, and offshore zones as well as homeland and US littorals,
+forward regions and open ocean segments with direct logistical support in all
+regions the USCG executes missions.
+(2) Air temperatures ranging from tropical climates (over 100° F) to arctic
+conditions (-30° F), and water temperatures ranging from 95º F to 28º F.
+(3) Day and night conditions.
+(4) All underwater visibility conditions, from zero to unlimited.
+(5) RDLs can respond to intelligence driven events or be pre-positioned.
+(6) RDLs require external support for all organizational and depot level
+maintenance for engineering and electronics equipment.
+3. Inter-Service Operations.
+a. All US military divers receive the same baseline training and strictly follow the
+diving protocols set forth in reference SS521-AG-PRO-010.
+b. USCG divers are authorized to operate with other US military diving units to the
+extent that qualifications allow.
+(1)
+USCG divers are authorized to integrate only with other US military divers.
+USCG divers must not serve as the diving supervisor or designated person in
+charge of non-US military divers. USCG divers may operate in the vicinity of and
+56 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+in coordination with non-US military dive teams. Performing any diving, 
+supervising, or other diving related roles with non-US military divers is prohibited. 
+(2) When conducting inter-Service diving operations, the unit leading the mission
+is responsible for verifying the qualifications of all divers
+4. Employment Considerations and Limitations
+USCG divers shall not be employed as combatants.
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+57 
+AFTTP 3-2.75/CGTTP 3-95.17 
+Appendix A 
+DIVE MISSION AREA UNIT CAPABILITY CHART 
+Table 4 provides a breakdown of capability by dive unit type. The units are grouped with 
+their Services and categorized by either full or limited capability. 
+Full capability means this dive mission area is a primary task this unit is trained and 
+equipped to conduct. Limited capability means this dive mission area is a task this unit 
+may be able to perform based on skill sets inherent in primary tasks. However, the unit 
+may be limited by equipment or the unit has not trained to this task. 
+Dive teams consisting of personnel from different Services are possible, but require 
+additional coordination compared to those composed of a single Service. There have 
+been instances where multiple Services are involved in a diving operation. For example, 
+Army divers do not necessarily specialize in underwater ship repair on Navy ships. 
+However, if Army divers are the only dive team in an area, Naval Sea Systems 
+Command or Navy Expeditionary Combat Command can provide an engineer or subject 
+matter expert who can augment the Army dive team to provide the technical knowledge 
+and authority to conduct repairs on Navy ships. It is important to understand that, as 
+needed, divers can augment units already in theater to accomplish nearly any diving 
+operation.  
+58 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+Table 5.  Dive Mission Area Unit Capability Reference Chart 
+Unit 
+Army Engineer Diver 
+Army Special Forces 
+Marine Combatant Diver (Note 1) 
+Mobile Diving Salvage Unit  
+Navy Underwater Construction 
+Teams  
+Navy Regional Maintenance Centers 
+Navy Explosive Ordnance Disposal 
+Units 
+Navy Undersea Rescue Command 
+SEALs 
+Air Force Special Tactics (Note 2) 
+Air Force Guardian Angel 
+Coast Guard 
+MOBILITY
+Structure, bridge, 
+fording site 
+reconnaissance 
+F 
+F 
+F 
+L 
+F 
+L 
+F 
+L 
+L 
+L 
+River reconnaissance 
+F 
+L 
+L 
+F 
+F 
+L 
+L 
+L 
+L 
+L 
+Obstacle reduction 
+F 
+L 
+L 
+F 
+F 
+L 
+L 
+L 
+L 
+L 
+Barrier installation (for 
+structures) 
+F 
+L 
+L 
+L 
+L 
+L 
+Underwater survey 
+- High resolution
+F 
+L 
+L 
+L 
+L 
+L 
+L 
+- Medium resolution
+F 
+L 
+F 
+F 
+L 
+F 
+L 
+- Low resolution
+F 
+F 
+F 
+F 
+L 
+F 
+F 
+L 
+Very shallow water 
+L 
+L 
+L 
+L 
+F 
+F 
+L 
+COUNTERMOBILITY
+Obstacle emplacement 
+F 
+L 
+F 
+F 
+Bridge demolition 
+F 
+F 
+L 
+L 
+F 
+L 
+F 
+PROTECTION (PHYSICAL SECURITY)
+Passive or active 
+detection methods 
+F 
+L 
+L 
+F 
+F 
+F 
+F 
+L 
+L 
+Security swims 
+L 
+F 
+F 
+F 
+F 
+F 
+L 
+L 
+L 
+F 
+Physical security 
+inspections 
+F 
+L 
+L 
+F 
+F 
+F 
+F 
+L 
+L 
+L 
+F 
+Vulnerability 
+assessments 
+L 
+L 
+F 
+L 
+F 
+F 
+L 
+L 
+Contraband search 
+F 
+L 
+L 
+F 
+L 
+F 
+F 
+L 
+L 
+L 
+F 
+EXPLOSIVE ORDNANCE DISPOSAL AND EXPLOSIVE HAZARDS
+Locate and mark 
+L 
+L 
+L 
+F 
+F 
+F 
+F 
+F 
+L 
+L 
+L 
+Render safe and 
+dispose (ordnance) 
+F 
+Render safe and 
+dispose (hazards) 
+F 
+Marine mammal 
+system operations 
+F 
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+59 
+AFTTP 3-2.75/CGTTP 3-95.17 
+Table 5.  Dive Mission Area Unit Capability Reference Chart (Cont’d) 
+Unit 
+Army Engineer Diver 
+Army Special Forces 
+Marine Combatant Diver (Note 1) 
+Mobile Diving Salvage Unit 
+Navy Underwater Construction 
+Teams 
+Navy Regional Maintenance Centers 
+Navy Explosive Ordnance Disposal 
+Units 
+Navy Undersea Rescue Command 
+SEALs 
+Air Force Special Tactics (Note 2) 
+Air Force Guardian Angel 
+Coast Guard 
+INFILTRATION AND EXFILTRATION
+Infiltration and 
+Exfiltration 
+F 
+F 
+L 
+F 
+F 
+L 
+MARITIME DISABLEMENT OPERATIONS
+Maritime disablement 
+operations 
+L 
+UNDERWATER SHIP HUSBANDRY
+Inspection 
+F 
+F 
+L 
+F 
+L 
+L 
+Maintenance 
+F 
+F 
+L 
+F 
+L 
+L 
+Repair 
+F 
+F 
+L 
+F 
+L 
+L 
+Battle damage 
+assessment and repair 
+L 
+L 
+F 
+- Temporary repair
+F 
+F 
+F 
+L 
+- Permanent repair
+L 
+L 
+F 
+UNDERWATER CONSTRUCTION
+Underwater 
+construction 
+F 
+L 
+F 
+L 
+PORT AND HARBOR CLEARANCE OPERATIONS
+Planning and 
+inspection 
+F 
+F 
+F 
+F 
+F 
+L 
+L 
+Hydrographic and 
+bathymetric survey 
+F 
+L 
+F 
+F 
+L 
+F 
+L 
+F 
+L 
+Clearance 
+F 
+L 
+F 
+F 
+L 
+L 
+F 
+L 
+Repair 
+F 
+F 
+F 
+L 
+Construction 
+F 
+F 
+L 
+JOINT LOGISTICS OVER-THE-SHORE
+Survey 
+F 
+F 
+F 
+L 
+Obstacle reduction 
+F 
+F 
+F 
+L 
+L 
+L 
+Medium salvage 
+F 
+F 
+L 
+L 
+L 
+Anchoring system 
+recovery and repair 
+F 
+F 
+F 
+L 
+L 
+60 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+Table 5.  Dive Mission Area Unit Capability Reference Chart (Cont’d) 
+Unit 
+Army Engineer Diver 
+Army Special Forces 
+Marine Combatant Diver (Note 1) 
+Mobile Diving Salvage Unit 
+Navy Underwater Construction 
+Teams 
+Navy Regional Maintenance Centers 
+Navy Explosive Ordnance Disposal 
+Units 
+Navy Undersea Rescue Command 
+SEALs 
+Air Force Special Tactics (Note 2) 
+Air Force Guardian Angel 
+Coast Guard 
+JOINT LOGISTICS OVER-THE-SHORE (Cont’d)
+Causeway anchor 
+installation 
+F 
+L 
+F 
+OFFSHORE PETROLEUM DISCHARGE SYSTEM
+Single-anchor, leg-
+mooring system 
+installation 
+L 
+L 
+F 
+L 
+Hydrographic surveys 
+F 
+L 
+F 
+L 
+Beach approach 
+improvement 
+L 
+F 
+Obstacle clearance 
+F 
+L 
+F 
+Pipeline anchoring to 
+the seafloor 
+F 
+L 
+F 
+Pipeline inspection 
+F 
+L 
+F 
+L 
+SALVAGE
+Light (less than 10 
+tons) 
+F 
+F 
+L 
+F 
+L 
+L 
+Medium (10 to 75 tons) 
+F 
+F 
+L 
+L 
+L 
+Heavy (greater than 75 
+tons) 
+L 
+F 
+L 
+SEARCH AND RESCUE/RECOVERY
+Physical searches 
+F 
+L 
+F 
+F 
+F 
+F 
+F 
+L 
+F 
+F 
+F 
+Recovery 
+F 
+L 
+F 
+F 
+F 
+L 
+F 
+L 
+F 
+F 
+L 
+Dewatering 
+F 
+F 
+F 
+L 
+Submarine rescue 
+L 
+F 
+CONDUCT DISASTER RESPONSE MEASURES
+Plans and 
+assessments 
+F 
+F 
+F 
+F 
+L 
+Obstacle removal 
+F 
+L 
+F 
+F 
+L 
+L 
+L 
+L 
+Repair retaining 
+structures 
+F 
+F 
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+61 
+AFTTP 3-2.75/CGTTP 3-95.17 
+Table 5.  Dive Mission Area Unit Capability Reference Chart (Cont’d) 
+Unit 
+Army Engineer Diver 
+Army Special Forces 
+Marine Combatant Diver (Note 1) 
+Mobile Diving Salvage Unit 
+Navy Underwater Construction 
+Teams 
+Navy Regional Maintenance Centers 
+Navy Explosive Ordnance Disposal 
+Units 
+Navy Undersea Rescue Command 
+SEALs 
+Air Force Special Tactics (Note 2) 
+Air Force Guardian Angel 
+Coast Guard 
+CONDUCT DISASTER RESPONSE MEASURES (Cont’d)
+Hydrographic survey 
+validation 
+F 
+L 
+L 
+F 
+L 
+L 
+HYPERBARIC CHAMBER OPERATIONS
+Hyperbaric chamber 
+F 
+L 
+L 
+F 
+F 
+F 
+L 
+L 
+Notes: 
+1. The US Marine Corps has a limited capability (under the hyperbaric chamber section) with
+the Expeditionary Hyperbaric Chamber and Transportable Recompression Chamber Systems.
+Not all Marine expeditionary units deploy with this capability, so it is necessary to specify if
+diving capabilities are needed in mission requirements. See appendix C for amplification.
+2. US Air Force special tactics units that have assigned pararescuemen have full search and
+rescue capabilities. Units without pararescuemen have limited search and rescue capabilities.
+See appendix E for amplification.
+Legend: 
+F—full capability 
+L—limited capability 
+US—United States
+This page intentionally left blank.
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+63 
+AFTTP 3-2.75/CGTTP 3-95.17 
+Appendix B 
+DIVE POINTS OF CONTACT LIST 
+When conducting planning for an operation, it is important to have knowledge of where 
+all the diving assets are stationed across the Services. This is helpful if Services need to 
+request diving assets across Services or would like diving assistance for an exercise or 
+would like to request diving assets prior to a deployment. Table 6 provides a point of 
+contact list. 
+Table 6.  Dive Points of Contact List 
+United States (US) Army 
+Unit 
+Location 
+Contact Data 
+Army Chief Diving Supervisor; United 
+States (US) Army Engineer School 
+(USAES). Senior advisor on Engineer 
+diving operations to brigade, division, 
+theater, and regimental leadership. 
+Fort Leonard 
+Wood, Missouri 
+Commercial: 573-563-
+7611 
+email: 
+usarmy.leonardwood.engin
+eer-schl.mbx.chief-diving-
+supervisor@mail.mil
+74th, 86th, 511th, and 569th  
+US Army Engineer Dive 
+Detachments (these units fall under 
+the 92nd Engineer Battalion, 20th 
+Engineer Brigade, XVIII Airborne 
+Corps in Fort Bragg, North Carolina, 
+Missouri and support US Forces 
+Command).
+Joint Base 
+Langley-Eustis, 
+Virginia 
+Commercial: 
+74th: 757-878-8233 
+86th: 757-878-8338 
+511th: 757-878-8378 
+569th: 757-878-8333
+Defense Switched Network 
+(DSN) Prefix: 826 
+7th Engineer Dive Detachment, 84th 
+Engineer Battalion, 130th Engineer 
+Brigade, 8th Theater Sustainment 
+Command. Supports US Indo-Pacific 
+Command. 
+Joint Base Pearl 
+Harbor-Hickam, 
+Hawaii  
+Commercial: 808-787-
+0090/3275/0055/0045; 
+DSN: 315-437-
+0090/3275/0055/0045 
+Theater Dive Detachment (this 
+rotation is out of Joint Base Langley-
+Eustis until they deploy). It supports 
+US Central Command.
+Kuwaiti Navy 
+Base, Kuwait 
+Commercial: 9-011-965-
+975-8573/9-011-964-7128;
+DSN: 318-839-1066/1067
+US Army Special Operations 
+Command
+Fort Bragg, 
+North Carolina
+Commercial: 910-432-
+2069 
+US Marine Corps
+I Marine Expeditionary Force (MEF), 
+bases in California and Arizona 
+(divers are only in Camp Pendleton, 
+California)
+Camp 
+Pendleton, 
+California 
+Commercial: 760-725-
+9690 
+II MEF Force 
+Camp Lejeune, 
+North Carolina
+Commercial: 910-440-
+7720/7725
+64 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+Table 6.  Dive Points of Contact List (Cont’d) 
+US Marine Corps (Cont’d) 
+III MEF: 3d Reconnaissance 
+Battalion
+Okinawa, Japan 
+Commercial: 081-611-725-
+2527
+III MEF, 3d Reconnaissance 
+Battalion, Force Reconnaissance 
+Company
+Okinawa, Japan 
+Commercial: 081-611-725-
+5018 
+Marine Forces Special Operations 
+Command (The US Marine Corps 
+Raider Regiment only supports 
+Marine Forces Special Operations 
+Command and includes 1st, 2d, and 
+3d Raider Battalions).
+Camp Lejeune, 
+North Carolina 
+Commercial: 910-451-
+3575 
+Headquarters, United States Marine 
+Corps, Ground Combat Element 
+Branch for Plans, Policy, and 
+Operations 
+Washington, 
+District of 
+Columbia 
+Commercial: 703-692-
+4306 
+US Navy
+Mobile Diving and Salvage Unit 
+(MDSU) Unit 1
+Pearl Harbor, 
+Hawaii 
+Commercial: 808-471-
+9292
+MDSU Unit 2 
+Joint Base Little 
+Creek-Fort 
+Story, Virginia
+Commercial: 757-462-
+8801 
+Navy Seabee: Underwater 
+Construction Team (UCT) 1
+Virginia Beach, 
+Virginia 
+Commercial: 757-462-
+3984
+Navy Seabee: UCT 2 
+Port Hueneme, 
+California 
+Commercial: 805-982-
+5948
+Navy Regional Maintenance Center 
+(RMC): Norfolk Naval Shipyard
+Portsmouth, 
+Virginia 
+Commercial: 757-443-
+3872
+Norfolk Naval Shipyard divers
+Norfolk, Virginia 
+Commercial:757-444-9632 
+RMC and intermediate maintenance 
+facilities (IMFs): Southeast RMC 
+Mayport, Florida 
+Commercial: 904-270-
+5126, ext. 3179 
+RMC and IMF: Southwest RMC 
+San Diego, 
+California 
+Commercial: 619-556-
+1501 
+RMC and IMF: Northwest RMC 
+Puget Sound Naval Shipyard 
+Bremerton, 
+Washington 
+Commercial: 202-781-
+0000
+Navy RMC and IMF: Pearl Harbor 
+Naval Shipyard and IMF
+Pearl Harbor, 
+Hawaii 
+Commercial: 808-368-
+0304 
+RMC and IMF: US Naval Ship Repair 
+Facility and Japan-RMC
+Yokosuka, 
+Japan 
+Commercial: 011-81-46-
+816-4578/4579
+Navy Explosive Ordnance Disposal: 
+Explosive Ordnance Disposal Group 
+(EODGRU) 1
+San Diego, 
+California 
+Commercial: 619-437-
+3700 
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+65 
+AFTTP 3-2.75/CGTTP 3-95.17 
+Table 6.  Dive Points of Contact List (Cont’d) 
+US Navy (Cont’d) 
+EODGRU 2 
+Virginia Beach, 
+Virginia
+Commercial: 757-917-
+6800
+Navy Undersea Rescue Command 
+Naval Air 
+Station, North 
+Island, San 
+Diego, California
+Commercial: 619-545-
+9138 
+Naval Sea Systems Command 
+(NAVSEA) Supervisor of Salvage 
+and Diving/Director of Ocean 
+Engineering  
+Washington 
+Navy Yard, 
+Washington, 
+District of 
+Columbia 
+Commercial: 202-781-
+1731/3453;  
+Fax: 202-781-4588 
+Emergency NAVSEA duty 
+officer : 202-781-3889
+Naval Special Warfare Command 
+San Diego, 
+California 
+Commercial: 619-522-
+2825; 
+Naval Special Warfare Group 3: 
+Undersea Proponent
+Pearl Harbor, 
+Hawaii
+Commercial:808-472-
+0544; 
+US Air Force
+Headquarters Air Force, A3S 
+(AFSPECWAR) 
+US Air Force Dive Program Manager 
+Pentagon, 
+Washington, 
+District of 
+Columbia 
+Commercial: 703-695-
+4522;  
+DSN 225-4522;  
+Email: 
+AF.A3S.Workflow@us.af.
+mil
+Air Force Special Operations 
+Dive/Maritime Program Manager 
+Hurlburt Field, 
+Florida 
+Commercial: 850-884-
+4077;  
+DSN: 579-4077;  
+email: 
+AFSOC.A3TG@us.af.mil
+US Coast Guard
+Coast Guard Diving Program: 
+Commandant  
+Washington, 
+District of 
+Columbia
+Commercial: 202-372-
+1294 
+Coast Guard Dive Force 
+Management  
+Alameda, CA 
+Commercial: 510-437-
+3659; email: 
+cgdive@uscg.mil
+This page intentionally left blank. 
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+67 
+AFTTP 3-2.75/CGTTP 3-95.17 
+Appendix C 
+COMMON EQUIPMENT 
+1. Description of Common Equipment
+Note: Dive units have multiple equipment packages based on the type of mission and 
+term of deployment. Contact units for transportation considerations since most 
+packages are scalable to meet mission requirements. 
+a. Rebreather. Rebreathers are closed-circuit oxygen or mixed-gas underwater
+breathing apparatuses primarily used by the United States Special Operations
+Command community. This equipment combines the mobility of a free-swimming
+diver with the depth advantages of mixed gas. The term closed circuit refers to the
+recirculation of 100 percent of the mixed-gas breathing medium and results in
+bubble free operations. There are multiple rebreathers across the Services, these
+include the MK 25, MK 16, and Viper.
+b. Scuba. Scuba divers do not need to be tethered. Scuba divers are limited by the
+amount of air in their tanks and to currents up to one knot.
+c. Surface Supplied Diving. Divers are tethered by an umbilical which provides
+surface-stored air to the diver. Surface supplied equipment gives a diver relatively
+unlimited air and allows dives to depths of 190 feet of seawater (FSW) using air or
+300 FSW using mixed gas (helium and oxygen). A diver using surface-supplied
+diving equipment can work in currents up to 2.5 knots, any current above 1.5 knots
+requires additional weights. Surface-supplied divers have limited mobility based on
+the length of their air supply hose, typically 300 to 600 feet.
+2. Equipment Capabilities by Service
+Table 7 provides an overview of which units use each piece of common equipment.
+Table 7.  Common Equipment 
+Dive Unit 
+Diving 
+Apparatus 
+Depth 
+(FSW) 
+Minimum Manning 
+(For use of 
+equipment) 
+Army 
+Engineer Diver 
+Scuba 
+190 
+4 
+Surface supplied 
+190 
+6 
+Special Forces 
+Scuba 
+190 
+4 
+MK 25 
+50 
+5 
+Marine Corps 
+Combatant Diver 
+Scuba 
+190 
+4 
+MK 25 
+50 
+6 
+Viper 
+50 
+4 
+68 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+Table 7.  Common Equipment (Cont’d) 
+Dive Unit 
+Diving 
+Apparatus 
+Depth 
+(FSW) 
+Minimum Manning 
+(For use of 
+equipment) 
+Navy 
+Mobile Diving Salvage Units, 
+Regional Maintenance Centers, 
+Underwater Rescue Command 
+Scuba 
+190 
+4 
+MK 16 
+300 
+4 
+Surface 
+supplied 
+190 Air 
+5 
+300 HeO2
+12
+Underwater Construction Team 
+Scuba 
+190 
+4 
+Surface 
+supplied
+190 Air 
+5 
+Explosive Ordnance Disposal 
+Scuba 
+190 
+4 
+MK 16 
+300 
+4 
+Viper 
+50 
+4 
+SEAL Team 
+Scuba 
+190 
+4 
+MK 16 
+300 
+5 
+MK 25 
+50 
+5 
+MODE 
+50
+5
+Air Force 
+Special Tactics 
+Scuba 
+190 
+4 
+MK 25
+50
+5
+MODE 
+50 
+5 
+Guardian Angel 
+Scuba 
+190 
+4 
+Coast Guard 
+Diver 
+Scuba
+190
+4
+Surface 
+supplied
+190 
+6 
+Operational Considerations: 
+A hyperbaric chamber may be required for any dive based on risk and planning
+considerations.
+Scuba dives deeper than 100 FSW require additional equipment and risk assessment
+mitigation. This diving is not common.
+Scuba dives deeper than 130 FSW require commander approval.
+Notes: 
+1. MK 25, MK 16, and MODE are closed-circuit, mixed-gas, underwater breathing
+apparatuses.
+2. Viper is a closed-circuit, mixed-gas rebreather model underwater breathing apparatus.
+Legend:  
+FSW—feet of seawater 
+HeO2—helium and oxygen mixture 
+MODE—modular oxygen diving equipment
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+69 
+AFTTP 3-2.75/CGTTP 3-95.17 
+REFERENCES 
+JOINT PUBLICATIONS 
+DOD Dictionary of Military and Associated Terms, November 2022 
+JP 1, Vol 1, Joint Warfighting, (Reference Copy)  
+JP 1, Vol 2, The Joint Force, 19 June 2020 
+JP 3-0, Joint Campaigns and Operations, 18 June 2022  
+JP 3-42, Joint Explosive Ordnance Disposal, 14 September 2022 
+ARMY 
+ATP 3-18.12, Special Forces Waterborne Operations, 16 December 2022. 
+TM 3-34.83, Engineer Diving Operations, 2 August 2013 
+MARINE CORPS 
+Marine Corps Order 3150.4A, Marine Corps Diving Policy and Program Administration, 
+22 October 2015 
+Marine Corps Order 5600.31, Marine Corps Printing, Publishing, and Reprographics 
+Equipment Regulations, 17 January 2018 
+MCRP 2-10A.6, Ground Reconnaissance Operations, 25 November 2015 (Change 1, 
+04 April 2018) 
+NAVY 
+COMPACFLT/COMUSFLTFORCOM Instruction 4740.1K, Salvage, Recovery, Towing, 
+and Offshore Oil Spill Response Operations, 27 June 12 
+NAVSUP Publication 409, MILSTRIP MILSTRAP Desk Guide, April 2003 
+NAVFAC P-992, UCT Arctic Operations Manual, 1 January 1994 
+Naval Sea Systems Command, US Navy Salvor’s Handbook Revisions 1, 1 January 
+2021 
+NTRP 4-04.2.8, Conventional Underwater Construction and Repair Techniques, August 
+2011 
+NTRP 4-04.2.9, Expedient Underwater Construction and Repair Techniques, August 
+2011 
+OPNAV Instruction F3501.97H Ch-1, OPNAV Required Operational 
+Capabilities/Projected Operational Environment For Explosive Ordnance Disposal 
+Group Forces, 20 April 2011  
+OPNAV Instruction 4740.2H, Salvage and Recovery Program, 07 January 2021 
+SS521-AG-PRO-010, US Navy Diving Manual Revision 7, 01 December 2016 (Change 
+A, 30 April 2018) 
+70 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+AIR FORCE 
+Air Force Instruction 10-3504, Dive Program, 28 January 2021 
+Department of the Air Force Instruction 33-360, Publications and Forms Management, 6 
+January 2017 
+COAST GUARD 
+COMDTINST M3150.1D, Diving Program Manual, 28 July 2017 
+COMDTINST M3501.11 (series), Required Operational Capabilities (ROC) and 
+Projected Operational Environment (POE) for Coast Guard Regional Dive Lockers 
+OTHER PUBLICATIONS 
+USSOCOM Manual 350-4V1, (O) Maritime Training and Operations Manual VOL1--
+Combat 
+RECOMMENDED READING 
+JP 3-05, Joint Doctrine for Special Operations, 22 September 2020 
+JP 3-50, Personnel Recovery, 2 October 2015  
+JP 5-0, Joint Planning, 1 December 2020 
+OPNAV Instruction 3150.27D, Navy Diving Policy and Joint Military Diving Technology 
+and Training Program, 01 March 2021 
+SS521-AJ-PRO-010, Guidance for Diving in Contaminated Waters Revision 2, 04 
+October 2019 
+Air Force Tactics, Techniques, and Procedures 3-3, Guardian Angel, 21 October 2016 
+WEBSITES 
+www.navsea.navy.mil 
+www.armypubs.army.mil 
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+71 
+AFTTP 3-2.75/CGTTP 3-95.17 
+GLOSSARY 
+PART I - ABBREVIATIONS AND ACRONYMS 
+A
+ACC 
+Air Combat Command 
+Admin 
+administration 
+AF 
+Air Force 
+AFRC 
+Air Force Reserve Command 
+AFSOC 
+Air Force Special Operations Command 
+AFTTP 
+Air Force tactics, techniques, and procedures 
+ALSSA 
+Air Land Sea Space Application [Center] 
+ANG 
+Air National Guard 
+AOR 
+area of responsibility 
+ASP 
+area search platoon 
+ATP 
+Army techniques publication 
+B 
+BDA 
+battle damage assessment 
+C
+CCDR 
+combatant commander 
+CEXC 
+combined explosives exploitation cell 
+CGTTP 
+Coast Guard tactics, techniques, and procedures 
+CO 
+company 
+COMDTINST 
+Commandant instruction (USCG) 
+D
+DHS 
+Department of Homeland Security 
+DSCA 
+defense support of civil authorities 
+DOD 
+Department of Defense 
+DSN 
+Defense Switched Network 
+E
+EH 
+explosive hazard 
+EOD 
+explosive ordnance disposal  
+EODESU 
+explosive ordnance disposal expeditionary support unit 
+EODGRU 
+explosive ordnance disposal group (USN) 
+EODMU 
+explosive ordnance disposal mobile unit 
+72 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+EODTEU 
+explosives ordnance disposal training and evaluation unit 
+F, G
+FARC 
+flyaway recompression chamber 
+FSW 
+feet of seawater 
+ft 
+feet 
+H
+HD 
+homeland defense 
+HQ 
+headquarters 
+I
+IED 
+improvised explosive device 
+IHEODTD EXU1 
+Indian Head Explosive Ordnance Disposal Technology 
+Division Expeditionary Exploitation Unit 1 
+IMF 
+intermediate maintenance facility 
+J, K
+JCS 
+Joint Chiefs of Staff 
+JLOTS 
+joint logistics over-the-shore 
+JP 
+joint publication 
+JTF 
+joint task force 
+L
+LCDR 
+lieutenant commander (USN) 
+LOTS 
+logistics over-the-shore 
+LT 
+lieutenant (USN) 
+M
+MARFORSOC 
+Marine Forces Special Operations Command 
+MARSOF 
+Marine special operations forces 
+MCM 
+mine countermeasures 
+MCPO 
+master chief petty officer 
+MCRP 
+Marine Corps reference publication 
+MDS 
+mobile diving and salvage 
+MDSU 
+mobile diving and salvage unit 
+MDV 
+master diver 
+MEF 
+Marine expeditionary force 
+MEU 
+Marine expeditionary unit 
+MIW 
+mine warfare 
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+73 
+AFTTP 3-2.75/CGTTP 3-95.17 
+MOB 
+mobilization 
+MSOT 
+Marine special operations team 
+MSRT West 
+Maritime Security Response Team West 
+MTTP 
+multi-Service tactics, techniques, and procedures 
+N
+NAVFAC 
+Naval Facilities Engineering Systems Command 
+NAVSEA 
+Naval Sea Systems Command 
+NAVSOF 
+Navy special operations forces 
+NAVSPECWARCOM 
+Naval Special Warfare Command 
+NCO 
+noncommissioned officer 
+NDC 
+Navy diver chief 
+NECC 
+Navy Expeditionary Combat Command 
+NSW 
+naval special warfare 
+NSWC 
+Naval Surface Warfare Center 
+NSWC IHEODTD 
+Naval Surface Warfare Center, Indian Head Explosive 
+Ordnance Disposal Technology Division 
+NTRP 
+Navy tactical reference publication 
+NTTP 
+Navy tactics, techniques, and procedures 
+NWDC 
+Navy Warfare Development Center 
+O
+OIC 
+officer in charge 
+OPDS 
+offshore petroleum discharge system 
+OPNAV 
+Office of the Chief of Naval Operations 
+P, Q
+PACAF 
+Pacific Air Forces 
+PGI 
+procedures, guidance, and information 
+PR 
+personnel recovery 
+PLT 
+platoon 
+R 
+RDL 
+regional dive locker 
+RFA 
+request for assistance  
+RMC 
+regional maintenance center 
+ROV 
+remotely operated vehicle 
+74 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+RQS 
+rescue squadron 
+RQW 
+rescue wing 
+S
+S-1
+personnel officer 
+S-3
+operations staff officer 
+S-4
+logistics officer 
+S-6
+communications system officer 
+S-7
+training staff officer 
+SALM
+single-anchor leg mooring 
+SF
+special forces 
+SOF
+special operations forces 
+SSBN
+ballistic missile submarine (nuclear-powered) 
+SSGN
+guided missile submarine (nuclear-powered) 
+SSN
+submarine (nuclear-powered) 
+STS
+special tactics squadron 
+STT
+special tactics team 
+SUPSALV
+Supervisor of Salvage and Diving 
+T
+TECOM 
+Training and Education Command 
+TOA 
+table of allowance 
+TYCOM 
+type commander 
+U
+UCT 
+underwater construction team 
+UMS 
+unmanned system 
+US 
+United States 
+USAFE 
+United States Air Forces in Europe 
+USCG 
+United States Coast Guard 
+USMC 
+United States Marine Corps 
+USN 
+United States Navy 
+USSOCOM 
+United States Special Operations Command 
+UUV 
+unmanned underwater vehicle 
+UXO 
+unexploded ordnance 
+16 June 2023 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+75 
+AFTTP 3-2.75/CGTTP 3-95.17 
+V, W, X, Y, Z
+VOO 
+vessels of opportunity 
+VSW 
+very shallow water 
+PART II – TERMS AND DEFINITIONS 
+global force management—Processes that align directed readiness, force 
+assignment, apportionment, and allocation methodologies to support strategic 
+guidance. Also called GFM. (DOD Dictionary. Source: JP 3-35) 
+joint logistics over-the-shore operations—Operations in which Navy and Army 
+logistics over-the-shore forces conduct logistics over-the-shore operations 
+together under a joint force commander. Also called JLOTS operations. (DOD 
+Dictionary. Source: JP 4-01.6) 
+logistics over-the-shore operations—The loading and unloading of ships without the 
+benefit of deep draft-capable, fixed port facilities; or as a means of moving forces 
+closer to tactical assembly areas dependent on threat force capabilities. Also 
+called LOTS operations. (DOD Dictionary. Source: JP 4-01.6) 
+Marine special operations forces—Those Active Component Marine Corps forces 
+designated by the Secretary of Defense that are specifically organized, trained, 
+and equipped to conduct and support special operations. Also called MARSOF 
+(DOD Dictionary. Source: JP 3-05) 
+salvage—1. Property that has some value in excess of its basic material content but is 
+in such condition that it has no reasonable prospect of use for any purpose as a 
+unit and its repair or rehabilitation for use as a unit is clearly impractical. 2. The 
+saving or rescuing of condemned, discarded, or abandoned property, and of 
+materials contained therein, for reuse, refabrication, or scrapping. (DOD 
+Dictionary. Source: JP 4-0) 
+SEAL delivery vehicle team—United States Navy forces organized, trained, and 
+equipped to conduct special operations with SEAL delivery vehicles, dry deck 
+shelters, and other submersibles. (DOD Dictionary. Source: JP 3-05) 
+SEAL team—United States Navy forces organized, trained, and equipped to conduct 
+special operations with an emphasis on maritime, coastal, and riverine 
+environments. (DOD Dictionary. Source: JP 3-05) 
+76 
+ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/ 
+16 June 2023 
+AFTTP 3-2.75/CGTTP 3-95.17 
+search and rescue—The use of aircraft, surface craft, submarines, and specialized 
+rescue teams and equipment to search for and rescue distressed persons on 
+land or at sea in a permissive environment. Also called SAR. (DOD Dictionary. 
+Source: JP 3-50) 
+*ATP 3-34.84
+MCRP 3-10.2
+NTTP 3-07.7
+AFTTP 3-2.75
+CGTTP 3-95.17 
+16 June 2023 
+DISTRIBUTION: Active Army, Army National Guard, and United States Army Reserve.  
+Distributed in electronic media only (EMO). 
+By Order of the Secretary of the Air Force 
+WILLIAM G. HOLT II  
+Major General, USAF 
+Commander 
+Curtis E. LeMay Center for Doctrine Development 
+and Education 
+ACCESSIBILITY: 
+Publications and forms are available on the e-Publishing website 
+at www.e-publishing.af.mil for downloading or ordering. 
+RELEASABILITY: 
+Approved for public release, distribution is unlimited. 
+* Supersedes ATP 3-34.84/MCRP 3-10.2/NTTP 3-07.7/AFTTP 3-2.75/CGTTP 3-95.17, 
+dated 02 January 2019.
+By Order of the Secretary of the Army: 
+JAMES C. MCCONVILLE 
+General, United States Army 
+Chief of Staff 
+Official: 
+MARK F. AVERILL 
+Administrative Assistant 
+to the Secretary of the Army 
+ 2316408 
+This page intentionally left blank. 
+This page intentionally left blank. 
+MARINE CORPS PCN: 144 000198 01 
+PIN: 104822-000

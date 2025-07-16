@@ -1,0 +1,2121 @@
+ 
+ 
+ 
+ 
+BY ORDER OF THE  
+   AIR FORCE PAMPHLET 10-219, 
+SECRETARY OF THE AIR FORCE 
+ VOLUME 4 
+ 
+26 June 2024 
+ 
+ 
+Operations 
+ 
+ 
+AIRFIELD DAMAGE REPAIR (ADR) CAPABILITIES 
+ 
+ 
+ACCESSIBILITY: This publication is available for downloading or ordering on the e- 
+ 
+Publishing website at www.e-Publishing.af.mil. 
+ 
+RELEASABILITY: There are no releasability restrictions on this publication. 
+ 
+OPR: AF/A4CX 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Certified by: AF/A4C 
+ 
+Supersedes:  AFPAM10-219V4, 28 May 2008 
+ 
+ 
+ 
+ 
+        Pages: 44 
+ 
+This publication supports Air Force Instruction (AFI) 10-209, RED HORSE Program, AFI 10-
+210, Prime Base Engineer Force Program, and Air Force Doctrine Publication 3-34, Engineer 
+Operations. It provides engineering, operations, and logistics planners an introduction and 
+overview of contingency Airfield Damage Repair (ADR) capabilities. This publication applies to 
+all DAF civilian employees and uniformed members of the Regular Air Force, the Air Force 
+Reserve, and the Air National Guard civil engineer units. This publication does not apply to the 
+United States Space Force. Refer recommended changes and questions about this publication to 
+the Office of Primary Responsibility using the Department of the Air Force (DAF) Form 847, 
+Recommendation for Change of Publication; route DAF Forms 847 from the field through the 
+appropriate functional chain of command and Major Command publications/ forms managers. 
+Ensure all records generated as a result of processes prescribed in this publication adhere to AFI 
+33-322, Records Management and Information Governance Program and are disposed in 
+accordance with the Air Force Records Disposition Schedule, which is located in the Air Force 
+Records Information Management System. The use of the name or mark of any specific 
+manufacturer, commercial product, commodity, or service in this publication does not imply 
+endorsement by the DAF. 
+ 
+SUMMARY OF CHANGES 
+This document has been substantially revised and must be completely reviewed. In addition to 
+updating terminology and references, it has been reorganized as a planning document to provide 
+an overview of ADR capabilities and how each supports the Air Force Force Generation 
+(AFFORGEN) Force Elements (FE) of Open the Airbase, Command and Control, Establish the 
+Airbase, Operate the Airbase (including sustain and recover), Robust the Airbase, and Demand 
+Force Teams. Hands-on tactics, techniques and procedures (TTPs) were transferred to Air Force 
+TTPs (AFTTPs) and referenced within this document where appropriate. 
+ 
+ 
+2 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+Chapter 1—INTRODUCTION 
+6 
+1.1. Overview. ................................................................................................................. 6 
+Table 1.1. ADR Related UTC Roles across Selected AFFORGEN Force Elements. ............... 6 
+1.2. AFFORGEN Model and Force Elements. ................................................................ 8 
+Figure 1.1. AFFORGEN Model. ................................................................................................ 8 
+Figure 1.2. AFFORGEN Force Elements. .................................................................................. 9 
+1.3. Tactics, Techniques, and Procedures. .................................................................... 11 
+Table 1.2. Airfield Damage Repair Air Force Tactics, Techniques, and Procedures.............. 11 
+Table 1.3. Additional Airfield Damage Repair Technical Publications .................................. 11 
+Chapter 2—AIRFIELD DAMAGE REPAIR (ADR) UNIT TYPE CODES (UTC) 
+13 
+2.1. Overview. ............................................................................................................... 13 
+2.2. 4F9AD—Airfield Pavements Evaluation Team. ................................................... 13 
+Figure 2.1. Conducting Airfield Pavement Evaluation. ........................................................... 13 
+2.3. 4F9DA—Damage Assessment. .............................................................................. 13 
+2.4. 4F9RH—RED HORSE Repair Team Equipment. ................................................. 13 
+2.5. 4F9RQ—RED HORSE Site Assessment Equipment. ........................................... 14 
+2.6. 4F9X1—EOD Core Equipment. ............................................................................ 14 
+2.7. 4F9X3—EOD Base Support Sustainment Equipment. .......................................... 14 
+2.8. 4F9X5—EOD Explosive Storage Kit. ................................................................... 14 
+2.9. 4F9X8—EOD Demolition Materials. .................................................................... 14 
+2.10. 4F9XN-EOD Agile Combat Employment Support. ............................................ 14 
+2.11. 4FPRL (Active Duty)/4FPRK (Air Reserve Component)—RED HORSE Air  
+ 
+Insert Engineer Repair Team ............................................................................... 15 
+2.12. 4FPRQ—RED HORSE Site Assessment Team. .................................................. 15 
+Figure 2.2. Airman Going Out for Site Assessment. ................................................................ 15 
+2.13. 4FPXC—EOD Leadership Support Element. ...................................................... 15 
+2.14. 4FPXD—Explosive Ordnance Disposal (EOD) Core/Response Team. .............. 15 
+Figure 2.3. EOD Technician Probing for Unexploded Explosive Ordnance (UXO). .............. 16 
+2.15. 4FPXG—EOD Flight Leadership Element. ......................................................... 16 
+2.16. 4FWAB—RADR Asphalt Repair Materials. ....................................................... 16 
+Figure 2.4. Airmen Finishing Asphalt Cap Repair Material. ................................................... 16 
+2.17. 4FWAE—RADR AC Batch Plant. ...................................................................... 16 
+Figure 2.5. Airmen Batching Asphalt for Crater Repairs. ........................................................ 17 
+AFPAM10-219V4   26 June 2024 
+ 
+3 
+ 
+ 
+ 
+2.18. 4FWAM—Expansion AM-2 Mat and Support Equipment. ................................ 17 
+Figure 2.6. Engineers Rapidly Expanding Aircraft Parking Ramp with AM-2. ...................... 17 
+2.19. 4FWCM—RADR Concrete Repair Materials. .................................................... 17 
+2.20. 4FWCR—RADR Crater Repair Equipment. ....................................................... 17 
+Figure 2.7. Airmen Using Screed to Finish Rapid-Set Capping Repair Material. ................... 18 
+Figure 2.8. Crater Repair Vehicles in Action. .......................................................................... 18 
+2.21. Water and Fuel Expedient Repair System (WaFERS). ........................................ 18 
+Figure 2.9. Examples of WaFERS Consolidated Tools and Equipment. ................................. 19 
+Figure 2.10. A Bypass Repair. .................................................................................................. 19 
+Figure 2.11. Airmen Performing Line Patch Repair. ............................................................... 20 
+Figure 2.12. Repairing Piping with Lay Flat Hose. .................................................................. 20 
+Figure 2.13. Installed Tank Patch. ............................................................................................ 21 
+Figure 2.14. Water and Fuel Pump with Hoses Connected. ..................................................... 21 
+Figure 2.15. Trailer Mounted Fuel Filter System. .................................................................... 22 
+2.22. 4FWE1—EOD Vehicle, MRAP, Cougar Cat I .................................................... 22 
+Figure 2.16. MRAP Cougar. ..................................................................................................... 22 
+2.23. 4FWEA—Expeditionary Airfield Damage Repair .............................................. 23 
+2.24. 4FWFC—AM-2 Crater FOD Cover. ................................................................... 23 
+Figure 2.17. Airmen Constructing an AM-2 FOD Cover. ........................................................ 23 
+2.25. 4FWFD—RADR FOD Removal Vehicles. ......................................................... 23 
+Figure 2.18. Vacuum Sweeper Removing FOD from MAOS. ................................................ 23 
+2.26. 4FWFR—Fiber Reinforced Polymer (FRP) Matting FOD Cover. ...................... 24 
+Figure 2.19. Airmen Constructing FRP FOD Cover. ............................................................... 24 
+2.27. 4FWMS—Minimum Airfield Operating Surface (MAOS) Marking Kit. ........... 24 
+Figure 2.20. MAOS Marking System Components. ................................................................ 24 
+2.28. 4FWPS—ADR Paint Striping Kit. ....................................................................... 25 
+Figure 2.21. Paint Striping Machine Example. ........................................................................ 25 
+2.29. 4FWSP—Sustainment, Pavement Repair (SuPR) Kit. ........................................ 25 
+Figure 2.22. Views of SuPR Kit Contents. ............................................................................... 25 
+2.30. 4FWSR—Expedient Spall Repair Kit. ................................................................. 26 
+Figure 2.23. Airman Performing Expedient Spall Repair. ....................................................... 26 
+2.31. 4FWWH—RADR Warehouse Vehicles. ............................................................. 26 
+Figure 2.24. Warehouse Vehicles Delivering & Unloading Repair Materials at Repair Zone. .. 26 
+4 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+2.32. 7E1AK—Airborne Airfield Assessment Team. ................................................... 26 
+Figure 2.25. Airborne Airfield Assessment Team Preparing for Airfield Survey. .................. 27 
+2.33. 7E1A3—Airfield Assessment Team. ................................................................... 27 
+2.34. 7E1A2—Airfield Survey Team. .......................................................................... 27 
+2.35. 9AAB4—PACAF Contingency Response Group. ............................................... 27 
+2.36. Expedient Trim Pad Anchoring and Contingency Aircraft Tie-Down Anchors. . 27 
+Figure 2.26. 12-Stake Earth Anchor System. ........................................................................... 28 
+Figure 2.27. Steel Plate and Rod Trim Pad System. ................................................................. 28 
+Figure 2.28. Neenah Mooring Eye. .......................................................................................... 29 
+2.37. UFMAC—20 Ton Tractor 6 x 4. ......................................................................... 29 
+Figure 2.29. 20-Ton Tractor 6 x 4. ........................................................................................... 29 
+2.38. XFWR4—Mobile Aircraft Arresting System. ..................................................... 30 
+Figure 2.30. Mobile Aircraft Arresting System Installed with Mobile Runway Edge Sheave. .. 30 
+2.39. XFWYC—Emergency Airfield Lighting. ............................................................ 30 
+Figure 2.31. Airmen Installing EALS Strobe Segment. ........................................................... 30 
+Chapter 3—OPEN THE AIRBASE CAPABILITIES 
+31 
+3.1. Overview. ............................................................................................................... 31 
+3.2. Capabilities. ............................................................................................................ 31 
+Table 3.1. ADR Assess the Airbase Capabilities. ................................................................... 31 
+Table 3.2. ADR Capabilities to Establish a MOS. .................................................................. 32 
+Chapter 4—ESTABLISH THE AIRBASE CAPABILITIES 
+33 
+4.1. Overview. ............................................................................................................... 33 
+4.2. Capabilities. ............................................................................................................ 33 
+Table 4.1. ADR Capabilities to Establish the Airfield. ........................................................... 33 
+Chapter 5—OPERATE THE AIRBASE CAPABILITIES (SUSTAIN AND RECOVER) 35 
+5.1. Overview. ............................................................................................................... 35 
+5.2. Sustaining Airfield Pavement. ................................................................................ 35 
+Table 5.1. ADR Sustain the Airbase Capabilities. .................................................................. 35 
+5.3. Rapid Airfield Damage Recovery. ......................................................................... 35 
+Table 5.2. RADR Recover the Airfield Capabilities. .............................................................. 36 
+Chapter 6—ROBUST THE AIRBASE CAPABILITIES 
+38 
+6.1. Overview. ............................................................................................................... 38 
+6.2. Capabilities. ............................................................................................................ 38 
+AFPAM10-219V4   26 June 2024 
+ 
+5 
+ 
+ 
+ 
+Table 6.1. ADR Capabilities to Robust the Airfield. ............................................................... 38 
+Attachment 1—GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 39 
+Attachment 2—ENGINEER REACHBACK AND OTHER USEFUL LINKS 
+44 
+ 
+ 
+6 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+Chapter 1 
+ 
+INTRODUCTION 
+ 
+1.1. Overview. The objective of Airfield Damage Repair (ADR) is to enable combat forces to 
+operate across the full range of military operations by achieving the desired primary effect of rapid 
+projection and application of Joint US combat airpower worldwide, from both enduring and non-
+enduring bases, in highly contested and non-contested environments. Airfield damage repair, as 
+related to Air Force civil engineers, encompasses capabilities required to rapidly repair aircraft 
+operating surfaces in order to open, establish, operate (including sustain and recover), and provide 
+robust airfield operations, whether the airfield is seized from the enemy, owned by the United 
+States, or offered for use by a host nation. This chapter overviews ADR and ADR Unit Type Codes 
+(UTC), Chapter 2 provides a brief description of each UTC’s capability, and chapters 3 through 
+6 describe capabilities performed within the Air Force Force Generation (AFFORGEN) Force 
+Elements (FE). Additional resources for engineer doctrine and standards may be found using the 
+engineer Reachback links in Attachment 2. 
+ 
+1.1.1. Engineers restore deteriorated airfields, sustain temporary repairs while operating at high 
+operational tempo on substandard and/or aged pavements, and rapidly recover damaged 
+airfields after an enemy conventional attack. The pavement repairs support a mix of rotary-
+wing, fighter, tanker, and airlift missions from the same operating surfaces. To reduce or 
+eliminate impact to high operations tempos, repairs must be durable and sustainable. 
+ 
+1.1.2. This pamphlet provides engineering, operations, and logistics planners an overview 
+of USAF civil engineer capabilities required to accomplish the ADR mission. Specifically, it 
+describes ADR capabilities required for opening, establishing, operating, sustaining, and 
+recovering airfields. It references source documents that provide tactics, techniques, and 
+procedures for craftsmen to execute ADR capabilities described in this pamphlet. Hands-on, 
+step-by-step repair procedures are covered in their respective technical orders (TO), or Air 
+Force Tactics, Techniques, and Procedures (AFTTPs) listed at the end of this chapter or 
+referenced in this pamphlet. Table 1.1 lists ADR-related UTCs and selected Force Elements 
+and sustainment activities the UTCs fall within. 
+ 
+Table 1.1. ADR Related UTC Roles across Selected AFFORGEN Force Elements. 
+UTC 
+Title 
+Open Establish 
+Operate 
+(Sustain & 
+Recover) 
+Robust 
+4F9AD Airfield Pavements Evaluation Team 
+X 
+ 
+X 
+ 
+4F9DA Damage Assessment 
+X 
+X 
+X 
+X 
+4F9RH RH Air-Land Repair Equipment 
+X 
+ 
+ 
+ 
+4F9RQ RH Site Assess Equipment 
+X 
+ 
+ 
+ 
+4F9X1 EOD Core Equipment 
+ 
+ 
+X 
+ 
+4F9X3 EOD Base Support Sustainment Equip. 
+ 
+ 
+X 
+X 
+4F9X5 EOD Explosive Storage Kit 
+ 
+ 
+X 
+X 
+AFPAM10-219V4   26 June 2024 
+ 
+7 
+ 
+ 
+ 
+UTC 
+Title 
+Open Establish 
+Operate 
+(Sustain & 
+Recover) 
+Robust 
+4F9X8 EOD Demolition Materials 
+ 
+ 
+X 
+X 
+4F9XN EOD Agile Combat Employment 
+Support 
+X 
+X 
+X 
+ 
+4FPRK RH Air-Land Repair Team 
+X 
+ 
+ 
+ 
+4FPRL RH Air Land/Insert Repair Team 
+X 
+ 
+ 
+ 
+4FPRQ RH Site Assess Team 
+X 
+ 
+ 
+ 
+4FPXC EOD Leadership Support Element 
+ 
+ 
+X 
+X 
+4FPXD EOD Core Response Team 
+X 
+X 
+X 
+X 
+4FPXG EOD Flight Leadership Element 
+ 
+ 
+X 
+X 
+4FWAB RADR Asphalt Repair Materials 
+ 
+X 
+X 
+X 
+4FWAE RADR AC Batch Plant 
+ 
+X 
+X 
+X 
+4FWAM Expeditionary AM-2 Mat Spt. Equip. 
+ 
+X 
+X 
+X 
+4FWCM RADR Concrete Repair Materials 
+ 
+X 
+X 
+X 
+4FWCR RADR Crater Repair Equipment 
+ 
+X 
+X 
+X 
+4FWCT WaFERS-Common Tools & Equip. 
+ 
+X 
+X 
+ 
+4FWEA Expeditionary Airfield Damage Repair 
+ 
+ 
+X 
+ 
+4FWE1 EOD Vehicle, MRAP, Cougar Cat I 
+ 
+ 
+X 
+X 
+4FWFC AM-2 Crater FOD Cover 
+X 
+X 
+X 
+ 
+4FWFD RADR FOD Removal Vehicles 
+X 
+X 
+X 
+ 
+4FWFF WaFERS-Fuel Filter 
+ 
+X 
+X 
+ 
+4FWFP WaFERS-Water and Fuel Pump 
+ 
+X 
+X 
+ 
+4FWFR Fiber Reinforced Polymer Matting 
+X 
+X 
+X 
+ 
+4FWLH WaFERS-Lay Flat Hose 
+ 
+X 
+X 
+ 
+4FWMS MAOS Marking Kit 
+X 
+X 
+X 
+ 
+4FWPS ADR Paint Striping Kit 
+ 
+X 
+X 
+ 
+4FWRB WaFERS-Repair, Bypass, and Line-Patch 
+ 
+X 
+X 
+ 
+4FWSP Sustainment Pavement Repair Kit 
+ 
+X 
+X 
+ 
+4FWSR Expedient Spall Repair Kit 
+X 
+X 
+X 
+ 
+4FWTP WaFERS-Tank Patch 
+ 
+X 
+X 
+ 
+4FWWH RADR Warehouse Vehicles 
+ 
+X 
+X 
+ 
+7E1AK Airborne Airfield Assess Team (CRE) 
+X 
+ 
+ 
+ 
+7E1A3 Airfield Assessment Team (CRE) 
+X 
+ 
+ 
+ 
+7E1A2 Airfield Survey Team (CRE) 
+X 
+ 
+ 
+ 
+9AAB4 PACAF Contingency Response Grp 
+X 
+ 
+ 
+ 
+N/A 
+Exp. Trim Pad Anchoring Kit 
+ 
+X 
+ 
+X 
+8 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+UTC 
+Title 
+Open Establish 
+Operate 
+(Sustain & 
+Recover) 
+Robust 
+N/A 
+Exp. Aircraft Tie-down Points 
+ 
+X 
+ 
+X 
+UFMAC 20 Ton Tractor 6x4 
+ 
+ 
+X 
+ 
+XFWR4 Mobile Aircraft Arresting System 
+ 
+X 
+X 
+ 
+XFWYC Emergency Airfield Lighting System 
+X 
+X 
+X 
+ 
+Note: To ensure availability of RADR equipment and expendable repair materials, it must be 
+properly stored and maintained.  
+ 
+1.2. AFFORGEN Model and Force Elements. The Air Force generates and presents Airmen and 
+airpower to support the Joint Force using the AFFORGEN model (Figure 1.1) and Force Elements 
+(Figure 1.2) addressed below. Note: Force generation and presentation continues to evolve 
+through lessons learned from implementation of AFFORGEN and continued development of 
+operational concepts such as Agile Combat Employment (ACE). Personnel should anticipate 
+changes related to force construct and presentation. See paragraph 1.2.3 for transitions related to 
+AFFORGEN model and force elements.  
+ 
+1.2.1. The current AFFORGEN model creates a 24‐month rotational cycle (Phases of 
+Readiness) with 6‐month phases. There are four rotational phases of readiness in the 
+AFFORGEN cycle: Reset (for reintegration and reconstitution), Prepare (for training towards 
+peak readiness), Certify (for certification), Available to Commit (for deployment). 
+ 
+Figure 1.1. AFFORGEN Model. 
+ 
+ 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+9 
+ 
+ 
+ 
+Figure 1.2. AFFORGEN Force Elements. 
+ 
+ 
+1.2.2. Under the AFFORGEN model, a Force Element (FE) is an integrated set of UTCs the 
+Air Force uses to offer operational capability to Joint Force Commanders. Joint Force 
+Commanders request AFFORGEN Force Elements through the Global Force Management 
+(GFM) process. Note:  The default force elements the Air Force offers to Joint Force 
+Commanders to run airbases consist of the Command and Control (C2), Establish the Airbase 
+(EAB), and Operate the Airbase (OAB) force elements. Expeditionary Airbase (XAB) is the 
+GFM-recognized term for these combined force elements. Below is a brief overview of each 
+AFFORGEN Force Element and related civil engineer roles: 
+ 
+1.2.2.1. Open the Airbase FE. Provides capabilities to open an airbase, regardless of follow-
+on mission. It arrives first and assesses an airbase for establishment of minimum airfield 
+operating parameters. FE sourcing is based on the specific conditions and requirements of 
+individual austere airfields. CE personnel, including RED HORSE and those assigned to 
+Contingency Response Groups, airfield assessment teams, and other small units responsible 
+for specific initial assessment and repair tasks will likely deploy with the Open the Airbase 
+FE. Then, after completing their tasks, redeploy home to reconstitute or forward deploy to 
+open a different site. 
+ 
+1.2.2.2. Command and Control (C2) FE. Provides the capabilities to establish an Air 
+Expeditionary Wing C2 structure to include initial wing, operations, maintenance, mission 
+support, and medical group commanders and staffs. Prime Base Engineer Emergency Force 
+(BEEF) units tasked to beddown and sustain forces at a given site typically deploy a 
+command and control cadre with the Command and Control FE, with the remainder of the 
+tasked Prime BEEF forces deploying with the Establish the Airbase and later FEs. 
+ 
+1.2.2.3. Establish the Airbase (EAB) FE. Provides sufficient forces to bring an airbase to 
+initial operating capability (IOC) status. It contains capabilities to support most missions or 
+weapon systems and will integrate with Open the Airbase and C2 FEs as required. The EAB 
+FE provides the airfield’s earliest capability to enable and sustain mission generation. Air 
+Force civil engineers have a significant role when tasked to establish or develop contingency 
+locations supporting Air Force missions and operations, including providing expedient 
+pavement and infrastructure repairs for airfield operations. 
+ 
+ 
+10 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+1.2.2.4. Operate the Airbase (OAB) FE. Enhances combat support and combat service 
+support capabilities beyond what the EAB FE provides and brings an airbase to full operating 
+capability. OAB enhances force protection, communications, cargo handling, and quality of 
+life activities such as Chaplain Corps, services, health care, and reach‐back capabilities. Civil 
+engineers sustain flying operations with day-to-day maintenance of pavement surfaces and, 
+when necessary, rapidly recover airfields after an enemy conventional attack. 
+ 
+1.2.2.5. Mission Generation FE. Provides combat, combat support (those that are specifically 
+identified on the aviation/operational UTC’s mission capability statement), and combat 
+service support capability. Mission Generation FEs include Air Superiority, Global Precision 
+Attack, Suppression of Enemy Air Defenses, Long Range Strike, High‐Altitude Intelligence, 
+Surveillance, and Reconnaissance, Air Refueling, Intra‐Theater Airlift, and Combat Search 
+and Rescue. 
+ 
+1.2.2.6. Robust the Airbase FE. Provides additional combat support and combat service 
+support to increase the robustness of the capabilities already in place through previous FEs. 
+It supports multiple Mission Generation FEs through additive capability. This FE is intended 
+to enable the largest‐scale enduring expeditionary operating locations. Civil engineers robust 
+airfield operations with capabilities such as aircraft trim pads, aircraft tie-downs, upgrading 
+expeditionary arresting systems with semi-permanent systems, capping crushed stone repairs 
+with semi-permanent materials to eliminate foreign object debris (FOD) hazards, and 
+expanding aircraft parking ramps and taxiways. 
+ 
+1.2.2.7. Demand Force Teams (DFT). Teams composed primarily of UTCs from units or 
+capabilities that operate independently, including unique, highly specific, combat, combat 
+support, or combat service support capabilities. Example DFT capabilities include but are 
+not limited to the Expeditionary Medical Support System, RED HORSE, and Tactical Air 
+Control Party. 
+ 
+1.2.3. The AFFORGEN model and force elements continue to evolve from lessons learned 
+during implementation. Anticipated changes, in the near-term, may impact force construct and 
+presentation, force elements (FE), UTCs, Mission Capability (MISCAP) statements, and 
+combat service support teams. The expeditionary air base (XAB) will persist as the Air Force 
+transitions to the Air Task Force (ATF) construct. 
+ 
+1.2.3.1. The ATF consists of a Command Element and staff, an Expeditionary Air Base 
+Squadron (EABS) for base operating support; a Mission Generation FE to project air power; 
+and a Mission Sustainment Team (MST) to enable remote operations under the ACE concept 
+of operations.  
+ 
+1.2.3.2. Once implemented, the new ATF construct may continue to evolve and shape force 
+posture and presentation across the spectrum of military operations as we learn and 
+implement best practices. This progression may include significant changes to personnel and 
+equipment UTCs and MISCAPs listed and described in this publication. A good approach is 
+to stay informed on projected changes and maintain flexibility during the transition. 
+ 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+11 
+ 
+ 
+ 
+1.3. Tactics, Techniques, and Procedures. The TTPs for ADR and Rapid Airfield Damage 
+Recovery (RADR) continues to evolve, incorporating improved technology, materials, and 
+equipment. As new TTPs are developed and approved, they are incorporated into new or updated 
+AFTTPs. Table 1.2 lists currently available ADR-related AFTTPs and Table 1.3 lists additional 
+technical publications associated with ADR operations. 
+ 
+Table 1.2. Airfield Damage Repair Air Force Tactics, Techniques, and Procedures. 
+ 
+ADR Related AFTTPs 
+AFTTP 3-32.10 
+Introduction to Rapid Airfield Damage Recovery (RADR) 
+AFTTP 3-32.11 
+Airfield Damage Assessment after Major Attack 
+AFTTP 3-32.12 
+Minimum Airfield Operating Surface (MAOS) Selection and Repair 
+Quality Criteria (RQC) 
+AFTTP 3-32.13 
+Airfield Marking and Striping after Major Attack 
+AFTTP 3-32.14 
+Alternate Installation Sequence for Emergency Airfield Lighting System 
+after Major Attack 
+AFTTP 3-32.15 
+Rapid Setback Installations of Mobile Arresting Gear System 
+AFTTP 3-32.16 
+Sustaining Airfield Pavement at Enduring Contingency Locations 
+AFTTP 3-32.17 
+Rapid Airfield Crater and Spall Repair 
+AFTTP 3-32.18 
+Rapid Airfield Damage Repair Warehouse Operations 
+AFTTP 3-32.19 
+Rapid Airfield Damage Repair Asphalt Batch Plant Operations 
+AFTTP 3-32.22 
+Water and Fuel Expedient Repair System (WaFERS) 
+AFTTP 3-32.5V6 
+Explosive Ordnance Disposal (EOD) Unexploded Explosive Ordnance 
+(UXO) Response Operations 
+ 
+Table 1.3. Additional Airfield Damage Repair Technical Publications. 
+ 
+ADR Technical References 
+T.O. 35E2-2-7-WA-1 
+AM-2 Airfield Landing Mat and Accessories 
+T.O. 35E2-5-1-WA-1 
+Crushed Stone Crater Repair and Line-of-Sight Profile 
+Measurement for Rapid Runway Repair 
+TSPWG M 3-270-01.3-270-07 
+Airfield Damage Repair 
+UFC 3-250-03 
+Standard Practice Manual for Flexible Pavements 
+UFC 3-250-08FA 
+Standard Practice for Sealing Joints and Cracks in Rigid 
+and Flexible Pavements 
+UFC 3-250-09FA 
+Aggregate Surfaced Roads and Airfields Areas 
+UFC 3-250-11 
+Soil Stabilization and Modification for Pavements 
+UFC 3-260-02 
+Pavement Design for Airfields 
+UFC 3-260-03 
+Standard Practice for Airfield Pavement Evaluation 
+12 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+ADR Technical References 
+UFC 3-260-04 
+Airfield and Heliport Marking 
+UFC 3-260-11FA 
+Model Design-Build (D-B) Request for Proposal (RFP) For 
+Airfield Contracts 
+UFC 3-260-16 
+O&M Manual: Standard Practice for Airfield Pavement 
+Condition Surveys 
+UFC 3-260-17 
+Dust Control for Roads, Airfields and Adjacent Areas 
+UFC 3-270-01 
+O&M Manual: Asphalt and Concrete Pavement 
+Maintenance and Repair 
+ 
+ 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+13 
+ 
+ 
+ 
+Chapter 2 
+ 
+AIRFIELD DAMAGE REPAIR (ADR) UNIT TYPE CODES (UTC) 
+ 
+2.1. Overview. This chapter provides engineering, operations, and logistics planners with ADR 
+capability (UTC) descriptions. Most ADR UTCs are not paired with dedicated personnel UTCs; 
+ADR tasks are performed by in-place forces (either permanent party or beddown forces) and 
+augmented with deployed forces when necessary. The Civil Engineer Supplement to the War and 
+Mobilization Plan-Volume 1 (WMP-1) lists and describes all CE personnel and equipment UTCs. 
+Because there are many combinations of CE personnel UTCs capable of performing ADR tasks, 
+Prime BEEF personnel UTCs will not be discussed within this pamphlet; however RED HORSE, 
+Contingency Response forces, and Explosive Ordnance Disposal personnel UTCs are discussed 
+where applicable. 
+ 
+2.2. 4F9AD—Airfield Pavements Evaluation Team. Utilizes destructive and non-destructive 
+techniques to evaluate pavement structural integrity (Figure 2.1). Provides proof loading of 
+aircraft anchoring systems, friction characteristics testing, technical expertise and guidance for the 
+design, construction and repair of airfield pavements in support of regional conflict operations at 
+contingency operating locations, aerial ports, enroute bases, or critical stateside bases to include 
+humanitarian relief operations. Contact the Air Force Civil Engineer Center (AFCEC) Reachback 
+Center (850-283-6995, DSN 523-6995 or AFCEC.RBC@us.af.mil) for more information. 
+ 
+Figure 2.1. Conducting Airfield Pavement Evaluation. 
+ 
+ 
+2.3. 4F9DA—Damage Assessment. Provides remote sensing and geospatial information system 
+technologies to perform airfield damage assessment to recover an airfield after attack. Personnel 
+requirements are identified in AFTTP 3-32.12 and must be sourced from the following personnel 
+beddown UTCs when in-place forces are not available: 4FPET, 4FPAV, and 4FPXC. 
+ 
+2.4. 4F9RH—RED HORSE Repair Team Equipment. Specialized air insertable equipment 
+UTC that gives air land/sling load RED HORSE the capability to make expedient airfield damage 
+repairs and provide a quick assessment of follow-on deployment needs. Provides equipment to 
+perform initial site survey assessment (GeoReach); demolition of obstructions; expedient force 
+14 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+protection construction; airfield surface repairs for C-130/C-17 operations; EALS installation; 
+potable water source testing; and pavement evaluations. This UTC is linked with 4FPRL. 
+ 
+2.5. 4F9RQ—RED HORSE Site Assessment Equipment. This UTC provides equipment for site 
+assessment engineer force to perform advanced airfield survey, site layout, and planning for 
+establishment and future development of an operating location during contingencies. 
+ 
+2.6. 4F9X1—EOD Core Equipment. Specialized equipment and explosives required in the initial 
+EOD support of major combat, contingency, and homeland operations. Equipment and explosives 
+are loaded on vehicles to ensure EOD response teams arrive with and can employ all required 
+equipment and personnel from a single aircraft. Provides limited capability to assess and mitigate 
+chemical, biological, radiological, and nuclear (CBRN) threats. UTC must be paired with (1) 
+UFM3X, Up-armored high mobility multi-purpose wheeled vehicle, (1) UFMTB, Hi-mobility 
+Trailer, vehicle UTCs, and (1) 4FPXD personnel UTC to be fully mission capable. Vehicle 
+support is paramount to this capability. UTC contains sensitive/mission critical EOD equipment 
+requiring an EOD escort (4FPXC or 4FPXD UTC) during transport. 
+ 
+2.7. 4F9X3—EOD Base Support Sustainment Equipment. EOD specialized response team 
+equipment and explosives required to provide base sustainment in support of major combat, 
+contingency, and homeland operations where EOD Core UTCs (4F9X1) already exist or are 
+scheduled for deployment. Protects personnel, and resources, from the effects of explosive 
+hazards, munitions, accidents and unexploded ordnance to include improvised explosive devices. 
+Provides limited capability to assess, disrupt, neutralize or render safe chemical, biological, 
+radiological, nuclear, and explosive threats. Contain sensitive/mission critical EOD equipment 
+requiring an EOD escort (4FPXC or 4FPXD) UTC) during transport. 
+ 
+2.8. 4F9X5—EOD Explosive Storage Kit. Deployable explosive storage magazine set used to 
+store EOD demolition packages required in support of major combat, contingency, and homeland 
+operations. Magazine designed to significantly reduce explosive hazard class and quantity distance 
+requirements used for temporary explosive storage during initial contingency operations until 
+siting of permanent explosive storage areas are established. Magazines employed during homeland 
+operations to support EOD emergency responses. UTC includes Air Force standard security 
+system required for storage of high risk munitions. 
+ 
+2.9. 4F9X8—EOD Demolition Materials. Provides EOD demolition materials for response 
+teams clearing multiple unexploded ordnance (UXO) during rapid airfield damage recovery 
+operations.  UTC can be utilized to resupply teams with explosives necessary to support explosive 
+ordnance disposal teams’ conducting joint sourced or operations in high threat areas where 
+multiple explosive hazards must be cleared. 
+ 
+2.10. 4F9XN-EOD Agile Combat Employment Support. Provides force protection and tactical 
+aircraft clearing tools required to support combatant command assets, tactical aircraft and 
+personnel, in austere locations. Provides 24-hour support to render safe all tactical aircraft weapons 
+systems and munitions incidents as well as provide force protection capabilities to detect and 
+defeat terrorist devices. 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+15 
+ 
+ 
+ 
+2.11. 4FPRL (Active Duty)/4FPRK (Air Reserve Component)—RED HORSE Air Insert 
+Engineer Repair Team. This 21-person UTC Provides capability for Air-Insertable/Air-Assault 
+team delivered via air-land, or air-insert into bare base or forward operating locations. Provides 
+initial site survey assessment (GeoReach); removal/demolition of obstructions; expedient force 
+protection construction; repair of airfield surfaces for limited C-130/C-17 operations; installation 
+of Emergency Airfield Lighting System (EALS); testing for potable water sources; and pavement 
+evaluations. Air-Insertable RED HORSE flight and supporting forces are organized and equipped 
+to provide initial operational capability for 14 days maximum before follow-on RED HORSE 
+4FPR* series UTCs are required. 
+ 
+2.12. 4FPRQ—RED HORSE Site Assessment Team. This 12-person site assessment engineer 
+force performs advanced airfield survey, site layout, and planning for establishment and future 
+development of a contingency operating location during contingencies (Figure 2.2). The team is 
+self-sustaining for five days, and longer if resupplied. Contains site development, field 
+engineering, and airfield pavement evaluation capabilities. Requires UTC 4F9RQ to provide site 
+assessment equipment for full capability. 
+ 
+Figure 2.2. Airman Going Out for Site Assessment. 
+ 
+ 
+2.13. 4FPXC—EOD Leadership Support Element. Basic Engineer Force to beddown, sustain, 
+and recover garrison and contingency locations for natural or manmade disaster response. EOD 
+leader/support enablers required in support of major combat, contingency, and homeland defense 
+operations. For full requirements see CE Supplement to the WMP-1. 
+ 
+2.14. 4FPXD—Explosive Ordnance Disposal (EOD) Core/Response Team. Three person EOD 
+team required in support of major combat, contingency, and homeland defense operations  (Figure 
+2.3). UTC is linked with 4F9X1 or can augment existing requirements. Combat support is required 
+from service designated as base operating support-integrator. Personnel deploy with individual 
+protective equipment, clothing, weapons (M4 and M9) and ammunition. One 7-level TSgt and one 
+5-level required as a minimum; third person may be a 3E831. See T.O. 35E8-2-10-1, Arresting 
+Systems, Aircraft, Mobile, and AFTTP 3-32.15, Rapid Setback Installation of Mobile Arresting 
+Gear System, for installation and operating procedures. 
+ 
+16 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+Figure 2.3. EOD Technician Probing for Unexploded Explosive Ordnance (UXO). 
+ 
+ 
+2.15. 4FPXG—EOD Flight Leadership Element. Basic Engineer Force to beddown, sustain, 
+and recover garrison and contingency locations for natural or manmade disaster response. EOD 
+C2 team required to support major combat, contingency, and homeland defense operations. 
+Provides logistical support, trends, and incident reporting analysis, and standardized guidance for 
+operations. Long-term or broad scale operations may require a multi-disciplined support element 
+for continued support. For full requirements, see CE Supplement to the WMP-1. 
+ 
+2.16. 4FWAB—RADR Asphalt Repair Materials. This UTC provides certified semi-permanent 
+crater repair material (flowable-fill and asphalt) to rapidly repair airfield pavement damage, 
+usually after an attack (Figure 2.4). Contains material quantities for 18 repairs approximately 8.5-
+ft by 8.5-ft x 2-ft. 
+ 
+Figure 2.4. Airmen Finishing Asphalt Cap Repair Material. 
+ 
+ 
+2.17. 4FWAE—RADR AC Batch Plant. This UTC provides vehicles/equipment to operate an 
+asphalt batch plant (Figure 2.5). Plant (two recyclers) can produce up to 14 tons per hour. See 
+AFTTP 3-32.19, Rapid Airfield Damage Repair Asphalt Batch Plant Operations, for information 
+on RADR Asphalt Batch Plant operations. 
+ 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+17 
+ 
+ 
+ 
+Figure 2.5. Airmen Batching Asphalt for Crater Repairs. 
+ 
+ 
+2.18. 4FWAM—Expansion AM-2 Mat and Support Equipment. Provides Aluminum Matting, 
+Version 2 (AM-2), for the installation of a standard 216-ft x 198-ft (42,768-sf) aircraft pad to 
+support parking, taxiway expansion (72-ft x 200-ft), or repair on asphalt, concrete or stabilized 
+ground (Figure 2.6). 
+ 
+Figure 2.6. Engineers Rapidly Expanding Aircraft Parking Ramp with AM-2. 
+ 
+ 
+2.19. 4FWCM—RADR Concrete Repair Materials. This UTC provides certified semi-
+permanent crater repair materials (flowable-fill and rapid-set concrete) for rapid crater repair 
+(Figure 2.7). Contains material quantities for 18 repairs approximately 8.5-ft x 8.5-ft x 2-ft in 
+depth or two repairs 30-ft x 30-ft x 2-ft in depth. 
+ 
+2.20. 4FWCR—RADR Crater Repair Equipment. This UTC provides the ability to rapidly 
+repair craters up to 30 foot in diameter (Figure 2.8). Multiple UTCs will be required based upon 
+battle damage assessment or directive; single UTC equates to "small" capability (repairs 18 small 
+[8.5-ft x 8.5-ft x 2-ft] or 2 large [30-ft x 30-ft x 2-ft] craters within 6.5 hours), three (3) each UTCs 
+equates to "medium" capability (54 small or 6 large craters), five (5) each UTCs equates to "large” 
+capability (90 small or 10 large craters) and seven (7) each UTCs equates to "very large" (126 
+small or 14 large craters). 
+ 
+18 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+Figure 2.7. Airmen Using Screed to Finish Rapid-Set Capping Repair Material. 
+ 
+ 
+Figure 2.8. Crater Repair Vehicles in Action. 
+ 
+ 
+2.21. Water and Fuel Expedient Repair System (WaFERS). WaFERS encompasses capabilities 
+required to repair and recover water or fuel infrastructure at U.S. or allied airfields. Capabilities 
+include, but not limited to, pipe repair or bypass; valves/manifold repair or bypass; hydrant 
+capping; storage tank patching; fuel or water pumping; fuel filtering, and fuel storage. The UTCs 
+may standalone or conjoined to restore water or fuel system operations. The modularity and 
+scalability of WaFERS allows UTC selection based on the installation’s unique infrastructure. 
+Input and output connection points for all components are standard DOD configuration allowing 
+for the use of quick-connect type fittings and couplers to the maximum extent possible. See AFTTP 
+3-32.22, Water and Fuel Expedient Repair System (WaFERS), for more information. WaFERS 
+consists of seven Unit Type Codes and are summarized below. Note: The following WaFERS 
+UTCs are currently in the process of being registered and were not finalized before this was 
+published. 
+ 
+2.21.1. 4FWCT—Common Tools and Equipment. Provides necessary tools and equipment to 
+support expedient repair and recovery of water or fuel distribution and storage systems 
+damaged by attack, natural disaster, or catastrophic failure (Figure 2.9). These tools are likely to 
+be used with all WaFERS UTCs to accomplish any repair. 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+19 
+ 
+ 
+ 
+Figure 2.9. Examples of WaFERS Consolidated Tools and Equipment. 
+ 
+ 
+2.21.2. 4FWRB—Repair, Bypass, and Line-Patch. The Repair, Bypass, and Line-Patch UTC 
+offers several capabilities to include repairing large leaks or punctures in a pipeline, fitting or 
+valve; inline repair; valve replacement; and hydrant capping (Figure 2.10). Bypassing is 
+defined as rerouting the flow through a hose or pipe in order bypass a damaged system or to 
+go around a damaged area due to hazards, traffic patterns and paths or congestion. The Line 
+Patch can repair small leaks or punctures in a pipeline or fittings such as elbows, valves, or 
+reducers without replacing large sections of the pipeline or fitting. Repair material comes in the 
+form of epoxies, polyester wrap, wood plugs, and clamps of various types and pressure ratings 
+to address many types of damage (Figure 2.11). When this UTC is combined with other 
+WaFERS UTCs (such as the pump and filter UTCs), the capability is greatly enhanced and 
+expanded including bypassing a pump house or manifold to get fuel to a hydrant loop system. 
+ 
+Figure 2.10. A Bypass Repair. 
+ 
+ 
+ 
+20 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+Figure 2.11. Airmen Performing Line Patch Repair. 
+ 
+ 
+2.21.3. 4FWLH—Lay Flat Hose. Lay flat hose can be used to quickly replace significant 
+sections of above grade pipe that requires replacement or to bypass damaged or inoperable 
+infrastructure such as a pump house (Figure 2.12). This hose can be cut to length as needed 
+and has field assembly capable hose ends. Hoses are available in 6-inch, 8-inch, and 10-inch 
+diameters and can run up to 600 feet. Twelve-inch diameter hoses are available in shorter 
+segments in the Repair and Bypass UTC. The pressure rating on the hoses is 150-PSI and can 
+be used up to ANSI 150 class pressures when absolutely required; however, the safety factor is 
+reduced. 
+ 
+Figure 2.12. Repairing Piping with Lay Flat Hose. 
+ 
+ 
+2.21.4. 4FWTP—Tank Patch. This UTC has the capability to repair a leak due to a penetrating 
+hole, puncture or small tear in the wall of a bulk fuel storage tank. This capability has several 
+methods of repair to choose from including wooden plugs driven into the leaking hole with a 
+hammer and the umbrella patch which is to be used on larger penetrations (Figure 2.13). 
+Depending on what method is chosen, a leak the size of a pinhole and up to 23 inches in diameter 
+can be repaired. 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+21 
+ 
+ 
+ 
+Figure 2.13. Installed Tank Patch. 
+ 
+ 
+2.21.5. 4FWFP—Water and Fuel Pump. The Water and Fuel Pumping UTC consists of a trailer 
+mounted diesel engine driven pump capable of pumping liquid from approximately 50 foot 
+below grade with discharge flow of 600-GPM and an outlet pressure of 150-PSI (Figure 2.14). 
+This capability works in conjunction with the Fuel Filtering UTC. This pump is capable of series 
+(higher pressure) and parallel (additional flow rate) configurations. Approved pump engine 
+fuels are JP-5, JP-8, Jet-A, kerosene, and diesel fuel which can be scavenged from the pumped 
+flow to fuel the engine. A dedicated hydraulic power unit is used for hydraulic tooling and for 
+extracting fuel out of cut and cover fuel tanks by the down-hole turbine pump. When combined 
+with the lay flat hose UTC, it can be used in series or parallel to meet flow or pressure 
+demands of a hydrant loop or other fuel systems. 
+ 
+Figure 2.14. Water and Fuel Pump with Hoses Connected. 
+ 
+ 
+2.21.6. 4FWFF—Fuel Filter. The Fuel Filtering UTC consists of a trailer mounted filter 
+system with two 600-GPM filter separators (Figure 2.15). This capability comes with numerous 
+hose connection adapters to facilitate connection to the Fuels Operational Readiness Capability 
+Equipment or other systems providing lateral support capability. This UTC provides 
+expedient filtering of stored or recovered fuel from pipelines, berms, craters, and storage 
+tanks damaged by attack, natural disaster, or catastrophic failure at main or contingency 
+operating locations, aerial ports, enroute bases, and joint bases. Fuel filtering provides 
+suitable advanced filtration for contaminated fuels reintroduced into fuel storage or distribution 
+systems. 
+ 
+22 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+Figure 2.15. Trailer Mounted Fuel Filter System. 
+ 
+ 
+2.22. 4FWE1—EOD Vehicle, MRAP, Cougar Cat I. Provides initial WRM EOD Mine Resistant 
+Ambush Protection Vehicle (MRAP) Cougar Cat I (Configure with associated Mission Support 
+Equipment [MSE]) (Figure 2.16) . The following MSE is general in nature: Communications, 
+Blue Force Tracker, Counter Radio-Controlled IED Electronic Warfare (CREW), off road survival 
+tool and miscellaneous support equipment. UTC requires qualified vehicle mechanic support 
+(UFMX4). Mounted spare tire, applicable TOs, operation/repair manuals and Temporary Mission 
+Support Kits will accompany vehicle. Specific MSE required for the EOD mission sets is identified 
+in the Logistics Detail. No suitable MRAP substitution are authorized. For additional assets and 
+for follow-on EOD teams use the EOD MRAP mobility UTC. 
+ 
+Figure 2.16. MRAP Cougar. 
+ 
+ 
+Note: The EOD MRAP mobility UTCs were in development and had not been registered at the 
+time of this writing. Provides roll-on/roll-off capability for EOD teams with critical personal 
+protective equipment required in support of Counter-IED route clearance, base recovery, force 
+protection, render safe procedures and/or weapons of mass destruction operations in high, 
+medium, and low threat areas. Can be employed in the support of major combat, contingency, 
+and homeland defense operations. 
+ 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+23 
+ 
+ 
+ 
+2.23. 4FWEA—Expeditionary Airfield Damage Repair. Provides equipment, material, and 
+vehicles for the recovery of airfield pavements damaged after attack or natural disaster. The 
+capability includes the ability to repair 100 spalls, supports limited inclement weather capabilities, 
+and provides limited foreign object debris (FOD) removal.  To be air-liftable by C-130 or similar 
+aircraft, must tailor out the excavator (with attachments). Must deploy with 2x 4FWFR to be fully 
+mission capable. For full FOD capability, must deploy with 4FWFD. Manning requirements are 
+identified in the WMP-1 CE supplement. Supports Operate the Airbase (including airfield recovery 
+after attack) Force Element. 
+ 
+2.24. 4FWFC—AM-2 Crater FOD Cover. Facilitates rapid restoration and reopening of airfield 
+operating surfaces after attack (Figure 2.17). Provides AM-2 matting, specialized components and 
+tools to assemble and cover thirty-one 10-ft repairs, nine 15-ft repairs, or three 30-ft repairs. This 
+UTC supports repairs on asphalt, concrete, or compacted aggregates/soils. 
+ 
+Figure 2.17. Airmen Constructing an AM-2 FOD Cover. 
+ 
+ 
+2.25. 4FWFD—RADR FOD Removal Vehicles. This UTC provides the vehicles, such as vacuum 
+sweepers (Figure 2.18), to clear debris from the airfield after an attack. 
+ 
+Figure 2.18. Vacuum Sweeper Removing FOD from MAOS. 
+ 
+ 
+ 
+24 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+2.26. 4FWFR—Fiber Reinforced Polymer (FRP) Matting FOD Cover. Facilitates rapid 
+restoration and reopening of airfield operating surfaces after attack. Provides FRP matting, 
+specialized components, and tools to assemble and cover twenty 10-ft craters, three 30-ft craters, 
+or one 50-ft crater. The kit includes 35 full-size panels, 30 half-size panels, 15 full-size anchor 
+panels, 20 half-size anchor panels, 760 lower joining bushings, 875 upper joining bushings, and 
+625 anchor bushings. This UTC supports repairs on asphalt or Portland cement surfaces (Figure 
+2.19). Note: Replaces legacy Folded Fiberglass Matting. 
+ 
+Figure 2.19. Airmen Constructing FRP FOD Cover. 
+ 
+ 
+2.27. 4FWMS—Minimum Airfield Operating Surface (MAOS) Marking Kit. This UTC 
+provides threshold and departure end markers, edge markers, distance-to-go markers, and aircraft 
+arresting system markers to provide visual clues for takeoff and landing surface (Figure 2.20). See 
+T.O. 35E2-6-1, Minimum Operating Strip Marking System, Layout and Marking Procedures for 
+Rapid Runway Repair, and AFTTP 3-32.13 for installation and operating procedures. Note: This 
+UTC is in development and had not been registered prior to this being published. 
+ 
+Figure 2.20. MAOS Marking System Components. 
+ 
+ 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+25 
+ 
+ 
+ 
+2.28. 4FWPS—ADR Paint Striping Kit. Facilitates the rapid restoration and opening of airfield 
+operating surfaces after attack. Provides ability to stripe a MOS up to 50-ft x 150-ft wide and up 
+to 10,000-ft long, and taxiway turn- and hold-lines (Figure 2.21). The kit also provides blackout 
+capability of unwanted stripes and turn-lines to prevent pilot confusion. See T.O. 35E2-6-1 and 
+AFTTP 3-32.13 for more information on airfield striping. 
+ 
+Figure 2.21. Paint Striping Machine Example. 
+ 
+ 
+2.29. 4FWSP—Sustainment, Pavement Repair (SuPR) Kit. Provides initial WRM equipment/ 
+vehicle capability for minor airfield pavement repairs such as spalling, small potholes,  joint repair; 
+the kit is not tailored for crater repairs (Figure 2.22). Kit contains multi-use equipment and materials 
+to support Prime BEEF, RED HORSE, and/or other civil engineer units operating in austere 
+locations. Kit also contains specialized equipment and certified materials to maintain and repair 
+both asphalt-based and/or Portland cement-based pavements with semi-permanent materials to 
+include limited joint sealing. See AFTTP 3-32.16 for information on this pavement repair kit. 
+ 
+Figure 2.22. Views of SuPR Kit Contents. 
+ 
+ 
+26 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+2.30. 4FWSR—Expedient Spall Repair Kit. Provides tools and materials to expeditiously 
+perform temporary repairs on up to 200 spalls approximately 24 inches in diameter and 6 inches 
+deep (Figure 2.23). Requires UFMBG with UFMAQ or UFMBP to transport personnel, 
+equipment, and material. Must task one UTC per 4FWCR tasked. 
+ 
+Figure 2.23. Airman Performing Expedient Spall Repair. 
+ 
+ 
+2.31. 4FWWH—RADR Warehouse Vehicles. This UTC provides material handling vehicles to 
+load and deliver repair materials to the airfield (Figure 2.24). See AFTTP 3-32.18 for information 
+on RADR Warehouse operations. 
+ 
+Figure 2.24. Warehouse Vehicles Delivering & Unloading Repair Materials at Repair Zone. 
+ 
+ 
+2.32. 7E1AK—Airborne Airfield Assessment Team. A 15-person team developed from a 
+Contingency Response Squadron providing advanced echelon, airfield/ landing zone survey and 
+assessment, site planning, and airfield opening (Figure 2.25). Determines airfield suitability to 
+support flying operations to include command, control, communication, air traffic control, 
+weather, airfield pavements and obstruction criteria, logistics support, infrastructure, force 
+protection, initial beddown and overall airfield support. Capable of fixed-and-rotary-wing air land 
+or airborne (static-line) infiltration into permissive or uncertain environments. Self-sustaining for 
+five days. One qualified airfield survey team (7E1AP) required to certify surveys. 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+27 
+ 
+ 
+ 
+Figure 2.25. Airborne Airfield Assessment Team Preparing for Airfield Survey. 
+ 
+ 
+2.33. 7E1A3—Airfield Assessment Team. Includes equipment to conduct airfield 
+assessments/surveys in accordance with AFI 10-202, Contingency Response Forces, in permissive 
+to uncertain threat environments and determines airfield suitability for all Air Mobility Command 
+aircraft operations. Team from Contingency Response Group is capable of self-sustained 
+operations for five days to assess/report status of organic command and control (C2), 
+communications, air traffic control, airfield pavements, infrastructure, force protection, and overall 
+airfield condition to combatant commander to determine suitability for mobility/combat 
+operations. Must be tasked with 7E1A2 for personnel. 
+ 
+2.34. 7E1A2—Airfield Survey Team. Contingency Response Group/Contingency Response 
+Squadron eight-person team to conduct worldwide airfield and site surveys to assess airfield 
+capabilities in support of air mobility operations. Requires expeditionary combat support. 
+Additional support will be required if deployed to a bare base. 
+ 
+2.35. 9AAB4—PACAF Contingency Response Group. Provides 21 Group personnel and 
+equipment to augment PACAF’s “first-in” contingency response element to establish initial 
+site/airfield/airbase operations in the Pacific Command Theater. Capable of performing a wide 
+spectrum of contingency operations including base opening, noncombatant evacuation operations, 
+humanitarian assistance/disaster response, and airfield seizure liaison. Core capabilities include 
+12-hour response to assess/manage/provide: engineering, bare base planning, pavement 
+evaluation, facilities, airfield, air traffic control, communications, limited force protection, site 
+security, surveillance, limited CBRN assessment/detection, aircrew flight equipment, logistics, 
+supply, knowledge operations, client systems technology, and initial Personnel Support for 
+Contingency Operations. Able to operate in permissive and uncertain threat environment, and in 
+low/no light conditions. Must be augmented by 7E1BD for beddown and 5-day sustainment. This 
+is not a stand-alone UTC; must be tasked in conjunction with airbase opening UTCs: 7E1AE, 
+7E1BD, 7E1CA, QFEPF, UFBBR. Must be relieved/augmented within 45 days. Provides multi-
+skilled 12-hour response airfield/site assessment team to determine suitability of airfield/sites. 
+ 
+2.36. Expedient Trim Pad Anchoring and Contingency Aircraft Tie-Down Anchors. These 
+capabilities are not provided by UTCs. 
+ 
+28 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+2.36.1. Expedient Trim Pad. The expedient trim pad is used when the construction of a 
+permanent trim pad is not practical. There are two types of anchor systems for the expedient 
+trim pad: Earth Anchor System and Steel Plate and Rod System. 
+ 
+2.36.1.1. Earth Anchor System. 12-stake anchor group (Figure 2.26) constructed in soil. 
+Supports a maximum loading of approximately 40,000 lbs (177.9 Kilo Newtons). All 
+hardware and tools required for installation (except the restraining cable) is sourced from 
+the Mobile Aircraft Arresting System UTC (XFAR4). 
+ 
+2.36.1.2. Steel Plate and Rod System. Sited in a sound concrete slab with a thickness of at 
+least 12 in (305 millimeters) (Figure 2.27). Supports a maximum loading of approximately 
+70,000 lbs (311.4 Kilo Newtons). 
+ 
+Figure 2.26. 12-Stake Earth Anchor System. 
+ 
+ 
+Figure 2.27. Steel Plate and Rod Trim Pad System. 
+ 
+ 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+29 
+ 
+ 
+ 
+2.36.2. Contingency Aircraft Tie-Downs. Aircraft tie-downs are an integral component of 
+airfield aprons (Figure 2.28). An aircraft must be tied to a tie-down to ensure it remains 
+stationary in the event of various weather phenomena such as high winds. Additionally, 
+activities such as maintenance and loading require that aircraft remain stationary. In some 
+instances, tie-downs also serve as static grounding points; discussion herein focuses on tie-
+downs specifically designed to physically secure aircraft. 
+ 
+Figure 2.28. Neenah Mooring Eye. 
+ 
+ 
+2.36.2.1. The current guidelines characterize aircraft tie-downs by the following criteria: 
+lightweight tie-downs are capable of an ultimate uplift resistance of 17,000 lbs (7711 
+kilograms) and heavyweight tie-downs are capable of an ultimate uplift resistance of 
+37,700 lbs (17,100 kilograms). Testing conducted by the Air Force Research Laboratory 
+determined that two tie-down systems meet the lightweight criteria, and one system meets 
+the heavyweight tie-down criteria. 
+ 
+2.36.2.2. Additional information regarding tie-down spacing and layout information is 
+available in UFC 3-260-01, Airfield and Heliport Planning and Design. 
+ 
+2.37. UFMAC—20 Ton Tractor 6 x 4. B364 vehicle only (Figure 2.29). Provides using unit 
+initial base operating support capability for cargo movements. Requires qualified vehicle mechanic 
+support (this UTC supports movement of RADR trailers from staging area to the airfield during 
+RADR team mobilization). 
+ 
+Figure 2.29. 20-Ton Tractor 6 x 4. 
+ 
+ 
+30 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+2.38. XFWR4—Mobile Aircraft Arresting System. Provides austere base with bi-directional 
+arrests of aircraft weighing up to 58,000 lbs at 180 knots on runways at least 1,200-ft long and up 
+to 150-ft wide (Figure 2.30). Recycle capability is 20 arrests per hour. Includes one set of Mobile 
+Aircraft Arresting System trailers (two trailers) and two Mobile Runway Edge Sheaves. Must be 
+tasked to support beddown of combat Air Forces where no in-place arresting system exists. 
+Barrier maintenance UTC XFSCL or XFACL is required to expedite system installation. See T.O. 
+35E8-2-10-1 and AFTTP 3-32.15 for installation and operating procedures. 
+ 
+Figure 2.30. Mobile Aircraft Arresting System Installed with Mobile Runway Edge Sheave. 
+ 
+ 
+2.39. XFWYC—Emergency Airfield Lighting. Provides austere base with Emergency Airfield 
+Lighting System (EALS) to light airfields from a 5,000 foot by 50 foot minimum operating strip 
+(MOS) up to a 10,000 foot by 150 foot runway (Figure 2.31). Includes distance-to-go markers, 
+runway edge lights, taxiway lights, strobe lights for approach, threshold lights, and precision 
+approach path indicators. Also includes two MEP-805 generators to power the system. See T.O. 
+35F5-3-17-1, Lighting System, Airfield, Emergency AE82U-2, 99119653-1 (EALS-A), 88119663-
+3 (EALS-B), for installation and operating instructions and AFTTP 3-32.14, Alternate Installation 
+Sequence for Emergency Airfield Lighting System after Major Attack, for alternate installation 
+sequence after a major attack. 
+ 
+Figure 2.31. Airmen Installing EALS Strobe Segment. 
+ 
+ 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+31 
+ 
+ 
+ 
+Chapter 3 
+ 
+OPEN THE AIRBASE CAPABILITIES 
+ 
+3.1. Overview. Initial capabilities in the Open the Airbase force element (FE) consists of command 
+and control (C2), force protection, cargo and passenger handling, logistics, airfield operations, 
+force accountability, finance and contracting, host nation support, reception, and beddown of 
+follow‐on forces. Employment of this FE is necessary when airbase infrastructure and conditions 
+do not meet the minimum requirements of the Establish the Airbase FE. 
+ 
+3.1.1. Early in the planning process, planners from operations, logistics, and engineering identify 
+potential airfields to support the scheme of operations and logistics buildup. Existing 
+imagery, airfield and facility surveys are referenced if available. Planning considerations 
+include siting within the operational area, explosive hazards, Petroleum, Oil, and 
+Lubricants, terminal control, potable water, potential public health hazards, and other 
+environmental issues. 
+ 
+3.1.2. In semi-permissive environments, the 554th RED HORSE Squadron (with their mobile 
+airfield repair equipment set) may arrive via ground movement, air-inserted, or air-delivered in 
+support of an Air Mobility Command Contingency Response Group. These forces conduct 
+airfield assessments, establish a MOS, and begin basic preparations for follow-on forces. 
+ 
+3.1.3. Initial focus is to establish the MOS with sufficient length, width, and weight bearing 
+capacity to support the first mobility missions. This “opening” force enables reception of 
+follow-on engineer forces and may redeploy upon arrival of follow-on capability. Not all UTCs 
+listed in this chapter may be required for every “opening” mission; task UTCs as needed. 
+ 
+3.2. Capabilities. The capabilities contained within this force element (FE) should rapidly establish 
+an IOC in approximately 24 hours from the arrival of forces. The primary constraint is the 
+"Establish Minimum Operating Strip" capability. If extensive runway preparation is required, IOC 
+for opening the airbase is approximately 36 hours. The following ADR capabilities accomplish 
+specific airbase opening processes. 
+ 
+3.2.1. Assess the Airbase. Open the Airbase forces will normally arrive first and assess the 
+airbase to establish minimum airfield operating parameters, command and control, and 
+supporting host-nation support capabilities. The ADR associated UTCs that provide “assess the 
+airbase” capability are identified in Table 3.1. 
+ 
+Table 3.1. ADR Assess the Airbase Capabilities. 
+UTC 
+Title 
+PAX 
+Short Tons 
+4FPRQ 
+RED HORSE Site Assessment Team 
+12 
+ 
+4F9RQ 
+RED HORSE Site Assessment Equipment 
+ 
+13.6 
+4F9AD 
+Airfield Pavements Evaluation Team 
+4 
+27.7 
+4F9DA 
+Damage Assessment 
+ 
+0.2 
+32 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+4FPXD 
+EOD Core Response Team 
+3 
+0 
+4F9XN 
+EOD Agile Combat Employment Support 
+0 
+2 
+7E1AK 
+Airborne Airfield Assess Team 
+15 
+6.3 
+7E1A3 
+Airfield Assessment Team 
+8 
+9.9 
+7E1A2 
+Airfield Survey Team 
+8 
+0.1 
+9AAB4 
+PACAF Contingency Response Group 
+21 
+49.4 
+Note: The PAX and short tons listed above are a template. These may vary due to individual 
+unit LOGFORs. Units should verify PAX and weight requirements in DCAPES or the WMP-1 
+https://usaf.dps.mil/sites/13072/SitePages/Publications.aspx 
+ 
+3.2.2. Establish Minimum Operating Strip (MOS). Open the Airbase engineer forces perform 
+expeditionary airfield pavement repairs to establish a MOS for C-130 and C-17 aircraft. 
+Repair assets and capabilities may be limited until minimum repairs are completed to enable 
+cargo aircraft to bring additional resources to establish the airbase. In a non-permissive 
+environment, choose the applicable RED HORSE repair team in Table 3.2 to marry with the 
+4F9RH equipment set to establish the MOS. Prime BEEF engineers typically operate in 
+permissive environments. 
+ 
+Table 3.2. ADR Capabilities to Establish a MOS. 
+UTC 
+Title 
+PAX 
+Short Tons 
+4FPRK 
+RED HORSE Air Insert Engineer Repair Team (Air 
+Reserve Component) 
+21 
+ 
+4FPRL 
+RED HORSE Air Insert Engineer Repair Team 
+21 
+ 
+4F9RH 
+RED HORSE Air Insert Engineer Repair Team Equip. 
+ 
+47.3 
+4FWFR 
+FRP Matting 
+ 
+154.5 
+4FWMS 
+MAOS Marking Kit 
+ 
+*4.7 
+4FWFC 
+AM-2 Crater FOD Cover 
+ 
+43.4 
+4FWSR 
+Expedient Spall Repair Kit 
+ 
+11.5 
+4FWFD 
+RADR FOD Removal Vehicles 
+ 
+123.5 
+4F9X8 
+EOD Demolition Materials 
+ 
+*5.8 
+*Under development. 
+Note: The PAX and short tons listed above are a template. These may vary due to individual 
+unit LOGFORs. Units should verify PAX and weight requirements in DCAPES or the WMP-1 
+https://usaf.dps.mil/sites/13072/SitePages/Publications.aspx 
+ 
+ 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+33 
+ 
+ 
+ 
+Chapter 4 
+ 
+ESTABLISH THE AIRBASE CAPABILITIES 
+ 
+4.1. Overview. The Establish the Airbase (EAB) force element (FE) brings the base to an IOC 
+within four days of arrival to support most missions or weapon systems. 
+ 
+4.1.1. Follow-on ADR resources within this FE include Prime BEEF personnel, vehicles, 
+heavy equipment with work tool attachments, and specialized toolkits/materials to make repairs 
+and upgrades to airfield infrastructure, improve repairs made by “Open the Airbase” engineer 
+forces, and to repair more extensive damage and/or expand airfield operating surfaces (ramps 
+and taxiways). 
+ 
+4.1.2. Additional capabilities within the EAB FE include mitigating explosive hazards, 
+airfield lighting, aircraft arresting system, airfield fuel systems repair, and airfield pavement 
+marking and striping. These supporting systems may require additional, or specialized, 
+resources for installation, and maintenance. Engineers maximize the use of local materials to 
+minimize the logistics footprint. As necessary, airfield infrastructure is expanded to improve 
+airbase resiliency and repairs are continued towards meeting full operating capability. 
+ 
+4.2. Capabilities. ADR Capabilities within this FE are identified in Table 4.1. 
+ 
+Table 4.1. ADR Capabilities to Establish the Airfield. 
+UTC 
+Title 
+PAX 
+Short Tons 
+XFWYC 
+Emergency Airfield Lighting System 
+ 
+* 
+4FPXD 
+EOD Core Response Team 
+3 
+* 
+4F9XN 
+EOD Agile Combat Employment Support 
+ 
+2 
+4F9X8 
+EOD Demolition Materials 
+ 
+*5.8 
+4F9DA 
+Damage Assessment 
+ 
+0.2 
+4FWSP 
+Sustainment Pavement Repair Kit 
+ 
+* 
+4FWFR 
+Fiber Reinforced Polymer (FRP) Matting 
+ 
+23.5 
+4FWMS 
+MAOS Marking Kit 
+ 
+* 
+4FWAM 
+WRM Expansion AM-2 Mat & Support Equip 
+ 
+174.4 
+XFWR4 
+Mobile Aircraft Arresting Systems 
+ 
+* 
+4FWPS 
+ADR Paint Striping Kit 
+ 
+9.4 
+4FWSR 
+Expedient Spall Repair Kit 
+ 
+9.4 
+4FWFD 
+RADR FOD Removal Vehicles 
+ 
+123.6 
+4FWCT 
+WaFERS-Common Tools & Equipment 
+ 
+9 
+4FWRB 
+WaFERS-Repair, Bypass, and Line-Patch 
+ 
+9 
+4FWLH 
+WaFERS-Lay Flat Hose 
+ 
+4 
+4FWTP 
+WaFERS-Tank Patch 
+ 
+0.1 
+34 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+UTC 
+Title 
+PAX 
+Short Tons 
+4FWFP 
+WaFERS-Water and Fuel Pump 
+ 
+6.3 
+4FWFF 
+WaFERS-Fuel Filter 
+ 
+5 
+4FWAE 
+RADR AC Batch Plant 
+ 
+35.5 
+4FWCR 
+RADR Crater Repair Equipment 
+ 
+302.6 
+4FWFC 
+AM-2 Crater FOD Cover 
+ 
+43.4 
+4FWCM 
+RADR Concrete Repair Materials 
+ 
+207 
+4FWAB 
+RADR Asphalt Repair Materials 
+ 
+230 
+4FWWH 
+RADR Warehouse Vehicles 
+ 
+95.6 
+*Under development. 
+Note: The PAX and short tons listed above are a template. These may vary due to individual 
+unit LOGFORs. Units should verify PAX and weight requirements in DCAPES or the WMP-1 
+https://usaf.dps.mil/sites/13072/SitePages/Publications.aspx 
+ 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+35 
+ 
+ 
+ 
+Chapter 5 
+ 
+OPERATE THE AIRBASE CAPABILITIES (SUSTAIN AND RECOVER) 
+ 
+5.1. Overview. The Operate the Airbase (OAB) FE is designed to be IOC within seven days of 
+arrival for a minimum duration of 30 days. The combination of the Establish the Airbase (EAB) 
+and OAB FEs can support several Mission Generation FEs indefinitely. The OAB FE is intended 
+to enhance combat service support capabilities.  Over time, repeated loading from aircraft and/or 
+support vehicles may cause deterioration to airfield pavement resulting in deep spalling requiring 
+immediate repair. Spalls may also be a direct result of inadequate joint maintenance, improper 
+construction methods, alkali- silica reactions, or munition damage. Spalls generate FOD that can 
+cause damage to aircraft tires. In addition, damage resulting from adversarial attacks requires rapid 
+repair to ensure airfield resiliency and mission continuation. 
+ 
+5.2. Sustaining Airfield Pavement. Any day-to-day airfield sustainment requirement will be 
+determined by the structural capacity of the airfield, the deterioration rate of the airfield, condition 
+of airfield infrastructure, volume of operations, number and quality of existing temporary repairs, 
+and current threat data. While many airfield sustainment activities are not specifically addressed 
+here, planners need to ensure the Senior Airfield Authority (SAA) at each operating location has 
+sufficient forces and materials to sustain airfield operations. The Sustainment Pavement Repair 
+(SuPR) Kit was developed to provide assets and materials to perform quality, rapid sustainment 
+repairs that create minimal disruption to the commander’s air tasking order. See AFTTP 3-32.16 
+for more information on sustaining airfield pavement at contingency locations. ADR capabilities 
+to sustain airfield pavement are listed in Table 5.1. 
+ 
+Table 5.1. ADR Sustain the Airbase Capabilities. 
+UTC 
+Title 
+PAX 
+Short Tons 
+4F9AD 
+Airfield Pavement Evaluation Team 
+4 
+27.7 
+4F9DA 
+Damage Assessment 
+ 
+0.2 
+4FWSP 
+Sustainment, Pavement Repair Kit 
+ 
+58.3 
+**4FWPS ADR Paint Striping Kit 
+ 
+* 
+**4FWAE RADR AC Batch Plant 
+ 
+35.5 
+*Under development. 
+**Capabilities may be required if services are not readily available on local economy. 
+Note: The PAX and short tons listed above are a template. These may vary due to individual 
+unit LOGFORs. Units should verify PAX and weight requirements in DCAPES or the WMP-1 
+https://usaf.dps.mil/sites/13072/SitePages/Publications.aspx 
+ 
+5.3. Rapid Airfield Damage Recovery. Following an airfield attack resulting in damage, the 
+resumption of flying operations is a top priority. Engineers must be prepared to locate and assess 
+airfield damage and explosive hazards that threaten flying operations, mitigate explosive hazards, 
+and repair airfield pavement and infrastructure sufficiently to resume flying operations as quickly 
+as possible. Although repair times may vary depending on force structure, available materials/ 
+equipment, and operating environment, engineers must be able to perform standardized repairs 
+36 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+that support mixed rotary-wing, fighter, bomber, tanker, and airlift missions of joint aircraft 
+directed by the Joint Force Commander. The repairs must be durable and sustainable to minimize 
+airfield downtime. High operational tempos dictate more durable and sustainable repairs to 
+minimize airfield downtime. RADR capabilities are listed in Table 5.2. Note: Operating in a 
+chemical, biological, radiological, and nuclear (CBRN) environment in Mission-Oriented 
+Protective Posture gear will extend airfield recovery timelines. 
+ 
+Table 5.2. RADR Recover the Airfield Capabilities. 
+UTC 
+Title 
+PAX 
+Short 
+Tons 
+Source 
+Document(s) 
+4FPXD EOD Core Response Team 
+3* 
+ 
+AFTTP 3-32.5V6 
+4F9X1 
+EOD Core Equipment 
+ 
+2.3 
+CE Sup WMP-1 
+4FWFD RADR FOD Removal Vehicles 
+ 
+123.5  
+4FWCR RADR Crater Repair Equipment 
+ 
+302.6  
+4FWSR Expedient Spall Repair Kit 
+ 
+11.5 
+ 
+4FWWH RADR Warehouse Vehicles 
+ 
+95.6 
+AFTTP 3-32.18 
+4FWAE RADR AC Batch Plant 
+ 
+35.5 
+AFTTP 3-32.19 
+4FWCM RADR Concrete Repair Materials 
+ 
+207 
+ 
+4FWAB RADR Asphalt Repair Materials 
+ 
+230 
+ 
+4FWFC AM2 Crater FOD Cover 
+ 
+43.4 
+ 
+4FWFR Fiber Reinforced Polymer Matting 
+ 
+24 
+ 
+XFWYC Emergency Airfield Lighting System (EALS) 
+ 
+15.2 
+T.O. 35F5-3-17-1, 
+AFTTP 3-32.14 
+4FWMS MAOS Marking Kit 
+ 
+* 
+T.O. 35E2-6-1, 
+AFTTP 3-32.13 
+XFWR4 Mobile Aircraft Arresting System 
+ 
+29.3 
+T.O. 35E8-2-10-1, 
+AFTTP 3-32.15 
+4FWPS ADR Paint Striping Kit 
+ 
+* 
+T.O. 35E2-6-1, 
+AFTTP 3-32.13 
+UFMAC 20-ton Tractor 6x4 
+ 
+30 
+ 
+4FWCT WaFERS Common Tools and Equipment 
+ 
+* 
+ 
+4FWRB WaFERS Repair, Bypass, and Line-Patch 
+ 
+* 
+ 
+4FWLH WaFERS Lay Flat Hose 
+ 
+* 
+ 
+4FWTP WaFERS Tank Patch 
+ 
+* 
+ 
+4FWFP WaFERS Water and Fuel Pump 
+ 
+* 
+ 
+4FWFF WaFERS Fuel Filter 
+ 
+* 
+ 
+4FPXG EOD Flight Leadership Element 
+4* 
+ 
+CE Sup WMP-1 
+4FPXC EOD Leadership Support Element 
+4* 
+ 
+CE Sup WMP-1 
+4F9X3 
+EOD Base Support Sustainment Equip. 
+ 
+3.1 
+CE Sup WMP-1 
+AFPAM10-219V4   26 June 2024 
+ 
+37 
+ 
+ 
+ 
+4F9X5 
+EOD Explosive Storage Kit 
+ 
+9.4 
+CE Sup WMP-1 
+4F9X8 
+EOD Demolition Materials 
+ 
+5.8* 
+CE Sup WMP-1 
+4FWE1 EOD Vehicle, MRAP, Cougar Cat I 
+ 
+17.9 
+CE Sup WMP-1 
+*Under development. 
+Note: The PAX and short tons listed above are a template. These may vary due to individual unit 
+LOGFORs. Units should verify PAX and weight requirements in DCAPES or the WMP-1 
+https://usaf.dps.mil/sites/13072/SitePages/Publications.aspx 
+ 
+ 
+ 
+38 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+Chapter 6 
+ 
+ROBUST THE AIRBASE CAPABILITIES 
+ 
+6.1. Overview. Robust the Airbase FE allows support forces to enhance capabilities already  in 
+place from previous FEs until a rotational operation can be implemented. These forces typically 
+do not arrive until 30 days after an operating location is established. 
+ 
+6.2. Capabilities. Specific ADR Capabilities within this FE expand the MAOS, provide 
+expeditionary trim pads and aircraft tie-downs, upgrade expeditionary/temporary arresting 
+systems, and upgrade crushed stone repairs with semi-permanent caps to help prevent FOD 
+hazards. These capabilities are identified in Table 6.1. 
+ 
+Table 6.1. ADR Capabilities to Robust the Airfield. 
+UTC 
+Title 
+PAX 
+Short Tons 
+4F9DA 
+Damage Assessment 
+ 
+0.2 
+4FWAM 
+WRM Expansion AM-2 Mat & Support Equipment 
+ 
+154.5 
+N/A 
+Expedient Trim Pad Kit 
+ 
+ 
+N/A 
+Expedient Aircraft Tie-Down Anchors 
+ 
+ 
+4FWAE 
+RADR AC Batch Plant 
+ 
+35.5 
+4FWCR 
+RADR Crater Repair Equipment 
+ 
+22.4 
+4FWCM 
+RADR Concrete Repair Materials 
+ 
+207 
+4FWAB 
+RADR Asphalt Repair Material 
+ 
+230 
+4FPXG 
+EOD Flight Leadership Element 
+4 
+ 
+4FPXC 
+EOD Leadership Support Element 
+4 
+ 
+4F9X3 
+EOD Base Support Sustainment Equipment 
+ 
+3.1 
+4F9X5 
+EOD Explosive Storage Kit 
+ 
+9.4 
+4F9X8 
+EOD Demolition Materials 
+ 
+5.8* 
+4FWE1 
+EOD Vehicle, MRAP, Cougar Cat I 
+ 
+17.9 
+Note: The PAX and short tons listed above are a template. These may vary due to individual 
+unit LOGFORs. Units should verify PAX and weight requirements in DCAPES or the WMP-1 
+https://usaf.dps.mil/sites/13072/SitePages/Publications.aspx 
+ 
+ 
+ 
+ 
+ 
+TOM D. MILLER, Lt Gen, USAF 
+ 
+DCS/Logistics, Engineering & Force Protection 
+ 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+39 
+ 
+ 
+ 
+Attachment 1 
+ 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+References 
+AFI 10-202, Contingency Response Forces, 11 June 2020 
+AFI 10-209, RED HORSE Program, 11 June 2019 
+AFI 10-210, Prime Base Engineer Emergency Force (BEEF) Program, 25 October 2023 
+AFI 33-322, Records Management and Information Governance Program, 23 March 2020 
+CE Supplement to the War and Mobilization Plan-1 (WMP-1), 13 April 2020 
+T.O. 35E2-2-7-WA-1, AM-2 Airfield Landing Mat and Accessories, 6 September 1985 
+T.O. 35E2-5-1-WA-1, Crushed Stone Crater Repair and Line-of-Sight Profile Measurement for 
+Rapid Runway Repair, 27 August 2007 
+T.O. 35E2-6-1, Minimum Airfield Operating Surface Marking System (MAOSMS), 4 November 
+2013 
+T.O. 35E8-2-10-1, Arresting Systems, Aircraft, Mobile, 24 July 2022 
+T.O. 35F5-3-17-1, Lighting System, Airfield, Emergency A/E82U-2, 12 May 2019 
+TSPWG M 3-270-01.3-270-07, Airfield Damage Repair, 21 May 2020 
+UFC 3-250-03, Standard Practice Manual for Flexible Pavements, 30 May 2018 
+UFC 3-250-08FA, Standard Practice for Sealing Joints and Cracks in Rigid and Flexible 
+Pavements, 16 January 2004 
+UFC 3-250-09FA, Aggregate Surfaced Roads and Airfields Areas, 16 January 2004 
+UFC 3-250-11, Soil Stabilization and Modification for Pavements, 30 November 2020 
+UFC 3-260-01, Airfield and Heliport Planning and Design, 4 February 2019 
+UFC 3-260-02, Pavement Design for Airfields, 30 June 2001 
+UFC 3-260-03, Standard Practice for Airfield Pavement Evaluation, 21 August 2023 
+UFC 3-260-04, Airfield and Heliport Marking, 16 May 2018 
+UFC 3-260-11FA, Model Design-Build (D-B) Request for Proposal (RFP) For Airfield 
+Contracts, 25 May 2005 
+UFC 3-260-16, O&M Manual: Standard Practice for Airfield Pavement Condition Surveys,  
+3 February 2019 
+UFC 3-260-17, Dust Control for Roads, Airfields and Adjacent Areas, 22 May 2018 
+UFC 3-270-01, O&M Manual: Asphalt and Concrete Pavement Maintenance and Repair,  
+21 February 2018 
+AFTTP 3-32.5, Volume 6, Explosive Ordnance Disposal (EOD) Unexploded Explosive Ordnance 
+(UXO) Response Operations, 11 October 2023 
+40 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+AFTTP 3-32.10, Introduction to Rapid Airfield Damage Recovery (RADR), 15 October 2019 
+AFTTP 3-32.11, Airfield Damage Assessment after Major Attack, 18 May 2022 
+AFTTP 3-32.12, Minimum Airfield Operating Surface (MAOS) Selection and Repair Quality 
+Criteria (RQC), 3 May 2024 
+AFTTP 3-32.13, Airfield Marking and Striping after Major Attack, 8 December 2023 
+AFTTP 3-32.14, Alternate Installation Sequence for Emergency Airfield Lighting System after 
+Major Attack, 19 January 2024 
+AFTTP 3-32.15, Rapid Setback Installations of Mobile Arresting Gear System, 21 June 2016 
+AFTTP 3-32.16, Sustaining Airfield Pavement at Enduring Contingency Locations, 20 January 
+2017 
+AFTTP 3-32.17, Rapid Airfield Crater and Spall Repair, 10 October 2023 
+AFTTP 3-32.18, Rapid Airfield Damage Repair Warehouse Operations, 9 February 2024 
+AFTTP 3-32.19, Rapid Airfield Damage Repair Asphalt Batch Plant Operations, 24 September 
+2018 
+AFTTP 3-32.22, Water and Fuel Expedient Repair System (WaFERS), 12 February 2024 
+Joint Publication 3-30, Joint Air Operations, 25 July 2019 
+AFDP 3-34, Engineer Operations, 6 October 2021 
+ 
+Adopted Forms 
+DAF Form 847, Recommendation for Change of Publication, 15 April 2022 
+ 
+Abbreviations and Acronyms 
+ADR—Airfield Damage Repair 
+AFCEC—Air Force Civil Engineer Center 
+AFI—Air Force Instruction 
+AFFORGEN—Air Force Force Generation 
+AFTTP—Air Force Tactics, Techniques, and Procedures 
+AM-2—Aluminum Matting, Version 2 
+BEEF—Base Engineer Emergency Force 
+C2—Command and Control 
+CBRN—Chemical, Biological, Radioactive, and Nuclear 
+CE—Civil Engineer 
+CRE—Contingency Response Element 
+DCAPES—Deliberate and Crisis Actions Planning Segments 
+DFT—Demand Force Teams 
+AFPAM10-219V4   26 June 2024 
+ 
+41 
+ 
+ 
+ 
+EAB—Establish the Airbase 
+EALS—Emergency Airfield Lighting System 
+EOD—Explosive Ordnance Disposal 
+FE—Force Element 
+FOD—Foreign Object Debris 
+FRP—Fiber Reinforced Polymer 
+IOC—Initial Operating Capability 
+MAOS—Minimum Airfield Operating Surface 
+MOS—Minimum Operating Strip 
+OAB—Operate the Airbase 
+OPR—Office of Primary Responsibility 
+PAX—Passengers 
+RADR—Rapid Airfield Damage Recovery 
+SAA—Senior Airfield Authority 
+SuPR—Sustainment, Pavement Repair 
+T.O.—Technical Order 
+TTP—Tactics, Techniques, and Procedures 
+UTC—Unit Type Code 
+UXO—Unexploded Explosive Ordnance 
+WaFERS—Water and Fuel Expedient Repair System 
+WMP-1—War and Mobilization Plan, Volume-1 
+WRM—War Reserve Materiel 
+ 
+Office Symbols 
+AF/A4CX—Air Force Directorate of Civil Engineers, Readiness Division 
+AFCEC—Air Force Civil Engineer Center 
+ 
+Terms 
+Airfield—An area prepared for the accommodation (including any buildings, installations, and 
+equipment), landing, and takeoff of aircraft. 
+Air Force Force Generation (AFFORGEN)—AFFORGEN is the Air Force’s sustainable, 
+capacity-driven model for presenting forces to Joint Force Commanders. AFFORGEN’s intent is 
+to enable operational preparedness and readiness recovery to compete with peer competitors, while 
+clearly focusing USAF efforts on a predictable and sustainable force offering. All MAJCOMs will 
+align their forces into the AFFORGEN model. 
+42 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+Air Tasking Order—A method used to task and disseminate to components, subordinate units, 
+and command and control agencies projected sorties, capabilities and/or forces to targets and 
+specific missions. Normally provides specific instructions to include call signs, targets, controlling 
+agencies, etc., as well as general instructions. Source: Joint Publication 3-30, Joint Air Operations. 
+Command and Control (C2)—The exercise of authority and direction by a properly designated 
+commander over assigned and attached forces in the accomplishment of the mission. C2 functions 
+are performed through an arrangement of personnel, equipment, communications, facilities, and 
+procedures employed by a commander in planning, directing, coordinating, and controlling forces 
+and operations in the accomplishment of the mission. 
+Contingency—An emergency involving military forces caused by natural disasters, terrorists, 
+subversives, or by required military operations. Due to the uncertainty of the situation, 
+contingencies require plans, rapid response and special procedures to ensure the safety and 
+readiness of personnel, installations, and equipment. 
+Crater—The pit, depression, or cavity formed in the surface of the earth by an explosion. It may 
+range from saucer-shaped to conical, depending largely on the depth of burst. 
+Damage Assessment—1. The determination of the effects that attacks have on targets. 2. (DOD 
+only) A determination of the effect of a compromise of classified information on national security. 
+3. (AF/CE) The process of identifying and locating damage and unexploded ordnance following 
+an attack. Damage assessment activities generally are separated into two categories: airfield 
+pavements and facility/utility. 
+Explosive Hazard—Any hazard containing an explosive component to include unexploded 
+explosive ordnance (including land mines), booby traps (some booby traps are nonexplosive), 
+improvised explosive devices (which are an improvised type of booby trap), captured enemy 
+ammunition, and bulk explosives. 
+Explosive Ordnance—All munitions containing explosives, nuclear fission or fusion materials, 
+and biological and chemical agents. 
+Explosive Ordnance Disposal (EOD)—The detection, identification, on-site evaluation, 
+rendering safe, recovery, and final disposal of unexploded explosive ordnance. It may also include 
+explosive ordnance which has become hazardous by damage or deterioration. 
+Facility—A real property entity consisting of one or more of the following: a building, a structure, 
+a utility system, pavement, and underlying land. 
+Minimum Operating Strip (MOS)—1. A runway which meets the minimum requirements for 
+operating assigned and/or allocated aircraft types on a particular airfield at maximum or combat 
+gross weight. 2. The MOS is the smallest amount of area to be repaired to launch and recover 
+aircraft after an attack. Selection of this MOS will depend upon mission requirements, taxi access, 
+resources available, and estimated time to repair. For fighter aircraft, the typically accepted 
+dimensions are 5,000 feet long by 50 feet wide. 
+Mitigation—Activities designed to reduce or eliminate risks to persons or property or to lessen 
+the actual or potential effects or consequences of an incident. Mitigation measures may be 
+implemented prior to, during, or after an incident. Mitigation measures are often developed in 
+accordance with lessons learned from prior incidents. Mitigation involves ongoing actions to  
+reduce exposure to, probability of, or potential loss from hazards. Measures may include zoning 
+AFPAM10-219V4   26 June 2024 
+ 
+43 
+ 
+ 
+ 
+and building codes, flood plain buyouts, and analysis of hazard-related data to determine where 
+it is safe to build or locate temporary facilities. Mitigation can include efforts to educate 
+governments, businesses, and the public on measures they can take to reduce loss and injury. 
+Ordnance—Explosives, chemicals, pyrotechnics, and similar stores, e.g., bombs, guns and 
+ammunition, flares, smoke, or napalm. 
+Personnel—Those individuals required in either a military or civilian capacity to accomplish the 
+assigned mission. 
+Recovery—The development, coordination, and execution of service- and site-restoration plans 
+for impacted communities and the reconstitution of government operations and services through 
+individual, private-sector, nongovernmental, and public assistance programs that: identify needs 
+and define resources; provide housing and promote restoration; address long-term care and 
+treatment of affected persons; implement additional measures for community restoration; 
+incorporate mitigation measures and techniques, as feasible; evaluate the incident to identify 
+lessons learned; and develop initiatives to mitigate the effects of future incidents. 
+RED HORSE—Air Force units wartime-structured to provide a heavy engineer capability that 
+are mobile, rapidly deployable, and largely self-sufficient for limited periods of time. 
+Runway—A defined rectangular area of an airfield, prepared for the landing and takeoff run of 
+aircraft along its length. A runway is measured from the outer edge of the thresholds from one end 
+of the runway to the others. The width of the runway is typically measured from the outer edge of 
+the load-bearing pavement on one side to the outer edge of the load-bearing pavement on the other 
+side. In some cases the runway may be measured from the outside edge of the runway marking 
+line on one side to the outside edge of the marking line on the other side and any remaining load 
+bearing pavement is considered shoulder. 
+Senior Airfield Authority (SAA)—An individual designated/appointed by the component 
+responsible for airfield operations at direction of the Joint Force Commander. The SAA is 
+responsible for control, priorities, operation and maintenance of an airfield to include runways, 
+associated taxiways, parking ramps, land, and facilities whose proximity affect airfield operations. 
+Spall—Pavement damage that does not penetrate through the pavement surface to the underlying 
+base course layers. A spall damage area could be up to 1.5 meters (5 feet) in diameter. 
+Taxiway—A specially-prepared or designated path on an airfield or heliport, other than apron 
+areas, on which aircraft move under their own power to and from landing, takeoff, service, and 
+parking areas. 
+Techniques—Non-prescriptive ways or methods use to perform missions, functions, or tasks. 
+Threat—An indication of possible violence, harm, or danger. 
+Unexploded Explosive Ordnance (UXO)—Explosive ordnance which has been primed, fused, 
+armed, or otherwise prepared for action, and which has been fired, dropped, launched, projected, 
+or placed in such a manner as to constitute a hazard to operations, installations, personnel, or 
+material, and remains unexploded either by malfunction or design. 
+ 
+44 
+ 
+AFPAM10-219V4   26 June 2024 
+ 
+Attachment 2 
+ 
+ENGINEER REACHBACK AND OTHER USEFUL LINKS 
+ 
+Table A2.1. Engineer References and Resources Links. 
+Engineer Reachback 
+Air Force Civil Engineer Center (AFCEC): https://www.afcec.af.mil/  
+CE DASH (AFCEC Technical Support Portal): 
+https://usaf.dps.mil/teams/CEDASH/scripts/homepage/home.aspx  
+CE Playbooks: https://www.ceplaybooks.com  
+AF Publications and Forms: https://www.e-publishing.af.mil/  
+AFCEC Reachback Center: email at AFCEC.RBC@us.af.mil    
+My Learning (Learning Management System): 
+https://lms-jets.cce.af.mil/moodle/login/index.php  
+AF Design Guides (AFDG): https://www.wbdg.org/ffc/af-afcec  
+DOD Supplemental Technical Documents (TSPWG M): 
+https://www.wbdg.org/ffc/dod/supplemental-technical-documents 
+Whole Building Design Guide (WBDG): https://www.wbdg.org/  
+US Army Corp of Engineers Official Publications, 
+http://www.publications.usace.army.mil/Home.aspx  
+Unified Facilities Criteria (UFC):  
+https://www.wbdg.org/ffc/dod/unified-facilities-criteria-ufc   
+Unified Facilities Guide Specifications (UFGS): 
+https://www.wbdg.org/ffc/dod/unified-facilities-guide-specifications-ufgs  
+USACE Reachback Operations Center (UROC): https://uroc.usace.army.mil 
+USACE Protective Design Center: 
+https://intelshare.intelink.gov/sites/pdc/SitePages/Home.aspx  
+Army Publications and Forms: https://armypubs.army.mil/   
+Navy Doctrine Library System: https://doctrine.navy.mil/default.aspx 
+DOD Issuances: https://www.esd.whs.mil/DD/DoD-Issuances/  
+Joint Publications: https://jdeis.js.mil/my.policy   
+Armed Forces Pest Management Board: https://www.acq.osd.mil/eie/afpmb/  
+ 

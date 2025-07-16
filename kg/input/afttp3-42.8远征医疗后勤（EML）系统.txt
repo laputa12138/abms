@@ -1,0 +1,1214 @@
+BY ORDER OF THE  
+SECRETARY OF THE AIR FORCE 
+DEPARTMENT OF THE AIR FORCE 
+TACTICS, TECHNIQUES AND 
+PROCEDURES 3-42.8 
+15 JUNE 2021 
+Tactical Doctrine 
+EXPEDITIONARY MEDICAL 
+LOGISTICS (EML) SYSTEM 
+ACCESSIBILITY:  Publications and forms are available on the e-Publishing website at 
+www.e-publishing.af.mil for downloading or ordering. 
+RELEASABILITY:  There are no releasability restrictions on this publication. 
+OPR: AFMRA/SG4M 
+Supersedes: 
+AFTTP 3-42.8, 16 November 2018 
+Certified by: AF/SG3/5X 
+(Col Colin Smyth) 
+Pages: 31 
+The Department of the Air Force Tactics, Techniques, and Procedures (DAFTTP) 3-42 series of 
+publications is the primary reference for expeditionary medical support capability. DAFTTP 3-
+42.8 provides tactics, techniques, and procedures for the Expeditionary Medical Logistics (EML) 
+system and medical logistics unit type codes (UTCs). The doctrine in this document is authoritative 
+but not directive. It applies to all civilian employees and uniformed members of the United States 
+Space Force, Regular Air Force, the Air Force Reserve, and the Air National Guard. Refer 
+recommended changes and questions about this publication to the Office of Primary Responsibility 
+(OPR) using Air Force Form 847, Recommendation for Change of Publication. Route AF 847 
+through the appropriate functional chain of command and parent major/field command. Ensure 
+that all records generated as a result of processes prescribed in this publication adhere to Air Force 
+Instruction (AFI) 33-322, Records Management and Information Governance Program, and are 
+disposed of in accordance with the Air Force Records Disposition Schedule, which is located in 
+the Air Force Records Information Management System. 
+SUMMARY OF CHANGES 
+This publication has been updated to reflect the redesignation of the Air Force Medical Operations 
+Agency (AFMOA) as the Air Force Medical Readiness Agency (AFMRA).  References to 
+AFMOA have been deleted and replaced with the correct agency name and office symbol.  This 
+revision also adds information on the new Forward Distribution Medical Logistics Manpower 
+Team (FFFDT) designed to establish and extend theater-level medical logistics support at major 
+2 
+DAFTTP3-42.8  15 JUNE 2021 
+hubs (para 2.12.6); clarifies the Air Force Medical Logistics Operations Center’s (AFMLOC) role 
+in supply chain management; and updates information on Theater Lead Agent for Medical Materiel 
+(TLAMM) designations (Chapter 6).  It incorporates general administrative changes throughout 
+and should be reviewed in its entirety. 
+Chapter 1—INTRODUCTION 
+4 
+1.1. 
+Purpose. .................................................................................................................. 
+4 
+1.2. 
+Mission. .................................................................................................................. 
+4 
+1.3. 
+Threat. ..................................................................................................................... 
+5 
+Chapter 2—ORGANIZATIONS, ROLES, AND RESPONSIBILITIES 
+6 
+2.1. 
+Air Force Surgeon General. .................................................................................... 
+6 
+2.2. 
+Assistant Surgeon General, Health Care Operations. .............................................. 
+6 
+2.3. 
+Air Force Medical Logistics Division. .................................................................... 
+6 
+2.4. 
+Air Force Forces Surgeon (AFFOR/SG). ................................................................ 
+7 
+2.5. 
+Air Mobility Command Surgeon (AMC/SG). ......................................................... 
+7 
+2.6. 
+Medical and Operational Planners........................................................................... 
+7 
+2.7. 
+Manpower and Equipment Force Packaging (MEFPAK) Responsible Agencies 
+(MRAs). .................................................................................................................. 
+7 
+2.8. 
+Sustaining Base. ...................................................................................................... 
+8 
+2.9. 
+Expeditionary Medical Support (EMEDS) Logistics Personnel. ............................. 
+8 
+2.10. 
+En Route Care Logistics Personnel. ........................................................................ 
+9 
+2.11. 
+Special Operations Logistics Support...................................................................... 
+9 
+2.12. 
+Medical Logistics Support Capabilities. .................................................................. 
+10 
+2.13. 
+Blood Support. ........................................................................................................ 
+10 
+2.14. 
+Theater Support. ...................................................................................................... 
+11 
+2.15. 
+Non-Medical and Special Operations Forces (SOF) Support. ................................. 
+11 
+2.16. 
+Patient Movement Item (PMI) Program. ................................................................. 
+11 
+2.17. 
+PMI Support Teams. ............................................................................................... 
+12 
+2.18. 
+Expeditionary Combat Support (ECS). ................................................................... 
+13 
+Chapter 3—OPERATIONS 
+14 
+3.1. 
+Pre-Deployment Logistics Support Planning. ......................................................... 
+14 
+3.2. 
+Deployed Medical Units.......................................................................................... 
+14 
+3.3. 
+Cargo Movement..................................................................................................... 
+15 
+3.4. 
+Redeployment and Reconstitution of Assets. .......................................................... 
+15 
+DAFTTP3-42.8  15 JUNE 2021 
+3 
+3.5. 
+Sustainment. ............................................................................................................ 
+16 
+3.6. 
+Materiel Management. ............................................................................................ 
+16 
+3.7. 
+Medical Maintenance. ............................................................................................. 
+17 
+3.8. 
+Theater Medical Maintenance Support. ................................................................... 
+18 
+3.9. 
+Loan Repair and Return Centers (LRRCs). ............................................................. 
+18 
+3.10. 
+Facility Management. .............................................................................................. 
+18 
+Chapter 4—COMMAND AND CONTROL RELATIONSHIPS 
+19 
+4.1. 
+Command and Control of Medical Teams............................................................... 
+19 
+4.2. 
+Nodes. ..................................................................................................................... 
+19 
+Chapter 5—COMMUNICATIONS AND INFORMATION SYSTEMS 
+20 
+5.1. 
+Communication Requirements. ............................................................................... 
+20 
+Figure 5.1. 
+Air Force Theater System Connectivity. ................................................................. 
+21 
+5.2. 
+Defense Medical Logistics – Enterprise Solution (DML-ES). ................................ 
+21 
+5.3. 
+Theater Medical Information Program (TMIP). ...................................................... 
+22 
+5.4. 
+Patient Movement Item Asset Tracking System (PMI-ATS). ................................. 
+22 
+5.5. 
+Integrated Data Environment (IDE)/Global Transportation Network (GTN) 
+Convergence (IGC). ................................................................................................ 
+23 
+5.6. 
+Communications Planning Considerations. ............................................................. 
+23 
+Chapter 6—INTEGRATION AND INTEROPERABILITY 
+24 
+6.1. 
+Expeditionary Medical Support (EMEDS) Assemblages. ....................................... 
+24 
+6.2. 
+Funding Sources. ..................................................................................................... 
+24 
+6.3. 
+Prime Vendors. ....................................................................................................... 
+24 
+6.4. 
+Defense Logistics Agency (DLA). .......................................................................... 
+24 
+6.5. 
+Single Integrated Medical Logistics Manager (SIMLM). ....................................... 
+25 
+6.6. 
+Theater Lead Agent for Medical Materiel (TLAMM). ............................................ 
+25 
+Table 6.1. 
+SIMLM and TLAMM Designations. ...................................................................... 
+26 
+Chapter 7—TRAINING 
+27 
+7.1. 
+Medical Readiness Training Requirements. ............................................................ 
+27 
+7.2. 
+Mission-Specific Training. ...................................................................................... 
+27 
+7.3. 
+Vehicle Operation Training. .................................................................................... 
+27 
+Attachment 1—GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+28 
+4 
+DAFTTP3-42.8  15 JUNE 2021 
+Chapter 1 
+INTRODUCTION 
+1.1.  Purpose.  This publication provides an overview of the Expeditionary Medical Logistics 
+(EML) support system, Air Force deployable medical logistics capabilities, and tactics, techniques, 
+and procedures for medical materiel and biomedical equipment technician (BMET) personnel 
+assigned to medical logistics unit type codes (UTCs).  It provides planners and medical personnel 
+a general understanding of global logistics and distribution processes, as well as the challenges 
+involved in deploying and sustaining the Air Expeditionary Force (AEF).  This publication 
+provides a source document for developing standardized policies, operating procedures, and 
+training programs.  Operation plans and regional guidance provide more specific information that 
+amplify and tailor the guidance contained in this publication. 
+1.2.  Mission.  The EML system provides global support and sustainment to AEF medical forces 
+across the full spectrum of operations.  It provides time-definite resupply of materiel by 
+synchronizing the flow of materiel, information, and funds from initial unit request to delivery.  
+Through predetermined supply chains, focused logistics, and combat support concepts, it ensures 
+delivery of tailored logistics packages to deployed medical personnel.  It uses a pull process for 
+resupply and a repair-and-return process for medical equipment maintenance to minimize 
+inventory footprint and airlift requirements.  The EML system incorporates commercial best 
+practices to streamline the requisition process and eliminate or significantly reduce support 
+structures.  The Air Force Medical Readiness Agency/Medical Logistics Division is the office of 
+primary responsibility for management and execution of the EML system and Air Force Medical 
+Logistics Operations Center (AFMLOC), which are designed to provide crucial guidance to 
+medical personnel during all phases of deployment. 
+1.2.1.  Combat Support. The Air Force defines combat support as the foundational and 
+crosscutting capability to field, base, protect, support, and sustain Air Force forces during 
+military operations across the competition continuum.  The EML system supports the three 
+overarching principles of combat support as defined in Air Force Doctrine Publication 4-0, 
+Combat Support. 
+1.2.1.1.  Enable military operations across the competition continuum with effects 
+supporting U.S. national interests at any time or place. 
+1.2.1.2.  Provide essential mission support, leveraging the right mix of deployed and 
+distributed footprint and reliable reachback to increase effectiveness and responsiveness. 
+1.2.1.3.  Provide the ability to transition swiftly from home station to a deployed 
+environment and between operational requirements. 
+1.2.2.  Reachback is the process of obtaining products, services, and applications, or forces, or 
+equipment, or material from organizations that are not forward deployed (Joint Publication 
+[JP] 3-30, Joint Air Operations). 
+1.2.3.  Focused Logistics. Focused logistics is the combination of information and logistics 
+technologies to ensure required materiel arrives at the right time at the right place, every time, 
+no matter where or what the level of conflict.  It relies on rapid, reliable, and time-definite 
+transportation systems to reduce the need for maintaining large quantities of on-hand stock.  
+DAFTTP3-42.8  15 JUNE 2021 
+5 
+Key capabilities include agile sustainment, logistics information fusion, theater logistics 
+management, and force health protection. 
+1.2.3.1.  Focused logistics relies on transportation and throughput.  It requires careful 
+analysis and confidence on the part of the combatant commander and continued access to 
+ports.  New transportation systems will enable the shift from supply-based systems to 
+manufacturer direct or prime vendor delivery. 
+1.2.3.2.  Focused logistics requires the services and combatant commanders to right size 
+(and potentially reduce) their forward support footprint and rely on consistent resupply and 
+precise delivery of essential support. 
+1.2.4.  In-Transit Visibility. In-transit visibility is necessary to ensure the smooth flow of 
+supplies and sustainment.  Medical logistics personnel are responsible for establishing in-
+transit visibility procedures and nodes at all ports of embarkation, transit points, and ports of 
+debarkation.  Lack of in-transit visibility can cause loss of confidence in the supply system, 
+create unnecessary ordering, and place an unnecessary burden on limited supply lines. 
+1.3.  Threat.  Medical logistics capabilities may be impacted by direct threats to the supply line as 
+well as threats to U.S. forces, installations, and information systems. 
+1.3.1.  Supply lines may be disrupted by combat-related activities, supply shortages, 
+transportation delays, and the like.  Transportation channels for focused logistics and 
+reachback can be impacted by factors such as country customs and geographical and 
+environmental conditions. 
+1.3.2.  Medical facilities are potential targets of enemy actions to disrupt health service support 
+response capabilities. 
+1.3.3.  Data protection and integrated backup capability are especially important in 
+maintaining medical asset visibility and facilitating materiel movement.  Network Control 
+Center information assurance programs provide information systems security support for 
+deployed medical facilities.  Deployed medical facilities abide by these as well as Air Force 
+Forces/Air Expeditionary Task Force (AFFOR/AETF) Network Operations and Security 
+Center – Deployed communications design architectures, operational rules of engagement, and 
+major/field command preferred product lists to minimize the threat. 
+6 
+DAFTTP3-42.8  15 JUNE 2021 
+Chapter 2 
+ORGANIZATIONS, ROLES, AND RESPONSIBILITIES 
+2.1.  Air Force Surgeon General.  The Air Force Surgeon General ensures medical units are 
+sourced and supported with deployable medical assets to meet the full spectrum of military 
+operations.  The Surgeon General determines EML doctrine and policy and provides the required 
+resources necessary to execute and sustain EML processes at the major/field command and unit 
+levels. 
+2.2.  Assistant Surgeon General, Health Care Operations.  The Assistant Surgeon General, 
+Health Care Operations, provides oversight authority for all aspects of training related to EML to 
+include the incorporation of EML concepts into all applicable Air Force Medical Service (AFMS) 
+education and training courses.  The Assistant Surgeon General coordinates and consolidates 
+program objective memorandum (POM) submissions to support EML execution, training, and war 
+reserve materiel (WRM) requirements. 
+2.3.  Air Force Medical Logistics Division.  The Air Force Medical Logistics Division 
+(AFMRA/SG4) is responsible for monitoring and reporting the supply chain process and 
+communicating issues and solutions to the Surgeon General, major/field commands, AFFOR/SG 
+staff, and Component Numbered Air Force Surgeon staff.  The Division maintains the AFMLOC 
+located at Ft. Detrick, Maryland, oversees the consolidated storage and deployment centers 
+(CSDCs) based in the continental United States (CONUS), and oversees the Air Force assigned 
+Theater Lead Agent for Medical Materiel (TLAMM) operations. 
+2.3.1.  The AFMLOC is the center for Air Force Class VIII medical supply chain management.  
+The AFMLOC coordinates with total force component medical planners and logisticians at the 
+combatant commands to ensure medical requirements are identified in operations plans, 
+exercises, and real-time operations.  It is the primary point of contact for the Air Operations 
+Center, the deployed unit, and the sustaining base on materiel and supply chain issues.  The 
+AFMLOC is responsible for medical logistics reachback in support of the AFFOR/SG and 
+determines the strategy to support the medical logistics plans for its areas of responsibility. 
+2.3.1.1.  The AFMLOC advises and supports the major/field commands, AFFOR Surgeons 
+(AFFOR/SGs) staff on resource requirements for supply chain nodes and provides 
+guidance on manpower assistance as appropriate. 
+2.3.1.2.  The AFMLOC develops, publishes, and monitors guidance on medical supply 
+chain management for the major/field commands and deployed medical units.  The 
+AFMLOC maintains information on airflow operations and logistics points of contact. 
+2.3.1.3.  The AFMLOC tracks issues and coordinates resolution with various agencies and 
+commands.  Note:  Air Mobility Command (AMC/SGXM) is the execution office and 
+point of contact for all patient movement item (PMI) questions and issues. 
+2.3.2.  The CSDCs hold consolidated medical equipment UTCs.  The CSDCs provide a full 
+range of medical logistics capabilities, enabling the execution of the EML supply chain. 
+2.3.2.1.  The CONUS-based CSDCs are currently located at Port San Antonio, TX, Travis 
+Air Force Base, CA, and Charleston, SC.  They can accomplish the full range of 
+DAFTTP3-42.8  15 JUNE 2021 
+7 
+maintenance on most medical and non-medical equipment.  Their strategic locations reduce 
+the risk of loss and non-availability of airlift to opposite coasts. 
+2.3.2.2.  The CSDC at Port San Antonio, TX, is the industrial operations center for Air 
+Force medical logistics.  It builds and modernizes all Air Force medical UTCs and serves 
+as a PMI loan repair and return center (LRRC).  It may serve as a sustaining base as part 
+of Air Force global medical logistics support. 
+2.3.3.  A TLAMM serves as a major theater medical distribution node and is the customer 
+interface for medical logistics and supply chain management for the area of responsibility.  The 
+Chairman of the Joint Chiefs of Staff has designated AFMRA/SG4W (Port San Antonio, TX) 
+as the TLAMM for United States Northern Command (USNORTHCOM) and United States 
+Southern Command (USSOUTHCOM) and the 18th Medical Group at Kadena Air Base, Japan, 
+as the TLAMM for United States Indo-Pacific Command (USINDOPACOM) (outside of 
+Korea).  See Chapter 6, Integration and Interoperability, for more information about the 
+TLAMM. 
+2.4.  Air Force Forces Surgeon (AFFOR/SG).  The AFFOR/SG is responsible for AFFOR 
+medical logistics in the area of responsibility.  The AFFOR/SG staff identifies requirements for 
+medical logistics manpower augmentation, documents medical logistics manpower shortfalls to 
+supporting major/field commands, and coordinates logistics support plans with the AFMLOC.  
+When medical logistics elements are assigned in the theater to support supply chain operations, 
+the AFFOR/SG staff facilitates coordination between the elements and deployed medical 
+personnel to ensure the deploying element and local commander have a clear understanding of the 
+responsibilities and capabilities. 
+2.5.  Air Mobility Command Surgeon (AMC/SG).  The AMC/SG is the PMI Program 
+Management Office responsible for worldwide asset management.  The AMC/SGXM staff (in 
+support of the United States Transportation Command Surgeon [USTRANSCOM/SG] and 
+Component Numbered Air Force or Component Major/Field Command) identifies requirements 
+for PMI, medical logistics manpower augmentation, and centralized asset procurement, 
+management, reporting, and recycling.  When medical nodes are assigned in theater or designated 
+in support of theater PMI operations, the AMC/SGXM staff facilitates coordination between the 
+Numbered Air Forces, elements, and deployed medical personnel to ensure the deploying element 
+and local commanders have a clear understanding of the responsibilities and capabilities. 
+2.6.  Medical and Operational Planners.  Air Force medical and operational planners at the 
+Component Numbered Air Force or Component Major/Field Commands ensure medical logistics 
+requirements are identified in operations plans, exercises, and real-time operations.  Key 
+considerations include transportation and distribution, local oxygen support capability, local linen 
+support, local disposal of medical and hazardous waste, and available power, fuel, and 
+communications capability. 
+2.7.  Manpower and Equipment Force Packaging (MEFPAK) Responsible Agencies 
+(MRAs).  To maintain the viability and effectiveness of its deployable medical capabilities, the 
+AFMS has assigned MRA responsibilities to three major commands: Air Combat Command 
+(ACC), Air Force Special Operations Command (AFSOC), and AMC.  UTC pilot units work 
+closely with the MRAs to construct and review UTCs, associated mission capability statements, 
+manpower details, and allowance standards.  The MRAs identify modernization requirements as 
+input into the POM prioritization process.  UTCs are dynamic and are continuously reviewed and 
+8 
+DAFTTP3-42.8  15 JUNE 2021 
+modified.  Medical planners should consult with the appropriate MRA to obtain the most current 
+information. 
+2.7.1.  ACC is the MRA for ground medical support personnel and equipment UTCs and 
+medical counter-chemical, biological, radiological, and nuclear (MC-CBRN) allowance 
+standards. 
+2.7.2.  AMC is the MRA for en route continuum of care UTCs, the PMI program, and the Air 
+Force Safe-to-Fly (StF) program in respect to medical equipment items for rotary and fixed 
+wing aircraft. 
+2.7.3.  AFSOC is the MRA for special operations medical personnel and equipment UTCs. 
+2.7.4.  Pacific Air Forces (PACAF) and United States Air Forces in Europe-Air Forces Africa 
+(USAFE-AFAFRICA) maintain responsibility for theater-unique capabilities. 
+2.7.5.  Air National Guard (ANG) maintains responsibility for ANG capabilities related to 
+Title 32 United States Code operations.  Title 10 United States Code operations are governed 
+by the Regular Air Force MRAs. 
+2.7.6.  AFMRA/SG4M functions as the MRA for force health protection assets. 
+2.8.  Sustaining Base.  The sustaining base provides reachback support to deployed medical units 
+in the early stages of an operation.  It augments the deployed medical unit’s limited logistics 
+capability by assuming the bulk of the supply chain’s administrative, sourcing, and tracking 
+functions.  The AFFOR/SG staff determine the sustaining base in coordination with the AFMLOC. 
+2.8.1.  Sustaining base responsibilities are normally assigned to large CONUS-based medical 
+treatment facilities to leverage access to suppliers specializing in large-scale logistics support 
+and in-house clinicians who can identify substitutes for unavailable medical items.  A 
+sustaining base may be located outside the continental United States (OCONUS) for supply 
+chain expediency and cost effectiveness. 
+2.8.2.  The sustaining base activates an extended workday or on-call operations center to 
+respond to short-notice deployments.  When activated, the sustaining base acts as the deployed 
+medical unit’s logistics link for the duration of the deployment or until a theater supply chain 
+is established and fully operational.  The sustaining base notifies the unit of substitutions and 
+fills initial outfitting shortages identified by the deploying unit’s home base. 
+2.8.3.  The sustaining base meets equipment requirements through a combination of spare-
+parts procurement, replacement equipment procurement, and (potentially) centralized repairs 
+and returns. 
+2.8.4.  The sustaining base may activate pharmaceutical or medical-surgical prime vendor 
+contract clauses to act as the primary ordering facility, providing direct resupply to deployed 
+medical units. 
+2.9.  Expeditionary Medical Support (EMEDS) Logistics Personnel.  Medical materiel 
+personnel (4A1X1) on expeditionary ground medical UTCs are responsible for managing the 
+supply and equipment needs of an EMEDS facility or Air Force Theater Hospital (AFTH) as well 
+as any PMI within the facility.  BMET personnel (4A2X1) are responsible for biomedical 
+equipment maintenance and facility management.  See AFTTP 3-42.71, Expeditionary Medical 
+DAFTTP3-42.8  15 JUNE 2021 
+9 
+Support (EMEDS) and Air Force Theater Hospital (AFTH), for more information about 
+EMEDS/AFTH capabilities and operations. 
+2.9.1.  FFEP2, EMEDS Command and Control, includes one 4A171 and one 4A271 to provide 
+initial medical logistics support for the EMEDS platform.  This capability is part of the 
+EMEDS Health Response Team (HRT) package. 
+2.9.2.  FFEP3, 10-Bed Personnel Augmentation, includes one 4A151 and one 4A251.  This 
+capability is part of the EMEDS+10 package. 
+2.9.3.  FFEP4, 25-Bed Personnel Augmentation, includes one 4A151.  This capability is part 
+of the EMEDS+25 package. 
+2.10.  En Route Care Logistics Personnel.  Medical logistics personnel on en route care UTCs 
+are responsible for managing the deployed medical unit’s supply needs.  Medical materiel 
+personnel (4A1X1) on aeromedical UTCs are responsible for managing the supply needs of an En 
+Route Patient Staging System (ERPSS), Aeromedical Evacuation Squadron, designated 
+supporting PMI center, or deployed PMI cell or node.  See AFTTP 3-42.57, En Route Patient 
+Staging System, for more information about capabilities and operations. 
+2.10.1.  FFQCC, Command Squadron, includes one 4A171. 
+2.10.2.  FFQCM, Aeromedical Evacuation Operations Team Augmentation, includes one 
+4A151. 
+2.10.3.  FFQNT, Medical Operations Team, includes one 4A171. 
+2.10.4.  FFQSC, Support Cell, includes one 4A171. 
+2.10.5.  FFPPS, ERPSS Provider, includes one 4A171.  The 10-bed ERPSS requires medical 
+supply support to begin seven days after setup. 
+2.10.6.  FFFPS, ERPSS 50, includes one 4A151 and one 4A271. 
+2.10.7.  FFHPS, ERPSS 100, includes one 4A251. 
+2.11.  Special Operations Logistics Support.  AFSOC medical forces have limited logistics 
+support capabilities.  In many Special Operations Forces (SOF) operations, the short-term, 
+clandestine, or low-visibility nature of the operation may not allow or require establishment of a 
+resupply mechanism.  Depending on the type of operation, AFSOC medics might receive support 
+from the nearest conventional medical logistics unit or from local or regional resources as 
+appropriate.  Medical logistics are normally coordinated through the SOF medical plans officer. 
+2.11.1.  For clandestine operations, AFSOC medical units deploy with adequate medical 
+supplies and equipment to ensure they can support operational requirements.  Should resupply 
+be required, SOF medical planners establish resupply through a variety of mechanisms, which 
+may include support from a host medical treatment facility, in-country embassy, military 
+assistance group, home station, or main operating base.  Predetermined PMI may need to be 
+placed at forward or intermediate staging bases. 
+2.11.2.  When located in a mature theater in support of a major regional conflict, AFSOC 
+medics receive medical logistics support from the nearest conventional medical logistics unit.  
+AFSOC medics should coordinate with the host medical treatment facility or the AFMLOC 
+10 
+DAFTTP3-42.8  15 JUNE 2021 
+before deployment to ensure adequate medical logistics training.  The AFMLOC can also 
+provide guidance and support for sustainment issues. 
+2.11.3.  See AFTTP 3-42.6, USAF Medical Support for Special Operations Forces, for more 
+information about AFSOC operations and medical logistics planning considerations. 
+2.12.  Medical Logistics Support Capabilities.  Medical logistics personnel may be assigned to 
+various support UTCs to ensure the availability and operability of critical medical and surgical 
+materiel.  These UTCs typically deploy to an AFTH or equivalent facility at a strategic hub but 
+can also be used to support other locations within a theater.  Specific tasking for these UTCs should 
+be addressed in line remarks.  See the UTC Mission Capability Statement for more information on 
+the UTC’s mission and full manpower detail. 
+2.12.1.  FFBMM, Biomedical Equipment Maintenance Team, provides one 4A271 and two 
+4A251s to support the existing biomedical equipment maintenance and facility management 
+capabilities at an AFTH or equivalent medical facility.  This team can also support operations 
+at a PMI center, cell, or node or a TLAMM. 
+2.12.2.  FFLG1, Medical Logistics Manpower Augmentation Team, provides one 4A171 and 
+one 4A151 to support the existing medical supply capabilities at an AFTH or equivalent 
+facility.  This team can also support other logistics nodes, such as distribution hubs and military 
+depots located near aerial ports of embarkation (APOE) or aerial ports of debarkation (APOD), 
+a PMI center, cell, or node, or a TLAMM, to facilitate the flow of materiel and information. 
+2.12.3.  FFLGM, Medical Logistics Management Team, provides one 041A3, one 4A171 and 
+one 4A271 to support enduring operations at an established AFTH, TLAMM, or equivalent 
+facility. 
+2.12.4.  FFHA4, CT Scan Team, includes one 4A271 with specialized training in the repair 
+and maintenance of CT equipment at an AFTH or equivalent facility. 
+2.12.5.  FFGLB, Patient Decontamination Team, includes one 4A151 to manage the inventory, 
+storage, and supply needs of the expeditionary medical patient decontamination team.  This 
+team deploys to areas with a CBRN threat. 
+2.12.6.  FFFDT, Forward Distribution Medical Logistics Manpower Team, provides one 
+041A3, one 4A191, one 4A171, eight 4A151s, one 4A271, and one 4A251 to provide 
+leadership and medical materiel support for TLAMM and other medical contingency 
+operations.  The team works to establish supply chain, distribution, storage, medical 
+maintenance, customer support, and command, control, communications, and intelligence 
+(C4I) capabilities to extend medical materiel support within a theater.  The team can deploy to 
+various distribution hubs, intermediate supply activities, military depots, and EMEDS or 
+AFTH facilities to facilitate the flow of materiel and information. 
+2.13.  Blood Support.  Medical logistics personnel help expedite shipments and ensure proper 
+storage and packaging of temperature-controlled blood products at Expeditionary Blood 
+Transshipment Centers and at pre-positioned frozen blood stock locations.  See AFTTP 3-42.711, 
+Blood Support Operations, for more information about the blood program and blood support 
+capabilities. 
+2.13.1.  FFBD1, Frozen Blood Product Team, includes one 4A151. 
+2.13.2.  FFBP1, Expeditionary Blood Transshipment Center, Module 1, includes one 4A171. 
+DAFTTP3-42.8  15 JUNE 2021 
+11 
+2.13.3.  FFBP3, Expeditionary Blood Transshipment Center, Module 3, includes one 4A151. 
+2.14.  Theater Support.  Medical logistics personnel provide materiel management support for 
+AFFOR/SG medical staff, provincial reconstruction teams, and other theater engagement teams. 
+2.14.1.  FFMET, Medical Engagement Team, includes one 4A171. 
+2.14.2.  FFSGQ, AFFOR Medical Staff, Increment 1, includes one 4A171. 
+2.15.  Non-Medical and Special Operations Forces (SOF) Support.  Medical logistics 
+personnel may support non-medical expeditionary and SOF UTCs.  Medical logistics personnel 
+assigned to these UTCs provide medical logistics support only and function in non-combatant 
+roles. 
+2.15.1.  7PRCS, Guardian Angel Combat Support, includes one 4A151. 
+2.15.2.  81RSG, Special Tactics Team Medical Supply, includes one 4A151. 
+2.15.3.  9AAB1, AFFOR Staff, includes one 4A191. 
+2.15.4.  9AAB2, AFFOR Limited Response Package (LRP), includes one 4A171. 
+2.15.5.  9AAB3, AFFOR Theater Response Package (TRP), includes one 4A171. 
+2.15.6.  9AFWD, Commander, Air Force Forces (COMAFFOR)/Joint Force Air Component 
+Commander (JFACC) Forward Staff, includes one 4A191. 
+2.15.7.  CT17F, 17AF AFAFRICA AFFOR Staff, includes one 4A171. 
+2.15.8.  FFQE2, SOF Global Engagement Augmentation, includes one 4A171. 
+2.16.  Patient Movement Item (PMI) Program.  The objective of the PMI program is to sustain 
+patient movement through the en route care system without diminishing the capability of forward 
+medical units.  The PMI program manages all designated PMI assets to ensure sufficient supplies 
+and equipment are available to sustain multi-modal patient movement operations and provide for 
+in-kind exchange when PMI accompanies a patient.  USTRANSCOM is the PMI system manager 
+(Department of Defense Instruction [DODI] 6000.11, Patient Movement; JP 4-02, Joint Health 
+Services).  The AMC/SG is responsible for resourcing, maintaining, and recycling PMI assets to 
+support global contingency operations.  The AMC Surgeon’s Office Medical Readiness Logistics 
+Branch (AMC/SGXM) provides program management and execution. 
+2.16.1.  PMI is the equipment and supplies required to support patients during aeromedical 
+evacuation such as litters, patient monitors, ventilators, and suction equipment.  PMI is part of 
+a standardized list of approved safe-to-fly equipment.  The Global Patient Movement Joint 
+Advisory Board approves PMI designated items. 
+2.16.2.  All services will fund the original, initial quantities of approved PMI in-kind assets.  
+PMI in-kind assets are defined as the exact medical equipment by type and model approved 
+for patient movement.  All services will maintain initial quantities of approved PMI in-kind 
+equipment in their medical assemblages, kits/sets/outfits, or allowance standard.  The program 
+objectives are to ensure program standardization, enable proper recycling or replacement of 
+medical equipment, and ensure operational capability is not diminished due to equipment 
+shortfalls.  PMI is not intended to supplement service assemblages for use in facilities. 
+12 
+DAFTTP3-42.8  15 JUNE 2021 
+2.16.3.  Medical logistics personnel at PMI centers, cells, and nodes manage inventory 
+availability, asset visibility, maintenance, flow of PMI through available transportation nodes, 
+and timely asset recycling.  PMI is tracked in the Patient Movement Item Asset Tracking 
+System (PMI-ATS).  PMI and PMI-ATS deploy in support of en route care, are managed and 
+supplied by designated logisticians, and are co-located with aeromedical evacuation intra-
+theater and inter-theater interfaces to provide initial aeromedical evacuation operational 
+capability, sustain patient movement operations, and minimize equipment turnaround time.  
+See Chapter 5, Communications and Information Systems, for more information on PMI-
+ATS. 
+2.16.4.  PMI center levels are based on projected casualty flow and time-phased recycling of 
+PMI assets.  Timely recycling is essential to maintain and contain total inventory investment.  
+All services are responsible for tracking and returning PMI assets to the closest PMI center.  
+The plan for a PMI exchange system as well as the return of evacuation equipment and PMI to 
+the originating theater should be addressed in the respective combatant command and service 
+component command operating plans. 
+2.16.5.  PMI equipment is tested and certified for use on applicable service rotary and fixed-
+wing aircraft.  Service en route care teams (i.e., Air Force aeromedical evacuation crews and 
+critical care air transport teams) are trained to operate PMI equipment.  Air Force Form 4033, 
+PMI/AE Certification Label, or joint certification label is required to designate airworthiness 
+certification for all PMI equipment.  This certification label must be affixed to each piece of 
+PMI certified equipment.  Medical logistics personnel are responsible for ensuring PMI is 
+barcoded, radio-frequency identification (RFID) tagged, recorded in PMI-ATS, available for 
+patient treatment, tracked in transit, and recycled to medical facilities.  If barcode or RFID tags 
+are missing, contact the nearest PMI Center for replacement. 
+2.16.6.  The sending medical facility is responsible for placing PMI on the patient.  PMI levels 
+at deployed medical facilities will be determined by local commanders after coordination and 
+approval by the designated theater PMI lead and AMC/SGXM.  The minimum prepositioned 
+levels should be equal to or greater than three days of worst-case expected patient flow support 
+requirements.  PMI centers will recycle or replace PMI equipment used for patient movement 
+to maintain the medical facility’s approved patient movement levels. 
+2.17.  PMI Support Teams.  The medical logistics manpower augmentation team (FFLG1) and 
+biomedical equipment maintenance team (FFBMM) provide the manpower to operate and manage 
+a PMI center or cell.  Medical materiel personnel manage PMI and are responsible for 
+accountability, acquisition, recycling of equipment, shipment, and tracking PMI in PMI-ATS.  
+BMETs provide maintenance and repair capabilities and are responsible for scheduled and 
+unscheduled maintenance services and PMI-ATS updates.  PMI equipment UTCs provide required 
+equipment, supplies, and logistics tools.  En route care units with PMI equipment levels will be 
+supported by the same maintenance support personnel supporting the rest of the medical equipment 
+assigned to the unit. 
+2.17.1.  FFBM1 provides medical calibration and test equipment to perform scheduled and 
+unscheduled maintenance on deployed PMI. 
+2.17.2.  FFQP3 is a notional UTC comprised of PMI that can be tailored to the unique PMI 
+equipment and supply needs of a deployed location. 
+DAFTTP3-42.8  15 JUNE 2021 
+13 
+2.17.3.  FFQP4 is a deployable PMI-ATS used to track PMI at the deployed location. 
+2.18.  Expeditionary Combat Support (ECS).  Medical units deploy with limited organic 
+capability and require ECS to support medical infrastructure and environment of care 
+requirements.  ECS is provided by Air Force, joint forces, coalition forces, or host nations and may 
+include installation logistics, vehicles and transportation, civil engineering support, billeting, food 
+services, communications, local oxygen support capability, local linen support, and local medical 
+and hazardous waste disposal.  ECS should be defined in operation plans, deployment orders, 
+memorandums of understanding, and memorandums of agreement with the various ECS agencies. 
+14 
+DAFTTP3-42.8  15 JUNE 2021 
+Chapter 3 
+OPERATIONS 
+3.1.  Pre-Deployment Logistics Support Planning.  The AFFOR/SG staff provides the 
+AFMLOC and deploying medical logistics personnel with information about intra-theater airflow, 
+distribution nodes, operational funding, and other theater supply chain information.  This 
+information ensures development of the most efficient and effective supply chain for the operation.  
+The AFFOR/SG staff establishes equipment and supply review policy to aid deployed 
+commanders in validating requirements.  This process ensures mission requirements can be met 
+and that all activities in the supply chain are focused on procuring and distributing the necessary 
+materiel. 
+3.1.1.  The AFFOR/SG staff, in coordination with the AFMLOC and sustaining base, identifies 
+the requirements for medical logistics manpower augmentation teams to support the plan.  The 
+AFFOR/SG staff begins the process of requesting the augmentation teams for deployment to 
+the agreed-upon logistics nodes. 
+3.1.2.  The sustaining base and the AFMLOC coordinate with USTRANSCOM and combatant 
+command planners to ensure the most expeditious transportation nodes are used for 
+sustainment.  Commercial contract carriers are used to the maximum extent possible. 
+3.1.3.  The AFFOR/SG establishes medical equipment repair guidance for deployed units in 
+conjunction with AFMRA/SG4T.  Medical equipment repairs and calibrations that cannot be 
+done on-site may be provided by an Air Force Medical Equipment Repair Center (MERC), 
+Army Forward Repair Activity–Medical (FRA-M), a designated TLAMM, or PMI cell.  The 
+AFFOR/SG staff coordinates required support agreements and provides deployed medical 
+units with information on what services and equipment these activities provide and how to 
+arrange for support. 
+3.1.3.1.  A BMET personnel UTC can be requested to augment any of these activities to 
+meet increased workload demands.  The BMET can determine whether equipment can be 
+repaired, calibrated locally, or needs replacement. 
+3.1.3.2.  The supporting theater PMI center or cell can provide repair guidance for PMI.  
+Theater PMI equipment is maintained on Department of Defense Activity Address Code 
+(DODAAC) FM4444, Defense Medical Logistics Standard Support (DMLSS) account 
+XX5881, at AMC/SGXM. 
+3.1.3.3.  If these support options are unavailable, the loan repair and return center (LRRC) 
+may be used to assist with repairs. 
+3.2.  Deployed Medical Units.  Medical units may deploy with one or more WRM assemblages 
+to support the full range of military operations.  Medical units should coordinate with the AFFOR, 
+AFMLOC, and sustaining base to obtain specific instructions during all phases of the deployment.  
+When tasked to deploy, medical logistics personnel should contact the AFMLOC to review the 
+current theater medical supply chain for their deployed location. 
+3.2.1.  Upon arrival in theater, the deployed medical unit initiates communication with the 
+sustaining base and works with deployed information systems personnel to secure a permanent 
+communications solution.  The medical unit notifies the sustaining base of issues related to 
+DAFTTP3-42.8  15 JUNE 2021 
+15 
+supply maintenance and ensures that resupply requirements are identified and coordinated, 
+including shipping addresses and a commercial address. 
+3.2.2.  Communications and coordination among the deployed unit, AFMLOC, and sustaining 
+base on materiel and maintenance issues are critical to meet EML time-definite delivery goals.  
+Resupply priorities are classified as urgent (96 hours), immediate (7 days), or routine (30 days). 
+3.2.3.  The deployed medical unit identifies shortfalls in personnel, equipment, and training 
+and appoints a primary point of contact to communicate logistics issues with all nodes.  This 
+point of contact updates appropriate contingency and annual training or exercise schedules to 
+ensure EML personnel, equipment, and training are incorporated to meet operational 
+requirements.  The point of contact informs line and medical personnel and commanders on 
+the EML process and capabilities. 
+3.2.4.  The deployed medical unit notifies the sustaining base or AFMLOC when required 
+supplies are received.  They may perform this update in the automated information system.  
+This update ensures the transaction is closed in the Integrated Data Environment (IDE)/Global 
+Transportation Network (GTN) Convergence (IGC). 
+3.2.5.  Deployed medical logistics personnel should coordinate with the local operational 
+contract support office to validate local vendors outside the pre-approved list and communicate 
+with other medical units in the area to understand their mission and possible resupply 
+requirements. 
+3.2.6.  Deployed medical logistics personnel are responsible for managing medical materiel 
+hazard alerts and recalls, equipment defects and materiel complaints, and incident 
+investigations involving medical equipment and devices that may have caused harm to a patient 
+or personnel in accordance with Air Force Manual (AFMAN) 41-209, Medical Logistics 
+Support. 
+3.2.7.  Deployed medical units with co-located en route care units receive replenishment of 
+PMI equipment from the combatant command designated theater PMI center or cell.  Supplies 
+are procured through normal resupply channels. 
+3.3.  Cargo Movement.  Medical materiel and resupply should be transported by the most 
+expedient and reliable lift method available.  Medical logisticians and the transportation 
+community work together to develop an executable medical cargo movement plan tailored to the 
+mission and operational environment.  They may establish contracted or partnership agreements 
+to help ensure uninterrupted medical cargo movement.  Cargo movement through the distribution 
+chain requires full in-transit visibility.  Tracking systems for commercial carrier and military 
+transportation systems must be in place.  Lack of in-transit visibility can result in delayed and lost 
+shipments. 
+3.4.  Redeployment and Reconstitution of Assets.  Redeployment and retrograde guidance 
+comes from a variety of sources, including the joint staff, combatant command, joint task force 
+(JTF) commander, AFFOR/SG staff, other service component commands, and the AFMLOC.  The 
+AFFOR/A4 may choose to use redeployment time-phased force deployment data (TFPDD). 
+3.4.1.  Serviceable supplies and equipment are redeployed only if there is an existing 
+requirement elsewhere and it is cost effective to do so.  The AFFOR/SG’s staff may transfer 
+excess supplies and equipment to another Air Force or service component command medical 
+16 
+DAFTTP3-42.8  15 JUNE 2021 
+facility in theater.  Under certain conditions, excess medical property may be transferred to the 
+Department of State or the host government. 
+3.4.2.  Serviceable property that is not cost effective to retrograde and unserviceable property 
+may be sent to the nearest Defense Logistics Agency (DLA) Disposition Services office 
+supporting the theater. 
+3.4.3.  Coordinate the redeployment and retrograde of PMI with AMC/SGXM and the theater 
+AFFOR/SG.  PMI equipment should not be sent to DLA Disposition Services unless directed 
+by AMC/SGXM.  Theater PMI rotator pool equipment is maintained on DODAAC FM4444, 
+DMLSS account XX5881, at AMC/SGXM. 
+3.5.  Sustainment.  Each combatant command has a supporting TLAMM.  The TLAMM is the 
+deployed unit’s primary contact for materiel and equipment support in theater.  The designated 
+sustaining reachback bases are available for emergencies and backup if the TLAMM is unable to 
+provide support.  The following acquisition options (listed in order of priority) are available if the 
+designated TLAMM or sustaining reachback base is unavailable. 
+3.5.1.  DLA Troop Support Prime Vendor Program. 
+3.5.1.1.  Prime vendor distributed items include Distribution and Pricing Agreement 
+(DAPA) items, Federal Supply Schedule items, prime vendor non-usage items, prime 
+vendor committed volume or regional incentive agreements, and electronic commerce 
+sources. 
+3.5.1.2.  Also included are DLA medical contingency contracts sourced through Readiness 
+Electronic Catalog (ECAT) in DMLSS. 
+3.5.2.  DLA Troop Support ECAT. 
+3.5.3.  Local purchase instruments such as blanket purchase agreements and indefinite 
+delivery/indefinite quantity contracts. 
+3.5.4.  Other electronic commerce and web-based ordering sites (e.g., Department of Veterans 
+Affairs ordering sites, General Services Administration [GSA] Advantage, or DLA E-Mall). 
+3.5.5.  DLA Troop Support Depot (centrally managed DLA depot stocked with military unique 
+items). 
+3.5.6.  Government purchase cards. 
+3.6.  Materiel Management.  Medical materiel personnel are responsible for organizing and 
+providing life-cycle management of medical materiel, including pharmaceuticals, medical 
+supplies, medical assemblages, and medical gases.  The chief of logistics/director of logistics is 
+responsible for all logistics operations in the activity and satellite activities to the extent authorized.  
+These operational responsibilities include the following. 
+3.6.1.  Acquisition, receipt, storage, issue, movement, maintenance, repair, and accountability 
+of materiel and equipment. 
+3.6.2.  Environmental services management, including housekeeping, textile care services 
+(linen distribution and laundry services), and waste collection and disposal. 
+DAFTTP3-42.8  15 JUNE 2021 
+17 
+3.6.3.  Facility management, including real property repair and maintenance, construction and 
+renovations (minor/new), grounds maintenance, physical security, preventive maintenance, 
+energy conservation, facility space utilization, and master planning. 
+3.6.4.  Transportation management, including transportation coordination and justification and 
+management of non-tactical vehicles. 
+3.6.5.  Communication with the information management officer and plans and operations 
+staff. 
+3.6.6.  Contracting support coordination. 
+3.6.7.  Excess materiel management. 
+3.6.7.1.  The goal is to eliminate excess medical materiel, which is any materiel on hand 
+that is no longer required to satisfy any mission requirement. 
+3.6.7.2.  Ensure timely and cost-effective identification of excess materiel and equipment. 
+3.6.7.3.  Report and advertise excess serviceable materiel for possible redistribution to 
+other in-theater activities or units. 
+3.7.  Medical Maintenance.  Medical maintenance personnel are responsible for ensuring that 
+medical equipment is serviceable, safe, and properly configured.  They perform scheduled 
+maintenance, unscheduled maintenance, equipment calibrations, and electrical safety inspections 
+of medical and non-medical equipment used in patient care spaces in accordance with AFI 41-201, 
+Managing Clinical Engineering Programs. 
+3.7.1.  Electrical safety responsibilities include testing of isolated power systems and ground 
+fault circuit interrupters (GFCIs).  Deployed BMETs may assist the Chief of the Medical Staff 
+and others responsible for in-service training by providing user training and education on 
+electrical safety. 
+3.7.2.  BMETs maintain and operate a medical equipment repair parts program; maintain a 
+technical library with operator and service manuals for each piece of equipment; conduct 
+acceptance inspections for new or transferred equipment; and implement organizational 
+maintenance support for all medical devices used at the deployed location.  BMETs perform 
+pre-purchase evaluations of medical devices and advise on operational theory, underlying 
+physiological principles, and safe clinical applications of biomedical equipment.  BMETs 
+perform medical equipment disposition actions in accordance with AFI 41-201 to include 
+cooperating with Report of Survey investigations and ensuring the safe and proper disposal of 
+hazardous material resulting from maintenance actions. 
+3.7.3.  BMETs establish equipment data files for all maintenance significant equipment and 
+document all maintenance actions performed throughout the equipment’s lifecycle in 
+accordance with AFI 41-201.  This documentation includes results of electrical safety 
+inspections, scheduled maintenance, unscheduled maintenance, and quality assurance reviews.  
+Medical equipment service training, clinical applications (user) training, and in-service 
+training is documented in accordance with AFMAN 41-209 upon completion. 
+3.7.4.  BMETs comply with medical equipment tracking actions required by Public Law 105-
+115, Food and Drug Administration Modernization Act of 1997, when performing acceptance 
+or disposition actions. 
+18 
+DAFTTP3-42.8  15 JUNE 2021 
+3.8.  Theater Medical Maintenance Support.  BMETs organic to the deployed medical facility 
+or aeromedical evacuation unit perform most scheduled and unscheduled maintenance.  Local or 
+regional contract maintenance may be available from distributors of US-manufactured medical 
+equipment.  BMETs may also return medical equipment to the manufacturer for repair or 
+calibration using the repair and return process through the TLAMM or designated reachback 
+sustaining base.  Other resources include the following. 
+3.8.1.  Expeditionary Civil Engineer and Communications Squadrons provide infrastructure 
+and communications equipment support. 
+3.8.2.  Air Force TLAMMs have organic BMET capability or can rely on a regional MERC. 
+3.8.3.  Army TLAMMs have FRA-Ms that can provide maintenance support for imaging, 
+laboratory, and pulmonary equipment at deployed medical facilities. 
+3.9.  Loan Repair and Return Centers (LRRCs).  The LRRC program provides maintenance 
+and temporary replacement for certain predetermined, critical medical equipment to mitigate 
+potential impact to patient care capabilities at deployed medical facilities.  LRRCs are located at 
+AFMRA/SG4W, Port San Antonio, TX, Ramstein Air Base, Germany, and Yokota Air Base, 
+Japan.  The LRRCs maintain an inventory of critical medical equipment items (but not PMI).  
+These critical items are usually one-of-kind equipment that would seriously disrupt patient care if 
+not fully mission capable.  LRRC equipment is listed in WRM Assemblage SG97 in the Air Force 
+Medical Logistics Allowance Standard Management System.  Equipment in this customer-owned 
+assemblage is provided as a loaner for unserviceable in-theater equipment that is shipped out of 
+the area of responsibility for service or repair.  Note:  Army TLAMMs might maintain an 
+Operational Readiness Float of critical medical equipment.  The Operational Readiness Float 
+provides a similar capability to the Air Force’s LRRC or reachback support. 
+3.10.  Facility Management.  Facility managers maintain the overall safe environment of the entire 
+medical facility and are responsible for the following tasks: 
+3.10.1.  Ensure the identification and correction of electrical safety hazards and coordinate with base 
+civil engineering or contract service provider to ensure inspections of the power distribution and 
+emergency power systems are performed and documented. 
+3.10.2.  Coordinate with base civil engineering or contract service provider to correct power 
+distribution system hazards identified through inspection. 
+3.10.3.  Help perform functional and technical reviews of development documents and drawings. 
+3.10.4.  Identify requirements for medical equipment and furnishings. 
+3.10.5.  Direct acceptance inspections and construction surveillance. 
+3.10.6.  Assist in transitional planning, initial outfitting, and post-occupancy efforts. 
+3.10.7.  Advise on medical facility master planning and life-cycle management. 
+3.10.8.  Conduct facility assessment studies to improve the functional use of space. 
+3.10.9.  Perform engineering evaluations of building systems and components. 
+3.10.10.  Provide consultant services for code interpretation and compliance. 
+3.10.11.  Identify facility sustainment, restoration and modernization requirements, and advocate for 
+project funding. 
+DAFTTP3-42.8  15 JUNE 2021 
+19 
+Chapter 4 
+COMMAND AND CONTROL RELATIONSHIPS 
+4.1.  Command and Control of Medical Teams.  Medical operations command structure is 
+defined in warning, execution, operations, and task orders.  Deploying personnel should receive a 
+chain of command briefing before deployment. 
+4.1.1.  Medical logistics personnel fall under the control of the supported unit.  When 
+augmenting an existing medical resource, medical logistics specialists report to the senior 
+ranking medical officer or according to the established command structure. 
+4.1.2.  When employed to augment existing EMEDS/AFTH assets, medical logistics personnel 
+integrate into the supported unit’s command structure. 
+4.2.  Nodes.  The primary nodes within the EML system include the AFFOR/SG or Component 
+Major/Field Command, the deployed medical unit, and the sustaining base.  Adjunct nodes include 
+the prime vendor, JTF/SG, AFMLOC, AMC/SGXM (for PMI), and TLAMM.  Depending on the 
+node and method of transportation, the APOE/APOD may become critical adjunct nodes.  Node 
+enabling functions or processes include transportation, automated information systems 
+technology, worldwide telecommunication capability (including satellite communication), 
+network access, logistics manpower augmentation, and training. 
+20 
+DAFTTP3-42.8  15 JUNE 2021 
+Chapter 5 
+COMMUNICATIONS AND INFORMATION SYSTEMS 
+5.1.  Communication Requirements.  Medical logistics support relies heavily on information 
+technology to track and maintain supplies, establish and sustain effective resupply, and ensure 
+effective in-transit visibility of materiel.  Reliable, worldwide communications are critical to the 
+entire EML process.  (See Figure 5.1, Air Force Theater System Connectivity.)  Communication 
+requirements should be an integral part of all operation planning documents. 
+5.1.1.  The sustaining base and AFMLOC should ensure that deploying units have access to a 
+remote access server.  The remote access server provides an interim means for the deployed 
+unit to electronically send requisitions (by satellite communications or other appropriate 
+means) until the Expeditionary Communications Squadron can provide a permanent 
+connectivity solution. 
+5.1.2.  The sustaining base should establish a deliberate plan to connect the deploying unit with 
+remote access capability before deployment.  This plan should include pre-deployment testing 
+of remote connectivity with the sustaining base. 
+5.1.3.  Personnel should evaluate and incorporate technological enhancements into the EML 
+process where beneficial.  Data timeline criteria follows the Under Secretary of Defense 
+(Acquisition, Technology, and Logistics) Implementation Plan for all military and commercial 
+origin, in-transit, and receiving activities to report the arrival and departure of unit strategic 
+and sustainment airlift movements, sustainment sealift movements, and intratheater and 
+CONUS movements. 
+DAFTTP3-42.8  15 JUNE 2021 
+21 
+Figure 5.1.  Air Force Theater System Connectivity. 
+5.2.  Defense Medical Logistics – Enterprise Solution (DML-ES).  The DML-ES program 
+provides a DOD standard medical logistics portfolio for institutional and operational 
+environments.  The Defense Medical Logistics Proponent Committee, under the direction of the 
+Defense Health Agency, Health Operations Director, is the functional proponent for the DML-ES 
+program.  All materiel within the EML system, to include initial response supplies, sustainment 
+materiel, and medical equipment, is managed through a DML-ES application. 
+5.2.1.  Defense Medical Logistics Standard Support (DMLSS). DMLSS is the primary 
+information system used by the sustaining base, EMEDS/AFTH, and Air Force TLAMMs for 
+asset management.  DMLSS provides medical supply, medical equipment management and 
+maintenance, assembly management, facility management, and customer support functions.  It 
+allows direct data entry and transmission of orders from remote locations to suppliers. 
+5.2.1.1.  A DMLSS client server may be deployed to ground medical facilities at the 
+EMEDS HRT level and above, as determined by the AFFOR/SG staff.  EMEDS units 
+without a DMLSS client server will access DMLSS through a hub and spoke mechanism 
+in which they connect to the DMLSS server at a hub site (e.g., a larger medical facility) or 
+are supported by a designated master ordering facility.  Spoke sites with direct dial-in 
+access can maintain and update their equipment and maintenance records and manage 
+inventory.  AFFOR/SG staff should coordinate with AFMRA/SG4 Logistics Support 
+Systems staff for guidance in implementing a hub and spoke strategy. 
+5.2.1.2.  The DMLSS infrastructure requires at a minimum:  a Military Health System 
+DMZ enclave, access to the .mil network, bi-directional access through ports 443 and 1521, 
+and a secure, environmentally-controlled computer room or network control center. 
+22 
+DAFTTP3-42.8  15 JUNE 2021 
+5.2.2.  DMLSS Customer Assistance Module (DCAM). DCAM is the primary order 
+management system for tactical health service support units supported by the theater TLAMM.  
+It supports deployed medical units providing unit-level (Role 1) support such as a squadron 
+medical element, Air Transportable Clinic, rescue squadron, Red Horse team, and special 
+operations medical teams.  DCAM is laptop-based and provides a store and forward capability 
+when communications are not available. 
+5.2.3.  Joint Medical Asset Repository (JMAR). JMAR is a Web-based data repository that 
+provides worldwide asset visibility for medical materiel. 
+5.2.4.  Theater Enterprise Wide Logistics System (TEWLS). TEWLS is used by U.S. Army 
+TLAMMs for theater-level Class VIII supply chain management.  TEWLS supports 
+intermediate medical logistics functions and consolidates national, regional, and deployed 
+units into a single business environment.  The Web-based version of TEWLS, Web Dynpro, 
+lets users research real-time stock availability from the U.S. Army TLAMMs. 
+5.2.5.  Medical Contingency Requirements Workflow (MCRW). MCRW is a workflow 
+process management and medical materiel planning tool that leverages Defense Medical 
+Logistics enterprise clinical and logistics data.  It provides functionality to estimate surge and 
+sustainment materiel requirements and shortfalls for planned combat, humanitarian assistance, 
+and disaster relief operations.  It provides the Defense Medical Logistics enterprise capability 
+to perform a variety of medical materiel analyses, including sourcing, sales history, and Service 
+assemblage health to reduce errors and identify the best commercially procurable materiel. 
+5.3.  Theater Medical Information Program (TMIP).  TMIP is a suite of DOD standard medical 
+information systems for theater health service support operations.  It provides applications for 
+medical command and control, health care delivery, patient tracking, occupational and 
+environmental health exposure tracking and surveillance, medical logistics, and blood 
+management through the Joint Operational Medicine Information Systems (JOMIS) Program 
+Management Office. 
+5.4.  Patient Movement Item Asset Tracking System (PMI-ATS).  PMI-ATS provides PMI 
+asset visibility and tracking for deployed aeromedical evacuation units.  AMC/SGXM is 
+responsible for PMI-ATS operational control, advice, and counsel. 
+5.4.1.  PMI-ATS provides near real-time information on PMI location, availability, and 
+operational status.  It supports timely recycling of PMI through accurate tracking processes 
+and ensures the right equipment is in place at the right time.  PMI-ATS supports over 90 sites 
+worldwide. 
+5.4.2.  PMI-ATS uses barcode and RFID technology to link uniquely identified medical 
+equipment with its location and operational status at the point it was scanned.  Barcodes and 
+RFID tags are standardized for PMI and will be issued only at PMI centers and designated 
+units or by AMC/SGXM.  Users should ensure barcode and RFID labels are attached to all 
+PMI equipment and loaded in PMI-ATS before operational use.  The barcode label should 
+include the AMC/SGXM phone number, 1-877-286-1931.  If the label is worn or does not have 
+the phone number, contact the nearest PMI center or AMC/SGXM to obtain a new label.  Non-
+PMI equipment will not be tracked in this system unless coordinated with USTRANSCOM 
+and AMC/SGXM. 
+DAFTTP3-42.8  15 JUNE 2021 
+23 
+5.5.  Integrated Data Environment (IDE)/Global Transportation Network (GTN) 
+Convergence (IGC).  USTRANSCOM’s IGC provides a means to access transportation and 
+deployment information.  It integrates movement and schedule data from source systems and 
+commercial transportation service providers and feeds this data into supply chain nodes to provide 
+in-transit visibility. 
+5.6.  Communications Planning Considerations.  The EML system depends on reliable and 
+timely data and voice communications to exchange information among customers, logistics 
+support units, commercial suppliers, and transportation systems.  While most theater medical 
+logistics support systems operate in a non-classified communications environment, some 
+customers (such as Special Forces) and processes (such as joint movement requests) require access 
+to secure communications channels. 
+5.6.1.  Medical logistics support plans should address the need for reliable data connectivity 
+for supply chain management, especially for the earliest stages of deployment before theater 
+communications capabilities are fully mature. 
+5.6.2.  Medical logistics planners should coordinate closely with their J-6 and understand the 
+communications plan for the operation.  Planning considerations include the following. 
+5.6.2.1.  Ability for customers to communicate requirements and receive status. 
+5.6.2.2.  Ability for medical logistics units to communicate with customers as well as 
+supporting theater and national-level organizations. 
+5.6.2.3.  Ability for medical logistics units to share requirements and movement 
+information with distribution management organizations and provide situational awareness 
+to logistics and command and control systems. 
+5.6.2.4.  Information security to include negotiation of firewalls. 
+5.6.2.5.  Use of nonstandard communications capabilities, such as satellite. 
+5.6.2.6.  Training, fielding, and in-theater support for hardware and software applications. 
+24 
+DAFTTP3-42.8  15 JUNE 2021 
+Chapter 6 
+INTEGRATION AND INTEROPERABILITY 
+6.1.  Expeditionary Medical Support (EMEDS) Assemblages.  Medical logistics operations at 
+a deployed ground medical facility mirror the same mission support responsibilities as the home 
+station medical facility.  Medical logistics personnel assigned to an EMEDS/AFTH UTC should 
+be familiar with this AFTTP as well as AFTTP 3-42.71.  EMEDS assemblages deploy with a set 
+number of days of supplies and may require resupply before the theater TLAMM can support it.  
+An EMEDS facility can be equipped to requisition and receive supplies in a stand-alone mode 
+from its sustainment base, another support base, or other sources of supply.  AFMRA/SG4M can 
+develop Air Force Class VIII sustainment requirements for specific operating plans. 
+6.2.  Funding Sources.  Stored operating supplies may be funded through Air Force Working 
+Capital Fund (AFWCF) assets.  As issued supplies are processed, the AFWCF is reimbursed with 
+operation and maintenance (O&M) funds usually through a source of funding associated with an 
+Emergency and Special Program (ESP) coded operation.  Air Force assemblages are normally 
+issued upfront using Line of the Air Force O&M funds to reimburse the AFWCF.  When O&M 
+funding is used for operating supplies, no reimbursement by customers is required. 
+6.3.  Prime Vendors.  The sustaining base and theater TLAMMs requisition the bulk of the 
+pharmaceutical and medical-surgical supplies needed to support deployed medical units from 
+prime vendors.  Vendor contracts normally require vendors adhere to military standards and 
+guidance for shipping items that require special handling such as hazardous, controlled, and 
+refrigerated materiel. 
+6.4.  Defense Logistics Agency (DLA).  Department of Defense Directive (DODD) 5101.09E, 
+Class VIIIA Medical Materiel Supply Management, designates the Director, DLA as the DOD 
+Medical Materiel Executive Agent.  The DLA is the major combat support agency that provides 
+worldwide distribution support to the military departments and combatant commands across the 
+full range of military operations, as well as to other DOD components, federal agencies, foreign 
+governments, and international organizations.  The DLA manages or distributes over 80 percent 
+of the existing stock of defense materiel, including distribution of service owned stocks and nearly 
+all of the fuel and petroleum products for military use.  It is one of the largest components in the 
+global distribution network.  DLA responsibilities include the following. 
+6.4.1.  Synchronize planning and execution of end-to-end medical supply chain activities. 
+6.4.2.  Improve the identification and coordination of contingency medical materiel 
+requirements. 
+6.4.3.  Provide financial resources necessary to achieve materiel readiness and end-to-end 
+supply chain operation. 
+6.4.4.  Establish acquisition programs necessary to ensure availability of medical materiel to 
+meet combatant commander requirements. 
+6.4.5.  Establish, monitor, and report on medical supply chain performance. 
+6.4.6.  Coordinate medical materiel requirements and national-level acquisition programs with 
+other federal agencies, including the Department of Veterans Affairs, Department of Health 
+and Human Services, and the Department of Homeland Security. 
+DAFTTP3-42.8  15 JUNE 2021 
+25 
+6.5.  Single Integrated Medical Logistics Manager (SIMLM).  A SIMLM is a mission assigned 
+by a combatant commander to a service component command or JTF commander to provide 
+medical logistics support to other services and designated multinational partners; promote supply 
+chain efficiency; and minimize the theater medical logistics footprint.  When directed, the SIMLM, 
+in coordination with the joint force surgeon, DOD executive agent, and supporting TLAMM, will 
+develop a health service logistics support plan.  It will identify the additional requirements 
+necessary to provide medical logistics support to all designated customers and effectively extend 
+medical logistics support into the theater in support of forward medical elements.  SIMLM 
+planning and support responsibilities may include: 
+6.5.1.  Planning Class VIII storage and distribution 
+6.5.2.  Coordinating the Class VIII supply chain 
+6.5.3.  Monitoring critical item status 
+6.5.4.  Assessing theater Class VIII readiness 
+6.5.5.  Planning medical maintenance and repair support 
+6.5.6.  Planning and coordinating medical assemblage production, optical fabrication, medical 
+gas production, and similar in-theater support 
+6.5.7.  Coordinating support from foreign sources of supply 
+6.5.8.  Planning and coordinating medical retrograde and redeployment 
+6.6.  Theater Lead Agent for Medical Materiel (TLAMM).  A TLAMM is the organization 
+designated to support the combatant commands on behalf of the DLA Medical Materiel Executive 
+Agent and coordinate supply chain management for the entire operating theater or area of 
+responsibility.  It is linked to the combatant commands, JTF/SG, AFFOR/SG, deployed medical 
+units, sustaining base, and the AFMLOC.  The TLAMM may be jointly staffed to provide customer 
+support and distribution operations.  The TLAMM supports the theater medical logistics manager 
+in facilitating materiel movement and in providing medical asset visibility.  The TLAMM supports 
+all service components and designated multinational and nongovernmental customers.  Table 6.1 
+provides a list of the TLAMMs and SIMLMs and their supported combatant commands.  
+TLAMMs can provide the following capabilities. 
+6.6.1.  Class VIII materiel and inventory management. 
+6.6.2.  Biomedical equipment maintenance. 
+6.6.3.  Customer support and training. 
+6.6.4.  Optical fabrication. 
+6.6.5.  Medical materiel fielding. 
+6.6.6.  Assembly and reconstitution. 
+6.6.7.  Blood storage and distribution. 
+6.6.8.  PMI storage, distribution, and maintenance. 
+26 
+DAFTTP3-42.8  15 JUNE 2021 
+Table 6.1.  SIMLM and TLAMM Designations. 
+Combatant Command 
+TLAMM 
+SIMLM 
+EUCOM 
+USAMMCE 
+USAEUR 
+AFRICOM 
+USAMMCE 
+USARAF 
+CENTCOM 
+USAMMC-SWA 
+ARCENT (CFLCC) 
+INDOPACOM 
+18th Medical Group 
+USARPAC 
+INDOPACOM USFK 
+USAMMC-K 
+8th US Army (EUSA) 
+NORTHCOM 
+AFMRA/SG4W 
+ARNORTH 
+SOUTHCOM 
+AFMRA/SG4W 
+ARSOUTH 
+AFMRA/SG4W—Air Force Medical Readiness Agency/Medical Logistics Division 
+AFRICOM—US Africa Command 
+ARCENT—US Army Central Command 
+ARNORTH—US Army North 
+ARSOUTH—US Army South 
+CENTCOM—US Central Command 
+CFLCC—Coalition Forces Land Component Command 
+EUCOM—US European Command 
+EUSA—Eighth United States Army 
+INDOPACOM—US Indo-Pacific Command 
+NORTHCOM—US Northern Command 
+SOUTHCOM—US Southern Command 
+USAEUR—US Army Europe 
+USAMMC-K—US Army Medical Materiel Center-Korea 
+USAMMCE—US Army Medical Materiel Center 
+USAMMCE-SWA—US Army Medical Materiel Center-Southwest Asia 
+USARAF—US Army Africa 
+USARPAC—US Army Pacific 
+USFK—US Forces Korea 
+DAFTTP3-42.8  15 JUNE 2021 
+27 
+Chapter 7 
+TRAINING 
+7.1.  Medical Readiness Training Requirements.  Medical logistics personnel must complete 
+individual training, deployment training, and medical contingency response plan training 
+requirements in accordance with AFI 41-106, Air Force Medical Readiness Program.  Additional 
+training may be required to meet theater-specific requirements.  Theater-unique training 
+requirements are identified in deployment reporting instructions or tasking line remarks. 
+7.2.  Mission-Specific Training.  Mission-specific training should include, but is not limited to, 
+hazardous material handling, cargo preparation, pallet building, logistics modules (LOGMODs), 
+vehicle and materiel handling equipment operation, and software applications such as DCAM.  
+Medical logistics personnel assigned to EMEDS UTCs are required to complete EMEDS 
+deployment training in accordance with AFI 41-106 and the Comprehensive Medical Readiness 
+Program (CMRP) Category III Training Guide. 
+7.3.  Vehicle Operation Training.  Operators of material handling equipment and other 
+government motor vehicles must have a government driver’s license and appropriate certification 
+in accordance with AFI 24-301, Ground Transportation. 
+ROBERT I. MILLER 
+Major General, USAF, MC, SFS 
+Director, Medical Operations and Research 
+28 
+DAFTTP3-42.8  15 JUNE 2021 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+Air Force Doctrine Publication 4-0, Combat Support, 5 January 2020 
+AFI 24-301, Ground Transportation, 22 October 2019 
+AFI 33-322, Records Management and Information Governance Program, 23 March 2020 
+AFI 41-106, Air Force Medical Readiness Program, 29 July 2020 
+AFI 41-201, Managing Clinical Engineering Programs, 10 October 2017 
+AFMAN 41-209, Medical Logistics Support, 4 January 2019 
+AFTTP 3-42.6, USAF Medical Support for Special Operations Forces, 9 January 2012 
+AFTTP 3-42.57, En Route Patient Staging System, 10 August 2016 
+AFTTP 3-42.71, Expeditionary Medical Support (EMEDS) and Air Force Theater Hospital 
+(AFTH), 27 August 2014 
+AFTTP 3-42.711, Blood Support Operations, 19 April 2013 
+DODD 5101.09E, Class VIIIA Medical Materiel Supply Management, 29 September 2015 
+DODI 6000.11, Patient Movement, 22 June 2018 
+JP 3-30, Joint Air Operations, 25 July 2019 
+JP 4-02, Joint Health Services, 11 December 2017 
+Public Law 105-115, Food and Drug Administration Modernization Act of 1997 
+Adopted Forms 
+AF Form 847, Recommendation for Change of Publication 
+AF Form 4033, PMI/AE Certification Label 
+Abbreviations and Acronyms 
+ACC—Air Combat Command 
+AE—Aeromedical Evacuation 
+AEF—Air Expeditionary Force 
+AETF—Air Expeditionary Task Force 
+AFAFRICA—Air Forces Africa 
+AFFOR—Air Force Forces 
+AFI—Air Force Instruction 
+AFMAN—Air Force Manual 
+AFMLOC—Air Force Medical Logistics Operations Center 
+DAFTTP3-42.8  15 JUNE 2021 
+29 
+AFMOA—Air Force Medical Operations Agency 
+AFMRA—Air Force Medical Readiness Agency 
+AFMS—Air Force Medical Service 
+AFSOC—Air Force Special Operations Command 
+AFTH—Air Force Theater Hospital 
+AFTTP—Air Force Tactics, Techniques, and Procedures 
+AFWCF—Air Force Working Capital Fund 
+AMC—Air Mobility Command 
+ANG—Air National Guard 
+APOD—Aerial Port of Debarkation 
+APOE—Aerial Port of Embarkation 
+BMET—Biomedical Equipment Technician 
+C4I—Command, Control, Communications, and Intelligence 
+CBRN—Chemical, Biological, Radiological, and Nuclear 
+COMAFFOR—Commander, Air Force Forces 
+CONUS—Continental United States 
+CMRP—Comprehensive Medical Readiness Program 
+CSDC—Consolidated Storage and Deployment Center 
+DAFTTP—Department of the Air Force Tactics, Techniques, and Procedures 
+DAPA—Distribution and Pricing Agreement 
+DCAM—DMLSS Customer Assistance Module 
+DLA—Defense Logistics Agency 
+DML-ES—Defense Medical Logistics-Enterprise Solution 
+DMLSS—Defense Medical Logistics Standard Support 
+DOD—Department of Defense 
+DODAAC—Department of Defense Activity Address Code 
+DODD—Department of Defense Directive 
+DODI—Department of Defense Instruction 
+ECAT—Electronic Catalog 
+ECS—Expeditionary Combat Support 
+EMEDS—Expeditionary Medical Support 
+EML—Expeditionary Medical Logistics 
+30 
+DAFTTP3-42.8  15 JUNE 2021 
+ERPSS—En Route Patient Staging System 
+ESP—Emergency and Special Program 
+FRA-M—Forward Repair Activity Medical (Army) 
+GFCI—Ground Fault Circuit Interrupter 
+GSA—General Services Administration 
+GTN—Global Transportation Network 
+HRT—Health Response Team 
+IDE—Integrated Data Environment 
+IGC—IDE/GTN Convergence 
+JFACC—Joint Force Air Component Commander 
+JMAR—Joint Medical Asset Repository 
+JOMIS—Joint Operational Medicine Information Systems 
+JP—Joint Publication 
+JTF—Joint Task Force 
+LOGMOD—Logistics Module 
+LRRC—Loan Repair and Return Center 
+LRP—Limited Response Package 
+MC-CBRN—Medical Counter-CBRN
+MCRW—Medical Contingency Requirements Workflow 
+MEFPAK—Manpower and Equipment Force Packaging 
+MERC—Medical Equipment Repair Center 
+MRA—MEFPAK Responsible Agency 
+O&M—Operation and Maintenance 
+OCONUS—Outside the Continental United States 
+OPR—Office of Primary Responsibility 
+PACAF—Pacific Air Forces 
+PMI—Patient Movement Item 
+PMI-ATS—Patient Movement Item Asset Tracking System 
+POM—Program Objective Memorandum 
+RFID—Radio-Frequency Identification 
+SIMLM—Single Integrated Medical Logistics Manager 
+SG—Surgeon 
+DAFTTP3-42.8  15 JUNE 2021 
+31 
+SOF—Special Operations Forces 
+StF—Safe to Fly 
+TEWLS—Theater Enterprise Wide Logistics System 
+TFPDD—Time-Phased Force Deployment Data 
+TLAMM—Theater Lead Agent for Medical Materiel 
+TMIP—Theater Medical Information Program 
+TRP—Theater Response Package 
+USAFE-AFAFRICA—United States Air Forces in Europe-Air Forces Africa 
+USCENTCOM—United States Central Command 
+USINDOPACOM—United States Indo-Pacific Command 
+USNORTHCOM—United States Northern Command 
+USSOUTHCOM—United States Southern Command 
+USTRANSCOM—United States Transportation Command 
+UTC—Unit Type Code 
+WRM—War Reserve Materiel 

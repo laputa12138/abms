@@ -1,0 +1,447 @@
+BY ORDER OF THE SECRETARY  
+OF THE AIR FORCE 
+ 
+AIR FORCE MANUAL 14-403 
+3 SEPTEMBER 2019 
+Intelligence 
+SENSITIVE COMPARTMENTED 
+INFORMATION SECURITY AND 
+INTELLIGENCE, SURVEILLANCE, 
+AND RECONNAISSANCE SYSTEMS 
+CYBERSECURITY AND GOVERNANCE 
+COMPLIANCE WITH THIS PUBLICATION IS MANDATORY 
+ 
+ACCESSIBILITY:  Publications and forms are available on the e-Publishing website at 
+www.e-Publishing.af.mil 
+RELEASABILITY:  There are no releasability restrictions on this publication 
+ 
+ 
+OPR: AF/A2/6UZ 
+ 
+Supersedes: 
+AFMAN14-304,  
+                        23 December 2016 
+Certified by: AF/A2/6U  
+(Brig Gen James R. Cluff) 
+Pages: 12 
+ 
+ 
+This publication implements Air Force Policy Directive 14-4, Management of the Air Force 
+Intelligence, Surveillance, Reconnaissance and Cyber Effects Operations Enterprise.  It is 
+consistent with Department of Defense Manual (DoDM) 5220.22, National Industrial Security 
+Program Operating Manual, DoDM 5105.21, Volume 1, Sensitive Compartmented Information 
+(SCI) Administrative Security Manual: Administration of Information and Information Systems 
+Security, DoDM 5105.21, Volume 2, Sensitive Compartmented Information (SCI) Administrative 
+Security Manual: Administration of Physical Security, Visitor Control, and Technical Security, 
+DoDM 5105.21, Volume 3, Sensitive Compartmented Information (SCI) Administrative Security 
+Manual: Administration of Personnel Security, Industrial Security, and Special Activities, 
+Intelligence Community Directive (ICD) 121, Managing the Intelligence Community 
+Information Environment, ICD 500, Director of National Intelligence Chief Information Officer, 
+ICD 501, Discovery and Dissemination or Retrieval of Information within the Intelligence 
+Community, ICD 502, Integrated Defense of the Intelligence Community Information 
+Environment, ICD 503, Intelligence Community Information Technology Systems Security Risk 
+Management, ICD 703, Protection of Classified National Intelligence, Including Sensitive 
+Compartmented Information (SCI), ICD 705, Sensitive Compartmented Information Facilities, 
+ICD 710, Classification Management and Control Markings System, ICD 731, Supply Chain 
+Risk Management.  This publication applies to all civilian employees and uniformed members of 
+the Regular Air Force, Air Force Reserve, and Air National Guard, including contractors when 
+included in the terms of their contracts, who conduct or support Air Force intelligence missions.  
+2 
+AFMAN14-403  3 SEPTEMBER 2019 
+Ensure all records created as a result of processes prescribed in this publication are maintained in 
+accordance with (IAW) Air Force Manual (AFMAN) 33-363, Management of Records, and 
+disposed of IAW the Air Force Records Disposition Schedule located in the Air Force Records 
+Information Management System.  Refer recommended changes to this publication to the Office 
+of Primary Responsibility using the AF Form 847, Recommendation for Change of Publication.  
+This publication may be supplemented at any level, but all supplements must be routed to the 
+Office of Primary Responsibility of this publication for coordination prior to certification and 
+approval.  The authorities to waive wing/unit level requirements in this publication are identified 
+with a Tier (“T-0, T-1, T-2, T-3”) number following the compliance statement.  See Air Force 
+Instruction (AFI) 33-360, Publications and Forms Management, for a description of the 
+authorities associated with the Tier numbers.  Submit requests for waivers through the chain of 
+command to the appropriate Tier waiver approval authority, or alternately, to the requestors 
+commander for non-tiered compliance items. 
+SUMMARY OF CHANGES 
+This document has been substantially revised and needs to be completely reviewed.  Changes 
+include the addition of the Air Force Intelligence Community Chief ISR Information Officer and 
+related roles and responsibilities. 
+ 
+1.  Overview.  This guidance contains 32 tiered compliance statements:  7 (T-0) and 25 (T-1).  
+This manual provides guidance regarding the governance and management of the Air Force ISR 
+Information Environment and the security, use and dissemination of sensitive compartmented 
+information. 
+2.  Roles and Responsibilities. 
+2.1.  Deputy Chief of Staff for Intelligence, Surveillance, Reconnaissance and Cyber 
+Effects Operations (AF/A2/6) shall: 
+2.1.1.  Manage the Air Force Sensitive Compartmented Information program and is the 
+Air Force final authority for approving the release of intelligence to contractors. 
+2.1.2.  Appoint the Air Force Cognizant Security Authority; an Air Force Intelligence 
+Community Chief Intelligence Surveillance, and Reconnaissance (ISR) Information 
+Officer, and Authorizing Official for Air Force Sensitive Compartmented Information 
+and ISR Mission Systems. 
+2.1.3.  Provide for the Air Force ISR, an information environment that enables the use, 
+storage, processing, fusion, dissemination, and destruction of intelligence within Air 
+Force Sensitive Compartmented Information and ISR mission systems. 
+2.1.4.  Delegate the Cognizant Security Authority as the authority for management and 
+oversight of the security program established for the protection of intelligence sources 
+and methods, and for implementation of Sensitive Compartmented Information security 
+responsibilities and procedures defined in Director of National Intelligence and 
+Department of Defense policies for the activities under the Air Force/A2/6's purview. 
+AFMAN14-403  3 SEPTEMBER 2019 
+3 
+2.1.5.  Chair the Air Force ISR Information Environment Council to conduct strategic 
+planning and governance of Air Force ISR enterprise architecture services, standards and 
+information technology modernization. 
+2.2.  The Air Force Cognizant Security Authority will: 
+2.2.1.  Develop guidance for sensitive compartmented information security and the 
+Intelligence Community Badge System IAW Intelligence Community Standard (ICS) 
+704-01, Intelligence Community Badge System. 
+2.2.2.  Manage and approve access to Scattered Castles, the authoritative database for 
+intelligence community clearances, IAW Intelligence Community Policy Guidance 
+(ICPG) 704.5, Intelligence Community Personnel Security Database Scattered Castles, 
+and represent the Air Force on the Scattered Castles Executive Steering Group. 
+2.2.3.  Represent the Air Force on the Office of the Director of National Intelligence 
+Access Control, IAW ICS 704-01; the Classification Markings Implementation, IAW 
+Intelligence Community Directive (ICD) 710, Classification Management and Control 
+Markings System, and the Intelligence Community Physical and Technical Security 
+Program Working Groups, IAW ICD 705. 
+2.2.4.  Advise the AF/A2/6 on public disclosure issues. 
+2.3.  The Air Force Intelligence Community Chief ISR Information Officer will: 
+2.3.1.  Manage Air Force ISR Information Environment Council structure and activities. 
+2.3.2.  Develop guidance for the Air Force ISR information environment in support of 
+Air Force and Intelligence Community requirements. 
+2.3.3.  Advise the AF/A2/6 regarding Air Force ISR information environment risks and 
+priorities and oversee Air Force ISR Federal Information Security Modernization Act 
+compliance and reporting. 
+2.3.4.  Appoint a Chief ISR Information Security Officer responsible to the Air Force 
+Intelligence Community Chief ISR Information Officer. 
+2.3.5.  Represent the Air Force on the Intelligence Community Chief ISR Information 
+Officer Council and subordinate working groups IAW Intelligence Community Chief 
+Information Officer 2012-0212 Intelligence Community Information Technology 
+Environment Governance Framework, IC CIO 2016-0011, Waiver and Exceptions, IC 
+CIO 2016-0129, Program of Activities and Milestones (POA&M) Process. 
+2.3.6.  Submit associated compliance reporting to the Intelligence Community Chief 
+Information Officer, IAW ICD 500. 
+2.3.7.  Oversee Air Force Intelligence Community Integrated Defense, to include security 
+coordination, incident response, insider threat, and computer network defense, IAW ICD 
+502 and AFI 16-1402, Insider Threat Program Management.  Represent the Air Force 
+Intelligence Community on the Air Force Insider Threat working group established by 
+AFI 16-1402. 
+4 
+AFMAN14-403  3 SEPTEMBER 2019 
+2.3.8.  Implement ICD 121, ICD 501, ICD 503, and ICD 731, across Air Force ISR 
+systems and capabilities.  Coordinate with the Air Force Intelligence Community Chief 
+Data Officer as necessary. 
+2.3.9.  Approve Cybersecurity Strategy prior to contract solicitation for sensitive 
+compartmented information and ISR system acquisitions and procurements, regardless of 
+contract value. 
+2.4.  The Authorizing Official for Air Force Sensitive Compartmented Information and 
+ISR Mission Systems will: 
+2.4.1.  Chair the Air Force ISR Risk Executive Function, established by this manual, to 
+provide consistent ISR cybersecurity risk management across the Air Force ISR 
+information environment IAW ICD 503. 
+2.4.1.1.  The Risk Executive Function consists of cybersecurity and mission system 
+professionals (Headquarters Air Force, Major Command (MAJCOM), Wing and 
+program office personnel) from across the Air Force ISR community, chartered to 
+inform and advise execution of the Air Force ISR cybersecurity program from an Air 
+Force ISR enterprise-wide perspective.  As such, the Risk Executive Function meets 
+no less than quarterly to share information, address issues, and recommend courses of 
+action to ensure the aggregate risk posture of the Air Force ISR enterprise is well 
+aligned with strategic goals and adequate to enable mission success. 
+2.4.1.2.  This Risk Executive Function establishes a strategy, standards and reporting 
+structure, and enable information sharing to all levels of the Air Force ISR 
+community to enable an expedient and comprehensive cybersecurity program, 
+effectively and commonly conducted across all Air Force ISR networks and mission 
+systems. 
+2.4.2.  Execute risk management and authorization decisions for mission systems IAW 
+ICD 503. 
+2.5.  The Air Force Intelligence Community Chief ISR Information Security Officer 
+will: 
+2.5.1.  Implement the Air Force ISR Cybersecurity Program across projects that reside on 
+or connect to Air Force sensitive compartmented information networks and Air Force 
+ISR mission systems, IAW Federal Information Security Modernization Act of 2014, 
+National Institute of Standards and Technology Special Publication (NIST SP) 800-53, 
+Security and Privacy Controls for Federal Information Systems and Organizations, NIST 
+SP 800-39, Managing Information Security Risk: Organization, Mission, and Information 
+System View, NIST SP 800-37, Guide for Applying the Risk Management Framework to 
+Federal Information Systems, NIST SP 800-55, Rev 1, Performance Measurement Guide 
+for Information Security, Committee on National Security Systems Instructions (CNSSI) 
+1253, Security Categorization and Control Selection for National Security Systems, ICD 
+503, and, as appropriate, Department of Defense Instruction 8510.01, Risk Management 
+Framework (RMF) for DoD Information Technology (IT).  Ensure currency with changes 
+in Department of Defense, NIST, and CNSS standards, and coordinate with the Chief ISR 
+Information Officer to direct appropriate compliance. 
+AFMAN14-403  3 SEPTEMBER 2019 
+5 
+2.5.2.  Prepare Intelligence Community Directive compliance reports for submission to 
+the Air Force Intelligence Community Chief ISR Information Officer. 
+2.5.3.  Advise program managers and information system owners regarding cybersecurity 
+requirements for sensitive compartmented information and ISR system acquisitions and 
+procurements, prior to Request for Proposal release, regardless of contract value. 
+2.5.4.  Maintain certification IAW DoDM 8570.01, Information Assurance Workforce 
+Improvement Program. 
+2.5.5.  Establish and ensure compliance with certification requirements for assigned 
+cybersecurity roles across the Air Force ISR Information Environment IAW DoDM 
+8570.01. 
+2.6.  The Air Combat Command (ACC) Director of Intelligence will: 
+2.6.1.  Serve as lead for implementation of enterprise services for the Air Force ISR 
+Information Environment, including Air Force Joint Worldwide Intelligence 
+Communications System modernization and Intelligence Community Information 
+Technology Environment adoption.  Plan, program and budget for common services. 
+2.6.2.  Execute the sensitive compartmented information and collateral ISR Insider Threat 
+Programs, IAW AFI 16-1402 and guidance from the Air Force Intelligence Community 
+Chief ISR Information Officer, Air Force Intelligence Community Authorizing Official, 
+Air Force Intelligence Community Chief Information Security Officer and 
+Administrative Assistant to the Secretary of the Air Force. 
+2.7.  MAJCOM Directors of Intelligence, Field Operating Agency/Direct-Reporting 
+Unit/Wing Commanders will: 
+2.7.1.  Establish a command-wide sensitive compartmented information security program 
+and ensure each sensitive compartmented information facility is accredited/reaccredited 
+IAW ICD 705 and DoDM 5105.21 (T-0). 
+2.7.2.  Plan, program, and budget security and Air Force ISR information environment 
+architecture requirements for command-owned (not Air Force JWICS core service) 
+capabilities, mission systems and networks (including enclaves) that operate in or connect 
+to the Air Force ISR Information Environment (T-1). 
+2.7.3.  Ensure command systems and sites within the Air Force ISR Information 
+Environment that cannot be addressed directly by Twenty-Fifth Air Force comply with 
+Air Force Intelligence Community Chief Information Officer and Air Force Cognizant 
+Security Authority direction, and cyber-operational orders for security, modernization, 
+and computer network defense (T-1). 
+2.7.4.  Ensure all appointed MAJCOM Chief ISR Information Security Officials maintain 
+certification IAW DoDM 8570.01 and oversee subordinate unit compliance with ICD 
+502/ICD 503 (T-1). 
+2.7.5.  Establish a command-wide special security representative, contract special 
+security representative, and a contract officer representative training program (T-1). 
+ 
+ 
+6 
+AFMAN14-403  3 SEPTEMBER 2019 
+2.7.6.  Ensure sensitive compartmented information indoctrinated personnel under their 
+cognizance comply with reporting requirements IAW ICD 703and receive security 
+awareness information at least annually.  In addition, derivative classifiers training must 
+be completed once every two years (T-1). 
+2.7.7.  Report on and complete  Twenty-Fifth Air Force operational orders for the 
+operation, maintenance and defense of special compartmented information and ISR 
+systems (T-1). 
+2.8.  MAJCOM Directors of Intelligence, Field Operating Agency/Direct-Reporting 
+Unit Special Security Officers will: 
+2.8.1.  Process 
+temporary/interim 
+eligibility 
+request 
+for 
+access 
+to 
+sensitive 
+compartmented information using the procedures in DoDM 5105.21, Volume 3 (T-1). 
+2.8.2.  Report to the Cognizant Security Authority within 24 hours if an indoctrinated 
+person is killed, captured/missing in action, absent without leave, or considered a deserter 
+(T-1).  (Note:  This applies if a person had Sensitive Compartmented Information access 
+within the last three years.) 
+2.8.3.  Certify the sensitive compartmented information access of foreign nationals 
+authorized to visit their command’s sensitive compartmented information facilities (T-1). 
+2.8.4.  Manage the security requirements of contracts requiring access to sensitive 
+compartmented information in a facility under their control IAW DoDM 5220.22 and 
+DoDM 5105. 21, Volume 3 (T-1). 
+2.8.5.  Approve unclassified speakerphones and establish and/or approve Temporary 
+Sensitive Compartmented Information Facilities and Temporary Secure Working Areas 
+for their command (T-1). 
+2.9.  Senior Intelligence Officers will: 
+2.9.1.  Manage the sensitive compartmented information security and information 
+systems in their purview, including those they procure, own or operate.  For systems 
+without an acquisition Program Manager, appoint an Information System Owner for any 
+ISR information technology system procured, owned or operated by the MAJCOM or 
+subordinate unit, responsible for the overall system lifecycle, including funding 
+requirements and coordination with the MAJCOM Chief ISR Information Security 
+Officer prior to any related procurement action (T-1). 
+2.9.2.  Appoint, oversee and budget for a Special Security Officer and a site Information 
+System Security Manager/Officer or, if at the MAJCOM Directors of Intelligence and 
+Field Operating Agency/Direct Reporting Unit level, oversee and budget for a Chief ISR 
+Information Security Officer (T-1). 
+2.10.  Commander, 625th Air Communications Squadron will: 
+2.10.1.  Report incidents and vulnerabilities across the Air Force Intelligence Community 
+Information Environment IAW ICD 502 (T-0). 
+2.10.2.  Operate the Security Coordination Center and the Incident Response Center for 
+the Air Force Intelligence Community (T-1). 
+AFMAN14-403  3 SEPTEMBER 2019 
+7 
+2.10.3.  Direct, coordinate and resolve security events in coordination with units, the Air 
+Force Intelligence Community Chief ISR Information Officer and Chief ISR Information 
+Security Officer (T-1). 
+2.10.4.  Command and control the Air Force Joint Worldwide Intelligence 
+Communications System and operate a 24/7 Enterprise Operations Center, in 
+coordination with regional Enterprise Service Centers, as required (T-1). 
+2.10.5.  Implement and maintain information technology services required to operate, 
+monitor and defend Air Force Joint Worldwide Intelligence Communications System (T-
+1). 
+2.10.6.  Manage and implement user activity monitoring for the Air Force Intelligence 
+Community and support the Insider Threat Audit Program IAW AFI 16-1402 (T-1). 
+2.10.7.  Perform security control assessments IAW ICD 503 and the priorities of the 
+Chief ISR Information Officer, Air Force Intelligence Community Chief ISR Information 
+Security Officer and Authorizing Official (T-1). 
+2.11.  Acquisition Program Managers and Information System Owners for sensitive 
+compartmented information and ISR systems will: 
+2.11.1.  Coordinate with the Air Force Intelligence Community Chief ISR Information 
+Officer and Air Force Intelligence Community Chief ISR Information Security Officer at 
+program initiation to ensure design and deliverables are sufficient to ensure timely 
+authorization decisions (T-1). 
+2.11.2.  Work with the appropriate MAJCOM Chief ISR Information System Officer to 
+coordinate cybersecurity requirements, produce a cybersecurity strategy for the Chief ISR 
+Information Officer approval, and meet cybersecurity responsibilities across the 
+acquisition lifecycle (T-0). 
+3.  Security. 
+3.1.  Personnel Security. 
+3.1.1.  Access control.  Sensitive Compartmented Information Security Officials use Joint 
+Personnel Adjudication System, Defense Information System for Security, and/or 
+Scattered Castles to determine if a person is eligible for a Sensitive Compartmented 
+Information indoctrination.  During a member's initial indoctrination, the special security 
+officer will use the current Intelligence Community Form 4414, Sensitive 
+Compartmented Information Nondisclosure Agreement (SCI NDA) (T-0). 
+3.1.2.  Temporary/Interim 
+Eligibility 
+for 
+Access 
+to 
+Sensitive 
+Compartmented 
+Information.  Eligibility requests must be unclassified and forwarded by the servicing 
+special security office to the appropriate Department of Defense Central Adjudication 
+Facility for approval using the procedures in DoDM 5105.21 (T-0). 
+3.2.  Information Security.  Individuals producing classified documents, either originally or 
+derivatively, must mark the document using the Intelligence Community Markings System 
+Register, IAW ICD (T-0). 
+ 
+ 
+8 
+AFMAN14-403  3 SEPTEMBER 2019 
+3.3.  Physical Security. 
+3.3.1.  Defense Intelligence Agency is the authority for accrediting Department of 
+Defense permanent sensitive compartmented information facilities, except for those 
+facilities under the control of the National Security Agency, National Geospatial Agency, 
+or National Reconnaissance Office. 
+3.3.2.  Special security officers will establish written procedures for random inspections 
+of hand-carried items entering or exiting sensitive compartmented information facilities 
+during operational hours (T-0). 
+3.3.3.  MAJCOM/A2, or designee, approves Sensitive Compartmented Information 
+Facility’s concept approvals to be constructed within their area of responsibility.  
+MAJCOM Special Security Officer forwards approved concept approval and construction 
+security plan to Defense Intelligence Agency for project approval. 
+3.3.4.  MAJCOM/A2 is the approval authority for special access programs residing in 
+sensitive compartmented information facilities.  Air Force Cognizant Security Authority 
+approves special access programs in multiple sensitive compartmented information 
+facilities and the associated Co-Use Agreements. 
+3.4.  Industrial Security. 
+3.4.1.  Special security officers will forward DD Form 254 and the associated Sensitive 
+Compartmented Information Addendum to the MAJCOM when the contract involves 
+multiple bases (T-1).  Local contracts may be approved by the base special security 
+officer. 
+3.4.2.  The local contracting officer’s representative will be indoctrinated into sensitive 
+compartmented information to endorse and verify sensitive compartmented information 
+contract deliverables (T-1). 
+3.4.3.  Special security officers will notify the appropriate contracting officer's 
+representative and cognizant contracting officer of any incident that involves a contractor 
+(T-1). 
+3.4.4.  Special security officers maintain current DD Form 254, Contract Security 
+Classification Specifications, contracting office’s representative appointment and duty 
+letters, and a list of contractors working the specific contract (validated by contracting 
+office representative on an annual basis or when changes are made).  Records will be 
+maintained for two years after contract ends (T-1). 
+ 
+ 
+AFMAN14-403  3 SEPTEMBER 2019 
+9 
+ 
+3.4.5.  Special Security Officers will process requests for National Interest 
+Determinations for companies operating under a Special Security Agreement to mitigate 
+Foreign Ownership, Control, or Influence using the procedures provided in AFI 16-1406, 
+Air Force Industrial Security Program (T-1). 
+ 
+VERALINN JAMIESON, Lt Gen, USAF 
+Deputy Chief of Staff, Intelligence, Surveillance, 
+   Reconnaissance and Cyber Effects Operations 
+10 
+AFMAN14-403  3 SEPTEMBER 2019 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+AFPD 14-4, Management of the Air Force Intelligence, Surveillance, Reconnaissance and Cyber 
+Effects Operations Enterprise, 11 July 2019 
+AFI 16-1402, Insider Threat Program Management, 5 August 2014 
+AFI 16-1406, Air Force Industrial Security Program, 25 August 2015 
+AFI 33-360, Publication and Forms Management, 1 December 2015 
+AFI 63-101/20-101, Integrated Life Cycle Management, 9 May 2017 
+AFMAN 33-363, Management of Records, 1 March 2008 
+DoDM 5220.22, National Industrial Security Program Operating Manual, May 18, 2016 
+DoDM 5105.21, Volume 1, Sensitive Compartmented Information (SCI) Administrative Security 
+Manual: Administration of Information and Information Systems Security, May 16, 2016 
+DoDM 5105.21, Volume 2, Sensitive Compartmented Information (SCI) Administrative Security 
+Manual: Administration of Physical Security, Visitor Control, and Technical Security, April 5, 
+2018 
+DoDM 5105.21, Volume 3, Sensitive Compartmented Information (SCI) Administrative Security 
+Manual: Administration of Personnel Security, Industrial Security, and Special Activities, April 
+4, 2018 
+DoDI 8510.01, Risk Management Framework (RMF) for DoD Information Technology (IT), 
+March 12, 2014 
+DoDM 8570.01, Information Assurance Workforce Improvement Program, 10 November, 2015 
+ICD 121, Managing the Intelligence Community Information Environment, 19 January 2017 
+ICD 500, Director of National Intelligence Chief Information Officer, 7 August 2008 
+ICD 501, Discovery and Dissemination or Retrieval of Information within the Intelligence 
+Community, 29 January 2009 
+ICD 502, Integrated Defense of the Intelligence Community Information Environment, 11 March 
+2011 
+ICD 503, Intelligence Community Information Technology Systems Security Risk Management, 
+21 July 2015 
+ICD 703, Protection of Classified National Intelligence, Including Sensitive Compartmented 
+Information (SCI), 21 July 2013 
+ICD 705, Sensitive Compartmented Information Facilities, 26 May 2010 
+ICD 710, Classification Management and Control Markings System, 21 June 2013 
+ICD 731, Supply Chain Risk Management, 7 December 2013  
+AFMAN14-403  3 SEPTEMBER 2019 
+11 
+ICPG 704.5, Intelligence Community Personnel Security Database Scattered Castles, 2 October 
+2008 
+ICS 704-01, Intelligence Community Badge System, 7 January 2016 
+IC CIO 2012-0212, Intelligence Community Information Technology Environment Governance 
+Framework, 18 April 2012 
+IC CIO 2016-0011, Waiver and Exceptions, 9 May 2016 
+[https://intelshare.intelink.ic.gov/sites/odni/cio/guidancecatalog] 
+IC CIO 2016-0129, Program of Activities and Milestones (POA&M) Process, 21 July 
+2016[https://intelshare.intelink.ic.gov/sites/odni/cio/guidancecatalog] 
+CNSSI 1253, Security Categorization and Control Selection for National Security Systems, 27 
+March 2014 
+FISMA, Federal Information Security Modernization Act of 2014, 18 December 2014 
+NIST SP 800-37, Guide for Applying the Risk Management Framework to Federal Information 
+Systems, December 2018 
+NIST SP 800-39, Managing Information Security Risk: Organization, Mission, and Information 
+System View, March 2011 
+NIST SP 800-53, Security and Privacy Controls for Federal Information Systems and 
+Organizations, April 2013 
+NIST SP 800-55, Rev 1, Performance Measurement Guide for Information Security, 16 July 
+2008 [https://intelshare.intelink.ic.gov/sites/odni/cio/guidancecatalog] 
+Adopted Forms 
+AF Form 847, Recommendation for Change of Publication 
+DD Form 254, Contract Security Classification Specifications 
+IC Form 4414, Sensitive Compartmented Information (SCI) NdA 
+Abbreviations and Acronyms 
+AFI—Air Force Instruction 
+AFMAN—Air Force Manual 
+ACC—Air Combat Command 
+CNSSI—Committee on National Security Systems Instruction 
+DoDD—Department of Defense Directive 
+DoDI—Department of Defense Instruction 
+DoDM—Department of Defense Manual 
+IAW—In Accordance With 
+ICD—Intelligence Community Directive 
+ICPG—Intelligence Community Policy Guidance 
+12 
+AFMAN14-403  3 SEPTEMBER 2019 
+ICS—Intelligence Community Standard 
+ISR—Intelligence, Surveillance, and Reconnaissance 
+MAJCOM—Major Command 
+NIST—National Institute of Standards and Technology 
+Terms 
+Scattered Castles—Intelligence community’s authoritative personnel security repository for 
+verifying personnel security access approvals regarding sensitive compartmented information 
+and other controlled access programs, visit certifications and documented exceptions to 
+personnel security standards. 
+ 

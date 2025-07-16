@@ -1,0 +1,371 @@
+BY ORDER OF THE SECRETARY  
+OF THE AIR FORCE 
+ 
+AIR FORCE INSTRUCTION 10-2607 
+9 AUGUST 2018 
+Operations 
+CHEMICAL, BIOLOGICAL, 
+RADIOLOGICAL, AND  
+NUCLEAR SURVIVABILITY 
+COMPLIANCE WITH THIS PUBLICATION IS MANDATORY 
+ 
+ACCESSIBILITY:  Publications and forms are available for downloading or ordering on the 
+e-Publishing website at www.e-Publishing.af.mil. 
+RELEASABILITY:  There are no releasability restrictions on this publication. 
+ 
+ 
+OPR: AF/A10S 
+ 
+Supersedes: 
+AFI 10-2607, 21 April 2016 
+Certified by: AF/A10S  
+(Colonel LeAnne Moore) 
+Pages: 10 
+ 
+ 
+This Air Force Instruction (AFI) implements Air Force Policy Directive (AFPD) 10-26, 
+Countering Weapons of Mass Destruction Enterprise. It establishes the guidelines and 
+procedures for implementing chemical, biological, radiological, and nuclear (CBRN) 
+survivability requirements.  It applies to all Regular Air Force, Air National Guard, and Air 
+Force Reserve personnel who develop, manage or operate CBRN mission-critical systems and/or 
+infrastructure, and to all Air Force mission-critical systems and infrastructure regardless of 
+Acquisition Category, classification, compartmentalization or “special access program” 
+designation.  Ensure that all records created as a result of processes prescribed in this publication 
+are maintained in accordance with (IAW) Air Force Manual 33-363, Management of Records, 
+and disposed of IAW the Air Force Records Disposition Schedule located in the Air Force 
+Information Management System.  Refer recommended changes and questions about this 
+publication to the Office of Primary Responsibility using Air Force Form 847, Recommendation 
+for Change of Publication; route Air Force Forms 847 from the field through the appropriate 
+functional chain of command.   The authorities to waive wing/unit level requirements will be 
+identified by Tier Number (“T-0”, “T-1”, “T-2”, “T-3”) following the compliance statement.  
+See AFI 33-360, Publications and Forms Management, for a description of the authorities 
+associated with the Tier numbers.  Submit requests for waivers through the chain of command to 
+the appropriate Tier waiver approval authority, or alternately, to the requestor’s commander for 
+non-tiered compliance items. This publication may not be supplemented or further 
+implemented/extended. 
+2 
+AFI10-2607  9 AUGUST 2018 
+SUMMARY OF CHANGES 
+This document has been substantially revised and should be reviewed in its entirety.  
+Unnecessary verbiage and less-common acronyms were deleted, reference to the Air Force 
+Requirements Review Group was removed, and definitions were added for “hardness assurance”, 
+“hardness maintenance”, and “hardness surveillance.” 
+1.  Overview 
+1.1.  The Air Force must be able to survive and/or operate in chemical, biological, and 
+radiological (CBR) contamination and/or nuclear environments in order to deter adversaries 
+from using weapons of mass destruction (WMD) while also guaranteeing mission assurance 
+if WMD is used.  This concept is known as CBRN Survivability. 
+1.2.  CBRN Survivability consists of CBR contamination survivability and nuclear 
+survivability.  Where CBR contamination survivability is primarily concerned with the 
+principles of CBR hardness, CBR decontaminability, and CBR compatibility, nuclear 
+survivability is concerned with surviving initial nuclear effects (including electromagnetic 
+pulse). 
+1.3.  The Air Force addresses CBRN survivability by identifying mission-critical systems and 
+infrastructure required to survive and/or operate in CBRN environments and ensuring their 
+availability through hardening, timely resupply, redundancy, mitigation (i.e., tactics, 
+techniques, and procedures), or a combination thereof. 
+1.4.  CBRN Survivability considerations apply throughout a system’s and/or infrastructure’s 
+life cycle. 
+2.  Roles and Responsibilities 
+2.1.  Assistant Secretary of the Air Force for Acquisition, Technology, and Logistics 
+(SAF/AQ)  : 
+2.1.1.  Oversees the acquisition and sustainment of mission-critical systems ensuring 
+compliance with CBRN survivability requirements, when applicable. 
+2.1.2.  Ensures CBRN survivability requirements (as described in DoD Instruction 
+(DoDI) 3150.09, The Chemical, Biological, Radiological, and Nuclear (CBRN) 
+Survivability Policy, and this instruction) are incorporated into applicable acquisition 
+guidance. 
+2.1.3.  Ensures system and joint program offices support the Lead Command (as 
+prescribed in AFPD 10-9, Lead Command Designation and Responsibilities for Weapon 
+Systems) or Sponsor (as prescribed in AFI 10-601, Operational Capability Requirements 
+Development) in assessing the vulnerability of legacy and development-phase CBRN 
+mission critical systems. 
+2.1.4.  Ensures program managers implement hardness assurance programs, as well as, 
+continuing hardness maintenance and hardness surveillance programs if the system 
+requires hardening to survive against nuclear, ballistic, chemical, biological, high-power 
+microwave, or laser threats IAW AFI 63-101/20-101, Integrated Life Cycle Management. 
+AFI10-2607  9 AUGUST 2018 
+3 
+2.1.5.  Collects and provides CBRN mission-critical system and infrastructure data to 
+Deputy Chief of Staff, Strategic Deterrence and Nuclear Integration (AF/A10) in support 
+of the Mission Critical Report. 
+2.2.  Deputy Chief of Staff, Logistics, Engineering and Force Protection (AF/A4)  : 
+2.2.1.  Ensures Air Force CBRN Defense Systems concerns are addressed in Joint 
+Requirements Office capability requirements documents. 
+2.2.2.  Ensures CBRN Survivability considerations are addressed in military construction 
+guidance documents. 
+2.2.3.  Assists AF/A10 with gathering data on CBRN mission-critical systems and 
+infrastructure in support of the Mission Critical Report as prescribed in DoDI 3150.09. 
+2.3.  Deputy Chief of Staff, Strategic Plans and Requirements (AF/A5/8)  : 
+2.3.1.  Oversees operational CBRN survivability requirements integration in the Air 
+Force operational capability requirements process. 
+2.3.2.  As required, reviews and approves “CBRN Mission Critical” determinations and 
+associated CBRN Survivability requirements in Capability Development Documents and 
+Capability Production Documents. 
+2.3.3.  Assists AF/A10 with gathering data on CBRN mission-critical systems and 
+infrastructure in support of the Mission Critical Report. 
+2.4.  Deputy Chief of Staff, Strategic Deterrence and Nuclear Integration (AF/A10)  : 
+2.4.1.  Validates operational survivability requirements for CBRN mission-critical 
+systems and infrastructure managed under the Nuclear Deterrent Operations Panel. 
+2.4.2.  Represents the Air Force at the CBRN Survivability Oversight Group (CSOG) and 
+supporting working groups. 
+2.4.3.  Reviews Joint Capabilities Integration and Development System documents to 
+ensure CBRN Survivability is adequately addressed. 
+2.4.4.  Works with the Air Force Requirements and Acquisition communities to ensure 
+CBRN Survivability requirements (as prescribed in DoDI 3150.09 and this instruction) 
+are incorporated into applicable requirements and acquisition policy. 
+2.4.5.  Compiles the Air Force’s Mission Critical Report, and forwards it to the Assistant 
+to the Secretary of Defense for Nuclear, Chemical, and Biological Defense (ASD(NCB)). 
+2.5.  Director of Air Force Test and Evaluation (AF/TE).    Oversees the testing and 
+evaluation of system survivability IAW AFI 99-103, Capabilities-Based Test and Evaluation. 
+2.6.  Lead Command  or Sponsor: 
+2.6.1.  Considers CBRN threats when determining desired operating environment(s) for 
+mission critical systems IAW established DoD procedures. 
+2.6.2.  Describes the concept of operations for the desired capability likely to be 
+employed in the CBRN environment and plans for CBRN survivability validation and 
+verification. 
+4 
+AFI10-2607  9 AUGUST 2018 
+2.6.2.1.  Includes CBRN mission critical determinations and justifications in 
+Capability Development Documents and Capability Production Documents (see 
+CBRN Mission Critical Decision Matrix at Figure 1.). (T-0)  Justifications should 
+fully explain CBRN Survivability requirements and/or planned mitigation strategies. 
+2.6.2.2.  For mission-critical systems and infrastructure determined to be “CBRN 
+Mission Critical” (See Figure 1.), includes a CBRN Threat Analysis in the Threat 
+Summary sections of applicable Joint Capabilities Integration and Development 
+System documents. (T-0)  
+2.6.3.  Provides an assessment of the mission-critical system’s or infrastructure’s CBRN 
+survivability in the anticipated battlefield environment to support milestone decisions and 
+in-process reviews. Collaborates with the system program manager to address any 
+shortfalls identified in meeting CBRN survivability requirements; provides a plan for 
+meeting the requirements. 
+2.6.4.  Conducts a review to assess the impact to the system’s CBRN survivability during 
+capability document updates. 
+2.6.5.  For legacy systems, provides explicit CBRN survivability parameters for inclusion 
+in required modification documents per AFI 63-101/20-101. 
+2.6.6.  Ensures changes to requirements, including a decision to lessen nuclear command 
+and control survivability requirements, are approved IAW DoDI 3150.09, The Manual 
+for The Operation of the Joint Capabilities Integration and Development System, and 
+AFI 10-601. (T-0) 
+2.6.7.  Works with the system program manager to identify the architecture and the 
+modeling and simulation required for the mission critical system's acquisition, operations, 
+testing, training, and sustainment. 
+2.6.8.  Works with the system program manager to regularly assess the vulnerability of 
+legacy CBRN mission-critical systems through system testing, according to applicable 
+DoD Standards (e.g., military standards, etc.).  For legacy CBRN mission-critical systems 
+assessed as vulnerable, works with the system program manager to ensure appropriate 
+actions are taken that include, but are not limited to: identification of lessons learned; 
+development of tactics, techniques, and procedures to mitigate risks; identification of 
+materiel limitations; and development of schedules and funding plans to reduce 
+vulnerabilities, as appropriate. 
+2.6.9.  Identifies CBRN mission-critical systems and infrastructure that require hardening 
+for CBRN survivability.  (T-0) 
+2.6.9.1.  Ensures compliance with established hardness assurance, hardness 
+maintenance and hardness surveillance programs for CBRN mission critical systems 
+hardened for nuclear survivability IAW DoDI 3150.09 and AFI 63-101/20-101. (T-0) 
+2.6.9.2.  Ensures compliance with established preventive maintenance checks and 
+services programs for systems and infrastructure hardened for CBR contamination 
+survivability, and monitors facility effectiveness IAW local operations, provided 
+maintenance manuals for installed systems, and/or applicable technical data, as 
+appropriate. (T-0) 
+AFI10-2607  9 AUGUST 2018 
+5 
+2.6.10.  Works with the system program manager to address CBRN survivability at each 
+acquisition milestone for all CBRN mission critical systems under development, as a part 
+of a DoD Acquisition Program, IAW DoDI 5000.02, Operation of the Defense 
+Acquisition System. 
+2.6.11.  Provides data to AF/A10 on mission-critical systems and infrastructure in support 
+of Mission Critical Report requirements. 
+2.7.  Using Command  : 
+2.7.1.  Ensures compliance with established hardness assurance, hardness maintenance 
+and hardness surveillance programs for CBRN mission critical systems hardened for 
+nuclear survivability IAW DoDI 3150.09 and AFI 63-101/20-101. (T-0) 
+2.7.2.  Ensures compliance with established preventive maintenance checks and services 
+programs for systems and infrastructure hardened for CBR contamination survivability; 
+monitors facility effectiveness IAW local guidance, provided maintenance manuals for 
+installed systems, and/or applicable technical data, as appropriate. (T-0) 
+2.7.3.  Provides data to AF/A10 on mission-critical systems and infrastructure in support 
+of Mission Critical Report requirements. 
+2.8.  Commander, Air Force Materiel Command  ensures the Air Force Nuclear Weapons 
+Center and the Air Force Research Laboratory comply with their responsibilities identified in 
+this instruction. 
+2.8.1.  Air Force Nuclear Weapons Center  .   Assists system, command, and joint 
+program 
+offices 
+with 
+legacy 
+and 
+development-phase 
+modeling, 
+simulation, 
+experimentation, testing, evaluation, analysis, scientific research, and technology 
+demonstrations for nuclear systems and infrastructure.  Provides scientific and 
+technological support to the development and implementation of nuclear risk mitigation 
+tactics, techniques, and procedures and nuclear weapon effects hardness requirement 
+recommendations.  These tasks are accomplished when formally requested and when 
+funding is provided (subject to resource constraints). 
+2.8.2.  Air Force Research Laboratory (AFRL).    Advances Air Force CBRN 
+survivability through system modeling, simulation, testing, analysis, evaluation, scientific 
+research, and technology demonstration support to the development and implementation 
+of AF CBRN risk mitigation technologies, methodologies and tactics, techniques, and 
+procedures.  Performs these tasks for system, command, and joint program offices when 
+formally requested and when funding is provided (subject to resource constraints). 
+2.9.  Commander, Air Force Operational Test and Evaluation Center.    Ensures 
+operational test and evaluation planning, execution, and reporting for all Acquisition 
+Category I and II programs, as well as for all Office of the Secretary of Defense operational 
+test and evaluation oversight programs IAW AFI 99-103.  If operational test and evaluation 
+is required, the report evaluates system effectiveness, suitability, and mission capability, to 
+include CBRN survivability. 
+ 
+ 
+6 
+AFI10-2607  9 AUGUST 2018 
+3.  Chemical, Biological, Radiological, and Nuclear Survivability Implementation 
+3.1.  The Lead Command or Sponsor will include a CBRN threat analysis in the “Threat 
+Summary” section of all Initial Capability Documents, Capability Development Documents, 
+and Capability Production Documents generated through the Joint Capabilities Integration 
+and Development System. (T-0)  Additionally, a “mission critical” determination will be 
+included in all Capability Development Documents and Capability Production Documents. 
+(T-0)  Mission-critical systems and infrastructure expected to survive and/or operate in CBR 
+contamination and/or nuclear environments will be designated “CBRN Mission Critical” (T-
+0); use Figure 1. to help guide “Mission Critical” and “CBRN Mission Critical” decisions.  
+“Mission Critical” and “CBRN Mission Critical” designations determined by Lead 
+Commands or Sponsors for Air Force systems are subject to review and approval by the Air 
+Force Requirements Oversight Council and/or the Joint Requirements Oversight Council. 
+3.2.  Lead Command or Sponsor must harden systems required to survive and operate in 
+nuclear environments. (T-0)  Lead Command or Sponsor will ensure hardness assurance 
+during system acquisition. (T-0)  In addition, Lead and Using Commands will apply hardness 
+maintenance and hardness surveillance programs throughout the system’s life cycle. (T-0)   
+3.3.  If command and control systems and/or infrastructure require hardening to survive in 
+nuclear environments, Lead and Using Command(s) shall ensure applicable hardness 
+assurance, hardness maintenance and hardness surveillance programs are in place IAW AFI 
+63-101/20-101. (T-0)  
+3.4.  Lead and Using Commands will also maintain preventive maintenance checks and 
+services programs for systems and infrastructure hardened for CBR contamination 
+survivability and monitor facility effectiveness IAW local guidance, provided maintenance 
+manuals for installed systems, and/or applicable technical data, as appropriate. (T-0) 
+ 
+ 
+ 
+AFI10-2607  9 AUGUST 2018 
+7 
+ 
+Figure 1.  Mission Critical Decision Tool. 
+ 
+ 
+JACK WEINSTEIN, Lt Gen, USAF 
+DCS, Strategic Deterrence and Nuclear Integration 
+8 
+AFI10-2607  9 AUGUST 2018 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+AFPD 10-26, Countering Weapons of Mass Destruction Enterprise, 17 June 2015 
+Air Force Manual 33-363, Management of Records, 1 March 2008 
+AFI 33-360, Publications and Forms Management, 1 December 2015 
+DoDI 3150.09, The Chemical, Biological, Radiological, and Nuclear (CBRN) Survivability 
+Policy, 8 April 2015 
+AFPD 10-9, Lead Command Designation and Responsibilities for Weapon Systems, 8 March 
+2007 
+AFI 10-601, Operational Capability Requirements Development, 6 November 2013 
+AFI 63-101/20-101, Integrated Life Cycle Management, 9 May 2017 
+AFI 99-103, Capabilities-Based Test and Evaluation, 6 April 2017 
+Manual for the Operation of the Joint Capabilities Integration and Development System (JCIDS 
+Manual), 12 February 2015.  Document available from OPR (202-404-6540 or DSN 754-6540) 
+DoDI 5000.02, Operation of the Defense Acquisition System, 7 January 2015 
+CJCSI 6810.01B, Critical Nuclear Command and Control (NC2) Equipment and Facilities, 21 
+Jun 13.  Document available from Joint Staff/J3 (703-697-3776/7223 or DSN 227-3776/7223) 
+Allied Engineering Publication-7 (AEP-7), Chemical, Biological, Radiological, and Nuclear 
+(CBRN) Contamination Survivability Factors in the Design, Testing and Acceptance of Military 
+Equipment, Edition 5, April 2012.  Document available from OPR (202-404-6540). 
+Abbreviations and Acronyms 
+AFI—Air Force Instruction 
+AFPD—Air Force Policy Directive 
+AFRL—Air Force Research Laboratory 
+CBR—Chemical, Biological, and Radiological 
+CBRN—Chemical, Biological, Radiological, and Nuclear 
+CJCSI—Chairman of the Joint Chiefs of Staff Instruction 
+CSOG—CBRN Survivability Oversight Group 
+DoD—Department of Defense 
+DoDD—Department of Defense Directive 
+DoDI—Department of Defense Instruction 
+IAW—In Accordance With 
+AFI10-2607  9 AUGUST 2018 
+9 
+Terms 
+CBR Compatibility—The ability of a system to be operated, maintained, and resupplied by 
+personnel wearing the full individual protective equipment in climates for which the system is 
+designed and for the time period specified in the system requirements. (AEP-7) 
+CBR Contamination Survivability—The capability of a system and its crew to withstand a 
+CBR contaminated environment, including decontamination, without losing the ability to 
+accomplish the assigned mission.  The three main principles of CBR contamination survivability 
+are hardness, decontaminability, and compatibility. (AEP-7) 
+CBR Decontaminability—The ability of a system to be rapidly and effectively decontaminated 
+using standard CBR decontaminates and procedures available in the field to the point that any 
+remaining contaminant poses no casualty-producing hazard to unprotected personnel exposed for 
+the duration of the mission. (AEP-7) 
+CBR Environment—The environment created by chemical, biological, or radiological 
+contamination. (DODI 3150.09) 
+CBR Hardness—The capability of materiel or a system to withstand damaging effects from 
+CBR contamination, applicable decontaminates, and/or decontamination procedures. (AEP-7) 
+CBRN Mission-Critical—That subset of mission-critical systems with operational concepts 
+requiring employment and survivability in a CBR environment or a nuclear environment. 
+CBRN Survivability—The capability of a system to avoid, withstand, or operate during and/or 
+after exposure to a CBRN environment (and decontamination process) without losing the ability 
+to accomplish the assigned mission. CBRN survivability is concerned with contamination that 
+includes fallout and initial nuclear weapons effects, including blast, EMP and other initial 
+radiation and shockwave effects. (DoDI 3150.09) 
+Electromagnetic Pulse (EMP)—The electromagnetic radiation from a nuclear explosion caused 
+by Compton-recoil electrons and photoelectrons from photons scattered in the materials of the 
+nuclear device or in a surrounding medium. The resulting electric and magnetic fields may 
+couple with electrical/electronic systems to produce damaging current and voltage surges.  
+Depending on the burst type, can cause power spikes ranging from several hundred volts per 
+meter up to more than one million volts per meter.  Can cause component or sub-system burnout 
+or degradation and system upset. (DODI 3150.09) 
+EMP Survivability—The capability of a system to withstand exposure to an EMP environment 
+without losing the ability to accomplish its designated mission throughout its life cycle.  EMP 
+survivability may be accomplished by hardening, timely resupply, redundancy, mitigation 
+techniques (including operational techniques), or a combination thereof. (DODI 3150.09) 
+Hardness Assurance—The procedures applied during production of a hardened system (and 
+through periodic validation testing, as required) to make sure that the hardness built into the 
+system is retained throughout the life of the system. (DODI 3150.09) 
+Hardness Maintenance—Procedures applied during the operational phase of a hardened system 
+to make sure that the hardness built into the system is retained throughout the life of the system. 
+(DODI 3150.09) 
+10 
+AFI10-2607  9 AUGUST 2018 
+Hardness Surveillance—Inspection and test procedures that are conducted during the 
+operational life of the system to ensure that the designed hardness of the system is not degraded 
+through operational use, logistic support, or maintenance actions. (DODI 3150.09) 
+Lead Command—The command that serves as the using command’s interface with the Program 
+Manager for a system as prescribed by AFPD 10-9.  Lead Command designation is not exclusive 
+to Major Commands; Field Operating Agencies and Direct Reporting Units may also be 
+designated. 
+Mission Critical System—A system whose operational effectiveness and operational suitability 
+are essential to successful mission completion or to aggregate residual combat capability. If this 
+system fails, the mission likely cannot be completed.  Such a system can be an auxiliary or 
+supporting system, as well as a primary mission system. (DODI 3150.09) 
+Mission Critical Report—A report required by DoDI 3150.09 that identifies a Service’s 
+Mission Critical Systems and Infrastructure.  It includes CBRN survivability assessments for 
+those systems expected to survive and/or operate in chemical, biological, radiological 
+contamination and/or nuclear environments. 
+Nuclear Command & Control System—The combination of facilities, equipment, 
+communications, procedures, and personnel essential for planning, directing, and controlling 
+nuclear weapons, weapons systems, and associated operations. (DODI 3150.09) 
+Nuclear Environment—The environment created by nuclear weapon effects (i.e., air blast, 
+thermal radiation, nuclear radiation, fallout, and electromagnetic pulse) and by radiation in space.  
+(DODI 3150.09) 
+Nuclear Hardening—The employment of any design or manufacturing technique or component 
+applied to an item or system that allows it to avoid failure or destruction, resist malfunction 
+(temporary or permanent) and/or prevent degraded performance induced by nuclear weapon 
+effects. Such systems are considered to be nuclear hardened. (DODI 3150.09) 
+Nuclear Survivability—The capability of a system or infrastructure to withstand exposure to 
+nuclear environments without suffering loss of ability to accomplish its designated mission 
+throughout its life cycle.  Nuclear survivability may be accomplished by hardening, timely 
+resupply, redundancy, mitigation techniques (including operational techniques), or a 
+combination.  Includes EMP survivability. (DODI 3150.09) 
+Sponsor—The organization responsible for documentation, periodic reporting, and funding 
+actions necessary to support needed capabilities (AFI 10-601). 
+Using Commands—Those commands operating a system, subsystem, or item of equipment 
+related to a weapon system procured by a Lead Command. 
+ 

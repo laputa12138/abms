@@ -1,0 +1,3020 @@
+BY ORDER OF THE SECRETARY  
+OF THE AIR FORCE 
+ 
+AIR FORCE MANUAL 10-3505 
+VOLUME 2 
+7 NOVEMBER 2023 
+Operations 
+JOINT TERMINAL ATTACK 
+CONTROLLER STANDARDIZATION 
+AND EVALUATION PROGRAM 
+COMPLIANCE WITH THIS PUBLICATION IS MANDATORY 
+ 
+ACCESSIBILITY:  Publications and forms are available on the e-Publishing website at 
+www.e-Publishing.af.mil for downloading or ordering 
+RELEASABILITY:  There are no releasability restrictions on this publication 
+ 
+ 
+OPR: AF/A3S 
+Certified by: AF/A3S  
+(Colonel Leland K. Cowie II)
+Supersedes: 
+AFMAN 13-112V2, 6 June 2018 
+Pages: 66 
+ 
+ 
+This manual implements Department of the Air Force Policy Directive (DAFPD) 10-35, Air Force 
+Special Warfare. This publication establishes the minimum Air Force standards for training, 
+certifying, and qualifying Air Force personnel as a Joint Terminal Attack Controller (JTAC) to 
+control Close Air Support (CAS) and other offensive air operations, and aligns with the Joint Fire 
+Support Executive Steering Committee Action Plan Memorandum of Agreement (JFS ESC AP 
+MOA) 2004-01 (JTAC) (Ground), referred to as the JTAC MOA. This publication applies to all 
+civilian employees and uniformed members of Regular Air Force, the Air Force Reserve, the Air 
+National Guard, and those who are contractually obligated to comply with Department of the Air 
+Force (DAF) publications engaged in JTAC Training. This publication does not apply to the United 
+States Space Force. This publication requires the collection and/or maintenance of information 
+protected by the Privacy Act of 1974 authorized by Title 10, United States Code (U.S.C.) Section 
+9013, Secretary of the Air Force. The applicable System of Records Notice(s) F036 AF PC C, 
+Military 
+Personnel 
+Records 
+System 
+is 
+available 
+at: 
+http://dpclo.defense.gove/Privacy/SORNs.aspx. Ensure all records generated as a result of 
+processes prescribed in this publication adhere to Air Force Instruction (AFI) 33-322, Records 
+Management and Information Governance Program, and are disposed in accordance with (IAW) 
+the Air Force Records Disposition Schedule, which is located in the Air Force Records Information 
+Management System. Refer recommended changes and questions about this publication to the 
+office of primary responsibility (OPR) using the DAF Form 847, Recommendation for Change of 
+Publication; route DAF Forms 847 from the field through the appropriate functional chain of 
+command. This publication may be supplemented at any level, but all supplements must be routed 
+2 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+to the OPR of this publication prior to certification and approval. The authorities to waive wing or 
+unit level requirements in this publication are identified with a Tier (“T-0, T-1, T-2, T-3”) number 
+following the compliance statement. See Department of the Air Force Manual (DAFMAN) 90-
+161, Publishing Processes and Procedures, for a description of the authorities associated with the 
+tier numbers. Submit requests for waivers through the chain of command to the appropriate tier 
+waiver approval authority, or alternately, to the publication OPR at AF.A3S.Workflow@us.af.mil 
+for non-tiered compliance items. The use of the name or mark of any specific manufacturer, 
+commercial product, commodity, or service in this publication does not imply endorsement by the 
+Department of the Air Force. Compliance with attachments is mandatory. 
+SUMMARY OF CHANGES 
+This document has been substantially revised and must be completely reviewed. Major changes 
+include: removes the term Standardization and Evaluation Examiner (SEE) Program Manager 
+(PM) and replaces it with Joint Terminal Attack Controller-Evaluator-Program Manager (JTAC-
+E-PM); removes the term SEE and replaces it with Joint Terminal Attack Controller-Evaluator 
+(JTAC-E); removes the term SEE Objectivity and replaces it with Initial JTAC-E Evaluation; 
+removes the term Initial Qualification Training (IQT) and replaces it with Initial Certification 
+Training (ICT); clarifies recurring evaluation criteria for JTAC-Es IAW the JTAC MOA; 
+introduces policy change allowing JTAC evaluations to be conducted in accredited simulators; 
+replaces the AF Form 8, Certificate of Aircrew Qualification with AF Form 1035, AFSPECWAR 
+Evaluation; prescribes the AF Form 1036, JTAC Initial Certification Training; and provides 
+guidance on JTAC evaluations while deployed. Units will implement the new publication in its 
+entirety within 90 days of the publication date. 
+ 
+Chapter 1—INTRODUCTION 
+ 
+5 
+1.1. 
+Overview. .................................................................................................................  
+5 
+1.2. 
+Purpose. ...................................................................................................................  
+5 
+1.3. 
+Objectives. ...............................................................................................................  
+5 
+1.4. 
+Key Terms and Definitions. .....................................................................................  
+5 
+1.5. 
+Electronic Products. .................................................................................................  
+6 
+Chapter 2—ROLES AND RESPONSIBILITIES 
+ 
+7 
+2.1. 
+The Deputy Chief of Staff, Operations, through the Air Force Special Warfare 
+Directorate (AF/A3S). .............................................................................................  
+7 
+2.2. 
+MAJCOMs and the National Guard Bureau. ...........................................................  
+7 
+2.3. 
+Numbered Air Forces (NAFs). ................................................................................  
+8 
+2.4. 
+Group Commanders with a JTAC Program. ............................................................  
+8 
+2.5. 
+Group JTAC-Evaluator-Program Manager. .............................................................  
+8 
+2.6. 
+Unit Commander. .....................................................................................................  
+9 
+2.7. 
+Unit JTAC-Evaluator-Program Manager. ................................................................  
+10 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+3 
+2.8. 
+Individual JTAC-Evaluator Responsibilities. ..........................................................  
+11 
+2.9. 
+Individual JTAC Responsibilities. ...........................................................................  
+11 
+2.10. 
+JTAC Schoolhouses. ................................................................................................  
+11 
+Chapter 3—GUIDANCE AND PROCEDURES 
+ 
+12 
+3.1. 
+Individual JTAC Transfers. .....................................................................................  
+12 
+3.2. 
+Deployments. ...........................................................................................................  
+12 
+3.3. 
+Dislocated JTACs Stan/Eval Program Management. ..............................................  
+12 
+3.4. 
+JTACs External to the USAF. ..................................................................................  
+13 
+Chapter 4—JTAC EVALUATION PROCEDURES 
+ 
+14 
+4.1. 
+Overview. .................................................................................................................  
+14 
+4.2. 
+Ground-Phase Evaluation. .......................................................................................  
+14 
+4.3. 
+MSN Evaluation. .....................................................................................................  
+15 
+4.4. 
+JTAC-I Evaluations. ................................................................................................  
+16 
+4.5. 
+JTAC-E Evaluation. .................................................................................................  
+16 
+4.6. 
+Evaluation Grading System. ....................................................................................  
+17 
+4.7. 
+Overall JTAC MSN Evaluation Qualification Levels. ............................................  
+18 
+4.8. 
+Timing and Types of Evaluations. ...........................................................................  
+19 
+4.9. 
+Failure to Pass the MSN Evaluation. .......................................................................  
+20 
+4.10. 
+Evaluation Remedial Actions. .................................................................................  
+22 
+4.11. 
+Decertification. ........................................................................................................  
+22 
+4.12. 
+Commander-Directed Downgrade. ..........................................................................  
+23 
+Chapter 5—MASTER QUESTION FILE 
+ 
+24 
+5.1. 
+Master Question File (MQF). ..................................................................................  
+24 
+5.2. 
+Examination Requirements. .....................................................................................  
+24 
+5.3. 
+MQF Classification Guidelines. ...............................................................................  
+25 
+Chapter 6—JTAC EVALUATION DOCUMENTATION 
+ 
+26 
+6.1. 
+Purpose of JTAC Evaluation Documentation. .........................................................  
+26 
+6.2. 
+Description of Folders. ............................................................................................  
+26 
+Chapter 7—STANDARDIZATION/EVALUATION BOARD AND TREND ANALYSIS 
+PROGRAM 
+ 
+28 
+7.1. 
+Standardization/Evaluation Board (SEB). ...............................................................  
+28 
+7.2. 
+Trend Analysis Program. .........................................................................................  
+28 
+4 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+Chapter 8—CONTROLLER READ FILE (CRF) AND SPECIAL INTEREST ITEMS 
+(SIIS) 
+ 
+29 
+8.1. 
+CRF Overview. ........................................................................................................  
+29 
+8.2. 
+Volume I–Table of Contents. ...................................................................................  
+29 
+8.3. 
+Volume II. ................................................................................................................  
+30 
+8.4. 
+Volume III. MAJCOM, NAF, Wing, Group & Local Directives/Manuals. ............  
+30 
+8.5. 
+Volume IV – Checklists, Technical Orders & Manuals. .........................................  
+30 
+8.6. 
+Volume V – Safety Information. .............................................................................  
+30 
+8.7. 
+Go/No-Go Procedures. .............................................................................................  
+30 
+8.8. 
+Stan/Eval SII. ...........................................................................................................  
+30 
+Chapter 9—JTAC-E-PM AND JTAC-E EVALUATION CRITERIA 
+ 
+31 
+9.1. 
+JTAC-E-PM. ............................................................................................................  
+31 
+9.2. 
+JTAC-E. ...................................................................................................................  
+31 
+9.3. 
+Number of Unit-Level JTAC-Es. .............................................................................  
+31 
+Attachment 1—GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+32 
+Attachment 2—JTAC EVALUATION AREAS AND CRITERIA 
+ 
+39 
+Attachment 3—JTAC TRAINING FOLDER 
+ 
+53 
+Attachment 4—STANDARDIZATION/EVALUATION BOARD (SEB) MINUTES 
+FORMAT EXAMPLE 
+ 
+56 
+Attachment 5—AF FORM 1036 INSTRUCTIONS AND EXAMPLES 
+ 
+58 
+Attachment 6—SAMPLE MESSAGE, CONTROLLED READ FILE (CRF) FORMAT 
+ 
+65 
+ 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+5 
+Chapter 1 
+INTRODUCTION 
+1.1.  Overview.  As part of the Air Force Special Warfare (AFSPECWAR) mission to provide 
+precision strike across the spectrum of conflict, the Air Force trains JTACs to support combatant 
+command requirements. JTAC Standardization/Evaluation (Stan/Eval) programs provide 
+commanders and staffs meaningful indicators reflecting a unit’s ability to accomplish its peacetime 
+training and combat responsibilities. 
+1.2.  Purpose.  The purpose of the JTAC Stan/Eval program is to provide commanders a tool to 
+validate readiness and the effectiveness of unit operations, including documentation of individual 
+qualifications and capabilities to perform duties across multiple mission sets. 
+1.3.  Objectives. 
+1.3.1.  Validates unit JTAC training program to support the successful and safe execution of 
+the unit’s mission. 
+1.3.2.  Ensures the standardization of operational procedures for terminal attack control (TAC) 
+IAW AFMAN 11-214, Air Operations Rules and Procedures, Joint Publication (JP) 3-09.3 
+Close Air Support, and AFTTP 3-1 Joint Terminal Attack Controller. 
+1.3.3.  Provides a system to: 
+1.3.3.1.  Assess individual JTAC qualifications and readiness levels based upon the 
+operational training standards defined in AFMAN 10-3505V1, Joint Terminal Attack 
+Controller (JTAC) Training Program. 
+1.3.3.2.  Identify trends through analysis of evaluation results and corresponding JTAC 
+training programs. 
+1.3.3.3.  Implements recommended changes to the JTAC training program, lesson plans, 
+standard operating procedures, and governing directives based on the results of evaluations. 
+1.3.4.  Ensures units establish processes that verify individual JTACs meet qualification 
+requirements prior to the Mission (MSN) evaluation. 
+1.3.5.  Ensures unit compliance with operational, training, and administrative directives related 
+to JTAC operations. 
+1.3.6.  Provides unclassified after-action review feedback using the Stan/Eval Board (SEB) 
+process to senior, lateral, and subordinate headquarters through cross-command. 
+1.3.7.  Standardizes 
+administrative 
+procedures 
+for 
+documenting 
+individual 
+JTAC 
+qualifications. 
+1.4.  Key Terms and Definitions. 
+1.4.1.  Standardization: Standardization ensures that common JTAC training programs support 
+combat air operations based upon proven tactics, techniques, and procedures (TTP) and are 
+IAW established safety standards. When administered in a consistent manner using prescribed 
+performance standards, evaluations ensure that individual JTACs are qualified IAW AFMAN 
+10-3505V1, this publication, and the JTAC MOA. 
+6 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+1.4.2.  Evaluation: Individual JTAC evaluations emphasize either JTAC-specific skills only or 
+emphasize combat scenarios that are based upon the mission identification and operational 
+plans specified in the Global Force Management Allocation Plan (GFMAP), unit designed 
+operational capability (DOC) statement, and probable contingency taskings. The scenarios in 
+a unit’s evaluation program should be varied to the maximum extent possible to incorporate 
+mission sets such as, but not limited to: traditional warfare and irregular warfare, with 
+contested and/or degraded operations constraints. To the maximum extent practical, JTAC 
+evaluations should incorporate the use of multiple live assets (e.g., indirect fires, naval gunfire, 
+threat simulators, maneuver forces). 
+1.4.3.  Group: Throughout this document, when referring to a “group”, the standard group is 
+an Air Support Operations Group (ASOG) or a Special Tactics Group (STG). Air National 
+Guard (ANG) units may not always fall under a standard group. 
+1.4.4.  Wing: Throughout this document when referring to a “wing”, the standard wing is an 
+Air Ground Operations Wing (AGOW) or Special Operations Wing (SOW). ANG units may 
+not always fall under a standard wing. 
+1.4.5.  AF Form 1035, AFSPECWAR Evaluation Form: In this publication, when referencing 
+logging JTAC evaluations on an AF Form 1035, it must be noted that AFSOC JTACs utilize 
+United States Special Operations Command (USSOCOM) Form 43, SOF JTAC 
+CERTIFICATION OF EVALUATION. 
+1.5.  Electronic Products.  The use of electronic products (e.g., spreadsheets, databases, word 
+processing) is authorized for items not included in a Headquarters Air Force (HAF)-approved 
+electronic system of record (e.g., Automated JTAC Academic Currency Tracking System 
+(AJACTS), Oracle © HCM). Printouts of electronic products will be included in an individual’s 
+JTAC training and evaluation folder upon Permanent Change of Assignment (PCA), Permanent 
+Change of Station (PCS), or Temporary Duty (TDY) deployments in support of exercises and 
+contingencies. (T-1) 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+7 
+Chapter 2 
+ROLES AND RESPONSIBILITIES 
+2.1.  The Deputy Chief of Staff, Operations, through the Air Force Special Warfare 
+Directorate (AF/A3S).  AF/A3S establishes JTAC training, evaluation, and operations policy, 
+programming, and requirements. 
+2.1.1.  Appoints the HAF JTAC-PM. 
+2.1.2.  Develops policy and provide guidance for the execution of the JTAC Stan/Eval program 
+for approval by AF/A3. 
+2.1.3.  Resolves Stan/Eval issues that arise among Major Commands (MAJCOM)s and/or the 
+NGB. 
+2.1.4.  Informs MAJCOM OPRs of any supplements to this AFMAN. 
+2.1.5.  Approves all JTAC qualification electronic system(s) of record used by Air Force 
+JTACs. 
+2.1.6.  Reviews all digital training tracking systems. 
+2.1.7.  Coordinates the Master Question File (MQF) and any supplements with all MAJCOMs 
+that have JTAC Stan/Eval and training programs. 
+2.1.8.  Coordinates on the MQF database and all supplements to ensure that all units have like 
+databases. 
+2.2.  MAJCOMs and the National Guard Bureau.  Resolve major Stan/Eval issues that arise 
+among units within their purview. 
+2.2.1.  Forward all requested MAJCOM supplements to HAF AF/A3S for coordination. 
+2.2.2.  Semi-annually review negative trends in subordinate units’ training programs through 
+the Stan/Eval program and provide a semi-annual report for review at the Realistic Training 
+Review Board. 
+2.2.3.  Coordinate command-unique requirements with supporting commands as required and 
+assist in the standardization of inter-command JTAC qualifications and evaluation 
+requirements. 
+2.2.4.  Establish Special Interest Items (SII)s as required. Review active SIIs on an annual basis 
+for applicability. 
+2.2.5.  Review all inspection reports for unit compliance with operations and JTAC Stan/Eval 
+directives. 
+2.2.6.  Provide functional visits when requested by commanders IAW DAFI 90-302, The 
+Inspection System of the Department of the Air Force. 
+2.2.7.  Coordinate with the MAJCOM/Inspector General to identify interest focus areas and/or 
+emphasis items for the unit effectiveness inspection by utilizing the unit management internal 
+control toolset self-assessment checklists as a guide, this publication, and other virtual 
+mediums. 
+8 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+2.2.8.  Review MAJCOM supplements to this publication annually for accuracy and current 
+relevance. 
+2.2.9.  MAJCOMS may supplement the MQF as necessary and will forward proposed changes 
+to AF/A3S. 
+2.2.10.  MAJCOMs may delegate Stan/Eval responsibilities outlined in paragraph 2.2. to 
+Numbered Air Forces (NAF) functions (if available). 
+2.3.  Numbered Air Forces (NAFs). 
+2.3.1.  Manage a JTAC Stan/Eval program to achieve the objectives outlined in this publication 
+and MAJCOM supplements. 
+2.3.2.  Review subordinate group-level SEB minutes for opportunities to provide NAF 
+assistance and forward SEB minutes to MAJCOM JTAC-PM. The SEB minutes format can be 
+found in Attachment 4 of this publication. 
+2.3.3.  Develop MAJCOM-approved procedures to distribute controller read file (CRF) items 
+derived from MAJCOM JTAC-PM or other pertinent documents. 
+2.3.4.  When available, practical, or requested, conduct JTAC evaluations on subordinate unit 
+JTAC-E-PMs. 
+2.3.5.  Develop a functional mentorship program for the next echelon below the Wing that has 
+a JTAC program. The program is intended to share program management experience with 
+subordinate JTAC-E-PMs. 
+2.4.  Group Commanders with a JTAC Program. 
+2.4.1.  Ensure subordinate units comply with this publication. 
+2.4.2.  Provide staff support and assist those units in implementing and managing the JTAC 
+Stan/Eval program. 
+2.4.3.  Certify individual JTAC qualifications on AF Form 1035 for those JTACs assigned at 
+the group-level. 
+2.4.4.  Appoint, in writing, a group-level JTAC-E-PM. 
+2.4.5.  Designate JTAC-Es to assist the Group JTAC-E-PM. When a unit does not have a 
+group-level function in their chain of command they will default to the next highest echelon. 
+2.4.6.  Direct the SEB and trend analysis program IAW Chapter 7, facilitated by the unit 
+JTAC-E-PM. The SEB should include the commander and staff reviews of automated data 
+products and operational reports.  
+2.4.7.  Approve the group’s policy governing its Stan/Eval program. 
+2.4.8.  Establish SIIs as required. Review SII(s) on an annual basis for applicability and 
+forward to Higher Headquarters (HHQ). 
+2.5.  Group JTAC-Evaluator-Program Manager. 
+2.5.1.  Maintain emphasis on overall unit standardization. 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+9 
+2.5.2.  Ensure standardization among squadron Stan/Eval functions and squadron-assigned 
+JTAC-Es and ensures the JTAC Stan/Eval program requirements established in this publication 
+are implemented. 
+2.5.3.  Schedule and conduct functional visits on subordinate units at a unit commander’s or 
+unit’s request. 
+2.5.4.  In conjunction with the group JTAC-Program Manager (JTAC-PM), establishes and 
+maintains individual JTAC training and evaluation folders for all JTACs assigned to the 
+group’s staff, reviews the records prior to the evaluation for accuracy, and documents on the 
+AF Form 942, Record of Evaluation. 
+2.5.5.  Maintain JTAC-E qualification. Ensure all evaluation records of newly assigned JTAC 
+personnel are reviewed to validate qualification IAW this publication. Documents the review 
+on AF Form 942. 
+2.5.6.  Using the MQF database, compose Ground-Phase evaluation examinations IAW 
+Chapter 4 for group and subordinate squadron personnel. The use of a MAJCOM-approved 
+automated test generator is authorized. 
+2.5.7.  Conduct JTAC evaluations on all subordinate squadrons’ JTAC-E-PMs when available 
+and practical. The group commander may designate another JTAC-E (group or squadron-level) 
+to fulfill this function, if necessary. 
+2.5.8.  When requested by subordinate units, or as directed by the commander, conduct a 
+JTAC, JTAC-Instructor (JTAC-I), JTAC-E evaluation. 
+2.5.9.  Establish and maintain a trend analysis program IAW this manual. 
+2.5.10.  Approve subordinate unit trend analysis program tracker format. 
+2.5.11.  Manage and ensure group compliance with the CRF publications program as outlined 
+in this publication. 
+2.5.12.  Support JTAC evaluations within other commands and services; develop a notification 
+process between supported and supporting units conducting those evaluations.  
+2.5.13.  Consolidate unit SEB minutes to determine any group-wide trends. Forward SEB 
+minutes to HHQs. 
+2.5.14.  Observe the overall risk assessment process for TAC missions to ensure that Risk 
+Management (RM) is integrated and sustained throughout the group IAW AFI 90-802, Risk 
+Management. 
+2.5.15.  Develop a functional mentorship program for each subordinate unit that has a JTAC 
+program. The program is intended to share program management experience with subordinate 
+JTAC-E-PMs. 
+2.6.  Unit Commander. 
+2.6.1.  Establish a JTAC Stan/Eval function IAW this publication and applicable MAJCOM 
+supplements to ensure that the unit can meet its GFMAP taskings. 
+2.6.2.  Certify individual JTAC qualifications on AF Form 1035. 
+2.6.3.  Direct and control the SEB and trend analysis program IAW this publication. 
+10 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+2.6.4.  Designate in writing, a unit-level JTAC-E-PM to oversee the unit’s JTAC Stan/Eval 
+program and JTAC-Es to assist the JTAC-E-PM. 
+2.6.5.  Approve the unit Operating Instruction (OI) governing its Stan/Eval program, unless 
+the unit is using the group directed OI. 
+2.6.6.  Award Special Experience Identifier (SEI) 281 or O9E to individuals as appropriate 
+IAW paragraph 4.5.8. NOTE: SEIs 281 or O9E will be additive to the members list of 
+qualified SEIs and will not replace SEIs 914 or O9C. 
+2.6.7.  Establish SIIs as required and review SIIs on an annual basis for applicability and 
+forward them to HHQ. 
+2.7.  Unit JTAC-Evaluator-Program Manager. 
+2.7.1.  Ensure the JTAC Stan/Eval program requirements established in this publication are 
+implemented. 
+2.7.2.  In conjunction with the unit JTAC-PM, establish (as required) and maintain an 
+individual JTAC training and evaluation folder on all JTACs assigned to the unit in either an 
+analog or HAF-approved digital format. Digital formats are the preferred means of maintaining 
+JTAC records. 
+2.7.3.  Maintain JTAC-E qualification. 
+2.7.4.  Manage the development of evaluation scenarios based on the unit training plan. Several 
+scenarios will be maintained to reflect the full spectrum of operations. Units will have a list of 
+commander-approved scenarios that are based upon the unit’s mission that is maintained, 
+secured, and controlled by the unit JTAC-E-PM. 
+2.7.5.  Ensure all evaluation records of newly assigned JTAC personnel are reviewed to 
+validate qualifications IAW paragraph 3.1. Documents review on the AF Form 942, notes 
+any minor discrepancies on the minor discrepancy log. Places a memorandum for record, 
+signed by the unit commander, on top of affected AF Form 1035 for major discrepancies. 
+2.7.6.  Conduct JTAC evaluations (as required). 
+2.7.7.  Conduct all initial JTAC-E evaluations on unit JTAC-Es IAW this manual. 
+2.7.8.  Add any unit-specific requirements to the HHQ developed Stan/Eval checklist. 
+2.7.9.  Establish and maintain a trend analysis program and IAW Chapter 7. 
+2.7.10.  Manage and ensure compliance with the unit CRF publications program in Chapter 8 
+of this publication. 
+2.7.11.  Support JTAC evaluations within other commands and services; develop a process to 
+receive prior notification between supported and supporting units conducting the evaluations. 
+2.7.12.  Forward the Stan/Eval program OI, if used, to the group for review prior to 
+implementing. 
+2.7.13.  Nominate JTAC-E candidates to the commander and coordinate a formal JTAC-E 
+designation letter for the commander’s signature. 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+11 
+2.7.14.  Train JTAC-Es on evaluator responsibilities and the JTAC qualification evaluation 
+procedures prior to performing their evaluator’s duties as outlined in this AFMAN and the unit 
+Stan/Eval OI (if used). 
+2.8.  Individual JTAC-Evaluator Responsibilities. 
+2.8.1.  Maintain JTAC, JTAC-I, and JTAC-E qualifications. 
+2.8.2.  Conduct all evaluations IAW this AFMAN.  
+2.8.3.  Document all evaluations IAW this AFMAN.  
+2.9.  Individual JTAC Responsibilities.  The most important member of the Stan/Eval program 
+is the individual JTAC. With few exceptions, the individual JTAC reflects the level of instruction 
+and the quality of the unit. 
+2.9.1.  Maintain JTAC qualification. 
+2.9.2.  Ensure that all qualification controls are logged IAW unit OIs. 
+2.9.3.  Hand-carry unit prepared individual JTAC training evaluation folder, in sealed tamper-
+resistant package, during PCS/PCA moves to assist the gaining unit in assessing qualifications 
+and training requirements. Note: This may also be accomplished through an electronic transfer 
+if the electronic folder is complete IAW this AFMAN and AFMAN 10-3505V1. 
+2.10.  JTAC Schoolhouses. 
+2.10.1.  Deliver curriculum IAW the JTAC MOA. 
+2.10.2.  Conduct a final assessment using JTAC-specific Joint Mission Task List (JMTL), as 
+part of graduation criteria. Upon completion, this assessment will be document on AF Form 
+1036. This assessment is not an initial qualification evaluation, which will be conducted by the 
+trainee’s unit. This final assessment will be documented on AF Form 1035. 
+12 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+Chapter 3 
+GUIDANCE AND PROCEDURES 
+3.1.  Individual JTAC Transfers.  Prior to a JTAC executing their first unsupervised mission, 
+the JTAC-E-PM will review the JTAC’s training and evaluation folder. (T-3) 
+3.1.1.  The JTAC-E-PM will correct discrepancies found on the most recent JTAC, JTAC-I, 
+and JTAC-E AF Form 1035 or during this review. (T-3) 
+3.1.2.  Document this review as a JTAC-E-PM review on AF Form 942. 
+3.1.3.  Document minor discrepancies on the minor discrepancy log IAW A3.1.2 and place 
+memorandum for record on top of the affected JTAC evaluation form (e.g., AF Form 1035, 
+USSOCOM Form 43) that has minor discrepancies. 
+3.1.4.  If the JTAC-E-PM is not available, the unit commander may approve a unit JTAC-E or 
+unit JTAC-PM to conduct the JTAC training and evaluation folder review. 
+3.1.5.  JTACs assigned to a unit without a JTAC Stan/Eval program, must maintain a JTAC 
+training and evaluation folder until they return to a unit with a JTAC Stan/Eval program IAW 
+paragraph 3.3.. (T-3)  
+3.1.6.  JTACs assigned to the Special Warfare Training Wing will turn in their JTAC folder to 
+their Course Chief or Stan/Eval section. (T-3)  
+3.2.  Deployments.  JTACs will deploy qualified IAW this manual and AFMAN 10-3505V1, 
+without caveats. (T-1) 
+3.2.1.  While deployed on contingency, exercise, and deployment orders, the 18-month 
+evaluation requirement is waived for the duration of the deployment. If a deployed JTAC’s 
+evaluation expires during the deployment, the member will be required to receive an evaluation 
+upon completion of the deployed tasking. (T-1)  
+3.2.2.  During deployments to combat zones, no JTAC evaluations of any type will be 
+authorized. (T-1) 
+3.2.3.  Members deployed in support of a low-threat environment outside of a combat zone 
+(e.g., Korea, Europe), may receive a spot evaluation, recurring JTAC evaluation, JTAC-I 
+evaluation, or JTAC-E evaluation when both the owning unit and the expeditionary unit 
+commanders concur. 
+3.2.3.1.  Units will route the request to conduct evaluations through the affected MAJCOM 
+PMs for coordination. (T-2)  
+3.2.3.2.  The timing of evaluations of any type will be coordinated between the owning unit 
+and expeditionary unit commanders. (T-1) 
+3.3.  Dislocated JTACs Stan/Eval Program Management. 
+3.3.1.  In the case of transferring to an assignment not requiring JTAC duties, the individual’s 
+JTAC digital training tracking profile will be deactivated (if used) but will be retained by the 
+digital training tracking system for future reactivation or reference. (T-1) 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+13 
+3.3.2.  Deactivation and reactivation of a JTAC’s digital training tracking record is conducted 
+by the unit JTAC-PM. (T-1) 
+3.3.3.  In the case of transferring to an assignment requiring JTAC duties, but the unit does not 
+maintain a JTAC program, the individual JTAC’s training folder may be managed by their 
+parent MAJCOM. 
+3.3.3.1.  Units that require JTAC(s), but do not maintain a JTAC program, must enter into 
+an agreement (MOA, etc...) with a unit that does have a JTAC program to detail 
+responsibilities for training and evaluations of the dislocated JTAC(s). (T-2) This 
+agreement will be coordinated through each units MAJCOM JTAC-PM, NGB/A3J for 
+ANG, or equivalent. (T-2)  
+3.3.3.2.  Units that maintain an AF Stan/Eval program may manage JTAC records for 
+assigned JTACs. 
+3.3.4.  Personnel performing JTAC duties at a unit that does not maintain a JTAC program, 
+must be designated as a JTAC by the unit commander for which they are performing JTAC 
+duties. (T-3) 
+3.4.  JTACs External to the USAF.  There may be situations where JTACs and Forward Air 
+Controllers (FAC) from other Services or Nations are required to comply with this publication. 
+Example: Foreign instructors assigned to a USAF unit conducting a JTAC Qualification Course. 
+Note: Some nations still use the term “Forward Air Controller (FAC)” in lieu of “JTAC.” 
+3.4.1.  External JTACs, assigned to a formal schoolhouse, must comply with Chapter 3 of this 
+publication to include required evaluations, documentation, and JTAC training and evaluation 
+folder. These individuals will be considered USAF JTAC-Is once their JTAC MSN evaluation 
+and any required training has been completed. Any records created will be provided to the 
+individual upon change of assignment. 
+3.4.2.  MAJCOMs and NGB may supplement this manual to provide specific guidance to their 
+subordinate units. AF/A3S will coordinate on all MAJCOM and NGB supplements prior to 
+publication and distribute to applicable MAJCOMs/NGB within 30 days of publication. (T-1) 
+Note: AF/A3S will coordinate MAJCOM/NGB supplements with the Joint Staff as required. 
+14 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+Chapter 4 
+JTAC EVALUATION PROCEDURES 
+4.1.  Overview.  The Initial Certification Course (ICC) administers ICT, documented on AF Form 
+1036 (Attachment 5), and graduates certified JTACs. The initial JTAC evaluation is administered 
+after completing all JTAC Mission Qualification Training (MQT) as outlined in AFMAN 10-
+3505V1. Upon successful completion of the initial JTAC evaluation a JTAC is considered 
+qualified and MQT complete. JTACs then progress to JTAC CT. 
+4.1.1.  The interval between recurring evaluations will not exceed 18 months. 
+4.1.2.  JTAC evaluations consist of a Ground-Phase and a MSN evaluation IAW this manual. 
+4.1.3.  A recurring evaluation is administered to qualified JTACs who have successfully 
+completed an initial evaluation. 
+4.1.4.  JTAC evaluations assess performance using JTAC evaluation criteria area 1-25 on 
+Table A2.1 and will be documented on an AF Form 1035. (T-1) If required, and in line with 
+the JTAC MOA, multiple events can be used to include simulations, practical exercises, to 
+complete the evaluation. 
+4.2.  Ground-Phase Evaluation.  The Ground-Phase evaluation consists of a 50-question closed- 
+book examination derived from the MQF, tasks, and applicable TTPs. The bank of available 
+questions will ensure that a minimum of four Ground-Phase evaluations can and will be created 
+with no replication of questions across any of the four examinations. (T-1) 
+4.2.1.  Successful completion of the examination requires a minimum passing score of 80 
+percent. 
+4.2.1.1.  Any qualified USAF evaluator may proctor the Ground-Phase evaluation. 
+Electronic delivery of the examination is preferred. NOTE: This includes non-
+AFSPECWAR evaluators. 
+4.2.1.2.  All missed questions must be reviewed and corrected with the evaluator that 
+administered the examination. (T-1) 
+4.2.1.3.  Ground-Phase evaluations will be completed no earlier than 30 duty days (training 
+days for ANG) before the MSN evaluation, and no later than 30 days (training days for 
+ANG) after the MSN evaluation. Ground-Phase evaluations must not exceed the current 
+eligibility period. (T-1) 
+4.2.2.  Individuals failing the Ground-Phase evaluation must complete a successful re-test 
+within 10 duty days (training days for ANG), or prior to the current evaluation expiration date, 
+whichever comes first. A minimum of 24 hours must elapse before a re-examination can be 
+administered to allow for an adequate period of study. (T-1) 
+4.2.2.1.  When an individual fails a Ground-Phase evaluation, the evaluator will notify the 
+unit commander within one week. (T-3) 
+4.2.2.2.  Re-examinations will be accomplished using a different exam. (T-1) Unit 
+commander will be notified of successful Ground-Phase evaluation completion within one 
+week. (T-3) 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+15 
+4.2.2.3.  If the JTAC fails the second Ground-Phase evaluation, the unit commander will 
+identify the JTAC as non-qualified and document the Ground-Phase failure on the AF Form 
+1035. (T-1) It is the unit commander’s responsibility to determine required training actions 
+(e.g., training program, training timeline). This training will be documented on an AF Form 
+1035 in Part III, C. in the “Items Requiring Additional Training” section. (T-1) 
+4.2.3.  Ground-Phase evaluation documentation procedures. JTAC-Es will enter the test 
+version and results of the written examination in the “Ground-Phase” section in Part III of the 
+AF Form 1035. (T-1) All missed/reviewed questions will be entered in Part V, “Remarks”, 
+“Ground-Phase” section of the AF Form 1035. (T-1) 
+4.2.4.  The JTAC-E-PM or alternate will retain the scored answer sheets/computer record until 
+the AF Form 1035 is completed and signed by the unit commander. (T-3) If multiple 
+examinations are required to successfully complete the Ground-Phase evaluation, the results 
+of all Ground-Phase evaluations will be documented in the proper sections of the AF Form 
+1035. (T-1) 
+4.3.  MSN Evaluation.  The purpose of the MSN evaluation is to ensure individual JTACs are 
+qualified to perform the tasks associated with planning, preparation, execution, and assessment for 
+conducting CAS missions in a combat environment. 
+4.3.1.  MSN evaluations will be conducted using live-fly or JFS-ESC accredited simulators. 
+(T-1) A list of all currently accredited simulator/virtual environment/live environment systems 
+is maintained by JS J6 DD C5I JFID, Joint Staff J6 Deputy Directorate for Cyber and 
+Command, Control, Communications, and Computers Integration, (JCAS Simulation Lead). 
+4.3.1.1.  Evaluations conducted in a JFS-ESC accredited simulator will attempt to use at 
+least one live pilot flying in support of the scenario. (T-3) 
+4.3.1.2.  At the commander’s discretion, with the approval of the JTAC-E-PM, and in 
+consultation with the unit Simulator Operator/Maintainer, JTAC evaluations may employ 
+Distributed Mission Operations. JTAC evaluations will only employ Distributed Mission 
+Operations capabilities provided they do not detract from the evaluation. (T-1) Note: JTAC 
+evaluations of any type may be conducted using contract CAS provided the aircraft meet 
+the requirements in Table 3.2 in AFMAN 10-3505V1. 
+4.3.2.  JTACs will not receive consecutive JTAC qualification evaluations in a simulator. (T-1) 
+JTACs may receive consecutive JTAC-I and/or JTAC-E evaluations in a simulator. 
+4.3.3.  Any aircraft may be used to accomplish the MSN evaluation with approval from the 
+unit commander so long as they meet eligible criteria as designated in AFMAN 10-3505V1. 
+Commanders assume the risk when using any aircraft during an evaluation that is not typically 
+used in a combat environment for CAS. 
+4.3.4.  The evaluation’s focus will be on the JTAC’s ability to accomplish a given mission and 
+not a validation of all training received. (T-1) Prior to beginning the MSN evaluation execution 
+phase, evaluators will brief the JTAC on: 
+4.3.4.1.  Evaluation objectives, areas to be evaluated, grading criteria, safety, and 
+emergency procedures/JTAC-E takeover; this requirement cannot be waived. 
+4.3.4.2.  The specific roles of role-players and assistants. (T-1). 
+16 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+4.3.4.3.  The mission scenario, preliminary planning information and directives/regulations 
+applicable to the operating area (MOA/range). (T-1) 
+4.3.4.4.  The evaluator will observe and evaluate the JTAC in all areas relevant and 
+applicable to the given mission. (T-1)  
+4.3.5.  JTACs must be authorized to perform JTAC duties IAW AFMAN 10-3505V1. 
+Assistance provided to prevent mission failure will result in an unsatisfactory. (T-1) 
+4.3.6.  The JTAC will be responsible for the actions of any assistant(s) for procedural 
+errors/omissions and safety violations within their control. (T-1) 
+4.3.7.  Evaluation scenarios should implement input scripts such as, but not limited to, 
+operations orders, mission graphics, and an Air Tasking Order with Special Instructions. 
+4.4.  JTAC-I Evaluations.  Following successful completion of all prerequisites listed in 
+AFMAN 10-3505V1, completion of a JTAC-I evaluation is documented on an AF Form 1035. 
+4.4.1.  A JTAC-I evaluation will only evaluate items in Table A2.2 (T-2) Note: Instructor 
+evaluations do not require a Ground-Phase evaluation. 
+4.4.2.  A JTAC-I designation letter signed by the unit commander will be placed in Part II of 
+the individual’s JTAC training and evaluation folder. (T-2) 
+4.4.3.  Recurring JTAC-I evaluations can be conducted in conjunction with a recurring JTAC 
+evaluation and/or recurring JTAC-E evaluation. If a recurring JTAC-I evaluation is conducted 
+in conjunction with a recurring JTAC evaluation and/or recurring JTAC-E evaluation, it must 
+cover all applicable areas of Table A2.1., Table A2.2, and/or Table A2.3. (T-2) JTAC-I 
+recurring evaluations must occur within 18 months of their previous JTAC-I evaluation. (T-1) 
+4.4.4.  Concurrent recurring JTAC and JTAC-I evaluations must cover all areas of Table 
+A2.1., Areas 1-25 and Table A2.2., Area 26 and must be documented on the same AF Form 
+1035 unless the JTAC failed the items in Table A2.2, in which case a separate AF Form 1035 
+must be filled out. (T-1)  
+4.4.5.  A minimum of two JTAC evaluation areas, as defined in Table A2.1, must be instructed 
+in a classroom or field environment. (T-1) The JTAC-I will also conduct instruction of an 
+individual through a Full Mission Profile as described in AFMAN 10-3505V1. (T-1) The areas 
+instructed will be evaluated and annotated on the AF Form 1035. (T-1) 
+4.4.6.  If an instructor qualification is lost, it may be regained through an instructor re-
+qualification (RQ) evaluation. 
+4.4.7.  Following initial certification, the unit commander will award the individual SEI 279 or 
+O9D using DAF Form 2096, Classification/On-The-Job-Training Action, or the appropriate 
+automated system. (T-1) Note: SEI 279 or O9D are additive to the members list of qualified 
+SEIs and do not replace SEIs 914 or O9C. 
+4.5.  JTAC-E Evaluation.  Following successful completion of all prerequisites listed in Chapter 
+9 of this AFMAN, completion of a JTAC-E evaluation will be documented on an AF Form 1035. 
+(T-1). 
+4.5.1.  A JTAC-E evaluation will only evaluate items in Table A2.3 (T-2) Note: These 
+evaluations do not require Ground-Phase evaluation. 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+17 
+4.5.2.  A JTAC-E designation letter signed by the unit commander will be placed in Part II of 
+the individual’s JTAC training and evaluation folder. (T-1) 
+4.5.2.1.  The commander’s designation letter may be comprehensive and include all 
+JTACs/JTAC-Is/JTAC-Es at the unit commander discretion. A letter of Xs is also an 
+accepted format. 
+4.5.2.2.  Unit commanders will ensure that all JTAC-Es listed on the commander’s 
+designation letter (CDL) receive a recurring JTAC-E evaluation within 18 months of their 
+previous JTAC-E evaluation. A recurring JTAC-E evaluation does not fulfil the 
+requirements of a JTAC MSN evaluation or a JTAC-I evaluation. 
+4.5.3.  Observations, analysis, and other substantial actions are directed primarily at the JTAC-
+E conducting the evaluation and will not interfere with or affect the individual being evaluated 
+except for safety issues. 
+4.5.4.  The unit JTAC-E-PM is the only individual authorized to conduct Initial JTAC-E 
+evaluations. (T-3) 
+4.5.5.  Any qualified JTAC-E (regardless of grade or experience level) may give another 
+qualified JTAC-E a recurring JTAC-E evaluation, so long as the evaluation is accomplished 
+IAW this AFMAN. (T-3) 
+4.5.6.  Contract JTAC-Es will not perform evaluations for other contract JTAC-Es regardless 
+of qualification, grade, or experience level. 
+4.5.7.  The recurring JTAC-E evaluation can be conducted in conjunction with a recurring 
+JTAC evaluation and/or a recurring JTAC-I evaluation. Regardless of whether the JTAC-E 
+evaluation is conducted in conjunction with a recurring JTAC evaluation and/or a recurring 
+JTAC-I evaluation, the evaluation must cover all applicable areas of Table A2.1., Table A2.2, 
+and/or Table A2.3 and be documented on a separate AF Form 1035. (T-1) Example: A 
+concurrent recurring JTAC and JTAC-E evaluation would cover all areas of Table A2.1, areas 
+1-25 and Table A2.3, area 27 and then be documented on separate AF Forms 1035. 
+4.5.8.  Following initial certification, the unit commander will award the individual SEI 281 or 
+O9E using DAF Form 2096 or the appropriate automated system. (T-1) Note: SEI 281 or O9E 
+are added to the members list of qualified SEIs and do not replace SEIs 914, 279, O9D, or 
+O9C. 
+4.5.9.  Duties Not Including Controlling (DNIC) JTAC-E. Commanders may authorize a 
+DNIC JTAC-E who is qualified, to conduct JTAC evaluations in the simulator. (T-3) Note: 
+JTAC-E will not evaluate on items that they are not current and qualified. (T-2) 
+4.6.  Evaluation Grading System.  During a JTAC’s evaluation, grades are assigned for each 
+area. JTAC-Es will use the grading criteria in this publication to determine overall and individual 
+area grades. (T-1)  
+4.6.1.  The JTAC-E determines the overall grade based on guidance defined in Table A2.1.  
+4.6.2.  Area Grades. Table A2.1., Areas 1-25 establishes mission essential tasks to be 
+evaluated during the MSN evaluation-phase and the appropriate grading criteria for those 
+tasks: 
+18 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+4.6.2.1.  Qualified (“Q”) is the desired level of performance. The JTAC demonstrated a 
+satisfactory knowledge of all required information, performed JTAC duties within the 
+prescribed tolerances, and accomplished the assigned mission. 
+4.6.2.2.  Qualified-Minus (“Q-”) indicates the JTAC is qualified to perform the assigned 
+area/subarea tasks, but requires debriefing or additional training as determined by the 
+JTAC-E. 
+4.6.2.3.  Unsatisfactory (“U”) indicates the JTAC is unqualified to perform the assigned 
+task area and requires additional training. 
+4.6.2.3.1.  A “U” will be assigned in any area for procedures that failed to achieve 
+mission accomplishment. (T-3)  
+4.6.2.3.2.  A “U” must be assigned if, at any point during the mission, the JTAC or any 
+individual they are directly responsible for compromises safety. (T-1)  
+4.6.3.  Errors of omission occur when a function or operation is not performed. 
+4.6.4.  Errors of commission occur when a function or operation is performed improperly. 
+4.6.5.  The JTAC-E who proctored the evaluation is responsible for filling out the AF Form 
+1035 and grading the evaluation. JTAC-E-PM and JTAC-Es will not change or influence an 
+evaluation rating (area or overall), that was given by another JTAC-E unless a valid 
+administrative error was made. (T-1) 
+4.6.5.1.  On a case-by-case basis, the JTAC-E may confer with the unit commander or 
+designated representative (i.e., JTAC-E-PM) for guidance on evaluation rating (area or 
+overall). 
+4.6.5.2.  The unit commander must review the contested evaluation rating and 
+approve/disapprove a change or direct another evaluation. (T-2) 
+4.7.  Overall JTAC MSN Evaluation Qualification Levels. 
+4.7.1.  Qualification Level 1 (Q-1). The examinee demonstrated desired performance and 
+knowledge of procedures, equipment and directives within tolerances specified in the criteria. 
+The evaluator assigns this qualification level when no discrepancies were noted, but may be 
+awarded when discrepancies are noted if: 
+4.7.1.1.  No U grades were awarded for any graded area/subarea. 
+4.7.1.2.  In the judgement of the evaluator, none of the Q- grades precluded awarding of a 
+Q1. 
+4.7.1.3.  No remedial actions required additional training, only debriefed discrepancies. 
+4.7.2.  Qualification Level 2 (Q-2). The examinee demonstrated the ability to perform duties 
+safely, but there were one or more graded area(s)/subarea(s) where additional training was 
+assigned. The evaluator assigns this qualification level if: 
+4.7.2.1.  Any area is graded a Q- and requires additional training. 
+4.7.2.2.  In the judgement of the evaluator, a Q2 may be given if there is justification based 
+on Q- performance in one or several graded area(s)/subarea(s). 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+19 
+4.7.2.3.  If neither of the conditions in paragraph 4.8.2 are met and an overall grade of Q-
+2 is given, the JTAC-E must provide justification in ‘Section VII – Remarks” of the AF 
+Form 1035 to detail why a grade of Q-2 was given. (T-1) 
+4.7.3.  Qualification Level 3 (Q-3). The examinee demonstrated an unacceptable level of 
+safety, performance, or knowledge and has failed the evaluation. The evaluator assigns this 
+qualification level if: 
+4.7.3.1.  Any area graded U requires a qualification level of Q-3. 
+4.7.3.2.  In the judgment of the evaluator, a Q-3 may be given if there is justification based 
+on Q- performance in one or several non-critical graded area(s)/subarea(s). Example: An 
+individual may earn a score of Q- in enough categories that the evaluator determines they 
+do not possess the appropriate level of knowledge or did not perform adequately enough 
+to earn a passing score. 
+4.8.  Timing and Types of Evaluations.  The interval between evaluations will not exceed 18 
+months. A JTAC evaluation expires on the last day of the 17th month following the month during 
+which the MSN evaluation was successfully completed (e.g., an evaluation completed on 22 Mar 
+2017 expires 31 Aug 2018). 
+4.8.1.  Recurring JTAC evaluations. The JTAC-E-PM, or a designated representative, will 
+schedule recurring JTAC evaluations during the eligibility period. (T-1) 
+4.8.2.  Failure to complete a JTAC evaluation within the required 18-month time period results 
+in loss of qualification and the individual will be placed into an unqualified status. 
+4.8.2.1.  RQ evaluation requirements are detailed in this AFMAN. 
+4.8.2.2.  The individual’s RQ AF Form 1035 will include a comment from the approving 
+official explaining why the recurring evaluation window was exceeded or if it was waived. 
+(T-1) 
+4.8.3.  JTACs maintaining instructor qualification must complete initial and recurring 
+evaluations of their instructional capability using Table A2.2., Area 26. (T-1) Recurring 
+instructor evaluations must be completed within the eligibility period prior to the expiration 
+date of the current JTAC evaluation period. 
+4.8.3.1.  Concurrent JTAC and JTAC-I evaluations will be completed within 10 duty days 
+(training days for ANG) before or after the MSN evaluation phase of a recurring JTAC 
+evaluation but not to exceed the expiration date of the current evaluation period. (T-2) 
+JTAC-I evaluations conducted outside of this window will be documented on a separate 
+AF Form 1035. (T-2) 
+4.8.3.2.  Concurrent evaluations that are not completed on the same date will always 
+document the completion date as that of the MSN evaluation of the JTAC evaluation, even 
+if it is completed in the month preceding that of the JTAC-I evaluation. (T-1) A JTAC-I is 
+not qualified if they are not JTAC qualified. Example: A concurrent JTAC/JTAC-I 
+evaluation is conducted with the JTAC MSN evaluation occurring on 31 March and the 
+JTAC-I occurring on 04 April. The AF Form 1035 date of evaluation will be documented 
+as 31 March. 
+20 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+4.8.3.3.  To initially qualify as a JTAC-I, the member must meet the requirements listed in 
+AFMAN 10-3505V1 and successfully complete an initial instructor evaluation IAW this 
+manual. (T-1) An initial instructor evaluation can occur outside of the JTAC evaluation 
+eligibility period. 
+4.8.3.4.  Recurring evaluation of the member’s ability to instruct will be conducted during 
+subsequent, recurring JTAC evaluation eligibility periods. (T-2) The rating of Table A2.2. 
+Area 26 will not affect the overall grade of the individual’s JTAC evaluation. (T-2) 
+4.8.4.  Spot Evaluations. A spot evaluation is limited in scope and may be accomplished 
+outside of the JTAC’s eligibility period. The spot evaluation is used to ensure correction of 
+identified discrepancies, or to check a JTAC’s proficiency. It may be either a field evaluation 
+and/or Ground-Phase Evaluation. 
+4.8.5.  Unit commanders may initiate spot evaluations. Place commander’s discretion of a spot 
+evaluation within the AF Form 1035. 
+4.8.5.1.  Spot evaluations may evaluate one or more portions of Table A2.1 but will not be 
+used to evaluate everything. Spot evaluations do not reset the eligibility period. 
+4.8.5.2.  The notification period for a spot evaluation is not associated with any specific 
+timeframe, but can be specified at the commander’s discretion and in coordination with the 
+JTAC-E-PM. 
+4.8.6.  No-Notice Evaluations. No-Notice (N/N) evaluations provide the commander a review 
+of daily JTAC performance and an assessment of the unit’s training effectiveness. N/N 
+evaluations may be conducted at any time and are conducted as directed by the unit 
+commander. The unit commander will annotate a statement directing the N/N evaluation on 
+the AF Form 1035. (T-2) 
+4.8.6.1.  An evaluation will be considered a N/N evaluation when the examinee is notified 
+of the evaluation at or after the beginning of normal preparation for the mission. The 
+beginning of normal preparation will be determined by the evaluator, not to exceed 24-
+hours. (T-3) The intent is to preclude advanced preparation for the mission or task. 
+However, the examinee must be notified of the N/N evaluation prior to initiation of the 
+evaluated task. (T-1) Note:  Informing the examinee after the fact is not allowed.   
+4.8.6.2.  A N/N evaluation will update a qualification expiration date. (T-1) 
+4.8.7.  RQ. A RQ evaluation is administered to remedy the loss of qualification due to a Q-3, 
+expiration of a required JTAC evaluation, or loss of qualification due to a commander-directed 
+downgrade. 
+4.8.7.1.  A RQ evaluation is not used for a failed initial evaluation as no qualification was 
+established. 
+4.8.7.2.  A JTAC RQ evaluation due to a Q-3 must be completed within 90 days (training 
+days for ANG) of completing the appropriate commander-directed training. (T-1) 
+4.9.  Failure to Pass the MSN Evaluation.  Evaluators will notify the unit commander, or 
+designated representative, when an individual receives an overall “Q-3” on any evaluation within 
+one week of the failed evaluation. (T-3)  
+AFMAN10-3505V2  7 NOVEMBER 2023 
+21 
+4.9.1.  Following a failure, the JTAC will only be authorized to control while under the 
+supervision of a qualified JTAC-I. (T-1) 
+4.9.1.1.  A separate AF Form 1035 will be completed for each MSN evaluation. (T-1) MSN 
+evaluation mission data from the previous “Q-3” AF Form 1035 will not be annotated on 
+the RQ evaluation’s AF Form 1035. (T-1)  
+4.9.1.2.  The passing JTAC Ground-Phase Evaluation score will be annotated on the RQ 
+Evaluation AF Form 1035. (T-1) 
+4.9.2.  Failure of initial MSN evaluation. Individual will remain in supervised status until 
+successfully evaluated. (T-1)  
+4.9.2.1.  The JTAC-E evaluating the individual’s MSN evaluation determines what 
+additional training is required prior to re-attempting an initial evaluation. 
+4.9.2.2.  Failure of the re-attempt. The re-attempt at the initial evaluation will be conducted 
+no later than 60 calendar days (training days for ANG) after the failure. (T-3) 
+4.9.2.3.  Commanders may grant a 30-calendar day (training days for ANG) extension if 
+necessary. 
+4.9.3.  Failure of recurring MSN evaluation. If a JTAC fails the MSN evaluation portion of a 
+recurring evaluation, all additional training and an RQ Evaluation must be completed no later 
+than 90 days (training days for ANG) after the failure. (T-1) A different JTAC-E should 
+conduct the RQ evaluation. 
+4.9.4.  Failure of RQ evaluation. RQ evaluations may be administered as early as the next 
+calendar day if all assigned additional training has been completed. Successfully passed 
+Ground-Phase evaluations remain valid for RQ of a MSN evaluation as long as it is completed 
+during the original evaluation eligibility period. (T-1) The evaluator conducting the RQ 
+evaluation will annotate previous results of the Ground-Phase on AF Form 1035. (T-1) 
+4.9.4.1.  RQ evaluations outside of the eligibility period require a new Ground-Phase 
+evaluation. 
+4.9.4.2.  If the failed RQ evaluation is the second consecutive failure, refer to AFMAN 10-
+3505V1 for failure to progress procedures. (T-1) 
+4.9.5.  JTAC-Is and JTAC-Es receiving an unsatisfactory grade “U” in any area in Table A2.2. 
+or Table A2.3, will not perform JTAC-I or JTAC-E duties until successfully requalified. (T-1) 
+4.9.6.  JTAC-Is and JTAC-Es receiving two “U” grades in any area of Table A2.2. or Table 
+A2.3 will lose their JTAC-I and or JTAC-E status and unit commanders will remove the 
+individual from these duties in writing. (T-1) 
+4.9.7.  JTAC-Is and JTAC-Es who receive two consecutive “Q-3” grades on a JTAC 
+evaluation/RQ evaluation, will lose JTAC-I and JTAC-E status, and unit commanders will 
+remove the individual from the CDL. (T-1) Note: Items in Table A2.2 and Table A2.3 do not 
+affect JTAC status. 
+4.9.7.1.  Individuals that have been removed from JTAC-I or JTAC-E duties must conduct 
+a commander directed requalification training-training program and satisfactorily complete 
+a RQ JTAC-I evaluation or RQ JTAC-E evaluation to regain their status. (T-2) 
+22 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+4.9.7.1.1.  Once successfully complete with these requirements, unit commanders may 
+add the individuals back to the CDL. 
+4.9.7.1.2.  If the commander decides not to requalify the individual, the appropriate SEI 
+must be removed from their personnel records. (T-1) 
+4.9.8.  Post-Evaluation Procedures. Evaluators will thoroughly debrief the JTAC, the JTAC’s 
+supervisor, and the JTAC’s unit leadership. (T-3) 
+4.10.  Evaluation Remedial Actions.  Remedial actions identify the process for resolving 
+discrepancies and/or assigning additional training. 
+4.10.1.  Debriefed Discrepancy. A debriefed discrepancy is a remedial action accomplished 
+during debrief of the evaluation wherein the JTAC-E provides instruction concerning the 
+discrepancy and determines that the examinee has gained the necessary knowledge or 
+proficiency. 
+4.10.2.  Additional Training. Additional training is any training recommended by the JTAC-E 
+to remedy a discrepancy identified during the evaluation debrief. 
+4.10.2.1.  Additional training may include, but is not limited to, self-study, ground 
+instruction, simulator, live-fly training, or any combination of the aforementioned tasks. 
+4.10.2.2.  Additional training must include demonstration of satisfactory knowledge or 
+proficiency to a JTAC-E or JTAC-I (as stipulated in the Additional Training description) 
+to qualify as completed. (T-1) The JTAC-E will indicate on the AF Form 1035 if the 
+additional training must be accomplished before controlling unsupervised. (T-1) 
+4.10.2.3.  The JTAC-E-PM will document all failures to complete additional training 
+within the specified timeframe with a memorandum for record signed by the commander. 
+The memorandum for record is placed in the individual’s JTAC Training Folder on top of 
+the appropriate evaluation form IAW Attachment A3.1.3.1. (T-1) 
+4.10.2.4.  All additional training will be documented on AF Form 1035 IAW this 
+publication. (T-1) 
+4.10.2.5.  If the JTAC fails to complete any assigned additional training IAW paragraph 
+4.10.2, the Squadron commander will review the situation and determine whether further 
+additional training should be assigned, or administrative actions will be initiated. (T-3) If 
+administrative actions are initiated, the JTAC will be decertified IAW paragraph 4.12 
+with a commander-directed downgrade to Q-3. 
+4.11.  Decertification.  Any JTAC may be subject to Decertification for Cause for substandard 
+performance in their JTAC responsibilities or Discretionary Decertification that is unrelated to the 
+performance of their JTAC duties. 
+4.11.1.  Decertification for Cause (with prejudice) is used for observed substandard 
+performance as a JTAC. 
+4.11.1.1.  This action is normally associated with a Commander-Directed Downgrade, but 
+also applies to Commander-Directed Decertification of JTAC-Es for substandard 
+performance. 4.11.1.2. Decertification is documented on an MFR signed by the unit 
+commander. 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+23 
+4.11.2.  Discretionary Decertification (without prejudice) is an administrative action that is not 
+based upon performance as a JTAC. Discretionary Decertification is warranted when Uniform 
+Code of Military Justice (UCMJ) action is initiated, or any condition applies that prohibits 
+personnel from performing JTAC duties IAW AFMAN 10-3505V1. The individual JTAC’s 
+commander has the discretion to decertify or not. 
+4.12.  Commander-Directed Downgrade.  Any commander (G-series orders) in a JTAC’s 
+administrative chain of command may direct a Commander-Directed Downgrade. 
+4.12.1.  A Commander-Directed Downgrade may be a downgrade (Q-/U) in a specific 
+area/sub-area without disqualifying an individual. 
+4.12.2.  A Commander-Directed Downgrade may direct a downgrade that either removes a 
+qualification (e.g., JTAC-I or JTAC-E) or completely disqualifies an individual. 
+4.12.3.  Downgrades may be directed without administering an evaluation using the following 
+guidance: 
+4.12.3.1.  Incidents related to JTAC safety that endanger personnel or equipment do not 
+have to be directly observed by a JTAC-E but may be recommended by an examiner from 
+any Mission Design Series (MDS)/aircrew specialty. 
+4.12.3.2.  For incidents not related to JTAC safety do not use downgrades as a substitution 
+for, or in lieu of, administrative, or judicial actions. Note: Consult with the supporting Staff 
+Judge Advocate office for legal advice in these cases. Use in cases where such incidences 
+directly affect the commander’s confidence in the JTAC’s ability to safely conduct CAS 
+operations (e.g., lapse in judgment significant enough to cast doubt on the JTAC’s 
+decision-making abilities within the MDS). 
+4.12.4.  Any JTAC that has a qualification removed or was disqualified as a JTAC, JTAC-I, 
+JTAC-E, or any combination thereof, will cease performing the disqualified duties effective 
+from the date his or her commander initiated the downgrade. (T-1) 
+4.12.5.  Commander-Directed Downgrade Documentation. Procedures for how to annotate a 
+Commander-Directed Downgrade on AF Form 1035 can be found in AFMAN 10-3500V2, Air 
+Force Special Warfare Standardization and Evaluation, Attachment 3. For procedures on 
+documenting USSOCOM Form 43, refer to SOCOMM 350-5, SOF Conducting JTAC 
+Training. 
+24 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+Chapter 5 
+MASTER QUESTION FILE 
+5.1.  Master Question File (MQF).  The MQF is a question bank used to construct closed book 
+exams. It consists of pertinent questions designed to assess the knowledge of a JTAC regarding 
+critical doctrine, operations, and safety. Air Combat Command Personnel Recovery Division 
+(ACC/A3J) is responsible for ensuring that an applicable MQF database and questions are 
+maintained to support this publication. The MQF database and related source materials will be 
+accessible to all JTACs. (T-1) NOTE: The MQF is the JTAC Ground-Phase evaluation. 
+5.1.1.  A minimum of 200 questions, covering every category on the JMTL will be maintained 
+to ensure that at least four Ground-Phase evaluations can be built by the applicable Group 
+JTAC-E-PMs (or equivalent) with no questions repeated across the four tests. (T-1) 
+5.1.2.  Updates to the MQF. AF/A3S will conduct an annual review of the MQF, to be 
+completed by 30 September, with assistance and inputs from all MQF users. (T-1) This does 
+not relieve subordinate units from submitting required changes, as applicable, between review 
+periods. 
+5.1.2.1.  The review will focus on correcting erroneous questions, deleting outdated or 
+invalid questions, and/or adding new questions to the database as a result to changes in 
+applicable TTPs. (T-1) 
+5.1.2.2.  MAJCOMs will forward their suggested changes to AF/A3S. (T-1) AF/A3S will 
+coordinate and adjudicate all MAJCOM inputs, and then direct ACC/A3J to publish an 
+updated MQF within 30 days of the end of the review process. (T-1) 
+5.2.  Examination Requirements.  Each exam will consist of 50 multiple-choice questions. (T-1) 
+5.2.1.  Security. Only JTAC-Es and individuals designated by the commander will administer 
+examinations. (T-3) The JTAC-E-PM will maintain strict control of all examinations and 
+answer keys by securing them in a locked container and/or password protected digital medium. 
+(T-3) 
+5.2.2.  Construction of Questions. Questions must measure the correct information at the 
+desired level of knowledge. (T-1) 
+5.2.2.1.  Each question included in the MQF must include the correct answer and include 
+the reference, paragraph, and page number for the subject matter. (T-1) 
+5.2.2.2.  Questions will be multiple choice (four choices desired with only one most correct 
+answer). (T-1) 
+5.2.2.3.  Questions that have numerical answers will have the answers arranged in order 
+from largest to smallest or vice versa. (T-1) 
+5.2.2.4.  In general, questions should avoid negative statements. However, if the word 
+“not” appears in the question, underline it or type it in all capital letters for attention. (T-1) 
+ 
+ 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+25 
+5.3.  MQF Classification Guidelines.  Although the desire is to maintain an unclassified MQF 
+database, the overall classification of the MQF databases is determined by the highest 
+classification of its contents. Whether they contain classified questions or not, Stan/Eval personnel 
+will handle the examinations as controlled items. (T-1) 
+26 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+Chapter 6 
+JTAC EVALUATION DOCUMENTATION 
+6.1.  Purpose of JTAC Evaluation Documentation.  To properly document accomplishment of 
+JTAC certification and qualification requirements, units will build and maintain a JTAC training 
+and evaluation folder for each JTAC IAW AFMAN 10-3505V1 and the JTAC MOA. (T-1) This 
+folder will hold all records dealing with an individual’s JTAC training and evaluation history IAW 
+AFMAN 10-3505V1 and the JTAC MOA. (T-1) JTAC training and evaluation folders may be 
+maintained in paper or digital format. If in a digital format, the JTAC training and evaluation folder 
+will be maintained at all times in a MAJCOM-approved system of record. (T-1) 
+6.2.  Description of Folders.  See AFMAN 10-3505V1 for folder description of parts I-IV and 
+VI. 
+6.2.1.  Part V. DOCUMENTATION OF EVALUATIONS. This part, sub-divided into three 
+sections, contains documentation of all evaluations conducted since initial qualification. The 
+JTAC-E-PM will provide a memorandum for record for all missing evaluation records. (T-1) 
+6.2.1.1.  Unit Stan/Eval sections will ensure that an individual’s AF Form 942 and 
+documentation of all evaluations conducted since initial certification are placed in Part V 
+of the JTAC’s training and evaluation folder. (T-1) 
+6.2.1.2.  Section 1. AF Form 942, Record of Evaluation. The AF Form 942 will be used as 
+a record of evaluations and annual reviews throughout a JTAC’s career, with the most 
+current on top and the minor discrepancy logs beneath the AF Form 942. See Attachment 
+3 for properly formatting AF Form 942. (T-1) 
+6.2.1.2.1.  Major Discrepancies Disposition. Major discrepancies are those that affect 
+the qualification of the affected member. They will be documented on a permanent 
+MFR filed in evaluation section immediately above the affected AF Form 1035 (T-1). 
+An MFR created to document late evaluations, OG/CC waivers, etc. is removed from 
+the evaluation section once the information is incorporated onto the completed, affected 
+AF Form 1035 under Remarks. 
+6.2.1.2.2.  Minor Discrepancies Disposition. Minor discrepancies are those that do not 
+affect the qualification of the affected member and are corrected in accordance with 
+AFMAN 10-3500V2. Typos, formatting and misspellings that do not affect the overall 
+clarity of the document are not considered minor discrepancies. 
+6.2.1.3.  Section 2. AF Form 1035/USSOCOM Form 43. Place the most current form on 
+top. (T-1) Any memorandum for record that pertains to a specific assessment/evaluation 
+will be placed directly on top of that AF Form 1035/USSOCOM Form 43. (T-1) 
+Assessment or evaluation discrepancies (those that affect JTAC certification/qualification) 
+will be corrected and documented with a Memorandum for Record. (T-1) Instructions for 
+filling out the AF Form 1035 can be found in AFMAN 10-3500V2. Instructions for filling 
+out USSOCOM Form 43 can be found in USSOCOM Manual 350-5. 
+6.2.1.4.  Section 3. Memorandums for Record not related to a specific AF Form 
+1035/USSOCOM Form 43. File the documents in chronological order, with the most recent 
+on top. (T-1) 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+27 
+6.2.2.  Stan/Eval Records Management. Units will build and maintain a JTAC training and 
+evaluation folder for each assigned/attached JTAC, IAW AFMAN 10-3505V1. (T-1) 
+6.2.3.  When a JTAC deploys, a current copy of their most recent JTAC evaluation and DAF 
+Form 1098, Special Task Certification and Recurring Training (or USSOCOM equivalent), 
+will be provided to the deployed unit commander and commanding officers as a reference to 
+verify the individual’s JTAC certification and qualification status. (T-1) The copy may be hard 
+copy or provided in electronic format. 
+28 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+Chapter 7 
+STANDARDIZATION/EVALUATION BOARD AND TREND ANALYSIS PROGRAM 
+7.1.  Standardization/Evaluation Board (SEB).  The unit commander, or their designated 
+representative, will chair a semi-annual SEB. (T-1) At a minimum, the following members’ 
+attendance is required: Director of Operations, Operations Superintendent, JTAC-E-PM, CW&T, 
+and JTAC-PM. (T-3) Attachment 4 identifies the format for the SEB minutes. 
+7.1.1.  The JTAC-E-PM (or commander-designated representative) will coordinate the 
+schedule, agenda, and attendees for the semi-annual SEB. (T-3) The SEB minutes will be sent 
+to the next HHQ no later than 30 days after the conclusion of the SEB. (T-1) 
+7.1.2.  Groups will consolidate unit SEB minutes to determine any Group-wide trends. (T-1) 
+7.1.3.  HHQ should review Group minutes and provide data to the Group’s parent MAJCOM. 
+(T-1) 
+7.2.  Trend Analysis Program.  Stan/Eval organizations at the unit level will establish a Trends 
+Analysis Program. Unit commanders are the final authority for establishing what constitutes a unit 
+trend. (T-1) 
+7.2.1.  The unit will establish specific trend analysis threshold percentages and procedures. The 
+Trend Analysis Program will include an objective analysis of all JTAC evaluations, written 
+examinations, and any deficiencies/items of interest observed during exercises and 
+contingencies such as Green Flag. (T-1) Unit JTAC-E-PMs will report any negative trend data, 
+recommend corrective actions, assign an OPR/office of collateral responsibility (OCR), and 
+report trend status to the SEB. (T-1) 
+7.2.2.  The trend program is the commander’s program, and the commander will determine 
+which trends to track, evaluate, correct, and close, and for how long. (T-2) 
+7.2.3.  Trend data will be included in the SEB minutes and follow-up actions will be addressed 
+at the subsequent SEBs until the discrepancies are corrected/closed. The JTAC-E-PM must 
+maintain the trend analysis data collected from the date of the last unit inspection until another 
+unit inspection is conducted or for a period of 18 months. (T-2) 
+7.2.3.1.  For written examination trends, consider the validity of the question, the structure 
+of the distractor answers, and the need for and/or appropriateness of increased emphasis in 
+the question’s subject area. (T-2) 
+7.2.3.2.  For MSN evaluation trends, calculate the percentage of “Q”, “Q-” and “U” grades 
+against the total number of evaluations given in the sub-area. (T-1) Trends are not always 
+identified by a threshold percentage but may be determined by the commander’s 
+assessment as a potential area of weakness. 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+29 
+Chapter 8 
+CONTROLLER READ FILE (CRF) AND SPECIAL INTEREST ITEMS (SIIS) 
+8.1.  CRF Overview.  CRF is comprised of four mandatory volumes and one optional volume and 
+is maintained at each unit employing JTACs. The CRF should be electronic, hard copy, or a 
+combination of both. 
+8.1.1.  Unit Stan/Eval functions gather and compile relevant data to generate draft CRFs for 
+unit Commanders’ approval prior to publishing. 
+8.1.1.1.  Requests to publish CRFs are routed to the unit Stan/Eval office for coordination 
+and distribution. 
+8.1.1.2.  CRFs will be topic limited to those items that have a direct bearing on immediate 
+JTAC requirements. (T-1) 
+8.1.1.3.  Supporting or accompanying documentation will be included as attachments and 
+identified as “required reading” or “for reference” when publishing CRFs. (T-1) 
+8.1.2.  CRF Publications Library. Units must maintain a CRF library. (T-1) The purpose of the 
+unit CRF is to add additions to the baseline CRFs maintained by ACC/A3J and AFSOC/A3OG. 
+8.2.  Volume I–Table of Contents.  Volume I is a table of contents that lists each volume and the 
+volume’s respective contents and current read file items. It consists of a minimum of two parts to 
+include an Index (Part A) and CRF (Parts B). MAJCOMs/NAFs/Groups may add additional 
+components to Volume I as appropriate. (T-1) 
+8.2.1.  Part A is a table of contents listing all material contained in CRF Volumes I through IV. 
+(T-1) Units should list Volume V if it is used. (T-1) 
+8.2.2.  Part B is the CRF messages. Messages contain information temporary in nature, directly 
+pertinent to the safe conduct of JTAC duties, and must be read before controlling live aircraft. 
+(T-1) 
+8.2.2.1.  Part B will contain current information and will be annotated with an assigned 
+control number, title, date distributed, OPR, and suspense date for removal/date rescinded, 
+and disposition (T-1) At a minimum, the control number and suspense date for removal 
+will be annotated on each CRF item. (T-1) File in reverse numerical sequence with the 
+latest item on top. (T-1) Classified entries will be cross-referenced to the appropriate 
+location. (T-1) 
+8.2.2.2.  Rescinded items will be maintained in a file, separate from the CRF library, for 6 
+months IAW the Air Force Records Disposition Schedule using the Record Information 
+https://www.my.af.mil/afrims/afrims/afrims/rims.cfm and referenced on the index until 
+the end of the following quarter. (T-1)  
+8.2.3.  Part C is the Current Read File that contains information that is temporary in nature but 
+not related to the safe conduct of performance of JTAC duties. SIIs will be maintained in this 
+section. (T-1) 
+8.2.4.  Refer to Attachment 6 for a sample message format for use when issuing a CRF item 
+from a MAJCOM/NAF Stan/Eval organization. (T-1) 
+30 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+8.3.  Volume II.  Volume II contains mandatory Air Force, Army, and Joint Directives. These 
+publications are listed in the glossary. Additional publications not listed in the glossary can be 
+added in this section. These publications will be maintained by ACC/A3J and AFSOC/A3OJ in a 
+HAF-approved digital tracking system. (T-1) 
+8.4.  Volume III. MAJCOM, NAF, Wing, Group & Local Directives/Manuals.  Volume III 
+contains various MAJCOM and below publications/locally approved and certified directives. At a 
+minimum, Volume III should include: 
+8.4.1.  Applicable Local Range Regulations. 
+8.4.2.  Local OIs and supplements covering subject areas such as operations, training, and 
+evaluations. 
+8.5.  Volume IV – Checklists, Technical Orders & Manuals.  Volume IV contains unit level 
+approved checklists, technical orders & publications and should, at a minimum, include: local 
+JTAC checklists if unit generated (e.g., pre-mission live-fly checklist, simulator mission checklist). 
+8.6.  Volume V – Safety Information.  Volume V is optional but, if maintained, will contain 
+appropriate safety information (e.g., Range Mishap Reports, unclassified After-Action Reports 
+(AARs). 
+8.7.  Go/No-Go Procedures.  Units will establish a control system that ensures JTACs are current 
+and qualified for the anticipated event. Units will provide guidance on this system in the unit 
+supplement. (T-3) At a minimum, the Go/No Go system will monitor: 
+8.7.1.  AF Form 1035 qualification. (T-2) 
+8.7.2.  Restricting currency items required IAW AFMAN 10-3505V1. (T-2) 
+8.7.3.  Any restrictions listed on operators’ current DD 2992, Medical Recommendation for 
+Flying or Special Operational Duty. (T-2) 
+8.7.4.  Currency on all Information Files (Volume 1, Part B) messages. (T-2) 
+8.8.  Stan/Eval SII.  Units may establish JTAC Stan/Eval SIIs to focus command attention upon 
+JTAC operations related areas. 
+8.8.1.  The message that announces a new Stan/Eval SII messages will include an expiration 
+date, not to exceed one year, and identify all affected units. (T-1) JTAC Stan/Eval SIIs will not 
+be established for a period longer than one year; at that time, they will automatically expire or 
+must be formally extended. (T-1) 
+8.8.2.  When an item is designated for review and evaluation as a JTAC Stan/Eval SII, the 
+JTAC Stan/Eval OPR will assign a SII number, based upon the calendar year, and numbered 
+consecutively (e.g., ACC/A3J, SII 17-01, Pacific Air Forces, Operations Training and 
+Readiness Division (PACAF/A3T) SII 17-01, or United States Air Forces in Europe (USAFE)-
+Air Forces in Africa Operations Director of Staff (AFAFRICA/A3C) SII 17-01). (T-1) 
+8.8.3.  The appropriate HHQ MAJCOM will be notified by a subordinate unit whenever a unit 
+establishes a SII that affects the command’s JTAC operations and/or the JTAC Stan/Eval 
+program. (T-1) 
+8.8.4.  All current JTAC SIIs will be briefed/reviewed prior to all local CAS control events and 
+at the start of all TDY CAS trips for the duration of the SII. (T-1) 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+31 
+Chapter 9 
+JTAC-E-PM AND JTAC-E EVALUATION CRITERIA 
+9.1.  JTAC-E-PM.  Commanders will appoint JTAC-E-PMs on the CDL. (T-1) Criteria for 
+selection includes: 
+9.1.1.  Must be at least a TSgt and a 1Z3X1/1Z2X1 if enlisted. (T-3) Must be a Captain and a 
+19ZXB/19ZXA if commissioned. (T-3) 
+9.1.2.  Must have 1 year experience as a qualified JTAC-E. (T-1) 
+9.1.3.  Must maintain JTAC-E qualification. (T-1) 
+9.2.  JTAC-E.  Commanders will appoint JTAC-Es on the CDL. (T-1) Criteria for selection 
+includes: 
+9.2.1.  Must be a qualified JTAC and JTAC–I IAW AFMAN 10-3505V1 and the JTAC MOA. 
+(T-1) 
+9.2.2.  Must successfully complete a JTAC-E upgrade training program IAW paragraph 4.5 
+of this AFMAN. (T-1) They should demonstrate thorough knowledge of the JTAC Stan/Eval 
+program, flight/ground safety standards, and governing supplements/instructions prior to 
+JTAC-E qualification. 
+9.2.3.  Must successfully complete an initial JTAC-E evaluation. (T-1) 
+9.2.4.  Must maintain JTAC-E qualification. (T-1) 
+9.3.  Number of Unit-Level JTAC-Es.  The commander and JTAC-E-PM will determine the 
+number of JTAC-Es needed at their unit. (T-1) One JTAC-E should be designated for each Group 
+and Squadron to assist the JTAC-E-PM in the conduct and management of the Stan/Eval program. 
+ 
+JAMES C. SLIFE, Lt Gen, USAF 
+Deputy Chief of Staff, Operations 
+32 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+DAFPD 10-35, Air Force Special Warfare, 5 January 2021 
+AFPD 33-3, Information Management, 8 September 2011 
+DAFI 90-302, The Inspection System of the Department of the Air Force, 15 March 2023 
+AFI 33-322, Records Management and Information Governance Program, 23 March 2020 
+AFI 90-802, Risk Management, 1 April 2019 
+DAFMAN 90-161, Publishing Processes and Procedures, 15 April 2022 
+AFMAN 10-3505V1, Joint Terminal Attack Controller (JTAC) Training Program, 15 Sept 2023 
+AFMAN 11-214, Air Operations Rules and Procedures, 29 November 2022 
+AFTTP 3-1. JTAC, Joint Terminal Attack Controller (classified), 17 March 2021 
+DoD Dictionary, DOD Dictionary of Military and Associated Terms, January 2021 
+AIR FORCE GLOSSARY, 1 March 2021 
+Joint Publication 3-09, Joint Fire Support, 10 April 2019 
+Joint Publication 3-09.3, Close Air Support, 10 June 2019 
+Joint Close Air Support Action Plan Memorandum of Agreement for Joint Terminal Attack 
+Controller (Ground) 2004-01, 4 March 2021 
+JS J6 DD C5I JFID, Joint Staff J6 Deputy Directorate for Cyber and Command, Control, 
+Communications, and Computers Integration 
+NATO Allied Tactical Publication 3.3.2.2., Joint Terminal Attack Controller Program, Edition B 
+Version 1, January 2018 
+USSOCOM Manual 350-5, SOF Conducting JTAC Training, 13 November 2018 
+Prescribed Forms 
+AF Form 1036, JTAC Initial Certification Training 
+Adopted Forms 
+DAF Form 1098, Special Task Certification and Recurring Training 
+DAF Form 2096, Classification/On-The-Job-Training Action 
+DAF Form 847, Recommendation for Change of Publication 
+AF Form 942, Record of Evaluation 
+AF Form 1035, AFSPECWAR Evaluation 
+USSOCOM Form 43, SOF JTAC CERTIFICATION OF EVALUATION 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+33 
+Abbreviations and Acronyms 
+AJACTS—Automated JTAC Academic Currency Tracking System 
+ACC—Air Combat Command 
+AFI—Air Force Instruction 
+AFMAN—Air Force Manual 
+AFPD—Air Force Policy Directive 
+AFSOC—Air Force Special Operations Command 
+AFTTP—Air Force Tactics, Techniques and Procedures 
+ASOG—Air Support Operations Group 
+CAS—Close Air Support 
+CDL—Commanders Designation Letter  
+CRF—Controller Read File 
+DNIC—Duties Not Including Controlling 
+DOC—Designed Operational Capability 
+DOD—Department of Defense 
+FAC—Forward Air Controller 
+GFMAP—Global Force Management Allocation Plan 
+HAF—Headquarters Air Force 
+HHQ—Higher Headquarters 
+IAW—In Accordance With 
+ICC—Initial Certification Course 
+ICT—Initial Certification Training 
+JFS ESC—Joint Fire Support Executive Steering Committee 
+JMTL—Joint Mission Task List 
+JP—Joint Publication 
+JTAC—Joint Terminal Attack Controller 
+JTAC-ICT—Joint Terminal Attack Controller Initial Certification Training 
+JTAC MQT—Joint Terminal Attack Controller Mission Qualification Training 
+JTAC-PM—Joint Terminal Attack Controller-Program Manager 
+JTAC-E—Joint Terminal Attack Controller-Evaluator 
+JTAC-E-PM—Joint Terminal Attack Controller-Evaluator-Program Manager 
+JTAC-I—Joint Terminal Attack Controller—Instructor 
+34 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+MAJCOM—Major Command 
+MDS—Mission Design Series 
+MOA—Memorandum of Agreement 
+MQF—Master Question File 
+MSN—Mission 
+NATO—North Atlantic Treaty Organization 
+N/N—No-Notice 
+NAF—Numbered Air Forces 
+NGB—National Guard Bureau 
+OCR—Office of Collateral Responsibility 
+OI—Operating Instruction 
+OPR—Office of Primary Responsibility 
+PCA—Permanent Change of Assignment 
+PCS—Permanent Change of Station 
+RM—Risk Management 
+RQ—Re-qualification 
+S-2—Battalion or Brigade Intelligence Staff Officer 
+S-3—Battalion or Brigade Operations Staff Officer 
+SEB—Standardization/Evaluation Board 
+SEI—Special Experience Identifier 
+STAN/EVAL—Standardization/Evaluation 
+TDY—Temporary Duty 
+TTP—Tactics, Techniques, and Procedures 
+UCMJ—Uniform Code of Military Justice 
+USAF—United States Air Force 
+USSOCOM—United States Special Operations Command 
+Office Symbols 
+AF/A3—Air Force Operations 
+AF/A3S—Air Force Special Warfare Directorate 
+ACC/A3J—Air Combat Command Personnel Recovery Division 
+USAFE AFAFRICA/A3C—United States Air Forces in Europe—Air Forces in Africa, 
+Operations Director of Staff 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+35 
+AFSOC/A3OJ—Air Force Special Operations Command, Operations Joint Exercise Planner 
+NGB/A3JB—National Guard Bureau Personnel Recovery and Joint Integration Division 
+PACAF/A3T—Pacific Air Force Operations and Training Division 
+Terms 
+Approval Authority—Senior leader responsible for contributing to and implementing policies 
+and guidance/procedures pertaining to his/her functional area(s) (e.g., heads of functional two-
+letter offices). 
+Additional Training—Any training required to remedy deficiencies identified during an 
+evaluation that must be completed by a due date. This training may include self-study, ground 
+instruction, or JTAC missions. Additional training must include demonstration of satisfactory 
+knowledge or proficiency to a JTAC-I to qualify as completed. Document completion on AF Form 
+1035. 
+Certified (JTAC)—An individual who satisfactorily completes the appropriate Service, United 
+States Special Operation Command, or Partner Nation academics and evaluation IAW AFMAN 
+10-3505V2 may be granted JTAC certification. Note: Operators are awarded SEI 914 and Officers 
+are awarded SEI O9C upon initial JTAC certification. Once certified and awarded the applicable 
+SEI, a JTAC remains certified permanently unless the certification is lost for cause. 
+Close Air Support (CAS)—Air action by fixed-and rotary-wing aircraft against hostile targets 
+that are in close proximity to friendly forces and requires detailed integration of each air mission 
+with the fire and movement of those forces. (JP 3-09.3). 
+Control—Consists of at least one simulated, dry or live aircraft (fixed/rotary wing) attacking a 
+surface target. The control should follow the CAS execution template IAW JP 3-09.3 and NATO 
+ATP 3.3.2.2. An actual weapons release is not required. No more than two controls (lead aircraft 
+and wingman) can be counted per CAS briefing per target. 
+Debriefed—Remedial action taken by an evaluator to correct a discrepancy noted during a JTAC 
+evaluation. This action is accomplished during debrief of the evaluation wherein the evaluator 
+provides briefing/instruction concerning the discrepancy and determines that the JTAC has gained 
+the necessary knowledge or proficiency to remedy said discrepancy. The discrepancy area/sub-
+area description is annotated with “Debriefed” in the “Remarks” section of the AF Form 1035. 
+Dry Terminal Attack Control—Dry terminal attack control is control of aircraft where no air-
+to-ground munitions (live, inert, or training ordnance) are released from the aircraft. 
+Eligibility Period—The six-month period prior to the expiration date of a JTAC certification 
+during which all Ground-Phase and MSN evaluation requirements for the recurring qualification 
+evaluation must be completed. 
+Evaluation—This includes the Ground-Phase and MSN evaluation used to determine 
+qualification as a JTAC as prescribed by governing directives. 
+Forward Air Controller—A specifically trained and qualified aviation officer who exercises 
+control from the air of aircraft engaged in close air support of ground troops. The FAC(A) is 
+normally an airborne extension of the Tactical Air Control Party (JP 
+3—09.3). 
+36 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+Global Force Management Allocation Plan (GFMAP)—Comprised of four annexes that 
+contain decisions by Secretary of Defense to allocate forces and is published by the Chairman of 
+the Joint Chiefs of Staff. Directs the Joint force providers to publish an annexed schedule that 
+serves as the deployment order directing force providers to deploy forces at the specified dates. 
+Also allows force providers some leeway in determining which unit will deploy and on the ordered 
+latest arrival dates that the force provider must deploy to account for realities, such as time-phased 
+force and deployment data refinement, based on transportation analysis or minor operational 
+adjustments by the combatant commander (CCDR), and based on operational necessities. 
+Joint Terminal Attack Controller (JTAC)—A qualified (certified) Service member who, from 
+a forward position, directs the action of combat aircraft engaged in close air support and other 
+offensive air operations (JP 3-09.3). 
+Joint Terminal Attack Controller-Evaluator (JTAC-E)—The JTAC-E is a qualified JTAC who 
+has completed an Initial JTAC-E Evaluation successfully and is designated to perform evaluation 
+duties as specified by this manual. JTAC-Es must be qualified in the position they are evaluating. 
+JTAC-Es are trained and certified to administer JTAC evaluations at the direction of the JTAC-E-
+PM. 
+Joint Terminal Attack Controller-Instructor (JTAC-I)—A qualified individual recommended 
+by the unit Chief of Weapons and Tactics and designated by the unit commander who provides 
+training to unit JTACs. Responsible for implementing JTAC training per AFI 10-35-TACPV1 and 
+developed by the unit’s Chief, Weapons and Tactics. 
+JTAC Initial Certification Training (JTAC-ICT)—A formal training process consisting of an 
+accredited JTAC Schoolhouse Course designed to initially certify a JTAC in terminal control 
+duties without regards to the unit’s operational mission. 
+JTAC Mission Qualification Training (JTAC MQT)—Training required to achieve a basic 
+level of competence in JTAC requirements and in a unit’s primary tasked missions. 
+JTAC-E Evaluation—An evaluation administered by the JTAC-E-PM, or a higher headquarters 
+JTAC-E-PM or JTAC-E, to determine a unit JTAC-E’s ability to perform their duties. 
+Documentation on the qualification of a JTAC-E is accomplished using AF Form 942 and AF 
+Form 1035. Upon successful completion of the JTAC-E Evaluation, the commander appoints a 
+JTAC-E by a formal letter of appointment. 
+Live Terminal Attack Control—Live terminal attack control is control of aircraft where air-to-
+ground munitions (live, inert, or training ordnance) are released from the aircraft. 
+Major Discrepancy—A discrepancy with an AF Form 1035 that changes the qualification level 
+assigned by the AF Form 1035. 
+Master Question File (MQF)—A headquarters-designated, OPR (i.e., MAJCOM) developed 
+database of Stan/Eval program related multiple choice questions derived from mission area 
+publications. Stan/Eval functions use the MQF in constructing examinations that this manual 
+requires. All JTACs have access to the MQF. 
+Minor Discrepancy—A discrepancy on an AF Form 1035 that is erroneous but does not affect 
+the qualification level assigned on the AF Form 1035. 
+ 
+ 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+37 
+Mission Evaluation—A field evaluation involving all elements for requesting coordinating and 
+controlling airborne weapon systems employed during terminal attacks (i.e., CAS mission). These 
+JTAC evaluations allow commanders to assess personnel, who in the performance of their duties, 
+exercise judgment or execute decisions to prevent putting themselves and others at great hazard, 
+i.e., clearance to release ordnance. Term replaces what was previously known as the Control Phase. 
+No-Notice Evaluation—Give this evaluation at such time that preparation, beyond that which is 
+normally accomplished for the mission, is not possible. These evaluations may be a complete 
+qualification evaluation, a written examination only, or an evaluation covering only selected areas. 
+Precision Strike—The full kinetic and non-kinetic potential of ground, air, space, and cyber 
+power to successfully find, fix, and bring effects against an objective or capability. 
+Qualification Training—Training required to maintain duty position qualification and 
+proficiency. 
+Qualified (JTAC)—A certified JTAC who completes the established minimum recurring training 
+IAW AFMAN 10-3505V1, Table A5.1 and evaluation requirements. 
+Re-examination—This is the re-accomplishment of a required written examination following a 
+failure. 
+Re-qualification (RQ) Evaluation—An evaluation administered to regain JTAC qualification 
+after a loss of qualification due to expiration of a required periodic evaluation or a failed JTAC 
+evaluation. 
+Scenario—A document or set of documents that describes the tactics employed while simulating 
+the unit’s mission in support of the GFMAP and DOC statement. 
+Simulated Terminal Attack Control—Simulated terminal attack control is control of virtual 
+aircraft in an electronically generated environment. 
+Special Interest Item—This is an operational subject area of concern designated by the higher 
+headquarters commander and staff for evaluation and used to focus units on specific areas of 
+concern. 
+Spot Evaluation—An additional commander’s evaluation tool. Commanders direct this 
+qualification evaluation outside the eligibility period to ensure correction of identified 
+discrepancies or to check an individual's proficiency. A spot evaluation is normally limited in 
+scope. It may be either a field evaluation and/or a written examination. These evaluations may be 
+either no-notice or with prior coordination. 
+Supervised Status—The status of a JTAC who may only control under the supervision of a 
+qualified JTAC. 
+Task Evaluation—A task evaluation is the completion of a task under the supervision of a trainer 
+to certify the member is capable of performing the task to a Go/No-Go standard. 
+Terminal Attack Control—A control consists of at least one aircraft attacking a surface target. 
+The control begins with a CAS briefing from a JTAC and ends with either an actual/simulated 
+weapons release or an abort on a final attack run. No more than two controls may be counted per 
+CAS briefing per target. 
+38 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+Trend Analysis Program—Formal analysis program established to identify areas requiring 
+attention, monitoring, or correction. 
+Unit—Any military element whose structure is prescribed by competent authority (JP 3-33). For 
+the Air Force, a unit is defined as a group, squadron or detachment. It also refers to any operations 
+section that is required to establish its own JTAC Stan/Eval program. 
+Unqualified (JTAC)—Individuals are placed in “unqualified” status after failing to complete 
+training or qualification requirements within the allotted training cycle or has failed to meet 
+evaluation requirements outlined in this publication. “Unqualified” is a status for when a JTAC is 
+not permitted to control aircraft unsupervised. 
+Note—Even when an individual is placed in “Unqualified” status, the JTAC remains a “certified” 
+JTAC. 
+Written Examinations—Written examinations required for satisfactory completion of the 
+Ground-Phase evaluation. Examination will be drawn from the MAJCOM Master Question File 
+(MQF). MAJCOM supplements may specify additional written examinations, such as rules of 
+engagement, etc. 
+ 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+39 
+Attachment 2 
+JTAC EVALUATION AREAS AND CRITERIA 
+A2.1.  JTAC Evaluation Areas and Criteria.  Table A2.1., Table A2.2, and Table A2.3 list 
+every mission evaluation area and the criteria for the scoring within each. For a JTAC evaluation, 
+Areas 1-25 are required and must be covered at some point throughout the evaluation, whether 
+during the Ground-Phase or during the MSN evaluation. (T-1) For JTAC-I evaluations, Area 26 
+must be covered in its entirety. (T-1) For JTAC-E evaluations, Area 27 must be covered in its 
+entirety. (T-1). 
+Table A2.1.  JTAC Evaluation Areas and Grading Criteria. 
+ 
+Q 
+Q- 
+U 
+AREA 1. 
+Mission Planning. 
+Checked 
+all 
+factors 
+applicable to mission 
+(i.e., 
+ATO, 
+weather, 
+timing, frequencies, map 
+datum, range procedures, 
+call signs, airspace and 
+special requirements). 
+Aware of alternatives if 
+mission cannot be 
+completed as planned. 
+Minor 
+errors 
+of 
+omission/commission 
+that did not detract from 
+mission effectiveness. 
+Need for study in some 
+areas is indicated. 
+Major error of 
+omission/commission 
+precluded mission 
+accomplishment or 
+unnecessarily 
+endangered personnel or 
+equipment. 
+AREA 2. 
+Equipment 
+Preparation. 
+All equipment needed 
+for mission 
+accomplishment 
+properly prepared and 
+inspected. 
+Unsatisfactory items 
+identified and 
+appropriate corrective 
+actions taken. 
+Minor 
+errors 
+of 
+omission/commission 
+that did not detract from 
+mission effectiveness. 
+Need for study in some 
+areas is indicated. 
+Major error of omission 
+or commission 
+precluded mission 
+accomplishment or 
+unnecessarily 
+endangered personnel or 
+equipment. 
+AREA 3. 
+Communications 
+Equipment 
+Operations. 
+ 
+Able to operate all 
+required 
+communications 
+equipment secure and 
+non-secure necessary for 
+requesting, coordinating, 
+Minor 
+errors 
+of 
+omission/commission 
+that did not detract from 
+mission effectiveness. 
+Need for study in some 
+Major errors that 
+precluded mission 
+accomplishment or 
+unnecessarily 
+endangered personnel or 
+equipment. 
+40 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+ 
+Q 
+Q- 
+U 
+ 
+and controlling CAS 
+missions. 
+areas is indicated. 
+AREA 4. 
+Global Positioning 
+System Operations. 
+ 
+ 
+ 
+ 
+ 
+Successfully turned on, 
+initialized, and 
+performed operator 
+checks. Able to 
+determine individual 
+location using MGRS 
+and Latitude/longitude 
+in seconds and decimal 
+minutes. Able to 
+determine distant 
+location using slant 
+range calculations from 
+a known point to an 
+unknown point. Properly 
+loaded waypoints. Able 
+to properly load 
+encryption fill. Able to 
+configure GPS to proper 
+map datum/ellipsoid and 
+convert coordinates 
+between map datums. 
+Demonstrates complete 
+knowledge of battery 
+fault 
+conditions/procedures. 
+Minor errors of 
+omission/commission 
+that did not detract from 
+mission effectiveness or 
+safety. Need for study in 
+some areas is indicated. 
+Unsuccessfully turned 
+on, initialized and/or 
+operated GPS. Unable to 
+determine individual 
+location using MGRS 
+and Latitude/longitude 
+in seconds and decimal 
+minutes. Unable to 
+determine distant 
+location using slant 
+range calculations from 
+known point to an 
+unknown point. Unable 
+to properly load 
+waypoints. Unable to 
+properly load encryption 
+fill. Unable to configure 
+GPS to proper map 
+datum/ellipsoid or 
+unable to convert 
+coordinates between 
+map datums. Unable to 
+explain battery fault 
+conditions or 
+procedures. 
+AREA 5. 
+Transmit/Receive 
+Procedures. 
+Communications clear, 
+concise, 
+and 
+understandable. 
+Promoted mission 
+effectiveness. 
+Minor 
+errors 
+of 
+omission/commission 
+that did not detract from 
+mission effectiveness. 
+Need for study in some 
+areas is indicated. 
+Deviation from 
+acceptable 
+communications 
+procedures impaired 
+mission effectiveness. 
+AREA 5.1 
+Successfully 
+Successfully 
+JTAC failed or was 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+41 
+ 
+Q 
+Q- 
+U 
+Authentication 
+Procedures 
+authenticated CAS 
+aircraft IAW pre-
+coordinated methods. 
+authenticated CAS 
+aircraft, with minor 
+errors, timely fixed by 
+JTAC 
+unable to authenticate 
+CAS aircraft due to 
+insufficient pre-mission 
+coordination. 
+AREA 6. CAS 
+Request 
+Submission. 
+ 
+ 
+Demonstrated 
+in-depth 
+knowledge 
+of 
+CAS 
+request procedures. 
+Submitted the request in 
+a timely, thorough, and 
+effective manner. 
+ 
+ 
+Minor 
+errors 
+of 
+omission/commission 
+that did not detract from 
+mission effectiveness. 
+Need for study in some 
+areas is indicated. 
+Unfamiliar with CAS 
+request procedures. 
+Unable to properly or 
+effectively compile, 
+prepare, and transmit 
+CAS requests. 
+AREA 7. 
+Target Analysis. 
+ 
+ 
+Analyzed target for CAS 
+employment procedures 
+(i.e., ID, description, 
+location, suitability, and 
+collateral damage,). 
+Minor 
+errors 
+of 
+omission/commission 
+that did not detract from 
+mission effectiveness. 
+Need for study in some 
+areas is indicated. 
+Could not recommend 
+appropriate CAS 
+employment procedures 
+for the target. Errors that 
+precluded mission 
+accomplishment or 
+unnecessarily 
+endangered personnel or 
+equipment. 
+AREA 8. 
+Threat Analysis. 
+ 
+ 
+Recognized ground to 
+air threats capable of 
+engaging CAS aircraft. 
+Plan mitigated threat to 
+the survivability of the 
+aircraft. 
+Minor 
+errors 
+of 
+omission/commission 
+that did not detract from 
+mission effectiveness. 
+Need for study in some 
+areas is indicated. 
+Failed to recognize 
+ground to air threats 
+capable of engaging 
+CAS aircraft. Plan did 
+not mitigate threat to the 
+survivability of the 
+aircraft. 
+42 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+ 
+Q 
+Q- 
+U 
+AREA 9. 
+Ground Force Staff 
+Coordination. 
+ 
+ 
+Demonstrated 
+timely 
+coordination procedures 
+with appropriate ground 
+force staff agencies (i.e., 
+S-2, S-3, FSE, NSFS, 
+ADA, Aviation LNOs, 
+etc.). 
+Minor 
+errors 
+of 
+omission/commission 
+that did not detract from 
+mission effectiveness. 
+Need for study in some 
+areas is indicated. 
+Coordination with 
+appropriate agencies not 
+completed before attack 
+commenced. Delays 
+caused by untimely 
+coordination degraded 
+or prevented successful 
+mission 
+accomplishment. 
+AREA 10. 
+Ground 
+Commander 
+Coordination. 
+ 
+ 
+Demonstrated 
+timely 
+coordination 
+with 
+ground commander or 
+designated 
+representative. 
+Accurately explained to 
+the ground commander 
+CAS mission data and 
+dangers 
+to 
+friendly 
+forces. 
+Understood ground 
+commander’s scheme of 
+maneuver. Requested 
+timely ground 
+commander attack 
+clearance. 
+Minor 
+errors 
+of 
+omission/commission 
+that did not detract from 
+mission effectiveness. 
+Need for study in some 
+areas is indicated. 
+Did 
+not 
+adequately 
+coordinate with ground 
+commander/designated 
+representative. Provided 
+inaccurate 
+data 
+regarding. 
+CAS 
+mission 
+data/dangers to friendly 
+forces. The information 
+provided or not provided 
+impacted 
+mission 
+effectiveness or exposed 
+friendly 
+forces 
+to 
+hazards. 
+Did not request or 
+receive ground 
+commander attack 
+clearance prior to 
+weapons release. 
+ 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+43 
+ 
+Q 
+Q- 
+U 
+AREA 11. 
+Fire Support and 
+Airspace 
+Management. 
+Demonstrated timely 
+coordination for fire 
+support (i.e., SEAD). 
+Recognized and 
+deconflicted attack 
+aircraft with formal or 
+informal airspace 
+coordination measures. 
+Slow to coordinate fire 
+support. Recognized but 
+did not deconflict attack 
+aircraft with formal or 
+informal airspace control 
+measures. 
+Did 
+not 
+impact 
+mission 
+or 
+aircraft survivability. 
+Did not coordinate fire 
+support.  
+Did not recognize or 
+deconflict attack aircraft 
+with formal and 
+informal airspace 
+control measures. 
+AREA 12. 
+Airspace 
+Management. 
+Integrate attack aircraft 
+with formal or informal 
+airspace coordination 
+measures. 
+Minor 
+errors 
+of 
+omission/commission 
+that did not detract from 
+mission effectiveness. 
+Need for study in some 
+areas is indicated. 
+Did not recognize or 
+integrate attack aircraft 
+with formal and 
+informal airspace 
+control measures. 
+AREA 13. 
+Use of Signaling 
+Devices. 
+Thorough 
+working 
+knowledge of signaling 
+devices day/night. 
+Selected 
+most 
+appropriate device for 
+tactical situation. 
+Enhanced mission 
+effectiveness. 
+Minor 
+errors 
+of 
+omission/commission 
+that did not detract from 
+mission effectiveness. 
+Need for study in some 
+areas is indicated. 
+Not familiar with 
+signaling devices.  
+Use of signaling device 
+inappropriate to tactical 
+situation. 
+AREA 14.  
+JTAC to CAS 
+Aircraft Briefing. 
+Provided 
+the 
+attack 
+aircraft, via voice or data 
+transmission, 
+with 
+a 
+complete, concise, and 
+effective briefing with 
+enhanced 
+mission 
+effectiveness i.e., CAS. 
+9-line or theater specific 
+briefing, and mission 
+check-in. 
+Minor 
+errors 
+of 
+omission/commission 
+that did not detract from 
+mission effectiveness. 
+Need for study in some 
+areas is indicated. 
+Briefing 
+compromised 
+safety 
+or 
+mission 
+effectiveness 
+due 
+to 
+erroneous information or 
+errors 
+of 
+omission/commission. 
+Tactics briefed 
+inappropriate to 
+situation and precluded 
+effective mission 
+completion and 
+44 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+ 
+Q 
+Q- 
+U 
+jeopardized 
+survivability. 
+AREA 14.1 
+Digitally 
+aided 
+CAS systems. 
+Thoroughly understood 
+and utilized digital 
+systems to aid the Fires 
+delivery process. Able 
+to generate target 
+coordinates, receive on 
+station report, send 9-
+line, track A/C, send 
+BDA, conduct CFF and 
+integrate applicable 
+FSCMs, ACMs and 
+closest friendly position 
+on equipment display. 
+Minor deficiencies 
+observed, did not 
+preclude mission 
+success. Equipment was 
+utilized to some level. 
+Failed to understand 
+and/or utilize Digitally 
+Aided CAS/Fires 
+equipment in any 
+capacity. 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+45 
+ 
+Q 
+Q- 
+U 
+AREA 15. 
+Attack 
+Weapons 
+Utilization. 
+ 
+ 
+Demonstrated thorough 
+knowledge of weapons 
+characteristics, 
+capabilities, and effects. 
+Used 
+weapons 
+most 
+suitable to target. 
+Employed weapons in 
+the correct manner. 
+Considered aircraft and 
+ground 
+forces 
+survivability. 
+Delivery 
+sequence of ordnance 
+enhanced 
+mission 
+effectiveness. 
+Understood risk-
+estimate distances. 
+Minor 
+errors 
+of 
+omission/commission 
+that did not detract from 
+mission effectiveness. 
+Need for study in some 
+areas is indicated. 
+Discrepancies 
+in 
+knowledge 
+and/or 
+employment with impact 
+on mission effectiveness. 
+Did not understand risk-
+estimate distances and 
+exposed friendly forces 
+to unacceptable risk. 
+Failed to achieve desired 
+results (due to JTAC’s 
+action/inaction). 
+Mission resulted in 
+unwanted collateral 
+damage. 
+AREA 16. 
+CAS 
+Aircraft 
+Control. 
+ 
+ 
+Exercised thorough 
+situational awareness 
+and control of assigned 
+aircraft throughout 
+mission. Clearance or 
+aborts issued in a 
+positive and timely 
+manner. Reestablished 
+abort code after aborting 
+an attack. 
+Minor 
+errors 
+of 
+omission/commission 
+that did not detract from 
+mission effectiveness. 
+Need for study in some 
+areas is indicated. 
+Control instructions 
+were not timely, clear, 
+and accurate or were 
+unsafe. Loss of 
+situational awareness or 
+actions resulted in either 
+degraded or ineffective 
+mission. 
+AREA 17. 
+Ordnance 
+Adjustment. 
+ 
+ 
+Ordnance adjust 
+instructions were clear, 
+concise, and timely. All 
+attack restrictions placed 
+on attack aircraft were 
+appropriate and 
+necessary. 
+Minor 
+errors 
+of 
+omission/commission 
+that did not detract from 
+mission effectiveness. 
+Need for study in some 
+areas is indicated. 
+Adjustment instructions 
+were not timely, clear, 
+and accurate or were 
+unsafe. Actions resulted 
+in either degraded or 
+ineffective mission. 
+46 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+ 
+Q 
+Q- 
+U 
+AREA 18. 
+Post 
+Attack 
+Assessment. 
+ 
+ 
+Battle 
+damage 
+assessment was realistic, 
+accurate, and timely. 
+Attack flight and 
+appropriate agencies 
+were provided a concise 
+report IAW governing 
+directives. 
+Minor 
+errors 
+of 
+omission/commission 
+that did not detract from 
+mission effectiveness. 
+Need for study in some 
+areas is indicated. 
+Unrealistic. Reports 
+contained major errors 
+or omissions. Reports 
+were not timely. 
+AREA 19. 
+Area Procedures. 
+ 
+ 
+Complied with all area 
+procedures, range/MOA 
+safety requirements and 
+restrictions. 
+Knowledgeable of 
+emergency procedures 
+(i.e., hung bombs, off 
+range release, fire on 
+range, MEDEVAC, 
+etc.). Ensured aircraft 
+briefed on applicable 
+restrictions. 
+Minor 
+errors 
+of 
+omission/commission 
+that did not detract from 
+mission effectiveness. 
+Need for study in some 
+areas is indicated. 
+Violated 
+range 
+procedures. 
+Was not knowledgeable 
+of range requirements. 
+Incomplete knowledge 
+of emergency 
+procedures. Gave 
+incomplete restrictions 
+to fighters. 
+AREA 
+20. 
+FAC(A)/JFO/ 
+RO Interface. 
+Successfully functioned 
+as an air-ground 
+interface to achieve 
+mission effectiveness. 
+Minor 
+errors 
+of 
+omission/commission 
+that did not detract from 
+mission effectiveness. 
+Requires additional 
+training as indicated. 
+Failed to provide 
+effective interface 
+between 
+FAC(A)/JFO/RO 
+required to achieve 
+mission effectiveness. 
+AREA 21. 
+Laser Operations. 
+Readily understood laser 
+procedures (target 
+distance, safety zone, 
+etc.) from an effective 
+location, using proper 
+LTD code, terminology, 
+and timely coordination. 
+Minor errors of 
+omission/commission 
+that did not detract from 
+mission effectiveness or 
+safety. Need for study in 
+some areas is indicated. 
+Actions caused unsafe 
+terminal environment or 
+deficiencies noted 
+precluded mission 
+success. 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+47 
+ 
+Q 
+Q- 
+U 
+AREA 22.  
+IR 
+Pointer 
+Operations. 
+Readily understood and 
+utilized IR Pointer 
+procedures from an 
+effective location, using 
+proper IR Pointer 
+terminology and timely 
+coordination. 
+Minor errors of 
+omission/commission 
+that did not detract from 
+mission effectiveness or 
+safety. Need for study in 
+some areas is indicated. 
+Actions caused unsafe 
+terminal environment or 
+deficiencies noted 
+precluded mission 
+success. 
+AREA 23. 
+Inertially 
+Aided 
+Munitions 
+Operations. 
+Readily understood 
+inertially aided 
+munitions procedures 
+(coordinate format, 
+coordinate reliability, 
+target elevation, final 
+attack clearance, and 
+final attack 
+headings/angle). 
+Minor errors of 
+omission/commission 
+that did not detract from 
+mission effectiveness or 
+safety. Need for study in 
+some areas is indicated. 
+Actions caused unsafe 
+terminal environment or 
+deficiencies noted 
+precluded mission 
+success. 
+AREA 24. 
+Night 
+CAS 
+Operations. 
+Readily understood 
+night CAS procedures 
+and tactics that 
+enhanced mission 
+effectiveness. 
+Minor errors of 
+omission/commission that 
+did not detract from 
+mission effectiveness or 
+safety. Need for study in 
+some areas is indicated. 
+Actions caused unsafe 
+terminal environment or 
+deficiencies noted 
+precluded mission 
+success. 
+AREA 25. 
+Safety. 
+(CRITICAL) 
+ 
+ 
+Employed all available 
+methods to ensure safety 
+of flight and ground 
+personnel. Analyzed 
+emergency situations 
+and implemented 
+emergency procedures. 
+Used equipment, to 
+include signaling 
+devices, laser target 
+designators and IR 
+marking devices, in a 
+NA 
+Any dangerous act. 
+ 
+Disregarded safety 
+procedures. Did not use 
+equipment in a safe 
+manner. Did not comply 
+with safety 
+requirements. 
+48 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+ 
+Q 
+Q- 
+U 
+safe manner. 
+ 
+ 
+ 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+49 
+Table A2.2.  JTAC-I Evaluation Areas and Grading Criteria. 
+ 
+Q 
+Q- 
+U 
+AREA 26. Use the following grading area to conduct the recurring JTAC-I Evaluations. 
+AREA 26.1. 
+Equipment 
+Preparation. 
+All equipment needed for 
+mission accomplishment 
+properly prepared and 
+inspected. Unsatisfactory 
+items identified and 
+corrective actions taken. 
+Minor errors did not detract 
+from mission/training 
+effectiveness. 
+Major error precluded 
+mission 
+accomplishment or 
+unnecessarily 
+endangered personnel 
+or equipment. 
+AREA 26.2. 
+Lesson Overview 
+with Statement of 
+Objectives. 
+Thoroughly briefed the 
+lesson overview and 
+clearly stated the 
+objective. 
+Minor errors did not detract 
+from mission/training 
+effectiveness. 
+Major omissions 
+precluded 
+mission/training 
+success. 
+AREA 26.3. 
+Instruction 
+Effectiveness. 
+Assured student 
+understood material and 
+relationship to job 
+performance 
+Minor errors did not detract 
+from mission/training 
+effectiveness. 
+Instruction was 
+ineffective, precluded 
+mission/training 
+success. 
+AREA 26.4 
+Identified 
+Procedures vs. 
+Technique. 
+Thoroughly explained 
+instructions as procedures 
+and technical methods as 
+techniques. 
+Minor errors did not detract 
+from mission/training 
+effectiveness. 
+Confused procedures 
+with techniques, 
+precluded 
+mission/training 
+success. 
+AREA 26.5 
+Training Aids. 
+Training aids were used 
+in a manner that enhanced 
+the training outcome. 
+Minor errors did not detract 
+from mission/training 
+effectiveness. 
+Training aids were 
+omitted, precluded 
+mission/training 
+success. 
+AREA 26.6 
+Knowledge of 
+Subject Matter. 
+Demonstrated thorough 
+knowledge of the subject 
+matter and used examples 
+to clarify/enhance subject 
+areas. 
+Minor errors did not detract 
+from mission/training 
+effectiveness. 
+Lack of knowledge or 
+could not provide 
+examples, precluded 
+mission/training 
+success 
+AREA 26.7 
+Communication. 
+Communications clear, 
+concise, and 
+understandable. Promoted 
+effective training. 
+Minor errors did not detract 
+from mission/training 
+effectiveness. 
+Unacceptable 
+communications 
+impaired 
+mission/training 
+effectiveness. 
+AREA 26.8 
+Time 
+Management. 
+Effectively managed time 
+to ensure all objectives 
+were covered. 
+Minor errors did not detract 
+from mission/training 
+effectiveness. 
+Did not cover all 
+objectives or manage 
+time wisely. 
+50 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+AREA 26.9 
+Live, Dry, or SIM 
+CAS Control 
+Instruction. 
+Provided proper 
+instruction and feedback 
+throughout the live-fly or 
+SIM CAS mission. 
+Minor errors did not detract 
+from mission/training 
+effectiveness. 
+Improper CAS 
+instruction and 
+incorrect feedback 
+precluded mission 
+effectiveness. 
+AREA 26.10 
+Administered 
+Student Grade & 
+Documentation. 
+Assigned proper grade 
+and completed training 
+documentation correctly. 
+Minor errors did not detract 
+from mission/training 
+effectiveness. 
+Failed to assign proper 
+grade when 
+appropriate. Unable to 
+complete training 
+documentation 
+correctly. 
+AREA 26.11. 
+Safety. 
+(CRITICAL) 
+Employed all available 
+methods to ensure safety 
+of flight and ground 
+personnel. Used 
+equipment, to include 
+signaling devices, laser 
+target designators and IR 
+marking devices, in a safe 
+manner. 
+ 
+Any dangerous act. 
+ 
+Disregarded safety 
+procedures. Did not 
+use equipment in a 
+safe manner. Did not 
+comply with safety 
+requirements. 
+ 
+ 
+ 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+51 
+Table A2.3.  JTAC-E Evaluation Areas and Grading Criteria. 
+ 
+Q 
+Q- 
+U 
+AREA 27. Use the following grading criteria when conducting both the initial and the recurring JTAC-
+E Evaluations. 
+AREA 27.1. 
+Compliance with 
+Pertinent Manuals. 
+Complies with all manuals 
+pertaining to the administration 
+of a JTAC evaluation. 
+Complied with most 
+manuals. Deviations 
+did not jeopardize the 
+effectiveness of the 
+evaluation or safety. 
+Failed to comply 
+with manuals or 
+allowed safety to be 
+jeopardized. 
+AREA 27.2. 
+Evaluation Briefing. 
+Thoroughly briefed the JTAC 
+on the conduct of the 
+evaluation. 
+Omitted items during 
+the briefing causing 
+minor confusion. Did 
+not fully brief the 
+JTAC as to the 
+conduct and purpose 
+of the evaluation. 
+Failed to adequately 
+brief the JTAC. 
+AREA 27.3. 
+Identification of 
+Discrepancies and 
+Assignment of Area 
+Grades. 
+Identified all discrepancies and 
+assigned proper area grade. 
+Most discrepancies 
+were identified. Failed 
+to assign Q-grade 
+when appropriate. 
+Assigned 
+discrepancies for 
+performance that was 
+within standards. 
+Failed to identify 
+discrepancies related 
+to discipline or 
+deviations that 
+merited an 
+unqualified grade. 
+Assigned Q-grades 
+that should have been 
+U or assigned U 
+grades for 
+performance within 
+standards. 
+AREA 27.4. 
+Assessment of 
+Overall 
+Performance. 
+Awarded the appropriate 
+overall grade based on the 
+JTAC’s performance. 
+Awarded an overall 
+grade without 
+consideration of 
+cumulative deviations 
+in the JTAC’s 
+performance. 
+Did not award a 
+grade commensurate 
+with overall 
+performance. 
+AREA 27.5 
+Appropriate 
+Assignment of 
+Additional Training. 
+Assigned proper additional 
+training if warranted. 
+Additional training 
+assigned was 
+insufficient to ensure 
+the JTAC would 
+achieve proper level 
+of qualification. 
+Failed to assign 
+additional training 
+when warranted. 
+52 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+AREA 27.6. Mission 
+Debrief. 
+Thoroughly debriefed the 
+JTAC on all aspects of the 
+evaluation. 
+Failed to discuss all 
+deviations and 
+assigned grades. Did 
+not advise the JTAC 
+of additional training, 
+if required. 
+Did not discuss any 
+assigned area grades 
+or overall rating. 
+Changed grades 
+without briefing the 
+JTAC. 
+AREA 27.7. 
+Briefing unit 
+leadership on the 
+Evaluation. 
+Thoroughly debriefed the 
+JTAC’s supervisor. 
+Debriefed supervisor, 
+but failed to discuss 
+all discrepancies, 
+grades, or additional 
+training. 
+Failed to debrief the 
+JTAC’s supervisor 
+on an unsatisfactory 
+evaluation. 
+AREA 27.8. 
+Completed 
+Evaluation 
+Documentation. 
+Correctly completed all 
+documentation required IAW 
+manuals 
+Completed 
+documentation with 
+minor errors. 
+Failed to properly 
+document evaluation 
+IAW manuals. 
+ 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+53 
+Attachment 3 
+JTAC TRAINING FOLDER 
+A3.1.  Part V. Inside back left side Documentation of Assessment and Evaluations.  File the 
+documents in chronological order with the most recent on top. AF Form 1036 will be used to 
+document all initial qualification assessments at USAF formal JTAC qualification courses. (T-1) 
+AF Form 1035 will be used (AFSOC may use USSOCOM Form 43) to document all subsequent 
+evaluations. (T-1) Evaluations conducted before the introduction of AF Form 1035 will remain on 
+the forms on which they were originally conducted. (T-1). 
+A3.1.1.  AF Form 942, Record of Evaluation – All evaluations will be documented on this 
+form starting with the individual’s JTAC Certification Evaluation. (T-1) Additionally, any 
+review of the evaluations for record will be annotated such as the mandatory records review 
+prior to a Qualification Evaluation or Formal Inspection. (T-1). 
+A3.1.2.  Minor Discrepancy Log – All minor discrepancies found on the individual’s JTAC 
+Evaluation Forms will be annotated on the Minor Discrepancy Log. (T-1) Minor discrepancies 
+include, but are not limited to, spelling errors, erroneous dates, and incorrect references. 
+A3.1.3.  Approved JTAC Assessment/Evaluation Form (e.g., AF Form 1035, USSOCOM 
+Form 43, AF Form 8, AF Form 3827) – All JTAC initial qualification assessments and 
+subsequent evaluations in the individual’s history must be documented and located in this 
+section. (T-1) The most recent assessment/evaluation will be on top. (T-1) Legacy documents 
+are acceptable for the record and do not need to be transcribed onto the currently approved 
+evaluation forms. 
+A3.1.3.1.  If a JTAC evaluation form has an associated MFR, that MFR will be placed in 
+this section immediately following the evaluation it is associated with. 
+A3.1.3.2.  MFR Not Related to a Specific JTAC Evaluation Form – Any MFR that is not 
+specifically associated with a JTAC Evaluation Form will be placed in this section in order 
+from newest to oldest. 
+A3.2.  AF Form 942, Record of Evaluation Procedures.  The AF Form 942 is an index 
+providing pertinent information extracted from all the JTAC evaluations accomplished by the 
+member. The Stan/Eval function will review all unit Part Vs annually to confirm expiration dates 
+used to track required periodic aircrew qualification evaluations are the same as those listed in the 
+Part V. Annual review will be documented on the AF Form 942. An annual review of JTACs in 
+inactive status is not required. The Minor Discrepancy log will be placed beneath the AF IMT 942. 
+A3.2.1.  Data Entry. The sample AF Form 942 is provided to demonstrate the content, not the 
+format, of the data presented. 
+A3.2.1.1.  To facilitate the entry of data on the form use “ALL CAPS.” 
+A3.2.1.2.  One-line entry is used for all evaluations. 
+A3.2.1.3.  Use each AF Form 942 until it is filled or “Z” out any unused blocks. 
+A3.2.2.  Evaluation Inputs. 
+A3.2.2.1.  Type Aircraft/Crew Position. Enter Duty Position as it appears on the member’s 
+AF Form 1035. 
+54 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+A3.2.2.2.  Type of Evaluation. Enter the Type Evaluation of Part I of the member’s AF 
+Form 1035. 
+A3.2.2.3.  Date Completed. Enter the Date Completed of the member’s AF Form 1035. 
+A3.2.2.4.  Qualification Level. Enter the appropriate qualification level as it appears on the 
+member’s AF Form 1035 (1, 2, or 3). 
+A3.2.3.  Initial MAJCOM and Change. A one-line, undated entry containing the MAJCOM 
+title will be made for initial MAJCOM and each change in the MAJCOM. An intra-MAJCOM 
+PCS will not result in new entry. 
+A3.2.4.  JTAC-E-PM initial or annual records review. NOTE: The JTAC-E-PM review is only 
+conducted once during the initial review of the JTAC’s training and evaluation folder. Further 
+reviews (even if conducted by the JTAC-E-PM) are documented as annual records reviews. 
+A3.2.4.1.  Type Aircraft/Crew Position. Leave Blank. 
+A3.2.4.2.  Type Evaluation. Enter JTAC-E-PM Review or Record Rev (for annual review). 
+A3.2.4.3.  Date Completed. Enter date of JTAC-E-PM Review or Record Review. 
+A3.2.5.  Computer Generated AF Form 942. A computer generated AF Form 942 will be used, 
+and cumulative entries must be retained. 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+55 
+Figure A3.1.  Sample AF Form 942 Record of Evaluation. 
+ 
+ 
+56 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+Attachment 4 
+STANDARDIZATION/EVALUATION BOARD (SEB) MINUTES FORMAT EXAMPLE 
+Figure A4.1.  Standardization/Evaluation Board (SEB) Minutes Format Example. 
+ 
+MEMORANDUM FOR (next higher headquarters)  
+ 
+FROM: (Unit’s complete address) 
+ 
+SUBJECT: STANDARDIZATION/EVALUATION BOARD (SEB) MINUTES 
+ 
+1. SEB Attendees: (Name and organization). 
+a. Required personnel in attendance. 
+b. Additional attendees. 
+c. Required personnel unable to attend and reason. 
+2. Overview: (Enter focus, manning status, and other concerns). 
+a. Focus. 
+b. Manning. 
+c. Summary. 
+3. Evaluations. (Report any JTAC and JTAC-E evaluations). 
+a. Total evaluations. (JTAC and JTAC-E separately). 
+b. Q-1s. 
+c. Q-2s. 
+d. Q-3s. 
+e. No-Notice. (Total accomplished and what percentage of the unit affected). 
+f. Evaluations broken down by individual JTAC-E. (Type and result). 
+g. Spot evaluations and any specific criteria. 
+4. MSN Evaluation Downgrades. (List downgrades on all JTAC evaluations reported on this SEB). 
+5. Written Examinations. (Report Ground-Phase evaluation exam performance). 
+a. Ground-Phase evaluation exams administered, passed, failed. Compute average score in each category. 
+b. Missed questions. (Listing of missed questions and number of occurrences). 
+6. Waivers and Extensions. Identify all waivers and extensions submitted whether approved or not yet approved 
+(examples extend period of JTAC qualification, experience waiver for JTAC-E upgrade, JTAC-E approved for 
+non-USAF JTAC-E support). 
+7. Trends. Identify new, continuing, and resolved trends. Where necessary, report corrective action as 
+OPEN/CLOSED, the OPR(s), and any suspense date. 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+57 
+8. Old Business. Enter the disposition of any items left open from last board meeting. If final action was taken on 
+an item during the period, state the action taken and then close the item if approved by the board chairman. If an 
+item remains open, list the action since the last board. 
+9. New Business. Enter all new business discussed during the board. The new business items are those included on 
+the published agenda along with any unplanned items discussed. 
+10. MQF review date (if used). 
+11. Corrective actions taken since last formal visit. 
+12. Other: This is an optional paragraph that can be used as necessary. Note: Groups should use this area to list 
+units who received a functional visit during this SEB period. 
+13. Problems Requiring Higher Headquarters (HHQ) Assistance. Enter problems that, based on the board 
+resolution, require HHQ assistance. The assistance may be in any form (e.g., functional visit requests, clarification 
+of policy/directives). 
+ 
+ 
+ 
+ 
+(SIGNATURE BLOCK of SEB Chair) 
+ 
+Attachments: 
+ 
+1. (If used) 
+ 
+58 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+Attachment 5 
+AF FORM 1036 INSTRUCTIONS AND EXAMPLES 
+A5.1.  AF Form 1036 Instructions and Examples. 
+A5.1.1.  General Guidelines. The following directions will clarify how to properly fill out and 
+complete the AF 1036. 
+A5.2.  Part I. Personal Data. 
+A5.2.1.  Name (Last, First MI). 
+A5.2.2.  Rank: SrA. 
+A5.2.3.  Certified Date: Date of completion for initial certification as a JTAC if graduation 
+occurs with no deficiencies. If student leaves the ICC with deficiencies, leave this date blank. 
+The members gaining unit will put the certified date after all deficiencies and additional 
+training are corrected. 
+A5.2.4.  DoD ID: DoD identification number (or personal ID number if not assigned a DoD 
+ID number) of the individual being evaluated. 
+A5.2.5.  Unit: Unit that the examinee is assigned (e.g., 6 CTS). 
+A5.2.6.  AFSC: 5-charachter AFSC of examinee DoD ID: DoD identification number (or 
+personal ID number if not assigned a DoD ID number) of the individual being evaluated. 
+A5.2.7.  Status: Select “Certified” from the dropdown if the student has no deficiencies upon 
+graduation. If the student graduates with deficiencies, leave this dropdown unselected. Gaining 
+unit will select “Certified” and input the date of certification after all deficiencies and 
+additional training are corrected. 
+A5.3.  Part II. ICT Assessment Data. 
+A5.3.1.  Assessment Location: The location where the evaluation was conducted (e.g., 
+McPherson Impact Area, Fort Bragg, NC). 
+A5.3.2.  Assessment Date: Date that the event was conducted. 
+A5.3.3.  Assessment Prefix: Check box for live or sim IAW AFMAN 10-3500V2 
+A5.3.4.  Threat Level: Select from the drop-down menu, threat level 1-5. 
+A5.4.  Part III. ICC Exam. 
+A5.4.1.  Date Given: Select the date that the ICC exam was accomplished. 
+A5.4.2.  Test Version: Input the version number of the closed book test that was administered. 
+A5.4.3.  Score: Enter the score that the individual received on the test in this block. 
+A5.4.4.  Re-test Date: If a re-test was required, select the date that the ICC re-test was 
+administered. 
+A5.4.5.  Re-test Version: If a re-test was required, enter the version number of the closed book 
+test that was administered. 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+59 
+A5.4.6.  Score: If a re-test was required, enter the score that the individual received on the test 
+in this block. 
+A5.5.  Part IV. Assessment Criteria. 
+A5.5.1.  Event Description: Enter in the type of scenario, assets involved, and any other 
+relevant amplifying data. Keep this simple and do not include classified data. Example: High 
+threat MCO scenario in Eastern Europe supporting airborne forces against light armor. Live 
+assets: 2x PL F-16, 2x US A-10. Simulated assets: JSTARS, MQ-9, 4x AH-64, 4x M109 
+Paladin. 
+A5.5.2.  Tasks and Status: For each Item 1-31, select from the drop-down options S, US, N-A, 
+defined below. For Item 32, select from the drop-down menu Go/No-Go to indicate if the 
+student has completed the minimum JTAC Certification controls (AFMAN 10-3505V1, Table 
+4.1.) 
+A5.5.2.1.  Satisfactory (S)-The student has demonstrated the desired level of performance 
+in the task. 
+A5.5.2.2.  Unsatisfactory (US)-The student did not perform the task at an acceptable level, 
+and additional training is required. Note: Correspondingly mark that there are deficiencies 
+and the additional training items in Part V. 
+A5.5.2.3.  Not Attempted (N-A)–For reasons outside the student’s control, the student did 
+not attempt this task. NOTE: Correspondingly mark that there are deficiencies and list the 
+additional training items in Part V. 
+A5.6.  Part V. Deficiencies. 
+A5.6.1.  Deficiencies: If the student has an “S” for Items 1-31 and a “Go” for Item 32, select 
+A5.6.1.1.  “No” from the drop-down menu. If one or more Items are marked “US” or Item 
+32 is marked 
+A5.6.1.2.  “No-Go” the evaluator must select “Yes” from the drop-down menu. 
+A5.6.2.  Additional Training Items: If there are deficiencies, list all item numbers from the 
+evaluation that require additional training. Define each required training item in Part VII 
+Remarks. 
+A5.7.  Part VI – Endorsement. 
+A5.7.1.  Evaluator: Type name and grade of the evaluator for this evaluation. (e.g., Doe, John 
+A, GS12). 
+A5.7.2.  Commander: Type the name and grade of the commander. (e.g., Doe, John A, Lt. Col). 
+A5.7.3.  Office Symbol: The office symbol code for the respective signatory. 
+A5.7.4.  Concur/Non-Concur (Commander only): Indicates if the commander concurs/non-
+concurs with the evaluator’s assessment A Non-Concur from the commander that results in a 
+failure of the assessment or downgrade of specific assessment items will be considered a 
+commander directed downgrade. 
+A5.7.5.  Signature: Evaluator/commander sign the document. 
+A5.7.6.  Date: Date that evaluator/commander signs the AF Form 1036. 
+60 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+A5.7.7.  Name and Rank of Examinee: Examinee enters their name and rank. (e.g., Doe, John 
+A, A1C) 
+A5.7.8.  Signature of Examinee: Examinee signs to indicate they have been briefed and 
+understand the action(s) being taken on the date of their signature. 
+A5.7.9.  Date examinee signs the AF Form 1036. 
+A5.8.  Part VII. Remarks. 
+A5.8.1.  Inputting remarks is required if there are deficiencies on any item. Remarks are 
+encouraged but optional for Certified individuals without deficiencies. 
+A5.8.2.  In the remarks block enter any amplifying and relevant information to the examinee’s 
+performance during evaluation, discrepancies, and/or downgrades during the assessment. 
+A5.8.3.  If discrepancies are listed, state whether they were debriefed with the individual. 
+A5.8.4.  If the commander has any remarks, they will place them here. 
+A5.8.5.  Specify in detail the additional training required by the examinee before they can be 
+considered Certified. 
+A5.9.  Part VIII. Additional Training (only to be completed if the student graduates with 
+deficiencies and is not considered Certified). 
+A5.9.1.  Training Due Date: Input a date 60 days after individuals’ arrival at duty station. 
+A5.9.2.  Training Completion Date: Input the actual date that the training was completed. 
+A5.9.3.  Additional Comments: Explain how additional training was accomplished that 
+resulted in certification of the member. 
+A5.9.4.  Training Completion Certifier Name: Enter the name of the individual certifying that 
+all additional training and deficiencies were completed and corrected. (e.g., Doe, John A). 
+A5.9.5.  Certifier Rank: Rank of certifier. 
+A5.9.6.  Signature: Training completion certifier signs the document. 
+A5.9.7.  Date: Input the date that the certifying official signed the AF Form 1036. 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+61 
+Figure A5.1.  Example Completed AF Form 1036 for JTAC-ICT Graduated Certified. 
+ 
+62 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+Figure A5.2.  Example Completed AF Form 1036 for JTAC-ICT Graduated Certified. 
+ 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+63 
+Figure A5.3.  Example Completed AF Form 1036 for JTAC-ICT Graduated with 
+Deficiencies. 
+ 
+64 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+Figure A5.4.  Example Completed AF Form 1036 for JTAC-ICT Graduated with 
+Deficiencies. 
+ 
+ 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+65 
+Attachment 6 
+SAMPLE MESSAGE, CONTROLLED READ FILE (CRF) FORMAT 
+Figure A6.1.  Sample Message, Controlled Read File (CRF) Format. 
+ 
+NOTE: The information below is an example of a template any unit may use when drafting a CRF item. The “To” 
+block is not all encompassing and should include all subordinate units that fall under the purview of each respective 
+level of command issuing the CRF item. Use appropriate unit level letterhead and transmit the signed CRF via e-
+mail to applicable subordinate unit Stan/Eval sections. 
+ 
+CONTROLLER READ FILE TEMPLATE 
+ 
+FROM: ACC/A3J 
+ 
+TO: 93 AGOW/CC 
+       435 AGOW/CC 
+       18 ASOG/CC 
+       3 ASOG/CC 
+       1 ASOG/CC 
+      720 STG/CC 
+      NGB/A3O 
+ 
+SUBJECT: The Subject Line contains the CRF number and title of the CRF item (if applicable) 
+ 
+REF A: Reference A is a location the CRF reviewer can reference any other material, whether it is a message or 
+another CRF item, pertinent to the CRF entry. If more than one reference is needed, use REF B, C, etc. 
+ 
+1. Applicability paragraph. This paragraph lists the MAJCOM (s) that the CRF item is applicable to, lists the 
+MAJCOM(s) that will retransmit the CRF item and those MAJCOMs for which the CRF item is “for information 
+only.” 
+ 
+2. Directive paragraph. CRF authors will use this paragraph to give direction to controllers regarding procedures or 
+guidance. This information will be placed immediately following the applicability paragraph to ensure a consistent 
+place for new procedures or guidance. 
+ 
+3. Amplification paragraph. This paragraph should focus on background information to the controllers, or any other 
+66 
+AFMAN10-3505V2  7 NOVEMBER 2023 
+amplifying data deemed necessary by the CRF item author for controllers to understand the impetus behind the 
+CRF item. The CRF item should be limited to one or two pages in length. Additional supporting background 
+documentation should be included in attachments or references. 
+a. Amplifying data may be organized into subparagraphs or follow-on paragraphs. 
+ 
+b. If follow-on paragraphs are used, ensure paragraphs are numbered correctly. 
+ 
+4. Administrative paragraph. Use this paragraph to show where the CRF item needs to be placed (Part B or C), and 
+for how long the CRF item is to remain in effect. Other items of an administrative nature may also be placed in this 
+paragraph. 
+ 
+5. Receipt/Point of Contact paragraph. This paragraph directs units to acknowledge receipt of the CRF item within 
+a desired timeframe. It also lists CRF item point of contact(s) and the point of contact’s phone number and email 
+address. 
+ 

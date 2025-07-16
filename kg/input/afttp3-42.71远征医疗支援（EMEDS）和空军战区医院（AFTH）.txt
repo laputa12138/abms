@@ -1,0 +1,4006 @@
+BY ORDER OF THE  
+SECRETARY OF THE AIR FORCE 
+ 
+AIR FORCE TACTICS, TECHNIQUES 
+AND PROCEDURES 3-42.71 
+17 SEPTEMBER 2024 
+Tactical Doctrine 
+EXPEDITIONARY MEDICAL SUPPORT 
+(EMEDS) AND AIR FORCE THEATER 
+HOSPITAL (AFTH) 
+ 
+ACCESSIBILITY:  Publications and forms are available on the e-Publishing website at 
+www.e-publishing.af.mil for downloading or ordering. 
+RELEASABILITY:  There are no releasability restrictions on this publication. 
+ 
+ 
+OPR: ACC/SGX 
+Certified by: AFMED/SGX  
+(Col Tracy Allen)
+Supersedes: 
+AFTTP 3-42.71, 27 August 2014 
+Pages: 75 
+ 
+ 
+The Air Force Tactics, Techniques, and Procedures (AFTTP) 3-42 series of publications is the 
+primary reference for expeditionary medical support capabilities. AFTTP 3-42.71 provides the 
+tactics, techniques, and procedures for Expeditionary Medical Support (EMEDS) and Air Force 
+Theater Hospital (AFTH) unit type codes (UTCs). The doctrine in this document is authoritative 
+but not directive. This publication applies to all civilian employees and uniformed members of the 
+Regular Air Force, the Air Force Reserve, and the Air National Guard. This publication does not 
+apply to the United States Space Force. Refer recommended changes and questions about this 
+publication to the Office of Primary Responsibility (OPR) using Department of the Air Force 
+(DAF) Form 847, Recommendation for Change of Publication. Route DAF Form 847 through the 
+appropriate functional chain of command and parent major command. Ensure all records generated 
+as a result of processes prescribed in this publication adhere to Air Force Instruction (AFI) 33-322, 
+Records Management and Information Governance Program, and are disposed in accordance with 
+the Air Force Records Disposition Schedule, which is located in the Air Force Records Information 
+Management System. The use of the name or mark of any specific manufacturer, commercial 
+product, commodity, or service in this publication does not imply endorsement by the Department 
+of the Air Force. 
+SUMMARY OF CHANGES 
+This document has been updated to reflect the current personnel composition and equipment 
+packages within each EMEDS module. It incorporates technical updates resulting from program 
+reviews and field development exercises. It removes or revises outdated content related to EMEDS 
+2 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+Health Response Team (HRT) development. This document has been substantially revised and 
+should be completely reviewed. 
+ 
+Chapter 1—INTRODUCTION 
+ 
+6 
+1.1. 
+Purpose. ...................................................................................................................  
+6 
+1.2. 
+Background. .............................................................................................................  
+6 
+1.3. 
+EMEDS Configuration Updates. .............................................................................  
+6 
+1.4. 
+Medical Threat Environment. ..................................................................................  
+7 
+Chapter 2—EXPEDITIONARY GROUND MEDICAL SUPPORT CAPABILITIES 
+ 
+8 
+2.1. 
+Mission. ...................................................................................................................  
+8 
+2.2. 
+Scope of Care. ..........................................................................................................  
+8 
+2.3. 
+Planning Assumptions. ............................................................................................  
+8 
+2.4. 
+EMEDS Health Response Team (HRT). .................................................................  
+8 
+Table 2.1. 
+EMEDS HRT Personnel. .........................................................................................  
+9 
+Table 2.2. 
+EMEDS HRT Equipment. .......................................................................................  
+10 
+2.5. 
+EMEDS+10. .............................................................................................................  
+11 
+Table 2.3. 
+EMEDS+10 Personnel. ............................................................................................  
+11 
+Table 2.4. 
+EMEDS+10 Equipment. ..........................................................................................  
+12 
+2.6. 
+EMEDS+25. .............................................................................................................  
+12 
+Table 2.5. 
+EMEDS+25 Personnel. ............................................................................................  
+12 
+Table 2.6. 
+EMEDS+25 Equipment. ..........................................................................................  
+13 
+2.7. 
+Air Force Theater Hospital (AFTH). .......................................................................  
+14 
+Table 2.7. 
+87-Bed AFTH Buildup. ...........................................................................................  
+14 
+2.8. 
+Consequence Management and Crisis Response Support. ......................................  
+16 
+Table 2.8. 
+Consequence Management and Crisis Response Capabilities. ................................  
+16 
+2.9. 
+Collectively Protected EMEDS (CP-EMEDS). .......................................................  
+17 
+Table 2.9. 
+CP-EMEDS Equipment Sets. ...................................................................................  
+18 
+2.10. 
+Initial Operational Capability Timelines. ................................................................  
+18 
+Table 2.10. 
+Initial Operational Capability Timelines. ................................................................  
+18 
+2.11. 
+Full Operational Capability Timelines. ....................................................................  
+18 
+2.12. 
+EMEDS Functional Area Descriptions and Buildup. ..............................................  
+19 
+Table 2.11. 
+AFTH Critical Care Expansion Packages. ...............................................................  
+20 
+Table 2.12. 
+EMEDS Blood Storage Capabilities. .......................................................................  
+22 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+3 
+Table 2.13. 
+Hospital Expansion Package Laydown. ...................................................................  
+23 
+Chapter 3—OPERATIONS 
+ 
+27 
+3.1. 
+EMEDS UTC Posturing. ..........................................................................................  
+27 
+3.2. 
+Deployment Planning. .............................................................................................  
+27 
+3.3. 
+Pre-Deployment Preparations. .................................................................................  
+27 
+3.4. 
+Employment. ............................................................................................................  
+28 
+3.5. 
+EMEDS Redeployment. ...........................................................................................  
+31 
+Chapter 4—COMMAND AND CONTROL RELATIONSHIPS 
+ 
+32 
+4.1. 
+Command and Control of Expeditionary Ground Medical Teams. .........................  
+32 
+Figure 4.1. 
+Notional Command Structure in Combat Support Operations. ...............................  
+32 
+4.2. 
+Joint and Multinational Operations. .........................................................................  
+33 
+4.3. 
+Air Combat Command Surgeon (ACC/SG) Responsibility. ...................................  
+33 
+Chapter 5—COMMUNICATIONS AND INFORMATION SYSTEMS 
+ 
+34 
+5.1. 
+EMEDS Communications Equipment. ....................................................................  
+34 
+5.2. 
+Theater Medical Information Program (TMIP). ......................................................  
+34 
+5.3. 
+Network Support. .....................................................................................................  
+34 
+5.4. 
+Field Assistance Services. ........................................................................................  
+35 
+5.5. 
+Information Assurance Policy. .................................................................................  
+35 
+Chapter 6—INTEGRATION AND INTEROPERABILITY 
+ 
+36 
+6.1. 
+Integration and Interoperability with Other Systems. ..............................................  
+36 
+6.2. 
+Expeditionary Combat Support/Base Operating Support (ECS/BOS) 
+Requirements. ..........................................................................................................  
+36 
+Chapter 7—SECURITY AND FORCE PROTECTION 
+ 
+38 
+7.1. 
+Security Roles and Responsibilities. ........................................................................  
+38 
+7.2. 
+Physical Security. .....................................................................................................  
+38 
+7.3. 
+Medical Convoy Protection. ....................................................................................  
+38 
+7.4. 
+Operations Security. .................................................................................................  
+38 
+7.5. 
+Security of Weapons and Ammunition. ...................................................................  
+38 
+Chapter 8—TRAINING 
+ 
+39 
+8.1. 
+Medical Readiness Training Requirements. ............................................................  
+39 
+8.2. 
+EMEDS Formal Course. ..........................................................................................  
+39 
+8.3. 
+UTC Sustainment Training. .....................................................................................  
+39 
+4 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+8.4. 
+Mission Essential Task Lists (METLs). ...................................................................  
+39 
+8.5. 
+Joint Senior Medical Leaders Course (JSMLC). .....................................................  
+39 
+8.6. 
+Vehicle Operation Training. ....................................................................................  
+39 
+8.7. 
+Weapons Training. ...................................................................................................  
+40 
+8.8. 
+Communications and Information Systems Training. .............................................  
+40 
+8.9. 
+CBRN Response Force Training. ............................................................................  
+40 
+Chapter 9—LOGISTICS 
+ 
+41 
+9.1. 
+Expeditionary Medical Logistics (EML) System. ...................................................  
+41 
+9.2. 
+Supplies and Equipment. .........................................................................................  
+41 
+9.3. 
+Medical Equipment Maintenance and Repair. .........................................................  
+41 
+9.4. 
+Equipment Upgrades and Modernization. ...............................................................  
+41 
+Chapter 10—DOMESTIC CIVIL SUPPORT OPERATIONS 
+ 
+42 
+10.1. 
+Expeditionary Ground Medical Support in Domestic Disasters and Emergencies. .  
+42 
+10.2. 
+Defense Support of Civil Authorities (DSCA) Response Packages. .......................  
+42 
+10.3. 
+CBRN Response Force. ...........................................................................................  
+42 
+Chapter 11—FOREIGN HUMANITARIAN ASSISTANCE AND STABILITY 
+OPERATIONS 
+ 
+43 
+11.1. 
+Mission. ...................................................................................................................  
+43 
+Figure 11.1. 
+Notional EMEDS Response. ....................................................................................  
+43 
+11.2. 
+Support Capabilities. ................................................................................................  
+43 
+11.3. 
+Operational Assumptions. ........................................................................................  
+43 
+11.4. 
+Medical Planning Factors. .......................................................................................  
+44 
+11.5. 
+Command Relationships. .........................................................................................  
+45 
+11.6. 
+Standard of Care. .....................................................................................................  
+45 
+11.7. 
+Patient Movement. ...................................................................................................  
+45 
+11.8. 
+Interoperability with Host Nation and Partner Providers. ........................................  
+45 
+11.9. 
+Blood Supply. ..........................................................................................................  
+45 
+11.10. Property Donation. ...................................................................................................  
+45 
+Attachment 1—GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+46 
+Attachment 2—EXPEDITIONARY COMBAT SUPPORT REQUIREMENTS 
+ 
+52 
+Attachment 3—EMEDS HRT LAYOUT 
+ 
+56 
+Attachment 4—EMEDS HRT POWER GRID 
+ 
+57 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+5 
+Attachment 5—EMEDS HRT NETWORK CONFIGURATION 
+ 
+58 
+Attachment 6—EMEDS+10 LAYOUT 
+ 
+59 
+Attachment 7—EMEDS+10 POWER GRID 
+ 
+60 
+Attachment 8—EMEDS+10 NETWORK CONFIGURATION 
+ 
+61 
+Attachment 9—EMEDS+25 LAYOUT 
+ 
+62 
+Attachment 10—EMEDS+25 POWER GRID 
+ 
+63 
+Attachment 11—EMEDS+25 NETWORK CONFIGURATION 
+ 
+64 
+Attachment 12—EMEDS HRT LAB SUPPLIES AND TESTING CAPABILITIES 
+ 
+65 
+Attachment 13—EMEDS+10 LAB SUPPLIES AND TESTING CAPABILITIES 
+ 
+66 
+Attachment 14—EMEDS+25 AND AFTH LAB SUPPLIES AND TESTING 
+CAPABILITIES 
+ 
+68 
+Attachment 15—EMEDS COMMANDER PRE-DEPLOYMENT AND POST ARRIVAL 
+CHECKLIST 
+ 
+70 
+ 
+6 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+Chapter 1 
+INTRODUCTION 
+1.1.  Purpose.  This publication provides general operational and planning guidance for the 
+Expeditionary Medical Support (EMEDS) and Air Force Theater Hospital (AFTH) platforms.  It 
+provides a source document for developing standardized policies, operating procedures, training 
+programs, and allowance standards.  Operation plans and regional guidance provide mission-
+specific information that amplify and tailor the guidance contained in this publication. 
+1.2.  Background.  The EMEDS platform delivers light, lean, and life-saving medical support to 
+deployed forces through the full range of military operations.  EMEDS deploys in capability-based 
+modules composed of personnel and equipment unit type code (UTC) building blocks.  EMEDS 
+modules are sized to provide the appropriate level of health service support and force health 
+protection for each phase of an operation while balancing resource, time, and transportation 
+constraints.  Each EMEDS module provides an incremental and interoperable buildup of capability 
+that can be tailored on execution.  Since its inception, the EMEDS platform has been the Air Force 
+Medical Service’s (AFMS) main deployable medical asset for a variety of ground-based 
+contingencies to include combat support operations, domestic disaster relief, and global 
+humanitarian crisis assistance. 
+1.3.  EMEDS Configuration Updates.  EMEDS capabilities continuously evolve based on 
+national defense strategies, Air Force strategic direction, combatant command requirements, 
+programmed lifecycle reviews, and lessons learned from real-world operations.  Key configuration 
+changes from previous versions include the following: 
+1.3.1.  FFGST, Ground Surgical Team, replaces personnel UTCs FFMFS, Mobile Field 
+Surgical Team, and FFEP1, Critical Care Team, in the EMEDS Health Response Team (HRT) 
+module.  A second Ground Surgical Team is added in the EMEDS+25 module, replacing 
+FFEP5, Surgical Augmentation Team.  Several positions were shifted to other EMEDS UTCs.  
+See Chapter 2, EXPEDITIONARY GROUND MEDICAL SUPPORT CAPABILITIES, 
+for more information on the composition of each module. 
+1.3.2.  EMEDS equipment from FFMF1, Mobile Field Surgical Equipment, and FFEPE, 
+Critical Care Equipment, moved to FFHR1, EMEDS HRT Equipment.  A separate equipment 
+set (FFGS1, Ground Surgical Equipment) was developed to support ground surgical teams that 
+have a stand-alone mission in austere environments.  FFGS1 is separate and distinct from the 
+EMEDS equipment set.  See AFTTP 3-42.77, Ground Surgical Team (GST), for more 
+information on the ground surgical team’s stand-alone capabilities. 
+1.3.3.  The transition to the EMEDS HRT equipment set is complete to include adoption of 
+shelters with chemical and biological collective protection infused into the fabric (single-skin 
+shelters). 
+1.3.4.  Key equipment changes to the allowance standards since the last program review 
+include modernization of the digital radiation system, sterilizer, and defibrillators. 
+1.3.5.  The baseline configuration for the deployable AFTH has changed from 58 beds to 87 
+based on the revised Medical Resourcing Letter (MRL).  Several specialty UTCs were 
+combined to simplify planning and minimize the number of single-person UTCs. 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+7 
+1.4.  Medical Threat Environment.  The health threat to bed-down populations varies 
+considerably within the range of military operations.  Disease and injury resulting from the total 
+force environment (such as endemic disease, food and water contamination, environmental 
+extremes, hazardous exposures, and occupational accidents) have historically accounted for the 
+majority of hospitalizations in deployed environments (Source:  Joint Publication [JP] 4-02, Joint 
+Health Services).  The current National Defense Strategy and supporting Joint and Air Force 
+doctrine outline a security environment marked by complex interactions between a rapidly 
+changing global balance of military capabilities, emerging technologies, and competitor doctrines 
+that threaten strategic stability.  Strategic competitors and non-state actors possess the means, 
+ranging from cyber tools to weapons of mass destruction, to disrupt operations and inflict scalable 
+harm to deployed forces.  A key impact for medical support is that the range, quantity, and lethality 
+of these systems threaten the U.S. network of fixed forward bases, putting at risk the traditional 
+continuum of care.  Besides treating routine illness and injury, expeditionary ground medical 
+facilities could encounter potentially larger casualty streams and patients exposed to chemical, 
+biological, radiological, and nuclear (CBRN) agents, directed energy weapons, and other offensive 
+capabilities. 
+1.4.1.  Disease and injury induced by operational conditions are a consistent threat to air 
+expeditionary forces.  This threat varies depending on endemic disease, climate, terrain, 
+socioeconomic conditions, and other occupational and environmental health hazards 
+associated with the deployed environment.  Managing this threat involves a combination of 
+preventative medicine, theater epidemiology, diagnostics, proper sanitation and waste 
+management, and medical intelligence data. 
+1.4.2.  Conventional and unconventional weapons have the potential to inflict varying degrees 
+of trauma, damage or destruction of critical equipment, systems, and infrastructure, and 
+widespread collateral damage.  A strike can come with little to no warning, producing a 
+casualty stream that quickly overwhelms the medical facility.  Airfield battle damage could 
+drive longer patient hold times.  Effective traumatic injury therapy relies on equipment and 
+techniques that meet the current standard of care, access to advanced diagnostic and testing 
+capabilities, real-time telemedicine support, and patient movement support. 
+1.4.3.  The release of CBRN agents has the potential to significantly burden or overwhelm the 
+medical system.  These agents can cause early clinical symptoms that mimic routine medical 
+conditions and delay detection.  Physically healthy personnel fearing possible exposure might 
+overwhelm the medical treatment facility to seek treatment (known as worried well).  These 
+incidents could force personnel to operate in a restrictive, protective environment for days.  
+Platforms and materiel might become contaminated and present a health risk to personnel or 
+cross-contamination risk.  Managing this threat involves an overarching and robust force health 
+protection strategy that includes passive defense, surveillance, detection, identification, and 
+consequence management.  Effective treatment requires appropriate supply levels and medical 
+support personnel, ability to process tests and data rapidly, access to medical intelligence and 
+information management systems, advanced diagnostic capabilities, real-time telemedicine 
+support, and patient movement support. 
+8 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+Chapter 2 
+EXPEDITIONARY GROUND MEDICAL SUPPORT CAPABILITIES 
+2.1.  Mission.  The EMEDS platform provides individual bed-down and theater-level medical 
+services for deployed forces and select population groups.  The primary mission is to provide 
+essential health service support, force health protection, and stabilization to ensure a fit and healthy 
+force, optimize return to duty, and improve survivability.  Core capabilities include forward 
+resuscitative care, primary care, dental services, and preventive medicine.  Its modular and scalable 
+design allows the Air Force to deploy medical capabilities ranging from small teams that provide 
+highly skilled medical care for a small number of casualties to a large medical system that can 
+provide specialized care to a population at risk over 6,500.  EMEDS capabilities are grouped into 
+distinct medical support packages that provide an incremental buildup of capability:  EMEDS 
+HRT, EMEDS+10, and EMEDS+25.  AFTHs are built by adding medical specialty and support 
+UTCs to an EMEDS+25 foundation. 
+2.2.  Scope of Care.  Expeditionary ground medical facilities provide essential care focused on 
+treating casualties for return to duty or stabilization for movement to a higher level of care.  
+Deployed medical facilities normally do not provide definitive care, such as reconstructive 
+surgery, rehabilitation, or convalescent care. 
+2.3.  Planning Assumptions.  The EMEDS platform provides a rapidly deployable, tailored 
+medical response designed to minimize forward footprint and airlift requirements.  Medical 
+support requirements for a deployed location are based on several factors such as patient 
+population, anticipated force health protection threats, projected patient streams, and strategic 
+airlift availability.  Configuration of medical support packages, estimated operational timelines, 
+and other employment concepts are based on the following planning assumptions. 
+• 
+Transportation is available to move personnel, equipment, and supplies. 
+• 
+Expeditionary Combat Support (ECS) or base operating support (BOS) is available.  
+• 
+The patient population consists of military personnel, emergency essential civilians and 
+contractors, additive forces, and mobilization augmentees on base. 
+• 
+Local nationals are not factored into the population at risk.  In humanitarian assistance, 
+disaster relief, and stability operations, patient throughput projections are based on estimated 
+injury and regional disease rates. 
+• 
+The supported U.S. military population has received pre-deployment medical screening, 
+prophylaxis, immunizations, Tactical Combat Casualty Care (TCCC) training, and applicable 
+reporting instructions. 
+• 
+Military personnel are either returned to duty or evacuated in accordance with theater 
+policy. 
+• 
+In humanitarian assistance, disaster relief, and stability operations, medical personnel 
+coordinate movement of civilian patients with host nation and local hospitals. 
+• 
+Members deploy with, or have pre-positioned, adequate chemical warfare defense 
+ensembles in accordance with reporting instructions. 
+2.4.  EMEDS Health Response Team (HRT).  EMEDS HRT is the first increment of EMEDS 
+capability.  It provides Role 2E capabilities for a population at risk up to 3,000.  EMEDS HRT is 
+equipped to stabilize and hold 4 patients for 24 hours.  Core capabilities generally include medical 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+9 
+command and control, health administration, medical logistics, health information systems 
+management, damage control surgery and resuscitation, surgical and post-operative critical care, 
+flight medicine, dental, bioenvironmental engineering, and public health.  Specialty care 
+capabilities typically include internal medicine, obstetrics/gynecology (OB/GYN), and pediatrics.  
+Designed for rapid response, EMEDS HRT can deploy within 24 hours of notification and quickly 
+establish essential medical capabilities upon arrival:  emergency room within 2 hours, operating 
+room within 4 hours, and critical care within 6 hours.  It can reach full operational capability within 
+12 hours of arrival.  EMEDS HRT typically supports the early phases of military operations in 
+austere environments and requires reinforcement of personnel and equipment after 10 days.  Table 
+2.1 provides the personnel details and Table 2.2 lists the equipment packages for the EMEDS 
+HRT module. 
+Table 2.1.  EMEDS HRT Personnel. 
+Title 
+AFSC 
+SEI 
+Grade 
+Quantity 
+FFEP2, Medical Command and Control Team 
+Medical Commander 
+040C0 
+ 
+06 
+1 
+Health Services Administrator 
+041A3 
+ 
+04 
+1 
+Group Superintendent 
+9G100 
+ 
+ 
+1 
+Health Services Management Craftsman 
+4A071S 
+264 
+ 
+1 
+Medical Materiel Craftsman 
+4A171 
+ 
+ 
+1 
+Biomedical Equipment Craftsman 
+4A271 
+ 
+ 
+1 
+Total UTC Personnel 
+ 
+ 
+ 
+6 
+FFEP6, Clinical and Ancillary Support 
+Pharmacist 
+043P3 
+ 
+04 
+1 
+Critical Care Physician 
+044Y3 
+ 
+04 
+1 
+Orthopedic Surgeon 
+045B3 
+ 
+04 
+1 
+Clinical Nurse 
+046N3 
+ 
+04 
+1 
+Respiratory Care Practitioner Craftsman 
+4H071 
+ 
+ 
+1 
+Aerospace Medical Service Craftsman 
+4N071 
+ 
+ 
+4 
+Diagnostic Imaging Craftsman 
+4R071 
+ 
+ 
+1 
+Total UTC Personnel 
+ 
+ 
+ 
+10 
+FFF0C, Dental Team 
+Dentist, Comprehensive 
+047G3A 
+ 
+04 
+1 
+Dental Assistant Craftsman 
+4Y071 
+ 
+ 
+1 
+Total UTC Personnel 
+ 
+ 
+ 
+2 
+FFGST, Ground Surgical Team 
+Health Services Administrator 
+041A3 
+ 
+04 
+1 
+Emergency Medicine Specialist 
+044E3A 
+ 
+04 
+1 
+Anesthesiologist 
+045A3 
+ 
+04 
+1 
+Surgeon 
+045S3 
+ 
+04 
+1 
+Critical Care Nurse 
+046N3E 
+ 
+04 
+1 
+Surgical Technologist Craftsman 
+4N171 
+ 
+ 
+1 
+Total UTC Personnel 
+ 
+ 
+ 
+6 
+FFPM1, Preventive and Aerospace Medicine (PAM) Advanced Echelon (ADVON) Team 
+Aerospace Medicine Physician Specialist 
+048A3 
+ 
+05 
+1 
+10 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+Title 
+AFSC 
+SEI 
+Grade 
+Quantity 
+Bioenvironmental Engineer 
+043E3A 
+ 
+04 
+1 
+Public Health Officer 
+043H3 
+ 
+04 
+1 
+Aerospace Medical Service Craftsman, 
+Independent Duty Medical Technician 
+(IDMT) 
+4N071C 
+ 
+ 
+1 
+Total UTC Personnel 
+ 
+ 
+ 
+4 
+FFPM2, PAM Team 2 (Optional) 
+Bioenvironmental Engineering Craftsman 
+4B071 
+ 
+ 
+1 
+Public Health Craftsman 
+4E071 
+ 
+ 
+1 
+Total UTC Personnel 
+ 
+ 
+ 
+2 
+FFDAB, Flight Medicine Team 
+Note:  Typically supports flying operations.  FFPCM can substitute for this UTC for non-
+combat missions. 
+Residency Trained Flight Surgeon 
+048R3 
+ 
+04 
+1 
+Aerospace Medical Service Craftsman, 
+Flight and Operational Medical 
+Technician 
+4N071F 
+ 
+ 
+1 
+Aerospace Medical Service Journeyman, 
+Flight and Operational Medical 
+Technician 
+4N051F 
+ 
+ 
+1 
+Total UTC Personnel 
+ 
+ 
+ 
+3 
+FFPCM, Primary Care Team 
+Note:  Deploys in place of FFDAB when flight medicine specialty is not required. 
+Family Physician 
+044F3 
+ 
+04 
+1 
+Aerospace Medical Service Craftsman 
+4N071 
+ 
+ 
+1 
+Aerospace Medical Service Journeyman 
+4N051 
+ 
+ 
+1 
+Total UTC Personnel 
+ 
+ 
+ 
+3 
+FFP01, Specialty Care Team 
+Internist 
+044M3 
+ 
+04 
+1 
+Pediatrician 
+044K3 
+ 
+04 
+1 
+Obstetrician/Gynecologist 
+045G3 
+ 
+04 
+1 
+Clinical Nurse, Obstetrics 
+046N3G 
+ 
+03 
+1 
+Aerospace Medical Service Craftsman 
+4N071 
+ 
+ 
+1 
+Aerospace Medical Service Journeyman 
+4N051 
+ 
+ 
+2 
+Total UTC Personnel 
+ 
+ 
+ 
+7 
+Total EMEDS HRT Personnel 
+ 
+ 
+ 
+40 
+Note: Air Force Specialty Code (AFSC), grade, and skill-level substitutions are in accordance 
+with the War and Mobilization Plan, Volume 1 (WMP-1), Enclosure F, Medical Supplement, 
+unless specified otherwise in the mission capability statement. 
+Table 2.2.  EMEDS HRT Equipment. 
+Title 
+Allowance Standard 
+Quantity 
+FFHR1, EMEDS HRT Equipment 
+938P 
+1 
+FFP0E, Specialty Care Equipment 
+917R 
+1 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+11 
+Title 
+Allowance Standard 
+Quantity 
+FFPM4, PAM ADVON Equipment 
+916E 
+1 
+FFPM5, PAM Sustainment Equipment 
+916F 
+1 
+FFEE4, EMEDS HRT Resupply 
+938D 
+2 
+2.5.  EMEDS+10.  EMEDS+10 is the second increment of EMEDS capability.  It provides Role 
+2E capabilities for a population at risk of 3,000-5,000.  EMEDS+10 maintains a similar scope of 
+care as EMEDS HRT with increased staffing, holding capacity, diagnostic capabilities, and 
+medical materiel to support a larger population.  It can hold 10 patients (4 critical) for 24 hours.  
+Added capabilities include advanced cardiac life support, advanced trauma life support, oxygen 
+generation, lab, and limited blood banking.  When deployed as a whole module, EMEDS+10 can 
+reach full operational capability within 36 hours of arrival.  Table 2.3 provides the personnel 
+details and Table 2.4 lists the equipment for the EMEDS+10 module. 
+Table 2.3.  EMEDS+10 Personnel. 
+Title 
+AFSC 
+SEI 
+Grade 
+Quantity 
+FFEP3, EMEDS+10 Personnel Package 
+Physician Assistant 
+042G3 
+ 
+04 
+1 
+Critical Care Nurse 
+046N3E 
+ 
+04 
+1 
+Clinical Nurse 
+046N3 
+ 
+04 
+1 
+Residency Trained Flight Surgeon 
+048R3 
+ 
+04 
+1 
+Emergency Trauma Nurse 
+046N3J 
+ 
+03 
+1 
+Clinical Nurse 
+046N3 
+ 
+03 
+2 
+Operating Room Nurse 
+046S3 
+ 
+03 
+1 
+Health Services Management Craftsman 
+4A071 
+ 
+ 
+1 
+Health Services Management Journeyman 
+4A051 
+ 
+ 
+1 
+Medical Materiel Journeyman 
+4A151 
+ 
+ 
+1 
+Biomedical Equipment Journeyman 
+4A251 
+ 
+ 
+1 
+Aerospace Medical Service Craftsman 
+4N071 
+ 
+ 
+2 
+Aerospace Medical Service Journeyman 
+4N051 
+ 
+ 
+8 
+Medical Laboratory Craftsman 
+4T071 
+ 
+ 
+1 
+Total UTC Personnel 
+ 
+ 
+ 
+23 
+FFPM3, PAM Team 3 
+Bioenvironmental Engineering 
+Journeyman 
+4B051 
+ 
+ 
+2 
+Public Health Journeyman 
+4E051 
+ 
+ 
+1 
+Total UTC Personnel 
+ 
+ 
+ 
+3 
+EMEDS+10 Added Personnel 
+ 
+ 
+ 
+26 
+EMEDS HRT Personnel 
+Includes:  FFEP2, FFEP6, FFF0C, 
+FFGST, FFPM1, FFPM2, FFDAB (or 
+FFPCM), FFP01 
+ 
+ 
+ 
+40 
+Total EMEDS+10 Personnel 
+ 
+ 
+ 
+66 
+12 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+Title 
+AFSC 
+SEI 
+Grade 
+Quantity 
+Note: Air Force Specialty Code (AFSC), grade, and skill-level substitutions are in accordance 
+with the War and Mobilization Plan, Volume 1 (WMP-1), Enclosure F, Medical Supplement, 
+unless specified otherwise in the mission capability statement. 
+Table 2.4.  EMEDS+10 Equipment. 
+Title 
+Allowance Standard 
+Quantity 
+FF0X2, Deployable Oxygen Generation 
+Package 
+903A 
+1 
+FFEE2, EMEDS+10 Equipment 
+938B 
+1 
+FFEE5, EMEDS+10 Resupply 
+938E 
+2 
+Requires EMEDS HRT Equipment (FFHR1, FFP0E, FFPM4, FFPM5, FFEE4) 
+2.6.  EMEDS+25.  EMEDS+25 is the third increment of EMEDS capability.  It provides Role 2E 
+capabilities for a population at risk of 5,000-6,500.  It builds on the capabilities of EMEDS+10 
+with increased capacity for patient holding, medical/surgical care, emergency/trauma care, dental 
+care, ancillary services, mental health, and health services support functions.  EMEDS+25 can 
+hold 25 patients (4 critical) for 24 hours and support 20 damage control surgical interventions or 
+trauma resuscitations.  Added capabilities include basic physical therapy, nutritional medicine, 
+comprehensive laboratory procedures, and basic microbiology.  When deployed as a whole 
+module, EMEDS+25 can reach full operational capability within 60 hours of arrival.  Table 2.5 
+provides the personnel details and Table 2.6 lists the equipment for the EMEDS+25 module. 
+Table 2.5.  EMEDS+25 Personnel. 
+Title 
+AFSC 
+SEI 
+Grade 
+Quantity 
+FFBH1, Behavioral Health Rapid Response Team-Psychologist 
+Clinical Psychologist 
+042P3 
+ 
+04 
+1 
+Mental Health Service Craftsman 
+4C071 
+ 
+ 
+1 
+Total UTC Personnel 
+ 
+ 
+ 
+2 
+FFBH2, Behavioral Health Rapid Response Team-Social Worker 
+Clinical Social Worker 
+042S3 
+ 
+04 
+1 
+Mental Health Service Craftsman 
+4C071 
+ 
+ 
+1 
+Total UTC Personnel 
+ 
+ 
+ 
+2 
+FFEP4, EMEDS+25 Personnel Package 
+Nursing Administrator 
+046A3 
+ 
+05 
+1 
+Physical Therapist 
+042B3 
+ 
+04 
+1 
+Emergency Trauma Nurse 
+046N3J 
+ 
+04 
+1 
+Clinical Nurse 
+046N3 
+ 
+04 
+1 
+Operating Room Nurse 
+046S3 
+ 
+04 
+1 
+Family Nurse Practitioner 
+046Y3H 
+ 
+04 
+1 
+Biomedical Laboratory Scientist 
+043T3A 
+ 
+03 
+1 
+Clinical Nurse 
+046N3 
+ 
+03 
+2 
+Health Services Management Journeyman 
+4A051 
+ 
+ 
+3 
+Medical Materiel Journeyman 
+4A151 
+ 
+ 
+1 
+Diet Therapy Craftsman 
+4D071 
+ 
+ 
+1 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+13 
+Title 
+AFSC 
+SEI 
+Grade 
+Quantity 
+Aerospace Medical Service 
+Superintendent 
+4N091 
+ 
+ 
+1 
+Aerospace Medical Service Craftsman 
+4N071 
+ 
+ 
+2 
+Aerospace Medical Service Journeyman 
+4N051 
+ 
+ 
+3 
+Surgical Technologist Journeyman 
+4N151 
+ 
+ 
+1 
+Pharmacy Craftsman 
+4P071 
+ 
+ 
+1 
+Diagnostic Imaging Journeyman 
+4R051 
+ 
+ 
+1 
+Medical Laboratory Journeyman 
+4T051 
+ 
+ 
+1 
+Total UTC Personnel 
+ 
+ 
+ 
+24 
+FFF0C, Dental Team 
+Dentist, Comprehensive 
+047G3A 
+ 
+04 
+1 
+Dental Assistant Craftsman 
+4Y071 
+ 
+ 
+1 
+Total UTC Personnel 
+ 
+ 
+ 
+2 
+FFGST, Ground Surgical Team 
+Health Services Administrator 
+041A3 
+ 
+04 
+1 
+Emergency Medicine Specialist 
+044E3A 
+ 
+04 
+1 
+Anesthesiologist 
+045A3 
+ 
+04 
+1 
+Surgeon 
+045S3 
+ 
+04 
+1 
+Critical Care Nurse 
+046N3E 
+ 
+04 
+1 
+Surgical Technologist Craftsman 
+4N171 
+ 
+ 
+1 
+Total UTC Personnel 
+ 
+ 
+ 
+6 
+EMEDS+25 Added Personnel 
+ 
+ 
+ 
+36 
+EMEDS+10 Personnel 
+Includes:  FFEP3, FFPM3 
+ 
+ 
+ 
+26 
+EMEDS HRT Personnel 
+Includes:  FFEP2, FFEP6, FFF0C, 
+FFGST, FFPM1, FFPM2, FFDAB (or 
+FFPCM), FFP01 
+ 
+ 
+ 
+40 
+Total EMEDS+25 Personnel 
+ 
+ 
+ 
+102 
+Note: Air Force Specialty Code (AFSC), grade, and skill-level substitutions are in accordance 
+with the War and Mobilization Plan, Volume 1 (WMP-1), Enclosure F, Medical Supplement, 
+unless specified otherwise in the mission capability statement. 
+Table 2.6.  EMEDS+25 Equipment. 
+Title 
+Allowance Standard 
+Quantity 
+FF0X2, Deployable Oxygen Generation 
+Package 
+903A 
+1 
+FFBHS, Behavioral Health Small Equipment 
+Package 
+917B 
+2  
+FFEE3, EMEDS+25 Equipment 
+938C 
+1 
+FFEE6, EMEDS+25 Resupply 
+938F 
+2 
+Requires EMEDS+10 Equipment (FF0X2, FFEE2, FFEE5) and EMEDS HRT Equipment 
+(FFHR1, FFP0E, FFPM4, FFPM5, FFEE4) 
+14 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+2.7.  Air Force Theater Hospital (AFTH).  AFTHs provide dedicated in-theater and en-route 
+Role 3 medical support to a population at risk of 6,500 and above.  They are usually located at 
+strategic air hubs to facilitate patient movement to definitive care facilities in the continental 
+United States (CONUS) and designated facilities outside the continental United States 
+(OCONUS).  Deployable AFTHs are built by adding medical support and expansion UTCs to an 
+EMEDS+25 foundation.  AFTH expansion packages are modular and can be added in multiple 
+sets to expand medical ward capability in 25-bed increments, critical care capability in 4-bed 
+increments, and operating room capability in 2-bed increments.  Medical and surgical 
+subspecialties can be added as needed.  AFTHs are the largest of the Air Force deployed ground 
+medical facilities.  The baseline configuration starts at 87 beds, which includes 75 medical/surgical 
+beds and 16 critical care beds.  It has 3 operating rooms and 6 operating tables.  Table 2.7 lists the 
+personnel and equipment UTCs typically included in an 87-bed AFTH. 
+Table 2.7.  87-Bed AFTH Buildup. 
+UTC 
+Title 
+Personnel Allowance 
+Standard 
+Quantity 
+Ambulance Services 
+FFAMB 
+Ambulance Equipment 
+ 
+937N 
+2 
+FFGLE 
+Ambulance Support Team 
+13 
+ 
+1 
+Ancillary Services 
+FFAN1 
+Ancillary Medical Equipment 
+ 
+885H 
+1 
+FFANC 
+Ancillary Medical Support Team 
+6 
+ 
+1 
+FFD01 
+Optometry Equipment 
+ 
+917Q 
+1 
+FFHAG 
+CT Scan Equipment 
+ 
+885G 
+1 
+FFRA5 
+Radiology Equipment 
+ 
+885J 
+1 
+FFRAD 
+Radiology Team 
+6 
+ 
+1 
+Behavioral Health 
+FFBH3 
+Behavioral Health Rapid Response 
+Team-Psychiatrist 
+2 
+ 
+1 
+FFBH6 
+Behavioral Health Rapid Response 
+Team-Psychiatric Mental Health Nurse 
+Practitioner 
+2 
+ 
+1 
+FFBHE 
+Behavioral Health Equipment 
+ 
+917A 
+1 
+FFBHS 
+Behavioral Health Small Equipment 
+Package 
+ 
+917B 
+4 
+Blood Support 
+FFLB1 
+Expeditionary Blood Support Center 
+Equipment 
+ 
+893C 
+1 
+FFLBB 
+Expeditionary Blood Support Center 
+Team 
+6 
+ 
+1 
+Critical Care 
+FFCC1 
+Intensive Care Equipment 
+ 
+885I 
+3 
+FFCCU 
+4-Bed Intensive Care Unit 
+12 
+ 
+1 
+FFCCV 
+4-Bed Intensive Care Expansion Team 
+8 
+ 
+2 
+Dentistry 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+15 
+UTC 
+Title 
+Personnel Allowance 
+Standard 
+Quantity 
+FFF0C 
+Dental Team 
+2 
+ 
+2 
+FFF0E 
+Dental Equipment 
+ 
+917I 
+1 
+Emergency Medicine 
+FFEDT 
+Emergency Medicine Team 
+3 
+ 
+1 
+General Surgery and Surgical Subspecialties 
+FFEES 
+Hospital Surgical Expansion Package 
+ 
+885A 
+2 
+FFENM 
+Head and Neck Surgical Team 
+8 
+ 
+1 
+FFEST 
+Surgical Expansion Team 
+19 
+ 
+1 
+FFET1 
+Otorhinolaryngology (ENT) Equipment  
+917E 
+1 
+FFEY1 
+Ophthalmology Equipment 
+ 
+917F 
+1 
+FFGKQ 
+Thoracic/Vascular Surgical Equipment 
+ 
+917G 
+1 
+FFGY1 
+Gynecology Equipment 
+ 
+917L 
+1 
+FFGYN 
+Gynecology Team 
+5 
+ 
+1 
+FFMA1 
+Oral Surgery Equipment 
+ 
+917P 
+1 
+FFNE1 
+Neurosurgical Equipment 
+ 
+917D 
+1 
+FFPP1 
+Urology Equipment 
+ 
+917H 
+1 
+FFPPT 
+AFTH Surgical Team 
+14 
+ 
+1 
+Infectious Disease Control 
+FFHA2 
+Infectious Disease Team 
+3 
+ 
+1 
+FFHAF 
+Infectious Disease Equipment 
+ 
+902J 
+1 
+Medical Ward 
+FFEEW 
+Hospital Medical Expansion Package 
+ 
+885B 
+2 
+FFEW1 
+Hospital Expansion Support Team – 
+Increment 1 
+27 
+ 
+1 
+FFEW2 
+Hospital Expansion Support Team – 
+Increment 2 
+21 
+ 
+1 
+Oxygen Delivery 
+FF0X2 
+Deployable Oxygen Generation System  
+903A 
+2 
+Optometry, Occupational Therapy, and Physical Therapy 
+FF00P 
+Optometry, OT, and PT Team 
+6 
+ 
+1 
+Pediatrics 
+FFPE1 
+Pediatric Equipment 
+ 
+917C 
+1 
+FFPED 
+Pediatric Module 
+8 
+ 
+1 
+Medical Command, Administration, and Quality Management 
+FFAAT 
+Medical Management Support Team 
+6 
+ 
+1 
+Medical Logistics 
+FFFDT 
+Forward Distribution Medical Logistics 
+Team 
+14 
+ 
+1 
+Medical Information Systems Management 
+FFSYS 
+Medical Systems Support Team 
+3 
+ 
+1 
+Total Personnel Added 
+204 
+ 
+ 
+16 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+UTC 
+Title 
+Personnel Allowance 
+Standard 
+Quantity 
+EMEDS+25 Module 
+FFBH1, FFBH2, FFEP4, FFF0C, FFGST, 
+FF0X2, FFEE3, FFEE6 
+36 
+ 
+ 
+EMEDS+10 Module 
+FFEP3, FFPM3, FF0X2, FFEE2, FFEE5 
+26 
+ 
+ 
+EMEDS HRT Module 
+FFEP2, FFEP6, FFF0C, FFGST, FFPM1, 
+FFPM2, FFDAB (or FFPCM), FFP01, FFHR1, 
+FFPM4, FFPM5, FFP0E, FFEE4 
+40 
+ 
+ 
+Total Personnel 87-Bed AFTH 
+306 
+ 
+ 
+2.8.  Consequence Management and Crisis Response Support.  Specialty consequence 
+management and crisis response packages are available to provide EMEDS facilities with 
+expanded capabilities tailored to a specific contingency.  Examples include CBRN casualty 
+management and prevention, mental health and stress management, and infectious disease control.  
+Table 2.8 lists the available UTCs. 
+Table 2.8.  Consequence Management and Crisis Response Capabilities. 
+UTC 
+Name 
+Reference 
+CBRN Health Protection and Consequence Management 
+FFPM6 
+PAM Counter-CBRN Team 
+AFTTP 3-42.23, 
+Preventive and 
+Aerospace Medicine 
+(PAM) Team 
+FFPM7 
+PAM Counter-CBRN Equipment 
+FFBA1 
+Biological Augmentation Equipment 
+FFGLB 
+Expeditionary Medical Decontamination 
+Team 
+AFTTP 3-42.33, 
+Expeditionary Medical 
+Decontamination Team 
+FFGLC 
+Expeditionary Medical Decontamination 
+Equipment 
+FFNR1 
+Nuclear/Radiological (Nuc/Rad) 
+Incidence Response Team 
+AFTTP 3-42.34, Air 
+Force Radiation 
+Assessment Team 
+(AFRAT) 
+FFNR2 
+Nuc/Rad Surveillance Team 
+FFNR4 
+Nuc/Rad Laboratory Team 
+FFNR6 
+Nuc/Rad Dosimetry Team 
+FFNR8 
+Nuc/Rad Tactical Command and Control 
+(C2) Support Team 
+FFNR9 
+Nuc/Rad Response Liaison Team 
+FFNRB 
+AFRAT Lab Equipment 
+FFNRC 
+AFRAT Dosimetry Equipment 
+FFNRD 
+AFRAT Surveillance Equipment 
+Contagious Casualty Management 
+FFHA2 
+Infectious Disease Team 
+AFTTP 3-42.22, 
+Contagious Casualty 
+Management 
+FFHAF 
+Infectious Disease Equipment 
+FFCCM 
+Contagious Casualty Management 
+Equipment 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+17 
+UTC 
+Name 
+Reference 
+FFEES 
+Hospital Medical Expansion Package 
+FFEW1 
+Hospital Expansion Support Team – 
+Increment 1 
+FFEW2 
+Hospital Expansion Support Team – 
+Increment 2 
+Mental Health and Combat Stress Management Support 
+FFBH1 
+Behavioral Health Rapid Response 
+Team-Psychologist 
+AFTTP 3-42.78, Medical 
+Behavioral Health Teams 
+ 
+FFBH2 
+Behavioral Health Rapid Response 
+Team-Social Worker 
+FFBH3 
+Behavioral Health Rapid Response 
+Team-Psychiatrist 
+FFBH4 
+Behavioral Health Rapid Response 
+Team-Nurse 
+FFBH5 
+Behavioral Health Rapid Response 
+Team-Enlisted 
+FFBH6 
+Behavioral Health Rapid Response 
+Team-Psychiatric Mental Health Nurse 
+Practitioner 
+FFBHE 
+Behavioral Health Equipment 
+FFBHS 
+Behavioral Health Small Equipment 
+Package 
+Note:  Referenced AFTTPs not available on the Air Force E-Publishing site are available on 
+the AFMS Knowledge Exchange at:  
+https://kx.health.mil/kj/kx3/Doctrine/Pages/doctrine_hierarchy_chart.aspx  
+2.9.  Collectively Protected EMEDS (CP-EMEDS).  CP-EMEDS provides the equipment to 
+chemically and biologically harden an EMEDS facility.  When properly configured and 
+maintained, it allows up to 72 hours of continued, enclosed operations following a chemical or 
+biological incident.  These equipment sets can be added to any EMEDS configuration deploying 
+to areas with a CBRN threat.  CP-EMEDS equipment consists of chemically hardened 
+environmental control units, filtered air blowers, airlocks, pressure alarms, and a water distribution 
+system.  The water distribution system provides potable water flow and wastewater recovery to all 
+areas of the medical facility.  It requires ECS/BOS for potable water supply and wastewater 
+disposal.  EMEDS shelters have a chemical-biological barrier infused into the fabric (single-skin 
+protection).  See the UTS Systems Expeditionary Medical Support (EMEDS) Single Skin 
+Operators Manual for instructions on shelter assembly and maintenance.  This document and other 
+reference materials are available on the Air Combat Command Surgeon (ACC/SG) Ground 
+Medical UTC Management website’s Biomedical Equipment and Logistics page at 
+https://usaf.dps.mil/sites/12173/SitePages/BMET.aspx or by request from the ACC/SGXM 
+Ground Medical UTC Management Branch (acc.sgxm@us.af.mil).  Table 2.9 lists the CP-
+EMEDS components for each EMEDS module. 
+18 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+Table 2.9.  CP-EMEDS Equipment Sets. 
+Module 
+UTC 
+Allowance 
+Standard 
+Quantity 
+EMEDS HRT 
+FFCP1, CP 1 Tent with Airlock 
+948H 
+1 
+FFCP2, CP 4-Tent with Airlock and Latrine 
+948I 
+1 
+FFCP5, CP 1 Tent (for water distribution 
+system) 
+948L 
+1 
+FFWDS, Medical Water Distribution System 
+938M 
+1 
+EMEDS+10 
+FFCP1, CP 1 Tent with Airlock 
+948H 
+1 
+FFCP2, CP 4-Tent with Airlock and Latrine 
+948I 
+1 
+FFCP3, CP 3-Tent with Airlock 
+948J 
+1 
+FFCP5, CP 1 Tent (for water distribution 
+system) 
+948L 
+1 
+FFWDS, Medical Water Distribution System 
+938M 
+1 
+EMEDS+25 
+FFCP1, CP 1 Tent with Airlock 
+948H 
+1 
+FFCP2, CP 4-Tent with Airlock and Latrine 
+948I 
+1 
+FFCP3, CP 3-Tent with Airlock 
+948J 
+1 
+FFCP4, CP 3-Tent with Airlock and Latrine 
+948K 
+1 
+FFCP5, CP 1 Tent (for water distribution 
+system) 
+948L 
+1 
+FFWDS, Medical Water Distribution System 
+938M 
+1 
+Note:  Contact ACC/SGXM, acc.sgxm@us.af.mil, for guidance on AFTH collective 
+protection capabilities and recommendations.  
+2.10.  Initial Operational Capability Timelines.  EMEDS HRT establishes the initial operational 
+capability for the EMEDS platform.  Equipment packaging and load plans prioritize rapid setup 
+and provision of stabilizing medical care.  Initial capabilities include essential and emergent care, 
+damage control surgery, damage control resuscitation, limited post-operative critical care, and 
+initial health assessments of the area.  Table 2.10 lists the key functions that need to be in place 
+and target timelines to achieve this milestone.  These timelines assume delivery of EMEDS HRT 
+equipment and arrival of personnel at the operating site. 
+Table 2.10.  Initial Operational Capability Timelines. 
+Capability 
+Timeline 
+Essential and emergent care in progress 
+15 minutes 
+Initial occupational, environmental, and public health assessments 
+(includes input on site selection and layout of facilities if applicable) 
+in progress 
+15 minutes 
+Emergency room ready to receive patients and ready to provide 
+damage control resuscitation 
+2 hours 
+Operating room ready to receive patients and ready to provide damage 
+control surgery 
+4 hours 
+Critical care holding area ready to receive patients 
+6 hours 
+2.11.  Full Operational Capability Timelines.  Each EMEDS module provides an incremental 
+buildup of capability.  As the size and scope of capability increases, so does the timeline required 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+19 
+to reach full operational capability:  12 hours for EMEDS HRT, 36 hours for EMEDS+10, and 60 
+hours for EMEDS+25.  These timelines have been tested in numerous field development exercises.  
+Many factors can impact these timelines in real-world deployments such as weather conditions, 
+terrain, delivery of equipment, and availability of ECS/BOS.  (Note:  AFTH operational capability 
+timelines have not been tested.)  The following functions need to be in place to achieve full 
+operational capability. 
+• 
+Shelters and full infrastructure are installed and operational (such as, power, lights, 
+environmental control units, heating, ventilation, air conditioning [HVAC], water, sanitation). 
+• 
+Command and control functions are in place to include medical control center operations, 
+administration, patient movement coordination, operational reporting, and communications 
+systems. 
+• 
+All medical/surgical functions are in place and ready to provide their full scope of care. 
+• 
+All mission-essential equipment and instrumentation are in place and functional. 
+• 
+All medical support functions are in place. 
+• 
+Initial occupational, environmental, and public health site assessments are complete, a 
+safe source of water and food have been procured, and the health risk baseline has been 
+established.  
+2.12.  EMEDS Functional Area Descriptions and Buildup.  EMEDS functional areas mirror the 
+organization and structure of in-garrison operations to the extent possible.  In the early phases of 
+operations and during surges, team members may need to provide cross-functional surge support 
+commensurate with their skills and scope of practice. 
+2.12.1.  Ambulance Services.  EMEDS facilities rely on pre-positioned ambulances, vehicles 
+of opportunity, or rental vehicles for emergency transport.  These vehicles are base 
+transportation assets.  Two vehicles are normally required to support flight line and emergency 
+medical service response.  The EMEDS equipment package provides life-support equipment 
+and supplies to support two ambulances.  An ambulance support equipment package (FFAMB) 
+can be requested if additional supplies are needed (for example, to support an additional 
+vehicle).  AFTHs include an ambulance support team (FFGLE) and additional ambulance 
+support equipment. 
+2.12.2.  Critical Care.  EMEDS provides critical care, respiratory therapy, and post-anesthesia 
+care to a variety of trauma, surgical, and medical patients.  EMEDS HRT provides a critical 
+care surge capability that can hold four critical care patients for 24 hours.  The Ground Surgical 
+Team (FFGST) provides the core critical care staffing for EMEDS.  When their specialty skills 
+are not in demand, the critical care staff can provide surge support in the emergency room and 
+medical ward.  At the EMEDS HRT level, all clinical functions share equipment and supplies 
+from the EMEDS HRT equipment package (FFHR1).  This equipment includes vital-sign 
+monitoring devices, ventilators, defibrillators, and suction machines.  The EMEDS+10 
+(FFEE2) and EMEDS+25 (FFEE3) equipment sets provide dedicated critical care supplies and 
+equipment.  The EMEDS+10 personnel package (FFEP3) provides additional critical care 
+nursing personnel to support the increased patient population.  EMEDS+25 includes two 
+Ground Surgical Teams.  An AFTH typically has a minimum of 16 critical care beds (4 beds 
+from FFHR1 plus 3 FFCC1s [12 beds]) with dedicated critical care staff.  The 4-Bed Intensive 
+Care Unit (FFCCU) provides critical care physician, nursing, and respiratory care staff.  The 
+4-Bed Intensive Care Expansion Team (FFCCV) provides additional nursing support staff for 
+20 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+expansions beyond 4 beds.  Table 2.11 lists the typical personnel and equipment mapping for 
+critical care expansions up to 16 additional beds (20 total).  For guidance on the equipment and 
+personnel laydown for larger expansions, contact ACC/SGXM at acc.sgxm@us.af.mil. 
+Table 2.11.  AFTH Critical Care Expansion Packages. 
+Beds Added 
+Equipment 
+Personnel 
+4 
+1 – FFCC1 
+1 – FFCCU 
+8 
+2 – FFCC1 
+1 – FFCCU, 1 – FFCCV 
+12 
+3 – FFCC1 
+1 – FFCCU, 2 – FFCCV 
+16 
+4 – FFCC1 
+2 – FFCCU, 2 – FFCCV 
+Note:  The baseline EMEDS configuration includes 4 critical care beds.  Column 1 reflects the 
+number of beds included in the critical care expansion equipment package (not the total 
+number of critical care beds). 
+2.12.3.  Dental Clinic.  EMEDS provides general dentistry services.  Restorative capability is 
+limited in accordance with theater policy.  Staffing at the EMEDS HRT and EMEDS+10 levels 
+consists of a comprehensive dentist and a dental assistant (FFF0C).  The dentist may also serve 
+as the triage officer.  The EMEDS HRT equipment package (FFHR1) provides the core dental 
+equipment, which includes one dental chair, x-ray equipment, and a portable dental delivery 
+system.  The EMEDS+10 equipment package (FFEE2) includes additional dental equipment 
+and supplies to support the increased patient population.  EMEDS+25 includes two dental 
+teams.  The EMEDS+25 equipment package (FFEE3) provides dental equipment and supplies 
+to support the additional team.  AFTHs typically have four dental teams and a separate dental 
+clinic (FFF0E). 
+2.12.4.  Emergency Medicine.  Emergency medicine capabilities include initial resuscitation, 
+triage, advanced critical care life support, trauma care, basic management of toxicological 
+emergencies, minor surgical stabilization procedures, and limited management of thermal 
+injuries.  The emergency room includes electrocardiogram (ECG) monitoring, defibrillation, 
+transcutaneous pacing, and continuous oxygen saturation monitoring equipment.  The 
+emergency medicine physician from the Ground Surgical Team (FFGST) provides the core 
+emergency medicine staffing for EMEDS.  The Primary Care Team (FFPCM) (or Flight 
+Medicine Team [FFDAB] if tasked) and nursing staff from the Clinical and Ancillary Support 
+Team (FFEP6) provide surge support as needed.  The EMEDS+10 personnel package (FFEP3) 
+and EMEDS+25 personnel package (FFEP4) each provide an emergency trauma nurse and 
+additional medical technicians to support the increased patient population at the EMEDS+10 
+and EMEDS+25 levels.  At the AFTH level, the Emergency Medicine Team (FFEDT) provides 
+an additional trauma nurse and medical technicians. 
+2.12.5.  Infectious Disease Management and Infection Control.  EMEDS personnel follow the 
+infection prevention and control guidelines for field settings specified in AFI 44-108, Infection 
+Prevention and Control Program.  The public health officer, in conjunction with the flight 
+surgeon, oversees communicable disease control and isolation procedures within the EMEDS 
+facility.  EMEDS public health personnel support surveillance and reporting activities.  The 
+EMEDS HRT floor plan does not have space readily available to physically isolate patients 
+and requires a shelter of opportunity for patient isolation.  EMEDS+10 and EMEDS+25 have 
+space that can be adapted to physically isolate two patients.  AFTHs typically include 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+21 
+infectious disease support personnel (FFHA2) and equipment (FFHAF) for infectious disease 
+diagnosis, treatment, and control.  The equipment set (FFHAF) includes equipment for public 
+health surveillance, planning, and consequence management.  Medical ward expansion and 
+ventilator support capabilities can be added to support large-scale incidents or threats.  See 
+AFTTP 3-42.22 for more information about ground medical contagious disease consequence 
+management capabilities. 
+2.12.6.  Information Systems.  EMEDS deploys with communications and computer 
+equipment and relies on base communications units to provide network access.  The Medical 
+Command and Administration Team (FFEP2) provides one health information technician to 
+provide client system information assurance, administration, and technical support for the 
+EMEDS facility and coordinate requirements with base communications units.  The Medical 
+Systems Support Team (FFSYS) provides additional health information technology support 
+staff at the AFTH level.  See Chapter 5, COMMUNICATIONS AND INFORMATION 
+SYSTEMS, for more information on EMEDS computer and communications systems and 
+support requirements. 
+2.12.7.  Laboratory.  EMEDS HRT has no formal laboratory section or trained laboratory 
+personnel.  Providers perform their own lab testing.  Lab testing is limited to waived or 
+moderate complexity testing to include provider performed microscopy.  The EMEDS+10 
+personnel package (FFEP3) provides one laboratory technician to perform hematology, 
+urinalysis, and serology functions.  The EMEDS+25 personnel package (FFEP4) adds one 
+laboratory officer and a laboratory technician to perform comprehensive laboratory procedures 
+and basic microbiology.  The EMEDS+25 equipment package (FFEE3) provides an additional 
+chemistry analyzer to support multiple chemistry analyses.  The Ancillary Support Team 
+(FFANC) and equipment package (FFAN1) provide additional lab personnel and equipment 
+to handle the increased throughput requirements of an AFTH and expanded testing capabilities 
+needed by the medical and surgical subspecialties.  See Attachment 12, EMEDS HRT LAB 
+SUPPLIES AND TESTING CAPABILITIES, Attachment 13, EMEDS+10 LAB 
+SUPPLIES AND TESTING CAPABILITIES, and Attachment 14, EMEDS+25 LAB 
+SUPPLIES AND TESTING CAPABILITIES, for more information about the lab 
+capabilities in each module.  See AFTTP 3-42.76, Medical Ancillary Augmentation Teams, for 
+more information about AFTH lab support capabilities. 
+2.12.8.  Blood Support.  The Armed Services Blood Program provides blood products for 
+EMEDS.  Requests for blood supplies are routed through the Joint Task Force Surgeon’s Area 
+Joint Blood Program Office representative (J-4) in accordance with Air Force Handbook 
+(AFH) 44-152, Armed Services Blood Program – Joint Blood Program Handbook. 
+2.12.8.1.  EMEDS HRT has no blood grouping, typing, or crossmatching capability.  
+Uncrossmatched Group O packed red blood cells (PRBC) will be issued for all casualty 
+care.  EMEDS+10 and EMEDS+25 have limited blood banking capabilities to include 
+ABO/Rh determination and immediate spin crossmatching.  Blood inventories at the 
+EMEDS+10 and EMEDS+25 levels include group A, B, and O Rh negative and positive 
+red blood cells (RBCs), fresh frozen plasma (FFP), and plasma frozen within 24 hours 
+(PF24).  Platelets and cryoprecipitate may be available depending on theater supplies. 
+2.12.8.2.  EMEDS facilities can conduct emergency whole blood collection if treatment 
+needs exceed the on-hand inventories, if resupply is interrupted, or if medical indications 
+22 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+determine component therapy is inadequate to treat the patient.  Consult the Area Joint 
+Blood Program Office representative on theater requirements for maintaining a walking 
+donor program. 
+2.12.8.3.  EMEDS HRT has a blood bank refrigerator for storing whole blood and blood 
+components.  EMEDS HRT has no frozen blood storage or processing capabilities.  Frozen 
+blood storage and processing capabilities are added at the EMEDS+10 level.  Each blood 
+bank refrigerator can store up to 60 PRBC/liquid plasma units or 40 whole blood units (450 
+mL).  Each plasma freezer can store up to 78 plasma boxes.  Table 2.12 lists the blood 
+storage capabilities for the EMEDS platform. 
+Table 2.12.  EMEDS Blood Storage Capabilities. 
+Force Element 
+Equipment 
+Total Capacity 
+EMEDS HRT 
+1 Blood Bank Refrigerator 
+Up to 60 PRBC/liquid plasma units or 
+40 whole blood (450 mL) units 
+EMEDS+10 
+2 Blood Bank Refrigerators 
+1 Plasma Freezer 
+Up to 120 PRBC/liquid plasma units or 
+80 whole blood (450 mL) units 
+Up to 78 plasma boxes 
+EMEDS+25 
+2 Blood Bank Refrigerators 
+2 Plasma Freezers 
+Up to 120 PRBC/liquid plasma units or 
+80 whole blood (450 mL) units 
+Up to 156 plasma boxes 
+AFTH (87-Bed) 
+4 Blood Bank Refrigerators 
+4 Plasma Freezers 
+Up to 240 PRBC/liquid plasma units or 
+160 whole blood (450 mL) units 
+Up to 312 plasma boxes 
+2.12.8.4.  Blood products must be maintained within required temperature ranges: 
+• 
+PRBC and liquid plasma:  1-6 degrees Celsius 
+• 
+Frozen blood products:  Negative 18 (-18) degrees Celsius 
+• 
+Platelets:  20-24 degrees Celsius 
+• 
+Low Titer O whole blood and cold stored whole blood:  1-6 degrees Celsius 
+Note:  Emergency whole blood can be maintained at room temperature up to 8 hours. 
+2.12.8.5.  AFTHs include the Expeditionary Blood Support Center (EBSC), which 
+provides laboratory personnel (FFLBB) with specialized skills in the collection and 
+preparation of blood components for emergency trauma situations.  The equipment set 
+(FFLB1) provides apheresis kits, platelet incubators, blood bags for fresh whole blood 
+collection, and a shelter for donor screening, blood collection, and processing.  See AFTTP 
+3-42.711, Blood Support Operations, for more information on EBSC capabilities. 
+2.12.9.  Medical Command and Administration.  EMEDS command and administration 
+functions include medical command center operations, medical readiness, patient 
+administration (to include patient movement coordination), and personnel administration.  The 
+medical command center is the focal point for all classified material handling and distribution, 
+secure communications, and development of mass-casualty response plans.  The Medical 
+Command and Administration Team (FFEP2) provides the core medical command and health 
+services administration personnel for EMEDS.  The team is led by a corps-neutral medical 
+service colonel who functions as the EMEDS commander and a medical group superintendent 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+23 
+who serves as the senior enlisted leader for the medical facility.  The EMEDS+10 personnel 
+package (FFEP3) and EMEDS+25 personnel package (FFEP4) provide additional health 
+services management personnel to support the increased patient administration workload.  The 
+Medical Management Support Team (FFAAT) provides additional health services 
+administration and management personnel at the AFTH level. 
+2.12.10.  Medical Logistics.  The Medical Command and Administration Team (FFEP2) 
+provides the initial medical logistics personnel for EMEDS.  The team’s medical materiel 
+craftsman and biomedical equipment craftsman are responsible for all logistics, facility 
+management, and maintenance activities.  Each EMEDS facility has a segregated, 
+environmentally controlled storage area.  Storage space is limited and personnel should 
+coordinate with other units to share and optimize space.  The EMEDS+10 personnel package 
+(FFEP3) and EMEDS+25 personnel package (FFEP4) provide additional medical logistics 
+support.  The Forward Distribution Medical Logistics Team (FFFDT) is added at the AFTH 
+level to extend medical materiel support capabilities and facilitate the flow of materiel and 
+information.  Medical logistics roles and responsibilities are in accordance with AFI 41-201, 
+Managing Clinical Engineering Programs, and Air Force Manual (AFMAN) 41-209, Medical 
+Logistics Support. See Department of the Air Force Tactics, Techniques, and Procedures 
+(DAFTTP) 3-42.8, Expeditionary Medical Logistics (EML) System, for more information 
+about medical logistics UTCs. 
+2.12.11.  Medical Ward/Patient Holding.  Patient care supplies include intravenous fluids, 
+oxygen, suction, monitoring equipment, and multiple-position field hospital beds.  EMEDS 
+HRT can hold four patients for 24 hours.  The Clinical and Ancillary Support Team (FFEP6) 
+and Ground Surgical Team (FFGST) provide the core nursing staff to support the patient 
+holding beds.  Medical personnel from the other functional areas provide surge support as 
+needed.  EMEDS+10 adds medical staffing and equipment (FFEP3 and FFEE2) to support a 
+10-bed medical/surgical ward.  EMEDS+25 adds staffing and equipment (FFEP4 and FFEE3) 
+to support a 25-bed medical/surgical ward.  The Hospital Medical Expansion Packages 
+(FFEW1, FFEW2, FFEEW) provide personnel and equipment to expand medical ward 
+capacity in 25-bed increments.  The hospital expansion packages are modular and are typically 
+implemented as shown in Table 2.12. 
+Table 2.13.  Hospital Expansion Package Laydown. 
+Number of Additional Beds 
+Equipment 
+Personnel 
+25 
+1 – FFEEW 
+1 – FFEW1 
+50 
+2 – FFEEW 
+1 – FFEW1, 1 –FFEW2 
+2.12.12.  Nutritional Medicine.  EMEDS HRT and EMEDS+10 do not have a formal 
+nutritional medicine section or dietary technician.  Clinicians perform nutritional assessments 
+in consultation with a designated dietary consultant.  The EMEDS+25 personnel package 
+(FFEP4) provides one dietary technician.  AFTHs include an additional dietitian and dietary 
+technicians (FFEW1).  All EMEDS modules rely on ECS/BOS for meal procurement and 
+preparation and to obtain medical supplements to the standard meal kits.  Ice and drinking 
+water for patients are provided through ECS/BOS or from contract sources.  EMEDS personnel 
+are responsible for ordering patient diets and supplements, meal delivery, and returning serving 
+equipment for sanitation.  Nutritional medicine guidelines are followed in accordance with the 
+24 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+Academy of Nutrition and Dietetics Nutrition Care Manual (NCM) and AFMAN 44-144, 
+Nutritional Medicine. 
+2.12.13.  Operating Room/Surgery.  The Ground Surgical Team (FFGST) provides the core 
+surgical staff for EMEDS.  The EMEDS HRT equipment package (FFHR1) provides essential 
+operating room equipment and supplies for initial damage control procedures.  EMEDS HRT 
+equipment includes surgical instruments and supplies, monitoring devices, portable oxygen 
+equipment, and a general anesthesia machine.  EMEDS HRT and EMEDS+10 have 
+comparable surgical capabilities.  The surgical area consists of one surgical tent and one 
+operating table.  When fully operational, EMEDS HRT and EMEDS+10 can perform 10 major 
+surgeries or 20 non-operative trauma resuscitations before resupply.  EMEDS+10 adds an 
+operating room nurse (FFEP2), oxygen generation capability (FF0X2), and additional surgical 
+and postoperative instruments and supplies (FFEE2) to support the increased patient 
+population.  A second Ground Surgical Team (FFGST) and operating room nurse (FFEP4) are 
+added at the EMEDS+25 level.  The EMEDS+25 equipment package (FFEE3) includes an 
+additional operating table, anesthesia machine, surgical equipment and supplies, and an 
+additional oxygen generation system (FF0X2) is added.  When fully operational with two 
+surgical teams and two operating tables, EMEDS+25 can perform 20 major surgeries or 20 
+non-operative trauma resuscitations before resupply.  Each surgical area requires 100 square 
+feet of separation.  The EMEDS configuration does not allocate separate space for pre-
+operative care.  Surgical capability at the AFTH level is sized to the population at risk and bed 
+capacity.  The surgical expansion packages expand operating room capability in two-bed 
+increments.  The 87-bed AFTH includes two additional operating rooms (FFEES) with surgical 
+staff (FFEST), an additional oxygen generation system (FF0X2), and space for pre-operative 
+and post-operative care.  AFTHs usually include surgical subspecialties such as 
+oral/maxillofacial 
+surgery, 
+neurosurgery, 
+ophthalmology, 
+otorhinolaryngology, 
+thoracic/vascular surgery, gynecology, urology, and orthopedic surgery.  See AFTTP 3-42.74, 
+Surgical Subspecialty Teams, for more information on these capabilities. 
+2.12.14.  Optometry.  The EMEDS platform does not include dedicated optometry.  The 
+Optometry Team (included in FF00P) includes an optometrist and technician to provide 
+primary eye care, disease prevention, and acute intervention services at the AFTH level.  See 
+AFTTP 3-42.76 for more information about optometry capabilities. 
+2.12.15.  Pharmacy.  All EMEDS modules have a pharmacist (FFEP6) and pharmacy section 
+for storage and dispensing of medications.  Controlled medications are stored in locked rooms 
+or containers.  The pharmacist is responsible for accurate accounting of all medications.  The 
+EMEDS+25 personnel package (FFEP4) adds a pharmacy technician to support the increased 
+workload demands.  The Ancillary Medical Support Team (FFANC) and Ancillary Equipment 
+package (FFAN1) are added at the AFTH level and include an additional pharmacist, pharmacy 
+technicians, and pharmacy supplies.  The EMEDS/AFTH pharmacy is also responsible for 
+resupplying the flight-line clinics. 
+2.12.16.  Physical and Occupational Therapy.  The EMEDS platform has no specialized 
+physical or occupational therapy equipment.  Physical and occupational therapy capabilities at 
+the EMEDS HRT and EMEDS+10 levels are limited to the care provided by the orthopedic 
+surgeon (FFEP6) and other clinicians.  The EMEDS+25 personnel package (FFEP4) includes 
+one physical therapist.  The physical therapist can support primary care and orthopedic 
+functions as needed.  The Optometry, Occupational Therapy, and Physical Therapy Team 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+25 
+(FF00P) includes an additional physical therapist, an occupational therapist, and physical 
+therapy technicians and is added at the AFTH level. 
+2.12.17.  Preventive and Aerospace Medicine.  The PAM ADVON Team (FFPM1) provides 
+the core preventive medicine personnel for EMEDS.  This team is generally the first medical 
+presence at new bed-down locations.  They typically deploy as early as possible to assist 
+ECS/BOS teams in site selection and to ensure consideration of occupational and 
+environmental health factors.  They deploy with portable field packs (FFPM4) that include 
+equipment and supplies for initial clinical care, occupational and environmental health 
+sampling, food and water safety inspections, and basic hazard and CBRN identification.  The 
+PAM Sustainment Equipment package (FFPM5) includes a shelter and additional equipment 
+and supplies to sustain operations for 30 days.  PAM Team 2 (FFPM2) provides 
+bioenvironmental and public health craftsmen and can be added at either the EMEDS HRT or 
+EMEDS+10 level, depending on operational requirements.  PAM Team 3 (FFPM3) provides 
+bioenvironmental engineering and public health journeymen to support the increased patient 
+population at the EMEDS+10 level. 
+2.12.17.1.  The PAM Counter-CBRN Team and equipment package (FFPM6 and FFPM7) 
+can be added to support increased CBRN surveillance requirements for operating locations 
+with a moderate to high threat.  See AFTTP 3-42.23 for more information on PAM 
+capabilities and deployment scenarios. 
+2.12.17.2.  If required by the deployed commander, a separate, flight-line clinic can be 
+deployed to support flight operations.  The Flight Medicine Team (FFDAB) provides this 
+staffing, which includes a flight surgeon and two aerospace medical service technicians.  
+This geographically separated clinic requires its own space (minimum of 650 square feet) 
+and ECS/BOS. 
+2.12.18.  Primary Care.  All EMEDS modules provide outpatient primary care for patients with 
+non-life-threatening urgent and routine conditions.  The Primary Care Team (FFPCM) 
+provides the core family medicine staffing for EMEDS.  (Note:  The Flight Medicine Team 
+[FFDAB] is the alternate for operations that require flight medicine capability.)  The team can 
+provide surge support in the emergency room and medical ward.  The EMEDS+10 personnel 
+package (FFEP3) adds a physician assistant, and the EMEDS+25 personnel package (FFEP4) 
+adds a family practice nurse practitioner.  Medical technicians are also added at the 
+EMEDS+10 and EMEDS+25 levels to support the increased patient population.  The Hospital 
+Medical Expansion Package, Increment 2 (FFEW2) includes additional family medicine 
+personnel for an AFTH. 
+2.12.19.  Radiology.  The Clinical and Ancillary Support Team (FFEP6) provides a radiology 
+technician for initial radiology services.  Trained dental technicians and clinicians can provide 
+additional radiology support.  The EMEDS+25 personnel package (FFEP4) adds another 
+radiology technician to support the increased patient population.  The EMEDS HRT equipment 
+package (FFHR1) provides most EMEDS radiology equipment, which includes a mobile 
+radiographic x-ray unit, portable ultrasound system, and a portable digital dental x-ray machine 
+for intraoral radiology.  The EMEDS+10 equipment package (FFEE2) provides additional 
+accessory equipment.  At the AFTH level, the Radiology Team (FFRAD) provides a diagnostic 
+radiologist and diagnostic imaging technicians for advanced imaging and interventional 
+services for surgical support and diagnostic workups.  The Ancillary Medical Equipment 
+26 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+package (FFAN1) includes portable and fixed radiography units and radiographic tables.  The 
+Radiology Equipment package (FFRA5) provides a mobile angiographic/fluoroscopic unit (C-
+Arm) and an ISO shelter.  AFTHs include computed tomography (CT) scan capabilities 
+(FFHAG).  EMEDS/AFTH radiology equipment can capture and store diagnostic images 
+locally.  Picture archiving and communication system (PACS) capability is not available.  See 
+AFTTP 3-42.76 for more information about AFTH radiology capabilities. 
+2.12.20.  Specialty Care.  The Specialty Care Team (FFP01) provides internal medicine, 
+pediatric, and OB/GYN capabilities for EMEDS.  Team members can provide surge support 
+in the emergency room and medical wards commensurate with their skills and scope of 
+practice.  The specialty care equipment package (FFP0E) provides equipment and supplies to 
+support the team up to 10 days, depending on patient volume.  OB/GYN (FFGYN/FFGY1) 
+and pediatrics (FFPED/FFPE1) are included in an AFTH.  These teams can also be added at 
+an EMEDS+10 or above if needed. 
+2.12.21.  Sterile Processing.  EMEDS HRT has no dedicated sterile processing department to 
+receive, clean, and sterilize instruments and other medical items.  The operating room is 
+equipped with a tabletop steam sterilizer.  EMEDS+10 and EMEDS+25 have a separate area 
+adjacent to the operating room for sterile processing.  The EMEDS+10 equipment package 
+(FFEE2) provides a large sterilizer and water reclaimer unit, which should be placed in or near 
+the operating room.  The EMEDS+25 equipment package (FFEE3) adds an ultrasonic cleaner 
+and an additional sink. 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+27 
+Chapter 3 
+OPERATIONS 
+3.1.  EMEDS UTC Posturing.  EMEDS UTCs are postured against units in the Unit Type Code 
+Availability database and MRL.  EMEDS equipment and facility infrastructure packages might be 
+pre-positioned in theater based on requirements from geographic combatant commanders and the 
+Commander, Air Force Forces (COMAFFOR). 
+3.2.  Deployment Planning.  Planners consider many factors, such as operational environment, 
+pre-positioned materiel, host nation support agreements, contingency contracts, and acquisition 
+cross-service agreements, in planning deployments and tailoring unit-level personnel and 
+equipment requirements.  Time-phased force deployment data (TPFDD) is built by the air 
+component and flowed through the major commands to the wing plans and operations centers for 
+action. 
+3.3.  Pre-Deployment Preparations.  Upon receipt of an alert, prepare to deploy, warning order, 
+or other notification from higher headquarters, the medical readiness office provides a pre-
+deployment briefing to review key documents and responsibilities with the deploying EMEDS 
+commander and UTC team chiefs.  This information typically includes the deployment order, 
+TPFDD, pre-deployment training requirements, force protection threats, and intelligence reports.  
+EMEDS commanders are responsible for ensuring that all deploying personnel and equipment 
+meet the tasking requirements defined by the supported command.  EMEDS commanders should 
+review Attachment 15, EMEDS COMMANDER PRE-DEPLOYMENT AND POST 
+ARRIVAL CHECKLIST, for general pre-deployment guidelines and recommendations.  Many 
+of these guidelines are based on commander feedback and lessons learned.  Individual deploying 
+personnel follow the pre-deployment requirements in AFI 10-403, Deployment Planning and 
+Execution.  
+3.3.1.  Provider Credentialing.  To expedite privileging action, deploying medical units should 
+provide an interfacility credentials transfer brief at least 15 days before the unit’s arrival date 
+when possible.  Some host nations may require copies of various credentials such as licenses 
+or Basic Life Support or Advanced Cardiovascular Life Support certification.  All clinical 
+providers should have a copy of their interfacility credentials transfer brief and current 
+privilege list. 
+3.3.2.  Equipment and Cargo.  UTC team chiefs should assess the deployability of assigned 
+equipment UTCs with medical logistics personnel and identify shortfalls.  Deploying EMEDS 
+commanders should ensure an adequate number of personnel are qualified in pallet build-up 
+and cargo handling procedures (to include hazardous, protected, and classified cargo) to serve 
+as cargo increment monitors during deployment and redeployment in accordance with AFI 10-
+403. 
+3.3.2.1.  Hazardous cargo is subject to Defense Transportation Regulation (DTR) 4500.9-
+R Part III, Mobility, AFMAN 24-604, Preparing Hazardous Materials for Military Air 
+Shipments, and host nation requirements.  EMEDS commanders should ensure an adequate 
+number of EMEDS personnel are appointed and trained as packers, handlers, inspectors, 
+and certifying officials. 
+28 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+3.3.2.2.  Protected cargo includes controlled substances, items vulnerable to theft, and 
+weapons and ammunition.  A controlled medical item custodian should witness and verify 
+the packaging of medically controlled items.  At the deployed location, controlled items 
+should be stored in locked rooms or containers and managed in accordance with AFMAN 
+41-209.  Units are responsible for assigning primary and alternate weapons and 
+ammunition couriers to ensure security and accountability during transit in accordance with 
+Department of the Air Force Instruction (DAFI) 31-101, Integrated Defense (ID), and 
+Department of the Air Force Manual (DAFMAN) 21-201, Munitions Management. 
+3.3.2.3.  Classified material should be packaged, marked, safeguarded, and transported in 
+accordance with DAFI 24-602, Volume 2, Cargo Movement.  Units are responsible for 
+assigning appropriately cleared and trained couriers to accompany classified material. 
+3.3.2.4.  The medical logistics lead should coordinate with the Air Force Medical Logistics 
+Operations Center (AFMLOC) before deployment to formalize resupply and equipment 
+repair channels.  They should track outbound equipment UTCs, and upon arrival at the 
+bed-down location, verify that all equipment has arrived. 
+3.4.  Employment.  EMEDS typically deploys as part of an air expeditionary task force and is an 
+integral component of the support elements required to open, establish, and operate an airbase.  In 
+the early phase of an operation, priorities are to establish medical command and control, provide 
+limited, essential and emergent clinical care, and provide medical input into site selection and 
+facility layout based on initial occupational, environmental, and public health assessments.  Many 
+of these activities are critical to the mission’s success and should occur within the first 48 hours.  
+See Attachment 15, EMEDS COMMANDER PRE-DEPLOYMENT AND POST ARRIVAL 
+CHECKLIST, for general guidelines and recommendations. 
+3.4.1.  Patient Movement.  EMEDS has limited patient holding capacity and relies on patient 
+movement support for mission success.  Casualties are typically reported for evacuation from 
+EMEDS to the next appropriate level of care when they are not expected to return to duty 
+within the timeframe prescribed in the theater evacuation policy.  EMEDS health services 
+administrators submit patient movement requests to the United States Transportation 
+Command Patient Movement Requirements Center (TPMRC) in accordance with theater 
+policy and DAFI 48-107, Volume 1, En Route Care and Aeromedical Evacuation Medical 
+Operations.  Casualties should be transported with their medical records, personal effects, and 
+medically essential items. 
+3.4.1.1.  EMEDS commanders should coordinate requirements for patient movement items 
+(PMI) with the En Route Care system in advance of sending and receiving patients to 
+ensure adequate quantities are available.  Otherwise, the EMEDS facility may be 
+responsible for supplying these items. 
+3.4.1.2.  The attending physician is responsible for ensuring that all necessary forms (such 
+as Air Force [AF] Form 3899, Patient Movement Record, or DD Form 1380, Tactical 
+Combat Casualty Care [TCCC] Card) are completed in accordance with DAFI 48-107, 
+Volume 3, En Route Care Documentation.  EMEDS personnel should consult with the 
+Aeromedical Evacuation Liaison Team (AELT) for fixed wing evacuation requests to 
+ensure documentation, patient safety, equipment, medication, and other logistical 
+requirements are met. 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+29 
+3.4.2.  Patient Safety and Ready Reliable Care.  The Chief of Medical Staff (SGH) appointed 
+by the EMEDS commander oversees clinical quality operations, patient safety program 
+management, and sustainment of a ready reliable care culture.  The designated Patient Safety 
+Manager manages the EMEDS facility’s patient safety program and promotion of Ready 
+Reliable Care in accordance with Defense Health Agency-Procedures Manual (DHA-PM) 
+Clinical Quality Management in the Military Health System, Volume 1:  General Clinical 
+Quality Management, and AFI 44-119, Medical Quality Operations.  The EMEDS Patient 
+Safety Manager position is an additional duty assignment and is typically assigned to a clinical 
+nurse.  A trained aerospace medical services technician from the hospital expansion support 
+team provides additional support at the AFTH level.  All EMEDS clinical and administrative 
+personnel should understand the DOD Patient Safety Program guidance and National Patient 
+Safety Goals (NPSG) for hospitals and their application in deployed settings.  Patient safety 
+guidelines for EMEDS facilities are available in the Deployed Patient Safety Program Guide.  
+This guide and other clinical quality management resources are available in the Deployed MTF 
+Tools 
+folder 
+on 
+the 
+Air 
+Force 
+Medical 
+Readiness 
+site 
+at 
+https://usaf.dps.mil/teams/11364/SitePages/Home.aspx. 
+3.4.3.  Documenting Patient Care.  Medical personnel document the care provided to U.S. 
+personnel in accordance with Department of Defense Instruction (DODI) 6490.03, Deployment 
+Health, AFMAN 41-210, TRICARE Operations and Patient Administration, and theater 
+surgeon policy.  Patient encounter data should be filed electronically through the Theater 
+Medical Information Program (TMIP) if network access is available.  If access to TMIP is not 
+available, medical personnel should use paper forms.  Examples include Standard Form (SF) 
+600, Chronological Record of Medical Care, DD Form 1380, DD Form 3019, Resuscitation 
+Record, and AF Form 3899. 
+3.4.4.  Health Surveillance and Exposure Tracking.  Throughout the deployment, the PAM 
+team is responsible for ongoing health surveillance, including weekly and monthly disease and 
+injury reports, entomology, and occupational and environmental health site assessments.  The 
+public health officer and bioenvironmental engineer should participate in the Threat Working 
+Group to ensure threats and vulnerabilities are adequately addressed and corrective actions are 
+identified and implemented.  PAM personnel are responsible for recording and tracking patient 
+encounters, occupational and environmental health exposures, and health surveillance data in 
+accordance with DODI 6055.05, Occupational and Environmental Health (OEH), DODI 
+6490.03, and theater surgeon policy.  TMIP provides the system of record for recording this 
+data. 
+3.4.5.  Operational Reports.  EMEDS commanders are responsible for submitting required 
+operational reports in accordance with AFMAN 10-206, Operational Reporting (OPREP), and 
+specific combatant commander, joint force commander, and commander, Air Force forces 
+requirements.  After-action reports and lessons learned are submitted in accordance with AFI 
+10-204, Air Force Service Exercise Program and Support to Joint and National Exercise 
+Program, and AFI 10-1302, Air Force Lessons Learned Program. 
+3.4.6.  Maintenance and Disposition of Records.  Records associated with EMEDS operations 
+are maintained and disposed in accordance with the Air Force Records Disposition Schedule.  
+Patient medical records, personally identifiable information, and protected health information 
+are managed and protected in accordance with AFI 33-332, Air Force Privacy and Civil 
+Liberties Program, and AFMAN 41-210.  Medical personnel comply with Public Law 93-579 
+30 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+(as amended) Privacy Act of 1974, Public Law 104-191 (as amended) Health Insurance 
+Portability and Accountability Act (HIPAA) of 1996, Freedom of Information Act, Drug 
+Abuse and Treatment Act, and Comprehensive Alcohol Abuse amendments. 
+3.4.7.  Care for Enemy Prisoners of War.  If tasked to treat an enemy prisoner of war, EMEDS 
+commanders should coordinate with security forces or equivalent authority to provide armed 
+guards for prisoners.  Following essential care, enemy prisoners of war are transferred to host 
+nation or U.S. Army prisoner of war management authorities. 
+3.4.8.  Care for Civilians and Non-U.S. Personnel.  The theater combatant commander has 
+approval authority to allow treatment at an EMEDS facility for local nationals and non-U.S. 
+personnel who become injured as a direct result of U.S. Government operations.  This 
+treatment is in accordance with State Department guidance, standardized treaties, and 
+agreements with coalition forces.  See Chapter 11, FOREIGN HUMANITARIAN 
+ASSISTANCE AND STABILITY OPERATIONS, for more information on treatment of 
+civilians and non-U.S. personnel as part of a humanitarian assistance or disaster relief 
+operation. 
+3.4.9.  Mortuary Affairs.  EMEDS is not organized, trained, or equipped for mortuary 
+operations and relies on ECS/BOS.  EMEDS personnel should coordinate with mortuary affairs 
+for guidance on the transfer of deceased human remains and personal effects in accordance 
+with DAFI 34-160, Mortuary Affairs Program, and local procedures.  The EMEDS allowance 
+standard includes a small quantity of human remains pouches.  EMEDS is not equipped to 
+decontaminate human remains.  EMEDS commanders in conjunction with bioenvironmental 
+engineering and public health personnel can provide guidance on medical safety precautions 
+for handling contaminated remains. 
+3.4.10.  CBRN Threat Environments.  When mission requirements and threat assessments 
+warrant, EMEDS deploys with collective protection equipment (CP-EMEDS) to harden the 
+facility against chemical and biological contamination.  When properly configured and 
+maintained, CP-EMEDS allows up to 72 hours of continued, enclosed operations following a 
+chemical or biological incident.  Medical care at EMEDS facilities operating in a contaminated 
+environment without collective protection is limited to those functions that can be performed 
+while wearing individual protective equipment.  EMEDS personnel should be familiar with the 
+CBRN passive defense and consequence management procedures outlined in DAFI 10-2501, 
+Emergency Management Program, and DAFI 10-2503, Chemical, Biological, Radiological, 
+Nuclear (CBRN) Defense Program.  For guidance on medical operations, see ATP 4-
+02.7/MCRP 4-11.1F/NTTP 4-02.7/AFTTP 3-42.3, Multiservice Tactics, Techniques, and 
+Procedures for Health Service Support in a Chemical, Biological, Radiological, and Nuclear 
+Environment. 
+3.4.10.1.  The PAM Counter-CBRN Team (FFPM6) and equipment set (FFPM7) is 
+typically force packaged with FFPM1-5 in operating locations with a moderate to high 
+CBRN threat.  The team provides bioenvironmental engineering and biomedical laboratory 
+personnel for medical CBRN defense, consequence management, and recovery activities.  
+See AFTTP 3-42.23 for more information about PAM Counter-CBRN capabilities and 
+CBRN defense tasks. 
+3.4.10.2.  The Expeditionary Medical Decontamination Team (FFGLB) and equipment 
+package (FFGLC) typically deploy with CP-EMEDS to CBRN threat environments.  The 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+31 
+team works to remove or neutralize to the extent possible surface CBRN agents from 
+combat casualties before entry into the EMEDS/AFTH facility or patient movement.  See 
+AFTTP 3-42.33 for patient decontamination procedures.  At EMEDS/AFTH facilities 
+where the Expeditionary Medical Decontamination Team is not employed, 
+decontamination capabilities are limited to expedient decontamination with soap and 
+water. 
+3.4.10.3.  Operational decontamination of equipment, environmental control units, 
+generators, and shelters depends on the contaminating agent involved and the availability 
+of replacement equipment.  Decontamination may not be practical for some equipment (for 
+example, uncoated painted equipment). 
+3.4.11.  Contagious Casualty Management.  During a contagious disease outbreak or biological 
+event, EMEDS commanders should work with the wing or group commander to acquire 
+additional space for housing contagious casualties.  It is imperative that contagious casualties 
+remain isolated from the non-contagious population.  EMEDS staff should use separate triage 
+locations for potentially contagious patients to reduce potential exposure.  In the event of a 
+large-scale contagious casualty incident, EMEDS commanders should contact the Air Force 
+Forces Surgeon (AFFOR/SG) to request additional resources to contain and manage 
+contagious patients.  EMEDS facilities should be prepared to support a contagious casualty 
+incident without support from the patient movement system.  See AFTTP 3-42.22 for more 
+information on contagious casualty management capabilities and procedures. 
+3.5.  EMEDS Redeployment.  EMEDS commanders should actively participate in redeployment 
+planning to ensure a time-phased reduction in medical services consistent with the deactivation of 
+the deployed location, change in mission, or change in threat scenario.  Most EMEDS personnel 
+and equipment typically depart with the bulk of the air expeditionary force.  The EMEDS HRT, 
+or a portion thereof, remains to provide emergency medical and surgical capability during the 
+ramp-down phase.  EMEDS personnel are responsible for disassembling the EMEDS 
+infrastructure and providing loading assistance.  Medical logistics personnel are responsible for 
+load plans and shipping manifests in accordance with theater and host nation requirements.  
+Equipment and supplies should be decontaminated in accordance with theater policy and 
+applicable U.S. Department of Agriculture guidelines.  Items not suitable for redeployment (such 
+as pharmaceuticals, blood and biological waste, and sterile supplies) should be appropriately 
+redirected within the theater or disposed of. 
+32 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+Chapter 4 
+COMMAND AND CONTROL RELATIONSHIPS 
+4.1.  Command and Control of Expeditionary Ground Medical Teams.  Command and control 
+for expeditionary medical units is through line of the Air Force commanders.  Air Force elements 
+deployed into a theater are typically aligned under the command of the COMAFFOR.  The 
+COMAFFOR exercises administrative control responsibilities for assigned and attached Air Force 
+forces.  (Source: Air Force Doctrine Publication [AFDP] 3-30, Command and Control.)  EMEDS 
+personnel normally operate under the local direction of the deployed expeditionary unit 
+commander (usually the EMEDS or AFTH commander).  Deploying personnel should receive a 
+chain of command briefing to ensure a clear understanding of the command structure.  Figure 4.1 
+depicts a notional command structure for EMEDS units attached to an air expeditionary wing or 
+group for combat support operations. 
+Figure 4.1.  Notional Command Structure in Combat Support Operations. 
+ 
+4.1.1.  Air Expeditionary Task Force.  Conventional ground medical units typically deploy as 
+expeditionary medical groups or squadrons within an air expeditionary task force attached to 
+an air expeditionary wing or group.  The wing or group commander exercises administrative 
+control of all attached air expeditionary wing or group assets.  A medical group commander is 
+typically a member of the wing or group commander’s staff.  (Source:  AFDP 4-02, Health 
+Services.) 
+4.1.2.  Air Force Forces Surgeon (AFFOR/SG).  Within an air expeditionary task force, the 
+AFFOR/SG is a member of the COMAFFOR’s special staff and is the Director of Medical 
+Operations.  The AFFOR/SG is the COMAFFOR’s designed coordinating authority with all 
+agencies affecting medical operations.  (Source: AFDP 4-02.) 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+33 
+4.1.3.  Expeditionary Medical Group Commander.  The expeditionary medical group 
+commander is designated on G-series orders specifically for the deployment and is accountable 
+to the air expeditionary wing or group commander.  The expeditionary medical group 
+commander is responsible for installation medical services, including oversight and integration 
+of non-EMEDS medical assets into a consolidated installation medical support and disaster 
+response program.  The expeditionary medical group commander communicates and 
+coordinates with the AFFOR/SG on theater medical support issues and with other joint medical 
+units at the location. 
+4.2.  Joint and Multinational Operations.  EMEDS units deployed to support joint, 
+multinational, or United Nations operations operate under the command structure established by 
+the air expeditionary task force or joint task force to which they are assigned.  Command and 
+control relationships are usually defined in the warning, execution, operations, or task order. 
+4.3.  Air Combat Command Surgeon (ACC/SG) Responsibility.  ACC/SG is the Manpower 
+and Equipment Force Packaging (MEFPAK) Responsible Agency (MRA) for medical ground-
+based UTCs.  ACC/SG has overall responsibility for EMEDS tactical doctrine, serves as the 
+medical consultant for EMEDS operations, and provides technical guidance and planning. 
+34 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+Chapter 5 
+COMMUNICATIONS AND INFORMATION SYSTEMS 
+5.1.  EMEDS Communications Equipment.  EMEDS communications equipment includes 
+DOD-approved radios, computer systems, and peripherals.  ACC/SG determines the requirements 
+for EMEDS communication and information system assets in partnership with the pilot units, 
+ACC/A6 and the Air Force Operational Medicine Information Systems (AFOMIS) Program 
+Office.  Responsibilities and processes for acquisition, maintenance, and configuration 
+management of deployable medical information management and technology assets are outlined 
+in the Air Force Medical Service (AFMS) Life Cycle Sustainment Plan (LCSP) for USAF Medical 
+Equipment War Reserve Materiel (WRM) Information Management/Information Technology 
+(IM/IT).  The supported combatant command is responsible for associated upgrades and 
+sustainment costs for deployed EMEDS communication and information system equipment and 
+for ensuring that maintenance releases are applied. 
+5.1.1.  Radios.  EMEDS equipment includes Joint Tactical Radio System (JTRS) compliant 
+wideband and multiband land mobile radios (LMRs).  These radios are interoperable with 
+existing DOD radio systems and joint networking waveforms and enable secure voice, data, 
+and video communication over mobile, ad-hoc internet protocol based networks.  They support 
+line of sight and beyond line of sight communications such as convoy, ambulance to airfield 
+operations, patient movement units, security, and local command and control networks.  
+Radios are allocated according to the allowance standard and operational specific 
+requirements.  These assets primarily support communications during deployment and 
+redeployment phases and in austere environments where an established communications 
+infrastructure is not available. 
+5.1.2.  Computer Systems.  The Air Force Medical Logistics and Industrial Operations 
+Division (AFMRA/SG4W), with support from the AFOMIS Program Office and deploying 
+units, is responsible for ensuring that EMEDS communication and computer systems 
+scheduled for deployment are current and compliant with deployed force information system 
+naming conventions, information assurance requirements, and published theater minimum 
+hardware standards.  Computers issued to EMEDS teams include the DOD standard desktop 
+configuration and TMIP applications. 
+5.2.  Theater Medical Information Program (TMIP).  TMIP is a suite of DOD standard medical 
+information systems for theater health service support.  It provides applications for medical 
+command and control, health care delivery, patient tracking, occupational and environmental 
+health exposure tracking and surveillance, medical logistics, and blood management.  TMIP 
+applications are provided through the AFOMIS Program Office.  Contact the chief information 
+officer, major command, or manpower and equipment force packaging responsible agency for the 
+current list of applications included in the TMIP suite. 
+5.3.  Network Support.  Network Operations and Security Centers (NOSCs) at the theater level 
+ensure the theater’s operational and support systems remain fully capable.  EMEDS facilities rely 
+on the communications focal point at the deployed location for core network administration, 
+network management, and information assurance at the local level.  See Attachment 5, EMEDS 
+HRT NETWORK CONFIGURATION, Attachment 8, EMEDS+10 NETWORK 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+35 
+CONFIGURATION, and Attachment 11, EMEDS+25 NETWORK CONFIGURATION, for 
+notional local area network configurations for each module. 
+5.4.  Field Assistance Services.  The Air Force Operational Medicine Information Systems help 
+desk provides technical and troubleshooting support for deployed TMIP and EMEDS/AFTH 
+network hardware, computers, printers, peripherals, and software.  The help desk is available 24 
+hours per day, 7 days per week, and can be reached at the following telephone numbers and email 
+address: 
+DSN:  (OCONUS: 312 +) 596-5771 
+Toll Free:  877-596-5771 
+Commercial:  334-416-5771  
+Email:  fas.team1@us.af.mil 
+TMIP Helpdesk Email:  tmip@medxs.af.mil 
+5.5.  Information Assurance Policy.  EMEDS personnel should understand and follow 
+information assurance procedures, to include communications and computer security, in 
+accordance with AFI 17-130, Cybersecurity Program Management, AFMAN 17-1301, Computer 
+Security (COMPUSEC), and associated Air Force information assurance guidance. 
+36 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+Chapter 6 
+INTEGRATION AND INTEROPERABILITY 
+6.1.  Integration and Interoperability with Other Systems.  Deployed medical personnel in a 
+theater or area of operation may support elements of an air expeditionary force, components of the 
+en route care system, joint medical counterparts, Special Operations Forces (SOF) medical 
+components, and other federal and civilian agencies.  In some instances, theater planners might 
+request medical support for bed-down locations not associated with a typical air expeditionary 
+force or ECS/BOS infrastructure. 
+6.2.  Expeditionary 
+Combat 
+Support/Base 
+Operating 
+Support 
+(ECS/BOS) 
+Requirements.  EMEDS assets deploy with limited organic capability and require ECS/BOS.  
+ECS/BOS requirements include (but are not limited to) billeting, messing and other consumable 
+materials, power, water, ice, latrines, showers, laundry, waste management, exterior lighting, 
+transportation (to include ambulances and general purpose vehicles), fuels, vehicle maintenance, 
+equipment maintenance, general supplies, contracting, information and communications systems 
+support, mortuary affairs, public affairs, chaplain, linguist, personnel and vehicle decontamination, 
+and security.  ECS/BOS services for EMEDS facilities and personnel are provided through the 
+host base’s capabilities, deployable bare base systems, and contracted civilian support.  ECS/BOS 
+requirements for humanitarian assistance, disaster relief, and stability operations are tailored to the 
+mission.  See Attachment 2, EXPEDITIONARY COMBAT SUPPORT REQUIREMENTS, 
+for quantified estimates on required support. 
+6.2.1.  Civil Engineering Support.  EMEDS teams require civil engineering assistance for 
+shelter and equipment siting, shelter setup, and to connect the EMEDS facility to the base 
+infrastructure.  EMEDS personnel and civil engineers install and connect electrical power 
+utilities, environment control units, and waste and water management utility systems, as 
+appropriate.  EMEDS facilities rely on civil engineering forces for facility maintenance and 
+maintenance of non-medical equipment (such as generators and environmental control units).  
+Servicing and repair of non-medical equipment beyond the scope of civil engineering 
+capabilities might be contracted out.  See Attachment 3, EMEDS HRT LAYOUT, 
+Attachment 6, EMEDS+10 LAYOUT, Attachment 9, EMEDS+25 LAYOUT, for 
+recommended EMEDS site layout configurations. 
+6.2.2.  Billeting, Food, and Personal Hygiene Provisions.  Provisions for billeting, meals, 
+showers, and latrines for EMEDS personnel should be commensurate with that provided for 
+other deployed personnel at the bed-down location. 
+6.2.3.  Communications and Information Systems Support.  EMEDS does not deploy with the 
+communication infrastructure needed for independent operation.  EMEDS facilities rely on the 
+host base’s communication units for support.  EMEDS personnel require access to the Defense 
+Switched Network (DSN), secure voice communication, Non-classified Internet Protocol 
+Router Network (NIPRNET), and SECRET Internet Protocol Router Network (SIPRNET) for 
+data collection, reporting, and reachback purposes.  EMEDS equipment packages include 
+computers, peripheral devices, a satellite phone, and radios.  It does not include phone 
+equipment. 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+37 
+6.2.4.  Equipment Movement.  EMEDS personnel require assistance from base personnel for 
+moving and positioning EMEDS equipment at the deployed location. 
+6.2.5.  Ice and Water.  Potable water (bottled/bulk), ice, and dry ice are normally obtained on 
+a contract basis.  Depending on the operation, a reverse osmosis water purification unit may 
+be deployed.  EMEDS public health and bioenvironmental engineering personnel provide 
+consultation on the procurement or in-house treatment of potable water and ice. 
+6.2.6.  Fire and Emergency Services.  Fire and emergency services for EMEDS personnel and 
+facilities should be commensurate with that provided for other deployed personnel and 
+resources. 
+6.2.7.  Laundry.  Laundry support is normally obtained on a contract basis but may be provided 
+by ECS/BOS services. 
+6.2.8.  Oxygen.  EMEDS HRT includes mobile oxygen storage tanks, which provide a finite 
+oxygen capability.  Medically approved oxygen and other gases may be obtained on a contract 
+basis when necessary.  EMEDS+10 includes a deployable oxygen generation system.  A 
+second oxygen generation system is added at the EMEDS+25 level.  The 87-bed AFTH 
+includes four oxygen generation systems. 
+6.2.9.  Petroleum, Oils, and Lubricants (POL).  Fuel for vehicles, generators, and other 
+equipment is normally obtained on a contract basis along with other base requirements. 
+6.2.10.  Power.  Base electrical power systems provide primary power generation.  EMEDS 
+commanders, in consultation with EMEDS biomedical equipment technicians or civil 
+engineering, ensure that power is rationed appropriately.  EMEDS+10 and above include 
+generators, which are intended for initial operating capability and emergency backup power 
+only.  ECS/BOS provides ground power equipment specialists to connect EMEDS power 
+distribution panels to commercial or base power.  See Attachment 4, EMEDS HRT POWER 
+GRID, Attachment 7, EMEDS+10 POWER GRID, and Attachment 10, EMEDS+25 
+POWER GRID, for recommended power grid configurations. 
+6.2.11.  Transportation Support.  EMEDS relies on ECS/BOS for access to vehicles for patient 
+movement, personnel movement, equipment movement, and vehicle maintenance.  These 
+vehicles are base transportation assets and might not be permanently assigned to the EMEDS 
+facility.  Note:  Ambulances typically are not deployed at the EMEDS HRT level. 
+6.2.12.  Waste Disposal.  Medical and other waste disposal services will normally be obtained 
+on a contract basis or will be provided as part of other base waste disposal services. 
+38 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+Chapter 7 
+SECURITY AND FORCE PROTECTION 
+7.1.  Security Roles and Responsibilities.  Medical personnel and equipment are non-combatant 
+assets and have protected status under the Geneva Conventions and the broader Law of War.  
+Arming requirements for deploying EMEDS personnel are mission and operating location specific 
+and are provided in reporting instructions and theater guidance.  Current threat assessments 
+provided by the combatant commander and local threat conditions established by the joint task 
+force, air expeditionary wing, or air expeditionary group commander dictate local security 
+measures.  EMEDS commanders are responsible for ensuring security measures are in place to 
+protect patients and personnel at the EMEDS facility.  EMEDS personnel are responsible for 
+following the personal protection measures outlined in DAFI 31-101, area of responsibility 
+security briefings, established force protection requirements, and local guidance.  The EMEDS 
+commander or appointed representative should be a member of the Integrated Defense Council. 
+7.2.  Physical Security.  Security forces guard medical facilities only if deemed necessary as part 
+of the Integrated Defense Plan.  If the threat changes, security forces may appoint an augmented 
+detail to provide force protection and entry control (for example, a mass casualty event).  The 
+supported unit provides security for any patient determined to require a security detail or escort.  
+EMEDS facilities are not manned to provide this layer of security. 
+7.3.  Medical Convoy Protection.  EMEDS commanders should coordinate with the defense 
+force commander for tactical security element support for medical convoys outside the base 
+perimeter and to local host nation medical facilities. 
+7.4.  Operations Security.  EMEDS personnel are responsible for protecting mission-critical 
+information (to include medical or casualty information) in accordance with theater policy and 
+AFI 10-701, Operations Security (OPSEC).  Classified information should be transmitted by 
+secure means and protected in accordance with Department of Defense Manual (DODM) 5200.01, 
+Volume 3_DAFMAN 16-1404, Volume 3, Information Security Program:  Protection of 
+Classified Information.  Situation reports, medical surveillance, site locations, and compiled 
+patient data are examples of information that may be classified and require protection. 
+7.5.  Security of Weapons and Ammunition.  Weapons and ammunition should be secured in 
+accordance with DAFI 31-101 and local procedures.  Normally, base security forces provide 
+weapons handling guidance and an armory.  In austere locations where access to an armory might 
+not be available, EMEDS personnel are responsible for the safe storage of weapons and 
+ammunition until the patient’s unit or armory can assume responsibility.  EMEDS commanders 
+should coordinate with base security forces or the supported unit on local weapons handling 
+guidance.  Considerations include rules of engagement on searching and clearing patients of 
+weapons and explosives, who is allowed to carry weapons into the medical treatment facility, 
+weapons clearing procedures for personnel entering the facility, and safety measures for handling 
+the discovery of unauthorized weapons or explosives. 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+39 
+Chapter 8 
+TRAINING 
+8.1.  Medical Readiness Training Requirements.  Medical personnel assigned to EMEDS UTCs 
+must complete the Comprehensive Medical Readiness Program (CMRP) training requirements 
+specified in AFI 41-106, Medical Readiness Program, and the CMRP Category III Training Guide.  
+Additional training that may be required to meet operational or theater-specific requirements is 
+identified in deployment reporting instructions. 
+8.2.  EMEDS Formal Course.  The EMEDS formal course provides field operational training in 
+EMEDS setup and pack out, deployed operations, equipment proficiency, collective protection 
+setup, and doctrine.  The course is designed to promote team performance, cohesion, and cross-
+functionality.  See the CMRP Category III Training Guide for attendance requirements.  Additional 
+course information and training schedules are available from the ACC Exercise and Training 
+Branch (accsg.sgxt.utcformaltraining@us.af.mil). 
+8.3.  UTC Sustainment Training.  UTC sustainment training occurs between formal course 
+attendance cycles to maintain the skills and knowledge the team needs to fulfill its mission 
+essential tasks.  UTC sustainment training credit may be granted for participation in mission 
+essential task-driven exercises, operational readiness exercises, local exercises, and joint exercises.  
+Contact the ACC Exercise and Training Branch for information on approved sustainment training 
+exercises. 
+8.4.  Mission Essential Task Lists (METLs).  Personnel assigned to an EMEDS UTC should be 
+proficient in the EMEDS Core METLs and their UTC-specific METLs.  METLs are available on 
+the ACC/SG MEFPAK Playbook (https://usaf.dps.mil/sites/12173/SitePages/ACC-SG-
+Ground-Medical-UTC-Management.aspx) or from the ACC Exercise and Training Branch. 
+8.5.  Joint Senior Medical Leaders Course (JSMLC).  The JSMLC prepares senior medical 
+leaders to serve as joint task surgeons and senior staff members.  Completion of this course or an 
+equivalent is highly recommended for EMEDS commanders and deputy commanders.  This course 
+is offered through the Defense Medical Readiness Training Institute (DMRTI) at Ft. Sam Houston 
+in San Antonio, TX. 
+8.6.  Vehicle Operation Training.  Operators of material handling equipment, ambulances, and 
+other government motor vehicles must have a government driver’s license and appropriate 
+certification in accordance with AFI 24-301, Ground Transportation.  Certain vehicles (such as 
+ambulances and materiel handling equipment) require completion of additional training, 
+certification, and licensing.  This training is a unit responsibility and should occur before 
+deployment.  Ground Transportation can assist units with reviewing training requirements and 
+training options.  Operators should document completion of required additional training and 
+certification on AF Form 171, Request for Driver Training and Addition to U.S. Government 
+Driver’s License.  
+8.6.1.  Medical materiel personnel (4A1XX) assigned to an EMEDS UTC should be fully 
+trained on powered industrial trucks and all-terrain capacity materiel handling equipment in 
+accordance with CMRP Category II, Readiness Skills Training for AFSC 4A1X1 – Medical 
+Materiel. 
+40 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+8.6.2.  Aerospace medical service technicians (4N0XX) assigned to FFEP3 and all members 
+of FFGLE should be trained in ambulance operation in accordance with their UTC mission 
+capability statements. 
+8.7.  Weapons Training.  EMEDS personnel follow the weapons qualification training 
+requirements outlined in AFI 36-2654, Combat Arms Program, and DAFMAN 36-2655, USAF 
+Small Arms and Light Weapons Qualification Programs, for Arming Group C.  Theater combatant 
+commands may impose additional or more stringent requirements, which are generally specified 
+in the operation’s execution order or reporting instructions.  See the AFMS Arming Requirements 
+document (also known as the Weapons and Munitions Forecasting Table) for weapons 
+authorizations for EMEDS UTCs.  This document is available on the ACC/SG MEFPAK Playbook 
+(https://usaf.dps.mil/sites/12173/SitePages/Playbooks.aspx) or by request from the ACC 
+Ground Medical UTC Management Branch. 
+8.8.  Communications and Information Systems Training.  EMEDS personnel should be 
+trained in the proper use of the communications and information systems included in their 
+equipment packages.  See the CMRP Category III Training Guide for more information on the 
+training platform, attendance, and currency requirements. 
+8.9.  CBRN Response Force Training.  EMEDS personnel allocated to the CBRN Response 
+Enterprise participate in Defense CBRN Response Force (DCRF) and C2 CBRN Response 
+Element (C2CRE) training, exercises, and evaluations in accordance with the Joint Mission 
+Essential Task List.  Joint training plans, schedules, and training records are maintained in the 
+Joint Training Management Information System (JTIMS). 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+41 
+Chapter 9 
+LOGISTICS 
+9.1.  Expeditionary Medical Logistics (EML) System.  The EML system provides global 
+support and sustainment to air expeditionary force medical forces across the full spectrum of 
+operations.  The EML system uses a pull process for resupply and a repair-and-return process for 
+medical equipment maintenance to minimize inventory and airlift requirements.  Each combatant 
+command has a supporting Theater Lead Agent for Medical Materiel (TLAMM).  The TLAMM 
+serves as a major theater medical distribution node and becomes the deployed unit’s primary point 
+of contact for materiel and equipment support in theater.  For early phase operations and 
+emergency situations in which a TLAMM is not able to provide support, the AFFOR/SG staff in 
+coordination with the AFMLOC may designate a sustaining base to provide reachback support.  
+Upon notification of activation, the logistics lead should contact the AFMLOC for guidance on 
+the appropriate theater supply chain and points of contact.  See DAFTTP 3-42.8 for more 
+information on expeditionary medical logistics support capabilities, infrastructure, and supply 
+chain management. 
+9.2.  Supplies and Equipment.  Most expeditionary medical equipment based in the continental 
+United States is managed and deployed through designated storage and deployment centers.  
+Equipment UTCs may also be pre-positioned in theater based on requirements from geographic 
+combatant commanders and the COMAFFOR.  EMEDS typically deploys with 30 days of supplies 
+(an initial 10-day supply package and two 10-day resupply packages).  UTC team chiefs should 
+be aware of the contents of their equipment packages before deployment and should contact their 
+medical logistics office for assistance with reviewing their allowance standards.  At the deployed 
+location, UTC team chiefs coordinate subsequent resupply through their medical logistics function.  
+See Chapter 2, EXPEDITIONARY GROUND MEDICAL SUPPORT CAPABILITIES, for 
+more information on the equipment UTCs included in each EMEDS module and the corresponding 
+allowance standard. 
+9.3.  Medical Equipment Maintenance and Repair.  EMEDS biomedical equipment technicians 
+provide routine maintenance and repair of medical equipment at the deployed location.  Equipment 
+repairs and calibrations that cannot be done on site may be provided by an Air Force Medical 
+Equipment Repair Center (MERC). 
+9.4.  Equipment Upgrades and Modernization.  Changes to the EMEDS assemblage may result 
+from technology advances and lessons learned feedback.  MRAs typically budget and plan for 
+major equipment reviews every five years. 
+42 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+Chapter 10 
+DOMESTIC CIVIL SUPPORT OPERATIONS 
+10.1.  Expeditionary 
+Ground 
+Medical 
+Support 
+in 
+Domestic 
+Disasters 
+and 
+Emergencies.  EMEDS components may deploy in support of the federal response following a 
+national disaster or emergency when directed by higher headquarters.  The primary mission is to 
+provide health services support for the response force, assist the medical relief efforts of 
+overburdened domestic civilian agencies, and provide vital medical services.  EMEDS personnel 
+supporting these missions continue to operate under a military chain of command regardless of the 
+lead agency.  Command and control typically reside under a joint force command structure where 
+the EMEDS commander reports through a line chain of command or through the joint force 
+surgeon.  Specific command and control relationships are usually defined in the warning, 
+execution, operations, or task order. 
+10.2.  Defense Support of Civil Authorities (DSCA) Response Packages.  Some EMEDS UTCs 
+are allocated to the combatant commands to support DSCA operations under the National 
+Response Framework and National Incident Management System.  The combatant commanders 
+determine which EMEDS personnel and equipment UTCs support the domestic civil support 
+mission within their areas of responsibility based on mission scope, threat assessment, and 
+availability of forces.  Specific UTCs are identified in the TPFDD.  Historically, Air Force ground 
+medical support for domestic civil support missions has been built on an augmented EMEDS+25 
+platform.  ECS/BOS requirements will vary depending on the assemblage.  See Attachment 2, 
+EXPEDITIONARY COMBAT SUPPORT REQUIREMENTS, for baseline ECS/BOS 
+requirements. 
+10.3.  CBRN Response Force.  The DOD maintains a dedicated, scalable, and readily available 
+CBRN response force (known as the CBRN Response Enterprise) to provide a rapid and flexible 
+response in the event of a domestic CBRN incident.  When directed by higher headquarters, the 
+CBRN Response Enterprise deploys to support the consequence management efforts of civilian 
+authorities overwhelmed by a significant or catastrophic radiological or nuclear incident to the 
+extent allowed by law to save lives, reduce suffering, and protect the environment.  The CBRN 
+Response Enterprise consists of state and federal military response forces.  Federal military 
+response forces consist of the Defense CBRN Response Force (DCRF) and Command and Control 
+CBRN Response Elements (C2CRE A and B).  Air Force UTCs allocated to this mission are part 
+of the DCRF and include EMEDS, AFRAT, and the Theater Epidemiology Team.  Additional 
+medical support for the C2CREs is handled through a request for forces process. 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+43 
+Chapter 11 
+FOREIGN HUMANITARIAN ASSISTANCE AND STABILITY OPERATIONS 
+11.1.  Mission.  Upon direction by higher headquarters, EMEDS and associated ECS/BOS 
+components deploy to support foreign humanitarian assistance (which includes disaster relief) and 
+stability operations.  The primary mission is to provide rapid, initial medical response, provide 
+health services support for the response force, and help restore vital medical services.  The 
+military’s role in these operations is intended to be limited in scope and duration.  EMEDS 
+augments the medical relief efforts of partner nations, intergovernmental agencies, and civilian 
+relief agencies.  The typical mission duration for EMEDS personnel is less than 30 days.  Figure 
+11.1 shows a notional EMEDS response timeline. 
+Figure 11.1.  Notional EMEDS Response. 
+ 
+11.2.  Support Capabilities.  Medical support capabilities focus on estimated throughput and are 
+not linked to a population at risk.  EMEDS HRT provides the initial response capabilities and 
+generally includes medical C2 and support services, surgical and critical care, primary care, dental, 
+bioenvironmental engineering, public health, OB/GYN, pediatrics, and internal medicine.  
+EMEDS HRT can triage and treat 350 patients per day with a surge capacity of 500.  The 
+preexisting health status of the affected population and the scope and severity of the event will 
+impact patient throughput and supply duration.  Due to anticipated high patient volumes, the 
+estimate for initial supply duration is 5 days.  If the anticipated patient throughput exceeds EMEDS 
+HRT capabilities, an EMEDS+10 or EMEDS+25 may be deployed.  Additional specialty UTCs, 
+such as pediatrics (FFPED/FFPE1) and OB/GYN (FFGYN/FFGY1) can also be added. 
+11.3.  Operational Assumptions.  EMEDS response is based on the following assumptions about 
+the operational environment: 
+• 
+Civilian authorities are in control of their government and the operational environment. 
+• 
+U.S. forces are not responsible for host nation patient movement, including rotary wing 
+or ground evacuation. 
+• 
+EMEDS will likely deploy to austere conditions with limited logistical support.  
+• 
+U.S. forces will be self-billeted. 
+44 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+• 
+Food, potable water, electrical power, transportation, and fuel may not be locally 
+available.  U.S. forces bring their own capability. 
+• 
+The host nation has airfield control, and a runway is available to U.S. forces. 
+• 
+Local communication systems are not available within the area of operations.  The 
+operating site will require communications setup and maintenance support. 
+• 
+A Status of Forces Agreement (SOFA) or appropriate diplomatic notes exist. 
+• 
+Humanitarian Assistance Survey Teams (HAST), Global Health Engagement, and 
+Defense Institute for Medical Operations (DIMO) resources may be employed.  
+11.4.  Medical Planning Factors.  The supported population may include U.S. and partner nation 
+forces, personnel from governmental agencies and non-government organizations, and local 
+nationals.  Medical rules of engagement should define the scope and level of care, types of patients 
+who will be treated, plans for moving stabilized patients to the next level of care, patient referral 
+policies, and other medical considerations.  JP 3-29, Foreign Humanitarian Assistance, and JP 4-
+02 provide joint planning guidance. 
+11.4.1.  Participants may include U.S. and coalition military forces; U.S., state, or host nation 
+government agencies; multinational partners; and private sector relief organizations.  EMEDS 
+personnel should understand the key organizations involved and their interrelationships, roles, 
+and responsibilities, as well as formal coordination requirements, rules of engagement, and 
+reporting instructions. 
+11.4.2.  Medical providers may encounter cultural and language barriers in providing medical 
+triage and care.  EMEDS commanders should explore basic language and cultural orientation 
+for the medical staff before deployment.  EMEDS personnel might have limited access to 
+effective interpreters. 
+11.4.3.  EMEDS commanders should be provided with public affairs guidance on theater and 
+combatant command strategic themes and messages before departure from home station, if 
+possible.  All assigned personnel should follow active public affairs guidance.  Communication 
+on EMEDS capabilities should be realistic and specific.  For example, the AFMS is not 
+organized, trained, equipped, or mobilized to treat medical conditions that require extended 
+hospitalization or prolonged nursing care. 
+11.4.4.  Patient care documentation requirements for non-U.S. personnel (for example, non-
+government organization personnel, partner nation forces) treated at an EMEDS facility is 
+determined by State Department guidance, standardized treaties, and partner nation 
+agreements.  Patient care documentation and records disposition requirements for local 
+nationals should be negotiated with the host nation.  This documentation is typically paper 
+based so it can be shared with the host nation. 
+11.4.5.  The EMEDS allowance standard is designed for the medical care needs of a 
+predominately healthy active duty population and may not be appropriate for the host nation 
+patient population.  Providers should ensure that treatment options can be sustained locally.  In 
+emergent situations where there is no time to identify the regional availability of standard 
+medications and supplies, medical personnel and planners can reference the World Health 
+Organization’s recommended Essential Medicines List and Interagency Emergency Health Kit 
+for guidance. 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+45 
+11.4.6.  ECS/BOS requirements depend on operational conditions and mission directives.  ECS/BOS 
+requirements typically include airfield operations, security forces, civil engineering, power production, 
+transportation, and logistics support.  The U.S. military is responsible for EMEDS site security and the 
+protection of EMEDS personnel and equipment on and off site.  A host nation may provide security 
+augmentation or impose limitations on security operations outside the EMEDS area, as determined by 
+agreements between the host nation and U.S. forces.  Additional ECS/BOS requirements may include 
+political advisory, judge advocate, civil affairs, linguist, and chaplain support. 
+11.5.  Command Relationships.  The State Department or the Office of U.S. Foreign Assistance (OFDA) 
+within the U.S. Agency for International Development (USAID) is the U.S. government lead in foreign 
+response.  DOD military personnel operate under a military chain of command regardless of the lead 
+agency.  Command and control typically reside under a joint force command structure where the EMEDS 
+commander reports through a line chain of command or through the joint force surgeon.  Specific command 
+and control relationships are usually defined in the warning, execution, or operation order. 
+11.6.  Standard of Care.  EMEDS providers should apply U.S. medical standards when treating American 
+forces.  The medical rules of engagement define the scope of care and triage guidelines for host nation 
+patients based on the situation, other available health support capabilities, patient movement capabilities, 
+and the host nation’s request for support.  Medical interventions typically are limited to procedures and 
+therapies that are low risk, can be performed quickly, require limited follow-up, and do not undermine the 
+host nation medical system. 
+11.7.  Patient Movement.  EMEDS may be employed with an En Route Patient Staging System (ERPSS) 
+facility that can facilitate the intra-country movement of host nation patients.  Due to Secretarial Designee 
+status requirements, OCONUS host nation patients are not typically entered into the aeromedical evacuation 
+system for movement outside their nation. 
+11.8.  Interoperability with Host Nation and Partner Providers.  Healthcare professionals and 
+volunteers from the host nation or other partner may assist EMEDS personnel in providing health support 
+if they meet mutually agreed upon requirements for proof of credentials. 
+11.9.  Blood Supply.  Blood products are generally used for the direct support of military forces supporting 
+the mission.  EMEDS facilities should use DOD sourced or DOD collected blood products.  If supply or 
+resupply is not available from DOD sources, consult the Area Joint Blood Program Office for direction.  
+Blood policies for host nation patients are in accordance with the established medical rules of engagement. 
+11.10.  Property Donation.  Serviceable medical equipment and supplies (Class VIII A medical materiel) 
+may be made available to the host nation or non-government organizations in accordance with combatant 
+command policy and direction.  Property donations typically require coordination with logistics personnel, 
+public affairs, legal, and the Defense Logistics Agency (DLA).  Requests for property should be forwarded 
+to the DOD for approval and funding authorization.  Transfer and distribution of the property is the 
+responsibility of the State Department in accordance with Title 10 United States Code (USC), Section 2557.  
+Donated equipment or materiel should be appropriate and interoperable with host nation standards, 
+maintainable by host nation capabilities and resources, and have a measurable positive impact on host 
+nation health capacity. 
+ 
+JEANNINE M. RYDER 
+Major General, USAF, NC 
+Commander, Air Force Medical Agency 
+46 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+DODI 6055.05, Occupational and Environmental Health (OEH), 11 November 2008 
+DODI 6490.03, Deployment Health, 19 June 2019 
+DODM 5200.01V3_DAFMAN 16-1404V3, Information Security Program:  Protection of 
+Classified Information, 12 April 2022 
+JP 3-29, Foreign Humanitarian Assistance, 14 May 2019 
+JP 4-02, Joint Health Services, 29 August 2023 
+DAFI 10-2501, Emergency Management Program, 16 October 2023 
+DAFI 10-2503, Chemical, Biological, Radiological, Nuclear (CBRN) Defense, Program, 6 
+October 2023 
+DAFI 24-602V2, Cargo Movement, 20 December 2023 
+DAFI 31-101, Integrated Defense (ID), 25 March 2020 
+DAFI 34-160, Mortuary Affairs Program, 3 March 2022 
+DAFI 48-107V1, En Route Care and Aeromedical Evacuation Medical Operations, 15 
+December 2020 
+DAFI 48-107V3, En Route Care Documentation, 17 December 2020 
+DAFMAN 21-201, Munitions Management, 03 May 2022 
+DAFMAN 36-2655, USAF Small Arms and Light Weapons Qualification Programs, 17 April 
+2020 
+DAFTTP 3-42.8, Expeditionary Medical Logistics (EML) System, 15 June 2021 
+AFDP 3-30, Command and Control, 7 January 2020 
+AFDP 4-02, Health Services, 12 November 2019 
+AFI 10-204, Air Force Service Exercise Program and Support to Joint and National Exercise 
+Program, 6 September 2023 
+AFI 10-403, Deployment Planning and Execution, 17 April 2020 
+AFI 10-701, Operations Security (OPSEC), 24 July 2019 
+AFI 10-1302, Air Force Lessons Learned Program, 30 July 2019 
+AFI 17-130, Cybersecurity Program Management, 13 February 2020 
+AFI 24-301, Ground Transportation, 22 October 2019 
+AFI 33-322, Records Management and Information Governance Program, 23 March 2020 
+AFI 33-332, Air Force Privacy and Civil Liberties Program, 10 March 2020 
+AFI 36-2654, Combat Arms Program, 16 April 2020 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+47 
+AFI 41-106, Medical Readiness Program, 29 July 2020 
+AFI 41-201, Managing Clinical Engineering Programs, 10 October 2017 
+AFI 44-108, Infection Prevention and Control Program, 5 June 2019 
+AFI 44-119, Medical Quality Operations, 16 August 2011 
+AFH 44-152, Armed Services Blood Program Joint Blood Program Handbook, 1 December 
+2011 
+AFMAN 17-1301, Computer Security (COMPUSEC), 12 February 2020 
+AFMAN 41-210, TRICARE Operations and Patient Administration, 10 September 2019 
+AFMAN 10-206, Operational Reporting (OPREP), 18 June 2018 
+AFMAN 24-604, Preparing Hazardous Materials for Military Air Shipments, 09 October 2020 
+AFMAN 41-209, Medical Logistics Support, 4 January 2019 
+AFMAN 44-144, Nutritional Medicine, 20 January 2016 
+AFTTP 3-42.22, Contagious Casualty Management, 7 May 2007 
+AFTTP 3-42.23, Preventive and Aerospace Medicine (PAM) Team, 19 June 2018 
+AFTTP 3-42.33, Expeditionary Medical Decontamination Team, 7 April 2005 
+AFTTP 3-42.34, Air Force Radiation Assessment Team (AFRAT), 14 October 2022 
+AFTTP 3-42.74, Surgical Subspecialty Teams, 30 November 2009 
+AFTTP 3-42.76, Medical Ancillary Augmentation Teams, 25 June 2010 
+AFTTP 3-42.78, Medical Behavioral Health Teams, 27 September 2007 
+AFTTP 3-42.711, Blood Support Operations, 18 September 2023 
+AFTTP 3-42.77, Ground Surgical Team (GST), 16 November 2018 
+ATP 4-02.7/MCRP 4-11.1F/NTTP 4-02.7/AFTTP 3-42.3, Multiservice Tactics, Techniques, and 
+Procedures for Health Service Support in a Chemical, Biological, Radiological, and Nuclear 
+Environment, 15 March 2016 
+DHA-PM, Clinical Quality Management in the Military Health System, Volume 1:  General 
+Clinical Quality Management, 29 August 2019 
+Defense Transportation Regulation (DTR) 4500.9-R-Part III, Mobility, June 2016 
+United States Department of Defense, 2022 National Defense Strategy, 27 October 2022 
+United States Air Force, Air Force Medical Service (AFMS) Life Cycle Sustainment Plan (LCSP) 
+for USAF Medical Equipment War Reserve Materiel (WRM), Information 
+Management/Information Technology (IM/IT), November 2019 
+United States Air Force, Air Force Medical Service Deployed Patient Safety Program (PSP) 
+Guide [online publication] 
+United States Air Force, War and Mobilization Plan, Volume 1 (WMP-1), Enclosure F, Medical 
+Supplement, July 2019 
+48 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+Academy of Nutrition and Dietetics, Nutrition Care Manual (NCM) [online publication] 
+UTS Systems, Expeditionary Medical Support (EMEDS) Single Skin Operators Manual [not 
+dated] 
+Adopted Forms 
+DD 3019, Resuscitation Record 
+DD 1380, Tactical Combat Casualty Care (TCCC) Card 
+DAF 847, Recommendation for Change of Publication 
+AF 171, Request for Driver Training and Addition to U.S. Government Driver’s License 
+AF 3899, Patient Movement Record 
+SF 600, Chronological Record of Medical Care 
+Abbreviations and Acronyms 
+ACC—Air Combat Command 
+ADVON—Advanced Echelon 
+AELT—Aeromedical Evacuation Liaison Team 
+AF—Air Force (form) 
+AFDP—Air Force Doctrine Publication 
+AFFOR—Air Force Forces 
+AFH—Air Force Handbook 
+AFI—Air Force Instruction 
+AFMAN—Air Force Manual 
+AFMLOC—Air Force Medical Logistics Operations Center 
+AFMS—Air Force Medical Service 
+AFOMIS—Air Force Operational Medicine Information Systems 
+AFPAM—Air Force Pamphlet 
+AFRAT—Air Force Radiation Assessment Team 
+AFSC—Air Force Specialty Code 
+AFTH—Air Force Theater Hospital 
+AFTTP—Air Force Tactics, Techniques, and Procedures 
+ATP—Army Technical Publication 
+BEAR—Basic Expeditionary Airfield Resources 
+BOS—Base Operating Support 
+C2—Command and Control 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+49 
+C2CRE—Command and Control CBRN Response Element 
+CBRN—Chemical, Biological, Radiological, and Nuclear 
+CMRP—Comprehensive Medical Readiness Program 
+COMAFFOR—Commander, Air Force Forces 
+CONUS—Continental United States 
+CP—Collectively Protected, Collective Protection 
+CP-EMEDS—Collectively Protected Expeditionary Medical Support 
+CT—Computed Tomography 
+DAF—Department of the Air Force (form) 
+DAFI—Department of the Air Force Instruction 
+DAFMAN—Department of the Air Force Manual 
+DAFFTP—Department of the Air Force Tactics, Techniques, and Procedures 
+DBSS—Defense Blood Support System 
+DCRF—Defense CBRN Response Force 
+DD—Department of Defense (form) 
+DHA-PM—Defense Health Agency-Procedures Manual 
+DIMO—Defense Institute for Medical Operations 
+DLA—Defense Logistics Agency 
+DMRTI—Defense Medical Readiness Training Institute 
+DOD—Department of Defense 
+DODI—Department of Defense Instruction 
+DODM—Department of Defense Manual 
+DSCA—Defense Support of Civil Authorities 
+DSN—Defense Switched Network 
+DTR—Defense Transportation Regulation 
+EBSC—Expeditionary Blood Support Center 
+ECG—Electrocardiogram 
+ECS—Expeditionary Combat Support 
+ECU—Environmental Control Unit 
+EMEDS—Expeditionary Medical Support 
+EML—Expeditionary Medical Logistics 
+ENT—Ear, Nose, and Throat (Otorhinolaryngology) 
+50 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+ERPSS—En Route Patient Staging System 
+FFP—Fresh Frozen Plasma 
+FM—Field Manual 
+GYN—Gynecology 
+HAST—Humanitarian Assistance Survey Team 
+HIPAA—Health Insurance Portability and Accountability Act 
+HRT—Health Response Team 
+HVAC—Heating, Ventilation, Air Conditioning 
+IDMT—Independent Duty Medical Technician 
+JFC—Joint Force Commander 
+JP—Joint Publication 
+JSMLC—Joint Senior Medical Leaders Course 
+JTIMS—Joint Training Management Information System 
+JTRS—Joint Tactical Radio System 
+LMR—Land Mobile Radio 
+MCRP—Marine Corps Reference Publication 
+MEFPAK—Manpower and Equipment Force Packaging 
+MERC—Medical Equipment Repair Center 
+METL—Mission Essential Task List 
+MHS—Military Health System 
+MRA—MEFPAK Responsible Agency 
+MRL—Medical Resourcing Letter 
+NIPRNET—Non-classified Internet Protocol Router Network 
+NOSC—Network Operation and Security Center 
+NPSG—National Patient Safety Goals 
+NTTP—Navy Tactics, Techniques, and Procedures 
+Nuc/Rad—Nuclear/Radiological 
+OB—Obstetrics 
+OCONUS—Outside the Continental United States 
+OFDA—Office of U.S. Foreign Assistance 
+OPR—Office of Primary Responsibility 
+OT—Occupational Therapy 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+51 
+PACS—Picture Archiving and Communication System 
+PAM—Preventive and Aerospace Medicine 
+PF24—Plasma Frozen within 24 Hours 
+PMI—Patient Movement Items 
+POL—Petroleum, Oils, and Lubricants 
+PRBC—Packed Red Blood Cell 
+PT—Physical Therapy 
+RBC—Red Blood Cell 
+SDC—Standard Desktop Configuration 
+SEI—Special Experience Identifier 
+SF—Standard Form 
+SG—Surgeon General, Surgeon 
+SIPRNET—Secret Internet Protocol Router Network 
+SOF—Special Operations Forces 
+SOFA—Status of Forces Agreement 
+TCCC—Tactical Combat Casualty Care 
+TCP—Transmission Control Protocol 
+TLAMM—Theater Lead Agent for Medical Materiel 
+TMIP—Theater Medical Information Program 
+TPFDD—Time-Phased Force Deployment Data 
+TPMRC—(United States) Transportation Command Patient Movement Requirements Center 
+UDP—User Datagram Protocol 
+USAF—United States Air Force 
+USAID—U.S. Agency for International Development 
+USC—United States Code 
+UTC—Unit Type Code 
+VOIP—Voice Over Internet Protocol 
+VOSIP—Voice Over Secure Internet Protocol 
+WMP—War and Mobilization Plan 
+ 
+52 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+Attachment 2 
+EXPEDITIONARY COMBAT SUPPORT REQUIREMENTS 
+Table A2.1.  EMEDS Expeditionary Combat Support Requirements. 
+EMEDS Expeditionary Combat Support Requirements 
+Calculations are in accordance with AFP 10-219, Vols 5 & 6, where applicable unless 
+otherwise specified. 
+ 
+ 
+EMEDS 
+HRT 
+EMEDS+10 
+ 
+EMEDS+25 
+ 
+AFTH 
+(87 Bed) 
+MOVEMENT REQUIREMENTS 
+Calculations are in accordance with AFPAM 10-1403 and DTR 4500.9-R Part III and 
+rounded to nearest whole number. 
+Pallets (#) 
+13 
+26 
+36 
+118 
+C-130 (# aircraft) 
+2 
+4 
+6 
+20 
+C-17 (# aircraft) 
+1 
+1 
+2 
+7 
+C-5 (# aircraft) 
+1 
+1 
+1 
+3 
+M871 (# flatbed 
+semitrailers) 
+4 
+9 
+12 
+39 
+M872 (# flatbed 
+semitrailers) 
+3 
+7 
+9 
+30 
+SITE PREPARATION 
+Square Footage (slight 
+grade required) 
+17,000 
+26,000 
+40,000 
+62,000 
+Tents (#) 
+5 
+8 
+11 
+29 
+(plus 5 ISOs) 
+ECUs (# units) 
+5 
+8 
+11 
+35 
+Note: Civil engineering maintenance support is required for ECUs and backup generators. 
+BASIC EXPEDITIONARY AIRFIELD RESOURCES (BEAR) REQUIREMENTS 
+Latrine/Showers (total 
+# people) 
+44 
+76 
+127 
+393 
+Staff (#) 
+40 
+66 
+102 
+306 
+Patients (#) 
+4 
+10 
+25 
+87 
+Billeting (# staff) 
+40 
+66 
+102 
+306 
+Officer (#) 
+20 
+28 
+45 
+129 
+Enlisted (#) 
+20 
+38 
+57 
+177 
+Meals (# meals/day, 
+total) (= 3 meals/day) 
+132 
+228 
+381 
+1,179 
+Staff (# meals/day) 
+120 
+198 
+306 
+918 
+Patients (# meals/day) 
+12 
+30 
+75 
+261 
+Laundry (lbs/week, 
+total) (= 32 
+lbs/person/week) 
+1,408 
+2,432 
+4,064 
+12,576 
+Staff (lbs/week) 
+1,280 
+2,112 
+3,264 
+9,792 
+Patients (lbs/week) 
+128 
+320 
+800 
+2,784 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+53 
+EMEDS Expeditionary Combat Support Requirements 
+Calculations are in accordance with AFP 10-219, Vols 5 & 6, where applicable unless 
+otherwise specified. 
+ 
+ 
+EMEDS 
+HRT 
+EMEDS+10 
+ 
+EMEDS+25 
+ 
+AFTH 
+(87 Bed) 
+Ice (lbs/day, total) (= 
+4.4 lbs/person/day) 
+193.6 
+334.4 
+558.8 
+1,729.2 
+Staff (lbs/day) 
+176 
+290.4 
+448.8 
+1,346.4 
+Patients (lbs/day) 
+17.6 
+44 
+110 
+382.8 
+Potable Water (gal/day, 
+total) 
+660 
+1,310 
+2,645 
+8,725 
+Staff (gal/day) (= # 
+staff x 10 gal/day) 
+400 
+660 
+1,020 
+3,060 
+Patients (gal ) (= # 
+patients x 65 gal/day) 
+260 
+650 
+1,625 
+5,655 
+Power (kW) 
+75 
+125 
+200 
+550 
+Power with CP-
+EMEDS (kW) (3-
+phase) 
+100 
+200 
+400 
+Contact 
+ACC/SGXM for 
+guidance 
+MEDICAL/BIOHAZARD WASTE MANAGEMENT 
+Liquid (gal/day), total 
+(= 0.7 x potable water 
+rate) 
+30.8 
+53.2 
+88.9 
+275.1 
+Staff (gal/day) 
+28 
+46.2 
+71.4 
+214.2 
+Patients (gal/day) 
+2.8 
+7 
+17.5 
+60.9 
+Solid (lbs/day, total) (= 
+4 lbs x # people) 
+176 
+304 
+508 
+1,572 
+Staff (lbs/day) 
+160 
+264 
+408 
+1,224 
+Patients (lbs/day) 
+16 
+40 
+100 
+348 
+LOGISTICS REQUIREMENTS 
+Petroleum, Oil, Lubricants 
+Diesel Fuel 
+Consumption (gal/day) 
+(= 8.33 gal/hr x 24 hrs) 
+0 
+400 
+400 
+2,000 
+Diesel Fuel 
+Consumption, CP mode 
+(gal/day) 
+0 
+550 
+600 
+2,500 
+Unleaded Fuel 
+Consumption (gal/day) 
+(10kW backup 
+generator) 
+60 
+60 
+60 
+60 
+Vehicles 
+Transportation 
+Requirements 
+UFMBJ: 1, 
+4x4 Pickup 
+Truck 
+UFMBJ: 1, 
+4x4 Pickup 
+Truck 
+UFMBJ: 1, 
+4x4 Pickup 
+Truck 
+UFMBJ: 1, 4x4 
+Pickup Truck 
+54 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+EMEDS Expeditionary Combat Support Requirements 
+Calculations are in accordance with AFP 10-219, Vols 5 & 6, where applicable unless 
+otherwise specified. 
+ 
+ 
+EMEDS 
+HRT 
+EMEDS+10 
+ 
+EMEDS+25 
+ 
+AFTH 
+(87 Bed) 
+UFM82: 1, 
+4x2 
+Ambulance 
+UFM83:1, 
+4x4 
+Ambulance 
+UFMT4: 1, 
+2.5 Ton Cargo 
+Truck 
+UFMV2: 1, 
+Mobile Water 
+Trailer 
+UFM82: 1, 
+4x2 
+Ambulance 
+UFM83: 1, 
+4x4 
+Ambulance 
+UFMT4: 1, 
+2.5 Ton Cargo 
+Truck 
+UFMV2: 1, 
+Mobile Water 
+Trailer 
+UFM82: 1, 4x2 
+Ambulance 
+UMF83: 1, 4x4 
+Ambulance 
+UFMT4: 1, 2.5 
+Ton Cargo Truck 
+UFMV2: 1, 
+Mobile Water 
+Trailer 
+Materiel Handling 
+Equipment 
+10K forklift 
+Flatbed truck 
+10K forklift 
+Flatbed truck 
+10K forklift 
+Flatbed truck 
+10K forklift 
+Flatbed truck 
+Vehicle Maintenance 
+Support 
+Required 
+COMMUNICATIONS AND INFORMATION SYSTEMS 
+Organic Equipment 
+Satellite/Telemedicine 
+(#) 
+1 
+1 
+1 
+1 
+Land Mobile Radios 
+(#) 
+13 
+14 
+15 
+15 
+Laptop (#) 
+14 
+24 
+29 
+35 
+Printers (#) 
+2 
+3 
+8 
+10 
+Server Suite (#) 
+0 
+1 
+1 
+1 
+Base Communications Support Requirements 
+Phone/VOIP (#) 
+9 
+(4 cell, 3 land, 
+2 crash) 
+10 
+(4 cell, 4 land, 
+2 crash) 
+12 
+(4 cell, 6 land, 
+2 crash) 
+12 
+(4 cell, 6 land, 2 
+crash) 
+NIPRNET Access 
+1 ethernet drop required 
+SIPRNET/VOSIP 
+Access 
+Required 
+Computer Configuration 
+Operating 
+System/Office Suite 
+DOD SDC 
+RAM/Hard Drive 
+Enterprise Hardware Standard 
+Clinical Applications 
+TMIP 
+Required Port 
+Number/Protocol 
+Access (TCP/UDP) 
+21/TCP; 443/TCP; 8080/TCP 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+55 
+EMEDS Expeditionary Combat Support Requirements 
+Calculations are in accordance with AFP 10-219, Vols 5 & 6, where applicable unless 
+otherwise specified. 
+ 
+ 
+EMEDS 
+HRT 
+EMEDS+10 
+ 
+EMEDS+25 
+ 
+AFTH 
+(87 Bed) 
+CHAPLAINCY SERVICE SUPPORT 
+ 
+Required for all modules 
+SECURITY FORCES SUPPORT 
+ 
+ 
+Required for all modules not co-located on Air Base 
+ 
+56 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+Attachment 3 
+EMEDS HRT LAYOUT 
+Figure A3.1.  EMEDS HRT Site Layout. 
+ 
+ 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+57 
+Attachment 4 
+EMEDS HRT POWER GRID 
+Figure A4.1.  EMEDS HRT Power Grid. 
+ 
+ 
+58 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+Attachment 5 
+EMEDS HRT NETWORK CONFIGURATION 
+Figure A5.1.  EMEDS HRT Network Configuration. 
+ 
+ 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+59 
+Attachment 6 
+EMEDS+10 LAYOUT 
+Figure A6.1.  EMEDS+10 Site Layout. 
+ 
+ 
+60 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+Attachment 7 
+EMEDS+10 POWER GRID 
+Figure A7.1.  EMEDS+10 Power Grid. 
+ 
+ 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+61 
+Attachment 8 
+EMEDS+10 NETWORK CONFIGURATION 
+Figure A8.1.  EMEDS+10 Network Configuration. 
+ 
+ 
+62 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+Attachment 9 
+EMEDS+25 LAYOUT 
+Figure A9.1.  EMEDS+25 Site Layout. 
+ 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+63 
+Attachment 10 
+EMEDS+25 POWER GRID 
+Figure A10.1.  EMEDS+25 Power Grid. 
+ 
+64 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+Attachment 11 
+EMEDS+25 NETWORK CONFIGURATION 
+Figure A11.1.  EMEDS+25 Network Configuration. 
+ 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+65 
+Attachment 12 
+EMEDS HRT LAB SUPPLIES AND TESTING CAPABILITIES 
+Table A12.1.  EMEDS HRT Lab Supplies and Testing Capabilities. 
+EMEDS HRT Lab Capabilities 
+Blood Gases 
+Potential Hydrogen (pH), Carbon Dioxide Partial 
+Pressure (PCO2), Oxygen Partial Pressure (PO2), 
+Total Carbon Dioxide (TCO2), Bicarbonate (HCO3), 
+Base Excess (BE), Oxygen Saturation (sO2) 
+Chemistries/Electrolytes 
+Glucose (Glu), Sodium (Na), Potassium (K), Ionized 
+Calcium (iCa) 
+Hematology 
+Hematocrit (Hct), Hemoglobin (Hgb) 
+Emergency Transfusion 
+No ABO/Rh or crossmatch capabilities 
+Up to 50 units of Group O PRBC only (type-specific 
+not available) 
+Emergency whole blood collection 
+Note:  Pre-screened Walking Donor Program 
+required.  Consult the Area Joint Blood Program 
+Office representative on theater requirements for 
+maintaining a walking donor program. 
+Urine Based Analyses 
+Beta Human Chorionic Gonadotropin (BHCG) 
+ 
+Drug Screen (Qualitative): Phencyclidine (PCP), 
+Benzodiazepines (BENZO), Cocaine (COC), 
+Amphetamine (AMP), Tetrahydrocannabinol (THC), 
+Opiates (OPI), Barbiturates (BARB), Tricyclic 
+Antidepressants (TCA) 
+ 
+Urine or Saliva Ethyl Alcohol: Qualitative Kit 
+ 
+Urinalysis, (Macroscopic Only, No Centrifuge): Test 
+Glucose, Bilirubin, Ketone, Specific Gravity, Blood, 
+PH, Protein, Urobilinogen, Nitrite, Leukocytes 
+Cardiac Analyses 
+Cardiac Troponin I (cTnI), Creatine Kinase Muscle 
+and Brain (CK-MB), Myoglobin 
+Miscellaneous Analyses 
+KOH Preps, Direct Preps 
+Occult Blood 
+D-Dimer 
+Monospot 
+Rapid Strep 
+Note:  EMEDS HRT lab testing is limited to waived and moderate complexity testing to include 
+provider performed microscopy. 
+ 
+66 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+Attachment 13 
+EMEDS+10 LAB SUPPLIES AND TESTING CAPABILITIES 
+Table A13.1.  EMEDS+10 Lab Supplies and Testing Capabilities. 
+EMEDS+10 Lab Capabilities 
+Blood Gases 
+Potential Hydrogen (pH), Carbon Dioxide Partial 
+Pressure (PCO2), Oxygen Partial Pressure (PO2), 
+Total Carbon Dioxide (TCO2), Bicarbonate (HCO3), 
+Base Excess (BE), Oxygen Saturation (sO2) 
+Chemistries/Electrolytes 
+Glucose (Glu), Sodium (Na), Potassium (K), Ionized 
+Calcium (iCa), Chloride (Cl), Anion Gap, Urea 
+Nitrogen (BUN), Creatinine (Crea) 
+Hematology 
+White Blood Cells (WBC): Neutrophils NE%/NE#, 
+Lymphocytes LY%/LY#, Monocytes MO%/MO#, 
+Eosinophils EO%/EO#, Basophils BA%/BA# 
+ 
+Red Blood Cells: Hemoglobin (HGB), Hematocrit 
+(HCT), Mean Corpuscular Volume (MCV), Mean 
+Corpuscular Hemoglobin (MCH), Mean Corpuscular 
+Hemoglobin Concentration (MCHC), RBC 
+Distribution Width (RDW) 
+ 
+Platelet: Mean Platelet Volume (MPV), Plateletcrit 
+(PCT), Platelet Distribution Width (PDW) 
+Emergency Transfusion/Limited 
+Blood Banking 
+ABO/Rh and abbreviated crossmatch capabilities  
+No antibody identification or antigen typing 
+Mixed group/type PRBC (up to 50 units) 
+FFP (limited quantities) storage and thawing 
+Emergency whole blood collection 
+Note:  Pre-screened Walking Donor Program 
+required.  Consult the Area Joint Blood Program 
+Office representative on theater requirements for 
+maintaining a walking donor program. 
+Coagulation Tests 
+ProThrombin Time (PT), Partial Thromboplastin Time 
+(PTT) 
+Urine Based Analyses 
+Human Chorionic Gonadotropin (HCG) 
+ 
+Drug Screen (Qualitative): Phencyclidine (PCP), 
+Benzodiazepines (BENZO), Cocaine (COC), 
+Amphetamine (AMP), Tetrahydrocannabinol (THC), 
+Opiates (OPI), Barbiturates (BARB), Tricyclic 
+Antidepressants (TCA) 
+ 
+Urine or Saliva Ethyl Alcohol: Qualitative Kit 
+ 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+67 
+EMEDS+10 Lab Capabilities 
+Urinalysis (Microscopic and Macroscopic Test): 
+Glucose, Bilirubin, Ketone, Specific Gravity, Blood, 
+PH, Protein, Urobilinogen, Nitrite, Leukocytes 
+Cardiac Analyses 
+Cardiac Troponin I (cTnI), Creatine Kinase Muscle 
+and Brain (CK-MB), Myoglobin 
+Miscellaneous Analyses 
+Fibrin Degradation Products/D-Dimer (from EMEDS 
+HRT) 
+KOH Preps, Direct Preps, Rapid Strep 
+Occult Blood 
+Monospot 
+Malaria, Thick and Thin Smears 
+Grams Stain 
+Cell Counts, Cerebral Spinal Fluid, Other Fluids and 
+Aspirates 
+ 
+68 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+Attachment 14 
+EMEDS+25 AND AFTH LAB SUPPLIES AND TESTING CAPABILITIES 
+Table A14.1.  EMEDS+25 and AFTH Lab Supplies and Testing Capabilities. 
+EMEDS+25 Lab Capabilities 
+Microbiology 
+Throat, Urine, Wound, Blood, Skin, Stool, Sputum, 
+Urethral, Eye, Nasal, and Cerebrospinal Fluid 
+Cultures; Basic Identification and Sensitivities; Ova 
+and Parasitic Concentration and ID/Trichrome 
+Staining for Protozoa Anaerobic Culture, Very Basic; 
+Growth and Grams Stain, No ID 
+Chemistries 
+Glucose (Glu), Sodium (Na), Potassium (K), Ionized 
+Calcium (iCa), Chloride (Cl), Anion Gap, Alkaline 
+Phosphatase (ALP), Alanine Aminotransferase (ALT), 
+Aspartate Aminotransferase (AST), Amylase (AMY), 
+Albumin (ALB), Total Protein (TP), Total Bilirubin 
+(TBIL), Urea Nitrogen (BUN), Creatinine (CRE), 
+Calcium (CA), Glucose (GLU), Uric Acid (UA), 
+Gamma Glutamyl Transferase (GGT) 
+Complete Blood Count 
+White Blood Cells (WBC): Neutrophils NE%/NE#, 
+Lymphocytes LY%/LY#, Monocytes MO%/MO#, 
+Eosinophils EO%/EO#, Basophils BA%/BA# 
+ 
+Red Blood Cells: Hemoglobin (HGB), Hematocrit 
+(HCT), Mean Corpuscular Volume (MCV), Mean 
+Corpuscular Hemoglobin (MCH), Mean Corpuscular 
+Hemoglobin Concentration (MCHC), RBC 
+Distribution Width (RDW) 
+ 
+Platelet: Mean Platelet Volume (MPV), Plateletcrit 
+(PCT), Platelet Distribution Width (PDW) 
+Emergency Transfusion/Limited 
+Blood Banking 
+ABO/Rh and abbreviated crossmatch capabilities  
+No antibody identification or antigen typing 
+Mixed group/type PRBC (up to 50 units) 
+FFP (limited quantities) storage and thawing 
+Cryo and PLTS (limited quantities, if available in 
+theater) 
+Emergency whole blood collection 
+Note:  Pre-screened Walking Donor Program 
+required.  Consult the Area Joint Blood Program 
+Office representative on theater requirements for 
+maintaining a walking donor program. 
+Coagulation Tests 
+ProThrombin Time (PT), Partial Thromboplastin Time 
+(PTT) 
+Urine Based Analyses 
+Human Chorionic Gonadotropin (HCG) 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+69 
+EMEDS+25 Lab Capabilities 
+ 
+Drug Screen (Qualitative): Phencyclidine (PCP), 
+Benzodiazepines (BENZO), Cocaine (COC), 
+Amphetamine (AMP), Tetrahydrocannabinol (THC), 
+Opiates (OPI), Barbiturates (BARB), Tricyclic 
+Antidepressants (TCA) 
+ 
+Urine or Saliva Ethyl Alcohol: Qualitative Kit 
+ 
+Urinalysis (Microscopic and Macroscopic Test): 
+Glucose, Bilirubin, Ketone, Specific Gravity, Blood, 
+pH, Protein, Urobilinogen, Nitrite, Leukocytes 
+Cardiac Analyses 
+Cardiac Troponin I (cTnI), Creatine Kinase Muscle 
+and Brain (CK-MB), Myoglobin 
+Miscellaneous Analyses 
+Fibrin Degradation Products/D-Dimer (from EMEDS 
+HRT) 
+KOH Preps, Direct Preps 
+Occult Blood  
+Monospot 
+Rapid Strep 
+Malaria, Thick and Thin 
+Grams Stain 
+Cell Counts, Cerebral Spinal Fluid, Other Fluids and 
+Aspirates 
+Note:  See AFTTP 3-42.76 for more information on the ancillary lab specialty set for AFTHs. 
+ 
+70 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+Attachment 15 
+EMEDS COMMANDER PRE-DEPLOYMENT AND POST ARRIVAL CHECKLIST 
+Table A15.1.  Pre-Deployment and Initial Operations Key Tasks. 
+Done 
+Task 
+Recommendations 
+ 
+Pre-Deployment Activities 
+ 
+Establish lines of communication with 
+EMEDS team members. 
+Deploying members might not be 
+stationed together.  Establish a means to 
+share information and build rapport. 
+ 
+To the extent possible, meet with team 
+members in person or virtually using 
+secure communication methods as 
+necessary. 
+ 
+Document events, key resources, contact 
+information, recall rosters, and other 
+reference materials for continuity records. 
+ 
+Establish command structure. 
+Identify key leaders and establish a 
+command structure.  Ensure team 
+members are aware of the chain of 
+command and organizational structure. 
+ 
+Review pre-deployment documentation. 
+Review pre-deployment documents, such 
+as the warning order, operation order, 
+deployment order, reporting instructions, 
+and intelligence briefings.  Review 
+personnel rosters and cargo lists. 
+ 
+Conduct personnel assessment. 
+Work closely with the medical readiness 
+office and Personnel Support for 
+Contingency Operations to verify that all 
+assigned personnel are eligible for 
+deployment and meet mission training, 
+pre-deployment health screening, and 
+immunization requirements. 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+71 
+Done 
+Task 
+Recommendations 
+ 
+Gather information on destination. 
+Contact the AFFOR/SG office for current 
+medical and environmental intelligence 
+about the deployed location. 
+ 
+Contact communications, intelligence, 
+logistics, and security force units for 
+information about the services and 
+capabilities available.  If available, obtain 
+base support plans and area maps. 
+ 
+Consult with public health staff for 
+information on local health threats. 
+ 
+Consult with global health engagement 
+staff for information about the regional 
+health structure, cultural considerations, 
+language cards with common medical 
+phrases and international symbols, and 
+points of contact for the U.S. embassy, 
+host nation military, and non-
+governmental agencies. 
+ 
+Review deployment schedules. 
+The Deployment Control Center 
+publishes a deployment schedule of 
+events to prepare units, personnel, and 
+cargo to meet required delivery dates in 
+theater. 
+ 
+Contact the medical readiness office for 
+information on personnel chalks, troop 
+commanders, and transportation 
+schedules. 
+ 
+Coordinate ECS/BOS. 
+Ensure that ECS/BOS needs are 
+coordinated with the appropriate agencies 
+before deployment.  To the extent 
+possible, coordinate with supplying units 
+in advance to exchange contact 
+information, communicate arrival times, 
+and negotiate support. 
+ 
+Initial Arrival and Early-Phase Activities 
+72 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+Done 
+Task 
+Recommendations 
+ 
+Assess existing medical capabilities at the 
+operating location. 
+Determine what level of health care and 
+health care facilities already exist at the 
+location.   
+ 
+Determine which EMEDS components, 
+other ground medical UTCs, and 
+aeromedical evacuation resources are in 
+place and the timeline for arrival of 
+additional support.   
+ 
+Determine what medical resources are 
+available from other services and 
+coalition forces. 
+ 
+Recommend site location. 
+If necessary, find a location to house 
+immediate clinical care (tent, building of 
+opportunity) until the EMEDS 
+infrastructure is in place.   
+ 
+Recommend a proposed site for the 
+EMEDS facility to the expeditionary 
+wing or group commander based on input 
+from civil engineers and 
+bioenvironmental engineering.  Consider 
+security (central location), flight-line 
+access, accessibility to the patient 
+population, proximity to environmental 
+hazards (flight-line noise, sewage plant, 
+power, and communication lines), 
+orientation to wind and weather patterns, 
+and terrain.   
+ 
+Identify areas for mass casualty triage, 
+patient decontamination, and contagious 
+casualty management. 
+ 
+Be prepared to relocate as the base 
+expands or operational conditions 
+warrant.  Consider alternate sites and 
+have a relocation plan in place. 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+73 
+Done 
+Task 
+Recommendations 
+ 
+Secure essential services.  
+Work with ECS/BOS resources to obtain 
+food, water, shelter, and transportation for 
+the medical staff.  Secure power for the 
+medical facility. 
+ 
+If necessary, secure temporary 
+refrigeration for medications, 
+immunizations, and other medical 
+supplies that require temperature control 
+until the medical facility is set up. 
+ 
+Establish medical command and control. 
+Identify and establish contact with the 
+local and theater chain of command.   
+ 
+Brief the expeditionary wing/group 
+commander on medical assets and 
+capabilities and understand the 
+commander’s expectations for health 
+service support.   
+ 
+Garner support for force health protection 
+measures to maintain the health of 
+deployed forces. 
+ 
+Determine force protection condition and 
+security threat. 
+Consult with intelligence, security forces, 
+and civil engineering to assess the 
+security threat and obtain information on 
+the current force protection condition, 
+alarm signals and responses, shelter 
+locations and procedures, and personal 
+protective equipment requirements (mask, 
+chemical gear, etc.). 
+ 
+Account for equipment and supplies. 
+Ensure that supplies and equipment 
+required to establish medical capability 
+have arrived.  Pallets might be repacked 
+during transit to maximize space, so 
+packing lists on the outside of pallets 
+might not reflect the actual contents. 
+ 
+Medical logistics personnel are 
+responsible for storing and safeguarding 
+equipment and supplies. 
+74 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+Done 
+Task 
+Recommendations 
+ 
+Establish communications capability. 
+Identify voice and data connectivity 
+requirements and relay needs to base 
+communications.   
+ 
+Request support to establish Secret 
+Internet Protocol Router Network 
+(SIPRNET) and Non-classified Internet 
+Protocol Router Network (NIPRNET) 
+access. 
+ 
+Report arrival. 
+Contact the AFFOR/SG to report your 
+arrival, current medical capability, 
+limiting factors, and shortfalls.  This 
+should be accomplished automatically 
+with the first situation report. 
+ 
+Establish contact with squadron medical 
+elements. 
+Squadron medical elements belong to 
+operational squadrons but can integrate 
+into medical operations as appropriate for 
+mission and manning considerations. 
+ 
+Meet with the local flying unit 
+commanders to determine their medical 
+support needs and a command and control 
+mechanism for coordinating medical 
+services between the squadron medical 
+element and the deployed medical unit. 
+ 
+Evaluate external care options. 
+Determine the referral pattern for patients 
+who require a higher level of care.   
+ 
+Consult the AFFOR/SG’s office or U.S. 
+Embassy for information on local medical 
+care options and patient movement 
+policy.   
+ 
+Consult the Patient Movement 
+Requirements Center to clarify 
+procedures on patient movement requests.  
+ 
+Determine availability and access to 
+medical support services in the area of 
+responsibility (such as ancillary services, 
+supplies) to augment services not 
+available at the EMEDS facility.  Global 
+health engagement personnel can help 
+assess local capabilities. 
+AFTTP3-42.71  17 SEPTEMBER 2024 
+75 
+Done 
+Task 
+Recommendations 
+ 
+Assess need for specialty UTCs. 
+Forward recommendations and concerns 
+to the theater AFFOR/SG if changes to 
+the threat or mission require additional 
+support from specialty UTCs. 
+ 

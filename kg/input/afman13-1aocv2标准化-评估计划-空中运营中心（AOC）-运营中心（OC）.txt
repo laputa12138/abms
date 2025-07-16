@@ -1,0 +1,3045 @@
+BY ORDER OF THE SECRETARY  
+OF THE AIR FORCE 
+ 
+AIR FORCE MANUAL 13-1AOC 
+VOLUME 2 
+18 FEBRUARY 2020 
+Nuclear, Space, Missile, or Command and 
+Control Operations 
+STANDARDIZATION/EVALUATION 
+PROGRAM-AIR OPERATIONS CENTER 
+(AOC)/OPERATIONS CENTER (OC) 
+COMPLIANCE WITH THIS PUBLICATION IS MANDATORY 
+ 
+ACCESSIBILITY:  Publications and forms are available on the e-Publishing website at 
+www.e-Publishing.af.mil for downloading or ordering 
+RELEASABILITY:  There are no releasability restrictions on this publication 
+ 
+ 
+OPR: ACC/A3TV 
+ 
+Supersedes: 
+AFI13-1AOCV2,  
+                        1 August 2005 
+Certified by: AF/A3T  
+(Maj Gen James A. Jacobson) 
+Pages: 70 
+ 
+ 
+This Air Force Manual implements Air Force Policy Directive (AFPD) 13-1, Command and 
+Control Enterprise (C2 Enterprise), and is consistent with and responsive to relevant portions of 
+AFPD 10-9, Lead Command Designation and Responsibilities for Weapon Systems.  It provides 
+the criteria and procedures necessary to conduct the Standardization and Evaluation 
+(STAN/EVAL) program for Air Operations Center/Operations Center (AOC/OC) element that 
+support combatant commanders, including Air National Guard (ANG) and Air Force Reserve 
+AOC augmentation units. This manual applies to all civilian and uniformed members of the 
+Regular Air Force (RegAF), Air Force Reserve and Air National Guard that operate the AOC 
+weapon system.  This AFMAN does not apply to the Civil Air Patrol. Ensure all records created 
+as a result of processes prescribed in this publication are maintained in accordance with Air Force 
+Manual (AFMAN) 33-363, Management of Records, and disposed of in accordance with the Air 
+Force Records Disposition Schedule located in the Air Force Records Information Management 
+System. The authorities to collect and or maintain the records prescribed in this publication are 
+Title 10, United States Code, Section 9013 and Executive Order 9397. Forms affected by The 
+Privacy Act 1974 (PA) have an appropriate PA statement.  This manual requires the collection and 
+or maintenance of information protected by the PA authorized by Title 10 United States Code, 
+Section 9013, Secretary of the Air Force. System of records notice F036 AF PC N, Unit Assigned 
+Personnel Information applies.  Refer recommended changes and questions about this publication 
+to the Office of Primary Responsibility (OPR) using the AF Form 847, Recommendation for 
+2 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+Change of Publication, route AF Forms 847 from the field through the appropriate functional chain 
+of command.  Air Combat Command, STAN/EVAL Branch (ACC/A3TV) shall coordinate all AF 
+Form 847 changes with Air Combat Command, Air Operations Center/Air Force Forces Branch 
+(ACC/A3CO) prior to approval.  Parent major commands (MAJCOMs) of geographic AOCs and 
+Air Reserve Component (ARC) aligned units may supplement this AFMAN. Parent MAJCOMs 
+of global AOC/OCs may supplement this AFMAN with information concerning STAN/EVAL of 
+their personnel identified to support AOC phased operations. Parent MAJCOMs will then forward 
+to ACC/A3TV and Headquarters Air Force, Command and Control Branch (AF/A3TY). The 
+authorities to waive wing/unit level requirements in this publication are identified with a Tier (“T-
+0, T-1, T-2, T-3”) number following the compliance statement.  See Air Force Instruction (AFI) 
+33-360, Publications and Forms Management, for a description of the authorities associated with 
+the Tier numbers. All waivers will be submitted on AF Form 679, Air Force Publication 
+Compliance Item Waiver Request/Approval.  Submit requests for waivers through the chain of 
+command to the appropriate Tier waiver approval authority, or alternately, to the requestor’s 
+commander for non-tiered compliance items. For non-tiered items in this AFMAN or MAJCOM 
+supplements, MAJCOM STAN/EVAL is the waiver authority for policy guidance in this AFMAN. 
+The MAJCOM/A3 is the waiver authority for individual requirements of items not specified in 
+this AFMAN on a case-by-case basis.  For non-tiered compliance statements directed above the 
+Field Operating Agency/Direct Reporting Unit/wing level, submit requests for waivers to the first 
+commander or division chief in the chain of command, or his/her delegated representative. All 
+approved waivers will be sent to ACC/A3TV within 30 days of approval.  Units will report all 
+deviations or exceptions without waiver, through functional channels, to the MAJCOM OPR.  All 
+approved waivers will be uploaded into the Management Internal Control Toolset (MICT) for 
+inspection activity review and publication OPR's situational awareness/filing. ACC/A3TV will 
+send copies of approved waivers to all AOC MAJCOM counterparts.  The applicable SORN F036 
+AF 
+PC 
+C, 
+Military 
+Personnel 
+Records 
+System 
+is 
+available 
+at:  
+http://dpclo.defense.gov/Privacy/SORNs.aspx.   The use of the name or mark of any specific 
+manufacturer, commercial product, commodity, or service in this publication does not imply 
+endorsement by the Air Force. 
+SUMMARY OF CHANGES 
+AFMAN 13-1 AOC, Vol 2 is part of a 3-volume set. This 3-volume set of publications is 
+converting to AFMANs. This AFMAN is substantially revised and must be completely reviewed. 
+It corrects office symbols for various organizations including OPR and implements waiver 
+authority (tiering) guidance in AFI 33-360. 
+ 
+Chapter 1—OVERVIEW 
+ 
+6 
+1.1. 
+Purpose. ...................................................................................................................  
+6 
+1.2. 
+Objectives.  ..............................................................................................................  
+6 
+Chapter 2—ROLES AND RESPONSIBILITIES 
+ 
+8 
+2.1. 
+Scope.  ......................................................................................................................  
+8 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+3 
+2.2. 
+Headquarters Air Force.  ..........................................................................................  
+8 
+2.3. 
+MAJCOMs. ..............................................................................................................  
+8 
+2.4. 
+Air Combat Command Director of Air and Space Operations Training, 
+Standardization, and Evaluation (ACC/A3TV).   ....................................................  
+9 
+2.5. 
+Numbered Air Forces (NAF). ..................................................................................  
+10 
+2.6. 
+AOC Commander.   .................................................................................................  
+10 
+2.7. 
+AOCV.   ...................................................................................................................  
+10 
+2.8. 
+Chief of STAN/EVAL .............................................................................................  
+11 
+2.9. 
+AOC Divisions.  .......................................................................................................  
+11 
+2.10. 
+Division Examiners. .................................................................................................  
+12 
+Chapter 3—ORGANIZATION 
+ 
+13 
+3.1. 
+Scope.  ......................................................................................................................  
+13 
+3.2. 
+MAJCOMs.   ............................................................................................................  
+13 
+3.3. 
+Air Combat Command (ACC).   ..............................................................................  
+13 
+3.4. 
+Numbered Air Forces.  .............................................................................................  
+13 
+3.5. 
+Augmentation.  .........................................................................................................  
+13 
+3.6. 
+AOCV Organization.  ..............................................................................................  
+13 
+3.7. 
+Division.   .................................................................................................................  
+14 
+Chapter 4—EXAMINERS 
+ 
+15 
+4.1. 
+General.   ..................................................................................................................  
+15 
+4.2. 
+Selection...................................................................................................................  
+15 
+4.3. 
+Examiner Functions. ................................................................................................  
+15 
+4.4. 
+Senior Examiner Program. .......................................................................................  
+16 
+Chapter 5—EVALUATIONS 
+ 
+17 
+5.1. 
+General.  ...................................................................................................................  
+17 
+5.2. 
+Qualification Types. .................................................................................................  
+17 
+5.3. 
+Evaluation Types.   ..................................................................................................  
+17 
+5.4. 
+Examiner Objectivity Evaluations.  .........................................................................  
+19 
+5.5. 
+Prefixes.  ..................................................................................................................  
+19 
+4 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+5.6. 
+Combined Qualification Evaluations.  .....................................................................  
+20 
+5.7. 
+Cross-Command Evaluations. .................................................................................  
+21 
+5.8. 
+Evaluation Criteria. ..................................................................................................  
+21 
+5.9. 
+Grading and Qualification Level.   ..........................................................................  
+22 
+5.10. 
+Remedial Actions. ....................................................................................................  
+22 
+5.11. 
+Qualification Levels.  ...............................................................................................  
+24 
+5.12. 
+Requisites.  ...............................................................................................................  
+25 
+5.13. 
+Failure to Pass an Evaluation. ..................................................................................  
+25 
+5.14. 
+Supervised Status. ....................................................................................................  
+26 
+5.15. 
+Timing of Qualification Evaluations. ......................................................................  
+26 
+5.16. 
+Commander-Directed Downgrade.   ........................................................................  
+28 
+5.17. 
+Multiple Qualifications.   .........................................................................................  
+28 
+Chapter 6—EXAMINATION PROGRAM 
+ 
+30 
+6.1. 
+Purpose.  ..................................................................................................................  
+30 
+6.2. 
+Scope.   .....................................................................................................................  
+30 
+6.3. 
+Administrative Procedures. ......................................................................................  
+30 
+6.4. 
+Examination Sources. ..............................................................................................  
+30 
+6.5. 
+Examination Management.   ....................................................................................  
+31 
+6.6. 
+Examination Security.   ............................................................................................  
+31 
+6.7. 
+Written or Computer-Based Examinations.   ...........................................................  
+31 
+6.8. 
+Failure to Pass a Requisite Examination. .................................................................  
+31 
+Chapter 7—DOCUMENTATION 
+ 
+32 
+7.1. 
+Scope.   .....................................................................................................................  
+32 
+7.2. 
+Qualifications versus Certifications.   ......................................................................  
+32 
+7.3. 
+Qualification Forms. ................................................................................................  
+32 
+7.4. 
+Completing AF Form 8 and AF Form 4350 ............................................................  
+33 
+7.5. 
+Temporary Evaluation Documentation. ...................................................................  
+39 
+7.6. 
+Requalification Evaluations due to failed Evaluations. ...........................................  
+39 
+7.7. 
+Commander-Directed Downgrade (see also paragraph 5.16.).   ..............................  
+40 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+5 
+7.8. 
+Record of Evaluation.   ............................................................................................  
+42 
+Chapter 8—EVALUATION FOLDERS  
+ 
+44 
+8.1. 
+Scope.  ......................................................................................................................  
+44 
+8.2. 
+Electronic EFs. .........................................................................................................  
+44 
+8.3. 
+Contents.  Divide the EF into two sections: .............................................................  
+44 
+8.4. 
+Hard-Copy Folders. .................................................................................................  
+45 
+8.5. 
+Review of EF.   ........................................................................................................  
+45 
+8.6. 
+EF Discrepancies.   ..................................................................................................  
+46 
+8.7. 
+Transfers of EF.   .....................................................................................................  
+47 
+Chapter 9—ADDITIONAL PROGRAMS (CREW INFORMATION FILE (CIF), 
+SPECIAL INTEREST ITEMS (SII), SUPPLEMENTARY EVALUATIONS, 
+TREND ANALYSIS, TRANSFERS) 
+ 
+48 
+9.1. 
+CREW INFORMATION FILE (CIF). .....................................................................  
+48 
+Table 9.1. 
+Required Volumes. ..................................................................................................  
+48 
+Table 9.2. 
+Volume II Mandatory Publications. .........................................................................  
+50 
+9.2. 
+AOC-Related Special Interest Item (SII). ................................................................  
+50 
+9.3. 
+Supplementary Evaluations.  ...................................................................................  
+51 
+9.4. 
+Trend Analysis.   ......................................................................................................  
+51 
+9.5. 
+Transfers. .................................................................................................................  
+52 
+Chapter 10—EVALUATION CRITERIA  
+ 
+53 
+10.1. 
+General.  ...................................................................................................................  
+53 
+Table 10.1. 
+GRADING AREAS. ................................................................................................  
+53 
+10.2. 
+Evaluation Criteria.  .................................................................................................  
+54 
+10.3. 
+INSTRUCTOR AREAS: .........................................................................................  
+60 
+Attachment 1—GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+62 
+Attachment 2—STAN/EVAL BOARD MINUTES 
+ 
+69 
+ 
+ 
+ 
+6 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+Chapter 1 
+OVERVIEW 
+1.1.  Purpose.   This AFMAN identifies the objectives, organization, and responsibilities of the 
+AOC/OC STAN/EVAL program, and provides administrative procedures to assure commanders 
+at all levels that basic performance requirements for core AOC assignments have been met. The 
+intent of this program is divisional and functional qualifications for crewmembers permanently 
+assigned to core divisions (Intelligence, Surveillance, and Reconnaissance Division (IRD), 
+Strategy Division (SRD), Combat Plans Division (CPD) Combat Operations Division (COD), and 
+Air Mobility Division (AMD)), involved in planning or executing missions, and/or involved in 
+applicable tasking or targeting cycles.   The STAN/EVAL program is designed to provide 
+commanders a tool to assess and document individual crewmember knowledge and skills, as well 
+as their ability to manage operational risk. 
+1.1.1.  This AFMAN sets requirements for both the STAN/EVAL examiner and examinee with 
+procedures and evaluation criteria for use during divisional evaluations: (i.e Initial 
+Qualification (INIT QUAL), Qualification (QUAL), Mission Qualification (MSN), 
+Requalification (RQ), and Spot (SPOT) Evaluations). Specific areas are prescribed to ensure 
+an accurate assessment of the proficiency and capabilities of operations personnel. 
+STAN/EVAL examiners and examinees will be thoroughly familiar with the prescribed rating 
+criteria in this document. 
+1.1.2.  In the rest of this AFMAN, the term “AOC” will refer to all geographic, global, and 
+functional AOC and OCs, unless otherwise specified. 
+1.1.3.  All certifications awarded prior to the release of the AFMAN rewrite will be 
+grandfathered to a qualification that does not require an AF Form 8, Certificate of Aircrew 
+Qualification, or AF Form 4350, Certificate of Intelligence Qualification.  Any qualifications 
+awarded after the release of this publication will require an AF Form 8 or AF Form 4350.  
+Cyber crew positions will be qualified per AFI 17-202 Volume 2, Cybercrew Standardization 
+and Evaluation Program, and AFI 17-2ACD Volume 2, Air Force Cyberspace Defense (ACD) 
+Standardization and Evaluation.  Other personnel assigned to support the AOC will use AFI 
+36-2651, Air Force Training Program, and their career field’s applicable quality assurance, 
+certification, or job qualification. 
+1.2.  Objectives.   The overall objective of the AOC STAN/EVAL program is to standardize 
+procedures and provide commanders with a tool to validate mission readiness and provide 
+meaningful indicators reflecting division, team, and overall unit qualifications, capabilities, and 
+effectiveness.  Specific program objectives are to: 
+1.2.1.  Provide a system to assess and document individual crewmember proficiency and 
+capability to accomplish assigned C2 duties. 
+1.2.2.  Develop and ensure standardization of applicable operational procedures for weapon 
+system employment. 
+1.2.3.  Ensure compliance with appropriate operational, training, and administrative directives. 
+1.2.4.  Evaluate and revise operational directives, procedures, and techniques as required. 
+ 
+ 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+7 
+ 
+1.2.5.  Assess unit effectiveness and compliance with operational directives and procedures. 
+1.2.6.  Recognize trends, recommend and initiate changes to training programs and directives. 
+ 
+ 
+8 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+Chapter 2 
+ROLES AND RESPONSIBILITIES 
+2.1.  Scope.   This chapter defines Headquarters Air Force (HAF), MAJCOM, and Numbered Air 
+Force (NAF), AOC, and AOC Division STAN/EVAL functions. 
+2.2.  Headquarters Air Force.   AF/A3TY Command and Control division provides policy, 
+guidance, and advocacy for the AOC Weapon System. This division is the Headquarters Air Force 
+Functional Area Manager for the AOC Weapon System and reports to the Director of Training and 
+Readiness (AF/A3T). AF/A3TY: 
+2.2.1.  Coordinates with ACC/A3TV for rewrite and publication of this AFMAN. 
+2.2.2.  Coordinates with MAJCOM STAN/EVAL functions to develop AF-level STAN/EVAL 
+Self-Assessment Communicator (SAC) and uploads the SAC in the MICT as specified in AFI 
+90-201, The Air Force Inspection System. 
+2.3.  MAJCOMs. 
+2.3.1.  General.  MAJCOM staffs are primarily responsible for setting MAJCOM policy and 
+establishing administrative processes.  MAJCOMs will be responsible for the conduct of 
+operations for AOC/OC under their direct command and as such will ensure specific 
+training/evaluation requirements for enabler functionalities (for both tailored and functional 
+AOC/OC) identified in supplements to this AFMAN and AFI 13-1AOC, Volume 1, Ground 
+Environment Training Air Operations Center (AOC).  MAJCOMs are responsible for the 
+following functions: 
+2.3.1.1.  Maintains oversight of STAN/EVAL functions in lower echelon units and in 
+gained ANG units. 
+2.3.1.2.  Convenes conferences and working groups, as necessary, to review and improve 
+command STAN/EVAL policies and procedures. 
+2.3.1.3.  Provides staff coordination and control of all Crew Information File (CIF) items 
+issued from the MAJCOM level to units (see Chapter 9). 
+2.3.1.4.  Establishes guidance for Patriot Excalibur (PEX) or other MAJCOM-mandated 
+STAN/EVAL software. 
+2.3.1.5.  Will coordinate on and process applicable AF Forms through STAN/EVAL 
+channels (Air Operations Center Stan/Eval (AOCV), NAF [if applicable] and MAJCOM) 
+and in accordance with AFI 11-215, Flight Manuals Program. (T-2). ANG units will 
+utilize the lead MAJCOM AF Form 847 process. (T-2). 
+2.3.1.6.  Assists lead MAJCOM with the review, updating and distribution of Master 
+Question Files (MQFs) (see Chapter 6). 
+2.3.1.7.  Coordinates on operational procedures, evaluation criteria and guidance in 
+conjunction with the lead MAJCOM and other user MAJCOMs operating AOCs. 
+2.3.1.8.  Provides STAN/EVAL program staff to MAJCOM/IG in support of Unit 
+Effectiveness Inspections (UEI). 
+2.3.1.9.  Provides Staff Assistance Visits (SAV) when requested by AOC/Commanders. 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+9 
+2.3.1.10.  May establish a program providing evaluations to Higher Head Quarters (HHQ) 
+on specific crewmembers (i.e. Commanders or Chiefs of STAN/EVAL) that includes 
+MAJCOM or NAF evaluation visits in accordance with Attachment 2 of AFI 90-201.  Such 
+programs will not include programmatic compliance inspections. 
+2.3.1.11.  Establishes guidance for MAJCOM-mandated STAN/EVAL software. (T-2). 
+2.3.1.12.  Providing overall management of their command STAN/EVAL programs. (T-
+2). 
+2.3.1.13.  Responsible for implementation of STAN/EVAL program as outlined in this 
+AFMAN. 
+2.3.2.  MAJCOM STAN/EVAL Chiefs designate and certify MAJCOM examiners in writing. 
+2.3.3.  MAJCOM and NAF examiners will maintain a minimum qualification as an instructor 
+and will execute at a rate that will maintain an adequate level of proficiency and currency.  (T-
+2). 
+2.3.4.  Reviews supplements to this AFMAN to ensure compliance with basic policy guidance 
+in this AFMAN. 
+2.3.5.  Maintains liaison with Air Staff organizations, MAJCOMs, and career field managers 
+to ensure compliance by all unit supervisory staff and mission crew personnel. 
+2.3.6.  Coordinates with HAF organizations and MAJCOM STAN/EVAL functions to ensure 
+guidance in separate AFIs conforms to and complies with basic Air Force guidance contained 
+in this AFMAN. 
+2.4.  Air Combat Command Director of Air and Space Operations Training, 
+Standardization, and Evaluation (ACC/A3TV).   ACC/A3TV will: 
+2.4.1.  Provide overall management of the STAN/EVAL program and will implement the 
+program as outlined in this AFMAN in coordination with applicable MAJCOMs. (T-2). 
+2.4.2.  Convene conferences, meetings, and working groups, as necessary (at least once 
+annually), to review command STAN/EVAL policies and procedures. (T-2). 
+2.4.3.  Designate office of collateral responsibility (OCR) for the MQF.  Post approved MQF 
+for 
+the 
+AOC 
+on 
+the 
+ACC/A3TV 
+AF 
+Portal 
+web 
+page 
+(https://acc.eim.acc.hedc.af.mil/org/A3/A3T/A3TV/MQF/default.aspx). (T-2). 
+2.4.4.  Develop standardized positional checklists as required. (T-2). 
+2.4.5.  Provide oversight and guidance for development of standardized positional certification 
+checklists to be used in unit commander recognition of Combat Mission Ready (CMR) status. 
+These checklists will become basis for future development of positional evaluation checklists. 
+(T-2). 
+2.4.6.  Provide guidance on STAN/EVAL to intelligence and communications personnel 
+assigned to an AOC. Communications personnel will use the Quality Assurance function as 
+applicable as equivalent substitute for STAN/EVAL. (T-2). 
+ 
+ 
+10 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+2.5.  Numbered Air Forces (NAF). 
+2.5.1.  Maintains oversight of STAN/EVAL functions in lower echelon units and in gained 
+ANG units. 
+2.5.2.  Convenes conferences and working groups, as necessary, to review and improve 
+command STAN/EVAL policies and procedures. 
+2.5.3.  Provides staff coordination and control of all CIF items issued from the NAF level to 
+units (see Chapter 9). 
+2.5.4.  Establishes guidance for PEX or other MAJCOM-mandated STAN/EVAL software. 
+2.5.5.  Provides STAN/EVAL program staff to MAJCOM/IG in support of UEIs. 
+2.5.6.  Provides SAVs when requested by AOC Commanders. 
+2.6.  AOC Commander.   The conduct of the unit level STAN/EVAL program is directed by the 
+Air Operations Center Commander (AOC/CC). 
+2.6.1.  Air Operations Center Commander (AOC/CC). 
+2.6.1.1.  Assign additional duties to support the AOC STAN/EVAL AOCV function and 
+execute the duties directed by this AFMAN. 
+2.6.1.2.  Designate and certify AOCV examiners (see paragraph 4.2); commanders may 
+delegate this responsibility to Division Chiefs. 
+2.6.1.3.  Provide the means to procure the necessary materials for qualification planning, 
+execution, and supervision 
+2.6.1.4.  Provide a suitable STAN/EVAL testing area. 
+2.6.1.5.  Chair the Standardization and Evaluation Board (SEB). 
+2.6.1.6.  Establish procedures to implement MAJCOM-mandated STAN/EVAL software. 
+2.6.1.7.  Designate and certify instructors; commanders may delegate this responsibility to 
+Division Chiefs. 
+2.7.  AOCV.  Air Operations Center STAN/EVAL. 
+2.7.1.  Utilize the STAN/EVAL model as outlined in this AFMAN. 
+2.7.2.  Establish procedures for review and quality control of AF Forms 8 and AF Forms 4350. 
+2.7.3.  Implement procedures to maintain and review unit Evaluation Folders (EFs) directed 
+by MAJCOM, NAF, and/or unit supplements to this AFMAN. 
+2.7.4.  Maintain unit EFs that will include utilizing EFs to maintain AF Forms 8 and AF Form 
+4350. 
+2.7.5.  Establish procedures for requisite exams (see Chapter 6). 
+2.7.6.  Conduct supplementary evaluations as directed by the AOC/CC (see paragraph 9.3). 
+2.7.7.  Establish and maintain semiannual unit trends analysis program (see paragraph 9.4). 
+2.7.8.  Conduct SEBs and document in accordance with Attachment 2 and MAJCOM 
+supplement. Include waivers in SEB minutes. 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+11 
+2.7.9.  Establish and maintain the unit CIF program. 
+2.7.10.  Ensure procedures are established for evaluating use of publications and mission-
+related media in printed and/or digital formats. 
+2.7.11.  Coordinate and process applicable AF Form 847s through STAN/EVAL channels in 
+accordance with AFI 11-215.  ANG units will utilize the NAF/MAJCOM command structure 
+with oversight responsibility. (T-3). 
+2.7.12.  Manage and conduct evaluations in accordance with this AFMAN and all applicable 
+supplements. Ensure proper routing and filing of AF Form 8s and AF Form 4350s.  (T-3). 
+2.7.13.  Implement the examination program as required in conjunction with evaluations as 
+outlined in the unit supplement to this AFMAN.  Make the MAJCOM and unit MQFs available 
+to the operations training section and unit crewmembers. (T-2). 
+2.7.14.  Maintain EFs as directed by MAJCOM, NAF, and unit supplements to this AFMAN. 
+2.7.15.  Ensure C2 publications and required CIF documents are current. (T-2). 
+2.7.16.  Ensure proper completion, routing, and filing of AF Forms 8 and AF Forms 4350. 
+2.7.17.  Nominate which crew positions/teams require qualification to meet the intent of this 
+program, and the method(s) for qualification (see paragraph 1.2) to the commander. (T-3). 
+2.7.18.  Electronic Data Storage. Units will use electronic database files for record keeping, 
+trend analysis, etc. 
+2.8.  Chief of STAN/EVAL 
+2.8.1.  The Chief of STAN/EVAL will be a certified examiner. (T-3). 
+2.8.2.  Develop and coordinate the local MQF as appropriate. (T-3). 
+2.8.2.1.  Coordinate and submit required local and combat air forces MQF inputs with 
+assistance from subordinate teams and cells. Each AOC division will submit a minimum 
+of 50 MQF questions focusing on unit mission/theater specific processes, skills, and 
+knowledge items. These questions will become the standardized local MQF. (T-3). 
+2.8.2.2.  Review MAJCOM or NAF MQF and submit changes to appropriate OPR. (T-2). 
+2.8.3.  Coordinate with MAJCOM or NAF STAN/EVAL for topics and format requirements 
+for MQF questions. 
+2.9.  AOC Divisions.  Responsible for ensuring division requirements are met.  Divisions will not 
+maintain their own STAN/EVAL programs. 
+2.9.1.  Nominate division examiner(s) to AOC/CC (see paragraph 4.2), and if the commander 
+so delegates, appoint and certify division examiners. (T-3). 
+2.9.2.  Attend as many division evaluation debriefings as practical. 
+2.9.3.  May utilize STAN/EVAL Liaison Officers (SELO) designated to assist in 
+administrative STAN/EVAL duties. 
+2.9.4.  Ensure evaluations are conducted in accordance with this AFMAN and any applicable 
+supplements. (T-3). 
+12 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+2.9.5.  Nominate division instructor(s) to the AOC/CC and if the commander so delegates, 
+appoint and certify division trainers. 
+2.9.6.  Recommend which crew positions/teams require qualification to meet the intent of this 
+program (see paragraph 1.2), and the method(s) for qualifications to the AOC/CC. (T-3). 
+2.10.  Division Examiners. 
+2.10.1.  Conduct supplementary evaluations as directed by the AOC/CC (see Chapter 9). (T-
+3). 
+2.10.2.  Coordinate on and process applicable AF Forms 847 through STAN/EVAL channels 
+and in accordance with AFI 11-215 for Technical Orders (TOs), and AFI 33-360. (T-3). 
+2.10.3.  Advise division leadership and AOCV of crewmember progression toward completion 
+of evaluations and requisites. 
+2.10.4.  Implement AOC guidance on the usage of MAJCOM-mandated STAN/EVAL 
+software. (T-3). 
+ 
+ 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+13 
+Chapter 3 
+ORGANIZATION 
+3.1.  Scope.   Headquarters Air Force (HAF), MAJCOM, and Numbered Air Force (NAF) 
+STAN/EVAL functions. The current AOC organization (as identified in AFI 13-1AOCV3, 
+Operational Procedures-Air Operations Center (AOC)) is led by the AOC Commander. Thus, the 
+AOC Commander has the overall responsibility for establishing the STAN/EVAL function within 
+the AOC/OC organization. Squadron and smaller units not associated or part of a group will 
+establish a STAN/EVAL function under the Unit CC. (T-2).  Smaller units such as the 701 Combat 
+Operations Squadron, 710 Combat Operations Squadron, 321 Air Mobility Operations Squadron, 
+and 621 Air Mobility Operations Squadron, for the purposes of this AFMAN will be included in 
+the term “AOC” when used below.  ARC Air Operations Groups and squadrons will establish a 
+STAN/EVAL program.  ARC units’ programs will adhere to their aligned and assigned RegAF 
+AOC. (T-2).  Air Mobility Command, Command and Control/Expeditionary Operations 
+(AMC/A3C), Air Force Special Operations Command, Operations Center (AFSOC/OC), and Air 
+Force Space Command, Operations and Communications (AFSPC A2/3/6T) will be responsible 
+for establishing STAN/EVAL function for AOCs under their control, as well as any forces they 
+provide to an AOC as enablers or increase in AOC capabilities. (T-1). 
+3.2.  MAJCOMs.    MAJCOM staffs are primarily responsible for setting MAJCOM policy and 
+establishing administrative processes. Lower echelons of command are primarily responsible for 
+the evaluation functions. 
+3.3.  Air Combat Command (ACC).  ACC is identified as the lead MAJCOM for the AOC 
+Weapon System.  ACC/A3TV is designated by ACC Directorate of Operations (ACC/A3) as the 
+primary office of responsibility for this function. 
+3.4.  Numbered Air Forces.  The chief of the respective NAF STAN/EVAL functions will 
+designate and certify NAF examiners in writing.  These NAF examiners will maintain a minimum 
+qualification as an instructor and will execute at a rate that will maintain an adequate level of 
+proficiency and currency to fulfill the responsibilities of a NAF evaluator. 
+3.5.  Augmentation.  Each MAJCOM may use augmentees from other MAJCOMs to support or 
+conduct SAVs, Inspectors General (IG) inspections, and Evaluations with concurrence of all the 
+MAJCOM STAN/EVAL organizations involved. Augmentees will use the criteria of the 
+MAJCOM they are augmenting. (T-2). 
+3.6.  AOCV Organization.  
+3.6.1.  AOCV staff will consist of a Chief of STAN/EVAL.  AOCV staff should include at 
+least one examiner per division. AOCV staff members may remain assigned to any other AOC 
+position as staffing requires. (T-3). 
+3.6.2.  The Chief of STAN/EVAL will be a certified examiner. (T-3). 
+3.6.2.1.  The Chief of STAN/EVAL will report directly to, and be rated by, the AOC/CC. 
+(T-2). 
+3.6.2.2.  The AOC/CC may designate SELOs to assist AOCV in administrative duties. (T-
+3). 
+14 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+3.7.  Division.  Nominate division examiner(s) to AOC/CC (see paragraph 4.2), and if the 
+commander so delegates, appoint and certify division examiners. (T-3). 
+3.7.1.  Nominate division instructor(s) to the AOC/CC and if the commander so delegates, 
+appoint and certify division trainers. 
+3.7.2.  Recommend which crew positions and teams require qualification to meet the intent of 
+this program (see paragraph 1.2), and the method(s) for qualifications to the AOC/CC. (T-3). 
+ 
+ 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+15 
+Chapter 4 
+EXAMINERS 
+4.1.  General.  The evaluation portion of the STAN/EVAL Program is administered by examiners 
+at the MAJCOM, NAF, and AOC levels.  Under direction of the AOC, Chief of STAN/EVAL, 
+examiners will ensure standardization throughout STAN/EVAL functions and division-assigned 
+examiners. (T-3). 
+4.2.  Selection. 
+4.2.1.  AOC/CC or division chiefs select examiners from the most highly qualified and 
+experienced instructors (Exception: Senior examiners, see paragraph 4.4). (T-3). 
+4.2.2.  Commanders (or Division Chiefs, if delegated) designate and certify in writing, all 
+examiners and annotate on the unit letter of certifications. (T-3). 
+4.2.3.  For Air Force Reserve Command (AFRC) and ANG units: 
+4.2.3.1.  The USAF advisor is a RegAF officer assigned to AFRC advisor duties, and may 
+be certified as an examiner. 
+4.2.3.2.  Air Technician, Air Reserve Technician, or Active Guard and Reserve serving in 
+a military position that does not require maintaining combat CMR status may perform 
+duties as examiners. 
+4.3.  Examiner Functions. 
+4.3.1.  Conduct evaluations in accordance with Chapter 5 and document in accordance with 
+Chapter 7. (T-3). 
+4.3.2.  Maintain qualification as instructors (Exception:  Senior examiners, see para 4.4). (T-
+3). 
+4.3.3.  Administer evaluations only within their division and only evaluate those mission skill 
+sets in which they maintain qualification and/or certification. (T-3).  Exception: Where 
+specifically authorized in this AFMAN. 
+4.3.4.  Will not administer evaluations outside of their MAJCOM unless specifically requested 
+by the MAJCOM STAN/EVAL organization of the examinee and approved by the MAJCOM 
+STAN/EVAL organization of the examiner. (T-2).  MAJCOMs may establish procedures in 
+their supplement for examiners to administer evaluations outside of NAFs and/or AOCs within 
+their own MAJCOM. 
+4.3.5.  Conduct a thorough pre-evaluation briefing and post-evaluation debriefing for the 
+examinee and applicable crewmembers on all aspects of the evaluation. (T-3). 
+4.3.6.  Immediately correct breaches of security, safety or discipline during an evaluation 
+(applies to both the examinee as well as any accompanying crewmembers). (T-3). 
+4.3.7.  As soon as practical, notify the examinee’s Division Chief (or available supervision) 
+whenever qualification Level 2 or 3 (Q2 or Q3) performance is observed. 
+ 
+ 
+16 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+4.4.  Senior Examiner Program. 
+4.4.1.  Senior examiners do not require, nor do they have to maintain division or functional 
+qualification as instructors, but they must have completed examiner certification in accordance 
+with unit standards. (T-2). 
+4.4.2.  NAF/CCs and AOC/CCs are eligible for senior examiner status. 
+4.4.2.1.  Numbered Air Force Vice Commanders (NAF/CVs) and AOC Vice Commanders 
+(AOC/CVs) may perform this function if the principal incumbent is not qualified or 
+available at the discretion of the AOC/CC or NAF/CC. 
+4.4.2.2.  Document designations in accordance with paragraph 4.2.2 
+ 
+ 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+17 
+Chapter 5 
+EVALUATIONS 
+5.1.  General.   An evaluation is an assessment of individual crewmember capability to 
+accomplish assigned duties within a particular division.  Examinees requiring NAF or MAJCOM 
+examiners will consult the appropriate STAN/EVAL Chief for availability. The MAJCOM and/or 
+STAN/EVAL Chief may delegate if no appropriate examiner is available. 
+5.2.  Qualification Types. 
+5.2.1.  A qualification is a documented designation that identifies a crewmember as having the 
+capability to accomplish specific duties.  These qualifications are broken into three types:  
+“Basic Qualification”; “Mission Qualification”; and “Instructor Qualification”. 
+5.2.2.  Basic Qualification.  A documented designation allowing a crewmember to perform the 
+duties of a particular division in the AOC during peacetime and/or exercises, but not perform 
+the missions of a specific duty position during combat, contingency, or Designed Operational 
+Capability (DOC) statement mission operations without supervision and instruction.  
+Crewmembers successfully completing Initial Qualification Training (IQT) have a basic 
+qualification, and considered basic mission capable (BMC). 
+5.2.3.  Mission Qualification.  A documented designation allowing a crewmember to perform 
+the missions of a division or duty position in accomplishing the unit’s operational or DOC 
+statement mission during combat.  These crewmembers are CMR. 
+5.2.4.  Instructor Qualification.  A documented designation allowing a crewmember to instruct 
+and provide supervision of unqualified and/or uncertified crewmembers. 
+5.3.  Evaluation Types.  There are four types of evaluations, Qualification (QUAL), Mission 
+(MSN), Instructor (INSTR), and SPOT.  Each qualification may require the completion of requisite 
+tasks. (Exception: a SPOT evaluation has no requisite tasks).  As long as the methods accurately 
+evaluate all mission tasks, use any combination of:  verbal assessment; verification board briefing; 
+observed performance of tasks; part-task simulation; or exercise employment suitable to the crew 
+position. 
+5.3.1.  Qualification (QUAL) Evaluations. 
+5.3.1.1.  Purpose.  To ensure basic qualification (BQ) in the AOC and the specified 
+division.  BQ will not allow a crewmember to perform DOC-statement missions 
+unsupervised, but does allow unsupervised training and exercise duties within the division. 
+(T-3). 
+5.3.1.2.  Execution.  Successful completion of IQT per AFI 13-1 AOC Volume 1 results in 
+BQ status.  The first evaluation after completion of IQT and mission qualification training 
+(MQT) will be a combined initial QUAL evaluation and MSN evaluation.  The initial 
+QUAL/MSN evaluation will reflect the AOC’s operational or DOC statement missions, 
+structure and procedures.  It may include any combination of verbal assessment, 
+verification board briefing, performance tasks, part-task simulations, and/or exercise 
+employment suitable to the division. (T-3).  NOTE: See paragraph 5.3.2  for MSN 
+evaluation requirements.  AOCV shall document the approved methods for evaluating 
+performance.  (T-3). 
+18 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+5.3.2.  Mission (MSN) Evaluations. 
+5.3.2.1.  Purpose. To assess a crewmember's ability to perform the assigned duties of a 
+division in accomplishing the unit’s operational and/or DOC statement mission(s).  
+Achieving and maintaining CMR will require successful completion of IQT, MQT, open 
+and closed book examinations, a MSN evaluation, and completing continuation training 
+(CT) requirements in accordance with AFI 13-1 AOC, Volume 1. (T-3).  A MSN 
+evaluation is also used for additional qualifications in other divisions. 
+5.3.2.2.  Execution.  The MSN evaluation will reflect the type and difficulty of tasks 
+required in a particular crew position’s role in fulfillment of the AOC’s operational or DOC 
+statement missions, and may include any combination of verbal assessment, verification 
+board briefing, observed performance of tasks, part-task simulations, and/or exercise 
+employment suitable to the crew position.  For a crewmember’s first evaluation in a 
+division, they must first successfully complete IQT and MQT; the QUAL and MSN 
+evaluation will be combined. (T-2).  If a crewmember already is qualified in a division, 
+subsequent MSN evaluations in that or other divisions require completing CT 
+requirements, passing examinations, and a MSN evaluation.  AOCV shall document the 
+approved methods for evaluating performance.  MSN evaluations will be completed in 
+accordance with Chapter 10. (T-3). 
+5.3.3.  Instructor (INSTR) Evaluations. 
+5.3.3.1.  Purpose.  To confirm a member's ability to conduct training in a division and/or 
+crew position(s) and to obtain and maintain Instructor Qualification. 
+5.3.3.2.  Execution. The AOC/CC (or Division Chiefs, if delegated) must certify 
+crewmembers designated as instructor. (T-2).  AOC/CCs (or Division Chiefs, if delegated) 
+shall specify the method for evaluating in MAJCOM Supplements, which shall include 
+direct observation of actual or simulated training in division missions. (T-3).  Trainers will 
+complete a locally-developed trainer program per AFI 13-1 AOC Volume 1. (T-3). 
+5.3.3.2.1.  INIT INSTR evaluations by instructing an actual student on an instructional 
+sortie whenever possible.  When students are not available or mission and/or crew 
+composition requirements prevent inclusion of students, another crewmember or the 
+evaluator should serve as the student. 
+5.3.3.2.2.  Evaluations of instructor qualification will be conducted during all 
+subsequent periodic evaluations. 
+5.3.3.2.3.  Instructors. Instructors whose MSN evaluations have expired are not 
+qualified to instruct in those areas. (T-3). 
+5.3.4.  SPOT Evaluations. 
+5.3.4.1.  Purpose.  An optional evaluation of a specific event or requirement without 
+intending to satisfy the requirements of a periodic evaluation and/or an initial INSTR 
+evaluation. 
+5.3.4.2.  Execution.  A SPOT evaluation has no specific requisites, unless specified in 
+MAJCOM supplements, but may be No-Notice (N/N) in accordance with paragraph 5.5.3 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+19 
+5.3.4.2.1.  A SPOT evaluation will be used when the loss of currency requires an 
+evaluation to regain currency.  The SPOT evaluation profile will be directed by the 
+AOC/CC and will include, as a minimum, those items for which the individual is non-
+current and which require an evaluation. 
+5.3.4.2.2.  An examinee may utilize a SPOT evaluation to update a QUAL/MSN 
+evaluation expiration date provided all requirements for the evaluation are completed 
+within the periods (document on the AF Form 8 or AF Form 4350 in accordance with 
+Chapter 7.). 
+5.3.4.2.2.1.  Commanders may authorize additional missions in order to assist a 
+crewmember’s accomplishment of periodic requirements (document on the AF 
+Form 8 or AF Form 4350 in accordance with Chapter 7.). 
+5.3.4.2.2.2.  When the examiner administering a SPOT evaluation is not qualified 
+in the weapon system (e.g. a senior examiner), the evaluation will not be credited 
+towards a periodic evaluation. 
+5.3.4.3.  Any other event requiring a qualification or evaluation that is not a QUAL, MSN, 
+or INSTR will be documented as a SPOT evaluation. 
+5.3.4.4.  Examiner Objectivity SPOT Evaluation.  Evaluations that assess the objectivity, 
+decision making and skill of an Examiner in administering a QUAL/MSN evaluation. 
+5.3.4.4.1.  Examiners can administer Examiner Objectivity SPOT evaluations to 
+evaluators in any division, at the discretion of the examinee’s AOC/CC. 
+5.3.4.4.2.  Use SPOT as the type of evaluation under block III Aircrew Evaluation 
+Information on the AF Form 8, or block II, Qualification, Task Phase, Event Check, 
+portion on the AF Form 4350. Explain that the evaluation was an Examiner Objectivity 
+Evaluation in the mission description of the comments section (Block VIII, AF Form 
+8 and Block II, AF Form 4350) on the AF Form 8 or AF Form 4350. The qualification 
+level for this type of an evaluation will be either qualified (1 or 2) or unqualified (3). 
+5.3.4.4.3.  Use the graded areas and grading criteria in Chapter 10. Use the 
+qualification level criteria in accordance with paragraph 5.11 
+5.3.4.4.4.  The certification of the Examiner receiving an unqualified Examiner 
+Objectivity Evaluation is determined by the AOC/CC, as applicable. 
+5.3.4.4.5.  Based on the recommendation of the Examiner giving the Examiner 
+Objectivity SPOT evaluation, the AOC/CC (or division chief, if delegated) may issue 
+a 
+commander 
+directed 
+downgrade 
+AF 
+Form 
+8 
+or 
+AF 
+Form 
+4350  
+(MSN/QUAL/INSTR). 
+5.4.  Examiner Objectivity Evaluations.  See MAJCOM supplements for Examiner Objectivity 
+Requirements. 
+5.5.  Prefixes.   The following prefixes will be used, when applicable, to further describe MSN, 
+QUAL, and INSTR evaluations. 
+5.5.1.  Initial (INIT).  The first evaluation of any type, to include instructor qualification, in a 
+specific Division (e.g., INIT QUAL/MSN, INIT INSTR). 
+20 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+5.5.2.  Requalification (RQ).  An evaluation administered to remedy a loss of qualification due 
+to the following reasons: 
+5.5.2.1.  Expiration of a required periodic evaluation.  The requalification evaluation will 
+be in accordance with the guidance for that periodic evaluation. 
+5.5.2.2.  A failed periodic evaluation or a commander-directed downgrade (see paragraph 
+5.16).  The Requalification Evaluation will be in accordance with the provisions of 
+paragraph 5.13.1 
+5.5.2.3.  When regaining qualification after the completion of a QUAL evaluation in a 
+different division, unless approved by MAJCOM to maintain multiple qualification 
+statuses. 
+5.5.2.4.  When regaining qualification due to loss of currency. 
+5.5.2.5.  Use of (RQ) for Instructor Qualification following a failure (N/A following INIT 
+INSTR failure) 
+5.5.2.6.  The RQ prefix will not be used under the following circumstances: 
+5.5.2.6.1.  If the expiration of a required periodic evaluation is due to failure to 
+complete one or more of the requisites, and the AOC/CC determines that the 
+qualification will be re-established by completion of the requisites without re-
+accomplishment of the evaluation. 
+5.5.2.6.2.  The evaluation follows a failed INIT evaluation. 
+5.5.2.7.  If an instructor passes the MSN and/or QUAL portion of the evaluation, but fails 
+the instructor portion of the evaluation, the subsequent evaluation to regain instructor 
+qualification will be a RQ INSTR. 
+5.5.2.8.  If an instructor fails the MSN and/or QUAL portion of an evaluation but not the 
+instructor portion, then a RQ INSTR is not required. 
+5.5.3.  No-Notice (N/N).  
+5.5.3.1.  The no-notice evaluation program provides commanders a sampling of daily crew 
+performance and an assessment of unit training effectiveness. 
+5.5.3.2.  A no-notice evaluation is one where the examinee is notified of the evaluation at 
+or after the beginning of normal preparation for the mission. “Normal preparation” will be 
+as defined in the MAJCOM and/or unit supplement. 
+5.5.4.  Multiple Prefixes.  More than one prefix may be used to describe an evaluation (e.g., 
+N/N SPOT). The applicability of any prefixes to portions of any combined evaluations and the 
+purpose for any prefixes (if not obvious by the context of the evaluation) will be explained on 
+the AF Form 8 or AF Form 4350 (see paragraph 7.4.3.1.2). 
+5.6.  Combined Qualification Evaluations.  To promote efficient use of operational resources, if 
+a crewmember will have multiple qualifications, it is recommended that evaluations be completed 
+concurrently whenever practical. If combined, evaluators will include the designation of each 
+evaluation in the Aircrew Evaluation section of the AF Form 8 or AF Form 4350 (e.g., 
+QUAL/MSN). (T-3). 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+21 
+5.6.1.  Initial QUAL Evaluations are exempt from concurrent requirement and may be 
+completed concurrently with a MSN evaluation.  The crewmember’s gaining unit will 
+complete a general AOC INIT QUAL/MSN evaluation once crewmembers complete IQT and 
+MQT in accordance with syllabi and AFI 13-1AOCV1, as directed. (T-3). 
+5.6.2.  The initial QUAL/MSN evaluation will be completed by the gaining unit in the 
+member’s assigned division. If completed concurrently, the gaining unit will document the 
+INIT QUAL/MSN evaluation on a single AF Form 8 or AF Form 4350. (T-3). 
+5.7.  Cross-Command Evaluations.   To provide flexibility to units experiencing difficulty in 
+performing evaluations due to evaluator availability or other unique concerns, evaluations may be 
+conducted across MAJCOMs. The requesting unit must justify the need and explain the reasons to 
+go outside their parent MAJCOM. (T-1). ACC and ANG units are not required to submit a cross-
+command evaluation request between like units as they are considered part of ACC.  Processing 
+of cross-command evaluation requests are accomplished as follows: 
+5.7.1.  Units identifying a need for a cross-command evaluation must coordinate through their 
+chain of command to their MAJCOM OPR. (T-2).  
+5.7.2.  Requests must come from commanders of the affected unit through the command chain 
+up to the requesting unit’s MAJCOM OPR. (T-3). 
+5.7.3.  The requesting unit’s MAJCOM OPR coordinates approval of the evaluation with the 
+requested MAJCOM OPR and forwards the approval through channels to the requesting unit. 
+5.7.4.  Cross-command evaluation requests may be sent via email or memorandum and include 
+the following: 
+5.7.4.1.  Reference and text of the specific requirement for which the commander is 
+requesting an evaluation. 
+5.7.4.2.  Rationale.  Explain why the evaluation cannot be accomplished within the unit’s 
+command or what resources the unit lacks (e.g. trainers, evaluators, equipment, or 
+evaluation scenarios). 
+5.7.4.3.  Recommended unit to conduct the evaluation and any pre-coordination between 
+units. 
+5.7.4.4.  Impact if request is disapproved. 
+5.7.5.  Approved requests will be filed within the individual’s EF and incorporated on the AF 
+Form 8 or AF Form 4350 generated by the supporting MAJCOM. (T-3). 
+5.8.  Evaluation Criteria. 
+5.8.1.  The Lead MAJCOM, in coordination with the applicable user MAJCOMs, will establish 
+and maintain standardized MSN, QUAL, and INSTR evaluation criteria. (T-2). 
+5.8.2.  MAJCOMs will coordinate with the program managers of any command-mandated 
+software on any updates of evaluation criteria to aid in the expeditious revision of evaluation 
+criteria files. 
+5.8.3.  The Lead MAJCOM, in coordination with the applicable user MAJCOMs, will establish 
+graded areas and subareas. (T-2).  This includes the identification of the following: 
+22 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+5.8.3.1.  Required areas.  Graded areas and subareas that must be evaluated for an 
+evaluation to be considered complete.  (T-2). 
+5.8.3.2.  Critical areas.  Areas where marginal performance is unacceptable.  Critical areas 
+are graded either “Q” or “U” and include but are not limited to, Security, Safety, and 
+Command Intent. 
+5.8.3.3.  Information checks areas. 
+5.8.3.3.1.  This is required for QUAL and MSN evaluations and may also be 
+accomplished on other evaluations. (T-3). 
+5.8.3.3.2.  Each crewmember will demonstrate the ability to access current, accurate 
+information applicable to the performance of their duties. The required information 
+shall be specified by division, team, and/or crew position in MAJCOM or local unit 
+supplements, and is summarized in Air Force Tactics, Techniques, and Procedures 
+(AFTTP) 3-3 and AFTTP 3-1 series publications. (T-3). The AFTTP can be located at 
+the 
+following 
+web 
+address: 
+https://intelshare.intelink.gov/sites/561jts/afttp/aoc/SitePages/Home.aspx 
+5.9.  Grading and Qualification Level.  Individual grades are assigned to each graded area and 
+subarea.  Evaluators will assign a qualification level based on the requisite results, the evaluation 
+area, and subarea grades.  
+5.9.1.  A grade is a characterization of examinee performance in a Graded Area or Graded Sub-
+area. 
+5.9.2.  Graded areas and subareas are specifically evaluated abilities or skills set within an 
+evaluation.  Graded areas and subareas will have a two-tier (Q/U) or three-tier (Q/Q-/U) 
+grading system.  Discrepancies will be documented against the established areas and subareas. 
+5.9.2.1.  Q indicates the examinee is qualified to perform the area and subarea tasks.  The 
+examinee demonstrated both a satisfactory knowledge and performed within the prescribed 
+Q tolerances. 
+5.9.2.2.  Q- indicates the examinee is qualified to perform the area and subarea tasks.  The 
+examinee demonstrated limited knowledge and/or marginal performance within the 
+prescribed Q- tolerances.  Q- must not jeopardize security, safety or be a breach of 
+command intent.   Q- requires debriefing or additional training as determined by the 
+examiner. 
+5.9.2.3.  U indicates the examinee is not qualified to perform the area subarea tasks.  The 
+examinee demonstrated insufficient knowledge and/or performance outside allowable Q 
+and Q- tolerances.  Any breach of security, safety, or command intent shall result in a U 
+grade. (T-3).  U requires debriefing or additional training as determined by the examiner. 
+5.10.  Remedial Actions. 
+5.10.1.  Debriefed Discrepancy.  Remedial action accomplished during debrief of the 
+evaluation wherein the examiner provides instruction concerning the discrepancy and 
+determines that the examinee has gained the necessary knowledge or proficiency. 
+ 
+ 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+23 
+5.10.2.  Additional Training.  Any training recommended by the examiner to remedy a 
+discrepancy identified during an evaluation that cannot be remedied during the evaluation 
+debrief.  Unit supplements will outline procedures for ensuring additional training is 
+accomplished. 
+5.10.2.1.  May include self-study, personal or group instruction, part-task trainer, exercise 
+employment, or other method specified in a unit or MAJCOM supplement. 
+5.10.2.2.  Additional training must include demonstration of satisfactory knowledge or 
+proficiency to an examiner, supervisor or instructor (as stipulated in the Additional 
+Training description) to qualify as completed. (T-3).  The examiner will indicate if the 
+additional training must be accomplished before the crewmember may perform DOC-
+statement missions and duties in the assigned position. (T-3) 
+5.10.2.3.  If a crewmember receives a U in specific area that originally required an event 
+or task certification from the unit commander (or division chief if delegated), the examiner 
+will recommend that the unit decertify the crewmember on that specific event and 
+recommend corrective retraining and recertification action. 
+5.10.2.4.  If a crewmember exceeds the allotted time for completion of additional training, 
+the appropriate level will review the situation and direct appropriate action.  Document the 
+circumstances with a Memorandum for Record (MFR) to be included in the AF Form 8 or 
+AF Form 4350. (T-3). 
+5.10.2.5.  Document additional training on the AF Form 8 or AF Form 4350 in accordance 
+with paragraphs 7.4.5 and 7.4.8.5 (T-3). 
+5.10.2.6.  If a crewmember fails to complete assigned additional training, the AOC/CC or 
+division chief will review the situation.  The AOC/CC or division chief will determine 
+whether further additional training should be assigned or the crewmember’s qualification 
+(in the case of a Q2) should be revoked with a Commander directed downgrade to Q3, in 
+accordance with paragraph 5.16 (T-3). 
+5.10.2.6.1.  The examiner must grade the areas subareas listed as “required” in the 
+general and specific evaluation sections. (T-3). 
+5.10.2.7.  In addition to required areas and subareas, the examiner will grade any non-
+required area and subarea that is observed during an evaluation and is listed in the graded 
+areas for that type of evaluation. 
+5.10.2.8.  Grading criteria tolerances assume uninterrupted task evaluation and stable 
+system performance.  If the evaluation is interrupted or system performance is degraded, 
+the examiner should allow for resulting errors and delays.  In such cases, a verbal 
+evaluation may be an appropriate substitute. 
+5.10.2.9.  Minor deviations or errors are acceptable, provided the examinee recognizes and 
+corrects their own errors, and such deviations do not jeopardize security, safety, or 
+command intent. Consider cumulative errors when determining the area and subarea grade. 
+5.10.2.10.  The examiner may further identify any area or subarea as “Commendable” if, 
+in the examiner’s determination, the crewmember has demonstrated exceptional skill and 
+knowledge.  Document in accordance with paragraph 7.4.8.6.2 
+24 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+5.11.  Qualification Levels.  Qualification levels are assigned to all evaluation types. The 
+evaluation qualification level is based on the compilation of the requisite results as well as the 
+evaluation graded areas and subareas. Qualification levels performance standards are based on the 
+following performance standards: 
+5.11.1.  Q1.  The crewmember demonstrated desired performance and knowledge of 
+procedures, equipment and directives within tolerances specified in the criteria.  This should 
+be awarded when no discrepancies were noted.  This may be awarded when discrepancies are 
+noted if: 
+5.11.1.1.  No U grades were awarded for any graded area or sub-area. 
+5.11.1.2.  In the judgment of the examiner, none of the Q- grades precluded awarding of a 
+Q1. 
+5.11.1.3.  No remedial actions required additional training, only debriefed discrepancies. 
+5.11.2.  Q2.  The crewmember demonstrated the ability to perform duties safely, but there were 
+one or more graded area(s) or subarea(s) where additional training was assigned.  The examiner 
+will assign this qualification level if: 
+5.11.2.1.  A non-critical graded area or subarea grade of U was awarded. 
+5.11.2.2.  In the judgment of the examiner, a Q2 may be given if there is justification based 
+on Q- performance in one or several graded areas or subareas. 
+5.11.3.  Q3.  The crewmember demonstrated an unacceptable level of safety, performance or 
+knowledge.  The examiner will assign this qualification level if: 
+5.11.3.1.  Any critical area graded U, requires qualification Level of Q3. 
+5.11.3.2.  In the judgment of the examiner, a Q3 may be given if there is justification based 
+on Q- or U performance in one or several non-critical graded areas or subareas. 
+5.11.4.  Assigning the evaluation qualification level. 
+5.11.4.1.  The examiner completing the evaluation will assign the evaluation qualification 
+level. 
+5.11.4.2.  A qualification level of Q1 or Q2 will be given only after all evaluation 
+requirements and requisites have been completed and given due consideration. 
+5.11.4.3.  A qualification level of Q3 may be awarded at any time. 
+5.11.4.4.  Examiner judgment will always be the determining factor in deciding the 
+evaluation qualification level. 
+5.11.5.  Exceptionally Qualified (EQ) Designation.  An EQ only applies to the evaluation 
+qualification level.  Document on the AF Form 8 or AF Form 4350 in accordance with 
+paragraphs 7.4.6 and 7.4.8.2  An EQ may be given when: 
+5.11.5.1.  The crewmember received a Q in all graded areas of the evaluation 
+5.11.5.2.  The crewmember demonstrated exceptional skill and knowledge in the requisites 
+and the evaluation. 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+25 
+5.12.  Requisites.  These include a series of examinations.  Examinations include the Open Book 
+Examination and Closed Book Examination.  (See Chapter 6). 
+5.12.1.  Minimum Requisites for each Evaluation Type: 
+5.12.1.1.  QUAL: Completion of IQT. All initial Evals not completed in the formal training 
+unit will be documented on AF Form 8 as an in house initial QUAL in the comment section 
+of the evaluation form. (T-3). 
+5.12.1.2.  MSN:  For the first MSN evaluation in combination with the initial QUAL 
+evaluation, completion of IQT, MQT, and Open and Closed book examinations.  For 
+subsequent MSN evaluations in the same or other divisions, completion of all CT 
+requirements and Open and Closed book examinations. (T-3). 
+5.12.1.3.  INSTR: Completion of Instructor certification as dictated by local guidance. (T-
+3). 
+5.12.2.  Requisite Completion. 
+5.12.2.1.  In-the-Eligibility Period.  For scheduled or no-notice periodic evaluations in the 
+eligibility period, all requisites must be completed within the eligibility period of the 
+current evaluation. (T-3).  The AOC/CC may waive this requirement on a case-by-case 
+basis. (Document on the AF Form 8 or AF Form 4350 in accordance with paragraph 
+7.4.1.6). 
+5.12.2.2.  Out-of-the-Eligibility Period.  For periodic evaluations accomplished outside of 
+the eligibility period, all requisites must be completed within a six-month period beginning 
+with the month in which the first requisite was completed or the evaluation was 
+administered, whichever occurs first. (T-3).  Exception: For extended evaluations (see 
+paragraph 5.15.3.2.1), requisites may be completed between the beginning of the six-
+month eligibility period prior to the original expiration date and the extended expiration 
+date. 
+5.12.2.3.  One set of requisites may be used to satisfy the requirements of combined 
+evaluations. 
+5.12.2.4.  Requisites from a completed evaluation may be used for subsequent evaluations 
+provided they cover all required areas and are within the requisite eligibility period for each 
+evaluation. 
+5.13.  Failure to Pass an Evaluation. 
+5.13.1.  Requalification Evaluation. 
+5.13.1.1.  The examiner that administered the original evaluation will not normally 
+administer the requalification evaluation. (T-3). 
+5.13.1.2.  A requalification evaluation cannot be successfully completed until the 
+crewmember performs to Q, Q-, or debriefed criteria for each area graded U. 
+5.13.1.3.  The examiner may annotate that the requalification evaluation be accomplished 
+by any combination of verbal assessment, verification board briefing, performance tasks, 
+part-task simulations, and/or exercise employment suitable to the division. 
+26 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+5.13.1.4.  Requisites remain valid that were successfully passed within the 6-month period 
+for an evaluation that was failed. 
+5.13.2.  Mission Ready Status Downgrade.  If a CMR or BMC crewmember receives a Q3 
+qualification level on a QUAL and/or MSN evaluation, the commander or division chief will 
+downgrade the examinee’s training status to non-combat mission ready or non-basic mission 
+capable (NCMR/NBMC) (T-3).  For instructor evaluations, crewmember status (i.e., CMR or 
+BMC) need not be downgraded if the discrepancies were only in instructor areas or subareas. 
+5.13.3.  Restrictions.  When called for by this AFMAN or deemed necessary in the judgment 
+of the examiner, mission and/or duty restrictions will be imposed on the examinee until the 
+successful completion of assigned additional training and/or a requalification evaluation. (T-
+3). 
+5.13.3.1.  Restrictions will address the specific phase of operation that requires supervision 
+and the criteria for removal of the restrictions. (T-3). 
+5.13.3.1.1.  QUAL evaluation: Place the examinee on supervised status (see 
+paragraph 5.14) for the crew position in which the evaluation was administered, 
+unless, in the opinion of the evaluator, the discrepancy is applicable to additional crew 
+positions. (T-3).  Multiple-qualified crewmembers may be placed in supervised status 
+in all crew positions in which the individual maintains multiple qualification. 
+5.13.3.1.2.  MSN evaluation: The examinee may perform BMC (peacetime/exercise) 
+tasks unless specifically restricted.  Place the examinee on supervised and/or training 
+status for combat mission and/or DOC-statement tasks. (T-3). 
+5.13.3.1.3.  INSTR Evaluation (or any evaluation where instructor qualifications are 
+being evaluated):  Instructors receiving an unsatisfactory grade in any instructor area(s) 
+will not perform instructor duties until a successful requalification evaluation is 
+completed. (T-3). 
+5.13.3.2.  Document restrictions on the AF Form 8 or AF Form 4350 in accordance with 
+paragraphs 7.4.6 and 7.4.8.1 (T-3). 
+5.14.  Supervised Status. 
+5.14.1.  If unsatisfactory performance or restrictions require an examinee be placed on 
+supervised status, the type of supervisor (e.g., instructor or designated supervisor) will be 
+determined by the AOC/CC or as delegated. (T-3). 
+5.14.2.  Supervision will only be accomplished by instructors or designated supervisors from 
+the relevant division. (T-3). 
+5.15.  Timing of Qualification Evaluations. 
+5.15.1.  Expiration Date.  Required periodic evaluations expire 24 months after the evaluation 
+date, on the last day of that 24th month (e.g. a periodic evaluation in which the evaluation was 
+completed on 9 Oct 18 expires on 31 Oct 20). (T-3). 
+5.15.2.  Eligibility Period.  Periodic evaluations will be scheduled in the eligibility period, 
+defined as the six-month period prior to the expiration date. 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+27 
+5.15.3.  Out-of-the-Eligibility Period.  On a case-by-case basis, periodic evaluations may be 
+scheduled before or after the eligibility period according to the following criteria: 
+5.15.3.1.  Evaluations Conducted Prior to the Eligibility Period.  Commanders or division 
+chiefs may authorize individuals to complete periodic evaluations prior to the eligibility 
+period (document in accordance with paragraph 7.4.1.8). 
+5.15.3.2.  Extensions of Evaluation Expiration Dates. 
+5.15.3.2.1.  MAJCOM STAN/EVAL may authorize blanket or group evaluation 
+expiration date extensions on an as-required basis.  Requests for extensions at 
+MAJCOM or subordinate levels will be submitted in accordance with paragraph 
+5.15.3.2.3.  
+5.15.3.2.2.  MAJCOM/A3s may extend an evaluation expiration date up to six months.  
+Provide notification to AF/A3TY).  Provide guidance for MAJCOM extensions in 
+MAJCOM supplements to this AFMAN. 
+5.15.3.2.3.  Commander or division chiefs may extend an evaluation expiration date up 
+to three months only for the reasons listed below (document in accordance with 
+paragraph 7.4.1.9).  Extensions are completed be on a case-by-case basis and this 
+paragraph is not authority to grant blanket extensions.  For individual extensions longer 
+than three months or for reasons not listed below, see paragraph 5.15.3.2.2  For group 
+or blanket extensions, see paragraph 5.15.3.2.1  Requisites not completed during the 
+original eligibility period must be completed prior to the extended expiration date. 
+5.15.3.2.3.1.  Departing PCS or TDY for training. 
+5.15.3.2.3.2.  Crewmembers who are not able to complete the required 
+evaluation(s) before or during a deployment, off-station exercise or contingency 
+operation status. 
+5.15.3.2.4.  Non-Standard Approval Authority. 
+5.15.3.2.4.1.  For AOC/CVs and above (e.g. AOC/CCs, NAF/CCs, etc.), the 
+approval authority is the next commander in the examinee’s air component chain 
+of command. 
+5.15.3.2.4.2.  In all other cases, if the operational chain of command differs from 
+administrative chain of command (e.g. MAJCOM or NAF attached personnel), 
+approvals will be by the attached unit/CC with the concurrence of the examinee’s 
+immediate administrative supervisor. (T-3). 
+5.15.3.2.4.3.  For individuals not assigned to a MAJCOM, AF/A3TY is the 
+approval authority. 
+5.15.4.  Failure to Complete an Evaluation within the Eligibility Period. 
+5.15.4.1.  If a crewmember fails to complete an evaluation within the eligibility period for 
+an in-the-eligibility period evaluation, the individual loses the qualification covered by the 
+evaluation and the restrictions of paragraph 5.13.3 apply. 
+5.15.4.2.  Qualification should be re-established by accomplishing a requalification 
+evaluation. 
+28 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+5.15.5.  Division Chiefs will ensure that individuals whose periodic evaluations expire either 
+within three months after their departure for a Permanent Change of Station (PCS) to an AOC 
+assignment, or during an upcoming temporary duty (TDY) (AOC or non-AOC), complete the 
+required evaluation(s) before departing (T-3).  Coordinate with the gaining AOC Stan/Eval 
+(AOC/CCV) for any instances where this requirement cannot be met.  Note: Applies to an 
+extended TDY that may preclude the member from completing a required evaluation within 
+the prescribed eligibility period. 
+5.16.  Commander-Directed Downgrade.   
+5.16.1.  A Commander-directed downgrade may be a downgrade (Q- or U) in a specific area 
+or sub-area without un-qualifying an individual. 
+5.16.2.  A Commander-directed downgrade may direct a downgrade that either removes a 
+qualification (e.g., specific crew position) or completely disqualifies an individual. 
+5.16.3.  Downgrades may be directed without administering an evaluation using the following 
+guidance: 
+5.16.3.1.  Examples of mission-related cases include breach of mission related discipline, 
+safety, etc.  Incidents do not have to be directly observed by an examiner, but may be 
+recommended by an examiner from any division or specialty. 
+5.16.3.2.  For non-mission-related cases, do not use as a substitution for, or in lieu of, 
+administrative or judicial actions (e.g. Letter of Counseling, Article 15, etc.).  (Consult with 
+the supporting Staff Judge Advocate office for legal advice in these cases.)  Use in cases 
+where such incidences directly affect the commander’s confidence in the crewmember’s 
+ability to safely operate the aircraft and/or equipment (e.g. lapse in judgment significant 
+enough to cast doubt on the crewmember’s decision-making abilities). 
+5.16.4.  For downgrades that either remove qualifications or completely disqualify an 
+individual, the affected crewmember will cease acting in the qualification(s) from which they 
+have been downgraded effective with the date the commander initiated the downgrade. 
+5.16.5.  Commander-directed downgrades will be documented in accordance with paragraph 
+7.7 (T-2). 
+5.17.  Multiple Qualifications.  Multiple qualification guidance applies to crewmembers who 
+maintain qualifications in two or more divisions, or as required by the commander or division 
+chief. 
+5.17.1.  Documentation.  Document commander or division chief authority for multiple 
+qualifications, including a list of crew positions in which qualifications will be maintained in 
+accordance with paragraph 7.3.1.2 
+5.17.2.  QUAL and MSN Evaluations.  All crewmembers require a QUAL evaluation for the 
+first qualification in the AOC enterprise and a MSN evaluation for each Division in which a 
+crewmember maintains a qualification.  These evaluations will be combined for the initial 
+evaluation.  Ground requisites will be completed during each initial and recurring evaluation. 
+ 
+ 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+29 
+ 
+5.17.3.  Failure to Pass an Evaluation.  A downgrade resulting from a Q3 in a QUAL or MSN 
+evaluation applies only to the division for which the evaluation was administered, unless, in 
+the opinion of the evaluator, the discrepancy is applicable to additional divisions (e.g., for a 
+gross breach of safety, security, or command intent). 
+ 
+ 
+30 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+Chapter 6 
+EXAMINATION PROGRAM 
+6.1.  Purpose.  The AOC examination program measures a crewmember’s knowledge of 
+normal/contingency procedures, theater missions, and other information essential for the safe and 
+effective planning and execution of air operations through the administration of written or 
+computer-based examinations. 
+6.2.  Scope.  This chapter applies to all AOC crewmembers who receive an evaluation.  This 
+chapter includes requisite examination guidance for periodic evaluations.  Requisite examinations 
+include open book examinations and closed book examinations as described in paragraph 5.12 
+6.3.  Administrative Procedures. 
+6.3.1.  Program Documentation.  Units will document the unit-level crewmember examination 
+program. (T-3). 
+6.3.2.  Computer-Based Examinations.  MAJCOM directed STAN/EVAL software may fulfill 
+the requirement for examinations as outlined in this AFMAN. 
+6.3.3.  Retention of Examination Records.  Retain graded examination answer sheets and/or 
+computer records until the AF Form 8 or AF Form 4350 is completed. 
+6.4.  Examination Sources. 
+6.4.1.  Open Book Examinations.  Open book questions will come from publications 
+containing information pertinent to the AOC and performance of the assigned mission. The 
+emphasis of open book exams is placed on manuals, instructions or any other document that 
+may not require immediate recall or is not regularly referenced. 
+6.4.1.1.  The open book subject areas and the publications used to generate the examination 
+will be made available to crewmembers during testing.  Electronic publications may be 
+used as references for open book examinations. 
+6.4.1.2.  Each unit will develop an open book Secure Question Bank (SQB) that serves as 
+the source for the open book examination.  Do not distribute the SQB to unit crewmembers 
+and safeguard it in the same manner as any other required STAN/EVAL examination. (T-
+3). 
+6.4.2.  Closed Book Examinations.  Major emphasis of closed book examination questions will 
+be on AOC systems, AFIs, threat and mission knowledge that crewmembers must immediately 
+recall during planning and execution. 
+6.4.2.1.  Lead MAJCOMs review MQFs annually; distribute changes to MQFs as 
+necessary and ensure/crew-specific MQFs are available to applicable MAJCOMs. 
+6.4.2.2.  Local Procedures MQF.  Units may develop and distribute a local procedures 
+MQF to augment other MQFs. Units may include any information necessary for mission 
+accomplishment not included in the MAJCOM MQF.  Local instructions and unit 
+supplements to AFMAN 13-1AOC series are examples of sources for the Local Procedures 
+MQF.  At least 10 percent of closed book examination questions will come from the local 
+procedures MQF. (T-3). 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+31 
+6.5.  Examination Management.  Units will either maintain prepared examinations for each crew 
+position or generate a unique examination for each crewmember. (T-3). 
+6.5.1.  Examination Question Review.  AOC STAN/EVAL functions will review all crew 
+position-specific MQFs, SQBs, and prepared examinations (if used) annually and as soon as 
+possible but not later than three months after any changes in source documents. (T-2).  If a 
+complete review was accomplished due to a source document change it may be annotated as 
+the annual review.  Units will document procedures for the examination reviews in their 
+supplement to this AFMAN. (T-2). 
+6.5.2.  If prepared examinations are maintained for each division: 
+6.5.2.1.  Units with more than 10 crewmembers per division are required to develop and 
+control a minimum of two examinations for each division. (T-3). 
+6.5.2.2.  Units having ten or fewer crewmembers per division require only one 
+examination. 
+6.5.2.3.  When different positions are responsible for the same information, units are not 
+required to maintain separate examinations for each position. 
+6.5.2.4.  Change a minimum of 50 percent of the questions on each prepared examination 
+each calendar year. (T-3).   
+6.5.3.  If a unique examination is generated for each examination: 
+6.5.3.1.  Units may use MAJCOM-approved software for examination creation. 
+6.5.3.2.  Examination databases will contain at least twice the number of questions required 
+for each examination (e.g., if a 50-question examination is generated, there must be at least 
+100 questions in the examination database). (T-2). 
+6.6.  Examination Security.  STAN/EVAL personnel will maintain positive control of all 
+examinations, applicable answer sheets, and associated computer-based media. (T-3). 
+6.7.  Written or Computer-Based Examinations.  Grade written or computer based 
+examinations as a percentage of correct answers.  The minimum passing grade is 85 percent. All 
+questions missed will be reviewed immediately following the examination. (T-3). 
+6.8.  Failure to Pass a Requisite Examination. 
+6.8.1.  Members failing a requisite examination (Open or Closed) will be placed in supervised 
+status in accordance with paragraph 5.14 until successful retesting is completed. (T-3). 
+6.8.2.  Crewmembers who fail a requisite examination must be afforded an adequate study 
+period as defined by the AOC/CC or division chief prior to re-examination. (T-3).   
+6.8.3.  Crewmembers who fail a requisite examination must successfully complete the 
+examination before the end of their eligibility period or the member loses the qualification 
+covered by the evaluation. (T-3). 
+6.8.4.  For crewmembers who maintain multiple qualifications, supervised status resulting 
+from failure of either an open book or closed book examination applies only to the position for 
+which the examination was administered. 
+ 
+ 
+32 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+Chapter 7 
+DOCUMENTATION 
+7.1.  Scope.  Administration of the evaluation program requires accurate documentation.  This 
+chapter provides documentation guidance for all crewmembers that require an evaluation to 
+establish qualification. The results of evaluations are recorded on the AF Form 8 or AF Form 4350.  
+The chronological history of evaluations for a crewmember is recorded on an AF Form 942, 
+Record of Evaluation or an AF Form 4349, Record of Intelligence Evaluation.  Units will use 
+electronic database files for record keeping, trend analysis, etc. These AF forms are maintained in 
+the EF. (T-3). 
+7.1.1.  AF Form 8 will be used for all career aviators. (T-3). 
+7.1.2.  AF Form 4350 will be used for non-aviator careers in teams and/or positions specified 
+by the AOC/CC, to include intelligence personnel, unless specified by their applicable 
+standardization and evaluation program (e.g., cybercrew per AFI 17-202v2). (T-3). 
+7.1.3.  In all instances of documentation, use of electronic forms is encouraged, to include use 
+of electronic signatures and wholly electronic EFs.  In all instances, computer-generated forms 
+must mirror AF forms as published on the USAF E-Publishing web site. (T-3) 
+7.2.  Qualifications versus Certifications.  Qualifications are attained through evaluations and 
+documented on the AF Form 8 or AF Form 4350, as applicable.  Certifications are attained through 
+methods other than evaluation and documented AOC guidance. 
+7.3.  Qualification Forms. 
+7.3.1.  The AF Form 8 or AF Form 4350 is the source document used to record the evaluation 
+and verify the qualification of a crewmember. (T-3). 
+7.3.1.1.  Use the associated form to record crewmembers maintaining qualification in a 
+single division. 
+7.3.1.2.  Use the associated form to record crewmembers maintaining multiple 
+qualifications in accordance with paragraph 5.17 
+7.3.1.3.  An AF Form 8 or AF Form 4350 is accomplished by the Examiner, Reviewing 
+Officer, Final Approving Officer, the examinee and a Certifying Official (if additional 
+training was required). 
+7.3.2.  General Data Entry.  See AF Form 942 and AF 4349. 
+7.3.2.1.  In all instances of data entry, if an electronic form is used, the format required by 
+the electronic form should be used (see also paragraph 7.1.3).  However, an “X” can be 
+replaced with a “√” or other standard form, as long as such preference is standardized 
+throughout the document. 
+7.3.2.2.  For date fields use a two-digit day, three-letter month and two-digit year format 
+(e.g. 24 Jun 18). 
+7.3.2.3.  The “Eligibility Period” and “Expiration Date of Qualification” blocks will use a 
+three-letter month and two-digit year format (e.g. Jun 18). 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+33 
+7.3.2.4.  Except where specifically noted otherwise (i.e. annotating the type evaluation, 
+“QUAL”), use upper and lower case letters. 
+7.3.2.5.  Requirements for font, indentation, and justification (right, left or centered) of data 
+are not specified.  MAJCOM supplements may direct specific format standards as desired. 
+7.3.3.  Date Completed.  Use the latest completion date of the evaluation, requisites and the 
+additional training if assigned. 
+7.4.  Completing AF Form 8 and AF Form 4350 
+7.4.1.  Section I Examinee Identification, AF Form 8 and Examine Qualification, AF Form 
+4350. 
+7.4.1.1.  Name, Grade (to include government civilians) or CTR (for contractors) and 
+Department of Defense Identification (DoD ID), or Non-US Identity Code. 
+7.4.1.2.  Organization and Location.  Enter the unit designation and location where the 
+examinee is assigned or attached for duty for attached personnel (actual unit and office 
+symbol will be annotated in accordance with paragraph 7.4.7.3.2 
+7.4.1.3.  Mission Design Series (MDS), Crew Position or Duty Position. 
+7.4.1.4.  Enter the AOC as the MDS/Duty Position in which the evaluation was given. 
+7.4.1.5.  Enter the examinee’s crew position qualification or duty position qualification in 
+the AOC where the evaluation was given.  Note: Examiner (e.g. Examiner Strategy 
+Division, Examiner Air Mobility Division, etc.) is not a qualification, it is a certification, 
+and should only be entered when the examiner is receiving a SPOT Examiner Objectivity 
+evaluation. 
+7.4.1.6.  Eligibility Period. 
+7.4.1.7.  Enter the 6-month period preceding the expiration date from the last periodic 
+evaluation of the same category (e.g., if the last MSN evaluation expires Sep 18, enter Apr-
+Sep 18). 
+7.4.1.8.  Enter N/A for INIT, SPOT, RQ, and out-of-the-eligibility period evaluations. 
+7.4.1.9.  For periodic evaluations where the expiration date of the previous evaluation is 
+extended under the provisions of paragraph 5.15.3.2, enter the 6-month period preceding 
+the original expiration date (extensions only extend the expiration date, not the eligibility 
+period). 
+7.4.1.10.  Dual entries are authorized for misaligned combined evaluations (e.g., if last 
+MSN evaluation expires Nov 18 and INSTR evaluation expires Jan 19, enter “MSN: Jun-
+Nov 18/INSTR: Aug 18-Jan 19” for an MSN/INSTR evaluation). 
+7.4.2.  Section II. Requisite Information, AF Form 8 and Qualification, Knowledge Phase, AF 
+Form 4350. 
+7.4.2.1.  Requisite or Knowledge phase. 
+7.4.2.1.1.  Make a separate entry for each requisite or knowledge phase.  Note: 
+discrepancies in the examiner’s remarks (see paragraph 7.4.8.3). 
+34 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+7.4.2.1.2.  If requisites or knowledge phase exceed available lines, make combined 
+entries or document additional requisite completion in the Comments section. 
+7.4.2.1.3.  Annotate "Closed Book" and "Open Book" for requisite or knowledge phase 
+examinations. 
+7.4.2.2.  Date.  In the date column, enter the date that the requisite or knowledge phase is 
+successfully completed. 
+7.4.2.3.  Results.  Enter examination scores.  Enter failed examination score with a 
+successfully completed re-examination as follows: 84/98. 
+7.4.3.  Section III, Air Crew Evaluation Information, Aircrew Evaluation, AF Form 8 and 
+Section II, Qualification, Task Phase, AF Form 4350. Flight/Task Phases (Section II). 
+7.4.3.1.  Evaluation. 
+7.4.3.1.1.  In accordance with paragraph 5.3, use the following designations to 
+describe the type of evaluation(s): QUAL, MSN, INSTR, or SPOT. If combined, 
+include the designation of each evaluation (e.g., QUAL/MSN, etc.). 
+7.4.3.1.2.  Use the following prefixes, when applicable, to describe the evaluation: 
+INIT, RQ, N/N and/or SIM.  More than one prefix may be used to describe an 
+evaluation as outlined in paragraph 5.5 
+7.4.3.1.2.1.  The only annotations of INSTR used are INIT INSTR and RQ INSTR. 
+7.4.3.1.2.2.  INSTR will not be used for periodic evaluations as the AF Form 8 or 
+AF Form 4350 AOC/crew position is already annotated with the instructor 
+designation (e.g. AOC/ISD, AOC/ICOD). (T-2). 
+7.4.3.1.2.3.  When a Qualification deals with regaining a complete loss of instructor 
+qualification, document it as RQ INSTR (not RQ SPOT). 
+7.4.3.1.3.  Make a single line entry to document the event(s) used to complete the 
+evaluation. 
+7.4.3.1.4.  Make multiple single line entries for each event if two or more events are 
+required and administered by either different examiners or on separate days. 
+7.4.3.1.5.  Where a single mission consists of multiple events over one or more days 
+with the same examiners, a single line entry may be used. 
+7.4.3.2.  Date. 
+7.4.3.2.1.  Enter the date the event was completed. 
+7.4.3.2.2.  For evaluations where a single mission consists of multiple events over one 
+or more days (see paragraph 7.4.3.1.4), use a single line entry with the date the 
+mission was completed.  Document the mission details and inclusive dates in the 
+examiner remarks in accordance with Chapter 7. 
+7.4.3.2.3.  For evaluations conducted on missions consisting of a single event spanning 
+more than one day, use a single line entry with the date the mission was completed. 
+Document the details in accordance with paragraph 7.4.5.1.2 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+35 
+7.4.4.  Section IV, Qualification Level, AF Form 8 and Section II, Qualification Level, AF 
+Form 4350. 
+7.4.4.1.  Annotate the examinee’s qualification level in accordance with the definitions of 
+paragraph 5.11by placing a “1” (for Q1) or “2” (for Q2) in the qualified block or a “3” 
+(for Q3) in the unqualified block. 
+7.4.4.2.  Combined evaluations (e.g., QUAL/MSN, etc.) require only one qualification 
+level if all evaluations were awarded the same qualification level.  If the qualification level 
+varies for each category of evaluation accomplished, indicate the qualification level for 
+each part separately (e.g., “MSN: 1” and “QUAL: 2” in the qualified block or “MSN: 1” 
+in the qualified block and “QUAL: 3” in the unqualified block). 
+7.4.4.3.  Expiration Date of Qualification. 
+7.4.4.3.1.  In accordance with paragraph 5.15.1, for evaluations that establish a new 
+eligibility period, enter the month and year that is 24 months after the month in which 
+the evaluation was successfully completed. 
+7.4.4.3.2.  For evaluations that do not establish a new eligibility period, enter “N/A.” 
+7.4.4.3.3.  Combined evaluations require only one date if all evaluation types were 
+successfully completed and/or “N/A” if all evaluation types were assigned an 
+unqualified grade.  For combined evaluations where one category is successfully 
+completed and/or one category is assigned an unqualified grade, indicate by assigning 
+a new expiration date for the evaluation category completed successfully, and “N/A” 
+for those evaluation categories awarded an unqualified grade (e.g., QUAL 1 and MSN 
+3, then enter “QUAL-Jul 19” and “MSN-N/A”). 
+7.4.5.  Section V Additional Training, AF Form 8 and Section II, Additional training AF Form 
+4350.  If additional training is not required, annotate each of the blocks with N/A. If additional 
+training is required, complete as stated below. 
+7.4.5.1.  Due Date(s). 
+7.4.5.1.1.  Enter a date not to exceed the last day of the third month following the event 
+requiring additional training (an Evaluation on 26 Jan 12 equals a 30 Apr 12 due date). 
+7.4.5.1.2.  If more than one date or type of training is required, preface the due dates 
+with an appropriate description (academics, task training, part-task trainer, etc.) 
+7.4.5.2.  Date Additional Training Completed. 
+7.4.5.2.1.  Enter the date(s) the examinee completed additional training, otherwise, 
+enter “N/A”. 
+7.4.5.2.2.  If more than one date is required, preface the date(s) completed with an 
+appropriate description (Academics, SIM, etc.) 
+7.4.5.3.  Certifying Official Grade, and Organization.  Enter the instructor’s name, rank 
+and organization who completed the additional training (or final event if more than one 
+instructor is used). This individual will sign and date as the Certifying Official. (T-3).  
+NOTE: N/A on AF Form 4350. 
+36 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+7.4.6.  Section VI, Other, AF Form 8 and Section II, Restrictions, AF Form 4350.  
+Restrictions/Exceptionally Qualified/Commander-Directed Downgrade. Place an “X” or “√” 
+(in accordance with paragraph 7.3.2.1) in the appropriate block when comments are annotated 
+in Section VII.  Do not annotate for restrictions resulting from failed requisite exams. NOTE: 
+On AF Form 4350 there are only blocks to check for Restrictions. 
+7.4.7.  Section VII, Endorsement, AF Form 8 and Section III, Certification, AF Form 4350. 
+7.4.7.1.  Flight Examiner, AF Form 8 and Evaluator, AF Form 4350. 
+7.4.7.1.1.  The examiner completing the evaluation signs the Flight Examiner block on 
+AF Form 8 or the Evaluator block on AF Form 4350.  Any other examiner(s) enter 
+remarks in the Mission Description portion in Section VIII of AF Form 8 and Section 
+II of AF Form 4350.  In this section, other examiners describe the evaluations they 
+gave, complete the fields and sign after the comments. 
+7.4.7.1.2.  The examiner signing Section VII of the AF Form 8 or Section III AF Form 
+4350 is responsible for the content of the AF Form 8 or AF Form 4350, and will not 
+sign until verifying all required items are documented. (T-3). 
+7.4.7.1.3.  The examiner signing Section VII of the AF Form 8 or Section III of the AF 
+Form 4350 always places an “X” or “√” (in accordance with paragraph 7.3.2.1) in the 
+remarks block and make comments in the comments block. 
+7.4.7.2.  Reviewing and Final Approving Officers. 
+7.4.7.2.1.  The Reviewing Officer will be the examinee’s Division Chief and the 
+AOC/CC will be the Final Approving Official. (T-3).  Exception: AOC/CV 
+evaluations will list the Division Chief the evaluation is conducted in as the Reviewing 
+Official with the AOC/CC signing as the Final Approving Official.  (T-2).  AOC/CC 
+evaluations will list the Division Chief the evaluation is conducted in as the Reviewing 
+Official and the AOC/CV as the Final Approving Official. (T-2). 
+7.4.7.2.2.  The Reviewing and Final Approving Officers (those officers holding these 
+positions, or acting in their stead during the period of the signature process, not 
+necessarily the date of the evaluation) reviews the content of the AF Form 8 or AF 
+Form 4350 and the assigned qualification level, ensure all required additional training 
+is adequate to correct the noted deficiencies and is complete, and places an “X” or “√” 
+(in accordance with paragraph 7.3.2.1) in the “Concur” block (T-2). 
+7.4.7.2.2.1.  If either or both officers do not agree with any portion of the AF Form 
+8 or AF Form 4350, the qualification level will not be changed, but the dissenting 
+officer will place an “X” or “√” in the “Do Not Concur” block on his or her line of 
+the AF Form 8 or AF Form 4350 (T-2).  Remarks will not be modified without the 
+concurrence of the individual who entered the original comments. (T-1). 
+7.4.7.2.2.2.  If “Do Not Concur” is marked, the non-concurring officer(s) provides 
+justification (e.g. reason for non-concurrence, suggested modifications to 
+additional training as recommended by the examiner, etc.) 
+7.4.7.2.3.  The Reviewing Officer signs and dates the AF Form 8 or AF Form 4350 
+after the examiner, but prior to the Final Approval Officer (T-3). 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+37 
+7.4.7.2.4.  The Final Approval Officer signs and dates the AF Form 8 or AF Form 4350 
+after the Reviewing Officer but prior to the examinee (T-3).  As applicable, the Final 
+Approving Officer may recommend or give a commander-directed downgrade in 
+accordance with paragraph 5.16 if further action is warranted. 
+7.4.7.3.  Organization Block.  The format and content of data for the Organization block 
+for the examiner and reviewing and final approving officers will be as follows: (T-3). 
+7.4.7.3.1.  Flight Examiner or Evaluator.  Annotate unit/organization and office symbol 
+of the examiner that completed the evaluation (e.g., 607 AOC/SRD, 9 AF/OV, 
+ACC/A3TV). 
+7.4.7.3.2.  Reviewing and Final Approving Officers.  Annotate unit/organization and 
+office symbol accordingly (e.g., 607 AOC/CC, 9 AF/CC). 
+7.4.7.4.  Examinee.  Annotate the examinees Name and Rank/Grade in accordance with 
+paragraph 7.4.1.1  The examinee signs and dates after the Final Approving Officer has 
+signed the AF Form 8 or AF Form 4350 and the examinee has been briefed about any 
+actions being taken at that date.  The examinee’s signature acknowledges that they have 
+been briefed and do understand any actions that are being taken at that time. (T-3). 
+7.4.8.  Section VIII. Comments, AF Form 8 and Section II, Comments, AF Form 4350. 
+7.4.8.1.  Restrictions (if required). 
+7.4.8.1.1.  Specific restrictions and the criteria for the removal of the restrictions are 
+documented as the first item of Section VIII in the AF Form 8 or Section II in the AF 
+Form 4350. 
+7.4.8.1.2.  Document each restriction by annotating the specific restriction, level of 
+supervision required, and criteria for removal of the restriction. 
+7.4.8.2.  Exceptional Qualified Designation (when used).  Enter designation in all capital 
+letters.  Document justification after designation (e.g., areas of excellence).  Do not use 
+Officer Performance Report or Enlisted Performance Report style statements (e.g. 
+stratification). 
+7.4.8.3.  Examiner Remarks. Mission Description.  For evaluations requiring two or more 
+events, the mission description are annotated with First event, Second event, etc., as 
+applicable. 
+7.4.8.3.1.  First event, Second event, etc. entries on subsequent paragraphs and 
+subparagraphs are annotated only if there are discrepancies or recommended additional 
+training.  For evaluations with more than one evaluator, see paragraph 7.4.7.1.1 
+7.4.8.3.2.  In all instances, except for the mission description, if no verbiage is needed 
+annotate with “None.” 
+7.4.8.3.3.  Mission Description. A comment addressing demonstrated instructional 
+ability is mandatory for all instructor evaluations. (T-2). 
+7.4.8.4.  Examiner Remarks: Discrepancies. 
+38 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+7.4.8.4.1.  Requisite Discrepancies.  Document by annotating the graded area, graded 
+area title (e.g, flight), grade (e.g. Q-/U), short description of discrepancy, and 
+annotation if discrepancy was debriefed. 
+7.4.8.4.2.  Evaluation Discrepancies.  Document by annotating the graded area, graded 
+area type (e.g. evaluation), graded area number, graded area title (followed by any 
+graded subarea title in parenthesis), grade (e.g. Q-/U), short description of discrepancy, 
+and annotation if discrepancy was debriefed.  Evaluation discrepancies are annotated 
+under paragraph B. Discrepancies, 2. Aircrew Evaluation 
+7.4.8.5.  Examiner Remarks: Recommended Additional Training. 
+7.4.8.5.1.  If discrepancies are documented in the Comments on AF Form 8 or AF Form 
+4350 and they have not been listed in the documentation as debriefed, annotate what 
+the recommended additional training is in this section. 
+7.4.8.5.2.  Descriptions of assigned additional training will include how satisfactory 
+knowledge or proficiency will be demonstrated to an examiner or an instructor. (T-3). 
+7.4.8.5.3.  If additional training items do not fit on the AF Form 8 or AF Form 4350, at 
+a minimum annotate the proficiency required by the examinee prior to the 
+Requalification evaluation. Note: May attach an MFR with additional training items 
+that do not fit on AF Form 8 or AF Form 4350. 
+7.4.8.6.  Examiner Remarks: Additional Comments. 
+7.4.8.6.1.  Comments are restricted to significant information dealing with the 
+evaluation not documented elsewhere. 
+7.4.8.6.2.  Document any commendable items (see paragraph 5.10.2.10) under 
+Additional Comments using the following format, “―Commendable” followed by 
+grading area number, grading area title (followed by any subarea title in parenthesis) 
+and examiner’s description of commendable circumstances. 
+7.4.8.6.3.  Officer Performance Report or Enlisted Performance Report type comments 
+or comments comparing the examinee to other individuals are prohibited. 
+7.4.8.6.4.  If an alternate evaluation method is used to satisfy a part of the requisite or 
+evaluation requirements enter area number, area title, reason not accomplished in the 
+normal method, alternate evaluation method used and date. 
+7.4.8.6.5.  If a crewmember received a qualification level of Q3, indicate whether the 
+entire evaluation must be re-accomplished, or just specific areas and/or subareas. (T-
+3). 
+7.4.8.6.6.  In accordance with paragraph 5.3.4, if a SPOT evaluation is used to update 
+a periodic evaluation and/or the AOC/CC authorizes additional missions and/or events 
+after the SPOT to accomplish a periodic evaluation, document the circumstances in this 
+section. 
+7.4.8.6.7.  Incorporate the information contained in any applicable MFRs (e.g. 
+extension, waivers, etc.) in this paragraph (see paragraph 8.3.2.2). 
+7.4.8.6.8.  Document individual or group waivers applicable to the evaluation. 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+39 
+7.4.8.6.9.  In accordance with paragraph 5.15.4, document the AOC/CC approval for 
+a member to complete one or more requisites after the evaluation expiration date. 
+7.4.8.6.10.  In accordance with paragraph 5.7, document approved cross-command 
+evaluations. 
+7.4.9.  Section VIII, Comments, Reviewing Officers Remarks, AF Form 8.  NOTE: N/A on 
+AF Form 4350 Reviewing Officers annotate their remarks following the Examiner’s Remarks 
+in the space provided.  If no remarks, annotate with “None.” 
+7.4.10.  Section VIII, Comments, Final Approving Officers Remarks, AF Form 8.  Approving 
+Officer’s Remarks NOTE: N/A on AF Form 4350. Approving Officers annotate their remarks 
+following the Reviewing Officer Remarks in the space provided.  If no remarks, annotate with 
+“None.” 
+7.4.11.  Section VIII, Comments, Reviewing Officers Remarks, AF Form 8.  Additional 
+Reviews (Optional).  Additional reviews are at MAJCOM and/or unit discretion and will be 
+defined in the MAJCOM and/or unit supplement. (T-2).  NOTE:  N/A on AF Form 4350. 
+7.5.  Temporary Evaluation Documentation. 
+7.5.1.  AF Form 3862, Flight Evaluation Worksheet.  Use AF Form 3862 as temporary 
+documentation of evaluations.  File temporary evaluation documentation in the crewmember’s 
+EF (hard-copy or electronic) after the evaluation and all requisites are complete as a temporary 
+record of the evaluation results. 
+7.5.2.  The temporary evaluation documentation includes examinee, examiner, evaluation 
+type, qualification level, requisite results, and date completed.  List any discrepancies by 
+area/subarea, any restrictions, any additional training and any additional training due dates. 
+7.5.3.  The examiner completing the evaluation signs and dates the temporary evaluation 
+documentation. 
+7.5.4.  Remove temporary evaluation documentation when the permanent AF Form 8 or AF 
+Form 4350 is filed in the EF. 
+7.5.5.  File the completed AF Form 8 or AF Form 4350 in the EF no later than the end of the 
+third month following the date completed that was annotated on the AF Form 8 or AF Form 
+4350. 
+7.5.6.  Follow all applicable MAJCOM, NAF, and unit supplemental guidance regarding 
+temporary evaluation documentation. 
+7.6.  Requalification Evaluations due to failed Evaluations. 
+7.6.1.  If the requalification evaluation requires an evaluation please document as follows: 
+7.6.1.1.  Document the required evaluation results on an AF Form 8 or AF Form 4350 that 
+only includes documentation of that required evaluation.  Requisite completion dates from 
+the Q3 AF Form 8 or AF Form 4350 (or applicable forms) will not be annotated on the 
+Requalification Evaluation AF Form 8 or AF Form 4350 unless requisites were not 
+completed or are required to complete the requalification evaluation. (T-3). 
+ 
+ 
+40 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+7.6.1.2.  If the requalification evaluation is completed prior to completion of required 
+requisites, delay completion of the AF Form 8 or AF Form 4350 until requisites are 
+complete and enter the requisites on the Requalification Evaluation AF Form 8 or AF Form 
+4350. 
+7.6.2.  If the requalification evaluations require only the successful completion of a requisite 
+or a portion of a requisite, document the results on a separate AF Form 8 or AF Form 4350.  
+Annotate the results as “RQ MSN”, “RQ QUAL”, “RQ INSTR”, etc, under section III 
+“Aircrew Evaluation”. 
+7.7.  Commander-Directed Downgrade (see also paragraph 5.16.  ).  Except as described 
+below, use the AF Form 8 or AF Form 4350 for a Commander-directed downgrade in accordance 
+with paragraph 7.3 
+7.7.1.  Effective Date of Downgrade.  The effective date of the downgrade is the date the 
+commander initiated the downgrade action.  If this is a result of a downgrade for non-duty 
+position related issues, the date the commander mandated the downgrade action is the effective 
+date of the downgrade. 
+7.7.2.  Section I Examinee Identification, AF Form 8 and Examinee Qualification, AF Form 
+4350. 
+7.7.2.1.  MDS/Crew Position on AF Form 8 and Duty Position on AF Form 4350. 
+7.7.2.1.1.  In addition to the crewmember’s MDS (AOC), if the downgrade includes a 
+loss of a qualification (e.g., specific division) enter the downgraded division(s). 
+7.7.2.1.2.  If the individual is downgraded to a completely unqualified status (i.e. AOC-
+ISD to AOC-U), enter the crew position to which he or she will be requalified upon 
+successful completion of either an RQ evaluation or examination. 
+7.7.2.2.  Eligibility Period.  Enter “N/A.” 
+7.7.3.  Section III, Aircrew Evaluation Information, Aircrew Evaluation on AF Form 8 Section 
+II, Qualification, Task Phase, Event Check on AF Form 4350.  In the Aircrew Evaluation block 
+on AF Form 8 and Task Phase, Event Check block, on AF Form 4350, enter the category of 
+the evaluation associated with the downgrade being given (e.g. if the commander is 
+downgrading an area and/or subarea related to the mission of the AOC, then enter mission-
+descriptive information) with the date of the situation that caused the downgrade. 
+7.7.4.  Section IV, Qualification Level on AF Form 8 and Section II, Qualification, 
+Qualification Level on AF Form 4350. 
+7.7.4.1.  If the commander does not intend to reduce the qualification level(s) of the 
+crewmember and is issuing a downgrade in a non-critical area and/or subarea (i.e. a Q- in 
+one or more non-critical areas and/or subareas), then enter “2.” 
+7.7.4.2.  If the commander or division chief intends either to remove a qualification (e.g. 
+specific crew position), or reduce the individual to a completely unqualified status, then 
+enter “3.” 
+7.7.4.2.1.  Requalification evaluations following a commander/division chief directed 
+downgrade are documented on a separate AF Form 8 or AF Form 4350 in accordance 
+with paragraph 7.6 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+41 
+7.7.4.2.2.  If the commander or division chief intends for the individual to regain their 
+qualification through the successful completion of a requisite, enter “3/1”. 
+7.7.4.3.  Expiration Date of Qualification. Enter “N/A.” 
+7.7.5.  Section V Additional Training on AF Form 8 and Section II, Additional Training on AF 
+Form 4350. 
+7.7.5.1.  If a “2” is entered in the qualification level, restrictions and additional training are 
+not required. 
+7.7.5.1.1.  Leave the box for restriction(s) unmarked and enter “N/A” for Due Dates 
+and “N/A” for Date Additional Training Completed. 
+7.7.5.1.2.  If desired, the commander or division chief may still require restrictions 
+and/or additional training. If used, document in accordance with the next paragraph. 
+7.7.5.2.  If a “3” is entered in the qualification level, restrictions and additional training are 
+required. 
+7.7.5.2.1.  Place an “X” or “√” (in accordance with paragraph 7.3.2.1) in the box for 
+restriction(s) and enter the due date for the additional training as the last day of the third 
+month from the effective date (an Evaluation on 26 Jan 20 equals a 30 Apr 20 due 
+date).―Date Completed at the top of the AF Form 8 AF Form 4350. 
+7.7.5.2.2.  Enter a date into the Date Additional Training Completed block when 
+required training is complete. 
+7.7.5.2.3.  The Instructor completing the additional training (or last training event if 
+more than one) signs and dates the Certifying Official block. 
+7.7.5.3.  Place an “X” or “√” in the Commander-Directed Downgrade Block (in accordance 
+with paragraph 7.3.2.1) on the AF Form 8 and annotate a commander-directed downgrade 
+in the Comments section on AF Form 4350. 
+7.7.6.  Section VII, Endorsement on AF Form 8 and Section III, Certification on AF Form 
+4350. 
+7.7.6.1.  Only the commander or division chief directing the downgrade and the individual 
+concerned signs the AF Form 8 or AF Form 4350.  Additional reviews (annotated under 
+Section IV) are at the MAJCOM discretion. 
+7.7.6.2.  Final Approving Officer.  The commander or division chief directing the 
+downgrade signs and places an “X” or “√” (in accordance with paragraph 7.3.2.1) in the 
+remarks block. 
+7.7.6.3.  Examinee.  The crewmember signs acknowledging the action being taken by the 
+commander or division chief. 
+7.7.7.  Section VIII, Comments on AF Form 8 and Section II, Comments on AF Form 4350.  
+Unless noted below, complete the Comments portion as described under paragraphs 7.4.8 
+through 7.4.11 of this publication.  See Section VIII, Comments, on AF Form 8, for format of 
+the Comments Section for AF Form 8 and AF Form 4350. 
+42 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+7.7.7.1.  At the top of the page enter, “RESTRICTIONS: COMMANDER-DIRECTED 
+DOWNGRADE.” 
+7.7.7.2.  Paragraph A, Under EXAMINER’S REMARKS: A. Mission Description, add a 
+narrative describing the reason for the commander or division chief directed downgrade. 
+7.7.7.3.  Under EXAMINER’S REMARKS: B. Discrepancies, complete as stated in 
+paragraph 7.4.8.4 
+7.7.7.4.  Under EXAMINER’S REMARKS: C. Recommended Additional Training, 
+document any additional training desired or if none, place “None”.  Additionally, enter any 
+corrective action or training required prior to requalification. 
+7.7.7.5.  Under EXAMINER’S REMARKS: D. Additional Comments, complete if desired 
+or state “None”. 
+7.7.7.6.  Additional Reviews:  As directed by MAJCOM and/or unit supplement or 
+“None.”  Note: N/A on AF Form 4350.” 
+7.8.  Record of Evaluation.  The AF Form 942 and AF Form 4349 are indices providing pertinent 
+information extracted from all the AF Forms 8 or AF Forms 4350 accomplished by the 
+crewmember. 
+7.8.1.  Data Entry. 
+7.8.1.1.  Except where specifically noted otherwise (i.e. Type of Evaluation:  QUAL) use 
+upper and lower case letters. 
+7.8.1.2.  Requirements for font, indentation, and justification (right, left or centered) of data 
+are not specified.  MAJCOM supplements may direct specific format standards as desired. 
+7.8.1.3.  A one-line entry is used for all evaluations with the exception of those in which 
+the qualification levels awarded on portions of a combined evaluation are not all the same. 
+7.8.1.4.  For combined evaluations in which different qualification levels are awarded for 
+any of the evaluation types, a single line entry is made for each different qualification level 
+awarded indicating which portions of the combined evaluation received that qualification 
+level. 
+7.8.2.  Completing AF Form 942 or AF Form 4349. Use one AF Form 942 or AF Form 4349 
+until it is completely filled in.  If closing out hand written, hard-copy AF Forms 942 or AF 
+Forms 4349, “Z” out any blocks that are unused or no-longer needed.  Units are not required 
+to “Z” unused blocks on the electronic AF Forms 942 or AF Forms 4349. 
+7.8.2.1.  ACFT/Crew Position.  Enter AOC and division as it appears in the Aircraft/Crew 
+Position area under Examinee Identification of the subject AF Form 8 or the Duty Position 
+under Block I of the AF Form 4350. 
+7.8.2.2.  Type of Evaluation.  Enter type of evaluation or combined evaluation as it appears 
+in the Aircrew Evaluation Information (Section III, under Aircrew Evaluation on AF Form 
+8 or under the Section II, Event Check on the AF Form 4350).  If different qualification 
+levels were awarded to different types of a combined evaluation, list these individual types 
+as separate entries. 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+43 
+7.8.2.3.  Date Completed.  Enter date from the Date Completed block of the subject AF 
+Form 8 or AF Form 4350. 
+7.8.2.4.  Qualification Level.  Enter the appropriate qualification level as it appears on the 
+referenced AF Form 8 or AF Form 4350. 
+7.8.3.  MAJCOM Change.  A one-line, undated entry containing MAJCOM title is made for 
+each change in the individual’s MAJCOM based on PCS or Permanent Change of Assignment.  
+Do not annotate a change of MAJCOM if the individual is receiving an evaluation from an 
+examiner in a different MAJCOM. 
+7.8.4.  Electronic Copies.  A computer generated AF Form 942 may be used as long as 
+cumulative entries are retained.  Electronic copies of the AF Form 942 should be forwarded 
+with the EF when the individual moves to a new squadron. 
+ 
+ 
+44 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+Chapter 8 
+EVALUATION FOLDERS 
+8.1.  Scope.  The EF contains the source documents that constitute the history of qualifications for 
+each crewmember. 
+8.1.1.  Maintenance of EFs.  
+8.1.1.1.  Each AOC crewmember must have an EF that includes all AF Forms 8 or AF 
+Forms 4350, AF Forms 942, and any additional MAJCOM and/or unit specified 
+STAN/EVAL items. (T-3). 
+8.1.2.  The EF must be maintained by a STAN/EVAL functional office, normally in the 
+organization to which the individual is assigned or attached to for mission. (T-3). 
+8.1.3.  EFs belonging to MAJCOM or NAF personnel qualified in an AOC will be maintained 
+by the STAN/EVAL function of their attached unit. (T-2). 
+8.1.4.  Individuals assigned or attached to other than USAF units may use the format of the 
+service to which they are attached to document their history of qualifications. 
+8.1.5.  EFs of separated or retired members, and digital versions of historical records, will be 
+processed in accordance with AFI 33-364, Records Disposition—Procedures and 
+Responsibilities. (T-0). 
+8.2.  Electronic EFs. 
+8.2.1.  Units will convert and maintain all EFs in electronic format using MAJCOM directed 
+STAN/EVAL program. (T-2). Units must establish a viable backup system in the form of either 
+a printed hard copy or any soft copy that can be viewed without using MAJCOM directed 
+STAN/EVAL program. (T-2). Upon conversion, the original EF should be provided to the 
+individual. 
+8.2.2.  STAN/EVAL Offices must employ a method to backup Electronic EFs.  Examples 
+include stand-alone electronic systems, separate servers or paper copies and will be specified 
+in unit supplements. (T-2). 
+8.2.3.  Once incorporated into the electronic EF system, any hard copy historical information 
+may be returned to the member or be used at unit discretion. 
+8.3.  Contents.  Divide the EF into two sections: 
+8.3.1.  Section I (left side of paper copy). This Section contains AF Forms 942 or AF Forms 
+4349 and any STAN/EVAL items authorized by the MAJCOM and/or unit supplement.  
+Section I may contain two sub-sections. 
+8.3.1.1.  AF Forms 942 or AF Form 4349 are placed on top in chronological order with the 
+most recent on top. 
+8.3.1.2.  Any EF Reviews and Discrepancy Logs are placed under the AF Forms 942 or 
+AF Form 4349. 
+8.3.1.3.  Any additional STAN/EVAL information as directed by MAJCOM and/or unit 
+supplement are placed under the AF Form 942 or AF Form 4349. 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+45 
+8.3.2.  Section II (right side of paper copy).  This Section contains AF Forms 8, and any related 
+MFRs for all evaluations listed on the AF Form 942 or AF Form 4349. 
+8.3.2.1.  AF Forms 8 and AF Forms 4350.  File AF Forms 8 or AF Forms 4350 in 
+chronological order with the most recent on top.  Individuals who maintain qualification in 
+two or more divisions in the AOC will file AF Forms 8 in chronological order without 
+consideration of the crew position. (T-3). 
+8.3.2.2.  MFRs documenting waivers, extensions, and/or unusual circumstances to 
+potentially be included in an AF Form 8 or AF Form 4350 are filed on top of, or adjacent 
+to the affected AF Form 8 or AF Form 4350. 
+8.3.2.2.1.  If the MFR addresses an AF Form 8 or AF Form 4350 that has not already 
+been completed, incorporate the information contained in the MFR onto the applicable 
+AF Form 8 or AF Form 4350 under Examiner Remarks paragraph D, Additional 
+Comments, when action is complete and remove the MFR. 
+8.3.2.2.2.  If the MFR addresses an AF Form 8 or AF Form 4350 that has already been 
+completed, incorporate the information contained in the MFR onto the next applicable 
+AF Form 8 or AF Form 4350 under Examiner Remarks paragraph D, Additional 
+Comments, when action is complete, and remove the MFR. 
+8.3.2.2.3.  If the MFR addresses a major discrepancy or unusual circumstance not 
+addressed or corrected by a later AF Form 8 or AF Form 4350 and it does not affect 
+any of the current qualifications, remove the MFR and add a summary of the MFR that 
+describes the original discrepancy in the EF Review and Discrepancy Log. 
+8.3.2.2.4.  Expiration Date Extensions MFRs.  MFRs extending expiration dates should 
+specify extension authority, the new expiration date, and a brief description of the 
+extension.  MFRs are dated prior to the expiration date of any affected periodic 
+evaluation. 
+8.4.  Hard-Copy Folders. 
+8.4.1.  Folders must be letter size, able to separate contents into two sections and constructed 
+of heavy stock (recommend press board folder or equivalent). (T-3). 
+8.4.2.  Standard 2 ¾-inch metal fasteners may be used. 
+8.4.3.  Affix a label bearing the individual’s name and DoD ID or Non-US Identity Code to 
+the inside back cover so that the folder may be identified when filed.  Include additional 
+information on the label if required by MAJCOM and/or unit supplement. 
+8.4.4.  Folders must bear the “For Official Use Only” and Privacy Act statement label or stamp 
+on both sides of the EF. (T-0) 
+8.5.  Review of EF.   
+8.5.1.  Initial Review.  The gaining unit or organization will review the EF for all newly 
+assigned crewmembers to verify their qualification(s) prior to their first operational event. (T-
+3). 
+ 
+ 
+46 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+8.5.1.1.  The gaining unit or organization will document any major discrepancies from 
+evaluations performed in previous organizations not already annotated in the discrepancy 
+log.  Following the initial review, the gaining unit or organization is responsible only for 
+documentation subsequently placed in the EF. (T-3). 
+8.5.1.2.  If the EF of MAJCOM or NAF personnel qualified in the AOC is maintained by 
+the STAN/EVAL function at the AOC to which they are attached personnel, the 
+STAN/EVAL function of that AOC will also review the EF prior to performing duties as 
+a crewmember. (T-3). 
+8.5.2.  Posting Review. 
+8.5.2.1.  AOCV reviews each AF Form 8 and AF Form 4350 when they are placed in the 
+EF to ensure accuracy and completeness. 
+8.5.2.2.  The AF Form 8 and AF Form 4350 review will confirm that the evaluation 
+eligibility period and qualification as documented are correct, that the evaluation and all 
+requisites were accomplished within the evaluation eligibility period and that all signatures 
+and initials are obtained within the allotted time. 
+8.5.2.3.  AOCV documents the posting review in the EF Review and Discrepancy Log. 
+8.5.3.  Periodic Review. 
+8.5.3.1.  AOCV reviews all applicable EFs to confirm qualification expiration dates used 
+to track required evaluations are the same as those listed in the EFs.  Periodic review of 
+EFs for personnel in inactive status is not required. 
+8.5.3.2.  The interval between reviews will not exceed the standard qualification period 
+window unless a more restrictive review period is established in accordance with 
+MAJCOM and/or unit supplement. (T-2). 
+8.5.3.3.  AOCV documents the periodic review in the EF Review and Discrepancy Log in 
+accordance with MAJCOM and unit supplements. 
+8.6.  EF Discrepancies.   
+8.6.1.  Major Discrepancies are discrepancies that affect the current qualification of the 
+crewmember. 
+8.6.1.1.  Major discrepancies are documented on a MFR, and signed by the Group Chief of 
+STAN/EVAL or higher, filed in Section I or II immediately above or adjacent to the 
+affected AF Forms 8 or AF Forms 4350 
+8.6.1.2.  MFRs documenting similar major discrepancies found on multiple AF Forms 8 
+and AF Forms 4350 are filed on top of the latest affected AF Form 8 or AF Form 4350. 
+8.6.2.  Minor Discrepancies are discrepancies that do not affect the qualification of the 
+crewmember but affect the overall clarity of a current or previous AF Form 8 or AF Form 
+4350.  If a minor discrepancies cannot be corrected on the AF Form 8 or AF Form 4350, they 
+will be documented on the EF Review and Discrepancy Log. (T-2).  Typos, formatting and 
+misspellings that do not affect the overall clarity of the document are not considered minor 
+discrepancies. 
+ 
+ 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+47 
+8.6.3.  Corrections. 
+8.6.3.1.  AF Form 8 and AF Form 4350.  As a source document, the AF Form 8 and AF 
+Form 4350 may be corrected by use of white-out or pen and ink alteration of the original 
+document provided the examiner signing Section VII, Flight Examiner of the AF Form 8 
+or Section III, Evaluator of the AF Form 4350 initials the correction.  If the original EF is 
+not available then document the discrepancy with an MFR.  Note: All changes can only be 
+applied prior to examinee signature. 
+8.6.3.2.  AF Form 942.  AF Forms 942, not being source documents, may be altered 
+without restriction to reflect the assignment of the crewmember and the contents of the EF. 
+8.6.3.3.  Electronic Corrections.  If the system used to store the record does not allow 
+corrections to be made, document the discrepancy in accordance with paragraph 8.3.2.2 
+and/or paragraph 8.6.1.1 
+8.7.  Transfers of EF.  PCS of Individual.  Crewmembers should hand-carry a paper or electronic 
+copy of their EF to the gaining organization. 
+8.7.1.  When circumstances prevent this, the losing organization emails an electronic copy of 
+the EF or mail the paper EF folder to the gaining unit via registered mail. 
+8.7.2.  When mailing an EF or any of its contents, retain a copy (paper or electronic) until the 
+gaining organization has received the original EF. 
+8.7.3.  If the gaining unit has the same electronic EF system, the losing organization is 
+responsible for sending the EF to the gaining unit once the individual leaves the organization.  
+If the gaining unit does not have the same system, the losing organization provides the member 
+a compatible electronic copy (such as a .pdf file) or a hard-copy to hand-carry to the gaining 
+unit. 
+8.7.4.  The gaining unit is responsible for the accuracy of the EF after the initial EF review. 
+ 
+ 
+48 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+Chapter 9 
+ADDITIONAL PROGRAMS (CREW INFORMATION FILE (CIF), SPECIAL 
+INTEREST ITEMS (SII), SUPPLEMENTARY EVALUATIONS, TREND ANALYSIS, 
+TRANSFERS) 
+9.1.  CREW INFORMATION FILE (CIF). 
+9.1.1.  Units will establish and maintain a CIF consisting of a current read file and publications 
+library. (T-2).  The CIF will be organized into volumes and consist of the items listed in Table 
+9.1.  The CIF will be filed in accordance with AFMAN 33-363, in either hardcopy or electronic 
+format. (T-3).  If a unit establishes an electronic CIF, the location will be readily accessible 
+and easily navigable by all crewmembers. (T-3). Co-located units may use a consolidated CIF 
+library. 
+9.1.1.1.  Units will ensure that the information is current and accessible for concurrent 
+viewing by multiple crewmembers. (T-3). 
+9.1.1.2.  At a minimum, units will maintain the required index and location of electronic 
+files in a hard-copy binder in a location easily accessible to all unit crewmembers. (T-3). 
+9.1.1.3.  Documents in the CIF will be made available for deployments via either electronic 
+or hardcopy means. (T-2). 
+9.1.1.4.  CIF messages are generated and issued using MAJCOM approved formats. 
+9.1.2.  Required Volumes. Divisions inserting information into the CIF library will submit the 
+information to AOCV for coordination and distribution (Volume V excluded). (T-2).  Subject 
+matter may be condensed for incorporation into Vol 1 if necessary.  Above the AOCV level, 
+MAJCOM/A3TV (STAN/EVAL) is the focal point for CIF information. (T-2).  If units choose 
+hardcopy format and the contents of any volume exceed the capacity of its binder, use an 
+additional binder and identify the first and subsequent binders by a letter of sequence (e.g., 
+IIIA, IIIB).  Label binders on the spine indicating Volume and Title in accordance with Table 
+9.1  
+Table 9.1.  Required Volumes. 
+VOLUME 
+TITLE 
+VOLUME I 
+Table of Contents/Current Read File 
+VOLUME II 
+Publications—Air Force Directives MAJCOM Supplements 
+VOLUME III 
+Publications—MAJCOM/NAF/Local Directives 
+VOLUME IV 
+Manuals/Checklists/Technical Orders 
+VOLUME V (Optional) 
+Safety Information 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+49 
+9.1.2.1.  Volume I: Consists of a minimum of two parts that include an Index (Part A) and 
+Current Read Files (Parts B and C (NOTE: Part C is optional)).  MAJCOMs may add 
+additional components to Volume I as appropriate. 
+9.1.2.1.1.  Part A is an index listing all material contained in CIF Volumes I through 
+V. 
+9.1.2.1.2.  Part B is the Current Read File of CIF messages. 
+9.1.2.1.2.1.  CIF messages contain information temporary in nature, directly 
+pertinent to the safe conduct of missions, and must be read before performing crew 
+position duties. 
+9.1.2.1.2.2.  CIF messages may be issued or rescinded from the MAJCOM, NAF 
+or unit level. MAJCOM directed CIF items for Part B are approved by the 
+applicable MAJCOM/A3 and coordinated through user MAJCOMs. 
+9.1.2.1.2.3.  MAJCOMs will advise user commands when releasing CIF message 
+that affects the AOC. 
+9.1.2.1.2.4.  CIF messages may be issued to alert crewmembers to publication 
+changes for TOs or AFIs that affect operations, but actual publication changes must 
+be accomplished in accordance with established procedural guidance, to include 
+AFI 33-360, (as applicable) and TO 00-5-1. 
+9.1.2.1.2.5.  CIF messages that contain AOC data will be controlled in accordance 
+with the applicable distribution statement in the governing TO. 
+9.1.2.1.2.6.  File items in Part B in reverse numerical sequence with the most recent 
+CIF on top. Cross reference classified entries to the appropriate location. 
+9.1.2.1.3.  Part C is the Current Read File that contains information temporary in nature 
+but not related to the safe conduct of missions and not required to be read before 
+performing crew duties. Part C contains current operational and mission guidance of a 
+non-urgent nature. File items in Part C in reverse numerical sequence with the most 
+recent CIF on top. Cross reference classified entries to the appropriate location. 
+9.1.2.2.  Volumes II through IV: Publications Library. Will consist of a CIF Functional 
+Publications Library according to MAJCOM directives. See AFI 33-360, for basic library 
+requirements. 
+9.1.2.2.1.  At a minimum, Volume II will include the mandatory publications listed in 
+Table 9.2 
+9.1.2.2.2.  All publications in the library will be current and complete. MAJCOMs may 
+authorize units to withhold posting of publication library information that does not 
+apply based on aircraft configuration. 
+9.1.2.2.3.  Units will establish and maintain a table of contents for the publications 
+library containing, as a minimum, a listing of basic publications numbers and short 
+titles. Publication dates, supplements and changes are not required. (T-2). 
+9.1.2.3.  MAJCOMS may waive Volumes II-V requirements for special training units (i.e. 
+Large Force Exercises). 
+50 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+9.1.2.4.  Volume V (optional): AOC safety information. 
+Table 9.2.  Volume II Mandatory Publications. 
+PUBLICATION 
+TITLE 
+AFI 13-1AOC Vol 1 
+Training 
+AFMAN 13-1AOC Vol 2 
+Standardization Evaluation Program 
+AFI 13-1AOC Vol 3 
+General Operations 
+ 
+9.2.  AOC-Related Special Interest Item (SII). 
+9.2.1.  AOC-Related SIIs are items of emphasis relating to existing procedure(s) designed to 
+mitigate or eliminate specific risks or trends. 
+9.2.2.  AOC-Related SIIs are generated via MAJCOM approved formats. 
+9.2.3.  SIIs do not add to or amend established procedures (reference guidance on issuing CIF 
+messages in paragraph 9.1.2.1.2.5, above). 
+9.2.4.  SIIs will be based on analysis of risks and trends from a variety of sources to include 
+Safety Investigation Board findings/recommendations, safety related incidences, trend 
+analysis, deployed area of operations and potential problems with equipment/procedures. (T-
+2). 
+9.2.5.  SII(s) will be issued through the same process used to release CIF messages with the 
+following elements: 
+9.2.5.1.  References (document, Safety Investigation Board, etc.). 
+9.2.5.2.  Risk factors and trend details. 
+9.2.5.3.  Specific emphasis actions to reduce or eliminate the risk or trend that generated 
+the SII. 
+9.2.5.4.  Effective date of rescission. 
+9.2.5.5.  SME or POC for further information. 
+9.2.6.  SII(s) will be of limited duration (generally not to exceed 90 days). 
+9.2.7.  SII(s) may be issued or rescinded from the HAF, MAJCOM, NAF or unit level.  If 
+issued from agencies outside the MAJCOMs (e.g. HAF, AFFSA, but not subordinate NAFs or 
+units), the lead MAJCOM STAN/EVAL function will coordinate the intent and verbiage of 
+the SII with other MAJCOM STAN/EVAL functions in order to determine the level of 
+applicability within the individual MAJCOMs prior to release. 
+9.2.8.  Units will place SIIs into the CIF, Vol I, Part B, Current Read File, for dissemination to 
+crewmembers. (T-2). 
+9.2.9.  Mission-specific SII(s) need only be briefed on those missions for which the SII is 
+relevant. 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+51 
+9.3.  Supplementary Evaluations.  Supplementary evaluations are optional administrative tools 
+used by a commander or division chief to ensure standardization of operations and to identify and 
+evaluate implemented solutions to operational problems, such as negative evaluation trends. 
+9.3.1.  Conduct supplementary evaluations as directed by the NAF or AOC, CC or CV. (T-3). 
+9.3.2.  The form and content of a supplementary evaluation is at the discretion of the 
+commander or division chief. 
+9.3.3.  Supplementary evaluations may be administered in conjunction with an evaluation.  
+Supplementary evaluations will not affect grading, will not affect qualification levels, and will 
+not be documented on an AF Form 8 or AF Form 4350. 
+9.3.4.  The commander or division chief directing the supplementary evaluation determines the 
+areas to be evaluated. (T-3).  The STAN/EVAL function directly under the commander will 
+determine the method of evaluation and is responsible for administrative management of data 
+collection.  Once complete, the STAN/EVAL function will report results to the commander. 
+(T-3). 
+9.3.5.  Commander or division chiefs may appoint anyone to conduct supplementary 
+evaluations. 
+9.3.6.  At a minimum, supplementary evaluations results will be documented in SEB minutes 
+(see Attachment 2). 
+9.3.7.  Report supplementary evaluation results to the AOC/CC.  The report will include the 
+objectives of the evaluation, the time frame during which it was performed, discrepancies that 
+were noted, recommended corrective action, and suspense dates for completion of corrective 
+action.  The AOC/CC approves all recommendations for corrective actions.  Report 
+supplementary evaluation results in the SEB minutes. (T-3). 
+9.3.7.1.  Perform follow-up supplementary evaluations to ensure that completed corrective 
+action was effective. (T-3). 
+9.3.7.2.  Retain a copy of positional supplementary evaluation reports and checklists 
+developed in accordance with the Records Disposition Schedule (RDS). (T-3). 
+9.4.  Trend Analysis.   AOCV will establish, manage, and maintain a trend analysis program. (T-
+2). AOCV will publish and define the trend analysis program in the applicable unit supplement to 
+this AFMAN and maintain trend data in accordance with the RDS.  Units using the PEX, or other 
+MAJCOM-approved program will trend academic testing with the embedded program.  Positional 
+trends will be tracked in accordance with unit supplements or until the PEX, or other MAJCOM-
+approved program becomes available. Scope will include, but is not limited to, trend analysis of 
+all evaluations.  Analysis of all documented trends will be conducted at least semiannually for 
+positional and written examinations. 
+9.4.1.  As a minimum, the trend analysis program will include capturing and annotating the 
+following: 
+9.4.1.1.  Positional evaluations. (T-3). 
+9.4.1.2.  Academic testing. (T-3). 
+9.4.1.3.  Exercises or deployments if applicable. (T-3). 
+52 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+9.4.2.  When trends are noted, recommend corrective action and assign an OPR and/or OCR; 
+report trends and status to the AOC/CC, and NAF/MAJCOM during the SEB until closed. 
+9.4.3.  As AOCs are a team of multiple crew positions and Air Force Specialty Codes, combine 
+discrepancies common to all crew positions to determine trends (e.g., system knowledge). 
+9.4.4.  When trends are noted, AOCV will accomplish the following. (T-3): 
+9.4.4.1.  Recommend an OPR and/or OCR. 
+9.4.4.2.  Recommend corrective action and a method to verify that trends have been 
+corrected. 
+9.4.4.3.  Ensure the trend is closed when corrective action is successfully implemented and 
+verified by the OPR/OCR. 
+9.4.4.4.  Trends programs will maintain at least one year of trends data. 
+9.4.5.  Trends will be closed only after the OPR verifies the deficiency in performance or 
+knowledge no longer exists in the applicable area.  Such verification may be accomplished and 
+documented through supplementary evaluation, crew testing, etc. (T-3). 
+9.5.  Transfers. 
+9.5.1.  Personnel transferring due to PCS from one AOC to another AOC will retain their 
+current qualification and certification; however, prior to performing operations duties 
+unsupervised at a new unit, the AOC Training Manager will validate satisfactory completion 
+of the unit’s local orientation program as directed by the gaining unit Commander. (T-3).  
+9.5.2.  Deployed individuals or those on TDY status to a unit with similar equipment, can 
+perform unsupervised operations duties if the crewmember: 
+9.5.2.1.  Provides a current AF Form 8 or AF Form 4350, to the Chief of AOC 
+Standardization and Evaluation (AOCV), to verify current qualification(s). (T-3). 
+9.5.2.2.  Personnel must satisfactorily complete the unit’s local orientation program and 
+any training as directed by the TDY unit prior to performing operations duties. (T-3). 
+ 
+ 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+53 
+Chapter 10 
+EVALUATION CRITERIA 
+10.1.  General.   This chapter contains the task oriented criteria for all evaluations.  Evaluation 
+requirements are outlined in Table 10.1 for all division evaluations. 
+Table 10.1.  GRADING AREAS. 
+ 
+Area GRADING AREA: 
+AMD 
+COD 
+CPD 
+ISR 
+Strat 
+Div 
+IAMD 
+PR 
+Cell 
+1 
+Mission Planning 
+R 
+R     
+1 
+R     
+1 
+R 
+R      
+1 
+R 
+R 
+2 
+Briefing (If Applicable)  
+R 
+R     
+1 
+R     
+1 
+R 
+R       
+1 
+R 
+R 
+13 
+Crew Coordination 
+R 
+R     
+1 
+R     
+1 
+R 
+R      
+1 
+R 
+R 
+27 
+Section Leadership (If Applicable)  
+R 
+R     
+1 
+R     
+1 
+R 
+R      
+1 
+R 
+R 
+29 
+AOC And Division General Knowledge 
+R 
+R     
+1 
+R     
+1 
+R 
+R 
+R 
+R 
+36 
+Task Prioritization  
+R 
+R     
+1 
+R     
+1 
+R 
+R      
+1 
+R 
+R 
+50 
+Forms /Reports /Logs 
+R 
+R     
+1 
+R     
+1 
+R 
+R      
+1 
+R 
+R 
+51 
+Publications 
+R 
+R     
+1 
+R     
+1 
+R 
+R      
+1 
+R 
+R 
+83 
+Tactical/Mission Execution 
+R 
+R     
+1 
+R     
+1 
+R 
+R      
+1 
+R 
+R 
+85 
+Battle Management/Tactical Comm 
+R 
+R     
+1 
+R     
+1 
+R 
+R 
+R 
+R 
+93 
+Doctrine/Special Instructions 
+(SPINS)/Rules of Engagement (ROE) 
+R 
+R     
+1 
+R     
+1 
+R 
+R      
+1 
+R 
+R 
+97 
+Weapon system Utilization 
+R 
+ R 
+R     
+1 
+R 
+ 
+ 
+ R 
+R 
+117 
+Command and Control Utilization 
+R 
+R     
+1 
+R     
+1 
+ 
+ 
+ 
+ 
+R 
+ R 
+133 
+Airspace Coordination 
+R 
+R     
+1 
+R     
+1 
+ 
+ 
+ 
+ 
+R 
+ 
+ 
+297 
+Target /Threat Knowledge 
+ R 
+R 
+R 
+R 
+ R 
+R 
+ R 
+744 
+COMSEC/OPSEC 
+R 
+R     
+1 
+R     
+1 
+R 
+R      
+1 
+R 
+R 
+940 
+PR Operational Event 
+ 
+ 
+R 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+R 
+1  
+ 
+ 
+54 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+942 
+PR Planning/Knowledge /Tactics 
+ 
+ 
+R 
+R 
+ 
+ 
+R 
+ 
+ 
+R 
+1 
+1  
+1  
+ 
+ 
+978 
+AOC TBMCS and other tools 
+R 
+ R 
+R 
+ 
+ 
+ 
+ 
+ 
+ 
+R 
+979 
+AOC Mission Systems and Interfaces 
+R 
+R 
+R 
+ 
+ 
+ 
+R 
+1115 Air Space Planning/Execution  
+ 
+ 
+R 
+R 
+ 
+ 
+ 
+ 
+R 
+ 
+ 
+33 
+Instructor Performance 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+47 
+Instructor Briefing /Debriefing 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+55 
+Instructor Knowledge  
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+R: Required 
+1: Required area for AOC/CC and/or AOC/CV evals 
+*: Required for Instructor Qualification 
+ 
+10.2.  Evaluation Criteria.   All areas in this section will be graded using the grading policy listed 
+within the individual areas for Air Mobility Division (AMD), Combat Operations Division (COD), 
+Intelligence, Surveillance and Reconnaissance Division (IRD), Personnel Recovery Cell (PRC), 
+Command and Control (C2), and Strategy Division (SRD). NOTE: AOC/CC and CV evaluation 
+will be listed as AOC CMD evaluations, but the evaluation will be completed in 2 divisions. (T-
+2).  Both will be evaluated in the Strategy Division. The second portion of the evaluations will 
+either be in CPD or the COD, opposite of each other (e.g. is the AOC/CC receives an evaluation 
+in the CPD division, the AOC CV will be then evaluated in the COD). (T-2). 
+10.2.1.  AREA 1: Mission Planning 
+10.2.1.1.  Q Developed a plan for accomplishing functional tasks and/or products, 
+considering Joint Forces Air Component Commander (JFACC) intent, specific action 
+items, and system capabilities.  Complied with procedures prescribed by the applicable 
+directives.  Checked all Crew Information Files (CIFs) (if any) logged off in PEX or as 
+applicable.  Complied with local directives and participated in all required briefings.  
+Planning was adequate with no more than minor omissions, deviations or errors which did 
+not impact task success or product quality. 
+10.2.1.2.  Q- As above, but did not fully comply with directives and/or intent. Omissions, 
+deviations or errors detracted from task accomplishment and/or products. Did not 
+jeopardize task success or product completion. 
+10.2.1.3.  U Failed to check CIF (if any) and annotate correctly. Failed to comply with local 
+directives or participate in all required briefings. Planning was inadequate and/or 
+jeopardized task accomplishment and/or product quality. 
+ 
+ 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+55 
+10.2.2.  AREA 2: Briefing 
+10.2.2.1.  Q Briefings were well organized, accurate, and thorough. 
+10.2.2.2.  Q- As above but with minor errors or omissions that did not adversely affect 
+success. 
+10.2.2.3.  U Briefings were marginal or nonexistent.  Errors or omissions adversely 
+affected success. 
+10.2.3.  AREA 13: Crew Coordination 
+10.2.3.1.  Q Effectively coordinated with other team members.  Demonstrated basic 
+knowledge of other crewmembers’ duties and responsibilities.  Provided timely direction 
+or information, as required, which clarified and/or rectified a situation.  Efficiently used 
+available resources and/or systems to manage workload and maximize success. 
+10.2.3.2.  Q- Adequate coordination with other team members, but demonstrated limited 
+knowledge of other Division and/or team crewmembers’ basic duties and responsibilities. 
+Showed some hesitation to provide timely direction and/or information which would have 
+clarified confusion or rectified a situation. Use of available resources and/or systems to 
+manage workload limited mission success. 
+10.2.3.3.  U Coordination with other team members and lack of knowledge of their duties 
+and responsibilities were detrimental to safety or mission effectiveness.  Did not provide 
+timely direction and/or information which would have clarified and/or rectified a situation.  
+Did not use available resources or systems to manage workload. 
+10.2.4.  AREA 27: Section Leadership 
+10.2.4.1.  Q Effectively managed personnel, assets, and systems throughout the applicable 
+phase(s) of the air tasking and/or targeting cycles to accomplish tasks and/or products with 
+minimal error and/or delay.  Optimized use of available systems.  Implemented and relayed 
+mission, task, and/or intent changes internally and/or externally to ensure mission 
+accomplishment. 
+10.2.4.2.  Q- Performance included errors, omissions, or delays that did not jeopardize task 
+and/or product accomplishment or safety.  Demonstrated limited knowledge. 
+10.2.4.3.  U Failed to manage personnel, assets, and/or systems throughout the evaluation.  
+Errors and/or omissions jeopardized security, mission accomplishment or safety. 
+10.2.5.  AREA 29: AOC and Division General Knowledge 
+10.2.5.1.  Q Understood proper management and operation of processes, systems and 
+equipment.  Correctly identified and located process inputs, outputs, procedures and 
+systems, explained and interpreted their functions, capabilities and limitations.  Effectively 
+demonstrated knowledge of processes, procedures, systems, roles and responsibilities.  
+Demonstrated knowledge of task-related internal and external agencies, and threats to task 
+accomplishment.  Maintained security, safety and JFACC intent throughout process. 
+ 
+ 
+56 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+10.2.5.2.  Q- Performance included errors, omissions, or delays that did not jeopardize task 
+accomplishment, security, safety, or JFACC intent.  Demonstrated limited knowledge.  
+Stated correct process status, but could not determine its effect on related processes. 
+10.2.5.3.  U Failed to demonstrate necessary knowledge, either related to mission 
+processes or external agencies and/or divisions, required by position. Errors or omissions 
+could have jeopardized security, task accomplishment, safety, or JFACC intent. 
+10.2.6.  AREA 36: Task Prioritization 
+10.2.6.1.  Q Correctly identified, prioritized and managed tasks based on existing and new 
+information that assured mission success. Used available resources to manage workload, 
+communicated task priorities to other crew members. Asked for assistance when 
+appropriate. Displayed sound knowledge of systems. Effectively identified contingencies 
+and alternatives. Gathered and crosschecked available data before acting. Clearly stated 
+decisions and ensured they were understood. Investigated doubts and concerns of other 
+flight members when necessary. 
+10.2.6.2.  Q- Made minor errors in prioritization or management of tasks which did not 
+affect safe or effective mission accomplishment. Did not completely communicate task 
+priorities to other flight members. Made minor errors in identifying contingencies, 
+gathering data, or communicating a decision which did not affect safety or effective 
+mission accomplishment. 
+10.2.6.3.  U Incorrectly prioritized or managed tasks. Incorrectly prioritized or managed 
+tasks that seriously degraded mission accomplishment or safety. Failed to communicate 
+task priorities to other crew members. Failed to ask for assistance when overloaded. 
+Improperly or ineffectively identified contingencies, gathered data, or communicated a 
+decision that seriously degraded mission accomplishment or safety. 
+10.2.7.  AREA 50: Forms/Reports/Logs 
+10.2.7.1.  Q All logs, reports, databases and forms required were completed in accordance 
+with applicable directives, tasking and policy.  Information was provided in sufficient 
+detail to allow accurate and timely analysis of associated data. 
+10.2.7.2.  Q- As above but with minor deviations, omissions or errors which did not 
+significantly impact the product quality or users of the information. 
+10.2.7.3.  U Major deviations, omissions or errors which significantly impacted the product 
+quality or users of the information.  Communications caused confusion or delay.  Logs, 
+reports, databases or forms contained errors or omissions precluding analysis of data or 
+usefulness to other team members/AOC teams. 
+10.2.8.  AREA 51: Publications 
+10.2.8.1.  Q Possessed or could readily access current information and any required 
+publications.  Publications and information are current and properly posted according to 
+directives. 
+10.2.8.2.  Q- Possessed or could readily access current information and any required 
+publications.  Any errors in publication and/or information currency did not jeopardize task 
+accomplishment, security, safety, or JFACC intent. 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+57 
+10.2.8.3.  U Failed to possess or unable to access required information and publications.  
+Publications and/or information are not current, or posted with major or unrecognized 
+omissions, deviations, and/or errors, which jeopardized task accomplishment, security, 
+safety, and/or JFACC intent. 
+10.2.9.  AREA 83: Tactical/Mission Execution 
+10.2.9.1.  Q Correctly analyzed appropriate information and/or inputs and disseminated 
+appropriate information and/or outputs to other crewmembers and outside agencies, based 
+on applicable priorities. Made accurate decisions based on available information that 
+enabled success. 
+10.2.9.2.  Q- Performance included errors, omissions or delays that did not jeopardize task 
+accomplishment, security, safety, or JFACC intent. Demonstrated limited knowledge. 
+Slow to correlate intelligence and operations inputs. 
+10.2.9.3.  U Failed to make accurate decisions and/or disseminated inaccurate information 
+or outputs to other crewmembers. Errors and/or omissions jeopardized task 
+accomplishment, security, safety, and/or JFACC intent. 
+10.2.10.  AREA 85: Battle Management/Tactical Communications 
+10.2.10.1.  Q Correctly interpreted and relayed tasking to supported assets and/or other 
+AOC crewmembers in accordance with directives, and prescribed format. Analyzed the 
+operational and tactical situation. Provided timely and accurate response to supported 
+assets and/or crewmembers.  Reported applicable updates, Rules of Engagement (ROE) 
+changes, threats and/or friendly locations in a timely manner. 
+10.2.10.2.  Q- Performance included errors, omissions or delays that did not jeopardize task 
+accomplishment, security, safety, or JFACC intent. Demonstrated limited knowledge. 
+10.2.10.3.  U Performance included errors, omissions, and/or delays that could have 
+jeopardized task accomplishment, security, safety, or JFACC intent. 
+10.2.11.  AREA 93: Doctrine/Special Instructions (SPINS)/Rules Of Engagement (ROE) 
+10.2.11.1.  Q Implemented required MAJCOM and NAF documents for peacetime, 
+transition, and wartime conditions. Understood and ensured crewmembers comprehend 
+and comply with all theater Doctrine, SPINS, and ROE policies and procedures. Responded 
+to situations according to directives. 
+10.2.11.2.  Q- Performance included errors, omissions or delays that did not jeopardize task 
+accomplishment, security, safety, or JFACC intent. Demonstrated limited knowledge. 
+10.2.11.3.  U Performance included errors, omissions, and/or delays that could have 
+jeopardized task accomplishment, security, safety, or JFACC intent. 
+10.2.12.  AREA 97: Weapon system Utilization 
+10.2.12.1.  Q Effectively manipulated associated systems to accomplish tasks.  Effectively 
+interpreted, initiated, and modified data and/or inputs as required.  Displayed thorough 
+knowledge of appropriate system actions to accomplish required procedures.  Recognized 
+malfunctions and/or errors and took proper corrective action. 
+58 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+10.2.12.2.  Q- Performance included errors, omissions, or delays that did not jeopardize 
+task accomplishment, security, safety, or JFACC intent. Demonstrated limited knowledge.  
+Slow to recognize or uncertain of malfunction and/or error indications or proper corrective 
+action. 
+10.2.12.3.  U Performance included errors, omissions, and/or delays that could have 
+jeopardized task accomplishment, security, safety, or JFACC intent. 
+10.2.13.  AREA 117: Command and Control Utilization 
+10.2.13.1.  Q Coordinated with other agencies engaged in air operations and provided 
+required direction and information in accordance with directives. 
+10.2.13.2.  Q- Coordinated and/or performed actions in accordance with directives. 
+Committed errors or omissions that did not adversely affect task accomplishment, security, 
+safety, or JFACC intent. 
+10.2.13.3.  U Failed to coordinate and/or perform actions in accordance with directives. 
+Committed errors or omissions that could have jeopardized task accomplishment, security, 
+safety, or JFACC intent. 
+10.2.14.  AREA 133: Airspace Coordination 
+10.2.14.1.  Q Coordinated and/or performed actions in accordance with directives. 
+10.2.14.2.  Q- Coordinated and/or performed actions in accordance with directives. 
+Committed errors or omissions that did not adversely affect task accomplishment, security, 
+safety, or JFACC intent. 
+10.2.14.3.  U Failed to coordinate and/or perform actions in accordance with directives. 
+Committed errors or omissions that could have jeopardized task accomplishment, security, 
+safety, or JFACC intent. 
+10.2.15.  AREA 297: Target/Threat Knowledge 
+10.2.15.1.  Q Correctly analyzed specific threats applicable to task at hand or the phase of 
+the tasking or targeting cycle, and planned, directed, and/or applied appropriate measures 
+to counter the threats. 
+10.2.15.2.  Q- Analyzed specific threats applicable to task at hand or the phase of the 
+tasking or targeting cycle, and planned, directed, and/or applied measures to counter the 
+threats.  Committed errors, made omissions or was slow to recognize changing threats 
+which might degrade or delay task accomplishment, but not jeopardize task 
+accomplishment, security, safety, or JFACC intent. 
+10.2.15.3.  U Performance included errors, omissions, and/or delays that could have 
+jeopardized task accomplishment, security, safety, or JFACC intent. 
+10.2.16.  AREA 744: COMSEC (Communications Security)/OPSEC (Operations Security) 
+10.2.16.1.  Q Used proper COMSEC and OPSEC procedures. Demonstrated knowledge of 
+authenticators and authentication procedures (as applicable). Maintained positive control 
+of OPSEC and COMSEC materials. When required, performed inventory of COMSEC and 
+OPSEC materials. 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+59 
+10.2.16.2.  Q- Performance included errors, omissions, or delays that did not jeopardize 
+security or safety. Demonstrated limited knowledge. No security deviations or 
+compromises occurred. 
+10.2.16.3.  U Errors or omissions could have jeopardized security or safety and/or caused 
+security deviations or compromises. 
+10.2.17.  AREA 940: Personnel Recover (PR) Operational Event 
+10.2.17.1.  Q Executed the assigned mission in a timely, efficient manner.  Provided 
+guidance to the crew on employment of resources and mission specific documents, 
+procedures and tasking. Monitored and directed Personnel Recovery and/or Combat Search 
+and Rescue efforts as tasked. 
+10.2.17.2.  Q- Committed errors or omissions that did not adversely affect task 
+accomplishment, security, safety, or JFACC intent. 
+10.2.17.3.  U Committed errors or omissions that jeopardized task accomplishment, 
+security, safety, or JFACC intent. 
+10.2.18.  AREA 942: PR Planning/Knowledge/Tactics 
+10.2.18.1.  Q Correctly analyzed all available data, information, and/or intelligence from 
+tactical, operational, and strategic sources to include military, information, diplomatic, and 
+economic sources, as required.  Knowledgeable about theater threats, tactics and 
+techniques that could adversely affect PR efforts. 
+10.2.18.2.  Q- Committed errors or omissions that did not jeopardize task accomplishment, 
+security, safety, or JFACC intent. 
+10.2.18.3.  U Committed errors or omissions that jeopardized task accomplishment, 
+security, safety, or JFACC intent. 
+10.2.19.  AREA 978: AOC Theater Battle Management Core System (TBMCS) and other tools 
+10.2.19.1.  Q Controlled, configured, verified and monitored the operational status of the 
+TBMCS and other tools.  Coordinated with the crew to configure or use as required. 
+10.2.19.2.  Q- Committed errors or omissions that did not jeopardize task accomplishment, 
+security, safety, or JFACC intent. 
+10.2.19.3.  U Committed errors or omissions that jeopardized task accomplishment, 
+security, safety, or JFACC intent. 
+10.2.20.  AREA 979: AOC Mission Systems and Interfaces 
+10.2.20.1.  Q Performed and/or coordinated all applicable system activities.  Managed 
+personal database and system configuration to meet mission needs.  Recommended system 
+configuration changes to crew and/or division as appropriate.  Configured system and 
+database as required.  Coordinated on computer problems and workarounds as required.  
+Explained systems and subsystems usages and parts as required. 
+10.2.20.2.  Q- Committed errors or omissions that did not adversely affect task 
+accomplishment, security, safety, or JFACC intent. 
+60 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+10.2.20.3.  U Committed errors or omissions that jeopardized task accomplishment, 
+security, safety, or JFACC intent. 
+10.2.21.  AREA 1115: Airspace Planning/Execution 
+10.2.21.1.  Q Coordinate and verified airspace restrictions and limitations were passed and 
+complied with in accordance with applicable directives. 
+10.2.21.2.  Q- Conducted airspace coordination with errors or omissions that did not 
+jeopardize task accomplishment, security, safety, or JFACC intent. 
+10.2.21.3.  U Conducted airspace coordination with errors or omissions that jeopardized 
+task accomplishment, security, safety, or JFACC intent. 
+10.3.  INSTRUCTOR AREAS: 
+10.3.1.  AREA 33: Instructor Performance or Demonstrated Performance: 
+10.3.1.1.  Q Effectively demonstrated procedures and techniques. Demonstrated thorough 
+knowledge of AOC systems, procedures, and all applicable publications and regulations. 
+10.3.1.2.  Q- Minor discrepancies in the above criteria that did not adversely impact student 
+progress. 
+10.3.1.3.  U Did not demonstrate correct procedure or technique. Insufficient depth of 
+knowledge about aircraft systems, procedures, or proper source material. Adversely 
+impacted student progress. 
+10.3.2.  AREA 47: Instructor Briefing/Debriefing 
+10.3.2.1.  Q Briefings were well organized, accurate, and thorough. Reviewed student’s 
+present level of training and defined mission events to be performed. Demonstrated ability 
+during critique to reconstruct the mission, offer mission analysis, and provide corrective 
+guidance where appropriate. Completed all training documents according to prescribed 
+directives. Appropriate grades awarded. 
+10.3.2.2.  Q- As above but with minor errors or omissions in briefings, critique, or training 
+documents that did not adversely impact student progress. 
+10.3.2.3.  U Briefings were marginal or nonexistent. Did not review student’s training 
+folder or past performance. Failed to adequately critique student or conducted an 
+incomplete mission analysis which compromised learning. Student strengths or 
+weaknesses were not identified. Adversely impacted student progress. Inappropriate grades 
+awarded. Overlooked or omitted major discrepancies. 
+10.3.3.  AREA 55: Instructor Knowledge 
+10.3.3.1.  Q Demonstrated ability to communicate instruction effectively. Provided 
+appropriate corrective guidance when necessary. Planned ahead and made timely 
+decisions. Correctly analyzed student errors. 
+10.3.3.2.  Q- Minor discrepancies in the above criteria that did not adversely impact student 
+progress. 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+61 
+10.3.3.3.  U Unable to effectively instruct and/or communicate with the student. Did not 
+provide corrective action where necessary. Did not plan ahead or anticipate student 
+problems. Incorrectly analyzed student errors. Adversely impacted student progress 
+ 
+MARK D. KELLY, Lt Gen, USAF 
+Deputy Chief of Staff, Operations 
+62 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+Privacy Act (5 U.S.C.§ 552a) 
+AFPD 13-1, Command and Control Enterprise (C2 Enterprise), 6 August 2012 
+AFPD 10-9, Lead Command Designation and Responsibilities for Weapon Systems, 8 March 
+2007 
+AFMAN 33-363, Management of Records, 1 March 2008 
+AFI 33-360, Publications and Forms Management, 9 April 2015 
+AFI 17-202 Volume 2, Cybercrew Standardization and Evaluation Program, 2 July 2015 
+AFI 17-2ACD Volume 2, Air Force Cyberspace Defense (ACD) Standardization and 
+Evaluation, 27 April 2017 
+AFI 36-2651, Air Force Training Program, 3 January 2019 
+AFI 90-201, The Air Force Inspection System, 21 April 2015 
+AFI 13-1AOC, Volume 1, Ground Environment Training-Air Operations Center (AOC), 29 July 
+2019 
+AFI 11-215, USAF Flight Manuals Program (FMP), 25 March 2019 
+AFI 13-1AOC Volume 3, Operational Procedures-Air Operations Center (AOC), 18 May 2012 
+AFTTP 3-3, Air Force Tactics, Techniques, and Procedures 3-3.AOC, 15 March 2018 
+AFTTP 3-1, Air Force Tactics, Techniques, and Procedures 3-1.Shot Kill, 29 November 2018 
+AFTTP 3-1, Air Force Tactics, Techniques, and Procedures 3-1.Threat Guide, 30 October 2017 
+AFI 33-364, Records Disposition – Procedures and Responsibilities, 20 November 2018 
+TO 00-5-1, AF Technical Order System, 1 October 2014 
+Prescribed Forms 
+None 
+Adopted Forms 
+AF Form 847, Recommendation for Change of Publication 
+AF Form 679, Air Force Publication Compliance Item Waiver Request/Approval 
+AF Form 8, Certificate of Aircrew Qualification (Multiple Aircraft) 
+AF Form 4350, Certificate of Intelligence Qualification 
+AF Form 942, Record of Evaluation 
+AF Form 4349, Record of Intelligence Evaluation 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+63 
+AF IMT 3862, Flight Evaluation Worksheet 
+Other career-field specific forms for recording qualifications 
+Abbreviations and Acronyms 
+A3—Director of Operations 
+ACC—Air Combat Command 
+ACC/A3CO—Air Combat Command, Air Operations Center/Air Force Forces Branch 
+ACC/A3TV—Air Combat Command, STAN/EVAL Branch 
+AF/A3T—Air Force, Training and Readiness Directorate 
+AF/A3TY—Air Force, Command and Control, Integrated Air and Missile Defense, and Multi-
+Domain Command and Control Division 
+AFI—Air Force Instruction 
+AFMAN—Air Force Manual 
+AFPD—Air Force Policy Directive 
+AFRC—Air Force Reserve Command 
+AFSOC—Air Force Special Operations Command 
+AFSOC/OC—Air Force Special Operations Command, Operations Center 
+AFSPC A2/3/6T—Air Force Space Command, Training Weapons and Tactics Division 
+AFTTP—Air Force Tactics Techniques and Procedures 
+AMC—Air Mobility Command 
+AMC/A3C—Air Mobility Command, Command and Control/Expeditionary Operations 
+AMD—Air Mobility Division 
+ANG—Air National Guard  
+AOC—Air Operations Center 
+AOC/OC—Air Operations Center/Operations Center 
+AOC/CC—Air Operations Center/Commander 
+AOCV—Air Operations Center Stan/Eval 
+AOC/CV—Air Operations Center Vice Commander 
+ARC—Air Reserve Component 
+BMC—Basic Mission Capable 
+BQ—Basic Qualification 
+C2—Command and Control 
+CIF—Crew Information File 
+64 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+CMR—Combat Mission Ready 
+COD—Combat Operations Division 
+COMSEC—Communication Security 
+CPD—Combat Plans Division 
+CT—Continuation Training 
+CTR—Contractor 
+DO—Director of Operations 
+DOC—Designed Operational Capability 
+EQ—Exceptionally Qualified 
+EF—Evaluation Folder 
+HAF—Headquarters Air Force 
+HHQ—Higher Headquarters 
+IG—Inspector General 
+INIT—Initial 
+INSTR—Instructor 
+IRD—Intelligence Surveillance and Reconnaissance Division 
+IQT—Initial Qualification Training 
+JFACC—Joint Forces Air Component Commander 
+MAJCOM—Major Command 
+MAJCOM/IG—Major Command Inspector General 
+MDS—Mission Design Series 
+MFR—Memorandum for Record 
+MICT—Management Internal Control Toolset 
+MQF—Master Question File 
+MQT—Mission Qualification Training 
+MSN—Mission 
+N/A—Non-Applicable 
+NAF—Numbered Air Force 
+NAF/CV—Numbered Air Force Vice Commander 
+NBMC—Non-Basic Mission Capable 
+NCMR—Non-Combat Mission Ready 
+N/N—No-Notice 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+65 
+OC—Operations Center 
+OCR—Office of Collateral Responsibility 
+OPR—Office of Primary Responsibility 
+OPSEC—Operations Security 
+PCS—Permanent Change of Station 
+PEX—Patriot Excalibur 
+PR—Personnel Recovery 
+QUAL—Qualification 
+Q—Qualified 
+RegAF—Regular Air Force 
+ROE—Rules of Engagement 
+RQ—Requalification 
+SAC—Self-Assessment Communicator 
+SAV—Staff Assistance Visit 
+SEB—Standardization/Evaluation Board 
+SELO—Standardization/Evaluation Liaison Officer 
+SII—Special Interest Item 
+SIM—Simulator 
+SPINS—Special Instructions 
+SPOT—Spot Evaluation 
+SQB—Secure Question Bank 
+SRD—Strategy Division 
+STAN/EVAL—Standardization/Evaluation 
+TBMCS—Theater Battle Management Core System 
+TDY—Temporary Duty 
+TO—Technical Order 
+UEI—Unit Effectiveness Inspection 
+Terms 
+Additional Training—Any training recommended by an examiner to remedy deficiencies 
+identified during an evaluation that must be completed by the due date.  Document completion on 
+AF Form 8 as appropriate.  The Chief of Training, with the concurrence of the Director of 
+Operations, determines training requirements to correct deficiencies identified by STAN/EVAL. 
+66 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+Attached Personnel—This includes anyone not assigned to the unit but maintaining qualification 
+through that unit.  MAJCOM, NAF, and Group personnel are examples of attached personnel. 
+Basic Qualified (BQ)—The qualification of an individual who has successfully completed 
+IQT but is not qualified to perform combat crew duties within the unit.  Individuals in this 
+status may perform non—combat missions without supervision. 
+Certification—Procedure used to document competency in a particular task.  Not interchangeable 
+with “qualification” which requires AF Form 8 or AF Form 4350 documentation.  It is also the 
+designation of an individual by the unit commander or division chief as having completed required 
+training and being capable of performing a specific duty.  Certification programs are outlined in 
+AFI 13-1 AOC Vol. 1. 
+Combat Mission Ready (CMR)—The status of individuals who successfully complete IQT and 
+MQT, pass a mission qualification, comply with Continuation Training (CT) requirements, and 
+are assigned to a unit with a primary combat mission. 
+Continuation Training (CT)—Academic and positional training required to maintain CMR 
+qualification. 
+Debriefed Discrepancy—Remedial action taken by an examiner to remedy a discrepancy noted 
+during an evaluation.  This action is accomplished during debrief of the evaluation wherein the 
+examiner provides briefing and/or instruction concerning the discrepancy and determines that the 
+examinee has gained the necessary knowledge or proficiency to remedy said discrepancy.  The 
+discrepancy area description is annotated with “Debriefed” in the Examiner’s Remarks section of 
+the AF Form 8 Comments. 
+Division—One of the five core AOC divisions, Intelligence, Surveillance, and Reconnaissance 
+Division (IRD), Strategy Division (SRD), Combat Plans Division (CPD) Combat Operations 
+Division (COD), and Air Mobility Division (AMD). 
+Eligibility Period—This is the 6-month period prior to expiration date of an evaluation during 
+which all written and positional requirements for the recurring QUAL/MSN must be completed. 
+Evaluation—1) The procedure to determine the effectiveness of the performance of an 
+instructional product or process in order to ascertain specific causes for the effectiveness or lack 
+of it, and to make decisions appropriate to the extent of the effectiveness.  Evaluation of formal 
+courses includes field evaluation and internal evaluation.  2) The review and analysis of qualitative 
+or quantitative data obtained from design review, hardware inspection, testing or operational use 
+of equipment.  3) The positional and written examinations used to determine proficiency as 
+prescribed by AFMAN and any applicable supplements.  See also Joint Pub 1-02, Department of 
+Defense Dictionary of Military and Associated Terms. 
+Evaluation Folder (EF)—A two-part folder containing the source documents that constitute the 
+history of C2 qualifications of each crew member. 
+INSTR Evaluation—A means of assessing a crewmember’s ability to instruct other crewmembers 
+in operations, academics and positional duties. This evaluation initially establishes or reestablishes 
+instructor qualification of the examinee in a weapon system (i.e., INIT INSTR and RQ INSTR) as 
+directed in this instruction. 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+67 
+Instructor—For the purpose of this document, the use of the word instructor is synonymous with 
+the use of the word trainer in the AFI 13-1AOC Volume 1. An experienced crewmember qualified 
+and certified to instruct other individuals in operations academics and positional duties. 
+Lead Command—Lead command designation establishes advocacy for weapon systems during 
+their life cycle and clarifies responsibilities for all using and supporting organizations.  The 
+designated lead command provides a primary input into the process of developing and maintaining 
+a force structure with a balance of complementary capabilities.  For this weapon system, ACC is 
+the lead command. 
+Local Procedures Master Question—File—A bank of questions to cover unit and local 
+operations knowledge and procedures. 
+Master Question File (MQF)—A general knowledge question bank. 
+Mission Qualification Evaluation (MSN)—Qualifies a crewmember to perform assigned crew 
+position duties in accomplishing the unit’s operational or DOC statement mission.  This evaluation 
+is given after MQT and during Recurring Evaluation (QUAL/MSN) to determine an individual’s 
+CMR status.  Requires AF Form 8 documentation. 
+No—Notice Evaluation (N/N)—An evaluation where the examinee is notified of the evaluation 
+at or after the beginning of normal preparation for the mission.  These evaluations may be complete 
+qualification evaluations, a written examination only, or a positional evaluation covering only 
+selected areas. 
+Non—Combat Mission Ready/Non-Basic Mission Capable (NCMR/NBMC)—This is the 
+status of an individual who does not meet training cycle CT requirements, fails to meet lookback 
+requirements, or at unit commander or division chief direction.  An instructor must supervise these 
+individuals. 
+Objectivity Evaluation—An evaluation to unit examiners to determine their ability to perform 
+examiner duties.  Use SPOT as the type of evaluation under Aircrew Evaluation on the AF Form 
+8. 
+Positional Evaluation—This is the portion of an evaluation specific to position duties, actions, 
+and responsibilities. 
+Qualification Evaluation (QUAL)—Qualifies a crewmember to perform the duties of a particular 
+Division or crew position in the AOC.  Conduct this written and/or positional evaluation to check 
+an individual’s proficiency in performing operations duties or to let an examinee demonstrate to 
+the examiner the academic knowledge and ability to do assigned crewmember functions safely and 
+effectively.  Requires AF Form 8 documentation. 
+Requalification (RQ) Evaluation—This is an evaluation required to regain an individual’s CMR 
+status after going unqualified.  Requires AF Form 8 documentation. 
+Requisites.—Requirements such as exams, positional, etc., which are accomplished before an 
+evaluation is considered complete. 
+ 
+ 
+68 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+SPOT Evaluation—An evaluation other than one used to satisfy the requirements of a periodic, 
+initial instructor or requalification instructor evaluation.  An evaluation to ensure correction of 
+identified discrepancies or to check an individual's proficiency.  A SPOT evaluation is normally 
+limited in scope.  These evaluations may be either N/N or with prior coordination.  Requires AF 
+Form 8 documentation. 
+STAN/EVAL Board (SEB)—A forum convened to review, resolve, and report the status of 
+STAN/EVAL programs. 
+STAN/EVAL Examiner (SEE)—An operations crewmember that is designated by the unit 
+commander to perform evaluation duties as specified by this AFMAN. If delegated the Division 
+Chief can also designate operations crewmembers to perform evaluation duties as specified by this 
+AFMAN. 
+Standardization/Evaluation Liaison Officer (SELO)—An individual (officer or enlisted) tasked 
+to perform group and/or unit STAN/EVAL administrative duties. 
+Supervised Status—The status of a crewmember who must conduct operations duties under the 
+supervision of either a instructor or a designated supervisor qualified in that division. 
+Time Periods—The following definitions are provided for interpretation of timing requirements 
+specified in this AFMAN: 
+Day.  Unless otherwise specified, "day" means calendar days.  
+Month.  The term "month" means calendar months, not 30-day periods.  
+Unit—For the purposes of this AFMAN, a unit is defined as an AOC, OC, or Air Reserve 
+Component organization aligned with an AOC/OC.  It also refers to any operations section that is 
+required to establish its own STAN/EVAL program. 
+ 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+69 
+Attachment 2 
+STAN/EVAL BOARD MINUTES 
+A2.1.  The information in Figure A2.1 is a sample  : Of the minimum information a Board 
+should address. 
+Figure A2.1.  Sample Board Minutes Memorandum. 
+ 
+ 
+MEMORANDUM FOR (SEE DISTRIBUTION) 
+ 
+FROM: (UNIT’S COMPLETE ADDRESS) SUBJECT:  STAN/EVAL BOARD MINUTES 
+ 
+1. Personnel Attending: (name and organization) 
+ 
+2. Overview: 
+a. Manning. (Enter any Stan/Eval manning problems discussed or deviations from 
+authorized manning. Record all current flight examiners including attached MAJCOM, 
+NAF, and/or attached squadron examiners.) Include any Group/CC, designated additional 
+Stan/Eval examiners. 
+ 
+b. Summary. 
+(1) 
+Evaluations. Report evaluations by crew position and type of evaluation 
+(QUAL and MSN). Include SPOT, N/N, and evaluations, when applicable. Show 
+qualification levels, sub- levels and rates (Rate = # given divided by total given). 
+ 
+(a) 
+Q-1s 
+ 
+(b) 
+Q-2s 
+ 
+(c) 
+Q-3s 
+ 
+(d) 
+Total evaluations for each crew position 
+(2) 
+Examinations. Report examination results by crew position and type of 
+examination (open book, closed book). 
+ 
+(3) 
+Waivers and Extensions. Identify all waivers and extensions granted to extend 
+the period of qualification, preclude re-accomplishment of requisites, extend 
+additional training periods, and extend periods to re-accomplish examinations. 
+ 
+(4) 
+Trends. Identify new, continuing, and resolved trends. Where necessary, 
+report corrective action as OPEN/CLOSED, the OPR(s) and any suspense date. 
+ 
+70 
+AFMAN13-1AOCV2  18 FEBRUARY 2020 
+(5) 
+Report progress toward achievement of no-notice requirements, if applicable. 
+ 
+c. 
+Required Stan/Eval Program Inspections and Reviews (if applicable). 
+ 
+d. 
+Crew Publications Program.  Review open AF Form 847s. 
+ 
+e. 
+Supplementary Evaluation.  Report results of evaluations conducted. 
+ 
+3. Old Business. Enter the disposition of any items left open at the last SEB meeting. If final 
+action was taken on an item during the quarter, state the action taken and then close the item 
+if the SEB Chairman approves closure. If an item remains open, list the action taken since the 
+last SEB.  Findings from Stan/Eval visits will be addressed and covered until they are closed 
+out. 
+ 
+4. New Business. Enter all new business discussed during the SEB. The new business items 
+are those included on the published agenda along with any unplanned items discussed. 
+ 
+5. Other:  This is an optional paragraph that can be used as necessary. 
+ 
+6. Problems Requiring MAJCOM or NAF Assistance: Enter problems that, based on SEB 
+resolution, require MAJCOM or NAF assistance. The assistance may be in any form (for 
+example, staff assistance visit requests, clarification of directives, change of directives, and 
+so forth). 
+ 
+ 
+ 
+ 
+                                                                                        (SIGNATURE BLOCK) 
+Attachments: 
+SEB Agenda 
+Examiner Roster Reviewed As Required 
+ 
+ 
+ 
+ 

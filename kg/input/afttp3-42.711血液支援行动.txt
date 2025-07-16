@@ -1,0 +1,1428 @@
+BY ORDER OF THE  
+SECRETARY OF THE AIR FORCE 
+ 
+AIR FORCE TACTICS, TECHNIQUES 
+AND PROCEDURES 3-42.711 
+18 SEPTEMBER 2023 
+Tactical Doctrine 
+BLOOD SUPPORT OPERATIONS 
+THIS PUBLICATION IS NON-DIRECTIVE 
+ 
+ACCESSIBILITY:  Publications and forms are available on the e-Publishing website at 
+www.e-Publishing.af.mil for downloading or ordering. 
+RELEASABILITY:  There are no releasability restrictions on this publication. 
+ 
+ 
+OPR: ACC/SGX 
+Certified by: AFMRA/CC  
+(Brig Gen Thomas Harrell)
+Supersedes: 
+AFTTP 3-42.711, 19 April 2013 
+Pages: 31 
+ 
+ 
+The Air Force Tactics, Techniques, and Procedures (AFTTP) 3-42 series of publications is the 
+primary reference for expeditionary medical support capability. AFTTP 3-42.711 provides the 
+tactics, techniques, and procedures for the Blood Donor Center (BDC), Armed Services Whole 
+Blood Processing Laboratories (ASWBPLs), Expeditionary Blood Transshipment Center (EBTC), 
+Expeditionary Blood Support Center (EBSC), and Expeditionary Frozen Blood Product Team. The 
+doctrine in this document is authoritative but not directive. This publication applies to all civilian 
+employees and uniformed members of the Regular Air Force, the Air Force Reserve, and the Air 
+National Guard (ANG). This publication does not apply to the United States Space Force. Refer 
+recommended changes and questions about this publication to the Office of Primary Responsibility 
+(OPR) using Department of the Air Force (DAF) Form 847, Recommendation for Change of 
+Publication. Route DAF 847 through the appropriate functional chain of command and parent 
+major command. Ensure all records generated as a result of processes prescribed in this publication 
+adhere to Air Force Instruction (AFI) 33-322, Records Management and Information Governance 
+Program, and are disposed of in accordance with the Air Force Records Disposition Schedule, 
+which is located in the Air Force Records Information Management System. The use of the name 
+or mark of any specific manufacturer, commercial product, commodity, or service in this 
+publication does not imply endorsement by the Air Force. 
+SUMMARY OF CHANGES 
+This document has been revised and should be completely reviewed.  Key changes include updated 
+background information on the use of blood components in combat casualty trauma care based on 
+2 
+AFTTP3-42.711  18 SEPTEMBER 2023 
+current Food and Drug Administration (FDA) and clinical practice guidelines; addition of low titer 
+O whole blood (LTOWB) as an available blood component; revised throughput and processing 
+capabilities of the EBTC, EBSC, and Frozen Blood Product Team based on revisions to their 
+allowance standards; updated information on the blood management system used in deployed 
+environments; and revised guidance on blood UTC training programs. 
+ 
+Chapter 1—INTRODUCTION 
+ 
+5 
+1.1. 
+Purpose.....................................................................................................................  
+5 
+1.2. 
+Background. .............................................................................................................  
+5 
+Chapter 2—BLOOD SUPPORT CAPABILITIES AND FORCE PACKAGING 
+ 
+6 
+2.1. 
+Blood Donor Center (BDC). ....................................................................................  
+6 
+2.2. 
+Armed Services Whole Blood Processing Laboratory (ASWBPL). ........................  
+6 
+2.3. 
+Expeditionary Blood Transshipment Center (EBTC). .............................................  
+6 
+Table 2.1. 
+EBTC Module 1 Composition. ................................................................................  
+7 
+Table 2.2. 
+EBTC Module 2 Composition. ................................................................................  
+7 
+Table 2.3. 
+EBTC Module 3 Composition. ................................................................................  
+7 
+2.4. 
+Expeditionary Blood Support Center (EBSC). ........................................................  
+8 
+Table 2.4. 
+EBSC Composition. .................................................................................................  
+8 
+2.5. 
+FFBD1, Expeditionary Frozen Blood Product Team...............................................  
+9 
+Table 2.5. 
+Frozen Blood Product Team Composition. .............................................................  
+9 
+Chapter 3—OPERATIONS 
+ 
+10 
+3.1. 
+UTC Posturing. ........................................................................................................  
+10 
+3.2. 
+Deployment Planning. .............................................................................................  
+10 
+3.3. 
+Pre-Deployment Preparations. .................................................................................  
+10 
+3.4. 
+Preparation of Equipment and Cargo. ......................................................................  
+10 
+3.5. 
+BDC Operations. ......................................................................................................  
+10 
+3.6. 
+ASWBPL Operations. ..............................................................................................  
+11 
+3.7. 
+EBTC Operations. ....................................................................................................  
+11 
+3.8. 
+EBSC Operations. ....................................................................................................  
+12 
+3.9. 
+Frozen Blood Product Team Employment. .............................................................  
+13 
+3.10. 
+Quality Assurance Procedures. ................................................................................  
+13 
+3.11. 
+Operational Reports and Records. ...........................................................................  
+13 
+Chapter 4—COMMAND AND CONTROL RELATIONSHIPS 
+ 
+14 
+4.1. 
+Command and Control of Expeditionary Ground Medical Teams. .........................  
+14 
+AFTTP3-42.711  18 SEPTEMBER 2023 
+3 
+4.2. 
+Joint and Multinational Operations. .........................................................................  
+14 
+4.3. 
+Air Combat Command Surgeon (ACC/SG) Responsibility. ...................................  
+14 
+4.4. 
+UTC Team Chiefs. ...................................................................................................  
+14 
+4.5. 
+Theater Blood Reporting Requirements. .................................................................  
+15 
+Chapter 5—COMMUNICATIONS AND INFORMATION SYSTEMS 
+ 
+16 
+5.1. 
+Communications Requirements. ..............................................................................  
+16 
+5.2. 
+Computer Systems. ..................................................................................................  
+16 
+5.3. 
+Blood Management System. ....................................................................................  
+16 
+5.4. 
+Information Assurance Policy. .................................................................................  
+16 
+Chapter 6—INTEGRATION AND INTEROPERABILITY 
+ 
+17 
+6.1. 
+Integration and Interoperability with Other Systems. ..............................................  
+17 
+6.2. 
+Expeditionary Combat Support/Base Operating Support (ECS/BOS) 
+Requirements. ..........................................................................................................  
+17 
+6.3. 
+Medical Facility Integration. ....................................................................................  
+17 
+Chapter 7—SECURITY AND FORCE PROTECTION 
+ 
+18 
+7.1. 
+Security Roles and Responsibilities. ........................................................................  
+18 
+7.2. 
+Physical Security. .....................................................................................................  
+18 
+7.3. 
+Operations Security. .................................................................................................  
+18 
+7.4. 
+Security of Weapons and Ammunition. ...................................................................  
+18 
+Chapter 8—TRAINING 
+ 
+19 
+8.1. 
+Medical Readiness Training Requirements. ............................................................  
+19 
+8.2. 
+EBTC and Frozen Blood Product Team Training. ..................................................  
+19 
+8.3. 
+EBSC Training. ........................................................................................................  
+19 
+8.4. 
+UTC Sustainment Training. .....................................................................................  
+19 
+8.5. 
+Recommended Team and Skills-Related Training. .................................................  
+19 
+8.6. 
+Vehicle Operation Training. ....................................................................................  
+20 
+8.7. 
+Weapons Training. ...................................................................................................  
+20 
+8.8. 
+Communications and Information Systems Training. .............................................  
+20 
+Chapter 9—LOGISTICS 
+ 
+21 
+9.1. 
+Expeditionary Medical Logistics (EML) System. ...................................................  
+21 
+9.2. 
+Supplies and Equipment. .........................................................................................  
+21 
+Table 9.1. 
+Blood Support Equipment Allowance Standards. ....................................................  
+21 
+4 
+AFTTP3-42.711  18 SEPTEMBER 2023 
+9.3. 
+Blood Labels and Standard Forms. ..........................................................................  
+22 
+9.4. 
+Reagent Special Handling Requirements. ................................................................  
+22 
+9.5. 
+Medical Equipment Maintenance and Repair. .........................................................  
+22 
+9.6. 
+Equipment Upgrades and Modernization. ...............................................................  
+22 
+Attachment 1—GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+23 
+Attachment 2—EXPEDITIONARY COMBAT SUPPORT REQUIREMENTS 
+ 
+27 
+Attachment 3—EBTC SHELTER LAYOUT 
+ 
+30 
+Attachment 4—EBSC SHELTER LAYOUT 
+ 
+31 
+ 
+AFTTP3-42.711  18 SEPTEMBER 2023 
+5 
+Chapter 1 
+INTRODUCTION 
+1.1.  Purpose.  This publication provides general operational and planning guidance for Air Force 
+expeditionary medical blood support capabilities to include the Blood Donor Center (BDC), 
+Armed Services Whole Blood Processing Laboratories (ASWBPLs), Expeditionary Blood 
+Transshipment Center (EBTC), Expeditionary Blood Support Center (EBSC), and the Frozen 
+Blood Product Team.  It can be used as a source document for developing standardized policies, 
+operating procedures, training programs, and allowance standards.  Operation plans and regional 
+guidance provide mission-specific details that amplify and tailor the guidance contained in this 
+publication. 
+1.2.  Background.  Blood component therapy is the recognized standard of medical care in the 
+continental United States (CONUS) and Department of Defense (DOD) medical treatment 
+facilities.  It plays a significant role in combat-casualty trauma care.  The availability of blood 
+components at deployed medical facilities depends on several factors, including the CONUS blood 
+supply, logistical support (such as blood transshipment and air frame availability), and the 
+component utilization rate. 
+1.2.1.  Blood components supplied through CONUS collections are Food and Drug 
+Administration (FDA)-approved, licensed blood products, which may include packed red 
+blood cells (pRBCs), fresh frozen plasma (FFP), plasma frozen within 24 hours of phlebotomy 
+(PF24), liquid plasma, cryoprecipitate (CRYO), and low titer O whole blood (LTOWB).  Blood 
+components collected in a theater or area of operation are not FDA-approved blood products 
+and are used only for emergency, life-saving resuscitations.  These include fresh whole blood 
+(FWB) and cold stored apheresis platelets (APLTs).  The collection, storage, and use of non-
+FDA approved blood components is in accordance with Joint Trauma System Clinical Practice 
+Guideline (CPG), Whole Blood Transfusion (CPG ID: 21). 
+1.2.2.  Red blood cells are frozen at designated DOD sites in CONUS in a cryoprotective agent 
+(typically glycerol) to be stockpiled for use in forward deployed settings to support the full 
+range of military operations.  Frozen red blood cells (FRBCs) can be stored for 10 years from 
+the time of collection.  These frozen units must be thawed and deglycerolized before 
+transfusion.  Deglycerolization is the process used to remove the residual glycerol 
+concentration from the FRBC unit to a level of less than 1 percent and replace it with isotonic 
+solution (saline) before the blood is transfused.  The shelf-life for deglycerolized blood is 14 
+days, post thaw. 
+6 
+AFTTP3-42.711  18 SEPTEMBER 2023 
+Chapter 2 
+BLOOD SUPPORT CAPABILITIES AND FORCE PACKAGING 
+2.1.  Blood Donor Center (BDC).  BDCs collect, manufacture, store, and ship pRBCs, FFP, 
+PF24, CRYO, LTOWB, and FRBCs.  BDCs are fixed CONUS facilities co-located with a medical 
+treatment facility.  Their primary mission is to collect blood products to support combatant 
+command wartime blood needs, DOD blood requirements outside the continental United States 
+(OCONUS), CONUS contingencies, and to supplement DOD blood inventory at CONUS medical 
+centers. 
+2.2.  Armed Services Whole Blood Processing Laboratory (ASWBPL).  The ASWBPLs serve 
+as the central receiving and shipment points in CONUS for blood shipments from the BDCs.  The 
+ASWBPLs accept, inspect, and store blood and blood products from the BDCs and ship them to 
+the EBTCs, Army Medical Detachments, Blood Support (MDBS), and other blood-related 
+contingency operations.  There are two ASWBPLs (one on each coast) to facilitate global blood 
+shipments:  ASWBPL-East at Joint Base McGuire-Dix-Lakehurst, New Jersey, and ASWBPL-
+West at Travis Air Base, California.  The ASWPBLs are staffed with tri-service medical laboratory 
+technicians and an Air Force officer in accordance with TM 8-227-11/NAVMED P-5123/AFI 44-
+118, Operational Procedures for the Armed Services Blood Program Elements (referenced 
+hereafter as AFI 44-118).  These positions are service-managed, special-duty assignments and are 
+not covered by a unit type code (UTC).  In the event of a contingency where quota requirements 
+exceed 1,500 units per week, additional manpower might be required from the services or an EBTC 
+module can be employed. 
+2.2.1.  ASWBPL-West is the Air Force’s centralized freezing and deglycerolization center for 
+FRBCs.  It can accept pRBCs for manufacture (glycerolization) into FRBCs for storage or 
+shipment and thaw and deglycerolize FRBCs for redistribution.  It can store and process up to 
+1,000 pRBCs or LTOWB, 1,000 FFP/PF24, 500 CRYO, and 500 FRBCs per week.  It can 
+store an additional 1,000 FFP/PF24 and 2,000 FRBCs in reserve for contingencies.  ASWBPL-
+West is equipped with freezers and refrigerators with 24-hour temperature monitoring and 
+remote alarms and sufficient storage capacity for up to 6,500 units of frozen products and 2,000 
+units of refrigerated products.  Re-icing operations allow production and storage of 2,400 
+pounds of wet ice every 24 hours for shipment of refrigerated products. 
+2.2.2.  ASWBPL-East can process up to 1,000 pRBCs or LTOWB, 1,000 FFP/PF24, 500 
+CRYO, and 500 FRBCs per week.  ASWBPL-East is equipped with freezers and refrigerators 
+with 24-hour temperature monitoring and remote alarms and sufficient storage capacity for up 
+to 20,000 units of frozen products and 9,000 units of refrigerated products.  Re-icing operations 
+allow production and storage of 2,400 pounds of wet ice every 24 hours for shipment of 
+refrigerated products. 
+2.3.  Expeditionary Blood Transshipment Center (EBTC).  The EBTC serves as the central 
+receiving and shipment point in an operation area for shipments from the AWBPLs.  They are 
+normally located at major airfields with one or more EBTCs located in a theater or area of 
+responsibility.  EBTC personnel packages are modular and can be scaled to the size of the 
+operation to increase throughput capability and support 24-hour operations.  These teams can also 
+be used to support other blood movement components such as an ASWBPL. 
+AFTTP3-42.711  18 SEPTEMBER 2023 
+7 
+2.3.1.  FFBP1, EBTC Module 1, provides the initial personnel for EBTC operations.  The team 
+is responsible for receiving, inventory management, re-icing, holding, and distribution of liquid 
+and frozen blood products, including pRBCs, FFP, CRYO, PF24, and FRBCs.  The team can 
+process up to 1,000 units of liquid and frozen blood products per week.  Team members are 
+responsible for setting up and maintaining EBTC equipment.  Table 2.1 lists the personnel 
+details. 
+Table 2.1.  EBTC Module 1 Composition. 
+Title 
+AFSC 
+SEI 
+Grade 
+Quantity 
+Biomedical Laboratory Officer 
+043T3A 
+ 
+04 
+1 
+Medical Materiel Craftsman 
+4A171 
+ 
+ 
+1 
+Medical Laboratory Craftsman 
+4T071 
+ 
+ 
+1 
+Medical Laboratory Journeyman 
+4T051 
+ 
+ 
+1 
+Total Personnel 
+ 
+ 
+ 
+4 
+Note:  Air Force Specialty Code (AFSC), grade, and skill-level substitutions are in accordance 
+with the War and Mobilization Plan, Volume 1 (WMP-1), Enclosure F, Air Force Medical 
+Service (AFMS) Supplement, and AFI 10-403, Deployment Planning and Execution, unless 
+specified otherwise in the mission capability statement. 
+2.3.2.  FFBP2, EBTC Module 2, provides laboratory support personnel to increase throughput 
+at an EBTC.  The team can process 1,000 units of liquid and frozen blood products per week.  
+The team typically supports EBTC Module 1.  An EBTC with Modules 1 and 2 can process 
+up to 2,000 units of liquid and frozen blood products per week.  Table 2.2 lists the personnel 
+details. 
+Table 2.2.  EBTC Module 2 Composition. 
+Title 
+AFSC 
+SEI 
+Grade 
+Quantity 
+Medical Laboratory Craftsman 
+4T071 
+ 
+ 
+1 
+Medical Laboratory Journeyman 
+4T051 
+ 
+ 
+1 
+Total Personnel 
+ 
+ 
+ 
+2 
+Note:  Air Force Specialty Code (AFSC), grade, and skill-level substitutions are in accordance 
+with the War and Mobilization Plan, Volume 1 (WMP-1), Enclosure F, Air Force Medical 
+Service (AFMS) Supplement, and AFI 10-403, Deployment Planning and Execution, unless 
+specified otherwise in the mission capability statement. 
+2.3.3.  FFBP3, EBTC Module 3, provides laboratory and logistics support personnel to 
+increase throughput at an EBTC.  The team can process 1,000 units of liquid and frozen blood 
+products per week.  The team typically supports EBTC Modules 1 and 2.  An EBTC with 
+Modules 1-3 can process up to 3,000 units of liquid and frozen blood products per week.  Table 
+2.3 lists the personnel details. 
+Table 2.3.  EBTC Module 3 Composition. 
+Title 
+AFSC 
+SEI 
+Grade 
+Quantity 
+Medical Materiel Journeyman 
+4A151 
+ 
+ 
+1 
+Medical Laboratory Journeyman 
+4T051 
+ 
+ 
+2 
+Total Personnel 
+ 
+ 
+ 
+3 
+8 
+AFTTP3-42.711  18 SEPTEMBER 2023 
+Title 
+AFSC 
+SEI 
+Grade 
+Quantity 
+Note:  Air Force Specialty Code (AFSC), grade, and skill-level substitutions are in accordance 
+with the War and Mobilization Plan, Volume 1 (WMP-1), Enclosure F, Air Force Medical 
+Service (AFMS) Supplement, and AFI 10-403, Deployment Planning and Execution, unless 
+specified otherwise in the mission capability statement. 
+2.3.4.  FFBE1, EBTC Equipment, provides equipment and supplies for EBTC operations.  This 
+package supports the EBTC personnel modules (FFBP1-3).  It includes the following 
+equipment: 
+2.3.4.1.  Freezers with 24-hour temperature monitoring and alarms and storage capacity for 
+up to 2,000 units of frozen products 
+2.3.4.2.  Refrigerators with 24-hour temperature monitoring and alarms and storage 
+capacity for up to 1,000 pRBCs 
+2.3.4.3.  Ice machine capable of producing and storing 2,400 pounds of wet ice every 24 
+hours for re-icing pRBCs (Note:  Dry ice for shipment of frozen products is obtained on a 
+contract basis.) 
+2.3.4.4.  Workplace shelter with environmental controls 
+2.4.  Expeditionary Blood Support Center (EBSC).  The EBSC is a deployable laboratory team 
+that provides advanced capabilities in the collection and preparation of blood components to 
+expand blood support capabilities in theater and improve transfusion treatment outcomes.  EBSCs 
+collect and prepare blood components for transfusion to support emergency trauma situations.  
+EBSCs are not standalone and should be co-located with a Role 3 or greater medical treatment 
+facility.  EBSC staff rely on the medical facility for basic hematology, chemistry analysis, and 
+microbiology support. 
+2.4.1.  FFLBB, EBSC Team, provides medical laboratory personnel to collect cold stored 
+blood platelets through apheresis and FWB at a deployed medical treatment facility.  The team 
+can collect a maximum of 10 cold stored platelet units or 50 units of FWB within a 12-hour 
+duty day.  Table 2.4 lists the personnel details. 
+Table 2.4.  EBSC Composition. 
+Title 
+AFSC 
+SEI 
+Grade 
+Quantity 
+Biomedical Laboratory Officer – Blood 
+Bank 
+043T3E 
+ 
+ 
+1 
+Medical Laboratory Craftsman 
+4T071 
+ 
+ 
+2 
+Medical Laboratory Journeyman 
+4T051 
+ 
+ 
+3 
+Total Personnel 
+ 
+ 
+ 
+6 
+Note:  Air Force Specialty Code (AFSC), grade, and skill-level substitutions are in accordance 
+with the War and Mobilization Plan, Volume 1 (WMP-1), Enclosure F, Air Force Medical 
+Service (AFMS) Supplement, and AFI 10-403, Deployment Planning and Execution, unless 
+specified otherwise in the mission capability statement. 
+2.4.2.  FFLB1, EBSC Equipment, provides equipment and supplies to support EBSC 
+operations.  This package supports the EBSC team (FFLBB).  It includes the following 
+equipment: 
+AFTTP3-42.711  18 SEPTEMBER 2023 
+9 
+2.4.2.1.  Refrigerator with 24-hour temperature monitoring and alarms with sufficient 
+capacity to store 30 cold stored platelets. 
+2.4.2.2.  Apheresis kits (approximately 250) and whole blood bags (approximately 200) 
+2.4.2.3.  Workspace shelter with environmental controls 
+2.5.  FFBD1, Expeditionary Frozen Blood Product Team.  The Frozen Blood Product Team 
+provides support and sustainment to in-place frozen blood sites.  The team is responsible for 
+receiving, thawing, washing, deglycerolizing, re-icing, managing, and distributing pre-positioned 
+frozen blood stocks.  When liquid red blood cells are unavailable or fall below minimum advisable 
+inventory levels, the team deglycerolizes FRBCs stockpiled for mass casualty situations to remove 
+the cryoprotectant.  The team can deglycerolize up to 18 units of FRBCs per 12-hour shift.  This 
+average is based on one unit per hour with two machines operating.  (Note:  The first two units 
+take approximately 1.5 hours to process due to the initial thaw cycle.)  Once prepared, these 
+products are viable up to 14 days and provide the initial liquid blood units needed to sustain the 
+medical facility until the blood distribution pipeline is fully operational.  The frozen blood product 
+allowance standard (AS 893F) provides the team’s equipment and supplies.  Table 2.5 lists the 
+personnel composition. 
+Table 2.5.  Frozen Blood Product Team Composition. 
+Title 
+AFSC 
+SEI 
+Grade 
+Quantity 
+Health Service Management Journeyman 
+4A051 
+ 
+ 
+2 
+Medical Materiel Journeyman 
+4A151 
+ 
+ 
+1 
+Medical Laboratory Craftsman 
+4T071 
+ 
+ 
+1 
+Medical Laboratory Journeyman 
+4T051 
+ 
+ 
+3 
+Total Personnel 
+ 
+ 
+ 
+7 
+Note:  Air Force Specialty Code (AFSC), grade, and skill-level substitutions are in accordance 
+with the War and Mobilization Plan, Volume 1 (WMP-1), Enclosure F, Air Force Medical 
+Service (AFMS) Supplement, and AFI 10-403, Deployment Planning and Execution, unless 
+specified otherwise in the mission capability statement. 
+10 
+AFTTP3-42.711  18 SEPTEMBER 2023 
+Chapter 3 
+OPERATIONS 
+3.1.  UTC Posturing.  Deployable blood support UTCs are postured against units in the Unit Type 
+Code Availability database and Medical Resource Letter.  Blood support equipment and 
+infrastructure UTCs may be pre-positioned in theater based on requirements from the combatant 
+commander and the Commander, Air Force Forces (COMAFFOR). 
+3.2.  Deployment Planning.  Planners consider many factors, such as operational environment, 
+pre-positioned materiel, host nation support agreements, contingency contracts, and acquisition 
+cross-service agreements, in planning deployments and tailoring unit-level personnel and 
+equipment requirements.  Time-phased force deployment data is built by the air component and 
+flowed through the major commands to the wing plans and operations centers for action.  Blood 
+support capabilities, to include shipment, receipt, and distribution of blood products, should be 
+included in deliberate planning and operation plans. 
+3.3.  Pre-Deployment Preparations.  Team members should work closely with the medical 
+readiness office, emergency management, and theater medical personnel to prepare for 
+deployment.  They should review operation plans, reporting instructions, threat and vulnerability 
+assessments, intelligence reports, and other pertinent deployment data and follow the pre-
+deployment requirements in AFI 10-403 and AFI 41-106, Air Force Medical Readiness Program. 
+3.4.  Preparation of Equipment and Cargo.  UTC team chiefs should assess the deployability of 
+assigned equipment UTCs with medical logistics personnel and identify shortfalls.  Deploying 
+team chiefs should ensure an adequate number of personnel are qualified in pallet build-up and 
+cargo handling procedures (to include hazardous, protected, and classified cargo) during 
+deployment and redeployment in accordance with AFI 10-403. 
+3.4.1.  Hazardous cargo is subject to Defense Transportation Regulation (DTR) 4500.9-R Part 
+III, Mobility, Air Force Manual (AFMAN) 24-604, Preparing Hazardous Materials for 
+Military Air Shipments, and host nation requirements. 
+3.4.2.  Protected cargo includes controlled substances, items vulnerable to theft, and weapons 
+and ammunition.  A controlled medical item custodian should witness and verify the packaging 
+of medically controlled items.  At the deployed location, controlled items should be stored in 
+locked rooms or containers and managed in accordance with AFMAN 41-209, Medical 
+Logistics Support.  Units are responsible for assigning primary and alternate weapons and 
+ammunition couriers to ensure security and accountability during transit in accordance with 
+Department of the Air Force Instruction (DAFI) 31-101, Integrated Defense, and Department 
+of the Air Force Manual (DAFMAN) 21-201, Munitions Management. 
+3.4.3.  Classified material should be packaged, marked, safeguarded, and transported in 
+accordance with DAFI 24-602, Volume 2, Cargo Movement.  Units are responsible for 
+assigning appropriately cleared and trained couriers to accompany classified material. 
+3.5.  BDC Operations.  BDCs provide blood and blood products in support of contingency 
+operations.  They ship the required quota of blood and blood components to the ASWBPLs on a 
+weekly basis.  The weekly blood quota is set by the Air Force Blood Program Office (AFBPO) in 
+coordination with the Armed Services Blood Program Division (ASBPD), Combatant Command 
+Joint Blood Program Office (JBPO), and Area Joint Blood Program Office (AJBPO).  BDCs 
+AFTTP3-42.711  18 SEPTEMBER 2023 
+11 
+follow the blood storage and shipping requirements specified in AFI 44-118.  BDC operational 
+tasks include the following. 
+3.5.1.  Schedule and conduct blood drives to maximize the military donor base available to the 
+Armed Services Blood Program. 
+3.5.2.  Screen donors in accordance with the donor criteria specified in AFMAN 41-111, 
+Standard for Blood Banks and Transfusion Services, FDA guidance, and supplemental 
+guidance from the ASBPD. 
+3.5.3.  Process blood donations and coordinate serologic testing in accordance with current 
+regulatory agency guidelines. 
+3.5.4.  Store liquid red blood cells, FFP, and CRYO in accordance with current regulatory 
+agency guidelines.  Refrigerators and freezers used for storage have audible alarms, an 
+emergency power source, and a continuous temperature recording system. 
+3.5.5.  Distribute liquid red blood cells, FFP, PF24, and CRYO in accordance with current 
+regulatory agency guidelines. 
+3.5.6.  Maintain containers and a sufficient amount of cubed wet ice and absorbent materials 
+to ship liquid red blood cells and maintain proper temperatures for 48 hours. 
+3.5.7.  Maintain containers and a sufficient supply of pelletized dry ice to ship up to 15 units 
+of FFP and PF24 or 30 units of CRYO and maintain a frozen state and proper temperature for 
+48 hours. 
+3.6.  ASWBPL Operations.  The ASWBPLs provide intermediate storage and shipment of blood 
+products as designated by the ASBPD.  They are located near major military air terminals to 
+facilitate blood shipments worldwide and are operationally controlled by the AFBPO.  ASWBPL 
+operational tasks include the following: 
+3.6.1.  Maintain a contingency reserve of blood products and act as a central repository for 
+forward shipment of blood products to operational units. 
+3.6.2.  Test liquid red blood cells to confirm that ABO and Rh blood type are correct. 
+3.6.3.  Provide daily inventory reports and weekly compliance reports to the Air Force Blood 
+Program Office in accordance with AFI 44-105, The Air Force Blood Program. 
+3.7.  EBTC Operations.  EBTCs are normally located at strategic air hubs to facilitate receipt and 
+shipment of blood products.  EBTCs receive blood supplies from the ASWBPLs, blood product 
+depots, or other EBTCs.  They ensure proper rotation of blood components and real-time blood 
+inventory management.  They issue blood products to designated blood support detachments based 
+on daily allocations established by the JBPO or AJBPO and in response to emergency requests 
+from area blood support detachments. 
+3.7.1.  The EBTC equipment package includes a shelter system.  The EBTC shelter should 
+ideally be situated on a 100 by 100 square foot graded pad near the supported medical facility.  
+Team members are responsible for assembly and tear-down. 
+3.7.2.  The EBTC can reach initial operational capability within 8 hours of arrival at the 
+operational site and full operational capability within 12 hours.  These timelines assume 
+availability of expeditionary combat support/base operating support (ECS/BOS).  See Chapter 
+12 
+AFTTP3-42.711  18 SEPTEMBER 2023 
+6, INTEGRATION AND INTEROPERABILITY, for more information on ECS/BOS 
+requirements. 
+3.8.  EBSC Operations.  EBSCs provide specialized skills in the collection and preparation of 
+blood components for use in emergency trauma situations.  They typically deploy to Role 3 or 
+greater medical treatment facilities.  The EBSC equipment package includes a shelter system with 
+space for donor screening, blood collection, and processing.  The EBSC team is equipped with 
+hematology and pH analyzers to perform quality control measures on blood platelets and required 
+ABO/Rh testing of collected whole blood. 
+3.8.1.  The EBSC shelter should ideally be situated on a 100 by 100 square foot graded pad 
+near the supported medical facility.  Team members are responsible for assembly and tear-
+down. 
+3.8.2.  The EBSC can reach initial operational capability within 8 hours of arrival at the 
+operational site and full operational capability within 12 hours.  These timelines assume access 
+to the hospital’s lab and availability of ECS/BOS.  See Chapter 6, INTEGRATION AND 
+INTEROPERABILITY, for more information on ECS/BOS requirements. 
+3.8.3.  EBSC personnel screen all potential donors in accordance with theater guidelines for 
+blood donor collection.  To the maximum extent possible, blood collection testing and product 
+management comply with FDA, Association of the Advancement of Blood and Biotherapies 
+(AABB), and College of American Pathologists (CAP) regulations and standards. 
+3.8.4.  The EBSC equipment package provides apheresis instruments for the selective removal 
+of blood platelets from donated blood.  Before collection occurs, potential platelet donors are 
+first tested using the full panel of FDA-licensed donor infectious disease tests and must be 
+found negative for all tests.  Once donor prescreening is complete, EBSC personnel collect the 
+platelets following the equipment manufacturer’s protocol.  EBSC personnel perform quality 
+control measures (platelet count, pH, and culture) in the hospital’s lab to ensure product 
+quality. 
+3.8.5.  EBSC personnel perform whole blood collection when fresh, warm, whole blood is 
+required for emergency transfusions related to traumatic coagulopathy, in the absence of 
+component therapy, or when whole blood is deemed clinically necessary to save life or limb.  
+FWB is not FDA approved and is not intended for routine use.  The decision to use FWB is a 
+medical decision made by a physician with full knowledge of the clinical situation and 
+availability of compatible blood components.  (See CPG ID: 21, Whole Blood Transfusion, for 
+guidance.) 
+3.8.5.1.  EBSC personnel test the collected whole blood to confirm ABO/Rh and to 
+minimize the risk of transferring infection.  Once testing is complete, the labeled unit will 
+be issued for transfusion. 
+3.8.5.2.  Unused FWB can be retained for future use in accordance with the CPG and 
+locally established policy. 
+3.8.6.  The EBSC is not staffed to concurrently perform APLT and FWB collection.  Apheresis 
+collection is suspended during FWB blood collection. 
+AFTTP3-42.711  18 SEPTEMBER 2023 
+13 
+3.8.7.  EBSC personnel report the number, sources, and types of blood components collected 
+and tested, as well as potential mission implications, to the senior laboratory officer, attending 
+physician, and other appropriate agencies. 
+3.9.  Frozen Blood Product Team Employment.  The Frozen Blood Product Team provides 
+support and sustainment to in-place frozen blood sites.  The team is only assigned to units that 
+have the 893F allowance standard in place.  The team is able to reach full operational capability 
+upon arrival. 
+3.10.  Quality Assurance Procedures.  Quality measures should be in place to ensure blood 
+products remain viable.  Deployable blood support teams should develop operating instructions to 
+ensure compliance with AFI 44-118, JBPO/AJBPO, and local requirements.  Operating 
+instructions should cover the receipt, storage, inventory, and shipment of blood and blood products 
+and the collection and first release of platelets and whole blood. 
+3.11.  Operational Reports and Records.  Team chiefs submit required operational reports in 
+accordance with AFMAN 10-206, Operational Reporting (OPREP), and specific combatant 
+commander, joint force commander, and commander, Air Force forces requirements.  After-action 
+reports and lessons learned are submitted in accordance with AFI 10-204, Air Force Service 
+Exercise Program and Support to Joint and National Exercise Program, and AFI 10-1302, Air 
+Force Lessons Learned Program.  Records associated with blood support operations are 
+maintained and disposed of in accordance with AFI 33-322, Records Management and Information 
+Governance Program.  
+14 
+AFTTP3-42.711  18 SEPTEMBER 2023 
+Chapter 4 
+COMMAND AND CONTROL RELATIONSHIPS 
+4.1.  Command and Control of Expeditionary Ground Medical Teams.  Command and control 
+for expeditionary medical units is through line of the Air Force commanders.  Air Force elements 
+deployed into a theater are typically aligned under the command of the COMAFFOR.  
+Expeditionary medical teams normally operate under the local direction of the deployed 
+expeditionary unit commander.  Deploying personnel should receive a chain of command briefing 
+to ensure a clear understanding of the command structure. 
+4.1.1.  The ASWBPLs are operationally controlled by the AFBPO. 
+4.1.2.  The combatant command JBPO/AJBPO has operational control over the EBTC 
+mission. 
+4.1.3.  The BDC, EBSC, and Frozen Blood Product Team are typically under the operational 
+control of the commander of the medical treatment facility where they are assigned. 
+4.1.4.  During day-to-day operations, EBTC, EBSC, and Frozen Blood Product Team 
+personnel are typically organized under the biomedical laboratory function’s chain of 
+command. 
+4.2.  Joint and Multinational Operations.  Blood support units deployed to support joint, 
+multinational, or United Nations operations operate under the command structure established by 
+the air expeditionary task force or joint task force to which they are assigned.  Command and 
+control relationships vary depending on the assignment and are usually defined in the warning, 
+execution, operations, or task order. 
+4.3.  Air Combat Command Surgeon (ACC/SG) Responsibility.  ACC/SG is the Manpower 
+and Equipment Force Packaging (MEFPAK) Responsible Agency (MRA) for medical ground-
+based UTCs.  ACC/SG has overall responsibility for ground medical tactical doctrine, serves as 
+the medical consultant for ground medical UTC operations, and provides technical guidance and 
+planning. 
+4.4.  UTC Team Chiefs.  UTC team chiefs supervise daily operations and ensure that all assigned 
+personnel are thoroughly familiar with their responsibilities and adequately trained to perform their 
+missions.  The biomedical laboratory officer (043T3A) on FFBP1 is the EBTC team chief.  The 
+blood bank officer (043T3E) on FFLBB is the EBSC team chief.  The senior medical laboratory 
+technician (4T071) on FFBD1 is the Frozen Blood Product Team chief.  Each team chief is 
+responsible for the following duties: 
+4.4.1.  Ensure team members accomplish all required training. 
+4.4.2.  Directly supervise the team’s operations. 
+4.4.3.  Identify and communicate personnel and equipment shortfalls and other limiting factors 
+to the deployed medical commander. 
+4.4.4.  Secure ECS/BOS as needed. 
+4.4.5.  Prepare and submit operational reports to the supported command and the 
+JBPO/AJBPO. 
+AFTTP3-42.711  18 SEPTEMBER 2023 
+15 
+4.5.  Theater Blood Reporting Requirements.  The JBPO has standardized blood reporting 
+requirements to effectively manage blood and blood products, project blood requirements, request 
+blood, report blood inventories, and provide information on the overall blood element operations 
+of all the service components.  The JBPO determines the format, reporting frequency, and 
+transmission methods for these reports.  See Joint Publication (JP) 4-02, Health Service Support, 
+for more information and report samples. 
+16 
+AFTTP3-42.711  18 SEPTEMBER 2023 
+Chapter 5 
+COMMUNICATIONS AND INFORMATION SYSTEMS 
+5.1.  Communications Requirements.  The blood support teams deploy with DOD-approved 
+computer systems.  The teams are not equipped with the communications infrastructure needed for 
+independent operation and rely on host base communication units.  The teams require access to 
+the Defense Switched Network (DSN), secure voice communication, Non-classified Internet 
+Protocol Router Network (NIPRNET), and Secret Internet Protocol Router Network (SIPRNET) 
+for data collection, reporting, and reachback purposes.  See Attachment 2, EXPEDITIONARY 
+COMBAT SUPPORT REQUIREMENTS, for more information on communication 
+requirements. 
+5.2.  Computer Systems.  Computers issued to the deployable blood support teams include the 
+DOD Standard Desktop Configuration and Theater Medical Information Program (TMIP).  TMIP 
+is a suite of DOD standard medical information systems for theater health service support 
+operations.  It includes applications for medical command and control, health care delivery, patient 
+tracking, occupational and environmental health exposure tracking and surveillance, medical 
+logistics, and blood management.  TMIP applications are provided through the Joint Operational 
+Medical Information Systems (JOMIS) Program Management Office. 
+5.3.  Blood Management System.  The Theater Medical Data Store (TMDS) Blood Management 
+Module within TMIP is the DOD Military Health System approved application for blood supply 
+management.  The blood management module collects, processes, and tracks blood product 
+inventory, provides automated support for remote blood collection, and regulates blood product 
+safety transfusion practices. 
+5.3.1.  In deployed settings, the blood TMDS Blood Management Module links the EBTC, 
+EBSC, and Frozen Blood Product Team with the worldwide distribution network.  Team chiefs 
+should ensure operating instructions are in place that provide the procedures to follow when 
+access to this system is not available. 
+5.3.2.  Access to the TMDS Blood Management Module requires an active TMDS user 
+account.  Users should register for this account at least 30 days before deployment to ensure 
+sufficient time for account creation and validation.  For assistance, email the TMDS helpdesk 
+at dha.tmds-help@mail.mil or call 1-800-600-9332. 
+5.4.  Information Assurance Policy.  Blood support personnel should understand and follow 
+information assurance procedures, to include communications and computer security, in 
+accordance with AFI 17-130, Cybersecurity Program Management, DAFMAN 17-1301, 
+Computer Security (COMPUSEC), and associated Air Force information assurance guidance. 
+AFTTP3-42.711  18 SEPTEMBER 2023 
+17 
+Chapter 6 
+INTEGRATION AND INTEROPERABILITY 
+6.1.  Integration and Interoperability with Other Systems.  Deployed medical personnel in a 
+theater or area of operation may support elements of an air expeditionary force, components of the 
+en route continuum of care system, joint medical counterparts, Special Operations Forces medical 
+components, and other federal and civilian agencies.  In some instances, theater planners may 
+request medical support for bed-down locations not associated with a typical air expeditionary 
+force or ECS/BOS infrastructure. 
+6.2.  Expeditionary 
+Combat 
+Support/Base 
+Operating 
+Support 
+(ECS/BOS) 
+Requirements.  The EBTC and EBSC deploy with limited organic capability and require 
+ECS/BOS.  ECS/BOS requirements include (but are not limited to) civil engineering support for 
+shelter and equipment siting and setup, billeting, messing and other consumable materials, power, 
+water, ice, latrines, showers, laundry, waste management, exterior lighting, transportation, fuels, 
+vehicle maintenance, equipment maintenance, general supplies, contracting, information and 
+communications systems support, and security.  ECS/BOS services are provided through the host 
+base’s capabilities, deployable bare base systems, and contracted civilian support.  See 
+Attachment 2, EXPEDITIONARY COMBAT SUPPORT REQUIREMENTS, for quantified 
+estimates on required support. 
+6.2.1.  Blood product, hazardous waste, and biomedical waste disposal services are normally 
+obtained on a contract basis or as part of other base waste disposal services. 
+6.2.2.  Dry ice for shipping frozen blood products is obtained on a contract basis. 
+6.3.  Medical Facility Integration.  The EBTC, EBSC, and Frozen Blood Product Team are 
+designed to support the existing capabilities within a medical facility and are not stand-alone.  They 
+should be attached to fixed or field medical facilities that have biomedical laboratory capabilities 
+with basic hematology, chemistry analysis, and microbiology support.  The EBTC and EBSC 
+deploy with an initial 30 days of supplies, but for sustained deployments, they rely on the medical 
+facility’s logistics system for resupply.  See Chapter 9, LOGISTICS, for more information on 
+logistics support. 
+18 
+AFTTP3-42.711  18 SEPTEMBER 2023 
+Chapter 7 
+SECURITY AND FORCE PROTECTION 
+7.1.  Security Roles and Responsibilities.  Medical personnel and equipment are non-combatant 
+assets and have protected status under the Geneva Conventions and the broader Law of War.  
+Arming requirements for deploying ground medical personnel are mission and operating location 
+specific and are provided in reporting instructions and theater guidance.  Current threat 
+assessments provided by the combatant commander and local threat conditions established by the 
+joint task force, air expeditionary wing, or air expeditionary group commander dictate local 
+security measures.  Blood support personnel are responsible for following the personal protection 
+measures outlined in DAFI 31-101, area of responsibility security briefings, established force 
+protection requirements, and local guidance. 
+7.2.  Physical Security.  Security forces guard medical facilities only if deemed necessary as part 
+of the Integrated Defense Plan.  If the threat changes, security forces may appoint an augmented 
+detail to provide force protection and entry control (for example, a mass casualty event). 
+7.3.  Operations Security.  Blood support personnel are responsible for protecting mission-
+critical information (to include medical or casualty information) in accordance with theater policy 
+and AFI 10-701, Operations Security (OPSEC).  Classified information should be transmitted by 
+secure means and protected in accordance with Department of Defense Manual (DODM) 5200.01, 
+Volume 3_DAFMAN 16-1404, Volume 3, Information Security Program:  Protection of 
+Classified Information.  Situation reports, medical surveillance, site locations, and compiled 
+patient data are examples of information that may be classified and require protection. 
+7.4.  Security of Weapons and Ammunition.  Weapons and ammunition should be secured in 
+accordance with DAFI 31-101 and local procedures.  Normally, base security forces provide 
+weapons handling guidance and an armory.  If access to an armory is not available, blood support 
+personnel are responsible for the safe storage of weapons and ammunition until the armory or 
+donor’s unit can assume responsibility. 
+AFTTP3-42.711  18 SEPTEMBER 2023 
+19 
+Chapter 8 
+TRAINING 
+8.1.  Medical Readiness Training Requirements.  Personnel assigned to the blood support UTCs 
+must complete the Comprehensive Medical Readiness Program (CMRP) training requirements 
+specified in AFI 41-106 and the CMRP Category III Training Guide.  Additional training that 
+might be required to meet operational or theater specific requirements is identified in deployment 
+reporting instructions or tasking line remarks. 
+8.2.  EBTC and Frozen Blood Product Team Training.  The formal training courses for EBTC 
+(FFBP1-3) and Frozen Blood Product Team (FFBD1) members are conducted at ASWBPL-West, 
+Travis Air Force Base.  Members should complete this training upon initial assignment to the UTC 
+and every two years to maintain consistency. 
+8.2.1.  The FFBP1-3 course covers all aspects of EBTC responsibilities to include blood 
+shipment, receipt, storage, inventory management, theater blood reporting, and pallet building. 
+8.2.2.  The FFBD1 course covers all aspects of the team’s capabilities to include blood thawing 
+and deglycerolization, blood product storage, labeling, and inventory management. 
+8.3.  EBSC Training.  EBSC training is conducted at the Armed Services Blood Bank Center – 
+San Antonio (ASBBC-SA) at Joint Base San Antonio-Lackland, TX.  Training includes all aspects 
+of EBSC responsibilities to include apheresis and whole blood collection, blood product storage, 
+labeling, and inventory management.  Team members should complete this training when tasked 
+to deploy on the FFLBB UTC in accordance with line remarks. 
+8.4.  UTC Sustainment Training.  UTC sustainment training occurs between formal course 
+attendance cycles to maintain the skills and knowledge the team needs to fulfill its mission 
+essential tasks.  UTC sustainment training credit may be granted for participation in mission 
+essential task-driven exercises, operational readiness exercises, local exercises, and joint exercises.  
+Contact the ACC Exercise and Training Branch for information on approved sustainment training 
+exercises. 
+8.5.  Recommended Team and Skills-Related Training.  Personnel assigned to a blood support 
+UTC should have a broad theoretical and operational understanding of the blood support mission 
+and their core mission essential tasks.  Before deployment, the team should receive refresher 
+training at an Air Force-designated training center.  Team integrity should be maintained to the 
+extent possible.  Training topics include (but are not limited to) the following areas: 
+8.5.1.  Apheresis collection, whole blood collection, and FRBC deglycerolization 
+8.5.2.  Technical, operational, troubleshooting, maintenance, assembly and reassembly of 
+collection and deglycerolization equipment 
+8.5.3.  Allogeneic donor selection and blood collection 
+8.5.4.  Blood receipt (product-specific temperature, appearance, and condition requirements) 
+8.5.5.  Blood product re-icing procedures 
+8.5.6.  Quality control 
+20 
+AFTTP3-42.711  18 SEPTEMBER 2023 
+8.5.7.  Computer-based training on proper blood shipments, the TMDS Blood Management 
+Module, and expeditionary medical logistics support capabilities and processes as needed 
+8.5.8.  Current AFBPO, ASBPD, JPBO, and AJBPO training materials, policies, and 
+procedures 
+8.5.9.  Acquisition, preparation, review, and submission of required documentation, reports, 
+and forms (for example, Department of Defense [DD] Form 1502, Frozen Medical Materiel 
+Shipment; DD Form 1502-1, Chilled Medical Materiel Shipment; DD Form 573, Shipping 
+Inventory of Blood Products; blood inventory reports) 
+8.6.  Vehicle Operation Training.  Operators of government motor vehicles and material 
+handling equipment must have a government driver’s license and appropriate certification in 
+accordance with AFI 24-301, Ground Transportation. 
+8.7.  Weapons Training.  Blood support personnel follow the weapons qualification training 
+requirements outlined in AFI 36-2654, Combat Arms Program, and DAFMAN 36-2655, USAF 
+Small Arms and Light Weapons Qualification Programs, for Arming Group C.  Theater combatant 
+commands may impose additional or more stringent requirements, which are generally specified 
+in the operation’s execution order or reporting instructions.  See the AFMS Arming Requirements 
+document (also known as the Weapons and Munitions Forecasting Table) for weapons 
+authorizations for the blood support UTCs.  This document is available on the ACC/SG MEFPAK 
+Playbook (https://usaf.dps.mil/sites/12173/SitePages/Playbooks.aspx) or by request from the 
+ACC Ground Medical UTC Management Branch. 
+8.8.  Communications and Information Systems Training.  EBTC and EBSC personnel should 
+be trained in the proper use of the communications and information systems included in their 
+equipment packages. 
+AFTTP3-42.711  18 SEPTEMBER 2023 
+21 
+Chapter 9 
+LOGISTICS 
+9.1.  Expeditionary Medical Logistics (EML) System.  The EML system provides global 
+support and sustainment to air expeditionary force medical forces across the full spectrum of 
+operations.  The EML system uses a pull process for resupply and a repair-and-return process for 
+medical equipment maintenance to minimize inventory and airlift requirements.  Each combatant 
+command has a supporting Theater Lead Agent for Medical Materiel (TLAMM).  The TLAMM 
+serves as a major theater medical distribution node and becomes the deployed unit’s primary point 
+of contact for materiel and equipment support in theater.  For early phase operations and 
+emergency situations in which a TLAMM is not able to provide support, the Air Force Forces 
+Surgeon (AFFOR/SG) staff in coordination with the Air Force Medical Logistics Operations 
+Center (AFMLOC) usually designate a sustaining base to provide reachback support.  Upon 
+notification of activation, the UTC team chief or logistics lead should contact the AFMLOC for 
+guidance on the appropriate theater supply chain and points of contact.  See Department of the Air 
+Force Tactics, Techniques, and Procedures (DAFTTP) 3-42.8, Expeditionary Medical Logistics 
+(EML) System, for more information on medical logistics support capabilities, infrastructure, and 
+supply chain management. 
+9.2.  Supplies and Equipment.  Most expeditionary medical equipment based in the continental 
+United States is managed and deployed through designated consolidated storage and deployment 
+centers (CSDCs).  Equipment UTCs may also be pre-positioned in theater based on requirements 
+from the combatant commander and the COMAFFOR.  UTC team chiefs should be aware of the 
+contents of their equipment packages before deployment and should contact their medical logistics 
+office for assistance with reviewing their allowance standards.  At the deployed location, UTC 
+team chiefs coordinate subsequent resupply through their medical logistics function.  Table 9.1 
+lists the allowance standard for each blood support equipment package. 
+Table 9.1.  Blood Support Equipment Allowance Standards. 
+UTC 
+Description 
+Allowance Standard 
+FFBE1 
+Medical Expeditionary Blood 
+Transshipment Equipment 
+(Supports FFBP1-3) 
+893J 
+FFLB1 
+Medical Expeditionary Blood Support 
+Center Equipment 
+(Supports FFLBB) 
+893C 
+FZNBP 
+Medical Expeditionary Frozen Blood 
+Program Equipment 
+(Supports FFBD1) 
+893F 
+9.2.1.  The EBTC, EBSC, and Frozen Blood Product Team equipment packages contain 
+commonly used medical equipment and enough consumable supplies for 30-day operation.  
+Consumable items are, to the extent possible, standard DOD inventory items. 
+9.2.2.  The EBSC and Frozen Blood Product Team equipment packages also contain specially 
+developed medical equipment regulated by the FDA for screening donors, deglycerolizing 
+FRBCs, and collecting platelets and whole blood. 
+22 
+AFTTP3-42.711  18 SEPTEMBER 2023 
+9.2.3.  None of the blood support equipment packages contain blood products.  The EBTC and 
+Frozen Blood Product Team require initial and ongoing blood product supplies to maintain 
+capability. 
+9.3.  Blood Labels and Standard Forms.  The blood support equipment packages do not include 
+the forms needed for shipping and storing blood products.  Team chiefs hand-carry all required 
+forms to the deployment location.  Team chiefs should contact the combatant command JBPO to 
+coordinate the establishment of an International Council for Commonality in Blood Banking 
+Automation (ICCBBA) account to obtain blood labels. 
+9.4.  Reagent Special Handling Requirements.  The Frozen Blood Product Team and EBSC 
+team chiefs should coordinate with the blood support detachment or EBTC on the shipment and 
+packing of reagents that have special handling requirements (such as frozen storage).  The UTC 
+team chiefs should ensure sufficient volume and reagent types are available and should contact the 
+designated reagent repository once mission needs are determined. 
+9.5.  Medical Equipment Maintenance and Repair.  Biomedical equipment technicians at the 
+deployed medical facility provide routine maintenance and repair of the blood support medical 
+equipment.  Equipment repairs and calibrations that cannot be done on site may be provided by an 
+Air Force Medical Equipment Repair Center (MERC). 
+9.6.  Equipment Upgrades and Modernization.  Changes to the blood support assemblages may 
+result from technology advances and lessons learned feedback.  MRAs typically budget and plan 
+for major equipment reviews every five years. 
+ 
+ROBERT I. MILLER, Lieutenant General, 
+ USAF, MC 
+Surgeon General 
+AFTTP3-42.711  18 SEPTEMBER 2023 
+23 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+AFI 10-403, Deployment Planning and Execution, 17 April 2020 
+AFI 10-701, Operations Security (OPSEC), 24 July 2019 
+AFI 10-1302, Air Force Lessons Learned Program, 30 July 2019 
+AFI 17-130, Cybersecurity Program Management, 13 February 2020 
+AFI 24-301, Ground Transportation, 22 October 2019 
+AFI 33-322, Records Management and Information Governance Program, 23 March 2020 
+AFI 36-2654, Combat Arms Program, 16 April 2020 
+AFI 41-106, Air Force Medical Readiness Program, 29 July 2020 
+AFI 44-105, The Air Force Blood Program, 10 January 2019 
+AFMAN 10-206, Operational Reporting (OPREP), 18 June 2018 
+AFMAN 24-604, Preparing Hazardous Materials for Military Air Shipments, 09 October 2020 
+AFMAN 41-111, Standards for Blood Banks and Transfusion Services, 01 July 2016 
+AFMAN 41-209, Medical Logistics Support, 04 January 2019 
+DAFI 24-602V2, Cargo Movement, 12 June 2019 
+DAFI 31-101, Integrated Defense, 25 March 2020 
+DAFMAN 17-1301, Computer Security (COMPUSEC), 12 February 2020 
+DAFMAN 21-201, Munitions Management, 03 May 2022 
+DAFMAN 36-2655, USAF Small Arms and Light Weapons Qualification Programs, 17 April 
+2020 
+DAFTTP 3-42.8, Expeditionary Medical Logistics (EML) System, 15 June 2021 
+Defense Transportation Regulation (DTR) 4500.9-R Part III, Mobility, 
+DODM 5200.01V3_DAFMAN 16-1404V3, Information Security Program:  Protection of 
+Classified Information, 12 April 2022 
+Joint Trauma System Clinical Practice Guideline, Whole Blood Transfusion (CPG ID: 21), 15 
+May 2018 
+JP 4-02, Health Service Support, 28 September 2018 
+TM 8-227-11/NAVMED P-5123/AFI 44-118, Operational Procedures for the Armed Services 
+Blood Program Elements, 1 September 2007 
+War and Mobilization Plan, Volume I, (WMP-1), Enclosure F, Air Force Medical Service 
+(AFMS) Supplement, July 2019 
+24 
+AFTTP3-42.711  18 SEPTEMBER 2023 
+Adopted Forms 
+DAF Form 847, Recommendation for Change of Publication 
+DD Form 573, Shipping Inventory of Blood Products 
+DD Form 1502, Frozen Medical Materiel Shipment 
+DD Form 1502-1, Chilled Medical Materiel Shipment 
+Abbreviations and Acronyms 
+AABB—Advancement of Blood and Biotherapies 
+ACC—Air Combat Command 
+AFBPO—Air Force Blood Program Office 
+AFFOR—Air Force Forces 
+AFI—Air Force Instruction 
+AFMAN—Air Force Manual 
+AFMLOC—Air Force Medical Logistics Operations Center 
+AFMS—Air Force Medical Service 
+AFSC—Air Force Specialty Code 
+AFTTP—Air Force Tactics, Techniques, and Procedures 
+AJBPO—Area Joint Blood Program Office 
+ANG—Air National Guard 
+APLT—Apheresis Platelet 
+ASBBC-SA—Armed Services Blood Bank Center – San Antonio 
+ASBPD—Armed Services Blood Program Division 
+ASWBPL—Armed Services Whole Blood Processing Laboratory 
+BDC—Blood Donor Center 
+BOS—Base Operating Support 
+CAP—College of American Pathologists 
+CMRP—Comprehensive Medical Readiness Program 
+COMAFFOR—Commander, Air Force Forces 
+COMPUSEC—Computer Security 
+CONUS—Continental United States 
+CPG—Clinical Practice Guideline 
+CRYO—Cryoprecipitate 
+CSDC—Consolidated Storage and Deployment Center 
+AFTTP3-42.711  18 SEPTEMBER 2023 
+25 
+DAF—Department of the Air Force (form) 
+DAFI—Department of the Air Force Instruction 
+DAFMAN—Department of the Air Force Manual 
+DAFTTP—Department of the Air Force Tactics, Techniques, and Procedures 
+DD—Department of Defense (form) 
+DOD—Department of Defense 
+DODM—Department of Defense Manual 
+DSN—Defense Switched Network 
+DTR—Defense Transportation Regulation 
+EBSC—Expeditionary Blood Support Center 
+EBTC—Expeditionary Blood Transshipment Center 
+ECS—Expeditionary Combat Support 
+ECU—Environmental Control Unit 
+EML—Expeditionary Medical Logistics 
+FDA—Food and Drug Administration 
+FFP—Fresh Frozen Plasma 
+FRBC—Frozen Red Blood Cell 
+FWB—Fresh Whole Blood 
+ICCBBA—International Council for Commonality in Blood Banking Automation 
+JBPO—Joint Blood Program Office 
+JOMIS—Joint Operational Medical Information Systems 
+JP—Joint Publication 
+LTOWB—Low Titer O Whole Blood 
+MDBS—Army Medical Detachment, Blood Support 
+MEFPAK—Manpower and Equipment Force Packaging 
+MERC—Medical Equipment Repair Center 
+MRA—MEFPAK Responsible Agency 
+NAVMED—Navy Medical 
+NIPRNET—Non-classified Internet Protocol Router Network 
+OCONUS—Outside the Continental United States 
+OPR—Office of Primary Responsibility 
+OPSEC—Operations Security 
+26 
+AFTTP3-42.711  18 SEPTEMBER 2023 
+PF24—Plasma Frozen within 24 Hours of Phlebotomy 
+pRBC—Packed Red Blood Cell 
+SG—Surgeon General; Surgeon 
+SIPRNET—Secret Internet Protocol Router Network 
+STE—Secure Telephone Equipment 
+TLAMM—Theater Lead Agent for Medical Materiel 
+TM—Technical Manual 
+TMDS—Theater Medical Data Store 
+TMIP—Theater Medical Information Program 
+UTC—Unit Type Code 
+WMP—War and Mobilization Plan 
+ 
+AFTTP3-42.711  18 SEPTEMBER 2023 
+27 
+Attachment 2 
+EXPEDITIONARY COMBAT SUPPORT REQUIREMENTS 
+Table A2.1.  ECS/BOS Requirements. 
+Blood Support Team Expeditionary Combat Support Requirements 
+Calculations are in accordance with AFPAM 10-219, Vols 5 & 6, where applicable unless 
+otherwise specified. 
+ 
+EBTC 
+Module 1 
+FFBP1 
+FFBE1 
+EBTC 
+Module 2 
+FFBP2 
+EBTC 
+Module 3 
+FFBP3 
+EBSC 
+FFLBB 
+FFLB1 
+Frozen 
+Blood 
+Product 
+Team 
+FFBD1 
+FZNBP 
+MOVEMENT REQUIREMENTS 
+Calculations are in accordance with AFPAM 10-1403 and DTR 4500.9-R Part III. 
+Pallets (#) 
+4 
+ 
+ 
+3 
+ 
+C-130 (# aircraft) 
+1 
+ 
+ 
+1 
+ 
+C-17 (# aircraft) 
+1 
+ 
+ 
+1 
+ 
+C-5 (# aircraft) 
+1 
+ 
+ 
+1 
+ 
+M871 (# flatbed 
+semitrailers) 
+1 
+ 
+ 
+1 
+ 
+M872 (# flatbed 
+semitrailers) 
+1 
+ 
+ 
+1 
+ 
+SITE PREPARATION 
+Square Footage (slight 
+grade required) 
+1,000 
+ 
+ 
+1,000 
+ 
+Tents (#) 
+1 
+ 
+ 
+1 
+ 
+ECUs (# units) 
+1 
+ 
+ 
+1 
+ 
+Note: Civil engineering maintenance support is required for ECUs and backup generators. 
+BASIC EXPEDITIONARY AIRFIELD RESOURCES (BEAR) REQUIREMENTS 
+Latrine/Showers (total # 
+people) 
+4 
+2 
+3 
+6 
+7 
+Billeting (# staff) 
+4 
+2 
+3 
+6 
+7 
+Officer (#) 
+1 
+0 
+0 
+1 
+0 
+Enlisted (#) 
+3 
+2 
+3 
+5 
+7 
+Meals (# meals/day, total) 
+(= 3 meals/day) 
+12 
+6 
+9 
+18 
+21 
+Laundry (lbs/week, total) 
+(= 32 lbs/person/week) 
+128 
+64 
+96 
+192 
+224 
+Ice (lbs/day, total) (= 4.4 
+lbs/person/day) 
+17.6 
+8.8 
+13.2 
+26.4 
+30.8 
+Dry ice (lbs/day) 
+300 
+ 
+ 
+ 
+ 
+Potable Water (gal/day) (= 
+# staff x 10 gal/day) 
+40 
+20 
+30 
+60 
+70 
+28 
+AFTTP3-42.711  18 SEPTEMBER 2023 
+Power (kW) 
+53 
+ 
+ 
+20 
+17.5 
+MEDICAL/BIOHAZARD WASTE MANAGEMENT 
+Liquid (gal/day), total (= 
+0.7 x potable water rate) 
+28 
+14 
+21 
+42 
+49 
+Solid (lbs/day, total) (= 4 
+lbs x # people) 
+16 
+8 
+12 
+24 
+28 
+LOGISTICS REQUIREMENTS 
+Petroleum, Oil, Lubricants 
+Diesel Fuel Consumption 
+(gal/day) (= 8.33 gal/hr x 
+24 hrs) 
+ 
+ 
+ 
+ 
+ 
+Unleaded Fuel 
+Consumption (gal/day) 
+(10kW backup generator) 
+10 
+ 
+ 
+10 
+ 
+Vehicles 
+Transportation 
+Requirements 
+UFMBJ: 4, 
+4x4 Pickup 
+Trucks 
+ 
+ 
+UFMBJ: 4, 
+4x4 Pickup 
+Trucks 
+UFMBJ: 4, 
+4x4 Pickup 
+Trucks 
+Materiel Handling 
+Equipment 
+10K forklift 
+Flatbed 
+truck 
+ 
+ 
+10K 
+forklift 
+Flatbed 
+truck 
+10K 
+forklift 
+Flatbed 
+truck 
+Vehicle Maintenance 
+Support 
+Required 
+COMMUNICATIONS AND INFORMATION SYSTEMS 
+Organic Equipment 
+Satellite/Telemedicine (#) 
+ 
+ 
+ 
+ 
+ 
+Land Mobile Radios (#) 
+ 
+ 
+ 
+ 
+ 
+Secure Telephone 
+Equipment (STE) (#) 
+ 
+ 
+ 
+ 
+ 
+Laptop (#) 
+ 
+ 
+ 
+2 
+ 
+Printers (#) 
+ 
+ 
+ 
+1 
+ 
+Server Suite (#) 
+ 
+ 
+ 
+ 
+ 
+Base Communications Support Requirements 
+Phone (#) 
+1 
+ 
+ 
+1 
+1 
+Controlled Cryptographic 
+Items/STE Cards (#) 
+1 
+ 
+ 
+1 
+1 
+NIPRNET Access 
+1 Cat 6E drop required 
+SIPRNET Access 
+Required 
+Computer Configuration 
+Operating System/Office 
+Suite 
+DOD SDC 
+RAM/Hard Drive 
+Enterprise Hardware Standard 
+Clinical Applications 
+TMIP 
+Required Port 
+21/TCP; 443/TCP; 8080/TCP 
+AFTTP3-42.711  18 SEPTEMBER 2023 
+29 
+Number/Protocol Access 
+(TCP/UDP) 
+CHAPLAINCY SERVICE SUPPORT 
+ 
+Required for all modules. 
+SECURITY FORCES SUPPORT 
+ 
+ 
+Required for all modules not co-located on Air Base. 
+ 
+30 
+AFTTP3-42.711  18 SEPTEMBER 2023 
+Attachment 3 
+EBTC SHELTER LAYOUT 
+Table A3.1.  EBTC Shelter Layout Example. 
+ 
+AFTTP3-42.711  18 SEPTEMBER 2023 
+31 
+Attachment 4 
+EBSC SHELTER LAYOUT 
+Table A4.1.  EBSC Shelter Layout Example. 
+ 
+ 

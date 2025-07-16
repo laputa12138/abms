@@ -1,0 +1,636 @@
+BY ORDER OF THE SECRETARY  
+OF THE AIR FORCE 
+ 
+DEPARTMENT OF THE AIR FORCE 
+INSTRUCTION 10-3002 
+11 NOVEMBER 2020 
+Operations 
+PERSONNEL RECOVERY FRIENDLY 
+FORCE TRACKING DEVICE CONTROL 
+AND AUTHORITY 
+COMPLIANCE WITH THIS PUBLICATION IS MANDATORY 
+ 
+ACCESSIBILITY:  Publications and forms are available on the e-Publishing website at 
+www.e-Publishing.af.mil for downloading or ordering 
+RELEASABILITY:  There are no releasability restrictions on this publication 
+ 
+ 
+OPR: HQ ACC/A3J 
+ 
+Supersedes: 
+AFI 10-3002, 3 March 2016 
+Certified by: AF/A3S  
+(Thomas B. Palenske, Brigadier Gen.) 
+Pages: 16 
+ 
+ 
+This instruction implements Air Force Policy Directive (AFPD) 10-30, Personnel Recovery; 
+AFPD 10-9, Lead Command Designation and Responsibilities for Weapon Systems; and provides 
+guidance based on Chairman Joint Chiefs of Staff Instruction (CJCSI) 3910.01B, Friendly Force 
+Tracking Operations Guidance; AFI 17-213, Warfighting Integration Satellite Communications 
+Resource Management; and AFPD 10-8, Defense Support of Civil Authorities (DSCA). It applies 
+to all Air Combat Command (ACC), United States Air Forces Europe (USAFE), and Pacific Air 
+Forces (PACAF) units, Air Force Reserve units under ACC oversight, and Air National Guard 
+units that operate and maintain Friendly Force Tracking (FFT) devices for combat search and 
+rescue. Any other units using FFT devices should refer to their Major Command’s functional 
+guidance for operating and maintaining these devices. Additionally, any Air Force units working 
+with or using FFTs from another service will use the guidance and procedures established by that 
+service when operating those devices. (T-2). Ensure all records generated as a result of processes 
+prescribed in this publication adhere to Air Force Instruction 33-322, Records Management and 
+Information Governance Program, and are disposed in accordance with the Air Force Records 
+Disposition Schedule, which is located in the Air Force Records Information Management 
+System. Refer recommended changes and questions about this publication to the Office of 
+Primary Responsibility (OPR) using the AF Form 847, Recommendation for Change of 
+Publication; route AF Forms 847 from the field through the appropriate functional chain of 
+command, to HQ ACC/A3J, 205 Thornell Blvd, Bldg 621, Suite 105, JBLE VA 23665. There is 
+no need for implementing activities to create supplements to this document. The authorities to 
+waive wing/unit level PR requirements in this publication are identified with a Tier ("T-0, T-1, 
+2 
+DAFI10-3002  11 NOVEMBER 2020 
+T-2, T-3") number following the compliance statement. See DAFI 33-360, Publications and 
+Forms Management, for a description of the authorities associated with the Tier numbers. 
+Submit requests for waivers through the chain of command to the appropriate Tier waiver 
+approval authority, or alternately, to the requestor’s commander for non-tiered compliance items. 
+The use of the name or mark of any specific manufacturer, commercial product, commodity, or 
+service in this publication does not imply endorsement by the Air Force. Compliance with the 
+attachments 2 and 3 of this publication is mandatory. 
+SUMMARY OF CHANGES 
+This document has been substantially revised and needs to be completely reviewed. Major 
+changes include an overhaul of the tiering requirements, reduction in acronyms and addition of 
+the Global Tech Support Center (GTSC). 
+ 
+Chapter 1—OVERVIEW 
+ 
+3 
+1.1. 
+Background. .............................................................................................................  
+3 
+1.2. 
+Objective. .................................................................................................................  
+4 
+1.3. 
+ACC Personnel Recovery Division (ACC/A3J) Approval of FFT Devices. ...........  
+4 
+Chapter 2—DEVICE ACCOUNTABILITY AND SECURITY PROTECTION 
+REQUIREMENTS. 
+ 
+6 
+2.1. 
+General. ....................................................................................................................  
+6 
+2.2. 
+FFT Device Accountability and Management. ........................................................  
+6 
+2.3. 
+Roles and Responsibilities for Device Control. .......................................................  
+7 
+2.4. 
+Exercises and Training. ............................................................................................  
+9 
+2.5. 
+Contact Information. ................................................................................................  
+9 
+Chapter 3—FFT INFORMATION CONTROL REQUIREMENTS 
+ 
+10 
+3.1. 
+Classification of FFT Information. ..........................................................................  
+10 
+Table 3.1. 
+FFT Device Information Contingency Classification Guidance. .............................  
+10 
+3.2. 
+General Considerations. ...........................................................................................  
+10 
+Chapter 4—FFT PLANNING CONSIDERATIONS 
+ 
+12 
+4.1. 
+FFT Planning. ..........................................................................................................  
+12 
+Attachment 1—GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+13 
+Attachment 2—FFT ACCOUNTABILITY 
+ 
+15 
+Attachment 3—FFT NAMING CONVENTIONS 
+ 
+16 
+DAFI10-3002  11 NOVEMBER 2020 
+3 
+Chapter 1 
+OVERVIEW 
+1.1.  Background.  FFT describes Department of Defense programs that provide systems for 
+locating, tracking and determining the status of friendly (e.g., U.S., allied, coalition) forces. Blue 
+Force Tracking (BFT), as an all-encompassing term, has been replaced in joint publications and 
+instructions with FFT. The term FFT takes precedence over BFT due to its consistency with joint 
+operations guidance and policy as specified in CJCSI 3910.01B. Specifically, FFT is defined in 
+Joint Pub 1-02 as “the process of fixing, observing, and reporting the location and movement of 
+friendly forces.” The FFT-family of space-based and terrestrial systems is employed to generate, 
+collect and share friendly force identification, location and tracking information. For the purpose 
+of this instruction, the term FFT should be used except where BFT is appropriate (i.e., document 
+titles, policies, etc.). When discussing FFT, be aware that BFT is prevalent in various documents 
+and that other services and agencies may still use the term BFT interchangeably with FFT (e.g., 
+there are also specific FFT devices which have BFT in their name). 
+1.1.1.  FFT systems use the Global Positioning System to calculate their current position, 
+velocity and time and then transmit their position via space-based, airborne and ground-based 
+receivers to other FFT users and Command and Control (C2) Centers on a common operating 
+picture (COP). Fielded forces and C2 nodes receive FFT data via one or more 
+communication links such as satellite communications, classified networks (e.g., Secret 
+Internet Protocol Router (SIPRNET)), or Non-Classified Internet Protocol Router 
+(NIPRNET) when in the Continental U.S. (CONUS). A tactical display processor or 
+situational awareness software tools are then used to display this data. 
+1.1.2.  In addition to position location information (PLI), some FFT devices can transmit 
+brevity codes to communicate limited status and intentions. Some devices, when integrated 
+into messaging servers can also support sending and receiving short, free-text and canned 
+messages. Units use FFT capabilities for building their situational awareness in order to aid 
+C2 efforts, assist in the prevention of fratricide and to support execution of traditional or non-
+traditional PR missions. FFT devices are not intended to provide the fidelity required for use 
+as a friendly force deconfliction tool for airspace control and joint fires C2. FFT devices 
+should not be used in this capacity. Standard airspace control measures and fire support 
+control measures should be used for friendly force deconfliction. 
+1.1.3.  PR forces currently use several different FFT devices; one for flying platforms (HH-
+60 & HC-130J) and the other for Guardian Angel units. Although FFT systems are not 
+deemed personnel recovery (PR) devices, the capabilities of FFT, such as PLI, emergency 
+alerting (911), and limited C2, support the PR process and are included in ACC PR planning 
+efforts. 
+1.1.4.  In accordance with AFI 90-201, The Air Force Inspection System, PR units will 
+participate in the Inspector General’s Reporting System utilizing the Management Internal 
+Control Toolset. (T-2). 
+ 
+ 
+4 
+DAFI10-3002  11 NOVEMBER 2020 
+1.2.  Objective.  This instruction provides guidance for protecting and controlling FFT capability 
+(including hardware, software, data and networks) for PR units. The objective is to identify 
+procedures to effectively manage a FFT system within the USAF PR community. The sensitive 
+nature of FFT technology and the potential danger to all service personnel should sensitive FFT 
+information be compromised requires personnel to protect FFT devices and information. 
+Specifically, FFT data will only be released in accordance with Combatant Command or Agency 
+Data Owner’s Guidance. (T-0). This instruction provides guidance to forces issued FFT devices 
+from ACC, including PACAF, USAFE, Air National Guard, and Air Force Reserve PR forces. It 
+also provides guidance on the management of FFT device distribution, information data 
+dissemination and operational use, as well as inventory, tracking and accounting procedures. 
+Finally, current PR approved devices are authorized for use outside the continental United States. 
+1.3.  ACC Personnel Recovery Division (ACC/A3J) Approval of FFT Devices.  PR units will 
+notify ACC/A3J of all devices used for FFT purposes. (T-2). Units will coordinate with 
+ACC/A3J prior to initial FFT usage. (T-2). This ensures that operational requirements support 
+emerging FFT technologies, undergo appropriate operational and systems testing, are integrated 
+into the appropriate dissemination center/network operations center, and are approved for use in 
+aircraft as warranted by established requirements. ACC/A3J ensures FFT device standardization, 
+utilization and architecture integration comply with current security and operating guidance (i.e., 
+CJCSI 3910.01B, Enclosure C, FFT Security and Classification Policy). 
+1.3.1.  When additional or new FFT devices are authorized for employment, ACC/A3J will 
+provide and distribute command guidance identifying the approved FFT devices along with 
+operational guidance for integrating the FFT technology and information into the existing 
+FFT architecture. (T-2). FFT is an integral part of PR operations. The GTSC should provide 
+training for newly procured devices. 
+1.3.2.  ACC/A3J will review and approve all FFT challenges relating to operational 
+requirements, device management, training and architecture integration of FFT equipment 
+and technologies. (T-2). ACC/A3J will coordinate on all functions relating to plans, 
+programs, and requirements, to include aircraft integration, funding and contracts to ensure 
+proper FFT management. (T-2). 
+1.3.3.  Devices will not be used to transmit PLI for FFT purposes if not approved by ACC for 
+employment. (T-2). 
+1.3.4.  All requests to recommend a device for consideration and inclusion as an approved 
+FFT device will be submitted through ACC/A3J via the AF Form 1067 process. (T-2). Units 
+will not unilaterally sponsor or support unapproved devices for FFT utilization. (T-2). This 
+includes sponsoring device production, procurement, and integration in the FFT architecture 
+or COP via Defense Information System Agency, Department of Defense Agencies (to 
+include the Army Strategic Command and Mission Management Center (MMC)), or the 
+GTSC. 
+ 
+ 
+DAFI10-3002  11 NOVEMBER 2020 
+5 
+1.3.5.  Units requiring additional or replacement FFT devices will contact ACC/A3J prior to 
+acquiring new devices. (T-2). ACC/A3J will facilitate requisition of additional or 
+replacement FFT devices, if approved, or sponsor the purchase request with the appropriate 
+government controlling authority that must authorize the transaction prior to the purchase of 
+the new devices. (T-2). ACC/A3J will provide all units with recommendation on proper FFT 
+devices to procure as well as procurement methods. (T-2). ACC/A3J designates the GTSC as 
+an approved agency to support and manage FFT devices in use by ACC units. The ACC/A3J 
+FFT program will not support FFT systems procured outside of the ACC/A3J process for 
+combat operations. (T-2). ACC PR units are not permitted to use commercial FFT systems 
+for combat operations. (T-2). 
+1.3.6.  Register all FFT devices with the MMC for FFT/COP management by the GTSC 
+before issued for use. Devices should be configured properly to include unique encryption 
+keys and message formats by the GTSC prior to operational employment. Iridium® devices 
+(transmit via the Iridium® satellite architecture, i.e. Shout TS Nanos) must be activated via 
+Defense Information Systems Agency. Contact the GTSC for assistance and for 
+configuration, integration and procurement of devices. Commercial architectures are not 
+approved for use by ACC PR units. 
+1.3.7.  FFT devices are assigned to specific PR units. Once a device is installed on a flying 
+platform, the device may be moved to another aircraft within the same unit. However, 
+devices will not be moved to another unit except for temporary loans under critical situations 
+to support operational requirements or at an exercise event such as RED FLAG where there 
+are devices available for units to borrow. (T-2). As for other type training activities or events 
+for Security Forces Squadron or Tactical Air Control Party, refer to the functional manager 
+that controls their equipment/device use. This process ensures COP accuracy, C2 
+architectural management and FFT control/accountability. FFT devices are U.S. only and are 
+not to be given or loaned out to non-U.S. personnel. (T-0). 
+6 
+DAFI10-3002  11 NOVEMBER 2020 
+Chapter 2 
+DEVICE ACCOUNTABILITY AND SECURITY PROTECTION REQUIREMENTS. 
+2.1.  General.  Some FFT devices utilize highly sensitive technologies and contain encryption 
+keys. The following paragraphs outline FFT device accountability requirements and 
+responsibilities. FFT devices must be stored in a physically controlled area and accounted for in 
+storage as “sensitive items.” (T-2). 
+2.1.1.  Units interested in obtaining additional/replacement FFT devices should contact 
+ACC/A3J for guidance through their Wing/Group FFT point of contact (POC). 
+2.1.2.  The only approved carriers for FFT devices are Federal Express, DHL, or official 
+pouch service. Contact the unit security office for the latest list of approved carriers. When 
+shipping devices within the CONUS, they will be sent next day as a minimum. (T-2). They 
+should be shipped Monday through Thursday and not on Friday. Senders should always call 
+the receiving end on the day the shipment is due to verify receipt. If the device is going 
+outside of CONUS, these CONUS protections apply with the added constraint of extended 
+shipping times. If at all possible, ship devices via official pouch system. Devices going to or 
+coming from an overseas remote location must be hand-carried if an approved carrier or 
+official pouch service is not available. (T-2). 
+2.2.  FFT Device Accountability and Management. 
+2.2.1.  U.S. government/military personnel will retain overall responsibility for security and 
+accountability of all FFT devices. (T-2). ACC/A3J FFT devices are designated for U.S. 
+forces only (unless otherwise authorized by the Combatant Commander). ACC units will 
+comply with the latest Security Classification Guide (SCG) and any Combatant 
+Commander/Component guidance for controlling FFT systems and FFT data. (T-2). 
+2.2.2.  All PR FFT devices are accountable equipment items and units will track them on 
+their Custodian Authorization / Custody Receipt Listing (CA/CRL). (T-2). This equipment 
+may be put on a mobility account but is not tied to any Unit Type Code. The authorized 
+quantity of devices on-hand is based on individual unit mission requirements and ACC/A3J 
+approval. 
+2.2.3.  To ensure control and accountability of the radios, Mobile Satellite Service (MSS) 
+devices will also be accounted for on the unit’s CA/CRL. (T-2). Additionally, owning units 
+are required to load new devices into the Air Force Equipment Management System for 
+accountability. (T-2). ACC A6/A6CS tracks FFT Mobile Satellite Service devices through 
+Air Force Equipment Management System and conducts an annual data call and an inventory 
+of equipment during June of each year. 
+2.2.4.  Units will inventory FFT devices by 30 August each year then notify ACC/A3J that 
+the unit’s CA/CRL account has been verified. (T-2). The unit equipment custodian or 
+squadron representative with knowledge of FFT devices will notify ACC/A3J via e-mail with 
+the current list (serial numbers) and type of device(s) in the unit. (T-2). 
+ 
+ 
+DAFI10-3002  11 NOVEMBER 2020 
+7 
+2.2.5.  Units will not permanently transfer FFT devices to other PR units without prior 
+approval from ACC/A3J and in coordination with the GTSC. (T-2). Permanent transfers to 
+other PR units will follow accountability guidance in Air Force Manual (AFMAN) 23-110, 
+USAF Supply Manual, Volume 2, Part 13. (T-2). 
+2.3.  Roles and Responsibilities for Device Control. 
+2.3.1.  HQ ACC/A3JT responsibilities: 
+2.3.1.1.  Maintain a database of all PR FFT devices and any replacement or upgrade to a 
+current FFT device in use. The database will include: programming information 
+associated with each device, unit that issued the device, device’s current location, and 
+other information as needed. (T-2). The database will provide ACC and unit FFT 
+managers with crucial information on ACC’s FFT devices. (T-2). Manage reporting 
+information from the field in accordance with report control symbol: ACC/A3J (AR) 
+0801, BLUE FORCE Device Tracking. 
+2.3.1.2.  Facilitate FFT training and instruction materials to units when devices are issued 
+and on an as needed basis thereafter. Provide guidance to GTSC which will be 
+incorporated into the GTSC training and fielding documents for units. (T-2). 
+2.3.1.3.  Report compromised, missing or destroyed FFTs (for all FFT systems) to the 
+MMC and GTSC. 
+2.3.1.4.  Act as the command’s OPR for PR FFT device control, accounting, and 
+reporting procedures. 
+2.3.1.5.  Act as the command’s OPR for requests for new or replacement FFT devices. 
+2.3.1.6.  Coordinate with ACC PR Requirements Division (ACC/A5R) for any request 
+ACC/A3J receives for FFT installations on ACC personnel recovery aircraft (HC-130J or 
+HH-60). 
+2.3.1.7.  Maintain a record of device transfers between units. 
+2.3.1.8.  Provide units information on the process to repair malfunctioning or failed FFT 
+equipment and coordinate replacement if needed. 
+2.3.1.9.  Act as liaison to the National Reconnaissance Organization (NRO), MMC, and 
+GTSC for all PR units. 
+2.3.2.  HQ ACC/A5R (PR Requirements Division) responsibilities: 
+2.3.2.1.  Coordinate and manage all installations of new or replacement Kit-A 
+modifications (hard-wiring to permanently mount FFT devices) on PR aircraft (HC-130J 
+and HH-60). 
+2.3.2.2.  Forward all information regarding installation or removal of FFT T-1 
+modifications on personnel recovery aircraft (HC-130J and HH-60) which will include 
+unit, type aircraft, and tail number to ACC/A3J. 
+2.3.3.  Unit commanders at home station will (Note: deployed units will work through their 
+home station.): 
+8 
+DAFI10-3002  11 NOVEMBER 2020 
+2.3.3.1.  Appoint at each Wing/Group an FFT manager (person or section) that is 
+responsible for FFT operations. (T-2). 
+2.3.3.2.  Appoint at each squadron an FFT primary and alternate POC via memorandum 
+to ACC/A3J via NIPRNET e-mail. (T-2). FFT POCs will have a SIPRNET account and 
+access to a secure phone. (T-2). 
+2.3.3.3.  Maintain accountability of their FFT devices on a CA/CRL (i.e., Miniature 
+Transmitter (MTX) and Iridium® devices). (T-2). 
+2.3.3.4.  Report inoperative, malfunctioning, missing or destroyed FFT devices to 
+ACC/A3J via SIPRNET e-mail within two duty days. (T-2). 
+2.3.3.5.  Report compromise of FFT devices via SIPRNET e-mail to the MMC or the 
+GTSC and inform ACC/A3J within 24 hours. (T-2). 
+2.3.3.6.  Notify ACC/A3J when FFT devices are involved in mishaps or suspected to be 
+involved in mishaps. Notification must occur within two duty days of the mishap. (T-2). 
+Make every effort to recover FFT devices involved in mishaps. (T-2). Provide NRO 
+recovered FFT devices or destruction notification if devices are destroyed and notify 
+ACC/A3J. (T-2). Destruction notification must occur within two duty days of 
+determination that the devices are destroyed. (T-2). 
+2.3.3.7.  Maintain FFT devices in good repair in accordance with that specific device 
+manual, and return inoperative or malfunctioning devices to NRO for replacement. (T-2). 
+Units will coordinate with ACC/A3J prior to shipping devices to ensure up-to-date 
+shipping instructions, NRO POC and appropriate mailing address. (T-2). Overseas 
+shipments require additional shipping documentation in accordance with the International 
+Traffic Arms Regulation. Iridium® devices will be shipped to the GTSC accordingly. (T-
+2). 
+2.3.3.8.  Report all aircraft T-1 FFT Kit-A modifications to ACC/A5R. (T-2). 
+2.3.3.9.  Designate unit FFT POC via Memorandum for ACC/A3J including 24-hour 
+emergency/911 contact info. (T-2). Currently, the theater Joint Personnel Recovery 
+Centers are the focal point for the MMC to contact in the event of a “911” emergency 
+activation. Units are encouraged to designate their command post or similar function 
+within their unit as the secondary 24-hour contact point. 
+2.3.3.10.  Notify ACC/A3J and the GTSC when FFT devices are being deployed to a 
+theater of operations. (T-2). One week prior to deployment, notify ACC/A3J via 
+SIPRNET e-mail of the following: unit, serial numbers to be deployed, location of 
+deployment and/or geographic area of operations, timeframe expected for deployment 
+and mission design series type. Subsequently, upon redeployment to the home base, 
+notify ACC/A3J and the GTSC of the same information. ACC/A3J will provide this 
+information as well as naming convention to the MMC. (T-2). 
+2.3.3.11.  Install FFT devices as a T-1 aircraft modification only as tested and approved 
+by the System Program Office. (T-2). All aircraft installed devices are considered carryon 
+and, as such, function checks will be conducted by operations personnel. (T-3). 
+Maintenance is responsible for all wiring to the harness. (T-3). 
+DAFI10-3002  11 NOVEMBER 2020 
+9 
+2.3.3.12.  Contact ACC/A3J if any of the circumstances above occur before contacting 
+the NRO, MMC, or the GTSC. 
+2.3.3.13.  Refer to Attachment 2 for a snapshot of reporting events and timelines. 
+2.4.  Exercises and Training. 
+2.4.1.  For exercises and tests where the user is directed to use a frequency other than the one 
+to which their FFT devices are programmed (e.g., RED FLAG RESCUE, JFEXs, etc.), the 
+user must contact ACC/A3J (via SIPRNET message) a minimum of 1 month prior to the 
+exercise (this is not required for Iridium® SBD [i.e., SHOUT TS devices]; for SHOUT TS 
+devices, contact the GTSC for assistance). (T-2). ACC/A3J will build a file to reprogram the 
+device and forward it to the unit(s) requiring the change. (T-2). The SIPRNET message 
+request should contain the following information: 
+2.4.1.1.  Device serial numbers requiring change. 
+2.4.1.2.  Operation supported/Theater where devices will be operated. 
+2.4.1.3.  Geographic coverage requirements. 
+2.4.1.4.  Dates and time periods for coverage. 
+2.4.1.5.  POC. 
+2.4.2.  Local Training: Users may use their FFTs and other approved devices during local 
+training for familiarization. To initiate support, send a SIPR e-mail to A3JT at 
+acc_a3jt.prtraining@langley.af.smil.mil 
+or 
+the 
+GTSC 
+(mjhicks1@saber.pentagon.smil.mil) to coordinate FFT systems being used and any 
+collection requirements. Under no circumstances will the FFT “911” call be used unless in an 
+actual emergency. (T-2). 
+2.5.  Contact Information. 
+2.5.1.  ACC/A3JT SIPRNET email: usaf.jble.acc-a3.mbx.acc-a3jt-pr-trng@mail.smil.mil 
+(USAF JBLE ACC A3 Mailbox ACC A3JT PR Trng) 
+2.5.2.  ACC/A3JT 
+NIPRNET 
+Web: 
+https://acc.eim.acc.hedc.af.mil/org/A3/A3J-
+PR/A3JT/default.aspx  
+2.5.3.  ACC/A3JT NIPRNET email: (ACC/A3JT PR Training) 
+2.5.4.  MMC SIPRNET Web: https://mmcweb.bft.army.smil.mil 
+2.5.5.  MMC 
+SIPRNET 
+email: 
+usarmy.perterson.smdc.mbx.mmc@mail.smil.mil 
+(USARMY Peterson AFB SMDC Mailbox MMC) 
+2.5.6.  GTSC 24-hour information phone: 313-338-8324 x0 or DSN 692-4213 
+2.5.7.  GTSC POC NIPR email: gtsc@sage.northcom.mil 
+10 
+DAFI10-3002  11 NOVEMBER 2020 
+Chapter 3 
+FFT INFORMATION CONTROL REQUIREMENTS 
+3.1.  Classification of FFT Information. 
+3.1.1.  Some devices used by units are unclassified but contain sensitive technology. 
+Association of device serial numbers with a PR squadron designation is unclassified. 
+However, certain information associated with FFT devices and the means by which they are 
+used may be classified for operations security (OPSEC). Classification during training and 
+exercises will be in accordance with the security classification guidance of the training or 
+exercise. (T-2). Classification for contingency operations will be in accordance with the 
+Combatant Commander’s OPSEC guidance. (T-1). If OPSEC guidance is not provided, units 
+will follow the guidance in Table 3.1 (T-2). Additionally, Iridium® devices are controlled by 
+United States export laws and regulations. 
+Table 3.1.  FFT Device Information Contingency Classification Guidance. 
+Element 
+Associated with 
+Classification 
+Device Serial Number 
+Specific location plus the fact that a “911” 
+brevity code has been transmitted 
+Secret* 
+Device Serial Number 
+Operational mission brevity code cross-matrix 
+(brevity code meaning) 
+Secret* 
+Note: * Derived from Combatant Commander OPSEC guidance. 
+3.1.2.  If operating with United States Special Operations Command (USSOCOM) or Air 
+Force Special Operations Command units, adhere to their classification policies (see the 
+USSOCOM SCG, the Collection of Broadcasts from Remote Assets (COBRA) SCG, and 
+CJCSI 3910.01B Enclosure C on Classification of FFT Information). (T-1). 
+3.1.3.  Certain technical information associated with the architecture used to support some 
+FFT devices is classified. Refer to COBRA Security Classification Guide, found on the 
+ACC/A3J and the MMC SIPRNET websites for PR flying platform FFT devices. Refer to the 
+appropriate security classification guide for other FFT devices, i.e., Iridium®. 
+3.1.4.  Only ACC/A3J can authorize PR units to change device programming. Unauthorized 
+changes could cause data from other devices not to be received properly by the national 
+architecture. (T-2). This could cause serious damage to the units involved. 
+3.2.  General Considerations. 
+3.2.1.  Call signs. ACC/A3JT will establish call signs for all PR FFT systems assigned to the 
+Component and for service Component PR FFTs that are deployed in support of the 
+Component. (T-2). 
+3.2.2.  Call signs will meet Combatant Commander and FFT SCG guidelines. (T-0). When 
+possible, call signs should be the same on each COP system. This may not be possible for 
+systems such as Guardian or other unclassified COP systems due to classification. 
+DAFI10-3002  11 NOVEMBER 2020 
+11 
+3.2.3.  Report rate is the interval the device transmits, usually in seconds. FFT report rates 
+should be established by system and theater and reflect operational requirements. When 
+establishing report rates, battery life and mission duration should be considered. 
+Additionally, each Component should establish report rates for dismounted forces, vehicle 
+mounted systems, fixed-wing aircraft, and rotary wing aircraft for all FFT systems operating 
+under their command and control. Report rates balance the requirement for precise track 
+location with the requirement to manage battery life and decrease signal exploitation 
+exposure. 
+3.2.4.  Encryption. ACC FFT devices will be encrypted at all times using appropriate 
+encryption algorithms. (T-2). The GTSC will accomplish encryption key management. (T-2). 
+All FFTs, when encrypted with privacy keys, remain unclassified For Official Use Only. 
+3.2.5.  Function checks. All FFT systems should be function checked monthly and prior to 
+mission execution. Function checks should include PLI visibility on proper COP systems. 
+Users can contact the Component and/or the GTSC for assistance in resolving any functional 
+check issues. 
+3.2.6.  ACC Unit Reference Number (URN). For sharing to Army Force XXI Battle 
+Command Brigade and Below and Joint Capabilities Release, Components and Service 
+Components will utilize the block of Joint Chiefs of Staff assigned Unit Reference Numbers. 
+(T-2). Components and Service Components will coordinate with the ACC/AJ3 and the 
+GTSC for URN assignment and proper data routing. (T-2). Note: When URNS are assigned 
+to a device, the FFT data for that device is transmitted to Army FFT systems. 
+3.2.7.  Naming Conventions. For PR units using standardized naming conventions for global 
+operations, an example of MTX naming convention is shown in Attachment 3. ACC/A3J 
+will coordinate with the MMC to ensure that all MTXs are displayed with these naming 
+conventions. (T-2). Theater FFT managers must inform ACC/A3J through the home station 
+FFT POC via SIPRNET e-mail of any changes made to the naming conventions for FFT 
+devices in their area of responsibility within two duty days of coordinating the change with 
+the MMC. (T-2). This is because ACC/A3JT maintains a database that must match the MMC 
+records. (T-2). If the Global Command and Control System (GCCS) is used to display data 
+on COP, the viewer should be able to see up to 29 characters. If something other than Global 
+Command and Control System is used to display data on the COP, the viewer might be 
+limited in the number of characters that can be seen. 
+12 
+DAFI10-3002  11 NOVEMBER 2020 
+Chapter 4 
+FFT PLANNING CONSIDERATIONS 
+4.1.  FFT Planning.  FFT should be included in planning for contingency operations, current 
+operations, crisis operations, and exercises operational planning sessions, such as: 
+4.1.1.  Planning for employment of existing FFT devices for various missions to include 
+standardized naming conventions. 
+4.1.2.  Planning for the collection requirements based on FFT systems designated to support 
+the event. 
+4.1.3.  Planning the integration of FFT systems into appropriate strategic, operational and 
+tactical COP systems. 
+4.1.4.  Planning the integration of limited C2 messaging if the FFT system selected is capable 
+of C2. 
+4.1.5.  Planning to support integration of FFT into the communications Primary, Alternate, 
+Contingency and Emergency (PACE) plan. 
+4.1.6.  Planning for Emergency Alerts. This includes defining 911 trigger events and 
+associated actions by all levels of command when a 911 is transmitted. 
+4.1.7.  Ensuring proper PR protocols and data routing is in place or can be executed during a 
+PR event. 
+4.1.8.  Assigning FFT systems to specific assets/personnel and developing required report 
+rates and call signs for each system. 
+4.1.9.  Planning for inbound force FFT systems to include defining FFT systems, 
+architectures, COP tools and device configuration to ensure a fully interoperable FFT system. 
+ 
+JOSEPH T. GUASTELLA, Jr.,  
+Lt General, USAF 
+Deputy Chief of Staff, Operations 
+DAFI10-3002  11 NOVEMBER 2020 
+13 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+CJCSI 3910.01B, Friendly Force Tracking Operations Guidance, 17 November 2014  
+AFPD 10-8, Defense Support of Civil Authorities (DSCA), 4 June 2018 
+AFPD 10-9, Lead Command Designation and Responsibilities for Weapon System, 8 March 
+2007 
+AFPD 10-30, Personnel Recovery, 28 August 2018 
+AFI 17-213, Warfighting Integration Satellite Communications Resource Management, 28 
+August 2017 
+DAFI 33-360, Publications and Forms Management, 1 December 2015 
+AFI 90-201, The Air Force Inspection System, 20 November 2018 
+AFI 33-322, Records Management and Information Governance Program, 23 March 2020 
+AFMAN 23-110, Volume 2, Part 13, USAF Supply Manual,  
+Department of Defense Dictionary of Military and Associated Terms, January 2020 
+Air Force Joint Blue Force Situational Awareness Enabling Concept, 16 May 2007 
+Collection of Broadcasts from Remote Assets (COBRA) Security Classification Guide, 
+(Secret/Releasable to USA, AUS, CAN, GBR, NZL), 17 May 2006 
+Adopted Forms 
+AF Form 847, Recommendation for Change of Publication 
+AF Form 1067, Modification Proposal 
+Abbreviations and Acronyms 
+ACC—Air Combat Command 
+AFI—Air Force Instruction 
+AFMAN—Air Force Manual 
+AFPD—Air Force Policy Directive 
+BFT—Blue Force Tracking 
+C2—Command and Control 
+CA/CRL—Custodian Authorization / Custody Receipt Listing 
+CJCSI—Chairman of the Joint Chiefs of Staff Instruction 
+COBRA—Collection of Broadcasts from Remote Units 
+CONUS—Continental United States 
+14 
+DAFI10-3002  11 NOVEMBER 2020 
+COP—Common Operational Picture 
+FFT—Friendly Force Tracking 
+GTSC—Global Tech Support Center 
+HQ—Headquarters 
+MMC—Mission Management Center 
+MTX—Mayer Miniature Transmitter 
+NIPRNET—Non-Secure Internet Protocol Router Network 
+NRO—National Reconnaissance Office 
+OPR—Office of Primary Responsibility 
+OPSEC—Operations Security 
+PACAF—Pacific Air Forces 
+PLI—Position Location Information 
+POC—Point of Contact 
+PR—Personnel Recovery 
+SCG—Security Classification Guide 
+SIPRNET—SECRET Internet Protocol Router Network 
+URN—Unit Reference Number 
+USAFE—United States Air Forces in Europe 
+ 
+DAFI10-3002  11 NOVEMBER 2020 
+15 
+Attachment 2 
+FFT ACCOUNTABILITY 
+Table A2.1.  Report Control Symbol: ACC/A3J (AR) 0801, FFT Accountability. 
+Report 
+Timeline 
+To whom 
+Paragraph 
+Inoperative, malfunctioning, 
+missing or destroyed FFT 
+Within 2 duty days 
+ACC/A3J 
+2.3.3.4. 
+Compromise of FFT 
+Within 24 hours 
+MMC and 
+GTSC, Cc 
+ACC/A3J 
+2.3.3.5. 
+FFT involved or suspected in 
+mishap 
+Within 2 duty days of mishap 
+ACC/A3J 
+2.3.3.5. 
+FFT destruction notification 
+Within 2 duty days of 
+determining FFT was destroyed 
+ACC/A3J 
+2.3.3.6. 
+MTX being deployed 
+Not later than one week prior to 
+deployment 
+ACC/A3J and 
+GTSC 
+2.3.3.10. 
+MTX redeployed 
+Upon return 
+ACC/A3J and 
+GTSC 
+2.3.3.10. 
+Exercises using MTX 
+Not later than one month out 
+ACC/A3J 
+2.4.1. 
+Naming convention change 
+Within 2 duty days 
+ACC/A3J 
+3.2.2. 
+ 
+16 
+DAFI10-3002  11 NOVEMBER 2020 
+Attachment 3 
+FFT NAMING CONVENTIONS 
+Table A3.1.  FFT Naming Conventions (MTX Specific). 
+Aircraft 
+Aircraft Type 
+Naming Convention 
+Example 
+HC-130J 
+PRHC130 UNIT MTXnnnn 
+PRHC130 71RQS MTX3456 
+HH-60 
+PRHH60 UNIT MTXnnnn 
+PRHH60 41RQS MTX3456 
+Non-Aircraft (Guardian Angel) 
+PRPJ UNIT MTXnnnn 
+PRPJ 48RQS MTX3456 
+Unassigned 
+PR MTXnnnn 
+PR MTX3456 
+Key: nnnn = last 4 digits of FFT serial number. 
+ 

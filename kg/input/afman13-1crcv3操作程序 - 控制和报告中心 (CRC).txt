@@ -1,0 +1,2519 @@
+BY ORDER OF THE  
+SECRETARY OF THE AIR FORCE 
+ 
+AIR FORCE MANUAL 13-1 CRC, 
+VOLUME 3 
+26 APRIL 2024 
+Nuclear, Space, Missile, or Command and 
+Control Operations 
+OPERATING PROCEDURES CONTROL 
+AND REPORTING CENTER (CRC) 
+COMPLIANCE WITH THIS PUBLICATION IS MANDATORY 
+ 
+ACCESSIBILITY:  This publication is available for downloading or ordering on the e-
+Publishing website at www.e-Publishing.af.mil. 
+RELEASABILITY:  There are no releasability restrictions on this publication. 
+ 
+ 
+OPR: ACC/A3CG 
+Certified by: AF/A3T 
+Supersedes: 
+AFMAN 13-1CRCV3, 3 November 2020 
+Pages: 54 
+ 
+ 
+This publication implements Department of the Air Force Policy Directive (DAFPD) 13-1, 
+Command and Control (C2) Enterprise.  This publication applies to all civilian employees of the 
+Department of the Air Force (DAF) and the uniformed members of the Regular Air Force and Air 
+National Guard (ANG) performing Ground Battle Management for the C2 enterprise.  It does not 
+apply to the uniformed members of the United States Space Force, or the Air Force Reserve.  Air 
+Education and Training Command (AETC) formal training units (FTUs) will take for reference 
+only to ensure equitable operations standards and commonality in development of guidance and 
+training programs as it pertains to the Control and Reporting Center (CRC).    Ensure all records 
+generated as a result of processes prescribed in this publication adhere to Air Force Instruction 
+(AFI) 33-322, Records Management and Information Governance Program, and are disposed in 
+accordance with the Air Force Records Disposition Schedule, which is located in the Air Force 
+Records Information Management System.  Refer recommended changes and questions about this 
+publication to the office of primary responsibility (OPR) using the Department of the Air Force 
+(DAF) Form 847, Recommendation for Change of Publication.  Route DAF Forms 847 from the 
+field through the appropriate functional chain of command.  This publication may be supplemented 
+at any level.  See paragraph 1.3 for specific requirements for coordination prior to certification 
+and approval.  The authorities to waive wing or unit level requirements in this publication are 
+identified with a tier (“T-0, T-1, T-2, T-3”) number following the compliance statement.  See 
+Department of the Air Force Manual (DAFMAN) 90-161, Publishing Processes and Procedures, 
+for a description of the authorities associated with the Tier numbers.  Submit requests for waivers 
+through the chain of command to the appropriate Tier waiver approval authority, or alternately, to 
+the requestor’s commander for non-tiered compliance items.  Commanders may waive non-tiered 
+2 
+AFMAN13-1CRCV3  26 APRIL 2024 
+requirements, but must send a copy of the approved waiver to the OPR of the higher headquarters 
+publication being waived within 30 days of approval.  See paragraph 1.4 for further information 
+on waiver authorities.  The use of the name or mark of any specific manufacturer, commercial 
+product, commodity, or service in this publication does not imply endorsement by the DAF.  
+Compliance with Attachments 2 and 3 is mandatory. 
+SUMMARY OF CHANGES 
+This updated manual incorporates substantial revisions and should be reviewed in its entirety.  
+Significant changes include: the removal of Mission Commander and Operations Coordinator, and 
+the amendment of training prerequisites for Senior System Operator (SSO) and Mission System 
+Operator (MSO). 
+ 
+Chapter 1—GENERAL INFORMATION 
+ 
+4 
+1.1. 
+General. ....................................................................................................................  
+4 
+1.2. 
+Keywords and Definitions .......................................................................................  
+4 
+1.3. 
+Supplements .............................................................................................................  
+4 
+1.4. 
+Waiver Authority. ....................................................................................................  
+5 
+Chapter 2—ROLES AND RESPONSIBILITIES 
+ 
+6 
+2.1. 
+General. ....................................................................................................................  
+6 
+2.2. 
+Scope. .......................................................................................................................  
+6 
+2.3. 
+Headquarters Air Force (HAF). ...............................................................................  
+6 
+2.4. 
+Major Commands (MAJCOMs). .............................................................................  
+7 
+2.5. 
+Wings and/or Groups. ..............................................................................................  
+8 
+2.6. 
+Squadron Commanders (SQ/CCs). ..........................................................................  
+8 
+2.7. 
+Organization. ............................................................................................................  
+8 
+Chapter 3—DEPLOYMENT AND MISSION PLANNING 
+ 
+9 
+3.1. 
+Deployment Planning. .............................................................................................  
+9 
+3.2. 
+Mission Planning. ....................................................................................................  
+9 
+3.3. 
+Mission Planning Cell (MPC). .................................................................................  
+10 
+Table 3.1. 
+CRC Mission Planning Cell (MPC) Manning .........................................................  
+11 
+3.4. 
+Intelligence (INTEL). ..............................................................................................  
+11 
+3.5. 
+Mission Planning Task Overview. ...........................................................................  
+12 
+Chapter 4—OPERATIONS 
+ 
+13 
+4.1. 
+Operations. ...............................................................................................................  
+13 
+4.2. 
+Control and Reporting Center (CRC) Function and Mission. .................................  
+13 
+AFMAN13-1CRCV3  26 APRIL 2024 
+3 
+4.3. 
+Declaring Operational Status. ..................................................................................  
+15 
+4.4. 
+Flight Crew Information File (FCIF). ......................................................................  
+17 
+4.5. 
+Local Operating Procedures (LOPs). .......................................................................  
+17 
+4.6. 
+Mission Voice Recording. .......................................................................................  
+18 
+4.7. 
+Forms and Logs. ......................................................................................................  
+18 
+4.8. 
+Operations Logbook. ...............................................................................................  
+19 
+4.9. 
+Operations Mission Crew Aid Checklists. ...............................................................  
+19 
+4.10. 
+Crew Force Management. ........................................................................................  
+20 
+Table 4.2. 
+CRC Mission Duty Hours (MDHs) .........................................................................  
+22 
+Chapter 5—UNIT COMMAND CENTER (UCC) 
+ 
+23 
+5.1. 
+Unit Command Center (UCC). ................................................................................  
+23 
+Table 5.1. 
+Control and Reporting Center (CRC) Unit Command Center (UCC) Manning. .....  
+23 
+5.2. 
+Unit Command Center (UCC) Duties. .....................................................................  
+23 
+Chapter 6—MISSION CREW PROCEDURES 
+ 
+27 
+6.1. 
+Mission Crew Overview. .........................................................................................  
+27 
+Table 6.1. 
+Control and Reporting Center (CRC) Tactical Operations Center (TOC) 
+Manning. ..................................................................................................................  
+27 
+Table 6.2. 
+Control and Reporting Center (CRC) Electronic Protection Technician (EPT) 
+Manning. ..................................................................................................................  
+28 
+Table 6.3. 
+Control Reporting Center (CRC) Battle Management Team (BMT) and Sensor 
+Operations Teams (SOT). ........................................................................................  
+28 
+6.2. 
+Common Mission Crewmember Responsibilities. ...................................................  
+28 
+6.3. 
+SL, ABM, WD, and ADAFCO ADAFCA ..............................................................  
+32 
+6.4. 
+AST/SSO, EPT, ICT, and ST, MSO Specific Responsibilities. ..............................  
+37 
+Attachment 1—GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+46 
+Attachment 2—PERIODIC RADAR EVALUATION PROGRAM (PREP) 
+ 
+52 
+Attachment 3—VOICE TELL PROCEDURES 
+ 
+54 
+ 
+4 
+AFMAN13-1CRCV3  26 APRIL 2024 
+Chapter 1 
+GENERAL INFORMATION 
+1.1.  General.  This publication guides the operational readiness and employment of the CRC.  
+Instructions for reference includes, but not limited to: Air Force Manual (AFMAN) 13-1 GBMC2 
+Volume 
+2, 
+Ground 
+Battle 
+Management 
+Command 
+and 
+Control 
+(GBMC2) 
+Standardization/Evaluation Program and AFMAN 13-1CRC Volume 2, Control and Reporting 
+Center (CRC) - Evaluation Criteria. 
+1.1.1.  As a key command and control (C2) element of the Theater Air Control System 
+(TACS), the CRC is subordinate to the Air Operations Center (AOC) in accordance with Air 
+Force Tactics, Techniques and Procedures (AFTTP) 3-1-S/NF, Air Operations Center (AOC) 
+and AFTTP 3-3 AOC.  The CRC is responsible for conducting wide area surveillance, fusing, 
+and forwarding the composite surveillance information, and providing battle management of 
+air operations.  The CRC directly supports the Joint Forces Commander (JFC) and the 
+Combined Forces Component Commander (CFACC) and/or Joint Forces Air Component 
+Commander (JFACC).  The CRC is normally under the operational control of the JFACC and 
+provides, as delegated, decentralized execution of air operations in an assigned battle 
+management area. 
+1.1.2.  The CRC will normally execute and operate in accordance with the CFACC’s or 
+JFACC’s joint air operations plan, air operations directive, master air attack plan, rules of 
+engagement (ROE), area air defense plan, air tasking order (ATO), operational tasking data 
+link, tactical operational data, airspace control order and special instructions.  The CRC is 
+vertically integrated with the AOC and horizontally with the other TACS elements (e.g., E-
+3C/G Airborne Warning and Control System or Air Support Operations Center).  It also 
+integrates with joint C2 resources (e.g., the TAGS).  AFTTP 3-2.17, Multi-Service Tactics, 
+Techniques, and Procedures for the Theater Air-Ground System (TAGS) provides integration 
+procedures for each service C2 and airspace management systems. 
+1.2.  Keywords and Definitions  . 
+1.2.1.  “MUST” and “WILL” indicate a mandatory requirement. 
+1.2.2.  “SHOULD” indicates a preferred, but not mandatory, method of accomplishment. 
+1.2.3.  “MAY” indicates an acceptable or suggested means of accomplishment. 
+1.2.4.  “Note:” indicates operations procedures, techniques, etc., considered essential to 
+emphasize. 
+1.2.5.  Crewmembers in this manual includes members who are assigned or attached. 
+1.3.  Supplements  .  Major commands (MAJCOMs) (e.g., Air Combat Command (ACC), United 
+States Air Forces Europe-Air Forces Africa (USAFE-AFAFRICA), and National Guard Bureau 
+(NGB)) will coordinate their MAJCOM supplements to this manual with Headquarters Air Force 
+(HAF), Air Force (AF) Exercises and Training Division (AF/A3TE) before publication.  Prior to 
+submission, MAJCOM/Operations Divisions (A3) will approve MAJCOM supplements.  These 
+supplements will not duplicate, alter, amend or be less restrictive than the provisions of this 
+manual. (T-1)  Copies of MAJCOM-level supplements, after approved and published, will be 
+provided by the issuing MAJCOM to AF/A3TE, ACC Command and Control and Intelligence 
+AFMAN13-1CRCV3  26 APRIL 2024 
+5 
+Surveillance and Reconnaissance Division (ACC/A3C), the user MAJCOM, and National Guard 
+Bureau Director of Operations (NGB A3/10) OPR. 
+1.3.1.  Units will coordinate their supplements with the next higher group, as applicable, prior 
+to MAJCOM approval.  (T-2)  MAJCOM office of primary responsibility will approve unit 
+supplements.  NGB units will coordinate their supplement with NGB A3/10 who in-turn will 
+forward to ACC/A3C for coordination.  (T-2) 
+1.3.1.1.  Supplemental guidance will not be less restrictive than the basic publication but 
+can be more restrictive.  (T-2) 
+1.3.1.2.  Supplemental guidance will not contradict this manual.  (T-1) 
+1.3.2.  Additional forms required by MAJCOM supplements are approved and issued as AF 
+Forms if they apply to more than one command and comply with Department of the Air Force 
+Instruction (DAFI) 90-160, Publications and Forms Management. 
+1.3.3.  Guidance for MAJCOM and unit supplements is provided in DAFI 90-160 and 
+DAFMAN 90-161. 
+1.4.  Waiver Authority.  Submit waiver requests through the chain of command to the appropriate 
+Tier waiver authority or alternately to the requestor’s commander for non-tiered compliance items. 
+1.4.1.  Waivers will be forwarded to ACC Standardization Branch (ACC/A3TV) (with copies 
+provided to ACC Ground Battle Management Systems Branch (ACC/A3CG)). 
+1.4.2.  Approved waivers will be forwarded (and/or filed) with the ACC/A3TV, with copies 
+provided to ACC/A3CG. 
+6 
+AFMAN13-1CRCV3  26 APRIL 2024 
+Chapter 2 
+ROLES AND RESPONSIBILITIES 
+2.1.  General.  This manual establishes the roles and responsibilities, procedures, and guidance 
+applicable to the conduct of operations of the CRC weapon system.  Additionally, the manual 
+provides operational guidance to the Air Control Squadron (ACS) Commander (CC), Director of 
+Operations (DO), operations supervisors, mission crewmembers, maintenance and/or support 
+personnel (where applicable).  The CRC is comprised of the AN/TYQ-23A tactical air operation 
+module, and associated mission computers, surveillance, and communication systems.  This 
+volume, in conjunction with other governing directives, prescribes those procedures applicable to 
+the operation of the CRC under most anticipated circumstances.  It is, however, not a substitute 
+for sound judgment on the part of the CC and/or DO and CRC personnel.  Operational procedures 
+not specifically addressed in this, or other accompanying guidance may be implemented if it 
+enhances safe and effective mission accomplishment.  The Air Control Squadron Commander 
+(SQ/CC) will report deviations performed without waiver, through channels to ACC/A3CG within 
+48 hours, followed by a written report.  (T-3) 
+2.1.1.  This AFMAN provides that in the absence of additional guidance, CRC mission 
+crewmembers operating equipment other than system of record (i.e., non-system of record) 
+will use this volume as a baseline for conduct of operations at the discretion of the SQ/CC with 
+higher echelon authority.  (T-3) 
+2.1.2.  This publication does not provide tactics, techniques, and procedures for employing the 
+CRC in a combat or contingency environment.  However, guidance for tactical employment of 
+the CRC can be found in the following: AFTTP 3-1-S/NF CRC, Tactical Employment – CRC; 
+AFTTP 3-3.CRC, Combat Aircraft Fundamentals – CRC ; AFTTP 3-3.TACS, Theater Air 
+Control System (TACS); AFTTP 3-2.17; AFTTP 3-1.IPE-S/NF, Integrated Planning and 
+Execution; AFTTP 3-3.IPE; and the CRC Concept of Employment; AFMAN 11-214, Air 
+Operations Rules and Procedures, provides tactics, techniques, and procedures considerations 
+for both training and contingency operations. 
+2.1.3.  Offices of collateral responsibility for this publication are USAFE-AFAFRICIA 
+Command and Control Management Branch (USAFE-AFAFRICA/A3ZJ) and NGB A3/10.  
+This publication does not apply to AETC operations and should only take for reference. 
+2.2.  Scope.  For the purposes of this AFMAN, the 552d Air Control Group and 752d Operations 
+Support Squadron will be referred to as “Group” throughout this AFMAN, and references to 
+“Higher Headquarters” includes HAF, MAJCOM, and Numbered Air Force (NAF) operations 
+functions. 
+2.3.  Headquarters Air Force (HAF). 
+2.3.1.  Air Force Training and Readiness Directorate (AF/A3T).  Establishes directives and 
+guides the execution and operations of the CRC weapon system. 
+2.3.2.  AF/A3TE. 
+2.3.2.1.  Reviews and processes this manual for publication. 
+2.3.2.2.  Reviews MAJCOM supplements to this AFMAN to ensure compliance with basic 
+guidance in this manual. 
+AFMAN13-1CRCV3  26 APRIL 2024 
+7 
+2.3.2.3.  Maintains liaison with HAF organizations, MAJCOMs, and career field managers 
+to ensure compliance by all unit supervisory staff and mission crewmembers. 
+2.3.2.4.  Coordinates with HAF organizations and MAJCOM operations functions to 
+ensure guidance in separate AFIs and AFMANs conforms to and complies with basic AF 
+guidance contained in this manual. 
+2.4.  Major Commands (MAJCOMs).  ACC/A3C is the office of primary responsibility for this 
+volume.  ACC, in conjunction with NGB and USAFE-AFAFRICA, is primarily responsible for 
+establishing administrative processes.  Lower echelons of command are primarily responsible for 
+providing overarching guidance and monitoring the applicability and adherence of established 
+operations procedures. 
+2.4.1.  ACC is designated lead command for the CRC weapon system. 
+2.4.2.  MAJCOM staffs are encouraged to maintain qualification and/or certification currency 
+in CRC mission crewmembers’ functional positions. 
+2.4.3.  ACC supplements this manual as necessary and will review NAF, Group, and unit 
+supplements to this manual. 
+2.4.4.  NGB and USAFE-AFAFRICA supplements are sent to ACC/A3C for coordination 
+prior to submitting for Air Force Deputy Chief of Staff for Operations (AF/A3) approval. 
+2.4.5.  ACC convenes conferences and working groups as necessary, to review and improve 
+CRC operational guidance and procedures. 
+2.4.6.  ACC coordinates and processes applicable DAF Forms 847 through command channels 
+(e.g., Group, NAF (as applicable), and MAJCOM), and in accordance with DAFI 90-160, and 
+forward to ACC/A3TV for processing.  ANG units will utilize the NAF and/or MAJCOM 
+command structure with oversight responsibility and notify NGB A3/10. 
+2.4.7.  ACC ensures compliance with AFI and/or AFMANs and technical orders (T.O.s). 
+2.4.8.  ACC coordinates with safety offices and other government agencies to assist in 
+evaluation and/or determination of safety of flight and/or aircraft mishaps as requested and to 
+determine and immediately initiate appropriate published corrective actions. 
+2.4.9.  ACC conducts staff assistance visits to subordinate units at the request of the SQ/CC 
+and coordinates through the applicable MAJCOM Gatekeeper. For further guidance, see DAFI 
+90-302, The Inspection System of the Department of the Air Force. 
+2.4.10.  ACC observes execution of unit missions and/or training events, etc. when feasible, 
+providing applicable feedback. 
+2.4.11.  ACC provides functional area guidance to subordinate wings, groups and/or units.  
+Establishes procedures in MAJCOM supplements, if applicable. 
+2.4.12.  ACC addresses time sensitive changes by AF Guidance Memorandum.  Coordinates 
+guidance in accordance with DAFI 90-160 with NGB A3/10 and USAFE-AFAFRICA/A3ZJ 
+so that appropriate guidance can be issued in coordination with those MAJCOMs. 
+8 
+AFMAN13-1CRCV3  26 APRIL 2024 
+2.5.  Wings and/or Groups. 
+2.5.1.  Resolves major operational issues that arise between units within their purview.  The 
+lead MAJCOM will perform this action for ANG subordinate CRC units. 
+2.5.2.  Provides staff support and assists units to meet unit type code (UTC), mission capability 
+statements, and missions’ essential tasks readiness requirements. 
+2.5.3.  Forwards recommended supplements to this manual and any supporting documents to 
+the parent MAJCOM for review. 
+2.5.4.  Identifies operational shortfalls that adversely affect combat capability through 
+appropriate channels in accordance with AFI 10-201, Force Readiness Reporting. 
+2.5.5.  Reviews & maintains duty position descriptions for all assigned positions. 
+2.6.  Squadron Commanders (SQ/CCs). 
+2.6.1.  Ensures the CRC will be equipped, organized, and the assigned operations personnel 
+are trained to a combat mission ready (CMR) and/or basic mission capable status.  (T-3) 
+2.6.2.  Ensures CRC maintenance and support personnel are trained to perform their duties and 
+responsibilities to positively affect operational mission accomplishment to meet the unit’s 
+mission capability statement and mission essential tasks readiness requirements.  (T-3)  
+SQ/CCs will report deviations through the operational chain-of-command tactical control 
+authority.  (T-3) 
+2.7.  Organization. 
+2.7.1.  ACC/A3 and USAFE-AFAFRICA/A3ZJ provides management of their respective 
+command operations programs and establishes responsibility for implementation of the 
+program as outlined in this manual. 
+2.7.2.  ACC/A3C provides guidance to conduct CRC operations and implements the program 
+as outlined in this manual, safely and efficiently, in coordination with National Guard Bureau 
+Director of Operations (NGB A3/10) and USAFE-AFAFRICA/A3ZJ. 
+2.7.3.  Each MAJCOM may use CMR and/or basic mission capable augmentees from other 
+MAJCOMs to support or conduct cross-command program reviews of operations procedures, 
+with coordination and concurrence of the MAJCOM organizations involved (e.g., ACC/A3CG, 
+USAFE-AFAFRICA/A3ZJ, and NGB A3/10).  Augmentees will use the criteria of the 
+MAJCOM they are augmenting.  Augmentees will be CMR and/or basic mission capable in 
+the mission design series of the unit in which they are supporting; further guidance found in 
+AFMAN 13-1CRC Volume 1, Control and Reporting Center (CRC) – Training.  (T-3) 
+2.7.4.  Squadron leadership is defined as the CC, DO, and senior operations enlisted (i.e., E-8 
+and E-9) personnel.  Squadrons are encouraged to exercise flexibility when creating and 
+executing tailored operations training plans which will allow squadron leadership to capitalize 
+on personnel with previous Battle Management Command and Control (BMC2) platform 
+experience.  This will also have the added benefit of allowing allocation of training resources 
+to less experienced operators.  While flexibility is encouraged, all training guidance can be 
+found in AFMAN13-1CRCV1.  It is not the intent for squadron leadership to be assigned to a 
+formed mission crew and this should be done strictly by exception only. 
+AFMAN13-1CRCV3  26 APRIL 2024 
+9 
+Chapter 3 
+DEPLOYMENT AND MISSION PLANNING 
+3.1.  Deployment Planning.  The deployment of the CRC in whole or part may be required to 
+directly support an Air and Space Expeditionary Task Force or an Air and Space Expeditionary 
+Force contingency operations regardless of location, complexity, and duration with little or no 
+warning. 
+3.1.1.  Future operational contingency environments may dictate employing the CRC in 
+dynamic, non-traditional configurations.  Consideration of employment risk options must be 
+considered when operating from either a main operating base, forward operating base, or 
+deployed radar site, in contested and/or highly contested environments that may cover vast 
+geographical areas of operations.  (T-3) 
+3.1.2.  Dynamic employment continuum requires the SQ/CC to exercise flexibility to mitigate 
+risks with consideration for mission requirements in concert with recommending optimum 
+placement.  However, CCs must retain the capability to react and adjust CRC placement as the 
+threat environment moves along the uncontested to the highly contested tactical threat 
+spectrum.  (T-3)  CRC personnel should consult AFTTP 3-1.IPE, for additional considerations. 
+3.1.3.  In anticipation of or the actual receipt of the deployment warning order, the SQ/CC will 
+activate the unit deployment control center to facilitate deployment planning in accordance 
+with AFI 10-403, Deployment Planning and Execution.  (T-3)  The SQ/CC will determine the 
+unit deployment control center manning, but effective deployment planning must be inclusive 
+of the entire CRC complex to include operations, support, and maintenance.  (T-3)  AFTTP 3-
+1.CRC and AFTTP 3-3.CRC series volumes should be referred to for an extensive set of 
+deployment checklists and planning considerations.  In addition, the SQ/CC must take 
+proactive pre-warning order steps in consideration of the actual deployment to include site 
+surveys as time and resources permit.  (T-3) 
+3.1.4.  The SQ/CC will organize and plan, deploy, and execute tasked missions through 
+employment of UTCs: CRC Lead Element (7FVBL), Follow-BMC2 (7FVWL), and Deployed 
+Radar (DR) (7FVDC) UTCs.  (T-3)  In addition, the ANG employs the Mission Equipment 
+Technical Specialist (7FVBW) UTC.  Required associated communications, support vehicles, 
+and equipment are resident with the 7FVBL, 7FVWL, and 7FVDC UTCs.  However, 7FVBL, 
+and 7FVWL UTCs are not considered mobile and will require host operating base logistical 
+support.  The 7FVDC UTC maintains a fully mobile capability. 
+3.2.  Mission Planning.  The SQ/CC will actively direct the execution of the unit’s operation’s 
+schedule and mission planning effort; however, the CC may delegate authority to the DO.  (T-3)  
+The CC and/or DO will ensure that all operations personnel are provided with the requisite support 
+to plan and execute the mission.  (T-3)  They will ensure the mission crewmembers and mission 
+planners have no barriers to mission planning and ensure that every mission is thoroughly planned, 
+briefed, executed, and debriefed.  (T-3) 
+3.2.1.  The responsibility for the conduct of mission planning is shared between mission crew 
+leads and the designated mission planning cell (MPC) chief.  In coordination, they will ensure 
+the CRC is properly prepared for the assigned tasking.  (T-3) 
+10 
+AFMAN13-1CRCV3  26 APRIL 2024 
+3.2.2.  The CC and/or DO will ensure that the intent of mission planning, whether for an in-
+garrison daily training event or contingency operations, is to prioritize and focus the efforts of 
+the CRC and in particular the mission crewmembers to meet established training objectives.  
+(T-3)  Additionally, an objective in the case of contingency operations is the responsibility for 
+radar surveillance and the direction and/or control of air operations supporting the CFACC or 
+JFACC.  The CC will delineate areas of responsibility, fully develop courses of action (COAs), 
+identify required resources, and identify, evaluate, and mitigate risks and/or threats.  (T-3) 
+3.3.  Mission Planning Cell (MPC).  The MPC ensures that mission crewmembers have access 
+to the most current operational and intelligence information for effective mission execution 
+derived from all available sources.  (T-3)  The SQ/CC may activate the MPC while still in-garrison 
+in anticipation or receipt of a real-world alert, warning, or execute order.  The CRC MPC is the 
+single point of contact for the planning, tactical level coordination, and briefing and/or debriefing 
+of tasked completed missions.  The MPC chief will ensure that the necessary mission and support 
+equipment has been identified, available, and configured to execute the tasked mission.  (T-3)  The 
+MPC Chief (Section Lead (SL)), and staff (e.g., Air Battle Manager (ABM), Air Surveillance 
+Technician (AST), Senior System Operator (SSO), Interface Control Technician (ICT), Mission 
+System Operator (MSO), and/or Intelligence (INTEL) personnel) will ensure the mission crew is 
+provided the most current information for effective mission execution.  (T-3)  In addition to MPC 
+members maintaining CMR or basic mission capable status, selected individual crewmembers (i.e., 
+ABM, AST, ICT, and MSO), should complete additional training (e.g., tactical data link (TDL)) 
+courses in accordance with Table 3.1 below.  The MPC should also be activated for mission 
+training exercises to develop, exercise, and validate unit planning tactics, techniques, and 
+procedures.  The unit will maintain a MPC in accordance with Table 3.1. (T-3)  However, the 
+SQ/CC may choose the appropriate manning to meet mission tasking.  The Group/CC (or 
+equivalent) may issue a waiver for the qualification and certifications requirements detailed in 
+Table 3.1. 
+ 
+ 
+AFMAN13-1CRCV3  26 APRIL 2024 
+11 
+Table 3.1. CRC Mission Planning Cell (MPC) Manning 
+Function 
+# 
+Qualification and/or Certification 
+MPC Chief 
+1 W13B3D, SL - certified ABM 
+Deputy MPC Chief 
+1 W13B3D, SL - certified ABM or W1C5X1D 
+Air Battle Manager (ABM) 
+2 1x JICO, (JT301*, SEI-Y8H**)  
+Air Surveillance Technician (AST), 
+Mission System Operator (MSO), 
+and/or Senior System Operator (SSO) 
+2 1x Master of TDL Employment.  (JT310*, SEI-
+1BD**) 
+Interface Control Technician (ICT) 
+and/or Mission System Operator 
+(MSO) 
+2 1x Multi-TDL Advanced Joint Interoperability 
+(JT-102, SEI-1BB**), 
+1x Multi-TDL Ops Planner Manager (JT-201, SEI-
+1BC**) 
+Weapons Director (WD) 
+8 2 of 8 WD (SEI-904**) 
+Intelligence (INTEL) 
+3 
+3x 1N0X1*** 
+Notes: 
+*Prerequisite Course for JT301/JT310 are JT102 and JT201. 
+**Special Experience Identifiers (SEIs) 
+***ANG CRCs are authorized one Air Force Specialty Code (AFSC) 14N and two AFSC 1N0X1. 
+If necessary, qualified personnel from the mission crew may augment the MPC as required. 
+MPC may be tailored in size, and/or manning, and/or grade to meet mission requirements. 
+MPC personnel may also substitute for mission crewmembers if required. 
+Prerequisites guidance can be found in AFMAN 13-116 Tactical Data Link Planning and 
+Operations. 
+3.4.  Intelligence (INTEL).  The unit INTEL personnel provide the SQ/CC and mission crew 
+through the MPC, accurate, timely intelligence support to enhance operations mission planning to 
+effectively execute assigned missions; further guidance found in AFI 14-1020, Intelligence 
+Mission Qualification and Readiness.  The unit intelligence section within the MPC is responsible 
+for, but not limited to the following: 
+3.4.1.  INTEL personnel will be responsible for planning and executing the CRC intelligence 
+functions during all phases of operations to include, but not limited to mission planning, unit 
+theater certification program, threat analysis, threat training, briefing and/or debriefing 
+support, and after mission reporting through directed channels.  (T-3) 
+3.4.2.  INTEL personnel will ensure the unit is equipped with all intelligence systems, 
+checklists, and reference library required to support operations.  (T-3) 
+3.4.3.  Guidance for INTEL personnel to organize, train and be evaluated is provided in AFI 
+14-1020, as applicable. 
+12 
+AFMAN13-1CRCV3  26 APRIL 2024 
+3.4.4.  If no unit intelligence personnel are assigned and/or available, the Squadron 
+Commander (SQ/CC) and/or Director of Operations (DO) will initiate a memorandum of 
+agreement for unit INTEL support with the appropriate host wing and and/or group 
+organization.  (T-3) 
+3.4.5.  Mission Planning, Briefing and/or Debriefing.  Mission planning, briefing and/or 
+debriefing and reporting guidance can be found in in accordance with AFTTP 3-3.CRC and 
+briefing and debriefing guides found in the CRC crew aids checklists. 
+3.5.  Mission Planning Task Overview.  AFTTP 3-1.CRC; AFTTP 3-3.CRC; AFTTP 3-1.IPE; 
+and AFTTP 3-3.IPE, should be consulted for more in-depth deployment, employment and 
+operations planning considerations.  If the MPC is not activated, mission crewmembers will 
+accomplish, as a minimum, the following items: 
+3.5.1.  Review all relevant operational mission documents to include, but not limited to joint 
+air operations plan, air operations directive, master air attack plan, ROE, ATO, airspace control 
+order, airspace control plan, operational tasking data link, tactical operational data, and special 
+instructions.  (T-3) 
+3.5.2.  Develop a communication plan and obtain equipment status from the unit 
+Communications Focal Point (CFP) Section.  (T-3) 
+3.5.3.  Manipulate standard crew profile and perform updates to meet mission requirements.  
+(T-3) 
+3.5.4.  Perform post mission data analysis and/or reconstruction and archive mission results as 
+required.  (T-3) 
+3.5.5.  Plan radar, communications, and TDL employment with applicable mission objectives, 
+directives, local operating procedures (LOPs), checklists and guides.  (T-3) 
+3.5.6.  Assess impact of equipment limitations and develop COAs to mitigate risk to mission 
+operations.  (T-3) 
+3.5.7.  Coordinate CRC mission interests with the AOC Chief of Combat Plans division and/or 
+the appropriate section of the joint air operations plan, master air attack plan, ROE, air 
+operations directive, ATO, airspace control order, airspace control plan, operational tasking 
+data link, tactical operational data, special instructions, etc.  (T-3) 
+3.5.8.  Coordinate with the AOC CRC liaison officer for the integration of the CRC into theater 
+employment plans for specific CRC planning factors and issues.  (T-3) 
+AFMAN13-1CRCV3  26 APRIL 2024 
+13 
+Chapter 4 
+OPERATIONS 
+4.1.  Operations.  The CRC has the capability to conduct BMC2 of forces, including assuming 
+the role and responsibilities of Regional Air Defense Commander (RADC) or Sector Air Defense 
+Commander (SADC), and the functions of airspace management found in Joint Publication (JP) 
+3-52, Joint Airspace Control, air surveillance, combat identification, and TDL operations.  The 
+mission success is dependent upon operationally configured equipment, systems and assigned 
+personnel in CMR and/or basic mission capable status to prosecute the mission.  Unit personnel 
+and mission crewmembers will be thoroughly prepared to practice communications and operations 
+security in accordance with AFMAN 17-1302-O, Communication Security (COMSEC) 
+Operations, and AFI 10-701, Operations Security (OPSEC), and be knowledgeable of current 
+friendly and adversary operation’s information to effectively operate in contested and highly 
+contested environments with fully operational or degraded systems.  (T-3)  To operate within the 
+combatant command’s directives, the CRC may be required to mobilize and deploy assigned 
+personnel and/or equipment.  If unit deployment is required the CRC will, within 24 uninterrupted 
+hours upon arrival at the designated employment site (e.g., main operating base, forward operating 
+base, or deployed radar site), declare the ability to meet the combatant command’s tasked 
+requirements.  (T-3) 
+4.2.  Control and Reporting Center (CRC) Function and Mission.  The CRC function is to 
+facilitate decentralized execution of joint or combined air operations on behalf of the CFACC or 
+JFACC.  The CRC executes its assigned mission as assigned by the CFACC or JFACC, in 
+accordance with the joint air operations plan.  Additionally, the CRC will support the CFACC or 
+JFACC air operations current planning and execution effort by maintaining a common tactical 
+picture which contributes to an integrated AOC common operational picture.  (T-3)  The physical 
+placement, location, and configuration of a CRC to conduct these operations are tailorable and 
+flexible to best meet mission objectives in their assigned area of responsibility or battle 
+management area. 
+4.2.1.  Battle Management Command and Control (BMC2).  BMC2 of air forces is the 
+management of activities within the operational environment based on the commands, 
+direction, and guidance given by appropriate combatant command’s authority.  C2, including 
+battle management, is the binding element that integrates capabilities and operations within 
+and among joint forces.  Battle management entails visualizing and employing where, when, 
+and with which forces to apply capabilities to achieve assigned mission objectives. 
+4.2.2.  BMC2 of air forces for the CRC is the art of translating real-time battlespace awareness, 
+operational guidance (e.g., execute delegated authorities), and combat potential into decisive 
+action at the tactical level.  CRC BMC2 is enabled by CMR operators using battlespace 
+situational display computer operator workstations (OWSs), and robust communications 
+equipment to receive, display and interpret battlespace information to include space and 
+cyberspace information and taking tactical action based on the near real-time situation.  The 
+equipment suite provides an intuitive human machine interface (e.g., visual displays, 
+communications connectivity, and the network centric interoperability systems and 
+components) that enable CRC operators to make decisive and timely tactical decisions in the 
+battlespace.  Effective BMC2 requires situational awareness, managing available resources, 
+14 
+AFMAN13-1CRCV3  26 APRIL 2024 
+directing, and controlling the correct tactical action in a timely manner, and monitoring and 
+assessing mission execution.  To execute the CRC mission, the CRC conducts and/or provides 
+the following mission essential functions: 
+4.2.2.1.  Weapons Control.  The CRC supports and/or coordinates defensive counter air 
+and/or offensive counter air, air interdiction, air refueling, close air support, combat search 
+and rescue and/or personnel recovery, high value airborne asset protection, destruction 
+and/or suppression of enemy air defenses, electronic warfare, intelligence, surveillance, 
+reconnaissance, special operations, and the direction of air defense artillery weapon 
+systems for theater air defense.  Guidance to conduct these missions can be found in: JP 3-
+09; Joint Fire Support; Air Force Doctrine Publication (AFDP) 3-0, Operations and 
+Planning; AFDP 3-01, Counterair Operations; AFDP 3-03, Counterland Operations; 
+AFDP 3-05, Special Operations; AFDP 3-27, Homeland Operations; AFDP 3-30, 
+Command and Control; AFDP 3-50, Personnel Recovery; AFTTP 3-2.90, Personnel 
+Recovery; AFDP 3-52, Airspace Control. 
+4.2.2.2.  Air and Missile Defense BMC2.  The CRC is organized, trained, and equipped to 
+execute integrated air and missile defense.  The CRC can assume the role as RADC or 
+SADC on behalf of the Area Air Defense Commander, normally the JFACC.  The mission 
+for the CRC is to ensure its capabilities are integrated with overlapping TACS and joint 
+elements to defend the homeland and deployed United States (US) or coalition assets.  It 
+is tied to the counter air mission that emphasizes integrating both offensive counter air with 
+defensive counter air operations at the theater level to gain and maintain air superiority.  
+Integration of the CRC into the existing TACS architecture includes the operational 
+relationships, interfaces, and control capabilities and responsibilities with other 
+overlapping BMC2 and lethal resources to defend US or coalition assets to gain and then 
+maintain air superiority.  Effective coordination between the CRC SL and the US Army 
+Air Defense Artillery Fire Control Officer (ADAFCO) and/or US Army Air Defense 
+Artillery Fire Control Assistant (ADAFCA) directing US Army air defense artillery assets 
+is paramount to effect successful engagement of any air and missile threat regardless of 
+type.  When deployed, ADAFCO and/or ADAFCA personnel will be resident in the CRC 
+and will augment the mission crew as required.  (T-3) 
+4.2.2.3.  Airspace Management.  Airspace management is the implementation of the 
+airspace control order on behalf of the AOC airspace control authority, normally the 
+JFACC, in accordance with JP 3-52.  The CRC provides positive and procedural airspace 
+management with guidance from Air Land Sea Space Application (ALSSA) AFTTP 3-
+2.78, Multi-Service Tactics, Techniques, and Procedures for Airspace Control (Airspace 
+Control).  These tasks include aerial refueling, pre- and/or post-strike force marshaling and 
+recovery, airspace activation, enroute tactical flight following (e.g., tracking and 
+deconfliction), procedural control in support of non-combatants, air interdiction, close air 
+support, kill box interdiction, or strike coordination and reconnaissance.  The CRC may 
+also support continental US Air Defense and/or Homeland Security in accordance with 
+AFDP 3-27.  The CRC implements airspace control order elements to include tanker 
+anchors, transit boulevards, air routes, and other airspace control measures to route aircraft 
+safely and efficiently through the battle management area enroute to their designated 
+working areas.  Airspace control measures will be created dynamically with the use of 
+restricted operating zones, high density air control zones, missile engagement zones, and 
+AFMAN13-1CRCV3  26 APRIL 2024 
+15 
+joint engagement zones, etc., and requires flexibility and attention to detail to manage 
+effectively and safely.  (T-3) 
+4.2.2.4.  Air Surveillance.  The SL and AST/SSO/MSO will ensure a recognizable air 
+picture is established internal to the CRC and provided to CRC operators and supported 
+friendly forces.  (T-3)  Operators will detect, identify, classify, and track airborne objects 
+within sensor coverage for its assigned area of responsibility.  (T-3)  Operators will 
+correlate, prioritize, and apply all-source and/or sensor data into its common tactical 
+picture, and forward the picture providing battlespace awareness to the AOC’s common 
+operational picture which displays a fused and correlated air, ground, and maritime sensor 
+data picture.  (T-3) 
+4.2.2.5.  Combat Identification.  The CRC has a limited capability to determine combat 
+identification through positive and procedural means.  It has the capability, once 
+established, to disseminate timely, accurate, and relevant positive identification 
+information to allow successful engagement of hostile targets in accordance with theater 
+ROE.  In addition to organic system capabilities that support lack-of-friendly and presence-
+of-friendly characterization (e.g., identification, friend, or foe/selective identification 
+feature (IFF/SIF), the CRC leverages combat identification capable off-board assets and 
+processes, to provide the CRC a fused-sensor positive identification capability. 
+4.2.2.6.  Tactical Data Link (TDL) Management.  The SL and AST/SSO/MSO will ensure 
+an optimum common tactical picture is planned, established, managed, and provided, to 
+operations internally and provided to supported external friendly forces through effective 
+TDL management.  (T-3)  TDL management is facilitated by the effective planning, 
+analysis, and monitor of the multi-tactical data link network(s).  It includes the reception 
+of sensor data (i.e., from organic AN/TPS-75 radar system(s) and additional external 
+sensors), processing, and forwarding of the CRC recognizable air picture to the AOC and 
+other BMC2 nodes to include lateral joint agencies.  The CRC consolidates organic (i.e., 
+AN/TPS-75), and non-organic sensor data into the CRCs common tactical picture for 
+distribution over established TDLs.  It is also responsible for the digital display and transfer 
+of battle management data via data link message sets and commands.  Additionally, under 
+the direction of the AOC’s Joint Interface Control Officer, the CRC may be tasked to 
+manage a region or sector of the multi-tactical data link network(s) architecture within its 
+area of responsibility and therefore assume the role of Region or Sector Interface Control 
+Officer.  The CRC supports Joint Range Extension Application Protocol A, and/or B, 
+and/or C, Satellite-J, Serial J, Link 11, Link 11B, Link 16, and Situation Awareness Data 
+Link.  The CRC can act as a data forwarder by transmitting its tactical data vertically and/or 
+horizontally to the AOC and other lateral, joint, or combined theater C2 nodes.  The Joint 
+Interface Control Officer is responsible for the planning, establishing, and maintaining the 
+theater multi-tactical data link network(s) and providing a common tactical picture input 
+to the joint data network for integration into the AOC’s common operational picture. 
+4.3.  Declaring Operational Status.  A fully mission capable system is the ultimate objective of 
+the maintenance effort.  This manual, crew aid checklists, unit, theater contingency LOPs and 
+special instructions, as applicable, outlines the conditions to declare operational status for both 
+contingency and in-garrison operations.  In the absence of directive theater guidance, the minimum 
+operational requirements outlined in the CRC crew aids in conjunction with the below listed items 
+are used to declare operational status.  In general terms, the Commander and/or DO will utilize the 
+16 
+AFMAN13-1CRCV3  26 APRIL 2024 
+following in declaring operational status in a deployed environment: (1) securing and completing 
+site bed-down (if required), (2) critical mission equipment operational, (3) priority 
+communications and datalinks are established per training, exercise plan, theater operations plan, 
+or Annex K, Theater Communications Plan, and (4) CMR and/or basic mission capable mission 
+crew briefed and in position and able to conduct mission operations will constitute declaration of 
+status.  (T-3) 
+4.3.1.  The SL for contingency operations or the senior ranking operator for in-garrison training 
+missions will declare and then report the operational status of the weapons system based on 
+the operational tasking through appropriate reporting channels.  (T-3)  The SL or senior 
+ranking officer will report the estimated time required to return to fully mission capable.  (T-3)  
+Mission capable status is characterized and reported as meeting one of the following: 
+4.3.1.1.  Fully Mission Capable.  All mission support systems, subsystems, and 
+components are functioning as designed.  Fully mission capable provides the capability to 
+fully accomplish 100% of the mission objectives tasked by the CFACC or JFACC or the 
+established in-garrison training objectives without mission degradation or impact. 
+4.3.1.2.  Partially Mission Capable.  One or more mission support systems, subsystems, or 
+components are not functioning.  Partially mission capable status denotes an ability to 
+accomplish some, but not all, of the established mission objectives tasked by the CFACC 
+or JFACC or the established in-garrison training objectives while experiencing partial 
+mission degradation. 
+4.3.1.3.  Non-Mission Capable.  The total inability to accomplish the assigned mission 
+objectives tasked by the CFACC or JFACC or any portion of the established in-garrison 
+training objectives due to failure of mission support systems, subsystems, or components. 
+4.3.1.4.  Risk Mitigation.  After thorough risk mitigation in accordance with AFI 90-802, 
+Risk Management, and AFPD 10-24, Mission Assurance, the SL, or the senior ranking 
+operator (i.e., for in-garrison training missions), will determine a course of action for the 
+feasibility of continuing mission operations under degraded conditions (e.g., degraded 
+sensors, support equipment, required CMR and/or basic mission capable personnel).  (T-3) 
+4.3.2.  Guidance as provided by unit or theater LOPs and special instructions take precedence 
+over these published minimums when applicable.  The SL will, after ensuring the minimum 
+mission capable and risk mitigation requirements are met, call the CFP and in turn higher 
+echelon authority (e.g., AOC, if required) to declare operational status.  (T-3) The following, 
+but not limited to the following will be considered prior to declaring operational status: 
+4.3.2.1.  Previously planned UTCs are on-site and operational to accomplish the tasked 
+mission.  (T-3) 
+4.3.2.2.  The CRC SL regardless of having received a threat assessment by appropriate 
+higher echelon authority (e.g., AOC), will establish acceptable risk to the CRC.  (T-3) 
+4.3.2.3.  SL and AST/SSO/MSO will complete the step positional briefings (or the MPC 
+step briefing) to their respective battle management team (BMT) and/or sensor operations 
+team (SOT) prior to reporting to their respective duty positions in the tactical operations 
+center (TOC).  (T-3)  The SL and AST/SSO/MSO will update the mission crewmembers 
+with changes as appropriate.  (T-3) 
+AFMAN13-1CRCV3  26 APRIL 2024 
+17 
+4.3.2.4.  Once equipment is released to the mission crew, crewmembers will initiate 
+checkout of equipment utilizing unit mission crew aids, LOPs, and standard operating 
+procedures as appropriate.  (T-3) 
+4.3.2.5.  Periodic radar evaluation program (PREP) assessment will be completed on the 
+units’ radar(s), to include the DRs, by the Electronic Protection Technician (EPT) (or 
+certified PREP crewmember), and status and/or results reported to the SL/AST/SSO/MSO.  
+(T-3) 
+4.3.2.6.  Sensor correlation checks will be completed by the SL and/or AST/SSO/MSO to 
+determine optimum or minimally acceptable radar and IFF/SIF settings as referenced in 
+LOPs, letters of agreement and/or memorandums of understanding, mission crew aid 
+checklists, worksheets, or as specified in Federal Aviation Administration (FAA) JO 
+7610.14, Non-Sensitive Procedures and Requirements for Special Operations, if tasked as 
+a military radar unit or tactical monitor.  (T-3) 
+4.3.2.7.  Database management which includes the battle management computer, support 
+databases, and communication systems will be monitored to provide an accurate digital 
+display and transfer of battle management data and commands.  (T-3) 
+4.3.2.8.  All mission support equipment (e.g., datalinks, radios, computer, encryption 
+devices) must be available to conduct assigned tasking.  (T-3) 
+4.3.2.9.  The CRC has established communications with organizations exercising tactical 
+control.  In addition, communications are established with all external agencies and units 
+in which the CRC must have immediate communications and datalink connectivity to 
+effect mission operations.  (T-3) 
+4.4.  Flight Crew Information File (FCIF).  The flight crew information file is multi-volume and 
+available to mission crewmembers, consisting of current information essential to the conduct or 
+mitigation of operations or emergency situations.  The read file portion of the flight crew 
+information file centralizes significant, time sensitive issues and procedures that are to be 
+disseminated to operations personnel.  The content and management of the flight crew information 
+file is prescribed in AFMAN 13-1GBMC2 V2. The SL is responsible for ensuring all 
+crewmembers review required read-files prior to assuming operational duties.  (T-3) 
+4.5.  Local Operating Procedures (LOPs).  Each unit will create LOPs which will further define 
+procedures for operating in-garrison training environment.  (T-3)  It may be necessary to also 
+create LOPs for deployed locations if deemed necessary, for information not contained in theater 
+guidance (e.g., special instructions). 
+4.5.1.  DAFMAN 90-161, prescribes the paragraph method as the only authorized approach to 
+supplement an AFMAN, therefore supplemented material must be arranged in accordance with 
+the basic publication it is to supplement.  Units may publish guidance in a single, stand-alone 
+local operating instruction and/or manual instead of supplementing this AFMAN. 
+4.5.2.  The DO will sign the unit’s LOP and ensures it is filed in Volume 3 of the flight crew 
+information file.  (T-3) 
+4.5.3.  The DO will ensure the LOP is reviewed for currency as required, or at least every 18 
+months and certifies with a memorandum for record.  (T-3) 
+18 
+AFMAN13-1CRCV3  26 APRIL 2024 
+4.5.4.  Interim changes (ICs) made to the LOP do not cause the LOP to expire.  ICs are formally 
+integrated into the LOP at the next 18-month review period.  MFRs are not used to extend an 
+LOP with ICs attached. 
+4.6.  Mission Voice Recording.  All missions involving the control of live aircraft will be 
+recorded to the maximum extent possible.  (T-3)  Voice recording of missions is essential to 
+provide necessary forensic information concerning declared aircraft emergencies, aircraft 
+accidents, and/or any event resulting in a subsequent civilian or military investigation.  Recording 
+also provides an asset in debriefing and determining lessons learned and for the development of 
+tactics, techniques, and procedures.  Units will utilize a standard designating and labeling format 
+for logging mission recordings.  (T-3)  Format is YYYYMMDD-Mission Profile-Last Name of 
+mission crewmember (e.g., 20180615-DCA-Brady).  (T-3) 
+4.6.1.  Chat provides text-based, secure, real-time, persistent communications within the CRC 
+external agencies.  Chat recording logs will be maintained, marked, handled, stored, and 
+disposed with guidance from Department of Defense Manual (DoDM) 5200.01 Volume 
+2_AFMAN 16-1404 Volume 2, Information Security Program: Marking of Classified 
+Information, and AFI 33-322.  (T-3) 
+4.6.2.  Both video and voice recording media of training and/or operational mission events is 
+required to be retained for instructional debrief or reconstruction of real-world events.  The SL 
+or higher authority may direct specific media products (to include Chat logs), to be retained 
+and secured for a specific reason (e.g., aircraft accident or operational incident) of possible 
+interest to both the mission crew or external agencies (e.g., FAA or USAF Accident 
+Investigation Board).  The SL will ensure the recorded media will be identified, marked, and 
+retained in a secure container and/or electronic medium for a period of six months or until 
+request is adequately satisfied.  (T-3)  When storing media, mark appropriately with the 
+requester’s name, rank, duty title, organization, and disposition instructions if known.  In 
+addition, annotate the media's classification (e.g., at least Secret), YYYYMMDD-Mission 
+Profile-Last Name of mission crewmember (e.g., 20180615-DCA-Brady).  The SL will ensure 
+this information will also be logged in the Operations Logbook.  (T-3) 
+4.6.3.  The DO will ensure that personnel are trained, and that procedures are in place when 
+required to provide immediate forensic reconstruction of media related to flight safety or 
+critical mission events.  (T-3) 
+4.7.  Forms and Logs.  This manual prescribes and directs the use of AF Form 4145, Daily 
+Activity Log and AF Form 4146, Mission Briefing Guide.  Units with access to the Learning 
+Management System, the Patriot Excalibur system, or another MAJCOM-approved programs will 
+use the applicable program as the primary system of documentation.  (T-3)  The DO will ensure 
+AF Forms 4145, or locally generated equivalent forms are readily available to meet training and 
+operational requirements in support of CRC daily operations prior to the start of mission 
+operations.  (T-3) 
+4.7.1.  The SL, DO designee, or senior ranking operator will be responsible for the Daily 
+Activity Log.  (T-3)  The form is required to be completed and signed at the completion of 
+each mission crew shift and forwarded to the DO for approval and signature.  The Daily 
+Activity Log provides a complete summary of all mission crew operations for a particular shift 
+and is an important tool for data correlation and analysis. 
+AFMAN13-1CRCV3  26 APRIL 2024 
+19 
+4.7.2.  Mission crewmembers will use AF Form 4146 or locally generated equivalent form to 
+brief missions, record mission results, and serve as a record of unit and individual control 
+activities.  (T-3)  ABMs and/or WDs will use the form to record all control activities conducted 
+and will forward to the SL for review and signature.  (T-3)  The AF Form 4146 or equivalent 
+form will be attached to AF Form 4145 and submitted to the unit Host Aviation Resource 
+Management office, with guidance from 1C0X2 Guide for Ground Based Radar Air Battle 
+Manager Duties, and DAFMAN 11-401, Aviation Management.  (T-3) 
+4.8.  Operations Logbook.  The operations logbook is the official record of significant mission 
+events that occurred during either in-garrison or real-world contingency operations.  When in-
+garrison, the logbook will be maintained in accordance with squadron LOPs.  (T-3)  The purpose 
+is to maintain an accurate and detailed record of all significant events pertaining to operations 
+occurring during each mission crew shift or event.  Of primary importance are specific events that 
+may result in subsequent investigations.  The logbook is not required for day-to-day training 
+missions, but should be utilized for unit training exercises, field deployments, etc.  The operations 
+logbook is contained in a permanently bound ledger or journal, or through electronic recording 
+methods.  The SL will ensure the logbook is maintained exercising the following procedures: 
+4.8.1.  Classification of the operations logbook or electronic medium will be marked to the 
+highest classification of its content.  (T-3)  The logbook will be marked, handled, and stored 
+in accordance with DoDM 5200.01V2 and AFMAN 16-1404V2.  (T-3) 
+4.8.2.  The SL or the responsible individual designated by the SL will ensure the logbook is 
+opened at 0001Z or at the beginning of the duty day and closed at 0000Z or the end of the duty 
+day.  (T-3) 
+4.8.3.  Record information not already noted and/or recorded in another authorized document 
+or system unless it is deemed appropriate for clarity, understanding or classification.  (T-3) 
+4.8.4.  Record time of each entry (ZULU time) and call signs of unit(s) sending and/or 
+receiving information.  (T-3) 
+4.8.5.  The SL or the responsible individual designated by the DO will annotate in the 
+Operations Logbook their name and rank, crew position, and start/end time of their tour of 
+duty.  (T-3)  This certifies all entries are accurate and reflect a complete record of the tour of 
+duty.  (T-3) 
+4.9.  Operations Mission Crew Aid Checklists.  Mission crew aid checklists (hereafter to be 
+designated “crew aid checklists”) are a standard set of documents that contain pertinent 
+information extracted from applicable sources to facilitate mission execution.  Crew aid checklists 
+serve only as a guide and are not a substitute for directive guidance. 
+4.9.1.  Crew aid checklists may contain as an example: charts, diagrams, unit and agency phone 
+directories, unit listings, indexes, airspace and anchor depictions, and other unclassified 
+reference information deemed useful to the conduct of mission planning and operations. 
+4.9.2.  Crew aid checklists with approved ACC and unit supplemental materials, will be 
+maintained, reviewed, and distributed in a manner deemed appropriate by the unit DO.  (T-3)  
+They will be made available on position for unit command center (UCC) and TOC personnel, 
+or each mission crewmember will be issued an individual copy.  (T-3)  However, it will be the 
+20 
+AFMAN13-1CRCV3  26 APRIL 2024 
+individual mission crewmember’s responsibility to ensure the crew aid checklists are on-hand 
+or on-position and used as appropriate.  (T-3) 
+4.9.3.  Mark the classification of the crew aid checklists to the highest classification of its 
+content.  The crew aid checklists will be marked, handled, and stored in accordance with 
+DoDM 5200.01V2/AFMAN 16-1404V2 and 5200.01 Volume 3/AFMAN 16-1404 Volume 3, 
+Information Security Program: Protection of Classified Information.  (T-3) 
+4.9.4.  ACC/A3CG is responsible for maintaining the master copy of mission crew aids.  The 
+crew 
+aids 
+are 
+available 
+on 
+the 
+ACC/A3CG 
+SharePoint® 
+page 
+at: 
+https://usaf.dps.mil/sites/10680/SitePages/Home.aspx, filed under sub-file CRC Operations 
+Information File (CRC OIF).  The crew aid checklists are designed and formatted to be 
+incorporated into standard 4" x 7" flight crew binders. 
+4.9.5.  ACC-approved crew aid checklists are placed in the front of the binder.  Unit 
+supplemental material (e.g., LOPs, unit developed crew aid checklists) follow the ACC-
+approved crew aid checklist format. 
+4.9.6.  Each unit develops internal currency review procedures to ensure crew aid checklists 
+are current and reviewed at least annually.  (T-3)  Procedures will designate the unit reviewing 
+authority and the first page of each crew aid checklist binder contains the date of the last review 
+of the total checklist and the initials of the reviewer.  (T-3)  The reviewer’s initials will signify 
+the crew aids are current.  (T-3) 
+4.9.7.  The crew aid checklist titled, “Controlled Aircraft Emergency,” will be the first crew 
+aid checklist in any crew aid checklist binder.  (T-3) 
+4.9.8.  Recommended changes or improvements to crew aid checklists are initiated by 
+submitting a memorandum for record through appropriate channels (i.e., Group, NAF (as 
+applicable)), to ACC/A3CG.  ACC/A3CG will review and approve or disapprove submitted 
+recommendations and coordinate changes for incorporation.  Once changes are incorporated, 
+the applicable crew aid checklist(s) are posted to the ACC/A3CG SharePoint® 
+(https://usaf.dps.mil/sites/10680/SitePages/Home.aspx).  ACC/A3CG, notifies National 
+Guard Bureau (NGB) A3/10 and USAFE-AFAFRICA/A3ZJ who in turn notifies respective 
+units of specific changes via separate memorandum and/or message. 
+4.10.  Crew Force Management.  Proper manning, mission crewmember rest, fatigue 
+management, and duty limitations are factors considered in effective mission crewmember 
+management.  This section prescribes mission duty period, mission duty hours, and mandatory rest 
+duration for CRC mission crewmembers.  Basic guidance for fatigue management strategies and 
+waiver authority procedures follows: 
+4.10.1.  Mission Duty Period.  Mission duty period will commence when the mission 
+crewmember arrives at the duty location for the mission briefing, mission, or other official 
+duty and ends when the crewmember departs the duty location.  (T-3)  The normal 
+crewmember mission duty period will not exceed 14 hours.  (T-3)  The SL will ensure that 
+instances of extended mission duty period will be annotated in the operations logbook, at a 
+minimum detailing authorizing official (e.g., appropriate waiver authority), extenuating 
+circumstances, and crewmember(s) affected.  (T-3) 
+AFMAN13-1CRCV3  26 APRIL 2024 
+21 
+4.10.2.  Mission Duty Hours.  Mission duty hours are calculated as those hours within the 
+mission duty period when a current, qualified mission crewmember performs the assigned 
+mission on position. 
+4.10.2.1.  Intermittent relief on-position crewmembers of mission duties are provided by 
+qualified CMR and/or basic mission capable spare crewmember or MPC personnel for 
+bathroom breaks and short mealtimes, etc.  Table 4.2 prescribes the maximum mission 
+duty hours worked for the prescribed periods. 
+4.10.2.2.  To mitigate fatigue issues for extended periods of operations greater than 30 
+days, commanders should consider 10-hour shifts.  Refer to AFTTP 3-3.CRC for 
+determining the number of shifts (e.g., two or three shift periods), and the shift cadence.  
+The SQ/CC, DO, and SL must consider additional non-operational essential taskings in the 
+overall planning of the personnel duty day.  (T-3) 
+4.10.3.  Crewmember Rest.  Rest is compulsory for crewmembers prior to performing all 
+duties involving operations and consists of a recommended minimum of 10 non-duty hours 
+before the mission duty period begins.  Rest affords the crewmember free time and includes 
+time for meals, transportation, and rest.  This time must include an opportunity for at least 8 
+hours of uninterrupted sleep.  (T-3)  If any crewmember performs duties past the 1.5-hour 
+period after crew debrief or other required crewmember duties, crewmember rest must not 
+begin until post-positional duties are completed.  (T-3)  Each crewmember will be individually 
+responsible to ensure he/she obtains sufficient rest during crewmember rest periods.  (T-3)  
+The owning parent and/or deployed operations group commander may waive all or any part of 
+a crewmember rest period. 
+4.10.4.  Consumption of Alcohol.  Mission crewmembers will not perform CRC operational 
+mission duties within 12 hours of consuming alcohol or other intoxicating substances, or if 
+impaired by alcohol or any other intoxicating substance.  (T-0) 
+4.10.5.  Crew Scheduling.  CRC mission crewmembers should be prepared for surge 
+operations.  Worst case scenario for initial operations provides the CRC in surge operations 
+for indefinite periods of time.  The CRC mission capability statement provides two mission 
+crews for 24-hour continuous surge operations (12-hour shifts) for a period of 7 days, after 
+which one additional mission crew be provided through appropriate UTC deployment.  A 
+fourth mission crew is provided at the 18th day for sustained operations for an indefinite period.  
+Table 4.2 below provides guidance for allowable mission duty hours not to be exceeded to 
+plan and employ a prudent schedule with available resources. 
+ 
+ 
+22 
+AFMAN13-1CRCV3  26 APRIL 2024 
+Table 4.2.  CRC Mission Duty Hours (MDHs) 
+Mission Duty Hours (MDH)* 
+Comment 
+No More Than (NMT) 85 MDHs in 8 days** 
+Waiverable by Group and/or CC 
+NMT 192 MDHs in 28 days 
+(T-3) 
+NMT 688 MDHs in 90 days 
+(T-3) 
+Notes: 
+These hour limitations apply to both in-garrison and deployment contingency operations. 
+*MDHs are based on 12 hours on-position and 2 hours for duty associated duties. 
+**The 8, 28, and 90-day limit is based on a mission crew working 12 hours on-position (i.e., a 14-
+hr. duty day, with brief & debrief), every day.  This allows a total of 85 hours on-position. 
+AFMAN13-1CRCV3  26 APRIL 2024 
+23 
+Chapter 5 
+UNIT COMMAND CENTER (UCC) 
+5.1.  Unit Command Center (UCC).  The UCC is established by the ACS/CCs to facilitate 
+centralized support of unit operations.  The UCC facility is accommodated in an appropriate fixed 
+or mobile shelter, and manned and equipped with unit personnel and equipment resources to allow 
+the site support section and CFP sections to facilitate planning, directing, coordinating, and 
+controlling mission operations and unit support activities.  The SQ/CC will equip the UCC with 
+appropriate procedural and emergency and quick response checklists, and other appropriate 
+guidance (e.g., unit LOPs), and doctrinal documentation needed to respond to the full range of 
+military or civil operations.  (T-3) Table 5.1 below provides recommended UCC sections and 
+manning from unit or augmentation resources as required for mission operations: 
+Table 5.1.  Control and Reporting Center (CRC) Unit Command Center (UCC) Manning. 
+Duty Position 
+Personnel 
+Commander or Director of Operations (CC or DO) 
+1* 
+Chief or Senior Enlisted Operator (1C5) 
+1** 
+Communications Focal Point (CFP) Section 
+X** 
+Regional and/or Sector Air Defense Commander (RADC/SADC) *** X** 
+Notes: 
+*The CC and DO at a minimum, will be qualified as an ABM, and certified as SL.  (T-3) 
+**Manning to be determined by CC and/or DO to meet mission needs. 
+***RADC/SADC may also be resident in the UCC if not in the TOC. 
+5.2.  Unit Command Center (UCC) Duties.  The SQ/CC and DO are ultimately responsible for 
+the CRC’s execution of the CFACC or JFACC guidance (e.g., joint air operations plan, ATO, and 
+airspace control order).  (T-3)  Through the AOC Chief of Combat Operations, the CC/DO 
+provides mission direction from the UCC.  Units are not required to employ an in-garrison UCC, 
+unless the CC or DO determines a large exercise or training event warrants employment.  The CC 
+or DO (also possibly designated as the RADC/SADC), 1C5, and CFP are resident in the UCC. 
+5.2.1.  Squadron Commander (SQ/CC), AF Specialty Code (AFSC) 13B3D, (Non-
+waiverable), (Maj – Lt Col on G-series orders).  The SQ/CC will ensure facilitation, planning, 
+direction, coordination, and control of maintenance, mission and support activities for both in-
+garrison and deployed operations.  (T-3)  During tactical execution, the CRC is operationally 
+subordinate to the AOC Chief of Combat Operations, and the SQ/CC is responsible for the 
+CRCs implementing effective tactical battle management command and control (BMC2) by 
+delegating proper execution authorities to internal CRC leadership (i.e., SL).  The SQ/CC 
+and/or DO are responsible for the management and direction of tactical level BMC2 to include 
+air defense and airspace control activities within the CRC battle management area.  The 
+authority to execute operational control and/or tactical control of assigned weapons systems 
+may be decentralized to the CRC by the AOC Chief of Combat Operations.  In addition to the 
+commander ensuring the effective BMC2 of the forces assigned, the commander will execute 
+the duties of SQ/CC in accordance with AFI 1-2, Commander’s Responsibilities.  (T-3)  In 
+24 
+AFMAN13-1CRCV3  26 APRIL 2024 
+addition to authorities also delegated to the SQ/CC by the Area Air Defense Commander, the 
+roles and responsibilities of the RADC and/or SADC may also be delegated to the SQ/CC, as 
+guidance found in JP 3-01, Countering Air and Missile Threats. 
+5.2.1.1.  The SQ/CC and DO will be active-duty AF or ANG field grade officers awarded 
+the 13B3D AFSC from the Undergraduate ABM course, prior to assuming the duties of 
+SQ/CC or DO.  The SQ/CC and DO will qualify as an ABM, certify as an SL, and meet 
+and maintain training and positional requirements outlined in AFMAN 13-1CRCV1.  In 
+addition, the SQ/CC and DO will perform prescribed duties as members of the UCC.  These 
+requirements are non-waiverable. 
+5.2.1.2.  The SQ/CC and DO may delegate authority to conduct operations to the SL as 
+appropriate.  When the SQ/CC or DO is not present in the UCC, all delegated BMC2 
+execution authorities (e.g., scramble, identification, commit, engagement, airspace control, 
+border crossing, and mission reallocation) automatically transfer to the on-duty SL as 
+appropriate. 
+5.2.2.  Director of Operations (DO) (AFSC 13B3D, (Maj – Lt Col)).  The DO will, in support 
+of the SQ/CC, be responsible to ensure operations personnel are trained, equipped, and 
+available to execute the tasks associated with the unit’s mission.  (T-3)  The DO will create, 
+manage, and execute a daily activity schedule assigning duties to mission crewmembers 
+regardless of operating location.  (T-3)  The DO is responsible for ensuring personnel are 
+assigned to operational mission crews and trained to a CMR or basic mission capable status in 
+employing the AN/TYQ-23A, in both in-garrison and contingency environments.  The DO 
+coordinates with the unit’s Chief of Maintenance for the effective employment of the radar, 
+communications, and support systems to ensure effective accomplishment of mission 
+requirements.  The DO may be delegated the directive authority by the SQ/CC to support UCC 
+activity in the absence of the SQ/CC. 
+5.2.3.  Region/Sector Air Defense Commander (RADC/SADC).  In the role of RADC/SADC 
+as delegated, the CC or his/her delegate (i.e., DO or SL) must be prepared to exercise BMC2 
+of an assigned regional area or sector for defensive counter air operations and assigned weapon 
+systems, to include friendly fighters and air defense artillery units.  (T-3)  The RADC/SADC 
+will direct the pairings of assets under CRC control for effective threat prosecution with further 
+guidance from AFTTP 3-1.CRC and AFTTP 3-3.CRC.  (T-3)  The RADC/SADC must 
+maintain the necessary situational awareness and communications links up to the AOC’s Area 
+Air Defense Commander, CFACC or JFACC, or Joint Force Commander (JFC), down to the 
+tactical units’ operation centers, and laterally to other RADC/SADC (if employed).  (T-3)  The 
+SQ/CC, and/or DO and SL must also be prepared to handover the RADC/SADC role if the 
+CRC is degraded in any way that would prevent it from fulfilling the function.  (T-3)  The SL, 
+when delegated the role of RADC/SADC, will know the JFACC’s air defense strategy in the 
+performance of the following functions.  (T-3)  The CRC designated RADC/SADC will be 
+responsible for, but not limited to the following: 
+5.2.3.1.  Establish liaison and redundant communication requirements with higher, lateral, 
+and subordinate air defense agencies to integrate all air defense activities to ensure common 
+understanding of air defense control measures, ROE and special instructions, and return to 
+forces and lame duck procedures.  (T-3) 
+AFMAN13-1CRCV3  26 APRIL 2024 
+25 
+5.2.3.2.  Demonstrate thorough understanding of the area air defense plan and the airspace 
+control plan.  (T-3) 
+5.2.3.3.  Establish region or sector threat assessment (e.g., enemy air and/or ground order 
+of battle, the electronic order of battle).  (T-3) 
+5.2.3.4.  Assist the Area Air Defense Commander with identification of critical assets, vital 
+areas, air defense priorities, and the recommended placement of anti-air warfare assets.  
+(T-3) 
+5.2.3.5.  Assist with the preparation of the air defense appendix to the operations order.  
+(T-3) 
+5.2.3.6.  Coordinate the sensor plan.  (T-3) 
+5.2.3.7.  Identify airborne early warning requirements to supplement radar coverage.  (T-3) 
+5.2.3.8.  Recommend to the Area Air Defense Commander air defense control measures 
+(e.g., fighter engagement zones, missile engagement zones, base defense zones, weapons 
+engagement zones, and air defense identification zones).  (T-3) 
+5.2.3.9.  Establish and disseminate air defense warning conditions based on the degree of 
+the threat of probability of air attack (e.g., white, yellow, and red).  (T-3) 
+5.2.3.10.  Establish and/or or disseminate weapons control status (e.g., hold tight, and free), 
+allow the freedom of friendly forces to engage air threats.  (T-3) 
+5.2.3.11.  Establish fire control procedures to standardize tactical firing instructions.  
+Maintain oversight of anti-air warfare assets (e.g., numbers of assets, types, locations, and 
+status).  (T-3) 
+5.2.3.12.  Establish operating procedures for initial identification and assignment (when 
+delegated) of airborne targets to fighters and air defense artillery.  (T-3) 
+5.2.3.13.  Maintain continuous coordination with the ADAFCO and/or ADAFCA to 
+eliminate duplication of engagement efforts and to ensure adequate commitment of 
+assigned weapons against threats.  (T-3) 
+5.2.3.14.  Establish BMC2 procedures for operations in contested and/or highly contested 
+environments.  (T-3) 
+5.2.4.  Communications Focal Point (CFP) Section.  The CFP, referenced in AFI 17-201, 
+Command and Control (C2) for Cyberspace Operations, and Technical Order 00-33A-1001, 
+Cyberspace Operations and Maintenance Practices, are a consolidation of all help and/or 
+service desks found in the CRC.  The CFP section services include, but is not limited to 
+maintenance control, telephone administration desk, traditional network help desk, and 
+personal wireless communications systems help desk.  The CFP will be responsible for, but 
+not limited to, the following duties and responsibilities: 
+5.2.4.1.  Collect data from required sources such as unit work centers for in-garrison 
+operations, the deployed radar and/or detachment UCC, depot, Air Force network 
+operations, Defense Information Systems Agency, and other like agencies.  (T-3)  
+Collection of data facilitates the assembly, collation, and assessment of logistics 
+information and sustainment requirements. 
+26 
+AFMAN13-1CRCV3  26 APRIL 2024 
+5.2.4.2.  Monitor and coordinate production and execution of scheduled and unscheduled 
+equipment maintenance actions while maintaining visibility of equipment and/or systems 
+metrics and indicators.  (T-3) 
+5.2.4.3.  Provide direct support of the unit's operational mission, to include support of voice 
+and data network systems (e.g., routers, switches, servers, key systems, and desktop 
+systems), radio systems, video, and all other communications equipment systems, while 
+maintaining visibility of performance indicators.  (T-3) 
+5.2.4.4.  Monitor the maintenance production effort to meet mission requirements by 
+coordinating with applicable work centers.  (T-3) 
+5.2.4.5.  Coordinate with the operations, and work centers to establish priorities for 
+competing resources and/or limited in availability (e.g., manpower, parts, time, tools, 
+facilities, and equipment).  (T-3) 
+5.2.4.6.  Ensure the exchange of information between work centers and the CFP must be 
+in sufficient detail to allow the CFP to comply with reporting requirements and to identify 
+potential problems.  (T-3) 
+5.2.4.7.  Manage and maintain the unit’s primary support equipment, and communications 
+and/or data systems, power, sensor equipment, and the engineering net.  (T-3) 
+5.2.4.8.  Ensure the configuration of unit communications are in accordance with theater 
+operations order, Chairman of the Joint Chiefs of Staff Instruction (CJCSI) 3320.03D, Joint 
+Communications Electronic Operating Instructions, and/or the CRC Communications 
+Plan Template, AFTTP 3-1.CRC, AFTTP 3-3.CRC, and the CRC Concept of Employment, 
+or other applicable theater communications directives or guidance.  (T-3) 
+5.2.4.9.  Inform CC and Site Support (SS) section of all support equipment and 
+communications and/or data system activities, equipment operational status, and any 
+condition that may disrupt the orderly and controlled execution of the unit’s mission.  (T-3) 
+5.2.4.10.  Communicate systems operational status, production efforts, maintenance 
+schedules, problem resolution to include impact to operations of loss of mission support 
+equipment, and identification of COAs to maintain operations to both higher and lower 
+echelons.  (T-3) 
+AFMAN13-1CRCV3  26 APRIL 2024 
+27 
+Chapter 6 
+MISSION CREW PROCEDURES 
+6.1.  Mission Crew Overview.  The CRC total mission crewmember composition (i.e., BMT 
+and/or SOT), and its effective employment is fundamental in providing BMC2, battle awareness, 
+surveillance, identification, classification and tracking of all airborne tracks.  In addition, the 
+defense of friendly assets, prosecution with assigned weapons of designated targets entering its 
+area of responsibility and/or battle management area, and direct coordination with other BMC2 
+elements is also imperative.  Table 6.1 depicts the notional manning for the CRC TOC and Table 
+6.2 depicts the duty location and number of EPT personnel required.  BMT and/or SOT teams are 
+organized under the SL and manned to meet tasked operational missions.  Table 6.3, depicts BMT 
+and SOT standard manning and organization of the teams, but is always determined by the mission 
+tasking and directed by the SL. 
+Table 6.1.  Control and Reporting Center (CRC) Tactical Operations Center (TOC) 
+Manning. 
+Duty Position 
+ Personnel 
+Section Lead (SL)1/3 
+2 
+Air Battle Manager (ABM) 
+As Required 
+Air Surveillance Technician (AST) or Senior System Operator (SSO) 
+or Mission System Operator (MSO) 
+1 
+Weapons Director (WD) 
+6 
+Interface Control Technician (ICT) or MSO 
+2 
+Surveillance Technician (ST) or MSO 
+4 
+Air Defense Artillery Fire Control Officer and/or Assistant 
+(ADAFCO and/or ADAFCA)2 
+1 
+Regional and/or Sector Air Defense Commander (RADC and/or 
+SADC)3 
+1 
+Notes: 
+1. When two SLs are required for mission execution, a third SL may be assigned to the 
+mission crew. 
+2.  ADAFCO and/or ADAFCA augments the mission crew when required and are not 
+included in total manning. 
+3.  RADC/SADC function will normally be resident in the TOC if the SL is so designated. 
+ 
+ 
+ 
+28 
+AFMAN13-1CRCV3  26 APRIL 2024 
+Table 6.2.  Control and Reporting Center (CRC) Electronic Protection Technician (EPT) 
+Manning. 
+Duty Location 
+Personnel 
+CRC Main – Operating Location 
+4 
+Deployed radar (DR) (per each DR location) 
+4 
+Table 6.3.  Control Reporting Center (CRC) Battle Management Team (BMT) and Sensor 
+Operations Teams (SOT). 
+Battle Management Team (BMT)* 
+Sensor Operations Team (SOT) 
+SL 
+AST or SSO or MSO 
+WD and/or ABM 
+ICT or MSO 
+ST or MSO 
+EPT 
+ 
+ST or MSO 
+*Teams will be tailored based on the theater of employment, type and phase of contingency, 
+and mission requirements.  Manning may be adjusted based on tasking (e.g., all crew 
+positions listed may not be required for a BMT); manning may vary. 
+6.2.  Common Mission Crewmember Responsibilities.  The SL, ABM, and WD share common 
+duty responsibilities and tasks in addition to the position-specific responsibilities outlined in the 
+appropriate sections of this manual.  Situations may develop that tasks will be disbursed and/or 
+shared between the SL, ABM, and WD.  These include, but are not limited to the following: 
+6.2.1.  Ensure mission crew teams (e.g., BMT and SOT) have been provided all necessary 
+mission relevant resources from the MPC extracted from planning documents and directives 
+required to plan and execute the tasked mission as prescribed in AFTTP 3-1.IPE and AFTTP 
+3-3.IPE.  (T-3) 
+6.2.2.  If MPC is not activated, mission crew members will extract all necessary data from 
+documents and directives to include threat data required to plan and execute the tasked mission.  
+(T-3)  Process objectives should determine commander’s intent, mission tasking, special 
+instructions, ROE, chain of command, and battle plans from MPC mission planning 
+documents. 
+6.2.3.  Ensure adaptations, changes, and essential information to the database have been 
+received to include data link configurations are loaded to meet mission tasking.  (T-3) 
+6.2.4.  Read, initialize, and ensure mission crewmembers have read and initialed all items in 
+the flight crew information file and read files.  (T-3) 
+6.2.5.  Plan, supervise, and participate in mission crew and/or individual team (i.e., BMT 
+and/or SOT) briefing and/or debriefing event(s), determine mission accomplishments relative 
+to briefed mission objectives, including lessons learned.  (T-3)  As applicable, forward lessons 
+learned to MPC chief, or applicable authority in a training environment, and direct the 
+submission of AF Form 4145 at the end of the shift, with guidance from AFMAN 11-214; 
+AFTTP 3-3.CRC, and local and/or theater directives.  (T-3) 
+6.2.6.  The crew lead will provide constructive feedback on team and individual performance.  
+(T-3)  They will cite specific positive events and instructional fixes to correct errors.  (T-3)  
+AFMAN13-1CRCV3  26 APRIL 2024 
+29 
+The crew lead will summarize mission execution, identify lessons learned, and provide 
+documentation of compared mission results with mission crew objectives.  (T-3) 
+6.2.7.  Interpret, initiate, and update data for OWS displays to optimize situational awareness.  
+Accomplish switch actions and take appropriate action for alarms and alerts. 
+6.2.8.  Ensure operations, communications, and sensor equipment are available and operate 
+within tolerance specifications to meet mission requirements.  (T-3)  Ensure, through risk 
+management, the sensor and communications plan include course of action(s) for loss of 
+OWS(s), degraded sensors or lost communications due to jamming, loss of radios, equipment 
+failure, etc.  (T-3) 
+6.2.9.  Ensure communications are configured (e.g., correct frequency bands, cryptographic 
+keys), for both internal and external coordination and are loaded to meet mission requirements 
+at all levels for effective BMC2 execution (e.g., control, air defense command and control net, 
+C2 coordination, Air Force air request net, joint air request net, and engagement control net).  
+(T-3)  When in supervisory role, coordinate with the UCC and mission crew to ensure 
+equipment and assets are available and properly configured and employed to accomplish the 
+assigned mission. 
+6.2.10.  Ensure operational checks will be completed on all mission and support equipment 
+before the mission event.  (T-3)  Interpret, initiate, and update data for operator OWS display 
+and communications interface panel and complete required and/or frequency checks.  Use 
+situation displays and switch actions to optimize situation display. 
+6.2.11.  Ensure the positional changeover briefing to individual crewmember(s) and/or teams 
+on the current operational situation will be conducted prior to departing position referenced in 
+the CRC crew aid.  (T-3) 
+6.2.12.  The crew lead will plan for and will perform and/or supervise mission crew emergency 
+actions and response procedures through crew aid checklists (e.g., emission control, electronic 
+attack, and/or electronic protection, fire, alarm conditions, mission-oriented protective posture 
+level changes, ground attacks, and anti-radiation missile attack).  (T-3) 
+6.2.13.  Plan for and will take appropriate action to perform and/or supervise mission crew 
+actions during quick reaction situations (e.g., emergency conditions, air defense warning, and 
+force protection conditions) in accordance with UCC checklists and report status to appropriate 
+authority as necessary.  (T-3) 
+6.2.14.  Ensure proper voice authentication procedures will be employed, when applicable.  
+(T-3) 
+6.2.15.  Use and control classified materials in established security procedures, employ 
+information assurance (e.g., operational security procedures), as required by regulations and 
+situation.  (T-3)  Authenticate orders and voice transmissions as required.  (T-3) 
+6.2.16.  Safety factors will be complied with for safe operation and mission accomplishment.  
+Appropriate safety checks will be accomplished and coordinated as needed.  (T-3)  Electrical, 
+fire, physical and radiation hazards will be annotated and immediately reported (T-3)  All 
+crewmembers will know the location of safety equipment and explain the proper use.  (T-3) 
+6.2.17.  Upon recognition of the existence of an aircraft emergency (e.g., in-flight bailout, or 
+crash), the crewmember will notify the appropriate internal sections, external agencies, and 
+30 
+AFMAN13-1CRCV3  26 APRIL 2024 
+will initiate and supervise the completion of the appropriate steps annotated in the crew aid 
+checklist, Aircraft Emergency.  (T-3) 
+6.2.18.  Plan for and will take appropriate action to perform and/or supervise the air battle, 
+ensure information flow with appropriate command authorities, direct tactical action with 
+direction from theater ROE within the team or cross-teams (i.e., SOT).  (T-3) 
+6.2.19.  Appropriate internal nets, frequencies and chat windows will be utilized as required to 
+maintain effective situational awareness to include utilization of appropriate operational 
+brevity terms and code words, proper receive and/or transmit techniques, and communications 
+discipline.  (T-3)  All procedure guidance is within AFTTP 3-1.CRC; AFTTP 3-3.IPE; AFTTP 
+3-2.5; Multi-Service Brevity Codes; Allied Communications Publication (ACP)-121(I), 
+Communications Instructions - General; ACP 125(G), Communication Instructions – 
+Radiotelephone Procedures; AFTTP 3-2.77; Tactical Chat in Support of Operations; AFTTP 
+3-2.8; Air Control Communication; AFMAN 11-214, and the CRC-CUI Concept of 
+Employment.  (T-3) 
+6.2.20.  Coordination will be accomplished with all responsible sections to ensure mission 
+support equipment and assets are available to accomplish the assigned event and/or mission.  
+(T-3) 
+6.2.21.  Coordinate will be completed with higher, lateral, and subordinate battle management 
+command and control (BMC2) agencies prior to the conduct of operations in accordance with 
+ROE, special instructions, and ATO, (e.g., functions for SQ/CC, Senior Air Defense Officer, 
+and/or Defensive Duty Officer), monitor required communications nets (e.g., air defense 
+command and control net and/or engagement control net).  (T-3) 
+6.2.22.  Demonstration of strict professional mission crew discipline will be conducted 
+throughout all phases of the mission.  (T-3) 
+6.2.23.  Mission crew and external agencies will be notified of electromagnetic interference 
+and/or electronic attack.  (T-3) 
+6.2.24.  Coordinate with the mission crew for emission control and electronic protection 
+activities to counter electronic attack.  (T-3) 
+6.2.25.  Direct data link employment and required modifications to maintain the CRC common 
+tactical picture.  (T-3)  Monitor the AST for the clarity, accuracy, currency, and quality of track 
+data displayed for the common tactical picture on the mission system and for forwarding that 
+data to the theater-wide common operational picture.  (T-3) 
+6.2.26.  Report data link issues through established procedures.  (T-3)  Supervise the use of the 
+data link coordination network and track supervision net as required.  (T-3)  Implement data 
+link filters as required.  (T-3) Send, interpret, and respond to data link messages in a timely 
+manner.  (T-3) 
+6.2.27.  Monitor the applicable systems status monitoring tools or take direction from the 
+Region or Sector Interface Control Officer for system degradation.  (T-3) 
+6.2.28.  Ensure the CRC maintains an accurate recognizable air picture.  Recognize air picture 
+and/or symbology deviations and direct and/or take corrective action.  (T-3) 
+6.2.29.  Ensure database ATO information is correct and current.  (T-3) 
+AFMAN13-1CRCV3  26 APRIL 2024 
+31 
+6.2.30.  Manage the database, system configuration, and coordinate system resets to meet 
+mission needs.  (T-3) 
+6.2.31.  Recommend system configuration changes to the mission crew as appropriate.  (T-3) 
+6.2.32.  Configure system and database as required and coordinate computer problems and 
+workarounds as required.  (T-3)  Respond to alarms and alerts in a timely manner. 
+6.2.33.  Ensure sensors are configured and optimized using the PREP at Attachment 2.  (T-3) 
+6.2.34.  Recognize and analyze degraded sensor performance.  (T-3) 
+6.2.35.  Ensure corrective measures are taken to improve degraded sensor performance.  
+Monitor corrective actions taken to improve degraded sensors.  (T-3) 
+6.2.36.  Ensure remote radar data is correlated and data was received on all tracks within the 
+battle management area or track production area.  (T-3) 
+6.2.37.  Comply with airspace management requirements and restrictions in accordance with 
+theater airspace control measures and airspace control plan and/or airspace control order 
+procedures.  Initiate airspace requests and verify airspace restrictions and limitations when 
+required.  (T-3)  Ensure all efforts are made to keep controlled aircraft inside the lateral and 
+vertical confines of the airspace in a timely manner.  (T-3) 
+6.2.38.  Ensure strict adherence to dynamic airspace control measures, restricted operating 
+zones, high density air control zones, missile engagement zones, and joint engagement zones, 
+when designated in enroute to or in assigned the battle management area.  (T-3) 
+6.2.39.  Ensure a handover briefing is conducted for all on-coming and/or off-going BMC2 
+platforms (e.g., E-3 and/or E-2 platforms), and the receipt and/or transfer of controlled 
+resources prior to declaring “on-station” and/or “off-station.”  (T-3)  Brief in accordance with 
+theater directives, special instructions, and LOPs.  (T-3) 
+6.2.40.  Locate and maintain tracking of mission aircraft using reported position, radar and/or 
+IFF/SIF, positive position locating information, directed pilot maneuvering and/or external 
+sources.  (T-3)  Provide aircrews with a working frequency and/or net and time of day hack 
+when applicable.  (T-3)  Provide a brief situation update and provide requested and/or required 
+information with guidance from AFTTP 3-3.CRC.  (T-3)  Conduct IFF/SIF checks and advise 
+aircrew of status.  (T-3) 
+6.2.41.  Supervise and/or control assigned aircraft using all tracking and identification means 
+available (e.g., IFF/SIF, positive position locating information, point out) consistent with the 
+continuum of control and the tasked mission referenced in AFMAN 11-214; AFTTP 3-1.IPE 
+and AFTTP 3-3.IPE, consistent with the briefed mission, ROE, operations directives, and 
+aircraft capabilities.  (T-3) 
+6.2.42.  Commit weapons resources to counter the threat in accordance with theater ROE.  
+(T-3)  Coordinate and/or establish combat air patrol mission and hand-over and/or recovery 
+points as required.  (T-3)  Supervise and/or manage air refueling assets and the fuel 
+requirements of controlled assets.  (T-3)  Detect, identify, report and track air traffic within the 
+assigned area.  (T-3) 
+6.2.43.  Coordinate airborne orders and scramble and/or divert alert aircraft when directed or 
+delegated.  (T-3)  Coordinate with the ST/MSO for detection, initiation, identification, and 
+32 
+AFMAN13-1CRCV3  26 APRIL 2024 
+maintenance for tracks within the battle management area.  (T-3)  Coordinate Lane crossers 
+and/or leakers to either the SL or the next lane’s Weapons Director (WD), or external 
+controlling agency as required.  (T-3)  Forward battle damage assessment and/or in-flight 
+report from the inflight mission commander to the SL.  (T-3) 
+6.2.44.  Ensure 100% force accountability of assigned assets, report deviations to appropriate 
+agencies.  (T-3) 
+6.2.45.  Recognize and/or receive an impending anti-radiation missile attack profile warning 
+and supervise the section’s response.  (T-3) 
+6.2.46.  Coordinate and manage the air battle with appropriate command authorities and direct 
+tactical action in accordance with theater ROE and special instructions.  (T-3) 
+6.2.47.  Supervise allocation of resources to counter the threat and accomplish mission 
+objectives.  (T-3) 
+6.2.48.  Direct and/or supervise guidance to the BMT and/or SOT on executing allocation and 
+employment of resources (e.g., aircraft and/or air defense artillery), in accordance with the 
+joint air operations plan, operations plan, ATO, and/or airspace control order, airspace control 
+plan, operational tasking data link, ROE, special instructions, and other mission specific 
+documents, procedures and taskings.  (T-3)  Obtain current equipment status and determine 
+impact on operational mission.  (T-3) 
+6.2.49.  Support the on-scene commander (e.g., wingman, rescue mission commander, 
+airborne mission commander), for combat search and rescue and/or personnel recovery 
+operations with the following: airspace coordination and/or deconfliction, force accountability, 
+threat awareness, tanker anchor control, and air support requests in accordance with special 
+instructions and crew aid checklist, Airborne Mission Commander and in accordance with 
+AFTTP 3-3.CRC.  (T-3) 
+6.2.50.  Direct and/or supervise section functions by prioritizing tasks and available resources 
+to ensure accomplishment of mission objectives.  (T-3)  Allocate and/or manage radio 
+assignments aligned with mission priority(s).  (T-3) 
+6.2.51.  Direct and/or supervise the distribution of threat information to the UCC, mission 
+crew, and external battle management command and control (BMC2) elements as required.  
+(T-3) 
+6.3.  SL, ABM, WD, and ADAFCO ADAFCA  Specific Responsibilities.  In addition to the 
+common ABM and SL roles and responsibilities in paragraph 6.2, individual mission 
+crewmember core responsibilities are listed, but are not limited to the following: 
+6.3.1.  Section Lead (SL) (AFSC 13B3D).  The SL will be responsible to the Commander 
+and/or DO for the overall readiness and supervision of the mission crew for area of 
+responsibility and/or battle management area or for a functional tasking.  (T-3)  The SL will 
+manage coordination with the AOC.  (T-3)  The CRC (i.e., CC and/or DO and SL), may also 
+request or be delegated additional roles, responsibilities, and authorities (e.g., scramble, 
+identification, commit, engagement, airspace control, border crossing, and mission 
+reallocation).  Responsibilities may also include the functions of RADC/SADC designated by 
+the Area Air Defense Commander.  The SL is the final authority for all mission decisions, 
+except as retained by the CC.  The SL will be responsible for, but not limited to: 
+AFMAN13-1CRCV3  26 APRIL 2024 
+33 
+6.3.1.1.  Ensure proper mission crewmember composition and crewmembers meet 
+established unit Go/No-Go criteria and are in accordance with AFMAN 13-1GBMC2 V2.  
+(T-3) 
+6.3.1.2.  Recognize and/or receive an impending anti-radiation missile attack profile 
+warning, the SL will immediately notify the mission crew, the UCC, and any external 
+agencies as briefed.  (T-3) 
+6.3.1.3.  Supervise and execute the assigned mission in a timely, efficient manner with the 
+designated mission crew.  (T-3) 
+6.3.1.4.  Assess and implement theater ROE, special instructions, and identification matrix 
+procedures based on changing alert conditions.  (T-3) 
+6.3.1.5.  Authorize and supervise the declaration of targets in accordance with theater ROE, 
+special instructions, and identification matrix.  (T-3)  Ensure engagement tactics are 
+commensurate with ROE, combat identification, and threat assessment.  (T-3)  Re-assess 
+ROE and identification procedures based on changing alert conditions.  (T-3) 
+6.3.1.6.  Direct the commit of weapons resources (e.g., aircraft and/or air defense artillery) 
+to counter the threat in accordance with theater ROE and designated command authorities 
+(e.g., scramble, identification, commit, engagement, airspace control, border crossing, and 
+mission reallocation).  (T-3) 
+6.3.1.7.  Integrate and monitor air defense artillery status and direct appropriate air defense 
+artillery weapons alert status through the ADAFCO and/or ADAFCA and disseminate air 
+defense warnings as required.  (T-3) 
+6.3.1.8.  Supervise, monitor, support, and direct the airborne mission commander during 
+combat search and rescue and/or personnel recovery efforts as tasked.  (T-3)  Provide as a 
+minimum, the following:  airspace coordination and/or deconfliction, force accountability, 
+threat awareness, tanker anchor control, and air support requests in accordance with special 
+instructions, the crew aid checklist, and in AFTTP 3-3.CRC.  (T-3) 
+6.3.1.9.  Direct mission crew functions by prioritizing tasks and available resources to 
+ensure accomplishment of mission objectives.  (T-3)  Allocate and manage radio 
+assignments aligned with mission priority and radio availability.  (T-3) 
+6.3.1.10.  Monitor current and projected equipment status and determine impact and risk 
+on operational mission for any degraded equipment and systems.  (T-3)  Ensure risk 
+mitigation has been determined against mission tasking.  (T-3) 
+6.3.1.11.  Approve or disapprove continued operations of malfunctioning equipment or 
+direct and/or approve scheduled and unscheduled maintenance on equipment that could 
+potentially affect the mission.  (T-3)  SL will forward status and/or requests for 
+maintenance support from the maintenance operations center.  (T-3) 
+6.3.1.12.  Ensure coordination and information flow within the MPC, TOC, UCC, and 
+external BMC2 elements.  (T-3)  Provide BMC2 assets (e.g., E-3C/G Airborne Warning 
+and Control System) an on- and/or off-station briefing as prescribed in unit and theater 
+standard operating procedures.  (T-3) 
+34 
+AFMAN13-1CRCV3  26 APRIL 2024 
+6.3.1.13.  Coordinate with external agencies for identification of aircraft not normally 
+identifiable by the standard identification matrix.  (T-3)  Coordinate for declaration of 
+hostiles based on ROE, special instructions, and the identification matrix when 
+identification authority rests outside the CRC.  (T-3)  Direct the mission crew through 
+degraded operations levels during changing alert conditions.  (T-3) 
+6.3.1.14.  Direct and/or assist the ABM and/or WD with target pairings.  (T-3)  Ensure 
+engagement tactics are commensurate with threat assessment, ROE and/or special 
+instructions, and established identification matrix.  (T-3)  Assist ABMs and WDs in 
+managing assigned close air support resources and efforts.  (T-3) 
+6.3.1.15.  Manage in concert with the AST/SSO and/or ST/MSO, the detection, tracking, 
+classification, and identification of air traffic within, entering, or exiting the CRC’s area of 
+responsibility, battle management area, and/or track production area and the disseminate 
+of the CRC’s recognizable air picture through TDLs to the common tactical picture.  (T-3) 
+6.3.1.16.  Coordinate within operations and the BMT(s) for emission control and electronic 
+protection activities and ensure the CC and/or DO, AST/SSO and/or MSO, and external 
+agencies are notified of electromagnetic interference and/or electronic attack experienced.  
+(T-3) 
+6.3.2.  Air Battle Manager (ABM) (AFSC 13B3D).  The ABM will be responsible to the SL 
+for mission execution of assigned tasking.  (T-3)  ABMs will be assigned to BMT s (i.e., Team 
+1 or 2) as required.  (T-3)  An ABM will prioritize assigned resources and capabilities to 
+integrate and focus efforts aligned with the commander’s intent across both complex, evolving 
+theater operations, and training environments.  (T-3)  The ABM will direct resources to meet 
+taskings across the full range of military operations while mitigating degrading factors.  (T-3) 
+6.3.2.1.  Direct and/or assist the SL with weapons and/or target pairings.  (T-3)  Ensure 
+engagement tactics are commensurate with threat assessment, ROE, special instructions, 
+and established identification matrix.  (T-3)  Assist the SL in the management of CRC 
+assigned close air support resources and mission.  (T-3)  Monitor the detection, tracking, 
+and identification of air traffic within the CRC’s area of responsibility, battle management 
+area, or track production area.  (T-3) 
+6.3.2.2.  Ensure 100% accountability, and report status and deviations of assigned 
+resources (e.g., fuel, armament, and battle damage assessment) to the SL as appropriate.  
+(T-3) 
+6.3.2.3.  Evaluate the air defense threat situation and make recommendations to the CC, 
+DO, and SL who may also be the delegated RADC/SADC for countering the air threat.  
+(T-3) 
+6.3.2.4.  When approved by the DO, qualified ABMs may also lead a small team of WDs 
+and STs/MSOs for in-garrison training events in lieu of having an SL on position.  The 
+activity will not include simultaneous or large force exercise activity.  (T-3)  The ABM 
+will be responsible for, but not limited to the following responsibilities: 
+6.3.2.4.1.  When so tasked, the ABM will direct and/or supervise the BMT functions 
+to ensure accomplishment of mission objectives.  (T-3)  Prioritize tasks and available 
+resources to manage section crew member workload.  (T-3)  Provide updated pertinent 
+AFMAN13-1CRCV3  26 APRIL 2024 
+35 
+information (e.g., change(s) to briefed plan, weather, equipment status) to the BMT as 
+required.  (T-3) Coordinate with external agencies that may impact the event (e.g., 
+Federal Aviation Administration, wing operations center).  (T-3) 
+6.3.2.4.2.  When delegated, supervise the small team’s mission support functions (e.g., 
+radios, sensors, airspace), to achieve mission accomplishment.  (T-3)  Ensure the BMT 
+controls the assigned missions to the level requested and follows the continuum of 
+control to the maximum extent possible.  (T-3) 
+6.3.2.4.3.  When delegated to lead a small team, the ABM will ensure proper mission 
+crewmember composition and crewmembers meet established unit Go/No-Go criteria 
+and are in accordance with AFMAN 13-1GBMC2V2.  (T-3) 
+6.3.3.  Weapons Director (WD), AFSC 1C551D, Minimum 5 Level, SEI 948, Advanced 
+Instructor Weapons Director Course Graduates – SEI 904).  WDs will be assigned to BMTs 
+(i.e., team 1 or 2) as required.  (T-3)  The WD will be responsible to the SL for mission 
+execution of assigned tasking.  (T-3)  The WD in performance of tasked mission is responsible 
+for, but not limited to the following: 
+6.3.3.1.  Attend mission pre- and/or post-mission briefs with tasked aircrews if time and 
+location permits.  (T-3)  Extract information from mission planning documents required to 
+plan and execute the tasked mission in accordance with regulations and/or documents, and 
+appropriate operations directives.  (T-3)  Extract ROE and/or SPIN information and assist 
+in mission planning as applicable.  (T-3)  Participate in and extract pertinent information 
+from the aircrew pre-mission briefing as applicable.  (T-3) 
+6.3.3.2.  Accomplish mission objectives as briefed, and consistent with ROE, special 
+instructions, operations directives, aircraft capabilities, and the operational environment.  
+(T-0) 
+6.3.3.3.  Identify and inform controlled aircraft of all threat information, (i.e., factor 
+groups) through “picture” and direct threat calls in accordance with receive and/or transmit 
+procedures found in AFMAN 11-214 and AFTTP 3-3.CRC.  (T-3) 
+6.3.3.4.  Recognize the existence and assist an aircraft emergency in accordance with crew 
+aid checklist Controlled Aircraft Emergency.  (T-3) 
+6.3.3.5.  Authenticate voice transmissions with aircraft under control or coordinate with 
+agencies within specified authenticator time limits.  (T-3) 
+6.3.3.6.  Comply with appropriate safety factors and checks required for safe operation and 
+mission accomplishment for aircraft under control.  (T-3) 
+6.3.3.7.  Ensure coordination and information flow within the BMT and cross-teams (i.e., 
+SOT) as required.  (T-3) 
+6.3.3.8.  Recognize and understand the effects of emission control procedures on airborne 
+resources under control.  (T-3) Coordinate with the mission crew for emission control and 
+electronic protection activities.  (T-3)  Ensure the mission crew and external agencies are 
+notified of electromagnetic interference and/or electronic attack.  (T-3) 
+6.3.3.9.  Aid combat search and rescue and/or personnel recovery assets as required.  
+Provide as a minimum the following: airspace coordination and/or deconfliction, force 
+36 
+AFMAN13-1CRCV3  26 APRIL 2024 
+accountability, threat awareness, air refueling brief, and air support requests in accordance 
+with ROE, special instructions, and the crew aid checklist Airborne Mission Commander 
+in accordance with AFTTP 3-3.CRC.  (T-0) 
+6.3.3.10.  Ensure all fires requests are coordinated and de-conflicted.  (T-3) 
+6.3.3.11.  Comply with time, vertical and lateral airspace management requirements, and 
+restrictions in accordance with standard operating procedures and/or theater procedures.  
+(T-3)  Initiate airspace requests, verified airspace restrictions, and limitations in accordance 
+with applicable directives.  (T-3) 
+6.3.3.12.  Locate mission aircraft using reported position, IFF/SIF, positive position 
+locating information, directed pilot maneuvering and/or external sources in a timely 
+manner.  (T-3)  Ensure 100% ATO force accountability of assigned assets, report 
+deviations to SL as appropriate.  (T-3)  Pass or confirm altimeter in accordance with local 
+or theater procedures.  Provide the aircrew with a working frequency and net and time of 
+day when applicable (T-3)  Provide the aircrew situation updates.  (T-3)  Conduct IFF/SIF 
+checks and advise the aircrew of status.  (T-3)  Conduct radar handoffs of aircraft in 
+accordance with briefed procedures.  (T-3) 
+6.3.3.13.  Provide minimum risk safe passage and flight join up assistance as required 
+and/or requested.  (T-3) 
+6.3.3.14.  Obtain and disseminate post-refueling offload information as required.  (T-3) 
+6.3.3.15.  Obtain and disseminate post-mission battle damage assessment information as 
+required.  (T-3) 
+6.3.3.16.  Ensure 100% accountability, and report status and deviations of assigned 
+resources (e.g., fuel, armament, and battle damage assessment) to the MC as appropriate.  
+(T-3) 
+6.3.4.  Air Defense Artillery Fire Control Officer and/or Assistant (ADAFCO and/or 
+ADAFCA).  As prescribed in U.S. Army techniques publication (ATP) 3-01.7, Air Defense 
+Artillery Brigade Techniques, the ADAFCO team will be responsible to the MC and/or SL as 
+appropriate.  (T-3)  The ADAFCO or ADAFCA will coordinate the engagement of air defense 
+artillery units for the defense of designated facilities and/or areas as listed on the JFACC’s 
+defended asset list.  (T-3)  The ADAFCO is the single point of contact between land-based 
+U.S.  Army air and missile defense fire direction centers, and and/or information coordination 
+central, and the controlling authority (e.g., CRC).  (T-3)  The MC and ADAFCO per AFTTP3-
+3.CRC will coordinate and execute in accordance with established theater ROE, fire control 
+de-confliction procedures, and weapons control procedures in determining specific air defense 
+artillery engagements.  (T-3)  The ADAFCO and/or ADAFCA team, when employed, will be 
+responsible for, but not limited to: 
+6.3.4.1.  Inform the MC and SL as required of the status and capabilities of the assigned 
+air defense artillery systems.  (T-3) 
+6.3.4.2.  Ensure the information coordination central holds the appropriate authorities to 
+support the kill chain (e.g., identification matrix execution, hostile declaration, 
+engagement), and the SL is informed of delegated authorities held at the information 
+coordination central.  (T-3) 
+AFMAN13-1CRCV3  26 APRIL 2024 
+37 
+6.3.4.3.  When directed by the MC, the ADAFCO and/or ADAFCA will transmit 
+appropriate weapons commands to the fire direction center and/or information coordination 
+central to ensure effective employment of air defense artillery resources.  (T-3)  Coordinate 
+directly with the information coordination central for target assignment.  (T-3)  Conduct 
+close coordination with the SL on all targets in pre-briefed engagement zones.  (T-3) 
+6.3.4.4.  Monitor air defense artillery engagements of air-breathing threats and theater 
+ballistic missiles, and immediately inform the MC and SL of results of weapons 
+engagement to include the number of targets engaged and/or number of targets remaining.  
+(T-3) 
+6.3.4.5.  Receive and update all brigade and/or battalion level reports (i.e., surface to air 
+missile status report, engagement summary reports), further guidance found in Field 
+Manual (FM) 6-99, U.S. Army Report and Message Formats.  (T-3) 
+6.3.4.6.  Coordinate with the SL for pending and/or recommend changes in weapons 
+control states and with the ST/MSO and WDs on all unidentified tracks and recommend 
+identification status as received from air defense artillery sources.  (T-3) 
+6.4.  AST/SSO, EPT, ICT, and ST, MSO Specific Responsibilities. 
+6.4.1.  AST/SSO and ST/MSO (AFSC 1C5), Common Mission Crew Responsibilities.  The 
+AST/SSO and ST/MSO mission crewmembers share common duty responsibilities and tasks 
+in addition to position-specific responsibilities outlined in their respective sections of this 
+manual.  Specific responsibilities include but are not limited to the following: 
+6.4.1.1.  Ensure extraction of all necessary data from documents and directives to plan 
+sensor, surveillance and TDL operations to meet the commander’s intent and mission 
+tasking.  (T-3)  Confirm the chain of command, authorities, and battle plans.  Attend and/or 
+present team mission briefs when appropriate.  (T-3) 
+6.4.1.2.  Provide guidance to the mission crew on employment of resources, in accordance 
+with the joint air operations plan, operations plan, ATO, airspace control order, operational 
+tasking data link, ROE, special instructions and other mission specific documents, 
+procedures and taskings.  (T-3)  Capture lessons learned.  (T-3) 
+6.4.1.3.  Ensure operational checks are completed on all equipment and all equipment 
+outages are reported before the mission.  (T-3)  Ensure the required radios were available, 
+configured, frequencies assigned, and cryptographic equipment loaded and configured  
+(T-3) Configure and operate the OWS display to optimize situational awareness in 
+accordance with unit LOP.  (T-3)  The AST/SSO/MSO directs database loads and approved 
+changes to database information.  (T-3) 
+6.4.1.4.  Interpret, initiate, and update data for computer displays.  Accomplish OWS 
+switch actions and respond to alarms and alerts.  (T-3)  Perform surveillance-related 
+console operations and switch actions to maintain an accurate air picture.  (T-3) 
+6.4.1.5.  Brief the on-coming ADAFCO and/or ADAFCA on the current operational 
+situation before departing position.  (T-3)  Conduct positional changeover briefing with 
+crew aid checklist, Positional Change-Over Briefing.  (T-3) 
+6.4.1.6.  Conduct emergency action procedures as required and/or tasked and coordinate 
+with other mission crewmembers without delay.  (T-3) 
+38 
+AFMAN13-1CRCV3  26 APRIL 2024 
+6.4.1.7.  Authenticate voice transmission within time limits specified in accordance with 
+authenticators.  (T-3) 
+6.4.1.8.  Comply with all safety factors required for safe operation and mission 
+accomplishment.  Ensure appropriate safety checks were accomplished as needed.  (T-3)  
+Ensure adequate coordination to prevent unsafe acts.  Electrical, fire, physical and radiation 
+hazards will be annotated and immediately reported.  (T-3)  All crewmembers will know 
+the location of safety equipment and explain the proper use.  (T-3) 
+6.4.1.9.  Recognize the existence of and assist the mission crew in the conduct of aircraft 
+emergencies.  (T-3)  Coordinate responses referencing the mission crew aid, Controlled 
+Aircraft Emergency and enter the appropriate emergency point on the OWS.  (T-3) 
+6.4.1.10.  Coordinate with the mission crew to ensure equipment and assets are available 
+to accomplish the assigned mission.  (T-3)  Ensure coordination and information flow 
+within the SOT and cross-teams (i.e., BMTs) as required.  (T-3) 
+6.4.1.11.  Utilize and monitor appropriate assigned frequencies and chat windows (if 
+available) as required to maintain effective situational awareness.  (e.g., interface control 
+net, and data link coordination network and/or track supervision net).  (T-3) 
+6.4.1.12.  Demonstration of strict professional mission crew discipline will be conducted 
+throughout all phases of the mission.  (T-3) 
+6.4.1.13.  Employ receive and/or transmit procedures in accordance with AFTTP 3-3.CRC.  
+(T-3) 
+6.4.1.14.  Monitor the applicable systems analysis and monitor status tools or take direction 
+from the Region or Sector Interface Control Officer for system degradation.  (T-3) 
+6.4.2.  AST/SSO/MSO, AFSC 1C5, Minimum 7 level, SEI 946.  The AST/SSO/MSO as the 
+lead for the SOT will be responsible to the SL for management of the wide area and long-range 
+surveillance and TDL functions and the supervision of assigned EPT, ICT, STs, and MSOs.  
+(T-3)  The AST/SSO/MSO will be responsible for the clarity, accuracy, currency, and quality 
+of track data displayed for the common tactical picture on the mission system and to provide 
+that data to the theater-wide common operational picture.  (T-3)  The AST/SSO/MSO will 
+ensure, as referenced in JP3-01, Countering Air and Missile Threats, an accurate common 
+tactical picture (i.e., the picture is distributed over the TDL network architecture or provide 
+required voice tell as required).  (T-3)  The AST/SSO/MSO should be afforded every 
+opportunity to attend formal Joint TDL courses.  The AST/SSO/MSO will be responsible for, 
+but not limited to: 
+6.4.2.1.  Ensure SOT functional crewmember composition and crewmembers meet 
+established unit Go/No-Go criteria and are in accordance with AFMAN 13-1GBMC2V2.  
+(T-3)  Lead the SOT mission planning efforts to determine the mission tasking priorities 
+for: identification criteria, area(s) of responsibility, battle management area(s), track 
+production area(s), TDL requirements, communications requirements, and surveillance 
+and/or TDL plans from mission planning documents.  (T-3)  The AST/SSO/MSO will 
+obtain equipment status from the CFP.  Read and initial all items in the flight crew 
+information file and read files.  (T-3)  Establish a course of action based on risk assessment 
+AFMAN13-1CRCV3  26 APRIL 2024 
+39 
+and mission impact in event of loss of communications (e.g., equipment failure, jamming).  
+(T-3) 
+6.4.2.2.  Coordinate with the EPT to direct emission control and electronic protection 
+activities and ensure the mission crew and external agencies are notified of electromagnetic 
+interference and/or electronic attack experienced.  (T-3) 
+6.4.2.3.  Recognize and/or receive impending anti-radiation missile attack profile warning, 
+notify the mission crew, and supervise SOT and TDL team responses to an impending anti-
+radiation missile attack.  (T-3) 
+6.4.2.4.  Provide timely, efficient guidance to the SOT on employment of resources in 
+accordance with the joint air operations plan, operations plan, ATO and/or airspace control 
+order, operational tasking data link, special instructions and other mission specific 
+documents, procedures and taskings.  (T-3)  Assess ROE and identification procedures 
+based on changing alert conditions.  (T-3) 
+6.4.2.5.  Supervise the proper detection, classification, identification, reporting and 
+tracking of air traffic within the area of responsibility and/or battle management area.  (T-3)  
+When delegated, in accordance with theater identification matrix and ROE, supervise the 
+declaration of targets as hostile based on hostile intent and/or hostile act criteria and level 
+of authority.  (T-3) 
+6.4.2.6.  Supervise electronic protection efforts to counter electronic attack.  (T-3)  
+Disseminate air defense warnings as required.  (T-3)  Monitor and support combat search 
+and rescue and/or personnel recovery efforts as tasked.  (T-3) 
+6.4.2.7.  Ensure flight plan information is disseminated to higher, lateral, and subordinate 
+units.  (T-3)  Approve and/or disapprove all cancel track actions.  (T-3)  Ensure 
+coordination of identification activities with adjacent air traffic control and BMC2 
+facilities.  Direct surveillance configuration at subordinate DR sites.  (T-3)  Ensure data 
+link track filters were built as required.  (T-3) 
+6.4.2.8.  Ensure coordination and information flow within the TOC as required.  (T-3)  
+Coordinate and direct track production tasks for assigned area(s) in accordance with ATO, 
+airspace control order, airspace control plan, and special instructions.  (T-3)  Ensure the 
+SOT was aware of airspace control measures involved in the identification process (e.g., 
+enemy airspaces, point of origin criteria, minimum risk routes).  (T-3) 
+6.4.2.9.  Perform initial data link equipment checkout.  (T-3)  Conduct TDL operations as 
+directed.  Build and maintain TDLs as required.  (T-3)  Report link problems in accordance 
+with established procedures.  (T-3)  Use the data link coordination network and/or track 
+supervision net to coordinate with external data link agencies for the designation and use 
+of frequencies and/or channels assigned to interface data links and voice coordination 
+networks.  (T-3)  Implement changes in interface configurations as directed.  (T-3)  Build 
+and implement data link filters as required.  (T-3)  Recommend changes in data link 
+configurations to the SL as appropriate.  (T-3)  Data link operations will be in accordance 
+with AFMAN 13-116.  (T-3) 
+6.4.2.10.  Divide the CRC operational area into track production area(s)) and assigned 
+appropriate STs/MSOs to conduct surveillance within those areas.  (T-3)  Ensure timely 
+40 
+AFMAN13-1CRCV3  26 APRIL 2024 
+and accurate collection, display, and dissemination of air surveillance data to higher, 
+lateral, and subordinate units as appropriate.  (T-3)  Ensure implementation of the airspace 
+control order and provide safe passage advisories.  (T-3)  Ensure active airspace control 
+measures were properly displayed and coordinate the activation and deactivation of 
+airspace control measures with the mission crew.  (T-3) 
+6.4.2.11.  Analyze and apprise the SL of the surveillance and TDL situation, to include 
+system(s) status, jammer points (i.e., fixes), and that jam strobes are analyzed and 
+displayed, and coordinated with other BMC2 nodes to identify and locate jammers or the 
+source of interference.  (T-3) 
+6.4.2.12.  Coordinate voice tell procedures in accordance with AFTTP 3.1.IPE and AFTTP 
+3-3.IPE, Attachment 1, and AFTTP 3-3.CRC, theater special instructions, and CRC 
+mission crew aids enabling the timely and accurate exchange of track information with 
+coordinating BMC2 agencies when TDL is not available between two or more agencies.  
+(T-3) 
+6.4.2.13.  Ensure that when in voice tell receive-mode, the ST/MSO will have the pre-
+briefed and/or pre-coordinated tell formats and be prepared to immediately initiate track 
+data symbology prior to attempting to correlate the told-in track.  (T-3) 
+6.4.2.14.  Ensure procedures are developed to give priority tracking attention to track(s) of 
+interest and assign tracking responsibilities and record pertinent track data (e.g., event 
+times, track number, identification, and resolution) in the operations logbook.  (T-3) 
+6.4.2.15.  Initiate, modify, and manage the database as directed to meet operational mission 
+tasking.  (T-3)  Select, copy, delete, review, rename, share and/or create database entries 
+as necessary.  (T-3)  Ensure database entries for the ATO, airspace control order, airspace 
+control plan, and operational tasking data link information is correct.  (T-3)  Recommend 
+system configuration changes to the SL, as appropriate.  (T-3)  Coordinate computer 
+problems and workarounds as required with the SL and the UCC.  (T-3)  Respond to alarms 
+and alerts in a timely manner.  (T-3) 
+6.4.2.16.  Ensure proper sensor and site registration procedures are implemented as 
+required.  (T-3)  Direct coordination to resolve registration problems with interfacing units.  
+(T-3) 
+6.4.2.17.  Ensure sensors are configured and optimized to accomplish the mission.  (T-3) 
+Recognize and analyze degraded sensor performance.  (T-3)  Ensure and monitor 
+corrective measures taken to improve degraded sensor performance.  (T-3)  Ensure system 
+radar correlation checks for organic and remote radars are completed on the PREP 
+worksheet, specified in T.O. 31P3-2TPS-75-56WC-1, Scheduled Periodic Inspection 
+Workcard, TPS-75 Radar System.  (T-3) 
+6.4.2.18.  Provide surveillance and identification-related data, records, and reports to the 
+SL as directed.  (T-3) 
+6.4.3.  ICT/MSO, AFSC 1C51, Minimum 5 level, SEI 947.  The ICT/MSO will be responsible 
+to the AST/SSO/MSO to establish and maintain TDLs and monitor data link effectiveness.  
+(T-3)  The ICT/MSO is responsible to troubleshoot mission equipment malfunctions at the 
+direction of the AST.  (T-3)  The ICT/MSO should be afforded every opportunity to attend 
+AFMAN13-1CRCV3  26 APRIL 2024 
+41 
+formal joint TDL courses.  The ICT/MSO will as a minimum be responsible to perform the 
+following: 
+6.4.3.1.  Extract information from mission planning documents as directed by the SL 
+and/or AST/SSO/MSO.  Assist in the preparation of information required for the mission 
+crew briefing.  (T-3)  Read and initial all items in the flight crew information file and read 
+files.  (T-3) 
+6.4.3.2.  Assess and plan for platform multi-TDL capabilities and limitations of the 
+supporting equipment components and systems to include the anticipated data loads, 
+interoperability problems, and environmental limitations.  (T-3) 
+6.4.3.3.  Coordinate with the MPC and SL, AST/SSO/MSO, and ST/MSO as required to 
+plan, compile, and load the initial build of the TDL, battle management, surveillance, and 
+weapons functions databases to ensure the system configuration meets operational 
+requirements.  (T-3) 
+6.4.3.4.  Attend all required briefings and/or debriefings and extract and/or provide all 
+necessary information (i.e., unit’s track number block, any participating unit (PU), joint 
+tactical information distribution system unit, filter plan) to the SOT.  (T-3)  Conduct the 
+TDL portion of the pre-mission crew briefing in accordance with crew aids to include 
+participants, current equipment, and link status, etc.  (T-3) 
+6.4.3.5.  Plan all areas necessary to conduct tasked mission(s) and conduct aircrew 
+briefings and/or debriefings in accordance with AFMAN 11-214 and AFTTP 3-3.CRC (as 
+applicable), and other LOPs and/or directives.  (T-3)  Provide constructive feedback on 
+team and individual performance.  (T-3)  Provide specific instructional fixes to correct 
+errors and requested inputs from others.  (T-3)  Summarize mission execution, identified 
+lessons learned, and compare mission results with mission crew objectives.  (T-3) 
+6.4.3.6.  Coordinate initial TDL configuration with external agencies to ensure accurate 
+multi-link operations (e.g., taskings), aligned with Joint Interface Control Officer and/or 
+AST/SSO/MSO guidance.  (T-3) 
+6.4.3.7.  Configure TOC operator workstations and joint tactical information distribution 
+system module communications equipment to meet mission requirements.  (T-3)  Ensure 
+operational checks are completed on all necessary equipment (e.g., joint range extension, 
+joint tactical information distribution system terminal) prior to the mission and equipment 
+outages are reported.  (T-3)  Ensure radios are available, frequencies assigned, and 
+cryptographic equipment loaded and configured.  (T-3)  Perform initial data link equipment 
+checkout in accordance with the ATO, special instructions, operational tasking data link or 
+Joint Interface Control Officer, Region or Sector Interface Control Officer, and 
+AST/SSO/MSO, and/or ST/MSO guidance as the mission dictates.  (T-3)  Configure the 
+communications equipment for operations as required.  (T-3) 
+6.4.3.8.  Set up and operate the OWS and joint tactical information distribution system 
+module in accordance with unit LOPs.  (T-3)  Locate controls and indicators on the joint 
+range extension equipment and/or OWS.  Use switch actions to optimize data links and 
+display presentations.  (T-3) 
+42 
+AFMAN13-1CRCV3  26 APRIL 2024 
+6.4.3.9.  Conduct changeover briefings with the on-coming ICT/MSO, guidance found in 
+Chairman of the Joint Chiefs of Staff Manual (CJCSM) 6120.01, Joint Multi-Tactical Data 
+Link (TDL) Operating Procedures, and appropriate CRC crew aids.  (T-3) 
+6.4.3.10.  Conduct emergency action procedures as required and/or tasked and coordinate 
+with other crewmembers without delay.  (T-3) 
+6.4.3.11.  Authenticate voice transmission within time limits specified in accordance with 
+authenticators.  (T-3) 
+6.4.3.12.  Comply with all safety factors required for safe operation and mission 
+accomplishment.  (T-2)  Ensure appropriate safety checks were accomplished as required.  
+(T-2)  Ensure adequate coordination to prevent unsafe acts.  (T-2)  Electrical, fire, physical 
+and radiation hazards will be annotated and immediately reported.  (T-2)  All crewmembers 
+will know the location of safety equipment and explain the proper use.  (T-2) 
+6.4.3.13.  Coordinate with the mission crew to ensure equipment and assets are available 
+and used to accomplish the assigned mission.  (T-3)  Ensure coordination and information 
+flow within the SOT, across the BMT(s), and with external agencies as required.  (T-3) 
+6.4.3.14.  Demonstration of strict professional mission crew discipline will be conducted 
+throughout all phases of the mission. 
+6.4.3.15.  Employ receive and/or transmit procedures in accordance with AFTTP 3-3.CRC.  
+(T-3) 
+6.4.3.16.  Conduct TDL operations as directed: build, modify, and maintain TDL databases 
+and filters as directed.  (T-3)  Interpret, respond, and report TDL problems in accordance 
+with the operational tasking data link and established LOPs and theater procedures.  (T-3)  
+Use data link coordination network and/or track supervision net to coordinate frequencies 
+and/or channels with other data link agencies (e.g., Joint Interface Control Officer).  (T-3)  
+Coordinate the designation and use of frequencies and/or channels assigned to interface 
+data links and voice coordination networks.  (T-3) Implement changes in interface 
+configurations as directed.  (T-3)  Recommend changes in data link configurations to the 
+SL and/or AST/SSO/MSO.  (T-3) 
+6.4.3.17.  Ensure database ATO information is correct and current.  (T-3)  Configure and 
+manage the system database.  (T-3)  Recommend system configuration changes to the 
+mission crew (i.e., AST/SSO/MSO or SL) as appropriate.  (T-3)  Coordinate computer 
+problems and workarounds as required.  (T-3) 
+6.4.3.18.  Perform duties from the TOC, joint tactical information distribution system 
+module, or from any suitable area with access to a link monitoring capability.  (T-3) 
+6.4.3.19.  Assist the AST/SSO/MSO in implementation of the operational tasking data link 
+and ensure interface units are complying.  (T-3) 
+6.4.3.20.  Ensure concurrent TDL (i.e., stacked nets or multi-TDL) operations are not 
+conducted unless specifically mentioned in the operational tasking data link, directed by 
+the Joint Interface Control Officer and/or Region or Sector Interface Control Officer, or 
+are planned during mission planning.  (T-3) 
+AFMAN13-1CRCV3  26 APRIL 2024 
+43 
+6.4.3.21.  Terminate TDLs only after receiving operational release from the appropriate 
+controlling authority (e.g., Joint Interface Control Officer).  (T-3)  However, if 
+uncoordinated for whatever reason, notify the controlling authority as soon as possible if 
+an emergency termination of a link becomes likely or necessary.  (T-3) 
+6.4.3.22.  Ensure transmission of change data orders to resolve environment and 
+identification conflicts and recommend system configuration changes are passed to the 
+AST/SSO/MSO as appropriate.  (T-3) 
+6.4.3.23.  Perform and/or coordinate system resets and/or initial program loads as directed.  
+(T-3) 
+6.4.3.24.  Evaluate remote radar data for correlation (i.e., considered correlated when 
+within 2 nautical miles and 2 degrees), of the reference radar and ensure data is received 
+on all tracks.  (T-3) 
+6.4.3.25.  Perform data recording and post-mission data reduction as directed.  (T-3) 
+6.4.4.  Surveillance Technician (ST)/ MSO, AFSC 1C51, Minimum 3 Level, SEI 943.  The 
+ST/MSO will be responsible to the SL and/or the AST/SSO/MSO as assigned for detection, 
+initiation, identification, and maintenance for all tracks within the battle area of responsibility, 
+management area and/or the track production area(s).  (T-3)  The ST/MSO must have 
+knowledge of classification, identification, tracking, and voice tell procedures, and reporting 
+criteria as governed in accordance with applicable theater guidance.  (T-3)  STs/MSOs will be 
+assigned to a BMT and/or SOT.  (T-3)  The ST/MSO will be responsible to perform but not 
+limited to the following: 
+6.4.4.1.  Ensure all tracks are identified within two minutes of detection using reported 
+position, IFF/SIF, precise positive position locating information, pilot maneuvering and/or 
+external sources.  (T-3) 
+6.4.4.2.  Coordinate computer problems and workarounds with the CFP as required.  (T-3) 
+Respond to alarms and alerts in a timely manner.  (T-3) 
+6.4.4.3.  Identify air tracks in the assigned area in accordance with identification 
+procedures specified by the ROE.  (T-0)  Locate and use switch actions to identify tracks.  
+(T-3)  Interrogate IFF/SIF to display appropriate identification symbology and report 
+conflicts to the SL, WD, and AST/SSO/MSO as appropriate.  (T-3) 
+6.4.4.4.  Recognize and report electronic attack indications to the SL and/or 
+AST/SSO/MSO.  (T-3) 
+6.4.4.5.  Interpret track symbols and modifiers.  (T-3)  Read and interpret information 
+displayed on the OWS.  (T-3)  Use switch actions associated with initiating and 
+maintaining tracks.  (T-3)  Use switch actions to maintain surveillance tracks within 2 
+nautical miles of radar data.  (T-3) 
+6.4.4.6.  Provide aid to include proper notification procedures to receive and handoff 
+agencies or check-in WD for aircraft emergencies, to include downed aircraft and combat 
+search and rescue and/or personnel recovery operations in accordance with applicable crew 
+aid checklists.  (T-3) 
+44 
+AFMAN13-1CRCV3  26 APRIL 2024 
+6.4.4.7.  Perform Voice Tell operations with guidance from AFMAN 13-1 CRCV3, 
+AFTTP 3-3.CRC, and AFTTP 3-3.IPE, as directed.  (T-3) 
+6.4.4.8.  Create/Modify/Delete doctrine as required to meet mission needs.  (T-3) 
+6.4.5.  EPT, AFSC 1C5, Minimum 5 level, SEI 944.  The EPT will be responsible to the SL or 
+AST/SSO/MSO for electronic protection using the AN/TPS-75.  (T-3)  The EPT will recognize 
+and control the effects of electronic attack and maintain the radar’s presentation and emissions 
+utilizing the AN/TPS-75 system displays, electronic protection functions, switch actions, and 
+established tactics, techniques, and procedures.  (T-3)  Individuals certified in the EPT position 
+will be previously qualified and maintain a current qualification in a CMR position (e.g., 
+AST/SSO, MSO, ICT, ST, or WD).  (T-3)  Assigned personnel possessing the 1C8 AFSC will 
+not be required to maintain a CMR position in the CRC.  (T-3)  The EPT will be responsible 
+for, but not limited to the following: 
+6.4.5.1.  Ensure AN/TPS-75 shelter communication and mission systems are operationally 
+configured, loaded, and powered to meet mission requirements.  (T-3) 
+6.4.5.2.  Extract weather information (e.g., air pressure and temperature, and relative 
+humidity) from weather reports and configure proper settings to neutralize the effects of 
+anomalous propagation, thunderstorms, and weather anomalies.  (T-3) 
+6.4.5.3.  Control, configure, monitor, and interpret the operational status of the AN/TPS-
+75 using the radar control panel in accordance with checklists and unit LOPs.  (T-3) 
+6.4.5.4.  Conduct PREP assessment to provide the optimum configuration of the radar 
+utilizing Attachment 2.  (T-3)  Ensure radar data is correlated within tolerances of the 
+referenced radar and data is received on all tracks within assigned area in accordance with 
+T.O.  31P3-2TPS-75-56WC-1 and assessment is passed to the AST/SSO/MSO.  (T-3) 
+6.4.5.5.  Assist in the development of the CRC and/or DR emission control plan, electronic 
+protection tactics, techniques, and procedures, and radar employment plans in accordance 
+with threat analysis provided by the MPC INTEL section (T-3) Ensure coordination 
+through higher echelon authority prior to implementation.  (T-3) The EPT will also 
+implement the unit emission control plan as directed to counter electronic attack.  (T-3) 
+6.4.5.6.  Select appropriate video(s) to detect jammers and associated jammer track(s) and 
+coordinate with other BMC2 nodes and agencies to identify and locate jammers or other 
+sources of interference.  (T-3) Additionally, the EPT will recognize and inform the 
+AST/SSO/MSO when electronic attack is experienced.  (T-3) Submit electronic attack and 
+spectrum interference resolution reports when jamming and/or interference is encountered.  
+(T-3) 
+6.4.5.7.  Know the in-theater anti-radiation missile threat to include an analysis of possible 
+carriers’ capabilities and probable carrier attack profiles gained from MPC INTEL analysis 
+and/or briefings, and information contained in AFTTP 3-1.IPE, AFTTP 3-3.IPE, and 
+AFTTP 3-3.CRC.  (T-3) 
+6.4.5.8.  Perform IFF/SIF mode checks as applicable in accordance with checklists, LOPs, 
+and theater directives.  (T-3) 
+6.4.5.9.  Recognize, track, and report aircraft emergencies to the AST/SSO/MSO.  (T-3) 
+AFMAN13-1CRCV3  26 APRIL 2024 
+45 
+6.4.5.10.  Perform assistance actions referencing appropriate checklists, LOPs, and 
+AST/SSO/MSO direction.  (T-3) 
+6.4.5.11.  Monitor mission control frequencies as directed.  (T-3) 
+6.4.5.12.  Recognize and report unusual presentations (e.g., electronic attack, electronic 
+protection, anomalous propagation, weather) to the AST/SSO/MSO.  (T-3) 
+6.4.5.13.  Notify the AST/SSO/MSO when electronic or mechanical interference is 
+observed.  (T-3) 
+6.4.5.14.  Enter jamming strobes after coordination with the AST/SSO/MSO.  (T-3) 
+6.4.5.15.  Monitor and provide support to combat search and rescue and/or personnel 
+recovery operations as directed.  (T-3) 
+6.4.5.16.  Configure assigned radios for voice tell operations.  (T-3) 
+6.4.5.17.  Build and assign voice communications circuits as directed.  (T-3) 
+6.4.5.18.  Recognize, report, and counter communications jamming.  (T-3) 
+6.4.5.19.  Prepare and conduct a positional changeover briefing with the on-coming EPT 
+with the positional changeover briefing guide and unit LOPs, if applicable.  (T-3) 
+6.4.5.20.  Perform a radar correlation check when tasked.  (T-3) 
+6.4.5.21.  Comply with all safety factors required for safe operation and mission 
+accomplishment.  Ensure appropriate safety checks are accomplished as needed.  (T-2)  
+Ensure adequate coordination to prevent unsafe acts.  Electrical, fire, physical and radiation 
+hazards will be annotated and immediately reported.  (T-2)  All crewmembers will know 
+the location of safety equipment and explain the proper use.  (T-2) 
+6.4.5.22.  Demonstration of strict professional mission crew discipline will be conducted 
+throughout all phases of the mission. 
+ 
+ADRIAN L. SPAIN, Lt Gen, USAF 
+Deputy Chief of Staff, Operations 
+46 
+AFMAN13-1CRCV3  26 APRIL 2024 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+FAA JO 7610.14, Non-Sensitive Procedures and Requirements for Special Operations, 5 
+October 2023 
+CJCSI 3320.03D, Joint Communications Electronic Operating Instructions, 25 June 2018 
+CJCSM 6120.01, Joint Multi-Tactical Data Link Operating Procedures Overview, 9 April 2021 
+DoDM 5200.01V1_AFMAN 16-1404V1, Information Security Program: Overview, 
+Classification and Declassification, 06 April 2022 
+DoDM 5200.01V2_AFMAN 16-1404V2, Information Security Program: Marking of Classified 
+Information, 07 January 2021 
+DoDM 5200.01 Volume 3/AFMAN 16-1404 Volume 3, Information Security Program: 
+Protection of Classified Information, 12 April 2022 
+JP 3-01, Countering Air and Missile Threats, 6 April 2023 
+JP 3-09, Joint Fire Support, 10 April 2019 
+JP 3-52, Joint Airspace Control, 22 October 2022 
+ATP 3-01.7, Air Defense Artillery Brigade Techniques, 16 March 2016 
+FM 6-99, U.S. Army Reports and Message Formats, 17 May 2021 
+DAFI 90-160, Publications and Forms Management, 14 April 2022 
+DAFI 90-302, The Inspection System of the Department of the Air Force, 15 March 2023 
+DAFMAN 11-401, Aviation Management, 27 October 2020 
+DAFMAN 90-161, Publishing Processes and Procedures, 18 October 2023 
+DAFPD 13-1, Command and Control (C2) Enterprise, 12 April 2021 
+AFPD 10-24, Mission Assurance, 5 November 2019 
+AFDP 3-0, Operations and Planning, 04 November 2016 
+AFDP 3-01, Counterair Operations, 15 June 2023 
+AFDP 3-03, Counterland Operations, 21 October 2020 
+AFDP 3-05, Special Operations, 1 February 2020 
+AFDP 3-27, Homeland Operations, 21 November 2022 
+AFDP 3-30, Command and Control, 7 January 2020 
+AFDP 3-50, Personnel Recovery, 18 March 2020 
+AFDP 3-52, Airspace Control, 31 December 2021 
+AFI 1-2, Commander’s Responsibilities, 8 May 2014 
+AFMAN13-1CRCV3  26 APRIL 2024 
+47 
+AFI 10-201, Force Readiness Reporting, 22 December 2020 
+AFI 10-403, Deployment Planning and Execution, 17 April 2020 
+AFI 10-701, Operations Security (OPSEC), 24 July 2019 
+AFI 13-101, Evaluation of Ground Based Radar Systems and Sensors Supporting Command and 
+Control (C2) Enterprise, 25 November 2020 
+AFI 14-1020, Intelligence Mission Qualification and Readiness, 8 November 2017 
+AFI 17-201, Command and Control (C2) For Cyberspace Operations, 5 March 2014 
+AFI 33-322, Records Management and Information Governance Program, 23 March 2020 
+AFI 34-1201, Protocol, 18 August 2020 
+AFI 71-101V1, Criminal Investigations Program, 1 July 2019 
+AFI 90-802, Risk Management, 1 April 2019 
+AFMAN 11-214, Air Operations Rules and Procedures, 29 November 2022 
+AFMAN 13-1CRC V1, Control and Reporting Center (CRC) - Training, 28 January 2020 
+AFMAN 13-1CRC V2, Control and Reporting Center (CRC) - Evaluation Criteria, 20 October 
+2020 
+AFMAN 13-1GBMC2 V2, Ground Battle Management Command and Control (GBMC2) 
+Standardization/Evaluation Program, 1 October 2020 
+AFMAN 13-116, Tactical Data Link Planning and Operations, 13 August 2020 
+AFMAN 17-1302-O, Communication Security (COMSEC) Operations, 9 April 2020 
+AFMAN 31-101V1, Integrated Defense (ID) Planning, 12 March 2020 (CUI) 
+AFMAN 35-101, Public Affairs Procedures, 7 December 2020 
+ACP 121(I), Communication Instructions - General, October 2010 
+ACP 125(G), Communication Instructions – Radiotelephone Procedures, 28 November 2016 
+AFTTP 3-1.AOC-S/NF, Air Operations Center, 23 October 2020 (S/NF) 
+AFTTP 3-1.CRC-S/NF, Tactical Employment CRC, 16 December 2022 (S/NF) 
+AFTTP 3-1.IPE-S/NF, Integrated Planning and Employment, 4 February 2022 (S/NF) 
+AFTTP 3-2.5., Multi-Service Tactics, Techniques, and Procedures for Multi-Service Brevity 
+Codes, March 2023 
+AFTTP 3-2.17, Multi-Service Tactics, Techniques, and Procedures for the Theater Air Ground 
+System, 1 May 2020 
+AFTTP 3-2.31, Multi-Service Tactics, Techniques, and Procedures for Air and Missile Defense, 
+1 March 2019 
+AFTTP 3-2.78, Multi-Service Tactics, Techniques, and Procedures for Airspace Control, 
+February 2019 
+48 
+AFMAN13-1CRCV3  26 APRIL 2024 
+AFTTP 3-2.90, Multi-Service Tactics, Techniques, and Procedures for Personal Recovery, 
+October 2022 
+AFFTP 3-3.AOC, Combat Fundamentals - AOC, 23 October 2020 
+AFTTP 3-3.CRC, Combat Aircraft Fundamentals Control and Reporting Center (CRC), 16 
+December 2022 
+AFTTP 3-3.IPE, Combat Aircraft Fundamentals - IPE, 4 February 2022 
+AFTTP 3-3.TACS, Theater Air Control System – (TACS), 10 September 2021 
+Technical Order 00-33A-1001, Cyberspace Operations and Maintenance Practice, 01 July 19 
+Technical Order 31P3-2TPS-75-56WC-1, Scheduled Periodic Inspection Workcard TPS-75 
+Radar System, 5 Feb 2018 
+Prescribed Forms 
+None 
+Adopted Forms 
+DAF Form 847, Recommendation for Change of Publication 
+AF Form 4145, Daily Activity Log 
+AF Form 4146, Mission Briefing Guide 
+Abbreviations and Acronyms 
+ABM—Air Battle Manager 
+ACC—Air Combat Command 
+ACP—Allied Communications Publication 
+ACS—Air Control Squadron 
+ADAFCA—Air Defense Artillery Fire Control Assistant 
+ADAFCO—Air Defense Artillery Fire Control Officer 
+AETC—Air Education and Training Command 
+AF—Air Force 
+AFDP—Air Force Doctrine Publication 
+AFI—Air Force Instruction 
+AFMAN—Air Force Manual 
+AFPD—Air Force Policy Directive 
+AFTTP—Air Force Tactics, Techniques, and Procedures 
+AFSC—Air Force Specialty Code 
+ALSSA—Air Land Sea Space Application 
+AFMAN13-1CRCV3  26 APRIL 2024 
+49 
+ANG—Air National Guard 
+AOC—Air Operations Center 
+AST—Air Surveillance Technician 
+ATO—Air Tasking Order 
+ATP—Army Techniques Publication 
+BMC2—Battle Management Command and Control 
+BMT—Battle Management Team 
+C2—Command and Control 
+CC—Commander 
+CFACC—Combined Forces Air Component Commander 
+CFP—Communications Focal Point 
+CJCSI—Chairman of the Joint Chiefs of Staff Instruction 
+CJCSM—Chairman Joint Chiefs of Staff Manual 
+CMR—Combat Mission Ready 
+COA—Course of Action 
+COMSEC—Communications Security 
+CRC—Control and Reporting Center 
+CUI—Controlled Unclassified Information 
+DAF—Department of the Air Force 
+DAFI—Department of the Air Force Instruction 
+DAFMAN—Department of the Air Force Manual 
+DAFPD—Department of the Air Force Policy Directive 
+DO—Director of Operations 
+DoDM—Department of Defense Manual 
+DR—Deployed Radar 
+EPT—Electronic Protection Technician 
+FAA—Federal Aviation Administration 
+FTU—Formal Training Unit 
+GBMC2—Ground Battle Management Command and Control 
+HAF—Headquarters Air Force 
+HQ—Headquarters 
+IC—Interim Change 
+50 
+AFMAN13-1CRCV3  26 APRIL 2024 
+ICT—Interface Control Technician 
+IFF—Identification, Friend, or Foe 
+INTEL—Intelligence 
+JFACC—Joint Forces Air Component Commander 
+JFC—Joint Forces Commander 
+JP—Joint Publication 
+LOP—Local Operating Procedure 
+MAJCOM—Major Command 
+MDH—Mission Duty Hours 
+MPC—Mission Planning Cell 
+MSO—Mission System Operator 
+NAF—Numbered Air Force 
+NGB—National Guard Bureau 
+NMT—No More Than 
+OIF—Operations Information File 
+OPR—Office of Primary Responsibility 
+OPSEC—Operations Security 
+OWS—Operator Workstation 
+RADC—Regional Air Defense Commander 
+ROE—Rules of Engagement 
+PREP—Periodic Radar Evaluation Program 
+PU—Participating Unit 
+SADC—Sector Air Defense Commander 
+SEI—Special Experience Identifier 
+SIF—Selective Identification Feature 
+SL—Section Lead 
+SOT—Sensor Operations Team 
+SS—Site Support 
+SSO—Senior System Operator 
+ST—Surveillance Technician 
+TACS—Theater Air Control System 
+TAGS—Theater Air-Ground System 
+AFMAN13-1CRCV3  26 APRIL 2024 
+51 
+TDL—Tactical Data Link 
+T.O.—Technical Order 
+TOC—Tactical Operations Center 
+UCC—Unit Command Center 
+US—United States 
+USAFE-AFAFRICA—United States Air Forces in Europe-Air Forces Africa 
+USC—United States Code 
+UTC—Unit Type Code 
+WD—Weapons Director 
+Office Symbols 
+ACC/A3C—ACC, Command and Control and Intelligence Surveillance and Reconnaissance 
+Division 
+ACC/A3CG—ACC Ground Battle Management Systems Branch 
+ACC/A3TV—ACC Standardization Branch 
+AF/A3—AF Deputy Chief of Staff for Operations 
+AF/A3T—AF Training and Readiness Directorate 
+AF/A3TE—AF Exercises and Training Division 
+NGB A3/10—NGB Director of Operations 
+USAFE—AFAFRICA/A3ZJ—USAFE-AFAFRICIA Command and Control Management 
+Branch 
+ 
+52 
+AFMAN13-1CRCV3  26 APRIL 2024 
+Attachment 2 
+PERIODIC RADAR EVALUATION PROGRAM (PREP) 
+A2.1.  The periodic Radar Evaluation Program (PREP).  In accordance with AFI 13-101, 
+Evaluation of Ground Based Radar Systems and Sensors Supporting Command Control (C2) 
+Enterprise, and ACC Supplements, the PREP provides unit leadership with a tool for determining 
+the capability of each assigned radar to detect, identify, track and control aircraft.  Additionally, it 
+determines aircraft height, permanent echoes, ground returns, clutter, radar performance 
+parameters, and maximizes operational readiness ensuring maximum detection ranges and flight 
+safety.  The PREP also determines the system configuration for optimal performance in a dynamic 
+radar environment.  In support of the PREP, units will accomplish, but not be limited to the 
+following: 
+A2.1.1.  Establish a unit PREP task-certification program to include a positional certification 
+for non-EPT certified individuals, in accordance with AFMAN 13-1CRC V1.  (T-3)  In 
+addition to the EPT, individuals selected by the DO are trained and certified (i.e., vice 
+qualified) to conduct daily in-garrison PREP assessment.  (T-3)  Upon completion of the 
+certification program, the DO designates in writing the certification of trained individuals.  
+(T-3) 
+A2.1.2.  Provide an assessment of radar system effectiveness utilizing radar Preparation 
+Worksheet at Figure A2.1.2 and record any deterioration of mission capability.  (T-3)  PREPs 
+are conducted during both unit deployment and in-garrison operations using the PREP 
+worksheet.  (T-3) 
+A2.1.3.  Subjective Assessment: The PREP individual or EPT will evaluate radar quality.  
+(T-3)  Base radar quality assessment on data analysis of information gathered on aircraft 
+tracking, detection, permanent echoes, ground returns, clutter, radar performance parameters, 
+weather conditions, and radar height readouts.  (T-3)  Assessment results are recorded using 
+the radar Preparation Worksheet in Figure A2.1.  (T-3) 
+A2.1.4.  The assessment of the radar is made at the beginning of each operations shift or in-
+garrison training event by the certified PREP individual or EPT.  (T-3)  Results of completed 
+assessment will be passed to the AST/SSO/MSO with a single word: satisfactory, marginal, or 
+unsatisfactory.  (T-3)  Results will be recorded in the operations logbook.  (T-3) 
+A2.1.6.  The PREP worksheet is maintained on file by the unit for a minimum of 60 days after 
+completion and then destroyed. 
+ 
+ 
+AFMAN13-1CRCV3  26 APRIL 2024 
+53 
+Figure A2.1.  Radar Preparation Worksheet (Pages 1-2). 
+QUADRANT  1    360-090 
+QUADRANT  1    360-090 
+100NM IN       X   OUT 
+MODE 3: 
+100NM IN 
+OUT     X  
+MODE 3: 
+START AZ/RNG 
+/ 
+END AZ/RNG 
+/ 
+START AZ/RNG 
+/ 
+END AZ/RNG 
+/ 
+MODE C DHRO 
+DIFF 
+MODE C DHRO 
+DIFF 
+MODE C DHRO 
+DIFF 
+MODE C DHRO 
+DIFF 
+1 
+11 
+1 
+11 
+2 
+12 
+2 
+12 
+3 
+13 
+3 
+13 
+4 
+14 
+4 
+14 
+5 
+15 
+5 
+15 
+6 
+16 
+6 
+16 
+7 
+17 
+7 
+17 
+8 
+18 
+8 
+18 
+9 
+19 
+9 
+19 
+10 
+20 
+10 
+20 
+SIF% 
+RDR% 
+DIFF 
+SIF% 
+RDR% 
+DIFF 
+AVG HEIGHT  DIFFERENCE 
+AVG HEIGHT  DIFFERENCE 
+QUADRANT  2    090-180 
+QUADRANT  2    090-180 
+100NM IN       X   OUT 
+MODE 3: 
+100NM IN 
+OUT     X  
+MODE 3: 
+START AZ/RNG 
+/ 
+END AZ/RNG 
+/ 
+START AZ/RNG 
+/ 
+END AZ/RNG 
+/ 
+MODE C DHRO 
+DIFF 
+MODE C DHRO 
+DIFF 
+MODE C DHRO 
+DIFF 
+MODE C DHRO 
+DIFF 
+1 
+11 
+1 
+11 
+2 
+12 
+2 
+12 
+3 
+13 
+3 
+13 
+4 
+14 
+4 
+14 
+5 
+15 
+5 
+15 
+6 
+16 
+6 
+16 
+7 
+17 
+7 
+17 
+8 
+18 
+8 
+18 
+9 
+19 
+9 
+19 
+10 
+20 
+10 
+20 
+SIF% 
+RDR% 
+DIFF 
+SIF% 
+RDR% 
+DIFF 
+AVG HEIGHT  DIFFERENCE 
+AVG HEIGHT  DIFFERENCE 
+QUADRANT  3    180-270 
+QUADRANT  3    180-270 
+100NM IN       X   OUT 
+MODE 3: 
+100NM IN 
+OUT     X  
+MODE 3: 
+START AZ/RNG 
+/ 
+END AZ/RNG 
+/ 
+START AZ/RNG 
+/ 
+END AZ/RNG 
+/ 
+MODE C DHRO 
+DIFF 
+MODE C DHRO 
+DIFF 
+MODE C DHRO 
+DIFF 
+MODE C DHRO 
+DIFF 
+1 
+11 
+1 
+11 
+2 
+12 
+2 
+12 
+3 
+13 
+3 
+13 
+4 
+14 
+4 
+14 
+5 
+15 
+5 
+15 
+6 
+16 
+6 
+16 
+7 
+17 
+7 
+17 
+8 
+18 
+8 
+18 
+9 
+19 
+9 
+19 
+10 
+20 
+10 
+20 
+SIF% 
+RDR% 
+DIFF 
+SIF% 
+RDR% 
+DIFF 
+AVG HEIGHT  DIFFERENCE 
+AVG HEIGHT  DIFFERENCE 
+QUADRANT  4    270-360 
+QUADRANT  4    270-360 
+100NM IN       X   OUT 
+MODE 3: 
+100NM IN 
+OUT     X  
+MODE 3: 
+START AZ/RNG 
+/ 
+END AZ/RNG 
+/ 
+START AZ/RNG 
+/ 
+END AZ/RNG 
+/ 
+MODE C DHRO 
+DIFF 
+MODE C DHRO 
+DIFF 
+MODE C DHRO 
+DIFF 
+MODE C DHRO 
+DIFF 
+1 
+11 
+1 
+11 
+2 
+12 
+2 
+12 
+3 
+13 
+3 
+13 
+4 
+14 
+4 
+14 
+5 
+15 
+5 
+15 
+6 
+16 
+6 
+16 
+7 
+17 
+7 
+17 
+8 
+18 
+8 
+18 
+9 
+19 
+9 
+19 
+10 
+20 
+10 
+20 
+SIF% 
+RDR% 
+DIFF 
+SIF% 
+RDR% 
+DIFF 
+AVG HEIGHT  DIFFERENCE  
+ 
+AVG HEIGHT  DIFFERENCE  
+ 
+ 
+54 
+AFMAN13-1CRCV3  26 APRIL 2024 
+Attachment 3 
+VOICE TELL PROCEDURES 
+A3.1.  Voice Tell.  When the CRC has been assigned a battle management area (BMA) where 
+either the CRC is unable or coordinating BMC2 units are unable to conduct TDL operations, pre-
+briefed voice tell procedures will be implemented.  (T-3)  Procedures will be in accordance with 
+AFTTP 3-1.IPE and AFTTP 3-3.IPE, Attachment 1, and AFTTP 3-3.CRC, and CRC crew aids 
+enabling the timely and accurate exchange of track information.  (T-3)  In addition, the following 
+procedures will be implemented: 
+A3.1.1.  The AST/SSO/MSO will coordinate with the SL to ensure an accurate common 
+tactical picture is distributed over the TDL network or provide required voice tell as required.  
+(T-3) 
+A3.1.2.  The AST/SSO/MSO will pre-plan for dedicated STs/MSOs who are prepared to 
+receive and/or transmit track data via voice tell format.  (T-3) 
+A3.1.3.  In voice tell receive mode, the ST/MSO will utilize the pre-briefed tell formats and 
+immediately initiate track data symbology prior to attempting to correlate the told-in track.  
+(T-3) 
+A3.1.4.  In both transmit or receive voice tell mode, the ST/MSO will be thoroughly briefed 
+on the applicable remote agency call sign, communications frequencies, the track production 
+area (TPA), and any other pertinent mission data.  (T-3) 
+A3.1.5.  The CRC surveillance section will voice tell Priority One, Two, and Three tracks until 
+the receiving agency directs cease tell.  (T-3)  The CRC voice tells all other priority (4 - 7) 
+tracks by request only.  The following priority track classifications are established and 
+generally universally accepted, but should be pre-coordinated with all agencies: 
+A3.1.5.1.  Priority One – Hostile and/or Faker 
+A3.1.5.2.  Priority Two – Unknown and/or Pending 
+A3.1.5.3.  Priority Three – Emergencies 
+A3.1.5.4.  Priority Four – Defensive Counter Air 
+A3.1.5.5.  Priority Five – Very Important Person Flights 
+A3.1.5.6.  Priority Six – Special Missions 
+A3.1.5.7.  Priority Seven – All other Tracks as directed by the receiving agency (e.g., 
+Neutralized Fakers). 
+A3.1.5.8.  Voice tell will normally be in the United States Message Text Format Track 
+Report, #F753 format, or as amended to meet mission requirements that is pre-coordinated 
+with all agencies.  (T-3)  Voice Tell format will be in accordance with appropriate crew 
+aids.  (T-3) 
+ 

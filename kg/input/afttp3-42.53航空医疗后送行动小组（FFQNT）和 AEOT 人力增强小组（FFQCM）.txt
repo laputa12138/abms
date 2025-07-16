@@ -1,0 +1,1401 @@
+BY ORDER OF THE  
+SECRETARY OF THE AIR FORCE 
+AIR FORCE TACTICS, TECHNIQUES AND 
+PROCEDURES 3-42.53 
+31 JULY 2019 
+Tactical Doctrine 
+AEROMEDICAL EVACUATION 
+OPERATIONS TEAM (FFQNT) AND 
+AEOT MANPOWER AUGMENTATION 
+TEAM (FFQCM)  
+ACCESSIBILITY:  Publications and forms are available on the e-Publishing website at 
+www.e-Publishing.af.mil. 
+RELEASABILITY:  There are no releasability restrictions on this publication. 
+OPR: HQ AMC/A3OE 
+Certified by: AF/A3TM 
+(Col Scott C. Linck) 
+Pages: 34 
+The Air Force Tactics, Techniques and Procedures (AFTTP) 3-42 series of publications is the primary 
+reference for medical combat support capabilities. This document builds upon AFTTP 3-42.5, Aeromedical 
+Evacuation, by providing Tactics, Techniques and Procedures (TTP) for the Aeromedical Evacuation 
+Operations Team (AEOT) and Aeromedical Evacuation Manpower Augmentation Team (AEOT AUG) 
+identified by Unit Type Codes (UTC) FFQNT and FFQCM respectively. This publication applies to all Air 
+Force military personnel in the Regular Air Force, Air Reserve Component (ARC), and Air Force civilian 
+personnel (Air National Guard [ANG] is considered to be a Major Command [MAJCOM] in this 
+publication). The doctrine in this document is authoritative but not directive. Ensure that all records created 
+as a result of processes prescribed in this publication are maintained in accordance with Air Force Manual 
+33-363, Management of Records, and disposed of in accordance with the Air Force Records Disposition 
+Schedule in the Air Force Records Information Management System. Refer recommended changes and 
+questions about this publication to the Office of Primary Responsibility using the AF Form 847, 
+Recommendation for Change of Publication. Route AF Form 847 through the appropriate chain of 
+command and parent MAJCOM. This publication requires the collection and/or maintenance of information 
+protected by Title 5 United States Code (USC) Section 552a, The Privacy Act of 1974. The authorities to 
+collect or maintain the records prescribed in the publication are 10 USC § 8013, Secretary of the Air Force; 
+Executive Order 9397 (SSN), as amended; and AFI 36-2101, Classifying Military Personnel (Officer and 
+Enlisted). The applicable system of records notice (SORN), F036 AF PC C, Military Personnel Records 
+System, is available at: https://dpcld.defense.gov/. The use of the name or mark of any specific 
+manufacturer, commercial product, commodity, or service in this publication does not imply 
+endorsement by the Air Force. 
+2 
+AFTTP3-42.53  31 JULY 2019 
+ 
+Chapter 1— OVERVIEW 
+ 
+4 
+1.1. 
+ Purpose. ..................................................................................................................  
+4 
+1.2. 
+ Caution.  ..................................................................................................................  
+4 
+1.3. 
+ Mission/Capabilities.  .............................................................................................  
+4 
+1.4. 
+ General.  ..................................................................................................................  
+4 
+1.5. 
+ Risk.  .......................................................................................................................  
+5 
+1.6. 
+ History..  .................................................................................................................  
+6 
+1.7. 
+ Composition.  ..........................................................................................................  
+6 
+1.8. 
+ Team Member Selection.  .......................................................................................  
+6 
+Chapter 2— COMMAND AND CONTROL 
+ 
+8 
+2.1. 
+ General.  ..................................................................................................................  
+8 
+2.2. 
+ Command and Control.  ..........................................................................................  
+8 
+2.3. 
+ Change of Operational Control (CHOP).  ...............................................................  
+8 
+2.4. 
+ Command Structure.  ..............................................................................................  
+8 
+Chapter 3— OPERATIONS 
+ 
+9 
+3.1. 
+ Introduction.  ...........................................................................................................  
+9 
+3.2. 
+ Pre-deployment.  .....................................................................................................  
+9 
+3.3. 
+ Deployment. ............................................................................................................  
+9 
+3.4. 
+ Mission Operations.  ...............................................................................................  
+9 
+3.5. 
+ Key Programs.  .......................................................................................................  
+11 
+3.6. 
+ AE Asset Management.  .........................................................................................  
+13 
+3.7. 
+ Base Operating Support (BOS).  .............................................................................  
+14 
+3.8. 
+ Support Agreements.  .............................................................................................  
+14 
+3.9. 
+ Weapons Security, Storage, and Handling. ............................................................  
+14 
+3.10. 
+ Aerospace Ground Equipment (AG).  ....................................................................  
+14 
+3.11. 
+ Intelligence.  ............................................................................................................  
+14 
+3.12. 
+ Emergency Management (EM).  .............................................................................  
+15 
+3.13. 
+ General Evasive Plan of Action (Bug-Out).  ..........................................................  
+15 
+AFTTP3-42.53  31 JULY 2019 
+3 
+3.14. 
+ Redeployment.  .......................................................................................................  
+15 
+Chapter 4— PLANNING AND SUPPORT CONSIDERATIONS 
+ 
+16 
+4.1. 
+ Introduction.  ...........................................................................................................  
+16 
+4.2. 
+ Equipment UTCs. ...................................................................................................  
+16 
+4.3. 
+ Facilities. .................................................................................................................  
+17 
+4.4. 
+ Logistics.  ................................................................................................................  
+18 
+4.5. 
+ Allowance Standards (AS).  ....................................................................................  
+18 
+4.6. 
+ Initial Shelf Stock.  .................................................................................................  
+18 
+4.7. 
+ Re-Supply Orders.  .................................................................................................  
+19 
+4.8. 
+ Patient Movement Item.  .........................................................................................  
+19 
+Chapter 5— TRAINING 
+ 
+21 
+5.1. 
+ Introduction.  ...........................................................................................................  
+21 
+5.2. 
+ Contingency Training.  ...........................................................................................  
+21 
+5.3. 
+ Requirements.  ........................................................................................................  
+21 
+5.4. 
+ UTC Sustainment Training.  ...................................................................................  
+21 
+Chapter 6— COMMUNICATIONS AND INFORMATION SYSTEMS SUPPORT 
+ 
+22 
+6.1. 
+ General.  ..................................................................................................................  
+22 
+6.2. 
+ Message Precedence.  .............................................................................................  
+22 
+6.3. 
+ Message Traffic.  ....................................................................................................  
+23 
+6.4. 
+ Communications Systems Operations.  ..................................................................  
+23 
+6.5. 
+ Communication Equipment. ...................................................................................  
+23 
+6.6. 
+ Communications and Operations Security.  ............................................................  
+24 
+Attachment 1— GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+25 
+Attachment 2— ADDITIONAL RESOURCES 
+ 
+32 
+ 
+ 
+ 
+4 
+AFTTP3-42.53  31 JULY 2019 
+Chapter 1 
+OVERVIEW 
+1.1.  Purpose.  This TTP describes AEOT (UTC: FFQNT) capabilities and its deployment, 
+employment, and redeployment in support of Aerospace Expeditionary Forces (AEF), 
+Humanitarian Assistance/Disaster Relief (HA/DR), Defense Support of Civil Authorities (DSCA), 
+and other Aeromedical Evacuation (AE) scenarios across the spectrum of military operations. 
+1.1.1.  This document: (a) identifies and defines responsibilities; (b) describes command 
+relationships; (c) reviews general planning considerations; (d) ensures tasks, functions, and 
+responsibilities are properly assigned; (e) describes AS, equipment, and resources available to 
+support global AE operations; (f) provides a source document for developing standard 
+operating instructions (OIs), and training programs; and (g) identifies training requirements 
+and available AEOT training platforms/programs. 
+1.1.2.  Information in this TTP should be tailored and augmented with additional information 
+found in related AE instructions, publications, TTPs, Technical Orders (TOs), Operation Plans 
+(OPLANs), Special Instructions (SPINS), Flight Crew Information Files (FCIF), Read Files 
+and other theater directives/instructions. 
+1.2.  Caution.  Do not use this instruction as permission to move patients (reference AFI 48-
+307V1, En Route Care and Aeromedical Evacuation Medical Operations). Patients must be 
+eligible for aeromedical transportation according to Department of Defense (DOD) Instruction 
+4515.13, Air Transportation Eligibility (additionally reference AFI 24-602V1), Passenger 
+Movement, Air Force Policy Directive [AFPD] 24-6, Distribution and Traffic Management, and 
+any current, operational DOD, AF, or theater-specific directives). 
+1.3.  Mission/Capabilities.  The United States Air Force (USAF) AE system provides fixed-wing 
+movement of patients requiring in-flight care and supervision by AE crew members to locations 
+offering appropriate roles of medical care. It is comprised of Active Duty (AD), Air Force Reserve 
+Command (AFRC), and Air National Guard (ANG) personnel.  The AE system is designed to be 
+flexible enabling it to operate as far forward as aircraft are able to conduct air operations, across 
+the full range of military operations, and in all operating environments. 
+1.4.  General.  The AEOT constitutes a critical component of the Theater Aeromedical Evacuation 
+System (TAES) which directly supports the En Route Casualty Care System (ERCCS). 
+1.4.1.  AEOT (UTC FFQNT): 
+1.4.1.1.  Has the ability to rapidly deploy within 24 hours (ARC UTCs deploy within 72 
+hours) and is operational within 4 hours of arrival. The AEOT equipment package (UTC: 
+FFQN1) is stored as War Reserve Materiel (WRM) and deploys with sufficient supplies 
+and equipment to operate for 30 days without re-supply. Planners will always deploy the 
+FFQN1 UTC with the AEOT and also evaluate the communication capability at the 
+deployed location and deploy the FFQCR (AE Communications Team) when necessary. 
+1.4.1.2.  Is an AE support UTC employed within a defined Area of Responsibility (AOR) 
+at secured airfields and does not provide patient care. It is dependent upon processes 
+established by the Aeromedical Evacuation Command Squadron (AECS) or host 
+service/unit for its support to include: work facilities, food service, billeting, transportation, 
+AFTTP3-42.53  31 JULY 2019 
+5 
+finance, security, Personnel Support for Contingency Operations (PERSCO), logistics and 
+re-supply. It interacts with logistics agencies, medical equipment maintenance activity, 
+Military Treatment Facility (MTF), and appropriate supply chains to support AEC and 
+ERCC equipment and resupply. 
+1.4.1.3.  Provides personnel management, in and out-processing, supervision and crew 
+management for assigned, attached, or transiting Aeromedical Evacuation Crews (AEC) 
+and En Route Critical Care (ERCC) teams such as the Critical Care Air Transport Team 
+(CCATT). It ensures that AEC and ERCC personnel and equipment are mission ready, and 
+performs scheduling, notification, and launch and recovery coordination. It contains 
+sufficient personnel for 24-hour operations and can support up to 10 AECs and 4 ERCC 
+teams. It interacts with other agencies (e.g. billeting, food service, transportation, finance, 
+MTF, etc.) for support as necessary. NOTE: see current Mission Capabilities Statement 
+(MISCAP) for further guidance or changes. 
+1.4.1.4.  Manages information (e.g. classified/unclassified information and systems, 
+patient privacy and confidential information, FCIFs, SPINS, Notices to Airmen 
+[NOTAMs], intelligence data, etc.), assigned manpower, and facility and equipment 
+resources. It disseminates and enforces regulations, required competencies, and clinical 
+policies and procedures. It facilitates requests via appropriate chain of command to obtain 
+authorizations and/or necessary waivers when there are deviations from normal operating 
+procedures. 
+1.4.1.5.  Manages launch, recovery, and tracking of assigned AE missions interfacing as 
+necessary with medical and flight-line support/control agencies (e.g. En Route Patient 
+Staging System [ERPSS], MTF, Air Operations Center [AOC], Intelligence Flight, 
+Aircrew Flight Equipment [AFE], Command Post, Maintenance, Blood Bank, Air 
+Terminal Operations Center [ATOC], etc.). It oversees flight-line activities and assists 
+AECs with aircraft configuration during aircraft onload, patient enplaning, patient 
+deplaning, and aircraft offload. In accordance with (IAW) current MISCAPs, it can manage 
+6 mission launches and recoveries in a 24-hour period. 
+1.4.1.6.  Facilitates communication with all AE system components (e.g. Aeromedical 
+Evacuation Control Team [AECT], Patient Evacuation Coordination Cell [PECC], 618 
+AOC Tanker/Airlift Control Center [TACC], Patient Movement Requirements Center 
+[PMRC], strategic AE hubs, continental U.S. reception airfields, etc.) to safely manage and 
+support assigned AE missions. 
+1.4.2.  AE Communications Team (UTC FFQCR). Tasked to support the AEOT as required 
+(e.g. bare base, HA/DR, etc.) For more information see Chapter 6. 
+1.4.3.  AEOT Manpower Augmentation (UTC FFQCM). The AEOT Augmentation UTC 
+supports 4 additional launches and recoveries per 24-hour period. Additional responsibilities 
+beyond the MISCAP may require partial or full tasking of the FFQCM and its equipment 
+package, FFQC2, to increase capabilities. HQ AMC/SG is the Manpower and Equipment Force 
+Packaging (MEFPAK) responsible agency. 
+1.5.  Risk.  Mission responsibilities for the AEOT may expose the team to a wide variety of threats 
+that include non-battle injuries (flight-line injuries, endemic disease, climate, terrain, and socio-
+economic conditions), conventional and unconventional weapons, weapons of mass destruction, 
+6 
+AFTTP3-42.53  31 JULY 2019 
+chemical/biological agents, and assault by hostile forces. The AEOT may be placed at secure 
+airfields that remain close to, or surrounded by, hostile areas. Personnel need to be fully versed in 
+the Law of War (LoW), Conduct After Capture, and theater specific rules of engagement (ROE). 
+1.6.  History.  In 2007, the AE Operations Team UTC was developed to replace the Crew 
+Management Cell and AE Stage Management Team UTCs. This combined the activities of aircraft 
+configuration, launch and recovery, and crew management into a single UTC. It originally 
+operated in a hierarchical structure with a single AECS directing the entire theater’s AE operations. 
+Experience in Iraq and Afghanistan demonstrated that decentralized command was much more 
+effective; thus, it was modified to mirror the operational structure employed by airlift squadrons. 
+In 2010, command positions were developed in every location possessing an independent Wing 
+structure. The change effected greater integration with the Wing and Operations Group which 
+provided increased AE unit support. The Officer in Charge (OIC) and Non-Commissioned OIC 
+(NCOIC) reported directly to the Operations Group Commander (OG/CC) and were given the 
+authority to locally manage assigned and transiting AE personnel. 
+1.7.  Composition.  The AEOT is composed of 10 positions representing multiple Air Force 
+Specialty Codes (AFSC). Positions and grade/skill level requirements may be found in the 
+MISCAP at https://cs2.eis.af.mil/sites/12956/default.aspx. All grade/skill level substitutions will 
+be IAW AFI 10-403, Deployment Planning and Execution, and War and Mobilization Plan, 
+Volume 1 (WMP-1), Annex F, Medical Service. 
+1.8.  Team Member Selection.  Home station squadron commanders are responsible for the 
+selection of team members assigned to the AEOT. Commanders must fully consider a member’s 
+AE knowledge, AE experience, deployment history, and management capabilities when filling 
+FFQNT deployment positions. Deployments are unpredictable; therefore, X-prefix AFSC 
+members should be equipped to deploy and in-process [as would any other Aeromedical 
+Evacuation Crew Member (AECM)], as well as maintain currency/qualifications and go/no-go’s 
+in order to be able to assume flight duties in the event of crew deficiencies from circumstances 
+such as Duties Not to Include Flying (DNIF) status or necessary crew augmentation. Squadron 
+commanders will ensure all mandatory flight requirements, readiness training, UTC-specific 
+training, and AFSC skill-level training is accomplished and current prior to, and for the duration 
+of, the deployment IAW AFI 10-2912, Aeromedical Evacuation Readiness Programs, AFTTP 3-
+42.5, and other applicable instructions. Non-current or unqualified X-prefix AFSC personnel must 
+have prior approval by HQ AMC Aeromedical Evacuation Operations Branch (HQ AMC/A3OE) 
+before being assigned to an AEOT deployment tasking (route request through appropriate chain 
+of command). 
+1.8.1.  AEOT leadership positions: 
+1.8.1.1.  Officer in Charge. Candidates for this position must be experienced, and also well 
+versed in aircrew management, mission management, and logistics. Demonstrating 
+competency in the management of personnel and assets is vital to independently directing 
+AE operations, particularly when directly reporting to the OG/CC. A senior ranking 
+Medical Service Corps (MSC) Officer or Flight Nurse will be the OIC. 
+1.8.1.2.  Flight Nurse (Senior Flight Nurse, AFSC: X046F3). Candidates for this position 
+should have served on the senior staff of an Aeromedical Evacuation Squadron (AES) and 
+have experience in Standardization and Evaluation (Stan/Eval), Aircrew Training, patient 
+safety, and nursing management. 
+AFTTP3-42.53  31 JULY 2019 
+7 
+1.8.1.3.  Medical Service Superintendent (Medical Technician, AFSC: X4N091). 
+Candidates 
+should 
+have 
+experience 
+in 
+Stan/Eval, 
+Aircrew 
+Training, 
+and 
+mission/operational management. In addition to management of mission operations, this 
+individual may be assigned additional first sergeant duties or delegate these duties to 
+another enlisted member IAW AFI 36-2113, The First Sergeant. 
+1.8.1.4.  Medical Materiel Craftsman (Logistician, AFSC: 4A1). Medical logistics support 
+is essential to AE mission success. They provide supply chain management, guidance, 
+technical support, and resupply coordination for both AEC and ERCC team equipment and 
+supplies. This individual must be skilled and able to function independently since only one 
+medical logistician is assigned to this UTC. Skill-level substitution for this position is 
+highly discouraged. 
+1.8.1.5.  Squadron Aviation Resource Management (SARM, AFSC: 1C0). This individual 
+coordinates Aviation Resource Management System (ARMS) input for crew members. 
+They will have appropriate knowledge and experience to work independently within an 
+AES. Skill-level substitution for this position is highly discouraged. For further description 
+of SARM duties see Chapter 3. 
+1.8.1.6.  Health Service Management Craftsman (AFSC: 4A0). This member should have 
+experience working within the AE system to include mission management, knowledge of 
+Command and Control (C2) systems, aircraft configurations, and planning. 
+ 
+ 
+8 
+AFTTP3-42.53  31 JULY 2019 
+Chapter 2 
+COMMAND AND CONTROL 
+2.1.  General.  Command and Control (C2) functions exercised over AE missions are consistent 
+with those for all air mobility missions and are conducted IAW the C2 processes as described in 
+Joint Publication 3-17, Air Mobility Operations, Air Force Doctrine Annex 3-30, Command and 
+Control, Air Force Doctrine Annex 3-0, Operations and Planning, and Air Force Doctrine Annex 
+3-17, Air Mobility Operations, which includes specific sections on AE doctrine. In contingency 
+operations, AE-specific items will be outlined in the military order (execute order [EXORD], 
+deployment order [DEPORD], operation order [OPORD]) and may include references such as 
+Annex C, Appendix 30, and Annex Q from supporting deliberate planning products (base plan 
+[BPLAN], concept plan [CONPLAN], operation plan [OPLAN]). AE assets are integrated within 
+the inherent mobility structure established to support airlift operations through the Air Mobility 
+Division (AMD) to the wing and down to the assigned expeditionary AE squadron/element. 
+2.2.  Command and Control.  When AEOTs are deployed for contingency AE operations in 
+support of a Geographic Combatant Commander (GCC), they will fall under the operational 
+control (OPCON) or Tactical Control (TACON) of the theater Commander, Air Force forces 
+(COMAFFOR)/Joint Force Air Component Commander (JFACC) and operate under the guidance 
+of the theater Component-Numbered Air Force (C-NAF) Air Force forces (AFFOR) staff and 
+AOC. When deployed in support of Headquarters Air Mobility Command (HQ AMC) AE 
+operations, the AEOT will fall under the OPCON or TACON of the Air Forces Transportation 
+(AFTRANS)/CC and operate under the guidance of the 618 AOC. For command authorities and 
+Administrative Control (ADCON)/OPCON/TACON refer to Air Mobility Command Instruction 
+(AMCI) 10-202V1, Presentation of Air Mobility Forces. 
+2.3.  Change of Operational Control (CHOP).  HQ AMC-managed theater airlift assets 
+routinely CHOP to the appropriate JFACC/Air Force Component Commander (AFCC) as directed 
+by the National Command Authority (NCA) during peacetime and contingencies. United States 
+Air Force Europe (USAFE-AFAFRICA) and United States Indo-Pacific Command (INDO-
+PACOM) theater airlift assets will CHOP as directed by the NCA. Airlift elements transiting 
+another unified command’s area of responsibility (AOR) will be monitored by the appropriate 
+AOC. Transiting forces will not normally CHOP to the theater commander, unless directed. 
+2.4.  Command Structure.  In a contingency setting, AE assets fall under the Expeditionary 
+Operations Group (EOG). Typically, an AEOT will report to an AE Command Squadron (AECS) 
+(FFQCC) when tasked. The AEOT OIC may be the senior MSC Officer or Flight Nurse as 
+designated by the Expeditionary Aeromedical Evacuation Squadron Commander (EAES/CC), or 
+EOG/CC of the parent wing. If the AEOT is a detachment and not co-located with an AECS, the 
+AEOT may be termed an Expeditionary Aeromedical Evacuation Flight (EAEF), and the AEOT 
+OIC will be the senior ranking AE officer at that location. Other AE components as assigned will 
+report to the AEOT in the absence of an AECS to include other AEOTs, Aeromedical Evacuation 
+Liaison Teams (AELTs), communication teams, manpower augmentation teams, AECs, and 
+ERCC teams (reference AFI 48-307V2, En Route Critical Care). 
+ 
+ 
+AFTTP3-42.53  31 JULY 2019 
+9 
+Chapter 3 
+OPERATIONS 
+3.1.  Introduction.  The AEOT directly supports execution of the Aeromedical Evacuation 
+mission and constitutes a critical component of the TAES. When mission requirements exceed the 
+basic capabilities of the FFQNT UTC, it may be supported by additional UTCs. 
+3.2.  Pre-deployment.  Equipment packages have been centralized for storage and management 
+and it is unlikely AEOT personnel will have the opportunity to assist in preparation of the package 
+prior to deployment. The AEOT should ensure they are familiar with the OPORD for the 
+deployment location and any applicable MAJCOM waiver guidance. Requirements for 
+employment of the AEOT and associated equipment packages will be identified and requested by 
+the theater A3. In order to support initial operating capabilities during the opening phases of an 
+operation, AEOTs, their equipment, and any support packages should be marshaled together at 
+specific Continental United States (CONUS) or Outside the Continental United States (OCONUS) 
+locations. 
+3.3.  Deployment. 
+3.3.1.  General. The AEOT is employed within a defined AOR. AEOT leadership must 
+interface with all local and host activities providing ancillary AE mission support services. 
+These relationships are critical to ensure that the AEOT can provide effective AE support to 
+user service medical teams, and that reciprocal support needed to sustain operations is 
+provided. 
+3.3.2.  Open and Establish the Air Base. AEOTs deploying as part of a base opening package 
+must ensure clear communication with the Advance Echelon (ADVON) team so as to have a 
+clear understanding of limiting factors within the employment location. 
+3.3.2.1.  AEOT personnel should be prepared to develop key programs identified in 
+paragraph 3.5 of this TTP prior to deployment. 
+3.3.2.2.  Base and MAJCOM level coordination for civil engineering support, fuel, 
+transportation, communication, and billeting are essential to establishing operations. See 
+Chapter 4, Planning and Support Considerations. 
+3.4.  Mission Operations.  Core duties of the AEOT include AEC/CCATT management and 
+scheduling, launch and recovery operations, mission management, and logistical support for the 
+AE/CCATT in-flight kits. Refer to chapter 3 of AFI 48-307V1, En Route Care and Aeromedical 
+Evacuation Medical Operations, for a detailed explanation of the patient validation for flight 
+process. 
+3.4.1.  Crew Management. The AEOT’s primary task is to ensure proper scheduling and 
+management of AECs and CCATTs to enable them to respond to scheduled or unscheduled 
+requirements. AEOT management of AECs and CCATTs must be in strict compliance with 
+governing regulations and theater policies to include Operational Risk Management (ORM) 
+and Go/No-Go guidance. 
+3.4.1.1.  AEC Management. The AEOT must manage alert crews to ensure maximum 
+coverage while minimizing crew ORM impact. Refer to Air Force Manual (AFMAN) 11-
+10 
+AFTTP3-42.53  31 JULY 2019 
+2AEV3, Aeromedical Evacuations (AE) Operations Procedures, and AFI 11-202V3, 
+General Flight Rules, regarding crew management practices and guidelines. 
+3.4.1.2.  CCATT Management. Integration of deployed CCATTs is critical to successful 
+AE operations. CCATTs are not stand-alone teams; they augment AECs during AE 
+missions when manifested patients require en route critical care capabilities. During 
+missions away from home base, CCATTs will receive support from the en route AE 
+component. Refer to AFI 48-307V2 and AFTTP 3-42.51, Critical Care Air Transport 
+Team (CCATT), for further guidance on CCATT. 
+3.4.1.3.  In-processing. Crew member in-processing needs to be a deliberate process 
+including orientation to theater operations and C2 relationships, review of OPORDs and 
+waiver guidance, intelligence briefings, flight crew information files (FCIF)/read files, 
+narcotic/medication management, Patient Movement Item-Asset Tracking System (PMI-
+ATS), review of local Operating Instructions and policy letters, SPINS review, and review 
+of current theater medical threats/issues. The AEOT must ensure AECMs and CCATTs are 
+mission-ready and meet all Go/No-Go requirements before entering them into initial crew 
+rest. 
+3.4.2.  Launch and Recovery Operations. Close coordination is required between the AEOT, 
+MTF, the ERPSS, base/flight-line support functions, and various other partners as required 
+(e.g. HA/DR or DSCA point of contact, Special Operations Forces (SOF) medical teams, 
+AECT, PECC, Expeditionary Blood Support Center [EBSC], etc.) in order to ensure safe and 
+timely launch and recovery of AE missions. The AEOT will coordinate ground operations 
+during patient enplaning/deplaning and will communicate with the Command Post, AFE, 
+Intelligence Flight, the ATOC, host medical facility, and other agencies as necessary. For bare 
+base operations, close coordination with the Contingency Response Element (CRE) is needed 
+to effectively coordinate with airfield operations. For established locations, coordination with 
+the ATOC may be required to determine additional cargo/passenger payload on AE missions. 
+Use of an events log, establishment of Sequence of Events (SOE), and launch/recovery 
+checklists are critical to success (current launch and recovery checklist examples may be found 
+in 
+the 
+FFQNT 
+area 
+on 
+the 
+MEFPAK 
+SharePoint 
+at 
+https://cs2.eis.af.mil/sites/12956/default.aspx. Establishment of a single point of 
+responsibility for launch processes will ensure support agencies and crews receive clear, 
+coordinated direction. 
+3.4.3.  Mission Management. Although the ultimate responsibility for providing updated 
+information to medical facilities rests with the PMRC, the AEOT can assist in updating en 
+route locations of changes in mission arrival/departure times. Mission tracking and visibility 
+via Global Decision Support System (GDSS2) and/or Single Mobility System (SMS) is 
+essential for situational awareness and AE mission success. 
+3.4.4.  Liaison with Supported Medical Facilities and partners. A close relationship with the 
+MTF, the ERPSS (reference AFTTP 3-42.57, En Route Patient Staging System), and SOF, if 
+present (reference AFTTP 3-42.6, USAF Medical Support for Special Operations Forces), will 
+foster key communication flow and ensure safe, expeditious patient movement and critical 
+operations support. The AEOT is responsible for working with local partners and facilities on 
+flight-line procedures, PMI levels, patient preparation, staff education and training, etc. 
+AFTTP3-42.53  31 JULY 2019 
+11 
+3.4.5.  Aviation Resource Management System (ARMS). The AEOT SARM will ensure crew 
+members meet qualification/currency requirements and update AEC/CCATT flying and 
+training events via the ARMS database IAW AFI 11-401, Aviation Management. Deploying 
+1C0X2 personnel shall provide the deployed SARM office and supporting HARM office 
+location with their ARMS user agreement and security clearance verification letters at least 
+two weeks prior to arrival at deployed location, IAW AFMAN 11-421, Aviation Resource 
+Management. The deployed SARM must request home station SARMs “loan” flyers to the 
+deployed location through ARMS to allow deployed AECs and CCATTs flyers to have their 
+individual flying hours updated. 
+3.5.  Key Programs.  The following programs listed below must be established and maintained at 
+the local level. When a parent AECS exists, these programs will be reported to the Squadron. 
+Otherwise, they are normally reported to the C2 agency responsible for the operation. Although 
+some of these duties may use AECMs (UTC: FFQDE) to assist, each duty should always have an 
+AEOT or AECS (if co-located) member assigned to them for continuity and oversight (action will 
+not be delayed due to member’s flying schedule). 
+3.5.1.  Standardization and Evaluation (Stan/Eval). EOG will have oversight of the Stan/Eval 
+function issuing local guidance via local FCIFs, flight crew bulletin (FCB), and SPINS. The 
+AEOT OIC will appoint an X-prefix member to the Stan/Eval Liaison Officer (SELO) role, 
+ideally a member with a Stan/Eval background. The SELO will be responsible for maintaining 
+the HQ AMC AE Deployed Library IAW AFI 11-202V2, Aircrew Standardization and 
+Evaluation Program, Table 9.2, AFMAN 11-2AEV2, Aeromedical Evacuation Aircrew 
+Evaluation Criteria, and AFMAN 11-2AEV3 (paragraph 6.8.). The SELO will maintain the 
+unit FCIF and SPINS Library (guidance for FCIF management is outlined in AFI 11-202V2). 
+Additionally, the SELO will maintain the medical read file that includes other items deemed 
+clinically relevant by the Chief Flight Nurse (or delegated to the AEOT OIC/Senior Flight 
+Nurse). 
+3.5.2.  Patient Safety. The AEOT OIC/Senior Nurse (in the absence of an AES/CN) will 
+appoint a flight nurse (FN) as the Patient Safety Manager (PSM) IAW AFI 48-307V1. This 
+member will be responsible for compliance with requirements outlined in AFI 48-307V1 as 
+well as the latest Centers for Disease Control and Prevention (CDC) guidelines and any local 
+guidance. The PSM reviews and evaluates each DD Form 2852, Patient Movement Event/Near 
+Miss Report, for completeness and entry into the USTRANSCOM Regulating Command & 
+Control Evacuation System (TRAC2ES) Patient Movement Quality-Report (PMQ-R) web-
+based system. The PSM, AEOT OIC, or the Chief Flight Nurse will need the En Route Care 
+Patient Safety Manager Training offered by HQ AMC/SG and obtain access to TRAC2ES 
+PMQ-R tab through USTRANSCOM Command Surgeon (TCSG).  NOTE:  Patient safety 
+reporting is transitioning to the Joint Patient Safety Reporting (JPSR) system. 
+3.5.3.  Infection Control. The AEOT OIC/Senior Nurse (in the absence of an AES/CN) will 
+appoint an infection control monitor who will ensure compliance with infection control 
+policies outlined in AFI 44-108, Infection Prevention and Control Program, and AFI 48-
+307V1. 
+3.5.4.  Medication/Controlled Substance Management. The AEOT OIC/Senior Nurse (in the 
+absence of an AES/CN) will appoint a Controlled Substance Management Officer. This nurse 
+will establish, maintain, and review current medication/controlled substance procedures. 
+12 
+AFTTP3-42.53  31 JULY 2019 
+Ensure required storage and access rosters/procedures are maintained and all processes are 
+accomplished IAW applicable MTF policies, AFI 31-101, Integrated Defense (ID), AFI 44-
+102, Medical Care Management, AFMAN 41-209, Medical Logistics Support, AFI 48-307V1, 
+and current USTRANSCOM policy/guidance. 
+3.5.5.  Equipment Custodian. The AEOT OIC (in the absence of an AES/CC) will appoint an 
+equipment custodian who will ensure proper safeguard/control and mission readiness of 
+assigned equipment. Equipment inventories should be done at the beginning of every 
+deployment rotation to include accounting for medical equipment, PMI equipment, litter 
+stanchion augmentation sets (LSAS), Stacking Litter Systems (SLS), walk-around bottles, 
+PMI-ATS, AFE kits, non-medical equipment, and automated data processing equipment 
+(ADPE).The equipment custodian should perform periodic inventories to ensure proper 
+safeguard/control of assigned equipment and mission readiness IAW AFMAN 41-209.  
+NOTE:  SLS may also be referred to as Stanchion Litter System as per the manufactures 
+manual. 
+3.5.6.  Go/No-Go Process. The AEOT SARM and Authenticating Official (AO) are 
+responsible for ensuring AECs and CCATTs meet currency and qualification requirements 
+prior to assigning them to a mission. The local Operations Group (OG) will identify a specific 
+Go/No-Go process to include ORM, currency and qualifications, and professional gear IAW 
+current AFIs and SPINS. AOs will be appointed by the OG/CC. The final authority in the 
+Go/No-Go process is the AO on the Flight Authorization. These duties must be delegated in 
+writing by the OG/CC and should be limited to only personnel understanding the scope and 
+responsibilities. 
+3.5.7.  Appointment Letters. Consideration must be given to assigning additional duties. 
+NOTE: Utilize locally established appointment letter format or refer to AFH 33-337, 
+The Tongue and Quill. Depending upon support capabilities at the deployed location, the 
+EAES/CC or AEOT OIC (where delegated or as required) will designate in writing AE 
+unit personnel authorized to perform functions which may include the following: 
+Airfield Driving Trainer/Monitor 
+Communications Security (COMSEC)/Operations Security (OPSEC) Officer 
+Controlled Area Monitor (Offices and Safes) 
+Emergency Management Representative 
+Entry Authorization to Controlled Substances Storage 
+EOG/CC Authorization to Sign AF IMT 4327A, Crew Flight Authorization (FA) 
+Facility Manager or Building Custodian 
+Flight Safety Program Manager 
+Individual Equipment and/or Night Vision Goggles (NVG) Custodian 
+Intelligence Representative 
+Key Custodian 
+Medication Management / Request and Receive Controlled Substances 
+Patient Safety Manager (TRAC2ES PMQ-R access required to enter DD Form 2852s, Patient 
+Movement Event/Near Miss Report,)  
+Records Custodian 
+SELO/FCIF & Publication Custodian 
+Unit Control Center (UCC) 
+AFTTP3-42.53  31 JULY 2019 
+13 
+Unit Mail Clerk or Orderly 
+Unit Safety Representative (USR) 
+Unit Security Manager 
+Vehicle Control Officer (VCO) 
+Weapons Custodian or Monitor 
+3.5.8.  Other Programs. In addition to the appointment letter items, these functions are often 
+required in the deployed environment: PMI-ATS Custodian; ADPE Custodian, Mission 
+Clinical Coordinator (MCC) program monitor; Support Agreements Monitor; and Self 
+Inspection Monitor. 
+3.6.  AE Asset Management.  When appropriately and legally authorized, and upon coordination 
+with the servicing Staff Judge Advocate (SJA), Memorandums of Understanding (MOU) and 
+Memorandums of Agreement (MOA) will be drafted and maintained when appropriate by the 
+AECS (Commander or AEOT OIC, where delegated or as required) to ensure all equipment 
+maintenance responsibilities are clarified. Reference AFI 25-201, Intra-Service, Intra-Agency, and 
+Inter-Agency Support Agreements Procedures, in determining which type of agreement is 
+appropriate. Manuals and many related resources may be found at the Aircrew Standardization 
+and Evaluation, Aeromedical Evacuation (A3VM) SharePoint sites (see Attachment 2, “Additional 
+Resources”). 
+3.6.1.  Litter Stanchion Augmentation Set. Refer to the LSAS Concept of Operations 
+(CONOPS) for management guidance. LSAS operational and employment guidance may be 
+found in AFMAN 11-2AEV3 Addenda-A, Aeromedical Evacuation Operations 
+Configuration/Mission Planning, and TO 1C-17A-9, C-17A Loading Instructions. Remind 
+AECMs to closely monitor the mission readiness of each LSAS they encounter and report 
+discrepancies or damage per the above guidance. AEOT personnel should maintain open lines 
+of communication with LSAS custodian(s) for collocated LSAS kits. 
+3.6.2.  Walk Around Bottles. Walk around bottles are supported and maintained by the Dash-
+21 Electrical and Environmental section of Aircraft Maintenance. AEOT personnel must 
+meticulously ensure bottles are mission ready by checking pressure and proper functioning 
+before and after each mission. The AEOT will ensure sufficient numbers of bottles are loaded 
+on the aircraft based upon crew complement. If Dash-21 sections are not available on base, 
+AEOT personnel should find other means to accommodate aircrew oxygen source needs (such 
+as coordinating with inbound aircraft to refill bottles). 
+3.6.3.  Patient Oxygen Capabilities. Portable Therapeutic Liquid Oxygen (PTLOX)/Next 
+Generation Portable Therapeutic Liquid Oxygen (NPTLOX), and Backpack Medical Oxygen 
+System (BMOS) units will be serviced in the same manner that aircraft LOX systems are 
+serviced and supported. LOX units must be protected from moisture, utilized, maintained, 
+stored, and grounded IAW all applicable Technical Orders and the Aeromedical Evacuation 
+Medical Equipment Compendium (hyperlink may be found in Attachment 2, “Additional 
+Resources”). Maintaining the appropriate number of mission-ready LOX units is a critical 
+responsibility of the AEOT. Timing and location of recharging LOX units will need to be 
+arranged with Electrical and Environmental (E&E) from aircraft maintenance. Additional 
+coordination with aircraft maintenance and Cryogenics is needed for management, readiness, 
+and annual purging. Calibration of the valves is supported by Biomedical Equipment 
+Maintenance. 
+14 
+AFTTP3-42.53  31 JULY 2019 
+3.7.  Base Operating Support (BOS).  The AEOT equipment support package (FFQN1) is not 
+designed to provide essential basic operating space and equipment storage for the AEOT. 
+Therefore, the AEOT relies on BOS for operating space, billeting, food, water, power, 
+transportation, oxygen support, communications and computer support. Support requirements are 
+to be arranged for, and provided by, the host component service. 
+3.8.  Support Agreements.  The AEOT will establish agreements with local base facilities to 
+ensure each of the requirements detailed in this paragraph are met. Coordinate with the servicing 
+SJA to ensure the appropriate type of agreement is used IAW AFI 25-201. 
+3.8.1.  Host Medical Facility. 
+3.8.1.1.  Biomedical Equipment Support. Calibration and repair of medical equipment is 
+supported through the local AF MTF biomedical maintenance operation IAW AFMAN 41-
+209, Medical Logistics Support. If local support is not available, scheduled and 
+unscheduled maintenance will be through the regional PMI center or cell. 
+3.8.1.2.  Medical Supply Support. Resupply of kits is normally accomplished by 
+establishing a customer account via Defense Medical Logistics Standard Support 
+(DMLSS). 
+3.8.1.3.  Linen Supply/Laundry. Blankets will need to be washed. Long turnaround times 
+may require acquisition of additional stock of blankets. 
+3.8.1.4.  Narcotics Management. Resupply of kits should be accomplished via the 
+Pharmacy or Medical Logistics. Regardless of the arrangement, the AEOT OIC (in the 
+absence of an AES/CC) is responsible for monthly disinterested inventories (member of 
+the host MTF). 
+3.8.2.  Aircrew Flight Equipment (AFE). When available, a 9ALAE AFE UTC will be tasked 
+to support and maintain AECM AFE. Otherwise, the AEOT should establish agreement(s) with 
+local AFE sections to build, store, maintain and issue AFE equipment IAW AFI 11-301V1, 
+Aircrew Flight Equipment (AFE) Program, and AFI 11-301V2, Management and 
+Configuration Requirements for Aircrew Flight Equipment (AFE). 
+3.8.3.  Logistics Readiness Squadron (LRS)/Air Terminal Operations Center (ATOC). 
+Establish support for equipment transportation to and from the cargo yard (e.g. equipment 
+pallets, LSAS, etc.). 
+3.9.  Weapons Security, Storage, and Handling.  The AEOT must accommodate weapons 
+storage, based on local policy, applicable ROEs/Rules for the Use of Force (RUF), and SPINS. 
+Consult the servicing SJA, as necessary, regarding identification and proper application of these 
+authorities. There must be 24-hour support available to meet the requirements of on-demand AE 
+missions. Ammunition re-supply accounts must be established for AECs, CCATTs and other AE 
+components where applicable (Reference AFI 31-117, Arming and Use of Force by Air Force 
+Personnel, and applicable local policies, ROEs/RUF, and SPINS). 
+3.10.  Aerospace Ground Equipment (AGE).  AGE includes generators and 
+environmental conditioning. Team members must have knowledge about placement, set up and 
+operation of the equipment, recognize gauge readings, and know normal and emergency 
+shutdown procedures. 
+3.11.  Intelligence.  The Expeditionary OG Intelligence Flight will provide SPINS 
+covering AEC/CCATT arming requirements, escape and evasion maps, blood chits, evasion 
+radios and 
+AFTTP3-42.53  31 JULY 2019 
+15 
+frequencies, preflight intelligence briefings, and translation tools as required. The Unit Intelligence 
+Section will maintain a system of accountability for all such assets. Intelligence personnel will 
+conduct pre-flight/post flight briefs to AECMs in accordance with AFMAN 11-2AEV3. 
+3.12.  Emergency Management (EM).  Base Civil Engineering requires the AE unit to provide 
+an EM Representative to coordinate EM checklists, a UCC, PAR Teams, WIT, Shelter In Place 
+(SIP) kits, etc. IAW AFI 10-2501, Air Force Emergency Management Program. 
+3.13.  General Evasive Plan of Action (Bug-Out).  During contingency operations, escape and 
+evasion (E&E) routes and procedures must be established with other elements at the deployed 
+location to ensure all personnel are prepared in case of an emergency or enemy attack. All AE 
+elements must coordinate with the supporting collocated user service to see if an evasive plan of 
+action has been established. AEOT personnel must be identified and included in the plans. The 
+AEOT OIC (in the absence of an AES/CC) must ensure the security of AE personnel and 
+equipment are taken into consideration by the user service. The AEOT will develop workplace 
+defense plans and bug-out procedures IAW local directives to ensure personnel safety and mission 
+sustainability. Training for all personnel should include specific guidelines to protect sensitive 
+data, secure COMSEC and classified material, and maintain mission survivability and support. 
+Disseminate to all personnel what items to carry, which vehicles or aircraft to report to, and ensure 
+all routes are specifically annotated and briefed. 
+3.14.  Redeployment.  During redeployment, AEOT equipment will need to be cleaned, 
+repackaged, 
+and 
+prepared 
+for 
+transportation 
+by 
+AEOT 
+personnel. 
+If 
+there 
+is 
+chemical/biological/radiological/nuclear (CBRN) contamination, prior to striking, the equipment 
+must be certified decontaminated from Nuclear Biological Chemical (NBC) hazards by the 
+designated agencies responsible for this activity at the deployed location. At least one person 
+within the AEOT (usually the Logistician, 4A171) will be Hazardous Material Certified to 
+complete and sign the Shippers Declaration of Dangerous Goods Forms, and will be trained and 
+certified in pallet building procedures IAW DTR 4500.9R, Defense Transportation Regulation, 
+Part II, Cargo Movement, May 2014, to help direct the palletizing and shipping of AEOT 
+equipment. If AEOT personnel are redeploying and the equipment is remaining, it should be 
+inventoried and turned over to oncoming personnel in good condition. 
+16 
+AFTTP3-42.53  31 JULY 2019 
+Chapter 4 
+PLANNING AND SUPPORT CONSIDERATIONS 
+4.1.  Introduction.  Since medical facilities are by nature fixed while air assets are mobile, the lay 
+down of AE may not be directly correlated to the location of all Role 3 medical facilities. Airlift 
+discipline must be exercised in efficient distribution of AE assets. 
+4.1.1.  Planners will ensure to the greatest extent possible that a full AECS UTC FFQCC is 
+tasked with any AEOT tasked. At the very least, the FFQCC UTC would be pared and tailored 
+to include no less than the Commander, Chief Nurse, DO and Enlisted Superintendent 
+positions. This allows the AEOT to focus exclusively on performing the requirements of 
+supporting all facets of launching and recovering AECs and ERCC teams. For the most up-to-
+date information on UTC capabilities and requirements, please refer to the MEFPAK 
+SharePoint at https://cs2.eis.af.mil/sites/12956/default.aspx.  As the most utilized ERCC 
+UTC, only CCATT is specified in this chapter. 
+4.1.2.  AEOT Manpower Considerations. Refer to paragraph 1.3. 
+4.2.  Equipment UTCs. 
+4.2.1.  AEOT Equipment Package (FFQN1). Deploys to support FFQNT IAW current 
+MISCAPs. 
+4.2.2.  Additional Equipment Packages. The FFQNT is also responsible for maintenance and 
+support of the following equipment packages when tasked: 
+4.2.2.1.  AE In-flight Kit (FFQDM) and AE In-flight Kit Resupply (FFQDH). FFQDM 
+provides the AEC single mission support for up to 25 patients using increment one, and up 
+to 50 patients adding increment two. The FFQDH package provides a 14 day resupply for 
+employed 1-3 AES inflight kits. Resupply package should be tasked to accompany 1-3 kits 
+upon initial deployment. 
+4.2.2.2.  CCATT Equipment Package (FFCC4) and CCATT Equipment Resupply 
+(FFCCB). FFCC4 provides advanced specialty medical equipment to support CCATT in 
+conjunction with AECs. Each kit provides single mission support for up to three high-
+acuity patients or up to six lower-acuity patients. The FFCCB provides the resupply 
+package to support the CCATT equipment kit. Each resupply package provides 15 days 
+support for up to three basic FFCC4 packages. 
+4.2.2.3.  Vehicle UTC as applicable. Example: High Mobility Multipurpose Wheeled 
+Vehicle/HMMWV (UFMVE). 
+4.2.3.  Vehicles. Vehicles are critical to the AEOT’s ability to execute its mission; the absence 
+of appropriate vehicles will result in mission failure. The AEOT requires vehicles for 
+transportation of AE crews/CCATT personnel and associated equipment, to and from the 
+aircraft and base-wide logistical support elements. Normally, the AF will be the host service 
+at an airfield operating location and will support the AEOT’s vehicle requirements. All AEOT 
+personnel will be flight-line qualified and licensed. 
+AFTTP3-42.53  31 JULY 2019 
+17 
+4.3.  Facilities. 
+4.3.1.  Size. The AEOT needs a total of 3000 sq ft of space. Specific requirements include 750 
+square feet for operating space, 500 square feet of temperature controlled space for equipment 
+and medication storage, and 750 square feet for antenna assembly (when FFQCR is tasked). 
+Additional space is required to establish an AE logistics function and store AE and CCATT 
+in-flight kits. The AE planner must request additional BOS to provide temperature controlled 
+space for in-flight/CCATT kits maintained by the AEOT. Additional space requirement for 
+supporting 10 kits is 1,000 sq ft. 
+4.3.2.  Electrical Power. Electricity with adequate outlets for servicing electronic patient 
+equipment is essential. Deployed base electrical power systems provide primary and backup 
+power for AEOT facilities and equipment. 
+4.3.2.1.  Coordinate/plan to provide power for computers, a PRC-117 Radio, a Broadband 
+Global Area Network (BGAN) radio, a Land Mobile Radio (LMR) base station and 
+handheld charging station, and charging power required for all AE and CCATT in-flight 
+kits. A PRC- 117 Radio will require 2.5 Amps Max, 85-260 voltage (AC) and 47-440 Hz 
+frequency. A BGAN will require 0.5 Amps Max, 100-240 voltage (AC), and 47-63HZ 
+frequency. A LMR charger requires 2 Amps, 100-240 voltage (AC), 50/60 Hz frequency 
+with the base station requiring 7 amps max, 100-240 voltage (AC), and 50/60 Hz 
+frequency. 
+4.3.3.  Fuels. Ground fuels support will normally be obtained on a contract basis. Fuels for 
+vehicles and generators should be included with other BOS requirements. 
+4.3.4.  Physical Location. AE assets are extremely limited and should be located as close as 
+possible to the flight-line and/or Wing Operating Center (WOC). If located adjacent to the 
+flight line, planners must take aircraft engine exhaust into consideration. Operational 
+requirements for airfield storage, command space, maintenance, supply, etc. might force the 
+location of an AEOT away from the airstrip. However, the distance from the flight-line will 
+directly and proportionally affect requirements for personnel, vehicles, and time required for 
+planning and mission execution. Distances of more than a mile will adversely affect the 
+AEOT’s ability to complete its mission. 
+4.3.5.  Flight-line Access. The AEOT must have clear access to the flight-line, unencumbered 
+by natural barriers or excessive unfinished roadways. 
+4.3.6.  Communications Infrastructure. Communications with C2, host medical facility, and 
+PMRC are crucial. Radio or land line (such as telephone or field phone) may be used, but must 
+be reliable and secure as the theater combatant commander mandates. 
+4.3.7.  Thermal. Heating/cooling is required to maintain drugs and medical supplies. The 
+facility temperature should be maintained within a temperature range, between 68-80 degrees 
+Fahrenheit. If there is a need to refrigerate medication, coordination via host base support will 
+be essential. 
+4.3.8.  Roof. The roof must be waterproof, the floor hardened and without risk of flooding. 
+PTLOX, NPTLOX, and BMOS must be in a vented and covered environment for storage. 
+18 
+AFTTP3-42.53  31 JULY 2019 
+4.3.9.  Secure Storage. A small safe is provided in the FFQN1 to support the COMSEC 
+requirements for the radio equipment, and other classified material. Ensure secure and proper 
+storage of medications/controlled substances (see paragraph 3.5.3). 
+4.4.  Logistics.  The AEOT must establish and maintain an AE logistics network for obtaining 
+medical supplies through the host MTF through the Single Integrated Medical Logistics Manager 
+(SIMLM), and, the designated supporting PMI Center for PMI equipment items. 
+NOTE: During time of war, intra and inter-theater medication supply levels will be based on 
+command directives. For further guidance refer to AFTTP 3-42.8, Expeditionary Medical 
+Logistics (EML) System, Joint Publication (JP) 4-02, Joint Health Services, and applicable 
+OPLANs. 
+4.5.  Allowance Standards (AS).  AE In-flight Kit FFQDM AS 887A and CCATT FFCC4 AS 
+887N equipment will be tracked with the PMI-ATS. PMI assets will be quickly recycled to support 
+patient movement requirements. The most up-to-date AS information is available on the Air Force 
+Medical Logistics web page: https://medlog.us.af.mil/ (account necessary). Copies may also be 
+found on the MEFPAK SharePoint at https://cs2.eis.af.mil/sites/12956/default.aspx. 
+4.5.1.  The AEOT (FFQNT) deploys with the AEOT Equipment Package (FFQN1); 
+Allowance Standard 903Y. 
+4.5.2.  PMI-ATS computer system UTC FFPT3. 
+4.5.3.  The AEOT Manpower Augmentation Team (FFQCM) deploys with the AE Operations 
+Augmentation Equipment Package (FFQC2), Allowance Standard 903O. 
+4.5.4.  Standard Operations. Each AEC/CCATT will be assigned to an equipment set. Each 
+medical UTC that is deployed ships with a predetermined level of supplies and equipment. If 
+it is determined that additional equipment is required, additional UTC’s pared to the required 
+equipment needed would need to be tasked. 
+4.5.5.  Packing lists, Pharmaceutical lists, and the most up-to-date AS information is available 
+on the Air Force Medical Logistics web page: https://medlog.us.af.mil/ (account necessary). 
+Copies 
+may 
+also 
+be 
+found 
+on 
+the 
+MEFPAK 
+SharePoint 
+at 
+https://cs2.eis.af.mil/sites/12956/default.aspx. For minimum equipment list required for 
+flight, reference AFMAN 10-2909, Aeromedical Evacuation Equipment Standards. 
+4.5.6.  Stacking Litter System. UTC FFQD1 (5 EA SLS) increases and enhances operational 
+capabilities for patient movement on multiple airframes during steady-state operations, times 
+of war and military operations other than war. The SLS is a stand-alone stationary, non-
+mechanical structure that attaches to the existing aircraft attachment hard points and consists 
+of three basic components, the vertical support stanchions, lower base frame, and the litter 
+platforms. They are centrally managed by HQ AMC/SGX. Reference operations and 
+troubleshooting guides which are available on the A3VM “Master Library Verified AE” and/or 
+“Approved Publications – AE” SharePoint areas (see Attachment 2, “Additional Resources” 
+for hyperlink). Additionally SLS procedures can be found in the Medical Equipment 
+Compendium located in the Electronic Flight Bag (EFB). 
+4.6.  Initial Shelf Stock.  The AEOT equipment package does not have expendable medical 
+materials. The resupply chain of medical and administrative equipment as well as expendable 
+materials will follow the existing MTF supply chain. The medical logistics personnel within the 
+AFTTP3-42.53  31 JULY 2019 
+19 
+AEOT will coordinate with existing MTFs to order resupply items through existing supply chains 
+when possible. 
+4.6.1.  Initial Deployment. Upon deployment notification, medical logistics personnel should 
+contact the Air Force Medical Logistics Operations Center (AFMLOC) to receive re-supply 
+guidance for specific destination/location at CONUS DSN 343-4172/2883/4294 and email 
+afmoa.sqalx@detrick.af.mil. AE In-Flight Kit Resupply Package UTC FFQDH AS 887B and 
+CCATT Resupply Package UTC FFCCB AS 887H should be tasked by planners for theater 
+deployment within the first few days of an active theater. 
+4.6.1.1.  There are no inherent medical supplies in the AEOT Equipment Package 
+(FFQN1). When AEC and CCATT in-flight kits are tasked (FFQDM and FFCC4 
+respectively), each UTC’s corresponding in-flight resupply kits should also be tasked at 
+the same time (FFQDH and FFCCB respectively). AEOT logistics personnel are 
+encouraged to immediately develop a supply shelf stock to support these kits. 
+4.7.  Re-Supply Orders.  Supply levels and on-hand balances should be closely monitored and 
+adjusted based on pipeline times (time from order to delivery), ops tempo, number of assigned 
+crews, and patient acuity. The AEOT equipment package does not contain resupply items for AE 
+in-flight/CCATT kits. Many items are unique and will not be standard to what is used in the MTF 
+(e.g. suction filters). Separate UTCs exist for resupply, however the quantity of items is not 
+effective at building a shelf stock for high use items. AEOT medical logistics supply requests will 
+be to the designated MTF or reach-back support facility. 
+4.8.  Patient Movement Item.  The source of supply for PMI durable supply items such as litters, 
+backrests, pads, and litter straps is the theater source of supply. PMI Centers and the PMI Cell, if 
+a Cell is stood up, will recycle litters to the greatest extent possible. Shortfalls of durable items 
+should be ordered from the supply chain. PMI operations are found in AFMAN 41-209, JP 4-02, 
+and CDRUSTRANSCOM BPLAN 9008-18. 
+4.8.1.  Equipment maintenance is theater dependent and will be PM and calibrated IAW 
+Theater Medical Maintenance guidance and AF Biomedical Equipment standards. 
+Maintenance of PMI equipment will be supported by the nearest medical maintenance function 
+with the required capability. (Ref: AFMAN 41-209, Chapter 8). Medical Logistics will need 
+to maintain a bench stock of PMI spare parts to repair equipment during 
+scheduled/unscheduled maintenance. 
+4.8.2.  The PMI program will recycle PMI durable supply items (litters, backrests, pads, and 
+litter straps) to the maximum extent possible.  If recycling operations does not meet the full 
+requirement, order additional assets through supply channels. 
+4.8.3.  Ensure all medical equipment is properly scanned into PMI-ATS using the deployed 
+PMI-ATS computer system, tasked as UTC FFPT3. Follow guidelines established in the PMI-
+ATS Users guide (link to guide can be found in AFMAN 10-2909). 
+4.8.4.  AE medical equipment IAW AFI 41-201, Managing Clinical Engineering, must be 
+continuously checked for AE certification standards and affixed with the AF Form 4033, AE 
+Certification 
+Label. 
+Additionally, 
+it 
+must 
+be 
+within 
+the 
+current 
+preventive 
+maintenance/calibration certification standard and affixed with DD Form 2163, Medical 
+Equipment Verification/Certification, or most current and approved label. 
+20 
+AFTTP3-42.53  31 JULY 2019 
+4.8.5.  Maintenance of PMI equipment is to be supported by the host Medical Treatment 
+Facility medical maintenance function responsible for providing support IAW AFMAN 41-
+209, AFMAN 10-2909, Aeromedical Evacuation (AE) Equipment Standards, the AE Medical 
+Equipment Compendium, and Combined Capabilities Documents available on the A3VM 
+“Master_Library_Verified AE” SharePoint site (see Attachment 2, “Additional Resources” for 
+hyperlink) or by the designated theater guidance for maintenance. 
+AFTTP3-42.53  31 JULY 2019 
+21 
+Chapter 5 
+TRAINING 
+5.1.  Introduction.  The home station AE SQ/CC will ensure their personnel are trained prior to 
+deployment. It is difficult to provide sufficient training without the benefit of operating in a full 
+TAES environment. This can only be afforded in DOD, AF-level, or MAJCOM-level exercises. 
+5.2.  Contingency Training.  AES members have the potential of being tasked to deploy in an 
+AEOT position regardless of UTC assignment and must be properly trained and prepared. The 
+Aeromedical Evacuation and Patient Staging Course (AEPSC) provides hands-on experience with 
+the AEOT equipment package and trains on all components of the TAES (Refer to AFTTP 3-42.5). 
+All AEOT and AEOT Augmentation personnel must complete initial training and maintain 
+sustainment AEPSC training IAW AFI 10-2912 and any in-force HQ AMC/A3 policy letters. 
+5.3.  Requirements.  It is essential that AE ground support personnel have a firm knowledge of 
+AE operations including, but not limited to, launch/recovery procedures, AE medical equipment, 
+mission management, C2 systems, narcotic management, ERCC team operations, and mission 
+documentation (reference AFI 48-307V3, En Route Care Documentation). These skills are not a 
+part of the Comprehensive Medical Readiness Program (CMRP) or AFSC training. All AEOT 
+personnel will be flight-line qualified, licensed to support ramp operations, and familiar with 
+aircraft configurations found in AFMAN 11-2AEV3 Addenda-A. AEOT members should be 
+trained to meet current FFQNT Mission Essential Task Lists (METLs). Formal local training 
+programs and AE training missions should be utilized to train, test, and reinforce the needed 
+deployed knowledge base. 
+5.4.  UTC Sustainment Training.  UTC training will cover deployed AE operations pertinent to 
+patient movement coordination and all phases of deployment, employment, and re-deployment. 
+The Comprehensive Medical Readiness Program employed by AF SG, although required for all 
+personnel with medical AFSCs, must be supplemented with UTC specific training. Readiness 
+training will be conducted in conjunction with sponsored or local training exercises, or operational 
+deployments as authorized with proper coordination. Joint training is encouraged to foster 
+relationships as it enhances capabilities of each service. Personnel tasked to the AEOT UTC should 
+have required training and access to the following applications (specifics identified in reporting 
+instructions, line remarks, and obtained prior to a member’s deployment): 
+GDSS2 and/or SMS 
+TRAC2ES 
+TRAC2ES PMQ-R for Senior Nurse or designee 
+Medical Logistics Allowance Standard Management https://medlog.us.af.mil/ 
+Secure communications. 
+PMI Program. 
+Weapons/ammunition storage/management. 
+22 
+AFTTP3-42.53  31 JULY 2019 
+Chapter 6 
+COMMUNICATIONS AND INFORMATION SYSTEMS SUPPORT 
+6.1.  General.  The AEOT may operate one or more nodes of the AE system communications 
+network when deployed with an AE Communications Team (FFQCR), and is responsible for 
+providing updated information to local support activities, en route/destination MTFs, and other AE 
+components within its AOR. AEOT communications personnel send and receive encrypted 
+message traffic, coordinate COMSEC and OPSEC requirements, and manage general 
+communications traffic. AEOT communicators may also be called upon to assist in other AES 
+functions. Trained AE communication systems specialists (3D1X3) are assigned to set up, initiate, 
+and maintain communications between elements and respond to a variety of transmission modes, 
+formats, and conditions. 
+6.1.1.  An AE communication system consisting of primary and secondary links is established 
+to process and track requests for AE, follow mission progress, and maintain situational 
+awareness. Secondary communication links, such as a Local Area Network (LAN), are 
+obtained upon arrival in theater depending on the maturity of the theater communication 
+infrastructure and the availability of commercial or military service provided circuits. 
+Communication capabilities need to be reliable and capable of supporting AEOT operations 
+for any theater along with the full spectrum of contingencies. 
+6.1.2.  Some of the variables that affect the establishment of an AEOT communication system 
+include the intensity of the conflict, governing laws of the host nation regarding spectrum and 
+communication management, climate and geography, electromagnetic environment, 
+propagation conditions, and real estate (on-site) availability. AEOT communication systems 
+planning and implementation procedures contained in the OPLAN ANNEX-K must be 
+thoroughly presented and widely disseminated among element OIC, NCOIC and 
+communication operators. 
+6.1.3.  The AEOT currently uses satellite communications for its primary C2 system. With this 
+media, the AEOT establishes a closed, directed communications net and performs as the Net 
+Control Station (NCS) to ensure proper net procedures, protocols, and radio operator discipline 
+as stated in applicable directives, such as Allied Communications Publication (ACP) 125 and 
+ACP 130. The NCS also designates an alternate to assure continuity of mission requirements 
+in contingencies affecting the net. 
+6.2.  Message Precedence.  All message traffic transmitted is assigned precedence. It serves as a 
+guide to communication personnel to indicate the order of handling and notifies the addressee of 
+the significance or urgency of the content of the message. All messages are sent as soon as possible, 
+however, the one with the higher precedence is sent first. 
+6.2.1.  FLASH. This precedence is reserved for alerts, warnings, and other emergency actions 
+having immediate bearing on national, command, or area security. FLASH messages are hand 
+carried, processed, transmitted, and delivered immediately ahead of all other messages. 
+6.2.2.  Immediate. This precedence is reserved for vital communication having immediate 
+operational effect on tactical operations; communication directly concerning safety or rescue 
+operations; and communication affecting the intelligence community operational role. 
+AFTTP3-42.53  31 JULY 2019 
+23 
+6.2.3.  Priority. This precedence is reserved for calls that require prompt completion for 
+national defense and security, the successful conduct of war, or to safeguard life or property. 
+Normally, priority is the highest precedence that may be assigned to administrative matters for 
+which speed of handling is of vital importance. Maximum delivery time is 24 hours. 
+6.2.4.  Routine. This precedence is reserved for all official communications to which all of the 
+above listed precedence does not apply. Routine messages are handled in the order received 
+and after all messages of a higher precedence have been sent. Maximum delivery time is 72 
+hours. 
+6.3.  Message Traffic.  There are four basic message types in use in the AE system. They are 
+Patient Movement Requests (PMRs), AE mission messages, AE operations reports, and general 
+messages. AE operational reports consist of the Situation Report (SITREP) and any other, as 
+requested, reports or messages. SITREPs are used to report the status of readiness of an element 
+to the chain of command within the theater. Refer to AFMAN 10-206, Operational Reporting 
+(OPREP), and specific joint task force (JTF) and/or COMAFFOR guidance. 
+6.4.  Communications Systems Operations.  The AE system uses organic Very High Frequency 
+(VHF), Ultra High Frequency (UHF), line-of-sight and Satellite Communication (SATCOM) radio 
+assets as a means of providing communications capability to the AE system. Trained AE Radio 
+Frequency Transmission personnel are assigned to set up and initiate communications between 
+elements. 
+6.4.1.  Secure and non-secure systems may be available during contingencies. The mode of 
+transmission is dependent on availability and the classification or sensitivity of the information 
+being passed. The degree to which the information needs to be protected will dictate the type 
+of system that should be utilized. 
+6.5.  Communication Equipment. 
+6.5.1.  Secure/Non-secure Communication. Any classified information must be transmitted by 
+secure means. SITREPs, medical surveillance, site locations, and compiled patient data are all 
+examples of information that can be classified and will need safeguarding. The types of secure 
+communication equipment usually available include secure telephone equipment (STE) and 
+various other encryption devices. Medical or casualty information becomes an OPSEC issue 
+when linked to a particular military mission or operation. While medical information itself is 
+not normally classified, in the context of a mission, it should be protected as part of the theater 
+overall OPSEC program to deny information to the enemy. Radio equipment, COMSEC, and 
+classified material will be destroyed IAW current COMSEC Radio Equipment Destruction 
+directives. 
+6.5.2.  Computer systems. The AEOT deploys with organic computer hardware and software 
+which provide word-processing, database management, and graphics. If available, LAN 
+connectivity such as Non-classified Internet Protocol Router Network (NIPRNET) and Secret 
+Internet Protocol Router Network (SIPRNET) may be obtained through the user service. If 
+LAN capable, the AEOT will use TRAC2ES to maintain oversight for regulated patient needs, 
+and the GDSS2 for mission tracking and visibility. SITREPs must be transmitted by secure 
+means or in accordance with local communications policy. Access to both secure and non-
+secure communication networks will allow the team a direct connection to obtain operational, 
+administrative, and clinical input from the AOC, C2 authorities and geographically separated 
+24 
+AFTTP3-42.53  31 JULY 2019 
+units, PMRC access, and secure internet sites for publications, forms, and operating 
+instructions. 
+6.5.3.  Telephones/Radios. The AEOT may be required to maintain radio communication and 
+24-hour operations using satellite radios and phones.
+6.5.4.  Iridium phones with secure sleeve. Iridium phones are handheld satellite phones that 
+work anywhere in the world. It is larger than a typical mobile phone, but still small enough to 
+carry in a backpack, and is very simple to use. It provides secure/unsecure voice telephone 
+capabilities through satellites. For secure communications, a secure sleeve must be attached to 
+the phone handset. Each unit will use their local Program Designator Code (PDC) for the 
+purchase and activation of Subscriber Identity Module (SIM) cards for training and exercises. 
+WRM SIM cards will not be used for unit training or exercises. When iridium phones are 
+deployed the WRM SIM card will be activated using the appropriate contingency operation 
+consolidated PDC. 
+6.5.5.  Broadband Global Area Network (BGAN). Portable and easy to setup, the BGAN is 
+another satellite phone that uses satellites located around the earth for worldwide telephone 
+capabilities. This system can also interface with the STE to provide secure communications. 
+Each unit will use their local PDC for BGAN terminal activation to support training/exercise 
+operations. Upon deployment, the PDC will need to be switched to the operations consolidated 
+PDC. 
+6.5.6.  PRC-117. Provides breakthrough wideband data performance and legacy narrowband 
+interoperability in one lightweight package. Covering the 30 MHz to 2 GHz frequency range, 
+this single-channel radio is 30% smaller and 35% lighter than currently fielded multiband 
+manpack radios and operates off a single standard battery. This device can be used to pass 
+secure information as well as data transfer of sensitive material and documents such as PMRs 
+and SITREPs. 
+6.6.  Communications and Operations Security.  It is vital to protect and secure all classified 
+information. AE C2 will be capable of processing classified information up to and including 
+SECRET. All aircraft mission information is considered classified in the theater of operations. All 
+aspects of COMSEC and OPSEC must be fully implemented and rigidly enforced. AE 
+Communications Teams (FFQCR) will deploy with the current month COMSEC material plus a 
+90 day supply. The AEOT will have to establish a COMSEC account within the AOR if the 
+operation will require secure communications beyond 90 days. 
+MARK D. KELLY, Lt Gen, USAF 
+Deputy Chief of Staff, Operations 
+AFTTP3-42.53  31 JULY 2019 
+25 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+Aeromedical Evacuation Medical Equipment Compendium, 14 March 2019 
+AFMAN 10-206, Operational Reporting (OPREP), 18 June 2018 
+AFMAN 10-2909, Aeromedical Evacuation (AE) Equipment Standards, 13 March 2019 
+AFI 10-2912, Aeromedical Evacuation Readiness Programs, 20 June 2018 
+AFI 10-403, Deployment Planning and Execution, 20 September 2012 
+AFI 11-202V2, Aircrew Standardization and Evaluation Program, 06 December 2018 
+AFI 11-202V3, General Flight Rules, 10 August 2016 
+AFMAN 11-2AEV3, Aeromedical Evacuations (AE) Operations Procedures, 15 August 2014 
+AFMAN 11-2AEV3 Guidance Memorandum, 31 January 2019 
+AFMAN 11-2AEV3 Addenda-A, Aeromedical Evacuation Operations Configuration/Mission 
+Planning, 19 Oct 2018 
+AFI 11-301V1, Aircrew Flight Equipment (AFE) Program, 10 October 2017 
+AFI 11-301V2, Management and Configuration Requirements for Aircrew Flight Equipment 
+(AFE), 20 December 2013 
+AFI 11-401, Aviation Management, 10 December 2010 
+AFMAN 11-421, Aviation Resource Management, 12 September 2018 
+AFI 24-101, Passenger Movement, 28 April 2017 
+AFI 25-201, Intra-Service, Intra-Agency, and Inter-Agency Support Agreements Procedures, 18 
+October 2013 
+AFI 31-101, Integrated Defense, 05 July 2017 
+AFI 31-117, Arming and Use of Force by Air Force Personnel, 02 February 2016 
+AFI 36-2101, Classifying Military Personnel (Officer and Enlisted), 25 June 2013 
+AFI 41-201, Managing Clinical Engineering Programs, 10 October 2017 
+AFMAN 41-209, Medical Logistics Support, 04 January 2019 
+AFI 44-102, Medical Care Management, 17 March 2015 
+AFI 44-108, Infection Prevention and Control Program, 11 December 2014 
+AFI 48-307V1, En Route Care and Aeromedical Evacuation Medical Operations, 09 January 
+2017 
+AFI 48-307V2, En Route Critical Care, 10 January 2017 
+AFI 48-307V3, En Route Care Documentation, 12 April 2016 
+26 
+AFTTP3-42.53  31 JULY 2019 
+AFMAN 11-2AEV2, Aeromedical Evacuation Aircrew Evaluation Criteria, 25 October 2018 
+AFMAN 33-363, Management of Records, 05 June 2019 
+AFPD 24-6, Distribution and Traffic Management, 23 Mar 2018 
+AFTTP 3-42.51, Critical Care Air Transport Team (CCATT), 07 April 2015 
+AFTTP 3-42.57, En Route Patient Staging System, 10 August 2016 
+AFTTP 3-42.6, USAF Medical Support for Special Operations Forces, 09 January 2012 
+AFTTP 3-42.8, Expeditionary Medical Logistics (EML) System, 16 November 2018 
+Air Force Doctrine Annex 3-0, Operations and Planning, 04 November 2016 
+Air Force Doctrine Annex 3-17, Air Mobility Operations, 05 April 2016 
+Air Force Doctrine Annex 3-30, Command and Control, 07 November 2014 
+AMCI 10-202V1, Presentation of Air Mobility Forces, 08 February 2017 
+DODI 4515.13, Air Transportation Eligibility, 31 August 2018 
+DTR 4500.9R, Defense Transportation Regulation, Part II, Cargo Movement, May, 2014 (IC 27 
+March 2019) 
+JP 3-17, Air Mobility Operations, 05 February 2019 
+JP 4-02, Joint Health Services, 11 December 2017 
+Adopted Forms 
+AF Form 4033, AE Certification Label, 01 January 2014 
+AF Form 4449, En Route Care Equipment Malfunction Report Tag, 18 January 2019 
+AF IMT 847, Recommendation for Change of Publication, 22 September 2009 
+AF IMT 4327A, Crew Flight (FA) Authorization, 01 December 2003 
+DD Form 2163, Medical Equipment Verification/Certification, 01 May 2013 
+DD Form 2852, Patient Movement Event/Near Miss Report, 01 February 2011 
+AFTO Form 781, ARMS Air-crew/Mission Flight Data Document, 03 July 2017 
+Abbreviations and Acronyms 
+ACP—Allied Communications Publication 
+AD—Active Duty 
+ADCON—Administrative Control 
+ADPE—Automated Data Processing Equipment 
+ADVON—Advanced Echelon 
+AE—Aeromedical Evacuation 
+AEC—Aeromedical Evacuation Crew 
+AFTTP3-42.53  31 JULY 2019 
+27 
+AECM—Aeromedical Evacuation Crewmember 
+AECS—Aeromedical Evacuation Command Squadron 
+AECT—Aeromedical Evacuation Control Team 
+AEF—Aerospace Expeditionary Forces 
+AELT—Aeromedical Evacuation Liaison Team 
+AEOT—Aeromedical Evacuation Operations Team 
+AEPSC—Aeromedical Evacuation and Patient Staging Course 
+AES—Aeromedical Evacuation Squadron 
+AF—Air Force 
+AFCC—Air Force Component Commander 
+AFE—Aircrew Flight Equipment 
+AFFOR—Air Force Forces 
+AFI—Air Force Instruction 
+AFMAN—Air Force Manual 
+AFMLOC—Air Force Medical Logistics Operations Center 
+AFPD—Air Force Policy Directive 
+AFRC—Air Force Reserve Command 
+AFSC—Air Force Specialty Code 
+AFTO—Air Force Technical Order 
+AFTRANS—Air Forces Transportation 
+AFTTP—Air Force Tactics, Techniques and Procedures 
+AGE—Aircraft Ground Equipment 
+AMCI—Air Mobility Command Instruction 
+AMD—Air Mobility Division 
+ANG—Air National Guard 
+AO—Authenticating Official 
+AOC—Air Operations Center 
+AOR—Area of Responsibility 
+ARC—Air Reserve Component 
+ARMS—Aviation Resource Management System 
+AS—Allowance Standard 
+ATOC—Air Terminal Operations Center 
+28 
+AFTTP3-42.53  31 JULY 2019 
+AUG—Augmentation 
+BGAN—Broadband Global Area Network 
+BOS—Base Operating Support 
+BPLAN—Base Plan 
+C2—Command and Control 
+CBRN—Chemical, Biological, Radiological, and Nuclear 
+CC—Commander 
+CCATT—Critical Care Air Transport Team 
+CDC—Centers for Disease Control 
+CHOP—Change in Operation Control 
+CMRP—Comprehensive Medical Readiness Program 
+C-NAF—Component-Numbered Air Force
+COMAFFOR—Commander Air Force Forces 
+COMSEC—Communications Security 
+CONOPS—Concept of Operations 
+CONPLAN—Concept Plan 
+CONUS—Continental United States 
+CRE—Contingency Response Element 
+DEPORD—Deployment Order 
+DMLSS—Defense Medical Logistics Standard Support 
+DNIF—Duties Not to Include Flying 
+DOD—Department of Defense 
+DSCA—Defense Support of Civil Authorities 
+DSN—Defense Switched Network 
+EAEF—Expeditionary Aeromedical Evacuation Flight 
+EAES—Expeditionary Aeromedical Evacuation Squadron 
+EBSC—Expeditionary Blood Support Center 
+EFB—Electronic Flight Bag 
+EM—Emergency Management 
+EOG—Expeditionary Operations Group 
+ERCC—En Route Critical Care 
+ERCCS—En Route Casualty Care System 
+AFTTP3-42.53  31 JULY 2019 
+29 
+ERPSS—En Route Patient Staging System 
+EXORD—Execute Order 
+FA—Flight Authorization 
+FCB—Flight Crew Bulletin 
+FCIF—Flight Crew Information Files 
+FN—Flight Nurse 
+GCC—Geographic Combatant Commander 
+GDSS2—Global Decision Support System 
+HA/DR—Humanitarian Assistance/Disaster Relief 
+HMMWV—High Mobility Multi-purpose Wheeled Vehicle 
+HQ AMC—Headquarters Air Mobility Command 
+IAW—In Accordance With 
+JFACC—Joint Force Air Component Commander 
+JP—Joint Publication 
+JPSR—Joint Patient Safety Reporting 
+JTF—Joint Task Force 
+LAN—Local Area Network 
+LMR—Land Mobile Radio 
+LOX—Liquid Oxygen 
+LRS—Logistics Readiness Squadron 
+LSAS—Litter Stanchion Augmentation Set 
+MAJCOM—Major Command 
+MCC—Mission Clinical Coordinator 
+MEFPAK—Manpower & Equipment Force Packaging 
+METL—Mission Essential Task List 
+MISCAP—Mission Capabilities Statement 
+MOA—Memorandum of Agreement 
+MOU—Memorandum of Understanding 
+MSC—Medical Service Corps 
+MTF—Military Treatment Facility 
+NBC—Nuclear Biological Chemical 
+NCA—National Command Authority 
+30 
+AFTTP3-42.53  31 JULY 2019 
+NCOIC—Non-Commissioned Officer in Charge 
+NCS—Net Control Station 
+NIPRNET—Non-classified Internet Protocol Router Network 
+NPTLOX—Next Generation Portable Therapeutic Liquid Oxygen 
+NVG—Night Vision Goggles 
+OCONUS—Outside the Continental United States 
+OG/CC—Operations Group Commander 
+OIC—Officer In Charge 
+OPCON—Operational Control 
+OPLAN—Operation Plan 
+OPORD—Operation Order 
+OPSEC—Operations Security 
+ORM—Operational Risk Management 
+PDC—Program Designator Code 
+PECC—Patient Evacuation Coordination Cell 
+PERSCO—Personnel Support for Contingency Operations 
+PMI—Patient Movement Item 
+PMI-ATS—Patient Movement Item - Asset Tracking System 
+PMQ-R—Patient Movement Quality-Report 
+PMR—Patient Movement Request 
+PMRC—Patient Movement Requirements Center 
+PSM—Patient Safety Manager 
+PTLOX—Portable Therapeutic Liquid Oxygen 
+ROE—Rules of Engagement 
+RUF—Rules for the Use of Force 
+SARM—Squadron Aviation Resource Management 
+SATCOM—Satellite Communication 
+SELO—Stan/Eval Liaison Officer 
+SG—Command Surgeon/Surgeon General 
+SIM—Subscriber Identity Module 
+SIMLM—Single Integrated Medical Logistics Manager 
+SIP—Shelter In Place 
+AFTTP3-42.53  31 JULY 2019 
+31 
+SIPRNET—Secret Internet Protocol Router Network 
+SITREP—Situation Report 
+SJA—Staff Judge Advocate 
+SLS—Stacking Litter System 
+SMS—Single Mobility System 
+SOE—Sequence of Events 
+SOF—Special Operations Forces 
+SPINS—Special Instructions 
+STE—Secure Telephone Equipment 
+TACC—Tanker/Airlift Control Center 
+TACON—Tactical Control 
+TAES—Theater Aeromedical Evacuation System 
+TCSG—USTRANSCOM Command Surgeon 
+TRAC2ES—USTRANSCOM Regulating Command & Control Evacuation System 
+TTP—Tactics, Techniques and Procedures 
+UHF—Ultra High Frequency 
+USAF—United States Air Force 
+USAFE—United States Air Forces in Europe 
+USC—United States Code 
+USR—Unit Safety Representative 
+USTRANSCOM—United States Transportation Command 
+UTC—Unit Type Code 
+VCO—Vehicle Control Officer 
+VHF—Very High Frequency 
+WMP—War Mobilization Plan 
+WOC—Wing Operating Center 
+WRM—War Reserve Materiel 
+32 
+AFTTP3-42.53  31 JULY 2019 
+Attachment 2 
+ADDITIONAL RESOURCES 
+Aeromedical Evacuation References 
+AFI 10-301, Managing Operational Utilization Requirements of the Air Reserve Component Forces, 20 
+December 2017 
+AFMAN 11-2AEV1, Aeromedical Evacuation Aircrew Training, 04 January 2019 
+AFPD 10-29, Worldwide Aeromedical Evacuation Operations, 13 February 2019 
+AFPD 10-3, Operational Utilization of the Air Reserve Component Forces, 29 November 2017 
+AFTTP 3-2.18, Multi-Service Tactics, Techniques, and Procedures for Tactical Radios, 16 June 2017 
+AFTTP 3-2.60, Multi-Service Tactics, Techniques, and Procedures for Chemical, Biological, and Nuclear 
+Decontamination, 01 April 2006 
+AFTTP 3-2.67, Multi-Service Tactics, Techniques, and Procedures for Defense Support of Civil Authorities 
+(DSCA), 25 September 2015 
+AFTTP 3-2.68, Multi-Service Tactics, Techniques, and Procedures for Airfield Opening, 01 June 2015 
+AFTTP 3-42.3, Multi-Service Tactics, Techniques, and Procedures for Health Service Support in a 
+Chemical, Biological, and Radiological, and Nuclear Environment, 15 March 2016 
+AFTTP 3-42.71, Expeditionary Medical Support (EMEDS) and Air Force Theater Hospital 
+(AFTH), 27 August 2014 
+AFTTP 3-42.711, Blood Support Operations, 19 April 2013 
+Air Force Doctrine Annex 3-40, Counter-Weapons of Mass Destruction Operations, 05 April 2016 
+Air Force Doctrine Annex 4-02, Medical Operations, 25 September 2015 
+JP 3-11, Operations in Chemical, Biological, Radiological, and Nuclear Environments, 29 October 2018 
+Aeromedical Evacuation Resources 
+847 Central (AMC/A3V, Mobility AF lead command, change recommendations to aircrew publications): 
+https://cs2.eis.af.mil/sites/12797/SitePages/847%20Central.aspx 
+Aeromedical Evacuation Medical Equipment Compendium, 14 March 2019, and Medical Equipment 
+Manuals may be found at the HQ AMC, Aircrew Standardization & Evaluation, Aeromedical Airlift 
+(A3VM) SharePoint site. 
+AFTTP3-42.53  31 JULY 2019 
+33 
+AEF Online Personal Deployment Preparedness Tool (PDPT) (e-deployment folder, e-readiness 
+tracker [After signing in, click "PDPT," populates information from ADLS, ASIMS, MILPDS]): 
+https://aefonline.afpc.randolph.af.mil/personalprep.aspx 
+AF Combat Support Tactics, Techniques, and Procedures (TTP) Repository: 
+https://cs2.eis.af.mil/sites/10070/default.aspx 
+AF Doctrine: http://www.doctrine.af.mil/ 
+AF E-Publishing: http://www.e-publishing.af.mil/ 
+AF Medical Readiness Decision Support System (MRDSS-Ultra): 
+https://mrdss1.gunter.af.mil/ultra4/login 
+AF Medical Service Knowledge Exchange Nurse Corps Consultants (including AE): 
+https://kx.afms.mil/kj/kx2/AFNCConsultantsCorner/Pages/home.aspx 
+AF Medical Service Knowledge Exchange: https://kx2.afms.mil/Pages/default.aspx 
+AF Reporting Instruction Tool (AFRIT): 
+https://aefonline.afpc.randolph.af.mil/AFRIT/Afrit.aspx 
+Aviation/Airman Safety Action Program (ASAP): https://asap.safety.af.mil/ 
+Air & Space Expeditionary Forces Online (AEF Online): 
+https://aefonline.afpc.randolph.af.mil/ 
+Airman's Manual: https://cs2.eis.af.mil/sites/10070/Airman_Manual/SitePages/Home.aspx 
+DOD Dictionary and Terminology Repository (Military Acronym Finder): 
+https://jdeis.js.mil/jdeis/index.jsp?pindex=4 
+DOD Directives Division (DOD Publications and Forms): http://www.esd.whs.mil/DD/ 
+Education & Training Course Announcements (ETCA) (*use email certificate* May have to go 
+to IE Options, Content, clear SSL State): https://app10-
+eis.aetc.af.mil/etca/SitePages/Home.aspx 
+HQ AMC, Aircrew Standardization & Evaluation, Aeromedical Airlift (A3VM) 
+“Master_Library_Verified AE” SharePoint: 
+https://cs2.eis.af.mil/sites/12679/aircrew%20pubs%20library/forms/better.aspx 
+HQ AMC, Aircrew Standardization & Evaluation, MAF Aircrew Information Site, FCIF/SII 
+Library (Select "…" to filter for AE, SII, etc.): 
+https://cs2.eis.af.mil/sites/10370/SitePages/Home.aspx 
+HQ AMC, Command Surgeon, Manpower & Equipment Force Packaging (MEFPAK) 
+SharePoint: https://cs2.eis.af.mil/sites/12956/default.aspx 
+Joint Chiefs of Staff Joint Doctrine Publications: http://www.jcs.mil/Doctrine/Joint-Doctine-
+Pubs/ 
+Joint Electronic Library Plus (JEL+): https://jdeis.js.mil/jdeis/ 
+34 
+AFTTP3-42.53  31 JULY 2019 
+Joint Knowledge Online: http://jko.jten.mil/ 
+Multi-Service Tactics, Techniques, and Procedures (MTTPS) Publications on the Air, Land, Sea 
+Application Center website: http://www.alsa.mil/mttps/ 
+Safe to Fly Matrix: https://www.wpafb.af.mil/stf/ 
+Safe to Fly SharePoint: https://cs2.eis.af.mil/sites/10567/sitepages/home.aspx 
+USTRANSCOM Regulating and Command & Control Evacuation System (TRAC2ES): 
+https://www.trac2es.ustranscom.mil/ 
+USAF Individual Medical Readiness (IMR) Status: https://imr.afms.mil/imr/myIMR.aspx 

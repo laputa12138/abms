@@ -1,0 +1,505 @@
+BY ORDER OF THE  
+SECRETARY OF THE AIR FORCE 
+ 
+AIR FORCE INSTRUCTION 13-101 
+18 FEBRUARY 2025 
+Command and Control Operations 
+EVALUATION OF GROUND BASED 
+RADAR SYSTEMS AND SENSORS 
+SUPPORTING COMMAND AND 
+CONTROL (C2) ENTERPRISE 
+COMPLIANCE WITH THIS PUBLICATION IS MANDATORY 
+ 
+ACCESSIBILITY:  This publication is available for downloading or ordering on the e-
+Publishing website at www.e-Publishing.af.mil. 
+RELEASABILITY:  There are no releasability restrictions on this publication. 
+ 
+ 
+OPR: ACC/A3C 
+Certified by: AF/A3T 
+Supersedes: 
+AFI 13-101, 25 November 2020 
+Pages: 15 
+ 
+ 
+This instruction implements Department of the Air Force Policy Directive (DAFPD) 13-1, 
+Command and Control (C2) Enterprise.  This instruction provides guidance and procedures for 
+the Air Force program for evaluating ground-based surveillance radar systems and sensors (fixed, 
+tethered and mobile).  This publication applies to all civilian employees and uniformed members 
+of the Regular Air Force, the Air Force Reserve, the Air National Guard, and those who are 
+contractually obligated to comply with Department of the Air Force publications. This publication 
+does not apply to the United States Space Force.  This instruction requires the collection and or 
+maintenance of information protected by the Privacy Act of 1974 authorized by Department of 
+Defense Instruction (DoDI) 5400.11, DoD Privacy and Civil Liberties Programs.  The applicable 
+System of Records Notices (SORNs) F011 AF XO A, Aviation Resource Management System 
+(ARMS) is available at: https://dpcld.defense.gov/Privacy/SORNs/. Ensure all records 
+generated as a result of processes prescribed in this publication adhere to Air Force Instruction 
+(AFI) 33-322, Records Management and Information Governance Program, and are disposed in 
+accordance with (IAW) the Air Force Records Disposition Schedule (RDS), located in the Air 
+Force Records Information Management System (AFRIMS).  Refer recommended changes and 
+questions about this publication to the office of primary responsibility (OPR) using the Department 
+of the Air Force (DAF) Form 847, Recommendation for Change of Publication; route DAF Forms 
+847 from the field through the appropriate functional chain of command, to Air Combat Command 
+(ACC)/Command and Control, Intelligence, Surveillance, Reconnaissance (C2ISR) Operations 
+Division (ACC/A3C), 205 Dodd Blvd, Suite 121, Joint Base Langley-Eustis VA 23665-2789, 
+ACC/A3C C2ISR Operations Division &lt;acca3c.c2isrops@us.af.mil&gt;.  This publication 
+may be supplemented at any level, but all direct supplements must be routed to the OPR of this 
+2 
+AFI13-101  18 FEBRUARY 2025 
+publication for coordination prior to approval. Major commands (MAJCOMs) are to forward 
+proposed MAJCOM-level “direct supplements” to this volume to Air Force Training and Exercises 
+Division 
+(AF/A3TE), 
+through 
+ACC 
+Combat 
+Integration 
+Branch 
+(ACC/A3CI), 
+ACCA3YICombat@us.af.mil for review and coordination prior to approval.  The authorities to 
+waive wing or unit level requirements in this publication are identified with a tier (“T-0, T-1, T-2, 
+T-3”) number following the compliance statement.  See Department of the Air Force Manual 
+(DAFMAN) 90-161, Publications Processes and Procedures, for a description of the authorities 
+associated with the tier numbers.  Submit requests for waivers through the chain of command to 
+the appropriate tier waiver approval authority, as identified in paragraph 1.3, or alternately, to the 
+publication OPR for non-tiered compliance items. 
+SUMMARY OF CHANGES 
+This document has been substantially revised and needs to be completely reviewed.  The document 
+was reorganized for enhanced clarity and to avoid duplication of information. Additionally, roles 
+and responsibilities for support, funding, tasking, testing, and data release authority are now 
+identified. 
+AFI13-101  18 FEBRUARY 2025 
+3 
+Chapter 1 
+OVERVIEW 
+1.1.  General.  Radars, sensors, and C2 systems play a vital role in air domain awareness.  Many 
+special types of radars are installed in numerous operational environments.  The capability of each 
+radar, sensor and system must be measured and adjusted so they can be configured to provide 
+optimum performance and effectively meet their operational and technical mission requirements. 
+1.2.  Scope.  Air Force policy is to ensure tactical and strategic air defense ground-based radars, 
+sensors, C2 systems, and electronic resources are installed, maintained, and operated in a high state 
+of readiness to provide the ability to rapidly detect threats.  Ground-based radar systems evaluation 
+provides management with a tool for determining the capability of each radar system to detect, 
+identify, track and control aircraft; determine aircraft height and maximize operational readiness 
+and flight safety.  In addition, ground-based radar systems evaluations determine the configuration 
+for optimal performance in a dynamic weather and radar environment.  Lastly, through continuous 
+evaluation of radar systems, C2 systems are provided accurate information to process, track, and 
+display data.  These systems include Joint Surveillance System (JSS), North Warning System 
+(NWS), Tethered Aerostat Radar System (TARS), Wide Area Surveillance (WAS) sensors, 
+Atmospheric Early Warning System (AEWS), National Capital Region-Integrated Air Defense 
+System (NCR-IADS), Air Defense Sector (ADS) Battle Control Center (BCC), the Control and 
+Reporting Center (CRC), cloud-based command and control (CBC2) systems and Tactical 
+Operations Centers (TOCs). The Air Force will evaluate these, and any other rapidly integrated 
+systems and databases as needed in support of Great Power Competition preparedness. 
+1.3.  Waivers. 
+1.3.1.  ACC Director of Operations (ACC/A3), Pacific Air Forces (PACAF) Air and 
+Cyberspace Operations (PACAF/A3/6), and United States Air Forces in Europe-Air Forces 
+Africa Director of Operations (USAFE-AFAFRICA/A3/10) will serve as the respective 
+MAJCOM OPR with waiver approval authority for all requests for waivers from tiered 
+compliance statements in this instruction.  Guidance on filing a copy of approved written 
+waivers with this volume is provided in DAFMAN 90-161. 
+1.3.2.  All waiver requests will be submitted in writing through channels to the appropriate 
+MAJCOM OPR. (T-2) 
+4 
+AFI13-101  18 FEBRUARY 2025 
+Chapter 2 
+ROLES AND RESPONSIBILITES 
+2.1.  ACC C2ISR Division (ACC/A3C).  ACC/A3C is the executive agency for the United States 
+Air Force (USAF) Radar Evaluation Program. ACC/A3C will: 
+2.1.1.  Maintain the Department of Defense JSS and Air Force’s radar systems evaluation 
+capability. 
+2.1.2.  Support other service, DoD agency, government, or non-government organization 
+requests on a case-by-case basis.  Approval authority is ACC/A3CI.  ACC/A3CI will 
+coordinate all requests with DoD Long Range Radar Joint Program Office (ACC/A3AJ) and 
+ACC C2 Mission Systems Branch (ACC/A6OC). 
+2.1.3.  ACC will establish a periodic evaluation program for mobile ground-based radar 
+systems (e.g., AN/TPS-75).  This program will be tailored to mission requirements, detected 
+losses in system performance, and/or time since the last evaluation. 
+2.1.4.  ACC/A3C delegates ACC/A3CI authority for subject matter experts (SME) in the 
+management for this instruction. 
+2.2.  ACC Combat Integration Branch.  ACC/A3CI is responsible for C2 systems integrations. 
+ACC/A3CI will: 
+2.2.1.  Coordinate any changes to this publication with all office of collateral responsibility 
+(OCRs) listed below: 
+2.2.1.1.  ACC/A3AJ Long Range Radar Joint Program Office (JPO). 
+2.2.1.2.  ACC/A6OC Command and Control (C2) Mission System Branch (ACC/A6OC). 
+2.2.1.3.  Pacific Air Forces (PACAF)/A3/6 
+2.2.1.4.  United 
+States 
+Air 
+Force—Air 
+Forces 
+Europe/Africa 
+(USAFE-
+AFAFRICA)/A3CO. 
+2.2.1.5.  National Guard Bureau (NGB)/Air National Guard Operations (A3/10) 
+2.2.1.6.  Air Forces Central Command current of operations (AFCENT/A3C) 
+2.2.2.  Review all requirements for 84 Radar Evaluation Squadron (84 RADES) support with 
+ACC/A3AJ and ACC/A6OC.  Note:  Radar systems that feed data into the North American 
+Aerospace 
+Defense 
+Command 
+(NORAD)/United 
+States 
+Northern 
+Command 
+(USNORTHCOM) enterprise will receive top priority over all other requirements. 
+2.2.3.  Be the tasking authority for 84 RADES evaluation activity and will coordinate the 
+evaluation schedule with ACC/A3AJ and ACC/A6OC. 
+2.3.  Air Combat Command (ACC).  As the combat air forces lead command, ACC is 
+responsible for funding evaluations and evaluation support requirements to support fleet-wide 
+program acquisition and modernization efforts. 
+ 
+AFI13-101  18 FEBRUARY 2025 
+5 
+2.4.  ACC Resources and Budget (ACC/FM).  ACC/FM will ensure funding is provided to 
+support state-of-the-art radar evaluation technology, evaluations of proposed systems in the design 
+review phase of acquisition, the maintenance/sustainment/improvement of radar evaluation 
+networks, and other support requirements set by the SMEs. 
+2.5.  Program Element Monitors (PEMs).  PEMs for ground-based radar systems will ensure 
+fleet-wide modification programs include funding to support necessary evaluations by the 84 
+RADES. 
+2.6.  Air Force Personnel Center (AFPC).  Due to the unique mission, specialized equipment, 
+and specialized training required at the 84 RADES, AFPC will normally limit 84 RADES enlisted 
+assignments to personnel who hold 7-level skill qualifications.  Guidance to ensure an assignment 
+availability code is annotated by the 84 RADES commander (84 RADES/CC) is provided in the 
+ACC stabilized tour guides.  ACC will ensure all positions defined by requirements set by the Air 
+Force Manpower Analysis Agency (AFMAA) and their operational maturity model (OMM) are 
+funded positions. 
+2.7.  Major Commands (MAJCOMs).  MAJCOMs operating ground-based surveillance radars, 
+sensors and C2 systems will: 
+2.7.1.  Program funds for the 84 RADES evaluation of systems under the MAJCOM 
+commander’s operational control and related flight support. 
+2.7.2.  Provide flight support for evaluating command fixed, tethered and mobile radars, 
+sensors and C2 systems. 
+2.7.3.  Request services for baseline, special, and system radar evaluations according to 
+Chapter 5. 
+2.7.4.  When a fixed radar system is not being evaluated using 84 RADES automated remote 
+recording and monitoring equipment, the using command must maintain a periodic radar 
+evaluation program. 
+2.8.  The 84 Radar Evaluation Squadron (RADES).  84 RADES is ACC’s SME for the 
+planning, development, testing and implementation of ground-based radar, sensors, C2 systems 
+and related matters. 84 RADES will: 
+2.8.1.  Conduct baseline, special, system evaluations and continuous performance monitoring 
+and evaluation for ground-based surveillance radars, sensors and C2 systems. 
+2.8.2.  Conduct radar site surveys, radar site analysis, and produce radar coverage products. 
+2.8.3.  Conduct interference and obstruction analysis (e.g.,) man-made structures within 
+system’s line of sight) for ground-based radars and sensors for NORAD/NORTHCOM (N-
+NC) or as tasked by ACC/A3CI. 
+2.8.4.  Extract relevant obstruction projects from the federal aviation administration (FAA) 
+obstruction evaluation and airport airspace analysis system and conduct a technical analysis of 
+the impact of obstructions within radar line of sight on the performance of long range and 
+short-range radars/sensors used for N-NC missions. 
+2.8.5.  Conduct analysis evaluations that include assessments of proposed and existing 
+obstructions (such as a building or wind turbine farm) on the performance of the radar as well 
+as determine the cumulative impact of the existing interference.  The initial technical analysis 
+6 
+AFI13-101  18 FEBRUARY 2025 
+reports will be forwarded to N-NC and ACC/A3AJ for further action if the obstruction impacts 
+the radar’s performance. 
+2.8.6.  Provide analysis products that will use a combination of radar, atmospheric, 
+terrain/screening, and other supplementary data sets to provide a comprehensive product to 
+DoD or other government agencies supporting track-of-interest, event analysis, aircraft 
+accident investigations, search and rescue missions, and test and evaluation of ground-based 
+radars and C2 sensors. 
+2.8.7.  Support recorded radar/sensor data requests IAW Chapter 5. 
+2.8.8.  Establish and maintain operating locations (OLs) at each of the N-NC ADS.  OLs will 
+confirm data integrity of radar and C2 sensors feeding the C2 systems or prior to introduction 
+to N-NC enterprise; collects and analyzes radar and sensor performance data; and provides 
+radar forensics in support of ADS missions. OLs will provide support to the ADS through 
+foreign entity incursion and high priority event reconstructions, radar/sensor integration 
+recommendations for priority airspace events, crew positional training on RADES equipment 
+& software. 
+2.8.9.  Maintain the capability to deploy survey and evaluation teams worldwide in support of 
+contingency operations. 
+2.8.10.  Develop and acquire specialized tools necessary to complete C2 system, radar and 
+sensor evaluation missions. 
+2.8.11.  Develop and maintain mission-specific infrastructure, including networks and 
+information systems, at the appropriate classification level to support the software and 
+hardware tools used in the radar, sensor, and C2 system evaluation mission. 
+2.8.12.  Develop and maintain RADES Software (RS4) along with future RADES software 
+versions, distributed radar analysis and monitoring software (DRAMS), and other software 
+required to accomplish the squadron’s mission. 
+2.8.13.  Develop, maintain, and obtain an authority to operate (ATO) for special purpose 
+networks, datacenters, and systems required to develop and operate mission-specific software 
+and hardware at an operating classification level appropriate for the systems being evaluated. 
+2.8.14.  Support approved agencies/units with RADESNet/special purpose advanced radar test 
+and analysis (SPARTA) access, equipment, and training. Some units will not have full 
+RADESNet/SPARTA access, instead they will have stand-alone radar data interface system 
+(RDIS) equipment for radar evaluation and monitoring within their own networks. 
+AFI13-101  18 FEBRUARY 2025 
+7 
+Chapter 3 
+RADAR EVALUATION 
+3.1.  Baseline Evaluation.  This evaluation is performed to: 
+3.1.1.  Determine optimum configuration of adjustable and selectable features (software and 
+hardware), capabilities and limitations, and airspace coverage.  It is tailored to individual radar 
+sites and missions and includes effects of weather and terrain on detection and tracking 
+performance.  Dedicated flights may be required to make this assessment. 
+3.1.2.  Provide a performance database and determine operational parameters and airspace 
+coverage for inclusion in the 84 RADES electronic monitoring evaluation system. 
+3.2.  Special Evaluation.  This evaluation is performed to: 
+3.2.1.  Assist an operating organization in isolating the causes of substandard performance. 
+3.2.2.  Determine the effects of proposed and existing modifications on the operational 
+capability and recommended configuration. 
+3.2.3.  Determine the best site location or positioning of a radar and the optimum setting of 
+adjustable features for use under varying conditions. 
+3.2.4.  Determine the effects of proposed and existing structures within the radar line-of-sight 
+on the operational capability and recommended configuration. 
+3.3.  System Evaluation.  This evaluation determines how well multiple sensors integrate into a 
+central facility or system to include assessment of the radar inputs processing portion of the central 
+system, such as radar message handling, tracker, and display functionality. 
+3.4.  Continuous Performance Monitoring and Evaluation.  This type of evaluation is a 
+continuous near real-time evaluation process performed on previously baselined radars.  The data 
+collected during the baseline evaluation is used for initial pass/fail criteria and establishes a 
+baseline for performance for each individual radar system.  This evaluation is performed to: 
+3.4.1.  Continuously monitor/assess radar performance based on short-term and long-term 
+trends. 
+3.4.2.  Continuously monitor radar data quality. 
+3.4.3.  Detect radar performance deviations from established standards. 
+3.4.4.  Alert users of system effectiveness and deterioration in detection capability. 
+3.4.5.  Allow for corrective action to be affected before complete system failure. 
+3.5.  Remote Evaluations.  This type of evaluation uses recorded or live data feeds to perform a 
+radar or C2 sensor system evaluation.  It supplements the on-site evaluation through the use of 
+available radar data feeds and specialized software to provide an in-depth look at a particular 
+system’s performance.  This type of evaluation may fulfill the requirements of a re-baseline, 
+special or system evaluation when conditions and/or equipment cannot support an on-site 
+evaluation. 
+3.6.  Baseline and Re-baseline.  An initial baseline evaluation is required as soon as possible after 
+a unit or agency completes installation acceptance testing and resolves major exceptions.  The 
+8 
+AFI13-101  18 FEBRUARY 2025 
+radar should be operationally stable and properly connected to the C2 enterprise.  A baseline 
+evaluation and integration to the C2 enterprise is required before the radar is fully mission capable.  
+Mobile radar systems may require a baseline evaluation if their deployed location becomes fixed. 
+3.6.1.  Re-baseline and integration into the C2 system is necessary following major repairs, 
+major modifications, or permanent radar relocation or as specified in Air Force Manual 
+(AFMAN) 11-225 IP, United States Standard Flight Inspection Manual. 
+3.6.2.  A baseline evaluation, conducted in conjunction with the FAA is required before the 
+commission of radars in the JSS and/or the integration of air defense ground-based radars into 
+the National Airspace System. 
+3.6.3.  The 84 RADES will monitor performance of previously baselined fixed radars on a 
+continuous basis, and they will perform a special evaluation when degradation is indicated 
+either remotely or in-person at the radar site. (T-2) 
+3.6.4.  Each established (in-place) radar or sensor system should receive an evaluation within 
+8 years, if possible, to assure sustained and optimal performance, as well as to validate the 
+site’s environmental impacts on the system. 
+AFI13-101  18 FEBRUARY 2025 
+9 
+Chapter 4 
+NEW SYSTEM FIELDING 
+4.1.  Engineering Support.  The 84 RADES will provide engineering level SMEs during the 
+developmental testing (DT)/operational testing (OT) phases of radar acquisition and fielding and 
+will evaluate new radar and C2 systems prior to integration into the C2 enterprise when verification 
+services are requested by N-NC, other combatant commands, or allied countries and approved by 
+ACC/A3CI. (T-2) 
+4.2.  Test Agency Support.  The 84 RADES supports test agencies/units by providing radar SMEs 
+to support their tests. The 84 RADES is not a test organization. The following units are regularly 
+supported by the 84 RADES: 
+4.2.1.  46th Test Squadron (46 TS) for DT. 
+4.2.2.  605th Test and Evaluation Squadron (605 TES) for OT. 
+4.2.3.  Air Force Operational Test & Evaluation Center (AFOTEC) for OT. 
+4.2.4.  FAA Technical Operations, Air Traffic Organization (FAA AJW) DT and OT events 
+for new radars. 
+10 
+AFI13-101  18 FEBRUARY 2025 
+Chapter 5 
+SUPPORT REQUESTS 
+5.1.  Requests.  All requests for support from the 84 RADES will be submitted to ACC/A3CI.  (T-
+2) Their email address is ACCA3YICombat@us.af.mil.  ACC/A3CI will coordinate all requests 
+with ACC/A3AJ and ACC/A6OC. (T-2)  All requests are to be considered on a case-by-case basis 
+with priority given to support N-NC missions.  Other priorities are to be Air Force, other service 
+or DoD agency, other government agency, or non-government agency, in that order.  
+Prioritizations for requests are: 
+5.1.1.  Priority 1: Operational systems (inoperable). 
+5.1.2.  Priority 2: Operational system (degraded). 
+5.1.3.  Priority 3: New program. 
+5.1.4.  Priority 4: Operational system. 
+5.1.5.  Priority 5: All others. 
+5.2.  Classification Guidance.  Classification will be IAW classification guides, such as 
+Sensor/Radar Program Security Classification Guides and Sensor/Radars Security Classification 
+References. The release authority for 84 RADES coverage products, evaluation reports, data 
+analysis studies and other 84 RADES generated artifacts will be the 84 RADES/CC. 
+5.3.  Recorded Radar/Sensor Data Requests.  The 84 RADES supports requests for recorded 
+radar/sensor data for use with test and evaluation, safety investigations or other specified situations 
+to DoD or other government agencies as required. Request for release of any recorded radar data 
+must be approved through ACC/A3AJ. (T-2) 
+5.3.1.  ACC/A3AJ will maintain a historical archive of recorded sensors. The historical archive 
+will include sensor data for not less than the previous seven years. (T-2) 
+5.3.2.  Analysis products will include track-of-interest, event analysis, aircraft accident 
+investigations, search and rescue missions for operating locations, safety centers and other 
+government agencies. (T-2) 
+5.4.  Radar Evaluation/Site Survey Requests.  All radar evaluation/site survey requests will, as 
+a minimum, contain the following information: 
+5.4.1.  Purpose.  Define problems and state the reason for the request. (T-2) 
+5.4.2.  Location. (T-2) 
+5.4.3.  Type of radar or C2 system and associated equipment to be evaluated. (T-2) 
+5.4.4.  Desired date for support. (T-2) 
+5.4.5.  Mission impact if the evaluation is not performed by the desired date. (T-2) 
+5.4.6.  Special items of concern and other pertinent information. (T-2) 
+5.4.7.  Points of contact. (T-2) 
+AFI13-101  18 FEBRUARY 2025 
+11 
+5.4.8.  Funding source to conduct requested support.  After being tasked, 84 RADES contacts 
+the requesting unit to provide a cost estimate and to secure a fund cite.  If applicable, include 
+funds for dedicated flights if requestor is not providing aircraft. (T-2) 
+5.5.  Engineering Support/Test Requests.  All engineering support requests, including C2 
+testing, recorded radar data, live data feeds, network connectivity issues, and software support will, 
+as a minimum, contain the following information: 
+5.5.1.  Purpose.  Define problems and state the reason for the request. (T-2) 
+5.5.2.  Requesting agency and organization. (T-2) 
+5.5.3.  Desired date for support. (T-2) 
+5.5.4.  Mission impact if the evaluation is not performed by the desired date. (T-2) 
+5.5.5.  Special items of concern and other pertinent information. (T-2) 
+5.5.6.  Points of contact. (T-2) 
+5.5.7.  Testing requests (OT, DT, research and development, analysis, etc.). 
+5.5.8.  C2 system to be tested. (T-2) 
+5.5.9.  Dates and location of testing. (T-2) 
+5.5.10.  Listing of testing requirements. (T-2) 
+5.6.  Recorded Data Requests.  (e.g., National Transportation Safety Board Investigations, Air 
+Force Safety Center investigations, legal request, obstruction analysis). All recorded data requests 
+will, as a minimum, contain the following: 
+5.6.1.  Start and stop date/time of requested data. 
+5.6.2.  Release authorization by data owner(s).  Request for release of any recorded radar data 
+must be approved through ACC/A3AJ.  If authorization has not been granted, coordinate with 
+the 84 RADES to assist in identifying the proper release authority/data owner. 
+5.6.3.  Area of interest (including top left and lower right coordinates, or center point and 
+radius of the area of interest).  Alternatively, the customer can provide a list of all radar sites 
+to be included. 
+5.7.  Software support requests:  All recorded data requests will, as a minimum, contain the 
+following: 
+5.7.1.  Software title requested. 
+5.7.2.  Description of support required. 
+5.7.3.  Email address for software delivery. 
+ 
+5.8.  Track of Interest, Event Analysis and Radar Data Reduction Request.  All tracks of 
+interest, event analysis and radar data reduction requests will contain the following information as 
+known: 
+5.8.1.  Description of the needed reduction including special items of concern and other 
+pertinent information. (T-2) 
+12 
+AFI13-101  18 FEBRUARY 2025 
+5.8.2.  Incident class (A-F or none). (T-2) (If unknown, coordinate with 84 RADES) 
+5.8.3.  Priority (High/Med/Low). (T-2) (If unknown, coordinate with 84 RADES) 
+5.8.4.  Requesting agency and organization. (T-2) 
+5.8.5.  Desired completion date. (T-2) 
+5.8.6.  Mission impact if the evaluation is not performed by the desired date. (T-2) 
+5.8.7.  Points of contact name, organization/office symbol, phone number, and email. (T-2) 
+5.8.8.  Product routing information to include name, organization/office symbol, phone 
+number, and email. (T-2) 
+5.8.9.  Incident details for each aircraft will include: 
+5.8.9.1.  Aircraft type. (T-2) 
+5.8.9.2.  Incident date. (T-2) 
+5.8.9.3.  Start time (Z) and stop time (Z). (T-2) 
+5.8.9.4.  Modes and codes and other broadcast identification if available. (T-2) 
+5.8.9.5.  Latitude and longitude. (T-2) 
+5.8.9.6.  Heading. (T-2) 
+5.8.9.7.  Tail number. (T-2) 
+5.8.9.8.  Departure airport. (T-2) 
+5.8.9.9.  Arrival time. (T-2) 
+ 
+ADRIAN L. SPAIN, Lt Gen, USAF 
+Deputy Chief of Staff, Operations 
+AFI13-101  18 FEBRUARY 2025 
+13 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+Air Force Instructions (AFI) 33-322, Records Management and Information Governance 
+Program, 23 March 2020 
+Air Force Manual (AFMAN) 11-225_IP, United States Standard Flight Inspection Manual, 1 
+April 2015 
+Air Force Policy Directive (DAFPD) 13-1, Command and Control (C2) Enterprise, 22 April 
+2021 
+Department of Air Force Manual (DAFMAN) 90-161, Publications Processes and Procedures, 
+18 October 2023 
+Department of Defense Directive (DODD) 5400.11, DoD Privacy and Civil Liberties Programs, 
+29 January 2019 
+System of Records Notices F011 AF XO A, Aviation Resource Management System (ARMS), 4 
+March 2011 
+Prescribed Forms 
+None 
+Adopted Forms 
+Department of Air Force (DAF) Form 673 Publication/Form Action Request 
+Department of Air force (DAF) Form 847 Recommendation for Change of Publication 
+Abbreviations and Acronyms 
+84 RADES—84 Radar Evaluation Squadron 
+ACC—Air Combat Command 
+ADS—Air Defense Sector 
+AEWS—Atmospheric Early Warning System 
+AFCENT—Air Forces Central Command 
+AFI—Air Force Instruction 
+AFMAA—Air Force Manpower Analysis Agency 
+AFMAN—Air Force Manual 
+AFOTEC—Air Force Operational Test & Evaluation Center 
+AFPC—Air Force Personnel Center 
+AFRIMS—Air Force Records Information Management System 
+14 
+AFI13-101  18 FEBRUARY 2025 
+AJW—Technical Operation Services (Federal Aviation Administration Technical Operation 
+Services) 
+ARMS—Aviation Resource Management System 
+ATO—authorization to operate 
+BCC—battle control center 
+C2—command and control 
+C2ISR—command and control, intelligence, surveillance, reconnaissance 
+CBC2—cloud based command and control 
+CRC—control and reporting center 
+DAF—Department of Air Force 
+DAFMAN—Department of Air Force Manual 
+DAFPD—Department of the Air Force Policy Directive 
+DoD—Department of Defense 
+DoDI—Department of Defense Instruction 
+DRAMS—distributed radar analysis and monitoring software 
+DT—developmental testing 
+FAA—Federal Aviation Administration 
+IAW—in accordance with 
+JSS—joint surveillance system 
+MAJCOM—major command 
+NCR-IADS—National Capital Region-Integrated Air Defense System 
+NGB—National Guard Bureau 
+N-NC—NORAD/NORTHCOM 
+NORAD—North American Aerospace Defense Command 
+NORTHCOM—Northern Command 
+NWS—north warning system 
+OCR—office of collateral responsibility 
+OL—operating location 
+OMM—operational maturity model 
+OPR—office of primary responsibility 
+OT—operational testing 
+PACAF—Pacific Air Forces 
+PEM—Program Element Monitor 
+AFI13-101  18 FEBRUARY 2025 
+15 
+RDIS—rada data interface system 
+RDS—records disposition schedule 
+SME—subject matter expert 
+SORN—system of records notices 
+SPARTA—special purpose advanced radar test and analysis 
+TARS—Tethered Aerostat Radar System 
+TES—test and evaluation squadron 
+TOC—tactical operations center 
+TS—test squadron 
+USAF—United States Air Force 
+USAFE-AFAFRICA—United States Air Forces in Europe/Air Forces Africa 
+WAS—wide area surveillance 
+Office Symbols 
+84 RADES/CC—84th Radar Evaluation Squadron Commander 
+ACC/A3—ACC Director of Operations 
+ACC/A3AJ—ACC Long Range Radar Joint Program Office 
+ACC/A3C—ACC Command, Control, Intelligence, Surveillance, and Reconnaissance Operations 
+Division 
+ACC/A3CI—ACC Combat Integration Branch 
+ACC/A6OC—ACC C2 Mission Systems Branch 
+ACC/FM—ACC Resources and Budget 
+AF/A3T—Air Force All Domain Command and Control Operations 
+AF/A3TE—Air Force Exercises and Training Division 
+AFCENT/A3C—Air Force Central Command Current Operations 
+FAA AJW—Federal Aviation Administration Technical Operations Services, Air Traffic 
+Organization 
+PACAF/A3/6—Pacific Air Forces Air and Cyberspace Operations 
+NGB/A3/10—Air National Guard Operations 
+NGB/A3C—Air National Guard C2ISR & Airfield Operations 
+USAFE-AFAFRICA/A3/10—United States Air Forces in Europe-Air Forces Africia Director of 
+Operations, Strategic Deterrence and Nuclear Integration 
+ 

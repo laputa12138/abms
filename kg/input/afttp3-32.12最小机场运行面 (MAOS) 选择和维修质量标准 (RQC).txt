@@ -1,0 +1,2695 @@
+DRAFT — NOT FOR IMPLEMENTATION OR COMPLIANCE 
+AFTTP 3-32.34V1, 30 May 2016 
+0 
+ 
+ 
+ 
+MINIMUM AIRFIELD OPERATING 
+SURFACE (MAOS) SELECTION 
+AND REPAIR QUALITY 
+CRITERIA (RQC) 
+          
+ 
+ 
+ 
+         AIR FORCE TACTICS, TECHNIQUES, 
+     AND PROCEDURES 3-32.12 
+ 
+3 MAY 2024 
+DEPARTMENT OF THE AIR FORCE 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This page intentionally left blank. 
+ 
+ 
+ 
+ 
+BY ORDER OF THE 
+ 
+   AIR FORCE TACTICS, TECHNIQUES, 
+SECRETARY OF THE AIR FORCE                   AND PROCEDURES 3-32.12 
+ 
+3 MAY 2024 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Tactical Doctrine 
+ 
+MINIMUM AIRFIELD OPERATING SURFACE (MAOS) 
+SELECTION AND REPAIR QUALITY CRITERIA (RQC) 
+ACCESSIBILITY: This publication is available for downloading or ordering 
+on the e-Publishing website at www.e-Publishing.af.mil. 
+RELEASABILITY: There are no releasability restrictions on this publication. 
+OPR: AF/A4CX  
+ 
+ 
+ 
+        Certified by: AF/A4C 
+ 
+Supersedes: AFTTP 3-32.12, 28 March 2016 
+ 
+           Pages: 135 
+This publication supports Air Force Instruction (AFI) 10-210, Prime Base 
+Engineer Emergency Force (BEEF) Program, Air Force Pamphlet (AFPAM) 10-
+219, Volume 4, Airfield Damage Repair Operations, and Air Force Doctrine 
+Publication 3-34, Engineer Operations. It provides tactics, techniques and 
+procedures (TTP) to accurately and expeditiously select minimum airfield 
+operating surfaces (MAOS) and determine repair quality criteria (RQC) 
+immediately after an attack. This publication applies to all Department of the Air 
+Force (DAF) civilian employees and uniformed members of the Regular Air 
+Force, the Air Force Reserve, and the Air National Guard civil engineer units. 
+This publication does not apply to the United States Space Force. Refer 
+recommended changes and questions about this publication to the Office of 
+Primary Responsibility (OPR) using the DAF Form 847, Recommendation for 
+Change of Publication; route DAF Forms 847 from the field through the 
+appropriate functional chain of command and Major Command publications/ 
+forms managers. Ensure all records generated as a result of processes prescribed 
+in this publication adhere to AFI 33-322, Records Management and Information 
+Governance Program, and are disposed in accordance with the Air Force Records 
+ 
+AFTTP3-32.12  3 MAY 2024 
+2 
+ 
+Disposition Schedule, which is located in the Air Force Records Information 
+Management System The use of the name or mark of any specific manufacturer, 
+commercial product, commodity, or service in this publication does not imply 
+endorsement by the DAF. 
+ 
+SUMMARY OF CHANGES 
+This document has been substantially revised and must be completely reviewed. 
+In addition to  updating terminology and references, major changes includes the 
+introduction of the remote sensor damage assessment system and how it differs 
+from the manual method; identifies the differences between the MAOS Selection 
+Team compositions when the manual and or remote sensor damage assessment 
+process is used; clarifies how the damage information and MAOS selections are 
+shared between multiple entities to provide redundancy/survivability of 
+information; examines patch numbering and patch spacing; and summarizes 
+Repair Quality Criteria (RQC) for the entire Minimum Operating Strip (MOS). 
+ 
+APPLICATION: This publication is intended for Prime Base Engineer 
+Emergency Force (BEEF) and RED HORSE engineers performing MAOS and 
+RQC immediately after an attack. This document is authoritative but not directive 
+and does not replace mandatory compliance requirements in applicable Air Force 
+Instructions (AFI) or other directive publications. If the TTPs found in this 
+publication conflict with other nondirective publications, contact the AFCEC 
+Reachback Center or CE Dash (with contact info) for resolution. Contact the 
+Reachback Center at 850-283-6995, Toll Free at 888-232-3721, Defense 
+Switched Network 523-6995, or Email at AFCEC.RBC@us.af.mil. See 
+Attachment 4 for links to other engineer Reachback resources and useful sites. 
+ 
+SCOPE: This publication addresses techniques and procedures for selecting a 
+MAOS and determining RQC after an attack. It provides information for MAOS 
+selection using the Geospatial Expeditionary Planning Tool (GeoExPT). 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+3 
+ 
+Chapter 1—INTRODUCTION 
+6 
+1.1. Background ............................................................................... 6 
+1.2. Overview ................................................................................... 6 
+Chapter 2—CONCEPT OF OPERATIONS 
+8 
+2.1. Sequence of Events ................................................................... 8 
+2.2. Minimum Airfield Operating Surface Selection Team ............. 9 
+Table 2.1. Team Composition for Manual Damage Assessment ............. 10 
+Table 2.2. Team Composition per Each Ground Control Station ............ 12 
+2.3. Minimum Operating Strip (MOS) Selection Kit ..................... 13 
+Table 2.3. Minimum Airfield Operating Surface Selection Team 
+Supplies ................................................................................... 13 
+2.4. Minimum Airfield Operating Surface Characteristics ............ 13 
+Table 2.4. Minimum Operating Strip Launch or Recovery (LoR) 
+ Capability ............................................................................... 15 
+2.5. Pre-Attack Actions .................................................................. 15 
+Chapter 3—GEOSPATIAL EXPEDITIONARY PLANNING TOOL 
+  
+(GeoExPT) 
+17 
+3.1. Introduction ............................................................................. 17 
+3.2. Acquiring the GeoExPT Training Manual .............................. 17 
+Chapter 4—LEGACY (MANUAL) MINIMUM AIRFIELD 
+OPERATING SURFACE (MAOS) SELECTION 
+18 
+4.1. Purpose ................................................................................... 18 
+4.2. Chart Description .................................................................... 18 
+Figure 4.1. Sample Repair Quality Criteria (RQC) Chart ......................... 18 
+4.3. Assumptions ............................................................................ 19 
+ 
+AFTTP3-32.12  3 MAY 2024 
+4 
+ 
+4.4. Step-by-Step Directions for Determining Minimum Operating 
+Strip (MOS) Lengths .............................................................. 20 
+Table 4.1. Instructional Guidelines for Determining Minimum Operating 
+ Strip (MOS) Lengths .............................................................. 20 
+Figure 4.2. Example Density Ratio Table ................................................. 24 
+Table 4.2. Repair Quality Criteria (RQC) Chart/Figure Number ............. 25 
+Figure 4.3. Worksheet 1 Example ............................................................. 29 
+Figure 4.4. Determining Operational Lengths........................................... 30 
+Figure 4.5. Operational Lengths Entered on Worksheet 1 ........................ 31 
+Figure 4.6. Determining Arrested Landing Operational Length ............... 32 
+Figure 4.7. Determining Takeoff Operational Length. .............................. 33 
+Table 4.3. Minimum Airfield Operating Surface (MAOS) Attributes. .... 34 
+Figure 4.8. Takeoff or Landing (ToL) Map. ............................................. 36 
+Table 4.4. Minimum Operating Strip (MOS) Designation Identifier  
+ Explained (BM4000R50F9000R50W50). .............................. 36 
+Figure 4.9. Worksheet 2 Example. ............................................................ 38 
+Figure 4.10. Finding Uncorrected Repair Quality Criteria on Chart D1. .. 39 
+Figure 4.11. Repair Quality Criteria Values Recorded on Worksheet 2 ... 41 
+Figure 4.12. Repair Quality Criteria Summary (Worksheet 3). ................ 43 
+4.5. Presenting Minimum Airfield Operating Surface Candidates to  
+ Wing Commander and/or Designated Mission Commander .. 44 
+Figure 4.13. Summary Repair Quality Criteria (RQC) Presentation 
+ Format. ................................................................................. 45 
+Attachment 1—GLOSSARY OF REFERENCES AND 
+ 
+SUPPORTING INFORMATION 
+46 
+ 
+AFTTP3-32.12  3 MAY 2024 
+5 
+ 
+Attachment 2—BLANK FORMS FOR REPRODUCTION 
+52 
+Attachment 3—AIRCRAFT MINIMUM OPERATING STRIP (MOS) 
+ 
+REQUIREMENT CHARTS 
+56 
+Attachment 4—ENGINEER REACHBACK AND OTHER USEFUL 
+ 
+LINKS 
+133 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+6 
+ 
+Chapter 1 
+ 
+INTRODUCTION 
+ 
+1.1. Background. A wing commander’s or designated mission commander’s 
+number one priority after an attack may be to launch and recover mission aircraft. 
+However, if the takeoff or landing (ToL) surface is damaged during the attack, 
+repairs are likely required before launching and recovering aircraft. In most 
+instances, repairing the entire airfield is not an option; it would take too long to 
+meet the commander’s air tasking order (ATO). Initially, only repairing the 
+minimum pavement necessary to launch and recover aircraft expedites the 
+reopening of the airfield. 
+ 
+1.1.1. Engineers, with close coordination from Airfield Management, must 
+recommend the most appropriate airfield surfaces to repair—those that require the 
+least repair time, including unexploded explosive ordnance (UXO) mitigation, but 
+still provide adequate launch or recovery (LoR) surfaces for mission aircraft. The 
+ToL surface selected for repair is called the minimum operating strip (MOS). The 
+MOS is the area where aircraft actually takeoff or land and its dimensions are 
+determined by the installation Crisis Action Team (CAT). The MOS dimensions 
+vary with aircraft type, operation, and weights, as well as environmental 
+conditions. 
+ 
+1.1.2. A suitable MOS cannot be selected without a full appreciation of the 
+damage throughout the entire airfield. For example, if an ideal MOS is identified 
+that involves minimum repair effort, finding acceptable access routes from aircraft 
+parking areas to the MOS must also be considered. These combined surfaces 
+(MOS, minimum taxiways, and minimum aircraft parking areas) are known as the 
+minimum airfield operating surface (MAOS). 
+ 
+1.2. Overview. This publication serves as a guide to select suitable MAOS 
+candidates. It explains the MAOS selection process, to include concept of 
+operations, team organization and resources, sequence of the selection steps, 
+characteristics of a good MOS, and determining Repair Quality Criteria (RQC). 
+An illustrated example of MOS selection is also presented. Note: RQC 
+ 
+AFTTP3-32.12  3 MAY 2024 
+7 
+ 
+calculations are only required for legacy repair methods (e.g., crushed stone with 
+or without foreign object debris (FOD) cover). The new rapid airfield damage 
+recovery (RADR) capping methods (e.g., rapid-setting concrete or asphalt) are 
+considered semi-permanent repairs and repaired flush with the surrounding 
+pavement. 
+ 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+8 
+ 
+Chapter 2 
+ 
+CONCEPT OF OPERATIONS 
+ 
+2.1. Sequence of Events. Before repairs begin, airfield damage must be assessed, 
+reported, and plotted; a MAOS selected; and explosive hazards mitigated and 
+removed. 
+ 
+2.1.1. Damage Assessment. Airfield Damage Assessment Teams (ADATs), 
+described in AFTTP 3-32.11, Airfield Damage Assessment after Attack, and/or 
+remote sensors provide information about the type, size, and location of damage 
+and explosive hazards on the airfield surfaces to MAOS selection personnel. The 
+CAT provides additional information on operational requirements and expected 
+operating conditions following the attack. 
+ 
+2.1.1.1. Depending on the localized threat, some bases will be outfitted with 
+remote sensors able to detect airfield damage and explosive hazards. The remote 
+sensors expedite the assessment process and removes Airmen from the explosive 
+hazard environment. 
+ 
+2.1.1.2. Manual damage assessment is performed by ADATs at installations 
+where remote sensors are not available. 
+ 
+2.1.2. MAOS Selection. Using information provided by the CAT and manual 
+assessment process with ADATs, the MAOS Selection Team’s goal is to identify 
+potential MAOS candidates as soon as possible. Where remote sensors are 
+utilized, the goal is to identify potential MAOS candidates within 30 minutes after 
+damage assessment begins. Once the MAOS candidates are identified, the MAOS 
+Selection Team briefs the MAOS candidates to the wing commander and/or 
+designated mission commander. The commander selects the most desirable 
+candidate to meet the ATO. 
+ 
+2.1.3. Explosive Hazard Mitigation. Once the MAOS is selected, Explosive 
+Ordnance Disposal (EOD) operators begin mitigating explosive hazards by 
+rendering safe and/or removing UXO impacting MAOS recovery (as described in 
+ 
+AFTTP3-32.12  3 MAY 2024 
+9 
+ 
+AFTTP 3-32.5, Volume 6, Explosive Ordnance Disposal (EOD) Unexploded 
+Explosive Ordnance (UXO) Operations). 
+ 
+2.1.4. MAOS Repair. As EOD mitigates explosive hazards from repair areas and 
+provides minimum clear space, recovery teams begin pavement repairs, airfield 
+marking and striping, airfield lighting and aircraft arresting system installation, 
+and final sweeping of the MAOS. 
+ 
+2.1.5. Airfield Restrictions and Closures. Civil Engineers coordinate with the 
+Airfield Manager or designated representative through all phases of the repair 
+process (i.e. pre-, ongoing, and post-) to ensure appropriate airfield restrictions 
+and/or closures are imposed and applicable Notice to Air Mission (NOTAMs) 
+issued. 
+ 
+2.2. Minimum Airfield Operating Surface Selection Team. The MAOS 
+Selection Team utilizes damage and explosive hazard data received from ADATs 
+and/or remote sensors, and pertinent operational information received from the 
+CAT (e.g., expected weather conditions, runway conditions, aircraft loads, 
+minimum MOS width, lighting and arresting system requirements) to identify 
+acceptable MAOS candidates. 
+ 
+2.2.1. Deliverable. Airfield damage and explosive hazard data received from 
+remote sensors or ADATs are entered into GeoExPT, or manually plotted on the 
+MOS selection map when GeoExPT is unavailable. The back-up MAOS Selection 
+Team, typically in the Civil Engineer Unit Control Center (CE-UCC), performs 
+the same actions to ensure data is survivable if the primary Emergency Operations 
+Center (EOC) is destroyed during subsequent attacks. GeoExPT generates three 
+suggested MAOS candidates (verified by the selection team) or selected manually 
+by the MAOS Selection Team when GeoExPT is not available and are presented 
+to the wing commander and/or designated mission commander for final selection. 
+ 
+2.2.2. Location. The EOC and CE-UCC each have a MAOS selection team 
+assigned. Information regarding MAOS selection is promptly passed to the 
+Alternate EOC and Alternate CE-UCC. This provides redundancy for damage 
+ 
+AFTTP3-32.12  3 MAY 2024 
+10 
+ 
+recording, checks and balances on proposed MAOS candidates, and continuity of 
+operations in the event the Primary EOC and/or Primary CE-UCC is damaged. 
+ 
+2.2.3. Team Composition. The MAOS Selection Team composition depends upon 
+the damage assessment method used. 
+ 
+2.2.3.1. Manual Damage Assessment by ADATs. At a minimum, this MAOS 
+Selection Team is composed of two engineering technicians (AFSC 3E5X1) and 
+an augmentee (Table 2.1). The engineering technicians input data into GeoExPT 
+or plots damage on the airfield map, select at least three MAOS candidates, and 
+brief the wing commander and/or designated mission commander on the 
+candidates. The augmentee receives data from the ADATs via radio and records 
+the data on worksheets. 
+ 
+2.2.3.1.1. An EOD representative (AFSC 3E8X1) in the EOC may support the 
+MAOS Selection Team by receiving and recording EOD related data from the 
+ADATs. They also provide technical expertise on explosive hazard standoff 
+distances and estimate explosive hazard mitigation times. 
+ 
+Table 2.1. Team Composition for Manual Damage Assessment. 
+Position 
+AFSC 
+Responsibilities 
+Team Chief 
+3E551 
+- Oversee MAOS Selection activities 
+- Brief wing commander and/or designated 
+mission commander on MAOS candidates 
+Damage Plotter 
+3E5X1 
+- Plot damage and UXO data 
+- Select candidate MAOSs 
+- Calculate RQC 
+Radio Operator/ 
+Recorder 
+Any 
+- Receive/record damage and UXO data 
+- Track ADAT progress/movement 
+1EOD Technician 
+3E8X1 
+- Receive/record UXO damage 
+- Provide technical advice on UXO effects 
+- Track ADAT progress/movement 
+ 
+AFTTP3-32.12  3 MAY 2024 
+11 
+ 
+Position 
+AFSC 
+Responsibilities 
+2Airfield 
+Management 
+Representative 
+1C7XX 
+- Provide technical advice on aircraft 
+characteristics 
+- Provide technical input regarding mission 
+aircraft performance characteristics 
+- Coordinates airfield restrictions and/or 
+closures with Airfield Management 
+Operations 
+- Provide technical advice on priority of 
+pavement repairs in order to expedite 
+takeoffs and landings 
+1Member of EOC staff (Emergency Support Function-5) 
+2If vacant, required information is requested from the CAT 
+ 
+2.2.3.1.2. Installations often support a variety of aircraft with different MAOS 
+requirements which must be considered during MAOS selection. Therefore, 
+coordinate MAOS candidates with an Airfield Management representative, who 
+understands aircraft characteristics and airfield design criteria, prior to briefing 
+the candidates to the wing commander and/or designated mission commander. 
+ 
+2.2.3.2. Damage Assessment via Remote Sensors. This MAOS Selection Team 
+includes an engineering (3E5X1) and EOD technician (3E8X1) for each ground 
+control station receiving sensor data (Table 2.2). These individuals digitize and/or 
+verify actual damage and explosive hazards identified on the video within 
+GeoExPT. 
+ 
+2.2.3.3. The goal is to identify three potential MAOS candidates within 30 
+minutes after damage assessment begins. Once MAOS candidates are identified, 
+the Engineering Technician (3E5X1) transfers the GeoExPT MAOS Selection 
+Report from the Rapid Airfield Damage Assessment to a NIPR machine via 
+digital video disk. The information is passed to the EOC and alternate CE-UCC. 
+The MAOS Selection Team in the EOC briefs the MAOS candidates to the wing 
+commander and/or designated mission commander. The commander selects the 
+most desirable candidate to meet the ATO. 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+12 
+ 
+Table 2.2. Team Composition per Each Ground Control Station. 
+Position 
+AFSC 
+Responsibilities 
+Engineering 
+Technician 
+3E5X1 
+- Oversee MAOS Selection activities 
+- Digitize data in GeoExPT 
+- Select candidate MAOSs 
+- Calculate RQC  
+- Brief wing commander and/or designated 
+mission commander on MAOS candidates 
+EOD 
+Technician 
+3E8X1 
+- Digitize data in GeoExPT 
+- Provide technical advice on UXO effects 
+Small 
+Unmanned 
+Aerial System 
+Operators  
+(x2)  
+Any 
+3EXXX 
+- Setup of all Small Unmanned Aerial System 
+components (aircraft & GCS) 
+- Programming flight plans for assessment runs 
+- All preflight actions (to include airspace 
+approval) 
+- All activities associated with flying (to include 
+user-level maintenance actions) 
+- Transferring data from aircraft to video 
+management system. 
+1Airfield 
+Management 
+Representative 
+1C7XX 
+- Provide technical advice on aircraft 
+characteristics, airfield planning, and design 
+criteria 
+- Coordinate airfield restrictions and/or closures 
+with Airfield Management Operations 
+- Provide technical advice on priority of 
+pavement repairs in order to expedite takeoffs 
+and landings 
+1If unavailable, required information is requested from the CAT 
+ 
+2.3. Minimum Operating Strip (MOS) Selection Kit. Engineers should posture 
+a MOS selection kit at installations with flying missions. At a minimum, the kit 
+should include items listed in Table 2.3. 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+13 
+ 
+Table 2.3. Minimum Airfield Operating Surface Selection Team Supplies. 
+Item 
+• 
+Laptop Computer w/GeoExPT software loaded 
+• 
+Transparent MOS overlay and crater templates (e.g., clear acetate, 
+Plexiglas, etc.) 
+• 
+Plotting board 
+• 
+Critical resource charts 
+• 
+Straight edge, engineer scale, and transparent circle templates with 
+decimal units matching the airfield map scale 
+• 
+AFTTP 3-32.12 
+• 
+Dry erase markers, pens, and pencils 
+• 
+Damage reporting and recording forms 
+• 
+Base grid map – 1:4800 (1-inch = 400-foot) scale  
+• 
+Airfield map1 – 1:1200 (1-inch = 100-foot) scale with Pavement 
+Reference Marking System (ToL map) 
+• 
+Airfield Suitability Analysis (See AMCI 11-211, Destination Airfield 
+Suitability Analysis) 
+• 
+Applicable Air Tasking Orders or sortie requirements 
+• 
+Base Support Plan 
+Note 1: Ideally, the runway portion of the airfield map should be lightly 
+partitioned in 10-foot increments to ease and expedite plotting. 
+ 
+2.4. Minimum Airfield Operating Surface Characteristics. Simply stated, the 
+goal of MAOS candidate selection is to locate the best available MOS that can be 
+repaired in the least amount of time. A good MOS has many characteristics, the 
+ranking of which will depend upon the situation at a particular installation. 
+Consequently, the MAOS selection process must be flexible to identify the best 
+option under a wide variety of circumstances. Generally, a good MAOS will allow 
+rapid restoration of launch and recovery capability. Crater repair is a lengthy 
+process; thus, it is important to initially repair no more damage than necessary. 
+That is why it is imperative to wait for completion of airfield damage assessment 
+ 
+AFTTP3-32.12  3 MAY 2024 
+14 
+ 
+before finalizing MAOS selection. The MAOS selection procedure is designed to 
+choose a takeoff and landing area that is comparatively low in crater and spall 
+damage. Repair time, therefore, is saved at the cost of initial delay caused by 
+accurately identifying and plotting damage and selecting a MOS. Selecting a 
+MAOS is a balance of identifying candidates with the least amount of damage, 
+maximum utilization of existing markings, lighting, and aircraft arresting systems, 
+and a high LoR rating. 
+ 
+2.4.1. Resource Limitations. A RADR team’s capability may be hampered by 
+resource shortages and equipment deficiencies. The MAOS selection team should 
+consider any noticeable limitations when determining candidates. As damage 
+reports are received, the selection team must make a conscious decision to monitor 
+airfield damage repair equipment and materials status during the MOS selection 
+process. Engineer personnel in the alternate EOC and CE-UCC should also 
+monitor equipment and material status as a crosscheck for accuracy. As airfield 
+damage assessment nears completion, a quick verification of equipment and 
+material between all control centers should be accomplished to ensure the most 
+current information is considered. 
+ 
+2.4.2. Sortie Capability. Aircraft should be able to get to and from the MOS 
+quickly. If a MAOS is selected without regard to sortie generation capability, 
+aircraft operations could be restricted after MOS repair. The LoR status of an 
+airfield measures sortie generation capability, independent of variables such as 
+mission time, aircraft attrition, and origin of aircraft (aircraft may launch at one 
+air base and be recovered at another). A few examples of how various restrictions 
+can reduce LoR capabilities are shown in Table 2.4. For example, a MOS with 
+two access taxiways that requires an aircraft to backtrack more than 2,000 feet 
+will have an LoR capability of only 50 percent. Additional explanations of other 
+common LoR restrictions are described below. 
+ 
+2.4.2.1. LoR Status. The LoR status of a MOS is the total number of launches and 
+recoveries the surface can handle per unit time compared to the number that could 
+be handled by the same undamaged airfield. An LoR status of 100 percent simply 
+means the MOS and its access route(s) are not restricting sortie capacity. Even if 
+its LoR status is substantially less than 100 percent, it does not necessarily mean 
+ 
+AFTTP3-32.12  3 MAY 2024 
+15 
+ 
+that the MOS is limiting sortie capability. Normal operations may not use the 
+entire capability, and other factors in the base status after an attack may be even 
+more limiting. 
+ 
+2.4.2.2. MOS Location. A MOS may be located on the main runway parallel to 
+the centerline, on a parallel taxiway, or even on an alternate LoR surface on or off 
+base that has the proper structural capacity. The MOS location affects LoR status 
+in various ways by limiting access and egress, by limiting air traffic control, or by 
+restricting the flight approach of aircraft. 
+ 
+Table 2.4. Minimum Operating Strip Launch or Recovery (LoR) Capability. 
+2 Access 
+Taxiways 
+One 
+Access 
+Taxiway 
+Taxi 
+Backtrack 
+> 1K Ft. 
+Taxi 
+Backtrack 
+> 2K Ft. 
+Arrestment 
+of Each 
+Aircraft 
+ATC Eqpt. 
+Not 
+Functional 
+Relative 
+LoR 
+Capability 
+X 
+ 
+ 
+ 
+ 
+ 
+100% 
+X 
+ 
+ 
+ 
+X 
+ 
+34% 
+X 
+ 
+ 
+ 
+X 
+X 
+25% 
+X 
+ 
+X 
+ 
+ 
+ 
+60% 
+X 
+ 
+ 
+X 
+ 
+ 
+50% 
+ 
+X 
+ 
+ 
+ 
+ 
+40% 
+ 
+X 
+ 
+ 
+X 
+ 
+27% 
+ 
+X 
+ 
+ 
+X 
+X 
+19% 
+ 
+2.5. Pre-Attack Actions. When an attack is imminent, the primary MAOS 
+Selection Team reports to the EOC, while the backup MAOS selection teams 
+report to the Alternate EOC, CE-UCC, and Alternate CE-UCC. The primary 
+MAOS Selection Team performs the following actions and passes information to 
+the backup MAOS Selection Teams: 
+ 
+2.5.1. If time permits, gather the following information and pass the information 
+to the backup MAOS Selection Teams. 
+2.5.1.1. Contact the Mission Director within the CAT for: 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+16 
+ 
+2.5.1.1.1. Expected mission aircraft operations (e.g., landing, takeoff, 
+evacuation). 
+ 
+2.5.1.1.2. Gross weights of mission aircraft expected to use the MOS. 
+ 
+2.5.1.1.3. Uni-directional or bi-directional MOS. 
+ 
+2.5.1.2. Contact Base Weather for current and forecasted weather conditions. 
+ 
+2.5.1.3. Determine operational lengths and widths for mission aircraft. 
+ 
+2.5.2. Have a GeoExPT Scenario ready for the location, digitized airfield, 
+taxiways, parking, MOS templates, etc. 
+ 
+2.5.3. Conduct communications checks with EOC, CE-UCC, and ADATs. 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+17 
+ 
+Chapter 3 
+ 
+GEOSPATIAL EXPEDITIONARY PLANNING TOOL (GeoExPT) 
+ 
+3.1. Introduction. When performing MAOS selection with GeoExPT, users 
+should refer to the GeoExPT User Manual for guidance. The application is 
+constantly being upgraded and modified; therefore, users should ensure they are 
+using the most current manual for the latest updates and procedures. 
+ 
+3.2. Acquiring the GeoExPT Training Manual. Contact the Air Force Civil 
+Engineer Center Reach Back Center (AFCEC RBC), 888-232-3721 (toll free), 
+DSN 523-6995, or via email at afcec.rbc@us.af.mil to acquire the current 
+application and user manual. 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+18 
+ 
+Chapter 4 
+ 
+LEGACY (MANUAL) MINIMUM AIRFIELD OPERATING SURFACE 
+(MAOS) SELECTION 
+ 
+4.1 Purpose. Manual MAOS selection is used when GeoExPT is unavailable. 
+ 
+4.2. Chart Description. Figure 4.1 is an example of charts used to determine the 
+MOS requirement for a given aircraft and aircraft operation. The chart has four 
+areas: 1) the location baseline shift area; 2) the environmental shift area; 3) the 
+uncorrected RQC area; and 4) correction factor area as shown in Figure 4.1. 
+ 
+Figure 4.1. Sample Repair Quality Criteria (RQC) Chart. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+19 
+ 
+4.2.1. Location Base Line. The location baseline is the starting point for 
+calculations. This area is used to determine the MOS requirement, as well as mark 
+the repair patch locations when determining the RQC requirement. 
+ 
+4.2.2. Environmental Shift. This area compensates for aircraft performance 
+variations due to weather and runway conditions. These include the Density Ratio 
+(DR) and the Runway Surface Condition (RSC). Note: Some charts may not have 
+an RSC section. 
+ 
+4.2.3. Uncorrected RQC. This area determines initial RQC for individual repairs. 
+ 
+4.2.4. Correction Factor. This area provides RQC correction factors based on the 
+repair location on the MOS and its proximity to other repairs. 
+ 
+4.3. Assumptions. The following assumptions apply when performing the manual 
+MAOS selection method. 
+ 
+4.3.1. Users are familiar with the functions of damage assessment and MAOS 
+selection, including reporting of airfield damage nomenclature. 
+ 
+4.3.2. RQC represents the maximum allowable repair height, in inches, for all 
+values except flush (F) and a flush repair followed by a flush repair (FF). 
+ 
+4.3.3. Allowable sag depth is 2.0 inches for all RQC, except “F” and “FF.” 
+ 
+4.3.4. Allowable repair slope is 5.0 percent for all RQC, except in a landing 
+touchdown zone. Allowable repair slope is 3.4 percent in landing touchdown 
+zones. 
+ 
+4.3.5. Aircraft contact the entire length of each repair on the MOS. Lateral repair 
+location does not affect RQC. 
+ 
+4.3.6. All spalls are repaired to flush criteria. 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+20 
+ 
+4.3.7. Aircraft operation lengths are defined as takeoff or landing distance in the 
+aircraft performance manual. Since the MOS length may be specified by the CAT 
+and the wing commander and/or the mission commander, it may be longer than 
+the longest operation length. Any repair in a section of the MOS beyond the 
+longest operation length has an RQC equal to flush “F.” 
+ 
+4.3.8. Aircraft are maintained in accordance with relevant technical orders and 
+service manuals. 
+ 
+4.3.9. Relay the following caution to the CAT and Airfield Management for 
+taxiway repairs: “All operations on taxiway repairs are limited to 5 knots. 
+Taxiway repairs may have up to 6 inches of upheaval and up to 2 inches of sag. 
+Braking in vicinity of repairs on taxiway surfaces must be avoided.” 
+ 
+4.4. Step-by-Step Directions for Determining Minimum Operating Strip 
+(MOS) Lengths. Table 4.1 provides a step-by-step checklist for determining 
+MOS lengths. It is recommended the user follow these steps to ensure accuracy 
+and quality of the process. Steps 1 and 2 may be performed during pre-attack 
+actions to save time when selecting MAOS candidates after the attack. 
+Information in the following paragraphs expound upon Table 4.1. 
+ 
+Table 4.1. Instructional Guidelines for Determining Minimum Operating 
+Strip (MOS) Lengths. 
+Step 
+Process Action 
+1 
+Collect Aircraft and Environmental Data – Record on Worksheet 1 
+1.1 
+Record data for aircraft operation expected on the MOS 
+1.1.1 
+Aircraft model 
+1.1.2 
+Gross weight (pounds) 
+1.1.3 
+Operation (takeoff, landing, or evacuation) 
+1.1.4 
+Special landing operations (aero braking; wheel 
+braking; short field arrestment, with chute, without 
+chute, or normal) 
+ 
+AFTTP3-32.12  3 MAY 2024 
+21 
+ 
+1.1.5 
+Direction of operations (from MOS threshold or 
+departure end) 
+1.2 
+Record the RQC chart number for each operation 
+1.3 
+Record highest expected temperature, pressure altitude, and 
+lowest Density Ratio (DR) expected for that day. If DR is 
+unavailable, use DR Chart (Figure 4.2 & Attachment 2) by 
+drawing a vertical line from the temperature axis until 
+intersecting with the pressure altitude and then draw a 
+horizontal line to the DR axis.  
+1.4 
+If applicable, record condition or greatest expected depth of 
+condition (i.e. average depth of water, slush, loose snow, 
+packed snow, or ice on runway surface to nearest tenth of an 
+inch). 
+2 
+Determine Operational Lengths (See Figure 4.4) 
+2.1 
+Draw a horizontal line, corresponding to the DR (0.97), across 
+the DR section. 
+2.2 
+Draw horizontal line in condition-type section (Chart D2) 
+corresponding to worst type of condition expected in that 
+section of MOS in next 12 hours. 
+2.3 
+From the intersection of the DR line and the shaded section, 
+draw a vertical line to the bottom of the RSC section. Follow 
+guideline until line intersects with RSC. From this intersection, 
+draw a vertical line downward to location baseline to determine 
+operational length (4,400) and record on Worksheet 1. 
+2.4 
+If no RSC section (Chart D1), locate intersection of DR line 
+with shaded section. From this point, draw a vertical line 
+downward to location baseline to determine operational length 
+(3,525) and record on Worksheet 1. 
+3 
+Define Repair Patches on the ToL Map 
+3.1 
+Draw lines, perpendicular to sides of MOS, at beginning and 
+end of each crater on, or partially on, MOS. 
+3.2 
+Shade area between lines for each crater 
+ 
+AFTTP3-32.12  3 MAY 2024 
+22 
+ 
+3.3 
+If two shaded areas are within 25 feet of each other, shade area 
+between them 
+3.4 
+From MOS threshold, number each shaded area as a patch 
+4 
+For each Operation, Determine Patch Locations, Lengths, and 
+Spacing 
+4.1 
+Draw double lines, perpendicular to sides of MOS, marking 
+operation threshold and operation length 
+4.2 
+For each patch within two sets of double lines, record operation 
+number and patch number on Worksheet 2 (e.g., for Operations 
+2 – Patch 3, enter “2/3”) 
+4.3 
+For each patch, measure distance from operation threshold to 
+center of patch, record “Patch Location” on Worksheet 2. If 
+distance is greater than operation length, record operation 
+length. 
+4.4 
+Measure length of each patch and record on Worksheet 2. 
+4.5 
+For each patch, measure distance from center of patch to center 
+of next patch (in operational direction) and record this distance 
+as “Patch Spacing” on Worksheet 2. For last patch, record 
+maximum spacing value from RQC chart. 
+4.6 
+Repeat step 4 for each operation using MOS. 
+5 
+Determine Uncorrected RQC and Correction Factor 
+5.1 
+Mark location of each patch on location baseline 
+5.2 
+Mark spacing and length for each patch on their respective axes 
+5.3 
+Draw a horizontal line, corresponding to the current DR, across 
+the DR section. If there is an RSC section, draw a horizontal 
+line, corresponding to current RSC, across that section. 
+5.4 
+For each patch, draw a vertical line from location baseline to 
+intersect with current DR. Then follow guidelines to top of DR 
+section. From this point, draw a vertical line to intersect with 
+current RSC. Then follow guidelines to top of the section. 
+From this point, draw a vertical line to top of DR section to top 
+of RQC chart. 
+ 
+AFTTP3-32.12  3 MAY 2024 
+23 
+ 
+5.5 
+For each patch, draw a horizontal line corresponding to spacing 
+for that patch until line intersects with vertical line from step 
+5.4. Determine uncorrected RQC from region of intersection 
+and record on Worksheet 2. If intersection falls within a shaded 
+region, a correction factor is not required. 
+5.6 
+For each patch, draw a horizontal line corresponding to length 
+of that patch until line intersects with vertical line from step 
+5.4. Determine correction factor from region of intersection and 
+record on Worksheet 2.  
+5.7 
+Perform step 5 for each operation. 
+6 
+Determine RQC for Each Repair Patch 
+6.1 
+Add correction factor to uncorrected RQC and record on 
+Worksheet 2. If result is a negative number, record an “F.” If 
+uncorrected RQC for a repair is “FF,” record an “F” for both 
+that patch and patch immediately following it. 
+6.2 
+Calculate RQC for each patch for each operation 
+7 
+Summarize RQC for Entire MOS 
+7.1 
+List each MOS threshold operation on top half of Worksheet 3. 
+7.2 
+List each operation from MOS departure end on bottom half of 
+Worksheet 3. 
+7.3 
+Mark each patch number from MOS on both top and bottom of 
+Worksheet 3. 
+7.4 
+For each operation and patch number, record RQC from 
+Worksheet 2 onto Worksheet 3. For patches on MOS but not 
+within length of any operation, record an “F.” 
+7.5 
+For each repair patch and each operation direction, record the 
+lowest RQC in the summary lines on Worksheet 3 
+7.6 
+For each repair patch, record lower summary value in 
+combined line on Worksheet 3 
+7.7 
+Transfer combined RQC to ToL map, and brief Base Civil 
+Engineer and/or wing commander and/or mission commander. 
+Note:  See Attachment 2 for blank worksheets identified in Table 4.1. 
+ 
+AFTTP3-32.12  3 MAY 2024 
+24 
+ 
+Figure 4.2. Example Density Ratio Table. 
+ 
+ 
+4.4.1. Collect Aircraft Operational and Environmental Data. Contact the CAT and 
+Airfield Management to gather information on aircraft operations and 
+environmental data (contact Base Weather if the CAT does not have the 
+environmental data). Record each operation and corresponding chart number from 
+Table 4.2 on a separate line of Worksheet 1 (Figure 4.3). If uncertain as to 
+ 
+AFTTP3-32.12  3 MAY 2024 
+25 
+ 
+procedures used during aircraft operations, select charts for all possible operations 
+(charts may be found in Attachment 3). Note: If possible, perform this step 
+during pre-attack actions to save time during actual MAOS selection. 
+ 
+Note: Some aircraft models found in these RQC charts have been retired by the 
+US, but ally nations may still fly them; therefore, the charts remain. If there is no 
+chart for an aircraft or a particular aircraft operation, plan for a 10,000-ft by 150-
+ft MOS unless the Senior Airfield Authority (SAA) provides specific MOS 
+dimensions. Projects are scheduled to develop charts for new aircraft models not 
+listed and will be added when available. 
+ 
+Table 4.2. Repair Quality Criteria (RQC) Chart and Figure Numbers. 
+Aircraft MOS Requirement Charts/Figure Numbers 
+Aircraft 
+RQC1 
+Chart 
+Operation 
+Figure # 
+F-4 C/D, MQ-9 
+A1 
+Takeoff 
+A3.1 
+F-4 C/D 
+A2 
+Landing – Arrestment 
+A3.2 
+F-4 C/D 
+A3 
+Landing – w / Chute 
+A3.3 
+F-4 C/D, MQ-9 
+A4 
+Landing – w/o Chute 
+A3.4 
+F-4 C/D 
+A5 
+Evacuation 
+A3.5 
+F-4 E 
+B1 
+Takeoff 
+A3.6 
+B2 
+Landing – Arrestment 
+A3.7 
+B3 
+Landing – w / Chute 
+A3.8 
+B4 
+Landing – w/o Chute 
+A3.9 
+B5 
+Evacuation 
+A3.10 
+F-15 A/B 
+C1 
+Takeoff 
+A3.11 
+C2 
+Landing – Aero Braking 
+A3.12 
+C3 
+Landing – Wheel Braking 
+A3.13 
+C4 
+Landing – Arrestment 
+A3.14 
+C5 
+Evacuation 
+A3.15 
+F-15 C/D 
+C6 
+Takeoff 
+A3.16 
+C7 
+Landing – Aero Braking 
+A3.17 
+ 
+AFTTP3-32.12  3 MAY 2024 
+26 
+ 
+Aircraft MOS Requirement Charts/Figure Numbers 
+Aircraft 
+RQC1 
+Chart 
+Operation 
+Figure # 
+C8 
+Landing – Wheel Braking 
+A3.18 
+C9 
+Landing – Arrestment 
+A3.19 
+F-15 C/D, F-22,  
+F-35, F-14, F/A-18 
+C10 
+Evacuation 
+A3.20 
+F-15 E, F-22, F-35, 
+F-14, F/A-18 
+C11 
+Takeoff 
+A3.21 
+C12 
+Landing 
+A3.22 
+C13 
+Landing – Arrestment 
+A3.23 
+C14 
+Evacuation 
+A3.24 
+F-16 A/B  
+Block 10/15 
+D1 
+Takeoff 
+A3.25 
+D2 
+Landing 
+A3.26 
+D3 
+Landing – Arrestment 
+A3.27 
+D4 
+Evacuation 
+A3.28 
+F-16 C/D  
+Block 25/30/32 
+D5 
+Takeoff 
+A3.29 
+D6 
+Landing 
+A3.30 
+D7 
+Landing – Arrestment 
+A3.31 
+D8 
+Evacuation 
+A3.32 
+F-16 C/D  
+Block 40/42 
+D9 
+Takeoff 
+A3.33 
+D10 
+Landing 
+A3.34 
+D11 
+Landing – Arrestment 
+A3.35 
+D12 
+Evacuation 
+A3.36 
+F-111 A/E 
+E1 
+Takeoff 
+A3.37 
+E2 
+Landing 
+A3.38 
+E3 
+Landing – Short Field 
+A3.39 
+E4 
+Landing – Arrestment 
+A3.40 
+E5 
+Evacuation 
+A3.41 
+C-5 B 
+F1 
+Takeoff 
+A3.42 
+F2 
+Landing 
+A3.43 
+ 
+AFTTP3-32.12  3 MAY 2024 
+27 
+ 
+Aircraft MOS Requirement Charts/Figure Numbers 
+Aircraft 
+RQC1 
+Chart 
+Operation 
+Figure # 
+C-130 E/H/B/J, 
+AC-130, EC-130, 
+HC-130, MC-130, 
+WC-130, E-2C, P-3 
+G1 
+Takeoff 
+A3.44 
+C-130 E/H/B/J, 
+AC-130, EC-130, 
+HC-130, MC-130, 
+WC-130, KC-10, 
+C-135, E-2C, P-3 
+G2 
+Landing 
+A3.45 
+C-141 A/B 
+H1 
+Heavy Weight Takeoff 
+A3.46 
+H2 
+Heavy Weight Landing 
+A3.47 
+C-141 A/B 
+I1 
+Medium Weight Takeoff 
+A3.48 
+I2 
+Medium Weight Landing 
+A3.49 
+A-7D 
+J1 
+Takeoff 
+A3.50 
+J2 
+Landing 
+A3.51 
+J3 
+Landing – Arrestment 
+A3.52 
+J4 
+Evacuation 
+A3.53 
+A-10 A, OA-10 
+K1 
+Takeoff 
+A3.54 
+K2 
+Landing 
+A3.55 
+KC-135 R 
+L1 
+Heavy Weight Takeoff 
+A3.56 
+L2 
+Normal Weight Takeoff 
+A3.57 
+L3 
+Landing 
+A3.58 
+KC-10, KC-767 
+M1 
+Heavy Weight Takeoff 
+A3.59 
+M2 
+Normal Weight Takeoff 
+A3.60 
+M3 
+Landing 
+A3.61 
+C-9 
+N1 
+Heavy Weight Takeoff 
+A3.62 
+N2 
+Normal Weight Takeoff 
+A3.63 
+N3 
+Landing 
+A3.64 
+ 
+AFTTP3-32.12  3 MAY 2024 
+28 
+ 
+Aircraft MOS Requirement Charts/Figure Numbers 
+Aircraft 
+RQC1 
+Chart 
+Operation 
+Figure # 
+C-17, B-1, B-2 
+O1 
+Disclaimer 
+A3.65 
+O2 
+Heavy Weight Takeoff 
+A3.66 
+O3 
+Normal Weight Takeoff 
+A3.67 
+O4 
+Heavy Weight Landing Steep 
+Approach 
+A3.68 
+O5 
+Heavy Weight Landing Normal 
+Approach 
+A3.69 
+O6 
+Normal Weight Landing 
+Normal Approach 
+A3.70 
+F-117 
+P2 
+Heavy Weight Takeoff 
+A3.71 
+P3 
+Normal Weight Takeoff 
+A3.72 
+P4 
+Light Weight Takeoff 
+A3.73 
+P5 
+Normal Weight Landing – No 
+Chute 
+A3.74 
+P6 
+Normal Weight Landing – 
+Chute 
+A3.75 
+P7 
+Heavy Weight Landing – No 
+Chute 
+A3.76 
+P8 
+Heavy Weight Landing – Chute 
+A3.77 
+Note 1: Charts reflect legacy 990 feet maximum runout for arrestment 
+landings; current maximum runout is 1,200 feet. See note at bottom of each 
+arrestment-landing chart for operational length correction to reflect 1,200 feet 
+maximum runout. 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+29 
+ 
+Figure 4.3. Worksheet 1 Example. 
+ 
+ 
+4.4.2. Determining Operational Lengths. Once proper charts are selected, 
+determine operation length for each combination of aircraft configuration and 
+operation. The longest calculated length for aircraft operations to be performed is 
+the minimum overall length of the MOS. Note: If there is no chart for an aircraft 
+or a particular aircraft operation, plan for 10,000-feet by 150-feet MOS unless the 
+(SAA) provides other MOS dimensions. 
+ 
+4.4.2.1. RQC Charts with RSC. Figure 4.4. provides an example of determining 
+operational lengths for F-16 landing operations with a DR = 0.97, Condition = 
+DRY, and Condition Depth = 0.0. Note: See Table 4.1., Step 1.3, for instructions 
+to determine DR when unavailable from the CAT. Note: For illustration purposes, 
+landing operation with condition of WR (7,100) is also shown in Figure 4.4. 
+ 
+4.4.2.1.1. Draw a horizontal line across the DR section corresponding to the DR 
+recorded on Worksheet 1 (0.97). 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+30 
+ 
+4.4.2.1.2. Draw a horizontal line across the RSC section corresponding to the 
+condition recorded on Worksheet 1 (DRY). 
+ 
+Figure 4.4. Determining Operational Lengths. 
+ 
+ 
+4.4.2.1.3. From the intersection of the DR line with the shaded section, draw a 
+vertical line down to the location baseline (4,400). 
+ 
+4.4.2.1.4. If the RSC were Wet (WR) or Slush/Loose Snow/Packed Snow/Ice 
+(SLR/LSR/PSR/IR), follow the horizontal DR line to the shaded area. Draw a 
+vertical line up to the bottom of the RSC section and follow guidelines until the 
+line intersects with current RSC. Stay between guidelines in proportion to starting 
+location (e.g., WR/SLR/LSR = 7,100). 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+31 
+ 
+4.4.2.1.5. Record length (4,400) in space provided on Worksheet 1 (Figure 4.5). 
+ 
+4.4.2.1.6. Perform the above steps for each operation on Worksheet 1. 
+ 
+4.4.2.2. RQC Charts without RSC. Operational length determination using charts 
+with no RSC is simply accomplished by eliminating the shift in the RSC area. 
+ 
+Figure 4.5. Operational Lengths Entered on Worksheet 1. 
+ 
+ 
+4.4.2.2.1. Continuing with the example above, if the RSC were WR, the landing 
+operation length would be 7,100 feet; this would require a MOS of at least that 
+length. In this case, determine if the MOS length could be decreased by 
+calculating the arrested landing operational length using RQC Chart D3 (Figure 
+4.6), which does not have an RSC section. Note: Using arrested landing 
+operational lengths may result in fewer pavement repairs but may also lower the 
+MOS LoR capability (Table 2.3). 
+ 
+AFTTP3-32.12  3 MAY 2024 
+32 
+ 
+ 
+Figure 4.6. Determining Arrested Landing Operational Length. 
+ 
+ 
+4.4.2.2.2. Draw a horizontal line across the DR section corresponding to the DR 
+recorded on Worksheet 1 (0.97). 
+4.4.2.2.3. There is no shaded area in the DR section; therefore, draw a vertical line 
+from the far right side of the DR section down to the location baseline and record 
+the value (2,034) on Worksheet 1 (Figure 4.5). 
+ 
+4.4.2.2.4. Use Chart D1 (Figure 4.7) to determine takeoff operational length. 
+Where DR line intersects shaded area, draw vertical line to location baseline since 
+there is no RSC section and add results to Worksheet 1 (Figure 4.5). 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+33 
+ 
+Figure 4.7. Determining Takeoff Operational Length. 
+ 
+ 
+4.4.3. Damage Plotting. Runway damage is plotted on a 1:1200 scale (1-inch 
+equals 100 feet) ToL map as reported by the ADATs. The ToL map should utilize 
+the same Pavement Reference Marking System (PRMS) as the grid overlay. The 
+MOS selection team uses the ToL map (located in the EOC when possible) to 
+select MOS candidates. Damage is initially plotted on the ToL map with estimated 
+repair diameters (double the apparent diameter). Utilize the 1:4800 (1-inch equals 
+400 feet) Crash Grid Map for all damage items not located on the runway. This 
+map should utilize the Military Grid Reference System as the grid overlay. 
+Following completion of runway repairs, RQC must be recalculated using the 
+actual repair lengths. 
+ 
+AFTTP3-32.12  3 MAY 2024 
+34 
+ 
+ 
+4.4.4. Initial MAOS Selection. Choose several potential launch and recovery 
+strips with support areas (e.g., refueling area, munition loading area, arm/de-arm 
+area, parking, maintenance). Consider all suitable pavement surfaces that can be 
+used for ToL surfaces (e.g., parallel taxiways and access roads). Keep limiting 
+factors and shortfalls in mind. Slide MOS template across the ToL map until a 
+suitable MOS is found. Bracket ([ ]) the MOS ends and list using the MOS 
+identifier as explained in paragraph 4.4.5.1. Continue this same procedure until 
+two alternatives are located. Table 4.3 lists positive and negative MAOS 
+attributes. 
+ 
+4.4.5. Additional Factors. Other factors that may influence MAOS selection: 
+ 
+4.4.5.1. In most cases a unidirectional MOS results in less stringent RQC values, 
+which may permit greater latitude in repair quality.  
+ 
+Table 4.3. Minimum Airfield Operating Surface (MAOS) Attributes. 
+Positive 
+Negative 
+• 
+Minimal number of craters 
+• 
+Damage unrepairable within 6.5 
+hours 
+• 
+Aligned with existing 
+centerline 
+• 
+Dense clusters of craters 
+• 
+Use existing thresholds and 
+departures 
+• 
+Craters within 1,000 feet of threshold 
+& departure 
+• 
+Craters not close together 
+• 
+MOS without potential for expansion 
+• 
+Access and Egress routes at 
+both ends 
+• 
+Crater within 550 feet of arresting 
+system when using FOD covers, or 
+within 200 feet of arresting system 
+with a RADR flush repair 
+• 
+Use existing aircraft arresting 
+systems 
+• 
+Damage in first and last 1,000 feet of 
+pavement  
+• 
+Use existing airfield lighting 
+• 
+Only one access route 
+ 
+AFTTP3-32.12  3 MAY 2024 
+35 
+ 
+Positive 
+Negative 
+• 
+Close to material stockpiles 
+• 
+Damaged utility lines (e.g., water 
+and fuel) 
+• 
+Longer and wider dimensions • 
+Dense clusters of UXO 
+ 
+4.4.5.2. In most situations landing operations require more pavement length than 
+takeoff operations, especially in wet or icy conditions. If an aircraft arresting 
+system is available, the landing length can be shortened with an accompanying 
+decrease in the repair efforts. Ensure sufficient undamaged pavement exists before 
+recommending an aircraft arresting system. 
+ 
+4.4.5.3. There may be occasions, particularly with bidirectional operations, when 
+moving an operational threshold could decrease the RQC value for a repair patch. 
+Look for the takeoff or landing operation that drives the lowest RQC value for a 
+particular patch and if moving the applicable threshold results in a less restrictive 
+RQC value. Chances are the need for the repair patch will not be eliminated, but 
+the degree of required quality will be lessened. 
+ 
+4.4.5.4. After repairs are completed and accurate dimensions are obtained, it is 
+critical to repeat the RQC process to ensure safe aircraft operations. 
+ 
+4.4.6. Define Repair Patches on the ToL Map. 
+ 
+4.4.6.1. After selection, determine MOS coordinates using the same method as 
+locating damage and UXO as explained in AFTTP 3-32.11. For example, the 50-
+feet by 5,000-feet MOS in Figure 4.8 is selected on 150-feet wide by 9,000-feet 
+long runway. The MOS would be identified as: BM4000R50F9000R50W50 as 
+explained in Table 4.4. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+36 
+ 
+Figure 4.8. Takeoff or Landing (ToL) Map. 
+ 
+ 
+Table 4.4. Minimum Operating Strip (MOS) Designation Identifier 
+Explained (BM4000R50F9000R50W50). 
+Identifier 
+Explanation 
+BM 
+Bidirectional MOS (UM – Unidirectional MOS) 
+4000 
+Distance from 0 point of PRMS to leading edge (threshold) of 
+MOS 
+R 
+Denotes left or right of centerline to center of leading edge of 
+MOS 
+50 
+Numerical distance left or right of centerline expressed in feet 
+F 
+Field Identifier 
+9000 
+Distance from PRMS 0-point to center of field’s trailing edge 
+(departure) 
+R 
+Denotes left/right of centerline to center of field’s trailing edge 
+50 
+Numerical distance left or right of centerline expressed in feet 
+W 
+Width of field (MOS) 
+50 
+Numerical width of field (MOS) 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+37 
+ 
+4.4.6.2. Draw lines perpendicular to the MOS edges at the beginning and end of 
+each crater on (or partially on) the MOS (Figure 4.8). 
+ 
+4.4.6.3. Shade areas on the MOS between the lines for each repair. If two or more 
+shaded areas overlap, or are within 25 feet of each other, shade the area or areas 
+between them. 
+ 
+4.4.6.4. From the MOS operational threshold, number each shaded area as a repair 
+patch. For operations on bidirectional MOSs, do not renumber patches when the 
+operation direction changes. Once a patch is numbered, it should not be changed. 
+ 
+4.4.7. Finding Repair Patch Location, Length, and Spacing. 
+ 
+4.4.7.1. Once repair patches have been numbered, determine location, length, and 
+spacing for each. Figure 4.8 shows examples of patch locations, lengths and 
+spacing. Figure 4.9 provides an example of results recorded on Worksheet 2. 
+ 
+4.4.7.2. Draw double lines on the ToL map perpendicular to the sides of the MOS 
+to mark the operations threshold and operation length. 
+ 
+4.4.7.3. For each patch within the two sets of double lines, record the operation 
+number and patch number on Worksheet 2. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+38 
+ 
+Figure 4.9. Worksheet 2 Example. 
+ 
+ 
+4.4.7.4. Find the center of each repair patch. Measure the distance (in feet) from 
+this point back to the operational threshold. If the distance is greater than the 
+operation length, use the operation length. If the patch center is in front of the 
+operation threshold, use zero. Record these repair locations in the “Patch 
+Location” column of Worksheet 2. 
+ 
+4.4.7.5. Measure each patch length parallel to the side of the MOS (in feet). 
+Record the results in the “Patch Length” column of Worksheet 2. 
+ 
+4.4.7.6. Measure, in the direction of operation, the distance (in feet) from the 
+center of each patch to the center of the next patch. If there is not a “next” patch 
+(i.e., the patch is the last one), use the maximum value on the spacing axis of the 
+RQC chart. Record the results in the “Patch Spacing” column of Worksheet 2. 
+ 
+4.4.7.7. Mark the repair patch locations, lengths, and spacing on applicable RQC 
+charts. If the value for any length or spacing is greater than the maximum or less 
+than the minimum shown on the RQC chart, mark the maximum or minimum. 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+39 
+ 
+4.4.8. Finding Repair Quality Criteria (RQC). Incorrect RQC calculations may 
+result in aircraft damage, aircrew injury, and/or death of the aircrew. Uncertainty 
+of any value (RQC, uncorrected RQC, or correction factor) shall be resolved by 
+using the most conservative value (i.e., the lowest value). An intersection on a 
+boundary line between two regions in the uncorrected RQC or correction factor 
+areas must be treated as though it falls in the region with the lowest value. Figure 
+4.10 illustrates the procedure to find RQC. 
+ 
+Figure 4.10. Finding Uncorrected Repair Quality Criteria on Chart D1. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+40 
+ 
+4.4.8.1. Finding Uncorrected RQC. 
+ 
+4.4.8.1.1. Draw a horizontal line across the DR section corresponding to the DR 
+recorded on Worksheet 1 (0.97). If there is an RSC section, draw a horizontal line 
+across that section corresponding to the RSC recorded on Worksheet 1. 
+ 
+4.4.8.1.2. Draw vertical lines from the patch locations (2,300) on the location 
+baseline until they intersect with the current DR. 
+ 
+4.4.8.1.3. From each intersection, follow the guidelines to the top of the DR 
+section. Stay between the guidelines in proportion to the starting location. 
+ 
+4.4.8.1.4. If applicable, from the top of the DR section, draw a vertical line until 
+it intersects with the current RSC, then follow the guidelines to the top of that 
+section. From this point, draw a vertical line to the top of the RQC chart. If there 
+is no RSC section, draw a vertical line from the top of the DR section to the top 
+of the RQC chart. 
+ 
+4.4.8.1.5. Draw a horizontal line from each repair patch spacing on the vertical 
+axis to the uncorrected RQC area. Continue each line until it intersects the vertical 
+line for that patch. 
+ 
+4.4.8.1.6. The intersections are in the various regions of the uncorrected RQC 
+area. The number in each region indicates the uncorrected RQC for intersections 
+in that region. Record the uncorrected RQC values (4) for each repair patch on 
+Worksheet 2 (Figure 4.11). 
+ 
+4.4.8.1.7. A value of “F” indicates a flush repair. A value of “FF” indicates a flush 
+repair that must be followed by another flush repair. 
+ 
+4.4.8.2. Finding Correction Factor. Correction factor is always negative or zero. 
+ 
+4.4.8.2.1. If uncorrected RQC is in a region shaded with diagonal lines, corrected 
+RQC equals the uncorrected RQC. All “F” and “FF” regions are shaded with 
+diagonal lines. “FF” regions are crosshatched to contract with “F” regions. 
+ 
+AFTTP3-32.12  3 MAY 2024 
+41 
+ 
+Figure 4.11. Repair Quality Criteria Values Recorded on Worksheet 2. 
+ 
+ 
+4.4.8.2.2. In the Corrected RQC area, draw a horizontal line from each patch 
+length to intersect the appropriate vertical line. 
+ 
+4.4.8.2.3. The intersections of these lines are in the various regions of the 
+correction factor. The number in each region indicates the correction factor for 
+intersections in that region. 
+ 
+4.4.8.2.4. Record the correction factor(s) (-3) on Worksheet 2 (Figure 4.11). 
+ 
+4.4.9. Calculating RQC. A patch with an uncorrected RQC of “F” or “FF” has 
+an RQC of “F.” The patch following a patch with an uncorrected RQC of “FF” 
+also has an RQC of “F.” 
+ 
+4.4.9.1. Add the uncorrected RQC (4) and correction factor (-3). RQC (1) is 
+always less than or equal to the uncorrected RQC. 
+ 
+4.4.9.2. If the uncorrected RQC plus the correction factor results in a negative 
+number, the RQC for that repair patch is “F.” 
+4.4.9.3. Record the RQC values on Worksheet 2 (Figure 4.11) and in the spaced 
+provided on Worksheet 3 (Figure 4.12). 
+ 
+AFTTP3-32.12  3 MAY 2024 
+42 
+ 
+Note: Arrested landing from the departure end is not listed as an operation due to 
+the fact that if a second arresting system was installed 1,250 feet from the 
+departure end, patch 2 would fall within the “NO REPAIRS ALLOWED” section 
+of the RQC chart. An arresting system could not be installed at midfield due to 
+the fact that patch 1 would be within the “NO REPAIRS ALLOWED” section of 
+the RQC chart. Therefore, in-flight emergency landings requiring arrestment 
+would only be performed when landing from the threshold end. When landing in 
+the opposite direction the SAA may authorize use of the departure end (threshold 
+end in this scenario) aircraft arresting system for aircraft experiencing braking 
+problems and for aborted take-offs. 
+ 
+Note: RQC charts in Attachment 3 were developed prior to implementing 
+RADR. If a repair is accomplished using the crushed stone and FOD cover 
+method, repairs should not be within 550 feet of the approach side of the pendent 
+and 50 feet on the departure side of the pendent. When using the RADR flush 
+repair method, repairs should not be within 200 feet of either side of the pendent. 
+ 
+4.4.9.4. Repeat instructions in paragraph 4.4.5 for every operation in the same 
+direction. Patch numbering and patch spacing remain constant. 
+ 
+4.4.9.5. If bi-directional operations are required, repeat the instructions for 
+paragraph 4.4.5 for each operation in the opposite direction. Patch numbering 
+and patch lengths remain constant. Remember the operational threshold is now at 
+the departure end. 
+ 
+4.4.10. RQC Summary. Summarize RQC for the entire MOS on Worksheet 3 
+(Figure 4.12). 
+ 
+4.4.10.1. List each operation from MOS threshold on the top half of Worksheet 3. 
+ 
+4.4.10.2. List each operation from MOS departure end on the bottom half of 
+Worksheet 3. 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+43 
+ 
+Figure 4.12. Repair Quality Criteria Summary (Worksheet 3). 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+44 
+ 
+4.4.10.3. For each operation and patch number, record the RQC from Worksheet 
+2 onto Worksheet 3. For patches that are on the MOS but are not within the length 
+of any operation, record an “F”. 
+ 
+4.5. Presenting Minimum Airfield Operating Surface Candidates to Wing 
+Commander and/or Designated Mission Commander. It is recommended that 
+the MAOS Selection Team brief the EOC staff for feedback before briefing the 
+wing commander and/or designated mission commander. Provide the following 
+information when briefing the wing commander and/or mission commander: 
+ 
+4.5.1. Pros and cons of each candidate. 
+ 
+4.5.2. Estimated time to complete repairs. 
+ 
+4.5.3. Repair priority recommendations. 
+ 
+4.5.4. Any actions concerning sortie generation to include RQC data. 
+ 
+4.5.5. Monitor repair and update appropriate maps to indicate status and provide 
+updates to the EOC to keep the wing commander and/or mission commander 
+abreast of recovery progress. 
+ 
+4.5.6. An example of presenting this data using a MOS map is presented in Figure 
+4.13. The RQC values for both MOS threshold and departure end operations are 
+shown along with the combined values for each repair patch. This summary 
+permits a quick method of informing the CE-UCC of RQC requirements so they 
+may rapidly forward them to repair crews. 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+45 
+ 
+Figure 4.13. Summary Repair Quality Criteria (RQC) Presentation 
+Format. 
+ 
+ 
+ 
+ 
+ 
+TOM D. MILLER, Lt Gen, USAF 
+DCS/Logistics, Engineering & Force Protection 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+46 
+ 
+Attachment 1 
+ 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+References 
+29 CFR 1910.133, Eye and Face Protection 
+29 CFR 1910.134, Respiratory Protection, 
+29 CFR 1926.1153, Respirable Crystalline Silica 
+DAFMAN 91-203, Air Force Occupational Safety, Fire, and Health Standards, 
+25 March 2022 
+AFI 10-210, Prime Base Engineer Emergency Force (BEEF) Program, 
+ 25 October 2023 
+AFI 33-322, Records Management and Information Governance Program, 
+ 23 March 2020 
+AFI 48-127, Occupational Noise and Hearing Conservation Program, 
+ 26 February 2016 
+AFI 48-137, Respiratory Protection Program, 12 September 2018 
+AFPAM 10-219, Volume 4, Airfield Damage Repair Operations, 28 May 2008 
+AFTTP 3-32.5V6, Explosive Ordnance Disposal (EOD) Unexploded Explosive 
+Ordnance (UXO) Response Operations, 11 October 2023 
+AFTTP 3-32.11, Airfield Damage Assessment after Major Attack, 18 May 2022 
+AMCI 11-211, Destination Airfield Suitability Analysis, 8 June 2020 
+Air Force Doctrine Publication 3-34, Engineer Operations, 6 October 2021 
+GeoExPT User Manual 
+Adopted Forms 
+DAF Form 847, Recommendation for Change of Publication, 15 April 2022 
+ 
+AFTTP3-32.12  3 MAY 2024 
+47 
+ 
+Note: The acronyms and terms shown below may not always correspond with the 
+DoD Dictionary of Military and Associated Terms, or the Air Force Glossary 
+Doctrine Annex, but are included in this publication because they are common to 
+the engineering community as a whole. 
+Abbreviations and Acronyms 
+ADAT—Airfield Damage Assessment Team 
+AFI—Air Force Instruction 
+AFPAM—Air Force Pamphlet 
+AFRC—Air Force Reserve Component 
+AFSC—Air Force Specialty Code 
+ANG—Air National Guard 
+ATO—Air Tasking Order 
+BEEF—Base Engineer Emergency Force 
+CAT—Crisis Action Team 
+CE—Civil Engineer 
+DAF—Department of the Air Force 
+DR—Density Ratio 
+EOC—Emergency Operations Center 
+EOD—Explosive Ordnance Disposal 
+FOD—Foreign Object Debris 
+GeoExPT—Geospatial Expeditionary Planning Tool 
+IR—Ice on runway 
+LoR—Launch or Recovery 
+LSR—Loose snow on runway 
+ 
+AFTTP3-32.12  3 MAY 2024 
+48 
+ 
+MAOS—Minimum Airfield Operating Surface 
+MOS—Minimum Operating Strip 
+NOTAM—Notice to Air Mission 
+PRMS—Pavement Reference Marking System 
+PSR—Packed snow on runway 
+RADR—Rapid Airfield Damage Recovery 
+RQC—Repair Quality Criteria 
+RSC—Runway Surface Condition 
+SAA—Senior Airfield Authority 
+SLR—Slush on runway 
+ToL—Takeoff or Landing 
+TTP—Tactics, Techniques, and Procedures 
+UCC—Unit Control Center 
+UXO—Unexploded Ordnance; Unexploded Explosive Ordnance 
+WR—Wet runway 
+Office Symbols 
+AF/A4CX—Air Force Directorate of Civil Engineers, Readiness Division 
+AFCEC—Air Force Civil Engineer Center 
+Terms 
+Airfield—An area prepared for the accommodation (including any buildings, 
+installations, and equipment), landing, and takeoff of aircraft. 
+Air Tasking Order (ATO)—A method used to task and disseminate to 
+components, subordinate units, and command and control agencies projected 
+sorties, capabilities and/or forces to targets and specific missions. Normally 
+ 
+AFTTP3-32.12  3 MAY 2024 
+49 
+ 
+provides specific instructions to include call signs, targets, controlling agencies, 
+etc., as well as general instructions. Source: JP 3-30. 
+Airfield Damage Assessment—Locating, classifying, and measuring the 
+damage (camouflet, crater, spall, and UXO) on the airfield operating surfaces. 
+Airfield Damage Assessment Team (ADAT)—An airfield recovery team, 
+typically located in or near the EOC and directed by Emergency Support 
+Function-3, used to identify and locate airfield damage and UXO following an 
+attack. Their initial efforts are normally targeted towards the airfield proper; but 
+can also be employed elsewhere as deemed necessary. The ADAT usually 
+consists of one engineering technician and two EOD technicians. A CE member 
+trained as an EOD assistant may replace one of the EOD technicians when two 
+are unavailable for ADAT. The ADAT should be equipped with an armored 
+vehicle and communications enabling them to report their observations to the 
+MAOS Selection Cell. The ADAT damage reports must be accurate as this 
+information is used in MAOS selection. 
+Apron/Ramp—A defined area on an airfield intended to accommodate aircraft 
+for the purposes of loading or unloading passengers or cargo, refueling, parking, 
+or maintenance. 
+Camouflet—Craters with relatively small apparent diameters, but deep 
+penetration and subsurface voids created by the munition puncturing through the 
+pavement surface and exploding in the base material. Note:  Munitions that 
+penetrate the surface but do not explode are also treated as a camouflets. 
+Camouflet Field—A cluster of spalls within a defined area. 
+Crater—The pit, depression, or cavity formed in the surface of the earth by an 
+explosion. It may range from saucer-shaped to conical, depending largely on the 
+depth of burst. 
+Crater Field—A cluster of small craters (less than two feet apart) where their 
+upheaval joins the neighboring crater within a defined area. 
+Damage Assessment—1. The determination of the effects that attacks have on 
+targets. 2. (DOD only) A determination of the effect of a compromise of 
+classified information on national security. 3. (AF/CE) The process of 
+ 
+AFTTP3-32.12  3 MAY 2024 
+50 
+ 
+identifying and locating damage and unexploded ordnance following an attack. 
+Damage assessment activities generally are separated into two categories: 
+airfield pavements and facility/utility. 
+Emergency Operations Center (EOC)—A temporary or permanent facility 
+where the coordination of information and resources to support domestic 
+incident management activities normally takes place. 
+Explosive Ordnance Disposal (EOD)—The detection, identification, on-site 
+evaluation, rendering safe, recovery, and final disposal of unexploded explosive 
+ordnance. It may also include explosive ordnance which has become hazardous 
+by damage or deterioration. 
+MAOS Selection—The process of plotting damage and UXO locations on an 
+airbase runway map and using this information to select a portion of the 
+damaged runway which can be repaired most quickly to support aircraft 
+operations. 
+Minimum Airfield Operating Surface (MAOS)—The combined requirement 
+for airfield surfaces for both runway and access routes. For example, the MOS is 
+part of the MAOS. 
+Minimum Operating Strip (MOS)—1. A runway which meets the minimum 
+requirements for operating assigned and/or allocated aircraft types on a 
+particular airfield at maximum or combat gross weight. 2. The MOS is the 
+smallest amount of area to be repaired to launch and recover aircraft after an 
+attack. Selection of this MOS will depend upon mission requirements, taxi 
+access, resources available, and estimated time to repair. For fighter aircraft, the 
+typically accepted dimensions are 5,000 feet long by 50 feet wide. 
+Personnel—Those individuals required in either a military or civilian capacity 
+to accomplish the assigned mission. 
+Procedures—Standard, detailed steps that prescribe how to perform specific 
+tasks. 
+Ramp—see “apron.” 
+ 
+AFTTP3-32.12  3 MAY 2024 
+51 
+ 
+Runway—A defined rectangular area of an airfield, prepared for the landing 
+and takeoff run of aircraft along its length. A runway is measured from the outer 
+edge of the thresholds from one end of the runway to the others. The width of 
+the runway is typically measured from the outer edge of the load-bearing 
+pavement on one side to the outer edge of the load-bearing pavement on the 
+other side. In some cases, the runway may be measured from the outside edge of 
+the runway marking line on one side to the outside edge of the marking line on 
+the other side and any remaining load bearing pavement is considered shoulder. 
+Runway Surface Condition (RSC)—Identifies the condition of the runway 
+surface when covered with slush, snow, ice or water. In regards to MOS 
+selection, Airfield Management personnel estimate to the extent or depth to the 
+nearest 1/10 of an inch of any precipitation on the MOS and report this 
+measurement to the MOS Selection Team prior to MOS selection. 
+Spall—Pavement damage that does not penetrate through the pavement surface 
+to the underlying soil layers. A spall damage area could be up to 1.5 meters (5 
+feet) in diameter. 
+Spall Field—A cluster of spalls within a defined area. 
+Taxiway—A specially-prepared or designated path on an airfield or heliport, 
+other than apron areas, on which aircraft move under their own power to and 
+from landing, takeoff, service, and parking areas. 
+Techniques—Non-prescriptive ways or methods use to perform missions, 
+functions, or tasks. 
+Unexploded Explosive Ordnance (UXO)—Explosive ordnance which has 
+been primed, fused, armed, or otherwise prepared for action, and which has been 
+fired, dropped, launched, projected, or placed in such a manner as to constitute a 
+hazard to operations, installations, personnel, or material, and remains 
+unexploded either by malfunction or design. = 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+52 
+ 
+Attachment 2 
+BLANK WORKSHEETS FOR REPRODUCTION 
+ 
+Figure A2.1. Density Ratio Chart. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+53 
+ 
+Figure A2.2. Worksheet 1. 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+54 
+ 
+Figure A2.3. Worksheet 2. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+55 
+ 
+Figure A2.4. Worksheet 3. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+56 
+ 
+Attachment 3 
+ 
+AIRCRAFT MINIMUM OPERATING STRIP (MOS) REQUIREMENT 
+CHARTS 
+ 
+Figure A3.1. F-4 C/D, MQ-9 Takeoff. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+57 
+ 
+Figure A3.2. F-4 C/D Landing – Arrestment. 
+ 
+ 
+Note: This chart reflects a 979 ft maximum runout for an arrestment landing. 
+Current maximum runout is 1,200 ft, which requires adding an additional 221 ft 
+to arrestment landing operational length. 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+58 
+ 
+Figure A3.3. F-4 C/D Landing – With Chute. 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+59 
+ 
+Figure A3.4. F-4 C/D Landing (Without Chute), MQ-9 Landing. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+60 
+ 
+Figure A3.5. F-4 C/D Evacuation. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+61 
+ 
+Figure A3.6. F-4 E Takeoff. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+62 
+ 
+Figure A3.7. F-4 E Landing – Arrestment. 
+ 
+ 
+Note: This chart reflects a 979 ft maximum runout for an arrestment landing. 
+Current maximum runout is 1,200 ft, which requires adding an additional 221 ft 
+to arrestment landing operational length. 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+63 
+ 
+Figure A3.8. F-4 E Landing – With Chute. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+64 
+ 
+Figure A3.9. F-4 E Landing Without Chute. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+65 
+ 
+A3.10. F-4 E Evacuation. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+66 
+ 
+Figure A3.11. F-15 A/B Takeoff. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+67 
+ 
+Figure A3.12. F-15 A/B Landing – Aerobraking. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+68 
+ 
+Figure A3.13. F-15 A/B Landing – Wheel Braking. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+69 
+ 
+Figure A3.14. F-15 A/B Landing – Arrestment. 
+ 
+ 
+Note: This chart reflects a 975 ft maximum runout for an arrestment landing. 
+Current maximum runout is 1,200 ft, which requires adding an additional 225 ft 
+to arrestment landing operational length. 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+70 
+ 
+Figure A3.15. F-15 A/B Evacuation. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+71 
+ 
+Figure A3.16. F-15 C/D Takeoff. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+72 
+ 
+Figure A3.17. F-15 C/D Landing – Aerobraking. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+73 
+ 
+Figure A3.18. F-15 C/D Landing – Wheel Braking. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+74 
+ 
+Figure A3.19. F-15 C/D Landing – Arrestment. 
+ 
+ 
+Note: This chart reflects a 987 ft maximum runout for an arrestment landing. 
+Current maximum runout is 1,200 ft, which requires adding an additional 213 ft 
+to arrestment landing operational length. 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+75 
+ 
+Figure A3.20. F-15 C/D, F-22, F-35, F-14, and F/A-18 Evacuation. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+76 
+ 
+Figure A3.21. F-15 E, F-22, F-35, F-14, and F/A-18 Takeoff. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+77 
+ 
+Figure A3.22. F-15 E, F-22, F-35, F-14, and F/A-18 Landing. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+78 
+ 
+Figure A3.23. F-15 E, F-22, F-35, F-14, and F/A-18 Landing – Arrestment. 
+ 
+ 
+Note: This chart reflects a 1,026 ft maximum runout for an arrestment landing. 
+Current maximum runout is 1,200 ft, which requires adding an additional 174 ft 
+to arrestment landing operational length. 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+79 
+ 
+Figure A3.24. F-15 E, F-22, F-35, F-14, and F/A-18 Evacuation. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+80 
+ 
+Figure A3.25. F-16 A/B Block 10 and 15 Takeoff. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+81 
+ 
+Figure A3.26. F-16 A/B Block 10 and 15 Landing. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+82 
+ 
+Figure A3.27. F-16 A/B Block 10 and 15 Landing – Arrestment. 
+ 
+ 
+Note: This chart reflects a 784 ft maximum runout for an arrestment landing. 
+Current maximum runout is 1,200 ft, which requires adding an additional 416 ft 
+to arrestment landing operational length. 
+ 
+AFTTP3-32.12  3 MAY 2024 
+83 
+ 
+  
+Figure A3.28. F-16 A/B Block 10 and 15 Evacuation. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+84 
+ 
+Figure A3.29. F-16 C/D Block 25, 30, 32 Takeoff. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+85 
+ 
+Figure A3.30. F-16 C/D Block 25, 30, 32 Landing. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+86 
+ 
+Figure A3.31. F-16 C/D Block 25, 30, 32 Landing – Arrestment. 
+ 
+ 
+Note:  This chart reflects an 801 ft maximum runout for an arrestment landing. 
+Current maximum runout is 1,200 ft, which requires adding an additional 399 ft 
+to arrestment landing operational length. 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+87 
+ 
+Figure A3.32. F-16 C/D Block 25, 30, 32 Evacuation. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+88 
+ 
+Figure A3.33. F-16 C/D Block 40, 42 Takeoff. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+89 
+ 
+Figure A3.34. F-16 C/D Block 40, 42 Landing. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+90 
+ 
+Figure A3.35. F-16 C/D Block 40, 42 Landing – Arrestment. 
+ 
+ 
+Note:  This chart reflects an 817 ft maximum runout for an arrestment landing. 
+Current maximum runout is 1,200 ft, which requires adding an additional 383 ft 
+to arrestment landing operational length. 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+91 
+ 
+Figure A3.36. F-16 C/D Block 40, 42 Evacuation. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+92 
+ 
+Figure A3.37. F-111 A/E Takeoff. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+93 
+ 
+Figure A3.38. F-111 A/E Landing –Wheel Braking. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+94 
+ 
+Figure A3.39. F-111 A/E Landing – Short Field. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+95 
+ 
+Figure A3.40. F-111 A/E Landing – Arrestment. 
+ 
+ 
+Note: This chart reflects a 1,014 ft maximum runout for an arrestment landing. 
+Current maximum runout is 1,200 ft, which requires adding an additional 186 ft 
+to arrestment landing operational length. 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+96 
+ 
+Figure A3.41. F-111 A/E Evacuation. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+97 
+ 
+Figure A3.42. C-5 B Takeoff. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+98 
+ 
+Figure A3.43. C-5 B Landing. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+99 
+ 
+Figure A3.44. C-130 E/H/B/J, AC-130, EC-130, HC-130, MC-130, WC-130, 
+E-2C, and P-3 Takeoff. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+100 
+ 
+Figure A3.45. C-130 E/H/B/J, AC-130, EC-130, HC-130, MC-130, WC-130, 
+KC-130, C-135, E-2C, and P-3 Landing. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+101 
+ 
+Figure A3.46. C-141 A/B Heavy Weight Takeoff. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+102 
+ 
+Figure A3.47. C-141 A/B Heavy Weight Landing. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+103 
+ 
+Chart A3.48. C-141 A/B Medium Weight Takeoff. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+104 
+ 
+Figure A3.49. C-141 A/B Medium Weight Landing. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+105 
+ 
+Figure A3.50. A-7 D Takeoff. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+106 
+ 
+Figure A3.51. A-7 D Landing. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+107 
+ 
+Figure A3.52. A-7 D Landing – Arrestment. 
+ 
+ 
+Note:  This chart reflects an 850 ft maximum runout for an arrestment landing. 
+Current maximum runout is 1,200 ft, which requires adding an additional 350 ft 
+to arrestment landing operational length. 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+108 
+ 
+Figure A3.53. A-7 D Evacuation. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+109 
+ 
+Figure A3.54. A-10 A, OA-10 Takeoff. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+110 
+ 
+Figure A3.55. A-10 A, OA-10 Landing. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+111 
+ 
+Figure A3.56. KC-135 R Heavy Weight Takeoff. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+112 
+ 
+Figure A3.57. KC-135 R Nominal Weight Takeoff. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+113 
+ 
+Figure A3.58. KC-135 R Landing. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+114 
+ 
+Figure A3.59. KC-10, KC-767 Heavy Weight Takeoff. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+115 
+ 
+Figure A3.60. KC-10, KC-767 Nominal Weight Takeoff. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+116 
+ 
+Figure A3.61. KC-10, KC-767 Landing. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+117 
+ 
+Figure A3.62. C-9 Heavy Weight Takeoff. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+118 
+ 
+Figure A3.63. C-9 Nominal Weight Takeoff. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+119 
+ 
+Figure A3.64. C-9 Landing. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+120 
+ 
+Figure A3.65. Disclaimer. 
+ 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+121 
+ 
+Figure A3.66. C-17, B-1, B-2 Heavy Weight Takeoff. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+122 
+ 
+Figure A3.67. C-17, B-1, B-2 Nominal Weight Takeoff. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+123 
+ 
+Figure A3.68. C-17, B-1, B-2, Heavy Weight Landing – Steep Approach. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+124 
+ 
+Figure A3.69. C-17, B-1, B-2 Heavy Weight Landing – Normal Approach. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+125 
+ 
+Figure A3.70. C-17, B-1, B-2 Nominal Weight Landing – Normal Approach. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+126 
+ 
+Figure A3.71. F-117 Heavy Weight Takeoff. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+127 
+ 
+Figure A3.72. F-117 Nominal Weight Takeoff. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+128 
+ 
+Figure A3.73. F-117 Light Weight Takeoff. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+129 
+ 
+Figure A3.74. F-117 Nominal Weight Landing – No Chute. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+130 
+ 
+Figure A3.75. F-117 Nominal Weight Landing – Chute. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+131 
+ 
+Figure A3.76. F-117 Heavy Weight Landing – No Chute. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+132 
+ 
+Figure A3.77. F-117 Heavy Weight Landing – Chute. 
+ 
+ 
+ 
+ 
+AFTTP3-32.12  3 MAY 2024 
+133 
+ 
+Attachment 4 
+ENGINEER REACHBACK AND OTHER USEFUL LINKS 
+Table A4.1. Useful Organizational and Product Links. 
+Organization and Products Links 
+Air Force Civil Engineer Center (AFCEC): https://www.afcec.af.mil/  
+CE DASH (AFCEC Technical Support Portal): 
+https://usaf.dps.mil/teams/CEDASH/scripts/homepage/home.aspx 
+CE Playbooks: https://www.ceplaybooks.com. 
+AFCEC Reachback Center: contact via email at AFCEC.RBC@us.af.mil 
+DAF Publications and Forms: https://www.e-publishing.af.mil/ 
+AF Design Guides (AFDG): https://www.wbdg.org/ffc/af-afcec 
+Whole Building Design Guide (WBDG): https://www.wbdg.org/ 
+US Army Corp of Engineers Official Publications, 
+http://www.publications.usace.army.mil/Home.aspx  
+Unified Facilities Criteria (UFC): 
+https://www.wbdg.org/ffc/dod/unified-facilities-criteria-ufc  
+Unified Facilities Guide Specifications (UFGS): 
+https://www.wbdg.org/ffc/dod/unified-facilities-guide-specifications-ufgs 
+USACE Reachback Operations Center (UROC): https://uroc.usace.army.mil 
+USACE Protective Design Center: 
+https://intelshare.intelink.gov/sites/pdc/SitePages/Home.aspx 
+Army Publications and Forms: https://armypubs.army.mil/  
+Navy Doctrine Library System: https://doctrine.navy.mil/ 
+DOD Issuances: https://www.esd.whs.mil/DD/DoD-Issuances/  
+Joint Publications: https://jdeis.js.mil/my.policy  
+ 

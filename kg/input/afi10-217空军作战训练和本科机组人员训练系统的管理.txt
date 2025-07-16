@@ -1,0 +1,1644 @@
+BY ORDER OF THE  
+SECRETARY OF THE AIR FORCE 
+ 
+AIR FORCE INSTRUCTION 10-217 
+22 DECEMBER 2023 
+Operations 
+MANAGEMENT OF AIR FORCE 
+OPERATIONAL TRAINING AND 
+UNDERGRADUATE AIRCREW 
+TRAINING SYSTEMS 
+COMPLIANCE WITH THIS PUBLICATION IS MANDATORY 
+ 
+ACCESSIBILITY:  Publications and forms are available on the e- Publishing website at 
+www.e-Publishing.af.mil for downloading or ordering. 
+RELEASABILITY:  There are no releasability restrictions on this publication. 
+ 
+ 
+OPR: AF/A3TI 
+Certified by: AF/A3T  
+(Major General Spain)
+Supersedes: 
+AFI16-1007, 1 October 2019 
+Pages: 43 
+ 
+ 
+This publication implements Department of the Air Force Policy Directive (DAFPD) 10-2, 
+Readiness. It provides guidance and procedures for managing, developing, and fielding operational 
+training and undergraduate aircrew training systems. This publication applies to all civilian 
+employees and uniformed members of the Regular Air Force, the Air Force Reserve Command 
+(AFRC), the Air National Guard (ANG), and those with a contractual obligation to abide by the 
+terms of United States Air Force (USAF) issuances.  This instruction does not apply to the United 
+States Space Force (USSF).  Conflicts between this instruction and Joint Program Office (JPO) 
+direction will be reconciled by the F-35 Integration Office (AF/IO), Air Combat Command (Lead 
+Command), and the JPO.  The authorities to waive wing, unit, delta, or garrison level requirements 
+in this publication are identified with a Tier number (“T-0, T-1, T- 2, T-3”) following the 
+compliance statement. Submit requests for waivers through the chain of command to the 
+appropriate Tier waiver approval authority, or alternately, through the chain of command to the 
+publication office of primary responsibility for non-tiered compliance items. Ensure all records 
+generated as a result of processes prescribed in this publication adhere to Air Force Instruction 
+(AFI) 33-322, Records Management and Information Governance Program, and are disposed in 
+accordance with (IAW) the Air Force Records Disposition Schedule, which is located in the Air 
+Force Records Information Management System.  Refer recommended changes and questions 
+about this publication to the office of primary responsibility using the Department of the Air Force 
+(DAF) Form 847, Recommendation for Change of Publication; route DAF Forms 847 from the 
+field through the appropriate functional chain of command.  Major commands (MAJCOM), field 
+2 
+AFI10-217  22 DECEMBER 2023 
+operating agencies, and direct reporting units may supplement this instruction after review and 
+coordination by AF/A3TI. 
+SUMMARY OF CHANGES 
+This document has been revised and needs to be completely reviewed.  It supersedes AFI16-1007; 
+1 October 2019. This revision reflects the activation of USSF as a service and removes the space 
+mission from the USAF; standardizes USAF to denote the Air Force service IAW Department of 
+the Air Force Manual (DAFMAN) 90-161, Publications Processes and Procedures. Tiering and 
+compliance statements are IAW Administrative Assistant to the Secretary of the Air Force 
+recommendations. It includes new or modified guidance on operational training, operational 
+training and undergraduate aircrew training systems, training system responsibilities and 
+management, and reporting on training systems.  Changes include a category for Synthetic 
+Environment certification, institutes standards and criteria for capturing simulator utilization data 
+(see attachment 4), and includes unclassified threat matrix framework (TMF) information (see 
+attachment 6). 
+ 
+Chapter 1—GENERAL INFORMATION 
+ 
+4 
+1.1. 
+Purpose.....................................................................................................................  
+4 
+1.2. 
+Scope. .......................................................................................................................  
+4 
+1.3. 
+Operational Training Concepts. ...............................................................................  
+4 
+Chapter 2—ROLES AND RESPONSIBILITIES 
+ 
+6 
+2.1. 
+Assistant Secretary of the Air Force for Manpower and Reserve Affairs 
+(SAF/MR): ...............................................................................................................  
+6 
+2.2. 
+Assistant Secretary of the Air Force for Acquisition, Technology, and Logistics 
+(SAF/AQ): ...............................................................................................................  
+6 
+2.3. 
+Deputy Under Secretary of the Air Force, International Affairs (SAF/IA): ............  
+6 
+2.4. 
+Department of the Air Force Chief Information Officer (SAF/CN): .......................  
+6 
+2.5. 
+Department of the Air Force Chief Data and Artificial Intelligence Officer 
+(SAF/CND): .............................................................................................................  
+6 
+2.6. 
+Department of the Air Force Chief Modeling and Simulation Officer 
+(SAF/CMSO): ..........................................................................................................  
+6 
+2.7. 
+Deputy Chief of Staff, Manpower, Personnel, and Services (AF/A1): ....................  
+6 
+2.8. 
+Deputy Chief of Staff, Intelligence, Surveillance, Reconnaissance (ISR), and 
+Cyber Effects Operations (AF/A2/6): ......................................................................  
+6 
+2.9. 
+Deputy Chief of Staff, Operations (AF/A3) will: ....................................................  
+6 
+2.10. 
+Chief, Operational Training Infrastructure Division (AF/A3TI) will: .....................  
+7 
+2.11. 
+Commander, Air Force Modeling and Simulation Agency (AFAMS) will: ...........  
+8 
+2.12. 
+Lead Commands Will: .............................................................................................  
+8 
+AFI10-217  22 DECEMBER 2023 
+3 
+2.13. 
+Using Commands will: ............................................................................................  
+13 
+2.14. 
+MAJCOMs, National Guard Bureau, Direct Reporting Units, and Field Operating 
+Agencies will: ..........................................................................................................  
+13 
+2.15. 
+Training Planning Team (TPT) will: .......................................................................  
+15 
+2.16. 
+Training System Support Center (TSSC). ...............................................................  
+16 
+2.17. 
+Host Unit. .................................................................................................................  
+16 
+Chapter 3—PLANNING AND REPORTING REQUIREMENTS 
+ 
+17 
+3.1. 
+Advocacy. ................................................................................................................  
+17 
+3.2. 
+Planning. ..................................................................................................................  
+17 
+3.3. 
+Reporting. ................................................................................................................  
+17 
+Attachment 1—GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+18 
+Attachment 2—TRAINING SYSTEMS REQUIREMENTS ANALYSIS 
+ 
+28 
+Attachment 3—SYSTEM TRAINING PLAN 
+ 
+30 
+Attachment 4—TRAINING SYSTEM METRICS 
+ 
+37 
+Attachment 5—TRAINING SYSTEM SIMULATOR AND SYNTHETIC ENVIRONMENT 
+CERTIFICATION AND SIMULATOR VALIDATION 
+ 
+39 
+Attachment 6—THREAT MATRIX FRAMEWORK (TMF) 
+ 
+42 
+ 
+4 
+AFI10-217  22 DECEMBER 2023 
+Chapter 1 
+GENERAL INFORMATION 
+1.1.  Purpose.  This instruction provides guidance, identifies organizational responsibilities, and 
+describes processes for managing USAF operational training systems and undergraduate aircrew 
+training systems. 
+1.2.  Scope.  The following operational training systems and associated training devices are 
+covered by this AFI: 
+1.2.1.  Aircrew training systems: Includes aeromedical evacuation, physiological training, and 
+undergraduate aircrew training systems. 
+1.2.2.  Missile procedures training systems: Includes missile   procedures trainers, minuteman 
+enhanced procedures trainers, airborne procedures trainers, and countdown procedures 
+trainers. 
+1.2.3.  Cyberspace training systems. 
+1.2.4.  Mission system training systems: Includes Joint Terminal Attack Controller (JTAC), 
+Air Support Operations Center, Control and Reporting Center, Air Operations Center (AOC), 
+Air Traffic Control, and those systems which are not considered aircrew training, Cyberspace 
+training, or missile procedures training systems. 
+1.3.  Operational Training Concepts. 
+1.3.1.  Live (real people operating real weapon systems), virtual (real people operating 
+simulated systems), and constructive (computer generated entities) are foundational domains 
+for operational training.  Live, synthetic, and blended training environments are defined by 
+their use of live, virtual, and/or constructive capabilities.  Live training environments can 
+include either virtual or constructive assets. Synthetic training environments include virtual 
+and/or constructive capabilities, and may be in a networked or non-networked environment. 
+When live and synthetic environments are combined, the training environment is blended. 
+1.3.2.  The Operational Training Infrastructure (OTI) framework tailors a balanced mix of 
+capabilities to create the most affordable and effective training environments for warfighters 
+with the intent of maximizing readiness. The OTI framework includes live ranges, threat 
+emitters, aggressors, networks, training centers, and multi-domain command and control 
+training systems. 
+1.3.3.  Effective operational training includes an efficient balance of live and synthetic 
+approaches. Synthetic training solutions should be used to replace or augment live training to 
+the maximum extent practicable where training effectiveness and readiness are not 
+compromised, recognizing that some live training events cannot or should not be replaced by 
+synthetic training. 
+1.3.4.  The Operational Training and Test Infrastructure (OTTI) framework consists of the 
+resources essential to accomplishing USAF operational training and testing (which includes 
+both operational and developmental test) objectives.  This encompasses such elements as 
+embedded training and testing capabilities, operational training systems, airspace, ranges and 
+off-range lands, scoring and feedback systems, targets, pods/instrumentation/weapon system 
+AFI10-217  22 DECEMBER 2023 
+5 
+interface devices, aggressors/contract air support, threat environment generators, networks, 
+synthetic environments, operational training centers, workforce, and cybersecurity.  OTI is 
+therefore a sub-set of OTTI and the focus of this AFI. 
+1.3.5.  The TMF provides measurable criteria to apply to development of an integrated, 
+interoperable, and scalable architecture that enables tailored and adjustable threat 
+environments (expanded information on TMF levels is contained in attachment 6). 
+6 
+AFI10-217  22 DECEMBER 2023 
+Chapter 2 
+ROLES AND RESPONSIBILITIES 
+2.1.  Assistant Secretary of the Air Force for Manpower and Reserve Affairs 
+(SAF/MR):  Responsible for military training policy matters. 
+2.2.  Assistant Secretary of the Air Force for Acquisition, Technology, and Logistics 
+(SAF/AQ):  Serves as the Air Force Service Acquisition Executive for all USAF programs and 
+oversees all related acquisition programs through the Program Executive Officers. The program 
+executive officers directly influence OTI through the acquisition and sustainment of training 
+systems for USAF warfighters and the USAF’s undergraduate aircrew training enterprise. 
+2.3.  Deputy Under Secretary of the Air Force, International Affairs (SAF/IA):  Coordinates 
+on policy for international training partners to gain access to USAF OTI and events and provides 
+release authority for classified and unclassified information to foreign training partners. 
+2.4.  Department of the Air Force Chief Information Officer (SAF/CN):  Develops, 
+coordinates, and executes USAF information technology policy, strategy, guidance, and oversight 
+for the management of data, information technology systems, and communication networks IAW 
+applicable Office of the Secretary of Defense guidance and DAF 17- & 33-series publications. 
+Chief Information Officer oversight of non-sensitive compartmented information (SCI) networks 
+provides an essential infrastructure capability for distributed operational training by joining distant 
+and disparate training audiences.  Approve the Authorizing Official for operational training 
+systems. 
+2.5.  Department of the Air Force Chief Data and Artificial Intelligence Officer 
+(SAF/CND):  Develops, coordinates, and executes USAF data and artificial intelligence policy, 
+strategy, guidance, and oversight of USAF data management. 
+2.6.  Department 
+of 
+the 
+Air 
+Force 
+Chief 
+Modeling 
+and 
+Simulation 
+Officer 
+(SAF/CMSO):  Provides policy, guidance, and oversight for DAF’s modeling and simulation 
+communities. 
+2.7.  Deputy Chief of Staff, Manpower, Personnel, and Services (AF/A1):  Develops, 
+coordinates, and executes personnel policy and essential procedural guidance for military training 
+(non-flying) programs. 
+2.8.  Deputy Chief of Staff, Intelligence, Surveillance, Reconnaissance (ISR), and Cyber 
+Effects Operations (AF/A2/6):  Develops, coordinates, and executes USAF Intelligence 
+Community information technology policy, strategy, guidance, and oversight for the management 
+of ISR data, SCI ISR networks, and cyber effects operations IAW applicable Office of the Director 
+of National Intelligence guidance and DAF 14-series and 17-series publications. 
+2.9.  Deputy Chief of Staff, Operations (AF/A3) will: 
+2.9.1.  Nominate an Authorizing Official for Operational Training systems to SAF/CN for 
+appointment IAW Department of Defense Instruction (DoDI) 8510.01, Risk Management 
+Framework (RMF) for DoD Information Technology (IT). The Authorizing Official will be a 
+general officer or senior executive service civilian. Authorizing Official responsibilities will 
+be specifically limited to the IT portion of training devices, training aids, models, environment 
+generators, ranges, and systems. The Authorizing Official will designate and ensure the AF/A3 
+AFI10-217  22 DECEMBER 2023 
+7 
+is manned to provide a Security Control Assessor (SCA) and associated SCA Representatives. 
+The SCA is the senior official with the authority and responsibility for the certification of 
+assigned or applicable USAF-governed OTI systems and platform information technology 
+systems.  The SCA will work with Air Combat Command Communications Directorate 
+(ACC/A6) for certification for any Operational Training systems that connect to the Air Force 
+Integrated Telecommunications Network.  The SCA and SCA Representatives will report to 
+the Authorizing Official. 
+2.9.2.  Act as the training funding advocate for aircrew training systems, missile training 
+systems, cyber training systems, and mission system training systems. 
+2.9.3.  Establish policy and guidance for OTI. 
+2.10.  Chief, Operational Training Infrastructure Division (AF/A3TI) will: 
+2.10.1.  Synchronize operational training system and undergraduate aircrew training system 
+requirements and acquisition strategies with appropriate Secretary of the Air Force (SAF), Air 
+Staff, industry, and program executive officer organizations. 
+2.10.2.  Advocate for operational training systems and undergraduate aircrew training system 
+funding and requirements at SAF, Air Staff, Military Departments, Interagency, and Multi-
+national processes IAW Air Force Policy Directive (AFPD) 10-6, Capability Requirements 
+Development. 
+2.10.3.  Consolidate operational training system and undergraduate aircrew training system 
+funding information from Air Staff functional managers and Program Element Monitors to 
+track USAF-wide operational training system funding status. 
+2.10.4.  Monitor and attend program management reviews, technical interchange meetings, 
+standards working groups, and other training or readiness forums to ensure adherence to 
+established operational training policy and guidance. 
+2.10.5.  Establish policy to ensure sharing of government-owned data, databases, modeling and 
+simulation solutions, and other capabilities to reduce or prevent redundant efforts. 
+2.10.6.  Synchronize MAJCOM efforts to minimize multiple independent USAF networks. 
+2.10.7.  Appoint a training system manager to oversee management of operational training 
+systems and undergraduate aircrew training systems. 
+2.10.7.1.  The training system manager will interface with subject matter experts (SME) 
+across MAJCOMs, total force, joint, and coalition on operational training systems and 
+undergraduate aircrew training systems. Further, the training system manager will analyze 
+MAJCOM reports to provide advocacy to the corporate process. 
+2.10.7.2.  Training system manager will champion the resourcing of concurrency, fidelity, 
+and connectivity of operational training systems and undergraduate aircrew training 
+systems. The training system manager will conduct annual data calls to assess the health 
+of the USAF training system enterprise. 
+2.10.8.  Advocate for OTI requirements, technology, and planning throughout the Joint 
+Capabilities Integration and Development System (JCIDS) IAW Chairman of the Joint  Chiefs 
+of Staff Instruction (CJCSI) 5123.01I, Charter of the Joint Requirements Oversight Council 
+8 
+AFI10-217  22 DECEMBER 2023 
+(JROC) and Implementation of the Joint Capabilities Integration and Development System, 
+and AFI 10-601, Operational Capability Requirements Documentation and Validation. 
+2.10.9.  As co-chair of the OTTI Capability Development Team, advocate for the broader 
+OTTI requirements (see paragraph 1.3.4.) and synchronize overlapping developmental and 
+operational test requirements with Capability Development Team co-chair, Air Force Test and 
+Evaluation Programs and Policy (AF/TEP). 
+2.11.  Commander, Air Force Modeling and Simulation Agency (AFAMS) will: 
+2.11.1.  Develop capability-based modeling and simulation (M&S) requirements in support of 
+Training and Readiness. 
+2.11.2.  Oversee all components of the Air, Space, and Cyberspace Constructive Environment, 
+as well as follow-on efforts.  This includes providing oversight of user test and integration 
+efforts. 
+2.11.3.  Monitor and attend program management reviews, technical interchange meetings, 
+standards working groups, and other training or readiness forums to champion transformation 
+capabilities. 
+2.11.4.  Synchronize MAJCOM efforts to ensure sharing of government-owned datasets, 
+databases, modeling and simulation solutions, and other capabilities to reduce or prevent 
+redundant efforts. 
+2.11.5.  Provide support to the SAF/CN-designated OTTI Authorizing Official for Risk 
+Management Framework assessments and authorizations. 
+2.12.  Lead Commands Will: 
+2.12.1.  Establish training system management structures to holistically plan, fund, and 
+manage training systems and associated distributed training capabilities (for example, 
+distributed mission operations (DMO)) as part of an OTI framework, to include ensuring 
+training system requirements are included in the Air Force Corporate Structure program 
+objective memorandum process.  Lead commands will ensure the major weapon system or 
+prime mission system will not be modified or upgraded unless funding is sufficient to also 
+modify/upgrade all impacted aspects of the operational training system or undergraduate 
+aircrew training system IAW DAFPD 10-9, Lead Command/Lead Agent Designation and 
+Responsibilities for United States Air Force Weapon Systems, Non-Weapon Systems, and 
+Activities.   
+2.12.2.  Manage training requirements by: 
+2.12.2.1.  Establishing aircrew, mission, missile, and cyberspace crew training 
+requirements and document in system training plans (STP) and/or concept documents.  The 
+STP is an iterative planning document that defines the justification, design, development, 
+funding, resources, support, modification, operation, and management of a training system. 
+For fielded systems, the STP may be a stand-alone document, or it may be referenced and 
+summarized in the Life Cycle Sustainment Plan or other Human Systems Integration 
+documents. All references to the STP in this document incorporate the possibility that the 
+intended documentation may be part of a Life Cycle Sustainment Plan or Human Systems 
+Integration documents. Training considerations prior to fielding will be addressed in 
+coordination with the prime mission system/weapons system platform or separate training 
+AFI10-217  22 DECEMBER 2023 
+9 
+system program manager.  Expanded information on the STP is contained in attachment 
+3. 
+2.12.2.2.  Defining training system life cycle (development through sustainment) 
+requirements IAW AFPD 63-1/20-1, Integrated Life Cycle Management. 
+2.12.2.3.  Establishing training system standards, tasks, and requirements in coordination 
+with Air Force career field managers, functional area managers, MAJCOM functional 
+managers, training pipeline managers, and Air Education and Training Command (AETC) 
+training managers, when applicable, IAW DAFMAN 36-2689, Training Program. 
+2.12.2.4.  Setting requirements for, and leading training system requirements analysis 
+(TSRA) and STP development and execution, in coordination with Air Force Life Cycle 
+Management Center (AFLCMC), AETC, and using commands, as warranted. 
+2.12.2.5.  Conducting TSRAs, in coordination with using commands, through the prime 
+mission system program office, Training System Program Office (SPO), acquisition 
+program office, or AETC.  The TSRA process is designed to derive and allocate training 
+requirements from user identified operational needs.  A TSRA integrates the products of 
+the instructional system development process and the systems engineering process to 
+describe the training system to be procured. The TSRA process results in a written record 
+of the compilation and distillation of four complementary elements, including the mission-
+task analysis, training requirements analysis, media analysis, and the training systems basis 
+analysis.  Review standing TSRAs every 5 years, or sooner if changes to the system or 
+training environment dictates, to determine if TSRA modifications are required.  The lead 
+command makes final decision on whether a TSRA update or modification will be 
+undertaken.  Expanded information on the TSRA is contained in attachment 2 of this AFI. 
+2.12.2.6.  Maintaining prime mission system requirements, including those validated 
+through the JCIDS process. 
+2.12.2.7.  Reviewing prime mission system, product group, and MAJCOM standards 
+impacting training system requirements, annually. 
+2.12.2.8.  Prioritizing requirements using USAF-approved criteria following Air Force 
+Materiel Command (AFMC) procedures as defined in Air Force Manual (AFMAN) 63-
+143, Centralized Asset Management Procedures. 
+2.12.2.9.  Establishing MAJCOM policy and requirements that reflect the sharing, 
+validation, and reuse of visual (image generator), computer generated forces (CGF) 
+models, threat databases, weapons modeling, and associated databases, etc. to gain 
+efficiencies and enhance interoperability. 
+2.12.2.10.  Semi-annually report simulator utilization metrics on all contracted weapon 
+system platform training systems. Forward reports to AF/A3TI by 30 April for the prior 
+semi-annual period October through March and by 31 October for the prior semi-annual 
+period April through September. Reference attachment 4. 
+2.12.3.  Support using commands by: 
+2.12.3.1.  Assisting with development of command requirements and specifications. 
+10 
+AFI10-217  22 DECEMBER 2023 
+2.12.3.2.  Identifying the best mix of live and synthetic training capabilities (networked or 
+non-networked) to accomplish training requirements. 
+2.12.4.  Support prime mission system and training system program management by: 
+2.12.4.1.  Providing guidance and assistance to program managers in the development, 
+acquisition, and sustainment of training systems and associated distributed training 
+capabilities (for example, DMO). 
+2.12.4.2.  Ensuring the training system is available, network-capable, if applicable, and 
+compliant with required standards prior to fielding the prime mission system. 
+2.12.4.3.  Defining training system requirements for the prime mission system fielding 
+strategy. 
+2.12.4.4.  Notifying the training system program manager of weapon system modifications 
+to ensure training system concurrency. 
+2.12.4.5.  Coordinating with Air Force Operational Test and Evaluation Center or 
+MAJCOM operational test organizations to guide program managers on test or operational 
+issues for the acquisition and sustainment of training systems. 
+2.12.4.6.  Informing program managers of databases, models, and other enterprise 
+capabilities available to increase interoperability and reduce costs. 
+2.12.4.7.  Assessing approved Air Force Forms 1067, Modification Proposal, training 
+system impacts and budget estimate with the program manager before the modification 
+proceeds. 
+2.12.4.8.  Establishing and maintaining an administrative control process to record and 
+track evaluations of the training system, to include any simulator and synthetic 
+environment certification or simulator validation (see attachment 5). 
+2.12.4.9.  Providing information and assistance to the program manager for development 
+and modifications to the Systems Engineering Plan, Materiel Fielding Plan, Acquisition 
+Strategy, and other applicable acquisition documents to ensure operational training is 
+appropriately considered in the acquisition process. See AFPD 63-1/20-1, Integrated Life 
+Cycle Management, for additional guidance with respect to planning for training in the 
+acquisition process. 
+2.12.4.10.  Designating in writing an Information System Security Officer (ISSO) and 
+alternate to ensure cybersecurity compliance. 
+2.12.5.  Manage simulator and synthetic environment certification programs by: 
+2.12.5.1.  Coordinating with appropriate agencies (i.e., using command, AFLCMC and/or 
+product or materiel group) to establish simulator/synthetic environment certification 
+requirements based on training device complexity, desired level of creditable training 
+events, and industry accepted standards, such as Federal Aviation Administration 
+standards, to include training tasks, criteria, and certification interval. Simulator/synthetic 
+environment certifications examine fidelity and usability characteristics to support training 
+system accreditation and identify capabilities and limitations. Expanded information on 
+simulator/synthetic environment certification is contained in attachment 5 of this AFI. 
+AFI10-217  22 DECEMBER 2023 
+11 
+2.12.5.2.  Ensuring all system types receive simulator/synthetic environment certification 
+at least once every 48 months. Certification procedures and documentation will comply 
+with guidance in USAF 10-series and USAF 11-series publications and MAJCOM 
+guidance.  Ensuring simulator/synthetic environment certification procedures confirm that 
+enterprise standard solutions integrated into training systems comply with enterprise 
+standards (for example, motion or visual systems are current with enterprise standard for 
+that model). 
+2.12.5.3.  Allocating 
+and 
+providing 
+funding 
+to 
+accomplish 
+simulator/synthetic 
+environment certification actions. 
+2.12.5.4.  Designating a simulator/synthetic environment certification agent who will: 
+2.12.5.4.1.  Establish deadlines for initial certification of newly delivered devices, upon 
+fielding major modifications, or after relocation of devices. 
+2.12.5.4.2.  Perform a simulator/synthetic environment certification IAW lead 
+command or MAJCOM guidance. 
+2.12.5.4.3.  Document training system simulator/synthetic environment certification 
+status. Lead command guidance will be used to establish further procedures, processes, 
+and requirements. Resources for conducting training system simulator/synthetic 
+environment certification will be provided by the lead command. 
+2.12.5.4.4.  Provide simulator/synthetic environment certification results and the 
+accreditation recommendation to the lead command, or designated accreditation 
+proponent, for review. 
+2.12.5.5.  Responding to simulator/synthetic environment certification agent reports within 
+14 days, through a designated accreditation proponent if desired and appropriate. 
+2.12.6.  Manage simulator validation programs by: 
+2.12.6.1.  Being the validation authority and ensuring CGFs or human-in-the-loop (HITL) 
+for specific training systems are accredited. 
+2.12.6.2.  Establishing training system simulator validation requirements and evaluation 
+criteria based on training device complexity, desired TMF level of creditable training 
+events, and industry accepted standards such as Federal Aviation Administration standards, 
+to include training tasks, criteria, and simulator validation interval.  Training system 
+simulator validations compare a training device’s operating parameters and performance 
+to constructive interactions to ensure highest-fidelity training. Expanded information on 
+simulator validation is contained in attachment 5 of this AFI.  Expanded information on 
+TMF levels is contained in attachment 6. 
+2.12.6.3.  Being the validation proponent for training systems procured or sustained by the 
+respective lead command. 
+2.12.6.4.  Allocating and providing funding to accomplish simulator validation actions. 
+2.12.6.5.  Informing using commands about training system changes that will impact 
+accreditation and if a complete or partial simulator validation is required. 
+12 
+AFI10-217  22 DECEMBER 2023 
+2.12.6.6.  Using the training system simulator validation control process to record training 
+system simulator validation results related to CGF configurations. 
+2.12.6.7.  Reviewing the results of simulator validations and ensure CGF accreditation for 
+the specific training system. 
+2.12.6.8.  Designating a simulator validation agent.  The agent will perform validations as 
+directed by the lead command and provide results to the lead command for accreditation 
+approval. 
+2.12.6.9.  Ensuring all training system types (flight, mission, part-task, etc.) receive 
+simulator validation at least once every 48 months. Validation procedures and 
+documentation will comply with guidance in USAF 16-series and USAF 10-series 
+publications. 
+2.12.7.  Manage training system use, distribution, and disposition. 
+2.12.8.  Provide resources required to obtain and maintain cybersecurity certification and 
+Authority to Operate, and Authority to Connect. 
+2.12.9.  Designate SMEs for the training system. 
+2.12.10.  Provide SME support for contract performance evaluations and government 
+acceptance testing. 
+2.12.11.  In coordination with the program manager and using command, provide 
+representation at source selections, technical reviews and audits, program management 
+reviews, technical interchange meetings, contract award conferences, training system working 
+groups, testing and logistics interchange meetings, and facility design and construction 
+meetings. 
+2.12.12.  Chair the Training Planning Team (TPT). 
+2.12.13.  Define the scope and support requirements of the Training System Support Center 
+(TSSC), as required. 
+2.12.14.  Develop, maintain, and review the STP for all lead-command major weapon systems. 
+2.12.15.  Ensure the training system is included in the major weapon system modification 
+budgeting profile, maintains concurrency, cybersecurity accreditation, addresses diminishing 
+manufacturing sources and material shortages, and complies with networked training and 
+synthetic environment integration standards. 
+2.12.16.  Ensure future aircraft operational training systems used for synthetic high-end 
+advanced tactics and training integrate with the Joint Simulation Environment (JSE). 
+2.12.17.  Accomplish biennial program reviews of each legacy training system used for high-
+end tactics and training to determine the appropriate degree of JSE integration.  At a minimum, 
+future modifications to legacy high-end training systems should consider JSE compatibility. 
+2.12.18.  Provide guidance to fund and provide Contracting Officer’s Representative (COR) 
+positions, on-site and on-call, for their assigned training enterprises.  The COR performs 
+oversight for the contracting officer. 
+AFI10-217  22 DECEMBER 2023 
+13 
+2.12.19.  Unit manning document billets generated to support a training system will remain 
+assigned to that system and will not be re-assigned to perform other purposes in the unit.  
+Personnel filling that billet may perform additional duties on a non-interference basis. 
+2.12.20.  Report training system data on all assigned weapon system platforms to the AF/A3TI 
+training system manager no later than 31 January (annually). Specific requirements will be 
+detailed in the AF/A3TI tasking message (see paragraph 3.3.1.). 
+2.12.21.  Take appropriate program objective memorandum actions to replace existing orphan 
+training systems before those training systems can no longer meet training needs due to 
+obsolescence or serviceability. 
+2.12.22.  Provide concepts of operation, force development concepts, operational roadmaps, 
+and applicable operations training requirements. 
+2.12.23.  Provide updates on training capabilities and infrastructure development which impact 
+training system planning. 
+2.12.24.  Implement a training device fleet flying hour program.  Provide “Available Hours 
+Contracted for Use” from Training System Metrics (Item C from Figure A4.1), which are 
+reported semi-annually to AF/A3TI, to AFLCMC on the same schedule for Operational Cost 
+per Training System Flying Hour calculations. 
+2.12.25.  Ensure safety requirements for training systems comply with DAFMAN 91-203, Air 
+Force Occupational Safety, Fire, and Health Standards. 
+2.13.  Using Commands will: 
+2.13.1.  Identify training and operational training system requirements to the lead command 
+for advocacy, programming, and funding. 
+2.13.2.  Designate in writing an ISSO and alternate to ensure cybersecurity compliance. 
+2.13.3.  Submit reporting information to the lead command as directed in this AFI. 
+2.13.4.  Identify technology gaps and operational requirements to the lead command to 
+facilitate sustainment support and identify trainer sustainment requirements in conjunction 
+with all mission design series and training system requirements.   
+2.13.5.  Assume lead command responsibilities for simulator/synthetic environment 
+certification and simulator validation when the operational training system is unique to a 
+respective using command.  Simulator/synthetic environment certification and simulator 
+validation procedures will comply with guidance in AFI 16-1001, Verification, Validation and 
+Accreditation (VV&A). 
+2.13.6.  Fund repairs on all command-unique training devices not associated with prime 
+mission systems, including obsolescent systems where training system parts are no longer 
+procurable or available through original equipment manufacturer. 
+2.14.  MAJCOMs, National Guard Bureau, Direct Reporting Units, and Field Operating 
+Agencies will:  Assume both using command and lead command responsibilities for training 
+systems developed or acquired by those commands to meet unique training needs. 
+2.14.1.  Air Education and Training Command (AETC) will: 
+14 
+AFI10-217  22 DECEMBER 2023 
+2.14.1.1.  Act as the USAF’s Executive Agent for formal, undergraduate training programs 
+technology and development, for which AETC is the lead command. 
+2.14.1.2.  Advocate for distributed training/remote instruction capabilities in formal 
+education and training under its command. 
+2.14.1.2.1.  Ensure training systems requirements are addressed from the start of the 
+program by membership on the TPTs with other system stakeholders as early in the 
+system concept as possible. 
+2.14.1.2.2.  Ensure AETC TPT participation directly supporting SME participation for 
+the development of the STP and TSRA. 
+2.14.1.2.3.  Establish a command position for training system requirements and 
+resources required to meet AETC’s training requirements. 
+2.14.1.2.4.  Establish AETC TPT support teams to develop, support, and maintain each 
+training system. 
+2.14.1.2.5.  Monitor new acquisitions, modifications, or changes to the weapon system 
+managed by the acquisition SPO that affect training systems and equipment. These 
+SPO activities include fielded training systems that require the development of 
+requirements documents IAW AFI 10-601. 
+2.14.1.3.  Provide advice and expertise to the lead command, program manager, and TPTs. 
+2.14.1.4.  Perform TSRAs, when requested by the lead command, in coordination with the 
+TPT. 
+2.14.1.5.  Semi-annually report simulator utilization metrics on all contracted 
+undergraduate aircrew training systems.  Forward reports to AF/A3TI by 30 April for the 
+prior semi-annual period October through March and by 31 October for the prior semi-
+annual period April through September. Reference Attachment 4. 
+2.14.1.6.  Accomplish simulator/synthetic environment certification of undergraduate 
+training aircraft simulators IAW paragraph 2.12.5 and attachment 5. 
+2.14.1.7.  Report training system data on all assigned undergraduate aircrew platforms to 
+the AF/A3TI training system manager no later than 31 January (annually).  Specific 
+requirements will be detailed in the AF/A3TI tasking message (see paragraph 3.3.1.). 
+2.14.2.  Air Force Materiel Command (AFMC) will: 
+2.14.2.1.  Coordinate lead command and prime mission system program offices’ training 
+system requirements and solutions.   Provide support to SPOs responsible for training 
+system acquisition and sustainment through the parent prime mission systems program 
+office(s) and/or AFLCMC. 
+2.14.2.2.  With AFLCMC and Air Force Research Laboratory (AFRL) Warfighter 
+Readiness Research Division, provide technical support to AF/A3TI. 
+2.14.2.3.  Manage sustainment fund programming and allocation through AFMC 
+centralized asset management. 
+AFI10-217  22 DECEMBER 2023 
+15 
+2.14.2.4.  Ensure prime mission system modification development in tandem with the 
+training system to ensure concurrency. 
+2.14.3.  Air Force Life Cycle Management Center (AFLCMC) will: 
+2.14.3.1.  Perform training system contract management, support (including TSSC 
+establishment), relocation, and disposition activities. 
+2.14.3.2.  Host an All-Command simulator/training device summit to review training 
+system status and discuss lessons learned, potential program synergies, training 
+opportunities, advocacy issues, and future technology needs.  Consider holding the summit 
+in conjunction with a training system industry day. 
+2.14.3.3.  Through the simulator SPO, acquisition program office, or AETC, and in 
+coordination with the lead command, conduct TSRAs. 
+2.14.3.4.  Assume 
+Planning, 
+Programming, 
+Budgeting, 
+and 
+Execution 
+System 
+responsibility for active contractor logistics support, and operations and maintenance. 
+2.14.3.5.  Provide programmed contractor logistics support to all fielded operational 
+training systems, including programs of record and interim devices. 
+2.14.3.6.  Lead training system research and development and develop or assist with use 
+case demonstrations and training program and exercise integration. 
+2.14.3.7.  Work with Lead MAJCOMs to ensure training systems comply with architecture 
+standards and maintain common interfaces for integration into high-end synthetic 
+environments to support large force events. 
+2.14.3.8.  Support 
+JCIDS 
+documentation 
+and 
+supporting 
+analyses, 
+technical 
+documentation and validation regarding training efforts, and training system and support 
+service integration and procurement. 
+2.14.3.9.  Ensure the ISSO assists the Program Management Office-appointed Information 
+System Security Manager to complete Risk Management Framework Assessment and 
+Authorization packages and serve as the focal point for cybersecurity compliance involving 
+networked (for example, DMO) and non-networked activities. 
+2.14.3.10.  Provide resources required to obtain and maintain cybersecurity certification 
+and Authority to Operate. 
+2.14.3.11.  Capture Operations & Support costs from current contracts to the extent 
+practical.  Establish and maintain a methodology for Materiel Leaders and Lead Commands 
+to jointly report annual Operational Cost per Training System Flying Hours by training 
+device fleet. 
+2.15.  Training Planning Team (TPT) will: 
+2.15.1.  Develop the STP after the TSRA is completed. 
+2.15.2.  Provide guidance on master task list content, as warranted. 
+2.15.3.  Use the STP to ensure training considerations are adequately addressed in the prime 
+mission system acquisition and modification processes.  The STP is an iterative planning 
+document that defines the justification, design, development, funding, resources, support, 
+16 
+AFI10-217  22 DECEMBER 2023 
+modification, operation, and management of an operational training system. The STP also 
+provides instructional considerations and usage to maximize use as an effective educational 
+tool.  Expanded information on the STP is contained in Attachment 3 of this AFI. 
+2.16.  Training System Support Center (TSSC).  The TSSC will provide configuration 
+management functions, engineering development, feasibility studies, life cycle hardware, 
+software, and courseware support for the operational training system. 
+2.17.  Host Unit.  The host unit (the unit with primary responsibility for the systems) will: 
+2.17.1.  Provide guidance for the unit’s training system and assign personnel for COR duty, 
+on-site and on-call, for their assigned training system. (T-2) 
+2.17.2.  Fund travel for training system training and COR certification training. (T-2) 
+2.17.3.  Provide personnel to support training system testing. (T-2) 
+2.17.4.  Maintain training system simulator utilization records and report utilization data to 
+lead command monthly (supports lead command requirement to report simulator utilization 
+data IAW paragraph 2.12.2.10 and attachment 4). (T-2) 
+2.17.5.  Debrief maintenance technicians after each training period and provide documentation 
+of  all discrepancies in the method prescribed by the system sustainment plan or contract. (T-2)  
+Missile procedures training device discrepancy forms may be developed locally. 
+2.17.6.  Ensure the ISSO assists the Program Management Office-appointed Information 
+System Security Manager to complete Risk Management Framework Assessment and 
+Authorization packages and serve as the focal point for cybersecurity compliance involving 
+networked (for example, DMO) and non-networked activities. (T-0) 
+2.17.7.  Ensure local communications support for distributed training capabilities. (T-2) 
+2.17.8.  Secure training system facilities to the extent necessary to allow for required classified 
+training. (T-2) 
+2.17.9.  Ensure facilities are accredited and maintain security accreditation for the 
+simulator/training device and training operations hosted within the facility. 
+AFI10-217  22 DECEMBER 2023 
+17 
+Chapter 3 
+PLANNING AND REPORTING REQUIREMENTS 
+3.1.  Advocacy.  AF/A3TI supports readiness by ensuring OTI addresses training requirements 
+balanced with affordability. Training system status information from the field is used to advocate 
+in support of OTI capabilities and readiness. 
+3.2.  Planning.  Lead commands accomplish training system planning to ensure training 
+requirements are met and adjusted over time for changes that occur. The process evaluates training 
+system requirements against current and projected training system capabilities to identify 
+shortfalls, and then to guide sustainable development to mitigate these shortfalls. This process 
+results in lead command plans for training systems that are formulated and updated on a recurring 
+basis. 
+3.2.1.  Lead commands will ensure that all appropriate forums consider all training systems. 
+(T-1) 
+3.2.2.  As a minimum, operational training systems will be included in all training review 
+activities. (T-1) Undergraduate aircrew training systems should be included in all 
+undergraduate training review activities.  Training review boards and Weapons and Tactics 
+Conferences are leveraged to maximize the quality of unit training and convene (usually 
+annually) to update training events, frequency, and standards. 
+3.2.3.  When training roadmaps are updated, lead commands will ensure the updated 
+documents are delivered to AF/A3TI. (T-1)  Roadmaps should include training systems 
+location, prime mission, training system modifications over the next 5 years, and known 
+shortfalls or funding disconnects. 
+3.3.  Reporting. 
+3.3.1.  AF/A3TI will conduct one data call per year to gather detailed information on the 
+training system enterprise; specific requirements will be detailed in the tasking message. 
+AF/A3 will use the data collected to assess the synthetic training enterprise against established 
+OTI metrics based on the TMF (expanded information on TMF levels is contained in 
+Attachment 6). 
+3.3.2.  MAJCOMs will semi-annually report simulator utilization metrics as prescribed in 
+paragraph 2.12.2.10., paragraph 2.14.1.5, and in attachment 4. (T-1) 
+ 
+JAMES C. SLIFE 
+Lieutenant General, United States Air Force 
+Deputy Chief of Staff, Operations 
+18 
+AFI10-217  22 DECEMBER 2023 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+CJCSI 5123.01I, Charter of the Joint Requirements Oversight Council and Implementation of the 
+Joint Capabilities Integration and Development System, 30 October 2021 
+DoDI 5000.02, Operation of the Adaptive Acquisition Framework, 23 January 2020, Change 1, 8 
+June 2022 
+DoDI 8510.01, Risk Management Framework (RMF) for DoD Information Technology (IT), 19 
+July 2022 
+DAFPD 10-2, Readiness, 20 May 2021 
+DAFPD 10-9, Lead Command/Lead Agent Designation and Responsibilities for United States 
+Air Force Weapon Systems, Non-Weapon Systems, and Activities, 25 May 2021 
+DAFMAN 36-2689, Training Program, 31 March 2023 
+DAFMAN 90-161, Publications Processes and Procedures, 18 October 2023 
+DAFMAN 91-203, Air Force Occupational Safety Fire and Health Standards, 25 March 2022 
+AFPD 10-6, Capability Requirements Development, 6 November 2013 
+AFPD 63-1/20-1, Integrated Life Cycle Management, 7 August 2018 
+AFI 10-601, Operational Capability Requirements Documentation and Validation, 27 April 
+2021 
+AFI 16-1001, Verification, Validation and Accreditation (VV&A), 29 April 2020 
+AFI 33-322, Records Management and Information Governance Program, 23 Mar 2020 
+AFMAN 63-143, Centralized Asset Management Procedures, 18 December 2020 
+Adopted Forms 
+AF Form 1067, Modification Proposal 
+DAF Form 847, Recommendation for Change of Publication 
+Abbreviations and Acronyms 
+AETC—Air Education and Training Command 
+AFI—Air Force Instruction 
+AFMAN—Air Force Manual 
+AFMC—Air Force Materiel Command 
+AFPD—Air Force Policy Directive 
+AFRL—Air Force Research Laboratory 
+AFLCMC—Air Force Life Cycle Management Center 
+AFI10-217  22 DECEMBER 2023 
+19 
+AFRC—Air Force Reserve Command 
+ANG—Air National Guard 
+AOC—Air Operations Center 
+CGF—Computer Generated Forces 
+COR—Contracting Officer’s Representative 
+DAF—Department of the Air Force 
+DAFMAN—Department of the Air Force Manual 
+DAFI—Department of the Air Force Instruction 
+DAFPD—Department of the Air Force Policy Directive 
+DoDI—Department of Defense Instruction 
+DMO—Distributed Mission Operations 
+ESOH—Environment, Safety, and Occupational Health 
+HITL—Human-In-The-Loop 
+IAW—In Accordance With 
+ISR—Intelligence, Surveillance and Reconnaissance 
+ISSO—Information System Security Officer 
+IT—Information Technology 
+JCIDS—Joint Capabilities Integration and Development System 
+JPO—Joint Program Office 
+JSE—Joint Simulation Environment 
+JTAC—Joint Terminal Attack Controller 
+OTI—Operational Training Infrastructure 
+OTTI—Operational Training and Test Infrastructure 
+MAJCOM—Major Command 
+M&S—Modeling and Simulation 
+MDS—Mission Design Series 
+PESHE—Programmatic Environment, Safety, and Occupational Health Evaluation 
+SAF—Secretary of the Air Force 
+SCA—Security Control Assessor 
+SCI—Sensitive Compartmented Information 
+SME—Subject Matter Expert 
+SPO—System Program Office 
+20 
+AFI10-217  22 DECEMBER 2023 
+STP—System Training Plan 
+TPT—Training Planning Team 
+TMF—Threat Matrix Framework 
+TSRA—Training System Requirements Analysis 
+TSSC—Training System Support Center 
+USAF—United States Air Force 
+USSF—United States Space Force 
+Office Symbols 
+ACC/A6—Air Combat Command Communications Directorate 
+AF/A1—Deputy Chief of Staff, Manpower, Personnel, and Services 
+AF/A2/6—Deputy Chief of Staff, Intelligence, Surveillance, Reconnaissance, and Cyber Effects 
+Operations 
+AF/A3—Deputy Chief of Staff, Operations 
+AF/A3T—Training and Readiness Directorate 
+AF/A3TI—Chief, Operational Training Infrastructure Division 
+AF/IO—F-35 Integration Office 
+AF/TEP—Air Force Test and Evaluation Programs and Policy 
+AFAMS—Air Force Agency for Modeling and Simulation 
+SAF/AQ—Assistant Secretary of the Air Force for Acquisition, Technology, and Logistics 
+SAF/IA—Deputy Under Secretary of the Air Force, International Affairs 
+SAF/MR—Assistant Secretary of the Air Force for Manpower and Reserve Affairs 
+SAF/CMSO—Department of the Air Force Chief Modeling and Simulation Officer 
+SAF/CN—Department of the Air Force Chief Information Officer 
+SAF/CND—Department of the Air Force Chief Data and Artificial Intelligence Officer 
+Terms 
+Accreditation—Official determination that the operational training system is acceptable for the 
+specific training tasks or events to be accomplished in the device. 
+Air Force career field managers—Individuals appointed by their respective Headquarters Air 
+Force Deputy Chief of Staff or director to ensure development, implementation, and maintenance 
+of career field education and training plans for their assigned Air Force specialties. Air Force career 
+field managers communicate directly with MAJCOM functional manager, Air Reserve 
+Component, and AETC training pipeline manager to disseminate Air Force and career field 
+policies and program requirements. 
+AFI10-217  22 DECEMBER 2023 
+21 
+Aircrew training device—A training device used to prepare aircrew members for the actual 
+performance of aircrew duties. Aircrew training devices can include training devices such as: 
+cockpit familiarization trainers, cockpit procedures trainers, operational flight trainers, part task 
+trainers, fuselage trainer, boom-operator weapon system trainer, and weapon system trainers, just 
+to name a few. 
+Centralized asset management—AFMC’s Program Office process to develop and manage 
+programs using the following four main pillars: Centralized sustainment funding, logistics 
+requirements determination, performance-based logistics, and integrated wholesale supply and 
+depot maintenance operations. 
+Computer generated forces—A generic term used to refer to computer representations of forces 
+in models and simulations that attempts to model human behavior sufficiently so that the forces 
+will take some actions automatically (without requiring human-in-the-loop interaction). Types of 
+CGF include automated forces - CGFs that require little or no human interaction; semi-automated 
+forces - CGFs in which the individual platform simulation is operated by computer simulation of 
+the platform crew and command hierarchy. (IEEE 1278.3-1996) 
+Concurrency—The condition where the configuration and operation of the training system 
+matches the configuration and functionality of the reference prime mission system(s), to the extent 
+necessary to provide required training. For training devices, this condition includes the operational 
+[flight] program, mission software, weapons, hardware, and third-party systems that sufficiently 
+and accurately reflects the current configuration of the prime mission system(s) functionality. 
+Connectivity—The capability of connecting to secure networks to conduct local and long-haul 
+training with other players (shooters, command and control, Intelligence, Surveillance, and 
+Reconnaissance capabilities, and so forth), based at other locations including network training 
+centers (for example, distributed training centers). 
+Contractor logistics support—A support concept where a contractor is used to provide logistics 
+support for a system, subsystem, modification, or equipment. Contractor logistics support covers 
+activities equivalent to depot maintenance and, as negotiated with the using command, necessary 
+organizational and intermediate level maintenance, software support, and other operation and 
+maintenance tasks. 
+Contracting officer’s representative—An individual who is designated and authorized in writing 
+by the Contracting Officer to perform specific technical or administrative functions on contracts 
+or orders. This individual may perform the duties of a contractor logistics support Contracting 
+Officer’s Representative or a TSSC Contracting Officer’s Representative. 
+Courseware—All instructional material including technical data, textual materials, audio tapes, 
+slides, movies, video tapes, video discs, and other audiovisual materials. 
+Distributed mission operations—The networking of warfighter training that utilizes the 
+integration of virtual and constructive entities, systems, and environments via secure wide-area 
+network to acquire and sustain mission essential competencies required for operational readiness. 
+Distributed mission operations expand a unit’s training capabilities and resources to facilitate inter-
+team training among geographically separated and composite force teams to execute major weapon 
+system training tables, ready aircrew program activities, mission rehearsals, tactics, techniques, 
+and procedures training, and large force exercises. 
+22 
+AFI10-217  22 DECEMBER 2023 
+Distributed Training Center—A center for operational management of distributed training 
+activity and capabilities and a portal for connectivity with and/or management of training activity 
+with other entities. 
+Fidelity—The degree to which the synthetic environment (for example, visuals, databases, threats, 
+CGFs, weapons performance, aero modeling, and so forth) correctly represents the real-world 
+environment to the operator to accomplish mission training. Operational training models need to 
+support a high-fidelity simulation capability. Access to accurate and representative models and 
+simulation is crucial, and all entities should be available and simulated to the appropriate level of 
+detail.  The quality of models directly determines the quality of simulation products. 
+Formal training—Training in an officially designated course conducted or administered IAW 
+appropriate course outline and training objectives. 
+Full operational capability—The full attainment of the capability to effectively employ a weapon 
+system, item of equipment, or system of approved specific characteristics, which is manned and 
+operated by a trained, equipped, and supported military unit or force. Full operational capability is 
+not necessarily a date; it defines the criteria necessary to declare full operational capability. 
+High-end advanced tactics and training—The highest level of tactics development and training 
+that can be accomplished by a platform in a controlled venue (live, synthetic, and/or blended) to 
+meet its expected TMF level mission environment.  Normally, this is also the venue where  the 
+highest level of instructor training or operational readiness validation is accomplished.  This is also 
+where Tactics, Techniques, and Procedures (TTP) development or validation occurs for specific 
+platforms based upon their expected threat environments or new employment concepts. 
+Human in the loop simulation—A model type that requires human interaction during runtime. It 
+employs one or more human operators in direct control of the simulation/simulator or in some key 
+support function. Human-centered M&S is distinguished from science and process-based 
+simulations where human intervention and modeling does not occur. (DoD M&S Book of 
+Knowledge) 
+Human systems integration—The process of effective integration of manpower, personnel, 
+training, human factors, safety and occupational health, personal survivability, and habitability 
+considerations into the acquisition of prime mission systems to improve total system performance 
+and reduce costs by focusing attention on the capabilities and limitations of humans. 
+Initial operational capability—That first attainment of the capability to employ a weapon 
+effectively, item of equipment, or system of approved specific characteristics with the appropriate 
+number, type, and mix of trained and equipped personnel necessary to operate, maintain, and 
+support the system. It is normally defined in the capability development document. Note: initial 
+operational capability is event-driven and not tied to a specific future date. 
+Instructional system development—A deliberate and orderly process for planning and 
+developing instructional programs that make sure personnel are taught the knowledge, skills, and 
+attitudes essential for successful job performance. It depends on a description and analysis of the 
+tasks necessary for performing the job, objectives, and tests clearly stated before instruction 
+begins, evaluation procedures to determine whether the objectives have been reached, and methods 
+for revising the process based on empirical data. 
+AFI10-217  22 DECEMBER 2023 
+23 
+Interoperability—The ability of systems, units, or forces to provide data, information, materiel, 
+and services to, and accept the same from, other systems, units, or forces, and to use the data, 
+information, materiel, and services exchanged to enable them to operate effectively together. 
+Information Technology (IT) interoperability includes both the technical exchange of information 
+and the end-to-end operational effectiveness of that exchange of information as required for 
+mission accomplishment. Interoperability is more than just information exchange. It includes 
+systems, processes, procedures, organizations, and missions over the life cycle and must be 
+balanced with cybersecurity. 
+Lead command—The MAJCOM that is the primary operator of a system, subsystem, or item of 
+equipment. This designation generally applies to those operational commands or organizations 
+designated by Headquarters Air Force to conduct or participate in operations or operational testing 
+(see DAFPD 10-9). The USAF assigns responsibility for overall management of each system, 
+subsystem, or item of equipment to a lead command. The lead command contributes to the process 
+of developing and maintaining a force structure with a balance of complementary capabilities, and 
+it establishes a basis for rational allocation of scarce resources among competing requirements. 
+The lead command is responsible for advocating, programming, and allocating funding for those 
+systems assigned to it. 
+Mission-task analysis—A process of reviewing mission requirements, developing collective task 
+statements, and arranging the collective tasks in a hierarchical relationship. 
+Master task list—Documentation of total tasks that may be performed on a weapon system. These 
+lists may include the entire spectrum of tasks in each functional area (operations, maintenance, 
+and support). The master task list provides a task baseline enabling further analysis and the 
+formulation of formal training decisions. 
+Milestone A—An investment decision to pursue specific product or design concepts, and to 
+commit the resources required to mature technology and/or reduce any risks that must be mitigated 
+prior to decisions committing the resources needed for development leading to production and 
+fielding. 
+Mission system training device—A device that provides the trainees with a simulated warfare 
+environment that is specifically mission oriented to the type of prime mission system involved. 
+The device can provide specific prime mission system operator modes or a mission mode that 
+requires tactical decision-making. 
+Objectives/Media analysis—A process designed to identify all training objectives. It also 
+allocates and justifies instructional strategies, methods, and media for each training objective. The 
+objectives/media analysis defines training objectives in terms of conditions, required behavior, and 
+standards of acceptable performance. Defines a media analysis and selection process. Documents 
+the method/media trade process. Selects the method/media to be used and, with rationale, allocates 
+the training objectives. 
+Operational training—Mission-oriented training in support of operational forces readiness. It is 
+a crucial element of all the Air Force Service Core Functions.  It usually distinguishes itself from 
+initial skills training due to its focus on employment of a weapon system and skills in an 
+operational setting as opposed to learning the basic use of equipment or development of basic 
+skills.  Spans all domains and large scale (Tier 1) through small scale (Tier 4) events across the 
+breadth of multiple security levels and releasability restrictions. 
+24 
+AFI10-217  22 DECEMBER 2023 
+Operational training infrastructure—A framework that includes training systems, live ranges, 
+training devices, environment generators, threat emitters, aggressors, networks, training centers, 
+and multi-domain command and control training systems. 
+Operational training system—A systematically developed curriculum including, but not 
+necessarily limited to, courseware, classroom aids, training devices, operational equipment, 
+embedded training capability, and personnel to operate, maintain, or employ a system. The 
+operational training system includes all necessary elements of logistic support. 
+Orphan training system—Training devices/systems that are not supported by specific prime 
+mission system programs or part of existing training maintenance contracts. 
+Prime mission system (equipment)—Any weapon system, support system, workstation, or end- 
+item that supports a specific military mission, therefore requiring operations, maintenance, or 
+support personnel training. Also called a defense system or parent system. 
+Program manager—The designated individual with responsibility for, and authority to 
+accomplish, program objectives for development, production, and sustainment to meet the user’s 
+operational needs. The program manager has life cycle responsibility for the prime mission system. 
+Program manager duties include providing assessments of program status and risk to higher 
+authorities and to the operator or operator's representative; actively managing within approved 
+resources, program cost, performance, and schedule; and providing assessments of contractor 
+performance. Program managers report to SAF/AQ through the appropriate program executive 
+officer (even though they may be physically located within AFMC). 
+Ready aircrew program—MAJCOM program that defines the minimum required mix of annual 
+sorties, simulator missions, and training events aircrew must accomplish to sustain mission 
+readiness. 
+Simulation—A method for implementing computer generated entities over time. Also, a technique 
+for testing, analysis, or training in which real-world systems are used, or where real-world and 
+conceptual systems are prepared by a model. 
+Simulator—A training device that permits development and practice of the necessary skills for 
+accomplishing tasks to a prescribed standard of competency in a specific prime mission system 
+and duty position. 
+Simulator certification—The process of ensuring through validation of hardware and software 
+baselines, that a training system and its components provide accurate and credible training. The 
+process also ensures the device continues to perform to the delivered specifications, performance 
+criteria, and configuration levels. It also sets-up an audit trail regarding specification and baseline 
+data for compliance and subsequent contract solicitation or device modification. 
+Simulator validation—The process for (1) comparing a training device’s operating parameters 
+and performance to the current intelligence assessment of a prime mission system and threat and 
+interaction between the prime mission system and threat; and (2) documenting the differences and 
+impacts between the prime mission system’s performance and the threat environment. This process 
+includes generation and deployment of an intelligence data baseline of the system, comparison of 
+simulator characteristics and performance, support for the modification and upgrade of the 
+simulator, a comparison of simulator and threat operating procedures, and correction of any 
+AFI10-217  22 DECEMBER 2023 
+25 
+significant deficiencies. Uncorrected deficiencies are identified and published in validation 
+reports. The process continues throughout the life cycle of the simulator. 
+Synthetic environment—The integrated set of data elements that define the environment within 
+which a given simulation application operates.  The data elements include information about the 
+initial and subsequent states of the terrain including cultural features, and atmospheric and 
+oceanographic environments throughout an exercise.  The data elements include databases of 
+externally observable information about instantiable entities, and are adequately correlated for the 
+type of exercise to be performed.  More generally, it is the combination of simulators and 
+constructive environments. 
+Synthetic environment certification—The process of ensuring, through validation of software 
+baselines, physics-based attributes, constructive entities, and threat representation, that a synthetic 
+environment and its components provide accurate, credible, and operationally relevant interactions 
+to support training objectives.  The process also ensures the environment continues to perform to 
+the delivered specifications, performance criteria, and configuration levels.  It also sets up an audit 
+trail regarding specification and baseline data for compliance and subsequent contract solicitation 
+or environment modification. 
+System training plan—An iterative planning document that defines the justification, design, 
+development, funding, resources, support, modification, operation, and management of an 
+operational training system. The STP is designed to provide for planning and implementation of 
+training and to make sure all resources and supporting actions required for establishment and 
+support are considered. For fielded systems, the STP may be a stand-alone document, or it may be 
+referenced and summarized in the life cycle sustainment plan or other human systems integration 
+documents. All references to the STP in this AFI incorporate the possibility that the intended 
+documentation may be part of a life cycle sustainment plan or human systems integration 
+documents. Training considerations prior to fielding will be addressed in coordination with the 
+program manager. 
+Training—Instruction and applied exercises for the acquisition and retention of knowledge, skills, 
+and attitudes required to accomplish military tasks. 
+Training device—A device that permits learning, development, and the practice of skills and 
+procedures necessary for understanding and operating the integrated systems of a specific prime 
+mission system (Simulator is a subset of Training Device).  For AETC, a training device that 
+permits development and practice of the basic skills and tasks for completion of undergraduate 
+aircrew training to a prescribed standard of competency. 
+Training pipeline managers—Responsible for life cycle management (planning, directing, 
+implementing, and overseeing) formal training courses. This process begins with basic military 
+training and extends through advanced skills courses. Training pipeline managers administer and 
+execute MAJCOM level training management to include prioritizing and advocating training 
+resource requirements to the Air Staff. 
+Training planning team—An action group composed of representatives from all pertinent 
+functional areas, disciplines, and interests involved in the life cycle design, development, 
+acquisition, support, modification, funding, and management of a specific prime mission 
+operational training system. The TPT uses the STP to ensure training considerations are adequately 
+addressed in the prime mission system acquisition and modification processes. 
+26 
+AFI10-217  22 DECEMBER 2023 
+Training requirement—The knowledge, skills, and attitudes that are required for satisfying the 
+job performance requirements and are not already in the incoming students' repertoire. 
+Training requirements analysis—A process that allows for determination of training 
+requirements and allocation of proficiency level to resolve a performance deficiency. 
+Training system basis analysis—A process that analyzes the existing operational training 
+systems, training deficiencies, assess new training technology for potential application, evaluates 
+alternative training system concepts, system configurations, and recommend solutions. 
+Training system manager—Expert who works with USAF and industry training system 
+managers and SMEs to ensure training systems are adequately funded and properly provisioned to 
+support USAF operations training. 
+Training systems product group—An umbrella term to describe the USAF organizations to 
+include AFRL and AFLCMC that support warfighter and multinational partner training through 
+the use of modeling and simulation techniques. Collectively, the training systems product group 
+provides the warfighter with a full range of operational training system life cycle support. Key 
+capabilities include research and development; acquiring and/or sustaining training systems; 
+conducting contract training support to include TSRAs, student instruction, courseware 
+development and maintenance, training management systems, device operation and maintenance, 
+and on-site or on-call service; assistance; concurrency modifications; technology insertion 
+upgrades; multiple database sources; contractual vehicles for task orders; and disposition. 
+Training system requirements analysis—A systematic approach to assess prime mission 
+systems based on the instructional system development process that develops data items to 
+document the training and preliminary system requirements to ensure personnel are taught in a 
+cost-efficient way based on the knowledge, skills, and attitudes essential for successful mission 
+performance. During this process, analysts extract and allocate training requirements identified 
+from the user’s operational needs. The training system requirements analysis process is the written 
+record from a compilation of the following four complementary elements: mission/task analysis, 
+training requirements analysis, objectives/media analysis, and the training system basis analysis. 
+It serves as a required input to the STP. AFLCMC, through the training system program office, 
+acquisition program office, or AETC, and in coordination with the lead command, shall conduct 
+the training system requirements analysis. Expanded information on the TSRA process is 
+contained in Attachment 2 of this AFI. 
+Training system support center—Normally a government-owned, contractor-operated 
+consolidated function that includes the contractor personnel, government owned equipment, 
+facilities, tools, and data necessary to provide configuration management functions, engineering 
+development, and feasibility studies, life cycle hardware, software, and courseware support for an 
+operational training system. Contractor logistics support contracted TSSCs maintain operational 
+training system operational training baselines by merging configuration management baselined 
+weapon system(s) functionality with mission and training profiles, etc., to provide the using unit 
+with an effective trainer for initial and continuation training, ready aircrew program, and 
+distributed training capabilities. Contractor logistics support TSSCs normally support aircrew and 
+maintenance training systems. 
+Using command—Any command or organization (above the Wing level) that possesses a prime 
+mission system and uses the products of the operational training system. The using command is 
+AFI10-217  22 DECEMBER 2023 
+27 
+responsible for managing and conducting mission operations using the resources allocated by the 
+lead command and higher headquarters. As such, the using command is responsible for defining 
+the system requirements necessary to conduct and sustain operations. These requirements are 
+submitted to the lead command for advocacy, programming, and funding allocation. If only one 
+MAJCOM or agency possesses the prime mission system, that MAJCOM or agency is the 
+designated lead command. 
+Utilization rates—the rate of actual resource use versus planned resource use. 
+Validation—(1) For the purposes of this instruction, determination of the degree to which the 
+operational training system represents the real-world asset from the perspective of the specific 
+training to be accomplished. The lead command is the validation authority and will designate a 
+validation agent. (2) The process of determining the degree to which a model is an accurate 
+representation of the real-world from the perspective of the intended uses of the model. 
+Verification—(1) For the purposes of this instruction, determination if the operational training 
+system accurately represents the contract design specification or Statement of Work or 
+Performance Work Statement. The acquisition agent is the verification authority with support from 
+the lead command. (2) The process of determining that a model implementation accurately 
+represents the developer's conceptual description and specifications. 
+ 
+28 
+AFI10-217  22 DECEMBER 2023 
+Attachment 2 
+TRAINING SYSTEMS REQUIREMENTS ANALYSIS 
+A2.1.  Training system requirements analysis process.  The TPT will initiate a front-end TSRA 
+after Acquisition Milestone A.  Guidance covering front-end TSRAs is provided in DoDI 5000.02, 
+Operation of the Adaptive Acquisition Framework, to inform STP development.  The TPT will 
+initiate and define the follow-on TSRA scope relative to the information required.  (T-1) For new 
+and emerging prime mission systems, the lead command will conduct a TSRA, in coordination 
+with the training system program office, acquisition program office, using commands and/or 
+AETC.  (T-1) For existing systems, the lead command, program manager, or TPT will conduct 
+recurring TSRAs when major modifications occur, including but not limited to aircraft software 
+releases, new mission capabilities (weapons, sensors, communications), or changes to mission 
+essential and training task lists. (T-1) 
+A2.2.  Training system requirements analysis components.  A TSRA is comprised of four 
+sequential components to ensure training considerations are addressed in the prime mission system 
+acquisition and modification processes. The TPT may direct separate front-end TSRAs to address 
+specific mission areas, such as separate operations and maintenance TSRAs. The analytic 
+components remain the same. The TPT may focus follow-on TSRAs to fewer components when 
+appropriate for the defined scope. 
+A2.2.1.  Mission-task analysis. The mission-task analysis identifies and analyzes all tasks 
+required for the operation, maintenance, and/or support of the prime mission system. The 
+mission-task analysis will result in a Master Task List detailing tasks for each mission. The 
+master task list should be derived from analysis of mission tasks, associated system tasks, 
+legacy mission systems, similar mission systems, or operational training system task lists. The 
+TPT may provide guidance on master task list content. Based on the mission area(s) assessed, 
+the mission-task analysis may: 
+A2.2.1.1.  Break each mission into tasks, situational context, and coordination 
+requirements. Each mission should be described in terms of mission objectives, scenarios, 
+segments, and mission profiles. 
+A2.2.1.2.  Provide a full range of threat and environmental conditions. 
+A2.2.2.  Training requirements analysis. The training requirements analysis will develop the 
+master task list into the training task list for the prime mission system. (T-1) The analysis will 
+identify tasks requiring formal training and the criteria for successful performance in a mission 
+context.  (T-1) The training requirements analysis will: 
+A2.2.2.1.  Identify target populations and tasks for which current students/trainees lack the 
+knowledge, skills, and attitudes required for their performance. (T-1) Knowledge, skills, 
+and attitudes are classified as perceptual, motor, cognitive, information processing abilities. 
+A2.2.2.2.  Define formal training entry level and exit level knowledge, skills, and attitudes 
+for each unique target student population. (T-1) Baseline target populations can include 
+upgrade, qualification, or continuation training. 
+A2.2.3.  Objectives/media analysis. The objectives/media analysis develops training 
+objectives from the training requirements analysis-developed training task list and selects 
+AFI10-217  22 DECEMBER 2023 
+29 
+delivery media. The analysis will result in clearly stated and organized training objectives 
+mapped to an effective and feasible media solution. The objectives/media analysis will: 
+A2.2.3.1.  Develop enabling objectives for each task defined in terms of conditions, 
+required behavior, and lead command defined standards of acceptable performance. (T-1) 
+These objectives should be organized and grouped logically under terminal objectives to 
+use later for syllabus and course map development. 
+A2.2.3.2.  Define and document a media analysis and selection process. (T-1) 
+A2.2.4.  Training system basis analysis. The training systems basis analysis develops the 
+training system concept and defines the training system configuration. (T-1) The analysis will 
+result in a functional baseline for the design, development, and operation of an integrated 
+training system.  The training systems basis analysis may: 
+A2.2.4.1.  Analyze legacy or similar training systems and identify deficiencies. 
+A2.2.4.2.  Assess new training technology for potential application in training system 
+concepts. 
+A2.2.4.3.  Evaluate alternative training system concepts and system configurations. 
+A2.2.4.4.  Recommend numbers, functions, and types of training media, courseware 
+requirements, and training management system functions. 
+A2.2.4.5.  Provide rationale and justification concerning how a proposed system will 
+remedy deficiencies. 
+ 
+30 
+AFI10-217  22 DECEMBER 2023 
+Attachment 3 
+SYSTEM TRAINING PLAN 
+A3.1.  The Lead Command will: 
+A3.1.1.  Establish operational training system definition through acquisition and modification 
+documentation that will support the review and decision process. (T-2) 
+A3.1.2.  Identify training needs (including networking capabilities if applicable), concepts, 
+strategies, constraints, risks, data, alternatives, resources, responsibilities, and other areas, 
+through an iterative process. (T-1) 
+A3.1.3.  Include an instructional system development analysis of the ground-based media. 
+Analyze how it complements hands-on training or supplements training when resource 
+availability, security, cost, and environmental, safety, and occupational health (ESOH) 
+constraints limit use of the prime mission system equipment as a training media. (T-1) 
+A3.1.4.  Identify tasks for which personnel cannot currently be adequately trained (training 
+gaps). These tasks will be documented in the STP as unmet requirements and identified as 
+potential limiting factors in the ability to accomplish the prime mission system mission. (T-1) 
+A3.1.5.  Document the results of early, front-end, and follow-on TSRAs. (T-1) 
+A3.1.6.  Provide the basic concepts and strategy to attain and maintain operational training 
+system concurrency and networking capability to support desired training capability at the 
+appropriate time. (T-1) 
+A3.1.7.  Establish milestones and schedules to ensure timely development, testing, and fielding 
+of training capability and training support. (T-1) 
+A3.1.8.  Identify how subsystems and components should be integrated into the total 
+operational training system. Include distributed training capabilities (for example, DMO) 
+implementation, sustainment, and utilization, if applicable. (T-1) 
+A3.1.9.  Provide information and identify resources for management decisions within the 
+planning, programming, budgeting, and execution system process which support operational 
+training system acquisition, modification, and sustainment processes. (T-1) 
+A3.1.10.  Identify alternate training strategies, to include methodology and media, if funding, 
+concurrency, or other unknowns negatively impact required operational training system 
+capabilities. (T-1) 
+A3.1.11.  Recommend areas for new technology applications to improve future operational 
+training system effectiveness and efficiency. (T-1) 
+A3.2.  System Training Plan format.  The TPT may choose to utilize one of two formats for the 
+STP depending upon the life cycle phase of the prime mission systems: emerging mission systems 
+and existing mission systems. 
+A3.2.1.  STP format for emerging prime mission systems. The exact composition of the STP 
+is at the discretion of the TPT. The STP will be referenced and summarized in the life cycle 
+sustainment plan or other human systems integration documents. The STP is a top-level 
+document that provides input to the requirements generation, acquisition program planning, 
+AFI10-217  22 DECEMBER 2023 
+31 
+and budget development processes. The details needed to support this analysis may be 
+maintained in other documents and referenced in the STP. 
+A3.2.2.  Suggested STP sections. Include only those sections necessary to guide the 
+development, fielding, and management of the operational training system: 
+A3.2.2.1.  Executive summary. Provide an overview of the STP. Highlight sufficient and 
+significant elements to support the program, shortfalls, and future objectives. Briefly 
+describe the overall mission of the prime mission system, the operational training system, 
+and requirements. Show the relationship of the resource to meeting the overall mission, 
+shortfalls, and alternatives. 
+A3.2.2.2.  Mission and prime mission system description. Describe the mission and prime 
+mission system based on the operational requirement, threat environment, and the designed 
+operational capability, when determined. Include a thorough analysis of the mission 
+performed by the prime mission system; a classified attachment may be required. Include 
+title, nomenclature, and program elements for budget, security classification, prime 
+mission system priority rating, and principal agencies. Reference other plans and 
+documents that support the prime mission system mission or operational training system 
+acquisition and modification process. Include a brief summary of the baseline system to be 
+replaced, modified, or augmented; shortcomings, displacement, or disposition, if being 
+replaced. 
+A3.2.2.3.  Training planning team (TPT) membership. The STP should document TPT 
+membership, which must comprise the lead command, using commands, weapon system 
+program office, and training systems product group representatives. 
+A3.2.2.4.  Operational training system description. Describe the total operational training 
+system by functional area, including instructional strategy, duration, content, media, 
+training devices and utilization rates, and facilities. Provide strategy and alternative 
+methodologies throughout the training continuum. Address the use of distributed training 
+capabilities (for example, DMO) or describe how this requirement will be waived in 
+coordination with using commands and the training systems product group. Identify 
+proposed approach to acquire training equipment and facilities. Estimate training 
+qualification time required to achieve full proficiency. Include description of database, 
+systems integration, networking standards, controlled interfaces, compatibility, 
+transportability, and deployment requirements. Address ability to efficiently and cost 
+effectively modify operational training system software concurrently with the prime 
+mission system. Identify requirement for computer-based training and interactive 
+courseware.  Provide a course summary document. 
+A3.2.2.5.  Diagram a timeline which includes the training progression of each operational 
+and maintenance functional area from entry into and through exit from the prime mission 
+system. Identify on the continuum all qualification levels, evaluation checkpoints, and 
+reentry qualification points. State the policy upon which decisions will be based for critical 
+points, such as course sequence and media allocation on prime mission system equipment 
+training. Indicate basic training principles to be considered, such as a building-block 
+approach. 
+A3.2.2.6.  Describe operational training systems. 
+32 
+AFI10-217  22 DECEMBER 2023 
+A3.2.2.7.  List and describe operational training system component’s role, use, and 
+capabilities: 
+A3.2.2.7.1.  Actual prime mission system mission and non-prime mission system 
+equipment. 
+A3.2.2.7.2.  Courseware and associated equipment. 
+A3.2.2.7.3.  Training aids and devices. 
+A3.2.2.7.4.  Embedded training capability in the weapon system. 
+A3.2.2.8.  Describe AFRC and ANG participation. 
+A3.2.2.9.  Identify all composite, joint, interagency, or multinational training applications. 
+A3.2.2.10.  Address potential or unresolved training issues. 
+A3.2.2.10.1.  Operational training system requirements. Summarize the key capability 
+needs and operational and sustainment requirements for the operational training system 
+as expressed in appropriate operational capability documents, concepts of operations, 
+and other basic requirements documents. Describe how manpower, personnel, training, 
+human factors engineering, safety, and occupational health considerations are applied 
+to the design and development of the prime mission system operational training 
+systems to reduce costs and enhance capabilities. Establish initial objectives that 
+support readiness, force structure, affordability, and operational objectives. 
+A3.2.2.10.2.  Training system requirements analysis (TSRA). The TPT will use the 
+results of the TSRA to identify the prime mission system training requirements. The 
+TPT will validate the TSRA products for use in the design of the operational training 
+system. The mission-task analysis report and training requirements analysis report will 
+be used by the TPT to develop the training task list with performance criteria for 
+inclusion in the operational training system requirement documents. The 
+objectives/media analysis report and training system basis analysis report may be used 
+to identify other operational training system requirements, such as the numbers and 
+types of training devices, courseware, potential training alternatives, technology 
+assessment, observations, and recommendations to be incorporated into the training 
+requirement documents. 
+A3.2.2.11.  Implementation. Describe data sources, implementation procedures, special 
+authorization or approvals, and assign responsibilities. Identify those training areas not 
+supported by a complete task analysis process. Describe the use of distributed training 
+capabilities (for example, DMO) or how this requirement will be waived in coordination 
+with using commands or training systems product group. 
+A3.2.2.12.  Operational training system concurrency strategy. Identify and group critical 
+training tasks consistent with mission training development and implementation that are 
+impacted by concurrency. When incremental (phased) delivery of training capability is 
+advantageous or necessary, training capabilities should support the following priorities as 
+agreed to by the TPT: 
+A3.2.2.12.1.  Safety training requirements and tasks. 
+A3.2.2.12.2.  Warfighting training requirements and tasks. 
+AFI10-217  22 DECEMBER 2023 
+33 
+A3.2.2.12.3.  Full mission training and rehearsal requirements and tasks. 
+A3.2.2.13.  Organizational interfaces. Identify government organizations necessary to 
+ensure timely approvals and transfer of data, equipment, and property, which should be 
+concurrent with the first contract award and renewed throughout the life cycle of the prime 
+mission system operational training system. Include established agreements such as 
+service-level agreements, statements of work, and memorandums of understanding. Briefly 
+list responsibilities for each command or organization. 
+A3.2.2.14.  Operational training system management and support concept. Concurrency 
+must be given primary consideration in contracting. Identify the concept and strategy for 
+achieving life cycle management and support of the operational training system, to include 
+cybersecurity. Describe requirements and options for logistics support. Contractor logistics 
+support contracts that include hardware and/or software modifications should be developed 
+and used. Consider: 
+A3.2.2.14.1.  Contractor logistic support management. 
+A3.2.2.14.2.  Technical data. 
+A3.2.2.14.3.  Spares. 
+A3.2.2.14.4.  Consumables. 
+A3.2.2.14.5.  Organizational-, intermediate-, and depot-level maintenance. 
+A3.2.2.14.6.  Special or system operational equipment. 
+A3.2.2.14.7.  Common or special tools and equipment. 
+A3.2.2.14.8.  Facilities. 
+A3.2.2.15.  Manpower support concept, military personnel utilization concept, and 
+personnel training requirements. Consider student demographics, entry requirements, and 
+student throughput estimates; estimate portion of military, civilian, or contract personnel, 
+to include Cybersecurity requirements. Describe Air Force Specialty Code employed. 
+Identify these and any other unique requirements for this system in each of the following 
+functional areas: 
+A3.2.2.15.1.  Combined test force. 
+A3.2.2.15.2.  Initial cadre. 
+A3.2.2.15.3.  Operations. 
+A3.2.2.15.4.  Maintenance. 
+A3.2.2.15.5.  Depot. 
+A3.2.2.15.6.  Security forces. 
+A3.2.2.15.7.  Munitions and explosive ordnance. 
+A3.2.2.15.8.  Contract support, contractor logistics support, or contract training. 
+A3.2.2.16.  Training Constraints and Risks. Include all potential limitations that will or 
+may affect timely implementation of training objectives to meet initial operational 
+capability and maintain full operational capability. Describe all peacetime training 
+34 
+AFI10-217  22 DECEMBER 2023 
+constraints. Consider manpower or personnel and resource availability, security, cost, and 
+ESOH considerations, which may influence training media and methodology design, 
+development, and selection. Program managers document the status of operational training 
+system (or any other type of system) ESOH risk management in the Programmatic 
+Environment, Safety, and Occupational Health Evaluation (PESHE). The lead command 
+and using command should refer to the PESHE for the identification and status of ESOH 
+risks. For operational training system programs, the ESOH risk acceptance authorities 
+should be aligned with DoDI 5000.02. Include peacetime restrictions on the use of the 
+prime mission system. Identify risks and assign risk levels that may affect deployment 
+schedules or other milestones. Identify the expected impact of late to need or unusable 
+training devices in terms of workarounds, dollar costs for alternative training, increased 
+use of the prime mission system, or impact of failure to perform on combat capability. 
+Consider initiatives such as advanced prime mission system design change data deliveries 
+and long-lead contractor provided equipment or government-furnished equipment, 
+information, or property. The risk government-furnished property adds to a concurrent 
+delivery schedule must be discussed and tradeoffs identified. 
+A3.2.2.17.  Prime mission system and operational training system milestones. Identify the 
+prime mission system and operational training system schedules and priority ratings 
+necessary for concurrency required to deliver the operational training system. Show "need 
+dates" in terms of milestones. Include key engineering change proposals, management 
+responsibility, and operational milestones. Consider all schedules pertinent to satisfying 
+training objectives through definitive milestones. These could include: 
+A3.2.2.17.1.  Weapon system major milestones to include initial operational capability 
+through full operational capability. 
+A3.2.2.17.2.  Task requirements and analyses completion dates. 
+A3.2.2.17.3.  Training equipment requirements and delivery. 
+A3.2.2.17.4.  Facility beneficial occupancy dates. 
+A3.2.2.17.5.  Prime mission system and operational training system deployment dates. 
+A3.2.2.17.6.  TSSC activation. 
+A3.2.2.17.7.  Factory or contractor training dates. 
+A3.2.2.17.8.  Instructional course start dates. 
+A3.2.2.17.9.  Logistics support requirements dates. 
+A3.2.2.17.10.  Ready for Training and Required Assets Available dates. 
+A3.2.2.17.11.  Technical data availability. 
+A3.2.2.17.12.  Courseware development completion dates. 
+A3.2.2.17.13.  Training management system completion dates. 
+A3.2.2.17.14.  Operational training system evaluation plan and review dates. 
+AFI10-217  22 DECEMBER 2023 
+35 
+A3.2.2.17.15.  Distributed training capability (for example, DMO) implementation and 
+sustainment plan, training objectives, initial operational capability, and full operational 
+capability dates. 
+A3.2.2.18.  Resource Summary. Identify total resource requirements to develop and 
+operate the operational training system throughout the prime mission system life cycle. 
+Include recommended tradeoffs to support training and impact of not funding or procuring 
+desired training capability. 
+A3.2.2.18.1.  Indicate funding by allocation and fiscal year. 
+A3.2.2.18.2.  Include training or test equipment, courseware, training aids, technical 
+manuals, and documentation by types, numbers, and life cycle support. 
+A3.2.2.18.3.  Manpower, to include officer, enlisted, and civilian. 
+A3.2.2.18.4.  Personnel, to include instructor cadre and support personnel. 
+A3.2.2.18.5.  Military construction or facility modification. Describe project and 
+costing by fiscal year. Establish physical, power, security, and other relevant 
+requirements. 
+A3.2.2.18.6.  Contractor support. Time, effort, and cost. Initial training support. 
+A3.2.2.18.7.  Travel and per diem requirements and costs. 
+A3.2.2.18.8.  Other: Airspace, ranges, flying hours, munitions, etc. 
+A3.2.2.19.  Training evaluation and validation. Develop and document evaluation and 
+validation criteria, methodology, and responsibilities. Provide cost-benefit analysis of 
+proposed alternatives. Include plan for evaluation of training effectiveness. 
+A3.2.2.20.  Research and development efforts. Describe current and future research and 
+development studies and cost-benefit analysis that may support upgrades to the systems or 
+alternative methodologies to close any training gaps or accomplish the training with fewer 
+resources. 
+A3.2.2.21.  Lessons learned. Identify problem areas common with other programs and 
+potential solutions. Document assumptions made, fixes, workarounds, or changes to 
+requirements based on lessons learned. Include impact on system costs, effectiveness, and 
+combat capability. 
+A3.2.2.22.  Distribution. Distribute to members of the TPT and other designated agencies. 
+A3.2.3.  STP format for existing prime mission systems. After fielding of the operational 
+training system, the STP for an emerging weapon system becomes a historical document 
+providing direction, perspective, and guidance for managers of the operational training system. 
+The STP for an existing weapon system is a road map of the operational training system. The 
+exact composition of the STP is at the discretion of the TPT. It may include the following: 
+A3.2.3.1.  An assessment of future training needs caused by changes in the prime mission 
+system and/or its mission tasking. 
+A3.2.3.2.  A timeline to show the plan for sustaining, modifying, disposing, and replacing 
+the operational training system components. 
+36 
+AFI10-217  22 DECEMBER 2023 
+A3.2.3.3.  Any analysis, assessment, or background documentation that provides 
+justification for acquisition, modification, and funding support for operational training 
+system components. Include distributed training capabilities (for example, DMO) 
+implementation and sustainment, if previously included. 
+A3.2.3.4.  An assessment of operational training system deficiencies and their impact on 
+the operational training system costs, effectiveness, and combat capability. Document 
+recommended fixes, work-a-rounds, or changes to requirements. 
+A3.2.3.5.  An assessment of future research and development efforts or technological 
+advances that could improve training effectiveness and/or efficiency, including cost- 
+benefit analysis data. Include distributed training capability, timelines, and funding 
+considerations. 
+A3.2.3.6.  A current version of the PESHE. 
+ 
+AFI10-217  22 DECEMBER 2023 
+37 
+Attachment 4 
+TRAINING SYSTEM METRICS 
+A4.1.  Training System Metrics Tracking.  Training system metrics are used to track training 
+system simulator utilization and to communicate the status and health of training systems through 
+the MAJCOMs to AF/A3TI. The intent is to gain and maintain visibility on issues affecting 
+training systems and measure and improve on how simulator training is conducted. MAJCOMs 
+will track, as a minimum, the metrics data shown in Figure A4.1. (T-1)  Utilization will be tracked 
+for simulators that are used to meet AFI11-2MDS Vol 1 currency and Ready Aircrew Program 
+requirements and for simulators that use contracted hours to provide contractor instructor-based 
+training. (T-1)  Simulators that have contractor logistics support but do not contract for set 
+availability hours will report “Not Applicable” for contracted hours. (T-1) IAW paragraph 
+2.12.2.10, simulator utilization metrics will be reported to AF/A3TI semi-annually.  Report by 30 
+April for the prior semi-annual period October through March and by 31 October for the prior 
+semi-annual period April through September.  MAJCOMs will upload their data to the platform-
+specific worksheets located in their respective folders in Synthetic Training and Test folder on the 
+OTTI Capability Development Team sharepoint site:  https://usaf.dps.mil/sites/HAF-
+A5/center2/otti_cft/SitePages/OTTI.aspx. (T-1)   Forward any questions to the AF/A3TI 
+Workflow email address (AF.A3TI.Workflow@us.af.mil). 
+Figure A4.1.  Training System Simulator Metrics. 
+ 
+A4.2.  See Figure A4.1 column headers explained below: 
+A4.2.1.  {A} Prime Mission System—See attachment 1 Terms (i.e., F-15C, C-130J, JTAC, 
+AOC). 
+A4.2.2.  {B} Type of Training Device—Nomenclature for the training system device (i.e., 
+WST, OFT, FMT, FMS, PPT, CPT, MCTS). 
+A4.2.3.  {C} Available Hours Contracted for Use—Hours the contractor is required to have 
+the training device available to be scheduled for Official Purpose use. 
+A4.2.4.  {D} Official Purpose Hours—Contracted hours used for Official Purposes (See 
+paragraph A4.3.). 
+A4.2.5.  {E} Hours Executed—Official Purposes Hours actually used. 
+38 
+AFI10-217  22 DECEMBER 2023 
+A4.2.6.  {F} Official Purpose Hours Not Used—Hours the training device was not being used 
+for Official Purposes.  Provide rationale breakout in Figure A4.2 for utilization rates less than 
+80%. 
+A4.3.  Examples of Official Purposes: 
+A4.3.1.  Aircrew Training (Scheduled or Unscheduled). 
+A4.3.2.  Simulator modification/upgrade/maintenance. 
+A4.3.3.  Simulator facility/bay maintenance. 
+A4.3.4.  Contractor use (pre-mission simulator set-up, pre-briefs, post-briefs, syllabus prep, 
+instructor training, etc.). 
+A4.3.5.  Very Important Person Tours. 
+A4.3.6.  Maintenance Training. 
+Figure A4.2.  Training System Simulator Non-Use Breakout. 
+ 
+ 
+AFI10-217  22 DECEMBER 2023 
+39 
+Attachment 5 
+TRAINING SYSTEM SIMULATOR AND SYNTHETIC ENVIRONMENT 
+CERTIFICATION AND SIMULATOR VALIDATION 
+A5.1.  General.  Training system simulator/synthetic environment certification ensures that 
+training systems and their components support accurate and credible networked (for example, 
+DMO) and non-networked training for allocated tasks, missions, and events through training 
+system hardware and software performance. 
+A5.1.1.  Simulator validation verifies and validates the networked and/or non-networked 
+simulated weapon system and self-generated mission environment performance.  JSE-
+compliant “Aircraft In A Box” simulators will be used to validate the simulator using JSE as 
+the synthetic environment.  Simulator and environment validation will be documented 
+separately. (T-1) 
+A5.1.2.  Operational training system training device simulator/synthetic environment 
+certification and simulator validation examine fidelity, concurrency, connectivity, and 
+usability characteristics to support operational training system accreditation and identify 
+capabilities and limitations. 
+A5.1.3.  Operational assessments supporting operational training system acquisition, 
+modification and modernization may use simulator/synthetic environment certification and 
+simulator validation methodologies managed by the acquisition agent and supported by the 
+lead command. 
+A5.1.4.  Simulator/synthetic environment certifications and simulator validations will recur 
+throughout the life cycle of the system/environment, and each assessment will focus on training 
+fidelity and quality of a lead command-approved, TSSC-developed, hardware and software 
+configuration for that device. (T-1) 
+A5.1.5.  The reports generated by the simulator/synthetic environment certification and 
+simulator validation support the Accreditation Authority’s decision to accredit the associated 
+operational training system for its intended use. 
+A5.2.  Simulator certification program. 
+A5.2.1.  Evaluate the simulator in an operational training environment and assess the 
+following: 
+A5.2.1.1.  Concurrency, connectivity, and fidelity. 
+A5.2.1.2.  Major systems (for example, visual, motion, threat systems, CGFs, 
+aerodynamic, weapons, sensors, electronic warfare, and control input). 
+A5.2.1.3.  Instructor functions and interfaces. 
+A5.2.1.4.  Brief/debrief and performance measurement. 
+A5.2.1.5.  Integration and interoperability. 
+A5.2.2.  Simulator certification accreditation. The simulator certification agent will provide 
+certification results and the accreditation recommendation to the lead command, or designated 
+accreditation proponent, for review. 
+40 
+AFI10-217  22 DECEMBER 2023 
+A5.3.  Synthetic environment certification program (not required for self-generated mission 
+environments integral to the simulator). 
+A5.3.1.  Evaluate the synthetic environment in an operational training environment and assess 
+the following: 
+A5.3.1.1.  Physics and threat representation. 
+A5.3.1.2.  Concurrency, connectivity, and fidelity. 
+A5.3.1.3.  Major systems (for example, image generation, threat systems, constructive 
+entities, observable states, red/blue weapons, sensors, electromagnetic environment, and 
+multi-spectral environmental effects). 
+A5.3.1.4.  Instructor functions and interfaces. 
+A5.3.1.5.  Data capture for brief/debrief and performance measurement. 
+A5.3.1.6.  Integration and interoperability. 
+A5.3.2.  Synthetic environment certification accreditation. The synthetic environment 
+certification agent will provide certification results and the accreditation recommendation to 
+the lead command, or designated accreditation proponent, for review. 
+A5.3.3.  Synthetic environment certification should be accomplished for both networked and 
+non-networked activities. 
+A5.4.  Simulator validation program. 
+A5.4.1.  Simulator validation is the process for (1) comparing a training device’s operating 
+parameters and performance to the current intelligence assessment of a prime mission system, 
+threat, and interaction between the prime mission system and threat; and (2) documenting the 
+differences and impacts. This process includes generation and deployment of an intelligence 
+data baseline of the system, comparison of simulator characteristics and performance, support 
+for the modification and upgrade of the simulator, a comparison of simulator and threat 
+operating procedures, and correction of any significant deficiencies. Uncorrected deficiencies 
+are identified and published in validation reports. The process continues throughout the life 
+cycle of the simulator. 
+A5.4.2.  Operational training system simulator validation performed on a common CGF or 
+HITL may not be used as the only source in formulating the accreditation decision for all 
+operational training systems that use that CGF or HITL because the interactions between the 
+simulated weapon systems and the simulated threats may not be consistent or equivalent. 
+Regression testing must be accomplished to verify the consistency of the CGFs or HITLs 
+interactions with the simulated weapon systems and to confirm the operational training system 
+uses CGF or HITL inputs correctly.  JSE-compliant “Aircraft In A Box” simulators will be 
+used to certify the simulators using JSE as the synthetic environment. 
+A5.4.3.  Simulated physical systems accurately representing entities in all ways are needed to 
+stimulate all platform sensors and provide needed characteristics for weapons employment and 
+primary training activities. The emphasis will be on assuring modeling to appropriate fidelity 
+for the operational training system. 
+AFI10-217  22 DECEMBER 2023 
+41 
+A5.4.4.  New threats or changed threats in the CGF or HITL entity tables may require a 
+simulator validation. 
+A5.4.5.  Operational training system simulator validation acquisition of systems and 
+modifications programs will be conducted IAW AFI 16-1001 and MAJCOM guidance. The 
+simulator validation will include: 
+A5.4.5.1.  Physical models. Validate physical performance and environmental interaction 
+models in the CGF with authoritative sources: (for example, intelligence community 
+estimates, test results, instrumented range data, etc.). 
+A5.4.5.2.  Behavioral models. Base individual and organizational behavior models on 
+accepted cognitive modeling methodologies. They will be executed at fidelity levels 
+consistent with the warfighter tactical interactions. 
+A5.4.5.3.  A summary of operational training system differences from threat and live 
+weapon systems. 
+A5.4.5.4.  Simulator validation requirements in the STP, life cycle sustainment plan, or 
+human systems integration. 
+A5.4.6.  Operational training system simulator validation accreditation. The operational 
+training system simulator validation and accreditation results are forwarded to appropriate 
+MAJCOM and unit leadership. 
+ 
+42 
+AFI10-217  22 DECEMBER 2023 
+Attachment 6 
+THREAT MATRIX FRAMEWORK (TMF) 
+A6.1.  Overview.  TMF is intended to be used in planning and execution for effective training 
+event mission accomplishment. It provides a standardized assessment framework for air, space, 
+and cyberspace domains and is designed for tactical applications for unit training. TMF is not 
+designed to measure the capabilities of an entire country/region, but only smaller vignettes and is 
+not intended to replace in-depth analysis that requires an analyst in the loop. To apply this standard 
+framework to a scenario, one must bound the scenario by geography, time, and political situation. 
+There are inherent limitations underlying the TMF. When applied to an enemy in a scenario, the 
+TMF is an estimate of that enemy. This approximation is not intended to replace the in-depth 
+analysis behind a TMF assessment but act as an augmentation to enable better communication 
+across differing MDS or communities. For example, an environment labeled as contested could 
+actually be permissive for a 5th generation aircraft yet simultaneously be highly contested for a C-
+17. Utilizing the TMF and numerically categorizing the adversary threat environment overcame 
+the ambiguity associated with terms such as contested and permissive. A level-2 fighter is a level-
+2 fighter threat to every MDS. 
+A6.2.  TMF contains criteria in each of the following nine categories: 
+A6.2.1.  Air Surveillance. 
+A6.2.2.  Battle Management. 
+A6.2.3.  Fighters. 
+A6.2.4.  Intercept Control. 
+A6.2.5.  Surface Based Air Defense. 
+A6.2.6.  Electronic Attack. 
+A6.2.7.  Cyber. 
+A6.2.8.  Space. 
+A6.2.9.  Integration. 
+A6.3.  These categories list the criteria and what is required (“Yes/No”) for each threat 
+level.  To aid in discriminating between the various Threat Levels these criteria make the following 
+distinctions: 
+A6.3.1.  "No" simply means it is not "Required" to Train/replicate a certain Threat Level, it 
+may still be highly "desired" at a Lower Threat Level. 
+A6.3.2.  Threat replication type and density is dependent on the TMF Level; while every 
+attempt was made to create specific details for each TMF Level, functional area manager 
+analysis is needed to discern a Level 3 vs 4 "advanced threat". 
+A6.3.3.  The assessment is based on operational training requirements for CMR 
+aircrew/operators not Undergraduate or Initial Qualification criteria. 
+AFI10-217  22 DECEMBER 2023 
+43 
+A6.4.  TMF Level Definitions. 
+A6.4.1.  TMF 0-2—Defined as the ability to replicate and train against varying degrees of 
+lower threat environments. 
+A6.4.2.  TMF 3—Defined as the ability to replicate and train against an advanced adversary 
+with legacy capabilities. 
+A6.4.3.  TMF 4—Defined as the ability to replicate and train against a peer/near-peer 
+adversary. 
+A6.4.4.  TMF 5—Defined as the ability to replicate and train against emerging/future 
+capabilities. 
+ 

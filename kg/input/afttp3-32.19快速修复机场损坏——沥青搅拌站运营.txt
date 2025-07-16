@@ -1,0 +1,1266 @@
+ 
+ 
+AFTTP 3-32.19   24 SEPTEMBER 2018                                                                      1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     
+  
+ 
+     
+ 
+ 
+AIR FORCE TACTICS, TECHNIQUES, 
+AND PROCEDURES 3-32.19 
+ 
+24 SEPTEMBER 2018 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This page intentionally left blank.
+BY ORDER OF THE  
+ 
+        AIR FORCE TACTICS, TECHNIQUES 
+SECRETARY OF THE AIR FORCE  
+           AND PROCEDURES 3-32.19 
+ 
+24 SEPTEMBER 2018 
+ 
+Tactical Doctrine 
+ 
+RAPID AIRFIELD DAMAGE RECOVERY 
+ASPHALT BATCH PLANT OPERATIONS 
+ 
+ACCESSIBILITY: Publications and forms are available on the e-Publishing web 
+site at www.e-Publishing.af.mil for downloading or ordering. 
+ 
+RELEASABILITY:  There are no releasability restrictions on this publication. 
+ 
+OPR:  AF/A4CXX 
+ 
+ 
+ 
+   Certified By:  AF/A4CX 
+(Colonel Michael J. Zuhlsdorf) 
+ 
+Pages:  35 
+ 
+PURPOSE: To provide tactics, techniques, and procedures (TTPs) for asphalt 
+batch plant operations during Rapid Airfield Damage Repair (RADR). It supports 
+Air Force Instruction (AFI) 10-210, Prime Base Engineer Emergency Force 
+(BEEF) Program, AFPAM 10-219, Volume 4, Airfield Damage Repair 
+Operations, and Air Force Doctrine Annex 3-34, Engineer Operations. Ensure 
+that all records created as a result of processes prescribed in this publication are 
+maintained IAW Air Force Manual (AFMAN) 33-363, Management of Records, 
+and disposed of IAW the Air Force Records Disposition Schedule (RDS) in the 
+Air Force Records Information Management System (AFRIMS). Refer 
+recommended changes and questions about this publication to the Office of 
+Primary Responsibility (OPR) using the AF Form 847, Recommendation for 
+Change of Publication; route AF Forms 847 from the field through the appropriate 
+functional chain of command. 
+APPLICATION: This publication applies to all regular Air Force, Air National 
+Guard, and Air Force Reserve Command Civil Engineer personnel performing 
+RADR asphalt batch plant operations. This document is authoritative but not 
+directive. The asphalt batch plant operations TTPs in this publication take 
+precedence over those found in other nondirective publications. Applicable AFIs 
+take precedence when this publication and those AFIs conflict.  
+ 
+ 
+2  
+                           AFTTP 3-32.19   24 SEPTEMBER 2018 
+SCOPE: This publication provides TTPs to produce asphalt concrete with a 
+contingency batch plant after an attack. It provides resource requirement 
+information for manpower, vehicle, equipment, and repair material; preparatory 
+actions taken prior to an attack and before commencing repair activities. Finally, 
+the publication describes batching, stockpiling, and delivery of asphalt to airfield 
+pavement repair personnel. 
+The TTPs within this publication are best practices as determined by the Airbase 
+Acquisition Branch, Air Force Civil Engineer Center (AFCEC/CXAE). Where 
+applicable, use procedures found in applicable manufacturer’s owners/operators 
+manuals for specific asphalt recycler make and models.  
+The use of name, procedures, or mark of any specific manufacturer, commercial 
+product, commodity, or service in this publication does not imply endorsement by 
+the Air Force. 
+ 
+Chapter 1—INTRODUCTION 
+  5 
+1.1. Overview .......................................................................................... 5 
+1.2. Asphalt Batch Plant Layout .............................................................. 5 
+Figure 1.1. Typical Asphalt Batch Plant Layout .................................................. 5 
+1.3. Resources .......................................................................................... 6 
+Table 1.1. RADR Asphalt Batch Plant UTCs ...................................................... 7 
+Table 1.2. Asphalt Batch Team Required Resources ........................................... 7 
+1.4. Asphalt Recycler .............................................................................. 8 
+Figure 1.2. Asphalt Recycler External Profile View ............................................ 8 
+Figure 1.3. Asphalt Recycler Internal Profile View ............................................. 9 
+Figure 1.4. Asphalt Recycler Burner (Rear Hatch) .............................................. 9 
+1.5. Remote Operation ............................................................................. 9 
+Figure 1.5. Hydraulic Control Umbilical ........................................................... 10 
+1.6. Training .......................................................................................... 10 
+Chapter 2—ASPHALT MIX DESIGN AND STORAGE TECHNIQUES 11 
+2.1. Overview ........................................................................................ 11 
+ 
+ 
+AFTTP 3-32.19   24 SEPTEMBER 2018                                                                      3 
+Table 2.1. Batch/Mix Design Specifications ...................................................... 11 
+2.2. Creating Asphalt Cookies ............................................................... 11 
+2.3. Recommended Cookie Storage Technique ..................................... 12 
+Figure 2.1. Creating Windrows .......................................................................... 12 
+2.4. Alternate Storage Technique .......................................................... 13 
+2.5. Reclaimed Asphalt Pavement (RAP) .............................................. 13 
+2.6. Maximum Raw Material Stockpile Storage Time .......................... 13 
+Chapter 3—ASPHALT PRODUCTION PROCESS 
+14 
+3.1. Batch Start Times ........................................................................... 14 
+Table 3.1. Asphalt Production and Consumption Rates ..................................... 14 
+3.2. Tracking Production, Hold Times, and Deliveries ......................... 14 
+3.3. Overview of Recycler Operation .................................................... 15 
+3.4. Recycler Operating Tips ................................................................. 15 
+3.5. Smoke Emission Indicators ............................................................ 17 
+3.6. Safety .............................................................................................. 17 
+3.7. Setup Location ................................................................................ 18 
+3.8. Recycler Setup Procedures ............................................................. 18 
+Figure 3.1. Four Corner Jacking System ............................................................ 19 
+3.9. Pre-Operational Checks .................................................................. 19 
+3.10. Start Up Process ........................................................................... 19 
+Figure 3.2. Infrared Control Head ...................................................................... 20 
+3.11. Warmup Process ........................................................................... 21 
+Figure 3.3. Loading Asphalt Recycler ............................................................... 22 
+3.12. HMA Production .......................................................................... 23 
+3.13. Work Interruption ......................................................................... 24 
+3.14. Shut Down .................................................................................... 25 
+3.15. Batching Complete ....................................................................... 25 
+ 
+ 
+4  
+                           AFTTP 3-32.19   24 SEPTEMBER 2018 
+Chapter 4—RECYCLER CLEANING 
+26 
+4.1. During Production Run ................................................................... 26 
+4.2. End of Production Run ................................................................... 26 
+Chapter 5—ASPAHLT RECYCLER MAINTENANCE  
+REQUIREMENTS 
+28 
+5.1. Daily ............................................................................................... 28 
+5.2. Monthly .......................................................................................... 28 
+5.3. Annually ......................................................................................... 28 
+5.4. Engine Service and Burner Fuel Filters .......................................... 29 
+5.5. Hydraulic System Oil and Filter ..................................................... 29 
+5.6. Burner Malfunction and Troubleshooting ...................................... 29 
+Chapter 6—RECONSTITUTION AND RETURN TO NORMAL 
+OPERATIONS 
+30 
+6.1. Overview ........................................................................................ 30 
+6.2. Reconstitution ................................................................................. 30 
+Attachment 1—GLOASSARY OF REFERENCES AND SUPPORTING 
+INFORMATION 
+31 
+ 
+ 
+ 
+ 
+AFTTP 3-32.19   24 SEPTEMBER 2018                                                                      5 
+Chapter 1 
+INTRODUCTION 
+ 
+1.1. Overview. The Rapid Airfield Damage Repair (RADR) mobile asphalt 
+recyclers are used to batch hot-mixed asphalt (HMA) from virgin asphalt blocks 
+(referred to as cookies in this publication), reclaimed asphalt pavement (RAP), 
+and/or pelletized asphalt for crater repairs with an asphalt cap. Asphalt batching 
+is accomplished when airfield repairs require asphalt caps, typically when making 
+repairs to asphalt pavement. One batch plant supports up to two crater repair 
+teams.  
+1.2. Asphalt Batch Plant Layout. Batch plants should be located within a seven 
+minute commute to the airfield. The asphalt batch plant requires space with a 
+stabilized surface for storing asphalt products (i.e. asphalt cookie stockpiles, RAP, 
+HMA stockpiles), operational space for two recyclers, and space to load RADR 
+warehouse dump trucks. Figure 1.1 provides an example batch plant layout.  
+Figure 1.1. Typical Asphalt Batch Plant Layout. 
+ 
+ 
+ 
+6  
+                           AFTTP 3-32.19   24 SEPTEMBER 2018 
+1.2.1. Batching may be setup indoors (e.g., inside a hangar) during inclement 
+weather conditions, but proper ventilation and sufficient clearance to overhead 
+structures must be provided when batching indoors. Batch plants may also be 
+collocated with a RADR warehouse (see AFTTP 3-32.18, RADR Warehouse 
+Operations). 
+1.2.2. Position recyclers on stable ground and that is as level as possible. Use a 
+mat under jack feet when setup on soft ground. 
+1.2.3. Clear area of flammable materials and ensure area is clear of overhead 
+structures and utilities. In addition, position recyclers clear of air handling systems 
+of nearby structures. 
+1.2.4. Locate recyclers in close proximity to one another so that one operator may 
+operate both recyclers simultaneously, and to provide one general area for 
+collecting the HMA for loading dump trucks or stockpiling (Figure 1.1). One 
+front end loader (FEL) and operator is dedicated to load the hopper (also known 
+as the charging box/tray, but will be referred to as the hopper from this point on) 
+on both recyclers and to load the produced HMA in dump trucks, or create HMA 
+stockpiles when dump trucks are full or delivering asphalt to the airfield. 
+1.2.5. In many instances, the 4-yard buckets delivered with the RADR FELs are 
+too large to fit under the recycler discharge chute, even when the jacks are fully 
+raised (this issue is being addressed in future purchases). It is recommended an 
+inventory be conducted on FEL buckets on the installation to determine if there is 
+smaller 4-yard bucket that fits under the recycler discharge chute, or if there is a 
+2-yard bucket, and designate that bucket for Asphalt Batch Plant operations. If a 
+smaller bucket is not found, choose from one of the following options as a 
+solution: 
+• 
+Dig a pit beneath the discharge chute; however, this option is not suitable 
+for batching indoors during inclement weather) 
+• 
+Park recyclers on an elevated platform, such as 2” x 8” lumber 
+• 
+Use a back-hoe to drag the HMA from underneath the discharge chute 
+1.3. Resources. Table 1.1 lists Asphalt Batch Plant Unit Type Codes (UTCs). 
+Table 1.2 identifies manning requirements and their duties and responsibilities. 
+ 
+ 
+ 
+ 
+AFTTP 3-32.19   24 SEPTEMBER 2018                                                                      7 
+Table 1.1. RADR Asphalt Batch Plant UTCs.  
+Capabilities 
+Small 
+Medium 
+Large 
+Very Lg 
+4FWAE – RADR Asphalt Batch Plant Operations 
+Asphalt Recycler Set (2 per set) 
+1 
+2 
+3 
+4 
+Front End Loader 
+1 
+2 
+3 
+4 
+4FWAB – WRM RADR Asphalt Crater Repair Material 
+Flowable-Fill (Super Sacks) 
+84 
+252 
+420 
+588 
+*Asphalt (Tons) 
+40 
+120 
+200 
+280 
+*At the time of publishing it was not determined if asphalt will be included in 
+4FWAB or if the user will have to source material locally. 
+Note: Flowable fill will be postured at the applicable warehouse. Asphalt will be 
+stockpiled at the asphalt batch plant. 
+Table 1.2. Asphalt Batch Team Required Resources. 
+Position 
+Suitable AFSCs 
+Veh/Equip/Tools 
+Lead/Operator 
+Primary: 3E2X1 
+Subs: 3E3X1, 3E4X3, 3E5X1, 
+3E6X1 
+Loader  
+Operator 
+Primary: 3E0X2,  
+Subs: 3E0X1, 3E1X1, 3E2X1 
+Asphalt Recyclers 
+Helper 
+Any 
+Shovel, Rake, etc. 
+Note: Hand tools, infrared thermometers, and release agent and sprayers can be 
+found in the RADR Tool Trailers (UTC 4FWCR). 
+Note: A light cart from the 4FWCR UTC is earmarked for the asphalt batch plant 
+for nighttime operations. 
+1.3.1. Logistics Chief. A primary responsibility of the Logistics Chief is to ensure 
+batch teams are completing their assigned tasks as efficiently as possible and to 
+help remove obstacles that negatively impact their operations. The Logistics Chief 
+also stays informed on batch plant operations to include RAP stockpiles, batch 
+start times, total HMA produced, HMA maximum hold times, and delivery 
+schedules.  
+1.3.2. Batch Plant Team Lead. The Batch Plant Lead operates the recyclers and 
+manages the production of asphalt for applicable repairs. He/she ensures produced 
+asphalt is loaded in warehouse dump trucks to be delivered to the airfield at 
+ 
+ 
+8  
+                           AFTTP 3-32.19   24 SEPTEMBER 2018 
+appropriate times as directed by the Warehouse 1 Lead. Each plant supports up to 
+two repair teams and receives directions from the Warehouse 1 Lead on when to 
+begin and stop production. Raw asphalt material (e.g., cookies or rap) inventory, 
+production, hold times, and deliveries are reported to the Logistics Chief so 
+actions may be initiated to share material with other batch plants as needed, and 
+acquire, or produce additional materiel if shortages are expected. 
+1.3.3. Warehouse 1 Team Lead. When supporting asphalt repairs, the 
+Warehouse 1 Lead manages all aspects of asphalt production and delivery. He/she 
+determines the number of plants required to meet the required tonnage, when to 
+start production to ensure asphalt is ready for placement, but not stockpiled long 
+enough to cool below 270°F before placement, and when to begin plant shutdown. 
+He/she also manages the delivery schedules from the batch plants to appropriate 
+repair zones. 
+1.4. Asphalt Recycler. The asphalt recycler in the 4FWAB UTC is a tandem axle 
+trailer weighing 11,000 pounds and can be towed by any 1.5-ton vehicle. When 
+transporting, adjust the drawbar so the recycler is in a horizontal positon and the 
+permitted supporting load will not be exceeded. The recycler’s intended use is 
+recycling cold asphalt mix (fines, milling asphalt) and broken slabs up to 11.8 
+inches by 15.75 inches by 4 inches. 
+1.4.1. The hopper on top of the recycler is loaded with a FEL; the hopper tilts and 
+dumps material into the tumbler chute as needed. Do not fill more than 4,400 lbs 
+into the recycler tumbler, which corresponds to 1,015 psi (70 bar) on the hydraulic 
+oil pressure gauge. The unit uses a rotating drum with internal baffles to tumble 
+the asphalt through a bath of hot air. Figure 1.2 shows an external profile view of 
+the asphalt recycler and Figure 1.3 portrays the internal profile view. 
+Figure 1.2. Asphalt Recycler External Profile View. 
+ 
+ 
+ 
+AFTTP 3-32.19   24 SEPTEMBER 2018                                                                      9 
+Figure 1.3. Asphalt Recycler Internal Profile View. 
+ 
+1.4.2. The hot air is produced by a diesel fired, twin stage burner at the rear of the 
+drum (Figure 1.4). The burner introduces hot air into the drum through a coned 
+opening in the end of the drum; this prevents direct contact of the flame with the 
+material being heated. The burner is equipped with four settings: off, fan only, 
+low heat, and high heat.  
+Figure 1.4. Asphalt Recycler Burner (Rear Hatch). 
+ 
+1.5. Remote Operation. A 25-foot hydraulic control umbilical (Figure 1.5), 
+which can be connected to either side of the recycler, provides an efficient means 
+to operate both recyclers simultaneously. Umbilical functions include: 
+• 
+Drum forward and reverse with detent in forward position 
+• 
+Hopper up and down with detent in lower position 
+ 
+ 
+10  
+                           AFTTP 3-32.19   24 SEPTEMBER 2018 
+• 
+Drum high speed; engage and disengage 
+Note. Never reverse drum or open door while in high speed 
+• 
+Open Door—Operate drum reverse direction - hold door switch in open 
+position. When drum stalls, release door switch. Engage drum in forward 
+position (detented). 
+• 
+Close Door—Operate drum in normal forward direction (detented). 
+Move door switch to closed position. When drum stalls, release door 
+switch. Reverse Drum one (1) rotation and then back to forward or 
+detented position. 
+Figure 1.5. Hydraulic Control Umbilical. 
+ 
+ 
+1.6. Training. Pavements and Construction Equipment (3E2X1) and Electrical 
+Power Production (3E0X2) personnel receive asphalt recycler training at home 
+station via computer based training on the Civil Engineer Virtual Learning Center, 
+and hands-on training during Silver Flag training. 
+ 
+ 
+AFTTP 3-32.19   24 SEPTEMBER 2018                                                                      11 
+Chapter 2 
+ASPHALT MIX DESIGN AND STORAGE TECHNIQUES 
+ 
+2.1. Overview. The recommended mix design in UFC 3-250-03, Standard 
+Practice Manual for Flexible Pavements, is for a gradation 2 (12.5 mm or 0.5 
+inch) nominal HMA Pavement (see AFH 32-1034, Materials Testing, for 
+gradation testing instructions). If the recommended mix design is not available, 
+experiments have shown that a locally procured HMA SP-12.5 provides adequate 
+performance. Table 2.1 shows the UFC 3-250-03 specified gradation range and 
+the gradation range provided by a commercial asphalt provider. 
+Table 2.1. Batch/Mix Design Specifications. 
+Specifications 
+Actual Mix Design from 
+Local Procured HMA 
+Sieve Size 
+UFC Control 
+Points  
+(% Passing) 
+HMA Fine SP-12.5  
+(% Passing) 
+Inch 
+mm 
+3/4 
+19.0 
+100 
+100 
+1/2 
+12.5 
+76 – 96  
+98 
+3/8 
+9.5 
+69 – 89  
+89 
+No. 4 
+4.75 
+53 – 73  
+70 
+No. 8 
+2.36 
+38 – 60  
+52 
+No. 16 
+1.18 
+26 – 48  
+40 
+No. 30 
+0.60 
+18 – 38  
+31 
+No. 50 
+0.30 
+11 – 27  
+17 
+No. 100 
+0.15 
+6 – 18  
+7 
+No. 200 
+0.075 
+3 – 6  
+4.8 
+Note: Italicized number represent values outside UFC criteria. 
+2.2. Creating Asphalt Cookies. Asphalt cookies are non-compacted chunks of 
+HMA and virgin asphalt mix components. Cookies should be created before 
+hostilities are imminent. The following vehicles and equipment are recommended 
+for constructing HMA cookies: 
+• 
+FEL with bucket 
+• 
+Hand tools: shovel (x2), scale/measuring tape 
+• 
+Compact track loader (CTL) with sweeper attachment (optional) 
+ 
+ 
+12  
+                           AFTTP 3-32.19   24 SEPTEMBER 2018 
+2.2.1. Step 1. Designate and prepare a paved surface area by clearing any debris 
+or objects. Use the CTL sweeper attachment to sweep the surface (optional). 
+2.2.2. Step 2. Stockpile HMA material near the designated windrow area. 
+2.2.3. Step 3. Use the FEL to pick up approximately 0.5 ton of stockpiled material 
+and dump material at one end of the designated area for windrows. 
+2.2.4. Step 4. Place the bucket just over the dumped HMA with the bucket tilted 
+down so the underside is almost vertical. Using a tape or scale, set the cutting edge 
+of the bucket approximately 2.5 inches from the paved surface. 
+Note: Available footprint may determine the windrow height. The thinner the 
+windrow, the better the material breaks into manageable size chunks when 
+scraping up the windrow with the loader bucket. 
+2.2.5. Step 5. Move FEL backwards to drag, strike off, and spread the HMA and 
+create the windrow. Use shovels to keep HMA behind the bucket as necessary. 
+2.2.6. Step 6. Repeat steps 3 thru 5 until all stockpiled material is spread into 
+windrows. 
+2.2.7. Step 7. Let windrow material cool to ambient temperature.  
+2.3. Recommended Cookie Storage Technique. The preferred method of 
+storage is to keep the HMA material placed in windrows until it is needed for use 
+(Figure 2.1). When ready to begin producing HMA scrape/push windrow 
+material to the center of the windrow. As the material is being pushed, the material 
+breaks into cookies. Use the FEL bucket edge to break up any HMA cookie with 
+a length or width dimension larger than 15 inches. The HMA cookies can then be 
+stockpiled at the HMA batch plant. This storage method requires a significantly 
+larger area for storage than stockpiling the same amount of material. 
+Figure 2.1. Creating Windrows. 
+ 
+ 
+ 
+AFTTP 3-32.19   24 SEPTEMBER 2018                                                                      13 
+Note: There is an inversely proportional relationship between the cookie size and 
+production rate of the asphalt recycler. The optimum cookie size for the recycler 
+is 2.5 inches thick and no larger than 15 inches wide by 15 inches long. 
+2.4. Alternate Storage Technique. If space is an issue, store cooled cookies in 
+20-ton stockpiles. The two major problems associated with stockpiling are 
+consolidation and moisture retention. 
+2.4.1. Experience has shown that large, conical stockpiles have a tendency to form 
+an 8 to 10 inch crust over the stockpile. This crust can be easily broken by a front 
+end loader. Also, the crust tends to shed water and prevent the rest of the pile from 
+consolidating. 
+2.4.2. The stockpile should be built on a solid surface to prevent contamination or 
+compaction of the underlying surface. The finer particles in the processed cookies 
+tend to absorb and retain moisture, which increases the moisture content of the 
+material. Cookies or the production rate has to be sacrificed if there is an increase 
+in moisture content. An increase in moisture content by even 0.5 percent will 
+seriously hinder HMA production capabilities. Hence, proper drainage of the 
+stockpile should be provided. Tall conical stockpiles provide better drainage 
+compared to low, flat stockpiles. Depending on the annual moisture level in the 
+region, use of protective coverings such as tarps or structures should be 
+considered. 
+2.4.3. Check stockpiles for consolidation weekly and when consolidation 
+becomes obvious, turn and re-pile (consolidation time varies depending on 
+stockpile size and environmental factors). 
+2.5. Reclaimed Asphalt Pavement (RAP). The quality of RAP cannot be 
+guaranteed without material testing as described in AFH 32-1034. Possible use of 
+a rejuvenator or additional asphalt may be required when using RAP. If a need 
+arises to use existing paved asphalt surfaces to make RAP supplies, use 
+conventional practices and equipment for removing and breaking the asphalt 
+paved surfaces. 
+2.6. Maximum Raw Material Stockpile Storage Time. Research to determine 
+the effects of weathering and oxidation on asphalt stockpiles is currently being 
+conducted. Findings will be included in this publication as they become available.  
+ 
+ 
+ 
+ 
+14  
+                           AFTTP 3-32.19   24 SEPTEMBER 2018 
+Chapter 3 
+ASPHALT PRODUCTION PROCESS 
+ 
+3.1. Batch Start Times. Begin the recycler warmup process when released from 
+the shelter area after the attack (see paragraph 3.11) so the recyclers are ready to 
+produce quality asphalt when needed. Warehouse 1 Lead manages the asphalt 
+production and delivery processes. For asphalt capped repairs, the Crater Repair 
+Team Lead informs the Warehouse 1 Lead when pavement breaking is about to 
+commence. At this time, Warehouse 1 Lead requests the Batch Plant to begin 
+batching operations in order to have HMA delivered to the airfield when the 
+capping crew is ready to begin capping repairs. Table 3.1 provides data used to 
+help manage the asphalt production process. 
+Table 3.1. Asphalt Production and Consumption Rates. 
+Batch Plant 
+Hourly Prod. 
+Rate* (tons) 
+Team 
+Hourly 
+Consumption 
+Rates** (tons) 
+Surplus / Deficit 
+(tons/hr.) 
+Recommended 
+Production Start 
+Time 
+Min. Production 
+Time (hrs.) 
+1 
+14 
+1 
+9 
++ 5 
+2.5 hrs. after release 
+(1 hr. before need) 
+2.57 
+1 
+14 
+2 
+18 
+- 4 
+1.5 hrs. after release 
+(2 hr. before need) 
+5.15 
+2 
+28 
+3 
+27 
++ 1 
+2 hrs. after release 
+(1.5 hrs. before need) 
+3.85 
+3 
+42 
+5 
+45 
+- 3 
+1.5 hrs. after release 
+(2 hr. before need) 
+4.28 
+4 
+56 
+7 
+63 
+- 7 
+0.5 hr. after release  
+(3 hr. before need) 
+4.5 
+*One batch plant using two asphalt recyclers, each one capable of 
+producing 7 tons per hour of asphalt. 
+**Assumes 8.5’ x 8.5’ x 4” cap @ 150 lbs/ft3 mat density. 
+3.2. Tracking Production, Hold Times, and Deliveries. The Batch Team Lead 
+keeps Warehouse 1 Lead informed of asphalt production, stockpile size and hold 
+times. Dump truck operators inform the Warehouse 1 Lead of dump truck load 
+and hold times, and start and finish of asphalt deliveries. 
+ 
+ 
+AFTTP 3-32.19   24 SEPTEMBER 2018                                                                      15 
+3.2.1. Maximum stockpile hold times vary, depending on environmental 
+conditions and whether the batch plant is located indoors or outdoors. A rule of 
+thumb is maximum stockpile hold times consistently being added to in temperate 
+and dry weather conditions is three hours. There is no rule of thumb for cold 
+weather conditions; stockpiles must be constantly monitored in cold weather to 
+ensure the stockpiles are used before cooling below useable temperatures. Projects 
+are scheduled to determine more definitive stockpile hold times and will be added 
+to this publication when projects are complete. 
+3.2.2. Cover the HMA stockpile with tarps, from the inclement weather kit in the 
+4FWCR UTC, when temperatures are below 70°F or when crater repair delays 
+occur to help prevent the HMA from cooling too quickly. 
+3.3. Overview of Recycler Operation. The described operating procedures 
+herein maximize HMA production rate and meet specific discharge temperatures 
+(340° F is the typical target) while operating the recycler in continuous mode 
+using HMA cookies. The operator attempts to maintain a constant 1,015 PSI (70 
+bar) drum pressure during warm-up (paragraph 3.11) and continuous operation 
+by monitoring the drum pressure read-out and adding material in the charging box 
+as necessary. The unit should be operated on high heat for the majority of the 
+warm-up period (approximately 10 minute warm-up). After the warm-up period, 
+the operator adjusts the heat as necessary to meet the target discharge temperature. 
+When the discharge temperature becomes relatively constant, the operator 
+typically switches to low heat for the majority of the continuous production run.  
+3.3.1. If material discharge temperatures drop below specified temperature ranges, 
+the operator switches to high heat for a short period (approximately 1-2 minutes) 
+to increase the drum temperature and then switches back to low heat to continue 
+production. The operator may need to cycle in and out of high heat more 
+frequently if the RAP material has high moisture content or if the operator 
+overloads the drum (more than 1,015 PSI [70 bar]) inadvertently or in an effort to 
+increase the production rate. 
+3.3.2. Circumstances may dictate a higher target discharge temperature (i.e. 350-
+370°F). Two operating adjustments can be made to increase the discharge 
+temperature. First, the operator can cycle in and out of high heat more often. 
+Second, the operator can under-fill the drum (below 1,015 PSI [70 bar]) to 
+increase heat transfer from the drum to the material inside the drum. A 
+combination of these two options may be required. 
+3.4. Recycler Operating Tips.  
+ 
+ 
+16  
+                           AFTTP 3-32.19   24 SEPTEMBER 2018 
+3.4.1. Do: 
+• 
+Make sure machine is properly leveled and weight is on all jacks. 
+• 
+Maintain consistent load in machine to reduce smoke and overheating. 
+• 
+Make sure door on drum is at the bottom position and opened when 
+machine is idle to drain water. 
+• 
+Keep rollers and chain well lubricated they are exposed to high 
+temperatures. 
+• 
+Keep drum drive chain in proper adjustment, chain and teeth will last 
+longer. 
+• 
+Keep roller path clean, rollers will last longer. 
+• 
+Minimize loading of oversize chunks and rocks—the drum paddles and 
+shell will last longer. 
+• 
+Keep drum rotating and blower on during cool down at end of 
+production. 
+• 
+Keep door actuator paddles clean to avoid excessive drum door ramp 
+wear and paddle damage. 
+• 
+Keep engine RPM and generator belt tension properly adjusted to 
+maintain correct voltage for burner system. 
+• 
+Keep burner properly adjusted. 
+• 
+Bleed fuel system after changing filters. 
+• 
+Keep machine clean, material buildup will cause rapid wear to 
+components. 
+• 
+Turn drum while burner is firing. 
+3.4.2. Do Not: 
+• 
+Run machine on extremely soft surfaces without pads under jacks as the 
+machine can settle unevenly and cause misalignment and uneven loads 
+on drum. 
+• 
+Surge load machine. 
+• 
+Run burner without drum rotating. 
+• 
+Run burner without material in the drum except for initial warm-up. 
+ 
+ 
+AFTTP 3-32.19   24 SEPTEMBER 2018                                                                      17 
+• 
+Leave material in drum at end of production, it will all fall to bottom of 
+drum and cause excessive unbalance in drum on startup causing possible 
+drive damage. 
+• 
+Attempt to run burner without engine at full RPM, electrical component 
+damage may result due to low voltage. 
+• 
+Weld on machine without unplugging generator and disconnecting 
+battery. 
+• 
+Hit override button repeatedly (more than 3 consecutive times as it could 
+damage fire control relay) locate the problem and correct. 
+• 
+Drop material from excessive height into charging box. 
+3.5. Smoke Emission Indicators. Smoke from the recycler indicates some 
+operating conditions. 
+3.5.1. White smoke coming out of the inlet, but dissipates within 50 feet: caused 
+by water and is not an issue. 
+3.5.2. White/blue smoke out of inlet, but does not dissipate within 50 feet: 
+Finishing area of drum is well above 350°F and is flashing A/C off material. This 
+will be more defined if in Low Fire or Burner Off/Blower On. Adjust feed/ 
+discharge rate of machine to control. Use shutdown steps to control. White smoke 
+off material at discharge indicates material is overheated, should only see slight 
+blue haze coming off material at discharge. Target 300-325°F. Also, can be result 
+of overfilling machine and pushing material up into burner funnel bringing 
+material in contact with flame. 
+3.5.3. Black smoke at burner start and during operation indicates low air volume 
+on burner. Material buildup in fan segments cutting air volume resulting in wrong 
+air/fuel mixture. Clean blower fan. 
+3.5.4. Brown/black smoke. There is a fire in the drum. Cut burner, add material 
+to cool drum. Leave door closed five minutes then start discharging and resume 
+operation. 
+3.5.5. Slight blue haze out inlet and off of material. Optimal! 
+3.6. Safety. Before putting the recycler into operation, familiarize yourself fully 
+with all parts and functions of the machine and the manufacturer’s operating 
+instructions/safety precautions (provided with the recyclers).  
+ 
+ 
+18  
+                           AFTTP 3-32.19   24 SEPTEMBER 2018 
+3.7. Setup Location. The asphalt batch plant area should be setup in an area that 
+meets the following criteria. 
+3.7.1. Set recyclers up on stable ground as level as possible. 
+3.7.2. Leave ample space around recyclers for loading and unloading. 
+3.7.3. Clear the area of flammable materials. 
+3.7.4. Locate recyclers in an area free of overhead obstructions such as structures, 
+overhangs, power lines, and trees. 
+3.7.5. Avoid operating recyclers in areas where exhaust gases could enter air 
+handling systems for adjacent facilities. 
+3.7.6. Do not operate recyclers in enclosed structures without adequate overhead 
+clearance, proper exhaust handling system and sufficient make up air to handle 
+exhaust and requirements of engine and burner. 
+3.7.7. Stockpile HMA cookies (feed stockpile) near the asphalt recyclers so that 
+the FEL operator can easily access the feed stockpile but not be hindered when 
+retrieving HMA from both recycler discharge areas. Spacing/dimensions in 
+Figure 1.1 are examples and may not be the same for all locations. It is the FEL 
+operator’s discretion how much space is necessary between the stockpiles and the 
+asphalt recycler equipment. 
+3.8. Recycler Setup Procedures.  
+3.8.1. After positioning recycler, set parking brake and chock wheels before 
+disconnecting from tow vehicle. 
+Note. If setting up on very soft (i.e. loose dirt) surface, place mats under supports 
+to help keep the recyclers from sinking and becoming out of level on soft ground. 
+Setting recyclers on asphalt surfaces works the best. 
+3.8.2. Unlock manual locks and lower drop legs and pins (Figure 3.1). 
+3.8.3. Operate jack control (Figure 3.1) to raise the recycler to operating height. 
+Do NOT operate jack actuators with manual locks engaged. Adjust all four 
+corners to level the unit. 
+3.8.4. Tighten manual locks. 
+3.8.5. Spray down the throat, backstop, and discharge gate mechanism with 
+release agent. 
+ 
+ 
+ 
+AFTTP 3-32.19   24 SEPTEMBER 2018                                                                      19 
+Figure 3.1. Four Corner Jacking System. 
+ 
+3.9. Pre-Operational Checks.  
+3.9.1. Inspect all engine fluid levels. 
+3.9.2. Check hydraulic oil level (bottom quarter of sight glass when cold). 
+3.9.3. Inspect engine and generator belts for condition and correct tension. 
+3.9.4. Inspect burner filters. 
+3.9.5. Lubricate rollers and drive chain. 
+3.10. Start Up Process.  
+Note. If below 32°F, use extension cord in toolbox and connect to receptacle on 
+front panel of machine and 120VAC power source and allow minimum of 5 
+minutes to warm fluids and battery. 
+3.10.1. Step 1. Remove hydraulic control umbilical (Figure 1.5) from toolbox to 
+connect to right side (R/S) or left side (L/S) of recycler as required. Set control 
+switch in engine compartment to correspond with side chosen for operation (right 
+or left). Make sure all umbilical switches are in off position. 
+ 
+ 
+20  
+                           AFTTP 3-32.19   24 SEPTEMBER 2018 
+3.10.2. Step 2. Remove infrared control head (Figure 3.2) from toolbox and 
+position on desired side of machine and connect wiring accordingly. 
+Figure 3.2. Infrared Control Head. 
+ 
+3.10.3. Step 3. Start engine and allow to warm and stabilize at idle (if below 60°F, 
+turn on 12VDC fuel heater). 
+3.10.4. Step 4. Turn on master switches to enable hydraulics and infrared 
+thermometers to monitor discharge temperature. 
+3.10.5. Step 5. Engage drum to aid in warming up hydraulic system.  
+3.10.6. Step 6. Remove ratchet and socket from toolbox for jack manual locks 
+and loosen all jack locks. 
+3.10.7. Step 7. Lower dropdown sections of elevation jacks to last pin hole. Install 
+support pins and safety pins. 
+Note. It may be required that you lower the front of machine by lowering propping 
+jacks to get pins in for rear drop legs. Then raise the front of machine to set front 
+drop legs. 
+3.10.8. Step 8. Bring engine to full throttle with drum drive engaged. 
+3.10.9. Step 9. Open jack control box and use the ALL JACKS LOWER switch 
+to extend all jacks at the same time. Raise machine to end of jack stroke. The amp 
+gauge will jump up when the first jack reaches the end. The breaker for that jack 
+will pop if switch is maintained...if breaker pops, reset. 
+3.10.10. Step 10. Use individual switches (Figure 3.1) to level machine by 
+referencing the dual axis level to the lower right of jack control box. 
+3.10.11. Step 11. When machine level has been achieved, tighten all elevation 
+jack manual locks with ratchet and socket provided. 
+ 
+ 
+AFTTP 3-32.19   24 SEPTEMBER 2018                                                                      21 
+3.10.12. Step 12. Lower manual backstops for backboard down to 4th hole and 
+secure. 
+3.10.13. Step 13. With aid of the mini-chain fall in the toolbox, first raise the 
+backboard to remove transport chains. Connect hooks to loop on back of board to 
+stow them. Using chain fall, lower the backboard to ground and unfold extensions. 
+3.10.14. Step 14. Lower and pin ladder assembly. 
+3.10.15. Step 15. Open burner control panel and move step switch to Position #1. 
+Confirm fuel suction and pressure values are correct. 
+3.10.16. Step 16. Confirm display is correct. Clean drum temperature sensor 
+window if required.  
+Note. Drum temperature display will start to read low as the window gets dirty. 
+Clean with a soft rag, wetted with some fuel oil. 
+3.10.17. Step 17. Operate umbilical to verify all functions: 
+• 
+Drum forward and reverse with detent in forward position 
+• 
+Hopper up and down with detent in lower position 
+• 
+Drum high speed; engage and disengage 
+Note. Never reverse drum or open door while in high speed 
+• 
+Open door and operate drum reverse direction - hold door switch in open 
+position. When drum stalls, release door switch. Engage drum in forward 
+position (detented). 
+• 
+Close Door and operate drum in normal forward direction (detented). 
+Move door switch to closed position. When drum stalls, release door 
+switch. Reverse Drum one (1) rotation and then back to forward or 
+detented position. 
+3.10.18. You are now ready for operation. Ensure a sufficient quantity of material 
+is on-hand for desired production before lighting burner. 
+3.11. Warmup Process. The warmup process is a multi-step process to run 
+asphalt cookies or RAP through the asphalt recycler to produce HMA at the 
+correct temperature. 
+3.11.1. Step 1. Move burner control switch to Position #2. Burner should light at 
+8-second mark. Run burner in Position 2 (low fire) approximately two (2) minutes 
+depending on ambient temperature (up to five (5) minutes in extreme cold). 
+ 
+ 
+22  
+                           AFTTP 3-32.19   24 SEPTEMBER 2018 
+3.11.2. Step 2. Fill hopper (Figure 3.3) and load drum with light load 
+(approximately 725 psi [50 bar]). Leave in “Low Fire” for five (5) minutes. 
+Figure 3.3. Loading Asphalt Recycler. 
+ 
+3.11.3. Step 3. Move burner control to Position #3. Continue with door closed 
+(approximately three minutes). 
+3.11.4. Step 4. Open door. The first couple of drops may not be turned yet. 
+Monitor temperature. If not above 250°F by fifth (5th) drop, close door and move 
+burner switch back to Position #2. Wait approximately three (3) minutes. Then 
+open door and check temperature of the discharge material. It should be 
+approaching 300°F at this time. Leave the door open and return step switch to 
+Position #3 (High Fire). Maintain drum load at about 725 psi (50 bar) by using 
+small dumps out of the hopper. As the drum gains temperature, you will need to 
+increase drum load to a maximum of 1015 psi (70 bar) to control discharge 
+temperature. Do not exceed 1015 psi (70 bar) at any time. If unable to control 
+discharge temperature at 1015 psi (70 bar), switch back to low fire. 
+3.11.5. If the HMA discharge temperature is within or above the specified 
+temperature range, continue discharging HMA. Lowering the burner setting 
+and/or loading more material into the drum will reduce the temperature of the 
+material in the drum which in turn lowers the discharged HMA temperature. 
+3.11.6. If the HMA discharge temperature is below the specified temperature 
+range, close the discharge gate and continue to heat and mix the material. 
+3.11.7. It is common for material discharge temperatures to rise or fall a few 
+degrees before normalizing and leveling out. If the initial discharged material 
+ 
+ 
+AFTTP 3-32.19   24 SEPTEMBER 2018                                                                      23 
+temperature is slightly below the specified range, discharge HMA for 30 seconds 
+to allow the temperature to rise into the acceptable range. If temperature does not 
+rise into the acceptable range, close the discharge gate. 
+3.11.10. Step 5. Repeat Steps 3 and 4 until the HMA discharge temperature is 
+within the desired range. The burner switch may have to be switched between 
+setting 2 (burner stage 1) and 3 (burner stage 2) to maintain a discharge 
+temperature within the specified temperature range. 
+3.11.11. Step 6. Once the warm-up period is complete (material temperature has 
+stabilized), place asphalt produced during the warmup period back in the feed 
+stockpile to be rerun and used for repairs if it has not been overheated (above 
+380°F). Dispose the asphalt produced during the warmup period if it was 
+overheated. 
+Note: If the plant is on semi-improved surfaces, use the asphalt produced during 
+warmup as a bed for the stockpiled material. 
+3.12. HMA Production. Remove HMA material under the discharge gate as 
+needed and load in dump trucks or transport to storage using a front end loader 
+with a bucket. 
+Note: Early in the production process, maintain temperatures in the higher part of 
+the desired range (350 - 380°F) to help ensure proper stockpile temperatures. As 
+asphalt production nears 50 percent of the required production, gradually bring 
+the temperature down to the lower part of the range (290 - 310°F) to decrease time 
+required to cool repairs. 
+3.12.1. During asphalt production, the operator should ensure the pressure ratings 
+are maintained between 900-1,000 pounds per square inch (60-70 bar). If the drum 
+pressure drops, the temperature will begin to rise in the drum affecting quality of 
+the asphalt. If the drum pressure is too high, temperature will begin to drop 
+lowering its effect on the consistency of the asphalt. 
+3.12.2. Maintain a consistent drum pressure by monitoring the intake and 
+production of material. Making the drum lighter or heavier as needed to maintain 
+a consistent temperature. 
+3.12.3. During batching operation the asphalt recycler can become jammed or 
+clogged with debris. The recycler operator removes any debris or asphalt clumps 
+within the recycler to ensure the proper operation. Perform the following actions 
+to help prevent buildups, clogs, and jams: 
+ 
+ 
+24  
+                           AFTTP 3-32.19   24 SEPTEMBER 2018 
+• 
+Check throat area periodically for obstructions. Blockage in this area 
+causes rapid overheating of material in the drum due to reduced airflow.  
+• 
+In extreme cases, a pry bar may be used to remove buildup of asphalt 
+lumps at the charging box/tumbler chute entrance. 
+• 
+For large chunks, reverse drum direction for approximately one minute 
+and pull chunk materials back into production area of the drum to reheat. 
+• 
+Between production runs, check for any buildup of materials at the 
+charging box/tumbler chute entrance. 
+Note: Stockpiles should be covered with tarps and a berm constructed around the 
+stockpiles during inclement weather. Tarps and berm material are included in the 
+Inclement Weather Kit from UTC 4F9CR.  
+Note: Tests in temperate and dry weather suggests 10 tons of asphalt can be held 
+in a 10-ton dump truck no longer than 3 hours. Asphalt may cool below minimum 
+placement temperature of 270°F if held beyond 3 hours. 
+3.12.4. When enough HMA has been produced, cease loading the hopper, but 
+continue dumping hopper contents into the drum until empty. Do not over load 
+the drum (exceed 1,015 PSI [70 bar]). Raise the loading tray fully and continue 
+producing asphalt. 
+3.12.5. Monitor the drum temperature and reduce the burner stage accordingly as 
+material moves through the drum and out the discharge gate. 
+3.13. Work Interruption. Perform the following actions if there is an interruption 
+in the HMA production process. 
+3.13.1. If the work is to be interrupted for up to thirty minutes, discharge the 
+tumbler to one third or half of its contents, close the discharge gate, keep the 
+tumbler turning and switch burner to position "0". 
+3.13.2. If the work is to be interrupted for more than 30 minutes, discharge the 
+tumbler completely and switch off burner and engine.  
+3.13.3. At continuous operation keep the contents of the tumbler at a level 
+corresponding to 1,015 PSI (70 bar) on the hydraulic oil pressure gauge, keep 
+burner operation at maximum rate and discharge the reprocessed asphalt 
+continuously. 
+ 
+ 
+AFTTP 3-32.19   24 SEPTEMBER 2018                                                                      25 
+3.13.4. Fill asphalt lumps into the recycler until the reading of the hydraulic oil 
+pressure gauge is 1,015 PSI (70 bar) and 870 PSI (60 bar) when using asphalt 
+fines (material passing through a #4 sieve [4.75-mm]). 
+3.14. Shut Down.  
+3.14.1. Step 1. Perform an end-of-production run to clean the recycler and to 
+ensure it is ready for its next mission (see paragraph 4.2). 
+3.14.2. Step 2. Unlock all manual locks on elevation jacks. Lower front of unit to 
+free up backboard. Clean and raise backboard and secure. Raise all elevation jacks 
+completely and secure all manual locks. 
+3.14.3. Step 3. Idle engine down and shut off all control switches. Allow engine 
+to cool two (2) minutes and shut down. 
+3.14.4. Step 4. Stow all gear. 
+3.15. Batching Complete. Batch Plant Team Lead informs the Logistics Chief 
+when personnel have finished their tasks and are idle so they may be loaned to 
+other teams as necessary.  
+ 
+ 
+ 
+ 
+26  
+                           AFTTP 3-32.19   24 SEPTEMBER 2018 
+Chapter 4 
+RECYCLER CLEANING 
+4.1. During Production Run. Check for material buildup between production 
+runs at the charging box/ tumbler chute entrance. If major build-up occurs, use 
+crowbar and hand tools (chisel, hammer-drill, hammer, etc.) to remove material 
+buildup. Machine must be totally cooled and not in operation (OFF) before 
+removing any buildup inside these areas. 
+4.2. End of Production Run. 
+4.2.1. Step 1. Close the discharge gate and keep the contents tumbling for five 
+minutes at the first burner firing stage to ensure all the asphalt lumps are 
+thoroughly heated. 
+4.2.2. Step 2. Fully open discharge gate to discharge material in the tumbler. 
+4.2.3. Step 3. Switch the burner to stage 1 (burner fan still blowing, no heat). 
+4.2.4. Step 4. With the aid of the leveling jacks, lower the discharge end of the 
+recycler to ensure complete discharge of the contents. 
+4.2.5. Step 5. Fully open the discharge gate (manually) to remove any bigger 
+chunks of material trapped in the tumbler.  
+4.2.6. Step 6. While the engine is still running and the burner fan blowing, spray 
+the gate, gate tracks, and drum channel with asphalt release agent to ensure all 
+asphalt has been removed. 
+4.2.7. Step 7. Leave the engine running and the burner fan blowing (burner switch 
+in stage 1) until the tumbler has cooled below 120°F (50°C). 
+4.2.8. Step 8. Close the discharge gate. 
+4.2.9. Step 9. Stop the tumbler drive with the discharge gate at the bottom of the 
+drum open. 
+4.2.10. Step 10. Turn the burner switch to stage 0 (everything off) and turn off the 
+recycler engine.  
+4.2.11. Step 11. Clean caked or stray asphalt off the recycler.  
+4.2.12. Step 12. Clean up the area surrounding the recycler.  
+ 
+ 
+AFTTP 3-32.19   24 SEPTEMBER 2018                                                                      27 
+4.2.13. Step 13. Wash down the throat area, discharge gate, and backstop with 
+release agent. 
+ 
+ 
+ 
+ 
+28  
+                           AFTTP 3-32.19   24 SEPTEMBER 2018 
+Chapter 5 
+Asphalt Recycler Maintenance Requirements 
+5.1. Daily: 
+• 
+Check engine oil, water, and air filter restriction. 
+• 
+Check engine and generator drive belt tension. 
+• 
+Check hydraulic oil level. 
+• 
+Check fuel filters. 
+• 
+Check and lubricate all rollers and drive chain. (10 shots rollers, keep 
+chain wet). 
+• 
+Check that all burner components are secure. 
+• 
+Check burner for fuel leaks. 
+5.2. Monthly: 
+• 
+All items on Daily list. 
+• 
+Clean roller paths and roller pockets. 
+• 
+Check drum drive chain tension and adjust if necessary. 
+Note. Adjusting chain tension should be accomplished by an experienced 
+operator. Improper tension will cause damage to drum chain, drum drive 
+components, and/or drum teeth.  
+• 
+Clean burner primary fuel screen and inspect secondary filters. 
+• 
+Check drum end clearance and adjust if required. 
+• 
+Lubricate charging box cylinder pins. 
+• 
+Clean all tank breathers. 
+• 
+If stationary, rotate wheels to keep from damaging bearings. 
+5.3. Annually: 
+• 
+All items on Daily and Monthly list. 
+• 
+Change hydraulic oil and filter. 
+• 
+Inspect drive chain, drum teeth, drive sprocket and idler. 
+• 
+Inspect all carry, side and thrust rollers. 
+• 
+Inspect drum inlet area and drum for wear. 
+• 
+Inspect drum door and actuators for wear and buildup as required. 
+ 
+ 
+AFTTP 3-32.19   24 SEPTEMBER 2018                                                                      29 
+• 
+Clean and inspect burner, replace nozzles, reset electrode gap. 
+• 
+Clean valley of blower vanes, air box and damper door. As they fill with 
+debris air volume drops and burner falls out of adjustment. More 
+frequently if operated in very dusty environment. 
+5.4. Engine Service and Burner Fuel Filters. 250 hours normal service, 200 
+hours severe conditions. 
+5.5. Hydraulic System Oil and Filter. 1000 hours/1 Year. 
+5.6. Burner Malfunction and Troubleshooting. In case of a burner malfunction 
+do not try to re-start the burner by pushing the reset button more than three times. 
+Too many re-starts which fail again may cause the burner relay to become 
+overloaded and fail completely. It is advisable to solve the problem by systematic 
+study and following the trouble shooting diagram in the Operators’ Manual.  
+ 
+ 
+ 
+ 
+30  
+                           AFTTP 3-32.19   24 SEPTEMBER 2018 
+Chapter 6 
+RECONSTITUTION AND RETURN TO NORMAL OPERATIONS 
+ 
+6.1. Overview. This phase begins when directed to return to normal operations. 
+During this phase, begin implementing plans to reconstitute the RADR 
+equipment, materials, and vehicles and then resume normal operations. Supervise 
+an orderly return to the normal operating facilities, or movement to a temporary 
+or permanent facility. Maintain communication with command and control (C2) 
+agencies during transition and report mission manpower and capability. 
+ 
+6.2. Reconstitution. When directed, begin the following reconstitution actions: 
+• 
+Replenish virgin asphalt/rap stockpiles. 
+• 
+Perform vehicle post operational inspections and take appropriate action 
+for any discrepancies found.  
+• 
+Clean recyclers. 
+• 
+Refuel recyclers and vehicles. 
+• 
+Return vehicles to their duty locations or staging areas. 
+ 
+ 
+ 
+ 
+JOHN B. COOPER, Lieutenant General, USAF 
+DCS/Logistics, Engineering & Force Protection 
+ 
+ 
+ 
+ 
+AFTTP 3-32.19   24 SEPTEMBER 2018                                                                      31 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+References 
+AFDA 3-34, Engineer Operations, 30 Dec 2014 
+AFI 10-210, Prime Base Engineer Emergency Force (BEEF) Program, 21 Jan 
+2015 
+AFMAN 33-363, Management of Records, 1 Mar 2008 
+AFH 32-1034, Materials Testing, 3 Apr 2015 
+AFPAM 10-219V4, Airfield Damage Repair Operations, 28 May 2008 
+AFTTP 3-32.18, Rapid Airfield Damage Recovery Warehouse Operations, Apr 
+17 
+UFC 3-250-03, Standard Practice Manual for Flexible Pavements15 May 2001 
+UFC 3-270-07, O&M: Airfield Damage Repair, 12 Aug 2002 
+Bagela BA 10000 Asphalt Recycler Operators’ Manual, no date 
+AFCEC/CXA Publication, Asphalt Production Using Hot Mix Asphalt (HMA) 
+Cookies and an Asphalt Recycler, no date 
+Abbreviations and Acronyms 
+AFI—Air Force Instruction 
+AFMAN—Air Force Manual 
+AFRIMS—Air Force Records Information Management System 
+BEEF—Base Engineer Emergency Force 
+C2—command and control 
+CTL—compact track loader 
+FOD—foreign object debris 
+OIC—Officer in Charge 
+OPR—Office of Primary Responsibility 
+RADR—Rapid Airfield Damage Repair 
+RAP—reclaimed asphalt pavement 
+RDS—Records Disposition Schedule 
+TTP—tactics, techniques, and procedures 
+ 
+ 
+32  
+                           AFTTP 3-32.19   24 SEPTEMBER 2018 
+UFC—Unified Facilities Criteria 
+UTC—Unit Type Code 
+Terms 
+Airfield—An area prepared for the accommodation (including any buildings, 
+installations, and equipment), landing, and takeoff of aircraft. 
+Crater—Craters represent damage that penetrates through the pavement surface 
+into the underlying base and sub grade soil, which uplifts the surrounding 
+pavement and ejects base, sub base soils, rock, and pavement debris around the 
+impact area. Large craters have an apparent diameter equal to or greater than 6 m 
+(20 ft). Small craters have an apparent diameter less than 6 m (20 ft). 
+Debris—Material ejected from the crater including broken pavement and soil. 
+Debris is some-times usable as backfill material particularly for large crater repair, 
+but for small crater or spall repair it is generally not advisable. 
+Facility—A real property entity consisting of one or more of the following: a 
+building, a structure, a utility system, pavement, and underlying land. 
+Minimum Airfield Operating Surface (MAOS)—The combined requirement 
+for airfield surfaces for both runway and access routes. The MOS is part of the 
+MAOS. 
+Minimum Operating Strip (MOS)—1. A runway which meets the minimum 
+requirements for operating assigned and/or allocated aircraft types on a particular 
+airfield at maximum or combat gross weight. 2. The MOS is the smallest area to 
+be repaired to launch and/or recover aircraft after an attack. Selection depends 
+upon mission requirements, taxi access, resources available, and estimated time 
+to repair. For fighter aircraft, the typically accepted dimensions are 5,000 feet long 
+by 50 feet wide. 
+Mission—1. The task, together with the purpose, that clearly indicates the action 
+to be taken and the reason therefore. 2. In common usage, especially when applied 
+to lower military units, a duty assigned to an individual or unit; a task. 3. The 
+dispatching of one or more aircraft to accomplish one particular task. (JP 1-02) 
+Personnel—Those individuals required in either a military or civilian capacity to 
+accomplish the assigned mission. 
+Procedures—Standard, detailed steps that prescribe how to perform specific 
+tasks. 
+ 
+ 
+AFTTP 3-32.19   24 SEPTEMBER 2018                                                                      33 
+Recovery—The development, coordination, and execution of service- and site-
+restoration plans for impacted communities and the reconstitution of government 
+operations and services through individual, private-sector, nongovernmental, and 
+public assistance programs that: identify needs and define resources; provide 
+housing and promote restoration; address long-term care and treatment of affected 
+persons; implement additional measures for community restoration; incorporate 
+mitigation measures and techniques, as feasible; evaluate the incident to identify 
+lessons learned; and develop initiatives to mitigate the effects of future incidents. 
+Runway—A defined rectangular area of an airfield, prepared for the landing and 
+takeoff of aircraft along its length. A runway is measured from the outer edge of 
+the thresholds from one end of the runway to the others. The width of the runway 
+is typically measured from the outer edge of the load-bearing pavement on one 
+side to the outer edge of the load-bearing pavement on the other side. In some 
+cases the runway may be measured from the outside edge of the runway marking 
+line on one side to the outside edge of the marking line on the other side and any 
+remaining load bearing pavement is considered shoulder. 
+Spall—Pavement damage that does not penetrate through the pavement surface 
+to the underlying soil layers. A spall damage area could be up to 1.5 meters (5 
+feet) in diameter. 
+Support—1. The action of a force that aids, protects, complements, or sustains 
+another force in accordance with a directive requiring such action. 2. A unit that 
+helps another unit in battle. 3. An element of a command that assists, protects, or 
+supplies other forces in combat. (JP 1-02) 
+Tactics—1. The employment of units in combat. 2. The ordered arrangement and 
+maneuver of units in relation to each other and/or to the enemy in order to use 
+their full potentialities. (JP 1-02) 
+Techniques—Non-prescriptive ways or methods use to perform missions, 
+functions, or tasks. 
+Threat—An indication of possible violence, harm, or danger. 

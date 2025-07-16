@@ -1,0 +1,1640 @@
+DRAFT — NOT FOR IMPLEMENTATION OR COMPLIANCE 
+AFTTP 3-32.34V1, 30 May 2016 
+0 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         AIR FORCE TACTICS, TECHNIQUES, 
+                        AND PROCEDURES 3-32.15 
+ 
+10 JULY 2024 
+DEPARTMENT OF THE AIR FORCE 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This page intentionally left blank. 
+ 
+ 
+BY ORDER OF THE 
+ 
+   AIR FORCE TACTICS, TECHNIQUES, 
+SECRETARY OF THE AIR FORCE                   AND PROCEDURES 3-32.15 
+  
+10 JULY 2024 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Tactical Doctrine 
+ 
+ 
+                                               RAPID SETBACK INSTALLATION OF 
+MOBILE ARRESTING GEARS SYSTEM 
+ACCESSIBILITY: Publications and forms are available on the e-Publishing 
+website at www.e-Publishing.af.mil for downloading or ordering. 
+RELEASABILITY: There are no releasability restrictions on this publication. 
+OPR: AF/A4CX  
+ 
+ 
+ 
+        Certified by: AF/A4C 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+             Pages: 46 
+This publication supports Air Force Instruction (AFI) 10-209, RED HORSE Pro-
+gram, AFI 10-210, Prime Base Engineer Emergency Force (BEEF) Program, and 
+Air Force Pamphlet (AFPAM) 10-219, Volume 4, Airfield Damage Repair Oper-
+ations. This publication applies to the Regular Air Force, the Air Force Reserve, 
+and the Air National Guard. This publication does not apply to the United States 
+Space Force. It covers current tactics, techniques, procedures and accepted best 
+practices to accurately and rapidly install a mobile arresting gear system after at-
+tack. Ensure all records generated as a result of processes prescribed in this pub-
+lication adhere to AFI 33-322, Records Management and Information Govern-
+ance Program, and are disposed in accordance with the Air Force Records Dis-
+position Schedule, which is located in the Air Force Records Information Man-
+agement System. Refer recommended changes and questions about this publica-
+tion to the office of primary responsibility using the DAF Form 847, Recommen-
+dation for Change of Publication; route DAF Forms 847 from the field through 
+the appropriate functional chain of command. The use of the name or mark of any 
+specific manufacturer, commercial product, commodity, or service in this publi-
+cation does not imply endorsement by the Department of the Air Force. 
+ 
+2                                                                       AFTTP3-32.15  10 JULY 2024 
+ 
+SUMMARY OF CHANGES: This document has been substantially revised and 
+must be completely reviewed. Major changes include Unit Type Code (UTC) and 
+various equipment updates, gauge readings and measurements changes, and the 
+addition of Rapid Airfield Damage Recovery (RADR) respiratory protection 
+guidance. 
+ 
+Chapter 1—INTRODUCTION .................................................................... 4 
+1.1. Overview ................................................................................... 4 
+1.2. Description ................................................................................ 4 
+Figure 1.1. MAAS Trailer Views............................................................... 6 
+Figure 1.2. MRES Assembly Views .......................................................... 7 
+1.3. General Safety Considerations .................................................. 8 
+1.4. Personal Protective Equipment ................................................. 9 
+Table 1.1. Listing of Typical PPE by Operation ........................................ 9 
+1.5. Safety Summary ...................................................................... 10 
+Chapter 2—RESOURCES ......................................................................... 15 
+2.1. MAAS Equipment .................................................................. 15 
+Figure 2.1. MAAS Elevation and Plan View ........................................... 15 
+2.2. MRES Equipment ................................................................... 16 
+Figure 2.2. Typical MRES Installation .................................................... 16 
+2.3. Installation Team ..................................................................... 17 
+Table 2.1. AAS Team Assignments ......................................................... 17 
+2.4. Tools and Spares ...................................................................... 18 
+Chapter 3—PRE-ATTACK ACTIONS .................................................... 20 
+3.1. Introduction.............................................................................. 20 
+AFTTP3-32.15  10 JULY 2024                                                                    3 
+3.2. Preparing for Mobile Arresting Gear System Setback Install .. 21 
+3.3. Expected Installation Times ..................................................... 23 
+Table 3.1. AAS Installation Completion Baselines .................................. 23 
+Chapter 4—INSTALLATION ................................................................... 25 
+4.1. Introduction ............................................................................. 25 
+4.2. Setback Configuration............................................................. 25 
+Figure 4.1. Typical Positioning, Setback Trailer System ......................... 29 
+Figure 4.2. Body Stakes to Install Prior to Pull Out Alignment ............... 31 
+4.3. MAAS-Only Installation ......................................................... 34 
+4.4. After combat or emergency conditions have ended ................ 34 
+Attachment 1—GLOSSARY OF REFERENCES AND  
+SUPPORTING INFORMATION 
+36 
+Attachment 2—TAPE SWEEP ZONES 
+40 
+Attachment 3—PRE-ATTACK CHECKLIST 
+41 
+Attachment 4—INSTALLATION CHECKLIST 
+43 
+ 
+ 
+4                                                                       AFTTP3-32.15  10 JULY 2024 
+Chapter 1 
+INTRODUCTION 
+1.1. Overview. Current contingency airfield operations will most likely require a 
+mobile arresting gear system setback installation during airfield recovery. In these 
+instances, the Mobile Runway Edge Sheave (MRES) will be installed in combi-
+nation with the Mobile Aircraft Arresting System (MAAS). 
+ 
+1.1.1. Although not designed to be expeditious, a setback installation must still 
+meet stringent recovery timelines. This necessitates specific pre-attack actions 
+and potential sequence changes to normal installation procedures to avoid con-
+flicts with other rapid airfield damage repair teams and their large amounts of 
+equipment and vehicles throughout the minimum airfield operating surface 
+(MAOS). 
+ 
+1.1.2. The expeditious procedures described herein are emergency recovery ac-
+tions to supplement Technical Orders (T.O.) 35E8-2-10-1, Mobile Aircraft Ar-
+resting Systems and 35E8-2-3-1, Operations Manual for Mobile Runway Edge 
+Sheave. These procedures will assist the aircraft arresting system (AAS) installa-
+tion team with reaching airfield recovery timelines when installing a setback 
+AAS. This publication does not replace mandatory compliance instructions, but 
+augments those found in the T.O. and the T.O. will still take precedence if con-
+tradictions are found. This publication describes required resources, planning fac-
+tors, expeditious installation of contingency aircraft arresting systems supporting 
+emergency launch and recovery of fighter aircraft. 
+ 
+Note: Expeditionary installations may not remain in service longer than one year 
+without a waiver; request waivers as described in FC 3-260-18F Air Force Air-
+craft Arresting Systems (AAS) Installation, Operation, and Maintenance (IO&M), 
+paragraph 5.8.3. Expeditionary soil installation should not be used if the antici-
+pated period of service is longer than one year. 
+ 
+1.2. Description. The mobile arresting gear system consists of the MAAS and the 
+MRES. In most instance, contingency airfields support multiple airframes and 
+AFTTP3-32.15  10 JULY 2024                                                                    5 
+consequently require additional wing clearance for wide-bodied aircraft. The 
+MRES allows the MAAS to be setback from the minimum operating strip’s 
+(MOS) edge, providing the additional wing clearance, as well as placing the ab-
+sorbers outside the frangibility zone to reduce the need to reposition later. A set-
+back installation may take additional two and one-half plus hours compared to a 
+MAAS-only installation. Note: This additional time is with an experienced team 
+and under ideal conditions. When a contingency airfield supports fighter aircraft 
+only, or when a Wing Commander determines a setback installation will cause 
+unacceptable delays to initial sorties, the MAAS may be installed temporarily at 
+the edge of the MOS without a runway edge sheave system. Once normal opera-
+tions return it must be relocated outside the frangibility zone. 
+ 
+1.2.1. The MAAS is a rotary friction-type energy absorber consisting of two iden-
+tical units installed on each side of the runway (Figure 1.1). It is designed around 
+special nylon tape used as the purchase or drive member. Arrestment of landing 
+aircraft is accomplished by engagement of the aircraft's arresting hook with a pen-
+dant cable assembly stretched across the runway. The pendant cable is fastened to 
+the nylon tape with a mechanical connection known as the tape connector. Energy 
+of the arrested aircraft is absorbed in the rotary friction brakes during the tape 
+payout. The MAAS can arrest specified aircraft within a nominal 1,200 feet 
+runout. The system is capable of being installed in soil, asphalt, or concrete, but 
+is most likely installed in soil for setback installations. The MAAS is towable by 
+any vehicle capable of towing 18,000 pounds (36,000 pounds if towed in tandem) 
+and equipped with a standard pintle-hook. 
+ 
+ 
+6                                                                       AFTTP3-32.15  10 JULY 2024 
+Figure 1.1. MAAS Trailer Views. 
+ 
+ 
+1.2.2. The MRES system (Figure 1.2) is designed to enhance capabilities of the 
+MAAS by providing a low-profile runway edge sheave allowing the MAAS to be 
+setback from the runway, removing high profile equipment from edges of the run-
+way. One mobile runway edge sheave trailer is called an MRES assembly. Two 
+mobile runway edge sheave assemblies make up a mobile runway edge sheave 
+system, or MRES system. Any installation combining the MRES system and the 
+MAAS is referred to as a mobile arresting gear system. 
+ 
+ 
+AFTTP3-32.15  10 JULY 2024                                                                    7 
+Figure 1.2. MRES Assembly Views. 
+ 
+1.2.2.1. The MRES is designed for contingency situations to support the setback 
+configuration of unit-/or bi-directional installed arresting gear. It should not be 
+used as a permanent component of a real property installed mobile arresting gear 
+system. As with the Lightweight Fairlead Beams and standard fairlead beam, it 
+reduces potential hazards to incoming and outgoing aircraft by significantly re-
+ducing the arresting system profile at the edge of the MOS. The MRES is the 
+preferred contingency runway edge sheave as it has a cleaner and safer installation 
+footprint and does not require additional vehicles for transporting, unloading, and 
+installing the system. After airfield recovery, and when time permits, increase the 
+rollover ramp on the sides of the MRES to a 1V:30H slope in accordance with 
+Facilities Criteria (FC) 3-260-18F, Air Force Aircraft Arresting Systems (AAS) 
+Installation, Operation, and Maintenance (IO&M), paragraph 3-4 to allow an air-
+craft to roll over them smoothly. 
+ 
+1.2.2.2. The system may be anchored in soil or on concrete and is suitable for all 
+arrestments and aborted take-offs. The MRES is towable by any vehicle capable 
+of towing 5,200 pounds and equipped with a standard pintle-hook. The MRES 
+assembly may be attached to the rear of a MAAS trailer for tandem towing with 
+8                                                                       AFTTP3-32.15  10 JULY 2024 
+a suitable vehicle capable of towing 23,200 pounds and equipped with a standard 
+pintle-hook. 
+ 
+1.3. General Safety Considerations. In standard and nonstandard construction 
+practices, there are multiple known risk factors in performing RADR duties. It is 
+vital to protect workers from hazards such as high-pressure subsystems and com-
+ponents, harmful solvents and adhesives, and silica dust. The risks and safety fac-
+tors involved with materials and operations should be identified prior and briefed 
+to all personnel that could be involved. A key responsibility of supervisors is to 
+ensure personnel have and wear the necessary personal protective equipment 
+(PPE) and individual protective equipment (IPE) for the working environment. 
+Unsafe field operations while conducting RADR could cause long and short-term 
+injuries, health issues, disable equipment, and negatively affect the mission.  
+ 
+1.3.1. Published Guidance. Review applicable safety standards and technical man-
+uals for additional safety requirements before performing RADR operations. 
+Guidance can be found in the following subparagraphs. Compliance with tech-
+nical order warnings and cautions is essential. 
+ 
+1.3.2. AFI 91-203, Air Force Consolidated Occupational Safety Instruction, lists 
+PPE for selected CE activities. Although T.O. and other job-related publications 
+address proper wear and use of PPE and IPE, workers ultimately have the respon-
+sibility to properly use, inspect, and care for protective equipment assigned.  
+ 
+1.3.3. Consult AFI 48-137, Respiratory Protection Program for training docu-
+mentation procedures and inhalation guidance. Refer to 29 CFR 1910.133, Eye 
+and Face Protection, and AFI 48-127, Occupational Noise and Hearing Conser-
+vation Program, for additional guidance and information. For end users consult 
+29 CFR 1910.134, Respiratory Protection. 
+ 
+1.3.4. Handlers and users of any polymeric repair material should ensure a man-
+ufacturer’s Safety Data Sheet always accompanies the material. Before use, re-
+view and follow the Safety Data Sheet guidance for personal protective equipment 
+and other safety precautions. 
+ 
+AFTTP3-32.15  10 JULY 2024                                                                    9 
+1.3.5. In accordance with Air Force Medical Readiness Agency Bioenvironmental 
+Engineering (AFMRA/SG3PB) Memorandum, Joint Service General Purpose 
+Mask M50 Use During Rapid Airfield Damage Recovery Training Events, dated 
+30 September 2020, “Commanders have the discretion to elect the use of the Joint 
+Service General Purpose Mask M50 series protective mask as approved by Bio-
+environmental Engineering or a National Institute for Occupational Safety and 
+Health certified respirator for “Training events Only”. PPE is identified in Table 
+1.1. 
+ 
+1.4. Personal Protective Equipment. Supervisors should coordinate with the Bi-
+oenvironmental Engineering and the Wing Safety office on the PPE needed to 
+perform RADR operations. Brief safety procedures and appropriate PPE before 
+operations and verify that all PPE has been approved for the work to be performed. 
+See Table 1.1 for a list of PPE for typical RADR operations. Note: Breathing 
+crystalline silica dust is a serious health hazard. Those performing duties where 
+they may be exposed to silica dust should wear appropriate PPE (including res-
+piratory and eye protection) according to Commander’s guidance. 
+ 
+Table 1.1. Listing of Typical PPE by Operation. 
+Operation or Equipment 
+Typical PPE Required 
+Dump Truck 
+Safety-toe boots 
+Gloves 
+Loader, Grader, Sweeper, 
+Backhoe, Bulldozer, Roller, Paver 
+Safety-toe boots 
+Gloves 
+Eye protection (dust and bright sun) 
+Hearing protection 
+Respiratory protection (if dusty) * 
+Jackhammer, Pneumatic Drill 
+Respiratory protection* 
+Safety-toe boots 
+Eye protection 
+Hearing protection 
+Gloves 
+10                                                                       AFTTP3-32.15  10 JULY 2024 
+Concrete Saw 
+Safety-toe boots 
+Eye protection 
+Hearing protection 
+Respiratory protection (if dusty) * 
+Gloves 
+Concrete Mixer 
+Safety-toe boots 
+Eye protection 
+Respiratory protection* 
+Hearing protection 
+Portable Power Tools 
+Eye protection 
+Hearing protection 
+Respiratory protection (if dusty) * 
+Paint Striping 
+Eye protection 
+Respiratory protection* 
+Gloves 
+Coveralls 
+MAAS Installation 
+Eye protection 
+Hearing Protection 
+Gloves 
+Coveralls 
+*-N-95, P-95, and R-95 respirator or M50 JSGPM, as directed by Commander. 
+ 
+1.5. Safety Summary. Training, practice, and safety are essential to minimize 
+installation time. The following paragraphs describe general safety precautions 
+that personnel should understand and apply during all phases of operation and 
+maintenance. 
+ 
+1.5.1. Winch Operation. 
+ 
+Note: To prevent serious injury to personnel, ensure the MAAS winch operator 
+protective shield is properly installed during winching operation. 
+AFTTP3-32.15  10 JULY 2024                                                                   11 
+ 
+1.5.1.1. When loading onto an aircraft or other transport vehicle using the on- 
+board MAAS winch, do not winch the trailer up an incline exceeding 15 degrees. 
+ 
+1.5.1.2. Do not overlap winch cable during rewind. Overlap may result in cable 
+failure, injury to personnel, or damage to equipment. 
+ 
+1.5.2. Towing. The following steps are required to ensure the safety of the equip-
+ment and personnel prior to towing the MAAS. 
+ 
+1.5.2.1. Physically inspect the trailer for any loose hardware or equipment. 
+ 
+1.5.2.2. Check the hook cable to ensure that it is properly stored on its storage reel 
+and the free end of the cable is properly secured. 
+ 
+1.5.2.3. Check the tape connector for proper storage and security. 
+ 
+1.5.2.4. Inspect the front and rear sheave guards to ensure they are properly in-
+stalled, and fasteners are tight. 
+ 
+1.5.2.5. Inspect the hydraulic power units and storage brackets to ensure they are 
+properly secured. 
+ 
+1.5.2.6. Inspect all installation hardware and storage brackets for security and 
+tightness of straps. 
+ 
+1.5.2.7. Inspect splash guards for damage and ensure that they are secure. 
+ 
+1.5.2.8. Check front storage box to ensure lid is properly installed and latches are 
+secure. 
+ 
+1.5.2.9. Ensure the retaining bolts and pins are properly installed and secure in the 
+front and rear axle support frames. 
+ 
+12                                                                       AFTTP3-32.15  10 JULY 2024 
+1.5.2.10. If the trailer is being towed with its protective cover installed, check for 
+security of lanyard and hooks. 
+ 
+1.5.2.11. Anytime the MAAS or MRES is being connected or disconnected from 
+the “Prime Mover” (tow vehicle) chock one wheel and set the parking handbrake. 
+This also applies when the trailer is not being transported or is not connected to 
+its tow vehicle. Failure to comply may result in serious injury to personnel and/or 
+equipment. 
+ 
+1.5.2.12. Always use a signalman to direct the driver of the tow vehicle. Failure 
+to comply may result in injury to personnel or equipment. 
+ 
+1.5.2.13. Towing speed limit is reduced when towing two trailers in tandem to 20 
+mph over improved roads. Failure to comply may result in injury to personnel or 
+equipment. 
+ 
+1.5.3. Raising/Lowering. 
+ 
+1.5.3.1. Hydraulic systems will be operated by qualified personnel only. 
+ 
+1.5.3.2. Prior to operating the MAAS hydraulic raise/lower system, chock one 
+rear wheel and apply the parking brake. Failure to comply may result in serious 
+injury to personnel and equipment. A runaway vehicle may be the result of non-
+compliance. 
+ 
+1.5.3.3. Ensure the area under the trailer is clear and instruct personnel to remain 
+clear of the trailer during the raise or lower operation. 
+ 
+1.5.3.4. Keep feet and hands away from axle frames and trailer bottom during 
+raising or lowering trailer to prevent injury to personnel. 
+ 
+1.5.3.5. If the axle support frames hit any object in its path when raising the 
+MAAS trailer, stop until the object is removed to prevent injury to personnel or 
+equipment. 
+ 
+AFTTP3-32.15  10 JULY 2024                                                                   13 
+1.5.3.6. When raising or lowering the trailer, ensure the front toolbox lid is either 
+properly latched and secured or completely removed. Failure to comply may re-
+sult in the lid binding into the hydraulic elbow on the front axle cylinder actuator 
+and broken elbow, which eliminates the ability to raise or lower trailer. 
+ 
+1.5.4. Installation. 
+ 
+1.5.4.1. Wear adequate eye protection while driving stakes. Propelled rocks, metal 
+fragments, and soil particles can damage unprotected eyes. 
+  
+1.5.4.2. Do not position hands near the stake driving head/stake interface when 
+driving stakes. The stake driving head occasionally bounces off the stake. Inser-
+tion of fingers between driving head and stake can result in severe injury to per-
+sonnel. 
+ 
+1.5.4.3. Due to certain soil conditions or terrain, it may be necessary to provide a 
+person to help stabilize the work stand when in use to avoid injury to personnel. 
+ 
+1.5.4.4. Wear protective clothing when operating hydraulic tools.  Hydraulic fluid 
+can pose serious health hazards. 
+ 
+1.5.4.5. Wear gloves and hearing protection during MAAS and MRES assembly 
+anchoring. The hydraulic breaker poses injury hazards to unprotected hands and 
+ears. 
+ 
+1.5.4.6. Wear gloves and other protective equipment when handling the breaker 
+and MRES drive gad assembly. The breaker and the drive pieces of the drive gad 
+assembly can become hot enough during installation to cause burns. 
+ 
+1.5.4.7. The MAAS Tire and wheel assembly weight is approximately 410 lbs. 
+Ensure there is adequate lifting capability available. 
+ 
+1.5.4.8. Do not place fingers between the latch and installation tools when closing 
+the latch on the breaker. Doing so can result in personal injury. 
+ 
+14                                                                       AFTTP3-32.15  10 JULY 2024 
+1.5.5. Operation, Rewind and Engagement. 
+ 
+1.5.5.1. Before stretching tapes, ensure the area between the tow vehicle and lead-
+off sheave is clear of all personnel and equipment. Failure to comply may result 
+in serious injury to personnel and equipment. 
+ 
+1.5.5.2. During rewind and tensioning, it is recommended to maintain a minimum 
+safe distance of 30 feet from the pendant/hook cable since it will swing back 
+through the bight. The bight is defined as the cable line between the runway edge 
+sheaves. Serious injury could otherwise result. 
+ 
+1.5.5.3. Do not add fuel, fluid, or oil when the engine is running. A fire could 
+result causing serious injury to personnel or equipment. 
+ 
+1.5.5.4. Do not attempt to remove hook cable while the system is pre-tensioned. 
+Injury to personnel or equipment may result. 
+  
+1.5.5.5. Do not attempt to remove MAAS chain guards while the engine is run-
+ning. Do not run engine with chain guard removed except when performing syn-
+chronization or hydraulic system proof testing. 
+ 
+1.5.5.6. Before rewind, clear personnel from the tape sweep and cable travel area 
+(Attachment 2). 
+ 
+AFTTP3-32.15  10 JULY 2024                                                                   15 
+Chapter 2 
+RESOURCES 
+2.1. MAAS Equipment. The MAAS consists of two identical mobile units with 
+the exception that one trailer is supplied with a 153-ft pendant cable and the other 
+a 90-ft pendant cable (Figure 2.1). Each unit houses a BAK-12 rotary friction 
+energy absorber; contains all basic components of a fixed-base arresting system, 
+and all the tools and hardware necessary for installation and removal (except for 
+installation on soils with a low bearing pressure, which requires a deadman an-
+choring system). The MAAS equipment and tools also support the MRES instal-
+lation and removal. 
+ 
+Figure 2.1. MAAS Elevation and Plan Views. 
+ 
+16                                                                       AFTTP3-32.15  10 JULY 2024 
+ 
+2.2. MRES Equipment. The MRES system consists of two identical assemblies 
+and installation hardware to anchor the assemblies on each side of the MOS (Fig-
+ure 2.2). The assemblies route the tapes from the MAAS through their center-
+mounted sheave assemblies. The sheave assemblies properly orient the tapes to 
+allow smooth payout/pay-in without hang-up or tangling. 
+ 
+Figure 2.2. Typical MRES Installation. 
+ 
+ 
+2.2.1. The anchoring equipment supplied with the MRES system, together with 
+the installation equipment and tools supplied as part of the MAAS, provide all 
+parts necessary to install and operate the mobile arresting gear system. 
+ 
+2.2.2. The body of the MRES assembly is also the body of an integral trailer. The 
+MRES body is fitted with take-up assemblies that function not only as wheels, but 
+as entire suspension systems to provide smooth transport over most surfaces. The 
+MRES assembly has lights integrated into the body of the trailer. 
+AFTTP3-32.15  10 JULY 2024                                                                   17 
+ 
+2.2.3. Regardless of the type of anchors used, the power for the installation tools 
+is provided by the hydraulic power unit (HPU) of the MAAS. For additional in-
+formation on the HPU, refer to T.O. 35E8-2-10-1. 
+ 
+2.3. Installation Team. An installation team of 12 individuals is recommended 
+to help ensure the rapid mobile arresting gear system installation meets recovery 
+timelines. This includes one barrier crew chief, three barrier crew (3E0X2), and 8 
+equipment operators/augmentative personnel. The other eight members may be 
+from any specialty; however, the more experienced 3E0X2 technicians on the 
+team, the greater likelihood the installation will be accelerated. Table 2.1 de-
+scribes the 12-member team distribution and their responsibilities. Note: An en-
+gineering technician (3E5X1) is not required for system alignment but may help 
+expedite the installation by using survey equipment in place of the manual align-
+ment method identified in T.O. 35E8-2-10-1. 
+ 
+Table 2.1. AAS Team Assignments. 
+Position 
+AFSC 
+Component 
+Vehicle 
+AAS Crew 1 Team Lead 
+3E072 
+All 
+AAS Crew Member 
+3E0X2 
+All 
+Augmentee 
+Any 
+All 
+Augmentee 
+Any 
+All 
+Crew 2 Lead 
+3E052 
+MAAS-B1 Loca-
+tion* 
+Augmentee 
+Any 
+MAAS-B1 Loca-
+tion* 
+Vehicle-
+A 
+Augmentee 
+Any 
+MAAS-B1 Loca-
+tion* 
+Crew 3 Lead 
+3E052 
+MAAS-C1 Loca-
+tion* 
+18                                                                       AFTTP3-32.15  10 JULY 2024 
+Augmentee 
+Any 
+MAAS-C1 Loca-
+tion* 
+Vehicle-
+B 
+Augmentee 
+Any 
+MAAS-C1 Loca-
+tion* 
+Crew 4 Lead 
+3E052 
+MRES-C&B Loca-
+tions* 
+Augmentee 
+Any 
+MRES-C&B Loca-
+tions* 
+*See Figure 4.1 for installation locations. 
+Note: An engineering technician (3E5X1) may perform as an augmentee to 
+help expedite system alignment when survey equipment is available. 
+ 
+2.4. Tools and Spares. The mobile units (trailers) contain all tools and hardware 
+necessary for installation and removal. Special service tools required for BAK-12 
+absorber maintenance are not provided with the MAAS, but the most common 
+tools are included in the Mobility Readiness Spare Packages support kit within 
+the War Reserve Materiel/Basic Expeditionary Airfield Resources AAS UTC-
+XFWR4. Consumables are also included in the Mobility Readiness Spare Pack-
+ages kit. 
+ 
+2.4.1. The only consumable hardware designed into the MAAS and MRES is the 
+anchor nut, used with the bolt in the concrete anchor system. Twenty-four nuts 
+are consumed on each MAAS concrete setback installation. An additional box of 
+20 is supplied on each MAAS trailer providing 40 spares per system. Twenty- 
+eight anchor nuts are consumed on each MRES concrete installation. Two addi-
+tional anchor nuts and bolts are stored on each MRES assembly. 
+ 
+Note: The system provides 12 hard soil and 12 medium soil manta ray anchors. 
+Large soft soil manta ray anchors (12 each) must be procured through supply sys-
+tem by the unit if they are identified as a need. 
+ 
+2.4.2. The War Reserve Materiel/Basic Expeditionary Airfield Resources Barrier 
+Maintenance UTC-XFWCL includes an AAS shop facility, rubber support disc 
+AFTTP3-32.15  10 JULY 2024                                                                   19 
+loading machine, and battery maintenance equipment to help expedite AAS in-
+stallation. 
+ 
+2.4.3. See T.O. 35E8-2-10-1 for a comprehensive list of installation/removal 
+equipment, tools, and spares. 
+ 
+ 
+20                                                                       AFTTP3-32.15  10 JULY 2024 
+Chapter 3 
+ 
+PRE-ATTACK ACTIONS 
+ 
+3.1. Introduction. This chapter identifies actions taken when intelligence person-
+nel report an enemy air attack is probable; waiting until the attack is imminent 
+may not provide time necessary for completion. The pre-attack actions within this 
+chapter will help expedite the mobile arresting gear system setback installation 
+during airfield recovery. 
+ 
+3.1.1. Major air attacks can result in craters throughout the airfield. The crater 
+repairs during rapid recovery operations are suitable for all airframes; therefore, 
+installations supporting wide-body (cargo, transport, refuelers) aircraft require a 
+mobile arresting gear system setback configuration to provide necessary wing tip 
+clearance. The setback configuration is accomplished by utilizing the MRES sys-
+tem. 
+ 
+3.1.2. Installing the MRES system, especially in soil, is a time-consuming process 
+and involves detailed planning to ensure the installation is completed within the 
+8-hour airfield recovery window. 
+ 
+Note: An exception is when installation site pavement is asphalt over soil, 20-feet 
+by 15-feet of asphalt will have to be removed in the installation clear zone and the 
+resulting depression backfilled and compacted to match the surrounding pavement 
+height. Attempt to achieve a California Bearing Ratio (CBR) of 25 or greater to 
+allow use of small manta-ray anchors. A soil installation will then be performed 
+on this compacted soil patch. Otherwise, the MOS width will be the full runway 
+width and both MRES assemblies installed on soil at the runway’s edge. 
+ 
+3.1.3. A MAAS-only installation immediately adjacent to the MOS during rapid 
+airfield recovery is suitable for airfields supporting fighter aircraft only but must 
+be reinstalled in the setback configuration as soon as time permits. 
+ 
+AFTTP3-32.15  10 JULY 2024                                                                   21 
+3.2. Preparing for Mobile Arresting Gear System Setback Installation. Per-
+form the following pre-attack actions to accelerate the mobile arresting gear sys-
+tem installation in accordance with T.O. 35E8-2-10-1, paragraph 3.1.1.1.1 (see 
+checklist in Attachment 3). 
+ 
+3.2.1. Guidance applicable to all airfields is paragraphs 3.2.1.1 through 3.2.1.5. 
+ 
+3.2.1.1. If not already available, conduct a runway profile identifying longitudinal 
+and transverse   slopes and CBR readings along the runway shoulders to determine 
+suitable AAS installation sites. If runway and shoulders are constructed of asphalt 
+over soil, determine asphalt thicknesses. 
+ 
+3.2.1.2. Adjust MAAS turnbuckles to 39 inches and MRES turnbuckles to 30 
+inches. 
+ 
+3.2.1.3. Accomplish all required maintenance and inspections in accordance with 
+T.O. 35E8.2.5.1 (including synchronization and hydraulic system proof test) on 
+mobile arresting gear system during pre-attack phases to expedite installation dur-
+ing airfield recovery following an attack.  
+ 
+3.2.1.4. Ensure correct cam and cam sprocket are installed according to system 
+configuration as indicated in T.O. 35E8-2-5-1. 
+ 
+3.2.1.5. When the MAAS has new tapes installed that have not been previously 
+stretched, recommend temporarily anchoring each trailer in a suitable location and 
+stretching the tapes as described in T.O. 35E8-2-5-1. Tapes not stretched may lead 
+to longer runouts, especially during high-energy arrestments. Some energy may 
+remain in tapes and cause aircraft walk-back. Tapes not stretched will also grow 
+in length during the first couple of arrestments. This requires cropping excess tape 
+to accommodate cable length. In a multi-arrestment scenario, technicians may not 
+have time to do so. 
+ 
+3.2.2. For airfields supporting fighter aircraft only, the runway profile (see para-
+graph 3.2.1.1) should extend at least 25 feet from runway’s edge. 
+ 
+22                                                                       AFTTP3-32.15  10 JULY 2024 
+3.2.3. Guidance for airfields Supporting Bomber/Tankers/Mobility and Fighter 
+Aircraft, see paragraphs 3.2.3.1 through 3.2.3.7. 
+ 
+3.2.3.1. In preparation for a possible off-center MOS with a setback mobile ar-
+resting gear system installation, the runway profile (see paragraph 3.2.1.1) 
+should extend at least 275 feet from both sides of the runway centerline. 
+ 
+3.2.3.2. From the runway profile, determine which manta-ray anchors provided 
+with the MRES is required for the soil conditions adjacent to the runway (for hard 
+soil with CBR over 25 or for medium soil with CBR 25 or less). Soil that does not 
+support a 10,000-lb proof load may require the use of the manta ray for soft soil 
+(P/N 9D00204-3). These are included with the BEAR UTC XFWR4. Other non-
+BEAR UTC will be required to order 12 manta ray anchors (6 required per MRES 
+trailer). 
+ 
+3.2.3.3. On one MRES trailer remove all soil installation tools and hardware, in-
+stall concrete installation brackets, and reconfigure anchor weldments to the in-
+stallation position (as described in T.O. 35E8-2-10-1) unless runway surface is 
+asphalt. If both MRES assemblies are to be installed on concrete and sufficient 
+notice is provided after attack, perform these actions on both trailers. 
+ 
+3.2.3.4. Remove bushings from both MAAS trailer stake pockets and store them 
+in an appropriate location on each trailer. 
+ 
+3.2.3.5. Pull enough tape from both MAAS tape reels to reach approximately 10 
+feet beyond the distance between the MAAS exit sheave and MRES exit sheave 
+(at least 285 feet) and remove the tape connectors if already installed. This will 
+be the tape reeved through the MRES. Doing this during pre-attack actions pre-
+vents having to pull tape from the reels during installation. Roll up tape pulled 
+from the reel and secure on the MAAS trailer for transport. 
+ 
+3.2.3.6. Obtain a small, stranded wire rope at least 120 foot long (for siting com-
+ponent locations), or equivalent, and place in MRES storage compartment. 
+ 
+AFTTP3-32.15  10 JULY 2024                                                                   23 
+3.2.3.7. Adjust load-locker pressure relief to 10.5K pounds according to the 
+gauge. Note: The MRES Load-Locker is a 3,000 PSI gauge with a sticker that 
+correlates to pounds of force at an approximate 1/10 ratio. This means at 10.5K 
+pounds on the gauge, actual pressure would be around 1,050. 
+ 
+3.3. Expected Installation Times. Installation times in Table 3.1 were accom-
+plished during a mobile arresting gear system installation demonstration. The 
+times included positioning trailers, connecting hook cable to tape connectors, ten-
+sioning the hook cable, anchoring components, and synchronizing both absorbers. 
+ 
+Table 3.1. AAS Installation Completion Baselines. 
+System Configura-
+tion 
+Installation Times 
+Unidirectional 
+Concrete 
+Concrete 
+1 hour* 
+Unidirectional 
+Soil 
+Concrete 
+1 hour* 
+Bidirectional 
+Concrete 
+Concrete 
+1 hour* 
+Bidirectional 
+Soil 
+Concrete 
+1 hour* 
+Setback with MRES 
+Concrete 
+Concrete 
+2 hours 
+Setback with MRES 
+Soil** 
+Concrete 
+3.5 hours 
+*Note: When not in the setback configuration, MAAS installation was 
+complete prior to finishing the synchronization (approximately 1 hour). 
+  **CBR for the MRES soil installation: 00” - 12” = 31.5 CBR,  
+  13” - 24” = 20.0 CBR, 25” - 36” = 08.5 CBR, with Average CBR = 20 
+  Note: Times in Table 3.1 may be used for planning purposes; however, 
+  local results may be considerably different due to soil conditions, team  
+  experience, and/or equipment condition. 
+ 
+ 
+24                                                                       AFTTP3-32.15  10 JULY 2024 
+Chapter 4 
+ 
+INSTALLATION 
+ 
+4.1. Introduction. Procedures provided in this chapter assume pre-attack actions 
+described in Chapter 3 have been accomplished. Perform setback installation as 
+described in T.O. 35E8-2-10-1 while incorporating rapid installation procedures 
+within this chapter. See Attachment 4 for installation checklist. 
+4.2. Setback Configuration. The MAAS must be setback from the MOS center-
+line a minimum of 275 feet if both fighter and wide-bodied aircraft will use the 
+same MOS. This setback provides necessary wingtip clearance when wide-bodied 
+aircraft utilize the MOS while also placing the absorbers outside the frangibility 
+zone. If conditions during rapid recovery do not allow a setback of the full 275-
+foot setback, the system will have to be reinstalled at the earliest opportunity after 
+normal operations return. 
+Note: Installations of the MAAS on commercial airfields should comply with the 
+most current version of the US Department of Transportation Federal Aviation 
+Administration Advisory Circular 150/5220-9B, Aircraft Arresting Systems on 
+Civil Airports. 
+4.2.1. General Information. The setback installation detailed here is suitable for 
+all arrestments, including bi-directional landings and aborted take-offs. No reduc-
+tion in installation hardware is authorized for unidirectional installations. 
+4.2.1.1. The MAAS HPU provides power for MAAS and MRES installation tools 
+regardless of anchor types used. 
+4.2.1.2. If a runway profile was not conducted during pre-attack actions, an engi-
+neering technician (3E5X1) with proper surveying equipment should verify the 
+selected installation site meets slope requirements before installation begins (an 
+engineering technician from each crater repair team should be available after all 
+upheaval on the MAOS has been marked). This technician may also assist with 
+siting components through use of surveying equipment to help expedite the instal-
+lation. 
+AFTTP3-32.15  10 JULY 2024                                                                   25 
+4.2.2. Manpower Requirements. The T.O. recommends a 7-person work force to 
+install the MRES; however, the MRES was not designed for rapid installation 
+during airfield recovery operations. Legacy concept of operations were to install 
+the MAAS only during airfield recovery and, if necessary, a setback installation 
+would be installed as time permitted after returning to normal operations. Current 
+concept of operations calls for a setback installation during initial recovery at air-
+fields supporting multiple airframes to enable all aircraft types to generate sorties 
+as soon as the MAOS opens. 
+4.2.2.1. The 12-person team identified in Table 2.1 should be assembled to rap-
+idly perform a setback installation. Divide the team into four crews as follows: 
+4.2.2.1.1. Crew 1 (four-person AAS Crew). Responsibilities include: 
+• Siting and positions components 
+• Lowering MAAS trailers 
+• Reeves tape through MRES 
+• Installing tape connectors 
+• Connecting hook cable to tape connectors 
+• Performing preliminary alignment 
+• Directing pull-out alignment while operating rewind engines 
+• Performing synchronization, if not accomplished during pre-attack ac-
+tions; otherwise, bleeds absorbers’ hydraulic system. 
+• Performing final inspection of system. 
+• Crew Lead certifies the system installation 
+4.2.2.1.2. Crew 2 (three-person anchoring crew). Responsibilities include: 
+• Install MAAS soil anchors at B1 location 
+• When finished anchoring MAAS, transport HPU to MRES B location 
+if required 
+• Assist Crew 4 with MRES installation 
+4.2.2.1.3. Crew 3 (three-person anchoring crew). Responsibilities include: 
+• Installing MAAS soil anchors at C1 location 
+26                                                                       AFTTP3-32.15  10 JULY 2024 
+• When finished anchoring MAAS, transporting HPU to MRES C loca-
+tion if required 
+• Assisting Crew 4 with MRES installation 
+4.2.2.1.4. Crew 4 (two-person MRES crew). Responsibilities include: 
+• Unloading tools and hardware from MRES trailers 
+• Installing concrete installation brackets and anchor weldments when 
+applicable if not done during pre-attack actions 
+• Lowering MRES trailers 
+• Installing alignment anchors 
+• Adjusting turnbuckles during pullout alignment 
+• Installing MRES anchors 
+4.2.2.2. The mobile arresting gear system AAS Crew Chief has overall responsi-
+bility for the installation and must utilize all personnel effectively to minimize 
+installation time. Many installation steps are performed simultaneously by differ-
+ent team members as directed by the Team Lead. 
+4.2.3. Installation Site Selection. The MAOS Selection Team will determine the 
+mobile arresting gear system installation site depending on the operational need 
+and airfield layout. A portion of the runway should be selected that allows for a 
+touchdown zone, a tape sweep area, and an aircraft clear zone beyond the 1,200-
+foot maximum rollout. Allow approximately 100 additional feet for clearing the 
+aircraft after an arrestment. For bi-directional installations, these distances must 
+be considered in both directions. If a runway profile was not accomplished during 
+pre-attack actions, the AAS Crew Chief must ensure appropriate surveying equip-
+ment and personnel are available to verify slope requirements. 
+Note: For additional information on MAOS siting and selection see AFTTP 3-
+32.12, Minimum Airfield Operating Surface Selection and Repair Quality Criteria 
+as MAAS installation may be affected by preceding and trailing surface repair 
+locations. 
+4.2.3.1. MRES Site Requirements. The most advantageous installation site will 
+locate both, or at least one, MRES trailer on concrete as this configuration can be 
+installed faster than the soil installation. The anticipated site should be checked 
+by the mobile arresting gear system Team Lead to verify positioning requirements 
+AFTTP3-32.15  10 JULY 2024                                                                   27 
+are met before beginning installation. See MRES complete site requirements in 
+T.O. 35E8-2-3-1. 
+4.2.3.2. MAAS Site Requirements. The setback distance should be at least 275 
+feet. Setback distance is defined as the total distance from the MOS centerline to 
+the exit point of the MAAS edge sheaves. Shorter setback installations are only 
+acceptable to take advantage of existing site conditions. See MAAS complete site 
+requirements in T.O. 35E8-2-10-1. 
+Note: Under no circumstances should the setback distance be shortened based 
+upon available tape length. If necessary, acquire new 1500-foot tapes (part num-
+ber 68C37215-13) for the setback installation. 
+Note: Tape stack height dimension is a function of tape length (allowable aircraft 
+runout) and tape reel diameter. Following the installation of the MAAS and the 
+MRES, the tape edge distance must not exceed the limits given in T.O. 35E8-2-
+5-1, Operation and Maintenance Instructions, Aircraft Arresting Systems, Model 
+BAK-12/E32A, Table 5-5, Control Cam and Tape Stack Height Data. Failure to 
+adhere to these limits will result in reduced allowable runout and may result in 
+aircraft damage, serious injury, or even loss of life. 
+4.2.4. Marking Component Locations. After selecting a site based upon the re-
+quirements given above, the exact locations of the system components must be 
+determined and marked prior to installation. Mark the component locations as de-
+scribed in T.O. 35E8-2-10-1. When available, an engineering technician (3E5X1) 
+may use surveying equipment to expedite marking component locations. 
+4.2.5. Positioning Components. Each tow vehicle should have a MAAS trailer 
+connected to its pintle-hook and an MRES trailer connected to the MAAS trailer 
+for tandem towing. 
+4.2.5.1. The tow vehicle approaches the MOS perpendicular to the centerline with 
+the center of the MRES trailer centered on Points B and B1 (Figure 4.1). 
+ 
+ 
+ 
+ 
+ 
+28                                                                       AFTTP3-32.15  10 JULY 2024 
+Figure 4.1. Typical Positioning, Setback Trailer System. 
+ 
+4.2.5.2. As MRES trailer approaches Point B, the Team Lead signals tow vehicle 
+operator to stop when front tape sheaves are centered on Point B. Set both trailer 
+hand brakes and disconnect from tow vehicle. Crew 4 performs MRES trailer un-
+loading and installation preparation steps (if not accomplished during pre-attack 
+actions) identified in T.O. 35E8-2-10-1. 
+4.2.5.3. Position one HPU from the MAAS trailer next to the MRES trailer loca-
+tion. 
+4.2.5.4. The tow vehicle then swings around to the right and approaches Point B1 
+while parallel to the MOS. 
+4.2.5.5. As the MAAS trailer approaches Point B1, the Team Lead directs the tow 
+vehicle operator when to stop so that the center of the tape exit sheaves have trav-
+eled approximately 6-inches beyond Point B1. The trailer will move backwards 
+approximately 6-inches as it lowers to the ground. 
+4.2.5.6. When lowering, ensure cross-runway alignment of the trailer sheave exit 
+points are within plus or minus 1 foot of the line perpendicular to the runway 
+centerline. 
+AFTTP3-32.15  10 JULY 2024                                                                   29 
+4.2.5.7. Perform same procedure on opposite side of runway for Points C and C1. 
+4.2.6. Preliminary Alignment. Perform preliminary alignment as directed in T.O. 
+35E8-2-10-1. Pay particular attention to the following points: 
+4.2.6.1. Verify that 90-degree tape twist on each side of runway between each 
+MAAS exit sheaves and each MRES assembly’s rear sheave is in the same direc-
+tion relative to the runway. 
+4.2.6.2. The tensioned tape and pendant cable should form a straight line from the 
+exit sheave of the MAAS, through the MRES trailer, across the runway, through 
+the opposite MRES trailer, and into the opposite MAAS sheave. 
+4.2.6.3. Reposition MRES assemblies as required to remove any bow from tape 
+while keeping front sheaves at Marks B and C. 
+4.2.7. Install MRES Alignment Anchors. Install applicable alignment anchors 
+(concrete, soil) as described in T.O. 35E8-2-3-1. 
+4.2.8. Pull-out Alignment. Perform pull-out alignment following T.O. 35E8-2-3-
+1 procedures. 
+4.2.8.1. It is recommended that at least two MAAS body stakes be installed on 
+either side of the stake-line anchor point prior to performing the pullout alignment 
+(Figure 4.2). This will ensure the trailer does not move during pull-out alignment. 
+4.2.8.2. Perform pull-out alignment on both sides simultaneously by hooking pull 
+vehicle to the pendent. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+30                                                                       AFTTP3-32.15  10 JULY 2024 
+Figure 4.2. Body Stakes to Install Prior to Pull-Out Alignment. 
+ 
+ 
+4.2.8.3. Adjust the MRES trailer alignment by loosening one turnbuckle first and 
+tightening the opposite alignment turnbuckle to pull the assembly into alignment. 
+4.2.8.4. Tighten MRES alignment turnbuckles, without moving the trailer, to hold 
+it in position during anchoring. 
+4.2.9. MRES Installation Procedures. 
+4.2.9.1. Concrete Installation. Perform installation as directed in T.O. 35E8-2- 3-
+1. 
+4.2.9.1.1. It is imperative a spotter ensure holes being drilled are as vertical as 
+possible; otherwise, taper bolts may be difficult or impossible to install com-
+pletely. 
+4.2.9.1.2. All 14 taper bolts are required and must be installed to provide the 
+proper safety margin. 
+4.2.9.2. Soil Installation. Perform installation as directed in T.O. 35E8-2-3-1. 
+Note: Because the mobile arresting gear system must be relocated if any of the 
+six manta-ray load tests fail on either MRES assembly, recommend installing 
+stakes only in the four corners of each MRES assembly prior to installing the 
+manta-rays and load testing them. 
+AFTTP3-32.15  10 JULY 2024                                                                   31 
+4.2.9.2.1. Install a body stake in the three corners that do not have a stake driven 
+already (the alignment pivot-point stake was previously driven in one corner for 
+the pull-out alignment). Do not drive body stakes below the top rim of the stake 
+pockets.  
+4.2.9.2.2. Install the appropriate manta-ray anchors, according to the CBR of the 
+installation site (see paragraph 3.2.3.2) before installing the remaining body 
+stakes. 
+4.2.9.2.2.1. Ensure the load locker base frame is securely tightened to the trailer 
+frame before driving the manta-ray anchors or when setting the anchors with the 
+load-locker. Periodically check tightness of the load-locker base frame to prevent 
+misalignment. 
+4.2.9.2.2.2. If relief valve on the load-locker cannot be set to open at 10,500 
+pounds of force, use the operating lever to keep the pressure at 10,000 pounds of 
+force as indicated by the load-locker gauge. Setting and proof- testing the anchors 
+using pressure above 10,500 pounds of force may cause the pulling bar to move 
+more than 0.5 inch during the one-minute test period. Note: The MRES Load-
+Locker is a 3,000 PSI gauge with a sticker that correlates to pounds of force at an 
+approximate 1/10 ratio. This means at 10.5K pounds on the gauge, actual pressure 
+would be around 1,050. 
+4.2.9.2.2.3. If the manta-ray anchors selected will not set and hold during proof 
+loading with the load-locker, the system must be moved to another area with a 
+higher CBR reading. If soil conditions are similar, larger manta-ray anchors may 
+be required in the new location. 
+4.2.9.2.3. Drive the remaining body stakes. The 24 body stakes in the center sec-
+tions of the MRES should be driven into the ground until 8 to 10 inches of the 
+stake remains exposed above ground level. The 8 stakes in the sloped sections 
+should be driven until approximately 6.5 inches of the stake remains exposed 
+above ground level. Make certain stakes are driven deep enough to allow covers 
+to sit flush. 
+4.2.10. MAAS Setback Installation Procedures. Divide personnel into 4 crews as 
+described in Table 2.1 and perform installation IAW TO 35E8-2-10-1. 
+32                                                                       AFTTP3-32.15  10 JULY 2024 
+4.2.10.1. Concrete Installation. The MAAS trailer exit sheaves are setback 275 
+feet from the MOS centerline. This distance will almost assuredly require a soil 
+installation. If the installation site is concrete, perform a setback concrete instal-
+lation as described in T.O. 35E8-2-10-1. 
+4.2.10.2. Soil Installation. Pay particular attention to the following points: 
+4.2.10.2.1. Install 10 MAAS trailer body stakes first; drive stakes until only 18 
+inches are exposed above ground. When finished, count the body stakes to ensure 
+all 10 were installed. 
+4.2.10.2.2. The KM anchoring system should be installed on level ground to keep 
+proper alignment (remove soil on high spots and add soil to low spots). 
+4.2.11. Preparation for Use. Prepare the system for use following procedures in 
+T.O. 35E8-2-10-1. Pay particular attention to the following points: 
+4.2.11.1. Place a storage bag over each MRES brake drum and hub for protection. 
+4.2.11.2. Proof loading is not mandatory under combat or emergency conditions; 
+however, proof load the mobile arresting gear system as prescribed in T.O. 35E8-
+2-5-1 following the conclusion of the emergency. This testing of the MAAS an-
+choring system is always preferred after installation because it imposes a load on 
+the nylon tape similar to the loading experienced during an actual aircraft engage-
+ment. One of the purposes of proof loading is to find problems with the anchoring. 
+It should highlight loose components, which may cause the system to shift during 
+use. Proof loading does not replace the tape stretch procedure. 
+4.2.11.3. Perform tape stack height measurement; replace tapes if out of tolerance. 
+4.2.11.4. Pendant cable should be supported above the runway surface by pendant 
+cable support discs. Space the disks 6 to 10 feet apart to support the bottom of the 
+pendant/hook cable is a minimum of 2 inches above the runway surface to facili-
+tate positive engagement by the aircraft tail hook. Avoid placing a support disc on 
+the centerline of the landing zone. Should pendant cable tend to sag due to extreme 
+runway crown, spacing distance may be slightly reduced to maintain 2-inch clear-
+ance. If effective pendant cable height is less than 1.5 inches, schedule corrective 
+action as soon as possible. 
+AFTTP3-32.15  10 JULY 2024                                                                   33 
+4.2.11.5. Two hundred feet of pavement on both the approach and departure sides 
+of the pendant/cable are deemed as critical areas. The maximum permissible lon-
+gitudinal surface deviation in this area is ±0.125 inches within a length of 12 feet. 
+Saw-cut grooves in runway pavement designed to improve surface drainage and 
+surface friction characteristics using Unified Facilities Criteria (UFC) 3-260-02, 
+Pavement Design for Airfields, are not considered protruding objects or undula-
+tions. Changes in pavement type or an interface between rigid and flexible pave-
+ments are not permitted within the center 75-foot of the MOS in critical areas of 
+pavement. The prohibition on changes in surface pavement type is not applicable 
+to emergency aircraft arresting systems located in overruns.  Protruding objects 
+and undulating surfaces are detrimental to successful tail-hook engagement and 
+are not allowable. 
+4.3. MAAS-Only Installation. Follow T.O. 35E8-2-10-1 procedures for MAAS-
+only installation configurations. 
+4.4 After combat or emergency conditions have ended. All installation require-
+ments and inspections should be completed following the procedures prescribed 
+in T.O. 35E8-2-5-1 and T.O. 35E8-2-10-1 including synchronization, proof load, 
+and certification engagement. 
+ 
+ 
+ 
+          TOM D. MILLER 
+          Lieutenant General, USAF 
+          DCS/Logistics, Engineering & Force Protection 
+ 
+ 
+34                                                                       AFTTP3-32.15  10 JULY 2024 
+Attachment 1 
+ 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+References 
+AFI 10-209, RED HORSE Program, 11 June 2019 
+AFI 10-210, Prime Base Engineer Emergency Force (BEEF) Program, 25 Octo-
+ber 2023 
+AFI 33-322, Records Management and Information Governance Program, 23 
+March 2020 
+AFI 48-127, Occupational Noise and Hearing Conservation Program, 26 Febru-
+ary 2016 
+AFMAN 91-203, Air Force Consolidated Occupational Safety Standard, 10 De-
+cember 2018 
+AFPAM 10-219, Volume 4, Airfield Damage Repair Operations, 28 May 2008 
+AFTTP 3-32.12, Minimum Airfield Operating Surface Selection and Repair Qual-
+ity Criteria, 28 March 2016 
+T.O. 35E8-2-3-1, Operations Manual for the Mobile Runway Edge Sheave, 1 July 
+2012 
+T.O. 35E8-2-5-1, Aircraft Arresting Systems, Model BAK-12/E32A, 29 March 
+2021 
+T.O. 35E8-2-10-1, Mobile Aircraft Arresting Systems, 24 July 2022 
+FC 3-260-18F, Air Force Aircraft Arresting Systems (AAS) Installation, Opera-
+tion, and Maintenance (IO&M), 28 October 2015 
+UFC 3-260-02, Pavement Design for Airfields, 30 June 2001 
+ 
+Prescribed Forms 
+None 
+ 
+Adopted Forms 
+DAF Form 847, Recommendation for Change of Publication 
+AFTTP3-32.15  10 JULY 2024                                                                   35 
+Abbreviations and Acronyms 
+AAS—Aircraft Arresting System 
+AFI—Air Force Instruction 
+CBR—California Bearing Ratio 
+FC—Facilities Criteria 
+HPU—Hydraulic Power Unit 
+MAAS—Mobile Aircraft Arresting System 
+MAOS—Minimum Airfield Operating Surface 
+MOS—Minimum Operating Strip 
+MRES—Mobile Runway Edge Sheave 
+RADR—Rapid Airfield Damage Recovery 
+T.O.—Technical Order 
+UFC—Unified Facilities Criteria 
+ 
+Office Symbols 
+AF/A4C—Director of Civil Engineers 
+AFMRA/SG3PB—Air Force Medical Readiness Agency, Bioenvironmental En-
+gineering 
+ 
+Terms  
+Aircraft Arresting System (AAS)—A series of components used to engage and 
+absorb the forward momentum of a routine or emergency landing or an aborted 
+takeoff. 
+ 
+Bidirectional arresting gear—An arresting system that can support aircraft op-
+erations in both directions. 
+ 
+Cable harmonics—The resulting cable rebound and flex when an aircraft's land-
+ing gear impacts the hook cable. 
+ 
+California Bearing Ratio (CBR)—A test for estimating the bearing value of sub-
+bases and sub-grades. 
+36                                                                       AFTTP3-32.15  10 JULY 2024 
+ 
+Energy absorber—The component of the arresting system that dissipates the ki-
+netic energy of the arrested aircraft. 
+ 
+Lightweight Fairlead Beam—A configuration set designed to enhance the capa-
+bilities of the MAAS by presenting a significantly decreased arresting gear profile 
+at the edge of the runway, thus reducing potential hazards to incoming and out-
+going aircraft. 
+ 
+Mobile Aircraft Arresting System (MAAS)—A self-contained, trailer mounted 
+BAK-12 aircraft arresting system that accommodates rapid installation during 
+contingencies. 
+ 
+Mobile Arresting Gear System—Any installation combining the MRES system 
+and any aircraft arresting gear. 
+ 
+Mobile Runway Edge Sheave (MRES)—A system on mobile trailers that pro-
+vides a low-profile runway edge sheave. The system allows the aircraft arresting 
+gear to be set back from the runway, removing the equipment from the edges of 
+the runway or overrun. 
+ 
+Overrun—An area beyond the take-off runway designated by the airport author-
+ities as able to support an airplane during an aborted take-off. The FAA/ICAO 
+term for this is “stopway.” UFC 3-260-01 identifies this area as one that prevents 
+serious damage to aircraft that overrun or undershoot the runway. 
+ 
+Pendant—The part of an aircraft arresting system that spans the runway surface 
+of flight deck landing area and is engaged by the aircraft arresting hook. 
+ 
+Setback distance—The total distance from the MOS centerline to the exit point 
+of the MAAS edge sheaves. 
+ 
+Stopway—An area beyond the take-off runway designated by the airport author-
+ities as able to support an airplane during an aborted take-off. The USAF term for 
+this is “overrun.” 
+AFTTP3-32.15  10 JULY 2024                                                                   37 
+ 
+Tape stack height—The height of the fully rewound stacked tape on the tape 
+reel, as measured from the outer wrap to the outer diameter of the reel plate. 
+ 
+Unidirectional—An arresting system that can support aircraft operations in one 
+direction. 
+ 
+ 
+38                                                                       AFTTP3-32.15  10 JULY 2024 
+Attachment 2 
+ 
+TAPE SWEEP ZONES 
+ 
+A2.1. Minimum tape sweep area is determined by sighting a straight line from the 
+position of the runway edge sheave to a point of maximum tape payout (990- or 
+1200-ft) down the centerline in direction of arrestment. Remove lights and cable 
+within this area on both sides of the runway. Repeat process in opposite direction 
+for a bidirectional installation. Table A2.1 shows approximate light free zone dis-
+tances for a 990-ft tape payout, with 90/153-ft pendant cables, and edge lights 
+offset at 0, 5, and 10 ft. 
+ 
+Table A2.1. Light Free Zone Distances. 
+MOS WIDTH 
+(Feet) 
+PENDANT 
+CABLE LENGTH 
+(Feet) 
+EDGE LIGHT OFFSET 
+0-
+FEET 
+5-
+FEET 
+10-
+FEET 
+50 
+90 
+550* 
+450* 
+350* 
+50 
+153 
+700 
+650 
+600 
+90 
+90 
+150 
+50 
+0 
+90 
+153 
+450 
+400 
+350 
+150 
+153 
+50 
+0 
+0 
+* Distance from AAS to far edge of tape sweep area (in feet). Round up to near-
+est 50-ft; interpolate this data for other conditions. 
+ 
+ 
+ 
+AFTTP3-32.15  10 JULY 2024                                                                   39 
+Attachment 3 
+ 
+PRE-ATTACK CHECKLIST 
+ 
+Table A3.1. Pre-Attack Checklist. 
+Pre-Attack Actions Checklist for 
+Mobile Arresting Gear System Setback Installa-
+All airfields: 
+  
+ 
+1. 
+Obtain/conduct runway profile to determine suitable installation sites: 
+  
+ a. Longitudinal and transverse slopes 
+  
+ b. CBR readings along runway shoulders 
+  
+ c. Determine asphalt thickness on runway & shoulders 
+  
+ 
+2. 
+Adjust turnbuckles to their appropriate lengths: 
+  
+ a. MAAS: 39 inches 
+  
+ b. MRES: 30 inches (if setback is required) 
+  
+ 
+3. 
+Accomplish all required maintenance and inspections (including 
+synchronization and hydraulic system proof test) 
+  
+ 
+4. 
+Ensure correct cam and cam sprocket is installed as indicated in T.O. 
+35E8-2-5-1 according to system configuration. 
+  
+ 
+5
+Stretch tapes if new tapes are installed and not previously stretched. 
+  
+ 
+6
+Inspect installation tools and hardware. 
+  
+ 
+7
+Inspect purchase tape and measure stack height. 
+  
+ 
+8
+Inspect tape connector, reeving and cover or casing integrity 
+  
+ 
+9
+Inspect/operate rewind and HPU engines 
+Airfields Supporting Fighters Only: 
+  
+ 
+1
+Ensure runway profile extends at least 25 feet from the runway’s edges. 
+  
+ 
+2. 
+Prepare tapes for pendant installation. 
+ 
+ a. Pull approx. 15 to 20 ft of tape to facilitate pendant attachment 
+Airfields Supporting Fighters and Transport/Cargo Aircraft: 
+  
+ 
+1. 
+Ensure runway profile extends at least 275 feet from both sides of 
+runway’s centerline. 
+40                                                                       AFTTP3-32.15  10 JULY 2024 
+  
+ 
+2. 
+Determine which of the two MRES manta-ray anchors is required. 
+  
+ a. Hard soil w/CBR over 25 (PN 9D00204-1: small anchors). 
+  
+ b. Medium soil w/CBR 25 or less (PN 9D00204-2: medium 
+anchors). 
+  
+ c. Soft soil that does not support a 10K-lb proof load of medium 
+anchors (P/N 9D00204-3: large anchors). 
+  
+ 
+3. 
+Reconfigure one MRES trailer when runway surface is concrete: 
+  
+ a. Remove soil installation tools and hardware. 
+  
+ b. Install concrete installation brackets. 
+Note: If both assemblies are to be installed on concrete and sufficient 
+notice is provided after attack, perform these actions on both trailers. 
+  
+ 
+4
+Reconfigure anchor weldments to installation position. 
+ 
+ 
+5. 
+Remove bushings from stake pockets on both MAAS trailers and 
+properly store them. 
+  
+ 
+6. 
+Prepare tapes for reeving through MRES: 
+  
+ a. Pull tapes to reach 10 ft beyond distance between MAAS exit 
+sheave and MRES exit sheave (at least 285 feet) 
+  
+ b. Remove both tape connectors if already installed. 
+  
+ c. Roll tape pulled from reels and secure on MAAS trailers. 
+  
+ 
+7. 
+Obtain small, stranded wire rope, or equivalent, at least 120 foot long 
+and place in MRES storage compartment (used for siting component 
+locations). 
+  
+ 
+8
+Adjust load-locker pressure relief valve to 10,500 PSI. 
+ 
+ 
+ 
+AFTTP3-32.15  10 JULY 2024                                                                   41 
+Attachment 4 
+ 
+INSTALLATION CHECKLIST 
+ 
+Table A4.1. Installation Checklist. 
+Mobile Arresting Gear System Setback Installation Checklist 
+Site Requirements, Mark Installation locations, & Position Components: 
+  
+ 
+1. 
+Ensure installation location meets component siting requirements: 
+  
+ a. Area provides sufficient installation clear zone for MRES and 
+MAAS trailers. 
+  
+ b. Slope of MRES assembly location (0% to -3% above runway 
+surface) 
+  
+ c. Runway edge clearance (tape is at least of equal height with 
+edge of runway) 
+  
+ d. Slope between MRES rear roller assembly and MAAS 
+(0% to -8%) 
+  
+ 
+2. 
+Mark installation locations for component positioning: 
+  
+ a. Centerline - Point A 
+  
+ b. MRES - Point B 
+  
+ c. MRES - Point C 
+  
+ d. MAAS - Point B1 
+  
+ e. MAAS - Point C1 
+  
+ 
+3. 
+Position components: 
+  
+ a. MRES Point B 
+  
+ b. MAAS Point B1 
+  
+ c. MRES Point C 
+  
+ d. MAAS Point C1 
+Ensure appropriate PPE is worn while installing components 
+MAAS Setback Installation 
+  
+ 
+1. 
+Chock one rear wheel, apply parking brake and lower trailers with exit 
+sheaves aligned on marks B1 and C1. 
+  
+ 
+2
+Install trailer adapter fitting to trailer. 
+Concrete Installation 
+42                                                                       AFTTP3-32.15  10 JULY 2024 
+  
+ 
+3a. 
+Ensure turnbuckles lengths are adjusted to 39 inches and attach 
+locknut end of 2 turnbuckles to outer holes of turnbuckle fitting 
+  
+ 
+4a. 
+Attach an anchor plate to end of each turnbuckle and position for 
+anchoring. 
+ 
+ 
+5a. 
+Drill 12 holes and secure anchor plates to concrete with 12 anchor 
+bolts. 
+  
+ 
+6a. 
+Tighten turnbuckles to remove slack, but do not overtighten causing the 
+trailer to move. 
+  
+ Tighten locknuts on turnbuckles. 
+Soil Installation 
+  
+ 
+3b
+Install 10 trailer body stakes. 
+  
+ 
+4b
+Install a triple turnbuckle fitting onto trailer adapter fitting. 
+  
+ 
+5b. 
+Ensure turnbuckle lengths are adjusted to 39 inches and attach 
+locknut ends to triple turnbuckle fittings. 
+  
+ 
+6b. 
+Attach to triplet turnbuckle fitting and install setback KM anchoring 
+system. 
+MRES Installation: 
+  
+ 
+1
+Remove tools and hardware from MRES storage compartment. 
+  
+ 
+2. 
+Remove anchor weldments from transport position and install in 
+installation position if not done during pre-attack actions. 
+  
+ 
+3. 
+CONCRETE INSTALLATION ONLY: Install the 2 installation brack-
+ets onto opposite sides of the MRES trailer if not done during pre-at-
+tack actions. 
+  
+ 
+4. 
+Disconnect brake quick-disconnect plug and electrical cable from 
+MRES trailer. 
+  
+ 
+5
+Lower MRES assembly to the ground with ratchets and tow-bar jack. 
+  
+ 
+6
+Remove towbar from MRES assembly. 
+  
+ 
+Remove wheel and tire assemblies and set aside. 
+  
+ 
+8
+Reeve tape through MRES assemblies. 
+  
+ 
+9
+Install tape connectors. 
+  
+ 
+10
+Install pendant cable assembly. 
+  
+ 
+11
+Perform preliminary alignment. 
+AFTTP3-32.15  10 JULY 2024                                                                   43 
+  
+ 
+12
+Install MRES alignment anchors. 
+  
+ 
+13. 
+Perform pull-out alignment, when complete tighten turnbuckles 
+enough to hold MRES assembly in place while installing anchors. 
+  
+ 
+14. 
+CONCRETE INSTALLATION ONLY: Install 14 anchor bolts per 
+assembly. 
+ 
+ 
+15. 
+SOIL INSTALLATION ONLY: 
+  
+ a. Initially, only drive an anchor stake in each corner, 4 stakes 
+per assembly. 
+  
+ b. Install 6 appropriately sized manta-ray anchors. 
+  
+ c. Load test manta-ray anchors 
+  
+ 
+16. 
+If all manta-ray anchors pass load tests, connect chains to MRES 
+assembly and tighten. 
+  
+ 
+17
+Drive remaining 28 body stakes per MRES assembly. 
+  
+ 
+18
+Remove alignment hardware and properly store. 
+  
+ 
+19
+Repair alignment anchor holes in concrete. 
+Preparation for Use: 
+  
+ 
+1. 
+Store MRES wheels flat on ground under cover support tube 
+weldments in rear corner of MRES assemblies. 
+  
+ 
+2. 
+Place storage bag over each MRES assembly brake drum and hub assem-
+bly for protection. 
+  
+ 
+3. 
+Lower take-up assemblies to allow covers to close without contacting 
+brake drums. 
+  
+ 
+4
+Lower covers. 
+  
+ 
+6
+Perform rewind operations to pretension tapes. 
+  
+ 
+Properly store all unused tools, installation equipment, and hardware. 
+  
+ 
+8. 
+Perform proof loading unless under emergency conditions. Otherwise, 
+complete afterwards. 
+  
+ 
+9. 
+Perform initial installation synchronization if not in emergency condi-
+tions.  Otherwise, complete afterwards. 
+44                                                                       AFTTP3-32.15  10 JULY 2024 
+  
+ 
+10. 
+Perform tape stack measurement. 
+WARNING: Tape stack height dimension is a function of tape length 
+(allowable aircraft runout) and tape reel diameter. Following the installa-
+tion of the MAAS and the MRES, the tape edge distance must not exceed 
+the limits given in T.O. 35E8-2-5-1. Failure to adhere to these limits will 
+result in reduced allowable runout and may result in aircraft damage, se-
+rious injury or loss of life. 
+  
+ 
+11. 
+Aircraft certification. Initial aircraft certification is not mandatory under 
+combat or emergency conditions. Certification engagement is required if 
+system remains installed after the emergency. 
+ 

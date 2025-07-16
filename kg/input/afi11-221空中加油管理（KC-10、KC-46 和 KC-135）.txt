@@ -1,0 +1,756 @@
+BY ORDER OF THE  
+SECRETARY OF THE AIR FORCE 
+ 
+AIR FORCE INSTRUCTION 11-221 
+5 JUNE 2020 
+Flying Operations 
+AIR REFUELING MANAGEMENT 
+ (KC-10, KC-46, AND KC-135) 
+COMPLIANCE WITH THIS PUBLICATION IS MANDATORY 
+ 
+ACCESSIBILITY:  Publications and forms are available on the e-Publishing website at 
+www.e-publishing.af.mil for downloading or ordering. 
+RELEASABILITY:  There are no releasability restrictions on this publication. 
+ 
+ 
+OPR: HQ AMC/A3O 
+ 
+Supersedes: 
+AFI11-221, 13 July 2016 
+Certified by: AF/A3T  
+(Maj Gen James A. Jacobson) 
+Pages: 19 
+ 
+ 
+This instruction implements Air Force Policy Directive (AFPD) 10-21, Rapid Global Military and 
+AFPD 11-2, Aircrew Operations.  It establishes specific procedures for prioritizing and obtaining 
+KC-10, KC-46, and KC-135 air refueling (AR) support for peacetime training, exercises, rotations, 
+contingency operations, and Headquarters (HQ) Air Combat Command (ACC), Air Operations 
+Squadron (AOS) aircraft movements.  This instruction applies to all civilian employees and 
+uniformed members of the Regular Air Force, Air Force Reserve, and Air National Guard (ANG).  
+It applies to the Department of the Navy and Marine Corps in accordance with Department of 
+Defense Instruction (DoDI) 5158.06, Joint Deployment and Distribution Enterprise (JDDE) 
+Planning and Operations, and as outlined in the current Memorandums of Understanding and 
+Inter-service Support Agreements.  This instruction requires the collection and or maintenance of 
+information protected by Department of Defense Instruction (DoDI) 5400.11, DoD Privacy and 
+Civil Liberties Programs.  The applicable System of Record Notice, F011 AF XO A, Aviation 
+Resource 
+Management 
+System 
+(ARMS), 
+is 
+available 
+at:  
+http://dpcld.defense.gov/Privacy/SORNsSearchResults/tabid/7541/Category/277/Default.as
+px.  Ensure all records generated as a result of processes prescribed in this publication adhere to 
+Air Force Instruction (AFI) 33-322, Records Management and Information Governance Program, 
+and are disposed in accordance with the Air Force Records Disposition Schedule, which is located 
+in the Air Force Records Information Management System. 
+Refer recommended changes and questions about this publication to the Office of Primary 
+Responsibility (OPR) using the AF Form 847, Recommendation for Change of Publication; route 
+AF Forms 847 from the field through the appropriate functional’s chain of command.  This Air 
+2 
+AFI11-221  5 JUNE 2020 
+Force Instruction may be supplemented at any level, but all direct supplements must be routed to 
+the OPR of this publication for coordination prior to certification and approval.  The authorities to 
+waive wing/unit level requirements in this publication are identified with a Tier (“T-0, T-1, T-2, 
+T-3”) number following the compliance statement.  Refer to AFI 33-360, Publications and Forms 
+Management, Table 1.1 for a description of the authorities associated with the Tier numbers.  
+Submit requests for waivers through the chain of command to the appropriate Tier waiver approval 
+authority, or alternately, to the requestor’s commander for non-tiered compliance items.  The use 
+of the name or mark of any specific manufacturer, commercial product, commodity, or service in 
+this publication does not imply endorsement by the Air Force. 
+SUMMARY OF CHANGES 
+This document is substantially revised and must be completely reviewed.  One major change 
+includes the Readiness Driven Allocation Process (RDAP) that has replaced the Commander, Air 
+Force Forces (COMAFFOR) Apportionment and Allocation Process (CAAP). 
+ 
+Chapter 1—OVERVIEW 
+ 
+4 
+1.1. 
+Maximize Economy of Force.   ................................................................................  
+4 
+1.2. 
+Air Refueling Delays and Cancellations.   ...............................................................  
+5 
+Chapter 2—ROLES AND RESPONSIBILITIES 
+ 
+6 
+2.1. 
+USTRANSCOM Operations and Plans Directorate-Air Refueling Branch 
+(USTC/J35-R).   .......................................................................................................  
+6 
+2.2. 
+Receiver Agencies.   ................................................................................................  
+6 
+2.3. 
+USTC/J35-R, AMC, or 618th Air Operations Center, Tanker Airlift Control 
+Center (618 AOC [TACC]) (618 AOC).   ...............................................................  
+6 
+Chapter 3—TANKER VALIDATION, ALLOCATION, AND SCHEDULING 
+ 
+7 
+3.1. 
+Air Refueling Request Procedures. ..........................................................................  
+7 
+3.2. 
+Validation (CJCS Priority 1 and 2).   .......................................................................  
+7 
+3.3. 
+Tanker Allocation.   .................................................................................................  
+8 
+3.4. 
+Long-Range Scheduling Process.   ..........................................................................  
+9 
+3.5. 
+Short-Notice Scheduling Process.   ..........................................................................  
+9 
+Chapter 4—CORONETS 
+ 
+11 
+4.1. 
+Mission Description.   ..............................................................................................  
+11 
+4.2. 
+Basic Authority.   .....................................................................................................  
+11 
+4.3. 
+Request for Support.   ..............................................................................................  
+11 
+AFI11-221  5 JUNE 2020 
+3 
+4.4. 
+Scheduling Coronet Tanker Support.   .....................................................................  
+12 
+4.5. 
+Tanker Go/No-Go Launch Decisions.   ...................................................................  
+13 
+4.6. 
+Tanker Escort Procedures.   .....................................................................................  
+13 
+4.7. 
+Abort and Divert Procedures.   ................................................................................  
+13 
+4.8. 
+Foreign Military Sales.   ..........................................................................................  
+13 
+4.9. 
+Acquisition and Cross-Servicing Agreement (ACSA).   .........................................  
+13 
+4.10. 
+Non-AMC Assets.   ..................................................................................................  
+13 
+4.11. 
+Coronet Detail Planners.   ........................................................................................  
+14 
+Chapter 5—ARLO PROGRAM 
+ 
+15 
+5.1. 
+The Air Refueling Liaison Office.   .........................................................................  
+15 
+5.2. 
+Air Refueling Scheduling Tool.   .............................................................................  
+15 
+5.3. 
+Visibility.   ...............................................................................................................  
+15 
+Attachment 1—GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+16 
+ 
+ 
+ 
+4 
+AFI11-221  5 JUNE 2020 
+Chapter 1 
+OVERVIEW 
+1.1.  Maximize Economy of Force.  To maximize economy of force regarding global AR 
+management Commander, USTRANSCOM (CDRUSTRANSCOM) is the Department of Defense 
+(DoD) single manager for transportation other than service-unique or theater-assigned assets, in 
+accordance with DoDI 5158.06.  HQ Air Mobility Command (AMC) is the Component-Major 
+Command (MAJCOM) in support of CDRUSTRANSCOM and is the United States Air Force 
+(USAF) Lead Command for KC-10, KC-46, and KC-135 air refueling operations in accordance 
+with AFPD 10-21.  When servicing USTRANSCOM validated global air refueling requirements, 
+Combatant Commanders (CCDRs), through their respective Air Operations Center (AOC), use the 
+procedures defined in this instruction to determine projected receiver AR requirements and task 
+tanker units to fill those requirements.  Geographical Combatant Commanders (GCC) with 
+assigned and attached/allocated tanker forces support air refueling requirements in accordance 
+with Joint Publication (JP) 1, Doctrine for the Armed Forces of the United States, JP 3-0, Joint 
+Operations, and JP 5-0, Joint Planning, in addition to USTRANSCOM validated global air 
+refueling requirements (within their area of responsibility [AOR]), in accordance with Chairman 
+of the Joint Chiefs of Staff Instruction (CJCSI) 4120.02D, List of Priorities – DoD Transportation 
+Movement Priority System.  in accordance with CJCSI 4120.02D, GCCs should balance support 
+to Joint Force Commander (JFC)/Joint Force Air Component Commander (JFACC) AOR air 
+refueling requirements with USTRANSCOM validated global AR requirements (within their 
+respective AORs) to support those with the overall highest priorities to the maximum extent 
+possible. 
+1.1.1.  USTRANSCOM validates all AR support based on Joint Chiefs of Staff (CJCS) priority 
+of the receiver flight mission, in accordance with CJCSI 4120.02D.  In order to qualify as a 
+priority 1, 2, or 3 requirement, the AR request must be necessary to complete the mission or 
+deployment. 
+1.1.2.  GCC and/or JFC-directed AR requirements are prioritized in accordance with JP 3-30, 
+Joint Air Operations.  The JFACC tasks forces based on the JFC’s approved air apportionment 
+decision with prioritized requirements posted in the JFACC’s Air Operations Directive, which 
+can be viewed on the specific GCC and /or JFC website. 
+1.1.3.  Tanker Reporting:  Various tools are used to collect AR mission activity data.  Mobility 
+Air Forces (MAF) Fuel Usage Data Worksheet and AFTO Form 781, ARMS Aircrew/Mission 
+Flight Data Document, are the primary reporting instruments for ensuring AR mission data is 
+accurately compiled.  The tanker aircrew is responsible for ensuring the accuracy and 
+completeness of all forms.  (T-3).  Post-flight, tanker crews will submit the completed MAF 
+Fuel Usage Data Worksheet to maintenance debrief personnel.  (T-3).  Debrief personnel will 
+enter the fuel usage data into G081.  (T-3).  Tanker planners will ensure aircrews have accurate 
+receiver and mission data prior to launch.  (T-3).  Post-mission paperwork should be retained 
+and turned in to appropriate accounting agencies upon return to home station.  Tanker units 
+will enter all post-mission data  into the Global Decision Support System (GDSS) as soon as 
+practical after mission completion.  (T-3). 
+1.1.4.  Foreign Military Sales (FMS).  FMS case tanker units will send completed AFTO Form 
+781s and AF Form 791s, Aerial Tanker In-flight Issue Log, flight orders, and paid travel 
+AFI11-221  5 JUNE 2020 
+5 
+vouchers, to include crew and mission essential personnel (MEP), directly to AMC/Financial 
+Management and Comptroller/Financial Services within 5 workdays after mission completion.  
+(T-1). 
+1.1.5.  Theater specific air refueling requirements are supported by the theater’s AOC, if 
+assigned.  Tasks are synchronized and integrated during the air tasking cycle based on the 
+JFACC’s guidance and objectives, and executed via the Air Tasking Order (ATO). 
+1.2.  Air Refueling Delays and Cancellations.    All receiver and tanker units scheduled for AR 
+should coordinate delays or cancellations as soon as possible. 
+1.2.1.  Tankers should make every effort to accommodate their receiver if the receiver 
+experiences a delay before tanker launch, crew duty day permitting.  However, the tanker is 
+not required to delay more than 4 hours to accommodate Formal Training Unit or Replacement 
+Training Unit training.  For all other training the tanker is not require to delay more than 3 
+hours. 
+1.2.2.  Tanker aircraft should plan to arrive at the Air Refueling Control Point (ARCP) no 
+earlier than 20 minutes prior to the Air Refueling Control Time (ARCT).  Tanker aircraft 
+should plan to depart no later than (NLT) 10 minutes after ARCT unless specifically cleared 
+by the appropriate air traffic control (ATC) facility for an extended delay, in accordance with 
+the Federal Aviation Administration Order JO 7610.4V, Special Military Operations, and 
+Allied Tactical Publication (ATP)-3.3.4.2.(D), Air-To-Air Refuelling.  Tankers are not required 
+to delay for receivers at the ARCP longer than 30 minutes after the ARCT. 
+1.2.3.  Tanker crew should coordinate with Command and Control (C2) agencies before 
+departing ARCP in the event of a late receiver.  When operating under an altitude reservation 
+(ALTRV), aircraft must depart within the assigned “ALTRV Void if Aircraft Not Airborne 
+by” time. 
+ 
+ 
+6 
+AFI11-221  5 JUNE 2020 
+Chapter 2 
+ROLES AND RESPONSIBILITIES 
+2.1.  USTRANSCOM Operations and Plans Directorate-Air Refueling Branch (USTC/J35-
+R).  USTRANSCOM Operations and Plans Directorate-Air Refueling Branch (USTC/J35-R) 
+serves as the single focal point within USTRANSCOM and validates global air refueling requests.  
+USTCJ35-R coordinates with all applicable Combatant Command (CCMD)s and Transportation 
+Component Commands operating tanker aircraft to enable effective and efficient management of 
+AR assets.  Priority 1 and 2 AR requirements (and all AR requirements supporting Coronets 
+regardless of priority – see Chapter 4) are validated by USTC/J35-R, based on capacity, and are 
+supported to the limit of global capacity.  Priority 3 and below AR requirements are validated and 
+allocated at the appropriate component command.  MAJCOMs/ CCMDs/Numbered Air Force 
+(NAF)s/Services may request USTRANSCOM validation of select priority 3 AR requirements. 
+2.2.  Receiver Agencies.   Receiver agencies (Services, CCMDs, MAJCOMs, NAFs, Field 
+Operating Agencies, Direct Reporting Units, and wings) will designate an Air Refueling Manager 
+(central agency or office) to coordinate AR support, in accordance with United States 
+Transportation Command Instruction (USTCI) 10-25, Air Refueling.  In addition, receiver unit 
+scheduling offices have primary responsibility for detailed scheduling. 
+2.3.  USTC/J35-R, AMC, or 618th Air Operations Center, Tanker Airlift Control Center 
+(618 AOC [TACC]) (618 AOC).  USTC/J35-R, AMC, or 618th Air Operations Center, Tanker 
+Airlift Control Center (618 AOC [TACC]) (618 AOC) will coordinate requirements through the 
+GCC’s AOC (if assigned) before assigning/tasking support to any global AR requirement to any 
+GCC’s tanker forces, in accordance with USTCI 10-25.  Coordination ensures GCC’s tanker forces 
+are available and/or do not impact other higher priority theater requirements. 
+ 
+ 
+AFI11-221  5 JUNE 2020 
+7 
+Chapter 3 
+TANKER VALIDATION, ALLOCATION, AND SCHEDULING 
+3.1.  Air Refueling Request Procedures. 
+3.1.1.  Air Refueling Management System (ARMS) is the sole vehicle for receiver units and 
+other requesting agencies to submit, change, or cancel CJCS priority 1 and 2 (operational) AR 
+requests.  (T-0).  Use of any other method must be specifically approved by USTRANSCOM.  
+(T-0).  Unless otherwise specified in this instruction, ARMS is the sole vehicle for submitting, 
+changing, or cancelling all Coronet AR requests, regardless of CJCS priority.  (T-1).  All users 
+will establish and maintain individual user accounts in ARMS.  (T-1).  Receiver units will 
+request ARMS accounts through their MAJCOM or Service validators.  (T-2).  ARMS can be 
+accessed on the Consolidated Air Mobility Planning System (CAMPS) Web Portal on the Non-
+classified 
+Internet 
+Protocol 
+Router 
+Network 
+at 
+https://campsweb.maf.ustranscom.mil/Portal/UnprotectedForms/login.aspx 
+or 
+the 
+SECRET Internet Protocol Router Network at https://campsweb.maf.ustranscom.smil.mil.  
+ARMS request procedures and information are delineated in the online help file. 
+3.1.2.  The Air Refueling Scheduling Tool is the USAF system of record for matching receiver 
+training air refueling needs (CJCS priority 3 and 4) to tanker capacity.  See Chapter 5, Air 
+Refueling Liaison Office (ARLO) Program, for support for these requests. 
+3.1.3.  Request For Forces (RFF).  CCDRs may submit an RFF for tankers, crews, and/or 
+associated support forces to support theater AR requirements.  In these cases, an operation 
+order (OPORD) is generated, or an enduring requirement is identified in the Global Force 
+Management Allocation Plan.  Command relationships of these RFF forces will be addressed 
+in the OPORD or Global Force Management Allocation Plan. 
+3.1.4.  Service Level Missions.  MAJCOMs/NAFs/CCMDs/Services may request AR support 
+for receiver requirements that may otherwise go unsupported.  618 AOC Mobility Management 
+Directorate, Long-Range Scheduling Division schedules service missions in accordance with 
+the AMC/A3 RDAP/OPORD/Concept of Operations, located on AMC/Operations 
+Management Division, Current Operations SharePoint. 
+3.1.5.  Non-Tanker Mission.  If a tanker is performing another primary mission (e.g., Special 
+Assignment Airlift Mission [SAAM], Channel Airlift, Aeromedical Evacuation) and is being 
+considered to accomplish AR training requirements, the requestor or ARLO must coordinate 
+the event with the responsible planning directorate.  (T-2).  The primary mission has priority 
+and will not be delayed to accommodate the receiver’s training requirements. 
+3.2.  Validation (CJCS Priority 1 and 2).    Air refueling requests are validated at multiple levels.  
+USTRANSCOM is the USAF and DoD final Validator.  Air refueling request validation protocols 
+are based on CJCS priority, request timing, origin of request, MAJCOM/NAF/CCMD/Service, 
+and the nature of the refueling operation.  in accordance with USTCI 10-25, the requesting 
+MAJCOM/NAF/CCMD/Service will designate a validator to review requests originating from 
+assigned units prior to being pushed to the next level in ARMS. 
+3.2.1.  All validators will ensure AR requests are complete, accurate, and reflect the proper air 
+refueling support priority in accordance with CJCSI 4120.02D, before validation in ARMS.  
+(T-0).  MAJCOM validators will ensure the accuracy of all AR data, authenticate requester 
+8 
+AFI11-221  5 JUNE 2020 
+contact information, and provide a comment within ARMS stating the request is accurate and 
+mission impact if tanker support is delayed or not provided.  (T-1). 
+3.2.2.  Filling short-notice user requests requires balancing and resolving competing user 
+requirements and priorities to achieve optimum tanker utilization. 
+3.2.2.1.  To reduce turbulence at the unit level, all CJCS Priority 1 and 2 ARMS requests 
+made 
+within 
+96 
+hours 
+of 
+ARCT 
+must 
+have 
+a 
+General/Flag 
+Officer 
+endorsement/justification included with the request.  (T-0).  Reference CJCSI 4120.02D, 
+page B-1, for instructions. 
+3.2.2.2.  AR requests made within 24 hours of required tanker takeoff time cannot be 
+requested/validated through normal channels.  Direct contact with USTRANSCOM for 
+validation and the tanker execution authority is required.  (T-2).   
+3.2.3.  USTRANSCOM validation is not required when AR requests between tankers and 
+receivers, under the same operational control (OPCON), performs AR within the owning 
+CCDR’s geographic AOR  Exception:  All Coronets must be validated by USTRANSCOM.  
+(T-1).  ARMS requests not validated by USTRANSCOM will be forwarded to the applicable 
+theater Air Mobility Division for potential support in accordance with JFACC priorities.  If 
+additional tankers are required, the MAJCOM/CCMD/NAF/Service will submit a request to 
+USTRANSCOM via ARMS or submit an RFF for additional forces, as required. 
+3.2.4.  Air refueling requests for inter-theater ARs in multiple AORs (e.g., Global Power/Strike 
+missions, RC-135 and National Airborne Operations Center deployments), must be validated 
+by the CCMD with OPCON, or MAJCOM/NAF with delegated OPCON, of the receiver 
+aircraft.  Air Force and DoD level validation will be accomplished by USTRANSCOM, who 
+will then push the requirements to the appropriate MAJCOM/NAF/CCMD/Service tanker 
+allocation authority (barrel) for those ARs in their respective areas of responsibility.  If the 
+appropriate MAJCOM/NAF/CCMD/Service is unable to meet the requirement with their own 
+air refueling assets, they will shortfall/non-support to USTRANSCOM via ARMS.  Designate 
+a lead AOC when multi-theater air refueling requests use tankers from multiple AORs.  The 
+lead AOC will act as the lead planning agency, serve as the single point of contact for the 
+requesting agency, and monitor all tanker missions to ensure overall mission success.  Unless 
+otherwise coordinated, 618 AOC will be the lead AOC for multi-theater AR requests involving 
+tankers from multiple AOCs.  Once an AR requirement has been validated by 
+USTRANSCOM, the requestor should coordinate directly with the assigned AOC when only 
+minor changes are required. 
+3.3.  Tanker Allocation.  KC-10, KC-46, and KC-135 aircraft made available to USTRANSCOM 
+will be allocated to support USTRANSCOM validated AR requirements in accordance with the 
+CJCSI 4120.02D priority system.  When short-notice requests require canceling previously 
+scheduled missions, the CJCSI 4120.02D priority system will be used by tanker allocators to 
+identify potential cancellations.  Theater-specific guidance should apply to aircraft assigned or 
+allocated to GCCs. 
+3.3.1.  Tanker Allocation Timeline.  For CJCS Priority 1 and 2 requirements, and all Coronets, 
+receiver units initiates the tanker allocation process by submitting an ARMS request NLT 60 
+days prior to the start of each execution month (for Coronet missions, ACC AOS will submit 
+the ARMS requests NLT 60 days prior to the start of each quarter).  (T-1).  Break out Coronet 
+AFI11-221  5 JUNE 2020 
+9 
+requests by leg.  These air refueling requirements are consolidated, and then matched with 
+available tankers in the 618 AOC’s long-range scheduling process.  The long-range process is 
+completed when 618 AOC publishes the final long-range schedule 30 days prior to the start of 
+each month. 
+3.3.2.  Mission Taskings Inside 30 Days.  Due to the reduced ability to support other missions 
+caused by the deployment of tanker aircraft or temporary duty personnel, USTRANSCOM 
+must receive the MAJCOM/NAF/CCMD/Service-validated request at least 30 calendar days 
+prior to mission date or longer depending on area clearance requirements.  For CJCS Priority 
+1 and 2 requests inside 30 days of mission start, refer to short-notice scheduling process, 
+paragraph 3.5. 
+3.4.  Long-Range Scheduling Process.    618 AOC’s long-range scheduling process is used to 
+match air refueling requirements with available tanker resources more than 30 days prior to the 
+start of each execution month.  USTRANSCOM-validated air refueling requests will be forwarded 
+to the appropriate MAJCOM/NAF/CCMD/Service tanker barrel for tanker sourcing. 
+3.4.1.  618 AOC runs the ARMS “scheduler” to match tanker availability with non-pre-
+coordinated air refueling requests and initiate the ARMS online trading period 60 days prior 
+to the start of each execution month.  The online trader provides tanker units the opportunity 
+to buy, sell, or trade requirements with other tanker units.  During this period, new 
+requirements may still be submitted as “Conference Added” requests. 
+3.4.2.  Online trading will terminate and the long-range schedule will be published NLT 30 
+days before the execution month.  The long-range schedule can be downloaded from the 618 
+AOC 
+Mobility 
+Management 
+Directorate, 
+Tanker 
+Barrel 
+(XOBK) 
+website 
+at 
+https://tacc.us.af.mil/?action=xobk&XOBK or through a link on the 618 AOC Home Page 
+at https://tacc.us.af.mil/.  All units should carefully review the published long-range schedule 
+to identify deviations from submitted air refueling requests. 
+3.4.3.  For USTRANSCOM-validated air refueling requirements not filled prior to, or 
+generated after, publication of the long-range schedule, sourcing efforts will continue via the 
+short-range allocation process.  Tanker barrels will continue to attempt to task unfilled 
+requirements using the CJCSI 4120.02D priority system utilizing tanker assets authorized for 
+allocation through RDAP.  (T-1).  Lower priority requirements not validated by 
+USTRANSCOM, and not filled prior to or identified after publication of the long-range 
+schedule, will not be actively sourced.  Support for these lower priority requirements may be 
+obtained as soft ARs coordinated directly between tanker and receiver units using the Air 
+Refueling Scheduling Tool (ARST) (see Chapter 5). 
+3.5.  Short-Notice Scheduling Process.    Short-notice air refueling requirements are those single 
+event ARs submitted inside 30 days of tanker execution, for priority 1 and 2 missions per the 
+CJCSI, or those the receiver cannot forecast far enough in advance to be included in the monthly 
+long-range schedule.  Because these requirements can often be met only at the expense of carefully 
+forecasted and planned long-range scheduling requirements, schedulers should minimize the use 
+of the short-notice system.  Receiver units should make every effort to forecast and plan these 
+missions far enough in advance for inclusion in the monthly long-range schedule. 
+3.5.1.  Mission taskings inside 10 business days but not inside 96 hours.  For missions not 
+requiring deployment of tanker aircraft or personnel, USTRANSCOM must receive the 
+10 
+AFI11-221  5 JUNE 2020 
+MAJCOM-validated request at least 10 business days prior to mission date.  Requests that do 
+not meet this timeline are at a greater risk for non-support. 
+3.5.2.  Mission taskings inside 96 hours.  Requests for support within 96-hours must comply 
+with the procedures outlined in CJCSI 4120.02D and USTCI 10-25.  (T-0). 
+3.5.3.  Mission taskings within 24 hours of execution.  The normal request, validation, and 
+scheduling process is impossible.  These requests will typically not be supported.  There are 
+times in which the interval between mission tasking and required departure time is less than 
+24 hours.  When this happens, these missions are in execution and may be supported by the 
+execution authority via in-system select.  Serious consideration to the importance of the 
+mission versus impact on unit/aircrew schedules must be made.  Every attempt should be made 
+to delay the mission outside the 24-hour period before attempting to gain inside-24 hour 
+approval.  Approval process is the same as for inside-96 hour requests. 
+3.5.4.  Normally, lower priority single event AR requests (CJCS Priority 3 and 4) are not 
+validated by USTRANSCOM, and will not be supported through the short-notice scheduling 
+process.  See Chapter 5, ARLO Program, for support for these requests. 
+ 
+ 
+AFI11-221  5 JUNE 2020 
+11 
+Chapter 4 
+CORONETS 
+4.1.  Mission Description.    Coronet identifies aircraft movements that operate under ACC/AOS 
+Movement Control (MOCON), and typically have a transoceanic leg.  Requests for Coronet AR 
+support for movements that do not meet this criterion, including movements between continental 
+United States (CONUS) and Alaska, will be evaluated by USTRANSCOM on a case-by-case basis 
+prior to validation.  Tanker support for over-land legs as part of multi-leg coronets that include an 
+extended over-water leg will be supported as validated by USTRANSCOM.  However, limited 
+tanker availability may require that fighters “hop” on the over-land legs and only receive tanker 
+support for the extended, over water legs. 
+4.1.1.  Coronets entail complex coordination, planning, supervision, and execution of all 
+functions required to provide AR support.  AMC is the single manager for Coronet tanker 
+support.  As such, they work with ACC (single manager for DoD Coronet movements) to 
+develop movement schedules and coordinate all Coronet tanker allocation, planning, and 
+execution functions. 
+4.1.2.  CCDRs with OPCON of their own tankers make them available to AMC (to the 
+maximum extent possible) to support Coronets transiting their AORs.  AR support for 
+bombers, airlifters, and other large aircraft are not classified as Coronets. 
+4.2.  Basic Authority.    618 AOC is the primary point of contact for Coronet AR support.  618 
+AOC provides oversight of all tanker agencies conducting Coronet planning or execution.  The 
+618 AOC coordinates as necessary with other MAJCOM/NAF/CCMD/Services, Department of 
+State, embassies, foreign governments, ANG, Air Force Reserve Command (AFRC), and various 
+other Coronet planning agencies.  If foreign governments or international organizations are 
+involved, refer to Air Force Manual (AFMAN) 16-101, Security Cooperation (SC) and Security 
+Assistance (SA) Management.  618 AOC coordinates all Coronet tanker mission requirements, to 
+include determining tanker staging locations and en route actions, necessary to support Coronets. 
+4.2.1.  There is no change of OPCON for tanker aircraft as a result of supporting Coronet 
+operations.  CCMDs and MAJCOMs exercise OPCON of owned tanker assets through their 
+respective AOCs, with scheduling, employment, and C2 of all tankers participating in a 
+Coronet provided by AMC via the 618 AOC. 
+4.2.2.  The 618 AOC coordinates aircrew and equipment waiver requests through the 
+respective CCDR’s AOC when Coronets are supported by GCC forces.  618 AOC provides 
+standardized Coronet tanker planning and execution guidance and/or templates to ensure 
+standardization for all Coronet planning and execution. 
+4.3.  Request for Support.    ACC AOS is responsible for requesting Coronet tanker support.  
+Agencies requiring Coronet support should follow procedures in AFI 11-207, Fighter Aircraft 
+Delivery.  ACC AOS is responsible for providing 618 AOC the deploying fighters’ flight plans. 
+4.3.1.  Units requesting Dual Role support must comply with AFMAN11-2Mission Design 
+Series (MDS) Volume 3-specific requirements and timelines.  (T-1).  Units must route requests 
+through USTRANSCOM, providing accurate cargo and passenger details (e.g., cargo weight, 
+number of pallets, and number of passengers).  (T-1).  Passenger details will include an MEP 
+12 
+AFI11-221  5 JUNE 2020 
+Letter generated by ACC AOS which will require approval by 618 AOC (TACC)/XOCZ 
+Senior Director per AFI 11-207. 
+4.3.2.  Dual Role cargo is not contractual or guaranteed in any way.  The AR requirement must 
+be met first, without regard to protecting ancillary Dual Role cargo.  Additional tanker hours, 
+sorties, or allocation days will not be expended to protect Dual Role cargo.  (T-1). 
+4.3.3.  Last-minute changes to mission parameters may require some, or all, of the user’s Dual 
+Role cargo to be downloaded and left behind at the departure airfield, or any en route stop.  
+Users requiring guaranteed cargo movement should purchase a dedicated, funded SAAM. 
+4.3.4.  All waiver requests to Dual Role restrictions will be accomplished by the single 
+manager for Coronet tanker support AMC.  (T-1).  Comply with AFMAN 11-2MDS Volume 
+3-specific waiver guidance. 
+4.4.  Scheduling Coronet Tanker Support.    618 AOC shares overall Coronet scheduling 
+responsibility with ACC AOS.  After MAJCOM validation of Coronet AR requests, units requiring 
+Coronet missions will process requests through ACC AOS.  (T-1).  ACC AOS is the single 
+manager of the fighter aircraft delivery mission.  ANG and AFRC tanker units wishing to volunteer 
+to support fighter deployments should contact 618 AOC/XOBK or volunteer through ARMS. 
+4.4.1.  ACC AOS will submit Coronet AR requests (via ARMS) on a quarterly basis or as soon 
+as requirements are known for short-notice requests.  Following USTRANSCOM validation 
+of the ARMS request, 618 AOC ensures supporting tanker units are identified and tasked NLT 
+10 calendar days prior to tanker launch date.  Exception:  Movement of straggler aircraft or 
+undelivered fighter aircraft from previously validated Coronets may require tasking inside 10 
+calendar days prior to tanker launch date or 3 calendar days prior to diplomatic clearance lead 
+times, whichever is greater. 
+4.4.2.  Tanker units supporting Coronets should provide properly configured/equipped aircraft 
+to meet Coronet requirements as specified by 618 AOC.  KC-135s on Coronet missions will 
+carry a drogue for possible subsequent Navy/Marine/FMS Coronet support (not applicable for 
+round-robin missions from home station).  (T-1).  Tanker units desiring to transport cargo or 
+passengers on a Coronet mission must coordinate their requests through 618 AOC.  (T-2). 
+4.4.3.  Due to the complexity of Coronets, aircraft commanders will be formation lead-certified 
+before participating in a Coronet mission.  (T-2).  Formation leaders and mission commanders 
+(MCs) will ensure all formation actions have been properly briefed and are understood by all 
+formation members.  (T-3).  All aircrews in the formation must be prepared to assume 
+formation lead responsibilities.  (T-3). 
+4.4.4.  A tanker MC will be identified on all active Coronet legs in accordance with AFMAN 
+11-2MDS Volume 3-specific instructions.  (T-3).  Tanker MCs are responsible for the safe and 
+effective conduct of Coronet missions, and will perform duties in accordance with AFMAN 
+11-2MDS Volume 3-specific instructions and 618 AOC guidance.  (T-3).  Tanker MCs will 
+monitor weather at receiver abort bases, destination, and alternates and provide timely updates 
+to receiver flight lead.  (T-3).  Tanker MCs will ensure all formation actions have been properly 
+briefed and understood by all formation members.  (T-3). 
+4.4.5.  The ACC AOS Delivery Control Officer routinely conducts a mission briefing prior to 
+each Coronet mission leg.  This briefing is given within 24 hours of departure and provides 
+AFI11-221  5 JUNE 2020 
+13 
+detailed receiver mission information.  Tanker crews and MCs should attend this briefing if 
+co-located and mission timing permits. 
+4.4.6.  One 24-hour delay (slip) per Coronet is authorized for missions that do not launch as 
+scheduled, as long as RDAP tanker capacity exists.  Additional delays may require 
+rescheduling the mission.  Supporting tanker units will be released upon 618 AOC approval.  
+(T-2). 
+4.5.  Tanker Go/No-Go Launch Decisions.    Coronet tanker launch decisions are made by 618 
+AOC, in conjunction with the mission commander, prior to tanker launch time. 
+4.6.  Tanker Escort Procedures.    Tankers will escort receiver aircraft on transoceanic legs until 
+receivers can maintain two-way radio communication with ATC and navigate to their destination 
+or abort airfield.  (T-1).  For a mid-ocean rendezvous, tankers will escort receivers until the 
+receivers have confirmed two-way radio communications and positive radar or visual contact with 
+the joining tankers.  (T-1).  Plan rendezvous with joining tankers so that receivers move forward 
+to complete the hand-off whenever possible.  Plan to perform formation breakups in visual 
+conditions prior to weather penetration.  When escorting fighters to landing location, tankers 
+should land last. 
+4.7.  Abort and Divert Procedures.    When fighter aircraft are required to abort or divert, tanker 
+MCs and ACs must ensure they understand the intentions and capabilities of aborting/diverting 
+aircraft in order to provide proper escort support.  (T-3). 
+4.7.1.  For air aborts, aborting aircraft will notify the tanker MC of their requirements.  (T-3).  
+Tankers will provide information (e.g., arrival weather and ATC data) and other necessary 
+escort support to aborting receivers.  (T-3).  Tanker MC will notify 618 AOC as soon as 
+practical. 
+4.7.2.  The fighter flight lead will notify the tanker MC in an emergency.  (T-2).  Tankers will 
+notify ATC and obtain necessary clearances for non-emergency aircraft.  (T-2).  If a fighter 
+aircraft ditches or goes down, tanker aircraft will provide cover as long as fuel reserves allow.  
+(T-2).  Remaining fighter aircraft will continue on the mission with remaining tankers or 
+proceed unescorted to the nearest abort airfield.  (T-2).  Tanker MC will notify 618 AOC AR 
+Execution Cell as soon as practical.  (T-2) 
+4.8.  Foreign Military Sales.    FMS Coronets must have a valid FMS case code.  (T-0).  Coronet 
+Detail Planners ensures all FMS electronic mission folders have appropriate FMS-specific 
+instructions.  (T-2).  FMS case reimburses tanker flying hours, fuel offloaded, and flight crew Per 
+Diem.  (T-0). 
+4.9.  Acquisition and Cross-Servicing Agreement (ACSA).    Nations or military organizations 
+with concluded ACSAs may make air-to-air refueling support requests.  ACSA support requests 
+executed by AMC aircraft are approved by USTC/J4/J5 ACSA Program Manager and each 
+approved incident is reimbursable, including flight hours, off-loaded fuel, and crew per-diem as 
+appropriate. 
+4.10.  Non-AMC Assets.    Tanker support provided by Pacific Air Forces or United States Air 
+Forces in Europe is approved using their MAJCOM and/or CCMD processes.  Fuel is 
+billed/invoiced by Defense Logistics Agency-Energy while flying hours and crew per-diem is 
+billed/invoiced by the aircraft/mission-owning MAJCOM. 
+14 
+AFI11-221  5 JUNE 2020 
+4.11.  Coronet Detail Planners.    Planners who are qualified in mobility aircraft may fly as an 
+additional crew member, in accordance with AMC directives, when traveling with Coronets.  
+Coronet detail planners who were previously qualified in mobility aircraft, but no longer maintain 
+qualification, are authorized to travel using MEP status in accordance with AFI 11-401, Aviation 
+Management, and/or Command Supplement.  Coronet detail planners, traveling in MEP status on 
+active Coronet legs, are exempt from any requirements to process through the passenger terminal, 
+since they require direct access to tanker flight crews during mission planning, filing, and preflight. 
+ 
+ 
+AFI11-221  5 JUNE 2020 
+15 
+Chapter 5 
+ARLO PROGRAM 
+5.1.  The Air Refueling Liaison Office.  The ARLO program is administered by 618 AOC.  It is 
+an air refueling optimization program developed to ensure the most efficient use of limited air 
+refueling resources through internet technology-enabled, standardized processes.  ARLO provides 
+enterprise-wide visibility of both tanker capacity and emerging receiver AR training requests.  The 
+ARLO program uses the ARST and acts as a “clearinghouse” for all priority 3 and 4 AR training 
+requests.  The ARLO schedules regional business efforts and coordinates with tankers/receivers 
+located within a region to maximize efficiencies. 
+5.2.  Air Refueling Scheduling Tool.  The ARST was designed to work within and enhance the 
+existing tanker-receiver unit relationships through which the majority of CJCS priority 3 and 4 AR 
+training missions are created.  For CONUS receivers this web-based tool is the USAF system of 
+record for matching receiver training air refueling needs to tanker capacity, and its use is 
+mandatory to maintain visibility and allow the ARLO to maximize training opportunities.  (T-0).  
+ARST is a user-friendly, web-based system that is easily accessed from any “dot-mil” account and 
+requires minimal training.  “How to” guides for both tanker and receiver units are available for 
+download 
+from 
+the 
+Mobility 
+Air 
+Forces 
+Operations 
+website 
+https://tacc.us.af.mil/default.asp?action=ARST, under the Files section of the ARST home 
+page.  If assistance is needed, the ARLO is available M-F 0730-1630 CST at DSN 779-7613 or 
+Commercial 618-229-7613. 
+5.3.  Visibility.  To ensure maximum visibility, receiver units will enter all CJCS priority 3 and 4 
+training mission requests into the ARST (except CJCS priority 3 and 4 Coronets).  (T-2).  All 
+tanker units will use the ARST to "buy" these requests.  (T-2).  Tanker units are required to build 
+all unit training missions in GDSS and provide "AR Details" when AR is performed.  (T-2). 
+ 
+MARK D. KELLY, Lt Gen, USAF 
+Deputy Chief of Staff, Operations 
+16 
+AFI11-221  5 JUNE 2020 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+AFI 11-207,  Fighter Aircraft Delivery, 4 April 2019 
+AFI 11-401, Aviation Management, 10 December 2010 
+AFI 33-322, Records Management and Information Governance Program, 23 March 2020 
+AFI 33-360, Publications and Forms Management, 1 December 2015 
+AFMAN 16-101, Security Cooperation (SC) and Security Assistance (SA) Management, 2 
+August 2018 
+AFPD 10-21, Rapid Global Mobility, 26 Aug 2019 
+AFPD 11-2, Aircrew Operations, 31 January 2019 
+ATP-3.3.4.2.(D), Air-To-Air Refuelling, 1 April 2019 
+CJCSI 4120.02D, List of Priorities - DOD Transportation Movement Priority System, 22 July 
+2015 
+DoDI 5158.06, Joint Deployment and Distribution Enterprise (JDDE) Planning and Operations, 
+7 April 2020 
+DoDI 5400.11, DoD Privacy and Civil Liberties Programs, 29 January 2019 
+Federal Aviation Administration Order JO 7610.4V, Special Military Operations, 15 August 
+2019 
+Office of the Chairman of the Joint Chiefs of Staff, DoD Dictionary of Military and Associated 
+Terms, January 2020. 
+JP 1, Doctrine for the Armed Forces of the United States, 25 March 2013 Incorporating Change 
+1, 12 July 2017 
+JP 3-0, Joint Operations, 17 January 2017 
+JP 3-30, Joint Air Operations, 25 July 2019 
+JP 5-0, Joint Planning, 16 June 2017 
+USTCI 10-25, Air Refueling, 5 March 2015 
+Adopted Forms 
+AFTO Form 781, ARMS Aircrew/Mission Flight Data Document 
+AF Form 791, Aerial Tanker In-flight Issue Log 
+AF Form 847, Recommendation for Change of Publication 
+Abbreviations and Acronyms 
+618 AOC—618thAir Operations Center (Tanker Airlift Control Center) 
+AFI11-221  5 JUNE 2020 
+17 
+ACC—Air Combat Command 
+ACSA—Acquisition and Cross-Servicing Agreement 
+AFI—Air Force Instruction 
+AFMAN—Air Force Manual 
+AFPD—Air Force Policy Directive 
+AFRC—Air Force Reserve Command 
+AFTTP—Air Force Tactics Techniques and Procedures 
+ALTRV—Altitude Reservation 
+AMC—Air Mobility Command 
+ANG—Air National Guard 
+AOC—Air Operations Center 
+AOR—Area of Responsibility 
+AOS—Air Operations Squadron 
+AR—Air Refueling 
+ARCP—Air Refueling Control Point 
+ARCT—Air Refueling Control Time 
+ARLO—Air Refueling Liaison Office 
+ARMS—Air Refueling Management System 
+ARST—Air Refueling Scheduling Tool 
+ATC—Air Traffic Control 
+ATO—Air Tasking Order  
+ATP—Allied Tactical Publication 
+C2—Command and Control 
+CAAP—Commander, Air Force Forces (COMAFFOR) Apportionment and Allocation Process 
+CAMPS—Consolidated Air Mobility Planning System 
+CCDR—Combatant Commander 
+CCMD—Combatant Command 
+CDRUSTRANSCOM—Commander, USTRANSCOM  
+CJCS—Chairman of the Joint Chiefs of Staff 
+CJCSI—Chairman of the Joint Chiefs of Staff Instruction 
+COMAFFOR—Commander, Air Force Forces  
+CONUS—Continental United States 
+18 
+AFI11-221  5 JUNE 2020 
+DoD—Department of Defense 
+FMS—Foreign Military Sales 
+GCC—Geographical Combatant Commanders 
+GDSS—Global Decision Support System 
+HQ—Headquarters 
+JFACC—Joint Force Air Component Commander 
+JFC—Joint Force Commander 
+JP—Joint Publication 
+MAF—Mobility Air Forces  
+MAJCOM—Major Command 
+MC—Mission Commander 
+MDS—Mission Design Series 
+MEP—Mission Essential Personnel 
+MIS—Mobility Air Force Maintenance Information System 
+MOCON—Movement Control 
+NAF—Numbered Air Force 
+NLT—No later than 
+OPCON—Operational Control 
+OPORD—Operation Order 
+OPR—Office of Primary Responsibility 
+RDAP—Readiness Driven Allocation Process 
+RFF—Request For Forces 
+SAAM—Special Assignment Airlift Mission 
+TACC—Tanker Airlift Control Center 
+USAF—United States Air Force 
+USTC—USTRANSCOM 
+USTCI—USTRANSCOM Instruction 
+USTC/J35-R—USTRANSCOM Operations and Plans Directorate—Air Refueling Branch 
+XOBK—618 AOC Mobility Management Directorate, Tanker Barrel 
+Terms 
+AVANA—ALTRV Void if Not Airborne By 
+AFI11-221  5 JUNE 2020 
+19 
+Business Effort—Refers to temporary provision of a tanker aircraft and crew to deliver dedicated 
+air refueling support to a set of customers over a specified period of time.  The duration of a typical 
+business effort is five business days.  Depending on CJCS priority and funding source, business 
+efforts fall into one of three categories; unit-funded, 618 AOC- Tanker Barrel, or ARLO-managed. 
+Channel Airlift—Regularly scheduled airlift for movement of sustainment cargo, depending upon 
+volume of workload, between designated aerial ports of embarkation and seaports of debarkation 
+over validated contingency or distribution channel routes. 
+Coronet—Mission designator for flight delivery of fighter aircraft under ACC AOC movement 
+control and typically have a transoceanic leg. 
+Dual Role—Tanker aircraft transporting a combination of passengers and cargo while performing 
+an AR mission. 
+GO81—Is the Mobility Air Force Maintenance Information System (MIS).  MIS supports and 
+enable maintenance business processes.  MIS is used to document maintenance actions and track 
+aircraft fleet health. 
+Movement Control—The planning, routing, scheduling, and control of personnel and cargo 
+movements over lines of communications; includes maintaining in-transit visibility of forces and 
+material through the deployment and/or redeployment process.  MOCON does not imply the 
+assumption of OPCON or administrative control. 
+Non-Tanker Mission—Tanker mission whose primary purpose is to operate as a Channel, 
+Contingency, SAAM, or Exercise mission. 
+OPCON—The command authority that may be exercised by commanders at any echelon at or 
+below the level of CCMD and may be delegated within the command.  OPCON is able to be 
+delegated from and lesser authority than COCOM.  It is the authority to perform those functions 
+of command over subordinate forces involving organizing and employing commands and forces, 
+assigning tasks, designating objectives, and giving authoritative direction over all aspects of 
+military operations and joint training necessary to accomplish the mission.  JP 1, Joint Personnel 
+Support and DOD Dictionary of Military and Associated Terms. 
+Soft AR—AR coordinated directly between the tanker and receiver unit. 
+Validation—The process of determining if a mission meets required support parameters and has 
+the proper CJCS priority assigned. 
+ 
+ 

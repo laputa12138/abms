@@ -1,0 +1,927 @@
+BY ORDER OF THE SECRETARY  
+OF THE AIR FORCE 
+ 
+AIR FORCE MANUAL 17-204 
+26 FEBRUARY 2020 
+Cyberspace 
+AIR FORCE ON-THE-JOB TRAINING 
+PRODUCTS FOR CYBER SUPPORT 
+ENLISTED SPECIALTY TRAINING 
+COMPLIANCE WITH THIS PUBLICATION IS MANDATORY 
+ 
+ACCESSIBILITY:  Publications and forms are available for downloading or ordering on the 
+e-Publishing website at www.e-Publishing.af.mil 
+RELEASABILITY:  There are no releasability restrictions for this publication 
+ 
+ 
+OPR: AF/A2/6FD 
+ 
+Supersedes: 
+AFI33-154, 1 May 2013 and 
+                        AFI17-204, 1 May 2013 
+Certified by: AF/A2/6,  
+(Maj Gen Kevin B. Kennedy) 
+Pages: 21 
+ 
+ 
+This manual implements Air Force Policy Directive (AFPD) 17-2, Cyberspace Operations, and is 
+consistent with Air Force Instruction (AFI) 36-2651, Air Force Training Program. It establishes 
+procedures and assigns responsibilities for developing, distributing, evaluating and using Air Force 
+(AF) training products for cyber support enlisted specialty qualification training. It applies to all 
+Regular Air Force, Air National Guard, Air Force Reserve, and civilian cyber support personnel 
+in a training status or filling a crew position that requires specific certification, training or 
+qualification. Refer recommended changes and questions about this publication to the Office of 
+Primary Responsibility (OPR) listed above using the Air Force Form 847, Recommendation for 
+Change of Publication; route AF Forms 847 from the field through the appropriate functional chain 
+of command. The authorities to waive unit level requirements in this publication are identified 
+with a Tier (“T-0, T-1, T-2, T-3”) number following the compliance statement. See AFI 33-360, 
+Publications and Forms Management, Table 1.1 for a description of the authorities associated with 
+the Tier numbers. Submit requests for waivers through the chain of command to the appropriate 
+Tier waiver approval authority, or alternatively, to the requestor’s commander for non-tiered 
+compliance items. This publication may be supplemented at any level, but all supplements must 
+be routed to the OPR of this publication for coordination prior to certification and approval. Ensure 
+all records created as a result of processes prescribed in this publication are maintained in 
+accordance with Air Force Manual (AFMAN) 33-363, Management of Records, and disposed of 
+in accordance with the Air Force Records Disposition Schedule located in the Air Force Records 
+Information Management System. The use of the name or mark of any specific manufacturer, 
+2 
+AFMAN 17-204  26 FEBRUARY 2020 
+commercial product, commodity, or service in this publication does not imply endorsement by the 
+AF. 
+SUMMARY OF CHANGES 
+This document has been substantially revised from an AFI to an AFMAN and must be completely 
+reviewed.  Major changes include revisions to terminology and unit nomenclature, chapter 
+reorganization, timeline additions to Table 2.1, addition of several attachments, and updates to 
+Table A3.1 
+ 
+Chapter 1—ROLES AND RESPONSIBILITIES 
+ 
+4 
+1.1. 
+General.  ...................................................................................................................  
+4 
+1.2. 
+Deputy Chief of Staff of the Air Force, Intelligence, Surveillance, 
+Reconnaissance, and Cyber Effects Operations (AF/A2/6) will:  ............................  
+4 
+1.3. 
+Secretary of the Air Force, Office of Information and Deputy Chief Information 
+Officer (SAF/CN) will:  ...........................................................................................  
+4 
+1.4. 
+Air Force Career Field Manager (AFCFM).  ...........................................................  
+4 
+1.5. 
+Major Commands (MAJCOM).  ..............................................................................  
+5 
+1.6. 
+The 81st Training Support Squadron Qualification Flight (81st TRSS/TSQ) will: .  
+6 
+1.7. 
+High Performance Team (HPT) will: ......................................................................  
+7 
+1.8. 
+Learning Program Manager will: .............................................................................  
+8 
+Chapter 2—TRAINING PRODUCTS AND RESOURCES 
+ 
+9 
+2.1. 
+Introduction.  ............................................................................................................  
+9 
+2.2. 
+Types of Training Products.  ....................................................................................  
+9 
+2.3. 
+Requesting New Training Products. ........................................................................  
+9 
+2.4. 
+Training Resources.  ................................................................................................  
+10 
+2.5. 
+Developing Training.  ..............................................................................................  
+10 
+2.6. 
+Managing Training Products.  ..................................................................................  
+11 
+Table 2.1. 
+Training Product Development Timelines (in calendar days). ................................  
+12 
+2.7. 
+Funding Training.  ...................................................................................................  
+12 
+Attachment 1—GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+13 
+Attachment 2—PRIORITIES FOR DEVELOPING AIR FORCE CYBER TRAINING 
+PRODUCTS 
+ 
+16 
+AFMAN 17-204  26 FEBRUARY 2020 
+3 
+Attachment 3—STEPS IN PUBLISHING AFJQS/AFQTPs AND REQUESTING FUNDS 
+FOR CYBER SUPPORT SCHOOLHOUSES 
+ 
+17 
+Attachment 4—SPECIALIZED TRAINING PACKAGE (STP) ENROLLMENT 
+ 
+19 
+Attachment 5—REQUESTING TRAINING PRODUCTS 
+ 
+20 
+Attachment 6—OPR REQUEST LETTER 
+ 
+21 
+ 
+ 
+ 
+4 
+AFMAN 17-204  26 FEBRUARY 2020 
+Chapter 1 
+ROLES AND RESPONSIBILITIES 
+1.1.  General.  The following paragraphs provide a summary of the objectives, organizational and 
+functional relationships, and responsibilities that form the foundation for the cyber support training 
+environment. Specific guidance, when required, is covered in the functional area of this instruction. 
+1.2.  Deputy Chief of Staff of the Air Force, Intelligence, Surveillance, Reconnaissance, and 
+Cyber Effects Operations (AF/A2/6) will: 
+1.2.1.  Formulate strategy and establish policy and guidance on the development of all officers 
+and enlisted personnel in cyber operations and support career fields. (T-1). 
+1.3.  Secretary of the Air Force, Office of Information and Deputy Chief Information Officer 
+(SAF/CN) will: 
+1.3.1.  Serves as the Air Force OPR on formulating strategy and establishing policy and 
+guidance on the development of all civilians assigned to the Communications and Information 
+Career Fields. (T-1). 
+1.4.  Air Force Career Field Manager (AFCFM).  AFCFMs: 
+1.4.1.  Provide overall force development guidance and management operations to the 
+MAJCOMs. 
+1.4.2.  Advocate for funding contract administration and system administration responsibility 
+for self-paced, or Internet-based training and sustainment program requirements. 
+1.4.3.  Maintain and publish the master/standard task group indicators list for communications. 
+1.4.4.  Coordinate on and approve Air Education and Training Command (AETC) developed 
+training products. 
+1.4.5.  Manage qualification training processes and act as the final authority for approving and 
+prioritizing Air Force cyber training products. 
+1.4.6.  Approve low flow course continuation. 
+1.4.7.  Consolidate MAJCOM inputs for improvement of the Training Business Area (TBA) 
+system to prioritize upgrades to that system, approve/publish core training products and official 
+TBA training task documents and be responsible for the overall management of TBA for the 
+cyber support community. 
+1.4.8.  Sponsor Training Advisory Groups will: 
+1.4.8.1.  Coordinate with Headquarters AF/A4 – Logistics, Engineering & Force 
+Protection, A4L – Directorate of Logistics: AF/A4L - Force Force Development–to 
+establish and maintain a TBA configuration control process. Coordinate with MAJCOM 
+Functional Managers and other AFCFMs on designing, implementing and budgeting for 
+TBA capability changes. (T-1). 
+ 
+ 
+AFMAN 17-204  26 FEBRUARY 2020 
+5 
+1.4.8.2.  Assign a project priority and MAJCOM OPR for new or revised product taskings. 
+As a rule, the MAJCOM that has the largest number of systems or most equity from a 
+mission criticality viewpoint should assume MAJCOM OPR responsibilities. See 
+Attachment 2 “Priorities for Developing Air Force Cyber Training Products”. (T-1). 
+1.4.8.3.  Forward written taskings for all new Air Force Job Qualification Standards 
+(AFJQS)/Air Force Qualification Training Packages (AFQTP) to 81st Training Support 
+Squadron Qualification Flight (81st TRSS/TSQ). See Attachment 3, Table A3.1, “Steps 
+in Publishing Air Force Cyber Support Training Products”. (T-1). 
+1.4.8.4.  Review the monthly report posted on the 81st TRSS/TSQ SharePoint at 
+https://cs2.eis.af.mil/sites/10445/AFKN_Docs/CFETP/3DXXX%20-
+%20Cyberspace%20Support/3DXXX_CFETP_Section_C_Support_Materials.pdf 
+to reference the status of all products published, in work or awaiting work, start date and 
+expected completion date. (T-1). 
+1.4.8.5.  Include discussions, as required, to prioritize/reprioritize training product 
+development in order to meet changing training demands or suggest modifications in 81st 
+TRSS/TSQ  processes. 
+1.5.  Major Commands (MAJCOM).  MAJCOMs implement the following guidance for their 
+cyber support communities. Regardless of size and type of organizational structure or activity, the 
+functions and duties outlined in this instruction are the minimum mandatory requirements 
+necessary to ensure effective, quality training of cyber support Airmen. MAJCOMs will: 
+1.5.1.  Appoint a member to each Training Advisory Group. (T-3). 
+1.5.2.  Identify the need for standardized training products. 
+1.5.3.  Respond to OPR Request Letter from 81st TRSS/TSQ when requested (see Attachment 
+6). (T-3). 
+1.5.4.  Forward product requests with a recommended priority to 81st TRSS/TSQ  for 
+coordination, prioritization and approval of the AFCFM. 
+1.5.5.  Monitor the training program and consolidate training/certification data from their 
+subordinate units as needed. (T-3). 
+1.5.6.  Include 81st TRSS/TSQ as a training advisor to develop AFJQS/AFQTP in lieu of 
+contractor-developed training when acting as the Lead Command . (T-3). 
+1.5.7.  Identify unique training requirements, and before internally developing training 
+products, coordinate with 81st TRSS/TSQ for assistance with Instructional Systems Design 
+process tips, lessons learned, format layout, and product development. (T-3). 
+1.5.8.  Support the development, revision and validation by 81st TRSS/TSQ of Air Force Job 
+Qualification Standard (AFJQS)/AFQTPs by: 
+1.5.8.1.  Tasking three organizations to provide Subject matter experts (SME) who have a 
+thorough working knowledge of the subject system/process to support the completion of 
+training product validations and revisions. (T-3). 
+ 
+ 
+6 
+AFMAN 17-204  26 FEBRUARY 2020 
+1.5.8.2.  Providing 81st TRSS/TSQ  with a final copy of all new or revised technical orders 
+prior to general publication and distribution to support the compilation of technical 
+references in AFJQS/AFQTPs received from subordinate units. (See Attachment 3). (T-
+2). 
+1.5.8.3.  Advising 81st TRSS/TSQ of equipment modifications, availability of technical 
+data and changes to TOs, or other documentation received from subordinate units that may 
+affect the production of training products. (T-2). 
+1.5.8.4.  Supporting the acquisition of multimedia products by local graphic support 
+personnel to standards established by 81st TRSS/TSQ. 
+1.5.8.5.  Evaluating the quality and effectiveness of training products when assigned as 
+project OPR by: 
+1.5.8.5.1.  Supporting product development. (T-3). 
+1.5.8.5.2.  Performing task analyses. (T-3). 
+1.5.8.5.3.  Conducting product validations. (T-3). 
+1.5.8.6.  Nominating high performance team (HPT) SMEs for each Air Force Specialty 
+Code (AFSC) to organize, capture and create viable learning resources. (T-2). 
+1.6.  The 81st Training Support Squadron Qualification Flight (81st TRSS/TSQ) will: 
+1.6.1.  Develop Air Force cyber support training products in accordance with priorities set forth 
+by the AFCFM. (T-2). 
+1.6.2.  Assist learning program managers & high performance teams (HPT)s as required to 
+develop and influence cyber training products. Included among them are AETC formal and 
+supplemental courses, 5-, 7- and 9-level upgrade courses. (T-2). 
+1.6.3.  Finalize and post electronic TBA training products upon new or revised publication 
+approval (e.g., Career Field Education and Training Plan (CFETP) or AFJQS). (T-1). 
+1.6.4.  Assist with identifying and solidifying training interface solutions (e.g., TBA, AF 
+Training Record, AF E-Learning, Advanced Distributed Learning Service, Military Personnel 
+Data System, etc.). 
+1.6.5.  Ensure the accuracy of new cyber support training products, or products that may have 
+undergone major revision. (T-2). If possible, validation should take place in an actual training 
+environment provided by the product OPR using a sample representative of the target 
+population. If possible, the target audience should include the Air Reserve Component; as draft 
+changes should be coordinated with the Air Reserve Component prior to final publication. 
+1.6.6.  As needed, solicit cyber support community field unit assistance for product validation 
+and development. Refer to Attachment 5 for information request for project memorandum 
+format. 
+1.6.7.  Facilitate the temporary duty travel and attendance of the flight chief, director and their 
+designee to all Training Advisory Groups and U&TWs for all AFSCs assigned to 81st 
+TRSS/TSQ  to consolidate, revise and update CFETPs and to receive and discuss training 
+taskings. (T-2). 
+AFMAN 17-204  26 FEBRUARY 2020 
+7 
+1.6.8.  Publish all new or revised products on the 81st TRSS/TSQ website. (T-2). 
+1.6.9.  Publish 
+a 
+monthly 
+report 
+on 
+the 
+81st 
+TRSS/TSQ 
+SharePoint 
+at 
+https://cs2.eis.af.mil/sites/10445/AFKN_Docs/CFETP/3DXXX%20-
+%20Cyberspace%20Support/3DXXX_CFETP_Section_C_Support_Materials.pdf that 
+displays the status of projects in work, awaiting work or published. (T-2). 
+1.6.10.  Project fiscal requirements for operational support of the analysis, development, 
+multimedia acquisition, authoring, publication and revision of products tasked to 81st 
+TRSS/TSQ 
+1.6.11.  Submit updated training product report for Training Advisory Groups member review 
+30 days prior to each Training Advisory Group meeting. (T-3). 
+1.6.12.  Establish and maintain a customer service and help desk function to facilitate cyber 
+support continuation training products used in the field. (T-3). 
+1.6.13.  Establish and maintain internal process training for assigned curriculum developers. 
+(T-3). 
+1.6.14.  Establish and maintain an internal cyber support continuation training product 
+development process to develop and deliver standardized cyber support training products to 
+field units. (T-3). 
+1.6.15.  Schedule and fund the continuing proficiency training for all 81st TRSS/TSQ  
+personnel through formal schools and internal training programs to insure the timely and 
+reliable delivery of standardized cyber support continuation training products to field units. 
+(T-3). 
+1.6.16.  Participate in Department of Defense /Air Force Instructional System Design 
+conferences and working groups as required. (T-2). 
+1.6.17.  Evaluate training materials from other government, Department of Defense, or 
+commercial sources to determine their usefulness in developing cyber support training 
+products. 
+1.6.18.  Coordinate with AETC technical training centers to obtain formal course materials for 
+the development or revision of Air Force cyber support training products. 
+1.6.19.  Schedule and fund the continuing proficiency training for all 81st TRSS/TSQ personnel 
+through formal schools, internal training programs, and attendance to trade and training 
+development conferences to insure the timely and reliable delivery of standardized 
+continuation training products to field units. (T-3). 
+1.7.  High Performance Team (HPT) will: 
+1.7.1.  Organize, capture and create viable learning resources including traditional text 
+material, distance learning courses, instructional videos, and simulation programs. (T-3). 
+1.7.2.  Assist the Learning Program Manager and 81st TRSS/TSQ in developing Specialty 
+Training Standards for their respective AFSC. (T-3). 
+1.7.3.  Assist the Specialty Training Requirements Team to consolidate, revise and update 
+CFETPs and to receive and discuss training taskings. (T-3). 
+8 
+AFMAN 17-204  26 FEBRUARY 2020 
+1.7.4.  Assist the U&TW to help determine career ladder training requirements. 
+1.8.  Learning Program Manager will: 
+1.8.1.  Develop their assigned AFSC learning programs (LPs)/career development courses 
+(CDCs) from references identified in the CFETP correlating with mandatory knowledge items 
+listed 
+in 
+the 
+Enlisted/Officer 
+Classification 
+Directory. 
+https://www.afpc.af.mil/Portals/70/documents/07_CLASSIFICATION/20191031%20A
+FECD.pdf?ver=2019-10-02-093958-540. (T-3). 
+1.8.2.  Ensure that LPs/CDCs contain information on basic principles, techniques, and 
+procedures common to their respective AFSC and do not contain information on specific 
+equipment or tasks unless best illustrating a procedure or technique having utility to the entire 
+AFSC. (T-3). 
+1.8.3.  Work with AFCFMs to drive cyber workforce training. 
+1.8.4.  Serve as the chairperson for their respective AFSC’s HPT. (T-3). 
+1.8.5.  Attend the Specialty Training Requirements Team to consolidate, revise and update 
+CFETPs and to receive and discuss training taskings. (T-3). 
+1.8.6.  Attend the Utilization and Training Workshop (U&TW) to help determine career ladder 
+training requirements. (T-3). 
+1.8.7.  Utilize data gathered from Specialty Training Requirements Team and UT&Ws to 
+modernize the CFETP and associated AFJQS/AFQTPs. 
+ 
+ 
+AFMAN 17-204  26 FEBRUARY 2020 
+9 
+Chapter 2 
+TRAINING PRODUCTS AND RESOURCES 
+2.1.  Introduction.  In order to field and train qualified professionals, the Air Force provides 
+various training tools and resources to the field. Included among them are AETC formal and 
+supplemental courses such as the 5-, 7- and 9-level AFSC upgrade standardization within the cyber 
+support community using the CFETP, AFJQSs, MAJCOM JQSs and formal training. 
+2.2.  Types of Training Products.  Supervisors use qualification training products to plan and 
+conduct standardized qualification training programs. These training products address valid 
+requirements and ensure logical, organized, and efficient training progression. 
+2.2.1.  81st TRSS/TSQ publishes and revises AFJQS and AFQTP products for the cyber 
+support community. This function is accomplished using any combination of full-motion 
+video, text, audio and or digitized pictures selected in accordance with Instructional System 
+Design principles.  This enables airmen to occupy duty positions or maintain systems or 
+equipment to an AF-established standard. Handbooks may not be used for training purposes 
+and are intended for reference only. 
+2.2.2.  81st TRSS/TSQ develops the following training: 
+2.2.2.1.  AF Job Qualification Standards (AFJQS). The AFJQS consists of a cover letter 
+and an Air Force Form 797, Job Qualification Standard Continuation/Command (JQS). It 
+may also contain module lessons, knowledge and performance evaluations. An Air Force 
+Form 797 lists tasks requiring training, qualification and certification for a particular job 
+type or duty position. 
+2.2.2.2.  AF Qualification Training Packages (AFQTP). The AFQTP is an instructional 
+training package designed for AF units to qualify, or aid in qualification, on a duty position, 
+program, or equipment item. It may be printed, computer-based, or in other audiovisual 
+media. The AFQTP consists of a cover letter and modules/lessons. The information 
+contained within the modules is used as reference material, therefore, it doesn’t include an 
+AF Form 797 or evaluation tools. The AFQTP handbook is utilized as a desktop reference. 
+2.2.2.3.  Interactive Courseware. This package type may contain elements of both AFJQSs 
+and AFQTPs providing informational material/interactive exercises or strictly interactive 
+training. The determination for interactivity can be pre-identified when given the initial 
+tasking or be determined while working on a “new” project or “major” revision. 
+2.2.2.4.  The AF Training products for cyber support can be found on the 81st TRSS/TSQ 
+website. 
+2.3.  Requesting New Training Products. 
+2.3.1.  How to Request Qualification/Continuation Training Product development. Training 
+products are tasked, assigned, prioritized or reprioritized for 81st TRSS/TSQ  by the AFCFM. 
+Any member of a cyber support AFSC may suggest the development, of training products in 
+writing to 81st TRSS/TSQ at qflight.customer.service@us.af.mil. Refer to Attachment 5, 
+Requesting Training Products for requirements. Suggestions for development of  
+ 
+ 
+10 
+AFMAN 17-204  26 FEBRUARY 2020 
+qualification/continuation training products are forwarded for coordination and approval by 
+the members MAJCOM Functional Manager and applicable AFCFM. If approved for 
+development, the suggested training product will be prioritized by the AFCFM and assigned 
+to 81st TRSS/TSQ  for development. (T-1). 
+2.3.2.  How 
+qualification/continuation 
+training 
+products 
+are 
+prioritized: 
+Qualification/continuation products are prioritized within each AFSC. Package priorities are 
+published on the Chiefs’ Report by their priority number. Prioritization/reprioritization may be 
+suggested at any time. However, the appropriate AFCFM is the final authority for the 
+prioritization of qualification/continuation training products. Priority categories are located in 
+Attachment 2. 
+2.4.  Training Resources.   Computer based training (CBT), Field Training Detachments, Field 
+Training Units, formal courses and vendor training are available. 
+2.4.1.  AF E-Learning. CBTs will be used as a first line training tool in order to meet specific, 
+position related, training requirements as identified in applicable CFETPs, AFJQSs, and AF 
+Form 797s. These CBTs are available on the AF E-Learning system. The AF E-Learning 
+system is a commercial, enterprise-wide system that provides interactive, self-paced, web-
+based training and reference material directly to users’ desktops. This system allows Air Force 
+personnel to obtain up-to-date training on the technology they need to carry out their missions. 
+It supports the Air Force communications and information (cyber support) functional 
+community in meeting information technology (IT) training requirements. The program is 
+managed by Air Combat Command, through the AF E-Learning Program Management Office 
+(ACC CYSS/CYI). USAF cyber support developed CBTs, commercially developed IT CBTs 
+and access to web-based unabridged commercial IT books can be found on the AF E-Learning 
+site which is accessed via AF Portal website AF E-Learning link. (T-1). 
+2.4.2.  Specialized Training Packages (STPs) are distance learning self-paced training courses 
+prepared by AETC, approved by National Security Agency, and administered by a qualified 
+STP trainer. STPs consist of lesson plans, test materials, instructions for the trainer, instructions 
+for the students, policy, doctrine, and procedures necessary to conduct training. Refer to 
+Attachment 4 for STP enrollment procedures. 
+2.4.3.  Field Training Detachments. Field training provides hands-on maintenance training at 
+operational locations. Training can include: specific systems and associated support equipment 
+and systems; aircraft/systems; engines; aerospace ground equipment; theater deployable 
+communications equipment; certification training; partial courses; and training sessions. Field 
+training detachments or mobile training teams are responsible for conducting field training. 
+(T-1). 
+2.4.4.  Field training units are locally developed training organizations. These units are 
+developed to address training needs at a local level. An example would be the Savannah Field 
+Training Units located in Savannah, Georgia. 
+2.5.  Developing Training.  In order to provide the most current training to Airmen, it is 
+imperative that any required task have a training source. Aside from using locally developed 
+trainers, a MAJCOM can submit information for recommending training that affects all Airmen. 
+ 
+ 
+AFMAN 17-204  26 FEBRUARY 2020 
+11 
+2.5.1.  When a need for CBT is identified it is important to ensure the resource is currently 
+available and the correct channels are notified of the need. 
+2.5.2.  Before working to develop a new CBT, contact ACC CYSS/CYI to check the existing 
+AF E-Learning CBT catalog for CBTs which may exist that meet the training requirement. 
+2.6.  Managing Training Products.  
+2.6.1.  How Qualification/Continuation Training Products are identified. Products published 
+on 81st TRSS/TSQ’s website use an alphanumeric designation assigned by the support element 
+to all AFJQSs/AFQTPs. A project number consists of either 10 or 11 characters. For most 
+AFJQSs/AFQTPs, the first five characters identify the Air Force Specialty Code (AFSC), the 
+sixth character is a dash, and the last four or five characters (also called the alphanumeric 
+extension) are unique for each project. The AFJQSs/AFQTPs applicable to more than one 
+AFSC have a different numbering system. The first five characters show an overall function to 
+which the project applies. For example, projects applicable to more than one 3D maintenance 
+function have 3DXXX as the first five characters followed by a dash and the project 
+alphanumeric extension. Where AFJQSs/AFQTPs concerning general training (or training 
+management) for all AFSCs, the first five characters used are XXXXX and the dash and project 
+alphanumeric extension. 
+2.6.2.  How 
+Qualification/Continuation 
+Training 
+Products 
+are 
+developed/revised. 
+Development of an approved new training product or the revision of a previously published 
+product begins when that project is moved from the awaiting work section to the in work 
+section of the bimonthly report. Then the assigned curriculum development team begins work. 
+2.6.3.  Published products are reviewed and revised every two years on the anniversary of their 
+publication to determine their necessity, applicability, currency, and accuracy. Special 
+evaluations may occur at any time upon request to correct errors or inconsistencies or when a 
+significant event or action occurs that adversely affects a published training package (e.g., 
+safety, security issues or major Technical Order/AFI changes). 
+2.6.4.  How 
+Qualification/Continuation 
+Training 
+Products 
+are 
+validated. 
+All 
+qualification/continuation training products are validated in an actual training environment 
+provided by the product OPR using a sample representative of the target population. If possible 
+the target audience should include the Air Reserve Component. 
+2.6.5.  Qualification/Continuation Training Product Development Timelines. Table 2.1 
+provides approximate baseline times, expressed in calendar days, for development/revision of 
+qualification/continuation training products. Production variables such as: task analysis, media 
+development and module development will extend the development estimate. Delays due to 
+additional duties, technical order or developmental information delay, manning shortfalls, unit 
+type code tasking or higher priority projects will affect product delivery. 
+ 
+ 
+12 
+AFMAN 17-204  26 FEBRUARY 2020 
+Table 2.1.  Training Product Development Timelines (in calendar days). 
+Project / Package 
+Type 
+797 Only 
+AFJQS 
+AFJQS w/ 
+Modules 
+AFQTP 
+Interactive 
+Courseware 
+New 
+97 
+126 
+156 
+136 
+182 
+Major Revision 
+75 
+104 
+134 
+120 
+159 
+Minor Revision 
+33 
+33 
+43 
+42 
+52 
+2.6.6.  Qualification/Continuation Training Product Revision. Qualification/continuation 
+product revision may be classified as either major or minor depending on the level of work 
+required. 
+2.6.6.1.  Major Revisions. A major revision is accomplished when the package evaluation 
+worksheet identifies the following conditions: 
+2.6.6.1.1.  A training reference change that significantly alters subject matter. 
+2.6.6.1.2.  A training reference change that significantly alters AF Form 797. 
+2.6.6.1.3.  Safety issues. 
+2.6.6.2.  Minor Revisions. Minor revisions are accomplished to correct typographical 
+errors, update templates, format changes, or minor task updates. 
+2.7.  Funding Training.  Every schoolhouse has requirements that are critical to mission 
+accomplishment. To aid units in obtaining funding to meet their training needs, the 81st  Training 
+Group and 364th Training Squadron will work with the AFCFM to acquire funds needed for 
+training. 
+ 
+WILLIAM E. MARION II, SES, DAF 
+Deputy Chief Information Officer 
+AFMAN 17-204  26 FEBRUARY 2020 
+13 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+AFI 33-360, Publications and Forms Management, 1 December 2015 
+AFMAN 33-363, Management of Records, 1 March 2008 
+AFI 36-2651, Air Force Training Program, 3 January 2019 
+AFPD 17-2, Cyberspace Operations, 12 April 2016 
+Prescribed Forms 
+None 
+Adopted Forms 
+AF Form 797, Job Qualification Standard Continuation/Command JQS 
+AF Form 847, Recommendation for Change of Publication 
+AF Form 1256, Certificate of Training (LRA) 
+DD Form 1435, COMSEC Maintenance Training and Experience Record 
+Abbreviations and Acronyms 
+AETC—Air Education and Training Command 
+AFCFM—Air Force Career Field Manager 
+AF—Air Force 
+AFI—Air Force Instruction 
+AFCFM—Air Force Career Field Manager 
+AFMAN—Air Force Manual 
+AFJQS—Air Force Qualification Training Package 
+AFQTP—Air Force Qualification Training Package 
+AFPD—Air Force Policy Directive 
+AFSC—Air Force Specialty Code 
+CBT—Computer-Based Training 
+CDC—Career Development Course 
+CFETP—Career Field Education and Training Plan 
+COMSEC—Communications Security 
+DD—Department of Defense 
+HPT—High Performance Team 
+14 
+AFMAN 17-204  26 FEBRUARY 2020 
+IT—Information Technology 
+JQS—Job Qualification Standard 
+LP—Learning Program 
+MAJCOM—Major Command 
+OPR—Office of Primary Responsibility 
+SME—Subject Matter Expert 
+STP—Specialized Training Package 
+TBA—Training Business Area 
+TRSS—Training Support Squadron 
+U&TW—Utilization and Training Workshop 
+Terms 
+High Performance Team (HPT).—Each AFSC’s HPT consist of SMEs that are nominated by 
+MAJCOM Functional Managers. They are responsible for innovating force development 
+requirements for Total Force Cyber Airmen. The teams are charged with organizing, capturing, 
+and creating viable learning resources including traditional text material, distance learning courses, 
+instructional videos, and simulation programs. More information can be found on the HPT site 
+found at: https://cs2.eis.af.mil/sites/12925/hpt/sitepages/home.aspx. 
+Learning Program (LP—Learning Programs/CDCs are published to provide the information 
+necessary to satisfy the career knowledge component of on the job training. These 
+programs/courses are developed from references identified in the CFETP correlating with 
+mandatory knowledge items listed in Enlisted/Officer Classification Directory. Learning 
+Programs/CDCs must contain information on basic principles, techniques, and procedures 
+common to an AFSC. They do not contain information on specific equipment or tasks unless best 
+illustrating a procedure or technique having utility to the entire AFSC. If available, supervisors 
+will use Learning Programs/CDCs to satisfy career knowledge requirements for upgrade training. 
+When Learning Programs/CDCs are not available trainees study the applicable technical 
+references identified by the supervisor and CFETP. 
+Learning Program Manager.—Formerly known as CDC Writers. Learning Program Managers 
+are responsible for the development of their assigned AFSC. They not only write and update 
+Learning Programs /CDCs, but also work directly with the AFCFMs on several lines of effort to 
+drive cyber workforce training into the next era. They serve as the Chairperson for their AFSC's 
+high performance team (HPT) and use the data gathered during Specialty Training Requirements 
+Team (STRT)s and Utilization and Training Workshop (UT&W) to modernize the CFETP and 
+associated AFJQS/AFQTPs. 
+Specialty Training Requirements Team (STRT).—A meeting chaired by the AFCFM with 
+MAJCOM Functional Managers, AETC Training Managers, SME and HQ AETC Occupational 
+Analysis Division in attendance. Typically held three months prior to a Utilization and Training 
+Workshop (U&TW) to finalize any CFETP changes or enlisted classification directory 
+descriptions. 
+AFMAN 17-204  26 FEBRUARY 2020 
+15 
+Specialty Training Standard.—An Air Force publication that describes an Air Force specialty in 
+terms of tasks and knowledge that an Airman in that specialty may be expected to perform or to 
+know on the job. Also identifies the training provided to achieve a 3-, 5-, 7-, or 9- skill level within 
+an enlisted AFS. It further serves as a contract between AETC and the functional user to show 
+which of the overall training requirements for an Air Force Specialty Code (AFSC) are taught in 
+formal schools and correspondence courses. 
+Utilization and Training Workshop (U&TW).—A forum of the AFCFM, MAJCOM Functional 
+Managers, SMEs, and AETC training personnel that determines career ladder training 
+requirements. 
+ 
+16 
+AFMAN 17-204  26 FEBRUARY 2020 
+Attachment 2 
+PRIORITIES FOR DEVELOPING AIR FORCE CYBER TRAINING PRODUCTS 
+A2.1.  Use one of the following priority codes when requesting training products for cyber 
+support systems, equipment or functions: 
+A2.1.1.  Priority 1 - Mission Essential.   Use if you cannot sustain operations without the 
+requested training product. 
+A2.1.2.  Priority 2 - Critical Mission Impairment.   Use if system, equipment, functions or 
+operation will be severely restricted without the requested product. 
+A2.1.3.  Priority 3 - Deficiencies to Mission Support.   Use if failure to support your product 
+request will result in damage to your mission. 
+A2.1.4.  Priority 4 - Personal Competence Reduced.   Use if lack of this training will result 
+in personnel with less than satisfactory skills or insufficient knowledge to accomplish mission 
+goals. 
+A2.2.  Use one of the following priority codes:  When checking training products for cyber 
+support systems, equipment or functions: 
+A2.2.1.  Priority PUB - Published.   Published packages remain on the Chiefs’ Report until 
+the next scheduled meeting of a TAG. Newly published products are also announced by e-mail 
+to all 81st TRSS/TSQ customers. 
+A2.2.2.  Priority XXX – Unprioritized.   Work on unprioritized packages may be superseded 
+by any prioritized package awaiting work. 
+ 
+Attachment 3 
+STEPS IN PUBLISHING AFJQS/AFQTPS AND REQUESTING FUNDS FOR CYBER SUPPORT SCHOOLHOUSES 
+Table A3.1.  Steps in Publishing AFJQS/AFQTPs. 
+ 
+A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+Step 
+Required 
+Action 
+AFCFM 
+TAG 
+MAJCOM 
+Functional 
+Managers 
+81st 
+TRSS/TSQ 
+(Q-Flight) 
+OPR 
+(Assigned 
+by AFCFM) 
+ 
+ 
+HPTs/Lear
+ning 
+Program 
+Managers/
+SMEs 
+1 
+Identify 
+requirements 
+for new or 
+revised AFJQS/ 
+AFQTP 
+X 
+X 
+X 
+X 
+ 
+ 
+ 
+ 
+X 
+2 
+Establish 
+development 
+priority 
+ 
+X 
+X 
+ 
+ 
+ 
+ 
+3 
+Provide timely 
+answers to Q-
+Flight requests 
+for 
+developmental 
+information 
+(See Note) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+X 
+4 
+Develop 
+tentative 
+AFJQS/AFQTP 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+ 
+18 
+AFMAN 17-204  26 FEBRUARY 2020 
+5 
+Review and 
+coordinate 
+tentative 
+AFJQS/AFQTP 
+ 
+ 
+X 
+X 
+ 
+ 
+ 
+X 
+6 
+Prepare final 
+AFJQS/ 
+AFQTP 
+ 
+ 
+ 
+X 
+ 
+ 
+7 
+Approve final 
+AFJQS/ 
+AFQTP and if 
+applicable, sign 
+AF673 
+X 
+ 
+ 
+ 
+ 
+ 
+8 
+Enter tasks and 
+upload final 
+Portal 
+Document 
+Format (PDF) 
+to U&TW 
+ 
+ 
+ 
+X 
+ 
+ 
+9 
+Publish in TBA 
+and on Q-Flight 
+SharePoint 
+X 
+ 
+ 
+X 
+ 
+ 
+ 
+ 
+10 
+Review 
+AFJQSs/AFQT
+Ps biennially 
+ 
+ 
+ 
+X 
+ 
+ 
+Note: Failure to respond in a timely manner to requests for information regarding the development of new 
+products or the review/revision of published products will cause a work stoppage. 
+ 
+ 
+ 
+Attachment 4 
+SPECIALIZED TRAINING PACKAGE (STP) ENROLLMENT 
+A4.1.  AETC announces STPs as they become available through:  The on-line Education and 
+Training 
+Course 
+Announcements 
+webpage 
+at 
+https://app10-
+eis.aetc.af.mil/etca/SitePages/Home.aspx. 
+A4.2.  STP courses:  Can be requested via the STP email box at: 338trs.stp@us.af.mil. 
+A4.3.  For each STP request:  The commander or commander’s representative (for example, 
+Unit Training Manager or Maintenance Training Manager) provides an official memorandum with 
+the following information: 
+A4.3.1.  Course Number requested e.g., E6AZS3D152 01MA. See https://app10-
+eis.aetc.af.mil/etca/SitePages/Home.aspx for course list. 
+A4.3.2.  Course title requested,e.g. Communications Security COMSEC Awareness Training 
+A4.3.3.  Availability of a qualified STP trainer. 
+A4.3.4.  Availability of equipment, maintenance key material, and technical manuals. 
+A4.3.5.  Certification that all trainees meet the AFSC prerequisites. 
+A4.3.6.  Point of contact with voice and FAX phone numbers. 
+A4.3.7.  Mailing address for the unit and the trainer. 
+A4.4.  Each STP includes:  Training objectives on COMSEC doctrine, policy, and procedures 
+and includes information on security threat awareness of protective technology. 
+A4.5.  Each STP includes:  Specific controls and administrative procedures. 
+A4.5.1.  Record STP training completion on Department of Defense (DD) Form 1435, 
+COMSEC Maintenance Training and Experience Record, or in Automated Training 
+Management System after verification of successful completion (receipt of Air Force Form 
+1256, Certificate of Training). 
+A4.6.  Current STP course:  Prerequisite information can be found on the Education and 
+Training Course Announcements site at https://app10-eis.aetc.af.mil/etca/SitePages/Home.aspx 
+or 
+CYSS/CYI 
+at 
+https://cs2.eis.af.mil/sites/11439/CYI/CYSS%20CYI%20Mission%20Readiness%20Traini
+ng/SitePages/Home.aspx. The 81st TRSS/TSQ  lists current AFJQS and AFQTP products on its 
+website under the respective AFSC at https://cs2.eis.af.mil/sites/10445/default.aspx. Cyber 
+support STPs are limited to those who have an operational need to be certified. AFSC prerequisites 
+to order STPs are 3DXXX or civilian equivalent. Other AFSCs will be considered on a case by 
+case basis. 
+A4.7.  Contractor personnel:  Employees of companies or corporations under contract to the Air 
+Force, other armed forces, or other government agencies who require Air Force training, can 
+submit requests through the AF Unit Training Manager. AF-provided training requirements may 
+be incorporated in specified contracts. 
+ 
+20 
+AFMAN 17-204  26 FEBRUARY 2020 
+Attachment 5 
+REQUESTING TRAINING PRODUCTS 
+Figure A5.1.  Requesting Training Products. 
+ 
+ 
+(Edit information in brackets []s. This letter is sent from the requester to 81st TRSS/TSQ) 
+ 
+TO: qflight.customer.service@us.af.mil  
+ 
+SUBJECT: Training Product Development Request for [System/Equipment/Function] 
+ 
+1. Request a training product be developed for subject [system/equipment/function]. The 
+following information supports this request: 
+a. MAJCOM OPR and Item Manager. [Provide names, addresses, phone numbers, and e-mail 
+addresses]. 
+b. This [system/equipment/function] supports the [name] mission. 
+c. SME and Item Managers. [Provide names, addresses, phone numbers, and e-mail addresses 
+of at least three SMEs.] 
+d. There are [number of] [systems/equipment] in the field at [number of] locations. 
+e. Number and AFSC of personnel who operate, maintain, and install this system, equipment, 
+or function. 
+f. The expected life cycle of this [system/equipment] is [years][unknown]. 
+g. List any known or pending modifications or replacements affecting this system, equipment, 
+or function. 
+h. State the operation/maintenance concept of this [system/equipment]. 
+i. Identify any formal training available, either through commercial or formal Department of 
+Defense schools. [List schools and contacts, if available.] 
+j. The technical data for this [system/equipment/function] is [available/preliminary/not 
+available]. 
+k. Any specific areas or information that you want the developer to address during analysis phase 
+development.  
+l. Any electronic or printed material that the developer may use to enrich training. 
+m. This [system/equipment/function] affects the following MAJCOMs: [List applicable 
+commands]. 
+l. Request priority (1) (2) (3) (4) (see Attachment 2) for the following reasons: [List reasons] 
+2. Include any specific areas or information that you want the developer to address during the 
+analysis phase of development. Provide the developer with any pertinent feedback received 
+from divisions or field units. Be as specific as possible when defining the scope of the project. 
+ 
+ 
+AFMAN 17-204  26 FEBRUARY 2020 
+21 
+Attachment 6 
+OPR REQUEST LETTER 
+Figure A6.1.  OPR Request Letter. 
+ 
+ 
+(Edit information in brackets []s. This letter is e-mailed from the OPR to MAJCOM.) 
+[Insert Current Date]  
+ 
+MEMORANDUM FOR [MAJCOM OPR]  
+ 
+ATTENTION: [MFM NAME] 
+ 
+FROM: 81st TRSS/TSQ 
+601 D Street  
+Keesler AFB MS 39534-2229  
+ 
+SUBJECT: Subject Matter Expert (SME) Request for [AFJQS/AFQTP][project number and 
+name]  
+ 
+1. In accordance with AFI 17-204, Air Force On-the-Job Training Products for Cyber-Space 
+Support Enlisted Specialty Training,request you identify three SMEs in support of this project 
+to assist us in developing high quality training material. Identify SMEs by name, rank, unit, 
+base assigned, and DSN number. SMEs must be qualified to operate, maintain, or install the 
+[insert project name] at the force level. In addition, they must possess an in-depth knowledge 
+of the duty position. If possible, select SMEs not scheduled for extended TDY, deployment, or 
+other duties that would affect their ability to carry out this tasking.  
+ 
+2. To help us meet our development milestone dates, please provide the requested information 
+by [dd mmm yy]  to [insert CD rank and name], [insert CD DSN phone number], [insert CD 
+email address] and courtesy copy (cc) the SMEs’ unit commanders.  
+[Insert Signature Block] 
+ 
+ 

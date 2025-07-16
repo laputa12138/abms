@@ -1,0 +1,1400 @@
+BY ORDER OF THE SECRETARY  
+OF THE AIR FORCE 
+ 
+DEPARTMENT OF THE AIR FORCE 
+INSTRUCTION 10-706 
+2 JUNE 2021 
+Operations 
+ELECTROMAGNETIC WARFARE (EW) 
+COMPLIANCE WITH THIS PUBLICATION IS MANDATORY 
+ 
+ACCESSIBILITY:  Publications and forms are available for downloading or ordering on the e-
+Publishing web site at www.e-Publishing.af.mil 
+RELEASABILITY:  There are no releasability restrictions on this publication 
+ 
+ 
+OPR: AF/A5L 
+ 
+Supersedes: 
+AFI 10-706, 14 May 2014 
+Certified by: AF/A5L  
+(Brig Gen (s) Michael Manion) 
+Pages: 36 
+ 
+ 
+This Department of the Air Force Instruction (DAFI) implements Department of the Air Force 
+Policy Directive (DAFPD) 10-7, Information Operations and provides guidance for 
+electromagnetic warfare (EW) capability development and sustainment. This publication applies 
+to the United States Space Force, Regular Air Force, the Air Force Reserve, and the Air National 
+Guard. Ensure all records created as a result of processes prescribed in this publication are 
+maintained in accordance with Air Force Instruction (AFI) 33-322, Records Management and 
+Information Governance Program, and disposed of in accordance with the Air Force Records 
+Disposition Schedule located in the Air Force Records Information Management System. Refer 
+recommended changes and questions about this publication to the Office of Primary Responsibility 
+(OPR) using the AF Form 847, Recommendation for Change of Publication; route AF Forms 847 
+from the field through the appropriate functional chain of command then send to Electromagnetic 
+Spectrum 
+Superiority 
+Directorate 
+(AF/A5L), 
+email 
+to 
+the 
+AF/A5L 
+Workflow 
+AF.A5L.Workflow@us.af.mil. This publication may be supplemented at any level; supplements 
+are not required to be routed to the OPR of this publication for coordination prior to certification 
+and approval. Compliance with the attachment 2 is mandatory. The authorities to waive wing/unit 
+level requirements in this publication are identified with a Tier (“T-0, T-1, T-2, T-3”) number 
+following the compliance statement. See DAFI 33-360, Publications and Forms Management, for 
+a description of the authorities associated with the Tier numbers. Submit requests for waivers 
+through the chain of command to the appropriate Tier waiver approval authority, or alternately, to 
+the requestor’s commander for non-tiered compliance items. 
+2 
+DAFI10-706  2 JUNE 2021 
+SUMMARY OF CHANGES 
+This document has been substantially revised and needs to be completely reviewed. Major changes 
+include (1) replacing many acronyms with correct terms to improve readability, (2) revising the 
+acronym listing, and (3) updating terminology so that it aligns with current Department of Defense 
+(DoD) terminology. 
+ 
+Chapter 1—DOCTRINE AND GUIDANCE 
+ 
+4 
+1.1. 
+Background. .............................................................................................................  
+4 
+1.2. 
+General Guidance. ...................................................................................................  
+4 
+1.3. 
+Major Components of EW. ......................................................................................  
+4 
+1.4. 
+EW Effects. ..............................................................................................................  
+5 
+1.5. 
+EW’s Evolving Role. ...............................................................................................  
+6 
+Chapter 2—ORGANIZATIONS, ROLES and RESPONSIBILITIES 
+ 
+7 
+2.1. 
+Deputy Chief of Staff, Strategy, Integration and Requirements (AF/A5/7). ...........  
+7 
+2.2. 
+Director, Electromagnetic Spectrum Superiority (AF/A5L). ...................................  
+7 
+2.3. 
+Director of Operational Capability Requirements (AF/A5R). .................................  
+9 
+2.4. 
+Deputy Chief of Staff for Logistics, Engineering, and Force Protection (AF/A4). .  
+9 
+2.5. 
+Director of Air Force Test and Evaluation (AF/TE). ...............................................  
+9 
+2.6. 
+Deputy Chief of Staff, Manpower, Personnel, and Services (AF/A1). ....................  
+10 
+2.7. 
+Assistant Secretary of the Air Force for Acquisition, Technology, and Logistics 
+(SAF/AQ).................................................................................................................  
+10 
+2.8. 
+Deputy Under Secretary of the Air Force, International Affairs (SAF/IA). ............  
+10 
+2.9. 
+Deputy Chief, Information Officer (SAF/DCIO), (SAF/CN). .................................  
+10 
+2.10. 
+MAJCOMs and FLDCOMs (as applicable).  ..........................................................  
+10 
+2.11. 
+Lead Commands. .....................................................................................................  
+11 
+2.12. 
+Using Commands. ....................................................................................................  
+12 
+2.13. 
+Implementing Commands.  ......................................................................................  
+12 
+2.14. 
+Air Combat Command (ACC). ................................................................................  
+13 
+2.15. 
+Air Education and Training Command (AETC). .....................................................  
+14 
+2.16. 
+Air Force Materiel Command (AFMC). ..................................................................  
+14 
+2.17. 
+Air Force Special Operations Command. ................................................................  
+16 
+2.18. 
+Air Mobility Command (AMC). ..............................................................................  
+16 
+2.19. 
+Air Force Operational Test and Evaluation Center. .................................................  
+16 
+2.20. 
+National Air and Space Intelligence Center (NASIC).  ...........................................  
+16 
+DAFI10-706  2 JUNE 2021 
+3 
+2.21. 
+Space Operations Command (SpOC). .....................................................................  
+16 
+Chapter 3—TRAINING, EDUCATION and EXERCISES 
+ 
+18 
+3.1. 
+Introduction to EW Training. ...................................................................................  
+18 
+3.2. 
+Levels of EW Training. ...........................................................................................  
+18 
+3.3. 
+Coalition Operations. ...............................................................................................  
+19 
+3.4. 
+EW Exercises. ..........................................................................................................  
+19 
+3.5. 
+Training Requirements. ...........................................................................................  
+19 
+Chapter 4—MATERIEL DEVELOPMENT, SUSTAINMENT AND READINESS 
+ 
+20 
+4.1. 
+Development. ...........................................................................................................  
+20 
+4.2. 
+Sustainment. .............................................................................................................  
+21 
+4.3. 
+Readiness. ................................................................................................................  
+21 
+Chapter 5—LEADERSHIP 
+ 
+23 
+5.1. 
+DAF EMS Superiority Strategy. ..............................................................................  
+23 
+5.2. 
+Air Force EW Roadmap Reporting. .........................................................................  
+23 
+5.3. 
+Spectrum Integration Group (SIG). .........................................................................  
+23 
+5.4. 
+EW Test and Evaluation (T&E) Consortium. ..........................................................  
+23 
+Chapter 6—PERSONNEL 
+ 
+24 
+6.1. 
+Force Development. .................................................................................................  
+24 
+6.2. 
+EW Manpower Requirements. .................................................................................  
+24 
+Chapter 7—FACILITIES 
+ 
+26 
+7.1. 
+Types of Facilities. ...................................................................................................  
+26 
+7.2. 
+Test and Training Ranges. .......................................................................................  
+27 
+7.3. 
+MAJCOM/FLDCOM Facilities Responsibilities.....................................................  
+28 
+Attachment 1—GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+29 
+Attachment 2—AF EW SUPPORT TO JOINT TASK FORCES 
+ 
+35 
+ 
+4 
+DAFI10-706  2 JUNE 2021 
+Chapter 1 
+DOCTRINE AND GUIDANCE 
+1.1.  Background.  Electromagnetic warfare (EW) is military action involving the use of 
+electromagnetic and directed energy to control the electromagnetic spectrum or to attack the 
+enemy. The DAF presents EW forces and capabilities to enable joint force commanders’ and 
+combatant commanders’ ability to achieve electromagnetic spectrum (EMS) superiority, 
+temporally and/or geographically. Disciplined analysis and experience led to the establishment of 
+a DAF EMS Superiority Directorate, led by a general officer and owner of EMS superiority 
+capabilities. This action ensures continuity of thought and discipline beginning with long-term 
+strategy and conceptual experimentation, through capability development, and ultimately to force 
+delivery, presentation, and sustainment. This chapter articulates key EW principles compelling 
+proper organization, material, logistics, personnel, facilities, and policy assumptions under which 
+EW stands. 
+1.2.  General Guidance.  Doctrine provides fundamental principles by which military forces 
+guide their action in support of national objectives. This instruction reflects updated information 
+based on Air Force Doctrine Annex 3-51, Electromagnetic Warfare and Electromagnetic 
+Spectrum Operations; and joint doctrine found in Joint Publication (JP) 3-85, Joint 
+Electromagnetic Spectrum Operations. In order to achieve EMS superiority, EW forces are 
+integrated fully into campaigns achieving strategic ends for our Nation. Joint forces use EW to 
+exploit, employ, and empower basic physical principles to achieve effects within three distinct 
+frequency regions—radio frequency (RF) (to include microwaves), electro-optical (EO) and 
+infrared (IR), and ionizing radiation. 
+1.2.1.  Radio Frequency (RF) region exploitation is predicated on the propagation of 
+electromagnetic waves through applicable physical domains. Military equipment and 
+utilization can be broken into communication, sensing, and energy effects. Characteristics of 
+this region are well known and studied exhaustively, resulting in implicit cross-functional 
+decisions in platform, electromagnetic counter-measures, and tactical designs. Technology in 
+signal processing, aperture development, and creative thinking upset much conventional 
+thinking through presentation of complex EMS environments. 
+1.2.2.  The electro-optic (EO) and infrared (IR) region includes infrared (IR) and visible light. 
+The physical principles driving exploitation, employment and energy effects mix traditional 
+electromagnetic wave propagation with particle physics. EO region utilization has proven 
+useful in communications, sensing, and direct energy effects. Characteristics of this region are 
+well known and understood, but do present challenges in processing, controlling, and 
+exploitation. 
+1.2.3.  Ionizing radiation includes ultraviolet rays, X-rays, and gamma rays, of which the 
+military applications are found predominately in sensing, but could include direct energy 
+effects. 
+1.3.  Major Components of EW.  The major components of EW include electromagnetic attack 
+(EA), electromagnetic protection (EP), and EW support (ES). 
+ 
+ 
+DAFI10-706  2 JUNE 2021 
+5 
+1.3.1.  Electromagnetic Attack is the use of electromagnetic energy, directed energy, or anti-
+radiation weapons to attack personnel, facilities, or equipment. The primary effects achieved 
+by EA are deception, disruption, denial, degradation, and destruction. The terrestrial weather 
+environment can adversely affect the ability to create precise EA effects. Creating precise EA 
+effects also require use of a battle management function. This includes spectrum management 
+to ensure electromagnetic spectrum deconfliction in multiple dimensions (e.g., time, altitude, 
+and distance). 
+1.3.1.1.  Electromagnetic Attack includes any actions taken to prevent, reduce or 
+manipulate an enemy's effective use of the electromagnetic spectrum. EA techniques 
+include jamming, electromagnetic deception or direct attack of an enemy's electronic 
+capabilities. EA employs weapons that use either electromagnetic energy or directed 
+energy as their primary disruptive or destructive mechanism. Examples of EA weapons 
+include lasers, high power microwave weapons, and particle beams. 
+1.3.1.2.  Examples of EA systems include jammers onboard the EC-130H, COMPASS 
+CALL; EA-18G; anti-radiation missiles; chaff; flares; self-protection jamming systems; 
+Large Aircraft Infrared Countermeasures systems; active towed decoys; and counter radio-
+controlled improvised explosive devices. 
+1.3.2.  Electromagnetic Protection involves techniques designed to protect personnel, 
+facilities, and equipment from the effects of friendly or enemy employment of EA or other 
+electromagnetic spectrum capabilities (such as an electromagnetic pulse) that have the 
+potential to deny, degrade, disrupt, deceive, or destroy friendly combat capability. The space 
+environment can be a source of unintentional radiated electromagnetic energy with the 
+potential to degrade, neutralize, or destroy friendly combat capability. Geomagnetic 
+disturbances due to solar activity can produce similar effects to an electromagnetic pulse. 
+Examples of EP include RF agility, pulse repetition frequency agility, or laser eye protection. 
+1.3.3.  Electromagnetic Warfare Support involves actions tasked by, or under direct control of, 
+an operational commander to search for, intercept, identify, and locate sources of intentional 
+and unintentional radiated electromagnetic energy for the purpose of immediate threat 
+recognition, targeting, planning, and conducting future operations. Examples of ES systems 
+include radar and laser warning receivers, the High-Speed Anti-Radiation Missile targeting 
+system, sensors forward capabilities, Rapid Attack Identification Detection and Reporting 
+System, Global Positioning System jammer geo-location systems or the Battlefield Laser 
+Detection System. 
+1.4.  EW Effects.  Air Force Doctrine Annex 3-51 describes the proper employment of EW 
+capabilities as producing the effects of detection, denial, deception, disruption, degradation, 
+exploitation, destruction, and protection. Offensive effects are delivered using electromagnetic 
+energy or directed energy. Protection from enemy effects are achieved through agile frequency 
+manipulation, hardened communications equipment, frequency deconfliction, etc. Air Force 
+Doctrine Annex 3-01, Counterair Operations describes offensive counterair and defensive 
+counterair. EW supports both counterair operations by delivering effects against: (1) enemy air 
+defense systems (including integrated air defense systems (IADS)); (2) military command and  
+ 
+ 
+6 
+DAFI10-706  2 JUNE 2021 
+control nodes; and (3) non-IADS systems. EW assets are vital to any effective operation to 
+suppress enemy command and control, IADS, and other significant military capabilities that use 
+the electromagnetic spectrum. Friendly EW capabilities are critical and, if left unhindered, enemy 
+EW operations could have devastating effects on friendly command and control systems. Early 
+and persistent efforts should be aimed at defeating enemy EW capabilities. 
+1.5.  EW’s Evolving Role.  EW is evolving due to technological advances and an increasing 
+reliance on the use of the electromagnetic spectrum within military and civilian sectors. EW 
+supports joint warfighting operations within and across the range of military operations and across 
+all warfighting domains to include air, space, and cyberspace. While EW retains its traditional role 
+in counterair, it intersects with other military capabilities such as spectrum management, space 
+control, cyberspace operations, navigation warfare, and information warfare. Correspondingly, 
+DAF EW capability developers and warfighters are required to engage spectrum management, 
+space control, cyberspace operations, navigation warfare, and information warfare professionals. 
+They must engage these professionals to address existing and emerging military capabilities that 
+use both military and commercial electronic and electromagnetic technologies. Emerging non-
+IADS targets include non-military leadership networks, commercial or media networks, 
+communications networks, positioning, navigation, timing networks, and others as directed by a 
+combatant commander. EW targeting is required to comply with applicable domestic and 
+international law, rules of engagement and the law of war. 
+1.5.1.  Joint Publication 3-85, Joint Electromagnetic Spectrum Operations describes military 
+actions undertaken by two or more Services operating in concert to exploit, attack, protect, and 
+manage the electromagnetic operational environment. Joint electromagnetic spectrum 
+operations prioritize, integrate, synchronize, and deconflict all joint force actions in the 
+electromagnetic operational environment, enhancing unity of effort. 
+1.5.2.  EW capabilities can markedly enhance information warfare, the employment of military 
+capabilities in and through the information environment to affect deliberately adversary human 
+and system behavior. Denying, degrading, disrupting, deceiving, or destroying the sensing or 
+communication signals associated with an adversary’s command and control has been proven 
+repeatedly as a key component to a winning campaign strategy. In the same manner, traditional 
+physical attacks (e.g., bombs) against key adversary information nodes can support 
+information warfare. EW can employ attacks against key adversary nodes through multiple 
+domains, with either temporal or permanent effects, expanding a joint force commander’s 
+options in achieving objectives. 
+DAFI10-706  2 JUNE 2021 
+7 
+Chapter 2 
+ORGANIZATIONS, ROLES AND RESPONSIBILITIES 
+2.1.  Deputy Chief of Staff, Strategy, Integration and Requirements (AF/A5/7). 
+2.1.1.  Develops DAF EW and EMS Superiority policy, strategy, doctrine, capability, and 
+prioritizes operational capabilities. AF/A5/7 owns all DAF EW and EMS Superiority doctrine, 
+organization, training, materiel, leadership and education, personnel, facilities, and policy 
+(DOTMLPF-P) actions. 
+2.1.2.  Employs a Spectrum Integration Group (SIG) to address interdepartmental and cross 
+major command (MAJCOM) or field command (FLDCOM) EW issues. The SIG is chartered 
+to identify and prioritize EW issues to ensure the DAF is organized, trained, and equipped to 
+conduct combat operations. The SIG may report its findings or recommendations to the 
+Capability Development Working Group, which, in turn, may request a lead MAJCOM or 
+FLDCOM to develop the appropriate Joint Capabilities Integration and Development System 
+documentation as described in AFI 10-601, Operational Capability Requirements 
+Development (refer to para 5.3). 
+2.1.3.  Ensures EW and EMS Superiority capabilities are properly planned for and integrated 
+across the DAF capability development construct. 
+2.2.  Director, Electromagnetic Spectrum Superiority (AF/A5L). 
+2.2.1.  Owns all DAF EW and EMS Superiority requirements, capability development, and 
+sustainment through DOTMLPF-P. Facilitates staffing and coordination of EW requirements 
+documentation to ensure validated EW requirements compete within the Capability 
+Development Council and Joint Capabilities Integration and Development System process. 
+2.2.2.  Communicates DAF EW operational vision; disseminates operational guidance 
+concerning EW capabilities, gaps or shortfalls across the various missions, organizations, and 
+functions of the DAF. A5L documents, articulates, and advocates current and future EW 
+requirements within the DAF corporate process. 
+2.2.3.  Acts as SIG chairperson and responsible for charter maintenance, membership, agenda 
+content, minute distribution, and follow-on actions. 
+2.2.4.  In coordination with DAF EMS stakeholders, communicates DAF’s EW policy, 
+doctrine, and future force structure to external organizations. Additionally, the Director 
+establishes and advocates DAF EW positions on issues and ensures these positions are 
+articulated correctly within appropriate Joint Chiefs of Staff (JCS) or Office of the Secretary 
+of Defense (OSD) organizations (e.g., DoD EW Executive Committee). 
+2.2.5.  Supports the Director, Training and Readiness (AF/A3T) to develop current policy and 
+guidance for operational deployments, rated career field management, training and range 
+instrumentation, or other supporting elements to satisfy DAF and joint operational 
+requirements. 
+2.2.6.  In coordination with the Chief Information Officer (SAF/CIO), advocates for joint 
+capability technology demonstrations, applied technology demonstrations, or other technology 
+demonstrations that address EW capability. 
+8 
+DAFI10-706  2 JUNE 2021 
+2.2.7.  Provides guidance to acquisition, research and development, intelligence, testing and 
+operations, and sustainment communities to ensure they have adequate Headquarters Air Force 
+(HAF) guidance concerning the future direction of the DAF’s EW capabilities and 
+requirements. 
+2.2.8.  Acts as DAF focal point to leverage and integrate EW technologies, evaluates 
+innovative EW concepts, plans, and operational demonstrations of these concepts, and 
+recommends policy, programming, budgeting, organizational training (including tactics, 
+techniques and procedures), and equipping actions. 
+2.2.9.  Provides subject matter expertise to other United States (US) Government agencies 
+(e.g., Department of Homeland Security, Department of Justice) concerning DAF EW 
+programs. Support is subject to AFI 10-801, Defense Support of Civil Authorities. 
+2.2.10.  Supports the Director, Strategy, Posture and Assessments (AF/A5S), as needed, to 
+review all EW-related deployment planning policy, unit type code development, and associated 
+operational plans and concepts of operation. 
+2.2.11.  Monitors future threat assessments and recommends corrective actions, as required. 
+Implements anticipatory actions in capability-based planning efforts. 
+2.2.12.  In coordination with the Deputy Chief of Staff, Intelligence, Surveillance, 
+Reconnaissance and Cyber Effects Operations (AF/A2/6), tracks preparation of those portions 
+of the National Intelligence Program, General Defense Intelligence Program and Military 
+Intelligence Program for which there is AF EW equity. 
+2.2.13.  In coordination with AF/A2/6, ensures intelligence support for EW programs. 
+2.2.14.  In coordination with the Assistant Secretary of the Air Force for Acquisition, 
+Technology and Logistics (SAF/AQ) and the Director, Air Force Programs (AF/A8P), ensures 
+EW resources associated with EA or ES systems are planned, programmed, and budgeted. 
+Ensures programs map to current requirements and address anticipated needs of the warfighter. 
+2.2.15.  Coordinates with the Deputy Chief of Staff for Operations (AF/A3) to develop or 
+obtain the operational perspective on all Foreign Military Sales requests concerning US EW 
+systems or associated equipment. In addition, monitors and makes recommendations on 
+directed energy technology transfer requests. 
+2.2.16.  Coordinates with the AF/A3 to develop or obtain the operational perspective 
+concerning the request and prioritization of EW-related acquisitions made under the AF 
+Foreign Materiel Program. 
+2.2.17.  Provides the perspective for the assessment of coalition EW interoperability issues. 
+Recommends courses of action to accommodate effective and timely participation in coalition 
+operations. 
+2.2.18.  In coordination with the Director, Legislative Liaison, Weapons Division (SAF/LLW), 
+SAF/AQ, or AF/A8P, responds to Congressional, OSD and JCS inquiries on EW 
+programmatic, capability or operational issues on behalf of AF/A3 and AF/A5/7. 
+2.2.19.  Conducts Electromagnetic Warfare Integrated Reprogramming process roles and 
+responsibilities in accordance with AFI 10-703, Electronic Warfare (EW) Integrated 
+Reprogramming. 
+DAFI10-706  2 JUNE 2021 
+9 
+2.2.20.  Supports the AF Spectrum Management Office with regard to its spectrum 
+management responsibilities in accordance with AFI 17-220, Spectrum Management. 
+2.2.21.  In coordination with Chief, Execution and Oversight Division (SAF/AQXE), supports 
+preparation of the Congressional Budget Justification Books by drafting procurement 
+documents and research and development documents. 
+2.2.22.  Acts as United States Air Force (USAF) Career Force Manager for all EW 
+professionals in coordination with Deputy Chief of Staff Manpower, Personnel and Services 
+(AF/A1), AF/A3T, and Headquarters Air Force Personnel Center functional managers. 
+2.3.  Director of Operational Capability Requirements (AF/A5R). 
+2.3.1.  Facilitates EW requirements documentation staffing and coordination. Ensures 
+validated EW requirements compete within the Capability Development Council and Joint 
+Capabilities Integration Development System processes. 
+2.3.2.  Works with SAF/AQ, the Administrative Assistant to the Secretary of the Air Force 
+(SAF/AA), and the Deputy Chief of Staff, Plans and Programs (AF/A8) directorates to resolve 
+requirements and/or programmatic issues associated with EW programs (includes Special 
+Access Programs which are programs covered by security protocols that provide safeguards 
+and access restrictions exceeding those for regular classified information. Special Access 
+Programs are established and maintained when absolutely necessary to protect the most 
+sensitive capabilities, information, technologies and operations or when required by statute). 
+2.3.3.  Assumes operational sponsorship for validated force application and force protection 
+concepts and associated requirements using Air Force EW systems. 
+2.3.4.  Provides operational perspective on Foreign Military Sales issues involving US EW 
+systems or support elements (includes software products). 
+2.4.  Deputy Chief of Staff for Logistics, Engineering, and Force Protection (AF/A4). 
+2.4.1.  Reviews weapon system support equipment requirements to ensure that acquisition and 
+sustainment programs consider common support equipment. Ensures justification of peculiar 
+support equipment, including automatic test systems and automatic test equipment. 
+2.4.2.  Designates an office or individual to review EW capabilities-based requirements 
+documentation. 
+2.4.3.  Acts as lead agent for funding and fielding for replacement of existing unsustainable 
+common aircraft support equipment. 
+2.4.4.  Monitors the “state of health” and common sustainment issues with EW systems and 
+associated equipment. 
+2.4.5.  Supports the SIG as defined within the integrated product team’s charter. 
+2.5.  Director of Air Force Test and Evaluation (AF/TE). 
+2.5.1.  Oversees the AF test and evaluation (T&E) infrastructure and ensures adequate T&E 
+resources and facilities are available to support EW systems development and acquisition 
+activities. 
+2.5.2.  Designates an office or individual to monitor and support EW-related programs by: 
+10 
+DAFI10-706  2 JUNE 2021 
+2.5.2.1.  Reviewing requirements documents. 
+2.5.2.2.  Assessing key performance parameters and key system attributes for testability 
+and measurability. 
+2.5.2.3.  Assisting in the development of strategies for T&E. 
+2.5.2.4.  Reviewing and coordinating test and evaluation master plans. 
+2.5.3.  Coordinates with AF/A5/7 to ensure EW requirements and equities are included in and 
+supported by AF Foreign Materiel Program activities. 
+2.6.  Deputy Chief of Staff, Manpower, Personnel, and Services (AF/A1).  Through the AF 
+Personnel Center and in coordination with A3T and career field managers, tracks EW expertise 
+and is responsible for EW officer AF specialty codes and E-prefix maintenance. 
+2.7.  Assistant Secretary of the Air Force for Acquisition, Technology, and Logistics 
+(SAF/AQ). 
+2.7.1.  Provides direction and oversight of acquisitions involving EW-related operational 
+programs in accordance with AFI 63-101/20-101, Integrated Life Cycle Management. 
+2.7.2.  Supports SIG as defined within its charter. 
+2.7.3.  Assists Air Staff, the Office of the Chief of Space Operations (informally referred to as 
+Space Staff), MAJCOMs and FLDCOMs in documenting, articulating, and advocating for 
+space- related EW requirements to the Joint Staff, OSD, other Services, or Congress. 
+2.7.4.  Assists AF/A5L with responses to Congressional, OSD and JCS inquiries on EW issues. 
+2.8.  Deputy Under Secretary of the Air Force, International Affairs (SAF/IA). 
+2.8.1.  Oversees the Foreign Military Sales and international armaments cooperation 
+agreements with foreign governments. 
+2.8.2.  Coordinates with AF/A5/7 and the Space Staff’s equivalent for the DAF’s operational 
+perspective regarding Foreign Military Sales issues involving US EW systems and associated 
+hardware and software. 
+2.8.3.  Directs the development of the Foreign Military Sales EW integrated reprogramming 
+database for system mission data file reprogramming.  Ensures a degree of coalition 
+interoperability until theater forces can provide EW system mission data file updates. 
+2.8.4.  Supports SIG as defined within its charter, ensuring partner nation equities are 
+represented. 
+2.9.  Deputy Chief, Information Officer (SAF/DCIO), (SAF/CN). 
+2.9.1.  Supports AF/A2/6 in performing related responsibilities and oversight of spectrum 
+management. 
+2.9.2.  Supports the SIG charter as defined within SAF/CN Mission Directive. 
+2.10.  MAJCOMs and FLDCOMs (as applicable). 
+2.10.1.  Identify EW skills and billets required for specific needs. 
+2.10.2.  Assign qualified EW personnel to specified command billets. 
+DAFI10-706  2 JUNE 2021 
+11 
+2.10.3.  Conduct a periodic review of EW authorizations. 
+2.10.4.  Resolve training shortfalls where possible and submit annual reports on the status of 
+resolution to the AF/A3 and the Space Staff equivalent. 
+2.10.5.  Develop formal EW training to cover individual, unit and senior officer training and 
+continued career learning courses tailored to the command’s specific mission(s). 
+2.10.6.  Perform EW training assessments during large force exercises. 
+2.10.7.  Develop EW training assessments for evaluations and inspections. 
+2.10.8.  Support EW integrated reprogramming process in accordance with AFI 10-703. 
+2.10.9.  Ensure assigned MAJCOM, FLDCOM, numbered air force, and warfighting 
+headquarters have appropriate and sufficient EW expertise prepared to support or act as 
+liaisons to applicable EMS Operations Centers. 
+2.10.10.  Coordinate and comment on relevant EW doctrine, policy, capability development, 
+requirements, operational sustainment, or programmatic issues with A5L and other appropriate 
+HAF agencies (e.g., AF/A2/6, AF/A3, AF/A4, AF/A8P, DAF/JA, SAF/AQ, SF/S2/3/4/6/10, 
+and SF/S5.8). 
+2.10.11.  Acquire, maintain and sufficiently fund T&E facilities such as integrated system test 
+facilities, like those at Arnold, Edwards, and Eglin Air Force Bases and mission simulation 
+laboratories at Arnold, Edwards, Eglin, Holloman, and Kirtland Air Force Bases which provide 
+key T&E capabilities to ensure EW programs meet validated operational requirements. 
+2.10.12.  Ensure DAF EW test activities will utilize DoD test facilities for applicable tests to 
+the maximum extent possible in accordance with AFI 99-103, Capabilities-Based Test and 
+Evaluation. 
+2.11.  Lead Commands.  Lead Commands for specific weapon systems as specified in DAFPD 
+10-9, Lead Command Designation and Responsibilities for Weapon Systems: 
+2.11.1.  Coordinate with A5L when initiating or developing EW-related force development 
+concepts. 
+2.11.2.  Document requirements, identify resources, and prioritize EW upgrades or new 
+systems to better control, exploit or enhance electromagnetic spectrum capabilities. 
+2.11.3.  Execute mission data upgrades on a timeline appropriate to the urgency of the change 
+and provide upgrades to gained reserve component units before any real-world deployments. 
+2.11.4.  Conduct force development evaluations in order to determine EW system gaps or 
+shortfalls in operations and training. 
+2.11.5.  Document and staff EW effectiveness shortfalls identified in contingency operations. 
+2.11.6.  Provide readiness standards and effectiveness data for EW systems. 
+2.11.7.  Plan, program, and support EW-specific ground test sets, test procedures and 
+technician training. 
+2.11.8.  Plan, program and support appropriate equipment for conducting EW sustainment 
+along with gained reserve component units. 
+12 
+DAFI10-706  2 JUNE 2021 
+2.11.9.  Identify opportunities for the development of common and interoperable support 
+equipment. 
+2.11.10.  Plan, program, and support EW system upgrades and their operational sustainment. 
+2.11.11.  Ensure derived system requirements for new EW capabilities are accompanied with 
+command-sponsored analysis. This analysis must be supported with combat simulations with 
+sufficient rigor to provide decision-makers with operationally relevant data upon which to base 
+their decisions. 
+2.11.12.  Identify and prioritize EW capability plans, shortfalls or gaps. 
+2.11.13.  Lead high performance team actions associated with requirements development. 
+2.11.14.  As required, provide qualified subject matter experts to participate in DAF studies 
+related to EW or to attaining or maintaining electromagnetic spectrum superiority. 
+2.11.15.  Support the EW integrated reprogramming process in accordance with AFI 10-703. 
+2.11.16.  Meet combatant commander needs by developing employment and overall allocation 
+authority for cross-MAJCOM EW systems (e.g., ALQ-131, AAQ-24 Large Aircraft Infrared 
+Countermeasures pods, ALE- 47, ALR-56M, MALD-J). 
+2.11.17.  Coordinate with the AF's EW assessment program known as COMBAT SHIELD to 
+establish criteria for EW assessments on all applicable airframes. 
+2.12.  Using Commands.  Using Commands as specified in DAFPD 10-9: 
+2.12.1.  Ensure assigned MAJCOM, FLDCOM, numbered air force, or warfighting 
+headquarters have a sufficient number of EW-experienced personnel prepared to support or act 
+as liaisons to the EW cell. 
+2.12.2.  As available, participate in high performance team actions associated with EW 
+requirements development. 
+2.12.3.  Support modeling and simulation analyses as required for the lead command’s EW 
+requirements. 
+2.12.4.  Support the EW integrated reprogramming process in accordance with AFI 10-703. 
+2.12.5.  Operate EW equipment within the US, US territories, and Canada for testing, training, 
+or exercises, in accordance with applicable domestic and international law, rules of 
+engagement, and the Chairman of the Joint Chiefs of Staff Manual (CJCSM) 3212.02E, 
+Performing Electronic Attack in the US and Canada for Tests, Training, and Exercises (This 
+restricted document may be accessed through the website at www.jcs.mil.) 
+2.13.  Implementing Commands.  Implementing Commands as specified in AFI 63-101/20-101: 
+2.13.1.  Field operationally effective and suitable EW programs to control, exploit, and 
+enhance AF electromagnetic spectrum capabilities. 
+2.13.2.  Provide core and support high performance team members, as appropriate, for EW 
+requirements development. 
+2.13.3.  Assist the lead MAJCOM or FLDCOM in developing and preparing analysis of 
+alternatives studies. 
+DAFI10-706  2 JUNE 2021 
+13 
+2.13.4.  Employ modeling, simulation, and analysis tools and processes to determine EW 
+requirements in the capabilities-based planning process. Analyses will be supported by combat 
+simulations realistic enough to provide the decision-maker with quality, operationally relevant 
+measures of effectiveness and cost information. 
+2.13.5.  Assist the lead command concerning EW acquisition and sustainment phases. 
+2.13.6.  To the maximum extent possible, ensure commonality for similar EW systems, support 
+equipment, and training and range equipment. 
+2.13.7.  Air Force Global Strike Command will provide sufficient resources to conduct 
+COMBAT SHIELD EW assessments for Air Force Global Strike Command aircraft. 
+2.13.8.  United States Space Force (USSF) organizations charged with performing acquisition 
+related activities for space systems will coordinate through the Chief of Space Operations with 
+A5L on EW-specific space control policy and guidance, requirements and programmatic 
+issues. 
+2.14.  Air Combat Command (ACC). 
+2.14.1.  Assume operational lead for the combat air forces on innovative EW concepts or 
+sustainment (current and future) actions. ACC will ensure EW gaps or shortfalls with common 
+force application or force protection functions are properly coordinated across the MAJCOMs 
+and FLDCOMs. Coordination is necessary to ensure accurate and complete characterization of 
+terrestrial and space environment effects. 
+2.14.2.  As appropriate, coordinate and comment on relevant EW doctrine, policy, capability 
+development, requirements derivation, operational sustainment, or programmatic issues with 
+A5L and other appropriate HAF agencies (e.g., AF/A2/6, A3, A4, A8P, DAF/JA, and 
+SAF/AQ). 
+2.14.3.  Allocate emitters for the electronic warfare ranges. 
+2.14.4.  Be operational proponent for AF's EW assessment program known as COMBAT 
+SHIELD and coordinate with other MAJCOMs on the establishment of similar activities. 
+2.14.5.  Be designated lead for AF EW Cell integration and associated training. 
+2.14.6.  Build operational-level EW training objectives for Flag and AF Weapons School 
+exercises, including advanced and campaign-level training. 
+2.14.7.  Develop requirements for and fund scalable, modular, and interoperable EW systems 
+and equipment. 
+2.14.8.  Maintain and continually assess the currency of the Centralized Aircraft Survivability 
+Assessment System as an EW operations key support tool. 
+2.14.9.  Host annual combat air forces and senior leader conferences as well as supporting the 
+SIG as defined within its charter. 
+2.14.10.  Provide sufficient resources to conduct AF EW COMBAT SHIELD assessment 
+program and other ACC assessment programs. Coordinate with USSF on COMBAT MACE 
+Space EW assessments. 
+14 
+DAFI10-706  2 JUNE 2021 
+2.14.11.  ACC organizations charged with performing acquisition related activities for cyber 
+systems will coordinate with AF/A3 through the Chief, Cyber Warfare Division 
+(AF/A3CX/A6CX) on EW-specific cyber policy, guidance and AF/A5/7 through the Chief, 
+Cyberspace Requirements Division (AF/A5RK) on requirements and programmatic issues. 
+2.14.12.  Coordinate with the Deputy Chief of Staff for Intelligence (AF/A2/6), A5L, and 
+MAJCOMs concerning National Intelligence Program programming resources. 
+2.14.13.  Support EW integrated reprogramming process in accordance with AFI 10-703. 
+2.14.14.  Validate training devices’ threat databases to ensure proper function and fidelity of 
+the simulators’ EW functions. 
+2.14.15.  In coordination with AF/A2/6, collect and maintain data on all laser incidents 
+involving USAF aircraft. 
+2.15.  Air Education and Training Command (AETC). 
+2.15.1.  Provide undergraduate courses for awarding EW officer DAF specialty codes. 
+2.15.2.  Responsible for developing, conducting and evaluating initial EW skills training, 
+advanced technical training, and graduate academic and flight education programs, except for 
+the responsibilities set out in para 2.17.3. 
+2.15.3.  Coordinate with combat air forces, mobility air forces and Space Operations Command 
+(SpOC), as appropriate, regarding development of advanced EW academic programs and 
+senior leadership EW courseware. 
+2.15.4.  Coordinate on DAF EW requirement documentation or other Service requirements 
+that may have direct training implications. 
+2.15.5.  Coordinate with combat air forces regarding common EW equipment and support 
+annual assessment requirements. 
+2.15.6.  Provide high performance team membership for undergraduate EW training issues that 
+arise during the requirements process. 
+2.15.7.  Support the SIG as defined within its charter. 
+2.16.  Air Force Materiel Command (AFMC).  AFMC performs the following activities for EW 
+systems (except for space-related systems): 
+2.16.1.  Assist EW requirements owners, providing integrated modeling, simulation and 
+analysis assessment of AF warfighter operational needs and AF capability documents to ensure 
+the identified capability requirements are technologically sound, testable, sustainable, 
+affordable, and address system of systems considerations. 
+2.16.2.  Oversee execution of operational flight program software upgrades to fielded AF EW 
+systems (e.g., ALQ-131, ALR-56M). 
+2.16.3.  Accomplish hardware upgrades to fielded AF EW systems in response to identified 
+requirements that cannot be satisfied through software upgrades. Note: Any hardware changes 
+that impact RF characteristics must meet supportability and compliance requirements found in 
+AFI 17-220. 
+DAFI10-706  2 JUNE 2021 
+15 
+2.16.4.  Develop, procure, and sustain EW systems, support equipment, and training and range 
+equipment in support of using command-funded programs. 
+2.16.5.  Identify EW-related sustainability shortfalls to the appropriate MAJCOM. 
+2.16.6.  Serve as the OPR for EW developmental test and evaluation training to maintain an 
+adequate supply of properly trained EW developmental testers. 
+2.16.7.  Maintain dedicated research and development facilities to facilitate the rapid 
+development of quick reaction capabilities that go beyond traditional EW functions. 
+2.16.8.  Establish direct liaison and coordination relationship with force provider units 
+supporting rapid software updates predicated by increased complexity of the EMS operating 
+environment. 
+2.16.9.  Ensure Reliability, Availability, and Maintainability for Pods and Integrated Systems 
+(RAMPOD) data is available for analysis of support and sustainment shortfalls. RAMPOD is 
+a reliability, availability, and maintainability logistics engineering support system for EA pods 
+and integrated systems. 
+2.16.10.  Ensure requests for legal review of directed energy weapons are forwarded through 
+the AFMC staff judge advocate to the Air Force Operations and International Law Directorate 
+(AF/JAO) on a timely basis in accordance with AFI 51-401, The Law of War. (T-0). 
+2.16.11.  Provide combined AF and Foreign Military Sales EW support in accordance with 
+AFI 10-703. 
+2.16.12.  Support the SIG as defined within its charter. 
+2.16.13.  Assign EW mission data software programmers into all EW acquisition programs 
+prior to establishment of Milestone A, as defined in the Manual for the Operation of the Joint 
+Capabilities Integration and Development System. Within the Joint Capabilities Integration 
+and Development System, a milestone marks the start or finish of a capability development 
+phase and has defined entrance or exit criteria. Milestone A is a review that occurs at the end 
+of the Materiel Solutions Analysis Phase in the Defense Acquisition Process and is led by a 
+milestone decision authority. Its purpose is to make a recommendation or seek approval to 
+enter the next phase of development, referred to as the Technology Maturation & Risk 
+Reduction Phase. 
+2.16.14.  Air Force Life Cycle Management Center (AFLCMC) and Air Force Sustainment 
+Center having EW self-protection (defensive EA) systems within their portfolio will coordinate 
+with the respective MAJCOM requirements communities on state of health reports identifying 
+key system shortfalls, gaps or future trends. These reports will be sent to AF/A2/6, the Director, 
+Current Operations (AF/A3O), the Director, Logistics (AF/A4L), and AF/A5L for follow-on 
+Air Staff actions. 
+2.16.15.  AFLCMC Architecture and Integration Directorate (AFLCMC/XA) is responsible 
+for charter maintenance, membership, agenda content, minute distribution and follow-on 
+actions. 
+ 
+ 
+16 
+DAFI10-706  2 JUNE 2021 
+2.17.  Air Force Special Operations Command. 
+2.17.1.  Assume operational lead for the AF special operations forces on innovative EW 
+concepts or sustainment (current and future) actions in accordance with DAFPD 10-9. Ensure 
+that identified EW gaps or shortfalls with common force application or force protection 
+functions are properly coordinated across the MAJCOMs. 
+2.17.2.  Establish a capability to conduct EW assessment program testing in accordance with 
+AFI 10-703. 
+2.17.3.  Be the focal point for developing and conducting graduate AF special operations forces 
+EW academic education programs. 
+2.17.4.  Coordinate with combat and mobility air forces concerning common EW systems and 
+training range emitter requirements. 
+2.17.5.  Support SIG as defined within the integrated product team’s charter. 
+2.18.  Air Mobility Command (AMC).  Coordinate with combat air forces agencies concerning 
+common EW systems and training range emitter requirements. AMC supports SIG as defined 
+within the integrated product team’s charter. 
+2.19.  Air Force Operational Test and Evaluation Center.  Manage and conduct DAF EW-
+related operational test and evaluation in accordance with AFI 99-103. Report results of major 
+operational test and evaluation events to AF/A5/7. 
+2.20.  National Air and Space Intelligence Center (NASIC).  In coordination with ACC and 
+AF/A2/6, collect and maintain data on all laser incidents involving AF aircraft. 
+2.21.  Space Operations Command (SpOC).  Note that some of these responsibilities may 
+transfer to the Space and Missile Systems/Space Systems Command or Space Training and 
+Readiness Command, once established as Field Commands. 
+2.21.1.  Assume operational lead for innovative space EW concepts or sustainment (current 
+and future) actions. SpOC will ensure space EW gaps are properly coordinated across the 
+MAJCOMs and FLDCOMs. Coordination is necessary to ensure accurate and complete 
+characterization of terrestrial and space environment effects. 
+2.21.2.  As appropriate, coordinate and comment on relevant space EW doctrine, policy, 
+capability development, requirements derivation, operational sustainment, or programmatic 
+issues with AF/A5L and other appropriate HAF organizations (e.g., AF/A2/6, AF/A3, AF/A4, 
+AF/A8P, DAF/JA, SAF/AQ, SF/S2/3/4/6/10, and SF/S5/8). 
+2.21.3.  Responsible for the space EW assessment program known as COMBAT MACE. 
+Coordinate with ACC on COMBAT MACE space EW assessments. 
+2.21.4.  Designated as the space lead for DAF EW Cell integration and associated training. 
+2.21.5.  Build operational-level space EW training objectives for Flag and AF Weapons School 
+exercises, including advanced and campaign-level training. 
+2.21.6.  Develop requirements for and fund scalable, modular, and interoperable space EW 
+systems and equipment. 
+ 
+ 
+DAFI10-706  2 JUNE 2021 
+17 
+2.21.7.  Support the SIG as defined within its charter. 
+2.21.8.  Develop, procure and sustain space EW systems, support equipment and training and 
+range equipment. 
+2.21.9.  Validate space training devices threat databases to ensure proper function and fidelity 
+of the simulators’ EW functions. Guidance on validation is provided in 5600-series Department 
+of Defense (DoD) and FLDCOM guidance. 
+18 
+DAFI10-706  2 JUNE 2021 
+Chapter 3 
+TRAINING, EDUCATION AND EXERCISES 
+3.1.  Introduction to EW Training.  This chapter provides a broad overview of basic to advanced 
+levels of EW training accomplished in the classroom, in-flight as a single aircraft and during large 
+force exercises. Proficiency in DAF EW operations begins with having quality training programs. 
+Training programs are required to have attainable objectives that are specific, relevant and 
+necessary. They address full-spectrum operations and use the full range of training devices, local 
+training operations, and exercises to hone individual skill sets. 
+3.2.  Levels of EW Training.  Basic, senior, continuation, and advanced levels of EW training 
+need to correspond to requirements at the tactical, operational and strategic levels of warfare. This 
+training is required to integrate both space EW and cyber capabilities as they relate to EW. 
+3.2.1.  Basic Level Training: AETC has oversight for conducting basic EW training. The 
+primary method for qualification is the completion of the appropriate formal training course 
+listed in the Education and Training course announcement. 
+3.2.2.  Senior Level Training: AETC will continue to provide an upper-level program that 
+focuses on the integration of full-spectrum information operations and cyber capabilities, as 
+they pertain to EW, into the campaign plan. 
+3.2.3.  Continuation Training: MAJCOMs and FLDCOMs will define both individual and 
+crew EW training requirements across all skill levels. 
+3.2.3.1.  Rated (EW officer AF specialty code) continuation training will be required for 
+the personnel assigned to wing or below levels. (T-3). Training is outlined in each aircraft 
+platform’s respective 11-series AF instructions. 
+3.2.3.2.  Individuals holding an “E” prefix and used to fill an EW-related request for forces 
+from the acquisition, engineering, test and evaluation, communications or intelligence 
+communities are required to be mission-ready in accordance with HAF, MAJCOM or 
+numbered air force guidance prior to deployment. 
+3.2.4.  EMS data collected from operational reconnaissance missions should be fed into virtual 
+and simulated environments employed for training. This requires close collaboration between 
+the intelligence community, operational air forces, and simulation environment developers. 
+3.2.5.  Advanced Level Training: The combat air forces, in coordination with AETC, have 
+oversight for advanced EW training above the unit level. Advanced EW training provides an 
+in-depth knowledge of national assets, EA targeting and joint/combined operations necessary. 
+This training equips the commander to employ integrated EW capabilities in an effort to meet 
+operational objectives. Note: Hands-on, in-depth graduate-level engineering courses are 
+available to EW acquisition and engineering professionals through the EW T&E University, 
+operated and maintained by the 771st Test Squadron, 412th Electronic Warfare Group, 
+Edwards Air Force Base (AFB), California. EW testing requires an extensive understanding of 
+threat systems, threat modes, range assets, and various EW systems undergoing developmental 
+or operational testing. Engineers need to understand the importance of emerging threats,  
+ 
+ 
+DAFI10-706  2 JUNE 2021 
+19 
+proliferation, threat laydowns and threat functionality to better develop effective test 
+methodology. EW T&E University provides classified course offerings that are not available 
+to the general public. The courses are intended to provide an array of EW knowledge to 
+beginner engineers as well as build, develop and maintain EW engineering expertise for those 
+more experienced professionals. 
+3.3.  Coalition Operations.  Coalition operations create unique challenges on the battlefield. 
+Therefore, the entire DAF EW community should support the development of courses enabling 
+training and operations with partner nations. This includes maintaining awareness of foreign 
+system capabilities to determine their interoperability within a coalition environment. 
+3.4.  EW Exercises.  The culmination of EW effectiveness and integration is best evaluated during 
+exercises. EW exercises should address force application and force protection tactics, techniques 
+and procedures. These exercises should measure how well specific EW capabilities support air 
+expeditionary force requirements. 
+3.4.1.  Exercises can take on many levels of sophistication ranging from unit-level exercises to 
+Air Expeditionary Force preparation. Whenever possible, the 57th Operations Group and 
+similar opposing force organizations should be incorporated to emulate adversary EW from 
+ground, air, space, or cyberspace. The mission of the 57th Operations Group, located at Nellis 
+Air Force Base, Nevada, is to educate, exercise and advocate integration of airpower into the 
+joint fight and to support the preparation of combat air forces maintainers and aircrews while 
+it trains AF leaders and enhances their combat preparation. Exercise scenario developers must 
+use EW targets and effects in the battlespace since non-kinetic attacks are challenging to 
+integrate into scripts. (T-3). 
+3.4.2.  Large force exercises will incorporate both offensive and defensive EA activities. (T-
+3). SERENE BYTE reprogramming activities, as described in AFI 10-703, should be 
+considered for inclusion during all large force exercises. Where possible, activities should 
+include other Services and allied partners to fully exploit joint and/or combined operational 
+training opportunities. 
+3.5.  Training Requirements.  Organizations employing EW resources should regularly analyze 
+their EW training and their associated enablers to modify or establish new training requirements 
+as needed. MAJCOMs and FLDCOMs are required to assess the quality of EW training and 
+identify any gaps or shortfalls. 
+20 
+DAFI10-706  2 JUNE 2021 
+Chapter 4 
+MATERIEL DEVELOPMENT, SUSTAINMENT AND READINESS 
+4.1.  Development.  In accordance with 10 U.S.C. § 9013 and DoDD 5100.01, Functions of the 
+Department of Defense and Its Major Components, the Secretary of the Air Force is responsible 
+for, and has the authority necessary to conduct all affairs of the Department of the Air Force 
+including organizing, supplying, equipping (including research and development), maintaining, 
+construction, outfitting, and repairs of military equipment, and training. The Joint Capabilities 
+Integration and Development System is used to determine the requirement for and support of the 
+acquisition of an EW materiel solution to a validated capability gap. The Joint Capabilities 
+Integration and Development System is a key component of the capabilities-based planning 
+process and operates with the planning, programming, budgeting, and execution process. The 
+guidance contained in this document does not take precedence over that found in AFI 10-601 when 
+validating EW requirements. In addition, information from this document is required to be used in 
+concert with the guidance found in AFI 63-101/20-101. 
+4.1.1.  MAJCOMs and FLDCOMs will develop requirements and will acquire, field, operate, 
+and sustain EW capabilities and EW-related systems to achieve certain effects. Those effects 
+are aimed to control the electromagnetic environment in support of the Air Force and Space 
+Functions in Enclosure 6 of DoDD 5100.01. 
+4.1.2.  Developers, operators, planners and subject matter experts involved in developing new 
+EW systems are required to understand the electromagnetic environment. That understanding 
+is critical to ensure fielded systems can achieve desired effects and prevent undesired effects. 
+These fielded capabilities are required to be deconflicted with other capabilities being 
+employed in or across the entire battlespace to prevent fratricide within the electromagnetic 
+spectrum. 
+4.1.2.1.  EA systems require spectrum supportability documentation processed through the 
+Joint Staff, Military Command, Control, Communications, and Computers Executive 
+Board Equipment Support Working Group and included into the DoD Joint Spectrum Data 
+Repository. 
+4.1.2.2.  EA system developers are required to submit spectrum supportability risk 
+assessment in accordance with Department of Defense Instruction (DoDI) 4650.01, Policy 
+and Procedures for Management and Use of the Electromagnetic Spectrum. 
+4.1.3.  Test and evaluation relies on support from the acquisition and exploitation activities of 
+the AF Foreign Materiel Program to provide data on the technical and operational 
+vulnerabilities of foreign systems. 
+4.1.3.1.  Valid EW-related testing necessitates an environment that is practical and 
+faithfully represents operations. Therefore, AF Foreign Materiel Program provides 
+representative systems to the maximum extent possible. AFMC test and evaluation 
+organizations provide threat-representative EW systems when Foreign Materiel Program 
+assets are not available. 
+ 
+ 
+DAFI10-706  2 JUNE 2021 
+21 
+4.1.3.2.  Test and evaluation development includes a systematic understanding of the 
+concept of threat employment, capability and proliferation. This understanding is critical 
+to prioritize acquisition of adversary systems or upgrades to older systems. DAF officials 
+will incorporate conclusions from the Foreign Materiel Program or foreign materiel 
+exploitation to hone documents related to targets and threat analysis. (T-3). Efforts to 
+prioritize resources should consider exploiting traditional IADS emitters and when 
+appropriate, non-IADS emitters. 
+4.1.3.3.  EW capability developers should make every effort to integrate developmental, 
+operational, and tactics development test events. Although these three distinct test 
+disciplines pursue different objectives, integrated testing allows programs to efficiently 
+collect and analyze data in common, while saving on costly and limited test range 
+resources. 
+4.2.  Sustainment.  This section provides guidance to organizations charged with EW sustainment 
+efforts related to EW integrated reprogramming and test and evaluation. 
+4.2.1.  EW integrated reprogramming is a systematic process designed to increase aircrew 
+survivability and mission success. This process is designed to operate in an environment in 
+which friendly, neutral and hostile systems all use the electromagnetic spectrum. EW 
+integrated reprogramming provides all operators with a timely and accurate means to detect, 
+identify and respond to electromagnetic emissions. EW integrated reprogramming functions 
+are governed by AFI 10-703, Electronic Warfare (EW) Integrated Reprogramming. 
+4.2.2.  DAF will move from existing EW integrated reprogramming paradigms to new 
+reprogramming paradigms that will effectively support operations in complex EMS 
+environments, employ software-defined/software-intensive systems and operate with open 
+systems principles. 
+4.2.3.  Guidance on testing of EW-related mission data software changes, minor system 
+software changes and minor hardware changes is outlined in AFI 99-103 and AFI 17-220. 
+CJCSM 3212.02E establishes requirements for performing EA in the US and Canada for 
+testing, training, or exercises. Users shall collect spectrum-related data and administer it 
+according to the requirements of DoDI 8320.05, Electromagnetic Spectrum Data Sharing. (T-
+0). 
+4.3.  Readiness. 
+4.3.1.  MAJCOMs and FLDCOMs establish readiness standards for EW systems based on their 
+operational requirements to ensure sufficient numbers of fully mission-capable systems are 
+available to meet operational commitments. Lead MAJCOMs and FLDCOMs conduct 
+readiness assessments of EW systems associated with their weapons platforms on at least an 
+annual basis. 
+4.3.1.1.  COMBAT SHIELD is the lead USAF air EW assessment program and is 
+responsible for advising, as requested, all MAJCOM-specific EW assessment programs. 
+The COMBAT SHIELD program will be prepared to support all MAJCOMs by offering 
+airframe-specific EW readiness assessments. (T-3). 
+ 
+ 
+22 
+DAFI10-706  2 JUNE 2021 
+4.3.1.2.  Fighter, bomber, and rescue aircraft unit commanders will conduct EW system 
+readiness assessments using the COMBAT SHIELD program. (T-3). Other aircraft types 
+should model their readiness assessments after the COMBAT SHIELD example whenever 
+possible. 
+4.3.1.3.  COMBAT MACE is the lead space EW assessment program and is responsible 
+for advising, as requested, all FLDCOM-specific space EW assessment programs.  The 
+COMBAT MACE program will be prepared to support all FLDCOMs by offering space 
+EW platform readiness assessments. (T-3). 
+4.3.1.4.  AMC will conduct EW assessments in accordance with technical orders. AMC 
+will seek COMBAT SHIELD assistance, as required. 
+4.3.2.  MAJCOMs/FLDCOMs assess EW support equipment and training devices (e.g., 
+systems used for electromagnetic signal recognition, electromagnetic attack or ES training). 
+MAJCOMs/FLDCOMs should take advantage of all opportunities to exercise their respective 
+systems and support equipment to determine operational status. 
+4.3.3.  AFI 10-201, Force Readiness Reporting requires wing-level or delta-level and below 
+unit commanders will report readiness of EW systems in the Defense Readiness Reporting 
+System. 
+DAFI10-706  2 JUNE 2021 
+23 
+Chapter 5 
+LEADERSHIP 
+5.1.  DAF EMS Superiority Strategy.  The Chief of Staff of the Air Force provides the strategic 
+vision for EMS superiority. DAF recognizes EW is a maneuver force able to project power through 
+air, space, and cyber domains providing varied options from temporal effects through physical 
+destruction. Deputy Chief of Staff for Strategy, Integration, and Requirements (AF/A5/7) 
+established the EMS Superiority Directorate (AF/A5L) based upon multiple studies and analysis 
+conducted, completed, and approved over the last decade. 
+5.2.  Air Force EW Roadmap Reporting.  AF/A5L will own and submit an annual “report card” 
+to AF/A5/7 assessing progress against each EW roadmap milestone. AF/A5L is responsible for 
+updating this document and coordinating those changes with enterprise stakeholders. 
+5.3.  Spectrum Integration Group (SIG).  This is the DAF corporate body for facilitating 
+effective integrated management of DAF EW across DOTMLPF-P. 
+5.3.1.  The SIG is chaired by AF/A5L and is responsible for the most effective and efficient 
+utilization of materiel capabilities, including requirements refinement and endorsement, 
+technology and system development, procurement and fielding, sustainment and upgrading, 
+and eventual retirement. It sets the objectives and provides recommendations to the Secretary 
+of the Air Force, Chief of Staff of the Air Force, and Chief of Space Operations. The SIG shall 
+meet annually in order to support the planning, programming, budgeting, and execution 
+process. 
+5.3.2.  Membership in this organization is comprised of general officer/senior executive 
+service stakeholders from the HAF, Air Reserve Component, MAJCOMs, FLDCOMs, and 
+other vested organizations [e.g., National Security Agency, sister Services, the Joint Staff 
+Cyberspace and Electronic Warfare Operations Division (J-39)]. Leadership from the AF 
+reprogramming centers (in accordance with AFI 10-703) are key members of this group. 
+5.4.  EW Test and Evaluation (T&E) Consortium.  The AF EW T&E Consortium works test 
+and evaluation efforts through the SIG and AF/TE. Chaired by AF/TE, the AF EW T&E 
+Consortium membership consists of senior representatives at the O-6 level or civilian equivalents 
+(or their designated representative) from the MAJCOMs/FLDCOMs and test organizations with 
+an interest in the test and evaluation of EW systems. The EW T&E Consortium is the AF agent 
+for coordinating EW T&E activities including 1) recommending lead test organizations, 2) 
+prioritizing test facility use and modernization, 3) standardizing test practices, and 4) reducing 
+duplication and increasing efficiencies and effectiveness. 
+24 
+DAFI10-706  2 JUNE 2021 
+Chapter 6 
+PERSONNEL 
+6.1.  Force Development.  This chapter provides guidance concerning specialized manning, 
+readiness, proficiency, and expertise to increase the DAF’s ability to maximize each component 
+of EW operations. 
+6.1.1.  DAF EW personnel are required to be ready to operate at the strategic, operational, and 
+tactical levels of warfare. Maintaining a professional fighting force requires personnel with in-
+depth knowledge of their EW specialty and an awareness of other information-related 
+capabilities. Career progression should facilitate development of this expertise and 
+familiarization of these disciplines within individual career paths. This knowledge and 
+experience is tracked so personnel are readily identifiable for additional training opportunities 
+or assignments. 
+6.1.2.  The primary method for identifying and tracking rated EW expertise (AF-wide) is the 
+AF specialty code. Individuals not in possession of an EW officer AF specialty code but having 
+critical EW expertise are distinguished via an “E” prefix to their primary AF specialty code. 
+To ensure adequate expertise is available the following tasks are accomplished: 
+6.1.2.1.  MAJCOM Operations (MAJCOM/A3) or USSF FLDCOM Operations 
+(FLDCOM/S3) divisions will identify which non-EW officer AF or Space Force specialty 
+code officer positions require specialized EW knowledge and experience to their 
+MAJCOM Manpower (MAJCOM/A1) or Space Force equivalent counterparts. These 
+positions include but are not limited to pilots, navigators, and operators (cyberwarfare and 
+space control expertise), along with EW-related platform maintenance, intelligence, 
+engineering, and acquisitions personnel. 
+6.1.2.2.  AF/A5L has oversight for “E-prefix” management including recruiting, training, 
+assignments, and career development studies or reports. AF members may contact the local 
+manpower office to obtain details on the current unit manning document with “E” prefixes 
+attached to MAJCOM authorized AF specialty codes. 
+6.1.3.  MAJCOMs/FLDCOMs will manage their respective EW force structure to ensure their 
+organizations have available resources for all documented unit manning document positions. 
+6.1.4.  MAJCOMs/FLDCOMs utilizing special experience identifiers to fill information 
+operations or information-related capability career force billets will also ensure their EW 
+experts are easily identifiable. They will also ensure these experts are distinct from those with 
+proficiency in offensive cyber operations, space operations or military information support 
+operations. These distinctions are required to meet DAF operational tasks. Policy on DAF 
+operational tasks is provided in DAFPD 10-4, Operations Planning: Air & Space 
+Expeditionary Force (AEF). 
+6.2.  EW Manpower Requirements.  MAJCOMs will assess their EW manpower requirements 
+(e.g., operations, maintenance, logistics, intelligence, mission data engineers, and associated 
+support staffs) and forward this information to AF/A3T for follow-on action. In turn, HAF 
+directorates will do the following: 
+DAFI10-706  2 JUNE 2021 
+25 
+6.2.1.  A5L, in coordination with AF/A3T, will assess authorized billets against MAJCOM 
+requirements and fill positions requiring EW expertise. 
+6.2.2.  The Director, Manpower, Organization, and Resources (AF/A1M) will determine the 
+number of authorizations earned, correct grades and skill levels based on man-hour and 
+workload factors. 
+26 
+DAFI10-706  2 JUNE 2021 
+Chapter 7 
+FACILITIES 
+7.1.  Types of Facilities.  EW operators, maintainers, engineers, and analysts require different 
+types of facilities to provide operational EW capability to the warfighter. Facilities including 
+laboratories for development and sustainment, installed systems test facilities, test and training 
+ranges, and associated instrumentation are needed to test, train, and prepare for combat operations. 
+7.1.1.  EW laboratories, ranges, and associated instrumentation support the EW development, 
+demonstration, T&E, and sustainment efforts needed to successfully operate in a congested 
+and contested electromagnetic environment. These EW facilities are required to maintain the 
+ability to generate up-to-date red, gray, blue, or white signals in order to accurately simulate 
+the congested and contested electromagnetic environment of anti-access and/or area denial 
+environments.  They include: 
+7.1.1.1.  Anechoic RF Test Facilities: The Air Force Test Center operates anechoic RF 
+facilities with a broad range of capabilities. It supports the research, developmental and 
+operational test communities, industry, and US-allied foreign militaries (i.e., partner 
+nations) in the execution of EW and other RF test requirements. Anechoic facilities are 
+used to absorb RF energy to reduce the electromagnetic reflections. This, in turn, simulates 
+open-air environments within acceptable limitations based on frequency, the size of the 
+facility, and the system undergoing testing. The quiet RF environment allows for military 
+standard electromagnetic interference and compatibility testing on various EW systems and 
+other avionics. Additionally, anechoic facilities allow testing in a highly secure and 
+controlled environment. 
+7.1.1.2.  The Benefield Anechoic Facility at Edwards AFB supports installed systems 
+testing for avionics test programs requiring a large, shielded chamber with RF absorption 
+capability that simulates the open-air environment. The Benefield Anechoic Facility 
+provides the capability to: 
+7.1.1.2.1.  Investigate and evaluate anomalies associated with EW systems, avionics, 
+tactical missiles and their host platforms. 
+7.1.1.2.2.  Accommodate tactical-sized (single or multiple) or large vehicles that can 
+be operated in a controlled electromagnetic environment with emitters on and sensors 
+stimulated while RF signals are recorded and analyzed. 
+7.1.1.2.3.  Generate RF signals with a wide variety of characteristics, simulating 
+red/gray/blue/white surface-based, sea-based, and airborne systems. 
+7.1.1.2.4.  Produce combination of signals and control functions emulating a wide 
+variety of test conditions. 
+7.1.1.2.5.  Generate conditions that are not available on outdoor ranges from the aspect 
+of signal density, pulse density, and number of simultaneous types. 
+7.1.1.2.6.  Have the capabilities for real-time and post-test RF signal parameter 
+measurement, instrument display recording, data analysis and test coordination, as well 
+as providing the data for signal verification. 
+DAFI10-706  2 JUNE 2021 
+27 
+7.1.2.  Working together, the Joint Preflight Integration of Munitions and Electronic Systems 
+facility and the Benefield Anechoic facility provide complementary anechoic chamber 
+capabilities. This combination of facilities effectively tests and fields RF-centric systems and 
+other avionics that must operate in a dense or high power electromagnetic environment. The 
+Air Force Test Center will work with program offices to determine which combination of 
+anechoic chamber test capabilities can best support test requirements based on technical 
+requirements, location, and schedule availability. (T-3). 
+7.1.3.  The Electronic Warfare Aviation Integration Support Facility at Robins AFB, Georgia 
+and mission data development labs at Eglin AFB, Florida and Robins AFB are equipped and 
+maintained to support the reprogramming process in accordance with AFI 10-703. 
+7.1.4.  The Digital Integrated Air Defense System Mission Simulation Laboratory provides a 
+verified and validated mission-level simulation of integrated air defense systems. It provides 
+the ability to model and test the effects of a variety of EW systems on the IADS, from end to 
+end, within an operationally representative scenario in size and density that is not available 
+elsewhere. This simulation’s strength lies in its ability to accurately model air picture 
+development. That more accurate model makes it a relevant tool for providing to testers and 
+trainers the answers for more effective systems and tactics. 
+7.1.5.  The Multi-Spectral Test and Training Environment provides a multi-use threat EW 
+capability supporting open-air and component-in-the-loop testing and training. The Multi-
+Spectral Test and Training Environment consists of a suite of fully instrumented threat air 
+defense systems. There are 13 primary threats that support multiple programs. A few additional 
+systems are dedicated for and funded by specific customers. The primary purpose of the Multi-
+Spectral Test and Training Environment systems is to support open-air testing. The systems 
+are also available to provide EW training for aircrews. The Multi-Spectral Test and Training 
+Environment also provides the capability to support open-air component-in-the-loop testing 
+using a tower complex, the Electronic Systems Test Facility. This enables developing and 
+testing EW algorithms and techniques. 
+7.1.6.  Hardware-in-the-loop simulation facilities include the Guided Weapons Evaluation 
+Facility at Eglin AFB. The Guided Weapons Evaluation Facility supports testing of domestic 
+munitions systems and, in its EW role, provides infrared countermeasure hardware-in-the-loop 
+testing to evaluate the effectiveness of countermeasure systems to defeat electro-optical and 
+infrared threat missiles. In order to provide effectiveness evaluations, the Guided Weapons 
+Evaluation Facility maintains and operates validated hardware-in-the-loop simulations 
+employing actual threats against simulated targets emitting in the optical band of the threat 
+missile. These simulations allow thousands of simulated engagements under varying aircraft 
+operating conditions to determine if flares, directed energy, or laser countermeasures are 
+effective in defeating threat missile guidance systems. 
+7.2.  Test and Training Ranges.  The DAF test and training range infrastructure: 
+7.2.1.  Provides open-air operation in support of air-to-air and air-to-ground weapons 
+developmental and operational test and evaluation for DoD, non-DoD and commercial 
+customers. 
+28 
+DAFI10-706  2 JUNE 2021 
+7.2.2.  Includes mission scheduling, test and training resources, test operations, and test 
+analysis.  All of these functions serve to support test programs for weapons systems; command, 
+control, communications and computers; and intelligence, surveillance and reconnaissance. 
+7.2.3.  Supports MAJCOM/FLDCOM EW investment and modernization efforts. 
+7.3.  MAJCOM/FLDCOM Facilities Responsibilities.  MAJCOMs/FLDCOMs will: 
+7.3.1.  Acquire, maintain, and sufficiently fund T&E facilities such as integrated system test 
+facilities, like those at Arnold, Edwards and Eglin Air Force Bases and mission simulation 
+laboratories at Arnold, Edwards, Eglin, Holloman, and Kirtland Air Force Bases which provide 
+key T&E capabilities to ensure EW programs meet validated operational requirements. 
+Conducting EW testing in these facilities enables the identification of issues prior to open-air 
+testing, and reduces the expensive and time-consuming “fly-fix-fly” process. These facilities 
+support: 
+7.3.1.1.  EW range test and training operations. 
+7.3.1.2.  Anechoic RF test facilities for antenna tests, installed systems tests, and RF 
+interoperability or compatibility tests. 
+7.3.1.3.  Building and maintaining live-virtual-constructive EW operations. 
+7.3.1.4.  Operation of hardware-in-the-loop capabilities to support evaluation of aircraft 
+self-protection systems against ground and airborne threat missile systems, intelligence, 
+surveillance and reconnaissance systems, and radar systems. An example of this capability 
+exists at Edwards AFB in the Integrated Facility for Avionics Systems Test. 
+7.3.1.5.  Operation of hardware-in-the-loop capabilities to support evaluation of guidance, 
+navigation and geo-location systems in threat-representative navigation warfare 
+environments such as the 746th Test Squadron’s Navigation Test and Evaluation 
+Laboratory. 
+7.3.2.  Ensure DAF EW test activities will utilize DoD test facilities for applicable tests to the 
+maximum extent possible in accordance with AFI 99-103. 
+ 
+S. CLINTON HINOTE, Lt Gen, USAF 
+DCS, Strategy, Integration, and Requirements 
+DAFI10-706  2 JUNE 2021 
+29 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+Title 10 United States Code, Armed Forces 
+Department of Defense Dictionary of Military and Associated Terms, June 2020 
+DoD Directive 5100.01, Functions of the Department of Defense and Its Major Components, 21 
+December 2010 
+DoD Instruction 4650.01, Policy and Procedures for Management and Use of the 
+Electromagnetic Spectrum, 9 January 2009 
+DoD Instruction 8320.05, Electromagnetic Spectrum Data Sharing, 18 August 2011 
+CJCSM 3212.02E, Performing Electronic Attack in the U.S. & Canada for Tests, Training, and 
+Exercises, 17 June 2019 
+Joint Publication 3-85. Joint Electromagnetic Spectrum Operations, 22 May 2020 
+Manual for the Operation of the Joint Capabilities Integration and Development System, 31 
+August 2018 
+Air Force Glossary, 3 November 2020 
+DAFPD 10-4, Operations Planning: Air Expeditionary Force and Global Force Management, 4 
+April 2019 
+DAFPD 10-7, Information Operations, 4 August 2014 
+DAFPD 10-9, Lead Command Designation and Responsibilities for Weapons Systems, 8 March 
+2007 
+AFI 10-201, Force Readiness Reporting, 3 March 2016 
+AFI 10-601, Operational Capability Requirements Development, 6 November 2013 
+AFI 10-703, Electronic Warfare (EW) Integrated Reprogramming, 4 June 2014 
+AFI 10-801, Defense Support of Civil Authorities, 29 January 2020 
+AFI 17-220, Spectrum Management, 16 March 2017 
+AFI 33-322, Records Management and Information Governance Program, 23 March 2020 
+DAFI 33-360, Publications and Forms Management, 1 December 2015 
+AFI 51-401, The Law of War, 3 August 2018 
+AFI 63-101/20-101, Integrated Life Cycle Management, 30 June 2020 
+AFI 99-103, Capabilities-Based Test and Evaluation, 18 November 2019 
+AF Doctrine Annex 3-01, Counterair Operations, 6 September 2019 
+AF Doctrine Annex 3-51, Electromagnetic Warfare and Electromagnetic Spectrum Operations, 
+30 July 2019 
+30 
+DAFI10-706  2 JUNE 2021 
+Prescribed Forms 
+None 
+Adopted Forms 
+AF Form 847, Recommendation for Change of Publication 
+Abbreviations and Acronyms 
+ACC—Air Combat Command 
+AETC—Air Education and Training Command 
+AF—Air Force 
+AFB—Air Force Base 
+AFI—Air Force Instruction 
+AFLCMC—Air Force Life Cycle Management Center 
+AFMC—Air Force Materiel Command 
+AFOTEC—Air Force Operational Test and Evaluation Center 
+AFSOC—Air Force Special Operations Command 
+AMC—Air Mobility Command 
+CJCSM—Chairman of the Joint Chiefs of Staff Manual 
+DAF—Department of the Air Force 
+DAFI—Department of the Air Force Instruction 
+DAFPD—Department of the Air Force Policy Directive 
+DoD—Department of Defense 
+DoDI—Department of Defense Instruction 
+DOTMLPF-P—Doctrine, Organization, Training, Materiel, Leadership and Education, 
+Personnel, Facilities, Policy 
+EA—Electromagnetic Attack 
+EMS—Electromagnetic Spectrum 
+EO—Electro-Optical 
+EP—Electromagnetic Protection 
+ES—Electromagnetic Warfare Support 
+EW—Electromagnetic Warfare 
+FLDCOM—Field Command 
+HAF—Headquarters Air Force 
+IADS—Integrated Air Defense System 
+DAFI10-706  2 JUNE 2021 
+31 
+IR—Infrared 
+JCS—Joint Chiefs of Staff 
+JEMSO—Joint Electromagnetic Spectrum Operations 
+MAJCOM—Major Command 
+OPR—Office of Primary Responsibility 
+OSD—Office of the Secretary of Defense 
+RAMPOD—Reliability, Availability, and Maintainability for Pods and Integrated Systems 
+RF—Radio Frequency 
+SIG—Spectrum Integration Group 
+SpOC—Space Operations Command 
+T&E—Test and Evaluation 
+US—United States 
+USAF—United States Air Force 
+USSF—United States Space Force 
+Terms 
+Note—The purpose of this glossary is to help the reader understand the terms used in this 
+publication. It is not intended to encompass all pertinent terms. The Department of Defense 
+Dictionary of Military and Associated Termshttps://jdeis.js.mil/jdeis/new_pubs/dictionary.pdf, 
+and the Air Force Glossary https://www.doctrine.af.mil/External-Links/Air-Force-Glossary/ 
+contain standardized terms and definitions for DoD and DAF use respectively. 
+BLUE—Term used to describe the platforms, systems or the electromagnetic characteristics of 
+systems associated with US military users. 
+Capabilities-Based Planning—A planning methodology that identifies and provides capabilities 
+that the joint warfighter and supporting defense entities need to address a range of challenges. 
+Capabilities-based planning is planning under uncertainty to provide capabilities suitable for a 
+wide range of challenges and circumstances, all designed to achieve certain battlespace effects. 
+The AF uses a capabilities-based planning process based on analysis to identify required 
+capabilities and capability objectives. Joint Capabilities Integration and Development System 
+analysis and A5X capabilities-based planning are primary contributors to the AF planning process, 
+but top-down direction, urgent warfighter needs, technological opportunities, and experiments and 
+demonstrations provide other means for identifying the need for a new capability. 
+Capability—The ability to complete a task or execute a course of action under specified 
+conditions and level of performance. 
+Capability Gap—The inability to meet or exceed a capability requirement, resulting in an 
+associated operational risk until closed or mitigated. 
+ 
+ 
+32 
+DAFI10-706  2 JUNE 2021 
+COMBAT MACE—The USSF EW assessment program responsible for assessing the system 
+readiness of space systems and to provide local commanders with on-site analysis, feedback and 
+recommendations on how to improve operations and maintenance processes related to EW system 
+readiness.  Not applicable to USAF. 
+COMBAT SHIELD—The AF EW assessment program responsible for assessing the defensive 
+system readiness of combat air forces (CAF) aircraft by deploying assessment teams with 
+specialized equipment to provide senior leadership an independent assessment of the overall health 
+of CAF systems and to provide local commanders with on-site analysis, feedback and 
+recommendations on how to improve operations and maintenance processes related to EW system 
+readiness.  Not applicable to USSF. 
+COMPASS CALL—The primary offensive EA capability for the AF. It is currently fielded on 
+the EC-130H and will transition to the EC-37B. 
+Cyberspace—A global domain within the information environment consisting of the 
+interdependent network of information technology infrastructures and resident data, including the 
+internet, telecommunications networks, computer systems, and embedded processors and 
+controllers. 
+Cyberspace Operations—The employment of cyberspace capabilities where the primary purpose 
+is to achieve objectives in or through cyberspace. 
+Electromagnetic pulse—A strong burst of electromagnetic radiation caused by a nuclear 
+explosion, energy weapon, or by natural phenomenon, that may couple with electrical or electronic 
+systems to produce damaging current and voltage surges. 
+Electromagnetic Operational Environment—The background electromagnetic environment 
+and the friendly, neutral, and adversarial electromagnetic order of battle within the electromagnetic 
+area of influence associated with a given operational area. 
+Electromagnetic Spectrum Management—The operational, engineering, and administrative 
+procedures to plan and coordinate operations within the electromagnetic operational environment. 
+Its objective is to enable electronic systems to perform their functions in the intended environment 
+without causing or suffering unacceptable interference. 
+Electromagnetic Warfare (EW)—Military action involving the use of electromagnetic and 
+directed energy to control the electromagnetic spectrum or to attack the enemy. The three major 
+subdivisions within EW are: electromagnetic attack (EA), electromagnetic protection (EP), and 
+EW support (ES). 
+Electromagnetic Warfare (EW) Cell—Fully trained core of EW experts to coordinate and 
+execute operational EW activities to meet joint force commander objectives. 
+Electromagnetic Warfare Integrated Reprogramming—The process that fully integrates 
+operations, intelligence, communications, logistics, and other support functions to provide changes 
+to reprogrammable EW equipment hardware and software, tactics, and equipment settings. 
+Emitters—Devices that transmit electromagnetic energy. 
+ 
+ 
+DAFI10-706  2 JUNE 2021 
+33 
+Function—The broad, general, and enduring role for which an organization is designed, equipped, 
+and trained. The DAF functions are those core duties and responsibilities the AF and Space Force 
+perform supported across doctrine, organization, training, materiel, leadership and education, 
+personnel, facilities, and policy. 
+Geomagnetic Disturbance—A storm in the Earth’s magnetosphere that occurs when there is a 
+very efficient exchange of energy from the solar wind into the space environment surrounding 
+Earth. These storms result from variations in the solar wind that produces major changes in the 
+currents, plasmas, and fields in Earth’s magnetosphere. 
+GRAY—Term used to describe the platforms, systems or the electromagnetic characteristics of 
+systems associated with non-US, non-hostile military users. Examples: 
+Countries or coalitions traditionally identified as US allies (UK, CAN, AUS, NATO, 
+etc.). Countries or coalitions identified as neutral or unknown in their alliance with 
+US. US systems sold to other countries through foreign military sales or similar 
+processes. Different organizations may be assigned different parts of GRAY to 
+comply with existing laws and DoD, joint or service policies. 
+Joint Capabilities Integration and Development System—Supports the Chairman of the Joint 
+Chiefs of Staff and the Joint Requirements Oversight Council in identifying, assessing, and 
+prioritizing joint military capability needs as required by law. Additionally, Joint Capabilities 
+Integration and Development System is a key element in the Chairman's effort to realize the 
+initiatives directed in the Transformation Planning Guidance. 
+Materiel Solution—A new item (including ships, tanks, self-propelled weapons, aircraft, etc., and 
+related spares, repair parts, and support equipment, but excluding real property, installations, and 
+utilities) developed or purchased to satisfy one or more capability requirements (or needs) and 
+reduce or eliminate one or more capability gaps. 
+Operational Test and Evaluation—The field test, under realistic conditions, of any item (or key 
+component) of weapons, equipment, or munitions for the purpose of determining the effectiveness 
+and suitability of the weapons, equipment, or munitions for use in combat by typical military users; 
+and the evaluation of the results of such tests. In addition, operational test and evaluation provides 
+information on organization, personnel requirements, doctrine, and tactics. Within the AF, the Air 
+Force Operational Test and Evaluation Center (AFOTEC), and MAJCOMs conduct operational 
+test and evaluation. 
+RED—Term used to describe the platforms, systems or the electromagnetic characteristics of 
+systems associated with hostile (non-US) users. 
+Reliability, Availability, Maintainability for Pods (RAMPOD)—Reliability, Availability, 
+Maintainability for Pods (RAMPOD) is a multi-service program which captures maintenance, 
+status, and inventory of EW, precision attack and targeting, test, training, and radar pods. 
+RAMPOD was developed in 1982 as a result of the SEEK ICE initiative, which was a pod 
+procurement program. That program identified the need to have a maintenance data collection 
+system that would capture all aspects of pod scheduled and unscheduled events and provide users 
+with usable performance metrics. The AF EW programs currently supported include the ALQ-
+131/184/188 EA Pods, ALE-40/45/47 chaff/flare systems. 
+SERENE BYTE—Term used to describe the exercising of AF EW system changes. 
+34 
+DAFI10-706  2 JUNE 2021 
+User—An operational command or agency that receives or will receive benefit from an acquired 
+system. Combatant commands and their component commands are users. There may be more than 
+one user for a system. Because the military Services are required to organize, equip, and train 
+forces for the combatant commands, they also are seen as users for systems. The heads of other 
+DoD components are validation and approval authorities and are not viewed as users.  
+WHITE—Term used to describe the platforms, systems or the electromagnetic characteristics of 
+systems associated with non-military, non-hostile users 
+ 
+DAFI10-706  2 JUNE 2021 
+35 
+Attachment 2 
+AF EW SUPPORT TO JOINT TASK FORCES 
+A2.1.  Guidelines.  This attachment provides Service guidelines to commanders concerning DAF 
+EW during contingency operations. As always, JCS guidance takes precedence over the 
+information provided in this attachment. 
+A2.2.  EW Cell Roles and Responsibilities.  The DAF needs a fully trained core of EW Cell 
+experts to coordinate and execute operational EW activities to meet joint force commander 
+objectives. The DAF EW Cell will: 
+A2.2.1.  Act as the joint force commander’s mechanism for coordinating and executing EW 
+operations within a theatre of operations including those involving a combined or joint task 
+force. (T-3). Responsibilities include EW planning, coordination/monitoring, source of advice, 
+line-of-fire deconfliction, as well as the traditional EA activities normally reserved for 
+offensive air operations and defensive activities associated with the force protection mission. 
+A2.2.2.  Work closely with the joint force commander’s EW staff or component equivalents 
+(as designated by the lead Service) to provide subject matter experts on DAF EW capabilities. 
+(T-3). 
+A2.2.3.  Coordinate as appropriate with the combined air operations center plans and 
+operations divisions, information operations, space, intelligence, battlefield coordination 
+detachment, J-6, or other cells as required by its assigned joint force commander function(s). 
+(T-3). 
+A2.2.4.  Act as the DAF’s primary agency for the deconfliction of intentional electromagnetic 
+emissions across Services and other coalition partners participating in the joint operational 
+construct. (T-3). 
+A2.2.5.  Provide constant liaison with the ground maneuver, intelligence, and communications 
+staffs/elements in order to synchronize combat operations. (T-3). 
+A2.2.6.  Locate in a secure area for the handling and storage of sensitive intelligence material, 
+within close proximity to component information operations staff, operations, space, 
+intelligence and communications interface shelter staff cells. (T-3). 
+A2.2.7.  Integrate with numbered air force headquarters/component staff during peacetime to 
+enable operational plan development, exercise planning and conducting effective EW training. 
+(T-3). 
+A2.2.8.  Provide DAF subject matter experts to support the expertise areas contained in Figure 
+A2.1. (T-3). 
+36 
+DAFI10-706  2 JUNE 2021 
+Figure A2.1.  EW Cell Subject Matter Expertise. 
+ 
+A2.3.  DAF EW Cell manning. 
+A2.3.1.  The chief of the EW Cell will be a senior DAF EW officer and designated by the 
+appropriate component commander. (T-3). This designated individual will be the combined air 
+operations center EW focal point to ensure proper coordination within the Information 
+Operations Cell and other specialty teams. (T-3). As a minimum, the chief will be cleared and 
+briefed into special technical operations; and strong consideration should be given to providing 
+the chief with a COAL WARFIGHTER, a special access program, in-brief. (T-3). All other 
+EW Cell personnel will be cleared to Top Secret/Special Compartmented Information. (T-3). 
+A2.3.2.  Manning levels must be commensurate with the scale of EW operations being 
+conducted. (T-3). In order to function correctly, liaison links must be established with 
+supporting commands as well as EW specialists from correlating capabilities and other 
+employed EW elements. (T-3). 
+ 

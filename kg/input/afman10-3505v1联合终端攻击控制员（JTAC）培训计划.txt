@@ -1,0 +1,3973 @@
+BY ORDER OF THE SECRETARY  
+OF THE AIR FORCE 
+ 
+AIR FORCE MANUAL 10-3505 
+VOLUME 1 
+7 NOVEMBER 2023 
+Operations 
+JOINT TERMINAL  
+ATTACK CONTROLLER  
+(JTAC) TRAINING PROGRAM 
+COMPLIANCE WITH THIS PUBLICATION IS MANDATORY 
+ 
+ACCESSIBILITY:  Publications and forms are available on the e-Publishing website at 
+www.e-Publishing.af.mil for downloading or ordering. 
+RELEASABILITY:  There are no releasability restrictions on this publication. 
+ 
+ 
+OPR: AF/A3S 
+Certified by: AF/A3S  
+(Colonel Leland K. Cowie II)
+Supersedes: 
+AFI13-112V1, 29 September 2017 
+Pages: 80 
+ 
+ 
+This manual implements Department of the Air Force Policy Directive (DAFPD) 10-35, Air Force 
+Special Warfare. This publication establishes the minimum Air Force standards for training, 
+certifying, and qualifying Air Force personnel as a Joint Terminal Attack Controller (JTAC) to 
+control Close Air Support (CAS) and other offensive air operations, and aligns with the Joint Fire 
+Support Executive Steering Committee Action Plan Memorandum of Agreement (JFS ESC AP 
+MOA) 2004-01 (JTAC) (Ground), referred to as the JTAC MOA. This publication applies to all 
+DAF civilian employees and uniformed members of Regular Air Force, the Air Force Reserve, the 
+Air National Guard, and those who are contractually obligated to comply with the terms of DAF 
+issuances and who are engaged in JTAC Training. This publication does not apply to the United 
+States Space Force. This publication requires the collection and/or maintenance of information 
+protected by the Privacy Act of 1974 authorized by Title 10, United States Code (U.S.C.) Section 
+9013, Secretary of the Air Force. The applicable System of Records Notice(s) F036 AF PC C, 
+Military 
+Personnel 
+Records 
+System 
+is 
+available 
+at: 
+http://dpclo.defense.gov/Privacy/SORNs.aspx. Ensure all records generated as a result of 
+processes prescribed in this publication adhere to Air Force Instruction (AFI) 33-322, Records 
+Management and Information Governance Program, and are disposed in accordance with (IAW) 
+the Air Force Records Disposition Schedule, which is located in the Air Force Records Information 
+Management System. Refer recommended changes and questions about this publication to the 
+office of primary responsibility (OPR) using the DAF Form 847, Recommendation for Change of 
+Publication; route DAF Forms 847 from the field through the appropriate functional chain of 
+command. This publication may be supplemented at any level, but all supplements must be routed 
+2 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+to the OPR of this publication prior to certification and approval. The authorities to waive wing or 
+unit level requirements in this publication are identified with a Tier (“T-0, T-1, T-2, T-3”) number 
+following the compliance statement, see Department of the Air Force Manual (DAFMAN) 90-
+161, Publishing Processes and Procedures. Submit requests for waivers through the chain of 
+command to the appropriate tier waiver approval authority, or alternately, to the publication OPR 
+at AF.A3S.Workflow@us.af.mil for non-tiered compliance items. The use of the name or mark 
+of any specific manufacturer, commercial product, commodity, or service in this publication does 
+not imply endorsement by the Department of the Air Force. Compliance with the attachments is 
+mandatory. 
+SUMMARY OF CHANGES 
+This document has been substantially revised and must be completely reviewed. Major changes 
+include (but are not limited to): changes the OPR from Headquarters Air Force (HAF), Aircrew 
+Training (AF/A3TC) to HAF, Air Force Special Warfare (AF/A3S); removes the term Initial 
+Qualification Training and replaces it with Initial Certification Training (ICT); incorporates new 
+certification and qualification standards IAW the JTAC MOA; removes the term standardization 
+and evaluations examiner (SEE) and replaces it with Joint Terminal Attack Controller-Evaluator 
+(JTAC-E); establishes criteria for contract CAS aircraft to meet JTAC training; and introduces 
+additional criteria for night terminal attack controls (TAC). Units will implement the new 
+publication in its entirety within 90 days of the publication date. 
+ 
+Chapter 1—PROGRAM OVERVIEW 
+ 
+5 
+1.1. 
+Overview. .................................................................................................................  
+5 
+1.2. 
+Purpose. ...................................................................................................................  
+5 
+1.3. 
+Key Terms and Definitions. .....................................................................................  
+5 
+Chapter 2—ROLES AND RESPONSIBILITIES 
+ 
+6 
+2.1. 
+The Deputy Chief of Staff for Operations (AF/A3). ................................................  
+6 
+2.2. 
+MAJCOM JTAC-Program Managers and the NGB TACP Functional Manager. ...  
+6 
+2.3. 
+Group Commanders with a JTAC Program. ............................................................  
+7 
+2.4. 
+Group JTAC-Program Manager. .............................................................................  
+7 
+2.5. 
+Group Weapons and Tactics. ...................................................................................  
+7 
+2.6. 
+Unit Commanders with a JTAC Program. ...............................................................  
+8 
+2.7. 
+Unit JTAC-Program Manager..................................................................................  
+8 
+2.8. 
+Unit Weapons and Tactics. ......................................................................................  
+9 
+2.9. 
+Individual JTAC. .....................................................................................................  
+10 
+Chapter 3—GUIDANCE AND PROCEDURES 
+ 
+11 
+3.1. 
+Individuals Assigned to Perform JTAC Duty. .........................................................  
+11 
+Table 3.1. 
+Personnel Authorized to Perform JTAC Duties. ......................................................  
+11 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+3 
+3.2. 
+Performance of JTAC duties. ...................................................................................  
+12 
+3.3. 
+JTAC Safety. ............................................................................................................  
+12 
+3.4. 
+Controller Limitations. .............................................................................................  
+13 
+3.5. 
+General Training Guidance. .....................................................................................  
+14 
+Table 3.2. 
+Requirements for High Performance Contract CAS Aircraft. .................................  
+14 
+3.6. 
+Formal Schoolhouse Guidance. ...............................................................................  
+15 
+3.7. 
+Deployment Process. ...............................................................................................  
+15 
+3.8. 
+Individual JTAC Transfers. .....................................................................................  
+15 
+Chapter 4—JTAC CERTIFICATION AND QUALIFICATION 
+ 
+16 
+4.1. 
+Purpose. ...................................................................................................................  
+16 
+4.2. 
+JTAC Instructors and Evaluators. ............................................................................  
+16 
+4.3. 
+JTAC Initial Certification Training. ........................................................................  
+19 
+Table 4.1. 
+Minimum JTAC Certification Controls. ..................................................................  
+19 
+4.4. 
+Formal JTAC Course Documentation. ....................................................................  
+20 
+4.5. 
+JTAC Mission Qualification Training (MQT). ........................................................  
+21 
+4.6. 
+JTAC Continuation Training (CT). ..........................................................................  
+23 
+Table 4.2. 
+Minimum JTAC Continuation Training (CT) Controls. ..........................................  
+24 
+4.7. 
+Ready Tasking Message (RTM). .............................................................................  
+25 
+4.8. 
+Loss of Currency. .....................................................................................................  
+25 
+4.9. 
+JTAC Training and Evaluation Folder. ....................................................................  
+26 
+Table 4.3. 
+JTAC Training and Evaluation Folder Table of Contents. ......................................  
+27 
+Chapter 5—JTAC JOINT MISSION TASK LIST 
+ 
+28 
+5.1. 
+Purpose. ...................................................................................................................  
+28 
+5.2. 
+Duty Area 01 – CAS Planning. ................................................................................  
+28 
+Table 5.1. 
+Duty Area 01 – Close Air Support (CAS) Planning Joint Mission Task List 
+(JMTL). ....................................................................................................................  
+28 
+5.3. 
+Duty Area 02 – CAS Preparation. ............................................................................  
+38 
+Table 5.2. 
+Duty Area 02 – CAS Preparation Joint Mission Task List. .....................................  
+39 
+5.4. 
+Duty Area 03 – CAS Execution. ..............................................................................  
+41 
+Table 5.3. 
+Duty Area 03 – CAS Execution Joint Mission Task List. .......................................  
+41 
+Chapter 6—SIMULATIONS 
+ 
+49 
+6.1. 
+JTAC Training Simulations. ....................................................................................  
+49 
+Attachment 1—GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+51 
+4 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+Attachment 2—GLOSSARY OF MISSION AND EVENT DEFINITIONS 
+ 
+61 
+Attachment 3—SPECIALIZED POSITION TRAINING TABLES 
+ 
+63 
+Attachment 4—JTAC TRAINING & EVALUATION FOLDER. 
+ 
+69 
+Attachment 5—EXAMPLE JTAC MQT PROGRAM 
+ 
+78 
+ 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+5 
+Chapter 1 
+PROGRAM OVERVIEW 
+1.1.  Overview.  As part of the Air Force Special Warfare mission to provide precision strike 
+across the spectrum of conflict, the Air Force trains JTACs to support combatant command 
+requirements. Per joint doctrine for CAS; a JTAC is a certified and qualified service member who, 
+from a forward position, directs the action of combat aircraft engaged in CAS and other offensive 
+air operations. A qualified JTAC is recognized across the Department of Defense (DoD) as capable 
+and authorized to perform TAC (reference Joint Publication (JP) 3-09.3, Close Air Support). 
+1.2.  Purpose.  The purpose of this manual is to ensure standardized JTAC training across the Air 
+Force. Additionally, this document defines the individuals in the Air Force authorized for JTAC 
+duties and establishes the Tactical Air Control Party (TACP) 1Z3X1 and TACP Officer 19ZXB 
+Air Force Specialty Codes (AFSCs) as JTAC-inherent. Adherence to this AFMAN ensures that 
+Air Force JTACs meet all the requirements outlined in the JTAC MOA and JP 3-09, Joint Fire 
+Support. Air Force JTACs are recognized across the DoD and by JTAC MOA partner nations as 
+capable and authorized to perform TAC. 
+1.2.1.  This manual provides baseline guidance for conducting a JTAC ICT program. Air Force 
+unit JTAC training programs are governed by this AFMAN. Each unit with a JTAC program 
+will have a Master Training Plan. (T-1) 
+1.2.2.  Training programs should be tailored to meet the unit’s Mission Essential Tasks Lists 
+(METLs). In addition, units should style training programs towards preparation for upcoming 
+taskings or requirements IAW the unit’s Designed Operational Capability (DOC) or Mission 
+Essential Tasks. 
+1.2.3.  This manual provides guidance on the use of Ready Tasking Messages (RTMs). The 
+RTM is a major command (MAJCOM)-developed continuation training (CT) program to 
+improve proficiency of Air Force JTACs and to develop metrics that match resources with 
+required JTAC training requirements. 
+1.3.  Key Terms and Definitions. 
+1.3.1.  Certified JTAC:  A JTAC who has graduated a formal JTAC schoolhouse and 
+completed ICT with no deficiencies. 
+1.3.2.  Qualified JTAC:  An ICT complete JTAC who has completed mission qualification 
+training (MQT) and passed a JTAC evaluation. 
+1.3.3.  Current JTAC:  A qualified JTAC who has no CT deficiencies. 
+1.3.4.  Non-Current JTAC:  A qualified JTAC who has one or more CT deficiencies. 
+1.3.5.  Group:  Throughout this document, when referring to a “group”, the standard group is 
+an Air Support Operations Group (ASOG) or a Special Tactics Group. ANG units may not 
+always fall under a standard group. 
+1.3.6.  Wing:  Throughout this document when referring to a “wing”, the standard wing is an 
+Air Ground Operations Wing or Special Operations Wing. ANG units may not always fall 
+under a standard wing. 
+6 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+Chapter 2 
+ROLES AND RESPONSIBILITIES 
+2.1.  The Deputy Chief of Staff for Operations (AF/A3).  AF/A3 is responsible for matters 
+concerning JTAC training and operations. AF/A3, through the Director of Air Force Special 
+Warfare (AF/A3S) and the Air Force JTAC-Program Manager (JTAC-PM) establishes JTAC 
+training and operations policy, programming, and requirements. 
+2.1.1.  Establish policy and guidance for the execution of all Air Force JTAC programs. 
+2.1.2.  Serve as the Air Force lead agency for JTAC issues. Provide Air Force coordination 
+and position to Joint Force and partner nation JTAC program issues, primarily through the 
+Joint Fire Support Executive Steering Committee (JFS ESC). 
+2.1.3.  Review all requests for MAJCOMs that do not have an established JTAC training 
+program and wish to establish one. 
+2.1.4.  Approve all automated training tracking products. 
+2.1.5.  Establish JTAC position requirements. 
+2.1.5.1.  Ensure MAJCOM-validated JTAC positions meet the established requirements. 
+2.1.5.2.  Review and provide AF JTAC requirements and inventory for Joint Staff 
+inquiries. 
+2.1.6.  Resolve training issues that arise between MAJCOMs. 
+2.1.7.  Review and process all changes to this manual and coordinate all changes with 
+appropriate MAJCOMs and the ANG. 
+2.1.8.  Review and process all waivers and supplements to this manual. 
+2.1.9.  Publish an Air Force Guidance Memorandum to address time sensitive changes. 
+2.1.10.  Develop the Management Internal Control Toolset (MICT) checklist. 
+2.2.  MAJCOM JTAC-Program Managers and the NGB TACP Functional Manager. 
+2.2.1.  Ensure units work with their supported customer, if applicable, on the desired learning 
+objectives and frequency of joint training events and exercises. 
+2.2.2.  Submit MAJCOM JTAC position requirements to AF/A3S to be reviewed and approved 
+every three years. 
+2.2.3.  Track financial resources used to support JTAC training. 
+2.2.4.  Assign oversight for units that lack a group-level oversight capability. 
+2.2.5.  Review approved supplements to this AFMAN annually and forward all requested 
+MAJCOM supplements to AF/A3S for coordination. 
+2.2.6.  Resolve JTAC training issues within the appropriate MAJCOM or the NGB. 
+ 
+ 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+7 
+2.2.7.  Publish a command-authored RTM each fiscal year that covers the minimum number 
+of Full Mission Profiles (FMPs) required to meet mission proficiency requirements. Note: Air 
+Force Special Operations Command (AFSOC) is designated as the lead component within 
+United States Special Operations Command (USSOCOM) for the JTAC program. The AFSOC 
+JTAC program will ensure compliance with this manual and USSOCOM M350-5, Special 
+Operations Forces Baseline Interoperable Training Standards, Joint Terminal Attack 
+Controller, to maintain fluidity across its JTAC requirements.  
+2.3.  Group Commanders with a JTAC Program. 
+2.3.1.  Review approved supplements to this AFMAN annually. 
+2.3.2.  Ensure subordinate units comply with this manual. Provide staff support and assist units 
+in implementing and managing JTAC training to meet readiness requirements. If required, 
+forward recommended supplements to this manual and any supporting documents to the parent 
+MAJCOM for review. 
+2.3.3.  Designate in writing, a group JTAC-PM responsible for the oversight of group JTAC 
+programs and administration of unit JTAC records. Designation will be documented in the 
+individual’s JTAC training and evaluation folder. 
+2.3.4.  Designate in writing, a Group Chief of Weapons and Tactics (W&T) responsible for the 
+oversight of group-level W&T. Designation will be documented in the individual’s JTAC 
+training and evaluation folder. The Group Chief of W&T will be a graduate of the USAF JTAC 
+Weapons Instructor Course (WIC) with an awarded W-prefix or 262 Special Experience 
+Identifier (SEI). When no WIC graduate with a W-prefix or 262 SEI is available, the 
+commander will designate the most qualified JTAC for the position. 
+2.3.5.  Approve the group’s JTAC training program guidance. 
+2.4.  Group JTAC-Program Manager. 
+2.4.1.  Schedule and conduct assistance visits to subordinate units at the request of the 
+squadron commander or TACP-PM to ensure JTAC requirements of this AFMAN are 
+implemented and followed. 
+2.4.2.  In conjunction with Group W&T, review group-level and subordinate unit training 
+program guidance annually. 
+2.4.3.  Maintain a copy of JTAC training and evaluation folders for the group staff in an analog 
+or HAF-approved digital format. Note: AFSOC Automated JTAC Academic Currency 
+Tracking System is approved. 
+2.4.4.  Track JTAC training status for group staff and subordinate units. 
+2.4.5.  Prioritize and coordinate formal JTAC schoolhouse slots for all subordinate squadrons. 
+2.4.6.  Maintain a copy of Group assigned JTAC records for a period of 90 days. 
+2.5.  Group Weapons and Tactics. 
+2.5.1.  Designate a Chief of W&T IAW paragraph 2.3.4 of this publication. 
+2.5.2.  Develop and maintain JTAC and JTAC-Instructor (JTAC-I) lesson plans to support 
+training requirements and standardize training across the group. 
+8 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+2.5.3.  Assist the group JTAC-PM with reviewing group-level and subordinate unit training 
+plans and Operating Instruction (OI) annually. 
+2.5.4.  Establish and maintain liaison with higher headquarters acquisitions to identify fielding 
+timelines and develop academics and training for newly acquired equipment and technology. 
+2.5.5.  Conduct assistance visits of subordinate units W&T programs annually or as requested 
+by subordinate units. 
+2.5.6.  Collect, review, and submit subordinate units input for any requirements, working 
+groups, training boards, and tactics review boards. 
+2.5.7.  Work with assigned group intelligence personnel to ensure subordinate unit W&T and 
+intelligence personnel are collaborating to ensure all assigned personnel receive current 
+information on unit mission, enemy threats (current and projected), and expected combat 
+and/or theater conditions affecting mission execution. 
+2.6.  Unit Commanders with a JTAC Program. 
+2.6.1.  Designate, in writing, a JTAC-PM responsible for the administrative oversight of the 
+unit’s JTAC program and administration of unit JTAC records. Document the designation in 
+the individual’s JTAC training and evaluation folder to reflect the 280 SEI. 
+2.6.2.  Designate, in writing, a Chief of W&T responsible for the oversight of the unit’s JTAC 
+W&T program. Designation will be documented in the individual’s JTAC training and 
+evaluation folder. The Squadron Chief of W&T will be a graduate of the JTAC WIC with an 
+awarded W-prefix or 262 SEI. When no WIC graduate with a W-prefix or 262 SEI is available, 
+the commander will designate the most qualified JTAC for the position. 
+2.6.3.  Define the local training area. When multiple units are assigned to the same location, 
+consensus among unit commanders will define the local area parameters to ensure 
+standardization and continuity. 
+2.6.4.  Approve the unit’s JTAC training program guidance. 
+2.6.5.  Approve individuals for entry into JTAC mission qualification training (MQT). 
+2.6.6.  Award SEI O9C, O9D, O9E, 914, 262, 279, and 281 as applicable IAW AFMAN 36-
+2100, Military Utilization and Classification, the Air Force Officer Classification Directory, 
+and the Air Force Enlisted Classification Directory. Note: SEIs O9D, O9E 279 and 281 are 
+additive to the members list of SEIs and do not replace SEI O9C or 914. 
+2.6.7.  Ensure unit simulator training managers and simulator operators are trained and 
+certified. 
+2.6.8.  Appoint an Information Systems Security Officer (ISSO) to provide oversight of 
+cybersecurity programs or functions involving management decisions for the administration of 
+assigned simulation systems. 
+2.7.  Unit JTAC-Program Manager. 
+2.7.1.  In conjunction with the unit W&T, develop the unit JTAC training program. The unit 
+training program will cover, at a minimum, JTAC MQT. If applicable, it will include a Ready 
+Tasking Message. 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+9 
+2.7.2.  Document the training program IAW unit program guidance. Unit program guidance 
+will include a local area orientation for newly assigned personnel documented on AF Form 
+797, Job Qualification Standard Continuation/Command JQS, AF Form 623A, On-the-Job 
+Training Record Continuation Sheet, or MAJCOM-approved digital format. 
+2.7.3.  Ensure JTACs are registered and use the current Air Force or approved USSOCOM 
+digital training system of record. 
+2.7.4.  Maintain JTAC training and evaluation records in a HAF-approved, digital tracking 
+system. AFSOC units shall use a USSOCOM-approved and funded digital tracking system, 
+provided it meets HAF guidelines. 
+2.7.5.  Document training in analog records if digital formats are unavailable. 
+2.7.6.  Certify all properly documented JTAC training on MAJCOM approved CAS log 
+format. 
+2.7.7.  Maintain a copy of JTAC training records for 90 days on all JTACs who Permanent 
+Change of Station/Permanent Change of Assignment, separate, or retire. 
+2.7.8.  Ensure a qualified JTAC tracking system is maintained on the Commander’s 
+Designation Letter(s) IAW this publication, Attachment 4. 
+2.7.9.  In conjunction with the JTAC-Evaluator-Program Manager (JTAC-E-PM), review all 
+JTAC training and evaluation folders, ensuring the period between review does not exceed 18 
+months. Review JTAC training and evaluation folders of newly assigned JTACs arriving on-
+station within 30 days (training days for ANG), and prior to any individual JTAC, JTAC-
+Instructor (JTAC-I), or JTAC-E evaluation. 
+2.7.10.  Track individuals in JTAC ICT and JTAC MQT for training timeline compliance; 
+report reasons for deficiencies to group semi-annually. 
+2.7.11.  Document any changes to qualification status in Part IV of the JTAC training and 
+evaluation folder. 
+2.7.12.  Ensure adherence to risk assessment process for TAC training missions. 
+2.7.13.  Maintain JTAC-I qualification. 
+2.8.  Unit Weapons and Tactics. 
+2.8.1.  Have a designated Chief of W&T. The designated Chief of W&T will be a graduate of 
+the JTAC WIC with an awarded W-prefix or 262 SEI. When no WIC graduate with a W-prefix 
+or 262 SEI is available, the commander will designate the most qualified JTAC for the position. 
+2.8.2.  Develop and maintain JTAC and JTAC-I lesson plans to support training requirements 
+and aligned unit METLs. 
+2.8.3.  Develop and maintain unit scenarios for live, virtual, and constructive TAC missions. 
+2.8.4.  In conjunction with the unit JTAC-PM, develop the unit training program. The unit 
+training program will cover, at a minimum, JTAC MQT. If applicable, it will include a Ready 
+Tasking Message. 
+2.8.5.  Assist the JTAC-PM with reviewing unit JTAC program guidance annually. 
+2.8.6.  Review unit scenarios annually. 
+10 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+2.8.7.  Maintain JTAC-I qualification. 
+2.9.  Individual JTAC. 
+2.9.1.  Maintain a minimum of JTAC qualification IAW paragraph 4.6 of this manual. 
+2.9.2.  Properly document all JTAC live, virtual, and constructive training in HAF-approved 
+CAS log format. 
+2.9.3.  Maintain certification documentation in JTAC training and evaluation folder. 
+2.9.4.  Review JTAC training and evaluation folder not to exceed every 18 months. 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+11 
+Chapter 3 
+GUIDANCE AND PROCEDURES 
+3.1.  Individuals Assigned to Perform JTAC Duty.  Only authorized personnel will perform 
+JTAC duties or conduct JTAC training. (T-1) Table 3.1 lists Air Force personnel authorized to 
+perform JTAC duties. Note: The OPR for this AFMAN is the waiver authority for personnel to 
+perform JTAC duties that are not listed in Table 3.1. 
+Table 3.1.  Personnel Authorized to Perform JTAC Duties. 
+1. JTAC Inherent 
+YES NO 
+1.1. 1Z3X1, Tactical Air Control Party (TACP).1 
+X 
+ 
+1.2. 19ZXB, Special Warfare Officer-TACP Officer.  
+X 
+ 
+2. Individual Authorizations 
+YES NO 
+2.1. 1Z2X1, Combat Control designated as JTAC by the commander and 
+occupying a 914-coded billet. 
+X 
+ 
+2.2. 19ZXA, Special Tactics Officer designated as JTAC by the commander and 
+occupying an O9C-coded billet. 
+X 
+ 
+2.3. JTAC-Instructor (JTAC-I) and JTAC-Program Manager (JTAC-PM). 
+X 
+ 
+2.4. JTAC-Evaluator (JTAC-E) & JTAC-Evaluator-Program Manager (JTAC-E-
+PM). 
+X 
+ 
+2.5. Rated Air Liaison Officers (ALO) assigned to an Air Force Special Warfare 
+(AFSPECWAR) unit and filling O9C-coded billets may perform JTAC duties 
+when authorized by the Wing or (NGB/A3J), Personnel Recovery/Special 
+Missions Division.  
+X 
+ 
+2.6. Air Force Civilians and Contractors whose statement of work requires 
+performing JTAC, JTAC-I, and/or JTAC-E duties.2, 3 
+X 
+ 
+3. Personnel Actions 
+YES NO 
+3.1. Individuals denied from bearing arms (not allowed access to weapons). 
+X 
+3.2. Individuals unable to perform duties due to Uniform Code of Military 
+Justice action or other adverse action (e.g., administrative or civil). 
+X 
+3.3. Individuals identified as drug or alcohol dependent. 
+X 
+3.4. Individuals authorized in this table who were classified as drug or alcohol 
+dependent but who have been subsequently cleared as NOT drug or alcohol 
+dependent by medical authority and approved by group commander. 
+X 
+ 
+3.5. Individuals enrolled in a substance abuse/dependency program. 
+X 
+3.6. Individuals who proclaim and are granted conscientious objector status IAW 
+DAFI 36-3211, Military Separations. 
+X 
+3.7. Individuals who do not possess a security clearance.1 
+X 
+3.8. Individuals who do not meet the Special Warfare Airmen (SWA) Medical 
+requirements IAW Department of the Air Force Manual (DAFMAN) 48-123, 
+Medical Examinations and Standards.4 
+X 
+12 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+Notes: 
+1. All JTACs or authorized personnel considered for JTAC upgrade must be eligible for Top 
+Secret/Secret Compartmented Information. (T-2) 
+2. Contractor support limitations. The engagement of contractors as a JTAC, JTAC-I, and/or 
+JTAC-E is subject to the limitation that contractors cannot perform inherently governmental 
+functions. (T-0) This in general restricts contractors from operational/combat roles outside of 
+the training environment. 
+3. Air Force civilians and contractors are not required to meet medical requirements unless 
+specified in their position description or contract. 
+4. Waivers or exceptions to policy for individuals who fail to meet the SWA medical standards 
+IAW DAFMAN 48-123 will be approved at MAJCOM level. (T-1) 
+3.1.1.  JTAC Inherency.  19ZXB and 1Z3X1 personnel must gain and maintain JTAC 
+certification and qualification as identified in the applicable classification directory. (T-1) 
+19ZXB or 1Z3X1 personnel who fail to obtain an initial JTAC certification or are decertified 
+IAW this AFMAN must be entered into retraining or be administratively removed from the 
+Air Force IAW paragraph 4.4.4 of this manual. (T-1) 
+3.1.2.  Exceptions. Once 19ZXB or 1Z3X1 personnel acquire the 914 or O9C SEI, they may 
+conduct duties in positions that do not require them to remain qualified JTACs (e.g., non-914 
+billet, staff tour, technical instructor). Once they return to a duty position that requires them to 
+perform JTAC duties, they must regain qualification, be moved into a non-JTAC position, be 
+retrained, or be separated from the Air Force. (T-1) 
+3.1.3.  JTAC inherent AFSCs and 19ZXA/1Z2s assigned to 914 billets have priority for 
+placement in formal JTAC training courses (e.g., TACP Initial Certification Course, JTAC 
+WIC, Air Force students to United States Marine Corps Weapons and Tactics Instructor). 
+Note: Priority for JTAC qualification courses does not include the Special Operations 
+Terminal Attack Controller Course. 
+3.2.  Performance of JTAC duties.  The following individuals must be or have previously been 
+JTAC certified: 
+3.2.1.  All personnel performing JTAC-PM and JTAC-I duty. (T-1) 
+3.2.2.  All personnel performing JTAC-E-PM and JTAC-E duty. (T-1) 
+3.2.3.  All AFSCs 19ZXA, 1Z2X1 occupying a SEI 914 or O9C-coded position. (T-1) 
+3.2.4.  All AFSCs 19ZXB and 1Z3X1 are JTAC-inherent AFSCs. (T-1) 
+3.3.  JTAC Safety.  Applying Air Force flight and ground safety standards is paramount during 
+the conduct of JTAC training. 
+3.3.1.  A qualified JTAC or JTAC-I will be physically located with any individual being 
+supervised/trained and be able to take control, if necessary. (T-1) 
+3.3.1.1.  Supervision by a qualified JTAC is required: 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+13 
+3.3.1.1.1.  When non-current on a specific control item. (T-1) For example: if a JTAC 
+is non-current for night missions, they can still control day missions unsupervised. 
+However, if they need to control a night mission, they need to be supervised by a JTAC 
+who is “green” for night missions. (T-1) 
+3.3.1.1.2.  When non-current in any category for greater than six months, but less than 
+24 months, all controls must be supervised by a qualified JTAC. (T-1) 
+3.3.1.2.  Supervision by a JTAC-I is required: 
+3.3.1.2.1.  When a JTAC does not hold a 914/O9C SEI, has failed to meet evaluation 
+standards, or is unqualified in any event for more than 24 months. (T-1) 
+3.3.1.2.2.  During live terminal attack control (TAC) for initial JTAC certification or 
+requalification, when instructing JTAC trainees, or when overseeing unqualified (24 
+months or greater) JTACs in live TAC. (T-1)  
+3.3.2.  A JTAC-I shall only instruct certification or qualification controls for which they are 
+current and qualified (e.g., if qualified on day controls, but unqualified on night controls, the 
+JTAC-I shall only instruct day controls). (T-1) 
+3.3.3.  JTACs and collocated personnel will adhere to local published range safety procedures 
+when conducting live TACs at air-to-ground range facilities. (T-1) In the event no local 
+procedures are published, JTACs will utilize, at a minimum, personal protective equipment 
+consisting of a helmet, body armor with plates inserted, and any additional items determined 
+by the range safety officer or senior ranking member. (T-1) All personnel will wear laser eye 
+protection IAW AFMAN 11-214, Air Operations Rules and Procedures, during laser 
+operations. (T-1) 
+3.4.  Controller Limitations. 
+3.4.1.  JTACs, JTAC-Is and JTAC-Es will not control, instruct, or evaluate live fly or simulated 
+aircraft if: 
+3.4.1.1.  Any alcohol, other intoxicating substance, or prescribed narcotic medication is 
+consumed within 12 hours prior to controlling duties; or, if still impaired by any of these 
+(or their aftereffects) even though they were consumed more than 12 hours prior to 
+controlling duties. (T-1) 
+3.4.1.2.  Anytime a physical or psychological condition is suspected or known to be 
+detrimental to the safe performance of controller duties. (T-1) Note: Consult with a flight 
+surgeon IAW Special Warfare Airmen medical standards at the earliest opportunity. 
+3.4.1.3.  While self-medicating, except IAW the “Official Air Force Aerospace Medicine 
+Approved Medications” in DAFMAN 48-123.  
+3.4.2.  When a flight surgeon completes a DD Form 2992, Medical Recommendation for 
+Flying or Special Operational Duty, and recommends duties not including controlling (DNIC) 
+status, unit commanders will use their discretion on what duties (e.g., simulators, academic 
+instruction) the individuals can perform that do not include control of live aircraft and/or 
+munitions. (T-1) Unit commanders accept any risk taken by disregarding medical 
+recommendations. 
+14 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+3.4.2.1.  After consultation with the flight surgeon and the unit JTAC-PM, unit 
+commanders may authorize JTACs to continue performing specified JTAC training after 
+assessing the risk. Note: Risk assessment decisions should consider the quality of training 
+or instruction to be provided or received by the DNIC member for the duties being 
+authorized. 
+3.4.2.2.  The unit JTAC-PM will document the acceptance of risk and any exceptions to 
+DNIC status on an AF Form 623A or a memorandum for record (MFR) (placed in Part IV 
+Section 5) signed by the commander and placed in the JTAC’s training folder. (T-1) 
+3.5.  General Training Guidance. 
+3.5.1.  Fixed-Wing (FW) and Rotary-Wing (RW) assets must meet the following requirements 
+to be counted towards JTAC ICT, JTAC MQT, and JTAC CT: 
+3.5.1.1.  Flying unit must formally train to CAS procedures and have an operational CAS 
+mission requirement. (T-1) 
+3.5.1.2.  Aircraft must fly CAS missions employing CAS procedures outlined in Joint 
+Publication 3-09.3 or Allied Tactical Publication 3.3.2.1, Tactics, Techniques, and 
+Procedures (TTP) for Close Air Support and Air Interdiction.  
+3.5.2.  Use of RW assets. RW aircraft controls may be counted towards CAS training and 
+proficiency requirements during any phase of training. 
+3.5.3.  Contract aircraft may be used to fulfill all JTAC training requirements provided they 
+meet the appropriate criteria. The intent for contract CAS is to match the capability of combat 
+aircraft as closely as possible. Contract CAS aircraft are broken down into high performance 
+aircraft and non-high-performance aircraft IAW US Federal Aviation Administration 
+guidelines. To meet all qualification requirements, contract CAS aircraft must meet the 
+performance standards listed in Table 3.2. (T-1) Aircraft that do not meet the performance 
+standards listed in Table 3.2 do not meet the intent for Type 1 controls. 
+Table 3.2.  Requirements for High Performance Contract CAS Aircraft. 
+Altitude 
+SFC – 10K MSL 
+Speed 
+175 KTAS 
+TOS 
+90 Mins 
+Dive Angle 
+30 Deg. (Max) 
+Rate of Climb 
+1.5K ft/min (Min) 
+Type of Delivery 
+Level/Diving/Pop Attacks (Visual or System Delivery) 
+3.5.4.  Non-USAF JTAC-Is and non-USAF JTACs assigned as formal JTAC schoolhouse 
+instructors will meet the requirements in this publication as well as successfully pass a JTAC 
+and JTAC-I evaluation IAW AFMAN 10-3505V2, Joint Terminal Attack Controller Standards 
+and Evaluations Program, before performing instructor duties for schoolhouse trainees. (T-1) 
+3.5.5.  JTAC-Is directly supervising JTAC trainees and JTAC requalification may count up to 
+two supervised controls every six months (to include night, live, and laser controls) toward the 
+JTAC-I qualification requirement IAW Table 4.2. 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+15 
+3.6.  Formal Schoolhouse Guidance. 
+3.6.1.  The 6th Combat Training Squadron (CTS) is the lead Combat Air Forces (CAF) 
+schoolhouse for the JTAC certification process, and will maintain syllabi, lesson plans, and 
+course documents for JTAC ICT. 6 CTS will develop the JTAC ICT syllabus so that it meets 
+the Joint Mission Task List (JMTL) requirements for JTAC certification IAW the JTAC MOA. 
+3.6.2.  6 CTS is the OPR for all changes to the syllabus. 
+3.7.  Deployment Process.  JTACs will deploy qualified and current IAW paragraph 4.6, 
+without exception. Deployed JTACs are considered current for the duration of the deployment and 
+the 18-month evaluation requirement is waived. All deployed JTACs who fail to maintain currency 
+requirements are considered non-current upon completion of the deployment and must regain 
+currency IAW this manual. Note: MAJCOM functional area managers may designate short notice 
+response taskings as “deployed in place”. Personnel in these MAJCOM designated taskings can 
+be placed in deployed status. 
+3.7.1.  Units will ensure JTAC training and evaluation folders are up to date prior to 
+deployment. (T-1) JTACs that deploy to locations that are not capable of or permitted to use a 
+digital training tracking system will adhere to the area of operation reporting instruction 
+requirements. (T-1) 
+3.7.2.  JTACs will document all combat and non-combat missions conducted while deployed 
+via analog means or in a HAF-approved digital system of record. (T-1) 
+3.7.2.1.  AFSOC units may use a USSOCOM approved and funded digital format, 
+provided it meets the same reporting standards as the system used by CAF and ANG 
+personnel. 
+3.7.2.2.  Group JTAC-PMs, or equivalent, will create a controller read file detailing what 
+information is required or not authorized in a CAS log to ensure that Operations Security 
+violations do not occur. (T-1) 
+3.8.  Individual JTAC Transfers. 
+3.8.1.  In the case of transferring to an assignment not requiring JTAC duties, the individual’s 
+JTAC digital training tracking system may be deactivated if not used, but may be retained by 
+the digital training tracking system for future reactivation. 
+3.8.1.1.  Deactivation and reactivation of a JTAC’s digital training tracking record is 
+conducted by the unit JTAC-PM. 
+3.8.1.2.  JTACs will retain a copy of their individual training folder as a back-up. (T-1) An 
+offline digital copy is preferred with an analog copy as optional back-up. 
+3.8.2.  In the case of transferring to an assignment requiring JTAC duties, but the unit does not 
+maintain a JTAC program, the individual JTAC’s training folder will be managed/coordinated 
+by the parent MAJCOM. (T-1) ANG will be coordinated through the parent group JTAC-PM. 
+(T-1) Personnel assigned to a unit that does not maintain a JTAC program will remain 
+designated by their unit commander. (T-2) 
+16 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+Chapter 4 
+JTAC CERTIFICATION AND QUALIFICATION 
+4.1.  Purpose.  This section provides minimum requirements for personnel responsible for training 
+JTACs and the minimum requirements for initial (certification) and recurring (qualification) 
+training to meet combatant commander needs. NOTE: Refer to Attachment 2 for mission and 
+event definitions. 
+4.2.  JTAC Instructors and Evaluators. 
+4.2.1.  JTAC-I. Qualified JTAC-I instruct JTAC trainees conducting simulated, dry, or live 
+TAC. Non-JTAC-I subject matter experts may instruct JTAC trainees on course topics which 
+support CAS operations but are not directly associated with the control of aircraft (e.g., fire 
+support coordination measures, airspace management, and the theater air-ground system). 
+JTAC-Is are also responsible for conducting any additional training assigned after a JTAC 
+evaluation and the instruction of TTPs for the unit to which they are assigned. To be designated 
+as a JTAC-I, an individual must: 
+4.2.1.1.  Must possess a minimum of one year of experience as a qualified JTAC. 
+4.2.1.2.  Maintain JTAC qualification IAW this AFMAN. (T-1) 
+4.2.1.3.  Complete a squadron commander-approved training program that demonstrates 
+how to effectively teach, coach, and mentor all duty areas listed in Table 5.1., Table 5.2, 
+and Table 5.3 of this publication. The program will, at a minimum, include: 
+4.2.1.3.1.  An academic phase covering JTAC-I roles and responsibilities, academic 
+lesson 
+development, 
+academic 
+instruction 
+fundamentals, 
+training 
+scenario 
+development and instruction, and briefing and debriefing techniques. (T-1) 
+4.2.1.3.2.  Presentation of one planned academic lesson. (T-1) 
+4.2.1.3.3.  One instructor-led demonstration of a CAS FMP. (T-1) 
+4.2.1.3.4.  Student-led development and instruction of four CAS missions. (T-1) At 
+least one mission will use live-fly aircraft. (T-1) At least one mission will be 
+permissive. (T-1) At least one mission will be non-permissive. (T-1) 
+4.2.1.4.  Be designated a JTAC-I in writing by the unit commander. (T-3) 
+4.2.1.5.  Be RegAF, ANG, ARC, DoD civilian, civilian contractor, or partner nation 
+equivalent. (T-1) 
+4.2.1.6.  JTAC-I Waiver Authority. JTAC-I waiver authority resides with the group 
+commander. If the individual is assigned to a unit without a group, then waiver authority 
+resides with the commander at the next higher echelon of command, equal to group 
+commander authority or higher. (T-2) 
+4.2.1.7.  Contractor JTAC-I. Contractors may serve as JTAC-Is with the following criteria: 
+ 
+ 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+17 
+4.2.1.7.1.  Previously qualified as a JTAC-I or certified and qualified as a JTAC (IAW 
+the JTAC MOA or North Atlantic Treaty Organization (NATO) Allied Tactical 
+Publication 3.3.2.2., Joint Terminal Attack Controller Program) while serving as a 
+member of the Armed Forces. Previously qualified JTACs require upgrade training 
+IAW this AFMAN under the supervision of a RegAF, ANG, ARC, or DoD Civilian 
+JTAC-I. 
+4.2.1.7.2.  Meet certification and maintain qualification requirements IAW this 
+AFMAN. 
+4.2.1.7.3.  Restricted to operations in a training environment only. 
+4.2.1.7.4.  Prohibited from performing JTAC duties in support of combat operations. 
+4.2.1.7.5.  Recurring evaluations will be administrated by a RegAF, ANG, AFR, or 
+DoD JTAC-E. (T-1) 
+4.2.1.8.  Formal Schoolhouse JTAC-I. 
+4.2.1.8.1.  The 6 CTS is the lead Air Force organization responsible for maintaining 
+formal JTAC schoolhouse JTAC-I training requirements for schools conducting JTAC 
+ICT courses. 
+4.2.1.8.2.  Schoolhouses will train and certify new instructors using the training 
+requirements identified in Table A3.2. (T-1) 
+4.2.1.8.2.1.  When teaching actual students, instructors must be under qualified unit 
+supervision until certified, to include live-fly controls. Instructors must maintain 
+JTAC qualification. (T-1) 
+4.2.1.8.2.2.  Instructor assessments will be documented on a separate Air Education 
+and Training Command (AETC) Form 281, Instructor Evaluation, for each lesson 
+the instructor is certified in. (T-1) 
+4.2.1.8.2.3.  Schoolhouses will document instructor certification in section IV of 
+AETC Form 10, Instructor Training/Proficiency Record, and place in the 
+instructor’s training record. (T-1) Note: “Letters of Certifications” should be 
+updated quarterly to reflect all lesson certifications and instructor certifications. 
+4.2.1.8.3.  The course managers will designate primary and alternate instructors who 
+are responsible for lesson plan accuracy and conformity to approved syllabi or plan of 
+instruction. (T-1) 
+4.2.1.8.4.  Periodic Assessments. Each schoolhouse will establish an academic 
+standardization program IAW Air Combat Command Instruction (ACCI) 11-251, ACC 
+Operations Training Development Program. (T-1) 
+4.2.1.8.4.1.  Each certified instructor must be assessed in at least one instructional 
+class/event every 12 months, or more frequently, as directed by the commander. 
+(T-2) 
+4.2.1.8.4.2.  Assessments will be documented in the individual’s training folder 
+using an AETC Form 281. (T-1) 
+ 
+ 
+18 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+4.2.1.8.4.3.  Assessments and informal feedback should be conducted outside the 
+formal assessment process. 
+4.2.1.8.4.4.  Instructor qualification. Formal schoolhouse instructors will maintain 
+currency by instructing a non-administrative lesson at least every 180 calendar days 
+IAW AETCI 36-2604, Flying Training Instructor Programs. (T-1) 
+4.2.1.8.5.  Instructor Training Records (ITRs). Each schoolhouse will maintain an ITR 
+for each instructor. (T-1) 
+4.2.1.8.5.1.  Organize the folder into a 4-part documentation system consisting of: 
+4.2.1.8.5.1.1.  Part I: Instructor Training Record. Schoolhouses will use an 
+AETC Form 10, to document instructor training and proficiency. (T-1) 
+4.2.1.8.5.1.2.  Part II: Instructor Assessments. Schoolhouses will use an AETC 
+Form 281, to document all instructor assessments. (T-1) 
+4.2.1.8.5.1.3.  Part III: Formal Instructor Training Certificate. 
+4.2.1.8.5.1.4.  Part IV: Other Training Course Certificates. Schoolhouses will 
+place any other formal training course certificates that add to an instructor’s 
+capability as an instructor or subject matter expert in this section. (T-1) 
+Examples are Analysis, Design, Development, Implementation, Evaluation, 
+and Technical Writer. 
+4.2.1.8.5.2.  Non-USAF Forward Air Controllers (FAC) and JTACs assigned to a 
+USAF formal schoolhouse: 
+4.2.1.8.5.2.1.  Individuals must maintain and document JTAC training 
+requirements identified in this manual and evaluation requirements identified 
+in AFMAN 10-3505V2 guidance on JTAC evaluations while assigned to the 
+schoolhouse. (T-1) 
+4.2.1.8.5.2.2.  Upon change of assignment, non-USAF FACs and JTACs are no 
+longer considered qualified USAF formal schoolhouse JTAC-Is and revert to 
+their service or national qualification status. 
+4.2.1.8.5.2.3.  Schoolhouses must provide ITR and any training or evaluation 
+records (e.g., AF Form 1035, AFSPECWAR Evaluation Form, ACC Form 134, 
+Training Summary) to the individual. (T-1) 
+4.2.1.8.5.2.4.  For individuals qualified as a JTAC under North American 
+Treaty Organization (NATO) Allied Tactical Publication (ATP) 3.3.2.2, any 
+previous task and evaluation accomplishments will count towards JTAC 
+experience requirements. (T-1) 
+4.2.1.8.5.3.  CTS, 4 CTS, and 137 CTF must maintain a roster of certified 
+instructors, updated monthly. (T-1) 
+4.2.2.  JTAC-E. A qualified JTAC-E is a JTAC that has been designated to conduct JTAC 
+evaluations. Reference AFMAN 10-3505V2 for JTAC-E requirements and upgrade process. 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+19 
+4.3.  JTAC Initial Certification Training. 
+4.3.1.  Eligibility to Enter JTAC ICT. 
+4.3.1.1.  Officers must possess a minimum 2-skill level in their Air Force Specialty Code 
+(AFSC) 19ZXB/19ZXA or be an aircrew member ALO filling a 09C-coded billet and with 
+a Tier-1 waiver. (T-1) 
+4.3.1.2.  Enlisted personnel must possess a minimum 3-skill level in AFSC 1Z3X1 or be a 
+1Z2X1 assigned to a 914 billet. (T-1) 
+4.3.2.  JTAC certification process. JTAC inherent career fields will be provided priority 
+placement for scheduling and attendance of all formal JTAC courses with the exception of the 
+Special Operations Terminal Attack Control Course. (T-1) To be certified as a JTAC, the 
+individual must successfully: 
+4.3.2.1.  Complete the academic curriculum of an accredited JTAC schoolhouse (T-1) 
+Accredited schoolhouses are those that have been found by the JFS ESC to meet 
+requirements IAW the JTAC MOA, paragraph 5.1.1. 
+4.3.2.2.  Demonstrate proficiency conducting the execution tasks under the supervision of 
+a qualified JTAC-I. (T-1) 
+4.3.2.3.  Complete initial JTAC certification during the Initial Certification Course 
+culminating event proctored by a formal schoolhouse JTAC-I and documented on an AF 
+Form 1036, JTAC Initial Certification Training. This evaluation will occur as a part of a 
+formal training course or conducted at the unit level. (T-1) Note: JTAC ICT Individuals 
+may graduate with deficiencies, however they must be documented on their Form 1036. 
+4.3.2.4.  Prior to completion of MQT, JTAC trainees will complete the following JMTL 
+tasks identified in Table 4.1. (T-1). 
+Table 4.1.  Minimum JTAC Certification Controls. 
+Terminal Attack Control 
+Minimum 
+Required 
+Condition 
+Type 1 
+2 
+Live or Dry 
+Type 2 
+2 
+Live, Dry, or Simulated 
+Type 3 
+1 
+Live, Dry, or Simulated 
+Bomb on Target (BOT) 
+2 
+Live or Dry 
+Bomb on Coordinate (BOC) 
+2 
+Live, Dry, or Simulated 
+FW CAS Aircraft 
+2 
+Live or Dry 
+RW CAS Aircraft 
+1 
+Live, Dry, or Simulated 
+Laser control 1 
+1 
+Live or Dry 
+InfraRed (IR) Pointer 2,3 
+1 
+Live or Dry 
+Remote Observer 
+1 
+Live, Dry, or Simulated 
+20 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+Video Downlink (VDL) 
+1 
+Live, Dry, or Simulated 
+Live 
+2 
+Live 
+9-line attack brief 3 
+2 
+Live or Dry (1 may be Simulated) 
+Suppression of Enemy Air Defenses 
+(SEAD) 
+1 
+Live, Dry, or Simulated 
+Urban 
+1 
+Live, Dry, or Simulated 
+With Forward Air Controller 
+Airborne (FAC(A)) 
+1 
+Live, Dry, or Simulated 
+Day 
+2 
+Live or Dry 
+Night 4,5 
+2 
+Live or Dry (1 may be Simulated) 
+Notes: 
+1 Ground laser shall be utilized to mark/designate a target for an aircraft (laser spot tracker  
+recommended). Intent is to utilize laser equipment and laser terminology. 
+2 A ground IR pointer shall be utilized to mark a target for a Night Vision Device (NVD) 
+equipped aircrew. Intent is to utilize IR equipment and IR terminology. 
+3 Night TAC – A control in which each of the players in the CAS Team are in the same 
+environment of darkness, which is a point in time after End Evening Nautical Twilight (EENT) 
+and prior to Begin Morning Nautical Twilight (BMNT). The intent is to train in hours of 
+darkness where low visibility affects visual acquisition of the target. Note: A Tactical 
+Operations Center (TOC) environment does not meet this intent. 
+4 Must use a complete 9-line attack brief – Initial point (IP) to target attack (Lines 1-3) will not 
+be abbreviated, not applicable (N/A) or from the overhead. (T-1) 
+5 Units deployed to or stationed at extreme latitudes (>49 deg) may waive the night and/or IR 
+pointer control(s) for certification until night sorties can be executed. Waived units will control 
+night sorties in a simulator approved by the JFS ESC IAW JTAC MOA for night controls if 
+available. (T-1) 
+4.4.  Formal JTAC Course Documentation. 
+4.4.1.  Formal courses will provide course completion documentation once all training is 
+accomplished. (T-1) If all required training was not accomplished, the JTAC schoolhouse will 
+provide a deficiency letter listing the specific training that was not accomplished to include the 
+reason why the training was not accomplished (e.g., no live or dry controls were completed 
+due to weather). (T-1) 
+ 
+ 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+21 
+4.4.2.  Formal courses will also provide any classroom products, requirements, and grading 
+criteria to the unit JTAC-PM that address the deficient area(s). (T-1) Once all deficiencies are 
+completed, the JTAC-PM will contact the course manager for release of the certification course 
+completion certificate. (T-3) The formal JTAC schoolhouse will complete this documentation 
+when the JTAC graduates and will send training documentation to the gaining unit’s JTAC-
+PM within 5 duty days of course completion. (T-1) 
+4.4.3.  Each control at a formal JTAC course will be graded and documented on ACC Form 
+206, Individual Mission Gradesheet, or an approved service/nation equivalent, and placed into 
+Part IV: Documentation of Training, Section 4, of the trainee’s JTAC training and evaluation 
+Folder IAW Attachment 4. (T-1) 
+4.4.4.  JTAC ICT Failure to Progress. Commanders will consider Airmen for disqualification 
+from the 1Z3X1 and 19ZXB AFSCs after removal from an accredited JTAC schoolhouse for 
+academic failure or non-progression. (T-3) Once commanders determine AFSC 
+disqualification is appropriate, commanders should take one of the following actions: 
+4.4.4.1.  Recommend Airman for retraining if eligible IAW AFMAN 36-2100. 
+4.4.4.2.  Return Airman to prior AFSC IAW HAF Accessions and Training Division 
+(AF/A1PT), Memorandum: Clarification of Crossflow/Retraining Policy for Air Force 
+Special Warfare (AFSPECWAR) and Special Warfare Mission Support Candidates. 
+4.4.4.3.  Separate Airman IAW DAFI 36-3211, Military Separations. NOTE: 
+Commanders should consult with the local Staff Judge Advocate before proceeding with 
+any action to separate an individual. 
+4.5.  JTAC Mission Qualification Training (MQT).  MQT is the required to achieve a basic 
+level of competence in JTAC requirements and in a unit’s primary tasked missions. It should be 
+focused and tailored to the unit METL. MQT training requirements are documented on AF Form 
+797. An example JTAC MQT program is provided in Attachment 5. Individuals must be ICT 
+complete to begin MQT. 
+4.5.1.  Unit JTAC-PMs will ensure that ICT complete individuals (marked “Certified” on their 
+AF Form 1036) are entered into MQT no later than 30 days (training days for ANG) after 
+arrival at their first duty station. (T-3) 
+4.5.1.1.  For individuals who are not ICT complete (not marked “Certified” on their AF 
+Form 1036), unit JTAC-PMs will ensure that all deficiencies are completed no later than 
+60 days (training days for ANG) after arrival at their duty station. (T-3) 
+4.5.1.2.  Once all deficiencies are completed, the JTAC-PM will contact the course 
+manager for release of the JTAC Qualification Course certificate, mark the individuals AF 
+Form 1036 as “Certified”, and the individual can begin MQT. (T-3) 
+4.5.1.3.  The JTAC-PM will document individuals who fail to successfully complete ICT 
+training deficiencies within 60 days (training days for ANG) and will annotate them as an 
+ICT failure on a MFR signed by the unit commander and placed in their JTAC training and 
+evaluation Folder. (T-3) A single extension of up to 30 days (training days for ANG) may 
+be requested from the JTAC schoolhouse the individual attended. Individuals who fail to 
+successfully complete their ICT training deficiencies will be treated IAW paragraph 4.4.4 
+of this publication for non-progression. (T-3) 
+22 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+4.5.2.  The individual must be entered into MQT no later than 10 days (training days for ANG) 
+after ICT completion. (T-3) 
+4.5.3.  Upon completion of MQT a JTAC evaluation must be conducted within 30 days 
+(training days for ANG) after completion of MQT. (T-3)  
+4.5.4.  JTAC MQT Timeline. JTAC trainees must complete JTAC MQT within 180 calendar 
+days (training days for ANG) unless a break in training occurs and the JTAC MQT timeline is 
+adjusted IAW this publication. (T-1) Authorized breaks in training include, but are not limited 
+to, contingency deployments, medical restrictions, extenuating personal circumstances (e.g., a 
+death in the family), insufficient training day resources for ANG, or national emergencies. 
+JTAC MQT completion will be documented on AF Form 797 and/or in the HAF-approved 
+digital tracking system. (T-3) 
+4.5.4.1.  If necessary, squadron commanders will extend the MQT timeline by no more 
+than 30 days (training days for ANG). (T-1) 
+4.5.4.2.  If necessary, group commanders will extend the MQT timeline an additional 30 
+days beyond the squadron commander’s 30-day (training days for ANG) extension. (T-1) 
+4.5.4.3.  MAJCOM commanders may extend the MQT timeline an additional 30 days 
+(training days for ANG). MAJCOM commanders may delegate this authority to Numbered 
+Air Force or wing commanders. 
+4.5.4.4.  JTAC timeline adjustments and extensions will be documented on AF Form 623A. 
+(T-1) 
+4.5.4.5.  When JTAC trainees do not complete MQT within the extension timelines, 
+commanders will consider Airmen for disqualification from the 1Z3X1 or 19ZXB AFSC. 
+(T-3) 
+4.5.4.6.  JTAC MQT is complete upon accomplishing all training requirements outlined in 
+this publication and any unit-specified requirements. 
+4.5.5.  JTAC MQT Training Requirements. Units that require a JTAC MQT program will 
+develop a program that consists of part task and FMP training. (T-2) 
+4.5.5.1.  MQT will be broken down into three separate phases: Static Phase, Dynamic 
+Phase, and Mission Phase. (T-1) These phases will be accomplished in sequence and 
+consist of multiple part-task training events and have a culminating FMP that must be 
+successfully accomplished to move on to the next phase. (T-1) 
+4.5.5.2.  A minimum of four FMPs are required to complete MQT. (T-1) 
+4.5.6.  JTAC MQT Documentation. 
+4.5.6.1.  Unit commanders must approve, in writing or on a comprehensive AF Form 797, 
+an individual’s entry into, completion, or removal from JTAC MQT in the individual’s 
+JTAC training and evaluation folder. (T-1) 
+4.5.6.2.  Unit commanders must approve breaks in JTAC MQT training in writing on an 
+AF Form 623A and place it within the individual’s JTAC training and evaluation folder. 
+(T-1) 
+4.5.6.3.  JTAC MQT progression will be documented using AF Form 797. (T-1) 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+23 
+4.5.6.4.  Commanders will award SEI 914 or O9C to individuals upon successful 
+completion of an evaluation documented on AF Form 1035. (T-1) 
+4.5.7.  JTAC MQT Failure to Progress. Commanders should consider an Airman for 
+disqualification from the 1Z3X1 or 19ZXB AFSCs after exhausting all extensions outlined in 
+paragraph 4.4.4 of this manual for non-progression. Once commanders determine AFSC 
+disqualification is appropriate, commanders will take one of the following actions: 
+4.5.7.1.  Recommend Airman for retraining (if eligible IAW AFMAN 36-2100) (T-2) 
+4.5.7.2.  Return Airman to prior awarded AFSC IAW HAF AF/A1PT Memorandum: 
+Clarification of Crossflow/Retraining Policy for Air Force Special Warfare 
+(AFSPECWAR) and Special Warfare Mission Support Candidates. (T-2) 
+4.5.7.3.  Separate Airman IAW DAFI 36-3211, Military Separations. (T-2) Note: 
+Commanders should consult with the local Staff Judge Advocate before proceeding with 
+any action to separate an individual. 
+4.6.  JTAC Continuation Training (CT).  CT is required after successfully completing MQT and 
+successfully passing a JTAC evaluation to maintain JTAC currency. 
+4.6.1.  JTAC CT process. Once certified, a JTAC will remain qualified provided: 
+4.6.1.1.  JMTL knowledge and task proficiency is maintained IAW this manual. (T-1) 
+4.6.1.2.  Evaluation requirements are satisfactorily accomplished. 
+4.6.1.3.  Tasks identified in Table 4.2 are successfully completed during the conduct of a 
+TAC and during an established six-month period unless noted. 
+4.6.2.  Minimum JTAC Qualification Controls. Table 4.2 provides the minimum terminal 
+attack tasks and conditions that must be accomplished every 6 months to maintain JTAC 
+qualification. (T-1) 
+ 
+ 
+24 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+Table 4.2.  Minimum JTAC Continuation Training (CT) Controls. 
+Terminal Attack Control 
+Minimum 
+Required 
+Condition 
+Type 1 
+1 
+Live, Dry, or Simulated (No more than 12 
+months between Live or Dry) 
+Type 2 
+1 
+Live, Dry, or Simulated 
+Type 3 
+1 
+Live, Dry, or Simulated 
+BOT 
+1 
+Live or Dry 
+BOC 
+1 
+Live, Dry or Simulated 
+FW CAS Aircraft  
+2 
+Live or Dry (1 may be Simulated) 
+RW CAS Aircraft 
+1 
+Live, Dry, or Simulated 
+Laser control 1 
+1 
+Live, Dry, or Simulated (No more than 12 
+months between Live or Dry) 
+IR Pointer 2,3,4 
+1 
+Live, Dry, or Simulated (No more than 12 
+months between Live or Dry) 
+Remote Observer 
+1 
+Live, Dry, or Simulated 
+Video Downlink (VDL) 
+1 
+Live, Dry, or Simulated 
+Live 
+1 
+Live (actual munitions release) 
+9-line attack brief 5 
+1 
+Live or Dry 
+Day 
+1 
+Live or Dry 
+Night 4,5 
+1 
+Live, Dry, or Simulated (No more than 12 
+months between Live or Dry) 
+1 Ground laser shall be utilized to mark/designate a target for an aircraft (laser spot tracker 
+recommended). Intent is to utilize laser equipment and laser terminology. 
+2 A ground IR pointer shall be utilized to mark a target for a NVD equipped aircrew. Intent is 
+to utilize IR equipment and IR terminology. 
+3 Units deployed to or stationed at extreme latitudes (>49 deg) may waive the night and/or IR 
+pointer control(s) for certification until night sorties can be executed. Waived units will 
+control night sorties in a simulator approved by the JFS ESC IAW JTAC MOA for night 
+controls if available. (T-1) 
+4 Night TAC – A control in which each of the players in the CAS Team are in the same 
+environment of darkness, which is a point in time after EENT and prior to BMNT.  The intent 
+is to train in hours of darkness where low visibility affects visually acquiring the target. Note: 
+A TOC environment does not meet this intent. 
+5 Must use a complete 9-line attack brief – IP to target attack (Lines 1-3 will not be 
+abbreviated, N/A, or from the overhead). 
+ 
+ 
+ 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+25 
+4.6.3.  JTACs should accomplish qualification requirements with ground maneuver units, 
+Type-2 enablers, integrating Joint Fires Observers (JFO) and FAC(A) whenever possible. 
+Commanders will establish guidance and set goals aimed at achieving joint interoperability. 
+(T-2) 
+4.6.4.  JTAC Qualification Failure to Progress. Commanders will consider Airmen for 
+disqualification from the 1Z3X1 or 19ZXB AFSCs after two consecutive recurring evaluation 
+failures. (T-3) Once commanders determine AFSC disqualification is appropriate, 
+commanders will take one of the following actions: 
+4.6.4.1.  Recommend Airman for retraining (if eligible IAW AFMAN 36-2100). (T-1) 
+4.6.4.2.  Return Airman to prior awarded AFSC (if eligible per AFSC specialty 
+description). (T-1) 
+4.6.4.3.  Separate Airman IAW. DAFI 36-3211, Military Separations (T-1) Note: 
+Commanders should consult with the local Staff Judge Advocate before proceeding with 
+any action to separate an individual. 
+4.7.  Ready Tasking Message (RTM).  The RTM is a MAJCOM-developed CT program, 
+designed to develop JTAC training and focused on capabilities needed to accomplish a unit’s 
+mission essential tasks. The RTM is a mechanism for connecting resources to training 
+requirements and building proficiency. ACC is responsible for the publication of the RTM for 
+CAF JTACs and AFSOC is responsible for the publication of the RTM for Air Force Special 
+Operations Forces (SOF) JTACs. 
+4.7.1.  The RTM is a 12-month training cycle based on the fiscal year that defines the 
+MAJCOM CT program and should be updated annually, or as required. 
+4.7.2.  The RTM should include the following: 
+4.7.2.1.  Requirements for the completion of an FMP and events to receive RTM credit. 
+4.7.2.2.  CT requirements that match JTAC proficiency requirements. 
+4.7.2.3.  CT requirements that match JTAC experience levels. 
+4.7.3.  Reporting Procedures. 
+4.7.3.1.  ACC/A3J, should determine reporting procedures and formats for CAF units and 
+AFSOC, Operations Division (AFSOC/A3O), should determine reporting procedures and 
+formats for AFSOC units. 
+4.7.3.2.  The RTM should determine the frequency of reporting at the unit level. The RTM 
+should also establish due dates for unit reporting to the MAJCOM. 
+4.8.  Loss of Currency. 
+4.8.1.  Loss of Currency. JTACs who fail to comply with CT IAW paragraph 4.6 (e.g., JMTL 
+tasks and qualification, or evaluation) will be considered non-current. JTACs who fail to 
+successfully complete JMTL Tasks in Table 4.2 requirements must, under the supervision of 
+a qualified JTAC, complete the number and category (e.g., appropriate night, FW, ordnance)  
+ 
+ 
+26 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+of controls they failed to accomplish to regain currency. Supervision is required only for those 
+events which were not accomplished (e.g., if night was not accomplished; only night control 
+requires supervision). A JTAC who is non-current (JMTL tasks) for more than six months, but 
+less than 24 months, will complete the JMTL requirements IAW paragraph 4.6 (JTAC CT 
+Process), under the supervision of a qualified JTAC. 
+4.8.2.  Evaluation Failure. A JTAC who fails to satisfactorily complete an evaluation, will only 
+control while under the supervision of a qualified JTAC-I. This restriction will remain in place 
+until the unqualified JTAC satisfactorily completes a subsequent re-evaluation conducted by a 
+JTAC-E. See AFMAN 10-3505V2 for guidance after a JTAC evaluation failure. 
+4.8.3.  Non-current for 24 Months or Longer. A JTAC who is non-current on any JMTL task 
+for 24 consecutive months must regain qualification by completing all JMTL tasks and Table 
+4.2 (Minimum JTAC Qualification Controls) under the supervision of a qualified JTAC-I. 
+(T-1) 
+4.9.  JTAC Training and Evaluation Folder.  To document compliance with JTAC certification 
+and qualification standards, each JTAC will have a training and evaluation folder created and 
+maintained by the assigned unit in either an analog or a digital format. (T-1) The JTAC training 
+and evaluation folder will be used to record and maintain appropriate JTAC training and evaluation 
+records during each duty assignment and deployment. (T-1) The JTAC training and evaluation 
+folder or an up-to-date copy will accompany the individual JTAC to each duty assignment and 
+deployment location to provide commanders a historical record of the individual’s JTAC 
+certification and qualification training and their qualification status. (T-1) A JTAC training and 
+evaluation folder is mandatory for all JTACs and will contain the six-part format as depicted in 
+Table 4.3. (T-1) 
+ 
+ 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+27 
+Table 4.3.  JTAC Training and Evaluation Folder Table of Contents. 
+PART I: TABLE OF CONTENTS 
+ 
+PART 
+II: 
+COMMANDER’S 
+DESIGNATION 
+LETTERS 
+This section contains a copy of the JTAC’s current 
+designation letter. 
+PART III: CAS LOG 
+This section contains a record of all controls in legible 
+format. This section should contain records of all 
+controls performed since initial certification. 
+PART IV: DOCUMENTATION OF TRAINING 
+All continuation training (CT) and refresher training 
+should be documented in Part IV to include academics 
+and 
+testing. 
+Changes 
+to 
+certification 
+and 
+qualification/certification status will be documented by 
+the appropriate authority. 
+PART 
+V: 
+DOCUMENTATION 
+OF 
+EVALUATIONS 
+This section contains documentation of all evaluations 
+conducted since initial certification. 
+PART 
+VI: 
+JTAC 
+FORMAL 
+SCHOOL 
+DOCUMENTATION 
+This section contains copies of course completion 
+documentation received from attending a formal course 
+of instruction pertaining to CAS or TAC. 
+Note: Copies of waivers will be placed into the section of the folder that they apply to. 
+4.9.1.  Analog Records. (T-1) When maintaining analog records, use a six-part sectional, letter 
+size folder with standard 2 ¾-inch metal fasteners at the top to hold documents. A label bearing 
+the individual’s name and rank will be affixed to the inside back cover so that the folder can 
+be identified when filed. (T-1) A Privacy Act Statement label will be affixed to the cover of 
+each physical folder. Place a MFR in the physical folder for documentation that is maintained 
+on a HAF-approved digital JTAC training and evaluation folder. (T-1) See Attachment 4 for 
+additional details and examples. 
+4.9.2.  Electronic Records. Units must maintain JTAC training and evaluation records using an 
+electronic database with a HAF-approved digital tracking system. (T-1) The systems must be 
+capable of producing a hard copy of individual JTAC records and contain the information in 
+Parts II – VI as listed above. (T-1) 
+4.9.2.1.  Units must provide access to digital records or a hard copy of individual JTAC 
+training and evaluation records when verification of individual JTAC qualification is 
+required. (T-1) 
+4.9.2.2.  Units will use a MAJCOM-directed naming convention for all digital JTAC 
+training and evaluation records. (T-2) 
+28 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+Chapter 5 
+JTAC JOINT MISSION TASK LIST 
+5.1.  Purpose.  The following three tables comprise the JTAC JMTL, which is comprised of the 
+Joint Mission Tasks that have been identified as the minimum tasks required for a JTAC to 
+successfully perform TAC. The JMTL is the basis for developing schoolhouse academic training 
+syllabus for JTAC certification and qualification training programs. The JMTL will also be used 
+during assessments of JTAC training programs and schoolhouses by the JTAC standardization 
+team. The Joint Mission Tasks are divided into duty areas for academic application and are listed 
+by task and associated sub-tasks. 
+5.2.  Duty Area 01 – CAS Planning.  This Duty Area focuses on the minimum classroom 
+academics to be instructed. Each Task and Sub-Task will be covered in the schoolhouse/unit lesson 
+plan. Lesson plan learning objectives will be based on the Task and Sub-task and be a source for 
+test questions. To re-enforce the learning objectives and to assess student comprehension, practical 
+exercises (PEs), quizzes, and examinations will be conducted. 
+Table 5.1.  Duty Area 01 – Close Air Support (CAS) Planning Joint Mission Task List 
+(JMTL). 
+Task 
+Defined Task 
+Condition 
+Standard 
+01.1 Advise ground commander on 
+Close Air Support assets in support 
+of ground scheme of maneuver. 
+Collective Task 
+01.1.1 Advise ground commander 
+on Fixed- Wing (FW)/Rotary-Wing 
+(RW) platform capabilities/ 
+limitations/employment. 
+Demonstrate knowledge of the 
+capabilities, limitations, and 
+employment of fixed wing/rotary 
+wing platforms. (e.g., tactical air, 
+bomber, Unmanned Aircraft System 
+(UAS)). JTAC will be able to 
+successfully answer questions on 
+capabilities, limitations, and 
+employment of FW/RW CAS 
+platforms. 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+01.1.2 Advise ground commander 
+on FAC(A) capabilities/ 
+limitations/employment. 
+Demonstrate knowledge of the 
+capabilities, limitations, and 
+employment of fixed wing/rotary 
+wing FAC(A) platforms. Clearly 
+define the roles and responsibilities 
+of supporting and supported forces 
+when integrating FAC(A). JTAC 
+will be able to successfully answer 
+questions on the capabilities, 
+limitations, and employment of 
+FW/RW FAC(A). 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+29 
+Task 
+Defined Task 
+Condition 
+Standard 
+01.1.3 Advise ground commander 
+on remote observer 
+capabilities/limitations/employment. 
+Demonstrate knowledge of the 
+capabilities, limitations, and 
+employment of a remote observer 
+(e.g., scout, Fire Support Team 
+(FIST), JFO, SOF). Clearly define 
+the roles and responsibilities of 
+supporting and supported forces 
+when integrating a remote observer/ 
+JFO. JTAC will be able to 
+successfully answer questions on 
+remote observer/JFO capabilities, 
+limitations, and employment. 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+01.1.4 Advise ground commander 
+on Group 1 through 5 Unmanned 
+Aerial Systems (UAS) 
+capabilities/limitations/employment. 
+Demonstrate knowledge of the 
+capabilities, limitations, and 
+employment of Group 1, 2, 3 UAS 
+platforms. JTAC will be able to 
+successfully answer questions on the 
+capabilities, limitations, video 
+downlink (VDL) and employment of 
+Group 1 through 5 UAS. 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+01.1.5 Advise ground commander 
+on aviation weapon 
+capabilities/limitations/employment. 
+Demonstrate knowledge of air 
+delivered weapon capabilities, 
+limitations, and employment 
+methods (general purpose bombs, 
+laser guided munitions, inertially-
+aided munitions, aircraft guns, 
+rockets, flares, air to ground 
+missiles). JTAC will be able to 
+successfully answer questions on 
+weapon capabilities, limitations, and 
+employment. 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+01.1.6 Advise ground commander 
+on effects of weather, terrain, and 
+threats on CAS capabilities. 
+Demonstrate knowledge of weather, 
+terrain and threats when employing 
+CAS assets. JTAC will be able to 
+successfully answer questions on 
+mission impacts of weather, terrain 
+and threats when employing CAS 
+assets. 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+ 
+01.1.7 Advise ground commander 
+on effects of electronic warfare 
+(EW) on CAS capabilities. 
+Demonstrate knowledge of airborne 
+and ground base Electronic Warfare 
+(EW) effects. JTAC will be able to 
+successfully answer questions on 
+EW effects, location of electronic 
+warfare planners, the request process 
+and how to submit an EW request 
+(Joint Tactical Air Strike Requests 
+(JTAR) when employing CAS 
+assets.) 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+30 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+Task 
+Defined Task 
+Condition 
+Standard 
+01.1.8 Advise ground commander 
+on the use and timely submission of 
+joint tactical air strike requests 
+(JTAR). 
+Demonstrate knowledge of the Air 
+Tasking Order (ATO) planning cycle 
+and its effects on JTAR submission. 
+Address what an ATO is, the 
+information listed and how to access 
+the document. The JTAC should also 
+understand the process to get a 
+preplanned mission on the ATO. 
+JTAC trainee will be able to 
+successfully answer questions on the 
+ATO planning cycle and its effects 
+on JTAR submission. 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+01.1.9 Advise ground commander 
+on battle damage assessment (BDA) 
+and mission report (MISREP) 
+procedures. 
+Demonstrate knowledge of the 
+information required to successfully 
+complete a BDA (e.g., observed 
+damage (enemy/civilian), re-attack 
+recommendation, BDA log, and 
+MISREP procedures). JTAC will be 
+able to successfully answer 
+questions on the information 
+required to successfully complete 
+BDA report to CAS aircraft that 
+includes: size, activity, and location. 
+Time, remarks — munitions 
+expended, observed damage 
+(number of tanks destroyed, number 
+still active, and recommendation), 
+mission number, and mission 
+accomplishment (SUCCESSFUL, 
+UNSUCCESSFUL or UNKNOWN). 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+01.2 Advise ground commander on 
+the minimum components of a game 
+plan (types of Terminal Attack 
+Control and Method of Attack). 
+Demonstrate knowledge of how 
+tactical situation, aircrew, aircraft, 
+and weapons capabilities/limitations 
+determine appropriate type of 
+terminal attack control and method 
+of attack contained in the game plan. 
+JTAC will be able to successfully 
+answer questions on the types of 
+CAS control and the factors that 
+determine the type of control and 
+method of attack to be used in a 
+given situation. 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+31 
+Task 
+Defined Task 
+Condition 
+Standard 
+01.3 Advise ground 
+commander on integration of CAS 
+with indirect fires. 
+Demonstrate knowledge of the 
+integration of indirect fires (surface 
+to surface) with CAS during a 
+written evaluation. Address 
+deconfliction methods which 
+facilitate simultaneous multi-
+ship/platform CAS and indirect fire 
+operations. Must be well versed in 
+Airspace Coordination Area (ACA) 
+terminology and have knowledge of 
+all applicable ACAs in use. JTAC 
+will be able to successfully answer 
+questions on separation techniques 
+that deconflict airspace to provide a 
+reasonably safe operating space for 
+aircraft to maneuver and attack 
+targets. 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+01.4 Advise ground commander on 
+the impact of fire support 
+coordination measures (FSCMs) on 
+CAS mission planning. 
+Given a tactical scenario (e.g., 
+operations order) assess the impact 
+of FSCMs on CAS operations in 
+support of the ground commander’s 
+concept of operations during a 
+written evaluation. Address, at a 
+minimum, the definition and proper 
+employment of permissive and 
+restrictive FSCMs to expedite the 
+attack of targets. JTAC will be able 
+to successfully answer questions on 
+FSCMs used during CAS operations.   
+Note: Students should be briefed on 
+Kill box terminology, but a kill box 
+will not be established for close air 
+support (CAS) missions. If a CAS 
+mission is required within an 
+established kill box, the portion of 
+the kill box requiring detailed 
+integration should be closed. 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+32 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+Task 
+Defined Task 
+Condition 
+Standard 
+01.5 Advise ground 
+commander on airspace command 
+and control (Joint and Component) 
+procedures and their impact on CAS 
+mission planning (supporting 
+documents – Airspace Control 
+Order (ACO), Airspace Control 
+Measures (ACMs), Air Tasking 
+Order (ATO), 
+and Special Instructions (SPINS). 
+Demonstrate knowledge of airspace 
+command and control components, 
+the definition and application of 
+ACO, ACM, ATO, and SPINS and 
+their impact on CAS mission 
+planning (e.g., Theater Air Ground 
+System (TAGS), Theater Air Control 
+System (TACS)/Army Air-Ground 
+System (AAGS), Marine Corps Air 
+Command and Control System 
+(MACCS), Navy Tactical Air 
+Control System (NTACS), and 
+Special Operations Air-Ground 
+System (SOAGS)). JTAC will be 
+able to successfully answer 
+questions on the primary command 
+and control agencies and their roles 
+and responsibilities within the 
+associated Command and Control 
+System and the functions of the 
+ACO, ACM, ATO, and SPINS. 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+01.6 Apply intelligence products to 
+CAS mission planning. 
+Given a tactical scenario/operations 
+order, apply intelligence products to 
+support CAS mission planning in 
+support of the ground commander’s 
+concept of operations. Describe how 
+intelligence supports air operations, 
+available intelligence products (e.g., 
+order of battle, maps, Intelligence, 
+Surveillance, and Reconnaissance 
+(ISR) imagery) and the importance 
+of including Intel early in the 
+planning process. JTAC will be able 
+to successfully answer questions on 
+the intelligence products used to 
+support CAS mission planning. 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+01.7 Apply the products of the 
+targeting process to CAS mission 
+planning. 
+Demonstrate knowledge of the 
+targeting process. Address the 
+process which the supported 
+commander selects and prioritize 
+targets and match appropriate 
+effects. Lesson should focus on the 
+products the JTAC will use when 
+planning the employment of CAS 
+(tactical level). JTAC trainee will be 
+able to successfully answer 
+questions on the targeting process 
+products. 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+33 
+Task 
+Defined Task 
+Condition 
+Standard 
+01.8 Plan CAS missions with 
+precision and non-precision 
+weapons, in support of 
+the ground scheme of maneuver. 
+Collective Task 
+01.8.1 Plan a laser guided weapon 
+employment and use of both a 
+ground and airborne Laser Target 
+Designator (LTD). 
+Demonstrate knowledge of laser 
+guided weapons employment and 
+use of both a ground and airborne 
+LTD (aircraft targeting pod and 
+UAS). Address the standard laser 
+brevity terms and procedures for 
+ground and airborne designating, 
+marking, and proper employment of 
+laser guided weapons. JTAC will be 
+able to successfully answer 
+questions on laser guided weapons 
+employment, safety zone, optimal 
+attack zones, hellfire designator 
+exclusion zone and proper laser 
+terminology. 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+01.8.2 Plan inertial aided munitions 
+deliveries. 
+Demonstrate knowledge of inertial 
+aided munitions employment.   
+Address the unique characteristics 
+and limitations of inertially aided/ 
+Global Positioning System (GPS) 
+guided weapons. Lesson will also 
+cover target location error (TLE), 
+Bomb on Coordinate (BOC), and 
+Bomb on Target (BOT). JTAC will 
+be able to successfully answer 
+questions on inertial aided munitions 
+employment. 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+01.8.3 Plan non-precision weapons 
+deliveries. 
+Demonstrate knowledge of non-
+precision weapons employment. 
+Address the capabilities, limitations, 
+and employment of general-purpose 
+weapons. Consideration must be 
+given to host aircraft navigation/ 
+weapons system accuracy. JTAC 
+will be able to successfully answer 
+questions on non-precision weapons 
+employment. 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+34 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+Task 
+Defined Task 
+Condition 
+Standard 
+01.9 Plan engagement with 
+appropriate weapon in order to 
+achieve desired effects, proportional 
+response, and minimize collateral 
+damage. 
+Demonstrate knowledge of aviation 
+ordnance capabilities and effects. 
+Lesson will present scenarios where 
+ordnance is appropriately matched to 
+targets to achieve ground 
+commanders desired results and 
+comply with Rules of Engagement 
+(ROE) and restrictions. Theatre 
+specific ROE, restrictions, and 
+lessons learned should be briefed. 
+Reinforcement through practical 
+application is required during 
+simulated, dry, or live controls. 
+JTAC will be able to successfully 
+answer questions on aviation 
+ordnance capabilities and effects. 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+01.10 Plan day CAS missions, in 
+support of the ground scheme of 
+maneuver. 
+Collective Task 
+01.10.1 Plan day FW CAS 
+missions. 
+Demonstrate knowledge of day, FW 
+CAS planning factors. JTAC will be 
+able to successfully answer 
+questions on day, FW CAS planning 
+factors. 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+01.10.2 Plan day RW CAS 
+missions. 
+Demonstrate knowledge of day, RW 
+CAS planning factors. JTAC will be 
+able to successfully answer 
+questions on RW CAS planning 
+factors. 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+01.11 Plan night CAS missions, in 
+support of the ground scheme of 
+maneuver. 
+Collective Task 
+01.11.1 Plan night FW CAS 
+missions. 
+Demonstrate knowledge of night, 
+FW CAS planning factors. JTAC 
+will be able to successfully answer 
+questions on night, FW CAS 
+planning factors. 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+01.11.2 Plan night RW CAS 
+missions. 
+Demonstrate knowledge of night, 
+RW CAS planning factors. JTAC 
+will be able to successfully answer 
+questions on night, RW CAS 
+planning factors. 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+01.11.3 Plan illumination in support 
+of night CAS missions. 
+Collective Task 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+35 
+Task 
+Defined Task 
+Condition 
+Standard 
+01.11.3.1 Plan ground-delivered 
+illumination. 
+Demonstrate knowledge of ground-
+delivered illumination, in support of 
+CAS. Address techniques and 
+procedures on how to employ 
+illumination via surface-based fire 
+support systems in support of CAS 
+missions (artillery, mortars, and 
+naval surface fire support). JTAC 
+will be able to successfully answer 
+questions on surface-delivered 
+illumination, in support of CAS. 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+01.11.3.2 Plan aviation-delivered 
+illumination. 
+Demonstrate knowledge of aviation-
+delivered illumination, in support of 
+CAS. Address techniques and 
+procedures on how to employ 
+illumination via aviation assets in 
+support of CAS missions (e.g., 
+Airborne delivered flares, 
+illumination rockets). JTAC will be 
+able to successfully answer 
+questions on aviation-delivered 
+illumination, in support of CAS. 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+01.12 Incorporate CAS mission 
+planning factors for operations in 
+limited visibility/adverse weather. 
+Demonstrate knowledge of limited 
+visibility and adverse weather and its 
+effects on CAS. Address techniques 
+and procedures on how to execute a 
+CAS mission during limited 
+visibility and adverse weather 
+conditions. JTAC will be able to 
+successfully answer questions on 
+limited visibility/adverse weather 
+effects on CAS. 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+01.13 Incorporate CAS mission 
+planning factors for operations in an 
+urban environment. 
+Demonstrate knowledge of CAS 
+mission planning factors for 
+operations in an urban environment. 
+Address planning factors, 
+techniques, and procedures on how 
+to execute a CAS mission in the 
+urban environment. JTAC will be 
+able to successfully answer 
+questions on urban CAS planning 
+factors. 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+01.14 Plan AC-130 fire missions in 
+support of the ground scheme of 
+maneuver. 
+Demonstrate knowledge of AC-130 
+fire missions. Address planning 
+factors, techniques and procedures 
+on how to employ the AC-130.  
+JTAC will be able to successfully 
+answer questions on AC-130 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+36 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+Task 
+Defined Task 
+Condition 
+Standard 
+capabilities, call for fire (CFF) 
+procedures and proper employment. 
+01.15 Plan integrated attack by 
+multiple fire support assets to 
+support CAS. 
+Collective Task 
+01.15.1 Plan target marking for 
+CAS assets. 
+Sub-Task 
+Classroom 
+  
+01.15.1.1 Plan target marking for 
+CAS with indirect fire assets. 
+Demonstrate knowledge to 
+effectively plan visual target 
+marking for CAS with indirect fire.  
+Address techniques and procedures 
+on how to use indirect fire (e.g., 
+artillery, mortars) to provide visual 
+marks (e.g., smoke, illumination) to 
+execute a CAS mission.  JTAC will 
+be able to successfully answer 
+questions on target mark timing, 
+airspace management (deconflicting 
+fires from CAS platforms) and use 
+of smoke, high explosive, 
+illumination, or other visual means. 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+01.15.1.2 Plan target marking with 
+ground IR pointer for CAS assets. 
+Demonstrate the ability to 
+effectively plan ground IR pointer 
+target marking for CAS. Address the 
+standard IR pointer brevity terms, 
+procedures for ground IR pointer 
+marking, and the proper employment 
+of IR pointer. JTAC will be able to 
+successfully answer questions on IR 
+brevity and IR pointer safety. 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+01.15.2 Plan surface to surface 
+Suppression Enemy Air Defenses 
+(SEAD) for CAS attack. 
+Demonstrate the ability to 
+effectively plan SEAD for CAS. 
+Address techniques and procedures 
+on how to use indirect fire (e.g., 
+artillery, mortars) to provide SEAD 
+in support of a CAS mission. JTAC 
+will be able to successfully answer 
+questions on definition of SEAD, 
+timing, and airspace management 
+(deconflicting fires from CAS 
+platforms). 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+37 
+Task 
+Defined Task 
+Condition 
+Standard 
+01.15.3 Plan coordinated attacks by 
+multiple flights of aircraft to support 
+CAS. 
+Demonstrate knowledge to 
+effectively coordinate attacks by 
+multiple flights of aircraft and 
+deconflict them from each other 
+during simultaneous, sequential, or 
+random attacks to support CAS.  
+Address type of attack 
+(combined/sectored), timing and 
+procedures on how to deconflict 
+flights. JTAC will be able to 
+successfully answer questions on 
+methods of deconflicting CAS 
+platforms from each other during 
+simultaneous, sequential, or random 
+attacks. 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+01.16 Plan terminal attack control in 
+support of CAS attack. 
+Demonstrate knowledge of terminal 
+attack control procedures in support 
+of CAS planning. Address planning 
+factors, techniques, and procedures 
+on how to conduct terminal attack 
+control of a CAS mission. JTAC will 
+be able to successfully answer 
+questions on established terminal 
+attack control procedures, situation 
+update, game plan and CAS attack 
+brief. 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+01.17 Plan target location 
+procedures with the understanding 
+of target location errors (TLE) in 
+support of attack. 
+Demonstrate knowledge of target 
+location procedures and target 
+location errors (TLEs) in support of 
+CAS planning. Address planning 
+factors, techniques, and procedures 
+on how to most efficiently and 
+effectively locate targets; stress the 
+importance of a targets associated 
+TLE. JTAC will be able to 
+successfully answer questions on 
+procedures, equipment used to 
+determine target location, and TLE 
+categories. 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+01.18 Request CAS via JTAR. 
+Demonstrate knowledge of the 
+JTAR. Address the proper routing 
+and processing of pre-planned and 
+immediate request through the 
+command and control system. JTAC 
+will be able to successfully answer 
+questions on the procedures to fill 
+out and route a JTAR. 
+Classroom 
+Score 
+80% or 
+greater on 
+a written 
+test. 
+38 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+Task 
+Defined Task 
+Condition 
+Standard 
+01.19 Plan the use of digitally aided 
+CAS (DACAS) systems in support 
+of weapons deliveries. 
+Demonstrate knowledge of Digitally 
+Aided Close Air Support 
+(DACAS)/Fires systems to facilitate 
+weapons employment. Address the 
+capabilities, limitations, and proper 
+use of Service, USSOCOM, or 
+Partner Nation-fielded DACAS 
+systems (e.g., Android Tactical 
+Assault Kit [ATAK], Special 
+Warfare Assault Kit [SWAK], etc.) 
+JTAC will be able to successfully 
+answer questions on the use of 
+DACAS systems to request, CAS 
+brief and BDA. 
+Classroom 
+See Duty 
+Area 2, 
+CAS 
+Preparatio
+n Task 
+02.1.5. 
+01.20 Plan CAS employment in a 
+contested environment. 
+Demonstrate knowledge of CAS 
+employment in a contested 
+environment. Address planning 
+factors for threats and tactical 
+situation that dictate attacking 
+aircraft use counter-tactics, 
+countermeasures, and/or vertical 
+and/or lateral standoff during target 
+attack. Include planning for surface-
+based indirect fire and/or EW assets 
+(lethal and/or non-lethal) to provide 
+SEAD, degraded/denied 
+GPS/communications, and enemy 
+direction-finding capabilities, as 
+applicable. 
+Classroom 
+Score 
+80% or 
+greater on 
+written 
+test. 
+5.3.  Duty Area 02 – CAS Preparation.  This Duty Area focuses on the minimum practical, dry, 
+or live TAC to be conducted. Trainees should use the same JTAC equipment in training as they 
+are required to operate during combat operations. Appropriate material will be supplied to the 
+trainees to facilitate CAS mission planning. Each Task and Sub-Task will be covered in the 
+exercise. For the purpose of Table 5.2 “Proficient” is defined as: trainee can do all parts of the 
+task, identify why and when the task must be done, and why each step is needed. This term will 
+be utilized to define the standard to which a task should be accomplished for all, regardless of 
+certification type within this manual. 
+ 
+ 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+39 
+Table 5.2.  Duty Area 02 – CAS Preparation Joint Mission Task List. 
+Task 
+Defined Task 
+Condition 
+Standard 
+02.1 Operate organic JTAC 
+equipment. 
+Collective Task 
+02.1.1 Operate organic JTAC 
+communications equipment. 
+Performance level of proficient. 
+Classroom, 
+practical 
+exercise, 
+dry, or live. 
+Performance 
+level of 
+proficient. 
+02.1.2 Operate organic JTAC 
+target marking equipment. 
+Demonstrate the ability to operate 
+target-marking equipment in support 
+of CAS. JTAC will demonstrate the 
+ability to operate laser target 
+designators (LTD), IR pointers, radar 
+beacons and other designated target 
+marking equipment. Reference 
+Service equipment checklist, manuals, 
+and documentation. 
+Classroom, 
+practical 
+exercise, 
+dry, or live. 
+Performance 
+level of 
+proficient. 
+02.1.3 Operate organic JTAC 
+target location equipment. 
+Demonstrate the ability to operate 
+target location equipment and 
+knowledge of its accuracy in support 
+of CAS. JTAC will demonstrate the 
+ability to operate laser range finders 
+(LRF), GPS systems, Target 
+Mensuration Only (TMO) Targeting 
+Software (e.g., PSS-SOF) and other 
+target location equipment. Reference 
+Service equipment checklist, manuals, 
+and documentation. 
+Classroom, 
+practical 
+exercise, 
+dry, or live. 
+Performance 
+level of 
+proficient. 
+02.1.4 Operate organic JTAC 
+video downlink equipment. 
+Demonstrate the ability to operate 
+video downlink equipment (e.g., 
+ROVER) in support of CAS. JTAC 
+will demonstrate the ability to operate 
+video downlink equipment. Reference 
+Service equipment checklist, manuals, 
+and documentation. 
+Classroom, 
+practical 
+exercise, 
+simulation, 
+dry, or live. 
+Performance 
+level of 
+proficient. 
+02.1.5 Operate organic 
+DACAS/Fires systems. 
+Demonstrate the ability to operate 
+digitally aided systems in support of 
+CAS and call for fire (CFF) missions 
+using appropriate reference material 
+when required. JTAC will 
+demonstrate the ability to operate 
+digitally aided systems in support of 
+CAS and CFF missions during 
+simulation, dry and/or live training 
+events. Reference Service equipment 
+checklist, manuals, and 
+documentation. 
+Classroom, 
+practical 
+exercise, 
+simulation, 
+dry, or live. 
+Performance 
+level of 
+proficient. 
+40 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+Task 
+Defined Task 
+Condition 
+Standard 
+02.2 Apply the products of 
+Operational planning in support 
+of CAS execution. 
+Collective Task 
+02.2.1 Apply intelligence 
+products in support of CAS 
+execution. 
+Demonstrate the ability to apply 
+intelligence products (e.g., ISR 
+support, ground order of battle, air 
+order of battle, missile order of battle, 
+maps, charts (1:50, GRG)). JTAC will 
+understand which products of the 
+intelligence/deliberate planning cycle 
+are available to devise a plan to ensure 
+CAS resources are used against 
+appropriate targets based on the 
+commander’s intent. (e.g., target list). 
+Classroom, 
+practical 
+exercise, 
+simulation, 
+dry, or live. 
+Performance 
+level of 
+proficient. 
+02.2.2 Apply the products of the 
+fire support plan in support of 
+CAS execution. 
+Demonstrate the ability to apply the 
+products of the fire support plan (e.g., 
+FSCMs). JTAC will understand what 
+role they play in developing a fire 
+support plan, ensuring CAS is fully 
+integrated, and be able to use the 
+products that result from fire support 
+planning (e.g., target lists, FSCMs). 
+Classroom, 
+practical 
+exercise, 
+simulation, 
+dry, or live. 
+Performance 
+level of 
+proficient. 
+02.2.3 Apply the products of the 
+Airspace Control Order in 
+support of CAS execution. 
+Demonstrate the ability to apply the 
+products of the ACO (e.g., ACMs). 
+JTAC will be able to extract and apply 
+the applicable information contained 
+in the ACO required to safely and 
+effectively conduct a CAS mission. 
+Classroom, 
+practical 
+exercise, 
+simulation, 
+dry, or live. 
+Performance 
+level of 
+proficient. 
+02.2.4 Apply the products of 
+communications planning in 
+support of CAS execution. 
+Demonstrate the ability to apply a 
+communications plan (e.g., Tactical 
+Air Direction (TAD), Air Request Net 
+(ARN), Tactical Air Request 
+(TAR)/Helicopter Request (HR), 
+TACP Local (L), Tactical Chat, IP 
+and URN addressing, 
+OPTASKLINK). JTAC will establish 
+and maintain all applicable 
+communications nets required to plan, 
+coordinate, and execute a CAS 
+mission. JTAC will understand 
+communications plans and be able to 
+extract communications network data 
+from applicable sources. 
+Classroom, 
+practical 
+exercise, 
+simulation, 
+dry, or live. 
+Performance 
+level of 
+proficient. 
+02.2.5 Apply the products of the 
+ATO in support of CAS 
+execution. 
+Demonstrate the ability to apply the 
+ATO (e.g., aircraft, time on station, 
+SPINS). JTAC will read an ATO and 
+be able to identify and extract the 
+information needed to execute a CAS 
+mission. 
+Classroom, 
+practical 
+exercise, 
+simulation, 
+dry, or live. 
+Performance 
+level of 
+proficient. 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+41 
+5.4.  Duty Area 03 – CAS Execution.  This Duty Area focuses on the minimum practical, dry, or 
+live TACs to be conducted. Trainees should use the same JTAC equipment in training as they are 
+required to operate during combat operations. Appropriate material will be supplied to the trainees 
+to facilitate CAS mission planning and execution. Each task and sub-task will be covered in the 
+exercise. For the purpose of Table 5.3 “Proficient” is defined as: trainee that can do all parts of 
+the task, identify why and when the task must be done, and why each step is needed. This term 
+will be utilized to define the standard to which a task should be accomplished for all, regardless of 
+certification type within this manual. 
+Table 5.3.  Duty Area 03 – CAS Execution Joint Mission Task List. 
+Task 
+Defined Task 
+Condition 
+Standard 
+03.1 Targeting 
+Collective Task 
+03.1.1 Target Acquisition 
+Sub-Task 
+03.1.1.1 Execute target 
+acquisition via aided and 
+unaided during daytime 
+conditions. 
+Demonstrate the ability to acquire 
+targets based on ground 
+commander’s CAS target 
+nominations aided (e.g., 
+binoculars, laser range finder 
+(LRF), LTD, electro-optical (EO), 
+IR) and unaided visual 
+acquisition. JTAC will visually 
+identify CAS targets based on 
+ground commander’s CAS target 
+nominations under day conditions. 
+Practical 
+exercise, 
+simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+03.1.1.2 Execute target 
+acquisition via aided and 
+unaided during nighttime 
+conditions. 
+Demonstrate the ability to acquire 
+targets aided (e.g., binoculars, 
+NVDs, IR, thermal) and unaided 
+eyes during night.  JTAC will 
+visually identify CAS targets 
+based on ground commander’s 
+CAS target nominations under 
+night conditions.  Unaided may 
+involve the use of artificial 
+illumination. 
+Practical 
+exercise, 
+simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+03.1.1.3 Execute target 
+acquisition via remote 
+observer. 
+Demonstrate the ability to target via 
+remote observer (e.g., scout, FIST, 
+JFO, SOF).  JTAC will demonstrate 
+the ability to work successfully with a 
+remote observer to acquire targeting 
+information (e.g., target location, 
+threats, friendlies) and other critical 
+information needed to build 
+situational awareness to successfully 
+conduct a CAS mission. 
+Practical 
+exercise, 
+simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+42 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+03.1.1.4 Execute target 
+acquisition via remote real-
+time sensor video downlink 
+information. 
+Demonstrate the ability to acquire 
+targets via remote real-time sensor 
+video downlink (e.g., ROVER, 
+Video Scout, and targeting pod).  
+JTAC will demonstrate the ability 
+to successfully use video 
+downlink to receive full motion 
+video, still photos, imagery or 
+other media to acquire targeting 
+information (e.g., target 
+coordinates, threats, friendlies, 
+etc.) needed to build situational 
+awareness to successfully conduct 
+a CAS mission. 
+Practical 
+exercise, 
+simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+03.1.2 Target Location 
+Collective Task 
+03.1.2.1 Determine target 
+location via map plot. 
+Demonstrate the ability to 
+determine target location via map 
+plot.  JTAC will demonstrate the 
+ability to successfully determine 
+target coordinates within 100 m 
+accuracy in open terrain with 
+identifiable terrain features out to 
+3500 m using only binoculars map 
+and compass. 
+Practical 
+exercise, 
+simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+03.1.2.2 Determine target 
+location via coupled 
+GPS/LRF system. 
+Demonstrate the ability to 
+determine target location via 
+coupled GPS and LRF.  JTAC 
+will demonstrate the ability to 
+successfully determine target 
+coordinates using a coupled GPS 
+and LRF with at least the 
+following accuracy: 50-80 m at 1 
+km. 
+Practical 
+exercise, 
+simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+03.1.2.3 Determine target 
+location via tactical targeting 
+system (e.g., Precision Strike 
+Suite – Special Operations 
+Forces (PSS-SOF)). 
+Demonstrate the ability to 
+determine target location via 
+tactical targeting system.  JTAC 
+will demonstrate the ability to 
+successfully determine target 
+location coordinates within 10 m 
+accuracy using a tactical targeting 
+system (e.g., PSS-SOF). 
+Practical 
+exercise, 
+simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+43 
+03.2 Match target location 
+accuracy / format to desired 
+weapon system. 
+Demonstrate the ability to 
+determine accuracy of target 
+location (e.g., TLE) and proper 
+coordinate format to desired 
+weapons system.  JTAC will 
+determine target location error 
+(TLE) associated with the 
+procedure or equipment used to 
+determine target location 
+coordinates. Match coordinates 
+format and best weapon to target 
+based on accuracy and capability. 
+Practical 
+exercise, 
+simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+03.3 Coordinate CAS 
+missions 
+Collective Task 
+03.3.1 Integrate CAS 
+missions with ground 
+scheme of maneuver. 
+Demonstrate the ability to 
+integrate CAS missions with 
+ground scheme of maneuver.  
+JTAC will demonstrate the ability 
+to effectively integrate CAS into 
+the ground scheme of maneuver 
+by meeting the commander’s 
+intent for CAS, without limiting 
+the employment of maneuver, 
+aviation, or fire support assets. 
+Simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+03.3.2 Integrate CAS 
+missions with surface-based 
+fires. 
+Demonstrate the ability to 
+integrate CAS missions with 
+surface-based fires. JTAC will 
+demonstrate the ability to 
+effectively integrate CAS with 
+supporting or complementary 
+surface fires into the ground 
+scheme of maneuver by meeting 
+the commander’s intent for Fire 
+Support. 
+Simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+03.3.3 Integrate CAS 
+missions with fire support 
+and airspace coordination 
+measures. 
+Demonstrate the ability to 
+integrate CAS missions with fire 
+support coordination and airspace 
+coordinating measures.  JTAC 
+will demonstrate the ability to 
+effectively use fire support 
+coordination and airspace 
+coordinating measures to 
+deconflict CAS with all fire 
+support and aviation assets, to 
+meet the commander’s intent for 
+maneuver and fire support. 
+Simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+44 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+03.4 Execute deconfliction 
+of aviation assets 
+Collective Task 
+03.4.1 Execute procedural 
+control of aircraft to provide 
+safe separation. 
+Demonstrate the ability to effectively 
+deconflict aircraft.  JTAC will 
+demonstrate the ability to use 
+appropriate airspace management 
+procedures to ensure safe operation 
+of aircraft in the battlespace during 
+CAS operations. 
+Simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+03.4.2 Execute procedural 
+control of aircraft to provide 
+safe separation from fires. 
+Demonstrate the ability to 
+effectively deconflict aircraft from 
+fires.  JTAC trainee will 
+demonstrate the ability to combine 
+appropriate airspace management 
+procedures with active fire support 
+coordination measures to ensure 
+safe operation of aircraft in the 
+battlespace during CAS 
+operations. 
+Simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+03.5 Coordinate CAS 
+Target engagement. 
+Collective Task 
+03.5.1 Receive aircraft 
+check-in and provide 
+situation update to CAS 
+aircraft. 
+Demonstrate the ability to receive 
+aircraft check-in and provide 
+situation update.  JTAC will 
+demonstrate the ability to receive 
+CAS aircraft check-in and provide 
+situation update and apply 
+information to the CAS mission as 
+required. 
+Simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+03.5.2 Provide game plan 
+and CAS attack brief. 
+Demonstrate the ability to provide 
+Game plan and CAS attack brief.  
+JTAC will demonstrate the ability 
+to pass a game plan and CAS 
+attack brief to CAS aircraft to 
+attack a surface target. 
+Simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+03.5.3 Provide weapon 
+recommendation to achieve 
+desired effects. 
+Demonstrate the ability to provide 
+a weapon recommendation, based 
+on ground commander’s intent, to 
+achieve desired effects. JTAC will 
+demonstrate the ability to make 
+appropriate weapons 
+recommendations to CAS aircraft 
+to ensure effects achieve the 
+ground commander’s desired 
+intent and comply with ROE and 
+restrictions. 
+Simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+45 
+03.6 Execute target 
+marking for CAS assets. 
+Collective Task 
+03.6.1 Execute visual target 
+marking for CAS with 
+indirect fire assets. 
+Demonstrate the ability to 
+effectively target mark via visual 
+means with indirect fire.  JTAC 
+will demonstrate the ability to 
+mark a target using a visual 
+indicator (e.g., smoke (WP, RP), 
+high explosive (HE), illumination) 
+to allow a CAS aircraft to visually 
+acquire the target area. 
+Simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+03.6.2 Execute target mark 
+or designation for CAS with 
+a ground laser target 
+designator (LTD). 
+Demonstrate the ability to 
+effectively target mark or 
+designate with a ground based 
+LTD. JTAC will demonstrate the 
+ability to successfully mark or 
+designate a target using a LTD to 
+allow a CAS aircraft to acquire the 
+target or deliver a laser guided 
+weapon. Laser is to be utilized to 
+designate for a weapon delivery or 
+to mark a target for an aircraft 
+(laser spot tracker 
+recommended). Intent is to utilize 
+laser equipment and proper 
+terminology. 
+Simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+03.6.3 Execute target 
+mark for CAS with a ground 
+IR pointer. 
+Demonstrate the ability to 
+effectively target mark with a 
+ground based IR pointer.  JTAC 
+demonstrates the ability to 
+successfully mark a target using 
+an IR pointer to allow a CAS 
+aircraft to acquire the target.  IR 
+pointer is to be utilized to mark a 
+target for aircrew with NVD. 
+Intent is to utilize IR pointer 
+equipment and proper 
+terminology. 
+Simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+03.7 Integrate SEAD during 
+the execution of CAS 
+missions in a 
+medium to high threat 
+environment. 
+Demonstrate the ability to 
+effectively integrate SEAD with 
+CAS in a medium to high threat 
+environment. JTAC will 
+demonstrate the ability to 
+successfully integrate SEAD 
+during a CAS mission. 
+Simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+46 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+03.8 Execute appropriate 
+terminal attack control 
+procedures and method of 
+attack. 
+Collective Task 
+03.8.1 Execute Type 1 
+terminal attack control 
+procedures. 
+Perform Type 1 terminal attack 
+control of CAS aircraft. JTAC will 
+demonstrate the ability to 
+successfully perform a Type 1 
+CAS control. 
+Simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+03.8.2 Execute Type 2 
+terminal attack control 
+procedures. 
+Perform Type 2 terminal attack 
+control of CAS aircraft.  JTAC 
+will demonstrate the ability to 
+successfully perform a Type 2 
+CAS control. 
+Simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+03.8.3 Execute Type 3 
+terminal attack control 
+procedures. 
+Perform Type 3 terminal attack 
+control of CAS aircraft. JTAC will 
+demonstrate the ability to 
+successfully perform a Type 3 
+CAS control. 
+Simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+03.8.4 Execute BOT 
+method of attack during a 
+terminal attack control. 
+Perform BOT method of attack 
+during terminal attack control of 
+CAS aircraft.  JTAC will 
+demonstrate the ability to 
+successfully perform a BOT 
+method of attack. 
+Simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+03.8.5 Execute BOC method 
+of attack during a 
+terminal attack control. 
+Perform BOC method of attack 
+during terminal attack control of 
+CAS aircraft.  JTAC will 
+demonstrate the ability to 
+successfully perform a BOC 
+method of attack. 
+Simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+03.9 Control day and 
+night CAS missions, in 
+support of the ground 
+scheme of maneuver. 
+Collective Task 
+03.9.1 Control day FW CAS 
+missions. 
+Perform a day fixed-wing control.   
+JTAC will demonstrate the ability 
+to successfully perform a day 
+fixed-wing control. 
+Simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+03.9.2 Control night FW 
+CAS missions. 
+Perform a night fixed-wing 
+control.  JTAC will demonstrate 
+the ability to successfully perform 
+a night fixed-wing control. 
+Simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+03.9.3 Control RW CAS 
+missions. 
+Perform a rotary-wing control.  
+JTAC will demonstrate the ability 
+to successfully perform a day or 
+Simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+47 
+night rotary-wing control IAW JP 
+3-09.3 and appropriate service 
+references.  
+03.9.4 Control CAS missions 
+with the support of a remote 
+observer. 
+Perform a Type 2 or 3 control 
+with the support of a remote 
+observer (e.g., scout, FIST, JFO, 
+SOF). JTAC will demonstrate the 
+ability to successfully perform a 
+day or night Type 2 or 3 control 
+with the support of a remote 
+observer. 
+Simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+03.9.5 Control CAS missions 
+with the support of a 
+FAC(A). 
+Perform a control with the support 
+of a FAC(A). JTAC will 
+demonstrate the ability to 
+successfully perform a day or 
+night control with the support of a 
+FAC(A). 
+Simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+03.10 Control a CAS 
+mission in an urban 
+environment in support of 
+the ground scheme of 
+maneuver. 
+Perform a CAS control in an 
+urban environment.  JTAC will 
+demonstrate the ability to 
+successfully perform a CAS 
+control in an urban environment. 
+Simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+03.11 Employ service 
+DACAS/Fires systems. 
+Demonstrate the ability to control 
+CAS missions (e.g., Friendly 
+deconfliction, A/C check in, ON 
+STATION REPORT, CAS 9- 
+Line brief, and BDA) using 
+DACAS systems.  JTAC will 
+demonstrate the ability to 
+successfully perform a digital 
+aided CAS control. 
+Simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+03.12 Conduct Battle 
+Damage Assessment (BDA). 
+Demonstrate the ability to provide 
+accurate BDA (e.g., observed 
+damage (enemy/civilian)), re-
+attack recommendation and 
+maintain a log of all BDA 
+collected, using appropriate 
+reference material when required.  
+JTAC will demonstrate the ability 
+to provide BDA report to CAS 
+aircraft that includes: size, 
+activity, location, time, and 
+remarks — munitions expended, 
+observed damage (number of 
+tanks destroyed, number still 
+active, and recommendation), 
+Simulation, 
+dry, or 
+live. 
+Performance 
+level of 
+proficient. 
+48 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+mission number, and mission 
+accomplishment (SUCCESSFUL, 
+UNSUCCESSFUL or 
+UNKNOWN). 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+49 
+Chapter 6 
+SIMULATIONS 
+6.1.  JTAC Training Simulations.  TAC simulation system(s) will be used to conduct procedural 
+training, mission rehearsal, and training of certification and qualification Joint Mission Tasks that 
+either cannot be executed, or are very difficult to execute, using existing equipment, weapon 
+systems or aircraft. (T-1) Units will make every effort to integrate Distributed Mission Operations 
+(DMON) into their simulator training plan. (T-1) Refer to Attachment 3 for Simulator Operator 
+Training Requirements. A list of all currently accredited simulator systems is maintained by Joint 
+Staff J6 Deputy Directorate for Cyber and Command, Control, Communications, and Computers 
+Integration, (JS J6 DD C5I JFID), Joint Close Air Support (JCAS) Simulation Lead. NOTE: 
+Personnel trained using JTAC simulation systems which were granted interim accreditation from 
+self-assessment, but do not meet JFS ESC accreditation criteria during the program triennial 
+review, will lose JTAC qualification status until retraining on those specific tasks is accomplished 
+either on an approved simulation system or in live training. 
+6.1.1.  Simulator Operations. 
+6.1.1.1.  Information Systems Security Officer (ISSO). 
+6.1.1.1.1.  Each unit with a JTAC simulator will appoint an ISSO to provide oversight 
+of cybersecurity programs or functions involving management decisions for the 
+administration of assigned simulation systems IAW AFMAN 17-1303, Air Force 
+Cyber Security Workforce Improvement Program. (T-2) The squadron commander will 
+identify the ISSO as part of the cybersecurity workforce, per AFMAN 17-1303. (T-2) 
+Detachments or echelons below squadron level should request ISSO support from the 
+base or post assigned if resources are not available internally. If local resources are not 
+available, the parent squadron must provide the ISSO capability. (T-2) 
+6.1.1.1.2.  The unit commander is responsible for the cybersecurity of the Joint 
+Terminal Control Training and Rehearsal System (JTC TRS) simulator and may 
+designate a DoD civilian or contracted simulator operator as the ISSO. 
+6.1.1.1.3.  The ISSO will attain and maintain Information Assurance Technician (IAT) 
+level II IAW AFMAN 17-1303, paragraph 3.2.9. and DoD 8140.03-M, Cyberspace 
+Workforce & Qualification Management Program. (T-0) DoD approved cyber security 
+baseline training and certifications can be found at the following website: 
+https://dl.cyber.mil/cyber-workforce/pdf/unclass-dod-manual-8140_03.pdf. 
+6.1.1.1.4.  The ISSO must comply with AFMAN 17-1303 to complete and maintain 
+baseline qualifications, sign a formal statement of assigned cybersecurity 
+responsibilities, sign a Privileged Access Agreement, and report Continuing Education 
+Units (CEUs). The CEUs must be accomplished every three years from initial 
+certification award. (T-2) 
+6.1.1.1.5.  The squadron ISSO will provide oversight and cyber security management 
+of JTAC simulators assigned to detachments and/or operating locations. (T-2) 
+6.1.1.1.6.  The ISSO will report cyber security readiness discrepancies to the JTC TRS 
+Program Office Information System Security Manager. (T-2) 
+50 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+6.1.1.2.  Simulator Operator/Maintainer (SIM O/M). 
+6.1.1.2.1.  The SIM O/Ms are the primary operators of the unit simulation systems. 
+SIM O/Ms are responsible for operating the simulation systems during training, 
+adding/editing accounts, creating scenarios as required, patching simulator systems, 
+and running scans as required, troubleshooting, updating software as required, and 
+performing maintenance diagnostics. The simulator operators must attain and maintain 
+IAT level 1 or higher. (T-2) As part of the baseline certification, the simulator operators 
+must complete and maintain A+ CE, Cisco® Certified Network Associate-Security 
+(CCNA®-Security), Network+ CE, or System Security Certified Practitioner (SSCP). 
+(T-2) The Defense Information System Agency (DISA) website for approved training 
+can be found at the Information Assurance Support Environment’s website: 
+https://www.disa.mil/NewsandEvents/Training, 
+and 
+https://cyber.mil/cyber-
+training/training-catalog/. 
+6.1.1.2.2.  The simulator operators must comply with AFMAN 17-1303, to complete 
+and maintain baseline qualifications, sign a formal statement of assigned cybersecurity 
+responsibilities, sign a privileged access agreement, and report CEUs to maintain 
+certification. (T-2) The CEUs must be accomplished every three years from initial 
+certification award. (T-2) 
+6.1.1.2.3.  Full-time simulator operators require training records that document, at a 
+minimum, the completion of Organization and/or System Integrator-provided 
+simulator training, and cybersecurity training/course certificates IAW AFMAN 17-
+1303. (T-2) 
+6.1.1.3.  Basic Simulator Operator (BSO). 
+6.1.1.3.1.  The BSO, typically as an additional duty, will operate simulator systems and 
+conduct training related operations during system use as directed by the SIM O/M (if 
+one is assigned). (T-2) Duties of the BSO include turning the system on, scenario 
+generation, loading missions and performing training related operations during system 
+use. (T-2) 
+6.1.1.3.2.  To perform the function of BSO, units will identify specific tasks to be 
+trained and performance standards to meet the unit’s needs. This training will be 
+documented on an AF Form 1098, Special Task Certification and Recurring Training. 
+(T-2) 
+6.1.1.4.  A BSO is not required to be IAT certified, however, a BSO is also not authorized 
+to perform system maintenance or have access to system files. (T-2) 
+ 
+JAMES C. SLIFE, Lt Gen, USAF 
+Deputy Chief of Staff, Operations 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+51 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+10 USC § 9013, Secretary of the Air Force, 31 December 2020 
+DoDM 8140.03, Cyberspace Workforce Qualification and Management Program, February 15, 
+2023 
+DAFPD 10-35, Air Force Special Warfare, 5 January 2021. 
+DAFI 36-3211, Military Separations, 24 Jun 2022 
+AFI 11-214, Air Operations Rules and Procedures, 8 July 2020 
+AFI 33-322, Records Management and Information Governance Program, 23 March 2020 
+DAFMAN 48-123, Medical Examinations and Standards, 8 December 2020 
+DAFMAN 90-161, Publishing Processes and Procedures, 15 April 2022 
+AFMAN 10-3505, Volume 2, Joint Terminal Attack Controller (JTAC) Standardization & 
+Evaluation Program, XX Month YYYY 
+AFMAN 11-214, Air Operations Rules and Procedures, 29 November 2022 
+AFMAN 17-1303, Air Force Cybersecurity Workforce Improvement Program, 12 May 2020 
+AFMAN 36-2100, Military Utilization and Classification, 7 April 2021 
+ACCI 11-251, ACC Operations Training Development Program, 23 Nov 2021 
+ACCI 11-464, Training Records and Performance Evaluation in Formal Flying Training 
+Programs, 28 August 2019 
+AETCI 36-2604, Flying Training Instructor Programs, 22 September 2020 
+AF/A1PT Memo, Clarification of Crossflow/Retraining Policy for Air Force Special Warfare 
+(AFSPECWAR) and Combat Support Candidates, 4 March 2022 
+AFDP 3-03, Counterland Operations, 21 October 2020 
+AFTTP 3-1 JTAC, Joint Terminal Attack Controller (classified), 17 March 2021 
+AFTTP 3-2.5, Multi-Service Tactics, Techniques, and Procedures for Multi-Service Brevity 
+Codes, May 2020 
+AFTTP(I) 3-2.6, J-FIRE Multi-Service Tactics, Techniques and Procedures for the Joint 
+Application of Firepower, October 2019 
+AFTTP 3-2.17, Multi-Service Tactics, Techniques, and Procedures for the Theater Air-Ground 
+System, May 2020 
+AFTTP 3-3. JTAC, Joint Terminal Attack Controller, 17 March 2021 
+ATP 3.3.2.1, Tactics, Techniques and Procedures for Close Air Support and Air Interdiction, 
+April 2019 
+52 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+ATP 3-04.1, Aviation Tactical Employment, 7 May 2020 
+ATP 3-09.30, Observed Fires, 28 September 2017 
+JFS ESC AP MOA 2004-01, Joint Terminal Attack Controller (JTAC) (Ground), 4 March 2021. 
+DoD Dictionary, DoD Dictionary of Military and Associated Terms, Nov 2021 
+JP 3-09, Joint Fire Support, April 2019 
+JP 3-09.3, Close Air Support (CAS), 10 June 2019 
+NATO Allied Tactical Publication 3.3.2.2., Joint Terminal Attack Controller Program, Edition B 
+Version 1, January 2018 
+USSOCOM Manual 350-5, Special Operations Forces Baseline Interoperable Standards, Joint 
+Terminal Attack Controller Training, 13 November 2018 
+Prescribed Forms 
+None 
+Adopted Forms 
+DD Form 2992, Medical Recommendation for Flying or Special Operational Duty 
+DAF Form 847, Recommendation for Change of Publication 
+AF Form 8, Certificate of Aircrew Qualification 
+AF Form 623A, On-the-Job Training Record Continuation Sheet 
+AF Form 797, Job Qualification Standard Continuation/Command JQS 
+AF Form 942, Record of Evaluation 
+AF Form 1098, Special Task Certification and Recurring Training 
+AF Form 2096, Classification/On-the-Job Training Action 
+AF Form 1035, AFSPECWAR Evaluation Form 
+AF Form 1036, JTAC Initial Certification Training 
+ACC Form 134, Training Summary 
+ACC Form 206, Individual Mission Gradesheet, AETC Form 10, Instructor 
+Training/Proficiency Record 
+AETC Form 281, Instructor Evaluation 
+Abbreviations and Acronyms 
+AAGS—Army Air Ground System 
+ACA—Airspace Coordination Area 
+ACC—Air Combat Command 
+ACM—Airspace Control Measure 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+53 
+ACO—Airspace Control Order 
+AFDP—Air Force Doctrine Publication 
+AETC—Air Education and Training Command 
+AFI—Air Force Instruction 
+AFMAN—Air Force Manual 
+AFPD—Air Force Policy Directive 
+AFSC—Air Force Specialty Code 
+AFSOC—Air Force Special Operations Command 
+AFSPECWAR—Air Force Special Warfare 
+AFTTP—Air Force Tactics, Techniques, and Procedures 
+AFTTP(I)—Air Force Tactics, Techniques, and Procedures (Inter-service) 
+ALO—Air Liaison Officer 
+ANG—Air National Guard 
+ARCNET—Air Reserve Component Network 
+ASOG—Air Support Operations Group 
+ASOS—Air Support Operations Squadron 
+ATAK—Android Tactical Assault Kit 
+ATO—Air Tasking Order 
+ATP—Allied Tactical Publication 
+BDA—Battle Damage Assessment 
+BMNT—Begin Morning Nautical Twilight 
+BOC—Bomb on Coordinate 
+BOT—Bomb on Target 
+BSO—Basic Simulator Operator 
+CAF—Combat Air Forces 
+CAS—Close Air Support 
+CCNA—Cisco® Certified Network Associate 
+CEU—Continuing Education Units 
+CFF—Call for Fire 
+CT—Continuation Training 
+CTF—Combat Training Flight 
+CTS—Combat Training Squadron 
+54 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+DACAS—Digitally Aided Close Air Support 
+DAFPD—Department of the Air Force Policy Memorandum 
+DAFMAN—Department of the Air Force Manual 
+DAFI—Department of the Air Force Instruction 
+DISA—Defense Information System Agency 
+DMON—Distributed Mission Operations Network 
+DNIC—Duties Not Including Controlling 
+DOC—Designed Operational Capability 
+DoD—Department of Defense 
+DRRS—Defense Readiness Reporting System 
+DTOC—Distributed Training Operations Center 
+EENT—End Evening Nautical Twilight 
+EW—Electronic Warfare 
+FAC—Forward Air Controller 
+FAC(A)—Forward Air Controller (Airborne) 
+FIST—Fire Support Team 
+FMP—Full Mission Profile 
+FSCM—Fire Support Coordination Measure 
+FW—Fixed-wing 
+GFC—Ground Force Commander 
+GPS—Global Positioning System 
+HAF—Headquarters Air Force 
+IA—Information Assurance 
+IAT—Information Assurance Technician 
+IAW—In Accordance With 
+IP—Initial Point 
+IR—Infrared 
+ISR—Intelligence, Surveillance, and Reconnaissance 
+ISSO—Information Systems Security Officer 
+ITR—Instructor Training Records 
+JCAS—Joint Close Air Support 
+JFO—Joint Fires Observer 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+55 
+JFS ESC—Joint Fire Support Executive Steering Committee 
+JMTL—Joint Mission Task List 
+JP—Joint Publication 
+JTAC—Joint Terminal Attack Controller 
+JTAC ICT—Joint Terminal Attack Controller Initial Certification Training 
+JTAC MQT—Joint Terminal Attack Controller Mission Qualification Training 
+JTAC-E—Joint Terminal Attack Controller Evaluator 
+JTAC-E-PM—Joint Terminal Attack Controller Evaluator Program Manager 
+JTAC-I—Joint Terminal Attack Controller Instructor 
+JTAC-PM—Joint Terminal Attack Controller Program Manager 
+JTAR—Joint Tactical Airstrike Request 
+JTC TRS—Joint Terminal Control Training and Rehearsal System 
+LRF—Laser Range Finder 
+LTD—Laser Target Designator 
+MACCS—Marine Corps Air Command and Control System 
+MAJCOM—Major Command (USAF) 
+METL—Mission Essential Tasks List 
+MFR—Memorandum for Record 
+MICT—Management Internal Control Toolset 
+MISREP—Mission Report 
+MOA—Memorandum of Agreement 
+NATO—North Atlantic Treaty Organization 
+NGB—National Guard Bureau 
+NTACS—Navy Tactical Air Control System 
+NVD—Night Vision Device 
+OI—Operating Instruction 
+OPR—Office of Primary Responsibility 
+PE—Practical Exercise 
+PM—Program Manager 
+PSS-SOF—Precision Strike Suite-Special Operations Forces 
+REGAF—Regular Air Force 
+ROE—Rules of Engagement 
+56 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+RTM—Ready Tasking Message 
+RW—Rotary-wing 
+SEAD—Suppression of Enemy Air Defenses 
+SEE—Standardization and Evaluations Examiner 
+SEI—Special Experience Identifier 
+SIM O/M—Simulator Operator and Maintainer 
+SOAGS—Special Operations Air-Ground System 
+SOF—Special Operations Forces 
+SPINS—Special Instructions 
+SSCP—System Security Certified Practitioner 
+SWA—Special Warfare Airmen 
+SWAK—Special Warfare Assault Kit 
+TAC—Terminal Attack Control 
+TACS—Theater Air Control System 
+TACP—Tactical Air Control Party 
+TAGS—Theater Air-Ground System 
+TLE—Target Location Error 
+TOC—Tactical Operations Center 
+UAS—Unmanned Aircraft System 
+UCAV—Unmanned Combat Aerial Vehicle 
+UQ—Unqualified 
+USSOCOM—United States Special Operations Command 
+VDL—Video Downlink 
+W&T—Weapons and Tactics 
+WIC—Weapons Instructor Course 
+Office Symbols 
+AF/A1PT—Air Force Accessions and Training 
+AF/A3—Air Force Operations 
+AF/A3S—Air Force Special Warfare 
+AF/A3TC—Air Force Combat Air Forces 
+ACC/A3J—Air Combat Command Personnel Recovery 
+AFSOC/A3O—Air Force Special Operations Command/Operations 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+57 
+NGB A3J—Personnel Recovery and Joint Integration Division 
+JS J6 DD C5I JFID—Joint Staff J6 Deputy Directorate for Cyber and Command, Control, 
+Communications, and Computers Integration 
+Terms 
+Accredited JTAC Schoolhouse—Recognition by the Joint Close Air Support (JCAS) ESC that a 
+schoolhouse instructs trainees in the academic, practical, and live control training requirements 
+IAW JTAC MOA. 
+Airman—Throughout this document, the term Airman refers to uniformed members of the U.S. 
+Air Force. 
+Approval Authority—Senior leader responsible for contributing to and implementing policies 
+and guidance/procedures pertaining to that individual’s functional area(s) (e.g., heads of functional 
+two-letter offices). 
+Authentication—Required element to verify approval of the publication; the approval official 
+applies their signature block to authenticate the publication. The signature block includes the 
+official’s name, rank, and title (not signature). 
+Begin Morning Nautical Twilight (BMNT)—The start of that period where, in good conditions 
+and in the absence of other illumination, enough light is available to identify the general outlines 
+of ground objects and conduct limited military operations. Light intensification devices are still 
+effective and may have enhanced capabilities. At this time, the sun is 12 degrees below the eastern 
+horizon (DoD Dictionary of Military and Associated Terms). 
+Certified (JTAC)—An individual who satisfactorily completes the appropriate Service, United 
+States Special Operation Command, or Partner Nation JTAC academic course, and evaluation 
+IAW AFMAN 10-3505V1 and AFMAN 10-3505V2 may be granted JTAC certification. Once 
+certified and awarded the applicable SEI, a JTAC remains certified permanently unless the 
+certification is lost for cause. Note: Combat Control Team and TACP operators are awarded SEI 
+914. Air Force Special Warfare Officers and ALOs are awarded SEI O9C upon initial JTAC 
+certification. 
+Chief, W&T—Graduate of the USAF WIC, who serves as the unit’s instructor of instructors and 
+is responsible for the grooming and upgrade of JTAC-Is and oversees the training and utilization 
+of the unit’s JTAC instructor(s) (JTAC-I). In addition, assists the unit commander in identifying 
+weapons and/or tactics deficiencies and advises on necessary actions and programs to remedy 
+problem areas. 
+Close Air Support (CAS)—Air action by fixed-wing and rotary-wing aircraft against hostile 
+targets that are in close proximity to friendly forces and requires detailed integration of each air 
+mission with the fire and movement of those forces (JP 3-09.3). 
+Combat Aircraft—Fixed-wing or variable geometry wing aircraft designed, equipped, or 
+modified to engage targets by employing guided missiles, unguided rockets, bombs, guns, 
+cannons, or other weapons of destruction, including versions of these aircraft which perform 
+specialized electronic warfare, suppression of air defense or reconnaissance missions. 
+Note—The term “combat aircraft” does not include primary trainer aircraft unless designed, 
+equipped, or modified as described above. 
+58 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+Combat Mission Ready (CMR)—CMR establishes the minimum training required for qualified 
+JTACs to remain proficient in all of the primary missions for their unit and aligned unit. CMR is 
+designed for JTACs assigned to squadron-level and below. 
+Constructive Training—Constructive simulation training is the use of computer models and 
+game-type simulations. These tools permit multiple echelons of command and staff to execute 
+their normal warfighting tasks in an unconstrained exercise environment (e.g., battle command 
+training plan exercises). 
+Continuation Training (CT)—Training required to maintain duty position qualification and 
+proficiency. 
+Control—Consists of at least one simulated, dry, or live aircraft (fixed/rotary-wing) attacking a 
+surface target. The control should follow the CAS execution template IAW JP 3-09.3/ATP 3.3.2.2. 
+An actual weapons release is not required. No more than two controls (lead aircraft and wingman) 
+can be counted per CAS briefing per target. 
+Day Terminal Attack Control—Day terminal attack control is a control of CAS aircraft at a point 
+after BMNT and prior to EENT. 
+Dry Terminal Attack Control—Dry terminal attack control is control of aircraft where no air-
+to-ground munitions (live, inert, or training ordnance) are released from the aircraft. 
+Dynamic Phase—Dynamic Phase will involve moving friendly elements. This may consist of a 
+foot patrol, vehicle convoy, or quick reaction force situations. If limited to an observation post due 
+to range restrictions, JTAC-I will create a scenario with notional friendly elements moving about 
+the target area. 
+End Evening Nautical Twilight (EENT)—Occurs when the sun has dropped 12 degrees below 
+the western horizon and is the instant of last available daylight for the visual control of limited 
+ground operations. At the EENT there is no further sunlight available (DoD Dictionary of Military 
+and Associated Terms). 
+Forward Air Controller (Airborne) (FAC(A))—A specifically trained and qualified aviation 
+officer who exercises control from the air of aircraft engaged in close air support of ground troops. 
+The FAC(A) is normally an airborne extension of the tactical air control party (JP 3- 09.3). 
+Joint Terminal Attack Controller (JTAC)—A qualified (certified) Service member who, from 
+a forward position, directs the action of combat aircraft engaged in close air support and other 
+offensive air operations. (JP 309.3). 
+Joint Terminal Attack Controller- Evaluator (JTAC-E)—A qualified JTAC who has 
+completed an initial JTAC-E evaluation successfully and is designated to perform evaluation 
+duties as specified by AFMAN 10-3505V2. JTAC-Es must be qualified in the position they are 
+evaluating. JTAC-Es are trained and certified to administer JTAC evaluations at the direction of 
+the JTAC-E-PM. 
+Joint Terminal Attack Controller-Instructor (JTAC-I)—A qualified individual recommended 
+by the unit Chief, W&T and designated by the unit commander who provides training to unit 
+JTACs. Responsible for implementing JTAC training per this AFMAN and developed by the unit’s 
+Chief, W&T. 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+59 
+Joint Terminal Attack Controller Trainee—A JTAC trainee is an individual that is currently 
+going through the process to become a JTAC. An individual is considered a JTAC trainee until 
+they successfully complete an initial certification evaluation and are awarded either SEI O9C or 
+914. 
+JTAC Initial Certification Training (JTAC ICT)—A formal training process consisting of an 
+accredited JTAC schoolhouse course designed to initially qualify a JTAC in terminal control duties 
+without regards to the unit’s operational mission. 
+JTAC Mission Qualification Training (JTAC MQT)—Training required to achieve a basic 
+level of competence in JTAC requirements and in a unit’s primary tasked missions. This training 
+is a prerequisite for CMR status. 
+JTAC-Program Manager (JTAC-PM)—A highly qualified individual designated by the unit 
+commander who is responsible for managing the unit’s JTAC upgrade and CT training programs. 
+Ensures the requirements of AFMAN 10-3505V2, are implemented. 
+Laser Terminal Attack Control—Laser terminal attack control is control of CAS aircraft using 
+a laser target designation device or terminal guidance for air-to-ground munitions. A laser terminal 
+attack control is defined as control of CAS aircraft using ground-based laser designation equipment 
+where the JTAC has direct or indirect control over activation and deactivation. 
+Live Terminal Attack Control—Live terminal attack control is control of aircraft where air-to-
+ground munitions (live, inert, or training ordnance) are released from the aircraft. 
+Live Training—Live training is that which is conducted in a physical environment. It normally 
+occurs on ranges/maneuver areas or in a military operating area. 
+Mission Essential Tasks List (METL)—A collective task on which an organization trains to be 
+proficient in its designed capabilities or assigned mission (DoD Dictionary of Military and 
+Associated Terms). Each Air Force unit and aligned or associated Army unit have a unit METL. 
+The ASOS specific METL can be found in Defense Readiness Reporting System (DRRS). 
+Mission Phase—Mission Phase is the culminating phase of MQT and is meant to prepare the 
+student for deployment as a JTAC across the full spectrum of mission sets and tasks that a JTAC 
+may encounter. 
+Night Terminal Attack Control—Night terminal attack control is control of CAS aircraft at a 
+point after EENT and prior to BMNT, with or without the use of night observation devices or 
+Infrared (IR) designators. 
+Practical Exercise (PE)—A CAS mission PE is a comprehensive training event that includes all 
+areas of mission planning, coordination, and execution, but does not involve control of actual 
+aircraft. The CAS mission PE is intended to make the most effective use of available training 
+sorties by allowing personnel to become familiar with tactics, techniques, and procedures prior to 
+an actual mission. Each CAS mission PE could have several different outcomes/training objectives 
+based on the instructor’s inputs. The PE provides instant feedback to an instructor and trainee in 
+those areas needing improvement. Instructors use actual mission profiles and mission- related 
+information to familiarize the trainee with what to expect during all phases of mission execution. 
+Additionally, PEs can be used to complete identified CT requirements when live-fly aircraft, 
+equipment or ranges are not available to complete live training and the training objectives can be 
+met by a combination of discussion, demonstration, and/or performance of the tasks. 
+60 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+Precision Strike—The full kinetic and non-kinetic potential of ground, air, space, and cyber 
+power to successfully find, fix, and bring effects against an objective or capability. 
+Proficiency—Accomplishing a JMTL or METL task correctly and efficiently without assistance. 
+Qualified (JTAC)—A certified JTAC who holds a 914/O9C SEI and completes the established 
+minimum recurring training IAW Table 4.2 and evaluation requirements. 
+Simulated Terminal Attack Control—Simulated terminal attack control is control of virtual 
+aircraft in an electronically generated environment. 
+Static Phase—Static phase is intended to accomplish JTAC MOA certification Table 4.1 items, 
+build the students CAS cadence proficiency, and establish effectiveness in the targeting process 
+without the added stress of moving and tracking multiple friendly and enemy positions in a 
+dynamic environment. 
+Task Evaluation—A task evaluation is the completion of a task under the supervision of a trainer 
+to certify the member is capable of performing the task to a Go/No-Go standard. 
+Terminal Attack Control—A control consists of at least one aircraft attacking a surface target. 
+The control begins with a CAS briefing from a JTAC and ends with either an actual/simulated 
+weapons release or an abort on a final attack run. No more than two controls may be counted per 
+CAS briefing per target. 
+Unqualified (UQ) (JTAC)—Individuals are placed in “unqualified” status after failing to 
+complete training or qualification requirements within the allotted training cycle or has failed to 
+meet evaluation requirements outlined in AFMAN 10-3505V2. “Unqualified” is a status for when 
+a JTAC is not permitted to control aircraft unsupervised. 
+Note—Even when an individual is placed in “UQ” status, the JTAC remains a “certified.” 
+Virtual Training—Virtual training provides crews, leaders, and units with realistic training 
+experiences using a variety of means ranging from sophisticated simulators to practical exercises. 
+Simulators operating on virtual terrain take the place of weapon systems and can be linked to 
+expand the scope of the training event (e.g., JFS ESC accredited simulator). 
+ 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+61 
+Attachment 2 
+GLOSSARY OF MISSION AND EVENT DEFINITIONS 
+A2.1.  Full Mission Profile (FMP).  An FMP includes all of the following: receipt of mission; 
+planning and staff coordination to include a mission briefing; complete CAS Execution Template 
+tasks IAW JP 3-09.3, and mission debriefing. 
+A2.2.  Terminal Attack Control Events. 
+A2.2.1.  A terminal attack control, or just a control, consists of at least one aircraft attacking a 
+surface target. The control begins with a CAS briefing from a JTAC and ends with either an 
+actual or simulated weapons release or an abort on a final attack run. No more than two controls 
+may be counted per CAS briefing per target. The following events are tasks that may be part 
+of a terminal attack control: 
+A2.2.1.1.  Type 1 Control.  Type 1 control is used when the JTAC/FAC(A) requires 
+control of individual attacks, and the situation requires the JTAC/FAC(A) to visually 
+acquire the attacking aircraft and the target for each attack. Reference JP 3-09.3 for 
+complete Type 1 control requirements. 
+A2.2.1.2.  Type 2 Control.  Type 2 control is used when the JTAC requires control of 
+individual attacks and any or all of the following conditions exist: JTAC is unable to 
+visually acquire the attacking aircraft at weapons release; JTAC is unable to visually 
+acquire the target; or the attacking aircraft is unable to acquire the mark and/or target prior 
+to weapons release. See JP 3-09.3 for complete Type 2 control requirements. 
+A2.2.1.3.  Type 3 Control.  Type 3 control is used when the JTAC requires the ability to 
+provide clearance for multiple attacks within a single engagement, subject to specific attack 
+restrictions, and any or all of the following conditions exist: JTAC is unable to visually 
+acquire the attacking aircraft at weapons release; JTAC is unable to visually acquire the 
+target or the attacking aircraft is unable to acquire the mark and/or target prior to weapons 
+release. See JP 3-09.3 for complete Type 3 control requirements. 
+A2.2.1.4.  Day.  Day terminal attack control is control of CAS aircraft at a point after 
+BMNT and prior to EENT. 
+A2.2.1.5.  Night.  Night terminal attack control is control of CAS aircraft at a point after 
+EENT and prior to BMNT. 
+A2.2.1.6.  Bomb on Target (BOT).  A BOT attack requires that the JTAC/FAC(A)’s 
+intended target or mark is tally/contact/captured by the aircrew. See JP 3-09.3 for complete 
+BOT control requirements. 
+A2.2.1.7.  Bomb on Coordinate (BOC).  A BOC attack is used when the JTAC/FAC(A) 
+determines that the desired effects can be created against the target with CAS aircraft 
+employing ordnance on a specified set of coordinates. See JP 3-09.3 for complete BOC 
+control requirements. 
+A2.2.1.8.  Digitally Aided (DA).  Employ DA CAS/Fires system. JTAC will demonstrate 
+the ability to successfully perform a DA CAS control. 
+A2.2.1.9.  Fixed-Wing (FW).  CAS conducted with CAS capable fixed-wing aircraft. 
+62 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+A2.2.1.10.  Rotary-Wing (RW).  CAS conducted with CAS capable rotary-wing or 
+helicopter aircraft. 
+A2.2.1.11.  Laser Designation.  Ability to effectively target mark or designate with a 
+ground based LTD for CAS aircraft. Such equipment may be, but not limited to, the Type 
+63, GLTD II or AN/PEQ-1. The intent is to utilize laser, equipment, terminology, brevity, 
+and safety procedures. 
+A2.2.1.12.  Infrared (IR) Designation.  Ability to effectively target mark with a ground-
+based IR pointer for aircraft capable of seeing and/or detecting IR energy during the 
+employment of real or simulated weapons. IR designation includes using IR brevity 
+terminology and ground-based IR pointing equipment where the JTAC has direct or 
+indirect control over activation, movement, mode, and deactivation. 
+A2.2.1.13.  Remote Observer.  Defined as demonstrating the ability to target via remote 
+observer (e.g., Scout, FIST, JFO, SOF). JTAC will demonstrate the ability to work 
+successfully with a remote observer to acquire targeting information (e.g., target location, 
+threats, friendlies) and other critical information needed to build situational awareness to 
+successfully conduct a CAS mission. 
+A2.2.1.14.  Video Downlink (VDL).  Defined as the JTAC demonstrating the ability to 
+successfully use video downlink to receive full motion video, still photos, imagery, or other 
+media to acquire targeting information (e.g., target coordinates, threats, friendlies, etc.) 
+needed to build situational awareness to successfully conduct a CAS mission. 
+A2.2.1.15.  Live Control.  Control of live aircraft where air-to-ground munitions (live, 
+inert or training ordnance) are present, and release is intended. Actual munition release 
+must take place to count towards live control requirements. 
+A2.2.1.16.  9-line Attack Brief Terminal Attack Control.  A 9-line attack brief terminal 
+attack control is defined as control of CAS aircraft during the employment of real or 
+simulated weapons in a permissive or non-permissive environment where threats, airspace 
+deconfliction, or terrain require the use of a complete 9-line to include calculating and 
+communicating initial IP, heading, and distance. 
+A2.2.1.17.  Battle Damage Assessment (BDA).  JTAC demonstrating the ability to 
+provide a BDA report to CAS aircraft that includes: Size, Activity, Location, Time, 
+Remarks — Munitions expended, observed damage (e.g., number of tanks destroyed, 
+number still active, and recommendation), mission number, and mission accomplishment 
+(SUCCESSFUL, UNSUCCESSFUL or UNKNOWN). 
+ 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+63 
+Attachment 3 
+SPECIALIZED POSITION TRAINING TABLES 
+Table A3.1.  Simulator Operator Training Requirements. 
+TRAINING ITEM 
+FREQUENCY PROFICIENCY 
+CODES 
+1. Attain and maintain information assurance 
+requirements. TR: DoDM 8140.03-; AFMAN 17-
+1303, Cybersecurity Workforce Improvement Program 
+1.1. A+CE, CCNA-Security, Network+ CE, or SSCP 
+Initial 
+N/A 
+1.2. Certified Network Defender (CND) 
+Initial 
+N/A 
+1.3. Continuing Education Units (CEU). 
+Triennial 
+N/A 
+1.4. Sign formal statement of assigned cybersecurity 
+responsibilities. 
+Initial 
+N/A 
+1.5. Sign Privileged Access Agreement. 
+Initial 
+N/A 
+1.6. Sign authorized release of cybersecurity baseline 
+certification data to DoD via DMDC. 
+Initial 
+N/A 
+1.7. Understand IA controls and how the controls 
+apply to simulation systems to enable coordination 
+with unit Information Systems Security Officer to 
+identify applicable IA controls and develop local 
+policy and procedures to ensure compliance and retain 
+Authority to Operate certification. 
+Annual 
+B 
+1.8. Perform cybersecurity responsibilities, as directed 
+by the authorizing official, information systems 
+security manager/officer. 
+Annual 
+3c 
+1.9. Understand requirements to perform distributed 
+operations with units operating on the Distributed 
+Mission Operations Network (DMON) and Air 
+Reserve Component Network (ARCNET) networks 
+(as applicable). 
+TR: DMON and ARCNET guidelines 
+Annual 
+B 
+2. Operate unit assigned JTAC simulation systems 
+TR: JTAC Simulation Systems Operators Manuals. 
+Annual 
+4c 
+3. Perform operator-level and preventative 
+maintenance on assigned simulation systems. 
+TR: Simulation Systems’ Help Desk Procedures, 
+Simulation Systems’ Operators Manuals 
+Biennial 
+3b 
+4. Maintain proficiency in the use of Image 
+Generation and Simulation and Threat Environment 
+software (e.g., Virtual Reality Scene Generation and 
+Modern Air Combat Environment) on JTAC 
+Simulation Systems. TR: Software User’s Guide. 
+Biennial 
+3c 
+64 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+5. Operate ARCNet Gateway rack and portal 
+equipment. TR: Distributed Training Operations 
+Center (DTOC) provided guidance. 
+Biennial 
+4c 
+6. Understand air and ground combat systems 
+capabilities and limitations that perform component 
+fires and joint fires (e.g., CAS aircraft, rotary-wing 
+attack aircraft, artillery systems, etc.). 
+TR: Air Force Tactics, Techniques, and Procedures (Inter-
+service (AFTTP) 3-1, AFTTP 3-2.5, AFTTP(I) 3-2.6, 
+AFTTP 3-2.17, AFTTP 3-3. JTAC, ATP 3-09.30, 
+JP 3-0, JP 3-09, JP 3-09.3, AFDP 3-03, AFI 11-214, 
+ATP 3-04.1, ATP 3-09.30, and applicable weapons 
+systems TTPs/Combat Fundamentals. 
+Biennial 
+C 
+7. Understand air-and ground-based threat systems. 
+TR: AFTTP 3-1 Volume 2. 
+Annual 
+C 
+8. Build and execute full-mission scenarios based on 
+Air Support Operations Squadron (ASOS) and 
+aligned-Army unit Mission Essential Tasks. 
+Annual 
+3c 
+9. Understand simulation requirements for JTACs and 
+JFOs. 
+TR: AFMAN 10-3505V2 and RTPTM. 
+Annual 
+C 
+10. Understand unit procedures for coordinating with 
+unit training, intelligence, and W&T personnel to 
+create and maintain scenarios to support all levels of 
+training and pre-deployment preparation for assigned 
+JTAC personnel. 
+TR: Unit Preparation Message, area of operation 
+specific documentation, and Unit Line Number specific 
+training requirements. 
+Biennial 
+B 
+Note: Refer to TACP CFETP for item 1.6 through item 10 proficiency code requirements. 
+ 
+ 
+ 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+65 
+Table A3.2.  Formal Schoolhouse Instructor Certification Requirements. 
+1. Phase 1, Lesson Observation. 
+1.1. Review the lesson, any lesson materials, and any insights to the 
+lesson for which the individual is to be certified to instruct. 
+Practical 
+1.2. Demonstrate understanding of the lesson objectives, samples of 
+behavior, student workbook, presentation, exam questions, and reference 
+materials/documents/publications for the class/simulator profile. 
+Practical 
+1.3. Observe the lesson being presented to students. Individual takes the 
+lesson academic test. 
+Achieve minimum 
+score of 90% 
+2. Phase 2. Lesson Instruction. 
+ 
+2.1. Prepare the lesson using all available visual aids and present the 
+lesson to an instructor supervisor (or primary/alternate instructor), 
+ensuring coverage of the samples of behavior and demonstrating good 
+time management. 
+Practical 
+2.2. Presenting the lesson to actual students or instructors role-playing as 
+students. 
+Supervising 
+Instructor 
+Assessment 
+ 
+ 
+ 
+66 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+Table A3.3.  Minimum Requirements JTAC-I Upgrade Training Plan. 
+1. Classroom Training. 
+1.1. Complete an instructor academic course that provides: instructor 
+fundamentals, learning theories, teaching methods, questioning 
+techniques, lesson plan development, JTAC-I roles, training program 
+management, mission planning, briefing, grade sheet fundamentals, and 
+debriefing fundamentals. 
+N/A 
+1.2. Understand JTAC references per AFMAN 10-3505V2. 
+ 
+1.3. Observe minimum of two JTAC-I led classes. 
+N/A 
+1.4. Instruct three classes using a minimum of one visual aid. 
+W&T or JTAC-
+PM Assessment 
+2. Task Training. 
+2.1. Simulator training. 
+2.1.1. Simulator Event #1. Observe a certified JTAC-I providing 
+instruction to a JTAC trainee during a permissive FMP. 
+Practical 
+2.1.2. Simulator Event #2. Observe a certified JTAC-I providing 
+instruction to a JTAC trainee during a non-permissive FMP. 
+Practical 
+2.1.3. Simulator Event #3. Provide instruction to a JTAC trainee during a 
+permissive FMP. 
+CW&T, JTAC-PM, 
+Course Manager, 
+Instructor 
+Supervisor, or 
+Commander-
+designated 
+representative 
+Assessment 
+2.1.4. Simulator Event #4. Provide instruction to a JTAC trainee during 
+a non-permissive FMP. 
+CW&T, JTAC-
+PM, Course 
+Manager, 
+Instructor 
+Supervisor, or 
+Commander-
+designated 
+representative 
+Assessment 
+2.2. Live-fly Training. 
+2.2.1. Live-fly Event #1. Observe a certified JTAC-I providing 
+instruction to a JTAC trainee during a permissive FMP. 
+Practical 
+2.2.2. Live-fly Event #2. Observe a certified JTAC-I providing 
+instruction to a JTAC trainee during a non-permissive FMP. 
+Practical 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+67 
+2.2.3. Live-fly Event #3. Provide instruction to a JTAC trainee during a 
+permissive CAS Mission Profile. 
+CW&T, JTAC-
+PM, Course 
+Manager, 
+Instructor 
+Supervisor, or 
+Commander-
+designated 
+representative 
+Assessment 
+2.2.4. Live-fly Event #4. Provide instruction to a JTAC trainee during a 
+non-permissive FMP. 
+CW&T, JTAC-
+PM, Course 
+Manager, 
+Instructor 
+Supervisor, or 
+Commander-
+designated 
+representative 
+Assessment 
+ 
+ 
+ 
+68 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+Table A3.4.  Minimum Requirements JTAC-E Upgrade Training Plan. 
+1. Classroom Training. 
+ 
+1.1. Complete an evaluator academic course that provides: Stan/Eval Upgrade Procedures, 
+Stan/Eval Organization, Stan/Eval Duties and Responsibilities, Stan/Eval Governing 
+Publications, JTAC Evaluations Scenario Development, Go/No Procedures Publications 
+Test, Conduct of Ground Phase Evaluation, Conduct of Control Phase JTAC Evaluation, 
+Conduct of Control Phase No-Notice/Spot Evaluation, Conduct of Control Phase JTAC-I 
+Evaluation, Conduct of Control Phase JTAC-E Spot Evaluation, Failure and Additional 
+Training Procedures, Evaluation Documentation, and JTAC Training & Evaluation 
+Record Review. 
+N/A 
+1.2. Understand JTAC references per flight/ground safety standards and governing 
+supplements/instructions. 
+N/A 
+2. Task Training.  
+ 
+2.1. Develop two complete JTAC evaluation scenarios (one permissive and one non-
+permissive) or differing mission types (e.g., armor, Airborne, Air Assault, major combat 
+operations, counter-insurgency) to include a mock ATO and OPORD/CONOP. 
+JTAC-E-PM or 
+Commander 
+Designated JTAC-E 
+assessment 
+2.2. Live-Fly or Simulator Event: Observe a certified JTAC-E providing evaluation to a 
+JTAC trainee during both a permissive and non-permissive event, from notification of 
+evaluation through evaluation form debrief. 
+Practical 
+2.2.1. As Required, Practical Exercise: If Simulator Event, an additional observation of all 
+Required Evaluation Areas not previously covered must be accomplished.  
+Practical 
+2.3. Recommend. Live-fly, Simulator, or Practical Exercise: Conduct a mock JTAC 
+evaluation, from tactical scenario development through evaluation debrief and evaluation 
+form completion. 
+JTAC-E-PM or 
+Commander 
+Designated JTAC-E 
+Assessment 
+ 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+69 
+Attachment 4 
+JTAC TRAINING & EVALUATION FOLDER. 
+A4.1.  Part I -left side Table of Contents.  The table of contents will list each section of the 
+folder. (T-1) 
+Figure A4.1.  Sample Table of Contents. 
+ 
+ 
+ 
+70 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+A4.2.  Part II. Inside right side Commander’s Designation Letters (CDLs).  This section 
+contains, at a minimum, a copy of the current JTAC designation letter as well as any documentation 
+of the JTAC being removed from the JTAC program for any reason. If the JTAC is re-entered into 
+the JTAC program, that designation letter will also be present. Copies of previous designation 
+letters (optional), if applicable, may be kept here. A Letter of Qualifications is acceptable in this 
+portion of the folder in lieu of the Commander’s Designation Letter. 
+Figure A4.2.  Sample Commander’s Designation Letter. 
+ 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+71 
+Figure A4.3.  Sample JTAC Letter of Qualifications. 
+ 
+A4.3.  PART III. Inside center left side CAS Log.  This section contains a record of all controls 
+performed. The cover sheet of this section will contain a statement that the most recent CAS log 
+can be found on the HAF-approved digital tracking system in use by the JTAC’s current 
+MAJCOM. A printout of the CAS log from the JTAC tracking system in use will be no older than 
+180 days and the date of the printout will be annotated on the PART III cover sheet. CAS logs 
+from combat and non-combat sorties will be annotated on the JTAC’s CAS log. (T-1) 
+72 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+Figure A4.4.  Sample CAS Log Cover Page. 
+ 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+73 
+Figure A4.5.  Sample CAS Log. 
+ 
+74 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+A4.4.  PART IV. Inside center right side. Documentation of Training.  Document all initial, 
+mission qualification, continuation qualification, and refresher training, including academics and 
+testing. This section will include all AF Form 623A, AF Form 797, and AF Form 1098. (T-1) 
+A4.4.1.  The order of documentation will be: 
+A4.4.1.1.  AF Form 623A – In addition to the CDL, the AF Form 623A will document: 
+removal from JTAC Qualification Status, return to JTAC Qualification status, all 
+additional, remedial, requalification, and refresher training. (T-1) If there are any 
+corrections to, or changes made to the training record, then they will be recorded on the 
+AF Form 623A. (T-1) 
+A4.4.1.1.1.  A change log from the digital tracking system will be included with the 
+AF Form 623A to annotate any corrections or adjustments to the individual’s training 
+documentation. (T-1) 
+A4.4.1.1.2.  If the change log also documents all of the data that is required on the AF 
+Form 623A, then it may be used in lieu of the AF Form 623A. 
+A4.4.1.2.  AF Form 1098 – The AF Form 1098 will document all Special Task and 
+Recurring Training such as JTAC qualification requirements IAW Table 4.2 of this 
+publication. (T-1) The Go/No-Go Table of an approved digital tracking system is an 
+acceptable substitute for tracking recurring qualification requirements. (T-1) 
+A4.4.1.3.  JTAC Certification AF Form 1036 – The AF Form 1036 will document the 
+JTAC’s entry into Initial Certification Training, completion of ICT, completion of initial 
+JTAC evaluation, entry into Mission Qualification Training, and completion of MQT. 
+(T-1) 
+A4.4.1.3.1.  JTAC Upgrade AF Form 797– If not included in the JTAC Certification 
+AF Form 797, a separate AF Form 797 will include entry into, and completion of 
+JTAC-I and JTAC-E qualification. (T-1)  
+A4.4.1.3.2.  All JTAC Upgrade AF Form 797 will remain a permanent part of the JTAC 
+training and evaluation folder. (T-1) Missing JTAC upgrade AF Form(s) 797 will be 
+documented in an MFR and endorsed by the group commander or equivalent O-6. (T-1)  
+A4.4.1.4.  ACC Form 206, Individual Mission Gradesheet or Approved Equivalent – All 
+documentation of graded controls will be retained and stored in this section in order from 
+newest grade sheet to oldest. Reference ACCI 11-464, Training Records and Performance 
+Evaluation in Formal Flying Training Programs for instructions on how to complete ACC 
+Form 206. (T-1) 
+A4.4.1.5.  MFR Related to Training – Any MFR that is related to the individual’s training 
+will be retained here. (T-1) 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+75 
+Figure A4.6.  Sample Documentation of Training Cover Page. 
+ 
+ 
+ 
+76 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+A4.5.  PART V. Inside back left side Documentation of Evaluations.  This section contains all 
+evaluations conducted since initial certification. It also includes all documentation of waivers, 
+extensions, and discrepancies as appropriate to clarify any inputs on the evaluation form(s) 
+contained within this part of the folder. This portion of the training and evaluation folder is 
+governed by AFMAN 10-3505V2, Joint Terminal Attack Controller (JTAC) Standardization & 
+Evaluation Program. 
+A4.6.  PART VI. Inside back, right side JTAC Formal School Diplomas and SEI 
+Documentation.  In this section, all formal JTAC courses attended by the individual will be listed 
+with the most recent on top. Additionally, any administrative documentation of SEI designation 
+such as the AF Form 2096 will be located in this section. (T-1) 
+A4.6.1.  JTAC Training Certificates 
+A4.6.2.  AF Form 2096 or Automated Equivalent 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+77 
+Figure A4.7.  Sample JTAC Formal School Diplomas & SEI Documentation Cover Sheet. 
+ 
+ 
+78 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+Attachment 5 
+EXAMPLE JTAC MQT PROGRAM 
+A5.1.  JTAC MQT PROGAM Syllabus.  An example syllabus is outlined below that 
+demonstrates part task training events culminating in a FMP as a check on learning to progress to 
+the next phase of training and prepare trainees for a formal JTAC evaluation. Items covered during 
+formal training courses that conduct a comprehensive JTAC final assessment that covers all of the 
+JMTLs, such as the Tactical Air Control Party Initial Certification Course, are not required to be 
+completed during a JTAC MQT upgrade program, but may be, subject to the unit commander’s 
+discretion. 
+A5.1.1.  Static Phase  – these scenarios are intended to build the students CAS cadence and 
+effectiveness in creating and passing 9-lines without the added stress of moving or tracking 
+other moving friendly elements. 
+A5.1.1.1.  Event 1-Single friendly, single target. 
+A5.1.1.2.  Event 2-Single friendly, multiple targets. 
+A5.1.1.3.  Event 3-Multiple friendlies, single target. 
+A5.1.1.4.  Event 4-Multiple friendly, multiple targets. 
+A5.1.1.5.  Event 5-Troops in Contact (TIC) Situation. 
+A5.1.1.6.  FMP-1 (Day or Night) FMP and assessment of static phase focus items. 
+A5.1.1.6.1.  Static Phase Focus Items: 
+A5.1.1.6.2.  Demonstrate routing/safety of flight IAW JP 3-09.3. 
+A5.1.1.6.3.  Demonstrate CAS check-in brief IAW JP 3-09.3. 
+A5.1.1.6.4.  Establish and maintain effective two-way radio communication with 
+aircraft. 
+A5.1.1.6.5.  Demonstrate proper CAS brief IAW JP 3-09.3. 
+A5.1.1.6.6.  Utilize coordinates to facilitate target acquisition and location(s) of 
+friendly elements. 
+A5.1.1.6.7.  Personal kit set up to execute JTAC mission and allow for easy access to 
+mission equipment. 
+A5.1.1.6.8.  Demonstrate understanding/employment of TAC equipment (GPS, 
+marking devices, etc.). 
+A5.1.1.6.9.  Demonstrates basic understanding of aircraft and artillery weaponry. 
+A5.1.1.6.10.  Execute simple artillery CFF, Army Attack Aviation CFF, and AC-130 
+Gunship CFF, and de-confliction IAW JP 3-09.3. 
+A5.1.1.6.11.  Demonstrate understanding of Risk Estimate Distances and Minimum 
+Safe Distances IAW AFI 11-214 and AFTTP 3-2.6 JFIRE. 
+A5.1.1.6.12.  CAS mission briefing/debriefing procedures. 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+79 
+A5.1.1.6.13.  Electronic Counter-counter Measures (frequency hopping procedures). 
+A5.1.1.6.14.  Laser procedures (marking and terminal guidance operations). 
+A5.1.2.  Dynamic Phase.  Dynamic scenarios should involve mobile elements. This may 
+consist of a foot patrol, vehicle convoy, or response to a TIC situation. If limited to an OP due 
+to range restrictions, JTAC-I can create a scenario with notional friendly elements moving 
+throughout the target area. 
+A5.1.2.1.  Event 1-Single moving friendly element, single target. 
+A5.1.2.2.  Event 2-Single moving friendly element, multiple targets. 
+A5.1.2.3.  Event 3-Multiple moving friendly elements, single target. 
+A5.1.2.4.  Event 4-Multiple moving friendly elements, multiple targets. 
+A5.1.2.5.  FMP-2 (Day or Night) FMP and assessment of dynamic focus items – Scenario 
+should involve an FMP with a friendly moving element (patrol or convoy) which 
+demonstrates a sound grasp of dynamic phase focus items. Dynamic Phase-Focus Items: 
+A5.1.2.5.1.  Utilize multiple air assets within given airspace in conjunction with CAS 
+(Bomber, ISR, RW, AC-130, etc.) 
+A5.1.2.5.2.  Demonstrate correct and timely sensor postures while utilizing all 
+available sensors to meet ground force commander intent. 
+A5.1.2.5.3.  Prioritizing FW or RW effects based upon ground situation and using all 
+available assets to produce synergistic effects. 
+A5.1.2.5.4.  Safely integrates surface-based fires to meet ground force commander 
+intent. 
+A5.1.2.5.5.  Formal and Informal ACAs. 
+A5.1.2.5.6.  Digitally Aided, day, night, mounted and dismounted CAS TTP. 
+A5.1.2.5.7.  Insertion/Extraction and Infiltration/Exfiltration TTP. 
+A5.1.2.5.8.  Create and utilize Concept of Fires plan. 
+A5.1.2.5.9.  Conduct Staff Coordination with appropriate level. 
+A5.1.3.  Mission Phase.  This is the culminating phase of MQT and is meant to prepare the 
+student for deployment as a JTAC across the full spectrum of mission sets and tasks that a 
+JTAC can encounter. 
+A5.1.3.1.  FMP-3. Day offensive operations. 
+A5.1.3.2.  FMP-4. Night offensive operations. 
+A5.1.3.2.1.  Mission Phase-Focus Items: 
+A5.1.3.2.2.  Effectively battle track friendlies, know friendly positions and de-conflict 
+from aircraft. 
+A5.1.3.2.3.  Prioritize CAS or artillery based on precedence – effectively and 
+efficiently identified threat and how and/or when to engage. 
+80 
+AFMAN10-3505V1  7 NOVEMBER 2023 
+A5.1.3.2.4.  Utilize multiple assets to meet ground force commander intent. 
+A5.1.3.2.5.  Conduct SEAD utilizing ground/air weapons. 
+A5.1.3.2.6.  Utilize EW. 
+ 

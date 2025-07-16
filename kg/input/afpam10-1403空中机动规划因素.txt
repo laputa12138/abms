@@ -1,0 +1,3598 @@
+BY ORDER OF THE SECRETARY 
+OF THE AIR FORCE 
+AIR FORCE PAMPHLET 10-1403 
+ 
+24 OCTOBER 2018 
+Operations 
+AIR MOBILITY PLANNING FACTORS 
+ 
+ 
+ 
+ACCESSIBILITY:  Publications and forms are available on the e-Publishing website at 
+www.e-publishing.af.mil  for downloading or ordering.  
+RELEASABILITY:  There are no releasability restrictions on this publication.  
+ 
+ 
+OPR:  AMC/A3X 
+Certified by: AF/A3T 
+(Maj Gen Scott F. Smith) 
+Supersedes: AFPAM 10-1403, 12 December 2011 
+ 
+Pages:  36 
+ 
+This pamphlet provides broad air mobility planning factors for peacetime and wartime 
+operations. It is designed to help service, joint, and combined planners make gross estimates 
+about mobility requirements in the early stages of the planning process.  It covers strategic airlift, 
+deployment and employment air refueling, and aeromedical evacuation.  The use of detailed 
+computer simulation models is encouraged for extensive calculations.  For greater detail, or in-
+depth mobility analysis, contact Headquarters Air Mobility Command (AMC)/A9 at DSN 770-
+7769/5165 or 18 AF/A5 at DSN 779-7842.  Refer recommended changes and questions about 
+this publication to the Office of Primary Responsibility via Air Force Form 847, 
+Recommendation for Change of Publication; route Air Force Forms 847 from the field through 
+the appropriate functional’s chain of command.   
+ 
+Ensure that all records created as a result of processes prescribed in this publication are 
+maintained IAW Air Force Manual (AFMAN) 33-363, Management of Records, and disposed of 
+IAW Air Force Records Information Management System (AFRIMS) Records Disposition 
+Schedule (RDS). 
+ 
+SUMMARY OF CHANGES 
+ 
+Air mobility planning data contained within the tables of this document, including but not 
+limited to aeromedical evacuation data, aircraft payload, ground times, primary mission aircraft 
+inventory, airfield throughput, fuel burn rates, and new Maximum [aircraft] On Ground (MOG) 
+terms, has been substantially revised and should be completely reviewed for impacts on existing 
+plans.  Commercial, Contract and Civil Reserve Air Fleet aircraft data are no longer in this 
+pamphlet.  The following tables are added, Table 12, “KC-46 Tanker Aircraft Required;” Table 
+16, “Planning Sortie and Hour Limits for a typical KC-10 Unit;” and Table 17, “Planning Sortie 
+and Hour Limits for a typical KC-135 Unit.” 
+ 
+  AFPAM10-1403  24 OCTOBER 2018 
+1 
+ 
+ 
+ 
+Section A - Mobility Planning 
+ 
+1.0.  How To Use This Pamphlet 
+ 
+There are four basic parts to this pamphlet:  formulas (airlift/air refueling/aeromedical 
+evacuation), examples, tables, and terms and definitions.  Although each of these parts can be 
+used individually, we recommend you review the entire contents to get a full understanding of 
+the planning process.  All references contained herein are to provide high-level airlift planning 
+estimates over large air mobility operations.  Due to the number of variables involved, they are 
+not universally applicable, especially to actual individual operational missions.  For guidance on 
+current operational planning to include aircraft Allowable Cabin Load's and ground times, please 
+contact the 618th AOC (TACC).  This pamphlet addresses only objective planning computations.  
+It does not provide guidance concerning other factors, such as environmental and tactical 
+considerations, that can impact the mobility operation.   
+ 
+ 
+Section B - Airlift Formulas 
+1.0.  Number of Cargo Missions Required =
+𝑅𝑒𝑞𝑢𝑖𝑟𝑒𝑚𝑒𝑛𝑡 (𝑆ℎ𝑜𝑟𝑡 𝑇𝑜𝑛𝑠)
+𝐴𝑣𝑒𝑟𝑎𝑔𝑒 𝑃𝑎𝑦𝑙𝑜𝑎𝑑 (𝑆ℎ𝑜𝑟𝑡 𝑇𝑜𝑛𝑠) 
+ 
+2.0.  Number of Passenger Missions Required  =
+(𝑇𝑜𝑡𝑎𝑙 𝑃𝑎𝑠𝑠𝑒𝑛𝑔𝑒𝑟𝑠) − (𝑃𝑎𝑠𝑠𝑒𝑛𝑔𝑒𝑟𝑠 𝑜𝑛 𝐶𝑎𝑟𝑔𝑜 𝑀𝑖𝑠𝑠𝑖𝑜𝑛𝑠)
+𝑃𝑎𝑠𝑠𝑒𝑛𝑔𝑒𝑟𝑠 𝐶𝑎𝑝𝑎𝑏𝑖𝑙𝑖𝑡𝑦 𝑝𝑒𝑟 𝑃𝑎𝑠𝑠𝑒𝑛𝑔𝑒𝑟 𝑀𝑖𝑠𝑠𝑖𝑜𝑛
+ 
+Note:  Passengers on Cargo Missions = Number of Passengers seats available on each cargo 
+mission x Number of Cargo Missions. 
+ 
+3.0.  Total Missions Required = Cargo Missions + Passengers Missions. 
+ 
+4.0.  Time to Arrival = active route flying time + active route ground time 
+𝐴𝑐𝑡𝑖𝑣𝑒 𝑅𝑜𝑢𝑡𝑒 𝐹𝑙𝑦𝑖𝑛𝑔 𝑇𝑖𝑚𝑒= (
+𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒1
+𝐵𝑙𝑜𝑐𝑘 𝑆𝑝𝑒𝑒𝑑1) + (
+𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒2
+𝐵𝑙𝑜𝑐𝑘 𝑆𝑝𝑒𝑒𝑑2) + (
+𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒3
+𝐵𝑙𝑜𝑐𝑘 𝑆𝑝𝑒𝑒𝑑3) + ⋯  
+𝐴𝑐𝑡𝑖𝑣𝑒 𝑅𝑜𝑢𝑡𝑒 𝐺𝑟𝑜𝑢𝑛𝑑 𝑇𝑖𝑚𝑒 = 𝐺𝑟𝑜𝑢𝑛𝑑 𝑇𝑖𝑚𝑒1 + 𝐺𝑟𝑜𝑢𝑛𝑑 𝑇𝑖𝑚𝑒2 + 𝐺𝑟𝑜𝑢𝑛𝑑 𝑇𝑖𝑚𝑒3 + ⋯ 
+Note:  Distance = total distance from takeoff to landing. 
+ 
+5.0.  Cycle Time = round trip flying time + round trip ground time  
+𝑅𝑜𝑢𝑛𝑑 𝑇𝑟𝑖𝑝 𝐹𝑙𝑦𝑖𝑛𝑔 𝑇𝑖𝑚𝑒 = (
+𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒1
+𝐵𝑙𝑜𝑐𝑘 𝑆𝑝𝑒𝑒𝑑1) + (
+𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒2
+𝐵𝑙𝑜𝑐𝑘 𝑆𝑝𝑒𝑒𝑑2) + (
+𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒3
+𝐵𝑙𝑜𝑐𝑘 𝑆𝑝𝑒𝑒𝑑3) + ⋯  
+𝑅𝑜𝑢𝑛𝑑 𝑇𝑟𝑖𝑝 𝐺𝑟𝑜𝑢𝑛𝑑 𝑇𝑖𝑚𝑒 = 𝐺𝑟𝑜𝑢𝑛𝑑 𝑇𝑖𝑚𝑒1 + 𝐺𝑟𝑜𝑢𝑛𝑑 𝑇𝑖𝑚𝑒2 + 𝐺𝑟𝑜𝑢𝑛𝑑 𝑇𝑖𝑚𝑒3 + ⋯ 
+ 
+6.0.  Closure =
+(𝑅𝑒𝑞𝑢𝑖𝑟𝑒𝑚𝑒𝑛𝑡) 𝑥 (𝑅𝑜𝑢𝑛𝑑 𝑇𝑟𝑖𝑝 𝐹𝑙𝑦𝑖𝑛𝑔 𝑇𝑖𝑚𝑒)
+(𝐴𝑣𝑒𝑟𝑎𝑔𝑒 𝑃𝑎𝑦𝑙𝑜𝑎𝑑) 𝑥 (𝑁𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝐴𝑖𝑟𝑐𝑟𝑎𝑓𝑡) 𝑥 (Utilization 𝑅𝑎𝑡𝑒)  
+2 
+  AFPAM10-1403  24 OCTOBER 2018 
+ 
+Note:  For major wartime operations, recommend planners use the wartime objective surge 
+utilization rate published in Table 6.  For non-mobilized contingencies, recommend the 
+contingency utilization rate published in Table 6.  Utilization rate computations are extensive and 
+not necessary for initial gross planning estimates. 
+ 
+7.0.  Fleet Capability Short tons delivered to the theater per day 
+ = 
+(𝐴𝑣𝑒𝑟𝑎𝑔𝑒 𝑃𝑎𝑦𝑙𝑜𝑎𝑑) 𝑥 (# 𝑜𝑓 𝐴𝑖𝑟𝑐𝑟𝑎𝑓𝑡) 𝑥 (Utilization 𝑅𝑎𝑡𝑒)
+(𝑅𝑜𝑢𝑛𝑑 𝑇𝑟𝑖𝑝 𝐹𝑙𝑖𝑔ℎ𝑡 𝑇𝑖𝑚𝑒)
+  
+Note:  This formula is preferred for contingency planning, because it accurately relates the 
+variables affecting the deployment of requirements. 
+ 
+8.0.  Fleet Capacity Million Ton-Miles per Day 
+= 
+(# 𝑜𝑓 𝐴𝑖𝑟𝑐𝑟𝑎𝑓𝑡) 𝑥 (𝐵𝑙𝑜𝑐𝑘 𝑆𝑝𝑒𝑒𝑑) 𝑥 (𝐴𝑣𝑒𝑟𝑎𝑔𝑒 𝑃𝑎𝑦𝑙𝑜𝑎𝑑) 𝑥 (Utilization 𝑅𝑎𝑡𝑒) 𝑥 (𝑃𝑟𝑜𝑑𝑢𝑐𝑡𝑖𝑣𝑖𝑡𝑦 𝐹𝑎𝑐𝑡𝑜𝑟)
+1,000,000
+  
+Note:  Although planners do not commonly use this formula, occasionally the conversion of 
+short ton figures into Million Ton-Miles per Day is required.  AMC force structure programmers 
+use Million Ton-Miles per Day when funding out-year aircraft purchases and many civilian 
+agencies are accustomed to visualizing AMC fleet capability in terms of Million Ton-Miles per 
+Day.  Fleet Capacity is generally more optimistic than actual Fleet Capability for a particular 
+contingency. 
+ 
+9.0.  Airfield Throughput Capability (station capability) 
+= [
+(𝑤𝑀𝑂𝐺 𝑜𝑟 𝑝𝑀𝑂𝐺 𝑜𝑟 𝑓𝑀𝑂𝐺 𝑜𝑟 𝑎𝑝𝑀𝑂𝐺 𝑜𝑟 𝑚𝑥𝑀𝑂𝐺 𝑜𝑟 𝑜𝑝𝑀𝑂𝐺) 𝑥 (𝐴𝑣𝑒𝑟𝑎𝑔𝑒 𝑃𝑎𝑦𝑙𝑜𝑎𝑑) 𝑥 (𝑂𝑝𝑒𝑟𝑎𝑡𝑖𝑛𝑔 𝐻𝑜𝑢𝑟𝑠)
+𝐺𝑟𝑜𝑢𝑛𝑑 𝑇𝑖𝑚𝑒
+] 
+𝑋 (85% 𝑄𝑢𝑒𝑢𝑖𝑛𝑔 𝐸𝑓𝑓𝑖𝑐𝑖𝑒𝑛𝑐𝑦) 
+Note:  Use the lower of either working MOG (wMOG), aerial port MOG (apMOG), parking 
+MOG (pMOG), fuel MOG (fMOG), maintenance MOG (mxMOG), or Operations MOG 
+(opMOG).   
+ 
+10.  Required Mission Aircraft   
+= mission required aircraft + [mission required aircraft  * (1-Fleet Mission Capable Rate)] 
+ 
+ 
+Section C—Air Refueling Formulas 
+ 
+1.0.  Air Refueling Overview 
+Refer to Table 16 and Table 17 for determining employment factors including estimated fleet 
+size and capacity.  Tankers can support air refueling as well as airlift requirements, depending on 
+resources available and mission considerations.  Tanker planning tables are constructed using 
+average/historical data and calculations from the example formulas.  Tables provide gross 
+estimate of tanker fleet required to support operations.  If actual mission specifics and data are 
+ 
+  AFPAM10-1403  24 OCTOBER 2018 
+3 
+ 
+known, such as aircraft model, configuration, air refueling altitude, airspeed, tanker basing, etc., 
+using the formulas below will provide more accurate planning estimates.  However, these 
+formulas should be adjusted for specific mission considerations for each aircraft type from each 
+operating location.  When feasible, planning should be done by tanker planning experts, using 
+vetted flight planning tools and procedures. 
+ 
+2.0.  Offload Required (per receiver) 
+𝑎.  𝑂𝑓𝑓𝑙𝑜𝑎𝑑 𝑟𝑒𝑞𝑢𝑖𝑟𝑒𝑑= [(
+𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒
+𝑇𝑟𝑢𝑒 𝐴𝑖𝑟𝑠𝑝𝑒𝑒𝑑 ) × (𝐹𝑢𝑒𝑙 𝐹𝑙𝑜𝑤)] – (𝑇𝑜𝑡𝑎𝑙 𝐹𝑢𝑒𝑙) + (𝑅𝑒𝑞𝑢𝑖𝑟𝑒𝑑 𝑅𝑒𝑠𝑒𝑟𝑣𝑒𝑠)  
+b.  𝑂𝑓𝑓𝑙𝑜𝑎𝑑 𝑟𝑒𝑞𝑢𝑖𝑟𝑒𝑑= [(𝐹𝑙𝑖𝑔ℎ𝑡 𝑇𝑖𝑚𝑒) × (𝐹𝑢𝑒𝑙 𝐹𝑙𝑜𝑤)] – (𝑇𝑜𝑡𝑎𝑙 𝐹𝑢𝑒𝑙) + (𝑅𝑒𝑞𝑢𝑖𝑟𝑒𝑑 𝑅𝑒𝑠𝑒𝑟𝑣𝑒𝑠)   
+Example:  (Single F-18C/D) 
+𝑂𝑓𝑓𝑙𝑜𝑎𝑑 𝑟𝑒𝑞𝑢𝑖𝑟𝑒𝑑= [(
+2880 𝑁𝑀
+480 𝑁𝑀/ℎ𝑜𝑢𝑟) × (6.5𝑘/ℎ𝑜𝑢𝑟) – (17.6𝑘) + (7.5𝑘) ]  =  6.0 ℎ𝑜𝑢𝑟×
+6.5𝑘/ℎ𝑜𝑢𝑟 –  17.6𝑘 +  7.5𝑘 = 39k – 17.6k + 7.5k = 39k – 17.6k + 7.5k = 28.9k 
+ 𝑂𝑓𝑓𝑙𝑜𝑎𝑑 𝑟𝑒𝑞𝑢𝑖𝑟𝑒𝑑= [(7.0 ℎ𝑟) × (
+6.5𝑘
+ℎ𝑜𝑢𝑟)] – (17.6k) + (7.5k) = 45.5k - 7.6k  + 7.5k = 35.4K 
+ 
+3.0.  Offload Available (per tanker) 
+a.  Play Gas = (𝑇𝑜𝑡𝑎𝑙 𝐹𝑢𝑒𝑙) −(𝐷𝑒𝑠𝑡𝑖𝑛𝑎𝑡𝑖𝑜𝑛 𝑅𝑒𝑠𝑒𝑟𝑣𝑒𝑠) −(𝑇𝑟𝑎𝑛𝑠𝑖𝑡 𝑇𝑖𝑚𝑒) × (𝐵𝑢𝑟𝑛 𝑅𝑎𝑡𝑒) 
+=  200𝑘𝑙𝑏𝑠 −25𝑘𝑙𝑏𝑠 −4.0 ℎ𝑜𝑢𝑟𝑠 × 11.3 = 200k – 25k – 45.2k = 129.8K 
+b.  Available Offload  = (𝑃𝑙𝑎𝑦 𝐺𝑎𝑠) −[(𝐴𝑑𝑑𝑖𝑡𝑖𝑜𝑛𝑎𝑙 𝐿𝑜𝑖𝑡𝑒𝑟) × (𝐵𝑢𝑟𝑛 𝑅𝑎𝑡𝑒)] 
+= (135𝑘 ) −[(2.0 ℎ𝑜𝑢𝑟𝑠 𝐴𝑑𝑑𝑖𝑡𝑖𝑜𝑛𝑎𝑙 𝐿𝑜𝑖𝑡𝑒𝑟) × (10
+𝑘
+ℎ𝑜𝑢𝑟𝐵𝑢𝑟𝑛 𝑅𝑎𝑡𝑒)] = 135k – 20k = 115k 
+ 
+4.0.  Deliverable Offload = (𝐴𝑣𝑎𝑖𝑙𝑎𝑏𝑙𝑒 𝑂𝑓𝑓𝑙𝑜𝑎𝑑) × (𝐸𝑥𝑝𝑒𝑐𝑡𝑒𝑑 𝑃𝑙𝑎𝑛 𝐸𝑓𝑓𝑖𝑐𝑖𝑒𝑛𝑐𝑦) 
+ = (115𝑘 𝐴𝑣𝑎𝑖𝑙𝑎𝑏𝑙𝑒 𝑂𝑓𝑓𝑙𝑜𝑎𝑑) × (85% 𝐸𝑥𝑝𝑒𝑐𝑡𝑒𝑑 𝑃𝑙𝑎𝑛 𝐸𝑓𝑓𝑖𝑐𝑖𝑒𝑛𝑐𝑦) = 115𝑘 × 85% = 97.8𝑘 
+ 
+5.0.  Tankers Required.  These calculations are based on average planning factors for fleet 
+operations.  Specific aircraft gross weights, atmospheric conditions, and flight profiles will 
+impact these planning calculations.  These numbers serve as initial estimates for planning, and 
+need to be vetted by unit-level planning. 
+5.1.  Play Gas = (𝑇𝑜𝑡𝑎𝑙 𝐹𝑢𝑒𝑙) −(𝐷𝑒𝑠𝑡𝑖𝑛𝑎𝑡𝑖𝑜𝑛 𝑅𝑒𝑠𝑒𝑟𝑣𝑒𝑠) −(𝑇𝑟𝑎𝑛𝑠𝑖𝑡 𝑇𝑖𝑚𝑒) × (𝐵𝑢𝑟𝑛 𝑅𝑎𝑡𝑒)  
+Example: 
+= 200𝑘𝑙𝑏𝑠 𝑇𝑜𝑡𝑎𝑙 𝐹𝑢𝑒𝑙−25𝑘𝑙𝑏𝑠 𝐷𝑒𝑠𝑡𝑖𝑛𝑎𝑡𝑖𝑜𝑛 𝑅𝑒𝑠𝑒𝑟𝑣𝑒𝑠−4.0 ℎ𝑜𝑢𝑟𝑠 ×  10
+𝑘𝑙𝑏𝑠
+ℎ𝑜𝑢𝑟  
+= 200𝑘−25𝑘−40𝑘= 135𝑘  
+5.2.  Available Offload = (𝑃𝑙𝑎𝑦 𝐺𝑎𝑠) −[(𝐴𝑑𝑑𝑖𝑡𝑖𝑜𝑛𝑎𝑙 𝐿𝑜𝑖𝑡𝑒𝑟) × (𝐵𝑢𝑟𝑛 𝑅𝑎𝑡𝑒)]  
+Example: 
+= (135𝑘 𝑃𝑙𝑎𝑦 𝐺𝑎𝑠) −[(2.0 ℎ𝑜𝑢𝑟𝑠 𝐴𝑑𝑑𝑖𝑡𝑖𝑜𝑛𝑎𝑙 𝐿𝑜𝑖𝑡𝑒𝑟) × (10
+𝑘
+ℎ𝑜𝑢𝑟𝐵𝑢𝑟𝑛 𝑅𝑎𝑡𝑒)] =  135k –  20k =
+ 115k   
+ 
+5.3.  Deliverable Offload = (𝐴𝑣𝑎𝑖𝑙𝑎𝑏𝑙𝑒 𝑂𝑓𝑓𝑙𝑜𝑎𝑑) × (𝐸𝑥𝑝𝑒𝑐𝑡𝑒𝑑 𝑃𝑙𝑎𝑛 𝐸𝑓𝑓𝑖𝑐𝑖𝑒𝑛𝑐𝑦)  
+Example: 
+= (115𝑘 𝐴𝑣𝑎𝑖𝑙𝑎𝑏𝑙𝑒 𝑂𝑓𝑓𝑙𝑜𝑎𝑑) × (85% 𝐸𝑥𝑝𝑒𝑐𝑡𝑒𝑑 𝑃𝑙𝑎𝑛 𝐸𝑓𝑓𝑖𝑐𝑖𝑒𝑛𝑐𝑦) = 115𝑘 × 85% = 97.8𝑘  
+4 
+  AFPAM10-1403  24 OCTOBER 2018 
+ 
+5.4.  Tanker Sorties Required =
+(𝑂𝑓𝑓𝑙𝑜𝑎𝑑 𝑅𝑒𝑞𝑢𝑖𝑟𝑒𝑑)
+(𝐷𝑒𝑙𝑖𝑣𝑒𝑟𝑎𝑏𝑙𝑒 𝑂𝑓𝑓𝑙𝑜𝑎𝑑) (𝑅𝑜𝑢𝑛𝑑𝑒𝑑 𝑈𝑝)  
+Example: 
+=
+(2,500𝑘 𝑂𝑓𝑓𝑙𝑜𝑎𝑑 𝑅𝑒𝑞𝑢𝑖𝑟𝑒𝑑)
+(97.8𝑘 𝐷𝑒𝑙𝑖𝑣𝑒𝑟𝑎𝑏𝑙𝑒 𝑂𝑓𝑓𝑙𝑜𝑎𝑑 𝑝𝑒𝑟 𝑆𝑜𝑟𝑡𝑖𝑒) =
+2,500𝑘
+97.8𝑘= 25.6 𝑆𝑜𝑟𝑡𝑖𝑒𝑠 ~ 26 𝑆𝑜𝑟𝑡𝑖𝑒𝑠  
+ 
+6.0.  Burdened Cost of Fuel 
+=
+(𝐹𝑢𝑒𝑙 𝐵𝑢𝑟𝑛𝑒𝑑) + (𝐹𝑢𝑒𝑙 𝑂𝑓𝑓𝑙𝑜𝑎𝑑𝑒𝑑)
+(𝐹𝑢𝑒𝑙 𝑂𝑓𝑓𝑙𝑜𝑎𝑑𝑒𝑑)
+  
+ 
+7.0.  Offload Efficiency 
+=
+(𝑃𝑙𝑎𝑛𝑛𝑒𝑑 𝑂𝑓𝑓𝑙𝑜𝑎𝑑)
+(𝐴𝑣𝑎𝑖𝑙𝑎𝑏𝑙𝑒 𝑂𝑓𝑓𝑙𝑜𝑎𝑑)  
+ 
+8.0.  Example 1:   
+KC-10, 300k takeoff fuel, 9.0 hour Sortie Duration, 25k Reserve. 
+8.1.    Available Offload 
+= [300𝑘 𝑇𝑎𝑘𝑒𝑜𝑓𝑓 𝐹𝑢𝑒𝑙−(9 𝐻𝑜𝑢𝑟𝑠 𝐹𝑙𝑖𝑔ℎ𝑡 𝑇𝑖𝑚𝑒 × 18𝑘 𝑝𝑒𝑟 ℎ𝑜𝑢𝑟) −25𝑘 𝑅𝑒𝑠𝑒𝑟𝑣𝑒]  
+= (300 −162 −25)  
+=  113𝑘 𝐴𝑣𝑎𝑖𝑙𝑎𝑏𝑙𝑒 𝑂𝑓𝑓𝑙𝑜𝑎𝑑 
+8.2.    Offload Efficiency 
+=
+(110𝑘 𝑃𝑙𝑎𝑛𝑛𝑒𝑑 𝑂𝑓𝑓𝑙𝑜𝑎𝑑)
+(113𝑘 𝐴𝑣𝑎𝑖𝑙𝑎𝑏𝑙𝑒 𝑂𝑓𝑓𝑙𝑜𝑎𝑑) =
+110𝑘
+113𝑘= 97% 𝐸𝑓𝑓𝑖𝑐𝑖𝑒𝑛𝑐𝑦  
+ 
+8.3.    Burdened Cost of Fuel 
+=
+(162𝑘 𝐹𝑢𝑒𝑙 𝐵𝑢𝑟𝑛𝑒𝑑) + (110𝑘 𝐹𝑢𝑒𝑙 𝑂𝑓𝑓𝑙𝑜𝑎𝑑𝑒𝑑) 
+110𝑘 𝐹𝑢𝑒𝑙 𝑂𝑓𝑓𝑙𝑜𝑎𝑑𝑒𝑑
+=
+272𝑘
+110𝑘= 2.47 𝐵𝑢𝑟𝑑𝑒𝑛𝑒𝑑 𝐶𝑜𝑠𝑡 𝑜𝑓 𝐹𝑢𝑒𝑙  
+ 
+9.0.  Example 2:   
+KC-135, 160k takeoff fuel, 3.0 hour Sortie Duration, 20k Reserve. 
+9.1.  Available Offload = (160𝑘 𝑇𝑎𝑘𝑒𝑜𝑓𝑓 𝐹𝑢𝑒𝑙−(3 𝐻𝑜𝑢𝑟𝑠 𝐹𝑙𝑖𝑔ℎ𝑡 𝑇𝑖𝑚𝑒 × 10𝑘 𝑝𝑒𝑟 ℎ𝑜𝑢𝑟) −
+20𝑘 𝑅𝑒𝑠𝑒𝑟𝑣𝑒) = (160 −30 −20) =  110𝑘  
+9.2.  Offload Efficiency 
+=
+(80𝑘 𝑃𝑙𝑎𝑛𝑛𝑒𝑑 𝑂𝑓𝑓𝑙𝑜𝑎𝑑)
+(110𝑘 𝐴𝑣𝑎𝑖𝑙𝑎𝑏𝑙𝑒 𝑂𝑓𝑓𝑙𝑜𝑎𝑑) =
+80𝑘
+110𝑘= 73% 𝐸𝑓𝑓𝑖𝑐𝑖𝑒𝑛𝑐𝑦  
+9.3.  Burdened Cost of Fuel 
+=
+(30𝑘 𝐹𝑢𝑒𝑙 𝐵𝑢𝑟𝑛𝑒𝑑)+(80𝑘 𝐹𝑢𝑒𝑙 𝑂𝑓𝑓𝑙𝑜𝑎𝑑𝑒𝑑) 
+80𝑘 𝐹𝑢𝑒𝑙 𝑂𝑓𝑓𝑙𝑜𝑎𝑑𝑒𝑑
+=
+110𝑘
+80𝑘= 1.38 𝐵𝑢𝑟𝑑𝑒𝑛𝑒𝑑 𝐶𝑜𝑠𝑡 𝑜𝑓 𝐹𝑢𝑒𝑙  
+Note:  While the KC-10 sortie looks much more efficient than the KC-135 sortie, the KC-10 
+sortie has a considerably higher burdened cost of fuel delivered.  
+ 
+10.0  Maximum Aircraft Sortie. 
+10.1.  Maximum Aircraft Sortie Generation Rate.  
+= 
+𝑃𝑙𝑎𝑛 𝑇𝑖𝑚𝑒 𝑃𝑒𝑟𝑖𝑜𝑑
+𝐴𝑣𝑒𝑟𝑎𝑔𝑒 𝑆𝑜𝑟𝑡𝑖𝑒 𝐷𝑢𝑟𝑎𝑡𝑖𝑜𝑛 + 𝑀𝑖𝑛𝑖𝑚𝑢𝑚 𝐺𝑟𝑜𝑢𝑛𝑑 𝑇𝑖𝑚𝑒  
+ 
+  AFPAM10-1403  24 OCTOBER 2018 
+5 
+ 
+Example: 
+=
+24 ℎ𝑜𝑢𝑟 Air Tasking Order 𝐷𝑎𝑦
+6.0 ℎ𝑜𝑢𝑟 𝐴𝑣𝑒𝑟𝑎𝑔𝑒 𝑆𝑜𝑟𝑡𝑖𝑒 𝐷𝑢𝑟𝑎𝑡𝑖𝑜𝑛 + 6.0 ℎ𝑜𝑢𝑟 𝑀𝑖𝑛𝑖𝑚𝑢𝑚 𝐺𝑟𝑜𝑢𝑛𝑑 𝑇𝑖𝑚𝑒=
+24
+12 = 2.0  
+10.2.  Maximum Aircraft Sorties (percentage)    
+= [(𝑇𝑜𝑡𝑎𝑙 𝐴𝑖𝑟𝑐𝑟𝑎𝑓𝑡) × (𝐴𝑖𝑟𝑐𝑟𝑎𝑓𝑡 𝐶𝑜𝑚𝑚𝑖𝑡𝑚𝑒𝑛𝑡 𝑅𝑎𝑡𝑒) −(𝐺𝑟𝑜𝑢𝑛𝑑 𝐴𝑙𝑒𝑟𝑡(𝑠) (𝐺𝑟𝑜𝑢𝑛𝑑 𝐴𝑙𝑒𝑟𝑡))]
+× (𝑀𝑎𝑥𝑖𝑚𝑢𝑚 𝐴𝑖𝑟𝑐𝑟𝑎𝑓𝑡 𝑆𝑜𝑟𝑡𝑖𝑒 𝐺𝑒𝑛𝑒𝑟𝑎𝑡𝑖𝑜𝑛 𝑅𝑎𝑡𝑒) 
+Example: 
+= (10 𝐴𝑖𝑟𝑐𝑟𝑎𝑓𝑡 ×  80% 𝐶𝑜𝑚𝑚𝑖𝑡𝑚𝑒𝑛𝑡 𝑅𝑎𝑡𝑒−1 𝐺𝑟𝑜𝑢𝑛𝑑 𝐴𝑙𝑒𝑟𝑡) ×  2.0 𝑆𝑜𝑟𝑡𝑖𝑒 𝐺𝑒𝑛𝑒𝑟𝑎𝑡𝑖𝑜𝑛 𝑅𝑎𝑡𝑒=
+(10 × 80% −1) × 2.0 = (8 −1) × 2.0 = 14.0  Maximum Aircraft Sorties per day 
+ 
+11.0.  Maximum Aircrew Sortie. 
+ 
+11.1.  Maximum Aircrew Sortie Generation Rate. 
+=
+𝑃𝑙𝑎𝑛 𝑇𝑖𝑚𝑒 𝑃𝑒𝑟𝑖𝑜𝑑
+ 𝐴𝑣𝑒𝑟𝑎𝑔𝑒 𝑆𝑜𝑟𝑡𝑖𝑒 𝐷𝑢𝑟𝑎𝑡𝑖𝑜𝑛 + 𝐶𝑟𝑒𝑤 𝑅𝑒𝑠𝑡  
+Example:  
+ 
+= 
+24 ℎ𝑜𝑢𝑟 𝐴𝑖𝑟 𝑇𝑎𝑠𝑘𝑖𝑛𝑔 𝑂𝑟𝑑𝑒𝑟 𝐷𝑎𝑦
+6.0 ℎ𝑜𝑢𝑟 𝐴𝑣𝑒𝑟𝑎𝑔𝑒 𝑆𝑜𝑟𝑡𝑖𝑒 𝐷𝑢𝑟𝑎𝑡𝑖𝑜𝑛 + 17.0 ℎ𝑜𝑢𝑟 𝐶𝑟𝑒𝑤 𝑅𝑒𝑠𝑡=
+24
+23 =
+1.04  𝑀𝑎𝑥𝑖𝑚𝑢𝑚 𝐴𝑖𝑟𝑐𝑟𝑒𝑤 𝑆𝑜𝑟𝑡𝑖𝑒 𝐺𝑒𝑛𝑒𝑟𝑎𝑡𝑖𝑜𝑛 𝑅𝑎𝑡𝑒 
+11.2.  Maximum Aircrew Sorties (percentage) 
+= (𝑇𝑜𝑡𝑎𝑙 𝐴𝑖𝑟𝑐𝑟𝑒𝑤) × [(𝐴𝑖𝑟𝑐𝑟𝑒𝑤 𝐶𝑜𝑚𝑚𝑖𝑡𝑚𝑒𝑛𝑡 𝑅𝑎𝑡𝑒) −(𝐺𝑟𝑜𝑢𝑛𝑑 𝐴𝑙𝑒𝑟𝑡𝑠)] ×
+(𝑀𝑎𝑥 𝐴𝑖𝑟𝑐𝑟𝑒𝑤 𝑆𝑜𝑟𝑡𝑖𝑒 𝐺𝑒𝑛𝑒𝑟𝑎𝑡𝑖𝑜𝑛 𝑅𝑎𝑡𝑒)  
+Example: 
+= (15 𝐶𝑟𝑒𝑤𝑠× 90% 𝐶𝑜𝑚𝑚𝑖𝑡𝑚𝑒𝑛𝑡 𝑅𝑎𝑡𝑒−1 𝐺𝑟𝑜𝑢𝑛𝑑 𝐴𝑙𝑒𝑟𝑡) × 1.20 𝑀𝑎𝑥 𝐴𝑖𝑟𝑐𝑟𝑒𝑤 𝑆𝑜𝑟𝑡𝑖𝑒 𝑅𝑎𝑡𝑒 =
+(15 × 90% −1) × 1.2 = (13.5 −1) × 1.2 =  15 𝑆𝑜𝑟𝑡𝑖𝑒𝑠 𝑝𝑒𝑟 𝑑𝑎𝑦  
+ 
+12.0.  Aircrew Hour Limited Sorties (150 hours per month) 
+=
+[(𝑇𝑜𝑡𝑎𝑙 𝐴𝑖𝑟𝑐𝑒𝑤𝑠) × (𝐴𝑖𝑟𝑐𝑟𝑒𝑤 𝐶𝑜𝑚𝑚𝑖𝑡𝑚𝑒𝑛𝑡 𝑅𝑎𝑡𝑒) − (𝐺𝑟𝑜𝑢𝑛𝑑 𝐴𝑙𝑒𝑟𝑡𝑠) × (𝐴𝑖𝑟𝑐𝑟𝑒𝑤 𝑀𝑜𝑛𝑡ℎ𝑙𝑦 𝐻𝑜𝑢𝑟 𝑅𝑒𝑠𝑡𝑟𝑖𝑐𝑡𝑖𝑜𝑛)]
+(𝐴𝑣𝑒𝑟𝑎𝑔𝑒 𝑆𝑜𝑟𝑡𝑖𝑒 𝐷𝑢𝑟𝑎𝑡𝑖𝑜𝑛) × (30 𝐷𝑎𝑦𝑠)
+  
+Example:  
+=
+(15 𝑐𝑟𝑒𝑤𝑠 × 90% − 1 𝐺𝑟𝑜𝑢𝑛𝑑 𝐴𝑙𝑒𝑟𝑡) × 150 ℎ𝑜𝑢𝑟𝑠
+6.0 𝐴𝑣𝑒𝑟𝑎𝑔𝑒 𝑆𝑜𝑟𝑡𝑖𝑒 𝐷𝑢𝑟𝑎𝑡𝑖𝑜𝑛 𝑥 30 𝐷𝑎𝑦𝑠
+=
+(13.5−1) × 150
+6.0 × 30
+=
+1875
+180 = 10.4 𝑆𝑜𝑟𝑡𝑖𝑒𝑠 𝑝𝑒𝑟 𝐷𝑎𝑦   
+ 
+13.0.  80/40 Sortie Contract. 
+Front Lines = (𝑇𝑜𝑡𝑎𝑙 𝐴𝑖𝑟𝑐𝑟𝑎𝑓𝑡 × 𝐹𝑟𝑜𝑛𝑡 𝐶𝑜𝑚𝑚𝑖𝑡𝑚𝑒𝑛𝑡 𝑅𝑎𝑡𝑒−𝐺𝑟𝑜𝑢𝑛𝑑 𝐴𝑙𝑒𝑟𝑡) (Rounded down)  
+Turn Lines = (𝐹𝑟𝑜𝑛𝑡 𝐿𝑖𝑛𝑒𝑠 × 𝑇𝑢𝑟𝑛 𝐿𝑖𝑛𝑒 𝐶𝑜𝑚𝑚𝑖𝑡𝑚𝑒𝑛𝑡 𝑅𝑎𝑡𝑒 ) (Rounded down)  
+Example: 
+Front Lines = [(10)𝐴𝑖𝑟𝑐𝑟𝑎𝑓𝑡× 80% 𝐹𝑟𝑜𝑛𝑡 𝐶𝑜𝑚𝑚𝑖𝑡𝑚𝑒𝑛𝑡 𝑅𝑎𝑡𝑒−1 𝐺𝑟𝑜𝑢𝑛𝑑 𝐴𝑙𝑒𝑟𝑡] = (10 × 80% −
+1) = (8 −1) = 7 𝐹𝑟𝑜𝑛𝑡 𝐿𝑖𝑛𝑒𝑠 
+Turn Lines = (7 𝐹𝑟𝑜𝑛𝑡 𝐿𝑖𝑛𝑒𝑠 𝑥 40%) = (7 𝑥 40%) = (2.8 𝑅𝑜𝑢𝑛𝑑𝑒𝑑 𝐷𝑜𝑤𝑛) = 2 𝑇𝑢𝑟𝑛 𝐿𝑖𝑛𝑒𝑠 
+ 
+14.0.  Total Sortie Contract. 
+80/40 Contract: 7 Turn 2 + 1 Ground Alert (9 planned flying lines and 1 ALFA Alert) 
+ 
+6 
+  AFPAM10-1403  24 OCTOBER 2018 
+ 
+15.0.  Task Rate (5.0 Average Sortie Duration). 
+Maximum utilization rate (5.0 Average Sortie Duration) = 
+(24 ℎ𝑜𝑢𝑟 𝑝𝑙𝑎𝑛 𝑝𝑒𝑟𝑖𝑜𝑑) 
+(5.0 ℎ𝑜𝑢𝑟 𝑠𝑜𝑟𝑡𝑖𝑒 𝑑𝑢𝑟𝑎𝑡𝑖𝑜𝑛 + 6.0 𝑚𝑖𝑛𝑖𝑚𝑢𝑚 𝑔𝑟𝑜𝑢𝑛𝑑 𝑡𝑖𝑚𝑒) =
+24
+11.0 = 2.18 
+Task Rate  = 
+(𝐶𝑜𝑛𝑡𝑟𝑎𝑐𝑡 𝐹𝑟𝑜𝑛𝑡 𝐿𝑖𝑛𝑒𝑠 + 𝐶𝑜𝑛𝑡𝑟𝑎𝑐𝑡 𝑇𝑢𝑟𝑛 𝐿𝑖𝑛𝑒𝑠)
+(𝑇𝑜𝑡𝑎𝑙 𝐴𝑖𝑟𝑐𝑟𝑎𝑓𝑡 × 100% − 𝐺𝑟𝑜𝑢𝑛𝑑 𝐴𝑙𝑒𝑟𝑡) × 𝑀𝑎𝑥 𝐴𝑖𝑟𝑐𝑟𝑎𝑓𝑡 𝑈𝑡𝑖𝑙𝑖𝑧𝑎𝑡𝑖𝑜𝑛 𝑅𝑎𝑡𝑒) 
+Example: 
+=
+(7 𝐹𝑟𝑜𝑛𝑡 𝐿𝑖𝑛𝑒𝑠 + 2 𝑇𝑢𝑟𝑛 𝐿𝑖𝑛𝑒𝑠) 
+(10 𝑇𝑜𝑡𝑎𝑙 𝐴𝑖𝑟𝑐𝑟𝑎𝑓𝑡 × 100% − 1 𝐺𝑟𝑜𝑢𝑛𝑑 𝐴𝑙𝑒𝑟𝑡) × 2.18 =
+(7+2)
+(10 × 100% −1) × 2.18 =
+9
+9 × 2.18 =
+9
+19.6 = 46% 𝑇𝑎𝑠𝑘 𝑅𝑎𝑡𝑒  
+ 
+16.0.  Airframe Hours (30 day). 
+ =
+[(𝐹𝑟𝑜𝑛𝑡 𝐿𝑖𝑛𝑒𝑠 + 𝑇𝑢𝑟𝑛 𝐿𝑖𝑛𝑒𝑠 + 𝐺𝑟𝑜𝑢𝑛𝑑 𝐴𝑙𝑒𝑟𝑡) × (𝐴𝑣𝑒𝑟𝑎𝑔𝑒 𝑆𝑜𝑟𝑡𝑖𝑒 𝐷𝑢𝑟𝑎𝑡𝑖𝑜𝑛) × (30 𝐷𝑎𝑦𝑠)] 
+𝑇𝑜𝑡𝑎𝑙 𝐴𝑖𝑟𝑐𝑟𝑎𝑓𝑡
+  
+Example:  
+=
+(7 𝐹𝑟𝑜𝑛𝑡 𝐿𝑖𝑛𝑒𝑠 + 2 𝑇𝑢𝑟𝑛 𝐿𝑖𝑛𝑒𝑠 + 1 𝐺𝑟𝑜𝑢𝑛𝑑 𝐴𝑙𝑒𝑟𝑡) × 5.0 ℎ𝑜𝑢𝑟𝑠 × 30 𝐷𝑎𝑦𝑠 
+10 𝑇𝑜𝑡𝑎𝑙 𝐴𝑖𝑟𝑐𝑟𝑎𝑓𝑡
+=
+(7+2+1) ×5.0 ×30
+10
+  
+=
+10 ×5.0 ×30
+10
+= 150 𝐻𝑜𝑢𝑟𝑠 𝑝𝑒𝑟 30 𝐷𝑎𝑦𝑠   
+ 
+17.0.  Average Ground Time. 
+ =
+[
+(𝑇𝑜𝑡𝑎𝑙 𝐴𝑖𝑟𝑐𝑟𝑎𝑓𝑡 × 24 𝐻𝑜𝑢𝑟𝑠 × 30 𝐷𝑎𝑦𝑠)
+− (𝐹𝑟𝑜𝑛𝑡 𝐿𝑖𝑛𝑒𝑠+𝑇𝑢𝑟𝑛 𝐿𝑖𝑛𝑒𝑠+𝐺𝑟𝑜𝑢𝑛𝑑 𝐴𝑙𝑒𝑟𝑡) × 𝐴𝑣𝑒𝑟𝑎𝑔𝑒 𝑆𝑜𝑟𝑡𝑖𝑒 𝐷𝑢𝑟𝑎𝑡𝑖𝑜𝑛 × 30 𝐷𝑎𝑦𝑠] 
+𝑇𝑜𝑡𝑎𝑙 𝐴𝑖𝑟𝑐𝑟𝑎𝑓𝑡 × 30 𝐷𝑎𝑦𝑠
+  
+Example:  
+=
+(10 𝐴𝑖𝑟𝑐𝑟𝑎𝑓𝑡 × 24 𝐻𝑜𝑢𝑟𝑠 × 30 𝐷𝑎𝑦𝑠)−(7 𝐹𝑟𝑜𝑛𝑡 𝐿𝑖𝑛𝑒𝑠 + 2 𝑇𝑢𝑟𝑛 𝐿𝑖𝑛𝑒𝑠 + 1 𝐺𝑟𝑜𝑢𝑛𝑑 𝐴𝑙𝑒𝑟𝑡)× 5.0 ℎ𝑜𝑢𝑟𝑠 × 30 𝐷𝑎𝑦𝑠 
+10 𝑇𝑜𝑡𝑎𝑙 𝐴𝑖𝑟𝑐𝑟𝑎𝑓𝑡
+  
+=
+(10 ×24 ×30) − (7+2+1) × 5.0 ×30
+10 × 30 𝐷𝑎𝑦𝑠
+=
+7200−1500
+300
+=
+5700
+300 = 19 𝐻𝑜𝑢𝑟𝑠   
+17.1.  Aircrew Hours (30 day) =
+[(𝐹𝑟𝑜𝑛𝑡 𝐿𝑖𝑛𝑒𝑠 + 𝑇𝑢𝑟𝑛 𝐿𝑖𝑛𝑒𝑠 + 𝐺𝑟𝑜𝑢𝑛𝑑 𝐴𝑙𝑒𝑟𝑡) × (𝐴𝑣𝑒𝑟𝑎𝑔𝑒 𝑆𝑜𝑟𝑡𝑖𝑒 𝐷𝑢𝑟𝑎𝑡𝑖𝑜𝑛) × (30 𝐷𝑎𝑦𝑠)] 
+𝑇𝑜𝑡𝑎𝑙 𝐴𝑖𝑟𝑐𝑟𝑎𝑓𝑡
+  
+Example:  
+=
+(7 𝐹𝑟𝑜𝑛𝑡 𝐿𝑖𝑛𝑒𝑠 + 2 𝑇𝑢𝑟𝑛 𝐿𝑖𝑛𝑒𝑠 + 1 𝐺𝑟𝑜𝑢𝑛𝑑 𝐴𝑙𝑒𝑟𝑡) × 5.0 ℎ𝑜𝑢𝑟𝑠 × 30 𝐷𝑎𝑦𝑠 
+15 𝑇𝑜𝑡𝑎𝑙 𝐴𝑖𝑟𝑐𝑟𝑎𝑓𝑡
+=
+(7+2+1) × 5.0 × 30
+15
+  
+=
+10 × 5.0 × 30
+15
+=
+1500
+15 = 100 𝐻𝑜𝑢𝑟𝑠 𝑝𝑒𝑟 30 𝐷𝑎𝑦𝑠   
+ 
+18.0  Required Mission Aircraft.  
+= mission required aircraft + [mission required aircraft  * (1-Fleet Mission Capable Rate)] 
+ 
+   
+Section D - Aeromedical Evacuation Formulas 
+ 
+1.0.  Aeromedical Evacuation Overview 
+ 
+  AFPAM10-1403  24 OCTOBER 2018 
+7 
+ 
+Refer to AFI 11-2AE Volume 3, Addenda A, Aeromedical Evacuation Operations 
+Configuration/Mission Planning for detailed aircraft specific configuration and mission 
+planning.  Use the following formulas and data in Table 15 to determine the aeromedical 
+evacuation force and capabilities.  In the near term, aeromedical evacuation will be primarily 
+accomplished using, C-17, C-130, KC-46, or KC-135 aircraft.  Opportune airlift may be used, 
+keeping the best interest of the patient and crew in mind.  
+1.1.  Aeromedical Evacuation Missions (# required per day) 
+ =
+# 𝑜𝑓 𝐸𝑣𝑎𝑐𝑢𝑒𝑒𝑠 𝑝𝑒𝑟 𝐷𝑎𝑦
+𝐿𝑜𝑎𝑑 𝑃𝑙𝑎𝑛𝑛𝑖𝑛𝑔 𝐹𝑎𝑐𝑡𝑜𝑟 
+Aircraft Load Planning Factor = standard number of patients loaded per aircraft for aeromedical 
+evacuation (see Table 15). 
+1.2.  Aeromedical Evacuation Crew (# required for missions flown, does not include stage) 
+= (Missions 𝐷𝑎𝑦
+⁄
+) 𝑥 1.25 (𝐶𝑟𝑒𝑤 𝑃𝑙𝑎𝑛𝑛𝑖𝑛𝑔 𝐹𝑎𝑐𝑡𝑜𝑟) 𝑥 (𝐶𝑟𝑒𝑤𝑠𝐴𝑖𝑟𝑐𝑟𝑎𝑓𝑡
+⁄
+) 𝑥 (𝐶𝑟𝑒𝑤 𝐶𝑦𝑐𝑙𝑒 𝑇𝑖𝑚𝑒)  
+Crews per Aircraft: Refer to Table 15 
+Crew Cycle Time:  
+Intratheater (Within Theater) = 2 days  
+Intertheater (Theater to Continental United States ) = 4 days. 
+ 
+ 
+Section E—Examples 
+ 
+1.0.  Airlift Example.  As an example of how to use the formulas and planning factors in this 
+pamphlet, assume the following scenario.  The 10th Mountain Division out of Ft. Drum, NY, is 
+to deploy to Kathmandu, Nepal, at the foot of the Himalayas, to assist in earthquake relief.  The 
+requirement is to move 800 short tons of cargo via C-17s. 
+Note:  Civilian airframes are not standardized, and can vary widely, even within each carrier’s 
+fleet.  Planners should reference AMC/A3B, Civil Reserve Air Fleet Capability link, on the Air 
+Force Portal for the latest commercial, contract, and Civil Reserve Air Fleet aircraft capabilities.  
+A common access card is required to access the Air Force Portal.  Planners can also reference 
+Air Mobility Command Instruction 10-402, Civil Reserve Air Fleet and Air Mobility Command 
+Pamphlet 24-2, Volume 1, Civil Reserve Air Fleet Load Planning, for civilian aircraft 
+capabilities.  The following examples use International Civil Aviation Organization codes, which 
+are four-character alphanumeric codes designating each airport around the world and commonly 
+used in flight planning. 
+1.1.  Suitable Airfield. 
+Referring to the Aircraft Airfield Restrictions (Table 1), we see that the C-17 requires a 
+minimum of 3,500 feet of runway for landing. 
+Since the airfield at Ft. Drum, Wheeler-Sack AAF, has a runway length of 10,000 feet, it meets 
+the C-17 requirements (this assumes adequate runway width). 
+Note:  Refer to the Headquarters AMC Airfield Suitability and Restrictions Report or the airfield 
+detail assessment in AMC‘s Global Decision Support System to determine suitability for 
+8 
+  AFPAM10-1403  24 OCTOBER 2018 
+ 
+mobility aircraft (C-5, C-17, C-20, C-21, C-32, C-37, C-40, C-130, KC-10, KC-46, and KC-
+135).  If the airfield does not appear in the Airfield Suitability and Restrictions Report/airfield 
+detail, contact AMC/A3AS and request the airfield be evaluated and added to the database 
+(Airfield.Helpdesk@us.af.mil).  AMC/A3AS will provide prompt feedback and include 
+suitability information in future editions of the Airfield Suitability and Restrictions Report and 
+GDSS airfield detail. 
+Looking in the Kathmandu area, we find Tribhuvan International Airport (VNKT) in Kathmandu 
+to have 10,121 feet of runway which, along with the associated taxiways and ramp, is stressed 
+for C-17 aircraft.  Therefore, make initial plans based on using Wheeler Sack AAF (KGTB) as 
+the onload and Tribhuvan International as the offload. 
+1.2.  Missions Required.  The example will address only the cargo requirement, however 
+passenger movement would be handled in a similar manner.  For all examples to follow, assume 
+15 C-17s apportioned for use and crew staging will be utilized where necessary. 
+ = 
+(𝐶𝑎𝑟𝑔𝑜 𝑅𝑒𝑞𝑢𝑖𝑟𝑒𝑚𝑒𝑛𝑡)
+(𝐴𝑣𝑒𝑟𝑎𝑔𝑒 𝑃𝑎𝑦𝑙𝑜𝑎𝑑)  = 
+800 𝑆ℎ𝑜𝑟𝑡 𝑇𝑜𝑛𝑠
+45 𝑆ℎ𝑜𝑟𝑡 𝑇𝑜𝑛𝑠 𝑝𝑒𝑟 𝐶−17  = 18 𝐶−17 𝐸𝑞𝑢𝑖𝑣𝑎𝑙𝑒𝑛𝑡 𝑀𝑖𝑠𝑠𝑖𝑜𝑛𝑠 𝑅𝑒𝑞𝑢𝑖𝑟𝑒𝑑  
+1.3.  Time to Arrival.  The time required for cargo/ passengers to arrive at the offload location 
+including all en route ground times.  For this example, the C-17s will depart McGuire (KWRI), 
+fly to Wheeler Sack AAF for onload, then en route stop at Rota (LERT), Dhahran (OEDR), 
+Delhi (VIDP), and then offload at Tribhuvan. Refer to definitions and tables as needed. 
+Time to Arrival = active route flying time  + active route ground time  
+𝐴𝑐𝑡𝑖𝑣𝑒 𝑅𝑜𝑢𝑡𝑒 𝐹𝑙𝑦𝑖𝑛𝑔 𝑇𝑖𝑚𝑒 = (
+𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒1
+𝐵𝑙𝑜𝑐𝑘 𝑆𝑝𝑒𝑒𝑑1) + (
+𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒2
+𝐵𝑙𝑜𝑐𝑘 𝑆𝑝𝑒𝑒𝑑2) + (
+𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒3
+𝐵𝑙𝑜𝑐𝑘 𝑆𝑝𝑒𝑒𝑑3) + ⋯  
+= (
+3119
+406 ) + (
+2924
+406 ) + (
+1443
+398 ) + (
+441
+335)  = 19.8 ℎ𝑜𝑢𝑟𝑠  
+Note:  First leg from McGuire to Wheeler Sack is inactive as it‘s a positioning leg.  Block speeds 
+were interpolated from Table 4. 
+ 
+(Referring to Table 5) 
+𝐴𝑐𝑡𝑖𝑣𝑒 𝑅𝑜𝑢𝑡𝑒 𝐺𝑟𝑜𝑢𝑛𝑑 𝑇𝑖𝑚𝑒 = 𝐺𝑟𝑜𝑢𝑛𝑑 𝑇𝑖𝑚𝑒1 + 𝐺𝑟𝑜𝑢𝑛𝑑 𝑇𝑖𝑚𝑒 2 + 𝐺𝑟𝑜𝑢𝑛𝑑 𝑇𝑖𝑚𝑒3 + ⋯  
+= 2.25 + 2.25 + 2.25 = 6.75 ℎ𝑜𝑢𝑟𝑠  
+Time to Arrival = 19.8 + 6.75 = 26.55 ℎ𝑜𝑢𝑟𝑠 
+1.4.  Cycle Time.  For this example, round trip flying time and round trip ground time were 
+calculated using reverse routing except the last leg will be from Rota (LERT) to McGuire.  Refer 
+to definitions for Round Trip Flying Time and Round Trip Ground Time. 
+Cycle Time = round trip flying time + round trip ground time  
+𝑅𝑜𝑢𝑛𝑑 𝑇𝑟𝑖𝑝 𝐹𝑙𝑦𝑖𝑛𝑔 𝑇𝑖𝑚𝑒= (
+𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒1
+𝐵𝑙𝑜𝑐𝑘 𝑆𝑝𝑒𝑒𝑑1) + (
+𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒2
+𝐵𝑙𝑜𝑐𝑘 𝑆𝑝𝑒𝑒𝑑2) + (
+𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒3
+𝐵𝑙𝑜𝑐𝑘 𝑆𝑝𝑒𝑒𝑑3) + ⋯  
+= (
+248
+335) + (
+3119
+406 ) + (
+2924
+406 ) + (
+1443
+398 ) + (
+441
+335) + (
+441
+335) + (
+1443
+398 ) + (
+2924
+406 ) + (
+3140
+406 )  
+= 40.4 ℎ𝑜𝑢𝑟𝑠 
+ 
+𝑅𝑜𝑢𝑛𝑑 𝑇𝑟𝑖𝑝 𝐺𝑟𝑜𝑢𝑛𝑑 𝑇𝑖𝑚𝑒= 𝐺𝑟𝑜𝑢𝑛𝑑 𝑇𝑖𝑚𝑒1 + 𝐺𝑟𝑜𝑢𝑛𝑑 𝑇𝑖𝑚𝑒2 + 𝐺𝑟𝑜𝑢𝑛𝑑 𝑇𝑖𝑚𝑒3 + ⋯  
+= 3.25 + 2.25 + 2.25 + 2.25 + 2.25 + 2.25 + 2.25 + 3.25  = 20 ℎ𝑜𝑢𝑟𝑠 
+ 
+  AFPAM10-1403  24 OCTOBER 2018 
+9 
+ 
+ 
+𝐶𝑦𝑐𝑙𝑒 𝑇𝑖𝑚𝑒= 40.4 + 20 = 60.4 ℎ𝑜𝑢𝑟𝑠  
+1.5.  Closure 
+= 
+( 𝑅𝑒𝑞𝑢𝑖𝑟𝑒𝑚𝑒𝑛𝑡) 𝑥 (𝑅𝑜𝑢𝑛𝑑 𝑇𝑟𝑖𝑝 𝐹𝑙𝑦𝑖𝑛𝑔 𝑇𝑖𝑚𝑒)
+(𝐴𝑣𝑒𝑟𝑎𝑔𝑒 𝑃𝑎𝑦𝑙𝑜𝑎𝑑) 𝑥 (# 𝑜𝑓 𝐴𝑖𝑟𝑐𝑟𝑎𝑓𝑡) 𝑥 (𝑈𝑡𝑖𝑙𝑖𝑧𝑎𝑡𝑖𝑜𝑛 𝑅𝑎𝑡𝑒)  = 
+(800 𝑆ℎ𝑜𝑟𝑡 𝑇𝑜𝑛𝑠) 𝑥 (40.4)
+(45 𝑆ℎ𝑜𝑟𝑡 𝑇𝑜𝑛𝑠) 𝑥 (15) 𝑥 (12.5) = 3.8 𝑑𝑎𝑦𝑠 
+1.6.  Fleet Capability (short tons delivered to the theater) 
+= 
+(𝐴𝑣𝑒𝑟𝑎𝑔𝑒 𝑃𝑎𝑦𝑙𝑜𝑎𝑑) 𝑥 (#𝑜𝑓 𝐴𝑖𝑟𝑐𝑟𝑎𝑓𝑡) 𝑥 𝑈𝑡𝑖𝑙𝑖𝑧𝑎𝑡𝑖𝑜𝑛 𝑅𝑎𝑡𝑒
+(𝑅𝑜𝑢𝑛𝑑 𝑇𝑟𝑖𝑝 𝐹𝑙𝑦𝑖𝑛𝑔 𝑇𝑖𝑚𝑒)
+   = 
+(45) 𝑥 (15) 𝑥 (12.5)
+(40.4)
+  =  208.8 Short Tons/day 
+ 
+2.0.  Airfield Throughput Capability.  It is necessary to look at the throughput capability of all 
+airfields associated with a deployment to determine whether any one airfield limits a planned 
+operation.  However, for initial planning, the en route locations may be assumed to have a higher 
+throughput capability than the onload and offload locations.  Note:  Throughput is based on 
+capability, but this doesn’t constitute a guarantee.  Also, airfields have competing interests based 
+on their other customers.  MOG should be expressed in two exclusive numbers, wide-body (C-17 
+equivalent) MOG and narrow-body (C-130 equivalent) MOG. 
+2.1.  For this example, Tribhuvan International has a working MOG of one wide body aircraft. 
+Airfield Throughput Capability (e.g., Tribhuvan) 
+   =
+[(𝑤𝑀𝑂𝐺) 𝑜𝑟  (𝑝𝑀𝑂𝐺) 𝑜𝑟 (𝑓𝑀𝑂𝐺)] 𝑥 (𝐴𝑣𝑒𝑟𝑎𝑔𝑒 𝑃𝑎𝑦𝑙𝑜𝑎𝑑) 𝑥 (𝑂𝑝𝑒𝑟𝑎𝑡𝑖𝑛𝑔 𝐻𝑜𝑢𝑟𝑠)
+(𝐺𝑟𝑜𝑢𝑛𝑑 𝑇𝑖𝑚𝑒)
+ 𝑋 (85% 𝑄𝑢𝑒𝑢𝑖𝑛𝑔 𝐸𝑓𝑓𝑖𝑐𝑖𝑒𝑛𝑐𝑦) 
+   = 
+(1)(45 𝑆ℎ𝑜𝑟𝑡 𝑇𝑜𝑛𝑠)(24)
+3.25
+ 𝑋 (85% 𝑄𝑢𝑒𝑢𝑖𝑛𝑔 𝐸𝑓𝑓𝑖𝑐𝑖𝑒𝑛𝑐𝑦) = 282.5 Short Tons/day (Refer to Table 8) 
+Note:  Since the arrival airfield can handle the estimated fleet capability that will be delivered, 
+this calculation is complete.  If the fleet capability had exceeded the airfield‘s throughput, either 
+the flow would need to be slowed to compensate or the airfield’s resources increased to handle 
+the airflow. 
+ 
+3.0.  Air Refueling Example.  For this example, assume 6 F-15C’s need to deploy from Langley 
+(KLFI) to Spangdahlem (ETAD). How much fuel and how many tankers (KC-135R) are 
+required?  Note:  For this example average/historical figures were used.  Actual numbers would 
+vary according to aircraft model, configuration, altitude, airspeed, etc. 
+3.1.  Onload Required (per receiver) 
+= [(
+𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒
+𝑇𝑟𝑢𝑒 𝐴𝑖𝑟 𝑆𝑝𝑒𝑒𝑑)  𝑥 (𝐹𝑢𝑒𝑙 𝐹𝑙𝑜𝑤)] − (𝑇𝑜𝑡𝑎𝑙 𝐹𝑢𝑒𝑙) + (𝐷𝑒𝑠𝑡𝑖𝑛𝑎𝑡𝑖𝑜𝑛 𝑅𝑒𝑠𝑒𝑟𝑣𝑒𝑠)  
+Note:  Use true airspeed in Table 4 for mobility aircraft or applicable flight manual airspeeds for 
+other aircraft. 
+3.2.  Destination Reserves = required fuel reserves at destination 
+= (3500/480 x 10,822) − 23,000 +  7500 
+=  63,410 lbs (per receiver) x 6 =  380,462 lbs 
+3.3.  Offload Available (per tanker) 
+ = (𝑇𝑜𝑡𝑎𝑙 𝐹𝑢𝑒𝑙) − [(𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒/𝑇𝑟𝑢𝑒 𝐴𝑖𝑟 𝑆𝑝𝑒𝑒𝑑)  𝑥 (𝐹𝑢𝑒𝑙 𝐹𝑙𝑜𝑤)] − (𝐷𝑒𝑠𝑡𝑖𝑛𝑎𝑡𝑖𝑜𝑛 𝑅𝑒𝑠𝑒𝑟𝑣𝑒𝑠)  =
+(180,000) − [(3500/480)  𝑥 (10,718)] − (30,000) 
+10 
+  AFPAM10-1403  24 OCTOBER 2018 
+ 
+ = 71,848 𝑙𝑏𝑠 𝑝𝑒𝑟 𝑡𝑎𝑛𝑘𝑒𝑟 
+3.4.  Tankers required 
+ = 
+(𝑂𝑓𝑓𝑙𝑜𝑎𝑑 𝑅𝑒𝑞𝑢𝑖𝑟𝑒𝑑)
+(𝑂𝑓𝑓𝑙𝑜𝑎𝑑 𝐴𝑣𝑎𝑖𝑙𝑎𝑏𝑙𝑒)  = (380,462 71,848 
+⁄
+) 𝑟𝑜𝑢𝑛𝑑𝑒𝑑 𝑢𝑝 
+ =  6 𝐾𝐶−135 𝑟𝑒𝑞𝑢𝑖𝑟𝑒𝑑 
+ 
+4.0.  Aeromedical Evacuation Example.  For this example, C-130s will be used to evacuate a  
+mix of 500 ambulatory and litter patients. 
+4.1.  Aeromedical evacuation Missions (# required) 
+ = 
+(# 𝑜𝑓 𝐸𝑣𝑎𝑐𝑢𝑒𝑒𝑠 𝑝𝑒𝑟 𝐷𝑎𝑦)
+(𝐿𝑜𝑎𝑑 𝑃𝑙𝑎𝑛𝑛𝑖𝑛𝑔 𝐹𝑎𝑐𝑡𝑜𝑟) = 
+500
+50  = 10 𝐴𝑒𝑟𝑜𝑚𝑒𝑑𝑖𝑐𝑎𝑙 𝐸𝑣𝑎𝑐𝑢𝑎𝑡𝑖𝑜𝑛 𝑀𝑖𝑠𝑠𝑜𝑛𝑠 𝑟𝑒𝑞𝑢𝑖𝑟𝑒𝑑 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  AFPAM10-1403  24 OCTOBER 2018 
+11 
+ 
+Table 1.  Aircraft Airfield Restrictions. 1, 2, 3 
+Aircraft 
+Type 
+Minimum 
+Empty 
+Weight 
+(1000 lbs) 
+Maximum T/O 
+Weight 
+(1000 lbs) 
+Tire 
+Pressure 
+PSI5 
+Runway for 
+Landing4 
+Runway 
+Width 
+Taxiway 
+Width 
+C-130H 
+3000 
+60 
+30 
+85 
+175 
+60-118 
+C-130J  
+3000 
+60 
+30 
+85 
+175 
+60-118 
+C-130J-30 
+3000 
+60 
+30 
+89 
+175 
+60-118 
+C-17 
+3500 
+90 
+50 
+279 
+585 
+144 
+C-5M 
+6000 
+147 
+75 
+400 
+840 
+150 
+KC-10A 
+7000 
+147 
+75 
+270.8 
+590 
+190 
+KC-46A 
+7000 
+147 
+74 
+212 
+415 
+200 
+KC-135R/T 
+7000 
+147 
+74 
+120 
+322 
+170 
+NOTES: 
+1.  Refer to Department of Defense Flight Information Handbook for an airfield’s specific 
+Pavement Classification Number and subgrade as well as additional aircraft Aircraft 
+Classification Number.  
+Table 1 reflects values for the aircraft’s empty weight and the aircraft’s maximum take-off/taxi 
+weight.  Note:  Pavement Subgrades in Global Decision Support System airfield detail are not 
+classified as high, med, low, or ultra-low and come in an alpha/numeric format to be decoded.  
+The AMC Airfield Suitability and Restrictions Report provides specific guidance and is an 
+available source for decoding that format.  Calculations using the Aircraft Classification 
+Number/Pavement Classification Number website https://transportation.wes.army.mil/acnpcn/ 
+are not considered official for AMC, but rather values listed in Global Decision Support 
+System Airfield Detail (Giant Report) are to be used for mission planning. 
+2.  AMC mission planners will refer to the weight bearing information in the Airfield Suitability 
+and Restrictions Report or Global Decision Support System airfield detail for specific 
+runway Pavement Classification Number values (if available).  The Global Decision Support 
+System also provides weight bearing capacity information when pavement strength is reported in 
+terms other than Aircraft Classification Number or Pavement Classification Number, and 
+translates raw weight bearing capacity into aircraft gross weight limits.  Planners can contact the 
+AMC Airfield Help Desk (Airfield.Helpdesk@us.af.mil) for assistance regarding weight bearing 
+capacity information in the Airfield Suitability and Restrictions Report or Global Decision 
+Support System/airfield detail. Mobility aircraft planners will use only the weight bearing 
+information figures published in the Airfield Suitability and Restrictions Report and Global 
+Decision Support System/airfield detail. 
+3.  For the latest commercial, contract, and  Civil Reserve Air Fleet aircraft data go to the Air 
+Force Portal, select AMC/A3B, and click on the Civil Reserve Air Fleet Capability link.  
+Common Access Card and Air Force Portal access required. 
+4.  Headquarters AMC/A3 retains runway criteria waiver authority for AMC organic aircraft. 
+5.  See aircraft manuals for required tire pressure under specific conditions. 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+12 
+  AFPAM10-1403  24 OCTOBER 2018 
+ 
+ 
+ 
+ 
+ 
+ 
+Table 2.  Aircraft Size. 
+Aircraft Type Length 
+(feet) 
+Wing 
+Span 
+Width 
+(feet)1 
+Maximum 
+Weight 
+(lbs) 
+ 
+Landing Gear Type2 
+ 
+Width 
+Required 
+180◦ 
+Turn3 
+Required 
+C-17 
+Parking  
+Spots4 
+AMC Code FAA Code 
+C-5M 
+247.8 
+222.7 
+840,000 
+TDT 
+C5 
+150 
+1.9 
+C-130H/J 
+97.75 
+132.6 
+175,000 
+ST 
+2S 
+74 
+0.4 
+C-130J-30 
+112.75 
+132.6 
+175,000 
+ST 
+2S 
+78 
+0.5 
+C-17 
+173.92 
+169.75 
+585,000 
+TRT 
+2T 
+1435 
+1.04 
+KC-10A 
+181.6 
+165.3 
+593,000 
+SBTT 
+2D/D1 
+149.5 
+1.0 
+KC-46A 
+165.84 
+156.08 
+416,000 
+TT 
+2D 
+130 
+0.87 
+KC-135R/T 
+136.25 
+130.85 
+322,500 
+ 
+TT 
+2D 
+130 
+0.6 
+NOTES: 
+1.  Wingtip clearance: 10 feet on each side with wing walker, 25 feet each side without wing walker.  
+2.  Refer to Department of Defense Flight Information Publication (En route Supplement) for an 
+airfield‘s maximum runway load bearing capability expressed as a maximum aircraft weight for a 
+particular landing gear type.  Additionally, the Airfield Suitability and Restrictions Report and 
+Global Decision Support System/airfield detail provide maximum runway/taxiway/parking apron 
+load bearing capability information for AMC aircraft by landing gear type. 
+3.  Width required is for landing gear only and does not include the wingspan footprint required for a 
+180° turn. 
+4.  C-17 parking spot equivalent calculation = (aircraft length x aircraft width)/(C-17 length x C-17 
+width). 
+5.  The C-17 minimum width for a star-turn is 90 feet (can be done in 80 feet, but 90 feet is the 
+minimum runway width for landing). 
+ 
+ 
+  AFPAM10-1403  24 OCTOBER 2018 
+13 
+ 
+Table 3.  Aircraft Payloads. 1 
+Aircraft Type 
+Pallet 
+Positions 
+Cargo (Short Tons)2 
+Passengers3 
+Standard Noncombatant 
+Evacuation Operation 
+Passengers 
+ 
+ 
+Allowable 
+Cabin Load 
+Planning Allowable 
+Cabin Load 
+Planning 
+ 
+C-130H/J 
+6 
+Use Table 3.1  
+12 
+90 
+80 
+90/744 
+C-130J-30 
+8 
+Use Table 3.1  
+18 
+124 
+128 
+128 
+C-17 
+18 
+Use Table 3.1  
+65 
+101 
+90 
+1015 
+C-17 ER 
+18 
+Use Table 3.1  
+64 
+101 
+90 
+1015 
+C-5M 
+36 
+Use Table 3.1  
+100 
+73 
+73 
+73 
+KC-10A 
+(Airlift) 
+23 
+Use Table 3.1  
+32 
+75 
+68 
+75 
+KC-46A 
+(Airlift) 
+18 
+Use Table 3.1  
+32 
+112 
+98 
+112 
+KC-135R/T 
+(Airlift) 
+6 
+Use Table 3.1  
+13 
+53 
+366 
+53 
+NOTES: 
+1.  Cargo and passenger payloads (except for the C-5) are exclusive of one another. 
+2.  Organic aircraft calculated as the maximum Allowable Cabin Load for the leg length (unrefueled) shown 
+in Table 3.1.   
+3.  Weights are based on 400 lbs per passenger, which includes passenger, baggage, and combat gear. Take 
+total passenger weight into account as part of total cargo weight when requirements dictate movement of 
+cargo and passengers on the same aircraft. 
+4.  Lower Noncombatant Evacuation Operation number reflects life raft capacity. 
+5.  Reference the Air Force Instruction 11-2C-17, Volume 3, C-17 Operations Procedures, for an estimated 
+number of personnel that can be airlifted during an emergency. 
+6.  Maximum souls allowed on board for KC-135 is 40 (crew + passengers). Waiver required for more than 
+40 souls. 
+ 
+14 
+ 
+  AFPAM10-1403  24 OCTOBER 2018 
+ 
+Table 3.1.  Maximum Allowable Cabin Load. 
+ 
+ 
+Table 4.  Aircraft Block Speeds. 
+Type 
+Mach 
+500nm 
+1000nm 
+1500nm 
+2000nm 
+2500nm 
+3000nm 
+3500nm 
+4000nm 
+C-130H 
+0.49 
+242 
+266 
+272 
+273 
+272 
+271 
+- 
+- 
+C-130J/-30 
+0.59 
+286 
+294 
+301 
+308 
+314 
+320 
+- 
+- 
+C-17 
+0.76 
+335 
+384 
+400 
+405 
+406 
+406 
+409 
+412 
+C-5 
+0.77 
+341 
+393 
+410 
+415 
+416 
+416 
+420 
+422 
+KC-10A 
+0.81 
+354 
+410 
+428 
+435 
+436 
+437 
+440 
+443 
+KC-46A 
+0.81 
+354 
+410 
+428 
+435 
+436 
+437 
+430 
+433 
+KC-135R/T 
+0.79 
+348 
+401 
+419 
+425 
+426 
+426 
+433 
+434 
+Type 
+Mach 
+4500nm 5000nm 
+5500nm 6000nm 
+6500nm 
+7000nm 
+7500nm 
+8000nm 
+C-130H 
+0.49 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+C-130J/-30 
+0.59 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+C-17 
+0.76 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+C-5 
+0.77 
+424 
+426 
+428 
+429 
+430 
+- 
+- 
+- 
+KC-10A 
+0.81 
+446 
+447 
+449 
+450 
+451 
+451 
+452 
+452 
+KC-46A 
+0.81 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+KC-135R/T 
+0.79 
+435 
+437 
+438 
+439 
+439 
+440 
+440 
+440 
+Assumptions:   
+1.  Standard day, pressure, temperature, -2° temperature lapse per 1000 feet of altitude.  
+2.  500nm leg flown at FL180 with linear increase in altitude to FL450 for 4000nm and beyond. 
+3.  20 minute airborne delay for departure, approach, and landing. 
+4.  5 minute taxi time from landing to block-in. 
+5.  Total time measured from rotation on takeoff leg to block-in after landing. 
+6.  Total distance measured from point of takeoff to point of landing. 
+7.  Changes in planned cruise airspeed will alter results.  
+NOTE:  Organic aircraft block speeds obtained from computer flight plan data.  All airspeeds are True 
+Air Speed. 
+ 
+MAXIMUM ALLOWABLE CABIN LOAD 1, 2 
+ 
+C-17 
+C-17ER 
+C-5M 
+C-130H/J 
+C-130J-30 
+KC-135R/T 
+KC-46A 
+KC-10A 
+NM 
+WEIGHT3 
+1500 
+81 
+80 
+140 
+15.5 
+21 
+28 
+32 
+77 
+2500 
+81 
+80 
+130 
+8 
+15 
+28 
+32 
+77 
+3250 
+68 
+67.5 
+111 
+3 
+N/A 
+28 
+32 
+73 
+5000 
+N/A 
+37.5 
+67 
+N/A 
+N/A 
+28 
+32 
+47 
+NOTES: 
+1.  The maximum allowable cabin load can be used for planning with concurrence of 618 AOC (TACC) 
+Mission Planners, Flight Managers, or Combatant Commander's Air Operations Center/Air Mobility 
+Division in conjunction with detailed mission information (critical mission leg, winds, weather, terrain 
+clearance, runway limitations, and diplomatic clearance).  For cargo load planning, verify size and 
+dimensions and input data into Integrated Computerized Deployment System for an accurate load plan. 
+2.  Key Assumptions: Standard day, no wind, sea level, dry runway, zero obstacles, sufficient runway 
+length 
+3.  Weight expressed in Short Tons. 
+ 
+  AFPAM10-1403  24 OCTOBER 2018 
+15 
+ 
+Table 5.  Ground Times. 
+Aircraft 
+Type 
+Passenger and Cargo Operations 
+Wartime Planning Times 1 
+(hours + minutes) 
+Minimum 
+Crew Rest 
+Times 2 
+Aeromedical Evacuation 
+(hours + minutes) 
+ 
+Onload 
+/ 
+Offload 
+En route 
+Refuel 
+only 
+Expedited3 
+Employment 
+Tanker 
+Turn-Time4 
+ 
+Reconfigure 
+Onload 
+   / 
+Offload 
+Expedited3 
+C-130 
+2+00 
+1+15 
+1+45 
+ 
+16+00 
+1+30 
+1+30 
+0+45 
+C-17 
+2+45 
+1+45 
+2+15 
+16+30 
+1+25 
+2+45 
+1+45 
+C-5 
+3+45 
+2+45 
+3+45 
+17+00 
+- 
+- 
+- 
+KC-10 
+3+45 
+2+45 
+3+15 
+6+00 
+17+007 
+- 
+- 
+- 
+KC-46 
+3+45 
+2+45 
+3+15 
+6+00 
+17+007 
+1+30 
+1+30 
+0+45 
+KC-1355 3+45 
+2+45 
+3+15 
+ 6+006 
+17+007 
+1+30 
+1+30 
+0+45 
+NOTES: 
+1.  Times are estimated based on average cargo/fuel loads.  Where possible, planners should deviate from 
+these times to account for known factors such as amount and/or complexity of cargo, amount of fuel upload, 
+and/or airfield capability limitations. 
+2.  Times are based on minimum post-flight duties.  Planners must account for additional ground time to 
+account for cargo operations performed upon arrival, if necessary. 
+3.  Onload or offload operations only. Does not include refuel or reconfiguration operations. 
+4.  Times assume an 80% commit rate for sustained operations. 
+5.  KC-135 times apply to roller-equipped aircraft. 
+6.  Add 2 hours for KC-135 configuration changes. 
+7.  When cargo is required add 1+15 to minimum crew rest time. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+16 
+ 
+  AFPAM10-1403  24 OCTOBER 2018 
+ 
+ 
+Table 6.  Aircraft Utilization. 
+Aircraft  
+Type 
+Utilization Rate1 
+Primary Mission Aircraft Inventory 
+Sustained 
+Surge 
+2018 
+2019 
+2020 
+2021 
+2022 
+2023 
+C-130H 
+6.0 
+6.0 
+152 
+148 
+144 
+144 
+144 
+144 
+C-130J/30 
+6.0 
+6.0 
+110 
+110 
+110 
+110 
+110 
+110 
+C-17 
+12.5 
+14.5 
+180 
+188 
+188 
+188 
+188 
+188 
+C-5M 
+8.1 
+11.5 
+42 
+44 
+46 
+48 
+48 
+48 
+KC-10A2 
+8.6 
+9.8 
+54 
+53 
+45 
+30 
+24 
+12 
+KC-46A2 
+- 
+- 
+TBD 
+TBD 
+TBD 
+71 
+84 
+99 
+KC-135R/T2 
+5.1 
+6.8 
+352 
+334 
+320 
+320 
+320 
+320 
+NOTES: 
+1.  Day-to-day operations. 
+2.  KC-10, KC-46, and KC-135 utilization rate apply only in the airlift role. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Table 7.  Productivity Factors. 1, 2 
+Tactical (Intra-theater) 
+ 
+ 
+ 
+ 
+ 
+ 
+Onload to Offload Distance 
+500nm 
+1000nm 
+1500nm 
+2000nm 
+2500nm 
+3000nm 
+Productivity Factor 
+.33 
+.40 
+.44 
+.46 
+.46 
+.46 
+Strategic (Inter-theater) 
+ 
+ 
+ 
+ 
+ 
+ 
+Onload to Offload Distance 
+3000nm 
+4000nm 
+5000nm 
+6000nm 
+7000nm 
+8000nm 
+Productivity Factor 
+.48 
+.48 
+.49 
+.49 
+.49 
+.49 
+NOTES:  
+1.  Productivity Factors published above reflect average values for broad planning applications.  The 
+values above assume average non-productive positioning legs (home station to onload, and offload to 
+recovery) of 250nm for tactical missions and 500nm for strategic missions. 
+2.  A more accurate scenario specific productivity factor can be approximated with the equation:  
+Productivity = (onload to offload distance)/(round trip cycle distance). 
+ 
+ 
+ 
+ 
+  AFPAM10-1403  24 OCTOBER 2018 
+17 
+ 
+      Table 8.  Maximum Airfield Throughput. 1 
+ 
+24 Hour Operations 
+16 Hour Operations6 
+10 Hour Operations7 
+MOG 2 Passengers3, 4 
+Cargo4, 5 
+Short Tons 
+Passengers3, 5 Cargo4, 5 
+Short Tons 
+Passengers3, 5 
+Cargo4, 5 
+Short Tons 
+1 
+1469 
+282 
+979 
+188 
+612 
+118 
+2 
+2938 
+565 
+1958 
+377 
+1224 
+235 
+3 
+4406 
+847 
+2938 
+565 
+1836 
+353 
+4 
+5875 
+1130 
+3917 
+753 
+2448 
+471 
+5 
+7344 
+1412 
+4896 
+942 
+3060 
+588 
+6 
+8813 
+1695 
+5875 
+1130 
+3672 
+706 
+7 
+10282 
+1977 
+6854 
+1318 
+4284 
+824 
+8 
+11750 
+2260 
+7834 
+1506 
+4896 
+942 
+9 
+13219 
+2542 
+8813 
+1695 
+5508 
+1059 
+10 
+14688 
+2825 
+9792 
+1883 
+6120 
+1177 
+NOTES: 
+1.  For airfield specifics, refer to the Base Support Plan, via the MAJCOM, for detail planning or to 
+provide fidelity/validation of your “estimate”. 
+2.  Use the lower of wMOG, pMOG, or fMOG. 
+3.  Passenger throughput based on B-767-400 equivalents (average payload 216 passengers, ground time  
+3+00).  
+4.  Cargo throughput based on C-17 equivalents (average payload 45 Short Tons, ground time 2+45). 
+5.  Queuing efficiency of 85% applied. 
+6.  Daylight operations in summer months. 
+7.  Daylight operations in winter months. 
+ 
+ 
+ 
+ 
+Table 9.  Fuel Burn Rates. 
+Aircraft Type 
+Fuel Burn Rate 
+(lbs/hr) 
+Aircraft Type 
+Fuel Burn Rate 
+(lbs/hr) 
+C-5M 
+22,110 
+F-16 
+5,795 
+C-17 
+21,097 
+F-22A 
+11,118 
+C-130H 
+4,533 
+A/OA-10 
+3,996 
+C-130J/30 
+4,500 
+AV-8B 
+5,461 
+KC-10A 
+18,948 
+E-6A/B 
+10,747 
+KC-46A 
+11,000 
+EA-6B 
+7,102 
+KC-135R/T 
+11,291 
+F/A-18C/D 
+7,417 
+F-15C 
+11,189 
+F/A-18E/F 
+8,623 
+F-15E 
+13,244 
+ 
+ 
+NOTE:  Fuel burn rates extracted from AFPAM 23-221, Fuels 
+Logistics Planning, (converted to pounds/hour using 6.7 pounds/gallon 
+conversion rate).  Fuel burn rates are for planning purposes only.  
+Actual rate varies according to mission profile, aircraft model, 
+configuration, altitude, airspeed etc. 
+18 
+ 
+  AFPAM10-1403  24 OCTOBER 2018 
+ 
+Table 10.  Tanker Offload Capabilities. 1, 2, 3 
+Aircraft 
+Takeoff Gross 
+Weight (lbs) 
+Takeoff Fuel 
+Load4, 5 (lbs) 
+Maximum Offload Available2, 6, 7 (lbs) 
+ 
+Mission Radius 
+500nm 
+1000nm 
+1500nm 
+2500nm 
+KC-10A 
+590,000 
+340,000 
+247,500 
+207,500 
+168,800 
+131,000 
+KC-46A 
+415,000 
+208,000 
+163,100 
+140,200 
+117,300 
+71,400 
+KC-135R/T 
+322,500 
+200,000 
+142,000 
+117,100 
+98,800 
+77,800 
+NOTES: 
+1.  Standard Atmospheric Conditions with winds 270/50. 
+2.  Cruise altitude and temperature at cruise will impact fuel burn rates, and will reduce available offload. 
+3.  All KC-10, KC-46, and a limited number of KC-135 aircraft are air refuelable, providing increased 
+range, off-load, and loiter capabilities. 
+4.  Takeoff fuel will vary by runway available and atmospheric conditions. 
+5.  Cargo carried will reduce fuel load on a 1:1 basis. 
+6.  Offload data based on 1-hour orbit time at 440T (315C). 
+7.  Orbit times greater than 1 hour may be required to complete offload of all available fuel. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Table 11.  KC-135 Tanker Aircraft Required. 1, 2, 3 
+Receiver # / 
+Aircraft Type 
+Distance (nm) 
+ 
+1000  
+2000  
+3000  
+4000  
+5000  
+6000  
+3 F/A-18 
+- 
+1 
+2 
+3 
+5 
+6 
+6 F-15C 
+- 
+2 
+3 
+5 
+6 
+9 
+6 F-15E 
+1 
+2 
+5 
+6 
+7 
+8 
+6 F-16 
+- 
+1 
+2 
+3 
+5 
+7 
+6 F-22A 
+1 
+2 
+5 
+6 
+7 
+8 
+6 A/OA-10 
+- 
+1 
+3 
+4 
+- 
+- 
+3EA6-B 
+- 
+1 
+2 
+3 
+4 
+4 
+1 C-174 
+- 
+- 
+- 
+1 
+1 
+2 
+1 C-54 
+- 
+- 
+- 
+- 
+1 
+2 
+NOTES: 
+1.  Due to the multitude of Air Refueling variables, this table reflects an order of 
+magnitude only. 
+2.  Table assumes multiple tanker launch bases would be used for air refueling distances 
+greater than 3000nm. 
+3.  Fighter/tanker ratio can be limited by boom cycle time. 
+4.  For the airlift aircraft, assume average payloads, maximum takeoff gross weight, 
+optimum located air refueling tracks and divert bases, and a minimum tanker off-load 
+capability of 90,000 lbs. 
+ 
+ 
+ 
+  AFPAM10-1403  24 OCTOBER 2018 
+19 
+ 
+ 
+ 
+Table 12.  KC-46 Tanker Aircraft Required. 1, 2, 3 
+Receiver # / 
+Aircraft Type 
+Distance (nm) 
+ 
+1000  
+2000  
+3000  
+4000  
+5000  
+6000  
+3 F/A-18 
+- 
+1 
+2 
+3 
+5 
+6 
+6 F-15C 
+- 
+2 
+3 
+5 
+6 
+9 
+6 F-15E 
+1 
+2 
+5 
+6 
+7 
+8 
+6 F-16 
+- 
+1 
+2 
+3 
+5 
+7 
+6 F-22A 
+1 
+2 
+5 
+6 
+7 
+8 
+6 A/OA-10 
+- 
+1 
+3 
+4 
+- 
+- 
+3EA6-B 
+- 
+1 
+2 
+3 
+4 
+4 
+1 C-174 
+- 
+- 
+- 
+1 
+1 
+2 
+1 C-54 
+- 
+- 
+- 
+- 
+1 
+2 
+NOTES: 
+1.  Due to the multitude of Air Refueling variables, this table reflects an order of 
+magnitude only. 
+2.  Table assumes multiple tanker launch bases would be used for air refueling distances 
+greater than 3000nm. 
+3.  Fighter/tanker ratio can be limited by boom cycle time. 
+4.  For the airlift aircraft, assume average payloads, maximum takeoff gross weight, 
+optimum located air refueling tracks and divert bases, and a minimum tanker off-load 
+capability of 90,000 lbs. 
+ 
+ 
+ 
+Table 13.  KC-10 Tanker Aircraft Required. 1, 2, 3  
+Receiver # / 
+Aircraft Type 
+Distance (nm) 
+ 
+1000  
+2000  
+3000  
+4000  
+5000  
+6000  
+3 F/A-18 
+- 
+1 
+2 
+2 
+3 
+4 
+6 F-15C 
+- 
+1 
+2 
+3 
+4 
+5 
+6 F-15E 
+1 
+1 
+3 
+4 
+5 
+6 
+6 F-22A 
+1 
+1 
+3 
+4 
+5 
+6 
+6 F-16 
+- 
+1 
+1 
+2 
+3 
+4 
+6 A/OA-10 
+- 
+1 
+1 
+2 
+- 
+- 
+3 EA6-B 
+- 
+1 
+2 
+2 
+3 
+4 
+1 C-174 
+- 
+- 
+- 
+1 
+1 
+2 
+1 C-54 
+- 
+- 
+- 
+- 
+1 
+2 
+NOTES: 
+1.  Due to the multitude of Air Refueling variables, this table reflects an order of 
+magnitude only. 
+2.  Table assumes multiple tanker launch bases would be used for air refueling distances 
+greater than 3000nm. 
+3.  Fighter/tanker ratio can be limited by boom cycle time. 
+4.  For the airlift aircraft, assume average payloads, maximum takeoff gross weight, 
+optimum located air refueling tracks and divert bases, and a minimum tanker off-load 
+capability of 90,000 lbs. 
+20 
+ 
+  AFPAM10-1403  24 OCTOBER 2018 
+ 
+   
+ 
+Table 14.  Aeromedical Evacuation Capabilities Matrix. 
+ 
+ 
+ 
+Capability 
+Operations Capacities 
+Ops 
+Hrs 
+Deployment Characteristics 
+ 
+Function 
+Unit Type 
+Code1 
+Pers 
+Pallets Rolling 
+Stock 
+Short 
+Tons 
+C2 - LNO 
+AECT 
+FF7M 
+Task with Air Operations Center/Air 
+Mobility Division 
+24 
+8 
+ 
+ 
+ 
+C2 
+FFQCC 
+Command Staff 
+12 
+8 
+2 
+ 
+ 
+C2 Equipment  
+FFQC1 
+Equipment AE Command Squadron 
+24 
+ 
+1 
+ 
+5.14 
+C2 Communication 
+FFQCR 
+AE Communication 
+24 
+2 
+ 
+ 
+ 
+AE C2 Vehicle Support 
+UFMVE 
+1 x M-1097 HMMWV 
+24 
+ 
+2 
+1 
+3.6 
+AE C2 Support Cell 
+FFQSC 
+Admin, Log, Maintenance  
+24 
+4 
+ 
+ 
+ 
+AE Ops Team 
+FFQNT 
+Support 10 AE Crews, 4 Critical Care 
+Air Transport Team 
+24 
+10 
+ 
+ 
+ 
+AE Ops Team Equipment 
+FFQN1 
+Supports FFQNT 
+24 
+ 
+1 
+ 
+1.5 
+AEOT C2 Communication 
+FFQCR 
+AE Communication 
+24 
+2 
+ 
+ 
+ 
+AE Ops Team Vehicle 
+UFMVE 
+1 x M-1097 HMMWV 
+24 
+ 
+2 
+1 
+3.6 
+AEOT Manpower  
+Augmentation Team 
+FFQCM 
+Adds support for 10 AEC,  
+4 Critical Care Air Transport Team 
+24 
+6 
+1 
+ 
+0.2 
+AE  Augmentation Team Equipment 
+FFQC2 
+AEOT  Equipment Package 
+24 
+ 
+1 
+ 
+1.25 
+AELT 
+AELT 
+FFQLA 
+Liaison  & (x 2 for 24/7) 
+12 
+2 
+ 
+ 
+ 
+AELT C2 Communication 
+FFQCR 
+AE Communication 
+24 
+2 
+ 
+ 
+ 
+AELT  Equipment (Rolling Stock) 
+FFQL1 
+AELT Equipment Package 
+24 
+ 
+1 
+ 
+5.31 
+AELT Vehicle Support 
+UFMVE 
+1 x M-1097 HMMWV 
+24 
+ 
+2 
+1 
+3.6 
+CREW 
+Basic Crew 
+FFQDA 
+AE Crew - 50 Patients 
+CD2 
+5 
+ 
+ 
+ 
+Equipment 
+FFQDM   AE  Equipment  – 1 AE Crew/50 
+24 
+ 
+1 
+ 
+0.8 
+Resupply 
+FFQDH 
+30 Day Supply per AE Kit 
+24 
+ 
+1 
+ 
+0.8 
+Small Aircraft In Flight Kit 
+FFQDE 
+Small AE Kit – 3 Patients 
+24 
+ 
+1 
+ 
+0.97 
+CCAT 
+Basic Crew  
+FFCCT 
+3 High or 6 Low Acuity 
+CD2 
+3 
+ 
+ 
+ 
+Equipment 
+FFCC4 
+Mission Depend/3-6 Patients 
+24 
+ 
+1 
+ 
+0.66 
+Supply  
+FFCCB 
+Expendable Supplies  
+24 
+ 
+1 
+ 
+0.5 
+Tactical Care 
+FFTC1 
+3 Critical Care High Acuity 
+24 
+ 
+1 
+ 
+0.5 
+Pediatric Augmentation 
+FFCC2 
+Pediatric Augmentation Kit – 1 to 3 
+Patients 
+24 
+ 
+.8 
+ 
+0.3 
+Ultrasound, Portable 
+FFCC5 
+Ultrasound Portable 
+24 
+ 
+0 
+ 
+0.1 
+ERPSS 10 
+ERPSS10   
+FFEPS 
+10 Bed Personnel 
+24 
+13 
+ 
+ 
+ 
+ERPSS10 Vehicle Support 
+UFMVE 
+2 x M-1097 HMMWV 
+24 
+ 
+4 
+2 
+7.2 
+  Equipment (Rolling Stock) 
+FFPS1 
+Equipment  
+24 
+13 
+2 
+ 
+10.06 
+C2 Communication 
+FFQCR 
+AE Communication   
+24 
+2 
+ 
+ 
+ 
+ERPSS 10 Resupply 
+FFPS8 
+30 Day Supply 
+24 
+ 
+1 
+ 
+1.38 
+ERPSS 10 Support Package 
+FFPS7 
+Environmental Control Unit, 
+Generator, and Plenum 
+24 
+ 
+2 
+ 
+0.75 
+Clinical Providers  
+FFPPS 
+Clinical  Augmentation Flight 
+Surgeon + Staff 
+24 
+10 
+ 
+ 
+ 
+ 
+NOTES: 
+1.  Communication augmentation unit type code applies to any AE Unit Type Code requiring additional 
+communication support. 
+2.  Crew duty day. 
+ 
+ 
+  AFPAM10-1403  24 OCTOBER 2018 
+21 
+ 
+ 
+ 
+ 
+Table 14.  Aeromedical Evacuation Capabilities Matrix.  (Continued) 
+Capability 
+Operations Capacities 
+Ops 
+Hrs 
+Deployment Characteristics 
+ 
+Function 
+Unit Type 
+Code1 
+Pers Palletts Rolling 
+Stock 
+Short 
+Tons 
+ERPSS 50 
+C2 Ops 
+FFFPS 
+Staff Module 1 per 50 Beds 
+24 
+10 
+ 
+ 
+ 
+Staff Support  
+FFHPS 
+Staff Module 1 per 100 Beds  
+24 
+ 
+3 
+ 
+8.3 
+C2 Communication 
+FFQCR 
+AE Communication   
+24 
+2 
+1 
+ 
+0.7 
+Equipment Package 
+FFPS2 
+Modules – 1 per 150 bed 
+24 
+ 
+3 
+ 
+5.03 
+Expendable Package 
+FFPS3 
+Modules – 1 per 50 bed 
+24 
+ 
+2 
+ 
+2.71 
+Facility Package 
+FFPS4 
+Modules – 1 per 50 bed 
+24 
+ 
+8 
+ 
+16.69 
+Ambulance Bus 
+UFM81 
+2 Per 50 Bed Capability 
+24 
+ 
+4 
+ 
+12.00 
+EQUIPMENT 
+Stacking Litter System 
+FFQD1 
+3 Litter Capability, 5 Stacking Litter 
+System per 
+24 
+ 
+1 
+ 
+1.02 
+Litter Stanchion Augmentation 
+System  
+N/A 
+C-17 Liter Stanchion - MX   
+24 
+ 
+1 
+ 
+1.8 
+Transportation Isolation System2 
+FFTS1 
+Transportation Isolation System 
+24 
+ 
+2 
+ 
+7.6 
+Transportation Isolation System 
+Interior Module Component (IMC) 
+FFTS2 
+Transportation Isolation System IMC 
+24 
+ 
+1 
+ 
+3.8 
+  Transportation Isolation System 
+  Personal Protect Equipment 
+FFTS3 
+PPE for 12 - Person Team 
+24 
+ 
+1 
+ 
+0.3 
+Transportation Isolation System 
+Support Package 
+FFTS4 
+Transportation Isolation System 
+Support Sys CONOPS Supplies 
+24 
+ 
+1 
+ 
+.23 
+Transportation Isolation System 
+Spare/Repair Kit 
+FFTS5 
+Transportation Isolation System 
+Spare/Repair Kit 
+24 
+ 
+1 
+ 
+0.3 
+Transportation Isolation System 
+Refill Kit 
+FFTS6 
+Transportation Isolation System 
+System Bag 
+24 
+ 
+    1 
+ 
+0.5 
+ 
+NOTES: 
+1.  Communication augmentation unit type code applies to any aeromedical evacuation Unit Type Code 
+requiring additional communication support. 
+2.  The Transportation Isolation System is used only on C-17 and C-130 aircraft. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+22 
+ 
+  AFPAM10-1403  24 OCTOBER 2018 
+ 
+ 
+ 
+ 
+ 
+Table 15.  Aeromedical Evacuation Capabilities. 
+Aircraft 
+Aeromedical 
+Evacuation 
+Crews Per 
+Aircraft1 
+Aeromedical Airlift Capability2, 3 
+ 
+ 
+Total 
+Litter/ Ambulatory 
+Patients 
+All Litter 
+Patients 
+All 
+Ambulatory 
+Patients 
+Floor Loaded 
+Litter Patients 
+C-17 
+1 
+36/54 (AE-2)4 
+  365 (AE-2)4 
+80 
+60 
+C-1306 
+1 
+50/24 (AE-4)4 
+  72  (AE-2)4 
+907 
+15 
+C-130J-306 
+1 
+60/53 (AE-4)4 
+  97  (AE-2)4 
+907 
+21 
+KC-466 
+1 
+24/328 
+30 
+30 
+N/A 
+KC-1356 
+1 
+15/20 (AE-3)4 
+15 (AE-3)4 
+22 
+8 
+NOTES:  
+1.  Standard basic aeromedical evacuation crew only (two Flight Nurses and three aeromedical evacuation 
+Technicians). 
+2.  Total positions.  Data reflects the subtraction of litter positions and seat requirements for a basic aeromedical 
+evacuation crew with medical equipment.  Addition of one Critical Care Air Transport Team would subtract 
+an additional three seats and two litter positions. 
+3.  Various litter and ambulatory patient combinations are available based on requirement.  Refer to 18 AF 
+aeromedical evacuation Planning Factors for Defense Support of Civil Authorities Operations aeromedical 
+evacuation capabilities. 
+4.  Aeromedical evacuation configurations IAW AFI 11-2AE, Volume 3, Addenda A. 
+5.  Capacity increases to 36 litter positions with Litter Stanchion Augmentation Set Kit installed, or by 
+redistributing assets from other airframes. 
+6.  No integral litter capability.  
+7.  Limited to 80 seats including crew for overwater flights. 
+8.  Seat pallet is required to transport ambulatory patients. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  AFPAM10-1403  24 OCTOBER 2018 
+23 
+ 
+ 
+ 
+ 
+ 
+ 
+Table 16.  Planning Sortie and Hour Limits, 2.0 Crew Ratio (Typical KC-10 Unit). 
+Minimum 
+Number of Crews 
+20 
+Number of Aircraft 
+10 
+Crew Rest 
+17.0 Hours 
+Aircraft Ground Time 
+6.0 Hrs. 
+ 
+Average Sortie Duration 
+4.0 
+4.5 
+5.0 
+5.5 
+6.0 
+6.5 
+7.0 
+7.5 
+8.0 
+8.5 
+9.0 
+9.5 
+10.0 
+Maximum Aircraft Sortie Rate 
+2.40 
+2.29 
+2.18 
+2.09 
+2.00 
+1.92 
+1.85 
+1.78 
+1.71 
+1.66 
+1.60 
+1.55 
+1.50 
+Maximum Aircraft Sorties 100% 
+21.6 
+20.6 
+19.6 
+18.8 
+18.0 
+17.3 
+16.6 
+16.0 
+15.4 
+14.9 
+14.4 
+13.9 
+13.5 
+Maximum Aircraft Sorties 80% 
+16 
+16 
+15 
+14 
+14 
+13 
+12 
+12 
+12 
+11 
+11 
+10 
+10 
+Maximum Aircrew Sortie Rate 
+1.14 
+1.12 
+1.09 
+1.07 
+1.04 
+1.02 
+1.00 
+0.98 
+0.96 
+0.94 
+0.92 
+0.91 
+0.89 
+Maximum Aircrew Sorties 90% 
+19 
+18 
+18 
+18 
+17 
+17 
+17 
+16 
+16 
+16 
+15 
+15 
+15 
+125 Hour Limit Sorties (90%) 
+17 
+15 
+14 
+12 
+11 
+10 
+10 
+9 
+8 
+8 
+7 
+7 
+7 
+150 Hour Limit Sorties (90%) 
+21 (19) 
+18 
+17 
+15 
+14 
+13 
+12 
+11 
+10 
+10 
+9 
+8 
+8 
+Offload (300K, 2 hour orbit) 
+115 
+110 
+105 
+100 
+95 
+90 
+85 
+80 
+75 
+70 
+65 
+60 
+55 
+80% Base Capacity @ 85% 
+1564K 
+1496K 
+1338K 
+1190K 
+1130K 
+994K 
+867K 
+816K 
+765K 
+654K 
+607K 
+510K 
+467K 
+80/40 Daily Contract @ 85% 
+879K 
+841K 
+803K 
+765K 
+726K 
+688K 
+650K 
+612K 
+573K 
+535K 
+497K 
+459K 
+420K 
+70/40 Daily Contract @ 85% 
+782K 
+748K 
+714K 
+680K 
+646K 
+612K 
+578K 
+544K 
+510K 
+476K 
+442K 
+408K 
+374K 
+ 
+80/40 Sortie Contract1 
+9 Sorties: 7 Turn 2 
+Task Rate 
+42% 
+44% 
+46% 
+48% 
+50% 
+52% 
+54% 
+56% 
+58% 
+60% 
+63% 
+65% 
+67% 
+Airframe Hours (30 day) 
+120 
+135 
+150 
+165 
+180 
+195 
+210 
+225 
+240 
+255 
+270 
+285 
+300 
+Average Touch Time 
+20 
+19.5 
+19 
+18.5 
+18 
+17.5 
+17 
+16.5 
+16 
+15.5 
+15 
+14.5 
+14 
+Aircrew Hours (100%) 
+60 
+67.5 
+75 
+82.5 
+90 
+97.5 
+105 
+113 
+120 
+128 
+135 
+143 
+150 
+ 
+70/40 Sortie Contract1 
+8 Sorties: 6 Turn 2 
+Task Rate 
+38% 
+39% 
+41% 
+43% 
+45% 
+47% 
+49% 
+51% 
+53% 
+54% 
+56% 
+58% 
+60% 
+Airframe Hours (30 day) 
+108 
+122 
+135 
+149 
+162 
+176 
+189 
+203 
+216 
+230 
+243 
+257 
+270 
+Average Ground Time 
+20.4 
+20 
+19.5 
+19.1 
+18.6 
+18.2 
+17.7 
+17.3 
+16.8 
+16.4 
+15.9 
+15.5 
+15 
+Aircrew Hours (100%) 
+54 
+60.8 
+67.5 
+74.3 
+81 
+87.8 
+94.5 
+101 
+108 
+115 
+122 
+128 
+135 
+NOTES:   
+1. A ground alert aircraft is required.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+24 
+ 
+  AFPAM10-1403  24 OCTOBER 2018 
+ 
+ 
+ 
+ 
+ 
+ 
+Table 17.  Example Sortie and Hour Limits, 1.5 Crew Ratio (Typical KC-135 Unit). 
+Minimum 
+Number of Crews 
+15 
+Number of Aircraft 
+10 
+Crew Rest 
+17.0 Hours 
+Aircraft Ground Time 
+6.0 Hours. 
+ 
+Maximum Aircraft Sortie Rate 
+2.67 
+2.53 
+2.40 
+2.29 
+2.18 
+2.09 
+2.00 
+1.92 
+1.85 
+1.78 
+Maximum Aircraft Sorties 100% 
+24.0 
+22.7 
+21.6 
+20.6 
+19.6 
+18.8 
+18.0 
+17.3 
+16.6 
+16.0 
+Maximum Aircraft Sorties 80% 
+18 
+17 
+16 
+16 
+15 
+1  4 
+14 
+13 
+12 
+12 
+Maximum Aircrew Sortie Rate 
+1.20 
+1.17 
+1.14 
+1.12 
+1.09 
+1.07 
+1.04 
+1.02 
+1.00 
+0.98 
+Maximum Aircrew Sorties 90% 
+15 
+14 
+14 
+13 
+13 
+13 
+13 
+12 
+12 
+12 
+125 Hour Limit Sorties (90%) 
+17 (15) 
+14 
+13 
+11 
+10 
+9 
+8 
+8 
+7 
+6 
+150 Hour Limit Sorties (90%) 
+20 (15) 
+17 (14) 
+15 (14) 
+13 
+12 
+11 
+10 
+9 
+8 
+8 
+Offload (175K, 2 hour orbit) 
+125 
+120 
+115 
+110 
+105 
+100 
+95 
+90 
+85 
+80 
+80% Base Capacity @ 85% 
+1593K 
+1428K 
+1368K 
+1215K 
+1160K 
+1105K 
+1049K 
+918K 
+867K 
+816K 
+80/40 Daily Contract @ 85% 
+956K 
+918K 
+879K 
+841K 
+803K 
+765K 
+726K 
+688K 
+650K 
+612K 
+70/40 Daily Contract @ 85% 
+850K 
+816K 
+782K 
+748K 
+714K 
+680K 
+646K 
+612K 
+578K 
+544K 
+ 
+80/40 Sortie Contract1 
+9 Sorties (7 Turn 2) 
+Task Rate 
+38% 
+40% 
+42% 
+44% 
+46% 
+48% 
+50% 
+52% 
+54% 
+56% 
+Airframe Hours (30 day) 
+90 
+105 
+120 
+135 
+150 
+165 
+180 
+195 
+210 
+225 
+Average Touch Time 
+21 
+20.5 
+20 
+19.5 
+19 
+18.5 
+18 
+17.5 
+17 
+16.5 
+Aircrew Hours (100%) 
+60 
+70 
+80 
+90 
+100 
+110 
+120 
+130 
+140 
+150 
+ 
+70/40 Sortie Contract1 
+8 Sorties (6 Turn 2) 
+Task Rate 
+34% 
+36% 
+38% 
+39% 
+41% 
+43% 
+45% 
+47% 
+49% 
+51% 
+Airframe Hours (30 day) 
+81 
+94.5 
+108 
+121.5 
+135 
+149 
+162 
+176 
+189 
+203 
+Average Ground Time 
+21.3 
+20.85 
+20.4 
+19.95 
+19.5 
+19.1 
+18.6 
+18.2 
+17.7 
+17.3 
+Aircrew Hours 
+54 
+63 
+72 
+81 
+90 
+99 
+108 
+117 
+126 
+135 
+NOTES:   
+1.  A ground alert aircraft is required. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+MARK D. KELLY, Lt Gen, USAF 
+ 
+ 
+ 
+ 
+ 
+ 
+Deputy Chief of Staff, Operations 
+ 
+  AFPAM10-1403  24 OCTOBER 2018 
+25 
+ 
+Attachment 1 
+ 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+References 
+Chairman of the Joint Chief of  Staff Instruction 4410.01G, Standardized Terminology for 
+Aircraft Inventory Management, 11 October 2013  
+The Joint Staff Officer‘s Guide 2000, JFSC Pub 1 
+Air Force Instruction 11-2AE Volume 3, Addenda A, Aeromedical Evacuation Operations, 
+Configuration/Mission Planning, 17 May 2011, Interim Change 1, 12 July 2012 
+Air Force Instruction 11-2C-17, Volume 3, C-17 Operations Procedures, 16 Nov 2011 
+Air Force Instruction 33-360, Publications and Forms Management, 1 December 2015 
+Air Force Manual 33-363, Management of Records, 1 March 2008 
+Air Force Pamphet 23-221, Fuels Logistics Planning, 11 March 2013 
+Air Mobility Command Airfield Suitability and Restrictions Report, published periodically by 
+AMC/A3 
+Air Mobility Command Pamphlet 24-2, Volume 1, Civil Reserve Air Fleet Load Planning, 6 
+August 2014 
+Air Mobility Command Instruction 10-402, Civil Reserve Air Fleet, 17 November 2011 
+Air Mobility Command Instruction 11-208, Mobility Air Forces Management (Airlift, Air 
+Refueling, Aeromedical Evacuation, and Air Mobility Support Operations), 8 February 2017 
+Air Mobility Command Instruction 11-211, Destination Airfield Suitability Analysis, 18 May 
+2017 
+618 AOC (TACC)/XOP, Contingency Operations & Exercise Division, DSN 779-1930, Comm 
+(618) 229-1930 
+Headquarters AMC/A3AS, Airfield Suitability Branch, DSN 779-3112, Comm (618) 229-3112 
+Headquarters AMC/A3B, Commercial Airlift Division, DSN 779-1751, Comm (618) 229-1751 
+Headquarters  AMC/A3OE, Aeromedical Evacuation Plans Branch, DSN 779-2076, Comm 
+(618) 229-2076 
+Headquarters AMC/SGXM, AE & Medical MEFPAK Management Branch, DSN 779-6952, 
+Comm (618) 229-6952 
+ 
+Adopted Forms 
+Air Force Form 847, Recommendation for Change of Publication 
+ 
+Abbreviations and Acronyms 
+AE—Aeromedical Evacuation 
+AMC—Air Mobility Command 
+MOG—Maximum [Aircraft] on Ground 
+26 
+ 
+  AFPAM10-1403  24 OCTOBER 2018 
+ 
+ 
+Terms 
+Active route flying time—The flying time from onload to the offload location including all 
+intermediate locations en route.  This does not include ground time. 
+Active route ground time—The cumulative ground time of all intermediate stops from the 
+onload location to the offload location.  This does not include flying time. 
+Aeromedical Evacuation Patients— 
+Litter = Patient may require a litter to be enplaned or deplaned.   
+Ambulatory = Patient does not require assistance to be enplaned or deplaned. 
+Air cargo—Stores, equipment or vehicles, which do not form part of the aircraft, and are part 
+or all of its payload.  Note:  There are different classifications of military cargo, categorized as 
+follows: 
+ 
+Bulk air cargo, including the 463L pallet itself, which is within the usable dimensions of 
+a 463L pallet (104” x 84” x 96”) and within the height and width requirements established by 
+the cargo envelope of the particular model of aircraft. 
+ 
+Oversize cargo exceeding the usable dimensions of a 463L pallet loaded to the design 
+height of 96” but is equal to or less than 1,090” in length, 117” in width, and 105” in height. 
+This cargo is transportable on the C-5, C-17, C-130, and to a limited extent the KC-10. 
+ 
+Outsize cargo which exceeds the dimension of oversize (1,090” x 117” x 105”) and 
+requires use of a C-5 or C-17.  Rolling Stock Equipment that can be driven or rolled directly 
+into the cargo compartment. 
+ 
+Special Items cargo requiring specialized preparation and handling procedures, such as 
+space satellites or nuclear weapons. 
+Aircraft block speed—True airspeed in knots under zero wind conditions adjusted in relation 
+to length of sortie to compensate for takeoff, climb out, descent, instrument approach, and 
+landing. 
+Aircraft Mission Capability Rate—The average percentage of a fleet that is either Partially 
+Mission Capable or Fully Mission Capable over the expected plan period.  This represents the 
+maintenance reliability for the entire fleet, and does not directly correlate to task rates. 
+Aircraft parking size—The ramp space a particular aircraft occupies, usually expressed in C- 
+17 equivalents (See Table 2). 
+Aircraft Task Rate—The rate at which a specific fleet is tasked, after rounding is applied.  
+Task Rates should normally stay below Mission Capability Rates for sustained operations.  
+Sustained operations are typically tasked at lower rates than short-duration contingency support 
+rates and surge operations. 
+Aircrew Commitment Rate—This is the average rate crews can be committed to missions for 
+planning purposes.  This commitment rate takes factors such as aircrew Duties Not Including 
+Flying rate, circadian rhythm, and mission sequencing into account.  A typical historical 
+commitment rate for aircrew is 90%.   
+ 
+  AFPAM10-1403  24 OCTOBER 2018 
+27 
+ 
+Aircrew Hours (100%)—This is the average number of hours each crew is expected to accrue 
+over the course of a 30-day flying period.  The examples below assume down-time and alert 
+periods are shared equally across the crew force.  Actual aircrew hours must be monitored by 
+the individual flying units and communicated to the Operational planners when issues arise. 
+Aircrew Monthly Hour Restriction—This is the total number of flight hours an aircrew can 
+fly in a given 30-day period.  This restriction may be waived to a higher number by the 
+appropriate command authority.  Typical flight hour limit for deployed aircrew is 150 hours per 
+30 days. 
+Airfield detail assessment—Contained in GDSS establishes suitability and restrictions for 
+AMC and AMC-gained C-5, KC-10, C-17, C-20, C-21, C-32, C-37, C-40, KC-46, C-130, and 
+KC-135 aircraft operations. 
+Airfield Suitability and Restrictions Report—AMC/A3 periodic publication available on 
+line that contains AMC policy and guidance regarding airfield suitability and a synopsis of 
+suitability for airfields AMC operates at globally. 
+Airfield throughput capability—The amount of passengers or cargo that can be moved 
+through the airfield per day via strategic airlift based on the limitations of the airfield (such as 
+parking spots).  
+Airframe Hours (per plan period)—This is an estimated average number of hours each 
+airframe will accrue in a given time period, normally 30 days.  It is more conservative to plan 
+for all Alert lines to launch when calculating this number.   
+Air refueling control point—The planned geographic point over which the receiver(s) arrive 
+in the observation/pre-contact position with respect to the assigned tanker. 
+Air refueling control time—The planned time that the receiver and tanker will arrive over the 
+air refueling control point Air Refueling Control Point. 
+Air refueling exit point—The designated geographic point at which the refueling track 
+terminates.  In a refueling anchor, it is a designated point where the tanker and receiver may 
+depart the anchor area after refueling is completed. 
+Air refueling initiation point—A point located upstream from the Air Refueling Control Point 
+at which the receiver aircraft initiates a rendezvous with the tanker. 
+Air refueling track—A track designated for air refueling reserved by the receiver unit/planner.   
+If possible, the track from the Air Refueling Initiation Point to the Air Refueling Control Point 
+should be along a Tactical Air Navigation/Very High Frequency Omni directional Range and 
+Tactical Air Navigation  radial and within 100 NM of the station. 
+Allowable cabin load—The maximum payload that can be carried on a mission.  Note: The 
+allowable cabin load may be limited by the maximum takeoff gross weight, maximum landing 
+gross weight, or by the maximum zero fuel weight. 
+Anchor point—A designated geographical point on the downstream end of the inbound course 
+of the Anchor Refueling Pattern. 
+Anchor refueling—Air refueling performed as the tankers maintain a prescribed pattern which 
+is anchored to a geographical point or fix. 
+28 
+ 
+  AFPAM10-1403  24 OCTOBER 2018 
+ 
+Anchor rendezvous—The procedures normally employed by radar (Control and Reporting 
+Center/Ground Control Intercept/ Airborne Warning and Control System) to vector the 
+tanker(s) and receiver(s) for a visual join-up for refueling.  Note:  North Atlantic Treaty 
+Organization uses the term Rendezvous Alpha. 
+Available Offload—Fuel available for offload from a single tanker, including loiter time in an 
+air refueling airspace. 
+Average Deliverable Offload—The average fuel expected to be offloaded from each tanker in 
+a large fleet air refueling plan.  When tankers do not have sufficient fuel remaining to account 
+for loiter and requested offload, any remaining fuel cannot be offloaded effectively. 
+Average Ground Time—This is an estimate of the average time each aircraft will be on the 
+ground between missions, averaged across the total fleet of aircraft.  For aircraft that turn to a 
+second mission on a single Air Tasking Order day, actual ground time may be as low as the 
+minimum ground time between individual events.  Over the course of a typical 30 day plan 
+period, these numbers reflect the actual amount of time aircraft are on the ground and available 
+for maintenance operations. 
+Average Sortie Duration—The average flight time, from takeoff until landing, for a single 
+type aircraft from a single operating location.  This time applies to both aircraft and aircrew. 
+Base air refueling altitude—A reference altitude at which lead aircraft of a tanker formation 
+(or single aircraft for individual air refueling) will fly at initial contact. 
+Base Offload (by plan factor)—This is an estimate of the overall fleet deliverable capacity by 
+a single type aircraft at a single location.  Offload Plan Efficiency is accounted for in this 
+planning factor.  Ground alert aircraft are counted against the fleet for sortie generation (more 
+conservative), and fuel from the alert aircraft is not considered in total fuel deliverable (also 
+more conservative). 
+ 
+80% Base Capacity = 80% of available aircraft, excluding alert aircraft, maximum 
+utilization rate.  Note:  This does not take operating restrictions or mission flow into account. 
+ 
+80/40 Daily Contract = examples include 85% Plan Efficiency factor, excluding Alert 
+ 
+70/40 Daily Contract = examples include 85% Plan Efficiency factor, excluding Alert 
+ 
+Burdened Cost of Fuel—This is the ratio of fuel delivered to fuel consumed to accomplish the 
+delivery.  Burdened Fuel includes fuel delivered as well as fuel consumed by the tanker.  
+Efficient tanker plans drive towards the minimum Burdened Cost of Fuel to meet the offload 
+required.  This is a true measure of tanker fleet optimization. 
+Burn Rate—The average burn rate, across the flight duration, used for approximating fuel 
+consumption. 
+Civil Reserve Air Fleet—A program in which the Department of Defense uses FAA Part 121-
+certificated, United States-flagged aircraft.  These aircraft are allocated by the Department of 
+Transportation to augment the military airlift capability of the Department of Defense.  These 
+aircraft are allocated, in accordance with Department of Defense requirements, to segments, 
+according to their capabilities such as International and Domestic segments, as may be 
+mutually agreed upon by the Department of Defense and the Department of Transportation.  
+The Civil Reserve Air Fleet can be incrementally activated by the Department of Defense in 
+ 
+  AFPAM10-1403  24 OCTOBER 2018 
+29 
+ 
+three stages in response to defense-oriented situations, up to and including a declared national 
+emergency or war, to satisfy Department of Defense airlift requirements.  Note:  The 
+international segment is further divided into long-range and short-range sections; and the 
+domestic segment is further divided into National and Alaskan sections. 
+Closure—In transportation, the process of a unit arriving at a specified location.  It begins 
+when the first element arrives at a designated location, e.g. port of entry/port of departure, 
+intermediate stops, or final destination, and ends when the last element does likewise.  For the 
+purposes of studies and command post exercises, a unit is considered closed after 95 percent of 
+its movement requirements for personnel and equipment are completed. 
+Contingency—Non-Mobilized Utilization Rate = Sustained rate of flying hour activity based 
+upon full active duty participation and 25% reserve volunteerism.  
+Crew Rest—The minimum amount of time from landing until the next subsequent takeoff for a 
+single crew to fly a second mission after completion of a previous mission.  This time accounts 
+for post-flight, mission planning, and pre-flight duties.  The standard Crew Rest time for tanker 
+aircrew is 17 hours. 
+Critical Care Air Transport Teams—Provide critical care augmentation to aeromedically 
+evacuated injured, ill and/or burn patients requiring advanced care during transportation.  They 
+are available to assist the aeromedical evacuation crews if a patient‘s condition dictates. A 
+Critical Care Air Transport Team is comprised of three personnel: a physician who may be an 
+intensivist (cardiopulmonary), a critical care nurse, and a respiratory technician. 
+Cycle time—Total elapsed time for an aircraft to depart home station, fly a complete mission 
+and be back to start a second time. 
+Destination Reserves—Required fuel at destination.  Reserve requirements will vary along the 
+route for fighter-type aircraft depending on divert requirements and actual weather conditions. 
+Distance—Total distance between departure location and arrival location.  Linear distance 
+between locations does not account for route of flight or wind factors.  When available, actual 
+flight plans from vetted flight planning systems should be used to determine actual distance and 
+time of flight. 
+Dual Role Mission—A mission where both air refueling and airlift are provided to the user.  
+The primary mission role is normally air refueling.  Missions where cargo movement is 
+primary require a dedicated funded special assignment airlift mission. 
+Duties Not Including Flying Rate—This is the percentage of crews unable to fly missions due 
+to medical restrictions.  This rate will vary by crew force and local conditions, but is typically 
+below 10%.  Scheduling flexibility and aircrew management must take actual Duties Not 
+Including Flying rates into account when determining minimum crew force requirements for 
+crisis response and sustained operations. 
+En Route Rendezvous—A rendezvous procedure whereby the tanker and receiver arrive at a 
+common rendezvous point at the same time with 1,000 feet altitude separation.  Note:  North 
+Atlantic Treaty Organization uses the term Rendezvous Golf. 
+Expected Plan Efficiency—The percentage of “Available Offload” that can be delivered 
+effectively to receiver aircraft by a combined refueling fleet.  This factor is used as an average 
+fleet planning factor when determining tanker sortie requirements.  Actual offload rates will 
+30 
+ 
+  AFPAM10-1403  24 OCTOBER 2018 
+ 
+vary from sortie to sortie, depending on mission timing and receiver flow.  This factor is may 
+be as high as 85-95% for operations with steady receiver flows.  Historical data (Operation 
+Iraqi Freedom) shows this rate may drop as low as 45% due to receiver mission profiles.  As a 
+general rule, higher Plan Efficiency numbers reflect less flexibility for mission execution. 
+Fleet Capability—The amount of cargo or passengers that can be moved into or out of a 
+location or theater expressed in short tons or passengers per day.  Limitations include the 
+number of aircraft in the operation, their utilization rate, and the distance between onload and 
+offload locations. 
+Flight Time—Time from takeoff until landing, including the planned departure and arrival 
+procedures.  This time includes planned loiter over the intended operating location.   
+Front Lines—The expected number of sorties that can be launched, beginning at the start of 
+the plan time period.  This number is determined by the size of the total fleet, the mission 
+commitment rate, and the number of ground alert aircraft. 
+Fuel Flow—Average burn rate in pounds/hour. 
+Global Decision Support System—AMC’s force level command and control system 
+supporting 618 AOC (TACC) execution authority for effective airlift mission management.  It 
+provides AMC accurate, near real-time data required for making decisions concerning the 
+deployment and employment of AMC resources.  New accounts may be obtained by contacting 
+one’s Unit Program Account Manager at their home unit. An individual can find out who their 
+Unit Program Account Manager is by calling the GDSS Help Desk at DSN 576-4949, Option 
+2, Option 2. 
+Ground Time—The planned ground time for the type of aircraft used. 
+Ground Alert—The number of aircraft and crews assigned to ALFA Alert status.  Alert 
+aircraft are cut from the pool of available aircraft for mission taskings.  Ground Alerts are 
+normally planned in 24-hour increments, and may launch at any time during the plan period. 
+Integrated Computerized Deployment System—A fully integrated information system that 
+provides multi-modal load planning capabilities to Department of Defense agencies and 
+services.  The combined functionality of ship, air, truck, rail, and yard planning services 
+provides commanders, planners, and operators with a single platform capable of producing and 
+evaluating load plans and alternative actions for various sized units, employing various modes 
+of transportation, in support of peacetime or wartime operations.  The Integrated Computerized 
+Deployment System consumes cargo and passenger information from a variety of Department of 
+Defense manifesting systems and, in return, provides load planning, report generation, and 
+forecasting services to USTRANSCOM and its component commands, Department of Defense 
+customers, and other authorized users. 
+Maximum Aircraft Sorties (percentage)—This is the maximum number of sorties a given 
+fleet of aircraft can fly at a given commitment rate, accounting for all aircraft not tasked with 
+Alert lines.  This does not take operating conditions into account, and is used only as a starting 
+point.  A 100% commitment rate requires perfect scheduling. 
+Minimum Required Ground Time—The amount of planned time required from one landing 
+until the next subsequent takeoff per aircraft for a single type aircraft from a single operating 
+location.  This time includes post-flight, refueling, and pre-flight duties for any subsequent 
+ 
+  AFPAM10-1403  24 OCTOBER 2018 
+31 
+ 
+sorties.  This time assumes the aircraft is either flying another mission during the same plan 
+period, or at the early part of the next plan period.  Mission profiles and operating unit/location 
+restrictions may preclude short turn times.  Evaluate planning factors with each operating unit 
+to determine actual mission capacity. 
+Missions required—The number of strategic airlift missions (by aircraft type) required to 
+move a requirement from the onload to the offload location. 
+Noncombatant Evacuation Operation—Operations conducted to relocate threatened 
+noncombatants from locations in a foreign country.  These operations normally involve US 
+citizens whose lives are in danger, and may also include selected foreign nationals.  Note:  
+Noncombatant Evacuation Operation planning factors (refer to Table 3) should be used when 
+planning Noncombatant Evacuation Operation operations.   Emergency Noncombatant 
+Evacuation Operation capabilities represent the most extreme of circumstances. 
+Number of aircraft—The specific number of aircraft apportioned to any peacetime operation, 
+contingency, or exercise, or the number of aircraft apportioned in the Joint Strategic 
+Capabilities Plan Enclosure 11, for tasked Operational Plans.  
+Offload (by plan factor)—This is the available offload for a single tanker at the planned 
+average sortie duration.  This factor considers a static ramp fuel load for each Air Tasking 
+Order day, average burn rates, and returning to the departure airfield with required reserves. 
+Offload Efficiency—Percentage of planned offload compared to the amount of fuel available 
+for offload on a single sortie.  This is useful to track, but does not accurately reflect optimum 
+asset employment.  Planned Offload Efficiency and actual sortie offloads should be regularly 
+compared to improve planning and employment models. 
+Pavement/Aircraft classification system—The International Civil Aviation Organization 
+standard method of reporting pavement strengths.  The Pavement Classification Number is 
+established by an engineering assessment of the runway.  The Pavement Classification Number is 
+for use in conjunction with an Aircraft Classification Number.  Aircraft Classification Number 
+values (provided in Table 1) relate aircraft characteristics to a runway‘s load bearing capability, 
+expressed as a Pavement Classification Number.  An aircraft with an Aircraft Classification Number 
+equal or less than the reported Pavement Classification Number can operate on the pavement 
+subject to any limitations on the tire pressure.  Refer to Department of Defense Flight 
+Information Publication (En route Supplement) for an airfield‘s specific Pavement Classification 
+Number. 
+Payload—The sum of the weight of passengers and cargo that an aircraft can carry.  Note:  
+Cargo weight is normally expressed in short tons. 
+Plan Period—The time span used for sortie generation capacity.  This is typically a single 24 
+hour Air Tasking Order cycle. 
+Planning payload—The payload (expressed in short tons of cargo or number of passengers) 
+expected on a fleet-wide basis, and used by planners to make initial gross planning estimates.   
+The size, shape, and density of most payloads, as well as passenger constraints (i.e., oxygen or 
+life preservers available), rarely permit loading to 100 percent capacity.  Planning payload data, 
+not maximum payload data, should be used for operations/transportation planning. 
+32 
+ 
+  AFPAM10-1403  24 OCTOBER 2018 
+ 
+Play Gas—Fuel available on a single tanker that can be burned, offloaded, or dumped.  This 
+fuel is based on zero time on station, and does not account for time required to accomplish an 
+offload or additional loiter time. 
+Point Parallel Rendezvous—A rendezvous  accomplished with the tanker maintaining an 
+appropriate offset, the receiver flying the Air Refueling Initiation Point to Air Refueling 
+Control Point track, and the tanker turning in front of the receiver at a computed range.  Note:  
+North Atlantic Treaty Organization uses the term Rendezvous Delta. 
+Primary Mission Aircraft Inventory—Aircraft authorized to a unit for performance of its 
+operational mission.  The Primary authorization forms the basis for the allocation of operating 
+resources to include manpower, support equipment, and flying hours funds per Chairman of the 
+Joint Chiefs of Staff Instruction 4410.01G, Standardized Terminology for Aircraft Inventory 
+Management.   
+Productivity Factor—Gross measure of an aircraft’s expected useful ability to move cargo 
+and passengers to a user, expressed as a percentage.  Positioning, depositioning, and other non- 
+productive legs all diminish the overall productivity.  For example, on a strategic airlift mission 
+involving an outbound and a return leg, the return leg is normally considered nonproductive.  
+The productivity factor, in this case would be 50 percent.  However, this assumes cargo has 
+already been positioned at the aircraft’s departure point.  In most situations, airlift aircraft must 
+fly one or more positioning legs to an onload location.  Since productive cargo is usually not 
+moved at this time, these positioning legs reduce the overall productivity factor to a value less 
+than 50 percent.  For planning purposes use the productivity factors found in Table 7, or 
+calculate your own by dividing productive leg distance (onload to offload) by round trip cycle 
+distance. 
+Queuing Efficiency—A factor used by planners and applied in formulas (i.e., throughput 
+capability) to account for the physical impossibility of using limited airfield facilities with 
+perfect efficiency.  For example, when a parking spot is vacated, it is never instantly re-
+occupied.  Historically, planners have applied a queuing efficiency of 85 percent. 
+Requirement—  
+Airlift - The force to be moved in number of passengers or short tons of cargo.  
+Tanker - The number and type of receivers, fuel desired, time to loiter, and air refueling 
+track. 
+Round Trip Flying Time—The accumulated flying time from the aircraft‘s starting point, to 
+the onload location, through the en route structure, to the offload location, back through the en 
+route system, to starting point of origin or other final destination. 
+Round Trip Ground Time—The accumulated ground time from the aircraft‘s starting point, 
+to the onload location, through the en route structure, to the offload location, back to the final 
+destination. 
+Short Ton—2,000 pounds. 
+Sortie Contract—This is an expected sortie generation plan agreed upon between operations 
+and maintenance for the total number of sorties that a specific unit can plan for in a given time 
+period.  Planners will typically task sorties within this contract, provided all plan sorties fall 
+ 
+  AFPAM10-1403  24 OCTOBER 2018 
+33 
+ 
+within the given plan period, accounting for planned ground times.  Note:  total sorties planned 
+under a contract must be equal to or lower than the lowest of:  
+- 
+Maximum Aircraft Sorties 
+- 
+Maximum Aircrew Sorties 
+- 
+Aircrew Hour Limited Sorties 
+Sortie Generation Rate (for tankers, this is commonly referred to as utilization rate)—The 
+number of sorties a single aircraft or aircrew can generate in a given plan time period.  Aircraft 
+utilization rates are typically higher than aircrew utilization rates.  Utilization rates typically 
+generate maximum employment numbers, which may be reduced by various mission factors.  
+As an example, operations may be limited by the following list of factors as well as multiple 
+additional considerations: 
+- 
+Receiver demand/mission profiles 
+- 
+Airfield operating hours 
+- 
+Fuel re-supply and fuel delivery capacity 
+- 
+Weather conditions 
+- 
+Airfield infrastructure 
+Tanker Sortie Generation—For theater refueling support, tanker aircraft typically recover to 
+the same airfield they departed from.  Air refueling capacity is determined by the amount of 
+fuel available from each tanker, and how many sorties each aircraft can generate in a given time 
+period.  Sustained sortie generation rates will be lower than surge rates or contingency support 
+rates.  Sustained sortie generation rates in a combat theater will be higher than home-station 
+sustained mission generation rates.  As a rule, rounding off numbers will make calculations 
+either more or less conservative, depending on the formula.  Tanker planners typically round 
+requirements up, and capacity down, producing a more conservative number.  Either approach 
+is acceptable, as long as planners understand all assumptions applied to planning calculations. 
+Tanker Sorties Required—This is the estimated total number of sorties required to meet 
+receiver requirements.  Tanker sorties required may be estimated by taking total requested 
+offload divided by the Average Deliverable Offload per tanker.  This accounts for the Expected 
+Plan Efficiency.  This model is based on meeting or exceeding receiver requirements to provide 
+mission effective refueling.  Excess airborne fuel provides additional flexibility during 
+execution. 
+True Air Speed—Average true airspeed of receiver leg (Aircraft Block Speeds or applicable 
+flight manual airspeeds for other aircraft.) 
+Task Rate—This is the ratio of the flying contract to the maximum number of sorties that can 
+be generated at 100%, using average sortie duration and average ground time.  Task rates 
+higher than Mission Capability may result in mission cancellations.  Task rates significantly 
+below Mission Capability Rate indicate excess capacity and low mission effectiveness of the 
+overall fleet. 
+Time to arrival—The time required for cargo/passengers to arrive at the offload location 
+including all en route ground times. 
+Total Fuel—Total fuel on board an individual aircraft at takeoff.  This accounts for fuel in 
+external tanks for appropriately configured aircraft. 
+34 
+ 
+  AFPAM10-1403  24 OCTOBER 2018 
+ 
+Transit Time—Total time either between takeoff and landing airfields, or from the departure 
+airfield to a holding location and back.  This must be based on actual route-of-flight distance, 
+and not direct linear distance between locations.  Airspace restrictions and Air Traffic Control 
+routing will impact this number. 
+Turn Lines—The number of missions that planners expect to launch, recover, and fly a second 
+sortie within the given plan period.  This number should be at or below the number of Front 
+Lines.  Turn line percentages are intended to balance mission capacity with maintenance 
+reliability.  Not all operating units and operating locations can support Turn Lines.  For 
+example, locations with daylight only operations would most likely only be able to fly one 
+mission per aircraft per day.  In addition, receiver requirements may not be structured to 
+facilitate turn sorties.  Receiver demand must be considered when determining whether or not 
+to plan for Turn Lines as part of a unit contract. 
+Use-Rate—The capability of a subset of Primary Mission Aircraft Inventory aircraft to 
+generate flying hours expressed in average flying hours per aircraft per day.  Use-rate is 
+computed only for those aircraft applied to a specific mission.  For example, consider an 
+operation using 2 C-17 aircraft.  If one aircraft flies 10 hours while the other is in maintenance, 
+then one aircraft has 10 hours of use-rate and the other has 0 hours of use-rate.  Collectively, 
+these two aircraft generate 5.0 hrs/day of use-rate. 
+Utilization Rate—The capability of a fleet of aircraft to generate flying hours in a day, 
+expressed in terms of per Primary Authorized Inventory.  Applies only to long-term, large scale 
+operations such as Operational Plans.  For small operations involving less than the entire fleet, 
+utilization rate is not normally a factor. 
+Wartime Objective “Surge” utilization rate—A command established flying hour goal for 
+planning and programming to meet JCS directed wartime objectives in the first 45 days of the 
+most demanding wartime operations.  AMC sets this rate as a target for planning and 
+programming aircrews, maintenance, and aerial port manpower, active and reserve force mixes, 
+and spare parts.  This early 45-day surge period assumes the deferral of scheduled maintenance, 
+support people working overtime, and the full mobilization of both active and reserve forces 
+with fully funded and fully stocked spares in supply. 
+Wartime Objective “Sustained” utilization rate—Sustained utilization rate represent another 
+command goal for planning purposes.  After a 45-day surge operation in wartime, the 
+immediate demand for airlift decreases somewhat and a greater percentage of needed 
+equipment arrives by sealift/surface.  AMC plans to fly at a lower operational tempo known as 
+a sustained utilization rate.  This reduced rate is based upon normal duty days, 100% active and 
+reserve participation, and the accomplishment of maintenance activities deferred in the surge 
+period. 
+Working Maximum on Ground—The maximum number of aircraft at a given location that 
+can be simultaneously quick-turned within the standards published here in AFPAM10-1403.  
+wMOG is the most restrictive of  apMOG, fMOG, mxMOG, opMOG, and pMOG. 
+ 
+apMOG – The most restrictive of Passenger MOG, Fleet Service MOG, and Cargo MOG. 
+ 
+ 
+paxMOG – The number of high-reach/wide-body aircraft that can be serviced 
+simultaneously with Passenger Service based upon complete download and upload 
+ 
+  AFPAM10-1403  24 OCTOBER 2018 
+35 
+ 
+requirements.  The figure is based on 24-hour sustained capability, high-reach/wide-body 
+quick-turn ground times. 
+ 
+ 
+fsMOG – The number of aircraft that can be serviced simultaneously with Fleet 
+Service.  The figure is based on 24-hour sustained capability. 
+ 
+ 
+cMOG – The number of high-reach/wide-body aircraft that can be serviced 
+simultaneously with Cargo Loading Operations based upon complete cargo download and 
+upload requirements.  The figure is based on 24-hour sustained capability, high-reach/wide-
+body quick-turn ground times. 
+ 
+fMOG – The number of aircraft that can be simultaneously refueled given use of fuel 
+hydrants, and/or fuel trucks, manpower to operate them and capacity of the system. 
+ 
+mxMOG – The number of aircraft that can be simultaneously ground handled for 
+standard maintenance items during a Quick Turn/Remain Over Night).  Standard maintenance 
+items include:  launch/recovery, servicing, inspections, debrief, minor maintenance and forms 
+management (requires 3 qualified aircraft maintenance personnel per transient aircraft). 
+ 
+opMOG – The maximum number of aircraft operating under or supporting US missions 
+permitted at a location by host nation restrictions, restricted by dip clearances, Aircraft Rescue 
+and Fire Fighting, slot times, Air Traffic Control restrictions, or other items not directly related 
+to the airfield infrastructure or aircraft servicing capability. 
+ 
+pMOG – The physical parking spaces available for Department of Defense airlift aircraft 
+and/or contract carriers.  It should not exceed the number of spots identified on the most current 
+parking plan and may be limited by factors such as Host Nation Agreement, Hazardous Parking 
+spots available or other infrastructure limitations.  It should be expressed in two exclusive 
+numbers—wide-body (C-17 equivalent) MOG and narrow-body (C-130 equivalent) MOG.  
+Airfield managers may identify a “contingency” pMOG (number of aircraft that could be 
+parked on the airfield in the event of contingency operations).  A contingency pMOG will 
+always equal or exceed the standard pMOG. 

@@ -1,0 +1,706 @@
+BY ORDER OF THE  
+SECRETARY OF THE AIR FORCE 
+ 
+DEPARTMENT OF THE AIR FORCE 
+INSTRUCTION 17-220 
+8 JUNE 2021 
+Cyberspace Operations 
+SPECTRUM MANAGEMENT 
+COMPLIANCE WITH THIS PUBLICATION IS MANDATORY 
+ 
+ACCESSIBILITY:  Publications and forms are available on the e-Publishing website at www.e-
+Publishing.af.mil for downloading or ordering. 
+RELEASABILITY:  There are no releasability restrictions on this publication. 
+ 
+ 
+OPR: AF/A2/6CO 
+ 
+Supersedes: 
+AFI 17-220, 16 March 2017 
+Certified by: AF/A2/6C  
+(Brig Gen Eric DeLange) 
+Pages: 17 
+ 
+ 
+This publication implements Department of the Air Force Policy Directive 17-2, Cyber Warfare 
+Operations and is consistent with the guidance established with National Telecommunications and 
+Information Administration (NTIA), Manual of Regulations and Procedures for Federal Radio 
+Frequency Management (also known as “Redbook”) and the Joint Staff J6 Military Command, 
+Control, Communications, and Computers Executive Board (MC4EB) Frequency Panel.  It 
+identifies various levels of responsibilities for Department of the Air Force spectrum management 
+and use of the electromagnetic spectrum.  This publication applies to all civilian employees and 
+uniformed members of Regular Air Force, the Air Force Reserve, the Air National Guard, the 
+United States Space Force, those who are contractually obligated to comply with Department of 
+the Air Force publications, and the Civil Air Patrol when conducting missions as the official Air 
+Force Auxiliary.  Ensure all records generated as a result of processes prescribed in this publication 
+adhere to Air Force Instruction (AFI) 33-322, Records Management and Information Governance 
+Program, and are disposed in accordance with the Air Force Records Disposition Schedule which 
+is located in the Air Force Records Information Management System.  Refer recommended 
+changes and questions about this publication to the office of primary responsibility using the Air 
+Force Form 847, Recommendation for Change of Publication; route Air Force Forms 847 from 
+the field through the appropriate functional chain of command.  This publication may be 
+supplemented at any level, but all supplements must be routed to the office of primary 
+responsibility of this publication for coordination prior to certification and approval.  The 
+authorities to waive wing unit-level requirements in this publication are identified with a tier (“T-
+0, T-1, T-2, T-3”) number following the compliance statement.  See Department of the Air Force 
+Instruction 33-360, Publications and Forms Management, for a description of the authorities 
+2 
+DAFI17-220  8 JUNE 2021 
+associated with the tier numbers.  Submit requests for waivers through the chain of command to 
+the appropriate tier waiver approval authority, or alternately, to the requestor’s commander for 
+non-tiered compliance items.  The use of the name or mark of any specific manufacturer, 
+commercial product, commodity, or service does not imply endorsement by the Department of the 
+Air Force.  Compliance with the attachment in this publication is not mandatory. 
+SUMMARY OF CHANGES 
+This publication has been substantially revised and needs be completely reviewed.  Significant 
+reductions have been made and several chapters and process-oriented areas eliminated.  Guidance 
+for those chapters is available in other publications (e.g., NTIA Manual, Department of Defense 
+Instructions (DoDI), Department of Defense Directives, and Allied Communications Publications 
+(ACP)). 
+1.  OVERVIEW. 
+1.1.  The electromagnetic spectrum is the range of frequencies of electromagnetic radiation 
+extending from zero to infinity, measured in hertz (cycles per second).  The radio frequency 
+spectrum is the group of frequency sub-bands within the allocated electromagnetic spectrum 
+associated with radio wave propagation between 9 kilohertz and 275 gigahertz.  This 
+instruction provides for the Department of the Air Force’s responsibilities in the conduct of 
+peacetime electromagnetic spectrum management. 
+1.2.  International law, domestic law, and implementing regulations require effective 
+management and use of the electromagnetic spectrum.  Within the United States, the 
+electromagnetic spectrum is allocated between federal and non-federal users with portions of 
+the spectrum being shared as noted in the NTIA Manual national table of allocations.  The 
+Department of Commerce’s NTIA Manual regulates federal operations and the Federal 
+Communications Commission regulates non-federal operations.  Federal users must utilize 
+frequency bands allocated for government or shared use in accordance with NTIA Manual.  
+(T-0)  A government frequency assignment is authorized in a non-government allocated 
+frequency band, providing the Federal Communications Commission approves the request. 
+1.3.  Sovereign nations exercise control over the use of the electromagnetic spectrum within 
+their own territory.  This basic consideration of international spectrum management becomes 
+extremely important when United States military forces operate abroad.  In nearly all 
+circumstances, it is necessary to obtain host nation approval to conduct electromagnetic 
+spectrum operations before United States military forces operate any spectrum-dependent 
+system in a foreign nation.  Misuse of spectrum resources or unauthorized electromagnetic 
+spectrum use within a host nation may be a violation of international treaties, international law, 
+or national laws and regulations. Seek assistance from the servicing staff judge advocate with 
+understanding international treaties, regulations, and host nation laws, where applicable. 
+ 
+ 
+DAFI17-220  8 JUNE 2021 
+3 
+2.  ROLES AND RESPONSIBILITIES. 
+2.1.  Department of the Air Force Spectrum Operations. 
+2.1.1.  Deputy Chief of Staff, Intelligence, Surveillance, Reconnaissance, and Cyber 
+Effects Operations (AF/A2/6).  In accordance with the Department of the Air Force Policy 
+Directive 17-2, AF/A2/6 provides policy, guidance, resource advocacy and oversight for 
+Air Force electromagnetic spectrum management in support of the Department of the Air 
+Force mission and retains responsibility for policy, as well as oversight of lead command 
+implementation of DoDI 4650.01 and DoDI 8320.05. 
+2.1.2.  Director, 
+Cyberspace 
+Operations 
+and 
+Warfighter 
+Communications 
+(AF/A2/6C).  AF/A2/6C is responsible for integrating cyberspace warfare capabilities into 
+the joint mission and provides oversight and control for electromagnetic spectrum 
+management in support of the Department of the Air Force mission. 
+2.1.3.  Chief, 
+Department 
+of 
+the 
+Air 
+Force 
+Spectrum 
+Management 
+(AF/A2/6CO).  AF/A2/6CO represents the United States Air Force and United States 
+Space Force electromagnetic spectrum use at the national and international levels.  
+Processes Department of the Air Force spectrum supportability and frequency assignment 
+requests through the NTIA for use within the United States and its possessions.  The 
+AF/A2/6CO represents the United States Space Force, as a service, at the MC4EB 
+Frequency Panel until the United States Space Force has established its spectrum offices.  
+AF/A2/6CO will: 
+2.1.3.1.  Implement national, international, and joint staff electromagnetic spectrum 
+management policy in accordance with the NTIA Manual; International 
+Telecommunication Union, Radio Regulations (ITU RR),  DoD, Joint Staff, and 
+MC4EB publications.  (T-0) 
+2.1.3.2.  Evaluate Department of the Air Force plans for needed electromagnetic 
+support per DoDI 4650.01, Policy and Procedures for Management and Use of the 
+Electromagnetic Spectrum.  (T-0) 
+2.1.3.3.  Represent and defend Department of the Air Force electromagnetic technical 
+interests in national-level committees, groups, and organizations that address 
+electromagnetic spectrum management matters in accordance with DoDI 4650.01.  (T-
+0) 
+2.1.3.4.  Negotiates at the departmental and national levels to obtain spectrum 
+certification, host nation coordination through combatant commands, frequency 
+assignments, electromagnetic attack training authorizations.  Participates, as an invited 
+member, of the US delegation led by the State Department and NTIA for Satellite 
+Bilateral coordination and the World Radiocommunication Conference for the 
+International Telecommunication Union (ITU) radio regulation changes.  Obtains ITU 
+satellite registration to satisfy the Department of the Air Force’s orbital slots and radio 
+frequency requirements for use in the electromagnetic spectrum in accordance with the 
+NTIA Manual and ITU RR.  (T-0) 
+4 
+DAFI17-220  8 JUNE 2021 
+2.1.3.5.  Provide spectrum guidance to Department of the Air Force sponsored 
+Department of Defense area frequency coordinators in accordance with ACP 190 US 
+SUPP-1(D), Guide to Frequency Planning.  (T-0) 
+2.1.3.6.  Assist in resolution of interference problems involving the Department of the 
+Air Force’s assigned frequencies, per AFI 17-221, Spectrum Interference Resolution 
+Program. 
+2.1.3.7.  Provide guidance through appropriate command channels on electromagnetic 
+spectrum to developers and users of all Department of the Air Force systems that 
+require electromagnetic spectrum access or whose performance is influenced by radio 
+frequency energy.  This includes communications and information systems, 
+electromagnetic warfare operations, test and training, intelligence and weapons 
+systems, commercial-off-the-shelf equipment, and any other spectrum-dependent 
+systems that rely on the electromagnetic spectrum. 
+2.1.3.8.  Assist major and field commands, as requested, to conduct staff assistance 
+visits to ensure subordinate units are meeting compliance with national procedures and 
+policy for federal spectrum management. 
+2.1.3.9.  Evaluate and determine the impact of spectrum-dependent systems on current 
+or planned operational use of the electromagnetic spectrum. 
+2.1.3.10.  Provide assistance to Department of the Air Force activities requiring Joint 
+Spectrum Center services like electromagnetic environmental effects engineering and 
+interference resolution. 
+2.1.3.11.  Provide curriculum input and support to the formal technical spectrum 
+courses when requested by the Joint Staff, representing combatant commands to the 
+Air Force Career Functional Manager. 
+2.1.3.12.  In accordance with the Department of the Air Force's role as the Combatant 
+Command Support Agent, within the United States and its possessions, provide 
+spectrum management support to the following:  United States Transportation 
+Command, United States Strategic Command, United States Cyber Command, United 
+States Central Command, United States Northern Command, and United States Special 
+Operations Command IAW Department of Defense Directive 5100.03, Support of the 
+Headquarters of Combatant and Subordinate Unified Command, and ACP 190 US 
+SUPP-1(D).  (T-0) 
+2.1.3.13.  Develop, coordinate and publish a Department of the Air Force Management 
+Internal Control Toolkit checklist in accordance with AFI 90-201, The Air Force 
+Inspection System, and respond to comments related to this Department of the Air Force 
+Instruction as required. 
+2.1.3.14.  Conduct an annual spectrum operations workshop, within funding 
+constraints, open to all levels of Department of the Air Force spectrum operations. 
+2.1.3.15.  Review each spectrum supportability risk assessment ensuring each required 
+assessment component has been accurately completed and presented in accordance 
+with DoDI 4650.01.  (T-0) 
+ 
+DAFI17-220  8 JUNE 2021 
+5 
+2.1.4.  Major and Field Command Spectrum Operations Manager.  The manager will: 
+2.1.4.1.  Carry out Air Force policy, practices, and procedures for managing the use of 
+the electromagnetic spectrum.  (T-1) 
+2.1.4.2.  Ensure compliance with the NTIA frequency assignment review program as 
+required by NTIA Manual, Annex F.  (T-0) 
+2.1.4.3.  Incorporate wartime and contingency electromagnetic spectrum management 
+procedures into the appropriate operational or contingency plan appendices. 
+2.1.4.4.  Provide electromagnetic spectrum guidance to the commands’ acquisition, 
+logistics, intelligence, operations, and communications planning staffs.  (T-1) 
+2.1.4.5.  Manage electromagnetic spectrum use in the concept, planning, deployment, 
+operation, and evaluation phases of commands’ supported exercises and operations.  
+(T-1) 
+2.1.4.6.  Process and obtain frequency assignments, spectrum certifications, and 
+International Telecommunication Union satellite registration for spectrum-dependent 
+systems in support of operational requirements in accordance with NTIA Manual and 
+DoDI 4650.01.  (T-0) 
+2.1.4.7.  Provide guidance on the use of the electromagnetic spectrum early in the 
+concept, exploration, demonstration, and validation phases of the acquisition process. 
+2.1.4.8.  Ensure coordination with the appropriate agencies (i.e., Department of 
+Defense area frequency coordinators) is accomplished prior to frequency assignment 
+in accordance with NTIA Manual and ACP 190 US SUPP-1(D).  (T-0) 
+2.1.4.9.  Review the subordinate unit electromagnetic spectrum management programs. 
+2.1.4.10.  Assist organizations to ensure there is no degradation of friendly systems or 
+operations during command, control, and communications electromagnetic attack 
+training activities. 
+2.1.4.11.  Ensure subordinates have spectrum processes in place to provide operational 
+support and guidance to users. 
+2.1.4.12.  Provide subordinate spectrum operations personnel with necessary training 
+and guidance required to perform their assigned spectrum duties. 
+2.1.4.13.  Ensure subordinate spectrum operations technicians have current 
+SPECTRUM XXI data. 
+2.1.4.14.  Provide assistance to major or field command’s Inspector General’s 
+inspecting subordinate organizations to ensure critical compliance items are identified 
+and complied with when accomplishing self-inspections and compliance inspections in 
+accordance with AFI 90-201. 
+2.1.4.15.  Ensure all spectrum-dependent systems employed during sponsored 
+exercises to include foreign military equipment, have approved frequency assignments 
+from an appropriate authority in accordance with the NTIA Manual and ACP 190 US 
+SUPP-1(D).  (T-0) 
+6 
+DAFI17-220  8 JUNE 2021 
+2.1.4.16.  Compile all components of the Federal Aviation Administration exercise 
+package 150 days before exercise start date with foreign platform participation, in 
+accordance with Federal Aviation Administration, Interim Guide for Coordinating 
+Identification, Friend or Foe (IFF) Missions.  (T-0)  Exercise packages include:  
+frequency proposals; participants and platforms; spectrum certifications and/or 
+identification friend or foe; interrogator certification or letter of recommendation; area 
+of responsibilities; and exercise flight schedule. 
+2.1.4.17.  Contact appropriate combatant command for theater specific lead-time 
+criteria. 
+2.1.4.18.  Provide AF/A2/6CO with a schedule of planned exercises within United 
+States and its possessions annually to include dates, times and locations of related 
+planning conferences. 
+2.1.4.19.  Provide quality control and updates to frequency records in the Frequency 
+Resource Record System. 
+2.1.4.20.  Assist in the reporting and resolution of interference events involving 
+assigned frequencies in accordance with AFI 17-221. 
+2.1.4.21.  Review each subordinate unit’s spectrum supportability risk assessment 
+submissions ensuring each required assessment component has been properly and 
+accurately completed and presented in accordance with DoDI 4650.01.  (T-0) 
+2.1.4.22.  Provide administrative support to the Department of the Air Force’s 
+Department of Defense area frequency coordinator in accordance with ACP 190 US 
+SUPP-1(D).  (T-0) 
+2.1.4.23.  Be actively involved in communications and information planning and assist 
+in coordinating and obtaining frequency support to meet the commands’ mission. 
+2.1.5.  Numbered Air Force Spectrum Operations Manager.  The manager will carry out 
+Department of the Air Force policy, practices, and procedures for managing use of the 
+electromagnetic spectrum.  (T-2)  Numbered Air Force Spectrum Operations Manager will: 
+2.1.5.1.  Participate in communications and information planning, assist in 
+coordinating, and obtaining frequency support to meet the major command, air 
+component, and/or combatant command missions. 
+2.1.5.2.  Provide major command spectrum supportability guidance to the planning 
+staff functions that includes the Department of the Air Force spectrum certification and 
+radio frequency assignment processes and requirements. 
+2.1.5.3.  Evaluate and coordinate spectrum use during the concept, planning, 
+deployment, operation, and evaluation phases of exercises and operations. 
+2.1.5.4.  Obtain frequency assignments and spectrum certifications for spectrum-
+dependent systems in accordance with the NTIA Manual and DoDI 4650.01, in support 
+of installation infrastructures, exercises, contingencies, or wartime operational 
+requirements.  (T-0) 
+2.1.5.4.1.  Ensure all frequency requirements and allotment requests for operations 
+within the United States and its possessions are coordinated with the appropriate 
+DAFI17-220  8 JUNE 2021 
+7 
+Department of Defense area frequency coordinator, major command, and/or service 
+spectrum management office with jurisdiction in the proposed area of use.  (T-2) 
+2.1.5.4.2.  Ensure all frequency requirements and allotment requests for operations 
+outside the United States and its possessions are coordinated with the appropriate 
+combatant command Joint Frequency Management Office in accordance with 
+procedures outlined in Chairman of the Joint Chiefs of Staff Manual (CJCSM) 
+3320.01C, Joint Electromagnetic Spectrum Operations in the Electromagnetic 
+Operational Environment, and combatant command guidance.  (T-0) 
+2.1.5.5.  Maintain current editions of the frequency management publications. 
+2.1.5.6.  Maintain an accurate SPECTRUM XXI database of all frequency 
+assignments. 
+2.1.5.7.  Ensure frequency assignments are reviewed according to guidance provided 
+in the NTIA Manual, Annex F.  (T-0) 
+2.1.6.  Major and Field Command,  Subordinate Unit Commander.  A unit commander 
+assigned to the Department of the Air Force test and training ranges, groups, etc. will: 
+2.1.6.1.  Carry out Department of the Air Force policy, practices, and procedures for 
+managing the use of the electromagnetic spectrum within their area of responsibility.  
+(T-2) 
+2.1.6.2.  Assist organizations and users within their control regarding communications 
+and information planning, coordinating, and obtaining frequency support to meet the 
+mission. 
+2.1.6.3.  Ensure contingency electromagnetic spectrum management procedures are 
+placed in operational and contingency plans and appendices as appropriate. 
+2.1.6.4.  Provide electromagnetic spectrum guidance to users in acquisition, logistics, 
+intelligence, operations, and communications planning staffs.  (T-2) 
+2.1.6.5.  Manage electromagnetic spectrum use in the concept, planning, deployment, 
+operation, and evaluation phases, of supported exercises. 
+2.1.6.6.  Provide electromagnetic spectrum guidance to program managers early in the 
+conceptual, exploration, demonstration, and validation phases of the acquisition 
+process.  (T-3) 
+2.1.6.7.  Review and update frequency assignment records in accordance with guidance 
+found in NTIA Manual, Annex F.  (T-0) 
+2.1.7.  Host Installation Commander or Director.  The commander or director is 
+responsible for all electromagnetic radiation emanating from their installation and from 
+those outlying activities hosted by the installation in accordance with DoDI 4650.01.  (T-
+0)  Host installation commanders or directors will: 
+2.1.7.1.  Ensure a viable spectrum operations program for the site and areas under the 
+control of the host installation.  (T-2) 
+8 
+DAFI17-220  8 JUNE 2021 
+2.1.7.2.  Deconflict all spectrum-dependent systems to resolve potential interference to 
+mission essential electromagnetic equipment in accordance with NTIA Manual and 
+DoDI 4650.01.  (T-0) 
+2.1.7.3.  Appoint a full-time spectrum operations specialist (i.e., 3D1X4) to organize 
+and carry out the spectrum operations program and notify the parent command, 
+appropriate spectrum operations office and the Department of the Air Force Spectrum 
+Management Office.  (T-2)  Note:  Air National Guard and Air Force Reserve units 
+may identify a full-time member to serve and fulfill the installation spectrum manager 
+role.  The use of spectrum operations specialist personnel for Air National Guard and 
+Air Force Reserve Command units is at the Commander’s discretion.  Non-spectrum 
+operations specialist personnel must receive installation spectrum manager training 
+from the Headquarters Air National Guard or Headquarters Air Force Reserve 
+Command.  (T-2) 
+2.1.7.4.  Ensure hosted spectrum-dependent systems comply with the NTIA Manual 
+and MC4EB Frequency Panel spectrum policy and guidance.  (T-0) 
+2.1.7.5.  Ensure spectrum is considered as part of installation encroachment 
+considerations to identify potential mission sustainment hazards in accordance with 
+AFI 90-2001, Mission Sustainment. (T-3) 
+2.1.7.6.  Ensure appropriate real property procedures are in place and followed (e.g., 
+documentation, competition, fair market value) in order to execute a real estate 
+agreement in accordance with AFI 32-9003, Granting Temporary Use of Air Force 
+Real Property, to support deployment of wireless technologies along with other 
+wireless requirements in compliance with Public Law 104-104, Telecommunications 
+Act of 1996.  (T-0)  This includes compliance with the requirement that the installation 
+spectrum manager ensures that an electromagnetic compatibility site analysis is 
+performed and the proposed commercial spectrum-dependent system will not 
+negatively impact Department of the Air Force missions in accordance with the AFI 
+32-9003.  (T-0) 
+2.1.7.7.  Ensure compliance with the requirements of the Frequency Assignment 
+Review Program described in NTIA Manual, Annex F.  (T-0) 
+2.1.8.  Installation Communications Commander or Director.  The commander or director 
+will: 
+2.1.8.1.  Ensure the installation spectrum manager has, or is able to attain, the security 
+clearance as indicated on the unit manning document required to perform spectrum 
+operations duties.  (T-2) 
+2.1.8.2.  Ensure the installation spectrum manager has Secret Internet Protocol Router 
+Network access with SPECTRUM XXI and data exchange capability.  (T-3) 
+2.1.8.3.  Evaluate the complexity of the electromagnetic environment by conducting 
+threat assessments against mission needs using available spectrum analyzers.  (T-3) 
+2.1.8.4.  Publish an installation spectrum operations instruction and forward draft 
+copies to the parent command for review before publishing.  (T-2)  The local instruction 
+includes: 
+DAFI17-220  8 JUNE 2021 
+9 
+2.1.8.4.1.  Assessment of local purchase or government purchase card orders for 
+spectrum-dependent systems to determine spectrum supportability prior to the 
+obligation of funds; specifically, if the system is deployed outside the continental 
+United States in accordance with ACP 190 US SUPP-1(D), Chapter 3.  (T-0) 
+2.1.8.4.2.  Review of memoranda of understandings or memoranda of agreements 
+that pertain to the use of spectrum-dependent systems.  (T-3) 
+2.1.9.  Installation and Garrison Spectrum Manager.  The spectrum manager is responsible 
+to the installation commander, through their chain of command, for managing all spectrum 
+use on the sites and areas under the control of the installation commander.  The spectrum 
+manager will: 
+2.1.9.1.  Ensure using organizations understand the technical parameters and any 
+imposed operational restrictions of their assigned frequencies.  (T-3) 
+2.1.9.2.  Maintain current frequency management records of all frequencies assigned 
+to the sites and areas hosted by the installation and provide using organizations with a 
+spectrum authorization (license) for their records.  (T-3) 
+2.1.9.3.  Meet with all using organizations annually to conduct customer education and 
+discuss current spectrum operations issues.  (T-3) 
+2.1.9.4.  Process frequency proposals and applications for equipment spectrum 
+certification using the End-to-End Supportability System and SPECTRUM XXI 
+respectively, and ensure submissions are processed through the appropriate command 
+channels.  (T-2) 
+2.1.9.5.  Provide spectrum operations assistance and guidance to tenant activities.  (T-
+3) 
+2.1.9.6.  Support local exercise coordination requirements.  (T-3) 
+2.1.9.7.  Review operational plans and requirement documents, and obtain frequency 
+support through command channels.  (T-3) 
+2.1.9.8.  Assist deployable units with identifying spectrum requirements for exercises 
+and contingencies.  (T-3) 
+2.1.9.9.  Review and validate using organizations frequency assignment requirements, 
+validate existing frequency assignment parameters, and submit modifications, renewal, 
+or deletion actions through command channels in accordance with the NTIA Manual, 
+Annex F.  (T-0) 
+2.1.9.10.  Update frequency records in the Frequency Resource Record System.  (T-3) 
+2.1.9.11.  Maintain a current point of contact list for using activities.  (T-3)  Contact 
+list includes:  name, unit, e-mail address, and phone number.  (T-3) 
+2.1.9.12.  Ensure contractor activities using the Department of the Air Force’s 
+frequency assignments follow federal and MC4EB Pub 7, Frequency Resource Record 
+System (FRRS) Standard Frequency Action Format (SFAF), for electromagnetic 
+spectrum policies and guidelines.  (T-0) 
+10 
+DAFI17-220  8 JUNE 2021 
+2.1.9.13.  Educate spectrum users on the importance of obtaining spectrum 
+supportability guidance and validation prior to entering into a contractual obligation 
+for all spectrum-dependent systems in accordance with the NTIA Manual and DoDI 
+4650.01.  (T-0) 
+2.1.9.14.  Perform emitter surveys, based on resource availability, as required with 
+assistance from the parent command to ensure spectrum-dependent systems are 
+operated in accordance with frequency licenses.  (T-3) 
+2.1.9.15.  Coordinate new and renewal requirements with appropriate Department of 
+Defense area frequency coordinator in accordance with NTIA Manual and ACP 190 
+US SUPP-1(D).  (T-0) 
+2.1.9.16.  Immediately notify appropriate Department of Defense area frequency 
+coordinator and command spectrum manager requesting interference resolution 
+assistance to initiate an investigation to locate and determine the offending source and 
+report the interference in accordance with AFI 17-221.  (T-1) 
+2.1.9.17.  Coordinate with the safety office and weapons safety officer to support the 
+hazard of electromagnetic radiation to ordnance program and provide frequency 
+assignment records for antenna locations in accordance with AFI 91-208, Hazards of 
+Electromagnetic Radiation to Ordnance (HERO) Certification and Management.  (T-
+1) 
+2.1.9.17.1.  Provide parametric data for spectrum-dependent systems.  (T-3) 
+2.1.9.17.2.  Coordinate spectrum-dependent system relocation or parametric data 
+changes with the user and safety office.  (T-3) 
+2.1.9.17.3.  Coordinate with the installation safety office to identify any hazard of 
+electromagnetic radiation to fuel and the bioenvironmental engineering flight to 
+support health hazard evaluations and inventory accuracy in accordance with AFI 
+48-109, 
+Electromagnetic 
+Field 
+Radiation 
+(EMFR) 
+Occupational 
+and 
+Environmental Health Program.  (T-1) 
+2.1.9.18.  Submit proposals for units through command spectrum channels.  (T-2) 
+2.1.9.19.  Submit proposals for tenant units supporting the host mission to the host’s 
+and tenant’s commands respectively.  (T-2) 
+2.1.9.20.  Submit proposals for tenant units not supporting the host mission to the 
+supported unit’s parent command with a copy to the host and tenant unit spectrum 
+commands.  (T-2)  See examples below: 
+2.1.9.20.1.  Submit frequency requirements for a Headquarters Air Combat 
+Command maintenance expediter net on a Headquarters Air Mobility Command 
+installation to Headquarters Air Combat Command with a copy to Headquarters 
+Air Mobility Command. 
+2.1.9.20.2.  Submit frequency requirements for a Headquarters Air Force Materiel 
+Command unit in support of Air Combat Command on an Air Mobility Command 
+installation to Headquarters Air Combat Command with a copy to Air Force 
+Materiel Command and Air Mobility Command. 
+DAFI17-220  8 JUNE 2021 
+11 
+2.1.9.21.  Ensure all electromagnetic attack events for test, training, and exercises are 
+processed in accordance with CJCSM 3212.02E, Performing Electronic Attack in the 
+United States and Canada for Tests, Training, and Exercises or CJCSM 3212.03A, 
+Performing Tests, Training, and Exercises Impacting the Global Positioning System 
+(GPS).  (T-0) 
+2.1.10.  Joint Base Spectrum Operations.  The lead service designates a spectrum manager 
+to provide spectrum support for the common functions.  The service spectrum manager 
+ensures the Joint Base Spectrum Manager is aware of their spectrum-dependent systems 
+within the boundaries of the Joint Base.  Service requirements are processed through 
+national command channels after approval from the Joint Base Spectrum Manager.  The 
+Department of the Air Force Joint Base Spectrum Manager will: 
+2.1.10.1.  Pre-coordinate all temporary and permanent frequency proposals with the 
+installation spectrum manager prior to submission to the national level for processing.  
+(T-2) 
+2.1.10.2.  Conduct 
+periodic 
+frequency 
+assignment 
+reviews 
+and 
+coordinate 
+modifications on joint frequency assignments prior to submission to the national level 
+in accordance with NTIA Manual, Annex F.  (T-0) 
+2.1.10.3.  Obtain spectrum certification for joint spectrum-dependent systems prior to 
+submitting any frequency proposal in accordance with the NTIA Manual, Chapter 10 
+and DoDI 4650.01.  (T-0) 
+2.2.  User Organization.  User organizations, to include but not limited to acquisition, program, 
+operational, test, and tenant units will: 
+2.2.1.  Obtain spectrum certification prior to purchasing a spectrum-dependent system or 
+entering into any contractual obligations for the use of spectrum-dependent devices in 
+accordance with the NTIA Manual, paragraph 10.1.2 and DoDI 4650.01.  (T-0) 
+2.2.2.  Obtain a frequency assignment through the installation spectrum manager prior to 
+operation of any spectrum-dependent devices that radiate radio frequency energy per NTIA 
+Manual, Chapter 8.  (T-0) 
+2.2.3.  Maintain a copy of frequency authorizations received from the installation spectrum 
+manager.  (T-3) 
+2.2.4.  Ensure spectrum-dependent system operations comply with authorized parameters 
+identified in the frequency assignment notification in accordance with NTIA Manual, 
+Chapter 8.  (T-0) 
+2.2.5.  Act promptly to notify the installation spectrum manager to report and assist in 
+resolving incidents of interference in accordance with AFI 17-221. (T-1) 
+2.2.6.  Use radiation-suppression devices when tuning, testing, or experimenting with any 
+equipment that emits radio frequency.  (T-3) 
+2.2.7.  Maintain and identify a point-of-contact to the installation spectrum manager for 
+unit frequency matters.  (T-3) 
+2.2.8.  Document and forward documentation for frequency assignment deletions to the 
+installation or garrison spectrum manager.  (T-3) 
+12 
+DAFI17-220  8 JUNE 2021 
+2.2.9.  Obtain approval from the installation spectrum manager before modifying any 
+existing spectrum-dependent systems or antennas (i.e., increase power, change antenna 
+height or gain), if outside of the assigned parameters of the frequency authorization in 
+accordance with the NTIA Manual, Chapter 10.  (T-0) 
+2.2.10.  Assist the installation spectrum manager in reviewing and verifying equipment 
+parameters during mandatory and periodic reviews, in accordance with NTIA Manual, 
+Annex F.  (T-0) 
+2.2.11.  Contact the installation spectrum manager for interpretation or guidance of any 
+national or military-level spectrum management policy.  (T-3) 
+2.2.12.  Process spectrum supportability risk assessments in accordance with DoDI 
+4650.01.  (T-0) 
+2.2.13.  Submit host nation coordination requests to the installation spectrum manager in 
+accordance with CJCSM 3320.01C.  (T-0) 
+2.2.14.  Obtain electromagnetic attack authorizations from the Department of the Air Force 
+Spectrum Management Office prior to test, training, or exercises in accordance with 
+CJCSM 3212.02E or CJCSM 3212.03A.  (T-0) 
+2.3.  The Department of Defense Area Frequency Coordinator.  The coordinator is responsible 
+for ensuring successful frequency coordination in the areas that lie within, are adjacent to, or 
+are within radio line-of-sight to any range spectrum-dependent system, including all systems 
+brought to a national test range or other designated complex in accordance with NTIA Manual, 
+Chapter 8.  (T-0)  The Joint Staff, MC4EB Frequency Panel provides spectrum policy and 
+guidance in accordance with DoDI 4650.01 and ACP 190 US SUPP-1(D). 
+3.  SPECTRUM SUPPORTABILITY ACTIONS. 
+3.1.  Spectrum Certification.  Spectrum certification is the statutory process whereby national 
+regulatory 
+bodies, 
+NTIA 
+and 
+Federal 
+Communications 
+Commission 
+review 
+telecommunications systems for compliance with national spectrum standards and determine 
+electromagnetic compatibility.  This applies to spectrum-dependent and commercial-off-the-
+shelf systems, unless specifically exempt, in accordance with the NTIA Manual, Chapter 10. 
+3.1.1.  Local purchases of spectrum-dependent systems will be reviewed by the installation 
+spectrum manager to evaluate spectrum supportability prior to the obligation of funds.  If 
+the system will be deployed outside the United States, DAF policy is that host nation 
+coordination is required in accordance with the DoDI 4650.01.  (T-0) 
+3.1.2.  The NTIA, Spectrum Planning Subcommittee, may approve out-of-band 
+requirements with an analysis and justification.  Out-of-band operations are operated on a 
+strict non-interference basis.  Program offices provide justification for non-compliant 
+systems in accordance with NTIA Manual, Chapter 10.  (T-0) 
+3.1.3.  To protect receive only systems (e.g. global/weather broadcast receivers) supporting 
+a critical operation, national level spectrum certification is required.  The certification 
+application should contain a narrative that describes the criticality of the operation at a 
+specified location.  Once spectrum certification is approved, an assignment request is 
+submitted to the NTIA to protect the receive frequency. 
+DAFI17-220  8 JUNE 2021 
+13 
+3.1.4.  Electromagnetic attack systems are exempt from the national spectrum certification 
+process and are supported through the Joint Staff, MC4EB, Equipment Supportability 
+Permanent Working Group.  Systems that are operated outside the United States and its 
+possessions are coordinated through the appropriate combatant command in accordance 
+with DoDI 4650.01.  (T-0) 
+3.2.  Spectrum Supportability Risk Assessment.  An assessment must be performed by the 
+Department of the Air Force acquisition programs and materiel developers to identify risk as 
+early as possible and affect design and procurement decisions for all spectrum-dependent 
+systems.  Review these risks at each milestone decision point as outlined in DoDI 4650.01.  
+(T-0) 
+3.2.1.  Department of the Air Force acquisition or materiel development programs, 
+including electromagnetic attack systems, will submit spectrum supportability risk 
+assessment at each milestone decision point in accordance with DoDI 4650.01.  (T-0) 
+3.2.2.  Quick response programs enter at Milestone C (production and deployment) and go 
+directly to initial operational test and evaluation in accordance with DoDI 4650.01.  (T-0) 
+3.2.3.  The program manager will insert the NTIA certification stage and number, and 
+approval date into the Information Technology Investment Portfolio System in accordance 
+with AFI 17-110, Information Technology Portfolio Management and Capital Planning 
+and Investment Control. 
+3.3.  Department of Defense Electromagnetic Compatibility Standards.  Military-Standard-
+464, Electromagnetic Environmental Effects (E3) Requirements for Systems, provides 
+important electromagnetic compatibility and electromagnetic environmental effects standards 
+for Department of Defense spectrum-dependent systems.  The Department of the Air Force 
+spectrum programs will adhere to Military-Standard-464 and DoDI 3222.03, DoD 
+Electromagnetic Environmental Effects (E3) Program.  (T-0) 
+ 
+MARY F. O’BRIEN, Lt Gen, USAF 
+Deputy Chief of Staff, Intelligence, Surveillance, 
+Reconnaissance and Cyber Effects Operations 
+14 
+DAFI17-220  8 JUNE 2021 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+Public Law 104-104, Telecommunications Act of 1996, 8 February 1996 
+DoDI 3222.03, DoD Electromagnetic Environmental Effects (E3) Program, 25 August 2014 
+DoDI 4650.01, Policy and Procedures for Management and Use of the Electromagnetic 
+Spectrum, 9 January 2009 
+DoDD 5100.03, Support of the Headquarters of Combatant and Subordinate Unified Commands, 
+9 February 2011 
+MIL-STD-464, Electromagnetic Environmental Effects (E3) Requirements for Systems, 25 
+August 2014 
+CJCSM 3212.02E, Performing Electronic Attack in the United States and Canada for Tests, 
+Training, and Exercises, 17 June 2019 
+CJCSM 3212.03A, Performing Tests, Training, and Exercises Impacting the Global Positioning 
+System (GPS), 8 November 2013 
+CJCSM 3320.01C, Joint Electromagnetic Spectrum Management Operations in the 
+Electromagnetic Operational Environment, 14 December 2012 
+JP 3-85, Joint Electromagnetic Spectrum Operations, 22 May 2020 
+DAFPD 17-2, Cyber Warfare Operations, 27 October 2020 
+AFI 17-110, Information Technology Portfolio Management and Capital Planning and 
+Investment Control, 23 May 2018 
+AFI 17-221, Spectrum Interference Resolution Program, 11 May 2018 
+AFI 32-9003, Granting Temporary Use of Air Force Real Property, 24 October 2018 
+AFI 33-322, Records Management and Information Governance Program, 23 March 2020 
+DAFI 33-360, Publications and Forms Management, 1 December 2015 
+AFI 48-109, Electromagnetic Field Radiation (EMFR) Occupational and Environmental Health 
+Program, 1 August 2014 
+AFI 90-201, The Air Force Inspection System, 20 November 2018 
+AFI 91-208, Hazards of Electromagnetic Radiation to Ordnance (HERO) Certification and 
+Management, 24 October 2019 
+AFI 90-2001, Mission Sustainment, 31 July 2019 
+International Telecommunication Union, Radio Regulations, Edition 2020 
+Manual of Regulations and Procedures for Federal Radio Frequency Management, National 
+Telecommunication and Information Administration, September 2017 
+ACP 190 US SUPP-1(D), Guide to Frequency Planning, January 2015 
+DAFI17-220  8 JUNE 2021 
+15 
+Federal Aviation Administration, Interim Guide for Coordinating Identification, Friend or Foe 
+(IFF) Missions, 30 November 2015 
+https://usaf.dps.mil/:b:/s/afspcafsmo/SpectrumSupportDirectorate/SQA/ET2Bly1CStpHiH
+C_K05UOYQBcgq5RBwMu3_qMVHUP3-lsQ?e=hZgvw2 
+Prescribed Forms 
+None 
+Adopted Forms 
+AF Form 847, Recommendation for Change of Publication 
+MC4EB Pub 7, Frequency Resource Record System (FRRS) Standard Frequency Action Format 
+(SFAF) 
+Abbreviations and Acronyms 
+ACP—Allied Communications Publication 
+AFI—Air Force Instruction 
+CJCSM—Chairman of the Joint Chiefs of Staff Manual 
+DoDI—Department of Defense Instruction 
+E3—Electromagnetic Environmental Effects 
+ITU RR—International Telecommunication Union Radio Regulation 
+JP—Joint Publication 
+MC4EB—Military Command, Control, Communications, and Computers Executive Board 
+NTIA—National Telecommunications and Information Administration 
+Terms 
+Allotment (of a radio frequency or radio frequency channel)—Entry of a designated frequency 
+channel in an agreed plan, adopted by a component conference, for use by one or more 
+administrations for a (terrestrial or space) radio communication service in one or more identified 
+countries or geographical areas and under specified conditions.  Source:  ITU RR. 
+Assignment (of a radio frequency or radio frequency channel)—Authorization given by an 
+administration for a radio station to use a radio frequency or radio frequency channel under 
+specified conditions.  Source:  ITU RR. 
+Commercial—off-the-Shelf—Spectrum-dependent systems that can be procured by the general 
+public wholesale or retail.  Source:  National Institute of Standards and Technology. 
+Electromagnetic Attack—Division of electromagnetic warfare involving the use of 
+electromagnetic energy, directed energy, or anti-radiation weapons to attack personnel, facilities, 
+or equipment with the intent of degrading, neutralizing, or destroying enemy combat capability 
+and is considered a form of fires.  Source:  JP 3-85. 
+16 
+DAFI17-220  8 JUNE 2021 
+Electromagnetic Compatibility—(1) The condition that prevails when telecommunications 
+equipment is performing its individually designed function in a common electromagnetic without 
+causing or suffering unacceptable degradation due to unintentional electromagnetic interference 
+to or from other equipment in the same environment.  Source:  NTIA.  (2)  The ability of systems, 
+equipment, and devices that use the electromagnetic spectrum to operate in their intended 
+environments without causing or suffering unacceptable or unintentional degradation because of 
+electromagnetic radiation or response.  Source:  JP 3-85 
+Electromagnetic Environmental Effects (E3)—The impact of the electromagnetic operational 
+environment upon the operational capability of military forces, equipment, systems, and platforms.  
+E3 encompasses the electromagnetic effects addressed by the disciplines of electromagnetic 
+compatibility, electromagnetic interference, electromagnetic vulnerability, electromagnetic pulse, 
+electromagnetic protection, electrostatic discharge, and electromagnetic radiation hazards to 
+personnel, ordnance, and fuels and volatile materials.  E3 includes the affects generated by all 
+electromagnetic environment contributors including radio frequency systems, ultra-wideband 
+devices, high-powered microwave systems, lightning, and precipitation static.  Source:  DoDI 
+3222.03. 
+Electromagnetic Spectrum Management—The operational, engineering, and administrative 
+procedures to plan, and coordinate operations within the electromagnetic operational environment.  
+Source:  JP 3-85. 
+Electromagnetic Spectrum Operations—Coordinated military actions to exploit, attack, protect, 
+and manage the electromagnetic environment.  Source:  JP 3-85. 
+Electromagnetic Warfare—Military action involving the use of the electromagnetic and directed 
+energy to control the electromagnetic spectrum or to attack the enemy.  Source:  JP 3-85. 
+Frequency Assignment—see Assignment (of a radio frequency or radio frequency channel).  
+Source:  ITU RR. 
+Frequency Coordination—(1) The process of obtaining approval to use the radio frequency 
+spectrum via arrangements and technical liaison for the purpose of minimizing harmful 
+interference through cooperative use of the radio frequency spectrum.  Source:  NTIA.  (2) Rules 
+and mechanisms that control how to use the electromagnetic spectrum in specified dimensions 
+(i.e., spatial, time, frequency, power, waveform.  Source:  JP 3-85.  To be effective, the 
+coordination must extend through the planning, proposal, and actual in use phases of radio 
+frequency utilization. 
+Interference—(1) The effect of unwanted energy due to one or a combination of emissions, 
+radiations, or inductions upon reception in a radio communication system, manifested by any 
+performance degradation, misinterpretation, or loss of information that could be extracted in the 
+absence of such unwanted energy.  Source:  ITU RR.  (2) Any electromagnetic disturbance, 
+induced intentionally or unintentionally, that interrupts, obstructs, or otherwise degrades or limits 
+the effective performance of electromagnetic spectrum-dependent systems and electrical 
+equipment. Also referred to as electromagnetic interference.  Source:  JP 3-85. 
+Radio Frequency Spectrum—The radio frequency spectrum includes the frequencies from 3.0 
+kilohertz to 400 gigahertz.  The presently allocated spectrum is from 9 kilohertz to 275 gigahertz.  
+Also called electromagnetic spectrum.  Source:  NTIA. 
+DAFI17-220  8 JUNE 2021 
+17 
+Spectrum Supportability Risk Assessment—An assessment performed by Department of the 
+Defense for all spectrum-dependent systems to identify risk as early as possible and affect design 
+and procurement decisions.  These risks are reviewed at acquisition milestones and managed 
+throughout the system’s life cycle.  Source:  DoDI 4650.01. 
+National Table of Allocations—Entry in the federal table of frequency allocations of a given 
+frequency band for its use by one or more (terrestrial or space) radio communication services or 
+the radio astronomy service under specified conditions.  This term also applies to the frequency 
+band concerned.  Source:  NTIA. 
+Telecommunication—Any transmission, emission, or reception of signs, signals, writings, 
+images, and sounds or information of any nature by wire, radio, visual or other electromagnetic 
+systems.  Source:  ITA RR. 
+United States and its Possessions—Includes the 50 States, District of Columbia, the 
+Commonwealth of Puerto Rico, and the territories and possessions (but less the Canal Zone) 
+Source:  NTIA. 
+ 

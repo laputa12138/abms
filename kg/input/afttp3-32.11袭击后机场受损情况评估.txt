@@ -1,0 +1,1691 @@
+BY ORDER OF THE  
+AIR FORCE TACTICS, TECHNIQUES, 
+SECRETARY OF THE AIR FORCE 
+AND PROCEDURES 3-32.11 
+18 MAY 2022 
+Tactical Doctrine 
+AIRFIELD DAMAGE ASSESSMENT AFTER ATTACK 
+ACCESSIBILITY:  Publications and forms are available on the e-Publishing web site at 
+www.e-Publishing.af.mil for downloading or ordering. 
+RELEASABILITY: There are no releasability restrictions on this publication. 
+OPR: AF/A4CXB 
+Certified by: AF/A4CX 
+Supersedes:  AFTTP 3-32.11, 1 February 2016 
+ Pages: 52 
+PURPOSE: This publication supports Air Force Instruction (AFI) 10-209, RED HORSE 
+Program, AFI 10-210, Prime Base Engineer Emergency Force (BEEF) Program, Air Force 
+Pamphlet (AFPAM) 10-219, Volume 4, Airfield Damage Repair Operations, and Air Force 
+Doctrine Publication (AFDP) 3-34, Engineer Operations. To provide tactics, techniques and 
+procedures (TTP) to accurately and expeditiously assess airfield damage immediately after an 
+attack. Ensure all records generated as a result of processes prescribed in this publication adhere 
+to Air Force Instruction 33-322, Records Management and Information Governance Program and 
+are disposed in accordance with the Air Force Records Disposition Schedule which is located in 
+the Air Force Records information Management System. Refer recommended changes and 
+questions about this publication to the Office of Primary Responsibility (OPR) using the AF Form 
+847, Recommendation for Change of Publication; route AF Forms 847 from the field through the 
+appropriate functional chain of command. The use of the name or mark of any specific 
+manufacturer, commercial product, commodity, or service in this publication does not imply 
+endorsement by the Air Force. 
+APPLICATION: This publication applies to all Regular Air Force (Reg AF), Air National Guard 
+(ANG), and Air Force Reserve (AFR) Civil Engineer personnel performing airfield damage 
+assessment after an attack. This document is authoritative but not directive. The airfield damage 
+assessment TTPs found in this publication take precedence over those found in other nondirective 
+publications. The applicable AFI will take precedence in cases where this publication and AFIs 
+conflict. Units may supplement this publication as required, but must be coordinated through the 
+AF Civil Engineer Readiness Division (AF/A4CX), prior to publication. 
+SCOPE: This publication provides guidance for assessing damage on an airfield after attack. It 
+describes team organization and composition, equipment requirements, assessment techniques, 
+and damage recording and reporting procedures. 
+SUMMARY OF CHANGES: Added procedures for using the Rapid Airfield Damage Assessment 
+System (RADAS) and divided the publication into Part 1, Legacy Airfield Damage Assessment, 
+and Part 2, Rapid Airfield Damage Assessment System. Updated paragraph 3.2.2.2.1.8, to better 
+(Col Thomas Bongiovi)
+AFTTP3-32.11  18 MAY 2022 
+2 
+define crater fields. Updated paragraph 4.2.1 to clarify entering damage type in damage recording 
+form. 
+PART 1—LEGACY AIRFIELD DAMAGE ASSESSMENT. .................................................... 4 
+Chapter 1—INTRODUCTION .................................................................................................. 4 
+1.1. Overview ............................................................................................................................. 4 
+1.2. General Information ............................................................................................................ 4 
+Chapter 2—RESOURCES .......................................................................................................... 6 
+2.1. Team Composition .............................................................................................................. 6 
+2.2. Equipment ............................................................................................................................ 6 
+Table 2.1. Basic ADAT Engineering Items ................................................................................... 6 
+2.3. Pavement Reference Marking System (PRMS) .................................................................. 7 
+Figure 2.1. Typical Pavement Reference Marking System ........................................................... 7 
+Figure 2.2. PRMS Raised Marker .................................................................................................. 7 
+2.4. Military Grid Reference System (MGRS) ........................................................................... 8 
+Figure 2.3. Determining a Six-Digit Grid Coordinate ................................................................... 8 
+Chapter 3—AIRFIELD DAMAGE ASSESSMENT PROCESS ........................................... 10 
+3.1. Introduction ....................................................................................................................... 10 
+3.2. Damage Assessment Phases .............................................................................................. 10 
+Table 3.1. Assessment Priorities ..................................................................................................11 
+Figure 3.1. Mine-Resistant Ambush Protected (MRAP) vehicle ................................................ 12 
+Figure 3.2. Single Large UXO Assessment ................................................................................. 13 
+Figure 3.3. Bomblet Examples ..................................................................................................... 13 
+Figure 3.4. Bomblet Field Assessment ........................................................................................ 14 
+Figure 3.5. Large and Small Crater Profiles ................................................................................ 14 
+Figure 3.6. Camouflet in Concrete Surface ................................................................................. 15 
+Figure 3.7. Spall Field .................................................................................................................. 15 
+Figure 3.8. Multiple UXO/Damage Assessment ......................................................................... 16 
+3.3. Summary ............................................................................................................................ 17 
+Chapter 4—RECORDING AND REPORTING DAMAGE ................................................. 18 
+4.1. Damage Assessment Data ................................................................................................. 18 
+4.2. Recording and Reporting Damage .................................................................................... 18 
+Figure 4.1. Data Report and Plot of Damage. .............................................................................. 19 
+4.3. Communications ................................................................................................................ 19 
+PART 2—RAPID AIRFIELD DAMAGE ASSESSMENT SYSTEM. ..................................... 21 
+Chapter 5—INTRODUCTION ................................................................................................ 21 
+5.1. Overview ........................................................................................................................... 21 
+5.2. General Information .......................................................................................................... 21 
+Chapter 6—RESOURCES ........................................................................................................ 23 
+6.1. Team Composition ............................................................................................................ 23 
+6.2. Equipment .......................................................................................................................... 23 
+Table 6.1. Basic RADAS Kit Components .................................................................................. 24 
+Chapter 7—SYSTEM SETUP .................................................................................................. 25 
+7.1. Launch and Recovery Zone Setup ..................................................................................... 25 
+Figure 7.1. System Architecture .................................................................................................. 25 
+Figure 7.2. Antenna Assembly..................................................................................................... 25 
+AFTTP3-32.11  18 MAY 2022 
+3 
+Figure 7.3. Base Specific Reference Card ................................................................................... 26 
+Figure 7.4. Tripod and Antenna Mast Compass .......................................................................... 26 
+Figure 7.5. Tripod Foot ................................................................................................................ 27 
+Figure 7.6. Identification of the Bottom Section with Welded Stiffener Tube ............................ 27 
+Figure 7.7. Rear Leg Tab ............................................................................................................. 27 
+Figure 7.8. Setting Angle Relative to the Tripod Reference Leg ................................................ 28 
+Figure 7.9. Locator Ring .............................................................................................................. 29 
+Figure 7.10. Connector Pin Alignment ........................................................................................ 30 
+Figure 7.11. Retaining Pin Inserted Through L-Shaped Hole ..................................................... 31 
+Figure 7.12. Quick Release Clamp Closed and Locked .............................................................. 31 
+7.2. GCS Setup ......................................................................................................................... 32 
+Figure 7.13. GCS Components .................................................................................................... 32 
+Figure 7.14. Network Switch Color Coding ................................................................................ 33 
+Figure 7.15. Network Switch ....................................................................................................... 34 
+Table 7.1. Cable Connection Matrix ............................................................................................ 35 
+7.3. Charging Batteries ............................................................................................................. 35 
+Figure 7.16. Battery Charging Case ............................................................................................. 36 
+7.4. FLIR SkyRanger™ Setup .................................................................................................. 36 
+Figure 7.17. FLIR SkyRanger ™ ................................................................................................. 36 
+Figure 7.18. Non-Antenna and Antenna Legs ............................................................................. 36 
+Figure 7.19. Propeller Arms ......................................................................................................... 37 
+Figure 7.20. Connecting Battery .................................................................................................. 38 
+Chapter 8—GEOEXPT RADAS OPERATIONS ................................................................... 39 
+8.1. GeoExPT ........................................................................................................................... 39 
+Figure 8.1. Media Panel ............................................................................................................... 39 
+Figure 8.2. Media Panel ............................................................................................................... 40 
+Figure 8.3. GeoExPT with Leave Behinds .................................................................................. 41 
+Figure 8.4. Video Editor with Damage Plotted ............................................................................ 41 
+Figure 8.5. GeoExPT with Damage Plotted ................................................................................. 42 
+8.2. Archiving and Troubleshooting ......................................................................................... 42 
+Chapter 9—ASSESSMENT PROCESS .................................................................................. 44 
+9.1. Assessment Methodologies ............................................................................................... 44 
+Table 9.1. Assessment Priorities .................................................................................................. 44 
+9.2. Installation Sectors ............................................................................................................ 44 
+9.3. Flight Profiles .................................................................................................................... 44 
+Figure 9.1. Installation Sector Zones ........................................................................................... 44 
+9.4. RADAS Workflow ............................................................................................................ 45 
+Figure 9.2. RADAS Workflow .................................................................................................... 45 
+Attachment 1—GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION46 
+Attachment 2—AIRFIELD DAMAGE RECORDING FORM ............................................ 51 
+AFTTP3-32.11  18 MAY 2022 
+4 
+PART 1—LEGACY AIRFIELD DAMAGE ASSESSMENT 
+Chapter 1 
+INTRODUCTION 
+1.1. Overview. Airfield damage assessment is the process of locating, classifying, and measuring 
+airfield damage and unexploded ordnance (UXO) after an attack. Traditionally, this task is 
+performed by Airfield Damage Assessment Teams (ADAT) surveying the airfield while 
+traveling predetermined routes and reporting damage to the Minimum Airfield Operating Surface 
+(MAOS) Selection Team. 
+1.1.1. The MAOS Selection Cell should be co-located with the Emergency Operations Center 
+(EOC) whenever possible. (Note: damage is recorded and plotted in the alternate EOC and 
+Civil Engineer [CE] Unit Control Center [UCC] to provide redundancy and crosschecks for 
+accuracy). The MAOS Selection Cell is managed under Emergency Support Function (ESF) 
+3-Public Works and Engineering Responsibilities. The MAOS Selection Cell is subordinate
+to the EOC Director and serves as an advisory element to the EOC and Installation
+Commander. The ADATs collect necessary data for the MAOS selection cell to select at
+least three MAOS candidates to be briefed to the Installation Commander as soon as possible
+after the attack.
+1.1.2. From an engineering perspective, damage assessment activities are categorized into 
+two distinct areas: airfield damage assessment and facility /utility damage assessment. 
+Resources permitting, both assessment operations should be conducted simultaneously and, 
+depending on the situation at hand, may be of equal importance. 
+1.1.2.1. Airfield damage assessment includes evaluation of runway, taxiway, and parking 
+apron surfaces, and airfield infrastructure such as lighting, aircraft arresting systems, 
+utility lines, signage, etc. The ADATs should also report any visual damage to 
+navigational aids (NAVAIDs) along their routes. The ADAT model will eventually 
+transition towards the RADAS concept, whereby airfield damage assessment is 
+conducted via remote sensors mounted on unmanned vehicles, stationary towers, and 
+other platforms. RADAS will remove personnel from the hazardous UXO-laden 
+environment and should significantly accelerate the assessment process. 
+1.1.2.2. Facility damage assessment includes evaluation of damage to all other airbase 
+facilities, infrastructure, and utility systems. 
+1.1.3. This publication is limited to airfield damage assessment procedures. Facility damage 
+assessment, conducted by teams referred to as Damage Assessment and Response Teams 
+(DART), is presented in AFPAM 10-219, Volume 3, Civil Engineer Contingency Response 
+and Recovery Procedures. 
+1.2. General Information. The ADATs should be comprised of experienced personnel; 
+provided with adequate communications, transport, and protective equipment; and trained on 
+airfield damage assessment procedures. In addition, a pavement reference marking system 
+(PRMS) used to assist in identifying locations of damage and UXO on all takeoff and landing 
+surfaces, may be employed if the airfield damage assessment process is to be within required 
+accuracy. The military grid reference system (MGRS) is used when reporting damages on 
+airfield pavements not on the takeoff or landing surfaces. 
+AFTTP3-32.11  18 MAY 2022 
+ 
+5 
+ 
+1.2.1. Airfield damage assessment is the critical first step toward recovering a damaged 
+airfield. Since major recovery tasks cannot start until damage assessment and MAOS 
+selection are completed, speed and accuracy during damage assessment are essential for the 
+success of subsequent rapid airfield damage recovery (RADR) activities. 
+1.2.2. The MAOS Selection Cell enters reported damage into the Geospatial Expeditionary 
+Planning Tool (GeoExPT) for automated MAOS selection, or uses the backup legacy method 
+to manually plot damage on maps. The MAOS Selection Cell should consider damage to the 
+entire airfield operating surfaces including takeoff or landing surfaces, access taxiways and 
+aircraft parking areas, when selecting MAOS candidates. The MAOS Selection Team briefs 
+the MAOS candidates by order of preference to the Installation Commander or Senior 
+Airfield Authority who then selects the preferred MAOS that should be cleared and repaired 
+to launch or recover aircraft. 
+1.2.3. To shorten airfield recovery time, damage assessment and locating UXO should be 
+accomplished jointly. Accordingly, the damage assessment team is organized to locate and 
+classify UXO and conduct ground assessments of runway, taxiway, and parking apron 
+pavement. The assessments are conducted either mounted in hardened vehicles or 
+dismounted on foot when damage and/or UXO prevent the use of vehicles. 
+ 
+AFTTP3-32.11  18 MAY 2022 
+ 
+6 
+ 
+ 
+Chapter 2 
+RESOURCES 
+ 
+2.1. Team Composition. An ADAT normally consists of one engineering specialist (usually an 
+engineering craftsman) and two Explosive Ordnance Disposal (EOD) technicians (a CE member 
+trained as an EOD assistant may substitute for one EOD technician when two are unavailable). 
+Due to the size of a typical airfield, more than one ADAT is usually required to meet the air 
+tasking order (ATO). The exact number of ADATs is determined by the Base Civil Engineer 
+(BCE). 
+2.1.1. The engineering craftsman reports location and size of craters, camouflets, spall fields, 
+camouflet fields, bomblet fields, damage to airfield infrastructure such as lighting, arresting 
+systems, signage, underground utilities, and any visible damage to NAVAIDs along their 
+route to the MAOS Selection Cell. 
+2.1.2. Explosive ordnance technicians typically operate the armored vehicle; accurately 
+locate, classify, and report UXO; perform limited “render safe” procedures on selected 
+ordnance; and safely guide the team when near UXO. Note: As a general rule, “render safe” 
+procedures are not performed unless two EOD members are present. 
+2.2. Equipment. Equipment requirements depend upon the assessment technique. For example, 
+dismounted ADATs have different requirements than mounted teams. In addition to chemical 
+warfare defense ensembles, each team member may require specific equipment to perform a 
+particular function. Explosive ordnance disposal personnel should reference AFTTP 3-32.5V6, 
+Explosive Ordnance Disposal (EOD) UXO Operations, for EOD equipment requirements. Table 
+2.1 lists basic engineering items for the ADAT. 
+Table 2.1. Basic ADAT Engineering Items. 
+Item 
+Quantity 
+1. Safety rope (for rescuing team members from a collapsed camouflet) 
+2 
+2. Crash grid map, 1:50,000 (MGRS) 
+1 
+3. Airfield pavement map, 1” = 400’ (with PRMS grid) 
+1 
+4. Damage assessment forms 
+25 
+5. Clip board 
+3 
+6. Writing instrument 
+6 
+7. Radio (with spare batteries) 
+2 
+8. Binocular 
+2 
+9. Night vision device 
+2 
+10. Flashlight, explosion-proof plastic-cased 
+3 
+11. Measuring tape, nonmetallic  
+2 
+12. Marking tape, roll 
+5 
+13. Marking flags 
+50 
+14. UXO Marker 
+100 
+15. Backpack (for dismounted assessments)  
+3 
+16. ADAT Overlay/Coordinate Grid Reader & Protractor  
+1 
+ 
+ 
+AFTTP3-32.11  18 MAY 2022 
+ 
+7 
+ 
+ 
+2.3. Pavement Reference Marking System (PRMS). Use a PRMS to assist with locating 
+damage and expediting the damage assessment process (Figure 2.1). This reference system 
+should be in place prior to an attack and be able to withstand its effects. To achieve maximum 
+effectiveness, the PRMS should be employed on all takeoff or landing (TOL) surfaces. 
+Figure 2.1. Typical Pavement Reference Marking System. 
+ 
+2.3.1. A zero point is established for each pavement surface. To eliminate the need for time-
+consuming measurements, the PRMS provides a visual cue to locate damage and UXO. 
+Damage and UXO may be located by determining how far down the pavement they are from 
+the zero point and how far they are right or left of centerline.  
+2.3.2. These markers are painted on the pavement surface at 50- or 100-foot intervals along 
+the centerline and along the marked runway edge starting at the zero point. Additionally, 
+raised markers (Figure 2.2) are placed at 50- or 100-foot intervals at a distance between 25 
+to 50 feet from the pavement edge on both sides of the runway. Spacing these markers from 
+the marked runway edge helps ensure the reference system remains usable following an 
+attack and during recovery operations.  
+2.3.3. Placement of these raised markers is accomplished as part of attack preparation and is 
+included on the engineer attack preparation playbook checklists in the CE Contingency 
+Response Plan (CRP), which is located at 
+https://usaf.dps.mil/teams/10041/CEPlaybooks/Pages/default.aspx. Three basic rules need to 
+be followed when using the PRMS: 
+Figure 2.2. PRMS Raised Marker. 
+ 
+AFTTP3-32.11  18 MAY 2022 
+ 
+8 
+ 
+ 
+2.3.3.1. Zero Point Rule. For an airfield pavement section, the zero point is fixed. It does 
+not switch from one end of the pavement to the other. The zero point is usually 
+established at the runway threshold where normal aircraft operations occur. 
+2.3.3.2. Centerline Rule. All distances along the length of the pavement section are 
+measured along the centerline from the zero point for that pavement. 
+2.3.3.3. Right/Left Rule. Right and left of the centerline are determined as the ADAT 
+faces down the centerline of the pavement away from the zero point. 
+2.4. Military Grid Reference System (MGRS). The ADATs use the MGRS to locate damage 
+that is not on the TOL surfaces. 
+2.4.1. There is only one rule to remember when reading or reporting MGRS grid coordinates: 
+always read to the right and then up. The first half of the reported set of coordinate digits 
+represents the left-to-right (easting) grid label, and the second half represents the label as 
+read from the bottom to top (northing). The grid coordinates may represent the location to the 
+nearest 10-, 100-, or 1,000-meter increment. The following paragraphs explain how to 
+determine grid coordinates of a point on a military map. 
+2.4.2. A military map has vertical lines (top to bottom) and horizontal lines (left to right). 
+These lines form small squares 1,000 meters on each side called grid squares. The lines that 
+form grid squares are numbered along the outside edge of the map picture. No two grid 
+squares have the same number. 
+2.4.3. The precision of a point location is shown by the number of digits in the coordinates: 
+the more digits, the more precise the location, such as: 
+• 1996 – 1,000-meter grid square. 
+• 192961 – to the nearest 100-meters. 
+• 19269614 – to the nearest 10-meters. 
+2.4.4. The location is grid square 1181 as seen in the example in Figure 2.3. To determine 
+the address, start from the left and read right until reaching to 11, the first half of the address. 
+Then read up to 81 for the other half. The address is somewhere in grid square 1181. 
+Figure 2.3. Determining a Six-Digit Grid Coordinate. 
+ 
+2.4.5. Grid square 1181 gives a generalized address, but there is a lot of ground inside that 
+grid square. To make the location more accurate, just add another number to the first half and 
+another number to the second half—now the location has six numbers instead of four. 
+AFTTP3-32.11  18 MAY 2022 
+ 
+9 
+ 
+ 
+2.4.5.1. To get the additional numbers, break down each grid square to have ten lines 
+inside it running north and south, and another 10 running east and west. This makes 100 
+smaller squares.  
+2.4.5.2. Assume a location halfway between grid line 11 and grid line 12. Also assume 
+that the next number is 5; the first half of the address is then 115. Further assume a 
+location 3/10th between grid line 81 and grid line 82.  This makes the second half of the 
+address 813. (If located exactly on line 81, the second part is 810). The address is now 
+115813. 
+AFTTP3-32.11  18 MAY 2022 
+ 
+10 
+ 
+ 
+Chapter 3 
+AIRFIELD DAMAGE ASSESSMENT PROCESS 
+ 
+3.1. Introduction. Airfield damage assessment is the critical first step toward restoring an 
+operational runway after an enemy attack, man-made or natural disaster. Airfield damage 
+assessment includes evaluation of damage on runway surfaces, taxiway surfaces, and other 
+facilities, which directly support aircraft operations. Speed and accuracy during damage 
+assessment are essential to enable airfield repairs to begin as soon as possible. 
+3.1.1. Dedicated ADATs determine location, types, and numbers of UXO; location, types, 
+and quantity of airfield pavement damage; and report findings to the MAOS Selection Team. 
+The MAOS Selection Team uses this information to select MAOS candidates, which must be 
+cleared and repaired in order to launch and recover aircraft. 
+3.1.2. This chapter provides guidance for accomplishing airfield damage assessment after 
+attack operations. It also outlines organization, team composition, required equipment, 
+assessment techniques, and damage recording and reporting procedures. 
+3.2. Damage Assessment Phases. Damage assessment planning is based on a two-phased 
+approach: initial reconnaissance and detailed damage assessment. 
+3.2.1. Initial Reconnaissance. The purpose of initial reconnaissance is to rapidly assess the 
+attack recovery environment by identifying broad areas where airfield pavement was 
+damaged. This initial gross assessment is made from the control tower, or from manned 
+observation posts that are splinter-protected and elevated to afford clear visibility around the 
+airfield. From these vantage points, trained personnel can quickly locate areas with UXO and 
+pavement damage on the airfield.  
+3.2.1.1. Precise damage locations or measurements are not expected because most 
+observations are made at some distance from the damaged area. The results of the initial 
+reconnaissance assists the MAOS Selection Cell to quickly direct ADATs to those areas 
+requiring detailed damage assessment, or avoid areas that appear to be too heavily 
+damaged to warrant consideration in MAOS selection. 
+3.2.1.2. Reporting procedures depend upon attack preparation instructions and available 
+communications equipment. Some observers may report directly to the EOC, while 
+others report to their UCC. For example, security forces observers may report directly to 
+the security forces Base Defense Operations Center (BDOC), and then relayed to the 
+EOC.  
+3.2.1.3. From these initial reports, pavement areas showing promise as possible MAOS 
+candidates or areas too heavily damaged may become readily apparent. As a result, the 
+MAOS Selection Cell may adjust ADAT routes to avoid severely damaged areas and 
+concentrate on areas that show promise. This adjustment may save valuable time by 
+shortening the ADAT routes. 
+3.2.1.4. When available, remote sensing systems such as tower-mounted cameras or 
+unmanned aircraft systems (UAS), may be used to get a "snap-shot" of airfield operating 
+surface damage. 
+3.2.1.5. An EOD team will need to clear UXO findings in order for the team to continue 
+the ADAT route. 
+ 
+AFTTP3-32.11  18 MAY 2022 
+ 
+11 
+ 
+ 
+3.2.2. Detailed Damage Assessment. Detailed damage assessment requires precise reporting, 
+as this data forms the basis for MAOS selection. Depending on the level of damage, detailed 
+damage assessment may be extremely hazardous and therefore time consuming. 
+3.2.2.1. Predetermined damage assessment routes and checkpoints are normally identified 
+during attack preparation planning to expedite the assessment process and prevent 
+duplication of effort by the different ADATs. These routes are planned to assess airfield 
+priorities as soon as practical. 
+3.2.2.1.1. ADAT travel routes are normally predetermined to begin at dispersed 
+ADAT personnel shelters, move to the RADR staging area, and then travel toward the 
+more critical aircraft pavements. These routes are updated or altered as required based 
+on initial damage assessment reports. Generally, ADAT travel routes proceed to 
+survey the airfield in the priority order identified in Table 3.1. Each installation 
+should develop specific routes suitable for their airfield. 
+Table 3.1. Assessment Priorities. 
+Priority 
+Airfield Location 
+1 
+Takeoff or landing surfaces (e.g., runways, alternate launch or recovery surfaces, 
+and taxiway segments long enough to permit aircraft launch and recovery) 
+2 
+Access pavements to takeoff or landing surfaces 
+3 
+Aircraft parking areas 
+4 
+Infrastructure such as lighting (including Precision Approach Path Indicators 
+[PAPIs], utility lines, signage, etc.) 
+5 
+Aircraft arresting systems 
+6 
+Aircraft arming and fueling areas 
+7 
+Other specified locations as defined in the Facility Prioritization List or as 
+determined by installation leadership 
+3.2.2.1.2. Predetermined routes may be altered as initial reconnaissance reports are 
+received and analyzed. When applicable, the EOC notifies ADATs of any changes to 
+predetermined routes, including new checkpoints and special instructions necessary to 
+complete their assessment route. 
+3.2.2.1.3. Upon declaration or ALARM BLACK, Initial Release, ESF 3/5 within the 
+EOC inform the ADATs to begin their routes from their dispersed sheltered locations. 
+The ADATs report the extent and location of damage along their predetermined or 
+modified routes, including damage on the route from their shelter to the airfield. 
+3.2.2.2. Techniques. Detailed damage assessment may be conducted using one of two 
+possible techniques—mounted (vehicular) or dismounted (on foot). 
+3.2.2.2.1. Mounted. The mounted technique provides the most speed and protection 
+for the ADAT and is the primary detailed reconnaissance technique. The ADAT 
+composition for the mounted assessment may vary with vehicle capacity, but should 
+generally be the same as the team composition discussed in paragraph 2.1. Ideally, 
+armored vehicles are used to transport ADATs between UXO and pavement damage.  
+3.2.2.2.2. These vehicles provide protection from UXO blast and fragmentation 
+effects. However, these benefits are not provided without some cost to effectiveness, 
+AFTTP3-32.11  18 MAY 2022 
+ 
+12 
+ 
+ 
+visibility from inside the vehicle is restricted by the armor protection. This limitation 
+may contribute to errors in reporting the size, position, and identification of UXO and 
+damage.  
+3.2.2.2.3. Field tests have proven that with practice, damage assessment teams can 
+estimate short distances (less than 100-feet) and crater diameters with acceptable 
+accuracy without manual measurements, and estimate spall, camouflet, and bomblet 
+numbers within fields without precise counting. The accuracy of this method varies 
+from person to person. Observation distance, weather conditions, time of observation 
+(night or day), and other human factors such as fatigue and fear will affect accuracy. 
+3.2.2.2.3.1. Armored vehicles, such as the Mine-Resistant Ambush Protected 
+(MRAP) vehicle shown in Figure 3.1., provide increased protection from 
+explosive hazards in the UXO-laden environment. If an armored vehicle is not 
+available, substitute with hardened dump trucks or other heavy-duty vehicles. 
+Figure 3.1. Mine-Resistant Ambush Protected (MRAP) vehicle. 
+ 
+3.2.2.2.3.2. Armored vehicles offer varying degrees of protection from UXO. 
+Armored crews can reduce their risk from some but not all UXO threat areas by 
+remaining mounted. When conducting risk assessment, type and size of the 
+potential UXO must be considered. Although some UXO may only immobilize 
+vehicles, others may result in catastrophic injury. 
+3.2.2.2.3.3. Personnel in non-armored vehicles face nearly the same risk from 
+UXO as dismounted forces because the protection afforded by non-armored 
+vehicles is negligible. The non-armored vehicles are also vulnerable to damage or 
+destruction from UXO. 
+3.2.2.2.3.4. The best travel route is normally along the pavement centerline. This 
+route gives equal visibility to both sides of the takeoff and landing surface and 
+allows ADAT personnel to visually sweep the area in front and to the sides of the 
+vehicle. Obviously, a meandering path may be required to avoid UXO or 
+pavement damage. When straying from the centerline is necessary, the team must 
+be careful not to miss damage or UXO on the far side of the TOL surface. Team 
+members should remain in the vehicle for protection from explosive hazards 
+except in extreme cases where not dismounting would seriously hamper the 
+assessment effort. 
+3.2.2.2.3.5. When a large UXO is encountered, the damage assessment vehicle 
+should approach on the far runway shoulder as shown in Figure 3.2. The ADAT 
+AFTTP3-32.11  18 MAY 2022 
+ 
+13 
+ 
+ 
+then stops, records and immediately reports as much of the following information 
+as possible: location, shape, color, markings, fuze type and condition, coordinates, 
+and estimated time to render safe. 
+Note: Make radio transmissions from a minimum safe distance of a UXO threat of 25-feet for 
+handheld or 100-feet for vehicle mounted radios. UXO are highly susceptible to electromagnetic 
+radiation (EMR) and may explode. This could come from communication and other transmitting 
+devices. 
+Note: Do not move or remove anything on or near a UXO. A UXO can be extremely sensitive and can 
+cause serious injury or death if disturbed in any way. If a sub-munition is found, there may be many more 
+sub-munitions in the same area. Small size does not diminish the danger of sub-munitions. 
+Figure 3.2. Single Large UXO Assessment. 
+ 
+3.2.2.2.3.6. When the ADAT sights a bomblet (Figure 3.3), or bomblet field, they should 
+approach the closest ordnance (Figure 3.4) at a safe distance and record the following 
+information: number, shape, location, field width, field length, color, markings, fuze type 
+and condition, and render safe time. After this information is reported to the EOC, the 
+ADAT drives past the field in such a manner as to provide the maximum standoff 
+distance between the bomblet field boundaries and the ADAT vehicle. 
+Figure 3.3. Bomblet Examples. 
+ 
+ 
+AFTTP3-32.11  18 MAY 2022 
+ 
+14 
+ 
+ 
+Figure 3.4. Bomblet Field Assessment. 
+ 
+3.2.2.2.3.7. Crater. Craters are generally divided into two broad categories: large 
+or small. Large craters are greater than 20-feet in diameter and small craters are 
+20-feet in diameter or less (Figure 3.5). In either case, approach craters with 
+caution. If the surrounding area appears free of UXO, move as close to the crater 
+as possible to assess the damage and to determine if a UXO is in the crater. 
+Record coordinates for the center of each crater and its apparent diameter. 
+3.2.2.2.3.8. Crater Field. Small craters in close proximity (within an airfield-
+pavement-slab distance apart) should be reported as a crater field, or mix of a 
+field and individual craters. The decision of which method to use must reflect the 
+balance between speed and accuracy of the picture for the EOC and Crisis Action 
+Team (CAT).  
+3.2.2.2.3.8.1. ‘Speed’ should consider whether calling in many grouped small 
+craters individually will consume excessive time and radio frequencies. If the 
+field is too broad or spread out, the MAOS Selection Cell will have 
+insufficient information to make an appropriate MAOS selection. Like single 
+craters, carefully examine crater fields from a distance for the presence of 
+UXO. If no UXO are sighted, the ADAT should move the vehicle into the 
+area.  
+3.2.2.2.3.8.2. The ADAT should then record the following information: center 
+coordinates for the leading and trailing edges, leading and trailing field 
+widths, number of craters within the field, average crater size, and average 
+crater separation. Be sure to report any UXO or spalls in the field as well. 
+Provide the MAOS plotters with as much detail as possible (e.g., if the field is 
+100 feet wide, but 80% of the craters are in the left-of-center 50-foot section, 
+state so). 
+Figure 3.5. Large and Small Crater Profiles. 
+ 
+AFTTP3-32.11  18 MAY 2022 
+ 
+15 
+ 
+ 
+3.2.2.2.3.9. Camouflets. A camouflet is created when a munition punctures the 
+pavement surface and bursts underground, creating a cavity with little to no 
+surface rupturing (Figure 3.6). Camouflets are considered to be a type of small 
+crater. When camouflets are present, the ADAT should approach the area with 
+caution. If the surrounding area appears free of UXO, move just close enough to 
+the camouflet to assess the damage. Record its coordinates and entry-hole size 
+and report the camouflet to the MAOS Selection Cell. Additionally, estimate the 
+cavity size according to nearby craters (e.g., if the closest craters to the camouflet 
+are 5-feet in diameter, the cavity size would be estimated to be 5-feet). Note: It 
+may be difficult to find camouflet fields, especially when an enemy uses flechette 
+munitions. 
+Figure 3.6. Camouflet in Concrete Surface. 
+ 
+3.2.2.2.3.10. Spall Fields. A spall is pavement damage that does not penetrate 
+through the pavement surface to the underlying soil layers. A spall’s damaged 
+area could be up to 5-feet in diameter. The same as bomb craters, spall fields 
+(Figure 3.7) should be carefully examined from a distance for the presence of 
+UXO. If no UXO is sighted, the ADAT should move the vehicle into the area and 
+record the following information: center coordinates for the leading and trailing 
+edges, leading and trailing field widths, and number of spalls within the field. 
+Because spalls are not highly visible even at close range, spall counts and field 
+dimensions may be difficult to determine, especially since spalls are likely to be 
+covered with debris. 
+Figure 3.7. Spall Field. 
+ 
+3.2.2.2.3.11. Multiple Ordnance/Damage Sites. It is possible an ADAT will 
+encounter a situation where damage and UXO presence are so severe that 
+continuation of the planned assessment route is impossible. Before attempting to 
+reach the other side of the blocked area, the ADAT should inform the MAOS 
+Selection Cell of the situation. The selection cell may see a pattern developing 
+based on the damage reported, which allows adjustment of travel routes to have a 
+AFTTP3-32.11  18 MAY 2022 
+ 
+16 
+ 
+ 
+different ADAT finish assessing the planned route (Figure 3.8). In this type of 
+situation, both ADATs would assess damage from their respective sides of the 
+blockage and report their findings to the MAOS Selection Cell. 
+Figure 3.8. Multiple UXO/Damage Assessment. 
+ 
+3.2.2.2.4. Dismounted. Dismounted damage assessment is a slow and hazardous 
+technique that requires the operating airfield surfaces to be surveyed on foot. 
+Although the dismounted technique is the most accurate damage assessment method, 
+it is extremely time consuming and exposes ADAT members to UXO fragmentation 
+and blast hazards.  
+3.2.2.2.4.1. Damage assessment team members walk specified areas of the airfield 
+operating surface to identify and locate UXO, pavement damage, and damage to 
+support systems. Make distance measurements by visual estimation using the 
+PRMS, MGRS, or pacing, whichever is most appropriate for the situation. In 
+addition, the team should specify if there is adequate pavement for taxing aircraft 
+around damage so repairs can be delayed until a more opportune time. Actions of 
+the individual team members are outlined in the following paragraphs. 
+3.2.2.2.4.2. Dismounted forces face the greatest risk from UXO. To reduce this 
+risk, dismounted forces need to be able to identify UXO threats correctly, 
+understand procedures for avoiding and reporting these threats, and be aware of 
+UXO threat areas previously reported. 
+3.2.2.2.4.3. The senior EOD technician is responsible for safe travel routes 
+through hazardous areas. The EOD member assigns areas or lanes of 
+responsibility to each of the team members. As the team progresses through its 
+area of responsibility, the EOD representative assists in the proper classification 
+of UXO and relays pertinent information to the MAOS Selection Team. 
+3.2.2.2.4.4. The engineering team member has the overall responsibility for 
+damage assessment. The engineering craftsman may be assisted in damage 
+location and recording by one or more augmentees.  
+3.2.2.2.4.5. Team members are responsible for following the safe routes identified 
+by the senior EOD member and identifying all pavement damage and UXO 
+locations in the assigned area. Any identification problems are reported to the 
+EOD or engineering representative for resolution. Augmentees may also assist in 
+transmitting information to the MAOS Selection Cell. If communication 
+difficulties are experienced, the augmentees are usually called upon to serve as 
+runners. 
+AFTTP3-32.11  18 MAY 2022 
+ 
+17 
+ 
+ 
+3.3. Summary. Airfield damage assessment teams, directed by the EOC, assess airfield 
+pavement damage so repair teams can repair the minimum operational airfield surfaces as 
+quickly as possible. If effective airfield damage assessments are to be realized, ADATs may be 
+comprised of experienced personnel; be provided adequate communications, transport, and 
+protective equipment; and be completely knowledgeable of damage assessment procedures. In 
+addition, a pavement reference marking system, used to identify the locations of damage and 
+UXO on airfield pavements, may be employed if the airfield damage assessment process is to be 
+within the required accuracy. The success of subsequent RADR activities to a large degree hinge 
+upon the accuracy of the airfield damage assessment efforts. 
+AFTTP3-32.11  18 MAY 2022 
+ 
+18 
+ 
+ 
+Chapter 4 
+RECORDING AND REPORTING DAMAGE 
+ 
+4.1. Damage Assessment Data. During damage assessment, ADATs gather two types of 
+information—location and details of pavement damage caused by bombs, rockets, etc., and UXO 
+data.  
+4.1.1. The following damage information should be included in each report:  
+4.1.1.1. Damage type (crater; UXO; camouflet; spall, camouflet or bomblet field, etc.);  
+4.1.1.2. Location (by PMRS for TOL surfaces or MGRS for areas other than the TOL 
+surfaces); 
+4.1.1.3. Size (crater diameter; crater, camouflet, spall, or bomblet field dimensions; etc.); 
+4.1.1.4. Number (of craters, spalls, camouflets or bomblets in a field).  
+4.1.2. Unexploded explosive ordnance must be accurately located, classified, and 
+immediately reported in sufficient detail to the EOD supervisor within the EOC to determine 
+risk to aircraft operations.  
+4.1.2.1. Immediate reporting not only aids in hastening the MAOS selection process but 
+also serves to keep the ESFs 3/5 and MAOS Selection Cell aware of the team’s position 
+on a frequent basis. 
+4.1.2.1.1. Include the following information in the UXO report: 
+4.1.2.1.2. Location, quantity, size, shape, color, distinctive markings, and fuze type 
+and condition.  
+4.1.2.2. All UXO within 300-feet of repair operations or aircraft operating surfaces 
+(marked edges of runways and taxiways) must be identified and reported (and any 
+obvious visible hazard at a greater distance that may threaten RADR operations). Entry 
+holes for subsurface UXO and camouflets must also be reported. 
+4.2. Recording and Reporting Damage. As damage is assessed, it should be recorded and 
+immediately reported at the end of the route or by zone to the EOC for damage plotting and 
+MAOS selection. Recommend assigning a primary and alternate on the team for radio 
+transmissions as to reduce unnecessary radio chatter or talking over each other while reporting. 
+Speed of reporting depends upon the complete understanding of the information being relayed 
+and strict adherence to radio discipline by both MAOS Selection Cell and ADAT personnel. A 
+written list of reported damage should be kept by each ADAT and provided to the MAOS 
+Selection Cell for verification purposes upon their return. Each damage item is recorded as 
+shown in Figure A2.1 and reported as a series of letters and numbers. An example airfield 
+damage reporting form for copying may be found in Figure A2.2. Figure 4.1 provides an 
+example of how the MAOS Selection Cell plots damage. 
+4.2.1. Damage Type or UXO. Enter damage/ordnance type using a letter coding of C-crater, 
+X-(UXO), S-(spall), B-(bomblet field), and M-(camouflet). 
+4.2.2. Location. Distance from the zero pavement reference point to the center of the crater, 
+AFTTP3-32.11  18 MAY 2022 
+ 
+19 
+ 
+ 
+camouflet, UXO, or to the closest leading edge of the spall, camouflet, or bomblet field. 
+Figure 4.1. Data Report and Plot of Damage.  
+ 
+4.2.3. Left or Right of Centerline. “L” stands for left, and “R” stands for right. They denote 
+the direction from the pavement centerline to the damage/UXO center point. 
+4.2.4. Distance from Centerline. Distance from the centerline to the center of the crater, 
+UXO, camouflet, or to the center of the leading edge of the spall, camouflet, or bomblet field. 
+4.2.5. Diameter/Width. For craters or circular spall, camouflet, and bomblet fields, enter the 
+letter “D.” For rectangular spall, camouflet, or bomblet fields, enter the letter “W.” 
+4.2.6. Size of Diameter or Width. This is the numerical estimation of the apparent diameter 
+or field width for that point along the pavement. 
+4.2.7. Field Identifier (F). If required, enter the letter “F” to alert the EOC that the following 
+information completes the leading edge description of a spall, small crater, camouflet, or 
+bomblet field. The next alphanumeric group after “F” stands for the same as above and 
+describes the trailing edge of the field. 
+4.2.8. Number Identifier (N). The letter “N” alerts the EOC the field identifier is completed 
+and the next number is the number of spalls, small craters, camouflets, bomblets, or a mix. 
+4.2.9. Number of Bomblets, Small Craters, Camouflets, or Spalls. The numerical estimate of 
+the number of bomblets, small craters, camouflets, or spalls in the field previously identified. 
+If it is a mix, show the total number first followed by the breakdown by type. For instance, if 
+the spall field in Figure 4.1 was a mix of 50 small craters, 25 spalls, and 25 UXO, it would 
+be reported as: C320R50W40F520L40W60N100(C50X25S25). The first digit (damage type) 
+is determined by the most prominent type of damage (C). 
+4.2.10. Description. Record additional information here to help accurately identify pavement 
+damage or describe the UXO. 
+4.3. Communications. The success of the damage assessment operation depends upon dedicated 
+communication instruments and strict communication procedures to ensure accurate transmission 
+of damage information. The current concept calls for separate EOD and CE radio nets for 
+transmission of this information. The EOD and CE representative on each ADAT will transmit 
+UXO and damage information to the EOC. Typically in the routine aspect of communication it is 
+AFTTP3-32.11  18 MAY 2022 
+ 
+20 
+ 
+ 
+one of the two 3E5s’ assigned, but often its’s the 3E8 that is taking the calls. The CE UCC tends 
+to be the one monitoring all communication traffic on the network. This will be written into the 
+BSP/CRP local installation procedures checklists.  
+4.3.1. With multiple ADATs passing information to the control center, as well as other CE 
+and EOD personnel around the base, the potential for confusion is great. It is essential to use 
+clear and concise radio transmissions while maintaining strict radio discipline. Unnecessarily 
+keying the mike, transmitting unorganized thoughts, and interrupting other transmissions will 
+necessitate the repeat of transmissions, which results in the delay of MAOS selection and 
+repair operations. 
+4.3.2. Radio communications are usually quick and generally effective, but can be jammed or 
+intercepted if not secured. If secure communications are unavailable, procedures (such as a 
+runner system) should be preplanned to address these problems. Use locally developed 
+“comm-out” procedures when necessary. 
+4.3.3. When traditional communications cannot be used during a conflict there are some 
+alternative solutions that can be used. Protocols for various types of alternative 
+communications should be outlined and written into the installation BSP/CRP checklists. 
+ 
+ 
+AFTTP3-32.11  18 MAY 2022 
+ 
+21 
+ 
+ 
+ 
+PART 2—RAPID AIRFIELD DAMAGE ASSESSMENT SYSTEM. 
+Chapter 5 
+INTRODUCTION 
+ 
+5.1. Overview. Airfield damage assessment is the process of locating, classifying, and measuring  
+airfield damage and UXO after attack. Airfield damage assessment includes evaluation of 
+runway, taxiway, parking surfaces, and airfield infrastructure such as lighting, aircraft arresting 
+systems, utility lines, signage, etc. Any visual damage to NAVAIDs along routes should also be 
+reported. 
+5.1.1. The Air Force Civil Engineer Center (AFCEC) has developed updated capabilities to 
+include Rapid Damage Assessment (RDA). The goal of RDA is to expeditiously gather post 
+attack data to determine an optimal recovery strategy of the airfield. The RADAS is a 
+component of RDA, which trims damage assessment times dramatically from hours or even 
+days to within one hour and minimizes the need of ADAT to negotiate potentially hazardous 
+airfield surfaces. 
+Note: RADAS will continuously be updated until reaching full operating capability. The 
+information within Part 2 of this publication refers to Spiral 0.5 of RADAS development. 
+Information within will be updated as each spiral of development is fielded. 
+5.1.2. The RADAS is postured as the 4F9DA, Damage Assessment Unit Type Code (UTC). 
+It consists of four remotely piloted Small Unmanned Aircraft System (SUAS) kits, three 
+laptop computers, associated loaded software, and all related equipment and wiring required 
+for operation. RADAS is specifically designed to assess damage to an airfield, identify and 
+classify UXO, and expedite MAOS selection. 
+5.1.3. RADAS utilizes four SUAS flying preprogramed routes carrying high definition 
+electro-optical (EO) or Long-Wave Infrared (LWIR) sensors providing real time video feeds 
+to operators on the ground. 
+5.1.4. The GeoExPT software provides visual representation of data gathered from the 
+RADAS sensors, declared damage and UXO, on a geospatially accurate representation of a 
+specific airfield. GeoExPT operators, an Engineering and an EOD technician, monitor the 
+SUAS’s video feed to locate, identify measure, classify, and plot various types of damage 
+(camouflet, crater, or spall) and UXO respectfully. RADAS capitalizes on the GeoExPT 
+ADR Synchronization (GAS) tool that facilitates communication between the many 
+components of RADAS both internal to the system (the SUAS and GeoExPT), and external 
+(the Airfield Damage Repair Simulator and the Installation Recovery After Attack [IRAA] 
+tool). 
+5.2. General Information. While RADAS is primarily based on latitude and longitude, all 
+coordinates are still translated to the PRMS and MGRS as appropriate. This method facilitates 
+communication with all recovery teams moving about the airfield operating surfaces. 
+5.2.1. Since major recovery tasks cannot start until damage assessment and MAOS selection 
+are complete, speed and accuracy during damage assessment are essential for the success of 
+subsequent RADR activities. 
+AFTTP3-32.11  18 MAY 2022 
+ 
+22 
+ 
+ 
+5.2.2. All damage is entered into GeoExPT for MAOS selection. The MAOS Selection Team 
+within the RADAS Cell must consider damage to all airfield operating surfaces including 
+takeoff or landing surfaces, access taxiways, and aircraft parking areas, convoy routes, and 
+access routes when selecting MAOS candidates. The ESF 3 representatives briefs the MAOS 
+candidates by order of preference to the Installation Commander or Senior Airfield 
+Authority. The Installation Commander or Senior Airfield Authority then selects the 
+preferred MAOS that must be cleared and repaired to launch and recover aircraft. 
+5.2.3. While RADAS is intended to replace ADATs, legacy airfield damage assessment 
+procedures found in Part 1 of this publication are still the only viable backup to RADAS; 
+legacy skills and procedures should still be exercised. ADATs may be required to augment 
+RADAS personnel when communications are limited. 
+AFTTP3-32.11  18 MAY 2022 
+ 
+23 
+ 
+ 
+Chapter 6 
+RESOURCES 
+ 
+6.1. Team Composition. The small-unmanned aircraft system-operators (SUAS-O) can be from 
+any CE Air Force Specialty Code (AFSC). They are selected by the BCE based on knowledge of 
+the airfield operating surfaces and time remaining on station. Personnel with previous SUAS 
+experience should be considered first. The current RADAS configuration requires two SUAS-Os 
+to operate four aircraft. 
+6.1.1. The tasks required of the SUAS-O are: 
+• Setting up SUAS components (aircraft & Ground Control Station [GCS]) 
+• Programming flight plans for assessment runs 
+• All preflight actions (to include airspace approval) 
+• All activities associated with flying (including user-level maintenance) 
+• Transferring data from aircraft to video management system 
+6.1.2. Engineering Technician (3E5X1) is the team lead and is responsible for: 
+• Setting up the Ground Control Station 
+• Advising SUAS-Os of assessment areas of responsibilities and development of flight plans 
+• Creating GeoExPT scenarios 
+• Monitoring (GAS) 
+• Determining MAOS criteria 
+• Declaring damage (camouflets, craters, and spalls) within GeoExPT 
+• Tasking SUAS data collection as necessary 
+• Reconciling damage and UXO data 
+• Selecting MAOS candidates 
+• Transfer data to EOC or Civil Engineer-Unit Control Center (CE-UCC) 
+• Updating GeoExPT during repair process 
+• Performing data backups 
+• Resetting system for subsequent attacks 
+6.1.3. An EOD Technician (3E8X1) is responsible for: 
+• Advising SUAS-Os of assessment areas of responsibilities and development of flight plans 
+• Monitoring GAS 
+• Declaring UXO within GeoExPT 
+• Tasking SUAS data collection as necessary 
+• Reconciling damage and UXO data 
+• Consults on MAOS selection 
+6.2. Equipment. Each RADAS capability includes everything needed to assess a single 
+installation’s airfield operating surfaces (Table 6.1). 
+ 
+ 
+AFTTP3-32.11  18 MAY 2022 
+24 
+Table 6.1. Basic RADAS Kit Components. 
+Item 
+Quantity 
+SUAS Kits 
+4 
+Operator Control Unit (OCU) tablets 
+4 
+Propeller Arms 
+8 
+Legs 
+8 
+EO Camera 
+1 
+LWIR Camera 
+1 
+Assorted Spare Parts and Accessories 
+N/A 
+Battery Charging Case 
+4 
+Batteries 
+12 
+*Radio w/Antennas each programmed to a SUAS
+4 
+Tripod 
+1 
+Uninterruptible Power Supply (UPS) 
+2 
+**Laptop Computer 
+3 
+Computer Monitor 
+4 
+External DVD Writers 
+3 
+Network Switch 
+1 
+Power Cord with Junction Box 
+1 
+Ethernet Cable (reel) 
+4 
+Tool Bag with Assorted Hand Tools 
+1 
+Blank Digital Versatile Disc (DVD) 
+100 
+*One (1) radio and one (1) antenna are contained in a single box labeled to
+match its corresponding SUAS
+Note: The radio boxes and SUAS containers, along with the individual SUAS
+themselves, are labeled Alpha, Bravo, Charlie, or Delta, to help maintain
+integrity of each of the SUAS systems.
+** Two computers (Geo-1 and Geo-2) are GeoExPT control stations with each
+computer monitoring two (2) SUAS through a video player imbedded in
+GeoExPT. The third computer is provided for data transfer. All computers are
+preloaded with all necessary software. Also included is a source image disc to
+restore the computers to their original preloaded state if necessary.
+AFTTP3-32.11  18 MAY 2022 
+ 
+25 
+ 
+ 
+Chapter 7 
+SYSTEM SETUP 
+7.1. Launch and Recovery Zone Setup. The RADAS Launch and Recovery Zone (LRZ) and 
+GCS consists of all components necessary to control and monitor the SUAS and process the data 
+to select the MAOS. Most of the assembly may be accomplished pre-attack, but consideration 
+must be given to keeping assets safe and may have to be rapidly employed post-attack. Figure 
+7.1 portrays the system architecture. 
+Figure 7.1. System Architecture. 
+ 
+7.1.1. The LRZ requires at least three personnel to assemble and erect the antenna (Figure 
+7.2) and radio tripod. 
+Note: It is the SUAS-O’s responsibility to evaluate the environmental conditions before setting 
+up the tripod. It is the SUAS-O’s responsibility to ensure the tripod is sufficiently secured to 
+avoid tipping in windy conditions. Whenever the tripod mast is left erected, it is the SUAS-O’s 
+responsibility to monitor environmental conditions during this time and to take the antenna mast 
+down if conditions become unsafe. 
+7.1.1.1. Carry the tripod base to the specified radio location. 
+Figure 7.2. Antenna Assembly. 
+ 
+AFTTP3-32.11  18 MAY 2022 
+ 
+26 
+ 
+ 
+7.1.1.2. Position the tripod using a compass to place the reference (back) leg of the tripod 
+as determined during the RADAS site survey visit and as indicated on the base specific 
+reference card by the arrow symbol (Figure 7.3). The reference leg placement is a 
+function of the GCS location in relation to the SUAS assessment zones. 
+7.1.1.3. Loosen the leg screws and extend all three legs so the leg collar rests against the 
+end stop. 
+7.1.1.4. Use the compass provided and the base specific reference to orient the tripod 
+relative to the airfield. 
+Figure 7.3. Base Specific Reference Card. 
+ 
+7.1.1.4.1. Insert the compass into the mast hole in the top of tripod base with the flat 
+side facing out. 
+7.1.1.4.2. Rotate the tripod base until the compass reads the desired orientation angle 
+(Figure 7.4). 
+Figure 7.4. Tripod and Antenna Mast Compass. 
+ 
+AFTTP3-32.11  18 MAY 2022 
+ 
+27 
+ 
+ 
+7.1.1.4.3. Check the tripod base to ensure it is plumb and adjust leg locking pins as 
+necessary. 
+7.1.1.4.4. After all adjustments are made; tighten the screws on all three (3) tripod 
+legs. 
+7.1.1.5. Once the tripod is in place, stake the feet (Figure 7.5) to the ground with two 
+stakes per foot. Sand bags may be placed on the feet for added stability. If sandbags are 
+used in lieu of stakes, the total weight of the sandbags must be at least 50-lbs per tripod 
+foot. 
+Figure 7.5. Tripod Foot. 
+ 
+7.1.1.6. Next, assemble the mast sections. All four sections of the mast have the same 
+diameter except the top guy wire pole which is slightly smaller. The mast sections are as 
+follows: 
+7.1.1.6.1. The bottom section has a stiffening tube welded to it for the purpose of 
+engaging the tripod base (Figure 7.6). It also has the instruction sticker. 
+Figure 7.6. Identification of the Bottom Section with Welded Stiffener Tube. 
+ 
+7.1.1.6.2. The next section is where the electrical junction box is mounted. 
+7.1.1.6.3. The top two sections each have two collars to enable alignment of the radio 
+control boxes. 
+7.1.1.6.4. The guy wire insert has the same diameter as the connecting inserts but is 
+longer and has more available mounting holes. The guy wire collar attaches to this 
+AFTTP3-32.11  18 MAY 2022 
+ 
+28 
+ 
+ 
+insert at the topmost hole. Ensure the guy wire collar rear leg tab is aligned with the 
+rear leg when the mast is erected (Figure 7.7). 
+7.1.1.7. The sections are joined with connecting inserts that fit inside the main tube. 
+Align the bolt holes and use the supplied bolts and wrenches to install them. When 
+connecting the top two sections, ensure the locator rings are aligned with each other (0° 
+on the top section should be oriented with 0° on the lower section). 
+Figure 7.7. Rear Leg Tab. 
+ 
+7.1.1.8. Each of the four SUAS radios and antennae are combined in a single enclosure. 
+These radio boxes are mounted to the tripod mast in a fixed orientation so they point in 
+specific directions once the mast is erected. Proper orientation of each radio box relative 
+to the airfield is required to maintain the designed radio coverage and range at the site. 
+The radio faces the SUAS sector and covers a 145° wedge, centered normal to the face of 
+the radio box. 
+7.1.2. The radio boxes are mounted and aligned with the mast assembled and while it is still 
+on the ground. 
+7.1.2.1. Refer to the quick-reference card for the “position” number (position 1 is the top-
+most radio box and position 4 is bottom-most radio box). 
+7.1.2.2. Loosely attach the respective radio box directly above the locator ring at the 
+specified position. The radio box is oriented with the two cable connection plugs facing 
+down on the same side as the locator ring. 
+7.1.2.3. The angle is set relative to the reference (back) leg of the tripod using the 
+reference card to obtain the correct angle (Figure 7.8). 
+7.1.2.4. Rotate the radio box to align the notch in the center of the box to the specified 
+angle on the locater ring (Figure 7.9). 
+7.1.2.5. Once aligned, tighten the quick-release clamp on the mast. 
+7.1.2.6. Connect the electrical and Ethernet cables to the radio box. 
+ 
+AFTTP3-32.11  18 MAY 2022 
+ 
+29 
+ 
+ 
+Figure 7.8. Setting Angle Relative to the Tripod Reference Leg. 
+ 
+Figure 7.9. Locator Ring. 
+ 
+7.1.2.7. Repeat this process for all the radio boxes. 
+7.1.2.8. Power is supplied to the four radio boxes via the junction box on the bottom of 
+the mast. The junction box has four electrical pigtails, each with sealed power connectors 
+that mate with the radio boxes. 
+7.1.2.8.1. Mount the electrical junction box to the section of the mast below the two 
+upper (radio box) sections. 
+7.1.2.8.2. Leave the main power to the junction box unplugged while completing 
+these steps. 
+7.1.2.8.3. Stretch out the cables and reserve the Velcro® straps for a later step. 
+7.1.2.8.4. For each radio box, align the power connector. The connector has three pins 
+along its top and two pins along its bottom (Figure 7.10). 
+AFTTP3-32.11  18 MAY 2022 
+30 
+Figure 7.10. Connector Pin Alignment. 
+7.1.2.8.5. Insert the power connector into the radio box and twist the collar clockwise 
+to lock it. Ensure the twist lock has engaged properly; an inadvertent disconnection 
+will cause loss of communication to SUAS during the RADAS mission. 
+7.1.2.9. Connect each radio box to its Ethernet spool before raising the mast. It is 
+important to match the correct cable with the correct radio. 
+7.1.2.9.1. Identify the Ethernet cable for each of the four radio enclosures. All cables 
+are labeled on both ends with ALPHA, BRAVO, etc. 
+7.1.2.9.2. Place the spools near the base of the radio tripod. 
+Note: Cables are run from the GCS before unspooling cable from the outside of the reel. 
+7.1.2.9.3. Unspool the 25-feet length of cable from the outside of each spool. 
+7.1.2.9.4. Identify the corresponding radio by its painted label (A, B, etc.). 
+7.1.2.9.5. Carefully insert the plug connector into the Ethernet receptacle on the radio 
+box. To prevent damage to the connectors, do not force the connections. 
+7.1.2.9.6. Apply slight pressure on the plug while tightening the connector nut. 
+7.1.2.9.7. Repeat these procedures for each radio box. 
+7.1.2.9.8. Run the power and Ethernet cables behind the radio boxes. 
+7.1.2.9.9. Use the Velcro® straps (retained from the electrical junction box) to secure 
+the cables to the mast at multiple points. 
+7.1.2.10. After assembling the mast and connecting the cables, use the hinged feature to 
+raise the mast. This operation is performed by three personnel with no special equipment 
+required. 
+7.1.2.10.1. Ensure the tripod is secured with stakes or by sandbags. 
+7.1.2.10.2. Insert the bottom section of the mast into the base of the tripod. 
+7.1.2.10.3. Align the lower hole in the bottom mast with the lower of the two L-
+shaped holes in the tripod base. Ensure the 0° mark on the locator ring is pointed up. 
+7.1.2.10.4. Insert the retaining pin through the L-shaped hole and the bottom mast 
+section (Figure 7.11). 
+AFTTP3-32.11  18 MAY 2022 
+ 
+31 
+ 
+ 
+7.1.2.10.5. Ensure the retaining pin is in the upper part of the L-shaped hole before 
+raising mast. 
+Note: Attempting to hinge the mast in any other position may result in damage to the bottom 
+mast section. 
+7.1.2.10.6. Hinge the mast upward. 
+Figure 7.11. Retaining Pin Inserted Through L-Shaped Hole. 
+ 
+7.1.2.10.7. Once the mast is vertical, let the retaining pin lower into the bottom part of 
+the L-shaped slot to secure the mast into place. 
+7.1.2.10.8. Close and lock the quick release clamp around the mast (Figure 7.12). 
+Figure 7.12. Quick Release Clamp Closed and Locked. 
+ 
+7.1.2.12. After raising the mast, connect the guy wires on the guy wire collar to the tripod 
+feet. Proper completion of this step is required for stability. 
+7.1.2.12.1. Route guy wires so they are free of cables and radio boxes. Guy wires 
+should be routed behind or to the sides of radio boxes, never in front of them. 
+7.1.2.12.2. Fully loosen the turnbuckle and clip the hook into the corresponding 
+tripod leg. 
+7.1.2.12.3. Tighten the turnbuckles evenly on each wire. 
+7.1.2.12.4. Inspect the wires for tightness. Each guy wire should have a light level of 
+tension, and the mast should be plumb. 
+ 
+AFTTP3-32.11  18 MAY 2022 
+32 
+7.2. GCS Setup. After setting up the radio/antenna tripod during the pre-attack phase, the SUAS 
+and GeoExPT Operators work together to set up the GCS (Figure 7.13). All GCS components 
+are collocated indoors at the location determined during the site survey. The optimum GCS 
+location is centralized and directly accessible to the airfield operating surfaces, within 300-feet of 
+the LRZ, away from radars and other frequency generation sites, and has connection to the 
+installation Non-Secure Internet Protocol Router (NIPR) Net. 
+7.2.1. The average setup time takes the team 45-to 60-minutes in the anticipation pre-attack 
+phase for set up of the entire kit from packaging. Aside from the radio boxes, the system can 
+stay set up. The radio boxes, however, can only be exposed to weather for less than 30-days. 
+See RADAS Concept of Operation (CONOP) for the detailed guidance on who does what 
+function and when and ties the actions to the appropriate alarm conditions.  
+Figure 7.13. GCS Components. 
+7.2.2. First, connect the central power and networking. All RADAS GCS components are 
+powered through the two UPS units. Only plug RADAS components into the UPS; 
+otherwise, it shortens the reserve power. Only the UPS units are to be connected to the 
+facility’s power supply. 
+7.2.2.1. Plug in the battery connector in the back of the UPS (disconnected for shipment). 
+7.2.2.2. Plug in the input of the UPS to AC line power of the GCS facility. 
+7.2.2.3. Press and hold the power button on the front of the UPS to turn it on. 
+7.2.2.4. Plug a power strip (supplied with the RADAS hardware) into the back of each 
+UPS. All components connect to power via these power strips (instead of directly into the 
+UPS). 
+7.2.3. The RADAS is supplied with a Cisco Catalyst 3850 network switch pre-configured 
+specifically for the system architecture. 
+7.2.3.1. Insert the switch power supply into the back of the network switch. 
+7.2.3.2. Plug in the Cisco power cable supplied with the switch. Plug the input end of the 
+cable into UPS 1 via the power strip. 
+7.2.3.3. The switch automatically boots when power is applied; however, it may take 
+approximately five minutes to boot. 
+AFTTP3-32.11  18 MAY 2022 
+33 
+7.2.3.4. The RADAS switch configuration is designed specifically for the RADAS 
+mission (Figure 7.14). Specific ports on the front of the switch are separated on three 
+Virtual Local Area Network (VLAN). For maintenance and troubleshooting, the right-
+most ports are configured as Management and Trunk Ports; therefore, no RADAS 
+equipment is connected to these ports. 
+Figure 7.14. Network Switch Color Coding. 
+7.2.4. The SUAS-O Station is comprised of two tablet PCs, docking stations, and supporting 
+hardware. 
+7.2.4.1. The SUAS control tablet has two Ethernet connections, one to the main RADAS 
+network and one to the SUAS base station radio. 
+7.2.4.2. Each SkyRanger™ kit comes with a tablet PC and power adapter, there are four 
+tablets in the RADAS equipment kit, but only two are required for the mission. Each 
+SUAS-O chooses one tablet for the mission (each pair of tablets is configured 
+identically). 
+7.2.4.2.1. Operator 1: Tablet Alpha or Bravo (both tablets are paired with Docking 
+Station 1). 
+7.2.4.2.2. Operator 2: Tablet Charlie or Delta (both tablets are paired with Docking 
+Station 2). 
+7.2.4.2.3. Unpack docking station and insert tablet PC. Both docking stations are 
+labeled. 
+7.2.4.2.3.1. SUAS-O 1: Docking Station 1. 
+7.2.4.2.3.2. SUAS-O 2: Docking Station 2. 
+7.2.4.2.3.3. Connect power to the tablet and monitors. 
+7.2.4.2.3.4. Connect the power adapter (from the SkyRanger™ mission case) to 
+the back of the docking station. 
+7.2.4.2.3.5. Connect the input of the power adapter to UPS 1 (via the power strip). 
+7.2.4.2.3.6. Connect keyboard and mouse to USB ports on the back of the docking 
+station. 
+7.2.4.2.3.7. Use the supplied High Definition Multimedia Interface (HDMI) to 
+Digital Visual Interface (DVI) cable (in the monitor box) to connect the tablet PC 
+to the second monitor. 
+Note: Make this connection directly from the HDMI port on the side of the tablet, not the 
+docking station. A connection to the docking station may result in poor display performance. 
+7.2.4.2.4. Each SUAS-O performs the following steps to make Ethernet connections 
+to the SUAS control tablet. All Ethernet cables are pre-labeled and provided as part of 
+AFTTP3-32.11  18 MAY 2022 
+34 
+the RADAS system kit. During this step, it is important to follow the labeling of each 
+cable and to connect to the correct ports on the central network switch. 
+7.2.4.2.4.1. Connect the Ethernet cable between the tablet and the SUAS VLAN. 
+7.2.4.2.4.2. Connect the cable labeled “Mission Control Software (MCS) Tablet 
+[X] Top” to the jack on top of the tablet.
+7.2.4.2.4.3. Connect the other end of the cable (“MCS Tablet [X] Switch VLAN 
+[X0]”) to the correct port on the network switch. 
+7.2.4.2.4.4. Connect the Ethernet cable between the tablet and the RADAS 
+network VLAN. 
+7.2.4.2.4.5. Connect the cable labeled “MCS Tablet [X] Dock” to the jack on the 
+back of the docking station. 
+7.2.4.2.4.6. Connect the other end of the cable (“MCS Tablet [X] Switch 
+RADASnet”) to the correct port on the network switch. 
+7.2.4.2.5. The GeoExPT Operator Station is comprised of two laptop PCs, docking 
+stations, and supporting hardware. 
+7.2.4.2.6. Connect the power supply to the GeoExPT docking station and connect the 
+input end to UPS 2 (via power strip). 
+7.2.4.2.7. Connect the power cables to the extra monitors (one for each GeoExPT 
+computer and connect the input end to UPS 2 (via power strip). 
+7.2.4.2.8. Connect mouse and disc reader to the USB ports on each of the GeoExPT 
+docking stations. 
+7.2.4.2.9. Each GeoExPT computer has a single Ethernet connection to the RADAS 
+network. Each GeoExPT Operator performs the following steps to make the proper 
+Ethernet connections. All Ethernet cables are pre-labeled and provided as part of the 
+RADAS system kit. During this step, it is important to follow the labeling of each 
+cable and to connect to the correct ports on the central network switch. 
+7.2.4.2.10. Connect the cable labeled “GeoStation [X]” to the jack on the docking 
+station. 
+7.2.4.2.11. Connect the other end of the cable (“GeoStation [X] Switch RADASnet”) 
+to the correct port on the network switch (Figure 7.15). 
+Figure 7.15. Network Switch. 
+7.2.5. The Ethernet and power connections to the antenna/radio subsystem are made inside 
+the GCS. The RADAS system uses pass-throughs to connect power and data between the 
+AFTTP3-32.11  18 MAY 2022 
+ 
+35 
+ 
+ 
+GCS and the radio boxes. To use the cable pass-throughs, simply open the pass-through 
+cover and feed the switch end (inside-use connector) into the GCS. Once the cable lengths 
+have been adjusted properly, be sure to strain-relief the cables outside with a sand bag or 
+equivalent. 
+7.2.5.1. The SkyRanger™ base station radios are powered via a single AC electrical 
+connection made to the UPS inside of the GCS. The UPS provides a continuous source of 
+power to the radios. 
+7.2.5.2. Connect the radio power cable (labeled “Radio Power”) to UPS 1. 
+Note: If this cable is unplugged, the radios will turn off and the operators will lose connection to 
+the aircraft. The radios will reboot when the cable is plugged back in after 2-3 minutes. 
+7.2.5.3. Each radio has an independent Ethernet connection. Connect the four Ethernet 
+cables to the network switch. All Ethernet cables are pre-labeled and provided as part of 
+the RADAS system kit. During this step, it is important to follow the labeling of each 
+cable and to connect to the correct ports on the central network switch. 
+7.2.5.4. Connect the four radio Ethernet cables to the central network switch according to 
+the Table 7.1. 
+Table 7.1. Cable Connection Matrix. 
+Cable 
+Label 
+Connection 
+Alpha SUAS 
+ALPHA SW 
+VLAN 10 
+Ports 1-6 
+Bravo SUAS 
+BRAVO SW 
+VLAN 10 
+Ports 1-6 
+Charlie SUAS CHARLIE SW 
+VLAN 20 
+Ports 7-12 
+Delta SUAS 
+DELTA SW 
+VLAN 20 
+Ports 7-12 
+7.2.6. The primary system components of RADAS are “air gapped” and not allowed to be 
+connected to the Air Force network. Each RADAS system comes with a third laptop PC for 
+connection to NIPRnet. This laptop is labeled “NIPRnet PC” and is equipped with a mouse 
+but no second monitor. 
+7.2.6.1. Connect the power adapter to the back of the NIPRnet laptop docking station and 
+connect the input end of the power adapter to UPS 2 (via the power strip). 
+7.2.6.2. Connect the mouse and disc reader to USB ports on the NIPRnet docking station. 
+7.2.6.3. Connect an Ethernet cable between the NIPRnet docking station and an active 
+NIPRnet port (either from RADAS extra cables or supplied locally). 
+Note: Data is transferred between the GeoExPT laptops and the NIPRnet computer via DVD 
+drive/disc. No RADAS hardware should be connected to the NIPRnet other than the NIPRnet 
+computer. 
+7.3. Charging Batteries. Ensure SUAS batteries are fully charged prior to use. Do this by 
+placing the batteries in the charging ports of the case (Figure 7.16) and connecting the case to a 
+120-vac outlet using the power cord provided. Once the battery is fully charged, use the battery 
+AFTTP3-32.11  18 MAY 2022 
+36 
+button on the top to check battery charge status. Prior to flying the SUAS, connect the battery to 
+the top of the SUAS body. 
+Figure 7.16. Battery Charging Case. 
+7.4. FLIR SkyRanger™ Setup. Before operation, the FLIR SkyRanger™ SUAS (Figure 7.17) 
+requires assembly. 
+Figure 7.17. FLIR SkyRanger™. 
+7.4.1. The kit comes with eight legs, two of which are antenna legs that can be identified by a 
+small wire connector used to plug into the SUAS body (Figure 7.18). Connect one antenna 
+and three non-antenna legs to the SUAS body. There is only one antenna leg plug-in on the 
+SUAS body. If the antenna leg is installed in the wrong spot, swap it with a misplaced non-
+antenna leg. Only four of the legs are used. There are three non-antenna legs and one antenna 
+leg spare. 
+Figure 7.18. Non-Antenna and Antenna Legs. 
+7.4.2. There are eight propeller arms. The arms are color-coded, four black and four white 
+(Figure 7.19), to correspond with placement on the SUAS body. Connect two black and two 
+white arms to the SUAS body, paying attention to the color-coding. Only four of the eight 
+arms are used. There are two spares of each color. 
+AFTTP3-32.11  18 MAY 2022 
+ 
+37 
+ 
+ 
+Figure 7.19. Propeller Arms. 
+ 
+7.4.3. Remove the programming payload from the bottom of the SUAS body by turning the 
+locking lever. 
+7.4.4. Connect either the EO or the LWIR camera to the bottom of the SUAS body and lock 
+in place by turning the locking lever. The EO camera is typically used when visibility is good 
+while the LWIR camera is utilized in low visibility environments. Ensure the sensor has a 
+blank SD card installed (as appropriate per sensor). 
+7.4.5. Prior to flight, connect a battery to the SUAS in the allocated spot on top of the SUAS 
+(Figure 7.20). 
+7.4.6. Ensure a blank SD card is installed in the bottom of the SUAS. The SD card is the only 
+way to get high-resolution mission photos; the files passed by MCS are not much more than 
+thumbnails. When the aircraft lands, either the SUAS-O or the GeoExPT operators should 
+transfer the photos into the media folder on Geo1 (there are SD readers on all the machines). 
+7.4.7. Ensure all data is downloaded from the SD card after each mission is over and a new 
+card is used for each mission. Enough cards are fielded to swap them out and transfer the 
+files during the mission. 
+Note: SUAS operations are to be performed by a trained and certified (SUAS-O) only. 
+Instructions provided in this TTP are provided for any potential assistance to the SUAS-O in 
+assembly of the aircraft and its supporting equipment. There are additional operational checks 
+not included in this TTP, which are covered in the SUAS-O training slides, operator’s manual, 
+and checklists. 
+ 
+ 
+AFTTP3-32.11  18 MAY 2022 
+38 
+Figure 7.20. Connecting Battery. 
+AFTTP3-32.11  18 MAY 2022 
+ 
+39 
+ 
+ 
+Chapter 8 
+GeoExPT RADAS OPERATIONS 
+8.1. GeoExPT. The following paragraphs describe specific GeoExPT operations as they apply to 
+RADAS. For basic instruction, a GeoExPT Users Guide is available on the Expeditionary 
+Engineering SharePoint™ at https://usaf.dps.mil/sites/13072/SitePages/Homepage.aspx. 
+8.1.1. Double click the GeoExPT icon on the Geo-1 and -2’s desktop to open GeoExPT. 
+Note: Do not use the AutoCAD® Map3D icon to access the program, doing so does not enable 
+GeoExPT functionality. Conversely, opening the program with the GeoExPT icon enables all 
+GeoExPT as well as all Map3D functionality. 
+8.1.2. Open the installation GeoExPT Scenario. 
+8.1.3. In the ADR Sync tab, connect the Geo-2 computer to GAS by clicking on the Connect 
+button. 
+Note: GAS is initiated automatically on Geo-1 during start-up. Geo-2 is required to connect to 
+GAS to have any RADAS functionality. Once all operators, Geo-1, Geo-2, SUAS Station Alpha-
+Bravo, and Charlie-Delta send the test message via the chat function to ensure connectivity of all 
+systems and confirmed by the team lead. Once all operators (Geo-1, Geo-2, and SUAS Stations 
+Alpha-Bravo and Charlie-Delta) send a test message, the team lead reports mission ready status 
+to the EOC. 
+8.1.4. In the ADR Sync tab on both the Geo-1 and -2 computers, turn on the chat feature by 
+clicking on the Chat button. This function provides a communication feature common to all 
+GAS connected devices, both Geo computers and SUAS control tablets. 
+8.1.5. Enable video rotation by clicking the GeoExPT Settings button in the View tab. 
+8.1.5.1. Select “media” from the menu on the right-hand side. 
+8.1.5.2. Click-on the Show Video Rotation Slider and close the dialog box. 
+8.1.6. In the View tab, open Media Panel in the Panes group. This opens the video control 
+window. 
+8.1.7. To open the SUAS video feed, click on the library tab and then the Document icon 
+(Figure 8.1). 
+8.1.7.1. Once the dialog box opens, click the folder icon to browse the SUAS media 
+folder. The SUAS-O needs to establish the video feed in order to be viewed in GeoExPT. 
+Figure 8.1. Media Panel. 
+ 
+Slider 
+Library 
+Tab 
+Document  
+Icon 
+AFTTP3-32.11  18 MAY 2022 
+40 
+8.1.7.2. Double click on the video file or highlight the file and press enter to view and 
+manipulate the video in GeoExPT. If there are multiple videos in the file, the live video 
+does not have a time associated with them. Once a live feed has ended and is saved, the 
+date and time is displayed, making them easily identifiable as older videos. 
+8.1.7.3. Repeat this process to view and manipulate additional video feeds. 
+8.1.7.4. The Geo-1 computer’s GeoExPT operator monitors two SUAS operations; SUAS 
+Alpha and Bravo feeds are monitored on Geo-1 computer while Charlie and Delta are on 
+Geo-2. 
+8.1.8. To activate the video, click the slider bar below the video thumbnail. 
+8.1.9. Click on the video tab in the Media Panel (Figure 8.2) to view the thumbnails of the 
+video feeds. 
+8.1.10. Double click on the video to expand (pop out) the video to allow better viewing of the 
+video stream. More importantly,  the video feed must be expanded and geospatially 
+connected for feature, UXO, craters and crater fields, spalls and spall fields, etc., placement. 
+8.1.11. Click on the Globe icon below the video to place the video on the map geospatially. 
+8.1.11.1. The slider bar beneath the video indicates position of the video relative to time. 
+Sliding the bar to the far right brings the video to real time. 
+Figure 8.2. Media Panel. 
+\ 
+8.1.11.2. The “Leave Behind” icon to the bottom right of the video shows leave behinds 
+of the video. Leave behinds are single images with a 10% overlap creating a very 
+rudimentary mosaic (Figure 8.3). The “leave behinds” only show about one minute 
+worth of images. 
+Connect Geospatially 
+Leave behind 
+Zoom to 
+Time adjustment bar 
+Video adjustment bar 
+AFTTP3-32.11  18 MAY 2022 
+41 
+Figure 8.3. GeoExPT with Leave Behinds. 
+8.1.11.3. Clicking on the binocular icon zooms to the video feed on the map. 
+8.1.11.4. Moving the video rotation adjustment bar on the right of video player rotates the 
+video/leave behinds. Ideally, the collection should be parallel to the surface’s centerline. 
+Adjusting the view does not change the video feed; it only adjusts the view of the 
+GeoExPT operator. Failure to adjust the video could skew the geospatial digitization 
+results. It is recommended this adjustment be applied for each surface collection. 
+8.1.12. Digitize damage and UXO on the video while the video is playing or paused using the 
+same steps as GeoExPT without RADAS connected. Users may also digitize damage or 
+UXO on the map itself (Figure 8.4).  
+8.1.12.1. Damage placed is seen by both GeoExPT operators. If digitizing damage in the 
+video panel, it is best to digitize in the center of the view (Figure 8.5). The video panel 
+does not have zoom capability, therefore digitize in the main map view for best accuracy. 
+Figure 8.4. Video Editor with Damage Plotted. 
+AFTTP3-32.11  18 MAY 2022 
+42 
+Figure 8.5. GeoExPT with Damage Plotted. 
+8.1.12.2. Once the initial assessment run is complete, the SUAS-O sends the SUAS back 
+to these identified points with a fresh battery and SD-Card at a lower elevation, enabling 
+a high resolution or oblique inspections. 
+8.1.13. Once the damage and UXO are identified, MAOS candidates are identified and a 
+MAOS candidate report is generated. The steps for MAOS selection in GeoExPT have not 
+changed and can be found in the GeoExPT User Guide. 
+8.1.13.1. The report is generated in GeoExPT by selecting the Minimum Operating Strip 
+(MOS) Candidate Selection button in the Reports Tab. 
+8.1.13.2. Once the MOS Candidate Selection Report dialog is displayed, select “print” to 
+generate the report as an Excel spreadsheet. 
+8.1.13.3. Save the report and copy it onto a writeable DVD. 
+8.1.13.4. Send the report to the EOC via the NIPR computer for the MAOS selection 
+briefing. 
+8.2. Archiving and Troubleshooting. All RADAS data is stored on the GeoExPT stations in the 
+C:\RADAS\SUAS-Data folder. Before each mission, old media files should be archived to 
+prevent confusion. Asset Interface regenerates folders for the aircraft to store videos, so the 
+entire SUAS Data\Videos folder can be archived.  
+8.2.1. To archive video files: 
+8.2.1.1. Verify Asset Interface is not running on the SUAS Control Station. 
+8.2.1.2. Create new folder in C:\RADAS\SUAS-Data\Videos called [YYYY]-[MM]-
+[DD] VideoArchive (for example, ‘2020-01-01_VideoArchive’ for footage filmed on
+January 1, 2020).
+8.2.1.3. Highlight folders Alpha through Delta. 
+8.2.1.4. Drag folders to new archive folder. 
+8.2.2. To archive images: 
+AFTTP3-32.11  18 MAY 2022 
+43 
+8.2.2.1. Verify Asset Interface is not running on the SUAS Control Station. 
+8.2.2.2. Create new folder in C:\RADAS\SUAS-Data\Images called YYYY-MM-
+DD_ImageArchive. 
+8.2.2.3. Drag all image folders to new archive folder. 
+8.2.3. It is the GeoExPT operator’s responsibility to manage hard drive space on the Geo 
+Station laptops. It is recommended the operators archive video and image data to an external 
+repository after each major exercise. 
+8.2.4. The SkyRanger™ automatically downloads logs to MCS after each flight. It is 
+recommended the SUAS-O allow log downloads to complete after each set of missions (e.g., 
+once or twice per day of operating). These logs are compiled as part of the log compilation 
+steps below. 
+8.2.4.1. MCS and Asset Interface also generate log files during operation. It is 
+recommended the SUAS-Os archive log files after each major exercise. To perform this 
+function, MCS control tablets are pre-configured with a log compilation script. This 
+script compresses and copies SUAS, MCS, and Asset Interface logs to an archive 
+directory in C:\RADAS\Logs. To create a compressed log archive, perform the following 
+steps. 
+8.2.4.1.1. Navigate to C:\RADAS\Software\Bin\AssetInterfaceLaunchers. 
+8.2.4.1.2. Run GetLogFiles.bat (double-click). 
+8.2.4.1.3. A compressed folder is generated in C:\RADAS\Logs with the timestamp 
+of when the archive is created. 
+8.2.4.2. The primary log-generating software on the Geo Station laptops is GeoExPT. 
+Logs are generated in the following folder: 
+C:\Dynamic Software Solutions\GeoExPT Plugin \[Version]\GeoExPTPlugin. 
+bundle\Contents\Logs 
+8.2.5. If problems arise that cannot be resolved through normal GeoExPT/ AutoCAD® Map 
+3D troubleshooting measures, a system restoration disc is supplied that resets the computer to 
+its original state. Any data captured after initial delivery of the system will be lost. In 
+addition, the AFCEC Reachback Center can provide assistance. Their contact information is 
+as follows: 
+Air Force Civil Engineer Center 
+Reachback Center 
+Through CE DASH, 
+NIPR: afcec.rbc@us.af.mil, 
+SIPR: usaf.tyndall.afcec.mbx.afcec@mail.smil.mil 
+DSN 523-6995, 
+Commercial 850 283-6695/888-232-3721 
+AFTTP3-32.11  18 MAY 2022 
+44 
+Chapter 9 
+ASSESSMENT PROCESS 
+9.1. Assessment Methodologies. The SUAS fly on preprogramed flight plans designed to 
+optimize aircraft performance, predominate environmental conditions, and coverage of the 
+airfield operating surfaces. These are not the same routes utilized by the ADATs. Generally, the 
+data collection is based on the priority order listed in Table 9.1. 
+Table 9.1. Assessment Priorities. 
+Priority 
+Airfield Location 
+1 
+Takeoff or landing surfaces (e.g., runways, alternate launch and recovery 
+surfaces, and taxiway segments long enough to permit aircraft launch and 
+recovery) 
+2 
+Access pavements to takeoff or landing surfaces 
+3 
+Aircraft parking areas 
+4 
+Infrastructure such as lighting (including [PAPIs], utility lines, signage, etc.) 
+5 
+Aircraft arresting systems 
+6 
+Aircraft rearming and refueling areas 
+7 
+Other specified locations as defined in the Facility Prioritization List or as 
+determined by installation leadership 
+9.2. Installation Sectors. Due to amount of pavement to be assessed, the installation is divided 
+into four sectors. These sectors are determined based on radio performance from the centralized 
+GCS, and attempts to equalize the data collection times for each sector. Expect this process to 
+take 15-20 minutes. Figure 9.1 represents the installation divided into sectors. 
+9.3. Flight Profiles. There are four basic SUAS flight profiles to perform damage assessment as 
+listed below. 
+9.3.1. Visual Inspection of the Airfield Operating Surfaces. Visual Inspection entails 
+launching the SUAS on a preprogrammed path over the airfield operating surfaces to collect 
+video data of the surfaces. Data is stored on board the aircraft and streamed in real-time to 
+the GCS (two GeoExPT stations). This replicates ADATs driving the airfield operating 
+surfaces. The 3E5X1 and 3E8X1 technicians are able to digitize damage and UXO features 
+on the live video and mark areas of concern for further investigation. GeoExPT provides the 
+ability to pause and rewind videos to give technicians time to fully analyze video streams. 
+Figure 9.1. Installation Sector Zones. 
+AFTTP3-32.11  18 MAY 2022 
+45 
+9.3.2. Interrogation of an Area of Interest (AOI). The second and third SUAS missions are to 
+further investigate the identified areas of concern. They have the ability to fly at different 
+elevations (to improve the ground pixel resolution), fly at different oblique angles, and take 
+photos or more video for further inspection. 
+9.3.2.1. Still Photos. Still photos entail launching the SUAS to a designated coordinate, 
+hovering at a lower elevation, and collecting still pictures (at NADIR or oblique) of an 
+item of interest. 
+9.3.2.2. Video. This entails launching the SUAS to a designated coordinate, circling the 
+AOI at a lower elevation, and capturing video (at NADIR or oblique) of the AOI. 
+9.3.3. Data Transfer. Data is streamed in real-time from the SUAS to GeoExPT in the GCS. 
+If a technical difficulty prevents the SUAS from stream data in real-time, the SUAS is landed 
+near the GCS after the route is complete and the memory card extracted for delivery to the 
+GCS. The MAOS Selection Team imports data from the memory card into GeoExPT. The 
+MAOS Selection Cell analyses and selects at least three MAOS candidates. Once the MAOS 
+candidates are created, the GeoExPT MAOS candidate report is copied to a DVD to transfer 
+data to the NIPR computer located in the GCS. The information is then fed into the EOC to 
+brief the Installation Commander for final MAOS selection. 
+9.4. RADAS Workflow. RADAS follows the traditional assessment workflow, which is directly 
+tied the USAF Alarm Conditions. Figure 9.2 reflects major RADAS tasks associated with each 
+alarm Condition. 
+Figure 9.2. RADAS Workflow. 
+WARREN D. BERRY 
+Lieutenant General, USAF 
+DCS/Logistics, Engineering & Force Protection
+AFTTP3-32.11  18 MAY 2022 
+46 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+Air Force Doctrine Annex 3-34, Engineer Operations, 17 December 2018 
+AFI 10-210, Prime Base Engineer Emergency Force (BEEF) Program, 9 July 2019 
+AFI 10-209, RED HORSE Program, 11 June 2019 
+AFI 33-322, Records Management and Information Governance Program, 23 March 2020 
+AFPAM 10-219, Volume 3, Civil Engineer Contingency Response and Recovery Procedures, 7 May 2015 
+AFPAM 10-219, Volume 4, Airfield Damage Repair Operations, 28 May 2008 
+AFTTP 3-32.5, Volume 6, Explosive Ordnance Disposal (EOD) UXO Operations, 28 April 2015 
+JP 3-30, Joint Air Operations, 25 July 2019 
+Prescribed Forms 
+No prescribed forms are implemented in this publication.  
+Adopted Forms 
+AF Form 847, Recommendation for Change of Publication 
+Abbreviations and Acronyms 
+ADAT—Airfield Damage Assessment Team 
+ADR—Airfield Damage Repair 
+AFI—Air Force Instruction 
+AFPAM—Air Force Pamphlet 
+AFTTP—Air Force Tactics, Techniques, and Procedures 
+CAT—Crisis Action Team 
+CE—Civil Engineer 
+DVD—digital versatile disc 
+DVI—Digital Visual Interface 
+EOC—Emergency Operations Center 
+EOD—explosive ordnance disposal 
+GAS—GeoExPT ADR Synchronization 
+GCS—Ground Control System 
+GeoExPT—Geospatial Expeditionary Planning Tool 
+HDMI—High-Definition Multimedia Interface 
+AFTTP3-32.11  18 MAY 2022 
+47 
+JP—Joint Publication 
+MAOS—minimum airfield operating surface 
+MCS—Mission Control Software 
+MGRS—Military Grid Reference System 
+MOS—Minimum Operating Strip 
+NIPR—Non-Secure Internet Protocol Router 
+OPR—office of primary responsibility 
+PRMS—Pavement Reference Marking System 
+RADAS—Rapid Airfield Damage Assessment System 
+RADR—Rapid Airfield Damage Recovery 
+SUAS—Small Unmanned Aircraft System 
+SUAS-O—SUAS Operator 
+TOL—takeoff or landing 
+TTP—tactics, techniques, and procedures 
+UXO—unexploded explosive ordnance 
+VLAN—Virtual Local Area Network 
+Terms 
+Access route—The route aircraft must take from the parking area/shelter to a TOL surface. 
+Typically the route meanders to avoid damage. The time to clear or repair the access route is a 
+consideration in MAOS selection. The terms “transition path, taxiway, and transition route” are 
+sometimes used to indicate an access route on a launch or recovery surface. 
+Actual crater diameter—The actual crater diameter is the diameter across the crater after the 
+heaved pavement has been removed; in other words, the actual size of the required repair, in 
+most cases is significantly larger than the apparent diameter. 
+Airfield—An area prepared for the accommodation (including any buildings, installations, and 
+equipment), landing, or takeoff of aircraft. 
+Air tasking order (ATO)—A method used to task and disseminate to components, subordinate 
+units, and command and control agencies projected sorties, capabilities and/or forces to targets 
+and specific missions. Normally provides specific instructions to include call signs, targets, 
+controlling agencies, etc., as well as general instructions. Source: Joint Publication (JP) 3-30, 
+Joint Air Operations. 
+Airfield damage assessment—Locating, classifying, and measuring the damage (camouflet, 
+crater, spall, and UXO) on the airfield operating surfaces. 
+Airfield Damage Assessment Team (ADAT)—An airfield recovery team, typically located in 
+or near the EOC and directed by the ESF 3, used to identify and locate airfield damage and UXO 
+following an attack. Their initial efforts are normally targeted towards the airfield proper; but can 
+also be employed elsewhere as deemed necessary. The ADAT usually consists of one 
+AFTTP3-32.11  18 MAY 2022 
+48 
+engineering technician and two EOD technicians. A CE member trained as an EOD assistant 
+may replace one of the EOD technicians when two are unavailable for ADAT. The ADAT 
+should be equipped with an armored vehicle and communications enabling them to report their 
+observations to the MAOS Selection Cell. The ADAT damage reports must be accurate, as this 
+information is used in MAOS selection. 
+Alarm black—An alert condition signifying the attack is over, but post attack hazards are likely 
+present. Personnel should follow the directions from the EOC and CAT in regards to movement, 
+personal protective equipment, and individual protective equipment. 
+Apparent crater diameter—The visible diameter of the crater, inside edge to inside edge, at the 
+original surface level prior to debris being removed. In actual practice, this can be measured 
+from pavement edge to pavement edge. Apparent diameter is the information forwarded to the 
+MAOS Selection Cell by the ADATs. 
+Apron/ramp—A defined area on an airfield intended to accommodate aircraft for the purposes 
+of loading or unloading passengers or cargo, refueling, parking, or maintenance. 
+Bomblet field—A cluster of sub-munitions within a defined area. 
+Camouflet—Craters with relatively small apparent diameters, but deep penetration and 
+subsurface voids created by the munition puncturing through the pavement surface and 
+exploding in the base material. Note: Munitions that penetrate the surface but do not explode are 
+also treated as a camouflets. 
+Camouflet field—A cluster of spalls within a defined area. 
+Crater—The pit, depression, or cavity formed in the surface of the earth by an explosion. It may 
+range from saucer-shaped to conical, depending largely on the depth of burst. 
+Crater field—A cluster of small craters (less than two feet apart) where their upheaval joins the 
+neighboring crater within a defined area. 
+Damage assessment—1. The determination of the effects attacks have on targets. 2. (AF/CE) 
+The process of identifying and locating damage and UXO following an attack. Damage 
+assessment activities generally are separated into two categories: airfield pavements and 
+facility/utility. 
+Emergency Operations Center—A temporary or permanent facility where the coordination of 
+information and resources to support domestic incident management activities normally takes 
+place. 
+Explosive hazard—Any hazard containing an explosive component to include unexploded 
+explosive ordnance (including land mines), booby traps (some booby traps are nonexplosive), 
+improvised explosive devices (which are an improvised type of booby trap), captured enemy 
+ammunition, and bulk explosives. 
+Explosive ordnance—All munitions containing explosives, nuclear fission or fusion materials, 
+and biological and chemical agents. 
+Explosive ordnance disposal (EOD)—The detection, identification, on-site evaluation, 
+rendering safe, recovery, and final disposal of unexploded explosive ordnance. It may also 
+include explosive ordnance which has become hazardous by damage or deterioration. 
+Initial reconnaissance—The initial, long-range damage assessment conducted from observation 
+AFTTP3-32.11  18 MAY 2022 
+49 
+posts, control towers, airbase point defense positions, and other airfield vantage points. 
+MAOS selection—The process of plotting damage and UXO locations on an airbase runway 
+map and using this information to select a portion of the damaged runway which can be repaired 
+most quickly to support aircraft operations. 
+Minimum airfield operating surface (MAOS)—The combined requirement for airfield 
+surfaces for both runway and access routes. The MOS is a component of the MAOS. 
+Minimum operating strip (MOS)—1. A runway, which meets the minimum requirements for 
+operating assigned and/or allocated aircraft, types on a particular airfield at maximum or combat 
+gross weight. 2. The MOS is the smallest amount of area to be repaired to launch or recover 
+aircraft after an attack. Selection of this MOS depends upon mission requirements, taxi access, 
+resources available and estimated time to repair. For fighter aircraft, the typically accepted 
+dimensions are 5,000 feet long by 50 feet wide. 
+NADIR—Camera axis (in the direction of the lens) perpendicular to the ground/object. 
+Ordnance—Explosives, chemicals, pyrotechnics, and similar stores, e.g., bombs, guns and 
+ammunition, flares, smoke, or napalm. 
+Personnel—Those individuals required in either a military or civilian capacity to accomplish the 
+assigned mission. 
+Procedures—Standard, detailed steps that prescribe how to perform specific tasks. 
+Ramp—see “apron.” 
+Rapid Airfield Damage Assessment System (RADAS)—A remotely operated system to 
+rapidly assesses airfield damage and UXO after an attack and provides data necessary to rapidly 
+repair the airfield to meet Combatant Commander ATO requirements. 
+RED HORSE—Air Force units wartime-structured to provide a heavy engineer capability that 
+are mobile, rapidly deployable, and largely self-sufficient for limited periods of time. 
+Reconnaissance—A mission undertaken to obtain, by visual observation or other detection 
+methods, information about the activities and resources of an enemy or adversary, or to secure 
+data concerning the meteorological, hydrographic, or geographic characteristics of a particular 
+area. 
+Render safe procedures—The portion of the explosive ordnance disposal procedures involving 
+the application of special explosive ordnance disposal methods and tools to provide for the 
+interruption of functions or separation of essential components of unexploded explosive 
+ordnance to prevent an unacceptable detonation. 
+Runway—A defined rectangular area of an airfield, prepared for the landing or takeoff run of 
+aircraft along its length. A runway is measured from the outer edge of the thresholds from one 
+end of the runway to the others. The width of the runway is typically measured from the outer 
+edge of the load-bearing pavement on one side to the outer edge of the load-bearing pavement on 
+the other side. In some cases, the runway may be measured from the outside edge of the runway 
+marking line on one side to the outside edge of the marking line on the other side and any 
+remaining load bearing pavement is considered shoulder. 
+Spall—Pavement damage that does not penetrate through the pavement surface to the underlying 
+soil layers. A spall damage area could be up to 5 feet in diameter. 
+AFTTP3-32.11  18 MAY 2022 
+50 
+Spall field—A cluster of spalls within a defined area. 
+Taxiway—A specially-prepared or designated path on an airfield or heliport, other than apron 
+areas, on which aircraft move under their own power to and from landing, takeoff, service, and 
+parking areas. 
+Techniques—Non-prescriptive ways or methods use to perform missions, functions, or tasks. 
+Transition route—See access route. 
+Unexploded Ordnance (UXO)—Explosive ordnance which has been primed, fuzed, armed, or 
+otherwise prepared for action, and which has been fired, dropped, launched, projected, or placed 
+in such a manner as to constitute a hazard to operations, installations, personnel, or material, and 
+remains unexploded either by malfunction or design. 
+AFTTP3-32.11  18 MAY 2022 
+51 
+ Attachment 2 
+AIRFIELD DAMAGE RECORDING FORM 
+Figure A2.1. Example of Recording Airfield Damage. 
+AFTTP3-32.11  18 MAY 2022 
+52 
+Figure A2.2. Example Airfield Damage Recording Form for Copying. 

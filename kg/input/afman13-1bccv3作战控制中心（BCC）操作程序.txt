@@ -1,0 +1,1848 @@
+BY ORDER OF THE  
+SECRETARY OF THE AIR FORCE 
+AIR FORCE MANUAL 13-1 
+BATTLE CONTROL CENTER, VOLUME 3 
+20 OCTOBER 2020 
+Nuclear, Space, Missile, Command and 
+Control 
+OPERATING PROCEDURES- 
+BATTLE CONTROL CENTER (BCC) 
+COMPLIANCE WITH THIS PUBLICATION IS MANDATORY 
+ACCESSIBILITY:  Publications and forms are available on the e-Publishing website at 
+www.e-publishing.af.mil for downloading or ordering. 
+RELEASABILITY:  There are no releasability restrictions on this publication. 
+OPR: ACC/A3C 
+Supersedes: 
+AFI 13-1 BCC V3, 14 November 2014 
+Certified by: AF/A3T 
+(Maj Gen James A. Jacobson) 
+Pages: 45 
+This publication implements Department of the Air Force Policy Directive (DAFPD) 13-1, 
+Command and Control Enterprise (C2 Enterprise) and DAFPD 10-9, Lead Command 
+Designation and Responsibilities for Weapon Systems.  This manual provides guidance for Battle 
+Control Center (BCC) operations in the Continental United States (CONUS) and Indo-Pacific 
+Command (INDOPACOM) (Korea, Japan, Alaska, and Hawaii).  This manual applies to all 
+Regular Department of the Air Force military and civilian personnel, members of the Air 
+National Guard (ANG), and assigned Canadian forces.  This manual does not apply to the United 
+States Space Force (USSF), Air Force Reserve Command (AFRC), or Air Education Training 
+Command (AETC) but may be used by AETC units as reference.  This publication may be 
+supplemented at any level, but all direct supplements must be routed to the office of primary 
+responsibility (OPR) of this publication for coordination prior to certification and approval.  See 
+paragraph 1.4.1 for additional guidance.  The authorities to waive wing/unit level requirements 
+in this publication are identified with a tier number (“T-0, T-1, T-2, T-3”) following the 
+compliance statement.  See DAFI 33-360, Publications and Forms Management, for a 
+description of the authorities associated with the tier numbers.  Submit requests for waivers 
+through the chain of command to the appropriate tier waiver approval authority, or alternately, to 
+the requestor’s commander (CC) for non-tiered compliance items.  See paragraph 1.4.2 for 
+additional guidance.  Ensure all records created as a result of processes prescribed in this 
+publication are maintained in accordance with (IAW) AFI 33-322, Records Management and 
+2 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+Information Governance Program, and disposed of IAW the Air Force Records Disposition 
+Schedule located in the Air Force Records Information Management System.  Refer 
+recommended changes and questions about this publication to the OPR listed above using the AF 
+Form 847, Recommendation for Change of Publication; route AF Form 847 from the field 
+through the appropriate chain of command.  Reference to forms within this manual also equates 
+to electronic products when authorized.  The reports in this manual are exempt from licensing 
+according to AFI 33-324, The Air Force Information Collections and Reports Management 
+Program.  The use of the name or mark of any specific manufacturer, commercial product, 
+commodity, or service in this publication does not imply endorsement by the Air Force. 
+Compliance with Attachment 1 is not mandatory. 
+SUMMARY OF CHANGES 
+This manual has been completely revised and rewritten to reflect the evolving operational 
+environment.  This manual must be completely reviewed due to the extent of the operational and 
+administrative changes. 
+Chapter 1—BATTLE CONTROL CENTER OVERVIEW 
+5 
+1.1. 
+Overview. .................................................................................................................  
+5 
+1.2. 
+Threat Environment. ................................................................................................  
+5 
+1.3. 
+Purpose.....................................................................................................................  
+5 
+1.4. 
+Roles and Responsibilities. ......................................................................................  
+6 
+1.5. 
+Supplements/Waiver Authority. ..............................................................................  
+7 
+Chapter 2—CONTINENTAL UNITED STATES (CONUS) BATTLE CONTROL 
+CENTER (BCC) 
+9 
+2.1. 
+Mission.....................................................................................................................  
+9 
+2.2. 
+Battle Staff (BS). ......................................................................................................  
+9 
+2.3. 
+Battle Control Center Mission Crew Function. .......................................................  
+10 
+2.4. 
+Battle Control Center (BCC) Mission Crew Composition. .....................................  
+10 
+Figure 2.1. 
+Combat Mission Crew Composition–CONUS BCC. ..............................................  
+10 
+2.5. 
+Common Mission Crew Duties and Responsibilities ..............................................  
+11 
+2.6. 
+MCC (13B) ..............................................................................................................  
+11 
+2.7. 
+Weapons Section. .....................................................................................................  
+13 
+2.8. 
+Air Picture Management (APM) Section. ................................................................  
+15 
+2.9. 
+Mission Certifications. .............................................................................................  
+20 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+3 
+Chapter 3—ALASKA AND HAWAII BATTLE CONTROL CENTERS 
+21 
+3.1. 
+Pacific Air Defense Sector (PADS) Mission. ..........................................................  
+21 
+3.2. 
+Alaska Battle Control Center (ABCC) Mission. ......................................................  
+21 
+3.3. 
+Hawaii Battle Control Center/Pacific Air Defense Sector (PADS) Organization. ..  
+21 
+Figure 3.1. 
+Combat Mission Crew Composition–Hawaii BCC. ................................................  
+23 
+3.4. 
+Alaska Battle Control Center (ABCC) Organization. ..............................................  
+23 
+Figure 3.2. 
+Combat Mission Crew Composition, Alaska BCC. .................................................  
+24 
+3.5. 
+Alaska and Hawaii Battle Control Center (BCC) Mission Crew Composition. ......  
+24 
+3.6. 
+Common Mission Crew Duties and Responsibilities. .............................................  
+24 
+3.7. 
+MCC (13B). .............................................................................................................  
+25 
+3.8. 
+Weapons Section. .....................................................................................................  
+27 
+3.9. 
+Senior Director (SD) (13B). .....................................................................................  
+27 
+3.10. 
+Air Weapons Officer/Weapons Director (AWO/WD) (13B/1C5D). .......................  
+28 
+3.11. 
+Air Picture Management (APM) Section. ................................................................  
+29 
+3.12. 
+Air Surveillance Officer (ASO) ...............................................................................  
+29 
+3.13. 
+Air Surveillance Technician (AST) .........................................................................  
+29 
+3.14. 
+Surveillance Technician (ST) ..................................................................................  
+30 
+3.15. 
+Interface Control Cell (ICC). ...................................................................................  
+31 
+3.16. 
+Interface Control Officer (ICO) ...............................................................................  
+31 
+3.17. 
+Interface Control Technician ...................................................................................  
+32 
+3.18. 
+Cyberspace Duty Officer (CDO) (17X/3D/1B). ......................................................  
+34 
+3.19. 
+Mission Certifications. .............................................................................................  
+34 
+Chapter 4—PACAF THEATER AIR CONTROL SYSTEM (TACS) UNITS 
+36 
+4.1. 
+Organization. ............................................................................................................  
+36 
+4.2. 
+Air Defense Liaison Team (ADLT). ........................................................................  
+36 
+4.3. 
+Air Defense Liaison Element (ADLE). ...................................................................  
+36 
+4.4. 
+Regional Interface Control Cell (RICC). .................................................................  
+36 
+4.5. 
+Sector Interface Control Cell (SICC). ......................................................................  
+36 
+4.6. 
+Forward Interface Control Cell (FICC). ..................................................................  
+36 
+4 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+4.7. 
+Tactical Data Link Node (TDLN). ...........................................................................  
+36 
+4.8. 
+Mission Crew Duties and Responsibilities. .............................................................  
+36 
+4.9. 
+Mission Commander (MC) (13B). ...........................................................................  
+37 
+4.10. 
+Section Lead (SL) (13B). .........................................................................................  
+37 
+4.11. 
+Senior Battle Management Operator (SBMO) (1C571). .........................................  
+37 
+4.12. 
+Battle Management Operator (BMO) (1C5X1). ......................................................  
+37 
+4.13. 
+Air Battle Manager/Weapons Director (ABM/WD) (13B/1C5X1D). .....................  
+37 
+4.14. 
+Interface Control Officer (ICO) (13B). ....................................................................  
+37 
+4.15. 
+Interface Control Technician (ICT) (1C5X1). .........................................................  
+37 
+4.16. 
+Missile Assignment Officer (MAO). .......................................................................  
+37 
+4.17. 
+Intelligence Officer/NCO (IN) (14N/1N0X1). ........................................................  
+37 
+4.18. 
+Computer Systems Operator (3D0X1). ....................................................................  
+37 
+Chapter 5—DOCUMENTATION 
+38 
+5.1. 
+General. ....................................................................................................................  
+38 
+5.2. 
+Operations Instructions (OIs) or Operations Standards. ..........................................  
+38 
+5.3. 
+Operations Information File (OIF). ..........................................................................  
+38 
+5.4. 
+Logbooks .................................................................................................................  
+38 
+5.5. 
+Voice Recording, Retrieval and Storage. .................................................................  
+40 
+5.6. 
+Data Recording. .......................................................................................................  
+40 
+5.7. 
+COMSEC Requirements. .........................................................................................  
+40 
+5.8. 
+Checklists .................................................................................................................  
+40 
+5.9. 
+Quick Reference Guides (QRG). .............................................................................  
+41 
+5.10. 
+Disposition of Documentation. ................................................................................  
+41 
+Attachment 1—GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+42 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+5 
+Chapter 1 
+BATTLE CONTROL CENTER OVERVIEW 
+1.1.  Overview.  This manual describes the Battle Control Center (BCC), the tactical level 
+command and control (C2) node that conducts defensive counterair operations in the North 
+American 
+Aerospace 
+Defense 
+Command/United 
+States 
+Northern 
+Command 
+(NORAD/USNORTHCOM) and INDOPACOM areas of responsibility.  Headquarters Air 
+Combat Command (HQ ACC) organizes, trains, and equips the units within the Continental 
+United States (CONUS).  Headquarters Pacific Air Forces (HQ PACAF) organizes, trains, and 
+equips units that operate the BCC within Alaska, Hawaii and Guam, and the theater air control 
+system (TACS) units that operate fixed sites within the Republic of Korea and Japan. 
+1.2.  Threat Environment.  America and our deployed forces confront a greater diversity of 
+threats and challenges than ever before.  While the traditional, strategic threat to our deployed 
+forces and Homeland remains, terrorist and asymmetric threats have become preeminent.  In 
+addition to long-range military strategic aviation, commercial aircraft (e.g., airliners, charter, 
+cargo, and business jets), general aviation aircraft, unconventional aircraft (e.g., crop dusters, 
+unmanned aerial vehicles, and ultralights), and cruise missiles (.i.e., both air and sea launched) 
+have been included in the overall threat profile. 
+1.3.  Purpose. 
+1.3.1.  This manual standardizes the structure, functions, and responsibilities for each of the 
+ACC and PACAF units listed below. 
+1.3.2.  CONUS.  Within the CONUS, the Eastern and Western Air Defense Sectors are 
+equipped with the BCC for the Homeland Defense mission.  The Sector Commanders are 
+responsible to the Commander, NORAD/USNORTHCOM through the Commander, CONUS 
+NORAD Region (CONR)/Air Forces NORTHERN (AFNORTH) for air sovereignty and 
+aerospace control during peacetime and air superiority during wartime.  Where Air Force 
+Specialty Codes (AFSC) are annotated, the Canadian Forces equivalent is implied. 
+1.3.3.  Alaskan Battle Control Center (ABCC).  The ABCC is responsible to the 
+NORAD/NORTHCOM Commander through the Alaska NORAD Region (ANR) 
+Commander for homeland defense, air defense, air sovereignty, and aerospace warning and 
+control of their assigned area of operation.  Where AFSCs are annotated, the Canadian 
+Forces equivalent is implied. 
+1.3.4.  Hawaii Battle Control Center/Pacific Air Defense Sector (PADS).  The PADS is 
+responsible to the INDOPACOM commander through the area air defense commander 
+(AADC) for homeland defense, air defense, air sovereignty, and aerospace control and 
+warning of their assigned area of operation. 
+1.3.5.  United States Air Force (USAF) TACS elements in Korea are responsible to the 7th 
+Air Force (7 AF) commander for planning, directing, and coordinating the execution of 
+military air operations throughout the Republic of Korea (in time of hostility, USAF TACS 
+elements are responsible the commander, Air Component Command). 
+6 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+1.3.6.  The USAF TACS elements in Japan are responsible to the 5th Air Force (5 AF) and 
+613th Air and Space Operations Center (AOC) for providing limited battle management, 
+weapons control, and exercise support. 
+1.4.  Roles and Responsibilities. 
+1.4.1.  ACC/A3C is the Office of Primary Responsibility (OPR) for this volume, the Lead 
+Command for the Battle Control Center weapon system and: 
+1.4.1.1.  Coordinates all changes to the volume with applicable MAJCOM/A3s. 
+1.4.1.2.  Forwards change recommendations to AF/A3TY. 
+1.4.1.3.  Coordinates Air Force Guidance Memorandums and Interim Changes with NGB 
+and PACAF OPRs prior to approval. 
+1.4.2.  PACAF Theater Air Control System C2 Branch (A310): 
+1.4.2.1.  Uses 
+MAJCOM-specific 
+supplements 
+for 
+unique 
+mission 
+considerations/requirements and establishes individual unit tasking as required. 
+1.4.2.2.  As the theater OPR for MAJCOM-level training matters, provides assistance, 
+guidance, and resources to subordinate units for the implementation, direction, and 
+monitoring of the training program. 
+1.4.2.3.  Provides courtesy copy of all approved waivers affecting PACAF BCC units to 
+ACC and National Guard Bureau (NGB). 
+1.4.2.4.  Reviews and approves subordinate unit directives (as required) to ensure 
+compliance with published directives. 
+1.4.3.  National Guard Bureau Airfield Operations and Command and Control Forces 
+Division (NGB/A2/3/6/10Y) functions as the NGB OPR, and uses supplements for unique 
+ANG considerations/requirements. 
+1.4.4.  Numbered Air Force (NAF): 
+1.4.4.1.  Provides assistance, guidance, and resources to subordinate units for the 
+implementation, direction, and monitoring of the training program to include use of the 
+courseware and the Learning Management System (LMS). 
+1.4.4.2.  Monitors/coordinates actions to correct training deficiencies. 
+1.4.4.3.  Conducts SAVs to subordinate units when requested by the unit CC to monitor 
+and assist with implementation of unit training programs. 
+1.4.5.  Unit Commanders: 
+1.4.5.1.  Ensure personnel/crews are trained to a level of mission/combat readiness that 
+meets the unit’s operational requirements. 
+1.4.5.2.  Request waivers in accordance with guidance provided in this volume. 
+1.4.5.3.  Ensure adequate continuity and supervision of crew/individual training needs, 
+experience, as well as the proficiencies of assigned and attached crewmembers. 
+1.4.5.4.  Determine utilization of Basic Mission Capable (BMC) crewmembers. 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+7 
+1.4.6.  Flight Commanders and Supervisors: 
+1.4.6.1.  Ensure crew members are CMR/BMC in the duty position they are performing, 
+or supervised by an instructor. 
+1.4.6.2.  Ensure event objectives are briefed, debriefed, and assessed to determine 
+successful accomplishments. 
+1.5.  Supplements/Waiver Authority. 
+1.5.1.  Supplements. 
+1.5.1.1.  Major Commands (MAJCOMs) will coordinate their supplement to this manual 
+with HQ ACC, Command and Control, Intelligence, Surveillance, and Reconnaissance 
+(C2ISR) Division (ACC/A3C) before publication and forward one copy to AF/A3O-CS 
+after publication. MAJCOM/A3s will approve MAJCOM supplements.  Supplements 
+will not contain procedures that are contrary to this manual.  (T-2) After publication, 
+approved MAJCOM-level supplements are distributed by the issuing MAJCOM to 
+Headquarters Air Force, Command and Control Policy Operations Systems (AF/A3O-
+CS), ACC/A3C, the user MAJCOM, and National Guard Bureau C2ISR (NGB/A3Y) 
+OPRs. 
+1.5.1.2.  Units will coordinate unit-level supplement with the next higher Group or 
+Numbered Air Force, as applicable, prior to MAJCOM approval.  (T-3) MAJCOM OPRs 
+will approve unit supplements.  ANG units will coordinate their supplement with 
+NGB/A3Y who in-turn will forward to MAJCOM OPRs for approval coordination.  
+(T-2) 
+1.5.1.2.1.  Supplementary guidance will not be less restrictive than the basic 
+publication, but can be more restrictive.  (T-2) 
+1.5.1.2.2.  Supplemental guidance will not contradict the basic publication.  (T-2) 
+1.5.2.  Waivers. 
+1.5.2.1.  Waiver authority for requirements of this volume will be IAW DAFI 33-360.  
+Waiver requests must come from CCs (or civilian directors) of the affected unit seeking 
+relief from compliance through the command chain up to the appropriate tier approval 
+authority (i.e., Tier 0, 1, 2, 3) (or publications approval authority if non-tiered).  (T-2)  
+See DAFI 33-360 for definition of tier ratings.  Tier 3 waiver authorities for this AFMAN 
+are as follows: (1) 1 AF/AFNORTH/A3 for 224th and 225th Air Defense Squadrons 
+(ADS); (2) 611 AOC/CC for 176 ADS; (3) PACAF A3/6CX for 169 ADS; (4) 607 
+AOC/CC for 621st Air Control Squadron (ACS); (5) 35 FW/CC for 610th Air Control 
+Flight; and (6) 18 WG/CC for 623 ACS. 
+1.5.2.2.  Waiver requests may be sent via email or memorandum, and must include the 
+following: 
+1.5.2.2.1.  Reference and text of the specific requirement for which the CC or director 
+is requesting a waiver. 
+1.5.2.2.2.  Rationale for the waiver: Explain which of the following three reasons 
+IAW DAFI 33-360 apply and describe why: 
+8 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+1.5.2.2.2.1.  The cost of compliance creates unacceptable risk to a higher priority 
+task; 
+1.5.2.2.2.2.  The expected cost of compliance outweighs the benefit; 
+1.5.2.2.2.3.  Personnel cannot comply with the requirement due to a lack of 
+resources (e.g., training, funds, equipment, facilities, guidance or manpower). 
+1.5.2.2.3.  Time period or circumstance for which the waiver is required.  (T-2) 
+1.5.2.2.4.  Risk mitigation measures the requesting CC implements during the waiver 
+period.  (T-2) 
+1.5.2.2.5.  Impact if waiver is disapproved.  (T-2) 
+1.5.2.2.6.  Approved waivers will be uploaded into the unit's management internal 
+control toolset for inspection activity review and publication OPR's situational 
+awareness/filing.  (T-2) 
+1.5.3.  PACAF/A3/6CX and NGB/A3Y will forward a copy of all approved waivers for their 
+units to ACC/A3C.  ACC/A3C will, in turn, forward a copy of all approved waivers for their 
+units to PACAF/A3/6CX, NGB/A3Y, and AF/A3O-CS.  Units will forward all approved 
+waivers and report all deviations, or exceptions without waiver, through their chain of 
+command, to MAJCOM OPR.  (T-2) 
+1.5.4.  Duration of waivers may be approved for a period not to exceed the requested waiver 
+period or 30 calendar days after the approving CC’s tour length, whichever is shorter. 
+1.5.5.  File a copy of approved written waivers with this volume IAW DAFI 33-360. 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+9 
+Chapter 2 
+CONTINENTAL UNITED STATES (CONUS) BATTLE CONTROL CENTER (BCC) 
+2.1.  Mission.  The CONUS NORAD Region (CONR) has been subdivided into two geographic 
+air defense sectors, Eastern Air Defense Sector and Western Air Defense Sector (EADS and 
+WADS respectively).  Tactical execution of defensive counterair, support to counterdrug 
+operations and homeland security is the responsibility of the units that operate the respective 
+BCCs.  The BCCs fuse sensor data and additional information into a common tactical air picture 
+and distribute the air picture to the 601 AOC and the NORAD/USNORTHCOM Command 
+Center.  EADS and WADS maintain the capability to assume the mission essential operational 
+functions of the other sector, commonly called expansion operations.  Note: The National 
+Military Command Center and interagency partners responsible for homeland security at the 
+National Capital Region Coordination Center, though outside the chain of command of the 
+BCCs, also receive the tactical air picture. 
+2.2.  Battle Staff (BS). 
+2.2.1.  The BS is complementary to the BCC mission crew and functions as operations tempo 
+dictates.  It provides both operational and unit level administrative support to the mission 
+crew.  Members of the BS are not separate personnel authorizations.  The BS is composed of 
+members from the operations, mission support and CC’s staff.  The unit CC may form the BS 
+as necessary due to changes in the threat or directed missions from higher headquarters 
+(HHQ).  The BS may be activated for an indefinite period of time.  When the BS is fully 
+formed, the commander assumes overall responsibility for the unit’s activities and determines 
+which responsibilities are assumed by the BS and which remain with the mission crew. 
+2.2.2.  BS Composition.  The commander, based on the mission tasking, may tailor the BS. 
+The CC may also tailor and selectively man positions within the BS for specific operations. 
+2.2.3.  The BS normally consists of the CC and/or director of operations (DO), intelligence 
+officer, battle management superintendent (BMS) and the communications focal point (CFP). 
+The commander adds additional personnel as the operational mission and support activities 
+dictate. 
+2.2.3.1.  CC.  The commander is responsible to the 601 AOC for the unit’s overall 
+execution of the mission, directing, managing, and supervising the mission crew and the 
+supporting work centers.  In the absence of the CC, the designated battle commander 
+(BC) assumes the duties. 
+2.2.3.2.  DO.  In addition to assuming the role of BC when required, the DO is 
+responsible for providing AOC direction to the mission crew. 
+2.2.3.3.  Intelligence Officer/Non-commissioned Officer (IN).  The IN is responsible for 
+receiving operational intelligence assessments and intelligence data and providing tactical 
+intelligence updates to the BS and the mission crew.  The IN also coordinates with HHQ 
+intelligence sources. 
+2.2.3.4.  Battle Management Superintendent (BMS).  The BMS assists in managing the 
+unit’s activities, facilitating the interaction between the BS, mission crew and mission 
+support functions. 
+10 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+2.2.3.5.  Communications Focal Point (CFP).  The CFP is a consolidation of all support 
+activities within the BCC.  The CFP functions in direct support of the unit's operational 
+mission and includes, but is not limited to, maintenance control, telephone administration 
+desk, and traditional network help desk.  The CFP collects data from internal and external 
+sources (such as unit work centers, the Defense Information Systems Agency, and Air 
+Force Network Operations).  In addition, the CFP monitors and coordinates scheduled 
+and unscheduled maintenance, maintaining visibility of equipment and systems metrics 
+and indicators. 
+2.3.  Battle Control Center Mission Crew Function.  The BCC mission crew performs the 
+functions of battle management, weapons control, surveillance, identification, tactical data link 
+operations and management and track reporting.  The mission crew also provides airspace 
+management. 
+2.4.  Battle Control Center (BCC) Mission Crew Composition.  The BCC mission crew is the 
+focal point for operations.  Supervised by a mission crew commander (MCC), the mission crew 
+is tasked to execute the mission on a continuous basis and is manned by a number of personnel, 
+tailored to meet mission requirements.  Some duty positions serve as prerequisites to others and 
+these prerequisites are located AFMAN 13-1BCC Volume 1, Battle Control Center Training.  
+The mission crew will consist of the duty positions identified in Figure 2.1 as described in the 
+following sections.  (T-2)  Additionally, the mission crew may have personnel certified to 
+augment and assist the battle management, weapons, and tactical data links functional areas.  See 
+paragraph 2.9 for certification positions. 
+Figure 2.1.  Combat Mission Crew Composition–CONUS BCC. 
+COMBAT MISSION CREW COMPOSITION 
+CONUS BCC1 
+Crew Position 
+Crew Total 
+Mission Crew Commander (MCC) 
+2 
+Mission Technician* (MT)2, 2c 
+2 
+Senior Director (SD) 
+2 
+Air Weapons Officer/Weapons Director 
+(AWO/WD) 
+6 
+Weapons Technician* (WT)2, 2a 
+2 
+Air Surveillance Officer (ASO) 
+2 
+Air Surveillance (AST) 
+2 
+Surveillance Technician (ST) 
+9 
+Interface Control Watch Officer* (ICWO)2,
+2b
+1 
+Interface Control Technician (ICT) 
+2 
+Total 
+30 
+Notes: 
+1. The complexity of mission or additional battle management areas may require
+additional crew members.
+2. The “*” denotes a mission certification position.  See paragraph 2.9 for further
+information.
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+11 
+a. WT will be qualified in a 1C5 duty position (e.g., ST, ICT, AST).  (T-3)
+b. ICWO will be a qualified ICT.  (T-3)
+c. The unit commander will determine the need for MT to maintain a qualification in a
+1C5 duty position (e.g., ST, ICT, AST, WD).  (T-3)
+2.5.  Common Mission Crew Duties and Responsibilities. 
+2.5.1.  While each crew position has specific duties and responsibilities, the following 
+responsibilities are common to all mission crew positions.  All mission crew members will: 
+2.5.2.  Have working knowledge of, and comply with, applicable governing directives and 
+agreements.  (T-3) 
+2.5.3.  Conduct internal and external communication and coordination.  (T-3) 
+2.5.4.  Attend crew changeover brief.  (T-3) 
+2.5.5.  Conduct positional changeover briefs.  (T-3) 
+2.5.6.  Conduct mission planning.  (T-3) 
+2.5.7.  Conduct expansion procedures.  (T-3) 
+2.5.8.  Conduct evacuation procedures.  (T-3) 
+2.5.9.  Understand system capabilities and limitations, to include weapons platforms and 
+surveillance assets, and apply them to mission accomplishment.  (T-3) 
+2.5.10.  Adhere to communications security (COMSEC), information security (INFOSEC), 
+and operations security (OPSEC) procedures as well as “OPEN LINE and SECURE CALL” 
+procedures.  (T-3) 
+2.5.11.  Conduct work station and communication system checkout.  (T-3) 
+2.5.12.  Report malfunctioning equipment to section supervisor who, in turn, passes 
+information to ASO or AST.  (T-3) 
+2.5.13.  Report link issues to section supervisor who, in turn, passes information to ICT.  
+(T-3) 
+2.5.14.  Comply with guidance in positional checklists.  (T-3) 
+2.5.15.  Ensure current DD Form 2992, Medical Recommendation for Flying or Special 
+Operational Duty, is filed prior to performing any operational duties.  (T-3) 
+2.5.16.  Read and initial (either electronically or via hardcopy) local information files prior to 
+performing operational duties.  (T-3) 
+2.6.  MCC (13B). 
+2.6.1.  The MCC is responsible for overall battle management and all operations execution 
+and reporting within the BCC.  MCCs will: 
+2.6.2.  Conduct changeover and exercise briefings.  (T-3) 
+2.6.3.  Conduct mission planning with the BS, as required.  (T-3) 
+2.6.4.  Ensure shift manning requirements are met.  (T-3) 
+12 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+2.6.5.  Implement force protection procedures.  (T-3) 
+2.6.6.  Execute battle plans and operations orders (OPORDs) and contingency plans 
+(CONPLANs).  (T-3) 
+2.6.7.  Coordinate with applicable search and rescue agency as required.  (T-3) 
+2.6.8.  Oversee air sovereignty, drug interdiction and contingency operations.  (T-3) 
+2.6.9.  Implement rules of engagement (ROE).  (T-3) 
+2.6.10.  Monitor emergency action board for accuracy and status changes.  (T-3) 
+2.6.11.  Implement dangerous military activity (DMA) procedures.  (T-3) 
+2.6.12.  Apply applicable directives to include the air tasking order (ATO), airspace control 
+order (ACO), exercise instructions, CONPLAN, operating instructions (OIs), operating 
+standards, and special instructions (SPINS).  (T-3) 
+2.6.13.  Oversee the interface with external units via voice communications and data link. 
+(T-3) 
+2.6.14.  Enforce air defense identification zone procedures, special flight restricted area 
+(SFRA) procedures, temporary flight restrictions (TFR) IAW SPINS and Federal Aviation 
+Authority (FAA) Notice to Airmen (NOTAM).  (T-3) 
+2.6.15.  Monitor status of assets (e.g., sensors, links, and aircraft).  (T-3) 
+2.6.16.  Initiate recall procedures when directed.  (T-3) 
+2.6.17.  Ensure personnel safety.  (T-3) 
+2.6.18.  Coordinate with HHQ, internal and external agencies.  (T-3) 
+2.6.19.  Ensure safety of flight during all phases of the mission.  (T-3) 
+2.6.20.  Determine mission capabilities and limitations of operational equipment and approve 
+or disapprove preventive maintenance activities.  (T-3) 
+2.6.21.  Interpret weather information and coordinate accordingly.  (T-3) 
+2.6.22.  Identify aircraft availability and allocate alert aircraft.  (T-3) 
+2.6.23.  Coordinate and/or implement actions to be taken during fire, bomb threat, and 
+natural disaster situations.  (T-3) 
+2.6.24.  Monitor status of fire alarm systems.  (T-3) 
+2.6.25.  Summon medical assistance as required.  (T-3) 
+2.6.26.  Summon assistance during duress or intruder situations.  (T-3) 
+2.6.27.  Direct expansion procedures.  (T-3) 
+2.6.28.  Direct evacuation procedures.  (T-3) 
+2.6.29.  Notify HHQ of commander‘s availability and responsible individual.  (T-3) 
+2.6.30.  Ensure response to White Pinnacle exercises.  (T-3) 
+2.6.31.  Oversee track reporting procedures.  (T-3) 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+13 
+2.6.32.  Implement aerostat breakaway or derelict airborne objects procedures.  (T-3) 
+2.6.33.  Implement defense condition (DEFCON) procedures.  (T-3) 
+2.6.34.  Report missile launches.  (T-3) 
+2.6.35.  Recommend amber warning and/or flush bases.  (T-3) 
+2.6.36.  Scramble alert assets as required.  (T-3) 
+2.6.37.  Ensure fidelity drills are coordinated with HHQ.  (T-3) 
+2.6.38.  Direct reclassification of tracks.  (T-3) 
+2.6.39.  Meet situation report (SITREP) requirements.  (T-3) 
+2.6.40.  Coordinate aircraft emergency procedures.  (T-3) 
+2.7.  Weapons Section. 
+2.7.1.  The weapons section is responsible for managing and employing the assigned 
+weapons systems IAW OPORD, ATO/ACO, SPINS and/or publications.  Weapons control 
+procedures and techniques are contained in Air Force Tactics, Techniques and Procedures 
+(AFTTP) 3-3, Integrated Planning and Employment (IPE); AFI 11-214, Air Operations 
+Rules and Procedures and local directives.  Weapons positions will be senior director (SD) 
+and air weapons officer/weapons director (AWO/WD).  (T-2) 
+2.7.1.1.  Senior Director (SD) (13B). The SD is responsible to the MCC for management 
+of the weapons section, battle management, force employment and status reporting in the 
+assigned operational area.  The SD executes aircraft scrambles and commits, target 
+selection, and weapons assignment and supervises the AWO/WD employment of 
+resources.  SDs will: 
+2.7.1.2.  Conduct weapons portion of changeover and exercise briefings.  (T-3) 
+2.7.1.3.  Know the performance and ordnance characteristics of all assigned weapons 
+systems.  (T-3) 
+2.7.1.4.  Commit assets to counter the threat.  (T-3) 
+2.7.1.5.  Assign control of missions to AWO/WD.  (T-3) 
+2.7.1.6.  Monitor assigned missions to ensure effective mission accomplishment and 
+flight safety.  (T-3) 
+2.7.1.7.  Assign radio frequencies and specific consoles commensurate with mission 
+requirements.  (T-3) 
+2.7.1.8.  Coordinate aircraft transfer points where control is passed to other controlling 
+agencies. (T-3) 
+2.7.1.9.  Apply ROE.  (T-3) 
+2.7.1.10.  Coordinate aircraft scramble and airborne orders.  (T-3) 
+2.7.1.11.  Ensure all missions are briefed and debriefed.  (T-3) 
+2.7.1.12.  Apply applicable directives to include the ATO, airspace control order (ACO), 
+exercise instructions, OI, and SPINS prior to sitting on position.  (T-3) 
+14 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+2.7.1.13.  Ensure that all AWO/WD are aware of existing and forecast weather conditions 
+for the operational area and recovery bases as necessary.  (T-3) 
+2.7.1.14.  Coordinate weapons section actions with surveillance and identification to 
+maintain air picture.  (T-3) 
+2.7.1.15.  Monitor status of alert assets.  (T-3) 
+2.7.1.16.  Coordinate with adjacent sector SD.  (T-3) 
+2.7.1.17.  Perform authentication procedures.  (T-3) 
+2.7.1.18.  Be capable of performing all AWO duties.  (T-3) 
+2.7.2.  Air Weapons Officer (AWO) (13B)/Weapons Director (WD) (1C5X1D). 
+2.7.2.1.  The AWO/WD is responsible to the SD for control of assigned assets. 
+AWO/WD will: 
+2.7.2.2.  Apply applicable directives to include the ATO, ACO, exercise instructions, 
+CONPLAN, OIs, and SPINS prior to sitting on position related to assigned tasks.  (T-3) 
+2.7.2.3.  Initiate unknown cowboy calls at appropriate DEFCON.  (T-3) 
+2.7.2.4.  Initiate unknown rider calls at appropriate DEFCON.  (T-3) 
+2.7.2.5.  Perform authentication procedures.  (T-3) 
+2.7.2.6.  Implement safe passage procedures.  (T-3) 
+2.7.2.7.  Pre-brief and debrief mission with aircrew to the maximum extent.  (T-3) 
+2.7.2.8.  Pass significant weather forecasts, observations, and altimeter setting to aircrew 
+upon check-in as appropriate.  (T-3) 
+2.7.2.9.  Pass engagement orders.  (T-3) 
+2.7.2.10.  Ensure expeditious fighter positioning for mission tasking.  (T-3) 
+2.7.2.11.  Assist aircrews in maintaining lateral confines of airspace and airspace control 
+measures IAW AFI 11-214 and local procedures and letters of agreement.  (T-3) 
+2.7.2.12.  Maintain tracking of assigned aircraft and non-participating aircraft, which can 
+potentially affect flight safety.  Provide accurate and timely stranger point-outs.  (T-3) 
+2.7.2.13.  Ensure an orderly flow of aircraft for recovery to other control agencies.  (T-3) 
+2.7.2.14.  Inform the SD of conditions or situations that may affect mission completion or 
+aircraft safety.  (T-3) 
+2.7.2.15.  Know procedures for aircraft scrambles, target selection and weapons 
+assignment.  (T-3) 
+2.7.2.16.  Evaluate the air defense threat situation and take timely defensive action.  (T-3) 
+2.7.2.17.  Inform other AWO/WD of any actions taken that may affect their control 
+actions.  (T-3) 
+2.7.2.18.  Provide 
+tactical 
+information 
+to 
+aircrews 
+that 
+may 
+affect 
+mission 
+accomplishment.  (T-3) 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+15 
+2.7.2.19.  Obtain pilot weather reports (PIREP) and relay to the SD.  (T-3) 
+2.7.2.20.  Ensure flight safety with overall mission requirements.  (T-3) 
+2.7.2.21.  Provide navigational and emergency assistance.  (T-3) 
+2.7.2.22.  Ensure completion of all appropriate logs and forms.  (T-3) 
+2.7.2.23.  Know the performance and ordnance characteristics of all assigned weapons 
+systems.  (T-3) 
+2.7.2.24.  Know airspace management requirements and procedures.  (T-3) 
+2.7.2.25.  Conduct all radio/telephone (R/T) IAW AFTTP 3-3.IPE and Operation Noble 
+Eagle communication guidelines.  (T-3) 
+2.7.2.26.  Maintain accurate air picture by updating computer information to include 
+commits, recommits, initiates, reinitiates, and track repositioning.  (T-3) 
+2.7.2.27.  Coordinate with surveillance section, air traffic control (ATC), and control 
+agencies as required.  (T-3) 
+2.8.  Air Picture Management (APM) Section. 
+2.8.1.  Air picture management encompasses the functions of surveillance, identification, and 
+tactical data links.  The APM section is responsible for the detection, tracking, identification, 
+and classification and reporting of air objects and maintaining assigned portion of the multi-
+tactical data link (TDL) network (MTN) and integrating other source data into a single air 
+picture.  This section also directs the optimum configuration of sensors for effective radar 
+coverage and information sharing. 
+2.8.1.1.  .  Air Surveillance Officer (ASO) (13B). The ASO manages all functions within 
+the Air Picture Management section.  The ASO is responsible to the MCC for the 
+maintenance and quality of the BCC’s air picture and tactical data link employment. 
+ASO will: 
+2.8.1.2.  Conduct surveillance portion of changeover and exercise briefings.  (T-3) 
+2.8.1.3.  Supervise the collection, display and dissemination of surveillance data.  (T-3) 
+2.8.1.4.  Monitor and report equipment status through the communications focal point 
+(CFP).  (T-3) 
+2.8.1.5.  Ensure the surveillance section manning is adequate to meet mission 
+requirements.  (T-3) 
+2.8.1.6.  Ensure ops and maintenance personnel are apprised of outages or equipment 
+degradation.  (T-3) 
+2.8.1.7.  Assess and coordinate requirements for sensor augmentation and/or gap 
+coverage.  (T-3) 
+2.8.1.8.  Direct APM section’s expansion procedures.  (T-3) 
+2.8.1.9.  Coordinate and deconflict frequency assignments for the surveillance section, as 
+required.  (T-3) 
+16 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+2.8.1.10.  Ensure preventive maintenance actions are deconflicted with operational 
+mission activities.  (T-3) 
+2.8.1.11.  Manage sensor and track validation procedures.  (T-3) 
+2.8.1.12.  Know radar characteristics and optimize radar presentation (e.g., error free, 
+correct settings).  (T-3) 
+2.8.1.13.  Conduct electronic attack/electronic protection (EA/EP) procedures.  (T-3) 
+2.8.1.14.  Coordinate radar site setting changes with FAA.  (T-3) 
+2.8.1.15.  Monitor auxiliary equipment.  (T-3) 
+2.8.1.16.  Perform radar correlation checks.  (T-3) 
+2.8.1.17.  Perform Change Data Order function on applicable tracks, as required.  (T-3) 
+2.8.1.18.  Monitor current air picture to ensure tracks are detected, updated, and reported. 
+(T-3) 
+2.8.1.19.  Execute the OPORD and/or CONPLAN.  (T-3) 
+2.8.1.20.  Coordinate and perform E-3 operations.  (T-3) 
+2.8.1.21.  Recognize emergency aircraft and accomplish reporting procedures.  (T-3) 
+2.8.1.22.  Read and interpret weather data and determine effect on radars and air picture. 
+(T-3) 
+2.8.1.23.  Recognize and report degraded sensor performance.  (T-3) 
+2.8.1.24.  Recognize and report potential node outages and significant gaps in coverage, 
+to include dual site outages.  (T-3) 
+2.8.1.24.1.  .  Coordinate with ICT to perform track data coordination (TDC).  (T-3) 
+2.8.1.24.2.  Serve as network control station (NCS) for track management 
+communications when designated.  (T-3) 
+2.8.1.24.3.  Supervise the resolution of duplicate tracks, dual designations, category 
+conflicts and identification (ID) conflicts.  (T-3) 
+2.8.1.24.4.  Ensure transmission of change data orders to resolve environment and 
+identification (ID) conflicts.  (T-3) 
+2.8.1.24.5.  Coordinate use and effects of data filters.  (T-3) 
+2.8.1.24.6.  Monitor and coordinate effects of participant or link node losses.  (T-3) 
+2.8.1.24.7.  Coordinate the use and transmission of reference points, lines, and areas. 
+(T-3) 
+2.8.1.24.8.  Coordinate and supervise local fidelity drills to meet mission 
+requirements.  (T-3) 
+2.8.1.24.9.  Know governing military standards and HHQ directives.  (T-3) 
+2.8.1.25.  Make required public announcements.  (T-3) 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+17 
+2.8.2.  Air Surveillance Technician (AST) (1C5X1). The AST is responsible to, and assists 
+the ASO with the management of all air surveillance functions.  The AST is responsible for 
+the operational conduct of the enlisted personnel in the section and assists the ASO in the 
+accomplishment of duties and responsibilities.  ASTs will: 
+2.8.2.1.  Conduct surveillance portion of changeover and exercise briefings, as required. 
+(T-3) 
+2.8.2.2.  Set up, display, and update radar filters, as required.  (T-3) 
+2.8.2.3.  Monitor, update, and report radar status.  (T-3) 
+2.8.2.4.  Analyze and report unusual presentations (e.g., EA, weather, and transient 
+interference) to the appropriate agencies.  (T-3) 
+2.8.2.5.  Assign geographic areas to all surveillance technicians (ST).  (T-3) 
+2.8.2.6.  Optimize radar presentation (e.g., error free, correct settings).  (T-3) 
+2.8.2.7.  Supervise sensor and track validation procedures.  (T-3) 
+2.8.2.8.  Conduct EA/EP procedures.  (T-3) 
+2.8.2.9.  Coordinate radar site setting changes with FAA.  (T-3) 
+2.8.2.10.  Manage identification friend or foe (IFF) interrogation (Mode IV/V) process. 
+(T-3) 
+2.8.2.11.  Monitor auxiliary equipment.  (T-3) 
+2.8.2.12.  Coordinate expansion.  (T-3) 
+2.8.2.13.  Perform radar correlation checks.  (T-3) 
+2.8.2.14.  Coordinate with ICT to perform TDC.  (T-3) 
+2.8.2.14.1.  Serve as NCS for track management communications when designated. 
+(T-3) 
+2.8.2.14.2.  Supervise the resolution of duplicate tracks, dual designations, category 
+conflicts and identification (ID) conflicts.  (T-3) 
+2.8.2.14.3.  Ensure transmission of change data orders to resolve environment and 
+identification (ID) conflicts.  (T-3) 
+2.8.2.14.4.  Coordinate use and effects of data filters.  (T-3) 
+2.8.2.14.5.  Monitor and coordinate effects of participant or link node losses.  (T-3) 
+2.8.2.14.6.  Coordinate the use and transmission of reference points, lines, and areas. 
+(T-3) 
+2.8.2.14.7.  Coordinate and supervise local fidelity drills to meet mission 
+requirements.  (T-3) 
+2.8.2.14.8.  Know governing military standards and HHQ directives.  (T-3) 
+2.8.2.15.  Be capable of performing all ST duties.  (T-3) 
+2.8.2.16.  Make required public announcements.  (T-3) 
+18 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+2.8.2.17.  Manage overlays and global areas.  (T-3) 
+2.8.2.18.  Manage use of doctrine IAW unit directives.  (T-3) 
+2.8.2.19.  Supervise section communications on domestic event network (DEN).  (T-3) 
+2.8.3.  Surveillance Technician (ST) (1C5X1). The ST is responsible to the ASO or AST for 
+track detection, initiation (active and passive), investigation and classification, track 
+maintenance and reporting for all airborne objects within the assigned surveillance area.  STs 
+will: 
+2.8.3.1.  Detect tracks and perform active and passive tracking procedures.  (T-3) 
+2.8.3.2.  Manually initiate track symbology as required.  (T-3) 
+2.8.3.3.  Maintain track continuity and drop tracks as required.  (T-3) 
+2.8.3.4.  Correlate data/track reports from multiple sources.  (T-3) 
+2.8.3.5.  Perform voice-tell as assigned.  (T-3) 
+2.8.3.6.  Report suspicious track activity.  (T-3) 
+2.8.3.7.  Monitor and report track characteristics.  (T-3) 
+2.8.3.8.  Recognize and report emergency aircraft situations.  (T-3) 
+2.8.3.9.  Perform Mode IV/V interrogations.  (T-3) 
+2.8.3.10.  Notify the ASO or AST of identification investigation status.  (T-3) 
+2.8.3.11.  Adhere to identification criteria IAW ROE.  (T-3) 
+2.8.3.12.  Classify tracks IAW directives.  (T-3) 
+2.8.3.13.  Perform authentication procedures.  (T-3) 
+2.8.3.14.  Coordinate with external agencies to implement aerospace control measures. 
+(T-3) 
+2.8.3.15.  Perform safe passage IAW directives.  (T-3) 
+2.8.3.16.  Make appropriate public announcements.  (T-3) 
+2.8.3.17.  Interpret, correlate, and/or report flight plan information.  (T-3) 
+2.8.3.18.  Utilize the DEN IAW established procedures.  (T-3) 
+2.8.3.19.  Conduct briefings as required.  (T-3) 
+2.8.4.  Interface Control Cell (ICC). The ICC is a subset of the air picture management 
+(APM) section and is responsible for planning and executing their assigned sector of the 
+multi-tactical data link (TDL) network (MTN).  The ICC coordinates with the AOC joint 
+interface control cell (JICC) or joint interface control officer (JICO) for planning and 
+execution functions that cross sector boundaries or impact the regional portion of the 
+mission.  The ICC also coordinates with the APM and Weapons sections for information 
+exchange requests.  A minimum of one interface control technician on duty is required to be 
+certified as an ICWO.  See paragraph 2.9.3 for ICWO description. 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+19 
+2.8.5.  Interface Control Technician (ICT) (1C5X1). The ICT is responsible to the ICWO for 
+accomplishment of link management and track data coordination functions to include 
+ensuring the clarity, accuracy, currency, and quality of track data displayed on the mission 
+system.  ICTs will provide: 
+2.8.5.1.  Link management.  (T-3) 
+2.8.5.2.  Manage assignment of functional network roles.  (T-3) 
+2.8.5.3.  Recommend or implement MTN corrective actions when disruptions occur.  
+(T-3) 
+2.8.5.4.  Ensure Link 16 operations are entered into the Link 16 network deconfliction 
+server.  (T-3) 
+2.8.5.5.  Initiate, maintain, and terminate data links.  (T-3) 
+2.8.5.6.  Manage activation and deactivation of relays and changes of JU transmit mode. 
+(T-3) 
+2.8.5.7.  Manage and use required COMSEC material.  (T-3) 
+2.8.5.8.  Evaluate link performance and report operational effectiveness to ICWO.  (T-3) 
+2.8.5.9.  When directed, perform network control functions as data net control station 
+(DNCS) for Link 16.  (T-3) 
+2.8.5.10.  Direct subordinate unit changes to the DNCS for Link 11.  (T-3) 
+2.8.5.11.  Manage and direct subordinate unit changes to parameters for interface data 
+links.  (T-3) 
+2.8.5.12.  Coordinate changes to link configuration to meet information exchange 
+requirements.  (T-3) 
+2.8.5.13.  Execute Link 11/11B data link reference point changes.  (T-3) 
+2.8.5.14.  Monitor the exchange of link messages and track data.  (T-3) 
+2.8.5.15.  Ensure operations comply with required transmission restrictions.  (T-3) 
+2.8.5.16.  Track data coordination.  (T-3) 
+2.8.5.17.  Coordinate with ASO or AST for accuracy, currency, and quality of track data 
+and air picture.  (T-3) 
+2.8.5.18.  Monitor the exchange of track data and related actions.  (T-3) 
+2.8.5.19.  Ensure resolution of interface anomalies (e.g., dual designations, duplicate 
+tracks, and identification or category conflicts).  (T-3) 
+2.8.5.20.  Transmit change data order to resolve environment and identity conflicts as 
+required.  (T-3) 
+2.8.5.21.  Coordinate the use of data filters.  (T-3) 
+20 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+2.9.  Mission Certifications. 
+2.9.1.  Mission certifications complement, augment, or assist the mission crew as needed. 
+ACC will provide a framework for mission certifications; however, management of the 
+certification program to include the attendant training and documentation requirements is the 
+responsibility of the squadron commander.  The following are the mission certifications for 
+the CONUS BCCs: 
+2.9.2.  Mission Technician (MT).  The MT is responsible to the MCC for monitoring and 
+facilitating overall mission execution; the MT is also responsible for internal and external 
+operational reporting to include emergency action messages (EAM). 
+2.9.2.1.  Emergency action coordinator (EAC).  If employed, the EAC is responsible to 
+the MCC unless otherwise tasked by the BS.  EACs will: 
+2.9.2.2.  Create, receive, validate, and disseminate EAMs and quick reaction messages 
+(QRM) IAW NORAD Instruction 10-4, NORAD Emergency Action Procedures.  (T-3) 
+2.9.2.3.  Notify MCC of received EAMs and QRMs.  (T-3) 
+2.9.2.4.  Receive, disseminate and report status of action (SOA) IAW NORAD 
+Instruction 10-4.  (T-3) 
+2.9.2.5.  Ensure EA display reflects current status.  (T-3) 
+2.9.2.6.  Maintain event logs.  (T-3) 
+2.9.2.7.  Coordinate with HHQ, internal and external agencies.  (T-3) 
+2.9.2.8.  Respond to HHQ exercises, if tasked.  (T-3) 
+2.9.2.9.  Respond to NORAD Alert System checks.  (T-3) 
+2.9.2.10.  Perform authentications.  (T-3) 
+2.9.3.  Interface Control Watch Officer (ICWO).  The ICWO is responsible for ICC 
+operations and active management of the MTN operations.  The ICWO supervises ICC 
+personnel during planning, management, and execution of the MTN.  The ICWO monitors 
+the overall quality of the MTN, directs actions to resolve problems, dynamically adjusts the 
+MTN, interfaces to meet changing information exchange requests, and manages associated 
+voice circuits. 
+2.9.4.  Weapons Technician (WT).  The WT performs non-controller functions in the 
+weapons section that may include executing scramble orders, tracking and updating weapons 
+status displays, using chat, updating and assisting the SD and AWO/WD as required. 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+21 
+Chapter 3 
+ALASKA AND HAWAII BATTLE CONTROL CENTERS 
+3.1.  Pacific Air Defense Sector (PADS) Mission.  The PADS provides air sovereignty and air 
+defense of the Hawaii Air Defense Region (HADR) and the Guam Air Defense Region (GADR) 
+under the direction of the 613AOC.  It executes defensive counterair, interdiction, and counter 
+drug operations in support of INDOPACOM.  The PADS fuses all-source sensor and intelligence 
+data into a common operational air picture and disseminates integrated tactical warning 
+information and attack assessment.  The 169th Air Defense Squadron operates the Hawaii Battle 
+Control Center to conduct the PADS mission. 
+3.2.  Alaska Battle Control Center (ABCC) Mission.  Provides air sovereignty and air defense 
+of the Alaska operational area by executing defensive counterair, interdiction and counterdrug 
+operations in support of NORAD/NORTHCOM and/or INDOPACOM.  The ABCC is 
+subordinate to the 611 AOC and supports continuation of operations when directed or required 
+for time critical execution.  The ABCC fuses all-source sensor and intelligence data into a 
+common operational air picture and disseminates integrated tactical warning information and 
+attack assessment.  The 176th Air Defense Squadron provides manning for tactical command and 
+control (C2) operations.  The 611 AOC provides manning for the Alaska NORAD Region 
+(ANR) BS. 
+3.3.  Hawaii Battle Control Center/Pacific Air Defense Sector (PADS) Organization. 
+3.3.1.  The PADS is comprised of two separate but complementary elements: the BS and the 
+mission crew.  The BS manages the air battle and functions as the conduit for the exchange 
+of C2 information between the PADS and HHQ.  The mission crew performs the functions of 
+battle management, weapons control, surveillance, identification, tactical data link 
+management and airspace management. 
+3.3.1.1.  BS.  The BS is a complementary element to the mission crew.  The air defense 
+director (ADD) may form the BS as necessary based on changes in the threat or directed 
+missions from HHQ.  The BS may be activated for an indefinite period and each BS 
+position must be capable of sustained operations (T-3) The ADD may also tailor and 
+selectively man positions within the BS for specific operations.  The BS is responsible 
+for: 
+3.3.1.2.  Executing homeland defense, air defense, and air sovereignty missions.  (T-3) 
+3.3.1.3.  Coordinating the employment of assigned assets with HHQ.  (T-3) 
+3.3.1.4.  Translating operational-level plans into tactical-level orders for mission crew 
+execution.  (T-3) 
+3.3.1.5.  Coordinating with the mission crew.  (T-3) 
+3.3.1.6.  Disseminating tactical-warning and attack assessment information to HHQ.  
+(T-3) 
+3.3.1.7.  Performing real-time battle management in support of the mission crew.  (T-3) 
+22 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+3.3.2.  BS Composition.  The BS may be tailored by the air defense director (ADD) to 
+accomplish the assigned mission.  Based on the mission tasking, the BS can consist of any 
+combination of ADD, DO, joint asset control officer (JACO)/joint asset control officer 
+technician (JACOT), intelligence officer or non-commissioned officer (IN), EAC, weapons 
+and tactics officer, fighter officer (FO).  Note: The BS may require augmentation from 
+outside the air defense squadron. 
+3.3.2.1.  Air Defense Director (ADD).  The ADD is the senior ranking officer no lower 
+than the rank of Lieutenant Colonel.  ADDs will: 
+3.3.2.1.1.  Coordinate and implement homeland defense, air defense, air sovereignty, 
+and aerospace control and warning through employment of the forces assigned or 
+made available.  (T-3) 
+3.3.2.1.2.  Coordinate tactical action with HHQ and task appropriate assets through 
+the BS to the mission crew.  (T-3) 
+3.3.2.1.3.  Exercise tactical control of all BS members.  (T-3) 
+3.3.2.2.  Intelligence officer or non-commissioned officer (IN).  INs will: 
+3.3.2.2.1.  Advise the BS and mission crew on the threats to the HADR or GADR. 
+(T-3) 
+3.3.2.2.2.  Interface, coordinate and integrate intelligence data from all available 
+intelligence sources to include HHQ and AOCs.  (T-3) 
+3.3.2.2.3.  Receive and relay all intelligence reports and other intelligence items to 
+HHQ and other organizations as required.  (T-3) 
+3.3.2.2.4.  Review intelligence data, characteristics and capabilities of potential 
+threats.  (T-3) 
+3.3.2.2.5.  Prepare and present tailored, intelligence threat updates, reports, threat 
+analysis, and situation briefings for operations personnel.  (T-3) 
+3.3.2.2.6.  Conduct studies of enemy forces and prepare intelligence reports and 
+scenarios that realistically represent those forces.  (T-3) 
+3.3.2.2.7.  Plan and conduct training of operations personnel regarding intelligence 
+matters.  (T-3) 
+3.3.2.2.8.  Maintain current situation maps, warning displays, local database, and the 
+intelligence library.  (T-3) 
+3.3.2.3.  Fighter Officer (FO).  The FO is responsible to the ADD through the DO for 
+direction and recommendations for the use of assigned fighter and tanker resources, using 
+applicable operations plans and ADD direction to ensure appropriate fighter and tanker 
+employment.  The FO ensures applicable operations and contingency plans are carried 
+out by fighter and tanker units and tracks the combat readiness of assigned fighter units. 
+(T-3) 
+3.3.3.  PADS Mission Crew Composition and Manning.  The mission crew is the focal point 
+for the conduct of weapons, surveillance, and identification functions in the HADR. 
+Supervised by the MCC, the mission crew is tasked to support the INDOPACOM/PACAF 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+23 
+mission on a continuous basis and is manned by the duty positions listed in Figure 3.1 The 
+mission crew can be tailored to mission requirements.  Manning is based on personnel 
+assigned to the approved unit manning document.  The 169 ADS DO determines manning 
+requirements to cover day-to-day operations, periods of increased readiness, and exercises. 
+Figure 3.1 identifies the combat mission crew composition of the Hawaii BCC. 
+Figure 3.1.  Combat Mission Crew Composition–Hawaii BCC. 
+COMBAT MISSION CREW COMPOSITION 
+HAWAII BCC1 
+Crew Position 
+Crew Total 
+MCC3 
+2
+MT5,6 
+2 
+SD3 
+2
+AWO/WD2 
+4
+WT5 
+3 
+ASO/AST2,3 
+2
+ST 
+6 
+ICO/ICT2
+1 
+JACOT2,4,5 
+1
+Cyberspace Duty Officer (CDO) 
+1 
+IN 
+1 
+TOTAL 
+25 
+Notes: 
+1. The complexity of mission or additional battle management areas may require additional 
+crew members.  Augmentation of the mission crew comes either from the unit’s 
+administrative and operations staff or from other crews within the unit.
+2. 13Bs can function as the technician associated with the qualification.
+3. The complexity of additional events and involvement of other government agencies may 
+require additional supervisory crew members (e.g., MCC, SD, AST) as well as additional 
+operators for weapons, surveillance and ID.
+4. Mission crew personnel man these BS positions.
+5. Mission certification position.  See paragraph 3.19.1 for further information.
+6. The unit commander will determine the need for MT to maintain a qualification in a 1C5 
+duty position.  (T-3)
+3.4.  Alaska Battle Control Center (ABCC) Organization. 
+3.4.1.  The ABCC is a weapons system as described in the ACC Battle Control Center 
+system concept.  The ABCC is comprised of those elements described in the enabling 
+concept below.  Since the ABCC and 611 AOC are collocated, the AOC commander 
+conducts the ANR/DO functions.  See AFI 13-1AOC V3 for further information. 
+3.4.2.  Crew Manning.  Manning of the ABCC is based on the personnel assigned through the 
+approved unit manning document.  The 176 ADS DO determines manning requirements.  It 
+will cover day-to-day operations and periods of increased readiness and exercises (T-3) 
+Figure 3.2 depicts the combat mission crew composition for the Alaska BCC. 
+24 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+Figure 3.2.  Combat Mission Crew Composition, Alaska BCC. 
+COMBAT MISSION CREW COMPOSITION 
+ALASKA BCC1 
+Crew Position 
+Crew Total 
+MCC 
+2
+MT2,4 
+2
+SD 
+2
+AWO/WD 
+6
+WT2,3 
+2
+ASO/AST5 
+2
+ST5 
+6 
+ICO/ICT5 
+2 
+EAC2 
+2 
+CDO 
+1 
+TOTAL 
+25 
+Notes: 
+1. The complexity of mission or additional battle management areas may require additional 
+crew members.
+2. Mission certification position.  See paragraph 3.19.1 for further information.
+3. WT will be qualified in a 1C5 duty position (i.e., ST, ICT, or AST).  All CMR WD’s are 
+able to perform the duties of WT.  (T-3)
+4. The unit commander will determine the need for MT to maintain a qualification in a 1C5 
+duty position (i.e., ST, ICT, AST or WD).  (T-3)
+3.5.  Alaska and Hawaii Battle Control Center (BCC) Mission Crew Composition.  The 
+BCC mission crew is the focal point for operations.  Supervised by a MCC, the mission crew is 
+tasked to execute the mission on a continuous basis and is manned by a number of personnel, 
+tailored to meet mission requirements.  The PADS mission crew consists of the duty positions 
+identified in Figure 3.1 and the ABCC mission crew consists of the duty positions identified in 
+Figure 3.2 Duties and responsibilities of the PADS and ABCC mission crews are described in 
+subsequent sections.  Additionally, the mission crew will have personnel certified to augment 
+and assist the battle management, weapons, and tactical data links functional areas.  See 
+paragraph 3.19.1 for certification positions. 
+3.6.  Common Mission Crew Duties and Responsibilities. 
+3.6.1.  The Alaska and Hawaii battle control centers share common crew qualifications and 
+certifications.  The following duties and responsibilities are common to all mission crew 
+positions.  All mission crew members will: 
+3.6.2.  Have working knowledge of applicable governing directives and agreements.  (T-3) 
+3.6.3.  Comply with applicable governing directives and agreements.  (T-3) 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+25 
+3.6.4.  Conduct internal and external communication and coordination.  (T-3) 
+3.6.5.  Attend crew changeover brief.  (T-3) 
+3.6.6.  Conduct thorough positional changeover briefs.  (T-3) 
+3.6.7.  Perform sound security practices.  (T-3) 
+3.6.8.  Conduct mission planning.  (T-3) 
+3.6.9.  Conduct evacuation procedures.  (T-3) 
+3.6.10.  Understand system capabilities and limitations to include weapons platforms and 
+surveillance assets; apply to mission accomplishment.  (T-3) 
+3.6.11.  Adhere to COMSEC, INFOSEC, and OPSEC procedures to include “OPEN LINE 
+and SECURE CALL” procedures.  (T-3) 
+3.6.12.  Conduct console and communication system check-out.  (T-3) 
+3.6.13.  Report malfunctioning equipment to section supervisor who, in turn, passes 
+information to the Air Surveillance Officer or Air Surveillance Technician.  (T-3) 
+3.6.14.  Report link issues to section supervisor who, in turn, passes information to the 
+Interface Control Officer or Interface Control Technician.  (T-3) 
+3.6.15.  Comply with guidance in positional checklists.  (T-3) 
+3.6.16.  Read and initial (either electronically or via hardcopy) local information files prior to 
+performing operational duties.  (T-3) 
+3.7.  MCC (13B). 
+3.7.1.  The MCC is responsible to the battle commander for all operations execution and 
+reporting within the BCC.  MCCs will: 
+3.7.2.  Mission plan with the BS.  (T-3) 
+3.7.3.  Ensure shift manning requirements are met.  (T-3) 
+3.7.4.  Implement force protection procedures.  (T-3) 
+3.7.5.  Coordinate with rescue coordination center and request assistance as required.  (T-3) 
+3.7.6.  Oversee effective air sovereignty, drug interdiction, and contingency operations.  
+(T-3) 
+3.7.7.  Implement ROE.  (T-3) 
+3.7.8.  Monitor emergency action board for accuracy and status changes.  (T-3) 
+3.7.9.  Coordinate and direct dangerous military activity (DMA) procedures.  (T-3) 
+3.7.10.  Apply and execute applicable directives to include the ATO, airspace control order 
+(ACO), exercise instructions, contingency plan (CONPLAN), operations orders (OPORDS), 
+and SPINS.  (T-3) 
+3.7.11.  Oversee the interface with airborne early warning and external units via voice 
+communications and tactical data links.  (T-3) 
+26 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+3.7.12.  Monitor status of assets (e.g., sensors, links, and aircraft).  (T-3) 
+3.7.13.  Ensure sound COMSEC practices in operations.  (T-3) 
+3.7.14.  Initiate recall procedures when directed.  (T-3) 
+3.7.15.  Ensure personnel safety and cleanliness of facility.  (T-3) 
+3.7.16.  Coordinate with HHQ and internal and external agencies.  (T-3) 
+3.7.17.  Ensure safety of flight during all phases of the mission.  (T-3) 
+3.7.18.  Determine mission capabilities and limitations of operational equipment, approve or 
+disapprove maintenance.  (T-3) 
+3.7.19.  Interpret weather information and coordinate accordingly.  (T-3) 
+3.7.20.  Identify aircraft availability and allocate alert aircraft.  (T-3) 
+3.7.21.  Coordinate and implement actions taken during fire, bomb threat, or natural disaster 
+situations.  (T-3) 
+3.7.22.  Monitor status of fire alarm systems.  (T-3) 
+3.7.23.  Summon medical assistance as required.  (T-3) 
+3.7.24.  Summon assistance during duress and or intruder situations.  (T-3) 
+3.7.25.  Conduct evacuation procedures.  (T-3) 
+3.7.26.  Notify HHQ of commander‘s availability and responsible individual.  (T-3) 
+3.7.27.  Ensure response to HHQ exercises, if tasked.  (T-3) 
+3.7.28.  Oversee track reporting procedures.  (T-3) 
+3.7.29.  Execute derelict airborne objects procedures.  (T-3) 
+3.7.30.  Implement defense condition (DEFCON) procedures.  (T-3) 
+3.7.31.  Report and record missile launches.  (T-3) 
+3.7.32.  Recommend amber warning and/or flush bases.  (T-3) 
+3.7.33.  Assume BS responsibilities when BS is not formed.  (T-3) 
+3.7.34.  Scramble and/or commit fighters IAW theater SPINS.  Keep BS informed of 
+scramble and/or commit status.  (T-3) 
+3.7.35.  Ensure fidelity drills are coordinated with HHQ.  (T-3) 
+3.7.36.  Direct reclassification of tracks.  (T-3) 
+3.7.37.  Execute aircraft emergency procedures.  (T-3) 
+3.7.38.  Ensure operations logbook and records are maintained.  (T-3) 
+3.7.39.  Ensure proper information is passed for effective operational reporting.  (T-3) 
+3.7.40.  Operate and monitor communications equipment.  (T-3) 
+3.7.41.  Make required public address (PA) announcements.  (T-3) 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+27 
+3.7.42.  Be familiar with red switch coordination.  (T-3) 
+3.8.  Weapons Section.  The weapons section is responsible for managing and employing the 
+assigned weapons systems IAW OPORD, ATO, ACO, SPINS and/or other governing 
+publications.  Weapons control procedures and techniques are contained in AFTTP 3-3.IPE,  
+AFI 11-214, and local directives.  Weapons positions will be senior director (SD) and air 
+weapons officer/ weapons director (AWO/WD).  (T-2)
+3.9.  Senior Director (SD) (13B). 
+3.9.1.  The SD is responsible to the MCC for management of the weapons section, battle 
+management, and force employment.  The SD executes aircraft scrambles and commits, 
+target selection, weapons assignment, and supervises the AWO/WD employment 
+of resources.  The SD will be a qualified and current AWO (T-3)  SDs will: 
+3.9.2.  Know the capabilities and limitations characteristics of all assigned weapons systems. 
+(T-3) 
+3.9.3.  Commit air defense weapons to counter the threat.  (T-3) 
+3.9.4.  Assign control of missions to AWO/WD.  (T-3) 
+3.9.5.  Monitor assigned missions to ensure effective mission accomplishment and flight 
+safety.  (T-3) 
+3.9.6.  Assign radio frequencies and specific consoles commensurate with mission 
+requirements.  (T-3) 
+3.9.7.  Coordinate aircraft transfer points where control is passed to other controlling 
+agencies.  (T-3) 
+3.9.8.  Apply ROE.  (T-3) 
+3.9.9.  Coordinate aircraft scramble and airborne orders.  (T-3) 
+3.9.10.  Ensure all missions are briefed and debriefed.  (T-3) 
+3.9.11.  Apply applicable directives to include the ATO, airspace control order (ACO), 
+exercise instructions, CONPLAN, and SPINS.  (T-3) 
+3.9.12.  Ensure that all AWO/WD are aware of existing and forecast weather conditions for 
+the operational area and recovery bases as necessary.  (T-3) 
+3.9.13.  Coordinate weapons section actions with surveillance and identification to maintain 
+air picture.  (T-3) 
+3.9.14.  Monitor status of alert assets.  (T-3) 
+3.9.15.  Coordinate with adjacent sector SD.  (T-3) 
+3.9.16.  Perform authentication procedures.  (T-3) 
+3.9.17.  Ensure safety of flight.  (T-3) 
+3.9.18.  Be capable of performing all AWO/WD duties.  (T-3) 
+28 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+3.10.  Air Weapons Officer/Weapons Director (AWO/WD) (13B/1C5D). 
+3.10.1.  The AWO/WD is responsible to the SD for the control of assigned aircraft. 
+AWO/WD will: 
+3.10.2.  Apply applicable directives to include the ATO, airspace control order (ACO), 
+exercise instructions, CONPLAN, and SPINS prior to sitting on position.  (T-3) 
+3.10.3.  Perform authentication procedures.  (T-3) 
+3.10.4.  Implement safe passage procedures.  (T-3) 
+3.10.5.  Pre-brief and de-brief mission with aircrew to the maximum extent possible.  (T-3) 
+3.10.6.  Pass significant weather forecasts, observations, and altimeter setting to aircrew upon 
+check-in as appropriate.  (T-3) 
+3.10.7.  Pass engagement orders.  (T-3) 
+3.10.8.  Ensure expeditious fighter positioning for mission tasking.  (T-3) 
+3.10.9.  Assist aircrews in maintaining lateral confines of airspace and airspace control 
+measures IAW AFI 11-214 and local procedures and letters of agreement.  (T-3) 
+3.10.10.  Maintain tracking of assigned aircraft and non-participating aircraft, which can 
+potentially affect flight safety.  Provide accurate and timely stranger point-outs.  (T-3) 
+3.10.11.  Ensure an orderly flow of aircraft for recovery to other control agencies.  (T-3) 
+3.10.12.  Inform the SD of conditions or situations that may affect mission completion or 
+aircraft safety.  (T-3) 
+3.10.13.  Coordinate aircraft scrambles, target selection, and weapons assignment.  (T-3) 
+3.10.14.  Know the capability of rapidly evaluating the air defense threat situation and taking 
+timely defensive action.  (T-3) 
+3.10.15.  Inform other AWO/WD of any actions taken that may affect their control actions. 
+(T-3) 
+3.10.16.  Provide tactical information to aircrews that may affect mission accomplishment. 
+(T-3) 
+3.10.17.  Obtain pilot weather reports (PIREP) and relay them to the SD.  (T-3) 
+3.10.18.  Ensure flight safety with overall mission requirements.  (T-3) 
+3.10.19.  Provide navigational and emergency assistance.  (T-3) 
+3.10.20.  Ensure completion of all appropriate logs and forms related to assigned tasks.  (T-3) 
+3.10.21.  Know the capabilities and limitations characteristics of all assigned weapons 
+systems.  (T-3) 
+3.10.22.  Know airspace management requirements and procedures.  (T-3) 
+3.10.23.  Use operational brevity code words, proper radio/telephone (R/T) techniques, and 
+communications discipline.  (T-3) 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+29 
+3.11.  Air Picture Management (APM) Section.  Air picture management encompasses the 
+functions of surveillance, identification, and tactical data links.  The APM section is responsible 
+for the detection, tracking, identification, and classification and reporting of air objects and 
+maintaining assigned portion of the multi-tactical data link (TDL) network (MTN) and 
+integrating other source data into a single air picture.  This section also directs the optimum 
+configuration of sensors for effective radar coverage and information sharing. 
+3.12.  Air Surveillance Officer (ASO)  (13B).  
+3.12.1.  If employed, the ASO manages all operational functions within the surveillance 
+section and fulfills the prerequisite for MCC.  The ASO is responsible to the MCC for the 
+maintenance and quality of a single integrated air picture.  ASO will: 
+3.12.2.  Coordinate with interface control section.  (T-3) 
+3.12.3.  Supervise the timely and accurate collection, display, and dissemination of 
+surveillance data.  (T-3) 
+3.12.4.  Monitor and report equipment status through job control.  (T-3) 
+3.12.5.  Ensure the surveillance section manning is adequate to meet mission requirements. 
+(T-3) 
+3.12.6.  Ensure MCC and maintenance personnel are aware of outages or equipment 
+degradation.  (T-3) 
+3.12.7.  Coordinate data reduction products during normal duty hours.  (T-3) 
+3.12.8.  Produce data reduction products during periods other than normal duty hours.  (T-3) 
+3.12.9.  Assess and coordinate requirements for sensor augmentation and gap coverage.  (T-3) 
+3.12.10.  Coordinate and de-conflict frequency assignments for the surveillance section as 
+required.  (T-3) 
+3.12.11.  Ensure preventive maintenance actions are deconflicted with operational mission 
+activities.  (T-3) 
+3.12.12.  Manage sensor and track validation procedures.  (T-3) 
+3.12.13.  Know radar characteristics and optimize radar presentation.  (T-3) 
+3.12.14.  Conduct EA/EP procedures.  (T-3) 
+3.12.15.  Conduct Mode IV/V checks.  (T-3) 
+3.12.16.  Monitor auxiliary equipment.  (T-3) 
+3.12.17.  Perform radar correlation checks.  (T-3) 
+3.13.  Air Surveillance Technician (AST)  (1C5X1).  
+3.13.1.  The AST is responsible to the MCC with the management of all air surveillance 
+functions.  The AST is responsible for the administrative and operational conduct of the 
+enlisted personnel in the APM section.  The AST is responsible for the entire air picture 
+including track validation, classification, and datalinks.  In the absence of an ASO, the AST 
+performs all their responsibilities.  In addition, AST will: 
+30 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+3.13.2.  Monitor radar messages counts.  (T-3) 
+3.13.3.  Set up, display, and update radar filters as required.  (T-3) 
+3.13.4.  Monitor, update, and report radar status.  (T-3) 
+3.13.5.  Analyze and report unusual presentations (e.g., EA, weather, and transient 
+interference) to the appropriate agencies.  (T-3) 
+3.13.6.  Assign surveillance areas to all surveillance technicians (STs).  (T-3) 
+3.13.7.  Supervise sensor, track validation and classification, and datalink procedures.  (T-3) 
+3.13.8.  Conduct electronic attack/electronic protection (EA/EP) procedures.  (T-3) 
+3.13.9.  Conduct Mode IV/V checks.  (T-3) 
+3.13.10.  Monitor auxiliary equipment.  (T-3) 
+3.13.11.  Perform radar correlation checks.  (T-3) 
+3.13.12.  Be capable of supervising all ST duties.  (T-3) 
+3.14.  Surveillance Technician (ST)  (1C5X1).  
+3.14.1.  The ST is responsible to the ASO or AST for track detection, initiation (active and 
+passive), investigation and classification, track maintenance and reporting for all airborne 
+objects within the assigned surveillance area.  In addition to the duties and responsibilities in 
+paragraph 3.11, STs will: 
+3.14.2.  Detect tracks and perform active and passive tracking procedures.  (T-3) 
+3.14.3.  Manually initiate track symbology as required.  (T-3) 
+3.14.4.  Maintain track continuity and drop tracks as required.  (T-3) 
+3.14.5.  Correlate data and track reports from multiple sources.  (T-3) 
+3.14.6.  Perform voice-tell as assigned.  (T-3) 
+3.14.7.  Report suspicious track activity.  (T-3) 
+3.14.8.  Monitor and report track characteristics.  (T-3) 
+3.14.9.  Recognize and report emergency aircraft situations.  (T-3) 
+3.14.10.  Perform Mode IV/V interrogations.  (T-3) 
+3.14.11.  Notify the ASO or AST of identification investigation status.  (T-3) 
+3.14.12.  Adhere to identification criteria IAW ROE.  (T-3) 
+3.14.13.  Classify tracks IAW directives.  (T-3) 
+3.14.14.  Perform authentication procedures.  (T-3) 
+3.14.15.  Coordinate with external agencies to implement aerospace control measures.  (T-3) 
+3.14.16.  Perform safe passage IAW directives.  (T-3) 
+3.14.17.  Make appropriate public announcements.  (T-3) 
+3.14.18.  Interpret, correlate, and report flight plan information.  (T-3) 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+31 
+3.14.19.  Communicate on the DEN.  (T-3) 
+3.14.20.  Conduct the ST portion of changeover and exercise briefings.  (T-3) 
+3.15.  Interface Control Cell (ICC).  The ICC is responsible to the ASO or AST for developing 
+and maintaining their assigned sector of the multi-TDL network (MTN).  The BCC ICO or 
+ICT(s) coordinate with the AOC JICO for planning and execution functions that cross sector 
+boundaries or impact the regional portion of the MTN. 
+3.16.  Interface Control Officer (ICO)  (13B).  
+3.16.1.  The ICO, if employed, is responsible to the MCC for supervision and management of 
+interface control cell (ICC) operations.  The ICO supervises all link management issues 
+within the multi-TDL network (MTN), including clarity, accuracy, currency, and quality of 
+track data displayed on the mission system.  ICO will: 
+3.16.2.  Supervise link management and track data coordination (TDC).  (T-3) 
+3.16.3.  Transmit or coordinate the transmission of change data orders.  (T-3) 
+3.16.4.  Recommend changes to surveillance based on MTN situation.  (T-3) 
+3.16.5.  Manage MTN participant‘s surveillance scheme (e.g., track production area, mutual 
+support, and track by exception).  (T-3) 
+3.16.6.  Manage and direct the use of filters.  (T-3) 
+3.16.7.  Coordinate and manage the execution of fidelity drills.  (T-3) 
+3.16.8.  Coordinate with HHQ for tactical operations data (TACOPDAT) and OPTASK 
+LINK issues.  (T-3) 
+3.16.9.  Manage data forwarding.  (T-3) 
+3.16.10.  Assign and manage forwarding units, including standbys.  (T-3) 
+3.16.11.  Supervise communications to support link and track management.  (T-3) 
+3.16.12.  Designate or perform TDC.  (T-3) 
+3.16.13.  Manage MTN contingency procedures for loss of part or all links.  (T-3) 
+3.16.14.  Approve and direct crypto key changes.  (T-3) 
+3.16.15.  Ensure all link operations comply with HHQ directives.  (T-3) 
+3.16.16.  Ensure current link information is available to all BCC personnel.  (T-3) 
+3.16.17.  Manage assignment of functional network roles.  (T-3) 
+3.16.18.  Know content of governing military standards and HHQ directives.  (T-3) 
+3.16.19.  Ensure Link 16 operations are entered into the Link 16 network deconfliction 
+server.  (T-3) 
+3.16.20.  Manage activation and deactivation of relays and changes of JU transmit mode.  
+(T-3) 
+3.16.21.  Manage and use COMSEC material required for ICC operations.  (T-3) 
+32 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+3.16.22.  Evaluate tactical link performance and up channels data for operational assessment. 
+(T-3) 
+3.16.23.  Supervise and perform changes to serial and internet protocol configurations.  (T-3) 
+3.16.24.  Direct subordinate unit changes to the data net control station for Link 11.  (T-3) 
+3.16.25.  Manage and direct subordinate unit(s) changes to parameters for interface data 
+links.  (T-3) 
+3.16.26.  Supervise the local resolution of interface anomalies.  (T-3) 
+3.16.27.  Monitor and coordinate effects of data filters.  (T-3) 
+3.17.  Interface Control Technician  (ICT) (1C5X1).   
+3.17.1.  The ICT is responsible to the MCC for ICC operations.  The ICT is responsible for 
+the operational conduct of the enlisted personnel in the ICC and assists the ICO in the 
+accomplishment of their duties.  The ICT is responsible for all link management issues 
+within the MTN and ensures the clarity, accuracy, currency, and quality of track data 
+displayed on the mission system.  ICT facilitates the resolution of dual track designation and 
+identification conflicts.  ICTs will perform the following: 
+3.17.1.1.  Supervisory.  (T-3) 
+3.17.1.2.  Oversee or perform the link management and track data coordination.  (T-3) 
+3.17.1.3.  Transmit or coordinate the transmission of change data orders.  (T-3) 
+3.17.1.4.  Recommend changes to the surveillance based on MTN situation.  (T-3) 
+3.17.1.5.  Direct MTN participant‘s surveillance scheme (e.g., track production area 
+[TPA], mutual support, and track by exception).  (T-3) 
+3.17.1.6.  Coordinate and direct the use of filters.  (T-3) 
+3.17.1.7.  Coordinate the execution of local fidelity drills.  (T-3) 
+3.17.1.8.  Coordinate with HHQ for TACOPDAT and OPTASK LINK issues.  (T-3) 
+3.17.1.9.  Manage data forwarding.  (T-3) 
+3.17.1.10.  Assign and manage forwarding units.  (T-3) 
+3.17.1.11.  Establish communications to support link and track management.  (T-3) 
+3.17.1.12.  Implement and manage MTN contingency procedures for loss of part or all 
+links.  (T-3) 
+3.17.1.13.  Approve and direct cryptologic key changes.  (T-3) 
+3.17.1.14.  Ensure all link operations comply with HHQ directives.  (T-3) 
+3.17.1.15.  Ensure current link information is available to all BCC personnel.  (T-3) 
+3.17.2.  Link management.  (T-3) 
+3.17.2.1.  Manage assignment of functional network roles.  (T-3) 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+33 
+3.17.2.2.  Implement MTN corrective actions when disruptions occur to ensure the 
+effective and efficient exchange of information.  (T-3) 
+3.17.2.3.  Ensure Link 16 operations are entered into the Link 16 network deconfliction 
+server.  (T-3) 
+3.17.2.4.  Initiate, maintain, and terminate data links.  (T-3) 
+3.17.2.5.  Manage activation and deactivation of relays and changes of JU transmit mode. 
+(T-3) 
+3.17.2.6.  Manage and use COMSEC material required for ICC operations.  (T-3) 
+3.17.2.7.  Evaluate link performance and up channels operational effectiveness.  (T-3) 
+3.17.2.8.  Perform net control station duties for data link coordination nets.  (T-3) 
+3.17.2.9.  Coordinate and perform changes to serial and IP configurations.  (T-3) 
+3.17.2.10.  Direct subordinate unit changes to the DNCS for Link 11.  (T-3) 
+3.17.2.11.  Manage and direct subordinate unit changes to parameters for interface data 
+links.  (T-3) 
+3.17.2.12.  Coordinate changes to link configuration to meet information exchange 
+requirements.  (T-3) 
+3.17.2.13.  Execute Link 11 data link reference point changes.  (T-3) 
+3.17.2.14.  Track data coordination.  (T-3) 
+3.17.2.15.  Establish and maintain voice communications with all link participants.  (T-3) 
+3.17.2.16.  Perform as net control station (NCS) for track management communications 
+when designated.  (T-3) 
+3.17.2.17.  Monitor the exchange of link messages and track data.  (T-3) 
+3.17.2.18.  Ensure the effective flow of data and clarity of the tactical picture.  (T-3) 
+3.17.2.19.  Supervise the resolution of interface anomalies.  (T-3) 
+3.17.2.20.  Supervise the resolution of dual designations.  (T-3) 
+3.17.2.21.  Supervise the resolution of duplicate tracks.  (T-3) 
+3.17.2.22.  Supervise the resolution of identification conflicts.  (T-3) 
+3.17.2.23.  Supervise the resolution of category conflicts.  (T-3) 
+3.17.2.24.  Ensure transmission of change data orders to resolve environment and ID 
+conflicts.  (T-3) 
+3.17.2.25.  Coordinate and implement use of data filters.  (T-3) 
+3.17.2.26.  Monitor effects of data filters.  (T-3) 
+3.17.2.27.  Monitor and coordinate effects of participant or link node losses.  (T-3) 
+3.17.2.28.  Coordinate the use and transmission of reference points, lines, and areas. (T-3)
+34 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+3.17.2.29.  Coordinate and supervise local fidelity drills to meet mission requirements. 
+(T-3) 
+3.17.2.30.  Know governing military standards and HHQ directives.  (T-3) 
+3.17.2.31.  Use COMSEC material required for ICC operations.  (T-3) 
+3.18.  Cyberspace Duty Officer (CDO) (17X/3D/1B). 
+3.18.1.  If a CDO is assigned, he/she will be responsible for providing, protecting and 
+maintaining command and control, communications, computer, and information (C4I) 
+systems (T-3) The CDO must consider cyber security implications for all BCC related 
+mission systems to include: radios, radars, C4I systems, networks, telecommunications 
+systems, satellite systems, and automation used in multiple classified and unclassified 
+environments.  (T-3) The CDO will: 
+3.18.2.  Direct local cyberspace incident response team(s).  (T-3) 
+3.18.3.  Coordinate with applicable external cyberspace organizations, to include 1AF/A6, 
+NORAD-NORTHCOM joint cyber cell, assigned cyber protection teams, network operations 
+security center, and the other battle control centers’ cyberspace personnel.  (T-3) 
+3.18.4.  Provide expertise in defensive cyber operations planning and execution, in 
+conjunction with appropriate authorities and according to DoD defense in depth strategies for 
+networks and systems.  (T-3) 
+3.18.5.  Provide 
+commander 
+INFOCON 
+status 
+and 
+impact 
+to 
+systems; 
+make 
+recommendations for local changes to INFOCON, to include tailored response options; 
+apprise commander of INFOCON changes at HHQ locations.  (T-3) 
+3.19.  Mission Certifications. 
+3.19.1.  Mission certifications augment or assist the mission crew as needed.  ACC and 
+PACAF will provide a framework for mission certifications; however, management of the 
+certification program to include the attendant training and documentation requirements is the 
+responsibility of the squadron commander.  The following are the mission certifications for 
+the Alaska and Hawaii BCCs: 
+3.19.2.  Mission Technician (MT).  The MT is responsible to the MCC for monitoring and 
+facilitating overall mission execution, internal and external operational reporting to include 
+EAM, supervising operational conduct of the enlisted personnel on the operations floor, and 
+assisting the MCC in the accomplishment of his or her duties.  (T-3) See paragraph 3.7 for 
+MCC specific duties. 
+3.19.3.  Emergency Action Coordinator (EAC) (1C5X1).  If employed, the EAC is 
+responsible to the MCC unless otherwise directed by the chief of combat operations (CCO). 
+EACs will: 
+3.19.3.1.  Create, receive, validate, and disseminate EAMs and QRMs IAW NORAD 
+Instruction 10-4.  (T-3) 
+3.19.3.2.  Notify MCC or CCO of received EAMs and/or QRMs.  (T-3) 
+3.19.3.3.  Receive, disseminate, and report SOA IAW NORAD Instruction 10-4.  (T-3) 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+35 
+3.19.3.4.  Ensure emergency action display reflects current status.  (T-3) 
+3.19.3.5.  Maintain event logs.  (T-3) 
+3.19.3.6.  Coordinate with HHQ, internal and external agencies.  (T-3) 
+3.19.3.7.  Respond to HHQ exercises, if tasked.  (T-3) 
+3.19.3.8.  Respond to NORAD Alert System checks.  (T-3) 
+3.19.3.9.  Perform authentications.  (T-3) 
+3.19.4.  Weapons Technician (WT).  The WT performs non-controller functions in the 
+weapons section that may include executing scramble orders, tracking and updating weapons 
+status displays, using chat, updating Air/Event Information Sharing System and assisting the 
+SD and AWO/WD as required. 
+3.19.5.  Joint Asset Control Officer (JACO)/Joint Asset Control Officer Technician (JACOT) 
+(13B/1C5X1).  The JACO/JACOT is responsible to the ADD through the DO.  The 
+JACO/JACOT will advise the ADD on assigned sensor assets and functions as the sector‘s 
+Ground Environment Resources Manager (T-3) The JACO/JACOT will ensure the sector‘s 
+operations and contingency plans are carried out by ground environment units and provides 
+the BS Airborne Warning and Control System employment recommendations.  (T-3) 
+36 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+Chapter 4 
+PACAF THEATER AIR CONTROL SYSTEM (TACS) UNITS 
+4.1.  Organization.  USAF TACS elements in Japan consist of Fifth Air Force Air Defense 
+Liaison Element (5 AF ADLE), the 610th Air Control Flight, and the 623 ACS.  The USAF 
+TACS element in Korea is the 621 ACS. 
+4.2.  Air Defense Liaison Team (ADLT).  ADLTs are responsible for coordination with 
+Japanese Air Self Defense Forces counterparts to ensure efficient operations.  ADLTs are also 
+responsible for coordination with US air and air defense artillery (ADA) within the Japan Air 
+Defense Ground Environment system, using the ATO and airspace control order developed by 
+the 613 AOC.  When activated by HHQ, the ADLT is operationally responsible to the 613 AOC 
+Chief, Combat Operations (US). 
+4.3.  Air Defense Liaison Element (ADLE).  The ADLE functions as the Regional Interface 
+Control Cell (RICC) for the operational reporting requirements supporting US and bi-lateral 
+operations in and around Japan.  The ADLE is responsible for management of operations 
+including employment planning and coordination with US and Japanese command and control 
+(C2) agencies. 
+4.4.  Regional Interface Control Cell (RICC).  Will execute data link operations in Japan as 
+directed by 613 AOC/JICC.  (T-3) 
+4.5.  Sector Interface Control Cell (SICC).  The SICC is responsible to the Japan Regional 
+Interface Control Cell (RICC) at 5AF/A3 Air Defense Liaison Element (ADLE) for developing 
+and maintaining the multi-tactical data link (TDL) network (MTN) in the southwest sector of 
+Japan.  The SICC will report directly to the theater JICC when working multi-tactical data link 
+network (MTN) missions outside the Japan AOR.  (T-3) 
+4.6.  Forward Interface Control Cell (FICC).  Will execute and deploy IAW unit type code 
+(UTC) as directed by 613 AOC/JICC.  (T-3) When activated, the FICC is operationally 
+subordinate to the SICC or theater JICC when working MTN missions outside the Japan AOR. 
+4.7.  Tactical Data Link Node (TDLN).  The TDLN is responsible to the nearest SICC or RICC 
+for the execution of daily data link operations.  TDLN personnel will ensure link equipment is 
+operational and take corrective action on equipment or data links as required.  (T-3) 
+4.8.  Mission Crew Duties and Responsibilities. 
+4.8.1.  The following duties and responsibilities are common to all crew duty positions. 
+Units identify specific duties and responsibilities for individual or unique mission sets. 
+4.8.2.  Conduct mission planning. 
+4.8.3.  Lead or attend crew briefs. 
+4.8.4.  Conduct thorough positional changeover brief. 
+4.8.5.  Read and initial (either electronically or via hardcopy) local information files prior to 
+performing operational duties. 
+4.8.6.  Lead or attend crew debrief. 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+37 
+4.9.  Mission Commander (MC) (13B).  The MC is responsible for supervising all aspects of 
+the mission when integrated with a crew.  If a mission does not require a MC, a section lead (SL) 
+will assume those responsibilities (T-3) Only a certified MC will lead joint or combined forces 
+missions (T-3) The MC will plan, coordinate, brief, execute and debrief joint or combined force 
+employment packages.  (T-3) 
+4.10.  Section Lead (SL) (13B).  The SL is responsible to the MC for assignment of allocated 
+weapons and for coordinating and directing activities.  The SL must be a certified air battle 
+manager (ABM).  (T-3) 
+4.11.  Senior Battle Management Operator (SBMO) (1C571).  The SBMO is typically a 
+SNCO.  The SBMO is responsible to the MC and/or SL as directed to ensure the effective 
+operation of the crew.  The SBMO will be a certified 1C5 (T-3) Units will develop local 
+positional certification requirements.  (T-3) 
+4.12.  Battle Management Operator (BMO) (1C5X1).  The BMO is responsible to the 
+SL/WD/ABM as directed, and is responsible for facilitating effective mission execution.  The 
+BMO will be a certified 1C5 (T-3) Units will develop local positional certification requirements. 
+(T-3) 
+4.13.  Air Battle Manager/Weapons Director (ABM/WD) (13B/1C5X1D).  The ABM/WD is 
+responsible for providing appropriate battle management command and control (BMC2) to 
+aircraft operating in their AOR. 
+4.14.  Interface Control Officer (ICO) (13B).  The ICO is responsible for supervision and 
+management of ICC operations.  The ICO supervises all link management functions within the 
+MTN, and is responsible for the clarity, accuracy, currency and quality of track data displayed on 
+the mission system.  (T-3) 
+4.15.  Interface Control Technician (ICT) (1C5X1).  The ICT is responsible to the ICO for 
+ICC operations.  The ICT is responsible for all link management issues with the MTN, ensuring 
+the clarity, accuracy, currency and quality of track data displayed on the mission system.  (T-3) 
+4.16.  Missile Assignment Officer (MAO).  The MAO is a normally a US Army officer 
+responsible to the SL for the engagement of threats by ADA systems within the system.  The 
+MAO will be the liaison between the commander, AD brigade, and the MC.  (T-3) 
+4.17.  Intelligence Officer/NCO (IN) (14N/1N0X1).  If assigned or attached, IN will advise the 
+crew on AOR threats, provide intelligence updates as required and coordinate during planning, 
+execution and debrief phases of contingency and exercise operations.  (T-3) IN will also 
+maintain current situation maps, local database and intelligence library as well as receiving and 
+relaying intelligence reports to HHQ as required.  (T-3) 
+4.18.  Computer Systems Operator (3D0X1).  If assigned or attached, they maintain BCS-
+K/BC3 system consoles, communication systems and support equipment IAW established local 
+OI/procedures. 
+38 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+Chapter 5 
+DOCUMENTATION 
+5.1.  General.  Management and control of publications, records, and required documentation is 
+essential for the effective operations management.  This chapter establishes the requirements and 
+provides guidance for the maintenance of required publications and documentation. 
+5.2.  Operations Instructions (OIs) or Operations Standards.  A set of OI and standards will 
+be prepared to detail the local operational guidance and procedures that may not be fully 
+explained in HHQ directives.  (T-3) 
+5.3.  Operations Information File (OIF).  The OIF is required to ensure that information 
+essential to the conduct of operations or emergency conditions are available.  1AF (AFNORTH) 
+units submit draft supplements to ACC/A3C.  PACAF units submit draft supplements and/or 
+changes to PACAF/A3/6C.  OIs are recommended to establish local procedures for maintenance 
+of the OIF. 
+5.4.  Logbooks. 
+5.4.1.  Logbooks must be maintained at the MCC and any other position as determined by the 
+unit DO (T-3) Classified inventory completion will be recorded in each applicable logbook. 
+(T-3) Logbooks are official records of events that occurred during a crew‘s tour of duty.  The 
+purpose is to maintain an accurate and detailed record of all significant events pertaining to 
+operations.  Logbooks will be classified according to AFI 16-1404, Air Force Information 
+Security Program.  (T-2) 
+5.4.2.  Units may use electronic logbooks (i.e., dynamic synchronized event log [DSEL]) as 
+the primary logbook.  However, use a permanently bound book as a back-up.  (T-3) In the 
+event of a loss of the electronic logbook capability, permanently bound logbooks will be used 
+until the equipment is restored.  (T-3) Transcribe information from the permanently bound 
+logbook back into the electronic logbook.  (T-3) Note:  HQ NORAD/NORTHCOM is 
+responsible for providing the necessary training, funding, and technical and/or software 
+support for the NORAD specific electronic logbook. 
+5.4.3.  The following procedures apply for all permanently bound logbooks.  Units will: 
+5.4.3.1.  Maintain logbooks in a permanently bound book, such as a ledger or journal. 
+(T-3) Obtain a ledger under GSA stock number 7530-00-286-8363. 
+5.4.3.2.  Classify, mark, handle, and store logbooks IAW AFI 16-1404.  (T-2) Logbooks 
+will contain information concerning actual or simulated exercise alert warnings, states of 
+preparedness, identification friend or foe/special identification feature (IFF/SIF) modes 
+and codes of the day, air-to-ground frequencies, system capabilities, outages, and so 
+forth.  (T-3) 
+5.4.3.3.  Make entries in logbooks in black or blue ink.  (T-3) Do not make erasures.  
+(T-3) Correct errors by lining through incorrect words (include initials next to line 
+through).(T-3) Highlighting of critical items and times is authorized.
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+39 
+5.4.3.4.  All logbooks will be opened at 0000Z or the beginning of each duty day and 
+closed at 2359Z or the end of each duty day.  (T-3) All entries will be made using 
+Greenwich Mean Time.  (T-3) 
+5.4.3.5.  It is not necessary to record information that has already been noted in another 
+authorized document, unless deemed appropriate for clarity and understanding. 
+5.4.4.  In all logbooks, units must make the following entries: 
+5.4.4.1.  Time of each entry (ZULU).  (T-2) 
+5.4.4.2.  Classification of each entry.  (T-2) 
+5.4.4.3.  Signature or sign-in of the responsible individual at the beginning and end of the 
+duty day.  (T-2) 
+5.4.4.4.  COMSEC inventory completion.  (T-2) 
+5.4.4.5.  Call sign or name of agency or unit to which information is passed or received. 
+(T-2) 
+5.4.4.6.  Initials of both individual passing and receiving information to the maximum 
+extent possible.  (T-2) 
+5.4.4.7.  Verbal orders or instructions that deviate from standard operating procedures, 
+including name, rank, organization of the authorizing party, any authentication used, and 
+if reply was appropriate.  (T-2) 
+5.4.4.8.  Requested reports from other units.  (T-2) 
+5.4.4.9.  Flight on duty.  (T-2) 
+5.4.5.  Units will log: 
+5.4.5.1.  All changes in alert warnings and states of preparedness.  Indicate live fly 
+exercise as applicable.  (T-3) 
+5.4.5.2.  All information concerning aircraft accidents, near misses, and declared 
+emergencies (e.g., operations report items or other items of significance).  (T-3) 
+5.4.5.3.  Tactical action taken (when required) against tracks classified non-friendly.  
+(T-3) 
+5.4.5.4.  Weather warnings.  (T-3) 
+5.4.5.5.  Scramble status of assigned air bases, to include reason for mandatory status. 
+(T-3) 
+5.4.5.6.  Start and stop times of all exercises.  Separate logbooks for recording exercise 
+information are authorized.  (T-3) 
+5.4.5.7.  All information concerning track of interest (TOI) prosecution.  (T-3) 
+5.4.5.8.  SOA.  (T-3) 
+5.4.5.9.  Commander availability.  (T-3) 
+5.4.5.10.  Significant events.  (T-3) 
+40 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+5.4.5.11.  Link status and changes.  (T-3) 
+5.4.5.12.  EAM and/or QRM messages.  (T-3) 
+5.4.5.13.  Configuration changes.  (T-3) 
+5.4.5.14.  Sensor changes.  (T-3) 
+5.4.5.15.  Equipment changes.  (T-3) 
+5.4.5.16.  Communications changes.  (T-3) 
+5.4.5.17.  Applicable EA activity, spectrum interference incidents and reports, electronic 
+combat tactical action reports, EA missions, Federal Aviation Authority (FAA) cease 
+buzzers, and other items that may or do affect the management of the BCC.  (T-3) 
+5.5.  Voice Recording, Retrieval and Storage. 
+5.5.1.  Recording of live mission activity is essential to provide necessary information 
+regarding events that could result in subsequent investigation.  All unclassified active voice 
+communication systems will be recorded.  (T-3) Units will develop local retrieval and 
+storage procedures.  (T-3) 
+5.5.2.  Normal.  Voice recordings containing routine information will be retained for a 
+minimum of 30 days.  (T-3) 
+5.5.3.  Special.  Voice recordings containing information concerning events will be 
+identified, marked and retained in a secure location indefinitely or until the incident is 
+resolved.  (T-2) Recordings containing information concerning accident or incident will be 
+retained until the incident is resolved or for a minimum of six months.  (T-2) The MCC or 
+higher authority may direct the media to be retained for a specific reason.  In such a case, the 
+media will be marked appropriately with the requester‘s name, rank, duty title, organization, 
+and disposition instructions.  (T-3) 
+5.6.  Data Recording.  Retain data recordings for 30 days.  Recording data containing 
+information concerning accident or incident will be identified, marked, and retained until the 
+incident is resolved or for a minimum of six months.  The MCC or higher authority may direct 
+data media be retained for a specific reason.  In such a case, mark the data media appropriately 
+with the requester‘s name, rank, duty title, and organization, and disposition instructions.  (T-2) 
+5.7.  COMSEC Requirements.  The COMSEC responsible officer will ensure required 
+COMSEC materials are available to the duty crew.  (T-3) 
+5.8.  Checklists  . 
+5.8.1.  General.  Checklists are listing of steps that are ordinarily taken in sequence to 
+respond properly to a particular event. 
+5.8.2.  Administrative Requirements.  Units will maintain checklists in accordance with the 
+following administrative guidelines: 
+5.8.2.1.  The first page of each binder or holder will contain a sheet showing date 
+reviewed and the initials of the reviewer.  (T-3) Each unit will develop internal review 
+procedures to ensure that only current checklists are in use.  (T-3)  At a minimum, all 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+41 
+checklists will be reviewed annually.  (T-3) Signature of the reviewer signifies checklists 
+are current.  Checklists will be marked according to AFI 16-1404.  (T-2) 
+5.8.2.2.  The first checklist in any binder or holder will always be the aircraft emergency 
+checklist.  (T-3) 
+5.8.2.3.  If checklists are combined with other types of guides or documents such as 
+locally developed operator handbooks, the checklists will be placed to the front and 
+separated from other material.  (T-3) 
+5.9.  Quick Reference Guides (QRG). 
+5.9.1.  Quick reference guides are similar to checklists but do not need sequential steps and 
+can contain charts, maps, telephone listings, etc., in any format or arrangement.  Both 
+checklists and guides will list the specific reference documents upon which the procedures 
+are based (e.g., manuals, regulations, technical orders, operations instructions, etc.).  (T-3)  
+QRGs may be prepared for all duty positions.  QRGs may contain the following types of 
+information. 
+5.9.2.  Emergency airfield data and emergency procedures. 
+5.9.3.  Aircraft resources. 
+5.9.4.  Air bases and aircraft units. 
+5.9.5.  Radar units. 
+5.9.6.  Safe passage corridors. 
+5.9.7.  ROE. 
+5.9.8.  Identification criteria. 
+5.9.9.  Jettison and bail out areas. 
+5.9.10.  IFF/SIF procedures. 
+5.9.11.  Communications and frequency information. 
+5.9.12.  Search and rescue procedures. 
+5.9.13.  Operational area. 
+5.9.14.  Console and communications procedures. 
+5.10.  Disposition of Documentation.  Units will appropriately mark and file chronologically all 
+forms completed during the tour of duty.  (T-3) 
+JOSEPH T. GUASTELLA Jr., Lt Gen, USAF 
+Deputy Chief of Staff, Operations 
+42 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+DAFPD 10-9, Lead Command Designation and Responsibilities for Weapon Systems, 8 March 
+2007 
+DAFPD 13-1, Command and Control Enterprise (C2 Enterprise), 6 August 2012 
+AFI 33-324, The Air Force Information Collections and Reports Management Program, 22 July 
+2019 
+DAFI 33-360, Publications and Forms Management, 1 December 2015 
+AFMAN 13-1BCC, Volume 1, Battle Control Center (BCC) Training, 17 July 2020 
+AFTTP 3-3, Integrated Planning and Employment (IPE), 3 April 2020 
+AFI 11-214, Air Operations Rules and Procedures, 8 July 2020 
+NORAD Instruction 10-4, NORAD Emergency Action Procedures, 9 June 2015 
+AFI 33-322, Records Management and Information Governance Program, 23 March 2020 
+AFI 16-1404, Air Force Information Security Program, 29 May 2015 
+Prescribed Forms 
+None 
+Adopted Forms 
+AF Form 847, Recommendation for Change of Publication 
+DD Form 2992, Medical Recommendation for Flying or Special Operational Duty 
+Abbreviations and Acronyms 
+ABCC—Alaska Battle Control Center 
+ABM—Air Battle Manager 
+ACC—Air Combat Command 
+ACO—Airspace Control Order 
+ACS—Air Control Squadron 
+ADA—Air Defense Artillery 
+ADD—Air Defense Director 
+ADLE—Air Defense Liaison Element 
+ADLT—Air Defense Liaison Team 
+ADS—Air Defense Squadron 
+AETC—Air Education and Training Command 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+43 
+AFNORTH—Air Forces Northern 
+AFSC—Air Force Specialty Code 
+ANG—Air National Guard 
+ANR—Alaska NORAD Region 
+AOC—Air and Space Operations Center 
+APM—Air Picture Management 
+ASO—Air Surveillance Officer 
+AST—Air Surveillance Technician 
+ATO—Air Tasking Order 
+AWO—Air Weapons Officer 
+BC—Battle Commander 
+BCC—Battle Control Center 
+BMO—Battle Management Operator 
+BMS—Battle Management Superintendent 
+BS—Battle Staff 
+C2—Command and Control 
+C4I—Command and Control, Communications, Computers, and Information 
+CC—Commander 
+CDO—Cyberspace Duty Officer 
+CFP—Communications Focal Point 
+COMSEC—Communications Security 
+CONPLAN—Contingency Plan 
+CONR—CONUS NORAD Region 
+CONUS—Continental United States 
+DAFI—Department of the Air Force Instruction 
+DEFCON—Defense Condition 
+DEN—Domestic Event Network 
+DMA—Dangerous Military Activity 
+DNCS—Data Net Control Station  
+DO—Director of Operations 
+EA/EP—Electronic Attack/Electronic Protection 
+EAC—Emergency Action Coordinator 
+44 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+EADS—Eastern Air Defense Sector 
+EAM—Emergency Action Message 
+FAA—Federal Aviation Administration 
+FICC—Forward Interface Control Center 
+FO—Fighter Officer 
+GADR—Guam Air Defense Region 
+HADR—Hawaii Air Defense Region 
+HHQ—Higher Headquarters 
+IAW—In accordance with 
+ICC—Interface Control Cell 
+ICO—Interface Control Officer 
+ICT—Interface Control Technician 
+ICWO—Interface Control Watch Officer 
+ID—Identification 
+IFF/SIF—Identification Friend or Foe/Selective Identification Feature 
+IN—Intelligence Officer/Non-commissioned Officer 
+INDOPACOM—Indo-Pacific Command 
+INFOSEC—Information Security 
+JACO—Joint Asset Control Officer 
+JACOT—Joint Asset Control Officer Technician 
+JICC—Joint Interface Control Cell 
+JICO—Joint Interface Control Officer 
+MAJCOM—Major Command 
+MAO—Missile Assignment Officer 
+MC—Mission Commander 
+MCC—Mission Crew Commander 
+MT—Mission Technician 
+MTN—Multi-Tactical Data Link Network 
+NCS—Net Control Station 
+NORAD—North American Aerospace Defense Command 
+OI—Operating Instructions 
+OIF—Operations Information File 
+AFMAN13-1BCCV3  20 OCTOBER 2020 
+45 
+OPORD—Operations Order 
+OPR—Office of Primary Responsibility 
+OPSEC—Operations Security 
+PACAF—Pacific Air Forces 
+PADS—Pacific Air Defense Sector 
+PIREP—Pilot Weather Report 
+QRM—Quick Reaction Message 
+QRG—Quick Reference Guide 
+R/T—Radio/Telephone 
+RICC—Region Interface Control Cell 
+ROE—Rules of Engagement 
+SBMO—Senior Battle Management Operator 
+SD—Senior Director 
+SICC—Sector Interface Control Cell 
+SITREP—Situation Report 
+SL—Section Lead 
+SOA—Status of Action 
+SPINS—Special Instructions 
+ST—Surveillance Technician 
+TACOPDAT—Tactical Operations Data 
+TACS—Theater Air Control System 
+TDC—Track Data Coordination 
+TDL—Tactical Data Link 
+TDLN—Tactical Data Link Node 
+USAF—United States Air Force 
+WADS—Western Air Defense Sector 
+WD—Weapons Director 
+WT—Weapons Technician 

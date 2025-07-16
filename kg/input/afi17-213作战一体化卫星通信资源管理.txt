@@ -1,0 +1,743 @@
+ 
+ 
+BY ORDER OF THE SECRETARY  
+OF THE AIR FORCE 
+ 
+AIR FORCE INSTRUCTION 17-213 
+28 AUGUST 2017 
+Cyberspace 
+WARFIGHTING INTEGRATION 
+SATELLITE COMMUNICATIONS 
+RESOURCE MANAGEMENT 
+COMPLIANCE WITH THIS PUBLICATION IS MANDATORY 
+ 
+ACCESSIBILITY:  Publications and forms are available on the e-Publishing website at 
+www.e-Publishing.af.mil for downloading or ordering. 
+RELEASABILITY:  There are no releasability restrictions on this publication. 
+ 
+ 
+OPR: SAF/A6CW 
+ 
+Supersedes: 
+AFI33-134, 15 January 2015 
+Certified by: SAF/A6CW  
+(Col Christopher J. Gunderson) 
+Pages: 19 
+ 
+ 
+This instruction implements Air Force Policy Directive (AFPD) 17-2, Cyberspace Operations, 
+Department of Defense (DoD) Instruction (DoDI) 8100.04, Unified Capabilities, DoDI 8420.02 
+DoD Satellite Communications (SATCOM), Chairman of the Joint Chiefs of Staff Instruction 
+(CJCSI) 6250.01, Satellite Communications; it supports AFI 17-111 Information Technology 
+(IT) Asset Management (ITAM) and AFI 17-210 Radio Management.  It provides procedures for 
+Air Force (AF) personnel who procure and manage Mobile Satellite Services (MSS) and/or 
+Fixed Satellite Service (FSS) resources in support of mission readiness and warfighting 
+capabilities.  This instruction applies to all military and civilian Air Force personnel, members of 
+the Air Force Reserve and Air National Guard, and other individuals or organizations as required 
+by binding agreement or obligation with the Department of the Air Force.  Refer questions or 
+recommendations for changes on the content of this instruction through appropriate command 
+channels to Secretary of the Air Force Warfighter Systems Integration 1800 Air Force Pentagon, 
+Washington DC 20330-1800, using AF IMT 847, Recommendation for Change of Publication.  
+The authorities to waive wing/unit level requirements in this publication are identified with a 
+Tier (“T-0, T-1, T-2, and T-3”) number following the compliance statement.  See AFI 33-360, 
+Publications and Forms Management, Table 1.1 for a description of the authorities associated 
+with the Tier numbers.  Submit requests for waivers through the chain of command to the 
+appropriate Tier waiver approval authority, or alternately, to the Publication OPR for non-tiered 
+compliance items.  Ensure that all records created as a result of processes prescribed in this 
+publication are maintained IAW Air Force Manual (AFMAN) 33-363, Management of Records, 
+and disposed of IAW the Air Force Records Disposition Schedule (RDS) in the Air Force 
+Records Information Management System (AFRIMS).  Contact supporting records managers as 
+2 
+AFI17-213  28 AUGUST 2017 
+ 
+required.  The use of the name or mark of any specific manufacturer, commercial product, 
+commodity, or service in this publication does not imply endorsement by the Air Force.  See 
+Attachment 1 for a glossary of references and supporting information. 
+SUMMARY OF CHANGES 
+This document implements DoDI 8420.02 DoD Satellite Communications (SATCOM) dated 
+Sept 13, 2016, and Chairman of the Joint Chiefs of Staff Instruction (CJCSI) 6250.01, Satellite 
+Communications.  This revision is intended to articulate guidance for all Air Force space-based 
+communications, government and commercial satellite communications (SATCOM) systems, 
+and commercial mobile and fixed satellite services. 
+ 
+1. 
+ Overview. ................................................................................................................  
+3 
+2. 
+ Asset Management. .................................................................................................  
+3 
+3. 
+ Requirements Management. ...................................................................................  
+3 
+4. 
+ Satellite Communications Management. ................................................................  
+3 
+5. 
+ Roles and Responsibilities. .....................................................................................  
+4 
+Figure 1. 
+ Notification of excess Iridium/Inmarsat assets. ......................................................  
+12 
+6. 
+ Disposition. .............................................................................................................  
+12 
+Attachment 1— GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+14 
+Attachment 2— TRAINING TOPICS FOR UNIT MSS MANAGERS 
+ 
+18 
+ 
+ 
+AFI17-213  28 AUGUST 2017 
+3 
+ 
+1.  Overview. 
+1.1.  This AFI replaces AFI 33-134, Warfighting Integration Satellite Communications 
+Resource Management, and expands upon the SATCOM related elements of AFMAN 17-
+2101 Long-Haul Telecommunications Management, to form a consolidated instruction for 
+Air Force SATCOM resource management.  It identifies roles and responsibilities for Air 
+Force organizations in the acquisition, management, and reporting of commercial SATCOM 
+(COMSATCOM) services and commercially procurable SATCOM terminals.  It addresses 
+both the equipment and service.  DoDI 8100.04 DoD Unified Capabilities (UC) states, 
+“DISA is the preferred UC transport provider for Internet and commercial satellite 
+connections used for voice, video, and/or data services on DoD networks.”  Exemptions and 
+waiver authority to this policy are detailed in DoDI 8100.04. 
+1.2.  This instruction addresses SATCOM-related elements of the Air Force Information 
+Networks (AFIN) Infrastructure.  AFIN Infrastructure is the Air Force cyberspace 
+infrastructure consisting of Air Force-owned/leased and controlled components (hardware, 
+software, networks, systems, equipment, facilities, and services) operated by DoD, Air Force, 
+contractor or other entity on behalf of the Air Force, which stores, transmits, receives, or 
+processes information, regardless of classification or sensitivity. 
+2.  Asset Management. 
+2.1.  All MSS devices are categorized in AFI 17-1203, Information Technology (IT) Asset 
+Management (ITAM), as commodity code “P” assets and will be accounted for in the Air 
+Force Equipment Management System Asset Inventory Management (AFEMS-AIM). 
+2.1.1.  The Surgeon General Managed Equipment Manager will accomplish annual 
+inventory of MSS assets identified as Air Force Medical Service War Reserve Materiel 
+and provide the annual inventory report directly to 38 CYRS. 
+3.  Requirements Management. 
+3.1.  DoDI 8100.04 DoD Unified Capabilities (UC) states, “DISA is the preferred UC 
+transport provider for Internet and commercial satellite connections used for voice, video, 
+and/or data services on DoD networks”.  Exemptions and waiver authority to this policy are 
+detailed in DoDI 8100.04 paragraph 6b. 
+3.2.  MAJCOM MSS managers will validate all of their MAJCOM MSS requirements in 
+accordance with IAW AFMAN 17-2101 and the Long Haul Communications Requirements 
+Process Guide (LRPG). 
+4.  Satellite Communications Management. 
+4.1.  The Air Force will provide necessary oversight and guidance for the associated AFIN 
+SATCOM infrastructure.  The Air Force will implement an enterprise approach to the 
+procurement and use of COMSATCOM. 
+4.1.1.  The Air Force will use the use performance-based strategies and most cost 
+effective method of satisfying SATCOM requirements, to include: the use of 
+MILSATCOM (as the bandwidth provider of first choice), inclined orbit commercial 
+satellites (when feasible), sharing existing bandwidth by implementing the use of Internet 
+Protocol (IP) SATCOM modems.  The Air Force will use DISA as the preferred transport 
+provider when procuring commercial SATCOM per DoDI 8100.04. 
+4 
+AFI17-213  28 AUGUST 2017 
+ 
+4.1.2.  The Air Force will support the Joint SATCOM Panel IAW DoDI 8420.02 and 
+CJCSI 6250.01.  Support the joint community in the development and assessments of 
+SATCOM requirements, architectures, synchronization products (including the National 
+Security SATCOM Systems Synchronization Roadmap (NS4R)) and SATCOM 
+roadmaps.  Document and validate all Air Force current and future SATCOM 
+requirements in the Joint Staff’s SATCOM Database (SDB) and SATCOM terminals in 
+the NS4R. 
+4.1.3.  The Air Force must maintain subject matter expertise on Air Force SATCOM 
+connectivity requirements and support the annual review and revalidation of those 
+requirements in the Joint Staff’s SDB. 
+4.1.4.  Current and future systems must comply with national, military, and appropriate 
+commercial standards and policies published in accordance with CJCSI 6250.01.  
+Implement the Integrated Waveform (IW) on all software upgradable non-processed 
+narrowband SATCOM radios.  Assignment to IW or DAMA narrowband networks 
+should be the standard, with dedicated channels being the exception. 
+4.1.5.  Existing and planned software defined radios operating in the UHF SATCOM 
+band should plan to be interoperable with the Mobile User Objective System (MUOS).  
+MUOS terminals should utilize the Joint Enterprise Network Manager (JENM). 
+4.1.6.  In accordance with applicable domestic and international law, the AF will 
+establish guidance and procedures for employing and operating SATCOM systems.  
+Operators will obtain spectrum certification prior to procuring and/or operating 
+SATCOM assets, and will follow the appropriate coordination procedures to gain host 
+nation approval before operating SATCOM assets in overseas locations. 
+4.1.7.  All AF organizations will use the SAF/FM approved Element of Expense 
+Identification Codes (EEICs) to identify commercial SATCOM services and asset 
+expenditures in the AF accounting system.  (T-1) 
+4.1.8.  The AF will minimize the number of unique DoD Information Network Entry 
+Point gateways and implement an enterprise approach whenever feasible. (T-2)  
+COMSATCOM users should minimize reliance on major command (MAJCOM) or 
+program unique gateways.  Solutions need to leverage DoD or AFIN enterprise solutions. 
+(T-2) 
+5.  Roles and Responsibilities. 
+5.1.  Deputy Chief of Staff of the Air Force, Information Dominance and Chief Information 
+Officer (SAF/CIO A6) general roles and responsibilities are listed in AFPD 17-2, Cyberspace 
+Operations. 
+5.1.1.  Provide oversight, policy and guidance for long-haul telecommunications 
+equipment and services, satellite communications terminals, and military and leased 
+SATCOM services to ensure effective implementation, consistent with net-centric policy, 
+concepts and plans. 
+5.1.2.  Represent the Air Force in Joint fora (e.g., Joint SATCOM Panel) related to 
+satellite communications. 
+AFI17-213  28 AUGUST 2017 
+5 
+ 
+5.1.3.  The focal point for developing Air Force SATCOM policy and for coordinating 
+the annual reporting of commercial SATCOM operational usage and associated costs per 
+DoDI 8420.02. 
+5.1.4.  Is the Air Force waiver approval authority when requesting a waiver from using 
+DISA as the preferred transport provider when procuring commercial SATCOM per the 
+policy detailed in DoDI 8100.04.  Current and future systems must comply with 
+international and domestic law; national, military, and appropriate commercial standards 
+and policies published in accordance with DoDI 8420.02 and CJCSI 6250.01. 
+5.2.  AFSPC as Core Functional Lead (CFL) for Cyberspace Superiority and Lead Command 
+for Cyberspace organizes, trains, equips and operates cyberspace forces, systems and 
+capabilities.  As such, AFSPC will: 
+5.2.1.  Develop and coordinate a Service-level SATCOM enterprise architecture that 
+serves as a roadmap identifying the MILSATCOM and COMSATCOM solutions needed 
+to address known and future AF requirements.  The architecture will appropriately reflect 
+the stated AF bandwidth requirements documented in the SDB IAW DoDI 8420.02. 
+5.2.2.  Function as technical lead for maintaining the AF SDB requirements IAW DoDI 
+8420.02, and present it to SAF/CIO A6 for annual validation.  Participate in SDB 
+technical working group meetings. Support the joint community in the development and 
+assessments of SATCOM requirements, architectures, and synchronization products 
+(including the NS4R and SATCOM roadmaps). 
+5.2.3.  In coordination with SAF/CIO A6 and SAF/AQ, define, develop, and deploy the 
+components and systems, to support and sustain the AFIN SATCOM infrastructure.  
+Support SAF/CIO A6 and SAF/AQ in developing and implementing guidance, 
+procedures, technical standards for the AFIN SATCOM Infrastructure and associated 
+information technology (IT) components. 
+5.2.4.  Ensure terrestrial communications and MILSATCOM are employed when 
+appropriate to decrease COMSATCOM leasing. Systems that technically cannot use 
+MILSATCOM will not require AFSPC review for MILSATCOM availability. 
+5.2.5.  Develop policy to ensure new systems or system modifications comply with 
+CJCSI 6250.01. 
+5.2.6.  Develop, coordinate and publish an inspection checklist within six months of 
+publication of this instruction. 
+5.3.  38th Cyberspace Readiness Squadron. 
+5.3.1.  Acts on behalf of AFSPC as the day-to-day Air Force MSS manager.  Serves as 
+the AF MSS representative in requirements and contract discussions with DISA and 
+DITCO concerning award of MSS service and airtime contracts. 
+5.3.2.  Serves as the Air Force a single point of contact for MAJCOM, vendors, and other 
+parties to improve commercial SATCOM support and formulates recommended policy 
+changes for SAF/CIO A6 approval. (T-2) 
+6 
+AFI17-213  28 AUGUST 2017 
+ 
+5.3.3.  Consolidates the DISA Annual COMSATCOM report inputs from Air Force 
+MAJCOM/FOA/DRU MSS managers and forwards the report to SAF/CIO A6 for final 
+coordination and submission. (T-0) 
+5.3.4.  Monitor MSS technological advances and changes to identify the types of systems 
+that can best satisfy Air Force requirements and makes recommendations to MSS 
+MAJCOM, Field Operating Agency (FOA), direct reporting unit (DRU) Managers on the 
+various enterprise solutions that will best meet their requirements. 
+5.3.5.  Maintains an aggregated list of all Air Force MSS service contracts to provide 
+baseline for COMSATCOM expense report. 
+5.3.6.  Guides 
+and 
+assists 
+MAJCOM/FOA/DRU 
+MSS 
+Managers 
+in 
+activation/deactivation, procurement of MSS systems and service, and SDB procedures.  
+Acts as the Air Force Component Representative and coordinates with industry and 
+MAJCOM/DRU/FOA MSS managers to submit MSS commissioning packages.  
+Reviews and submits all aeronautical, ground, or maritime Satellite Activation Request 
+Forms (SARFs) from MAJCOM/DRU/FOA MSS managers.  Activates, deactivates, 
+places global bars, and requests suspension on Air Force's behalf. 
+5.3.7.  Review MAJCOM/DRU/FOA requested waivers from the requirement to use 
+DISA as the preferred transport provider per DoDI 8100.04 and coordinates with HQ 
+USAF/A6 CIO for DoD CIO approval or disapproval.  Maintains a list of all waivers for 
+services not procured through DISA/DITCO for annual expenditure reports. (T-0) 
+5.3.8.  Serves as the Air Force Service Level Manager for vendor dashboards in order to 
+efficiently manage accounts and access.  Reviews access requests from MAJCOMs and 
+takes appropriate action for account set-up access to vender. 
+5.3.9.  Reviews reports of excess equipment from MAJCOMs and coordinates with sister 
+service MSS Managers for possible reuse and transfer if no Air Force requirement can be 
+identified. 
+5.3.10.  Provides initial and annual refresher training for all MAJCOM MSS managers.  
+(See Attachment 2) (T-2) 
+5.3.11.  Advises MAJCOM MSS Managers of OPSEC and COMSEC requirements for 
+use of MSS devices. 
+5.4.  MAJCOM, Management Headquarters (MHQ), and Air Force-level FOA/DRU. 
+5.4.1.  All MAJCOM, MHQ, and Air Force-level FOA/DRUs will appoint a command-
+level MSS Manager if MSS assets or accounts exist within their organizations (including 
+all subordinate units).  For the purpose of this instruction, Air Force-level FOAs/DRUs 
+are considered a MAJCOM/MHQ unless their parent organization serves as the MHQ. 
+5.4.2.  Send command-level MSS appointment letters within 15 days of appointment to 
+38 CYRS.  Appointment letters must include the name, rank, Defense Switched Network 
+(DSN) number, individual and organizational e-mail address.  Appointment letters will be 
+digitally 
+signed 
+in 
+a 
+PDF-formatted 
+document 
+to 
+(38CYRS.commercial.satcom@us.af.mil). 
+AFI17-213  28 AUGUST 2017 
+7 
+ 
+5.4.3.  Ensure all SATCOM requirements are documented in the SDB for service-level 
+missions in accordance with IAW DoDI 8420.02 and CJCSI 6250.01 (T-0) 
+5.4.4.  When one or more units from one MAJCOM/DRU/FOA are deploying in support 
+of another MAJCOM/DRU/FOA, coordinate to insure equipment availability and funds 
+are available to cover SATCOM airtime expenses in the appropriate Program Designator 
+Code (PDC) account. 
+5.5.  MAJCOM and Air Force FOA/DRU MSS Manager: 
+5.5.1.  Ensures installation and unit compliance with DoD CIO policy on acquisition and 
+use of MSS and forwards waiver requests for not using DISA as the preferred transport 
+provider IAW DoDI 8100.04 paragraph 6b to the 38th CYRS. (T-0)  (Note:  Waivers to 
+mandates involving the acquisition program execution chain are processed IAW the 
+acquisition chain of authority as specified in AFI 63-101/20-101.) 
+5.5.2.  Works with and forwards MSS requirements to proper MAJCOM/FOA/DRU 
+authority and AFSPC/A5/8/9F for submission into the SDB per CJCSI 6250.01. (T-0) 
+5.5.3.  Approves all MAJCOM MSS activation and deactivation requests in DISA Direct 
+(DD) Storefront and ensures the MAJCOM Circuit Management Office (CMO) is 
+included in the DISA Direct Storefront (DDSF) routing matrix. (T-1) 
+5.5.4.  Serves as the overall manager of MSS assets within the command to ensure 
+terminal assets are at the right place at the right time to ensure MAJCOM/FOA/DRU 
+mission is met. 
+5.5.5.  Coordinates with 38th CYRS and supported users to review and validate MSS 
+commissioning packages.  Forwards validated SARFs to 38th CYRS.  Requests 38th 
+CYRS activates, deactivates, places global bars, and requests suspension on supported 
+user's behalf.  Authorizes the intra-command transfer of MSS terminals to ensure 
+missions are met and consolidates requirements to gain efficiencies of scale.  Identifies 
+excess equipment to the 38th CYRS and coordinates asset transfers between 
+MAJCOM/FOA/DRU. 
+5.5.6.  Advise installation MSS Managers of OPSEC and COMSEC responsibilities and 
+requirements for use of MSS devices. 
+5.5.7.  Validate 
+requests 
+for 
+vendor 
+dashboards 
+and 
+forward 
+to 
+(38CYRS.commercial.satcom@us.af.mil). 
+5.5.8.  Obtain Telecommunications Certification Office Support System (TCOSS) MSS 
+Database access and maintain MAJCOM, installation, and unit POC information. 
+Acquire 
+access 
+to 
+Air 
+Force 
+MSS 
+SharePoint 
+site: 
+https://cs.eis.af.mil/sites/10179/default.aspx. (T-3) 
+5.6.  Installation: 
+5.6.1.  Communications Systems Officer (CSO) or Designated Representative appoints in 
+writing, a primary and alternate installation MSS manager and forwards a copy of the 
+appointment letter to the MAJCOM/FOA/DRU MSS manager. (T-2) 
+ 
+8 
+AFI17-213  28 AUGUST 2017 
+ 
+5.7.  Installation MSS Manager: 
+5.7.1.  Sends a copy of the installation MSS Manager Appointment letter to the 
+MAJCOM manager.  Complete installation MSS training with MAJCOM MSS manager 
+within 60 days of appointment. (T-3) 
+5.7.2.  Serve as the focal point for all installation MSS requirements and issues, excluding 
+tenant units. 
+5.7.3.  Assists and guide unit MSS managers with the completion of tasks associated with 
+unit MSS manger responsibilities. 
+5.7.4.  Ensures excess installation MSS equipment is identified to the MAJCOM MSS 
+manager for deactivation or potential redistribution before turn in to the installation 
+Defense Reutilization and Marketing Service (DLADS) without receiving 
+5.7.5.  Review and validate installation Iridium SIM cards.  Forward completed report to 
+the MAJCOM MSS manger to reconcile Air Force inventory against the MSS database. 
+(T-2) 
+5.7.6.  Forward vendor dashboard access requests and account removal requests to the 
+MAJCOM MSS Manager. 
+5.7.7.  Train unit MSS Managers, provide both initial and refresher training annually.  
+Initial training should occur as soon as possible but not later than 60 days after unit MSS 
+manager has been assigned. (See Attachment 2) (T-2) 
+5.7.8.  Provide assistance to unit MSS Managers to coordinate new/replacement MSS 
+equipment.  Provide assistance to unit MSS Managers to establish/discontinue service. 
+5.7.9.  Acquire 
+account 
+and 
+access 
+to 
+Air 
+Force 
+MSS 
+SharePoint 
+site: 
+https://cs.eis.af.mil/sites/10179/default.aspx. 
+5.7.10.  Acquire TCOSS account for access to the MSS database. 
+5.7.11.  Advise unit MSS Managers of OPSEC and COMSEC responsibilities and 
+requirements for use of MSS devices 
+5.8.  Unit Commander or Designated Representative: 
+5.8.1.  Appoint in writing a primary and alternate unit MSS manager and forwards a copy 
+to the Installation MSS Manager.  Tenant units forward appointment letters to the owning 
+Air Force FOA/DRU/MAJCOM MSS manger. (T-3) 
+5.8.2.  Ensure requirements for MSS equipment and services are procured through DISA 
+per DoDI 8100.04.  To purchase MSS assets/services outside DISA a waiver is required.  
+Initiate waiver requests, through the installation MSS Manager IAW DoDI 8100.04 
+paragraph 6b.  Tenant units forward waivers to their Air Force MAJCOM/FOA/DRU 
+MSS Manager. 
+ 
+ 
+ 
+ 
+AFI17-213  28 AUGUST 2017 
+9 
+ 
+5.9.  Unit MSS Manager: 
+5.9.1.  Send a copy of the unit MSS Manager Appointment letter to the Installation MSS 
+manager.  Tenant units will send a copy of the appointment letter to their 
+MAJCOM/FOA/DRU MSS Manager.  Complete Unit MSS training with installation 
+MSS Manager within 60 days of appointment. (T-3) 
+5.9.2.  Works with unit-level training manager to ensure qualification and on-the- job 
+training is accomplished for MSS systems.  Training must ensure all terminal operators 
+have a working knowledge of the airtime costs involved with operating the device(s). 
+5.9.3.  Ensures excess MSS equipment is identified to the Installation MSS manager for 
+deactivation or potential redistribution before turn in to the base’s designated DLADS. 
+(T-3) 
+5.9.4.  Establishes local Preventive Maintenance Inspections and pre- and post- 
+deployment inspections, which will include, at minimum, an operational check for unit 
+MSS equipment. (T-3) 
+5.9.5.  Coordinate with the Wing COMSEC manager and the unit COMSEC Responsible 
+Officer (CRO) on all technical solutions for MSS assets requiring National Security 
+Agency (NSA) Type 1 encryption-endorsed products per National Security Systems 
+guidance.  The COMSEC manager and CROs acquire and manage COMSEC material 
+supporting MSS assets containing NSA-approved encryption modules. 
+5.9.6.  Coordinates all activation, deactivation, barring, and transfers requests with Air 
+Force FOA/DRU/MAJCOM MSS Manager. 
+5.9.7.  Coordinate OPSEC and COMSEC training activities with base/unit OPSEC and 
+COMSEC managers per AFMAN 17-1302, Communications Security (COMSEC) 
+Operations, attachment 5, provides reference for secure voice device user training. 
+5.9.8.  Forward vender dashboard access requests and removal requests to the Installation 
+Manager. 
+5.9.9.  Coordinate with Installation MSS Managers for new/replacement MSS equipment 
+and to establish or discontinue service prior to placing a start or discontinue order in DSF 
+to verify if hardware assets or service may be available for use. 
+5.9.10.  Upon receipt of new MSS hardware coordinate with unit ITEC to ensure assets 
+are accounted in AFEMS/AIM IAW AFI 17-1203. (T-2) 
+5.9.11.  Annually validate Iridium SIM card Inventory (active and inactive) and MSS 
+services.  Return completed inventory to the Installation Manager.  Tenant units forward 
+to their Air Force FOA/DRU/MAJCOM to reconcile Air Force inventory with the MSS 
+database. (T-3) 
+5.9.12.  Acquire DSF account and roles to submit orders for Iridium hardware assets and 
+iridium or Inmarsat services IAW AFMAN 17-2101 and the LPRG.  If arrangements are 
+established with the Base Communications Squadron TCF to submit orders on your 
+behalf this is an acceptable alternative. 
+5.9.13.  Acquire 
+account 
+and 
+access 
+to 
+Air 
+Force 
+MSS 
+SharePoint 
+site. 
+https://cs.eis.af.mil/sites/10179/default.aspx. 
+10 
+AFI17-213  28 AUGUST 2017 
+ 
+5.9.14.  Acquire TCOSS account for access to the MSS database. 
+5.10.  Program Management Offices (PMO). PMOs or PMO-like entities manage the 
+acquisition and sustainment of assets and services when imbedded in Air Force packages. 
+PMOs will: 
+5.10.1.  Ensure that MSS hardware and services installed within Air Force packages 
+comply with current policy and guidance. 
+5.10.2.  Provide all MSS hardware identification information (Manufacturer, Model, 
+Serial number, etc.) to MAJCOM/Installation/Unit MSS managers for them to add assets 
+into AIM/PWCS IAW AFI 17-1203. 
+5.11.  Inmarsat. 
+5.11.1.  Inmarsat is a commercial satellite communications system. Inmarsat owns and 
+operates a fleet of satellites providing mobile voice and data communications capability. 
+The Inmarsat terminal is a radio communications device using a satellite link to interface 
+with terrestrial communications systems or other Inmarsat terminals.  Coverage is from 
+approximately 60 degrees north latitude to approximately 60 degrees south latitude. 
+5.11.2.  Acquiring Equipment. 
+5.11.2.1.  The Unit MSS manager will purchase terminal equipment utilizing 
+DISA/DITCO contracts line items or other contract vehicles prescribed by the 
+Director DISA if available; otherwise units are authorized to purchase from any 
+vendor offering the equipment as long as service is not included. 
+5.11.2.2.  .All Air Force terminals must be securable per DoD CIO policy. To this 
+end, NSA-approved cryptographic devices must be used when needed.  (T-0) 
+5.11.2.3.  Inmarsat Hardware Assets will be shipped to the base ECO IAW AFI 17-
+111. 
+5.11.2.4.  Iridium assets will be ordered through DSF using the Service Request (SR) 
+process unless an approved MSS Waiver is obtained. 
+5.11.3.  Ordering Service. 
+5.11.3.1.  Order MSS service through DSF. 
+5.11.3.2.  Iridium SIM Cards. 
+5.11.3.2.1.  Iridium SIM card(s) will be shipped to the end user ordering the 
+card(s). 
+5.11.3.2.1.1.  Active SIM cards:  Complete a DSF order for each active SIM 
+card required.  When placing an order for active SIMS cards in DSF, only one 
+active SIM card is allowed per order. 
+5.11.3.2.1.2.  Inactive SIM cards can be ordered in multiples on a single order.  
+Complete a DSF order for the number of inactive card(s) required. 
+5.11.3.2.1.3.  SIM cards are not required to be entered in the AFEMS-AIM 
+PWCS module for accountability. 
+ 
+AFI17-213  28 AUGUST 2017 
+11 
+ 
+5.11.4.  Inmarsat SIM cards. 
+5.11.4.1.  Complete a DSF order for each active SIM card required. When placing an 
+order for active SIMS cards in DSF, only one active SIM card is allowed per order. 
+5.11.4.2.  Inmarsat SIM cards are not required to be entered in the AFEMS-AIM 
+PWCS module for accountability. 
+5.11.5.  Deactivation. 
+5.11.5.1.  When an Inmarsat system is no longer required, or transferred to a new 
+owner outside the MAJCOM/DRU/FOA, the MAJCOM/FOA/DRU MSS manager 
+will deactivate the terminal.  Deactivation ends the ability to use an Inmarsat 
+terminal. (T-2) 
+5.11.5.2.  The MAJCOM/FOA/DRU MSS manager will go through the same Point of 
+Service Activation that was used for terminal activation. 
+5.11.6.  Transfer of Iridium and Inmarsat Assets. 
+5.11.6.1.  Units/Installations/MAJCOMs complete transfer documentation if assets 
+are being reutilizing, or complete documentation for turn in to DLADS IAW AFI 17-
+1203. 
+5.11.6.2.  For reutilization advertising follow directions on the Air Force PWCS 
+Management 
+Share 
+Point 
+site 
+(https://cs3.eis.af.mil/sites/OO-SC-CA-
+45/default.aspx) and the following figure 1 for notification of excess assets for those 
+without an AIM account. 
+12 
+AFI17-213  28 AUGUST 2017 
+ 
+Figure 1.  Notification of excess Iridium/Inmarsat assets. 
+ 
+6.  Disposition. 
+6.1.  Installation/Unit MSS manager will dispose of assets IAW AFI-17-1203. 
+6.1.1.  If a terminal is not required, the MAJCOM/FOA/DRU MSS manager will make 
+sure the terminal is deactivated and dis-enrolled from the DITCO contract before turning 
+in to a base’s designated DRMO. (T-2) 
+6.2.  The Iridium/Enhanced Mobile Satellite Service (I/EMSS). 
+6.2.1.  Iridium is a commercial satellite communications system, which employs a 
+constellation of 66 satellites.  The constellation is accessed by a hand held phone and 
+small low rate data devices that can be used anywhere globally, include the North and 
+South poles. 
+6.2.2.  Iridium Gateway.  The DoD’s Iridium EMSS Gateway serves as a dedicated portal 
+for the uplink and downlink of voice and data traffic through Iridium satellites for the 
+DoD and other U.S. government users throughout the world. 
+6.3.  Acquiring Non-DoD Authorized Equipment and Service. 
+6.3.1.  Users who require MSS other than Iridium or Inmarsat will work through their 
+MAJCOM/FOA/DRU MSS manager and the 38th CYRS office to request a waiver. (T-0) 
+ 
+AFI17-213  28 AUGUST 2017 
+13 
+ 
+6.4.  Reporting procedures for the annual commercial SATCOM Cost and utilization report. 
+6.4.1.  MAJCOM MSS MANAGER.  Provide a list of MAJCOM MSS service costs for 
+all contracts other that those managed under Commercial Satellite Services (CSS) 
+Blanket Purchase Agreements (BPAs) or EMSS contracts offered by DISA, to the Air 
+Force MSS Office. 
+6.4.2.  MSS lead consolidates all MSS inputs to report and forward to HQ USAF/CIO 
+A6, 1800 Air Force Pentagon, and Washington DC 20330-1800, who submits to the Joint 
+Staff. 
+6.5.  Satellite Communications (SATCOM) Service. 
+6.5.1.  Strategic Command Instruction 714-4 Consolidated Satellite Communications 
+Management Policies and Procedures define policies and detailed procedures, along with 
+associated roles and responsibilities, to perform consolidated SATCOM management. 
+6.5.2.  MAJCOMS/FOA/DRU must have SATCOM service requests approved through 
+the CJCSI 6250.01 process before submitting a Satellite Access Request and /or a DDSF 
+if DISN access is part of the requirement. 
+6.5.3.  MAJCOMS submit SDB approval requests (SDB-772, SDB Offline Submission 
+Tool), indicating a mission requirement for SATCOM. 
+6.5.3.1.  SDB requests made in support of current (start date is less than two years 
+out) Combatant Command (CCDR) missions are captured and maintained by 
+supported CCDRs. 
+6.5.3.2.  SDB requests supporting non-CCDR missions or future (start date is more 
+than two years out) requirements are captured and maintained by AFSPC/ A5/8/9F  
+on behalf of the Air Force. 
+6.5.3.3.  The CCDR or AFSPC enters all SATCOM requirements into the SDB, with 
+technical guidance from the MAJCOM or requirement point of contact. 
+ 
+BRADFORD J. SHWEDO, Lt Gen, USAF 
+Chief, Information Dominance and Chief 
+Information Officer 
+14 
+AFI17-213  28 AUGUST 2017 
+ 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+CJCSI 6250.01, Satellite Communications 
+CJCSI 6211.02D, Defense Information System Network (DISN) Responsibilities 
+AFPD 17-1, Cyberspace Operations 
+ADPD 17-2 Information Dominance Governance and Management 
+AFMAN 33-322, Records Management Program 
+AFMAN 17-2101, Long-Haul Telecommunications Management 
+AFMAN 17-1203 “Information Technology (IT) Asset Management (ITAM) 
+DoDI 8420.02, DoD Satellite Communications (SATCOM) 
+DoDI 8100.04, DoD Unified Capabilities 
+Strategic Command Instruction (SI) 714-4, Consolidated Satellite Communications Management 
+Policies and Procedures 
+Adopted Forms 
+AF IMT 847, Recommendation for Change of Publication 
+Abbreviations and Acronyms 
+AFEMS-AIM—Air Force Equipment Management System Asset Inventory System 
+AFIN—Air Force Information Networks 
+AFI—Air Force instruction 
+AFMAN—Air Force manual 
+AFPD—Air Force policy directive 
+AFSPC—Air Force Space Command 
+CIO—Chief information officer 
+CJCSI—Chairman of the Joint Chiefs of Staff Instruction 
+CCDR—Combatant Commander 
+COMSATCOM—Commercial Satellite Communications 
+CSO—Communications Systems Officer 
+DAMA—Demand Assigned Multiple Access (DAMA) 
+DISA—Defense Information Systems Agency 
+DITCO—Defense Information Technology Contracting Organization 
+DoD—Department of Defense 
+AFI17-213  28 AUGUST 2017 
+15 
+ 
+DoDI—Department of Defense Instruction 
+DoDIN—Department of Defense Information Network 
+DRMO—Defense Reutilization and Marketing Office 
+DRU—direct reporting unit 
+EEIC—Element of Expense Investment Code 
+FSS—Fixed Satellite Service 
+FOA—field operating agency 
+JENM—JTRS Enterprise Network Manager 
+JSP—Joint SATCOM Panel 
+GHz—Gigahertz 
+HQ—headquarters 
+I/EMSS—Iridium/Enhanced Mobile Satellite Service 
+Inmarsat—a commercial satellite Communications Company 
+IT—information technology 
+IP—Internet Protocol 
+IW—Integrated Waveform 
+MAJCOM—major command 
+MILSATCOM—military satellite communications 
+MUOS—Mobile User Objective System 
+MSS—Mobile Satellite Services 
+NS4R—National Security SATCOM Systems Synchronization Roadmap 
+NSA—National Security Agency 
+OSD—Office of Secretary of Defense 
+PDC—Program Designator Code 
+RDS—records disposition schedule 
+RUDICS—Router-based unrestricted digital internetworking connectivity solution 
+SATCOM—satellite communications 
+SDB—SATCOM database 
+SI—Strategic Command Instruction 
+UHF—ultra high frequency 
+USSTRATCOM—US Strategic Command 
+USAF—United States Air Force 
+16 
+AFI17-213  28 AUGUST 2017 
+ 
+Terms 
+Communications and Information System—an integrated system of communications 
+equipment (hardware and software), facilities, personnel, and procedures designed to provide 
+communications and information to its users. This includes the processing of the information by 
+the system. Communications and information systems include base visual information support 
+systems. 
+Commercial Mobile Satellite Services (MSS)—Provide full-duplex, half-duplex, and simplex 
+communications services, which support any type of digital telephone transmission. These 
+commercial systems complement Department of Defense (DoD) communications resources and 
+are standalone terminals that can only be used on one system; for example, an Iridium phone 
+may only be used in the Iridium system. MSS systems are primarily on-demand, first-come, first- 
+served communications. They often operate, but not exclusively, on frequencies at 3 Gigahertz 
+(GHz) or below. Types of systems include, but are not limited to, Iridium and Inmarsat. 
+Communications Systems Officer (CSO)—The designated official who has overall 
+responsibility for communications and information support at any given level of the Air Force 
+(base, tenant, MAJCOM, USAF, etc.). At base level, this is the commander of the 
+communications unit responsible for carrying out base communications and information systems 
+responsibilities.  At MAJCOM and other activities responsible for large quantities of 
+communications and information systems, it is the person designated by the commander as 
+responsible for overall management of communications and information systems budgeted and 
+funded by the MAJCOM or activity. CSOs are the officer accountable for all automated data 
+processing equipment and Personnel Wireless Communications Systems (PWCS) in their 
+inventory. 
+Fixed-Satellite Service (FSS)—Official classification geostationary communications satellites 
+used for television, radio stations and networks broadcast feeds, as well as for telephony, 
+telecommunications and data communications. FSSs operate in C band (from 3.7 to 4.2 GHz), 
+Ku bands (from 11.45 to 11.7, and 12.5 to 12.75 GHz in Europe, and 11.7 to 12.2 GHz in the 
+United States), and Ka band (17.3 to 31 GHz) (caveat: for brevity sake this list includes only the 
+most widely used FSS frequency bands). The higher frequency bands tend to have more 
+spectrum and orbital slots available, but more expensive technology and higher rain margin. 
+Inmarsa—t—is a commercial satellite communications company, owns and operates a fleet of 
+L- band and Ka-band satellites providing mobile voice and data communications capability. The 
+Inmarsat terminal is a radio communications device using a satellite link to interface with 
+terrestrial telephone systems or other Inmarsat terminals. 
+Iridium/Enhanced Mobile Satellite Service (I/EMSS)—an L-band satellite constellation which 
+provides a global wireless personnel communications network designed to permit narrow-band 
+wireless transmission, (i.e., voice, data, fax, or paging), to reach its destination with a minimum 
+reliance on land-based infrastructures. Cross-linking between satellites and up/down-linking 
+through the DoD terrestrial satellite gateway at Wahiawa, Hawaii, allows DoD users network 
+and DSN secure global access and coverage through specially designed portable and mobile 
+telephones known as Iridium Subscriber Units (ISU). 
+ 
+AFI17-213  28 AUGUST 2017 
+17 
+ 
+RUDICS—uses routers to allow termination and origination of circuit switched data calls to and 
+from a specific IP address via a Telnet protocol. Support applications that have many field 
+devices and one central host application. The service allows field devices to directly call the host 
+application and the host application is able to directly call the field devices. 
+SATCOM Database (SDB)—A Joint Staff sponsored comprehensive database of network 
+connectivity requirements, which DISA maintains, intended to capture current and future 
+information requirements of warfighter systems and platforms that require SATCOM. 
+ 
+18 
+AFI17-213  28 AUGUST 2017 
+ 
+Attachment 2 
+TRAINING TOPICS FOR UNIT MSS MANAGERS 
+Figure A2.1.  Training Topics for Unit MSS Managers. 
+ 
+1. General Information 
+  a. Points of Contact 
+    1. Base MSS Manager 
+    2. DSF officials 
+    3. Base PWCS Equipment Control Officer (ECO)  
+  b. AF PWCS Community Site 
+  c. Applicable Publications 
+    1. AFI 17-210 
+    2. AFI 17-213 
+    3. AFMAN 17-1203 
+    4. AFMAN 17-1201 
+  d. MSS Requirements process 
+    1. Local procedures 
+    2. DISA Direct 
+ 
+2. Administrative Responsibilities 
+  a. Inventories 
+    1. TCOSS 
+    2. AIM 
+  b. Expenditure reporting 
+ 
+3. Maintenance and Operation Procedures 
+  a. General Operating Procedures 
+    1. Inmarsat 
+    2. Iridium 
+      a. Handsets 
+      b. SBD 
+      c. DTCS 
+      d. Router-based unrestricted digital internetworking connectivity solution (RUDICS) 
+  b. EMSS Gateways 
+  c. PMIs and Operations checks 
+  d. Procedures for processing assets for repair 
+ 
+ 
+ 
+AFI17-213  28 AUGUST 2017 
+19 
+ 
+ 
+4. General Administrative tools 
+  a. Dashboards 
+  b. TCOSS 
+  c. MSS SharePoint site 
+ 
+5. COMSEC and OPSEC 
+  a. User training 
+  b. COMSEC training requirements 
+  c. Unit SOPs  
+ 

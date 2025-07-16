@@ -1,0 +1,2506 @@
+BY ORDER OF THE SECRETARY  
+OF THE AIR FORCE 
+ 
+AIR FORCE MANUAL 10-206 
+18 JUNE 2018 
+Incorporating Change 1, 1 SEPTEMBER 2020 
+Operations 
+OPERATIONAL REPORTING (OPREP) 
+COMPLIANCE WITH THIS PUBLICATION IS MANDATORY 
+ 
+ACCESSIBILITY:  Publications and forms are available on the e-Publishing website at 
+www.e-Publishing.af.mil for downloading or ordering 
+RELEASABILITY:  There are no releasability restrictions on this publication 
+ 
+ 
+OPR: AF/A3TC 
+ 
+Supersedes: 
+AFI 10-206, 11 June 2014 
+Certified by: AF/A3T  
+(Maj Gen James A. Jacobson) 
+Pages: 57 
+ 
+ 
+This manual implements Department of the Air Force Policy Directive (DAFPD) 10-2, 
+Readiness, and supports DAFPD 10-25, Emergency Management.  It applies to all US. 
+Department of the Air Force (DAF) personnel including those in the Regular Air Force (RegAF), 
+US Space Force (USSF), Air National Guard (ANG), Air Force Reserve (AFR), and Civil Air 
+Patrol (CAP).  It establishes and describes the Air Force Operational Reporting (OPREP) 
+System.  It explains the purpose and gives instructions for preparing and submitting these 
+reports.  Refer recommended changes and questions about this publication to the Office of 
+Primary Responsibility (OPR) using the AF Form 847, Recommendation for Change of 
+Publication; route AF Forms 847 from the field through the appropriate functional chain of 
+command.  Major Command (MAJCOM)/Direct Reporting Unit (DRU)/Field Operating Agency 
+(FOA) are authorized to supplement this Air Force Manual (AFMAN) instead of repeating 
+instructions in separate directives.  MAJCOM/DRU/FOA supplements to this manual require 
+approval by the Command and Control Operations Career Field Manager.  The authorities to 
+waive wing/unit level requirements in this publication are identified with a Tier (“T-0, T-1, T-2, 
+T-3”) number following the compliance statement.  See AFI 33-360, Publications and Forms 
+Management, for a description of the authorities associated with the Tier numbers.  Submit 
+requests for waivers through the chain of command to the appropriate Tier waiver approval 
+authority, or alternately, to the requestors commander for non-tiered compliance items.  Ensure 
+all records created as a result of processes prescribed in this publication are maintained in 
+accordance with AFI 33-322, Records Management and Information Governance Program, and 
+disposed of in accordance with the Air Force Records Disposition Schedule, which is located in 
+the Air Force Records Information Management System.  The use of the name or mark of any 
+2 
+AFMAN10-206  18 JUNE 2018 
+specific manufacturer, commercial product, commodity, or service in this publication does not 
+imply endorsement by the Air Force. 
+SUMMARY OF CHANGES 
+This document has been substantially revised and needs to be completely reviewed.  Major 
+changes include the incorporation of USSF; the inclusion of Chapter 9, Nuclear Command, 
+Control, and Communications (NC3) Reporting;  clarification of the OPREP-3 system; updated 
+roles and responsibilities regarding the creation and maintenance of the CSAF OPREP-3 Reports 
+Matrix; specification that Air Combat Command is the lead command for the Emergency Mass 
+Notification System (EMNS); and an outline of the functions of the synchronous secure chat and 
+asynchronous secure reporting system. Changed material is mark with a margin bar (|). 
+ 
+Chapter 1—OVERVIEW 
+ 
+6 
+1.1. 
+Concept of the OPREP-3 System. ...........................................................................  
+6 
+Chapter 2—ROLES AND RESPONSIBILITIES 
+ 
+8 
+2.1. 
+Deputy Chief of Staff, Operations (AF/A3). ...........................................................  
+8 
+2.2. 
+Air Combat Command (ACC) is the EMNS Lead Command and Program 
+Management Office and will provide policy and operations oversight on EMNS. .  
+8 
+2.3. 
+MAJCOMs, DRUs, and FOAs will:  (T-1) ..............................................................  
+9 
+2.4. 
+Installation/Wing Commanders will (unless indicated otherwise)  (T-1): ...............  
+9 
+2.5. 
+Wing or Unit Command Posts will (unless otherwise directed): .............................  
+10 
+2.6. 
+Command and Control Operations Noncommissioned Officer in Charge Reports 
+will: ..........................................................................................................................  
+11 
+Chapter 3—EVENT/INCIDENT REPORT (OPREP-3) REPORTING INSTRUCTIONS 
+ 
+13 
+3.1. 
+Subject and Purpose. ................................................................................................  
+13 
+3.2. 
+Security Classification. ............................................................................................  
+13 
+3.3. 
+Directed Reporting. ..................................................................................................  
+13 
+3.4. 
+Appropriate Report Content. ....................................................................................  
+14 
+3.5. 
+Inappropriate Report Content. .................................................................................  
+14 
+3.6. 
+Correction of Reports. ..............................................................................................  
+14 
+3.7. 
+Reporting Categories. ..............................................................................................  
+14 
+Figure 3.1. 
+White Pinnacle Format. ...........................................................................................  
+17 
+3.8. 
+OPREP-3 Report Timing Requirements. .................................................................  
+18 
+AFMAN10-206  18 JUNE 2018 
+3 
+Table 3.1. 
+Timing Criteria (T-0). ..............................................................................................  
+18 
+3.9. 
+Report Construction. ................................................................................................  
+18 
+Figure 3.2. 
+Report Body Example. .............................................................................................  
+20 
+3.10. 
+Synchronous Reporting Processes. ..........................................................................  
+23 
+3.11. 
+Asynchronous Reports. ............................................................................................  
+23 
+3.12. 
+Synchronous /Asynchronous Outages. ....................................................................  
+24 
+3.13. 
+CSAF Special Reporting Items. ...............................................................................  
+24 
+Chapter 4—COMMANDER'S SITUATION REPORT (SITREP) 
+ 
+25 
+4.1. 
+Subject and Purpose. ................................................................................................  
+25 
+4.2. 
+Submitted By. ..........................................................................................................  
+25 
+4.3. 
+Submitted To. ...........................................................................................................  
+25 
+4.4. 
+Submission Timing. .................................................................................................  
+25 
+4.5. 
+Submission. ..............................................................................................................  
+25 
+4.6. 
+General Reporting Instructions. ...............................................................................  
+26 
+4.7. 
+Report Construction. ................................................................................................  
+26 
+4.8. 
+Termination of SITREP reporting. ..........................................................................  
+27 
+Chapter 5—HURRICANE CONDITION/TROPICAL CYCLONE CONDITIONS OF 
+READINESS REPORTING 
+ 
+28 
+5.1. 
+OPREP-3B Hurricane/Tropical Cyclone (Typhoon) Conditions of Readiness. ......  
+28 
+5.2. 
+Conditions of readiness. ...........................................................................................  
+28 
+Table 5.1. 
+Hurricane Conditions (HURCON) and Tropical Cyclone Conditions of Readiness 
+(TCCOR). ................................................................................................................  
+29 
+5.3. 
+Report submission timelines. ...................................................................................  
+29 
+5.4. 
+General Hurricane Condition / Tropical Cyclone Conditions of Readiness 
+Reporting Procedures: ..............................................................................................  
+30 
+Figure 5.1. 
+OPREP-3B Hurricane Condition / Tropical Cyclone Conditions of Readiness 
+Template. .................................................................................................................  
+31 
+Figure 5.2. 
+OPREP-3B Hurricane Condition/Tropical Cyclone Conditions of Readiness 
+Example. ..................................................................................................................  
+32 
+4 
+AFMAN10-206  18 JUNE 2018 
+Chapter 6—DEFENSE SUPPORT OF CIVIL AUTHORITIES 
+ 
+33 
+6.1. 
+Reporting Defense Support of Civil Authorities report categories and types. .........  
+33 
+6.2. 
+Defense Support to Civilian Authorities Synchronous and Asynchronous 
+procedures: ...............................................................................................................  
+34 
+6.3. 
+Defense Support to Civilian Authorities Report Format/Construction. ...................  
+34 
+Figure 6.1. 
+AF Defense Support to Civilian Authorities Template. ...........................................  
+35 
+6.4. 
+Defense Support to Civilian Authorities SITREP Requirements: ...........................  
+35 
+6.5. 
+Base Agency requirements: .....................................................................................  
+35 
+Chapter 7—CRESCENT EDGE (OPREP-3CE) 
+ 
+36 
+7.1. 
+Subject and Purpose. ................................................................................................  
+36 
+Chapter 8—EMERGENCY MASS NOTIFICATION SYSTEM 
+ 
+37 
+8.1. 
+Purpose. ...................................................................................................................  
+37 
+8.2. 
+System Capabilities. .................................................................................................  
+37 
+8.3. 
+EMNS Program Management: .................................................................................  
+38 
+8.4. 
+Notification Requirements. ......................................................................................  
+38 
+8.5. 
+Personally Identifiable Information. ........................................................................  
+38 
+8.6. 
+User Interface. ..........................................................................................................  
+39 
+8.7. 
+Scenario Development. ............................................................................................  
+40 
+8.8. 
+Mass Alerting To All Affected Personnel. ..............................................................  
+40 
+8.9. 
+Utilization. ...............................................................................................................  
+41 
+8.10. 
+EMNS Recalls. .........................................................................................................  
+41 
+8.11. 
+Accountability ..........................................................................................................  
+41 
+8.12. 
+Distribution Lists. ....................................................................................................  
+42 
+8.13. 
+Authorized Uses. ......................................................................................................  
+42 
+Table 8.1. 
+Authorized Use Table. .............................................................................................  
+42 
+8.14. 
+End User Database Integrity. ...................................................................................  
+44 
+8.15. 
+Active Shooter / Emergency Incident Mass Notification Procedures. .....................  
+44 
+8.16. 
+EMNS Benefits. .......................................................................................................  
+46 
+AFMAN10-206  18 JUNE 2018 
+5 
+Chapter 9—NUCLEAR COMMAND, CONTROL, AND COMMUNICATIONS (NC3) 
+REPORTING 
+ 
+47 
+9.1. 
+Purpose. ...................................................................................................................  
+47 
+9.2. 
+Security Classification. ............................................................................................  
+47 
+9.3. 
+Reporting. ................................................................................................................  
+47 
+9.4. 
+Responsibilities. .......................................................................................................  
+47 
+Table 9.1. 
+ANOFC Contact Details. .........................................................................................  
+48 
+9.5. 
+Service interruption Definitions. ..............................................................................  
+48 
+9.6. 
+Service Interruption Reports. ...................................................................................  
+48 
+Figure 9.1. 
+COMSPOT Report Template. ..................................................................................  
+50 
+9.7. 
+Air Force Daily NC3 Executive Summary. .............................................................  
+51 
+9.8. 
+Monthly Availability Report. ...................................................................................  
+52 
+Attachment 1—GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+53 
+ 
+6 
+AFMAN10-206  18 JUNE 2018 
+Chapter 1 
+OVERVIEW 
+1.1.  Concept of the OPREP-3 System.  The OPREP-3 system provides national leaders, Chief 
+of Staff, United States Air Force (CSAF) and Chief of Space Operation (CSO), United States 
+Space Force intermediate commanders and their staffs the information necessary for timely 
+operational decisions.  The main criterion for inclusion in the OPREP-3 system is essential 
+operational information for command and control of aerospace forces. 
+1.1.1.  MAJCOM, FOA, and DRU reporting rules or instructions will not be identified as an 
+OPREP-3.  (T-1).  Any such MAJCOM/FOA/DRU commander-directed reporting 
+requirements for events and incidents that do not meet OPREP-3 reporting requirements are 
+commonly referred to as Commanders Critical Information Reports.  (T-1). 
+1.1.2.  Due to the time sensitivity of OPREP-3 information, report each event and incident 
+promptly and as accurately as possible.  (T-1).  The FIRST command post having 
+knowledge of an event/incident will report/facilitate OPREP-3 reporting, the FIRST 
+command post verifies a report has not already been submitted by reviewing the synchronous 
+secure prior to submission.  (T-1).  Units will not delay submission of an OPREP-3 to 
+research whether another unit is also submitting the report.  (T-1).  In the case of multiple 
+OPREP-3 submissions, Air Force Service Watch Cell (AFSWC) will decide which unit will 
+continue submitting follow-up reporting based on information received.  (T-1).  Only 
+Command and Control Operations Specialists (1C3s) and certified personnel assigned to the 
+wing or installation command post (e.g., 86P, 13N, or Civilians) can transmit an OPREP-3.  
+(T-1). 
+1.1.3.  Units at all levels will develop procedures to quickly obtain and report the key 
+elements of an OPREP-3.  (T-3).  Installations hosting multiple units (assigned to different 
+MAJCOMs, sister services, detachments) will include OPREP-3 reporting requirements in 
+the host-tenant support agreement (HTSA).  (T-1).  When a HTSA is not feasible, a 
+memorandum of understanding (MOU) will be used to capture OPREP-3 reporting processes 
+for each unit.  (T-3).  All Air Force units, to include geographically separated units (GSUs), 
+will comply with their MAJCOM guidance and this manual.  (T-1). 
+1.1.3.1.  Per AFI 10-2701, Organization and Function of the Civil Air Patrol, the Air 
+Force doctrine recognizes Civil Air Patrol (CAP), civilian, and contractors members as 
+Airmen when performing missions or programs as the Air Force Auxiliary – a part of the 
+Total Force with Regular Air Force (RegAF), Air National Guard, and Air Force 
+Reserve.  Civil Air Patrol – United States Air Force (CAP-USAF) provides advice, 
+advocacy, assistance, and liaison to CAP and serves as the primary functional interface 
+between other federal agencies and civil air patrol.  Therefore, CAP-USAF Shall ensure 
+mishaps and events of interest shall be included in USAF Operational Reporting. 
+1.1.4.  Air Force component commanders within combatant commands (Air Expeditionary 
+Wings and Air Expeditionary Groups), joint bases, and joint task forces (permanent or 
+temporary), will develop written guidance to ensure all OPREP-3 requirements within this 
+document and the CSAF reports matrix can be met.  (T-1). 
+AFMAN10-206  18 JUNE 2018 
+7 
+1.1.5.  Authority.  This manual includes the requirements of various documents from the joint 
+reporting structure.  Air and Space Force units will use this manual as the primary source for 
+reporting OPREP-3 information to Department of Air Force (DAF) leadership.  (T-1). 
+8 
+AFMAN10-206  18 JUNE 2018 
+Chapter 2 
+ROLES AND RESPONSIBILITIES 
+2.1.  Deputy Chief of Staff, Operations (AF/A3).  AF/A3 through the AF 1C3 Career Field 
+Manager is the functional authority for Operational Reporting and Emergency Mass Notification.  
+AF/A3 will (T-1): 
+2.1.1.  Develop and provide Air Force operational reporting guidance.  (T-1). 
+2.1.2.  Annually review new requirements to determine operational necessity.  (T-1). 
+2.1.3.  Develop HAF self-assessment communicator in accordance with AFI 90-201, The Air 
+Force Inspection System .  (T-1). 
+2.1.4.  Coordinate CSAF OPREP-3 Reports Matrix updates and changes with CSAF, CSO, 
+and Secretary of the Air Force (SECAF), as required, in coordination with AFSWC.  (T-1). 
+2.1.5.  The HQ USAF Command Center, the Air Force Service Watch Cell (AFSWC), will: 
+2.1.5.1.  Maintain the capability to continuously monitor both primary and alternate 
+asynchronous and synchronous reporting platforms for OPREP-3 information.  (T-1). 
+2.1.5.2.  Develop procedures to immediately notify designated Joint Staff, SECAF staff, 
+and HAF staff, Chief of Space Operations (CSO) staff of OPREP-3 reportable 
+events/incidents. 
+(T-1). 
+2.1.5.3.  Develop procedures to immediately notify the Army, Navy, Marine Service and 
+National Guard Watch(es) of OPREP-3 events applicable to their respective forces or 
+operations.  (T-1). 
+2.1.5.4.  Continuously monitor the designated National Joint Operations and Intelligence 
+Center synchronous secure chat room for all PINNACLE, White PINNACLE, and 
+Defense Support to Civilian Authorities reports when posted by units.  (T-1). 
+2.1.5.5.  Actively monitor the AFSWC secure chat room and immediately implement 
+active shooter notification procedures in accordance with paragraph 8.15, if units are in 
+the affected area.  (T-1). 
+2.2.  Air Combat Command (ACC) is the EMNS Lead Command and Program 
+Management Office and will provide policy and operations oversight on EMNS.  The ACC 
+Commander through the Command Center will  (T-1): 
+2.2.1.  Report all 16 AF/CC declared communications and computer systems intrusions 
+(single or multiple installation) via OPREP-3 to AFSWC.  (T-1). 
+2.2.2.  Identify and report communication outages and failures affecting multiple installations 
+via OPREP-3 to the AFSWC.  (T-1). 
+2.2.3.  Disseminate 16 AF (AFCYBER)/CC executive-level messages (Warning Order, 
+Execution Order, Tasking Order, etc.) to all applicable MAJCOMs.  MAJCOMs in turn will 
+release the messages to their MAJCOM and wing-level commanders through Command 
+Center and Command Post channels.  (T-1). 
+AFMAN10-206  18 JUNE 2018 
+9 
+2.3.  MAJCOMs, DRUs, and FOAs will:  (T-1) 
+2.3.1.  Develop procedures to continuously monitor the designated AFSWC synchronous 
+secure chat room for pertinent information and OPREP-3s.  (T-1).  Units will use an audible 
+alert to notify Command and Control Operations Controllers that a message has been 
+received for action.  (T-1). 
+2.3.2.  Maintain current synchronous secure chat and asynchronous secure reporting system 
+site accounts to facilitate OPREP-3 reporting.  (T-1). 
+2.3.3.  Actively monitor the AFSWC secure chat room and immediately implement Active 
+Shooter notification procedures in accordance with paragraph 8.15, if units are in the 
+affected area.  (T-1). 
+2.3.4.  Initiate all command-directed EMNS events at MAJCOM level through their 
+Command Center.  (T-1).  Ensure all certified Command and Control Operations Controllers 
+have active accounts with the correct role to initiate scenarios.  (T-1).  Command and Control 
+Operations Controllers will be logged into the appropriate EMNS servers when on duty.  (T-
+1). 
+2.3.5.  Serve as scenario manager for all command-wide scenarios.  Example:  MAJCOMs 
+will build scenarios that target the entire command, certain bases within the command, etc.  
+(T-1). 
+2.3.6.  Test the EMNS in accordance with AFMAN 10-207, Command Posts.  (T-1). 
+2.4.  Installation/Wing Commanders will (unless indicated otherwise)  (T-1): 
+2.4.1.  Be the releasing and approving authority for submitting OPREP-3 reports impacting 
+their installation and wing operations.  (T-1). 
+2.4.1.1.  OPREP-3 incidents reported by tenant units will go through the Air and Space 
+Force Installation and Wing Commander for release and approval when installation and 
+wing resources directly support the tenant.  Tenant Commanders should be the releasing 
+and approving authority on reports impacting their operations only, unless otherwise 
+directed in established support agreements.  Installation/Wing Commanders will be 
+notified of all OPREP-3 reports submitted by the tenant commander.  Command Posts 
+will not delay OPREP-3 submission to notify Installation/Wing Commanders of tenant 
+unit reportable incidents.  (T-1).  ANG commanders retain approval authority until 
+federally mobilized, when host installation resources are not utilized  (T-1). 
+2.4.1.2.  Consolidated Command Posts will not delay reports for approval from multiple 
+commanders.  (T-1).  Command Posts will only obtain approval from the respective host 
+Wing Commander and ensure the appropriate/affected MAJCOM Command Centers are 
+in receipt.  (T-1). 
+2.4.2.  Ensure timely and accurate reporting for all events/incidents that meet Chairman, Joint 
+Chiefs of Staff (CJCS), CSAF, and CSO reporting criteria for all assigned or attached units, 
+as well as events and incidents that occur on or near their installation or impacting their 
+mission.  (see Table 3.1)  (T-1). 
+ 
+ 
+10 
+AFMAN10-206  18 JUNE 2018 
+2.4.3.  Ensure HTSA or MOA outline OPREP-3 procedures between organizations.  (T-1).  
+Commanders will outline agreement procedures to ensure the installation Command Post is 
+made aware of all event and incidents occurring on or impacting their installation.  (T-1).  
+Established HTSA and MOA should not cause a delay in the submission of OPREP-3 reports 
+by the Command Post. 
+2.4.4.  Ensure OPREP-3 reports are released by the host wing commander (or delegated 
+officials) when host installation resources are utilized, except as outlined below.  (T-1). 
+2.4.5.  Ensure events and incidents meeting OPREP-3 reporting requirements (CSAF 
+OPREP-3 Reports Matrix) and applicable required attachment or templates (i.e.  Storyboards, 
+Unmanned Aircraft Systems) are submitted to the AFSWC.  (T-1). 
+2.4.6.  Submit an OPREP-3 (Commander’s Discretion) when in the opinion of the 
+commander, an event or incident does not fall into a CSAF rule, but is significant enough to 
+report to DAF.  (T-3). 
+2.4.7.  Ensure that individuals who are temporarily serving in the role of Commander or First 
+Sergeant contact the command post for training on reporting requirements within 3-5 duty 
+days of duty assumption.  (T-1).  Training is required if filling temporarily duties. 
+2.4.8.  Ensure that Command Posts are responsible for initiating all wing-level EMNS events 
+and scenarios.  (T-1).  Work with local installation leadership, additional base agencies (i.e., 
+First Responders) and GSUs, to determine who will initiate events and scenarios below the 
+wing wide level.  (T-0). 
+2.4.9.  Work with installation leadership to ensure personnel update the EMNS self-access 
+client loaded on each network computer.  (T-0).  Each member is responsible for keeping his 
+or her information updated. 
+2.5.  Wing or Unit Command Posts will (unless otherwise directed): 
+2.5.1.  Provide initial (within 30 days of assignment) and semi-annual training to 
+Commanders (wing, group, squadron, tenant, sister services, etc.) and First Sergeants on 
+OPREP-3 processes and requirements.  (T-0).  Training can be conducted via email, briefings 
+or other methods so long as the training is documented; however, the recommendation is to 
+conduct a face-to-face briefing to ensure understanding of notification procedures, and to 
+provide any clarifying guidance.  (T-1).  Semi-annual training can be re-accomplished as 
+changes to the CSAF matrix occur so long as the semi-annual requirement is met, and the 
+training is documented.  (T-0).  The following are the minimum items that must be created 
+and trained by the Non-Commissioned Officer in Charge (NCOIC) of Reports assigned to the 
+installation Command Post: 
+2.5.1.1.  The OPREP-3 System.  (T-1). 
+2.5.1.2.  CSAF OPREP-3 Reports Matrix.  (T-1). 
+2.5.1.3.  CSAF OPREP-3 Reports Guide.  (T-1). 
+2.5.1.4.  Information releasable in OPREP-3s.  (T-1). 
+2.5.1.5.  OPREP-3 timing criteria.  (T-1). 
+2.5.1.6.  Tenant Commander responsibilities  (T-1). 
+AFMAN10-206  18 JUNE 2018 
+11 
+2.5.1.7.  EMNS  (T-1). 
+2.5.2.  Be responsible for providing commanders the necessary information to facilitate an 
+informed decision and submit timely OPREP-3s using the CSAF OPREP-3 Reports Matrix 
+and the CSAF OPREP-3 Reports Guide.  (T-1). 
+2.5.3.  Maintain, review and validate the OPREP-3 portion of the support agreement or 
+MOA/MOU based on the wing’s scheduled review and in accordance with AFI 25-201, 
+Intra-Service, Intra-Agency, and Inter-Agency Support Agreements Procedures.  (T-1). 
+2.5.4.  Ensure that all certified Command and Control Operations Controllers maintain active 
+synchronous secure chat and asynchronous site access to submit OPREP-3 reports.  (T-0). 
+2.5.5.  Monitor the designated AF synchronous secure chat room continuously (24/7) for 
+Higher Headquarters reporting information requests, requirements, and/or notifications.  (T-
+0). 
+2.5.6.  Notify the home-station Command Post of any incidents involving their assets.  (T-1).  
+The home station command post will notify their respective MAJCOM Command Center.  
+(T-1). 
+2.5.7.  Actively monitor the AFSWC secure chat room and immediately implement Active 
+Shooter notification procedures in accordance with paragraph 8.15, if units are in the 
+affected area.  (T-1). 
+2.5.8.  Ensure all Command and Control Operations Controllers on duty are logged into the 
+EMNS.  (T-1).  All certified Command and Control Operations Controllers will have active 
+EMNS accounts, in accordance with AFMAN 10-207, with the correct role to initiate 
+scenarios.  (T-3). 
+2.5.9.  Test and validate the EMNS in accordance with AFMAN 10-207.  (T-2). 
+2.5.10.  Contact EMNS support for any problems with the system.  (T-1). 
+2.5.11.  Develop local EMNS scenarios, which include distro lists needed in support of wing 
+operations and emergency systems.  (T-1). 
+2.5.12.  Provide EMNS support to all tenant units. 
+2.6.  Command and Control Operations Noncommissioned Officer in Charge Reports will: 
+2.6.1.  Maintain the Reports Guidebook.  This guide provides a quick reference to assist 
+Command and Control Operations Controllers in submitting OPREP-3s and other reports, as 
+applicable.  The Reports Guidebook will include:  (T-1) 
+2.6.1.1.  Current CSAF OPREP-3 Reports Matrix.  The CSAF OPREP-3 Reports Matrix 
+is a quick reference list to assist commanders and Command and Control Operations 
+Controllers in determining the level and type of report to submit based on events and 
+incidents deemed of interest to the CSAF, CSO, CJCS, and Secretary of Defense 
+(SECDEF).  Due to the need for reporting requirements to be updated as operational 
+situations evolve, and as AF/A3 or higher directs, the CSAF OPREP-3 Reports Matrix is 
+posted 
+on 
+the 
+NIPRnet 
+Command 
+Post 
+Intelink 
+Site:(https://intelshare.intelink.gov/sites/afcommandpost/Reports/Forms/AllItems.as
+px?RootFolder=%2Fsites%2Fafcommandpost%2FReports%2FOPREP&FolderCT
+12 
+AFMAN10-206  18 JUNE 2018 
+ID=12000D08D001064FAA846BF4E4B410038AC86&View=%7B977468ED%2D01
+66%2D49B0%2D9AD0%2DCCB335377B8D%7D). When the matrix is revised, 
+Command Posts will be notified of the changes in a Command and Control Operations 
+Controller Information File. 
+2.6.1.2.  The CSAF OPREP-3 Reports Guide.  This includes a list of minimum routine 
+questions that need to be answered when including data into an OPREP-3.  Due to the 
+need to update as the CSAF OPREP-3 Reports Matrix is updated, the CSAF OPREP-3 
+Reports Guide is posted on the NIPRnet Command Post Intelink Site.  When updates to 
+the CSAF OPREP-3 Report Matrix occur, the CSAF OPREP-3 Report Guide will 
+simultaneously updated as well.  Both documents are located on the NIPRnet Command 
+Post Intelink Site. 
+2.6.1.3.  Reports Checklists.  These contain step-by-step procedures to ensure required 
+reports are submitted in the proper format, within established timelines, and with the 
+correct content.  Electronic checklists are authorized; keep a printed copy within the 
+Reports Guidebook. 
+AFMAN10-206  18 JUNE 2018 
+13 
+Chapter 3 
+EVENT/INCIDENT REPORT (OPREP-3) REPORTING INSTRUCTIONS 
+3.1.  Subject and Purpose.  In accordance with CJCS Manual (CJCSM) 3150.03D, Joint 
+Reporting Structure Event and Incident Reports, Air Force and Space Force Commanders shall 
+use OPREP-3s to immediately notify Higher Headquarters of any significant event or incident 
+that rises to the level of DoD, CSAF, CSO, CJCS, Combatant Command, or service-level 
+interests.  (T-0).  Command Posts, on behalf of AF Commanders, will submit the applicable 
+OPREP-3 regardless of whether or not the event is being reported through other channels.  (T-1).  
+OPREP-3s do not replace the requirement for more detailed reports such as Commander’s 
+Situational Reports (SITREPs), and other directorates’ accident or incident investigation reports.  
+Submitting an OPREP-3 does not change, nor is it a substitute for, any report required by other 
+directives.  Real-world OPREP-3s take priority over exercise events. 
+3.2.  Security Classification.  To properly classify a report, refer to the appropriate Security 
+Classification Guides.  Department of Defense Manual (DoDM) 5200.01, Vol 1, DoD 
+Information Security Program:  Overview, Classification, and Declassification; DODM 
+5200.01, Vol 2, DoD Information Security Program: Marking of Classified Information; and 
+AFI 16-1404, Air Force Information Security Program, provide security classification, marking, 
+and downgrading instructions provide guidance for writing security classification guides, as well 
+as marking and downgrading instructions. 
+3.2.1.  OPREP-3s are classified according to content.  Approving/releasing Commanders and 
+Command and Control Operations Controllers must review report content to ensure it is 
+classified appropriately per the applicable classification guide or Original Classification 
+Authority.  (T-0).  Personnel transmitting classified OPREP-3 reports through either 
+synchronous or asynchronous means are considered derivative classifiers and are responsible 
+for appropriately marking all reports in accordance with DoDM 5200.01 Vol 2.  (T-0).  
+Examples of derivatively classified reports found in this manual are provided to aid 
+controllers in the proper formatting of derivative classification lines. 
+3.2.2.  Command Posts must transmit all reports over Secret Internet Protocol Router 
+Network (SIPRnet) with proper classification markings or via secure voice if classification is 
+higher. 
+(T-0). 
+3.2.3.  When combat or combat-related speed of delivery outweigh the need for information 
+security, after careful consideration of risks, military commanders may modify transmission 
+of classified information as necessary to meet local conditions. 
+3.3.  Directed Reporting.  Air Force Service Watch Cell (AFSWC), when directed by Joint 
+Staff/HAF/USSF leadership, may direct a unit to submit an OPREP-3 on a significant 
+event/incident.  Air Force Service Watch Cell may suspend reporting for a unit when they are in 
+a degraded communications environment. 
+3.3.1.  AFSWC controllers will serve as the primary HHQ advisor to Wing and Installation 
+Command Posts regarding the need for reporting based on current directions of the JS, 
+SECAF, CSAF, CSO or HAF/A3. 
+14 
+AFMAN10-206  18 JUNE 2018 
+3.3.2.  Air Force Duty Officers and AFSWC Controllers will not accept or deny any report 
+but can advise when a report would be better reported under a different rule number or 
+template. 
+3.3.3.  AFSWC can direct units to submit storyboards or other supplemental information to 
+support decision making of key senior leaders. 
+3.4.  Appropriate Report Content.  Command Posts must clearly convey the details of the 
+incident and protect individual references or Personally Identifying Information.  (T-0).  To 
+ensure anonymity, reports may contain: 
+3.4.1.  Rank, age, gender, marital status, number and age of dependents, duty status (e.g., 
+RegAF, ANG or AFR-Full Time, ANG or AFR-Drill Status, ANG or AFR-Traditional 
+Status, etc, DoD Civilian Status, Civil Air Patrol), and assigned unit and agency. 
+3.4.2.  Aircraft type, full tail number, owning unit, aircrew unit and squadron, type of 
+mission, and mission number. This information is required for all reports involving AF or 
+CAP owned, contracted, or operated aircraft. 
+3.5.  Inappropriate Report Content.  Although the narrative section of each report should 
+clearly convey the details of the incident, the report should not include: 
+3.5.1.  Any speculation regarding responsibility, failure of equipment or facilities, legal 
+liability, or causes (except when the cause of death is known). 
+3.5.2.  Quotations or opinions from witnesses or other privileged sources. 
+3.5.3.  Names. EXCEPTIONS: 1) when provide, office symbol, and 10-digit DSN as a Point 
+of Contact (POC) for a report (Civilian Personnel, Safety, Security Forces, Safety Board 
+Lead etc.), 2) when reporting a public figure whose death occurs on an Air Force installation; 
+or 3) the name of a deceased/retired AF VIP (e.g., flag officer or Chief Master Sergeant of 
+the Air Force [CMSAF]).  If Higher Headquarters requires the name/SSN of any individual, 
+it will be requested as an addendum separate from the report, and only the last 4 digits of the 
+SSN should be provided.  Addendum information containing Personally Identifiable 
+Information will be marked as Personally Identifiable Information and sent via encrypted 
+email or by secure means.  (T-0). 
+3.6.  Correction of Reports.  All report errors or deficiencies identified by the MAJCOM and/or 
+the AFSWC, during a synchronous secure chat room post, will be corrected in the asynchronous 
+report.  (T-1).  Unit-identified updates, content corrections and/or clarifications found after the 
+synchronous secure chat room post, but prior to the asynchronous reporting system site 
+submission, will be posted to the synchronous secure chat room and approved by the Air Force 
+Service Watch Cell prior to posting to the asynchronous reporting system site.  (T-1). 
+3.7.  Reporting Categories.  CJCSM 3150.03D, has FLAGWORD(s) that categorize events or 
+incidents according to their nature.  FLAGWORDs are located in CJCSM 3150.03D, enclosure 
+A, paragraph 1, a, 1-10.  FLAGWORDs (e.g., NUCFLASH, BENT SPEAR) associated with 
+each category aid prompt processing and distribution of the reports by alerting Higher 
+Headquarters to their importance.  The following FLAGWORDs identify reports that the Air 
+Force utilizes: 
+3.7.1.  PINNACLE (OPREP-3P)  .  This report is used by any unit to provide the National 
+Military Command Center and, as appropriate, Combatant Commands and services, with 
+AFMAN10-206  18 JUNE 2018 
+15 
+immediate notification of any incident or event where national or international level interest 
+is indicated.  Command Posts, on behalf of AF Commanders, will upgrade notification from 
+an OPREP-3B to an OPREP-3P for any of the following: 
+3.7.1.1.  The occurrence generates a higher level of military action (T-0). 
+3.7.1.2.  The occurrence has national-level interest (T-0). 
+3.7.1.3.  The occurrence affects international relations and/or is clearly against national 
+interests or affects national policy (T-0). 
+3.7.1.4.  Causes immediate widespread coverage in news media (national or 
+international) (T-0). 
+3.7.2.  PINNACLE NUCFLASH (OPREP-3PNF)  .  AF and Space Force Commanders 
+will report an OPREP-3PNF for an event, accident, or incident that could create the risk of a 
+nuclear war.  (T-0).  This report has the highest precedence in the OPREP-3 reporting 
+structure.  AF Commanders will report any of the following as an OPREP-3PNF: 
+3.7.2.1.  Ballistic missile launch or space launch (unscheduled or confirmed hostile) (T-
+0). 
+3.7.2.2.  Re-entering space objects (unscheduled or confirmed hostile) (T-0). 
+3.7.2.3.  Loss, potential loss, or degradation of U.S. military space capability when the 
+loss or degradation is because of actions by a suspected or known hostile source (T-0). 
+3.7.2.4.  Reports of cruise missiles detected and/or launched against the U.S. or U.S. 
+interests (T-0). 
+3.7.2.5.  Accidental, unauthorized, or unexplained incident involving possible detonation 
+of a nuclear weapon producing a nuclear yield (T-0). 
+3.7.2.6.  Unauthorized flight, or deviation from an approved flight plan, by a U.S. 
+nuclear-armed or nuclear-capable aircraft with the capability to penetrate the airspace of 
+another nuclear-capable country (T-0). 
+3.7.3.  PINNACLE 
+FRONT 
+BURNER 
+(OPREP-3PFB).  AF 
+and 
+Space 
+Force 
+Commanders will report OPREP-3PFB for pre-conflict occurrence of armed attack, 
+harassment, or hostile action against US. forces, territory, or interests.  (T-0).  After the 
+OPREP-3PFB has been submitted for a specific hostile situation, subsequent OPREP-3P 
+reports are not required.  Subsequent reporting of significant mission degradation or heavy 
+losses, combat events and minor airfield damage resulting from the armed attack, 
+harassment, or hostile action is reported in the SITREP.  This includes the first armed attack, 
+first chemical attack, first biological attack, and first radiological (not nuclear) attack.  Report 
+any of the following as an OPREP-3PFB: 
+3.7.3.1.  Pre-incident indications or warnings.  (T-0). 
+3.7.3.2.  Presumptive or definitive identification of the CBRNE substance.  (T-0). 
+3.7.3.3.  Methods of hazard detection and verification.  (T-0). 
+3.7.3.4.  Potential for further CBRNE substance dissemination and actions to limit 
+effects.  (T-0). 
+16 
+AFMAN10-206  18 JUNE 2018 
+3.7.3.5.  Local authority notification status and response activities, including installation 
+actions conducted under immediate response.  (T-0). 
+3.7.3.6.  Potential requests for forces or requests for assistance and the timeframe when 
+needed.  (T-0). 
+3.7.3.7.  Effects on installation mission-essential or critical functions and activities.  (T-
+0). 
+3.7.3.8.  Effects on personnel and equipment.  (T-0). 
+3.7.4.  PINNACLE BROKEN ARROW (OPREP-3PBA)  . AF Commanders will report 
+OPREP-3PBA for a U.S. nuclear weapon accident that does not create the risk of a nuclear 
+war (T-0). Report any of the following as an OPREP-3PBA: 
+3.7.4.1.  Nuclear detonation of a U.S. nuclear weapon (T-0). 
+3.7.4.2.  Non-nuclear detonation or burning of a U.S. nuclear weapon (T-0). 
+3.7.4.3.  Radioactive contamination from a U.S. nuclear weapon or component (T-0). 
+3.7.4.4.  Jettisoning of a U.S. nuclear weapon or component (T-0). 
+3.7.4.5.  Public hazard, actual or implied, from a U.S. nuclear weapon or component (T-
+0). 
+3.7.5.  PINNACLE EMPTY QUIVER (OPREP-3PEQ)  . AF Commanders will report 
+OPREP-3PEQ for the seizure, theft, or loss of a U.S. nuclear weapon (T-0). 
+3.7.6.  PINNACLE EMERGENCY DISABLEMENT (OPREP-3PED)  . AF Commanders 
+will report OPREP-3PED for operations involving the command disablement or non-violent 
+disablement of U.S. nuclear weapons (T-0). 
+3.7.7.  PINNACLE EMERGENCY EVACUATION (OPREP-3PEV).  AF Commanders 
+will report OPREP-3PEV for any operations involving the emergency evacuation of U.S. 
+nuclear weapons (T-0). 
+3.7.8.  WHITE PINNACLE (OPREP-3WP).  OPREP-3WP is an exercise report that 
+contains simulated time-critical information from operating forces to the National Military 
+Command Center and Combatant Commands. OPREP-3WP exercises use OPREP-3P 
+procedures and are downward directed by the Combatant Commands to check timeliness of 
+select Command Posts and other designated Command and Control nodes. 
+3.7.8.1.  Combatant Commands designate the units to receive the exercise message and 
+select specific exercise start times. AF Units are required to submit an OPREP-3WP 
+acknowledgement to the National Military Command Center via the designated National 
+Military Command Center synchronous secure chatroom within a time standard of 20 
+minutes, upon receipt of an OPREP-3WP tasking (T-0). 
+3.7.8.2.  Units will transmit an OPREP-3WP to the designated National Military 
+Command Center synchronous secure chatroom using the format in Figure 3.1 (T-1). 
+Units will notify Air Force Watch via phone call once OPREP-3WP is transmitted (T-1). 
+AFMAN10-206  18 JUNE 2018 
+17 
+Figure 3.1.  White Pinnacle Format. 
+(U) OPREP-3WP, Transmission Date Time Group, Unit, Location, State 
+(U) A. Unit Tasked: 
+(U) B. Location: 
+(U) C. Tasking Combatant Command: 
+(U) D. Tasking MSG Date Time Group: 
+(U) E. Time of Receipt: 
+(U) F. Delays or Tracer Action or N/A: 
+*** Include bolded items in report body.*** 
+EXAMPLE: 
+(U) OPREP-3WP, 251458ZDEC2014, 911 AW, Pittsburgh IAP, PA 
+(U) A. Unit Tasked: 911 AW 
+(U) B. Location: Pittsburgh IAP/ARS, PA 
+(U) C. Tasking Combatant Command: USTRANSCOM 
+(U) D. Tasking MSG Date Time Group: 251445ZDEC2014 
+(U) E. Time of Receipt: 251448ZDEC2014 
+(U) F. Delays or Tracer Action or N/A: N/A 
+ 
+Note 1: Tracer action is meant to show any tracing of delays, etc. 
+Note 2: Z stands for ZULU time which is the Greenwich Mean Time to 
+ensure all locations worldwide use a coordinated standard time. 
+3.7.9.  BENT SPEAR (OPREP-3BS)  . AF Commanders will report OPREP-3BS for 
+incidents involving U.S. nuclear weapons that are of significant interest, but are not 
+categorized as OPREP-3PNF or OPREP-3PBA (T-0). OPREP-3BSs use the same timing 
+requirements as OPREP-3Ps. 
+3.7.10.  FADED GIANT (OPREP-3FG)  . AF Commanders will report OPREP-3FG for 
+nuclear reactor or radiological accidents or incidents to the appropriate service headquarters 
+(T-0). OPREP-3FGs use the same timing requirements as OPREP-3Ps. 
+3.7.11.  BEELINE (OPREP-3B)  . AF Commanders will report OPREP-3B for any event or 
+incident that the CSAF has deemed reportable in the CSAF OPREP-3 Reports Matrix and/or 
+meets AF-level interest, but does not meet national or international level interest 
+requirements (T-1). 
+3.7.11.1.  OPREP-3B, Sexually Based, Alleged or Confirmed Crimes. Commanders will 
+follow guidance within AFI 90-6001, Sexual Assault Prevention and Response (SAPR) 
+Program, when submitting an OPREP-3B meeting this rule (T-1). Specific guidelines for 
+submission are as follows: 
+3.7.11.2.  Commanders will use the Commander’s Critical Information Requirements 
+template in AFI 90-6001, Attachment 4, for all reports that meet the criteria for the CSAF 
+Reports Matrix rule ‘Sexually Based, Alleged or Confirmed Crimes’ (T-1). 
+ 
+ 
+18 
+AFMAN10-206  18 JUNE 2018 
+3.7.11.3.  The Wing Commander or Vice Commander will send reports meeting the rule 
+‘Sexually Based, Alleged or Confirmed Crimes’ in the same format directed by AFI 90-
+6001, attachment 4, via an encrypted NIPRNET email (T-1). This email should be sent 
+directly to Air Force Watch and their respective NAF/MAJCOM Commanders (T-1). The 
+Air Force Watch will forward the email to HAF, CSAF, SECAF, and JCS leadership (T-
+1). Command Posts will not send OPREP-3Bs meeting this rule, but will advise 
+Commanders on the correct procedure (T-1).  NOTE: The Air Force Watch 
+organizational email is: usaf.pentagon.af-a3.mbx.afwatch@mail.mil 
+3.8.  OPREP-3 
+Report 
+Timing 
+Requirements.  Units 
+will 
+use 
+Table 
+3.1 
+for 
+synchronous/asynchronous timing requirements (T-1). 
+Table 3.1.  Timing Criteria (T-0). 
+Type of Report 
+Synchronous Report Timing 
+(in accordance with 
+Paragraph 3.10.) 
+Asynchronous Report 
+Timing (in 
+accordance with 
+Paragraph 3.11.) 
+PINNACLE NUCFLASH 
+5 minutes from incident 
+1 hour from incident 
+PINNACLE/BEELINE 
+15 minutes from incident 
+1 hour from incident 
+Note: PINNACLE Nuclear Flash reports are extremely time sensitive and require initial 
+reporting within 5 minutes of the incident (T-0). 
+3.9.  Report Construction.  Report construction guidance provides standardization, quality, and 
+consistency to unit reporting programs.  Reports are formatted based on senior Joint Staff and AF 
+leadership direction.  Units will develop templates and checklists that aid in proper report 
+formatting and submission (Refer to Figure 3.2 for example).  (T-1). 
+3.9.1.  OPREP-3 Message Subject Line.  Regardless of transmission medium, Command 
+Posts will format all OPREP-3 subject lines in the following order with the correct content.  
+(T-1).  (Refer to Figure 3.2 for example). 
+3.9.1.1.  Portion Marking. Command Posts will ensure all subject lines contain a portion 
+marking for the classification of the subject line (T-0). The subject line portion marking 
+(U, C, S, S/NF, etc.) does NOT identify the overall classification of the report, only the 
+subject line. 
+3.9.1.2.  Report FLAGWORD (OPREP-3P, OPREP-3PFB, OPREP-3B, etc.). 
+3.9.1.3.  Date Time Group of Incident. This time is when the incident occurred, not when 
+the incident became reportable. Clarification can always be provided in the narrative to 
+explain Date Time Group if incident occurred several days prior to a report. Command 
+Posts will not change the Date Time Group as subsequent reports are submitted. (T-1). 
+Command Posts will only change the Date Time Group when an OPREP-3B is upgraded 
+to an OPREP-3P, and will follow guidance within paragraph 3.9.7 when doing so (T-1). 
+AFMAN10-206  18 JUNE 2018 
+19 
+3.9.1.4.  Location Event Occurred.  This is the location of the incident or where the event 
+took place.  (T-1). 
+3.9.1.5.  Event/Incident and Rule Number.  Used to identify the incident listed in CSAF 
+OPREP-3 Reports Matrix and the corresponding rule number.  Use the specific 
+event/incident title to match the corresponding event (e.g.  Death or Injury and Rule 8C).  
+(T-1). 
+3.9.2.  Report Body (Synchronous Secure Chat) or Event Text (Asynchronous Reporting 
+System Site).  The body of the report narrative includes the who, what, when, where, how, 
+and operational impact of the incident.  In the initial report, provide as much information as 
+possible that is known at the time.  Include new information as details unfold.  In subsequent 
+reports, do not restate previously stated facts.  Regardless of transmission medium, 
+Command Posts will construct the OPREP-3 narrative (event text) in the following manner, 
+to include the line headings.  (T-1) (see Figure 3.2 for example): 
+3.9.2.1.  Report Type: Initial, Initial/Final, Follow-Up, Final, or Corrected Report. 
+3.9.2.2.  Time and Date: Time of Incident in HHMMZ, DD Mon YY format.  For Initial 
+and Initial/Final reports, this time will match the Date Time Group of Incident in the 
+subject line.  (T-1).  For Corrected Copy, Follow-Up and Final reports this time will 
+reflect the time new information was provided or the Follow-Up or Final was approved 
+for release by the commander.  (T-1). 
+3.9.2.3.  Unit: Include Unit Designator for Unit and Wing or Installation Command Post 
+submitting the OPREP.  (T-1).  Regional Command Posts, Command Post associations, 
+etc. may utilize the name for their facility authorized by AFMAN 10-207.  (T-1).  (Refer 
+to Figure 3.2 for example) 
+3.9.2.4.  Member(s): Include member information including age, gender, rank, and 
+military status (REGAF, ANG, AFR, or CAP), Unit of Assignment, etc.  If ANG or AFR, 
+specify status (e.g.  ANG or AFR-Full Time, ANG or AFR-Drill Status, ANG or AFR- 
+Traditional Status).  If Civil Air Patrol, specify status (e.g.  Air Force Assigned Mission 
+or Corporate Status).  Multiple members should be separated by semicolons.  If number 
+of members and military status is unknown at the time of the report, place “Unknown”.  
+Use “N/A” for reports that do not involve a service member.  (Refer to Figure 3.2 for 
+example). 
+3.9.2.5.  Details: In the narrative, sentence case format, include the; who, what, when, 
+where, and how the event/incident occurred (please refer to the CSAF OPREP Reporting 
+Guide for additional requirements for each rule).  When aircraft are involved be sure to 
+include Mission Design Series, full tail numbers, assigned units, mission numbers, etc.  
+When describing a system or equipment malfunction, provide the nature of the 
+discrepancies and the functions of that item in plain English terminology (e.g., avionic 
+equipment, satellites, hard drives, maintenance laptops).  All acronyms will be spelled out 
+within the report.  (T-1). 
+3.9.2.6.  Mission Impact/Impairment: The CSAF OPREP-3 Reports Matrix designates 
+rules/events that are only reportable if they have an adverse impact on the installation, 
+wing, or unit’s mission.  Commanders will provide a clear and detailed description of 
+impact to the installation, wing, or unit’s primary mission in this line when required by 
+20 
+AFMAN10-206  18 JUNE 2018 
+the CSAF OPREP-3 Reports Matrix.  (T-1).  The use of low, medium, and/or high 
+without an explanation is not an acceptable response for mission impact.  The primary 
+mission refers to the mission identified in the Mission Statement which directly supports 
+the parent MAJCOM or Combatant Command mission (e.g.  an aircraft unit’s primary 
+mission is to fly); therefore, any incident that degrades or prevents the flying mission is a 
+mission impact.  Conversely, a SIPRnet outage on base that does not impact the flying 
+mission would not be considered a mission impact.  Use “N/A” for rule numbers that are 
+not dependent on the impact to mission for reportable events. 
+3.9.2.7.  Estimated Time in Commission: Identify the estimated time a situation may end, 
+a weapon system is expected to return to service, or repair can be completed.  Command 
+Posts will format estimated time in commission line as HHMMZ, DD Mon YY.  (T-1).  
+Use “N/A” for reports that do not require an estimated time in commission.  (Refer to 
+Figure 3.2 for example) 
+3.9.2.8.  Point of Contact (POC): This is used after consulting and confirming with the 
+appropriate external agency/agencies and informing them that further reports should be 
+accomplished through their channels, include agency office symbol and 10-digit DSN 
+number.  As a minimum, a POC will be provided for all initial/final and final reports.  (T-
+1).  Initial and follow-up reports may use “N/A” in the POC line if a POC is not 
+identified at the time of report transmission.  (Refer to Figure 3.2 for example). 
+Figure 3.2.  Report Body Example. 
+ 
+ 
+ 
+AFMAN10-206  18 JUNE 2018 
+21 
+3.9.3.  Initial and Initial/Final Reports.  Initial and Initial/Final reports should contain as 
+much information as immediately available within established time parameters about an 
+event or incident.  Command Posts will submit reports in accordance with formatting and 
+content requirements within paragraph 3.9  (T-1).  An initial report may only be submitted 
+as an Initial/Final report if it contains all of the required information to close the report (in 
+accordance with the CSAF OPREP-3 Reports Guide). The CSAF OPREP-3 Reports Guide is 
+a living document adjusted as CSAF, CSO, and Government Leaders’ requirements change, 
+it 
+is 
+located 
+on 
+Intelink 
+at: 
+https://intelshare.intelink.gov/sites/afcommandpost/Reports/Forms/AllItems.aspx?Root
+Folder=%2Fsites%2Fafcommandpost%2FReports%2FOPREP&FolderCTID=0x0120
+00D08D001064FAA846BF4E4B410038AC86&View=%7B977468ED%2D0166%2D49B
+0%2D9AD0%2DCCB335377B8D%7D).  The Air Force Service Watch Cell may ask 
+questions during initial reporting to get clarification and/or prompt units to get information 
+required by higher headquarters to post in subsequent reports, if unable to include in the 
+initial report.  The Air Force Service Watch Cell may ask Commanders/Command Posts 
+additional questions after an Initial/Final report has been submitted when required by DoD, 
+Joint Staff, and/or HAF Senior Leaders. 
+3.9.3.1.  When seven calendar days have elapsed from the Initial Report and a unit is 
+unable to obtain all required information in accordance with the CSAF OPREP-3 
+Reporting Guide or higher headquarter directed questions, a Final Report will be 
+submitted stating “No further information will be provided through OPREP-3 channels”.  
+(T-1).  Identify approved POCs, agencies, and contact numbers.  (T-1).  As required, 
+units will coordinate extensions through their MAJCOM Command Center with the Air 
+Force Service Watch Cell no later than the seventh calendar day from the submission of 
+the Initial Report.  (T-1).  All unit extension requests will include a reason and estimated 
+close out date.  (T-1).  Units will post extension approval to the additional comments 
+portion of OPREP-3 SharePoint site with the reason and close out date.  (T-1). 
+3.9.3.2.  The statement “Further reporting through XXX channels” is used after 
+consulting and confirming with the appropriate external agency/agencies that further 
+reports will be accomplished through their channels.  Include agency office symbol and 
+contact number (through the Point of Contact line).  This statement is not a blanket 
+statement and will be included in the details line. 
+3.9.3.3.  Command Posts will submit the highest type report when multiple rules overlap 
+(i.e.  submit report as PINNACLE when event meets BEELINE criteria and PINNACLE 
+criteria). 
+(T-0).  For OPREP-3s meeting criteria for multiple rule numbers, only one rule number and title 
+is reflected in the subject line.  Use the most severe incident in the  subject line and identify 
+additional rule numbers from the CSAF OPREP-3 Reports Matrix at the end of the details 
+section, but prior to the further reporting statement of the synchronous (secure 
+chat)/asynchronous (reporting system site) report (i.e., Rules XX, XX and XX also apply). 
+ 
+ 
+22 
+AFMAN10-206  18 JUNE 2018 
+3.9.4.  Follow-Up reports.  These reports are essential to keep leaders at higher headquarters 
+informed of developing situations and to provide additional details as they are learned.  
+Command Posts will format follow-up reports in accordance with paragraph 3.9 and 
+provide new or updated information in the details section.  (T-1).  Command Posts should 
+not repeat information previously reported in the details section of the Initial or previous 
+Follow-Up reports.  Follow-Up reports are posted in synchronous secure chat room PRIOR 
+to posting in the asynchronous reporting system site in accordance with paragraph 3.11 
+3.9.5.  Corrected Copy reports.  Command Posts will submit a correction if an error is 
+noticed in content (e.g., incorrect facts, incorrect timing), after submitting the asynchronous 
+web blog report.  (T-1).  Command Posts will format Corrected Copy reports in accordance 
+with para 3.9  and post to synchronous secure chat.  (T-1).  Command Posts will also include 
+a statement at the end of the details section stating what information was updated (e.g., 
+Corrected tail number of aircraft, Corrected unit identification for member).  (T-1).  
+Corrected Copy reports are posted in synchronous secure chat room PRIOR to posting in the 
+asynchronous reporting system site in accordance with paragraph 3.11 
+3.9.6.  Final reports.  These reports provide required information not previously reported and 
+complete event/incident reporting.  All Final reports will end with the applicable statement, 
+“No further information will be provided through OPREP-3 channels” in the details section.  
+(T-1).  Higher Headquarters Command Center elements may ask command posts additional 
+information after a Final report is submitted when directed.  Final reports are posted in 
+synchronous secure chat room PRIOR to posting in the asynchronous reporting system site in 
+accordance with paragraph 3.11 
+3.9.7.  Upgrading OPREP-3s. Units will upgrade OPREP-3Bs if Follow-Up information to an 
+event/incident meets the criteria of a higher-level report (i.e., BEELINE to PINNACLE) (T-
+1). Command Posts will report the upgraded report as an Initial report at the higher level (T-
+1). In the upgraded Initial report, provide all previously reported information and known 
+facts. 
+3.9.7.1.  The Date Time Group for the subject line of the upgraded report will be the time 
+the event occurred or the information was received that made the report a PINNACLE 
+(i.e. the time the event became more severe in nature) (T-0). The upgraded report will 
+reference the original report’s Date Time Group as the last line of the details section if 
+different (T-1). The original (lower-level) report automatically closes upon submission of 
+the upgraded (higher-level) report. 
+3.9.7.2.  MAJCOM-level reports (e.g., MAJCOM Commander’s Critical Information 
+Reports or equivalent) are not OPREP-3s and will not follow “upgrading OPREP- 3” 
+guidance.  (T-1).  When information from a MAJCOM report meets OPREP-3 criteria, 
+the report will be submitted as an Initial OPREP-3.  (T-1). 
+ 
+ 
+AFMAN10-206  18 JUNE 2018 
+23 
+3.10.  Synchronous Reporting Processes.  Synchronous communication is where all parties 
+involved in the communication are present at the same time.  Do not delay the initial 
+synchronous notification to obtain additional information.  (T-1).  This notification can be a one 
+line entry about the event.  The primary medium for transmitting all OPREP-3 synchronous 
+reports will be designated through AF Command and Control Controller Information File.  (T-1).  
+The alternate means for submitting a synchronous report is as directed in paragraph 3.12.1  The 
+initial synchronous notification time is the time inputted into the system.  Use Follow-Up 
+notifications and reporting to provide additional information as it becomes available.  
+AFSWC/MAJCOMs assess unit reports for possible higher category reporting requirements. 
+3.10.1.  Units submitting an OPREP-3 BEELINE synchronous report will enter it into the 
+designated AF synchronous secure chat room.  (T-1).  OPREP-3 PINNACLE reports will be 
+entered directly into the National Military Command Center designated synchronous secure 
+chat room.  (T-1).  MAJCOMs will not publish guidance that mandates units receive 
+MAJCOM approval/quality check before submitting to the Air Force Service Watch Cell (i.e.  
+MAJCOMs, to include ANG and Combined Forces Air Component Commander Watch, will 
+not require units to post OPREP-3s in their synchronous secure room prior to posting in the 
+AF chat room).  Units will reference paragraph 3.9 for proper report construction.  (T-1).  
+Units will be logged into the synchronous secure chat rooms as “(Unit, Rank, Last Name)”.  
+(T-2). 
+3.10.2.  AFSWC and MAJCOM Command Centers should acknowledge wing/unit reports 
+within 5 minutes of the posting.  Acknowledgement can be in any hierarchical order.  In the 
+event that a higher headquarters element does not acknowledge within 5 minutes, the 
+wing/unit should contact their parent MAJCOM Command Center for assistance.  AFSWC is 
+the highest level of required acknowledgement, unless an OPREP-3 PINNACLE at which 
+time DOD National Joint Operations and Intelligence Center is the highest level of 
+acknowledgement required.  Units will continue to monitor the designated AF synchronous 
+secure chat room after submitting a report until the MAJCOM, AFSWC, and/or the National 
+Joint Operations and Intelligence Center have received required information.  (T-1).  Units 
+will not submit their asynchronous report until approved by AFSWC.  (T-1).  AFSWC will 
+clear units by stating, “Please post your report within one hour and notify this office once 
+completed”.  (T-1).  This serves as the official AF approval time.  Units will then post the 
+report in the asynchronous reporting system site.  (T-1). 
+3.10.3.  Units may submit exercise OPREP-3s to AFSWC at any time using the designated 
+AF exercise synchronous secure chat room.  When mission dictates, AFSWC attempts to 
+reply to exercise messages and provide feedback on reports submitted.  Command Posts may 
+submit OPREP-3 reports for training, but all exercise reports must state “EXERCISE” at the 
+beginning and end of the report.  (T-1). 
+3.11.  Asynchronous Reports.  Asynchronous communication does not require that all parties 
+involved in the communication be present and available at the same time. Examples of this 
+include: email (the receiver does not have to be logged on when the sender sends the email 
+message), and discussion boards, which allow conversations to evolve and community to 
+develop over a period of time. Units will submit an asynchronous report for all OPREP-3s (T-1). 
+3.11.1.  Command Posts will follow the AF system guidance/instructions to post 
+asynchronous reports.  (T-1). 
+24 
+AFMAN10-206  18 JUNE 2018 
+3.11.2.  Notify AFSWC in designated AF synchronous secure chat room once report has 
+been posted to the asynchronous reporting site. 
+3.11.3.  Units may submit asynchronous exercise OPREP-3s to the AFSWC at any time 
+using the asynchronous reporting site.  When mission dictates, the AFSWC attempts to reply 
+to exercise messages and provide feedback on reports submitted.  Command Posts may 
+submit OPREP-3 reports for training but all exercise reports must state “EXERCISE” at the 
+beginning and end of the report.  (T-1). 
+3.12.  Synchronous /Asynchronous Outages. 
+3.12.1.  Synchronous Secure Chat Outage: 
+3.12.1.1.  Units will notify the next higher headquarters that has access to synchronous 
+secure chat for input (NAF, MAJCOM Command Center, AFSWC).  (T-1).  Contact 
+information for AFSWC and other Command Centers may be found on the 1C3 Intelink 
+page as “Worldwide Command Post listing”. 
+3.12.1.2.  In the event of an AF-wide synchronous secure chat outage, units will contact 
+their next higher headquarters to convene a voice conference with AFSWC.  (T-1). 
+3.12.2.  Asynchronous reporting site outage: 
+3.12.2.1.  If synchronous secure chat is functional, post report to synchronous secure chat 
+and state that the unit is experiencing an asynchronous reporting site outage.  The 
+applicable higher headquarters will post the report to the asynchronous reporting site.  If 
+the asynchronous reporting site outage is AF-wide, the wing/unit will upload all reports 
+submitted during the outage to asynchronous upon system return.  (T-1). 
+3.12.2.2.  If the asynchronous reporting site and synchronous secure chat are both not 
+functional, the AF unit will contact their higher headquarters to convene a conference 
+with AFSWC and voice the report; the AF unit will follow-up with an email (record 
+copy) on SIPRnet to next higher headquarters that has access to the asynchronous 
+reporting site for input.  (T-1). 
+3.12.2.3.  If SIPRnet outage is AF-wide, the AF units will submit reports via secure 
+telephone conference with the MAJCOM and AFSWC (National Military Command 
+Center as required); the wing/unit will upload all reports submitted during the outage to 
+the asynchronous reporting site upon system return.  (T-0).  Initial voice conferences will 
+cover both the voice and record copy reports.  (T-0). 
+3.12.3.  Regardless of the outage, AFSWC immediately relays all PINNACLE reports to the 
+National Military Command Center.  (T-0).  For reports requiring voice notification within a 
+5-minute time limit, AFSWC will connect the National Military Command Center with the 
+reporting unit’s conference.  (T-0). 
+3.13.  CSAF Special Reporting Items.  These are events/incidents that are of personal interest 
+to the SECAF/CSAF/CSO.  The C2 policy and produces office updates the CSAF OPREP-3 
+Reporting Matrix when directed by the CSAF/CSO.  CSAF-Special Reporting Items remain in 
+effect until superseded or rescinded. 
+AFMAN10-206  18 JUNE 2018 
+25 
+Chapter 4 
+COMMANDER'S SITUATION REPORT (SITREP) 
+4.1.  Subject and Purpose.  To keep the MAJCOMs, services, Joint Staff, and SECDEF 
+apprised of existing political, military, and operational situations/plans and to keep commanders 
+advised of a unit’s ability to meet requirements outlined in approved plans. The SITREP is a 
+narrative report that informs and enables higher levels of command to evaluate resources and 
+prepare for potential effects of ongoing situations. The commander or designated alternate shall 
+be responsible for timely and accurate SITREP reporting (T-1). Situation reporting should be 
+accomplished for, but not limited to, the following: 
+4.1.1.  Involvement in critical national or international situations 
+4.1.2.  Involvement in natural or manmade disasters and/or emergency-relief efforts 
+4.1.3.  Significant operational deficiencies that affect mission readiness 
+4.1.4.  Other activities or ongoing operations to include defense support to civilian 
+authorities.  All Defense Support to Civilian Authorities events should be reported as 
+described in Chapter 6 if meeting guidance within CSAF OPREP-3 matrix. 
+4.1.5.  Units receiving aircraft or personnel due to natural disaster evacuations 
+4.1.6.  When directed by a higher headquarters (Combatant Command, Joint Staff, DAF, 
+MAJCOM). 
+4.2.  Submitted By.  Commanders at all levels will submit SITREPs when on-going events 
+warrant (T-1). 
+4.3.  Submitted To.  SITREPs are provided to the MAJCOM and AFSWC.  AFSWC transmits 
+SITREPs to the National Military Command Center for Joint Staff directed reports.  Units will 
+follow Combatant Command guidance when directed to submit SITREPs to a Combatant 
+Command.  (T-1). 
+4.4.  Submission Timing.  If submission timing is not directed by higher headquarters, reports 
+are submitted daily for the duration of the activity or operation.  AF Units will submit reports no 
+later than 0800Z, reflecting data current as of 0600Z, unless specified otherwise by DAF or a 
+Combatant Commander directive.  (T-1). 
+4.5.  Submission.  The primary means for transmitting SITREPs is via MS Word or Adobe PDF 
+file in the asynchronous reporting site.  AF units will post the SITREP as an attachment to an 
+event (similar to OPREP-3 submission) and format the subject line of the SITREP in accordance 
+with paragraph 4.7.1 (T-1).  When posting a SITREP in the asynchronous reporting site, units 
+use the subject line of the SITREP in the Event Title section and copy the Commanders 
+Evaluation (Comments) from the SITREP and paste them into the Event Text block.  The 
+SITREP is added as an attachment. 
+4.5.1.  After posting the record copy SITREP in the asynchronous reporting site, units enter 
+the Subject Line of the report in the designated synchronous secure chat room and state the 
+report has been posted to the asynchronous reporting site.  Refer to paragraph 4.7.1 for 
+subject line format.  (T-1). 
+26 
+AFMAN10-206  18 JUNE 2018 
+4.5.2.  When primary means are unavailable, transmit reports via SIPRnet email to the 
+MAJCOM and AFSWC.  (T-1).  The wing/unit will upload all reports submitted during the 
+outage to the asynchronous reporting site upon system return.  (T-1). 
+4.6.  General Reporting Instructions. 
+4.6.1.  Duplicate reporting is not desired; however, information available in another Joint 
+Staff report should be referenced to ensure operational impacts are noted. 
+4.6.2.  Any higher headquarters level in the reporting chain may direct additional reporting 
+requirements.  AFSWC is authorized to request any additional or amplifying information on 
+past events, current operations, or planned actions. 
+4.7.  Report Construction.  AF SITREPs report significant factors relating primarily to 
+readiness, mobilization personnel, force protection, and logistics.  Report content should 
+highlight key activities and build on previous reports.  Brevity is paramount.  The below 
+categories provide a list of subparagraphs.  These paragraphs are used as a general SITREP 
+template.  Specific categories may be directed based on the event or operation and information 
+required. 
+4.7.1.  SUBJECT LINE: The subject line is the first (top) line in all AF SITREPs.  The 
+subject line includes the following: AF SITREP, Date Time Group of the report, Unit, Base, 
+State.  Example: AF SITREP, 250800ZDEC2014, 436 AW, Dover AFB, DE. 
+4.7.2.  GENERAL: Report any pertinent general information (commander’s own situation, 
+disposition, and/or status of forces), to include a summary of significant unit mission 
+readiness degradation, current deployments, and projected deployments and requirements.  If 
+there is no information to report, then enter the acronym: Nothing Significant to Report 
+(NSTR). 
+4.7.3.  SITUATION: Report assessments of the situation to include circumstances or 
+conditions that increase or materially detract from the capability and readiness of forces 
+assigned, or under operational control of the command or service.  If there is no information 
+to report, then enter the acronym: NSTR. 
+4.7.4.  OPERATIONS: Report a description and results of offensive and/or defensive 
+operations carried out by major combatant elements; information on allied forces’ operations, 
+summary of plans for combat operations during the next 24 hours, and deviations or 
+variations from previously reported intentions or plans.  Units will include as a minimum (if 
+applicable): Unit, location, aircraft/equipment status (fully mission capable, partially mission 
+capable, not mission capable), sorties scheduled, sorties flown, specific reasons for sortie 
+cancellations and sorties scheduled for next 24 hours, unit/aircraft rotation plans/status, and 
+any other items required by AFSWC.  If there is no information to report, then enter the 
+acronym: NSTR (T-1). 
+4.7.5.  INTELLIGENCE-RECONNAISSANCE: A brief overview of the situation in terms of 
+operations, order of battle, capabilities, and threat changes.  Reference any Spot Intelligence 
+reports submitted in the past 24 hours.  Report changes in Force Protection Conditions, 
+details of significant incidents with Force Protection Condition implications, security 
+deficiencies and vulnerabilities, mitigation measures, significant criminal activity, etc.  If 
+there is no information to report, then enter the acronym: NSTR. 
+AFMAN10-206  18 JUNE 2018 
+27 
+4.7.6.  LOGISTICS: Identify significant deficiencies affecting support for planned operations 
+and problem areas beyond the commander’s or service’s capability to overcome or alleviate 
+in a timely manner.  If there is no information to report, then enter the acronym: NSTR. 
+4.7.7.  COMMUNICATIONS CONNECTIVITY: Report significant communication outages, 
+incompatibilities, quantitative equipment deficiencies, traffic volume, etc.  If there is no 
+information to report, then enter the acronym: NSTR. 
+4.7.8.  PERSONNEL: Report factors affecting readiness of forces or units; mobilization 
+status; daily battle casualties (e.g., killed in action, wounded in action, and missing in action), 
+and the impact of all casualties sustained upon the command’s mission capability.  If there is 
+no information to report, then enter the acronym: NSTR. 
+4.7.9.  SIGNIFICANT POLITICAL-MILITARY-DIPLOMATIC EVENTS: Report events 
+not reported by OPREP-3 PINNACLE or BEELINE but which could result in local, national, 
+or international public reaction; civil unrest or indications of civil defense measures 
+contemplated or implemented; and events affecting the attitudes, emotions, or behavior of the 
+populous that could be used in developing psychological operations campaigns.  If there is no 
+information to report, then enter the acronym: NSTR. 
+4.7.10.  COMMANDER'S EVALUATION: Provide the commander’s evaluation, Combatant 
+Commander’s, or service chief’s assessment of the situation.  Comments provide an overall 
+assessment and any individual comments keyed to forces as outlined in approved execute 
+order/deployment order and modifications to those orders.  If there is no information to 
+report, then enter the acronym: NSTR.  Based on the event or operation, AFSWC provides 
+guidance to Commanders on what information is requested for the final SITREP.  Final 
+information may be surmised in the Commander’s Evaluation. 
+4.8.  Termination of SITREP reporting.  SITREP reporting can be terminated when the 
+situation no longer warrants higher headquarters attention by CSAF, CSO, or the AF Crisis 
+Action Team Director, with notification from or unit query to AFSWC. 
+28 
+AFMAN10-206  18 JUNE 2018 
+Chapter 5 
+HURRICANE CONDITION/TROPICAL CYCLONE CONDITIONS OF READINESS 
+REPORTING 
+5.1.  OPREP-3B Hurricane/Tropical Cyclone (Typhoon) Conditions of Readiness.  The 
+terms “Hurricane” and “Typhoon” are regional specific names for strong tropical cyclones. In the 
+Atlantic Ocean or the Eastern Pacific Ocean (east of the international dateline) the storm is called 
+a “Hurricane.” In the Western Pacific Ocean (west of the dateline) the storm is called a 
+“Typhoon.” 
+5.2.  Conditions of readiness.  Installations will include severe weather plans (including 
+Hurricane Conditions (HURCON)/Tropical Cyclone Conditions of Readiness (TCCOR)) into the 
+Installation Emergency Management Plan 10-2 for the hazards likely to affect the installation. 
+5.2.1.  Specific to the Air Force, installations use Hurricane Conditions/ Tropical Cyclone 
+Conditions of Readiness warning codes to prepare for an impending hurricane or typhoon.  
+The information to guide installation Hurricane Conditions/ Tropical Cyclone Conditions of 
+Readiness codes provides arrival timelines and wind speed sheltering and evacuation 
+decisions.  Those hurricane and tropical cyclone conditions are listed in Table 5.1 
+5.2.2.  Tropical storms and hurricanes that come ashore can also generate tornadoes.  
+Installations subject to tornadoes provide notification of watches and warnings using the 
+Installation Notification and Warning System.  A tornado watch is issued for the installation 
+by the regionally responsible US Air Force Operational Weather Squadron (see AFVA 15-
+137, Operational Weather Squadron Areas of Responsibility) when weather conditions are 
+capable of producing a tornado.  A tornado warning is issued by the regionally responsible 
+US Air Force Operational Weather Squadron (or local USAF Weather flight in time-critical 
+situations) when a tornado is confirmed by radar or sighted by spotters.  Personnel in the 
+affected area should seek shelter immediately.  Tornado warnings can be issued without a 
+tornado watch in effect. 
+ 
+ 
+AFMAN10-206  18 JUNE 2018 
+29 
+Table 5.1.  Hurricane Conditions (HURCON) and Tropical Cyclone Conditions of 
+Readiness (TCCOR). 
+HURCON/TCCOR 
+Criteria 
+5 
+Destructive winds are possible within 96 hours. (2) 
+4 
+Destructive winds are possible within 72 hours. 
+3 
+Destructive winds are possible within 48 hours. 
+2 
+Destructive winds anticipated within 24 hours. 
+1 
+Destructive winds anticipated within 12 hours. 
+1C 
+Caution: Winds of 40-57 mph/35-49 knots sustained are occurring. 
+1E 
+Emergency: Winds of 58 mph/50 knots sustained and/or 
+gusts of 69 mph/60 knots or greater are occurring. 
+1R 
+Recovery: Destructive winds have subsided and are no longer 
+forecast to occur; survey and work crews are permitted to 
+determine the extent of the damage and to establish safe zones 
+around hazards (e.g.  downed power lines, unstable structures).  
+Non-essential personnel are asked to remain. indoors. 
+Note: (1) Commanders shall follow Combatant Commander guidance if that guidance 
+conflicts with Air Force policy.  (T-1). 
+Note: (2) Commanders may direct an installation to stay in HURCON/TCCOR 5 for an 
+entire Tropical Cyclone or Hurricane season if desired.  This is discouraged due to the 
+potential of the base/installation population becoming complacent in a prolonged 
+HURCON/TCCOR 5 status.  (T-1). 
+5.3.  Report submission timelines.  Command Posts will submit an OPREP-3B initial report 
+when a commander directs a change in readiness condition and follow-up reports will be 
+submitted for each subsequent change or when any of the following actions have been directed.  
+(T-1).  During General Hurricane Season, an OPREP-3B Initial Report will not be submitted for 
+Hurricane Condition/Tropical Cyclone Conditions of Readiness 5 if declaring Hurricane 
+Condition 5 only because of the season starting. 
+5.3.1.  Aircraft and/or Personnel Evacuation Decision.  The time the decision was made; time 
+when evacuation begins; the HURCON/TCCOR status; any updates or reference to the 
+evacuation plan.  Reported as a Follow-Up report to the OPREP-3 HURCON/TCCOR 
+Change. 
+ 
+ 
+30 
+AFMAN10-206  18 JUNE 2018 
+5.3.2.  Aircraft and/or Personnel Evacuation Started.  The time evacuation began; the 
+Hurricane Condition / Tropical Cyclone Conditions of Readiness status; any updates or 
+references to the evacuation plan.  Report the status of evacuees and shelter-in-place 
+personnel prior to and after a natural disaster, in accordance with the guidelines in AFI 36-
+3802, Personnel Accountability in Conjunction with Natural Disasters or National 
+Emergencies.  Do not initiate a dual/separate report for aircraft and/or personnel evacuation.  
+Units will report the evacuation as a Follow-Up report to the Initial OPREP-3 
+HURCON/TCCOR.  (T-1). 
+5.3.3.  Aircraft and/or Personnel Evacuation Complete. Report the time when all aircraft are 
+at the designated refuge base; and any updates as required. Reported as Follow-Up report. 
+5.3.4.  Additionally, submit an “All Clear” report after the storm has passed and there is no 
+longer operational impact to the installation. Submit the report using the normal Hurricane 
+Condition / Tropical Cyclone Conditions of Readiness report template and annotate “All 
+Clear” in the current level portion. 
+5.3.5.  Aircraft Reconstitution and/or Personnel Return to home station. Report the time 
+when all aircraft have returned to home station. Report when personnel have been cleared to 
+return to home station. Reported as Follow-Up or Final once reconstitution is complete. 
+5.4.  General Hurricane Condition / Tropical Cyclone Conditions of Readiness Reporting 
+Procedures: 
+5.4.1.  Each event of the same Hurricane Condition / Tropical Cyclone Conditions of 
+Readiness is reported as Follow-Up reports rather than separate reports. 
+5.4.2.  Consolidation of Reports. When events outpace the decision process, merge reports 
+when possible (e.g., Hurricane Condition declaration with evacuation decision). If there are 4 
+hours or more between stages, do not consolidate reports. 
+5.4.3.  Formatting for the OPREP-3 subject line is as directed in paragraph 3.9.1, and 
+formatting for ‘Report Type’ within the report body is as directed in paragraph 3.9.1.2  
+Formatting for and information to include within the remainder of the report is as directed 
+within report templates.  The report template and an example are provided in Figure 5.1 and 
+Figure 5.2, respectively. 
+5.4.4.  Follow-Up Hurricane Condition/Tropical Cyclone Conditions of Readiness reports.  
+Follow-up reports in synchronous secure chat will include the subject line and only the 
+sections containing updated/new information.  (T-1).  The same procedure applies for 
+submission into the asynchronous reporting site.  (T-1).  This process does not apply to any 
+other report type referenced in this AFMAN, to include OPREP-3s, SITREPs, or Defense 
+Support to Civilian Authorities.  (T-1).  When units are cleared by AFSWC to post a Follow- 
+Up, Final, or Correction report in the asynchronous reporting system site, they will only post 
+new or updated information into the “Comment” section.  (T-1). 
+AFMAN10-206  18 JUNE 2018 
+31 
+Figure 5.1.  OPREP-3B Hurricane Condition / Tropical Cyclone Conditions of Readiness 
+Template. 
+ 
+32 
+AFMAN10-206  18 JUNE 2018 
+Figure 5.2.  OPREP-3B Hurricane Condition/Tropical Cyclone Conditions of Readiness 
+Example. 
+ 
+AFMAN10-206  18 JUNE 2018 
+33 
+Chapter 6 
+DEFENSE SUPPORT OF CIVIL AUTHORITIES 
+6.1.  Reporting Defense Support of Civil Authorities report categories and types.  Refer to 
+DoDD 3025.18, Defense Support to Civilian Authorities, DoDI 3025.21, Defense Support of 
+Civilian Law Enforcement Agencies, and AFI 10-801, Defense Support to Civil Authorities, for a 
+more detailed description of Defense Support of Civilian Authorities events.  In accordance with 
+DoDD 3025.18 paragraph 1.d and AFI 10-801 paragraph 1.1, only locations within the United 
+States, including Puerto Rico, the US Virgin Islands, Guam, American Samoa, the 
+Commonwealth of the Northern Mariana Islands, and any territory or possession of the United 
+States, will report Defense Support to Civilian Authorities.  (T-0). 
+6.1.1.  AF response to civil authorities can fall into one of three categories: Domestic 
+Emergencies, Designated Law Enforcement, Other Activities (see AFI 10-801, paragraph 
+1.3.).  In response to these events the following reports are submitted for Defense Support to 
+Civilian Authorities: 
+6.1.1.1.  Defense Support Memorandum Report.  (T-0).  The Defense Support 
+Memorandum report is submitted upon implementation of a local MOU or MOA in 
+response to civil authorities’ request for assistance when there is a potential that AF 
+participation in the incident will receive national news media attention and reimbursable 
+costs are associated with the directed response actions.  (T-0).  Reports should be 
+submitted within 2 hours of initiation of support.  Follow-up reports should be submitted 
+no later than 24 hours from the Date Time Group of the initial message, up until the 
+support is complete. 
+6.1.1.2.  Defense Support Immediate Response Report.  (T-0).  The Defense Support 
+Immediate Response report is submitted upon federal military commander and/or 
+responsible DOD civilian official’s Immediate Response Authority to temporarily 
+employ resources under their control in response to approval of a civil authority’s request 
+for assistance in order to save lives, prevent human suffering, and mitigate great property 
+loss.  (T-0).  Report should be submitted within 2 hours of initiation of support.  Follow-
+up reports should be submitted no later than 24 hours from the Date Time Group of the 
+initial message, up until the support is complete. 
+6.1.1.3.  Defense Support Presidential Directive Report.  (T-0).  The Defense Support 
+Presidential Directive report is submitted for any Presidential or SECDEF directed DoD 
+response based on an approved civil authority’s request for assistance unless the response 
+is under immediate response authority for which the Defense Support Immediate 
+Response report will be used.  (T-0).  Report should be submitted within 6 hours of 
+initiation of support.  Follow-up reports should be submitted no later than 24 hours from 
+the Date Time Group of the initial message, up until the support is complete. 
+6.1.1.4.  Defense Support National Special Security Event Report.  (T-0).  The Defense 
+Support National Special Security Event report is submitted for any DoD participation in 
+“other activities” type Defense Support to Civilian Authorities event identified as a 
+National Special Security Event.  (T-0).  Report should be submitted within 2 hours of 
+34 
+AFMAN10-206  18 JUNE 2018 
+initiation of support.  Follow-up reports should be submitted no later than 24 hours from 
+the Date Time Group of the initial message, up until the support is complete. 
+6.2.  Defense Support to Civilian Authorities Synchronous and Asynchronous procedures: 
+6.2.1.  Command Posts will post all Defense Support to Civilian Authorities in the AF 
+designated asynchronous reporting site and will notify AFSWC via the AF synchronous chat 
+room following submission.  (T-1). 
+6.2.2.  Command Posts will submit Follow-Up reports in synchronous/asynchronous means 
+as significant changes or circumstances occur (T-1). Follow-Up reports in both synchronous 
+and asynchronous mediums will only include the Subject line and the updated/corrected lines 
+(T-1). 
+6.2.3.  For assets utilized for more than 24 hours and/or if media attention occurs, AF units 
+are required to provide a Follow-Up Defense Support to Civilian Authorities report once 
+daily, until the event is terminated or the asset returns to home base/installation, in 
+accordance with DoDD 3025.18 and DoDI 3025.21.  (T-0). 
+6.2.4.  If no change has occurred, units will post in the designated AF synchronous chat room 
+the subject line and a statement saying “No changes in the last 24 hours”.  (T-1)  Upon 
+AFSWC acknowledgment and approval, units will then make a post in reporting site under 
+the previous asynchronous post stating “No changes in the last 24 hours.  (T-1). 
+6.2.5.  AF units will submit all Defense Support to Civilian Authorities messages with 
+AFSWC, AFNORTH National Security Emergency Preparedness, and parent MAJCOM 
+selected as an “Affected Area” in the asynchronous reporting system site.  (T-0) 
+6.2.6.  AF units will submit Defense Support to Civilian Authorities reports in accordance 
+with Paragraph 3.12 during synchronous/asynchronous outages.  (T-1) 
+6.3.  Defense Support to Civilian Authorities Report Format/Construction.  Use template in 
+Figure 6.1 to construct Defense Support to Civilian Authorities reports. All bolded items will be 
+included in the report body (T-1). Units should use “N/A” when information is not applicable. 
+AFMAN10-206  18 JUNE 2018 
+35 
+Figure 6.1.  AF Defense Support to Civilian Authorities Template. 
+ 
+6.4.  Defense Support to Civilian Authorities SITREP Requirements: 
+6.4.1.  AF Units will submit a Commander's SITREP for major events, and within 10 
+workdays after Defense Support to Civilian Authorities termination (T-1). Commander’s 
+SITREP should include the following information in addition to the current information 
+criteria identified in Figure 6.1 
+6.4.1.1.  Assessment of military operations and effectiveness 
+6.4.1.2.  Photographs and video of military operations 
+6.4.1.3.  Chronological summary of USAF and Civil Air Patrol actions to include all DoD 
+and Federal Emergency Management Agency mission numbers performed as Air Force 
+assigned missions, in accordance with AFI 10-2701. 
+6.4.1.4.  Highlights of relief operations, outstanding performers, unusual actions or 
+occurrences, or other events of interest for the USAF after action report 
+6.4.1.5.  Discussion of specific problem areas encountered and actions recommended 
+precluding recurrence in the future 
+6.4.1.6.  Summary of relief operations and expenses requiring reimbursement. 
+6.5.  Base Agency requirements:  The installation commander will ensure base agencies 
+provide the Command Post with all information required to complete the reporting and that the 
+local base comptroller is provided unit expenditures associated with the Defense Support to 
+Civilian Authorities support and is aware of all Defense Support to Civilian Authorities 
+submitted reports (T-3). 
+36 
+AFMAN10-206  18 JUNE 2018 
+Chapter 7 
+CRESCENT EDGE (OPREP-3CE) 
+7.1.  Subject and Purpose.  “Crescent Edge” is a type of report used to identify that a significant 
+issue has occurred with a Special Access Program.  The AF OPREP-3CE report allows units 
+operating Special Access Programs to use the operational reporting channel to advise their 
+program managers of events or incidents that meet OPREP-3 reporting criteria.  The OPREP-
+3CE report is the single reporting channel for all Special Access Program units reporting 
+incidents to higher headquarters.  An OPREP-3CE report is submitted when an authorized 
+individual from the unit has determined an event or incident involving a Special Access Program 
+warrants higher-level awareness.  OPREP-3CE voice reports are forwarded through command 
+post channels to MAJCOM Command Centers and the AFSWC. 
+7.1.1.  Affected unit Command Posts will submit voice reports through normal command 
+post channels to immediately notify the Joint Staff, or Air Force, of significant activities 
+involving Special Access Programs operating in accordance with AFI 16-701, Management, 
+Administration and Oversight of Special Access Programs.  (T-1).  The flag words 
+BEELINE and PINNACLE are used to reference the Special Access Program management 
+level to be contacted.  Regardless of the Special Access Program management level, AFSWC 
+will address AF/A3XX (HQ USAF Special Programs Division) and SAF/AAZ (Air Force 
+Special Access Program Central Office).  MAJCOMs establish procedures for contacting 
+program managers at and below the MAJCOM level. 
+7.1.2.  The unit with the Special Access Program, not the command post, will initiate 
+OPREP-3CE reporting and notify the command post of an OPREP-3CE report to be 
+submitted.  (T-3).  No program names or incident details are included in the report.  The 
+command post sends the report up the chain to the appropriate level.  It is the reporting unit’s 
+responsibility to determine the level of report and to provide all information.  After report 
+submission command post performs no other action. 
+7.1.3.  Command Posts will report AF OPREP-3CE via voice conference with MAJCOM and 
+AFSWC.  Command Posts will not report via synchronous/asynchronous means.  (T-1).  The 
+only information passed in the voice conference is the name, contact number and office 
+symbol of the person initiating the report, and contact information of the program manager if 
+different from initiator. 
+AFMAN10-206  18 JUNE 2018 
+37 
+Chapter 8 
+EMERGENCY MASS NOTIFICATION SYSTEM 
+8.1.  Purpose.  The Air Force requires a single EMNS to alert and warn 100% of assigned forces 
+quickly and effectively of an emergent event.  (T-0).  The EMNS is used for Command and 
+Control of an installation’s forces and assets, with primary resources used during: Increased 
+Force Protection Conditions, Information Protection Implementation, Wing Recall, Force 
+Generation, Crisis Action Team Recall/Relocation, Personnel Accountability and Emergency 
+Mass Notification (i.e.  Active Shooters, Chemical, Biological, Radiological and Nuclear 
+[CBRN] incidents, Natural disasters, etc.).  (T-0). 
+8.2.  System Capabilities.  The USAF’s baseline requirements for an installation’s EMNS are 
+the following components: 
+8.2.1.  Network Alerting System: which consists of e-mail, text messaging, and desktop pop-
+up notifications to installation personnel (T-1). 
+8.2.2.  Telephone Alerting System: which consists of the capability of dialing work, home, 
+mobile numbers and Short Message Service text (T-1). 
+8.2.3.  Giant Voice Integration: which consists of the capability to integrate an installations 
+current installed Giant Voice system with the EMNS at all Main Operating Bases.  (T-1). 
+8.2.4.  Smart Device Applications: which consists of the capability for notification and global 
+positioning to alert targeted members/installations/sites within 20 miles of an event, and 100 
+miles if events escalate (T-1). 
+8.2.5.  Cloud Solution: which consists of the capability to decrease the information 
+technology (IT) footprint and provide significant savings, while improving end-user services 
+and cybersecurity (T-1). 
+8.2.6.  Hierarchical Infrastructure Notification Capability: which consists of connecting 
+installations, MAJCOMs, FOAs, DRUs, and Headquarters Air Force to provide rapid 
+interoperable notification of an event (T-1). 
+8.2.7.  Minimal Training: which consists of minimal training to begin immediate use of the 
+system (i.e. web-based tutorials for personnel as needed) (T-1). 
+8.2.8.  Dependent Access: which consists of allowing AF personnel the option to allow 
+dependents to receive notifications (T-1). 
+8.2.9.  Turnkey: which consists of a system capable with minimal to no impact a seamless 
+transition to an interim ENMS solution, reaching operational status in less than 90 days.  (T-
+1). 
+8.2.10.  Connection to Authoritative sources: ability to connect to authoritative data sources 
+for pulling of military, civilian and dependent contact information.  (T-1).  Members should 
+then be able to verify the information is correct and current.  Note: Deployed locations will 
+implement all capabilities listed within paragraph 8.2 that are feasible for the location (i.e. a 
+location without cellphone coverage or smart phones will not implement procedures for 
+such).  (T-1). 
+38 
+AFMAN10-206  18 JUNE 2018 
+8.2.11.  EMNS Program Capabilities: EMNS shall be capable of providing both alert 
+notification as well as confirmation of receipt of the notification.  (T-1). 
+8.3.  EMNS Program Management:  All AF EMNS components (records and overall system 
+management) will be managed by a Program Management Office, under guidance and direction 
+of Air Combat Command.  (T-1). 
+8.4.  Notification Requirements.  Per DoD Instruction 6055.17, DOD Emergency Managemen 
+(EM)t Program, Chapter 5, network alerting system solutions will ensure that alert notifications 
+to anyone connected to the AFNet and manually loaded ‘.com’ email addresses be issued 
+notification within 2 minutes of incident notification or initiated personnel accountability.  (T-0).  
+In addition, the EMNS notification must reach a target audience of 90 percent or more of on and 
+off-installation personnel with specific protective action recommendations (mass warning) and 
+100 percent of assigned Emergency Management resources, including first responders, first 
+receivers, and emergency responders within 10 minutes of initiation.  (T-0).  Within 1 hour after 
+initiation, EMNS should reach 100% of the on and off- installation personnel.  (T-0).  The 
+solution will ensure the systems Network Alerting System, Telephone Alerting System, and 
+Giant Voice/in-building EMNS alerting system modules are fully integrated, allowing single 
+click activation of pre-defined emergency scenario alerts.  (T-1).  The net-centric system will 
+also include provisions for secure communication, authentication, and encryption using DoD 
+and10948 PKI-encryption technologies and Common Access Card (CAC) authentication for 
+government owned devices.  (T-0).  The network alerting system solution must support standard 
+network ports and protocols.  (T-0). 
+8.4.1.  Alert notifications loaded in the procured mass notification system (i.e. Duress, Field 
+Reporting, etc.) originating from personnel at off-installation facilities should strive to be 
+initiated within two minutes of incident verification, after contact is made to local emergency 
+response forces by dialing 911 (or equivalent emergency center). 
+8.4.2.  The net-centric systems must comply with Unified Capabilities Requirements (UCR) 
+2013 
+change 
+2 
+section 
+3.10 
+Net-Centric 
+Alerting 
+System 
+(NCAS), 
+(https://www.disa.mil/~/media/Files/DISA/Services/UCCO/UCR-2013-Change2/UCR-
+2013-Change2.pdf), and be approved in accordance on the DoDI 8100.04. Unified 
+Capability Approved Products List (APL).  (T-0) 
+8.5.  Personally Identifiable Information.  Personally Identifiable Information data in the 
+Emergency Mass Notification System database is protected as required by all federal laws and 
+regulations.  (T-0).  Global Positioning System (GPS) data will only be accessed by the system 
+to transmit notifications to personnel in the impacted area for the purpose of providing an 
+emergency alert.  (T-0).  All generated records and reports will be protected as FOR OFFICIAL 
+USE ONLY and will be deleted in accordance with the records disposition schedule.  (T-0).  
+GPS coordinates will only be collected from personal devices when the user voluntarily activates 
+the location/GPS feature.  (T-0).  All GPS coordinates will be overwritten within 60 minutes of 
+the notification.  (T-0). 
+8.5.1.  All levels of leadership will proactively educate users about the features and benefits 
+of EMNS.  In addition, they will provide information on how the EMNS can collect an 
+individual’s GPS coordinates, how those will be used and stored, and how individuals can 
+opt out of this feature.  (T-1).  Features such as mobile applications can be downloaded to ten 
+devices to ensure a member’s family is protected with emergency notifications. 
+AFMAN10-206  18 JUNE 2018 
+39 
+8.5.2.  All government cellphones will include the EMNS mobile applications software.  The 
+app on government cellphone will be activated during hours the member is required to carry 
+the cellphone for government duty.  (T-1). 
+8.6.  User Interface.  EMNS user interface will be managed by authorized administrative 
+account holders in the command post (i.e., scenario managers) who can implement the various 
+scenarios built, or create scenarios as needed to support a particular situation.  (T-1).  Data will 
+be accessed on a need-to-know basis through administrative accounts.  (T-1).  Administrative 
+account holders and scenario managers must have the capability to add, edit, delete, and import 
+or export database information for AF personnel.  (T-1).  Administrators must also be able to 
+generate metric data to support Commander’s personnel accountability requirements (e.g., what 
+members have or have not been accounted for in the current scenario, with no Personally 
+Identifiable Information data).  (T-1).  A single letter, signed by the Commander owning the 
+Command Center or Command Post, will appoint scenario managers, publishers, and distro list 
+managers for each scenario established, for each MAJCOM/wing or unit.  (T-1).  Scenarios may 
+be command-wide or wing/unit driven and will then be managed by the appropriate MAJCOM, 
+wing, or unit. 
+8.6.1.  Network Interface Requirements.  All deployed computers are required to 
+communicate through Hypertext Transfer Protocol (HTTP) Secure (443).  (T-0). 
+8.6.2.  Telephone alerting must be provided by a fully integrated telephone alerting system 
+capability in a centralized net-centric architecture for use throughout the Air Force by main 
+operating bases that are run by the Air Force (Joint bases run by other Services fall under 
+their rule set).  (T-1).  Response results from telephone voice, Short Message Service text 
+messaging, and email alerts will be fully integrated into existing EMNS reporting 
+capabilities.  (T-1).  All Telephone Alerting System capabilities must be 100% interoperable 
+with the Network Alerting System.  (T-1).  All bases and installations run by the Air Force 
+and on Air Force networks are subject to the EMNS rules of this manual.  (T-1). 
+8.6.3.  The Telephone Alerting System communication capability must enable dialing to 
+mobile or landline phones, with an audio notification generated automatically using text-to- 
+speech technology.  (T-1).  Telephone Alerting System must include a closed loop 
+communication allowing receipt of response from users.  (T-1).  EMNS software must 
+include an integrated capability that simultaneously dials user telephone numbers via leased 
+lines through commercial communication centers.  (T-1).  Telephonic delivery devices are 
+useful in recall and personnel accountability scenarios when reaching out to a relatively small 
+number of recipients; therefore, text, email, and smart applications should be the primary 
+method during off duty hours.  Those without smart applications on cellphones will still have 
+the ability to receive by text and email.  Phone lines and wireless networks may be damaged 
+during a disaster; therefore, text messaging and cellphones must be an integral part of EMNS, 
+due to the relatively few “bytes” of data, being sent via these methods emergency messages 
+might transmit.  Note: Calls, texts, and data to non-government or personal cellphones could 
+incur charges to an individual if they do not have sufficient cellular minutes or a text 
+messaging data plan. 
+8.6.4.  Members should be notified of what data is being collected, how the data will be used, 
+how long the AF will maintain the records, how individuals may opt-out of the data 
+collecting features, and what costs a user may incur from using the EMNS application. 
+40 
+AFMAN10-206  18 JUNE 2018 
+8.6.5.  Security Consideration.  Desktop software must operate with the AF Standard 
+Desktop Configuration.  (T-0).  All communication shall be accomplished over Secure 
+Socket Layer, and use client certificates found in the CAC to identify the user.  (T-1). 
+8.6.6.  Notifications selected for Giant Voice broadcast must be worded carefully to insure 
+best Text-to-Voice translation.  Numbers, acronyms and abbreviations do not translate well 
+and may not be understandable over Giant Voice system. 
+8.7.  Scenario Development.  There are three common uses of EMNS: 1) physical and personal 
+security; 2) specialized recalls (e.  g., Crisis Action Teams and Emergency Operations Centers); 
+and 3) to initiate personnel accountability.  When developing scenarios, use the guidelines in this 
+section to ensure personnel are notified quickly and efficiently. 
+8.7.1.  Emergency situations where immediate notifications are needed include: physical 
+security, significant/life threatening weather or natural disaster events (tornado, hurricane, 
+tsunami, earthquake, wild fire, blizzard, etc.), base closures, wing recalls, Crisis Actions 
+Team, Threat Working Group, and Emergency Operations Center activations and other 
+events impacting personnel or property.  Keywords to think of are mass, quick, specialized 
+response, and must reach when determining the scenario components (e.g., transmission 
+device and accountability). 
+8.7.2.  During scenario development, consider who requires the notification, what devices 
+notifications should be sent through, and other considerations listed within paragraph 8.9 
+8.8.  Mass Alerting To All Affected Personnel.  (T-1) 
+8.8.1.  On-base mass alerting is best done by desktop, Short Message Service text, mobile 
+application, and Giant Voice. Duty email may not be very effective, as users need to be at 
+their desk and open an email to react. Duty phone will not be useful for installation-wide 
+(mass) notifications; base telephone switches are incapable of processing base- wide or mass 
+telephone calls in a timely manner. Duty phone notifications should only be used for targeted 
+audiences (e.g., Crisis Action Team recall). 
+8.8.2.  Off-base mass alerting is best done using Short Message Service texts, mobile 
+application, and personal email due to the “quick reach to the masses” nature. Phone calls 
+should be considered as a secondary channel due to limited resources (phone ports) and 
+potential associated costs to users. 
+8.8.3.  Developing alerts targeted to specific teams or groups (e.g., security forces, Crisis 
+Action Team, Emergency Operations Center, etc.) are used to provide specific instructions 
+for these select personnel. Use this capability when requirement is to notify specific 
+personnel as soon as possible with specific information or instructions. 
+8.8.4.  Device notification order is important.  Contact any device available as authorized by 
+paragraph 8.13 and Table 8.1: personal computer, telephone, cellphones via voice, email, 
+Short Message Service, Mobile application (only if family should be made aware of the event 
+or if units are in the field) as supported and used by the individual. 
+8.8.5.  Accounting status is critical and will follow the Air Force Personnel Accountability 
+and Assessment System processes and procedures as directed by Air Force leaders. 
+ 
+ 
+AFMAN10-206  18 JUNE 2018 
+41 
+8.9.  Utilization.  Installations will no longer use EMNS to  connect with cellphones, home 
+phone, the mobile application, and text messaging for routine weather notifications, however 
+may utilize it for significant/life threatening weather or natural disaster events (tornado, 
+hurricane, tsunami, earthquake, wild fire, major blizzard, etc.).  (T-1).  Authorized uses are as 
+shown in paragraph 8.13 and Table 8.1 
+8.9.1.  Routine weather notifications were deemed nuisances and one of the primary reasons 
+personnel opt out or ignore notifications. These notifications can still be transmitted to users 
+via the desktop pop-up feature and broadcasted over radios (e.g., Maintenance and Security 
+Forces). 
+8.9.2.  All bases are authorized to create separate channels for other agencies (e.g., Security 
+Forces, Emergency Operations Center, or a squadron).  This is allowed in order to manage 
+and transmit mass notifications internally to their specific units or personnel working outside 
+the normal office environment (flight line, hangars, construction sites, etc.).  This is 
+authorized because they are not transmitting to the entire base populace which is only 
+accomplished by the base command post.  These notifications will only be published for unit 
+events, emergencies, or accountability recalls, etc. 
+8.10.  EMNS Recalls.  EMNS recalls can encompass an entire installation, group, or squadron, 
+but should be focused for specific teams (e.g., Crisis Action Team, Emergency Operations 
+Center).  Mass alerting via EMNS targets the entire population, eliminating the need for 
+hierarchical call-trees; however, the call-tree scenario should be used with the system when the 
+person doing the notification is at the top of the hierarchy.  Most commercially available 
+telephone alert systems enable approximately 1,500 phone calls per minute and will overwhelm 
+base telephone systems if used to notify the entire base populace.  Mobile applications do not 
+overwhelm base telephone systems and can notify up to 100,000 personnel a minute. 
+8.11.  Accountability 
+8.11.1.  Accountability proves invaluable during a natural disaster or mass casualty situation. 
+The need to positively know the status of personnel and/or dependents is extremely important 
+and can be accomplished by selecting a targeting method (e.g., squadron, building number, 
+etc.). 
+8.11.2.  Response options are crucial to accountability and will follow the Air Force 
+Personnel Accountability and Assessment System processes and procedures as directed by 
+Air Force leaders (T-1). 
+8.11.3.  The Air Force Service Watch Cell will distribute AFPAAS messages to MAJCOM 
+command centers by e-mail. This e-mail will include verbatim information that will be sent 
+via EMNS.  MAJCOMs will forward this AFPAAS message to their applicable units. Unit 
+command post will in turn distribute verbatim via EMNS to the entire base populace. The 
+AFPAAS alerts will be published in two different versions based on the device(s) targeted. A 
+longer, descriptive message will be sent to email (duty & home/personal), desktop popup, 
+and mobile application and a condensed message will be sent via text message.  (T-1). 
+ 
+ 
+42 
+AFMAN10-206  18 JUNE 2018 
+8.12.  Distribution Lists.  Using distribution lists (static and dynamic) supports multiple ways to 
+exclude an individual or a group of individuals from receiving alerts. Alerts should not be sent to 
+known deployed personnel. Utilizing the self service module during deployment out-processing 
+will allow the individual to exempt themselves from scenarios. Command Posts must work 
+closely with end users and organizations to ensure scenarios are properly targeted. 
+8.13.  Authorized Uses.  Table 8.1 is a list of how EMNS will be used (T-1).  Not all options 
+checked are mandatory for each example, however units cannot add unmarked sections for 
+scenarios (T-1): 
+Table 8.1.  Authorized Use Table. 
+Notification 
+Type  
+(Actual or 
+Exercise) 
+Bas
+e 
+Wide 
+Personal 
+Computer 
+& 
+Cellphone 
+Application 
+Text 
+ 
+Duty 
+cellphones/ 
+Personal 
+cellphones 
+Voice 
+ 
+Duty /Personal 
+cellphones/ Home 
+Email 
+ 
+Duty/ 
+Home 
+PC 
+APP 
+Dut
+Personal Dut
+Persona Hom
+Dut
+Hom
+Administrative 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+ 
+Active Shooter/ 
+Lockdown 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+Base Closure 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+Delayed Reporting 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+Emergency 
+Mass 
+Notification 
+System Data 
+Update 
+(Reminder/ 
+Monthly) 
+X 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Force 
+Protection 
+Condition 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+Heat Stress 
+ 
+X 
+ 
+X 
+ 
+ 
+ 
+ 
+X 
+ 
+Hurricane 
+Condition 
+/Tropical 
+Cyclone 
+Conditions of 
+ 
+X 
+ 
+X 
+ 
+X 
+ 
+X 
+ 
+X 
+ 
+X 
+ 
+X 
+ 
+X 
+ 
+X 
+ 
+X 
+CPCON 
+X 
+X 
+X 
+X 
+X 
+X 
+ 
+ 
+X 
+X 
+AFMAN10-206  18 JUNE 2018 
+43 
+Recall (Base 
+Pyramid) 
+X 
+X 
+ 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+Recall/Activation
+/ 
+Alert
+ 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+Personnel 
+Accountability 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+Security 
+Incident: 
+Riot/Bomb/ 
+Terrorist/ 
+Hostage 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+Temperature: 
+Hot/Freeze/WBGT 
+ 
+X 
+ 
+X 
+ 
+X 
+ 
+ 
+ 
+ 
+Tornado 
+(Warning/Watch
+) 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+Weather Adv./ 
+Watch 
+ 
+X 
+ 
+X 
+ 
+X 
+ 
+ 
+ 
+ 
+Weather 
+Warning 
+X 
+X 
+ 
+X 
+ 
+X 
+ 
+ 
+X 
+ 
+Natural 
+Disaster 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+CBRN 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+Note 1: ALERTS not appropriate for base wide transmission will target selected individuals, 
+with a need to act upon the information, as identified in a supporting OPLAN, Quick 
+Reaction Checklist, or other source reference document.  As an example if the Maintenance 
+Operations Center, Base Defense Operations Center, Tower, Fitness Center, Flying 
+Squadron, and Radar Approach Control are required (by Quick Reaction Checklist, OPLAN, 
+or other source document) to receive notifications for wind gusts in excess of 30 knots, then 
+the EMNS notification is restricted to Maintenance Operations Center, Base Defense 
+Operations Center, Tower, Fitness Center, Flying Squadron and Radar Approach Control.  
+(T-1). 
+Note 2: Each member with an EMNS account can share the application with up to ten 
+people, which are predominantly family members. 
+ 
+ 
+ 
+44 
+AFMAN10-206  18 JUNE 2018 
+8.14.  End User Database Integrity.  The self-service module is available for individuals to 
+initially input and keep their own contact information current. During the initial phases of 
+implementation or until the installation is confident of the data, per wing commander, the 
+installation Command Posts will send out mass scenarios asking personnel to check their contact 
+information and update accordingly (T-3). Once data integrity is assured, mass scenarios can be 
+done on a quarterly basis.  Note: Scenarios targeting specific individuals is also an option. 
+8.14.1.  Emergency Mass Notification System can target existing distribution lists built by 
+administrators. 
+8.14.2.  It is mandatory for all military (RegAF, RegSF, AFRC, and ANG), civilians 
+personnel (bargaining/non-bargaining), and contact support personnel whose normal place of 
+duty is on a DoD installation or within a DoD facility to provide an after-hours contact 
+number or personal email.  (T-0).  Foreign Nationals may participate and may remove 
+themselves from the Emergency Mass Notification System at any time. 
+8.14.2.1.  Alternate procedures will be created by the command post to include members 
+that are geographically separated and are not connected to the AFNet requiring manual 
+input.  (T-1).  Units connected to AFNet but geographically separated less than 150 miles 
+are required to participate in the EMNS program with their servicing command post.  (T-
+1). 
+8.14.2.2.  Command Post will work with a primary POC (functionally or geographically) 
+who will provide a consolidated file for import into the system (T-1). 
+8.14.3.  Bases/units must add a step to out-processing checklists for civilian and military 
+members to remove people no longer assigned to the installation.  (T-1).  In an effort to 
+minimize recording personal information in the system indefinitely, bases and MAJCOMs 
+will institute automatic deletion protocols already installed in the EMNS for a user inactive 
+more than 90 days, unless the member utilizes the leave or deployed option.  (T-1). 
+8.14.4.  Personnel with government cellphones will register and activate the EMNS mobile 
+application.  (T-1). 
+8.14.5.  All Squadrons and Group/Wing Staffs will appoint, in writing, EMNS End User 
+Managers and alternates, preferably UCC personnel.  Provide all appointments letters to the 
+command post to ensure End User Managers are properly trained and assigned system 
+privileges. 
+8.15.  Active Shooter / Emergency Incident Mass Notification Procedures. 
+8.15.1.  All Command Centers and Installation Command Posts will actively monitor the 
+designated secure synchronous reporting room and immediately implement Active 
+Shooter/Emergency Incident procedures, if their units are in the affected area.  (T-1).  
+Emergency Incidents are defined as “stabbings, use of vehicles as weapons, terrorist threats, 
+riots, etc.” 
+8.15.2.  Immediate notification of Active Shooter incidents take precedence over all actions, 
+with the exception of nuclear events or Real World Emergency Actions Messages, ensuring 
+emergency mass notification procedures are implemented throughout the service to personnel 
+in the affected area (T-1). 
+AFMAN10-206  18 JUNE 2018 
+45 
+8.15.2.1.  A situation is considered an “Active Shooter/Emergency Incident” once 
+confirmed by law enforcement, military or civilian individual through a 911-dispatch, or 
+Homeland Security. 
+8.15.2.2.  All command posts and Command Centers with an “Active Shooter or 
+Emergency Incident situation” are authorized and directed to immediately post any 
+“Active Shooter situation” regardless of location into the Air Force Service Watch Cell 
+secure chat room if it is not already posted.  Do not post exercise information in the 
+secure chat room.  This will assist in ensuring emergency notifications reach affected 
+members assigned within the area of the incident as quickly as possible.  All Command 
+Post Command and Control Operations Controllers should monitor news channels to stay 
+up on critical events. 
+8.15.3.  The following procedures are for Command Posts during a confirmed Active Shooter 
+Incident: 
+8.15.3.1.  Installation Command Posts within 100 miles of an event will activate the 
+‘Active Shooter’ scenario in EMNS to notify members/installations/sites who could 
+possibly be effected by the event.  (T-1).  Air Force facilities can be located through the 
+following site: https://amc.maps.us.af.mil/maps/default.aspx.  Sister services’ facilities 
+are identified on the “Off Installation Facilities” excel file located on the command posts’ 
+Intelink homepage. 
+8.15.3.2.  Installation Command Posts Controllers will notify the AFSWC and other 
+MAJCOMs through AFSWC secure chat room by inserting the following “Active 
+Shooter BASE/State or CITY/STATE” and any information immediately available (e.g., 
+Capital Building, Medina Annex) without delay.  (T-1). 
+8.15.3.3.  AFSWC Controllers will confirm other Service Watch(s) and National Guard 
+Coordination Center received notification of Active Shooter Incident.  (T-1). 
+8.15.3.4.  Other MAJCOM Command Centers should be confirming that their 
+installations and off-installation units in targeted area(s) have received the notification 
+and are taking appropriate action. 
+8.15.4.  AETC Command Center Procedures: 
+8.15.4.1.  AETC Command Center procedures during an Active Shooter incident is to 
+ensure the safety of Air Force Recruiting Service Personnel, Air Force Reserve Officer 
+Training Corps and Air Force Institute of Technology to receive EMNS alerts as they are 
+not always near an AF Installation. 
+8.15.4.2.  After receiving a confirmed Active Shooter or emergency incident alert, AETC 
+Command Center Command and Control Operations Controllers will immediately 
+activate the ‘Active Shooter or Emergency Incident’ scenario.  EMNS scenario will 
+automatically notify the following: 
+8.15.4.2.1.  AETC installations “if in affected area. 
+8.15.4.2.2.  Air Force Recruiting Service, Air Force Reserve Officer Training Corps, 
+and Air Force Institute of Technology in targeted area. 
+8.15.4.2.3.  National Guard Coordination Center master email address. 
+46 
+AFMAN10-206  18 JUNE 2018 
+8.15.4.2.4.  AFSWC 
+8.15.4.2.5.  Other service Command and Control Nodes 
+8.15.4.3.  AETC Command Center Command and Control Operations Controllers will 
+notify AFSWC and other MAJCOMs and bases through Air Force Service Watch Cell 
+secure chat room, by inserting “Active Shooter or Emergency Incident – “type” (i.e.  
+stabbing, terrorist threat, use of vehicle as a weapon, etc.), BASE/State or CITY/STATE” 
+and any additional information immediately available (e.g., Capital Building, Medina 
+Annex, etc.) without delay. 
+8.15.4.4.  Other MAJCOM Command Centers should be confirming that their 
+installations and Off-installation Units in targeted area(s) have received the notification 
+and are taking appropriate action. 
+8.15.5.  AETC Command Center Procedures: 
+8.15.5.1.  AETC Command Center procedures during an Active Shooter incident is to 
+ensure the safety of Air Force Recruiting Service Personnel, Air Force Reserve Officer 
+Training Corps and Air Force Institute of Technology to receive Emergency Mass 
+Notification System alerts as they are not always near an AF Installation. 
+8.15.5.2.  After receiving a confirmed Active Shooter or emergency incident alert, AETC 
+Command Center Command and Control Operations Controllers will immediately 
+activate the ‘Active Shooter or Emergency Incident’ scenario. The Emergency Mass 
+Notification System scenario will automatically notify the following: 
+8.15.5.2.1.  AETC installations “if in affected area.” 
+8.15.5.2.2.  Air Force Recruiting Service, Air Force Reserve Officer Training Corps, 
+and Air Force Institute of Technology in targeted area. 
+8.15.5.2.3.  National Guard Coordination Center master email address. 
+8.15.5.2.4.  Air Force Watch. 
+8.15.5.2.5.  Other service Command and Control Nodes. 
+8.15.5.3.  AETC Command Center Command and Control Operations Controllers will 
+notify the Air Force Watch and other MAJCOMs and Bases through Air Force Watch 
+secure chat room, by inserting “Active Shooter or Emergency Incident – “type” (i.e. 
+stabbing, terrorist threat, use of vehicle as a weapon, etc), BASE/State or CITY/STATE” 
+and any additional information immediately available (e.g., Capital Building, Medina 
+Annex, etc.) without delay. 
+8.16.  EMNS Benefits.  All levels of leadership must proactively educate users about the 
+features and benefits of the AF’s EMNS.  (T-1).  Significant cultural and process changes may 
+be required to implement this system; effective “marketing” will smooth the transition from 
+existing processes to the desired end-state. 
+AFMAN10-206  18 JUNE 2018 
+47 
+Chapter 9 
+NUCLEAR COMMAND, CONTROL, AND COMMUNICATIONS (NC3) REPORTING 
+9.1.  Purpose.  NC3 reporting provides a near real-time picture of the Air Force's ability to 
+establish and maintain communications to assure connectivity between national leadership and 
+forces tasked to conduct nuclear operations.  These capabilities are to be provided to the Joint 
+Functional Air Component Commander (JFACC) (AFGSC/CC) as the Commander of Air Force 
+Forces (COMAFFOR) under USSTRATCOM), through the Air Force NC3 Center’s (AFNC3C) 
+Operations Fusion Cell (ANOFC).  Tracking NC3 service interruptions is crucial for trend 
+analysis, improving equipment reliability and sustainability, as well refining, operator, and 
+maintainer training. 
+9.2.  Security Classification. 
+9.2.1.  To properly classify and process NC3 service interruptions, herein referred to as a 
+service interruption, units will refer to applicable NC3 Security Classification Guides.  (T-0). 
+9.2.2.  It may be necessary to consult other classification guides to determine the level of 
+classification with respect to a service interruption as it impacts capabilities of a particular 
+node. 
+9.3.  Reporting. 
+9.3.1.  Air Force NC3 nodes (e.g., applicable Wing Command Posts, High Frequency Global 
+Communications System stations, etc.) will comply with procedures in this manual.  (T-0). 
+9.3.2.  Units will report on equipment used to support NC3 links/systems/networks for which 
+they operate, or rely on for NC3 message traffic.  (T-0). These can be found in applicable 
+Chairman of the Joint Chiefs of Staff (CJCS) instructions, Operations Orders, CJCS 
+Emergency Action Procedures, and other NC3 related documents.  (T-0). 
+9.4.  Responsibilities. 
+9.4.1.  Units will utilize the SIPRnet Defense Collaboration Service Synchronous Reporting 
+Tool, herein referred to as TransVerse Chat (TVC) to provide real-time instant messaging 
+text chat  (T-0). 
+9.4.1.1.  All units will monitor the “AFNC3C_Ops_Fusion_Cell” TVC room 24 hours a 
+day. 
+ (T-0).  Due to operational constraints E-4B and AN/TSQ-194 are not required to utilize TVC.  
+(T-0). 
+9.4.1.2.  The ANOFC will monitor both the “AFNC3C_Ops_Fusion_Cell” TVC room, 
+and “STRATCOM_GNCC” TVC room 24 hours a day.  (T-0). 
+9.4.2.  All units, to include the ANOFC, will have an organizational e-mail address 
+(workflow) for each domain (NIPR, SIPR, and/or JWICS, as applicable).  (T-0).  Each 
+workflow box will be accessible to properly cleared unit personnel with a need-to-know to 
+facilitate processing of service interruption correspondence.  (T-0). 
+9.4.3.  All units to include the ANOFC, will have secure voice capability, preferably a Secure 
+Voice Over Internet Protocol (SVOIP) device, enabling discussion of service interruption at 
+48 
+AFMAN10-206  18 JUNE 2018 
+the appropriate classification.  (T-0).  Other devices such as Secure Telephone Equipment 
+(STE) or vIPer phones are suitable.  (T-0). 
+9.4.4.  Units will notify the ANOFC when experiencing loss of a classified on-site reporting 
+capability (secure voice, TVC, and/or SIPRnet).  (T-0). 
+9.4.5.  During day-to-day operations, nuclear tasked Wing Command Posts will notify the 
+ANOFC NLT 30 minutes after relocating to an alternate site.  (T-0).  Notification will be by 
+whatever secure means remain available.  (T-0).  AFNOC will be advised on the availability 
+of NC3 equipment and classified on-site reporting capabilities (secure voice, TVC, JWICS, 
+and/or SIPRnet) at the new location.  (T-0). 
+9.4.6.  Units will advise the ANOFC of any changes to unclassified and classified 
+organizational e-mail addresses, non-secure voice numbers, and secure voice numbers.  (T-
+0).  Table 9.1 provides contact details for the ANOFC. 
+Table 9.1.  ANOFC Contact Details. 
+TVC Room 
+AFNC3C_Ops_Fusion_Cell  
+NIPRnet e-mail 
+AFGSC.AFNC3C.NGXO@us.af.mil 
+SIPRnet e-mail 
+usaf.barksdale.afgsc.mbx.afnc3c-ops-reporting-fusion-
+cell@mail.smil.mil.   
+SVOIP 
+302-511-5185 
+Non-secure landline (Primary)  Comm: (318) 529-1078 / DSN (312) 331-1078 
+Non-secure landline 
+(Secondary) 
+Comm: (318) 456-7434 / DSN (312) 781-7434 
+9.5.  Service interruption Definitions.  A reduction or elimination of a capability due to an 
+equipment and/or circuit malfunction causing a service interruption to a landline or radio 
+frequency NC3 link/system and/or network are categorized as either a degradation or outage. 
+9.5.1.  Degradation.  A partial failure of a NC3 system, not resulting in a complete system 
+outage.  Includes the partial interruption of service to some, but not all customers, or a 
+reduction in line quality. 
+9.5.2.  Outage.  An unplanned service interruption due to equipment ceasing to operate, thus 
+eliminating a capability.  Example; the inability to power on, or loss of transmit and receive 
+capabilities. 
+9.6.  Service Interruption Reports.  There are two types of service interruption reports: 
+Communications Spot (COMSPOT) reports of which there are two types; Initial and Final, and 
+the Communications Status (COMSTAT) Reports. 
+9.6.1.  COMSPOT Reports. 
+9.6.1.1.  Initial COMSPOT.  Submitted to identify/open a new a service interruption for a 
+piece of NC3 equipment discovered during day-to-day, exercise, assessment, and/or 
+wartime operations.  Reports will be formatted in accordance with Figure 9.2  (T-0). 
+Wing/Group Commander approval is not required prior to submission. 
+AFMAN10-206  18 JUNE 2018 
+49 
+9.6.1.1.1.  NLT 10 minutes after discovery, units will submit an initial report via 
+TVC.  (T-0). The ANOFC will acknowledge receipt within 5 minutes, if not 
+acknowledged the unit will call the ANOFC via non-secure voice and verify receipt.  
+(T-0). 
+9.6.1.1.2.  For nodes not required to utilize TVC, or if TVC is unavailable units will 
+notify the ANOFC via secure voice notice NLT than 10 minutes after discovery.  (T-
+0). When COMPSOTS are received via secure voice the ANOFC will immediately e-
+mail the report via classified e-mail to the Global NetOps Command Center (GNCC) 
+and then contact them via the “STRATCOM_GNCC” TVC room to verify receipt.  
+(T-0). 
+9.6.1.1.3.  NLT 30 minutes after discovery, units will submit the report via classified 
+e-mail to the ANOFC, and courtesy copy  applicable maintenance organizations, 
+squadron/group leadership, Wing Commander, and GNCC.  (T-0).  The 1 ACCS and 
+153 CACS will courtesy copy respective Group Commanders in lieu of Wing 
+Commanders for E-4B and AN/TSQ-194 reports.  (T-0). 
+9.6.1.2.  Final COMSPOT.  Submitted to close a previously reported service interruption 
+once the issue has been resolved, and a successful operational test has been completed.  
+Reports will be formatted in accordance with Figure 9.2  (T-0). Wing/Group 
+Commander approval is not required prior to submission. 
+9.6.1.2.1.  NLT 10 minutes after the service interruption has been resolved and tested, 
+units will submit a final report via TVC.  (T-0).  The ANOFC will acknowledge 
+receipt within 5 minutes, if not acknowledged the unit will call the ANOFC via non-
+secure voice and verify receipt. 
+(T-0).   
+9.6.1.2.2.  For nodes not required to utilize TVC, or if TVC is unavailable, units will 
+notify the ANOFC via secure voice notice NLT than 10 minutes after the service 
+interruption has been resolved and tested.  (T-0).  When COMPSOTS are received 
+via secure voice the ANOFC will immediately e-mail the report via classified e-mail 
+to the GNCC and then contact them via the “Global NetOps Control Center” TVC 
+room to verify receipt. 
+9.6.1.2.3.  NLT 30 minutes after the service interruption has been resolved and tested, 
+units will submit the report via classified e-mail to the ANOFC, and courtesy copy 
+applicable maintenance organizations, squadron/group leadership, Wing Commander, 
+and GNCC.  (T-0).  The 1 ACCS and 153 CACS will courtesy copy respective Group 
+Commanders in lieu of Wing Commanders for E-4B and AN/TSQ-194 reports.  (T-
+0). 
+ 
+ 
+50 
+AFMAN10-206  18 JUNE 2018 
+Figure 9.1.  COMSPOT Report Template. 
+CLASSIFICATION 
+Classification of event 
+COMSPOT TYPE 
+Initial / Final  
+SERVICE INTERRUPTION TYPE 
+Degradation / Outage 
+NODE TYPE 
+Example; Wing Command Post, Launch Control 
+Center,  HFGCS CNCS etc. 
+UNIT / LOCATION 
+Unit, installation name  
+UNIT POC 
+Name, grade, title, secure phone number, and 
+SIPR e-mail address 
+EQUIPMENT / CIRCUIT  
+AFFECTED  
+Example: GDI00 
+LINK / SYSTEM / NETWORK 
+AFFECTED 
+List names of systems, applications, or networks 
+Example: SACCS 
+SERVICE INTERRUPTION DETAILS Details as to cause of report and troubleshooting 
+actions that have already occurred  
+MITIGATION  
+Identify any workarounds 
+MISSION IMPACT  
+Based against NC3 functions the node or weapons 
+system is to perform.  Example: outage negates the 
+ability to transmit or receive Force Direction 
+messages 
+ESTIMATED RESTORAL 
+DATE/TIME 
+Estimated date/time if known (Initial report only)  
+CORRECTIVE ACTIONS  
+Chronological list of efforts to fix the service 
+interruption (Final report only) 
+DATE TIME GROUP OPENED 
+DYHHMMZ MMM YR (Initial report only) 
+DATE TIME GROUP CLOSED 
+DYHHMMZ MMM YR (Final report only) 
+DURATION 
+HH:MM (Final report only) 
+CLASSIFICATION 
+Classification of event 
+ 
+ 
+ 
+AFMAN10-206  18 JUNE 2018 
+51 
+9.6.2.  COMSTAT Report.  Submitted to report daily availability of each piece of NC3 
+equipment and maintenance information occurring over the past 24 hours for each open 
+service interruption.  Units will complete the Air Force Daily COMSTAT spread sheet 
+(provided to units by the ANOFC on classified networks).  (T-0).  Wing/Group Commander 
+approval is not required prior to submission. 
+9.6.2.1.  When providing updates for an open service interruption, units will query 
+applicable maintenance organizations prior to submission, and receive information with 
+regards to troubleshooting, parts status, ETICs, etc. occurring the past 24 hours.  (T-0).  
+“No ETIC”, “N/A”, or “No Update” are not valid responses.  (T-0). 
+9.6.2.2.  Units will submit the report daily NLT 0200Z via classified e-mail to the 
+ANOFC, and copy applicable maintenance organizations, squadron/group leadership, and 
+Wing Commander (T-0).   The 1 ACCS and 153 CACS will courtesy copy respective 
+Group Commanders in lieu of Wing Commanders for E-4B and AN/TSQ-194 reports.  
+(T-0). 
+9.6.2.2.1.  Units only operating Monday-Friday, will submit COMSTATs before the 
+end of their duty day, and are not required to submit reports on; weekends, holidays, 
+or down days.  (T-0). 
+9.6.2.3.  After submission, units will contact the ANOFC via TVC and verify receipt.  (T-
+0).  Units not required to utilize TVC, will contact the ANOFC via non-secure voice and 
+verify receipt.  (T-0). 
+9.6.2.4.  Upon receipt of a COMSTAT, the ANOFC will review availability percentages 
+and validate against submitted COMSPOTs.  (T-0).  When discrepancies are noted, the 
+ANOFC will notify the unit via TVC or secure voice, and request submission of the 
+applicable COMSPOT (Initial/Final) or a revised Daily COMSTAT spread sheet.  (T-0). 
+9.6.2.5.  The final COMSTAT of the month is used to create the Monthly Availability 
+Report for all survivable and non-survivable NC3 systems. 
+9.6.2.6.  Availability for fixed systems is defined as Minutes in Month/Uptime of System 
+in Minutes.  Mobile systems will be defined as Need for Use/Uptime of System in 
+Minutes.  (T-0).  For any fixed NC3 system not meeting 98% availability for the month; 
+the unit providing the final COMSTAT must include reason(s) for subject outage(s), 
+restoral action(s) taken, lesson(s) learned, and strategy to improve future reliability and 
+readiness.  (T-0). 
+9.7.  Air Force Daily NC3 Executive Summary.  Published to recap details pertaining to Air 
+Force NC3 service interruptions recorded in USSTRATCOM’s Global AOR Decision Support 
+System (GADSS) over the previous 24 hours.  The ANOFC will compile data and generate a list 
+using GADSS Event IDs that include opened, updated, and closed events.  (T-0). 
+9.7.1.  The ANOFC will transmit the summary daily at 0530 Central Standard Time via 
+classified e-mail to AFNC3C leadership, applicable CCMD directorates, MAJCOM A10 and 
+A3 directorates to include AFR and ANG, applicable Numbered Air Force A3 directorates, 
+Joint Nuclear Operations Center, 595 CACG, 153 CACG, System Program Offices, and Lead 
+Command Managers.  (T-0).  It will be the responsibility of the aforementioned agencies to 
+determine summary dissemination within their applicable organizations.  (T-0). 
+52 
+AFMAN10-206  18 JUNE 2018 
+9.7.2.  The ANOFC will create and maintain an Executive Summary distribution list on the 
+appropriate classified network(s).  (T-0).  For agencies wishing to be added to a distribution 
+list; a request is to be sent to the AFNOFC Coordinator via classified e-mail with justification 
+as to why access is required.  Access will be granted on a need-to-know basis as determined 
+by the AFNC3C Operations Division.  (T-0). 
+9.8.  Monthly Availability Report.  The ANOFC will prepare a report NLT the 3rd duty day of 
+the month using availability data compiled the previous months Air Force Daily COMSTAT 
+spreadsheets to identify those units with NC3 equipment failing to maintain a minimum 98% 
+availability.  (T-0). 
+9.8.1.  Format will be at the discretion of the AFNC3 Center’s Deputy Chief of Operations.  
+The report will include at a minimum for each piece of equipment below 98% availability;  
+Service Interruption Type, Node Type, Unit, Location, Equipment/Circuit Affected, 
+Link/System/ Network Affected, maintenance actions taken, and lessons learned. 
+9.8.2.  NLT the 10th duty day of the month the AFNC3C Commander will submit the report 
+via classified e-mail to the USSTRATCOM NC3 Enterprise Center, and NC3 Senior 
+Leadership for distribution to Joint Staff.  (T-0). 
+9.8.3.  The ANOFC will create and maintain a Monthly Availability Report distribution list 
+on the appropriate classified network(s).  (T-0).  For agencies wishing to be added to a 
+distribution list, a request is to be sent to the AFNOFC Coordinator via classified e-mail with 
+justification as to why access is required.  (T-0).  Access will be granted on a need-to-know 
+basis as determined by the AFNC3C/CC.  (T-0). 
+ 
+JOSEPH T. GUASTELLA Jr., Lt Gen, USAF 
+Deputy Chief of Staff Operations 
+AFMAN10-206  18 JUNE 2018 
+53 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+AFI 10-2701, Organization and Function of the Civil Air Patrol, 7 August 2018 
+AFI 10-801, Defense Support of Civil Authorities, 23 Dec 15 
+AFI 10-2701, Organization and Function of the Civil Air Patrol, 31 Jul 14 
+AFI 10-801, Defense Support of Civil Authorities, 29 January 2020 
+AFI 16-1404, Air Force Information Security Program, 29 May 15 
+AFI 16-1404, Air Force Information Security Program, 29 May 2015 
+AFI 16-701, Management, Administration and Oversight of Special Access Programs, 18 Feb 14 
+AFI 16-701, Management, Administration and Oversight of Special Access Programs, 18 
+February 2014 
+AFI 25-201, Intra-Service, Intra-Agency, and Inter-Agency Support Agreements Procedures, 18 
+Oct 2013 
+AFI 25-201, Intra-Service, Intra-Agency, and Inter-Agency Support Agreements Procedures, 18 
+October 2013 
+AFI 33-322, Records Management and Information Governance Program, 23 March 2020 
+AFI 33-360, Publications and Forms Management, 1 Dec 15 
+AFI 36-3802, Force Support Readiness Programs, 9 January 2019 
+AFI 36-3803, Personnel Accountability in Conjunction with Natural Disasters or National 
+Emergencies, 07 Jun 16 
+AFI 90-201, The Air Force Inspection System, 20 November 2018 
+AFI 90-201, The Air Force Inspection System, 21 Apr 15 
+AFI 90-6001, Sexual Assault Prevention and Response (SAPR) Program, 21 May 15 
+AFI 90-6001, Sexual Assault Prevention and Response (SAPR) Program, 21 May 2020 
+AFPD 10-2, Readiness, 6 Nov 12 
+AFPD 10-25, Air Force Emergency Management Program, 28 Apr 14 
+AFMAN 10-207, Command Post, 11 Apr 18 
+AFMAN 10-207, Command Posts, 11 April 2018 
+AFMAN 33-363, Management of Records, 1 Mar 08 
+Annex C to USSTRATCOM Campaign OPORD 8000-17, Operations 
+CJCS Emergency Action Procedures Vol VI 
+CJCS Emergency Action Procedures Vol VII 
+54 
+AFMAN10-206  18 JUNE 2018 
+CJCS Emergency Action Procedures Vol VII Annex A 
+CJCSI 6810 Nuclear Command, Control and Communications Series 
+CJCSM 3150.03D, Joint Reporting Structure Event and Incident Reports, 8 Apr 14 
+CJCSM 3150.03D, Joint Reporting Structure Event and Incident Reports, 8 April 2014 
+DAFI 33-360, Publications and Forms Management, 1 December 2015 
+DAFPD 10-2, Readiness, 6 November 2012 
+DAFPD 10-25, Air Force Emergency Management Program, 23 April 2019 
+DISA Circulars - https://www.disa.mil/About/DISA-Issuances/Circulars 
+DoDD 3025.18, Defense Support of Civil Authorities (DSCA), 29 Dec 10 
+DoDD 3025.18, Defense Support of Civil Authorities (DSCA), 29 Dec 2010, Incorporating 
+Change 2, 19 March 2018 
+DoDI 3025.21, Defense Support of Civilian Law Enforcement Agencies, 27 Feb 13 
+DoDI 3025.21, Defense Support of Civilian Law Enforcement Agencies, 27 February 2013 
+Incorporating Change 1, 8 February 2019 
+DoDI 5200.01, DoD Information Security Program and Protection of Sensitive Compartmented 
+Information (SCI), 21 Apr 16, Incorporating Change 1, 4 May 2018 
+DoDI 6055.17, DoD Emergency Management (EM) Program, 12 June 2019, Incorporating 
+Change 
+DoDI 6055.17, DoD Emergency Management (EM) Program, 13 Feb 17 
+DoDI 5200.01, DoD Information Security Program and Protection of Sensitive Compartmented 
+Information (SCI), 21 Apr 16 
+DoDI 8100.04, DoD Unified Capabilities (UC), 9 December 2010 
+DoDM 5200.01, Vol 1, DoD Information Security Program: Overview, Classification, and 
+Declassification, 24 Feb 2012 
+DoDM 5200.01, Vol 1, DoD Information Security Program: Overview, Classification, and 
+Declassification, 24 Feb 2012, Incorporating Change 1, 4 May 2018 
+DoDM 5200.01, Vol 2, DoD Information Security Program: Marking of Classified Information, 
+19 Mar 2013 
+DoDI 8100.04, DoD Unified Capabilities (UC), 9 Dec 10 
+DoDM 5200.01, Vol 2, DoD Information Security Program: Marking of Classified Information, 
+19 Mar 2013, Incorporating Change 3, 14 May 2019 
+GENADMIN: Nuclear Command, Control, and Communications Systems Monitoring and 
+Reporting 
+Joint Systems Engineering and Integration Office (JSEIO) Nuclear C3 System Architecture 
+Diagrams 
+Joint Systems Engineering and Integration Office (JSEIO) Nuclear C3 Thin-Line Architecture 
+AFMAN10-206  18 JUNE 2018 
+55 
+OPORD Buoyant Link 
+Prescribed Forms 
+None 
+Adopted Forms 
+AF Form 847, Recommendation for Change of Publication, 22 Sep 09 
+AF Form 673, Air Force Publication/Form Action Request, 1 Dec 15 
+Abbreviations and Acronyms 
+AETC—Air Education and Training Command 
+AFGSC—Air Force Global Strike Command 
+AFRC—Air Force Reserve Command 
+AFSWC—Air Force Service Watch Cell 
+AIR FORCE WATCH—CSAF’s Command Center 
+ANG—Air National Guard 
+AOR—Area of Responsibility 
+ARC—Air Reserve Component 
+CAP—Civil Air Patrol 
+CCMD—Combatant Command 
+CJCS—Chairman, Joint Chiefs of Staff 
+CJCSM—Chairman, Joint Chiefs of Staff Manual 
+CMSAF—Chief Master Sergeant of the Air Force 
+COMAFFOR—Commander, Air Force Forces 
+COMSTAT—Communication Status Report 
+COS—Chief of Space Operations 
+CSAF—Chief of Staff, USAF 
+CSO—Chief of Staff, USSF 
+DAF—Department of the Air Force 
+DCS—Defense Collaboration Services 
+DoD—Department of Defense 
+DRU—Direct Reporting Unit 
+DSN—Defense Switch Network 
+EMNS—Emergency Mass Notification System 
+56 
+AFMAN10-206  18 JUNE 2018 
+FLAGWORD(s)—Various FLAGWORD(s) are used to categorizes events or incidents 
+according to their nature throughout the document 
+FOA—Field Operating Agency 
+GNCC—Global NetOps Control Center 
+GPS—Global Positioning System 
+HAF—Headquarters Air Force 
+HQ—Headquarters 
+HTSA—Host Tenant Support Agreement 
+IAW—In Accordance With 
+INFOCON—Information Operation Condition 
+JCS—Joint Chiefs of Staff 
+JGSOC—Joint Global Strike Operations Center 
+MAJCOM—Major Command 
+MOA—Memorandum of Agreement 
+NC3—Nuclear Command, Control, and Communications 
+NCOIC—Non-Commission Office in Charge 
+NIPRnet—Non-Secure Internet Protocol Network 
+NMCC—National Military Command Center 
+NSTR—Nothing Significant to Report 
+OPREP-3—Operational Report 
+OPREP-3B—Operational Report BEELINE 
+OPREP-3FG—Operational Report FADED GIANT 
+OPREP-3P—Operational Report PINNACLE 
+OPREP-3PBA—Operational Report PINNACLE BROKEN ARROW 
+OPREP-3PEB—Operational Report PINNACLE FRONT BURNER 
+OPREP-3PEO—Operational Report PINNACLE EMPTY QUIVER 
+OPREP-3PFB—Operational Report PINNACLE FRONT BURNER 
+OPREP-3PED—Operational Report PINNACLE EMERGENCY DISABLEMENT 
+OPREP-3PEE—Operational Report PINNACLE EMERGENCY EVACUATION 
+OPREP-3PEQ—Operational Report PINNACLE EMPTY QUIVER 
+OPREP-3PNF—Operational Report PINNACLE NUCFLASH 
+OPREP-3WP—Operational Report White PINNACLE 
+RegAF—Regular Air Force 
+AFMAN10-206  18 JUNE 2018 
+57 
+SECAF—Secretary of the Air Force 
+SECDEF—Secretary of Defense 
+SIPRNET—SECRET Internet Protocol Router Network 
+SITREP—Situation Report 
+SSN—Social Security Number 
+TDY—Temporary Duty 
+US.—United States 
+USAF—United States Air Force 
+USSF—United States Space Force 
+Z—Stands for ZULU time which is the Greenwich Mean Time to ensure all locations worldwide 
+use a coordinated standard time. 
+Terms 
+FLAGWORD(s)—Various FLAGWORD(s) are used to categorize events or incidents 
+according to their nature throughout the document. 
+Z—Stands for ZULU time which is the Greenwich Mean Time to ensure all locations worldwide 
+use a coordinated standard time. 
+ 

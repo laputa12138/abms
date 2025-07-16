@@ -1,0 +1,1120 @@
+BY ORDER OF THE SECRETARY  
+OF THE AIR FORCE 
+ 
+DEPARTMENT OF THE AIR FORCE 
+INSTRUCTION 10-2601 
+11 JANUARY 2022 
+Operations 
+ELECTROMAGNETIC PULSE 
+SURVIVABILITY PROGRAM 
+COMPLIANCE WITH THIS PUBLICATION IS MANDATORY 
+ 
+ACCESSIBILITY:  Publications and forms are available on the e-Publishing website at 
+www.e-Publishing.af.mil for downloading or ordering 
+RELEASABILITY:  There are no restrictions on the release of this publication 
+ 
+ 
+OPR: AF/A10S 
+Certified by: AF/A10S  
+(Col James M. Hendrickson);  
+USSF/SF/S10N;  
+(Zannis M. Pappas) 
+Pages: 29 
+ 
+ 
+This Department of the Air Force (DAF) Instruction (DAFI) implements Air Force Policy 
+Directive (AFPD) 10-26, Countering Weapons of Mass Destruction.   It is consistent with AFPD 
+10-24, Mission Assurance, AFPD 13-5; Air Force Nuclear Mission; Air Force Instruction (AFI) 
+10-2607, Air Force Chemical, Biological, Radiological, and Nuclear (CBRN) Survivability; AFI 
+13-500, Air Force Nuclear Mission Responsibilities; and AFI 63-101/20-101, Integrated Life 
+Cycle Management. This instruction establishes the DAF Electromagnetic Pulse (EMP) Program 
+and the roles and responsibilities to ensure it is integrated into the planning, programming, 
+budgeting, and execution process. This publication applies to members of the United States Space 
+Force (USSF), Regular Air Force, the Air Force Reserve, and the Air National Guard, specifically 
+personnel who develop, manage or operate CBRN mission-critical systems and/or infrastructure 
+requiring EMP survivability in order to operate in and through, or quickly recover from an EMP 
+event. Ensure all records generated as a result of processes prescribed in this publication adhere to 
+AFI 33-322, Records Management and Information Governance Program, and are disposed in 
+accordance with the Air Force Records Disposition Schedule, which is located in the Air Force 
+Records Information Management System. Refer recommended changes and questions about this 
+publication to the Office of Primary Responsibility using Air Force Form 847, Recommendation 
+for Change of Publication; route Air Force Forms 847 from the field through the appropriate 
+functional chain of command. The authorities to waive wing/unit-level requirements will be 
+identified by Tier Number (“T-0, T-1, T-2, T-3”) following the compliance statement. See DAFI 
+33-360, Publications and Forms Management., for a description of the authorities associated with 
+2 
+DAFI10-2601  11 JANUARY 2022 
+the Tier numbers. Submit requests for waivers through the chain of command to the appropriate 
+Tier waiver approval authority, or alternately, to the requestor’s commander for non-tiered 
+compliance items. This publication may be supplemented, further implemented, or extended.  
+Compliance with attachment 1 in this publication is mandatory. 
+ 
+ 
+Chapter 1—INTRODUCTION 
+ 
+4 
+1.1. 
+Background. .............................................................................................................  
+4 
+1.2. 
+Implementation. .......................................................................................................  
+4 
+1.3. 
+Objectives. ...............................................................................................................  
+5 
+Chapter 2—ROLES AND RESPONSIBILITIES 
+ 
+6 
+2.1. 
+Secretary of the Air Force (SecAF). ........................................................................  
+6 
+2.2. 
+Chief of Staff of the Air Force (CSAF). ..................................................................  
+7 
+2.3. 
+Chief of Space Operations (CSO). ...........................................................................  
+10 
+2.4. 
+Director, Air National Guard (ANG/CC) will. ........................................................  
+11 
+2.5. 
+Commanders of MAJCOMs, FLDCOMs, Direct Reporting Units, and Field 
+Operating Agencies. .................................................................................................  
+11 
+Chapter 3—GOVERNANCE 
+ 
+17 
+3.1. 
+Overview. .................................................................................................................  
+17 
+3.2. 
+Air Force Governance Process. ................................................................................  
+17 
+3.3. 
+DAF Senior EMP Working Group (SEWG). ..........................................................  
+17 
+3.4. 
+Reporting. ................................................................................................................  
+18 
+3.5. 
+Mission Assurance Working Group (MAWG) and Mission Assurance 
+Coordination Board (MACB). .................................................................................  
+18 
+Chapter 4—REQUIREMENTS 
+ 
+19 
+4.1. 
+Overview. .................................................................................................................  
+19 
+4.2. 
+Weapon Systems and Aircraft. ................................................................................  
+19 
+4.3. 
+Facilities and Infrastructure. ....................................................................................  
+20 
+4.4. 
+Types of Tests. .........................................................................................................  
+22 
+Chapter 5—RISK DECISION 
+ 
+23 
+5.1. 
+Waiver Process. .......................................................................................................  
+23 
+5.2. 
+Waiver Cancellation Process. ..................................................................................  
+23 
+5.3. 
+A temporary waiver is granted to. ............................................................................  
+23 
+Attachment 1—GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+24 
+DAFI10-2601  11 JANUARY 2022 
+3 
+ 
+4 
+DAFI10-2601  11 JANUARY 2022 
+Chapter 1 
+INTRODUCTION 
+1.1.  Background. 
+1.1.1.  An electromagnetic pulse (EMP) has the capability to significantly disrupt, degrade, and 
+damage electronic technology, critical measurement, and critical infrastructure systems. 
+Human-made or naturally occurring (i.e., solar-induced space weather) EMPs can affect large 
+geographic areas, disrupting elements critical to the Nation’s security and economic prosperity, 
+and could adversely affect global commerce and stability. 
+1.1.2.  The effects of an EMP range from temporary disruption of electronics technology and 
+its functionality, to damaging specific electronic components, to disruption of the national 
+electric power grid, to degradation of position, navigation, and timing. It has the capability to 
+produce significant damage to critical platforms and infrastructure, as well as the ability of the 
+United States to project influence and military power. Protecting against these effects is a 
+critical requirement each mission owner must consider and plan for as they evaluate their 
+ability to perform required operations during and after EMP events. 
+1.2.  Implementation. 
+1.2.1.  To implement AFPD 10-26 and mitigate the effects of an EMP event, human-made or 
+natural, this program provides the framework for EMP testing hardness maintenance and 
+hardness surveillance (HM/HS) to ensure systems and facilities are acquired, developed, 
+constructed, and sustained in accordance with established EMP survivability Military 
+Standards (MIL-STD). The DAF will: 
+1.2.1.1.  Design, test, and certify new mission-, safety-, and flight-critical systems, 
+equipment, critical facilities, and infrastructure, in accordance with AFI 10-2607 and AFI 
+99-103, Capabilities-Based Test and Evaluation, for EMP survivability during the 
+acquisition or design/construction process. 
+1.2.1.2.  Once constructed, sustain and periodically test the EMP survivability of the 
+systems and infrastructure, in accordance with AFI 10-2607 and AFPD 10-24. 
+1.2.1.3.  Assess legacy and existing mission-, safety-, and flight-critical systems, 
+equipment, critical facilities, and infrastructure; and ensure the most feasible approach for 
+EMP survivability, including but not limited to retrofit, hardening hangars and storage 
+facilities, or rapid replacement of affected components and platforms. 
+1.2.1.4.  Train personnel at all levels to understand the unique requirements placed upon 
+mission-critical systems and infrastructure. 
+1.2.1.5.  Comply with EMP hardness technical requirements for both systems and 
+infrastructure, as defined by MIL-STDs (See Attachment 1). 
+1.2.2.  For purposes of this instruction, a mission-critical system is defined as a system whose 
+operational effectiveness and operational capacity are essential to successful mission 
+completion or to aggregate residual combat capability. If this system fails, the mission likely 
+cannot be completed. Such a system can be an auxiliary or supporting system, as well as a 
+primary mission system. 
+DAFI10-2601  11 JANUARY 2022 
+5 
+1.2.3.  The ultimate goal of the EMP Program is to provide a realistic assessment of operational 
+survivability and endurance through an EMP event. This includes self-assessments, assessment 
+and certification through the Integrated CBRN Survivability and Endurability Certification and 
+Assessment Program for applicable units, and ultimately, certainty of endurance for critical 
+infrastructure. 
+1.3.  Objectives. 
+1.3.1.  Identify roles and responsibilities for EMP Program to include: 
+1.3.1.1.  Verification, and implementation of shortfall mitigation; 
+1.3.1.2.  Establishing a methodology for EMP test prioritization; 
+1.3.1.3.  Establishing EMP HM/HS programs for DAF capabilities to include systems and 
+facilities; and 
+1.3.1.4.  EMP survivability planning, programming, and budgeting 
+1.3.2.  Define a governance process to: 
+1.3.2.1.  Report and characterize specific mission risks associated with not complying with 
+EMP testing and analysis. 
+1.3.2.2.  Identify EMP survivability shortfalls associated with all systems and facilities 
+requiring EMP survivability. 
+1.3.3.  Identify education and training requirements for human-made and naturally occurring 
+EMP effects, vulnerabilities, and mitigation measures. 
+1.3.4.  Establish/clarify EMP protection standards and critical prioritizations for mission 
+design series aerospace vehicles, support equipment, facilities, and nuclear command, control, 
+and communications (NC3). 
+6 
+DAFI10-2601  11 JANUARY 2022 
+Chapter 2 
+ROLES AND RESPONSIBILITIES 
+2.1.  Secretary of the Air Force (SecAF). 
+2.1.1.  Assistant Secretary of Air Force for Acquisition, Technology, and Logistics (SAF/AQ) 
+and Assistant Secretary of the Air Force for Space Acquisition and Integration (SAF/SQ) will: 
+2.1.1.1.  Ensure Program Executive Offices (PEOs) comply with established EMP 
+survivability requirements as identified by the Lead Command (e.g., Joint Capabilities 
+Integration and Development System (JCIDS)).  Report EMP survivability shortfalls or 
+risk acceptance to the Lead Command and Air Force Global Strike Command (AFGSC). 
+2.1.1.2.  Ensure Program Managers develop, program for, and execute activities required 
+to comply with EMP requirements. 
+2.1.1.3.  Ensure Program Managers report requirement compliance status through the Lead 
+Command to AFGSC, Air Force Materiel Command (AFMC), and Space Systems 
+Command (SSC) in accordance with procedures established by the Senior EMP Working 
+Group (SEWG).  See Chapter 3. 
+2.1.1.4.  Provide a senior leader (O-6/GS-15) and action officer to participate in the SEWG.  
+See paragraph 3.3. 
+2.1.2.  Assistant Secretary of the Air Force for Financial Management and Comptroller 
+(SAF/FM) will serve as the appropriations, programming, and financial management 
+representative to participate in the SEWG. 
+2.1.3.  Deputy Under Secretary of the Air Force for International Affairs (SAF/IA) will: 
+2.1.3.1.  Manage international interests regarding EMP requirements in Foreign Military 
+Sales and other Security Cooperation activities. 
+2.1.3.2.  Provide a senior leader (O-6/GS-15) and action officer to participate in the SEWG.  
+See paragraph 3.3. 
+2.1.4.  Assistant Secretary of the Air Force for Installations, Environment and Energy (SAF/IE) 
+will: 
+2.1.4.1.  Serve as the Installation, Environment, and Energy representative for the EMP 
+Program and serve as the office of primary responsibility (OPR) for programs and activities 
+under their purview. 
+2.1.4.2.  Provide a senior leader (O-6/GS-15) and action officer to participate in the SEWG.  
+See paragraph 3.3. 
+2.1.5.  The Air Force Inspector General (SAF/IG) will: 
+2.1.5.1.  Ensure the Air Force Inspection System supports unit, United States Air Force 
+(USAF) Major command (MAJCOM), and USSF Field command (FLDCOM) 
+independent, risk-based inspection and assessment of critical combat missions and weapon 
+systems linked to the EMP Program. 
+DAFI10-2601  11 JANUARY 2022 
+7 
+2.1.5.2.  Ensure the Air Force Inspection System supports independent, risk-based DAF-, 
+MAJCOM-, and FLDCOM-level management inspection and assessment of the overall 
+effectiveness and efficiency of the EMP Program. 
+2.1.5.3.  Advise the SEWG on DAF inspection policy in accordance with AFPD 90-2, 
+Inspector General-The Inspection System, and, as necessary, provide easy access to 
+inspection feedback on unit EMP survivability, unit capability assessments, and overall 
+effectiveness of the DAF EMP Program. 
+2.1.5.4.  The Inspector General, Office of Special Investigations, shall provide proactive 
+and comprehensive counterintelligence support. 
+2.2.  Chief of Staff of the Air Force (CSAF). 
+2.2.1.  Deputy Chief of Staff for Intelligence, Surveillance, Reconnaissance, and Cyber Effects 
+Operations (AF/A2/6) will: 
+2.2.1.1.  Provide policy, guidance, and oversight for operations, training, and sourcing of 
+USAF intelligence, surveillance, reconnaissance, and cyber effects capabilities and 
+personnel to counter EMP operations. 
+2.2.1.2.  Provide comprehensive and timely reporting of potential foreign threat incidents, 
+events and trends to the SEWG. 
+2.2.1.3.  Plan, program, and budget for resources to support DAF countering EMP 
+activities. 
+2.2.1.4.  Provide a senior leader (O-6/GS-15) and action officer to participate in the SEWG.  
+See paragraph 3.3. 
+2.2.2.  Deputy Chief of Staff for Operations (AF/A3) will: 
+2.2.2.1.  Manage and maintain overall responsibility for implementing Mission Assurance 
+and the Mission Assurance Construct, including managing risk to the USAF Defense 
+Critical Infrastructure (DCI) list, in accordance with AFPD 10-24 and DoD Manual 
+(DoDM) 3020.45-V1, Defense Critical Infrastructure Program (DCIP) Management. (T-
+0) 
+2.2.2.2.  Advocate for Continuity of operations (COOP) program planning in accordance 
+with AFI 10-208, Continuity of operations (COOP) Program. 
+2.2.2.3.  Ensure Mission essential tasks are developed to facilitate deficiency reporting in 
+Defense Readiness Reporting System (DRRS), in accordance with AFI 10-201, Force 
+Readiness Reporting. 
+2.2.2.4.  Provide a senior leader (O-6/GS-15) and action officer to participate in the SEWG.  
+See paragraph 3.3. 
+2.2.3.  Deputy Chief of Staff for Logistics, Engineering, and Force Protection (AF/A4) will: 
+2.2.3.1.  Integrate established EMP HM/HS requirements for mission critical facilities and 
+infrastructure in the appropriate maintenance and logistics guidance. 
+2.2.3.2.  Provide a senior leader (O-6/GS-15) and action officer to participate in the SEWG.  
+See paragraph 3.3. 
+8 
+DAFI10-2601  11 JANUARY 2022 
+2.2.4.  Deputy Chief of Staff for Strategy, Integration, and Requirements (AF/A5/7) will: 
+2.2.4.1.  Advise the SEWG on strategic requirements and provide recommendations on the 
+integration of countering EMP operational requirements in accordance with AFI 10-601, 
+Operational Capability Requirements Development and Validation. 
+2.2.4.2.  Represent the USAF to the joint community on countering EMP operational 
+requirements through the JCIDS and the Joint Requirements Oversight Council (JROC) in 
+accordance with AFI 10-601. 
+2.2.4.3.  Integrate considerations for EMP effects into support for Strategic Analysis 
+products (e.g., scenarios, concepts of operation, and multi-service force deployments), in 
+accordance with DoDD 8260.05, Support for Strategic Analysis (SSA). (T-0) 
+2.2.4.4.  Provide a senior leader (O-6/GS-15) and action officer to participate in the SEWG.  
+See paragraph 3.3. 
+2.2.5.  Deputy Chief of Staff for Plans and Programs (AF/A8) will: 
+2.2.5.1.  Support USAF planning, programming and allocation of associated resources for 
+the EMP Program. 
+2.2.5.2.  Advise the SEWG in the programming, planning, budgeting, and execution 
+process for EMP related efforts. 
+2.2.5.3.  Provide a senior leader (O-6/GS-15) and action officer to participate in the SEWG.  
+See paragraph 3.3. 
+2.2.6.  Director for Studies, Analyses and Assessments (AF/A9) will: 
+2.2.6.1.  Provide analytic insights to support the countering EMP program through 
+application of analytical techniques such as campaign modeling analysis and risk 
+assessment. 
+2.2.6.2.  In coordination with AF/A5/7, USSF Chief Strategy and Resources Officer 
+(SF/CSRO), and USSF Chief Technology Innovation Officer (SF/CTIO), integrate 
+relevant USAF and USSF input for countering EMP into Support for Strategic Analysis 
+products (e.g., scenarios, concepts of operation, and multi-service force deployments), in 
+accordance with DoDD 8260.05. (T-0) 
+2.2.7.  Deputy Chief of Staff for Strategic Deterrence and Nuclear Integration (AF/A10) will: 
+2.2.7.1.  Serve as the Headquarters Air Force (HAF) Accountable Officer responsible for 
+the Nuclear Enterprise and to provide direction, guidance, integration, and advocacy 
+regarding the nuclear deterrence mission of the USAF. 
+2.2.7.2.  Ensure significant EMP issues are brought to the attention of the SecAF, CSAF 
+and Chief of Space Operations (CSO), and coordinate resolution through appropriate 
+governance bodies. 
+2.2.7.3.  Support MAJCOM or /FLDCOM submission for required resources to execute 
+the DAF EMP Testing Program. 
+2.2.7.4.  Serve as SEWG co-chair with AFGSC A3/6. 
+DAFI10-2601  11 JANUARY 2022 
+9 
+2.2.7.5.  Provide a senior leader (O-6/GS-15) and action officer to participate in the SEWG.  
+See paragraph 3.3. 
+2.2.7.6.  Ensure survivability requirements are incorporated into applicable requirements, 
+resourcing, and acquisition policy through coordination with DAF Requirements and 
+Acquisition Communities. 
+2.2.7.7.  Provide Department of the Air Force Corporate Structure information to support 
+adequate resourcing of EMP survivability requirements. 
+2.2.7.8.  Be responsible for establishing and publishing all DAF EMP policies to include 
+interface with all Chemical, Biological, Radiological, and Nuclear Survivability 
+requirements. 
+2.2.7.9.  Be responsible for facilitating EMP Test Plan execution across the DAF. 
+2.2.7.10.  Facilitate and integrate EMP Program issues through Nuclear Working Group to 
+other governance bodies, as required. 
+2.2.7.11.  Facilitate and integrate EMP Program issues across the Services, joint 
+community, and Interagency partners. 
+2.2.7.12.  Develop an EMP prioritization model of critical facilities and infrastructure in 
+coordination with AF/A3, AF/A4, AF/A5, AF/A9, USSF Chief Space Operations Officer 
+(SF/COO), SF/CSRO, SAF/AQ, SAF/SQ, and US Strategic Command (USSTRATCOM), 
+along with respective mission owners and Air Force Installation and Mission Support 
+Center (AFIMSC).  This model will be based on continuity of operations, the mission 
+assurance construct, or revised existing models for all critical facilities and infrastructure, 
+either in whole or part critical to the mission success as a part of their mission assurance.  
+Each mission owner’s prioritization list will be included as part of the EMP annual report. 
+2.2.7.13.  Lead coordination with other mission areas (AF/A2/6, AF/A3, AF/A4, etc.) to 
+implement the continuity of operations. 
+2.2.7.14.  Advocate for real property requirements for NC3 and Command, Control, 
+Communications, Computers, and Intelligence (C4I) facilities to mitigate against EMP 
+protection, sustainment, and maintenance shortfalls. 
+2.2.7.15.  In coordination with AF/A3, ensure deficiencies effecting NC3 systems are 
+reported in DRRS. 
+2.2.8.  Operations and International Law Domain (AF/JAO) will advise the EMP Enterprise in 
+the development and review of strategy, plans, policies, procedures, training and operations 
+relating to countering EMP, including counter-proliferation interdiction and Proliferation 
+Security Initiative activities, to ensure consistency with U.S. domestic law and the obligations 
+of the United States under international law, including the Law of War and relevant treaties, 
+international agreements and host-nation laws. 
+2.2.9.  Chief of Air Force Reserve (AF/RE) will: 
+2.2.9.1.  Be the lead for EMP Reserve actions and activities as required. 
+10 
+DAFI10-2601  11 JANUARY 2022 
+2.2.9.2.  Identify and develop a prioritized list of all Air Force Reserve equipment, 
+facilities, and infrastructure critical to the Air Force Reserve Command (AFRC) program 
+that would be affected by an EMP event. 
+2.2.9.3.  Provide a senior leader (O-6/GS-15) and action officer to participate in the SEWG.  
+See paragraph 3.3. 
+2.2.10.  Air Force Chief of Safety (AF/SE) will: 
+2.2.10.1.  Be the lead for the EMP Safety program by defining, establishing, and executing 
+the program. 
+2.2.10.2.  Provide a senior leader (O-6/GS-15) and action officer to participate in the 
+SEWG.  See paragraph 3.3. 
+2.2.11.  Air Force Surgeon General (AF/SG) will provide policy, guidance, and oversight for 
+operations, training, readiness, and sourcing of DAF medical capabilities and personnel to 
+support countering EMP operations. 
+2.2.11.1.  Director of Test and Evaluation (AF/TE) will: 
+2.2.11.2.  Establish test and evaluation policy, advocate for test and evaluation resources 
+required to support EMP survivability development and sustainment, and resolving test 
+and evaluation issues and disputes. 
+2.2.11.3.  Collaborate with requirements sponsors and system developers to improve the 
+development, testing, and fielding of DAF systems or subsystems subjected to EMP 
+survivability testing. 
+2.2.11.4.  Fulfill any other responsibilities covered in AFI 99-103 applicable to EMP 
+survivability testing. 
+2.2.11.5.  Provide a senior leader (O-6/GS-15) and action officer to participate in the 
+SEWG.  See paragraph 3.3. 
+2.3.  Chief of Space Operations (CSO). 
+2.3.1.  Chief Operations Officer (SF/COO) (SF/S2/3/4/6/10) will: 
+2.3.1.1.  Be the lead for the EMP Space program by defining, establishing, and executing 
+the program. 
+2.3.1.2.  Provide policy, guidance, and oversight for operations, training, and sourcing of 
+USSF intelligence, surveillance, and reconnaissance capabilities and personnel to enable 
+countering EMP operations. 
+2.3.1.3.  Identify current EMP detection and characterization capabilities and ensure future 
+space-based EMP systems fulfill requirements outlined in this DAFI. 
+2.3.1.4.  Provide a senior leader (O-6/GS-15) and action officer to participate in the SEWG.  
+See paragraph 3.3. 
+2.3.2.  Chief Strategy and Resourcing Officer (SF/CSRO) (SF/S5/8) will: 
+2.3.2.1.  Advise the SEWG and provide recommendations on the integration of countering 
+EMP operational requirements into space operations. 
+DAFI10-2601  11 JANUARY 2022 
+11 
+2.3.2.2.  Represent the USSF to the Joint community on countering EMP operational 
+requirements through the JCIDS and the JROC. 
+2.3.2.3.  Provide a senior leader (O-6/GS-15) and action officer to participate in the SEWG.  
+See paragraph 3.3. 
+2.3.3.  USSF Director of Test and Evaluation (USSF/TE) will: 
+2.3.3.1.  Establish test and evaluation policy, advocate for test and evaluation resources 
+required to support EMP survivability development and sustainment, and resolving test 
+and evaluation issues and disputes applicable to the Space Force. 
+2.3.3.2.  Collaborate with requirements sponsors and system developers to improve the 
+development, testing, and fielding of Space Force systems or subsystems subjected to EMP 
+survivability testing. 
+2.3.3.3.  Fulfill any other responsibilities covered in AFI 99-103 applicable to Space Force 
+EMP survivability testing. 
+2.3.3.4.  Provide a senior leader (O-6/GS-15) and action officer to participate in the SEWG.  
+See paragraph 3.3. 
+2.3.3.5.  Chief Technology and Innovation Officer (SF/CTIO) will: 
+2.3.3.5.1.  Advise the EMP Senior Working Group and provide recommendations on 
+the integration of EMP survivability requirements in development of future USSF 
+capabilities. 
+2.3.3.5.2.  Provide a senior leader (O-6/GS-15) and action officer to participate in the 
+SEWG. See paragraph 3.3. 
+2.4.  Director, Air National Guard (ANG/CC) will. 
+2.4.1.  Be the lead for EMP ANG actions and activities as required. 
+2.4.2.  Identify and develop a prioritized list of all ANG-related equipment, facilities, and 
+infrastructure critical to the ANG program that would be affected by an EMP event. 
+2.4.3.  Provide a senior leader (O-6/GS-15) and action officer to participate in the SEWG. See 
+paragraph 3.3. 
+2.5.  Commanders of MAJCOMs, FLDCOMs, Direct Reporting Units, and Field Operating 
+Agencies. 
+2.5.1.  Will monitor EMP survivability compliance of assigned systems and owned facilities 
+through command channels, System Program Offices (SPOs), AFIMSC, PEOs, and Air Force 
+Nuclear Weapon Center (AFNWC), as required by AF/A10. (T-1) 
+2.5.2.  Will assess mission impact of reported EMP survivability shortfalls and/or not 
+complying with tests and analysis, resource or assume risk in a prioritized and informed 
+manner, and inform AFGSC and AFNWC of risk decisions made, as required by AF/A10. (T-
+1) 
+2.5.3.  Will provide AFGSC and AFNWC a prioritized list of threat-level test requirements, as 
+required by AFGSC. (T-1) 
+12 
+DAFI10-2601  11 JANUARY 2022 
+2.5.4.  Will appoint an OPR to address EMP-related issues and participate in the EMP 
+governance process through the SEWG. (T-1) 
+2.5.5.  Will identify critical infrastructure assets that must survive an EMP event. (T-1) 
+2.5.6.  Will provide prioritized list and report of critical infrastructure assets to SEWG. (T-1) 
+2.5.7.  Will program for EMP assessments. (T-1) 
+2.5.7.1.  Ensure EMP-related threats and hazards are integrated into installation All Hazard 
+Threat Assessment, and provide risk response mitigation measures to vulnerabilities found 
+during assessments. (T-1) 
+2.5.7.2.  Ensure EMP equities are included in the planning phase of exercises and 
+scheduled mission assurance related assessments. (T-1) 
+2.5.8.  Commanders of Lead Commands will: 
+2.5.8.1.  Appoint an OPR to address EMP-related issues. (T-1) 
+2.5.8.2.  Provide representation to each level of the governance process. (T-1) 
+2.5.8.3.  Identify critical systems and support equipment that must survive an EMP event. 
+(T-1) 
+2.5.8.4.  Provide a prioritized list of assigned weapons system to AFGSC through 
+AFNWC. (T-1) 
+2.5.8.5.  Program for less-than-threat-level EMP assessments, HM/HS, and mitigations, as 
+applicable. (T-1) 
+2.5.9.  Commander, Air Force Global Strike Command (AFGSC) will:  
+2.5.9.1.  Serve as the DAF EMP Testing Oversight Coordinator. 
+2.5.9.2.  Advocates for resources to conduct modeling, analysis, and Low Level 
+Continuous Wave (LLCW) testing in support of the Lead Command. 
+2.5.9.3.  Track and provide oversight of lower than threat system-level (e.g., LLCW for 
+aircraft) testing in support of supporting the asset-owner Lead Command. 
+2.5.9.4.  Submit planning and programming options on funding and manpower for all Air 
+Force threat-level EMP testing for existing systems, and new systems, once fielded, in 
+accordance with the Air Force EMP Test Plan and EMP Test Priority List (ETPL). 
+2.5.9.5.  Establish, and along with AF/A10, co-chair the DAF SEWG through 
+AFGSC/A3/6.  See paragraph 3.3  Through the SEWG: 
+2.5.9.5.1.  Collect from each MAJCOM and /FLDCOM annual reports on the status of 
+compliance of critical systems and facilities to EMP requirements, risk-acceptance 
+decisions and associated mitigation actions, EMP testing activities, and resourcing 
+resource concerns. 
+2.5.9.5.2.  Provide to AF/A10, SF/COO, MAJCOMs, FLDCOMs, AFNWC, and other 
+organizations, the annual priority lists on EMP testing and mitigation actions, to inform 
+and guide potential resourcing actions. 
+DAFI10-2601  11 JANUARY 2022 
+13 
+2.5.9.5.3.  The AFGSC/A3/6 provides the authority to proceed with Threat Level 
+testing of existing systems and risk-acceptance decisions. 
+2.5.9.5.4.  Annual DAF-level EMP reports are the responsibility of the SEWG in 
+support of the DAF, or other governance bodies, as required. 
+2.5.10.  Commander, Air Force Materiel Command (AFMC) will: 
+2.5.10.1.  Provide a senior leader (O-6/GS-15) and action officer to participate in the 
+SEWG.  See paragraph 3.3 AFIMSC, AFNWC, Air Force Research Laboratory (AFRL), 
+and Air Force Life Cycle Management Center (AFLCMC) will serve as advisors to 
+Headquarters (HQ) AFMC, but do not have voting privileges in the SEWG. 
+2.5.10.2.  Establish the USAF EMP Effects Project Management Office (EEPMO).  AFMC 
+will develop a plan and advocate to resource a PMO office to manage the EMP program 
+(implementation completion not to exceed 10 years). Initially, upon the completion of the 
+standup, the EEPMO will be responsible for advocacy, oversight of mission requirements 
+prioritization, policy and guidance, and resourcing processes and procedures.  Final scope 
+of the program oversight will be developed with support from AFGSC, AF/A10 and 
+subordinate centers where applicable. 
+2.5.10.3.  Identify resource shortfalls for threat-level EMP test requirements annually to 
+AFGSC. Report program-level EMP requirements and capabilities to AFGSC to inform 
+EMP requirements, development, verification and sustainment. 
+2.5.10.4.  Through AFNWC: 
+2.5.10.4.1.  Develop the DAF-wide EMP Test Plan and ETPL through coordination 
+with USSF, AFGSC, Lead Commands, PEOs, and program offices, as applicable. (T-
+1) 
+2.5.10.4.2.  Execute the DAF EMP Test Plan, including organic USAF test capability 
+development, asset and test facility availability coordination, data review and analysis, 
+problem identification, and risk analysis, and participates in mitigation strategy 
+development. (T-1) 
+2.5.10.4.3.  Partner with mission owners for EMP survivability sustainment and testing 
+of critical facilities and infrastructure to ensure EMP survivability requirements are 
+met. (T-1) Additionally: 
+2.5.10.4.3.1.  Ensure new or emerging EMP survivability requirements on existing 
+critical facilities and infrastructure are met. (T-1) 
+2.5.10.4.3.2.  Document test results in appropriate mission assurance (MA) 
+repositories. (T-1) 
+2.5.10.4.3.3.  Identify 
+resource 
+requirements, 
+shortfalls, 
+and 
+associated 
+prioritization to the owning MAJCOM or FLDCOM for budget, programming, or 
+resource action. (T-1) 
+2.5.10.5.  Through AFIMSC: 
+14 
+DAFI10-2601  11 JANUARY 2022 
+2.5.10.5.1.  Develop and execute facilities and infrastructure threat-level EMP testing 
+and analysis in accordance with a test priority plan coordinated with all applicable 
+MAJCOMs and FLDCOMs. (T-1) 
+2.5.10.5.2.  Upon request, provide the relevant expertise to the SEWG on system and 
+facility EMP survivability requirements to assist MAJCOMs and FLDCOMs in priority 
+assessment of shortfall mitigation. (T-1) 
+2.5.10.5.3.  Partner with mission owners for EMP survivability sustainment and testing 
+of critical facilities and infrastructure to ensure EMP survivability requirements are 
+met. (T-1)  Identify resource shortfalls and associated prioritization to the owning 
+MAJCOM, owning FLDCOM, or AFGSC for resource requirements exceeding 
+programmatic funding. (T-1) 
+2.5.10.5.4.  Provide a standardized approach to EMP survivability and testing 
+compliance in accordance with MIL-STDs (See Attachment 1) for all applicable 
+USAF facilities. (T-0) 
+2.5.10.5.5.  In coordination with AFGSC, review and coordinate on EMP hardening 
+and protective measures for all infrastructure and facility infrastructure assets. (T-1) 
+2.5.10.5.6.  Advocate and execute real property requirements for NC3 facilities to 
+mitigate against EMP protection, sustainment, and maintenance shortfalls. (T-0) 
+2.5.10.5.7.  Implement an EMP prioritization model developed by AF/A10, based on 
+COOP, in coordination with AF/A10, AF/A5, and respective mission owners. (T-1)  
+AFIMSC will incorporate the AF/A10 models critical to the mission success for all 
+facility and infrastructure either in whole or part as a part of their mission assurance. 
+(T-1) 
+2.5.10.5.8.  Assist AFMC in the establishment and shaping of the EEPMO. (T-1) 
+2.5.10.6.  Through AFLCMC: 
+2.5.10.6.1.  Resource Program Offices to execute the program’s EMP Test Plan, 
+including asset and test facility availability coordination, data review and analysis, 
+problem identification, and risk analysis, and participates in mitigation strategy 
+development. (T-1) 
+2.5.10.6.2.  Provide weapons system expertise to the EMPWG on system and facility 
+EMP survivability requirements to assist MAJCOMs and FLDCOMs in priority 
+assessment of shortfall mitigation. (T-1) 
+2.5.10.6.3.  Partner with mission owners for EMP survivability sustainment and testing 
+of critical facilities and infrastructure to ensure EMP survivability requirements are 
+met. (T-1)  Identify resource shortfalls and associated prioritization to the owning 
+MAJCOM, owning FLDCOM, or AFGSC for resource requirements exceeding 
+programmatic funding. (T-1) 
+ 
+ 
+DAFI10-2601  11 JANUARY 2022 
+15 
+2.5.10.6.4.  Coordinate with Lead Commands as applicable to fuse operational mission 
+impact and warfighting characterizations resulting from EMP test and assessment 
+results on existing systems to create a priority list of required mitigation or corrective 
+actions. (T-1)  Provide inputs to the SEWG’s annual plan to AF/A10, SF/COO, 
+MAJCOMs, and FLDCOMs for potential resourcing action. (T-1) 
+2.5.10.6.5.  Identify resource shortfalls for threat-level EMP test requirements annually 
+to AFGSC. (T-1) 
+2.5.11.  Commander, Air Education and Training Command (AETC) will: 
+2.5.11.1.  Ensure a continuum of learning regarding EMP survivability requirements, 
+methods, testing and evaluation, research, and acquisition throughout all levels of nuclear 
+training and Professional Military Education (PME).  EMP training and education should 
+be multidisciplinary and sustained in order to establish a strong culture of EMP 
+maintenance procedure compliance. 
+2.5.11.2.  Integrate education on EMP survivability and maintenance measures into 
+applicable nuclear training courses, Electromagnetic Spectrum Operations training, initial 
+skills courses, and PME, as required to create a force knowledgeable of EMP effects on 
+mission readiness and continuation of operations following a human-made or naturally 
+occurring EMP event. 
+2.5.11.3.  Establish on-time, on-demand training and education resources to raise 
+awareness of EMP effects and mitigation techniques, and maintain skills and knowledge 
+necessary to survive an EMP event. 
+2.5.11.4.  Develop and advocate for EMP events into USAF war games, exercises, and 
+training scenarios. 
+2.5.12.  Commander, Space Operations Command (SpOC) will: 
+2.5.12.1.  Maintain oversight of all Integrated Tactical Warning/Attack Assessment 
+(ITW/AA) and NC3 assets within the USSF portfolio. 
+2.5.12.2.  Provide 
+oversight 
+and 
+management 
+of 
+the 
+ITW/AA 
+and 
+NC3 
+Survivable/Endurable (S/E) Program. The S/E Program provides management, guidance, 
+policy, assessment, operations priorities, advocacy, and instruction for ITW/AA and NC3 
+assets within its portfolio.  Program oversight will be developed with support from AFGSC, 
+AF/A10, SF/S10, and subordinate centers where applicable. 
+2.5.12.3.  Coordinate with AF/A10, SF/S10N, FLDCOM, and Lead Commands as 
+applicable to fuse operational mission impact and warfighting characterizations resulting 
+from EMP test and assessment results on existing systems to create a priority list of 
+required mitigation or corrective actions.  Provide an annual report from USSTRATCOM 
+Integrated Nuclear Survivable/Endurable Report, Defense Threat Reduction Agency 
+Balanced Survivability Report (BSA), and other S/E assessments through SF/S10 for 
+action. Assess mission impact of reported EMP survivability shortfalls and/or test non-
+compliance.  Resource or assume risk in a prioritized and informed manner. 
+2.5.12.4.  Ensure EMP-related threats and hazards are integrated into installation all hazard 
+threat assessment, and provide risk response mitigation measures to vulnerabilities found 
+during assessments. 
+16 
+DAFI10-2601  11 JANUARY 2022 
+2.5.12.5.  Provide prioritized list and report of critical infrastructure assets to SF/S10 and 
+SEWG. 
+2.5.12.6.  Ensure EMP equities are included in the planning phase of exercises and 
+scheduled mission assurance related assessments. 
+2.5.12.7.  Advocate for EMP events into Space Force war games, exercises, and training 
+scenarios. 
+2.5.12.8.  Address EMP-related issues and participate in the EMP governance process 
+through the SEWG. Provide a senior leader (O-6/GS-15) and action officer to participate 
+in the SEWG.  See paragraph 3.3. 
+2.5.13.  Commander, Space Systems Command (SSC) will: 
+2.5.13.1.  Provide an action officer and senior leader (O-6/GS-15) to participate in the 
+SEWG. 
+2.5.13.2.  Establish the USSF EMP Effects Project Management Office (EEPMO).  Space 
+Systems Command will develop a plan and advocate to resource a PMO office to manage 
+the EMP projects, contracts for sustainment, and upgrades (implementation completion not 
+to exceed 10 years).  Initially, upon the completion of the standup, the EEPMO will be 
+responsible for advocacy and sustainment resourcing processes and procedures.  Final 
+scope of the program oversight will be developed with support from AF/A10, AFGSC, 
+SF/S10N, DCG-O/S10N, and subordinate centers where applicable. 
+2.5.13.3.  Coordinate with AFGSC, SF/S10N, DCG-O/S10N, and Lead Commands as 
+applicable to fuse operational mission impact and warfighting characterizations resulting 
+from EMP test and assessment results on existing systems to create a priority list of 
+required mitigation or corrective actions established by DCG-O/S10N.  Provide an annual 
+report 
+through 
+the 
+SEWG 
+to 
+AF/A10, 
+SF/COO, 
+DCG-O/S10N, 
+and 
+MAJCOMs/FLDCOMs for potential resourcing action. 
+2.5.14.  Commander, Space Training and Readiness Command (STARCOM) will: 
+2.5.14.1.  Ensure a continuum of learning regarding EMP survivability requirements, 
+methods, testing and evaluation, research, and acquisition throughout all levels of nuclear 
+training and PME. EMP training and education should be multidisciplinary and sustained 
+in order to establish a strong culture of EMP maintenance procedure compliance. 
+2.5.14.2.  Integrate education on EMP survivability and maintenance measures into 
+applicable nuclear training courses, initial skills courses, and PME, as required to create a 
+force knowledgeable of EMP effects on mission readiness and continuation of operations 
+following an EMP event. 
+2.5.14.3.  Establish on-time, on-demand training and education resources to raise 
+awareness of EMP effects and mitigation techniques, and maintain skills and knowledge 
+necessary to survive an EMP event. 
+2.5.14.4.  Develop and advocate for EMP events into USSF war games, exercises, and 
+training scenarios. 
+2.5.14.5.  Advocate and execute real property requirements for space-related C4I facilities 
+to mitigate against EMP protection, sustainment, and maintenance shortfalls. 
+DAFI10-2601  11 JANUARY 2022 
+17 
+Chapter 3 
+GOVERNANCE 
+3.1.  Overview.  The DAF EMP Program governance process is designed to inform 
+MAJCOM/FLDCOM and DAF senior leaders of the health and status of EMP survivability and 
+test compliance of DAF systems, equipment, facilities, and infrastructure. Key to this governance 
+process is the transparency of current status and risk acceptance at the appropriate decision-making 
+level. 
+3.2.  Air Force Governance Process.  Unless otherwise outlined in this DAFI, the approval 
+process will adhere to the DAF Governance Process. 
+3.2.1.  All issues requiring higher level authorities will be brought before the Strategic 
+Integration Forum (SIF) comprised of two- and three-star members. (T-1) 
+3.2.2.  The SIF will determine if the issue should be brought before the Executive Leadership 
+Team, chaired by the Under Secretary of the Air Force and the Vice Chief of Staff of the Air 
+Force, for further discussion and or approval. 
+3.3.  DAF Senior EMP Working Group (SEWG).  The purpose of the SEWG is to be the DAF-
+wide governing body on EMP survivability and testing. Established by a charter, the SEWG will 
+conduct recurring meetings to share information, resolve issues, and track status and health of 
+EMP survivability and test compliance of DAF systems and facilities. 
+3.3.1.  The SEWG is comprised of an O-6/GS-15 from each member organization and will 
+meet as needed to review, endorse, or approve charters, EMP policy and guidance, and other 
+products created by the EWG. 
+3.3.1.1.  AFGSC/A3/6 Deputy Director and AF/A10 will co-chair the SEWG. 
+AFGSC/A3/6 EMP Division Chief will serve as the SEWG Secretariat. 
+3.3.1.2.  Member organizations include, but are not limited to, HAF offices, MAJCOMs, 
+and FLDCOMs. 
+3.3.2.  To support the SEWG, AFGSC/A3/6 will designate a representative to chair the EWG. 
+The EWG will be an AO-level forum to assist Lead MAJCOMs or FLDCOMs (systems) or 
+owning MAJCOMs/FLDCOMs (facilities) in determining the impact and mitigation measures 
+for identified EMP survivability shortfalls. 
+3.3.3.  The SEWG is ultimately answerable to the AFGSC/CC as the single accountable officer 
+to the CSAF, CSO, and SecAF for all aspects of the DAF nuclear mission (specifically those 
+forces in support of USSTRATCOM; however, DAF support to other combatant commands is 
+also addressed by this body). 
+3.3.4.  SEWG Members may request SEWG assistance in prioritizing EMP Survivability 
+Program resource requirements and test priorities, to include establishing a standard 
+methodology for each. 
+ 
+ 
+18 
+DAFI10-2601  11 JANUARY 2022 
+3.3.5.  Issues may be forwarded or updates provided as requested by other nuclear enterprise 
+activities such as the National Leadership Command Capability (NLCC)/NC3 Group.  The 
+NC3 System is part of the larger NLCC, which encompasses the three broad mission areas of: 
+(1) Presidential and senior leader communications; (2) NC3; and (3) continuity of operations 
+and continuity of government communications. (Sources: PPD-35 and DoDI S-3730.01, 
+Nuclear Command, Control, and Communications (NC3) System, see sources for the full, 
+classified definition) 
+3.3.6.  The SEWG, supported by the AFGSC staff, is responsible for producing the annual 
+DAF EMP Survivability and Surveillance Program Report identifying the health and status of 
+EMP survivability for major systems and facilities, EMP test compliance, and a prioritization 
+of shortfall mitigation requirements.  
+3.4.  Reporting.  Specific procedures will be developed in the SEWG Charter. Deficiencies found 
+effecting NC3 will be reported in DRRS. 
+3.5.  Mission Assurance Working Group (MAWG) and Mission Assurance Coordination 
+Board (MACB).  In addition to the SEWG, AFGSC can also utilize the MAWG and MACB 
+forums. The MAWG is useful to integrate and synchronize efforts across multiple Mission 
+Assurance-Related Programs/Activities. The MACB process focuses on establishing DoD MA 
+priorities, managing risk to Defense Critical Assets and Task Critical Assets, prioritized strategic 
+missions, and addressing evolving threats. 
+DAFI10-2601  11 JANUARY 2022 
+19 
+Chapter 4 
+REQUIREMENTS 
+4.1.  Overview. 
+4.1.1.  EMP survivability is one of many hardness considerations for new systems and 
+facilities.  Requirements development processes must consider if protection is required for the 
+individual system itself or if that system will have dependencies on other features to provide 
+the protection required.  When EMP protection is dependent on the environment, such as where 
+a mission is housed (e.g., in a facility), that protection is intended to assure both protection 
+from the pulse EMP and planning for recovery of commercial power and other support 
+services. 
+4.1.2.  Nuclear Command, Control, and Communication systems, and the facilities they are 
+housed in, require EMP hardening to the limits required for mission recovery as established by 
+USSTRATCOM. (T-0) USSTRATCOM tests NC3 facilities and supporting infrastructure on 
+a recurring basis.  Other C4I sites requiring EMP protection are addressed in CJCSI 3222.01C, 
+Chairman of the Joint Chiefs of Staff Requirements for Electromagnetic Pulse Protection of 
+Critical Nodes and Systems, and CJCSI 6810.01C, Critical Nuclear Command, Control, and 
+Communications Systems and Facilities. (T-0) There is no clear, structured process to define 
+EMP hardening requirements for other support elements. 
+4.1.3.  Mission owners must clearly articulate what parts of their mission must be protected, 
+and must articulate the speed of recovery after an event (e.g., when commercial power will be 
+restored) so that an appropriate protection system can be configured and managed. 
+4.1.4.  Fielded systems, equipment facilities, and infrastructure require resourced HM/HS 
+activities to sustain originally designed EMP survivability capabilities. EMP survivability 
+testing at the component, system, and threat levels provides feedback on mission assurance to 
+operate in and through an EMP environment. Integrate the Resilience 5Rs (Robustness, 
+Redundancy, Resourcefulness, Recovery and Responsiveness) as a vital part of EMP interface 
+with Critical Mission Resilience. 
+4.1.5.  The SPO will sustain and test required system EMP survivability capabilities, with 
+assistance from Lead Commands, and provide necessary test assets (such as aircraft) for 
+sustainment. (T-0) 
+4.1.6.  Owning MAJCOMs, FLDCOMs, and Mission Owners will sustain EMP hardening of 
+existing facilities and supporting infrastructure, and mission owners will sustain EMP 
+hardening of mission systems and equipment when housed inside a facility. (T-0) 
+4.2.  Weapon Systems and Aircraft.  For the purposes of this DAFI, systems include weapon 
+systems, communications and cyber systems, command and control systems, sensors, munitions, 
+planning systems, and any other non-facility capability that requires EMP hardening for mission 
+assurance. Additionally, Intercontinental Ballistic Missiles are a Weapon System of Interest and 
+will not be addressed here.   
+4.2.1.  New Systems. For the purposes of this DAFI, new systems are systems as defined above 
+that have not reached Critical Design Review. The requirements definition process such as 
+JCIDS establishes the need for EMP hardening for new systems. 
+20 
+DAFI10-2601  11 JANUARY 2022 
+4.2.2.  Existing Systems. For the purposes of this DAFI, existing systems are systems as 
+defined above that have reached Full Operating Capability. 
+4.2.3.  Testing. 
+4.2.3.1.  The SPO will direct development of a test and evaluation strategy to verify new 
+system performance in accordance with system requirements documents and applicable 
+MIL-STDs (See Attachment 1) as well as developing HM/HS requirements to ensure 
+fielded system hardness is sustained. (T-0) 
+4.2.3.2.  Test non-compliance (i.e., not testing) must be waived or a CSAF Plan of Actions 
+and Milestones approved by the Lead MAJCOM or the organization establishing the EMP 
+survivability requirement. (T-0) 
+4.2.3.3.  The SPO, in coordination with AFGSC, plans and programs threat-level testing in 
+accordance with the ETPL, coordinated and developed by AFNWC. (T-1) 
+4.2.3.4.  The applicable system program will resource all other testing. (T-1) 
+4.2.3.5.  The Lead Command is responsible for any new EMP hardening or EMP test 
+requirements on existing systems. (T-1) 
+4.2.4.  Unmitigated EMP Survivability Shortfalls. 
+4.2.4.1.  The SPO will correct any unmitigated shortfall in meeting an established EMP 
+survivability requirement or request a waiver from the Lead Command. (T-2) 
+4.2.4.2.  The Lead Command will accept risk for any unmitigated shortfall, not the SPO. 
+4.2.5.  The Lead Command will fund all EMP testing to include threat-level testing through 
+the acquisition process. (T-2) 
+4.2.6.  The SPO will coordinate threat-level testing requirements and results of testing and 
+evaluation with AFGSC and AFNWC, as required for new systems (as defined in paragraph 
+4.2). (T-2) Once the system is designated as Critical Design Review, roles and responsibilities 
+for existing systems in paragraph 4.2 apply. 
+4.2.7.  Lead Command will report waived EMP survivability compliance or EMP test 
+compliance to AFGSC and AFNWC for inclusion in the annual DAF EMP Survivability 
+Program Report. (T-2) 
+4.2.8.  If requirements documents do not clearly articulate EMP survivability requirements for 
+fielded systems/facilities, the Lead Command will identify the needed requirements to the SPO 
+and will work to ensure necessary upgrades/modifications are made to existing 
+systems/facilities unless waived or until replaced by newer capabilities incorporating the 
+required hardness parameters. (T-0) 
+4.3.  Facilities and Infrastructure. 
+4.3.1.  For the purposes of this DAFI, EMP protection for mission-critical systems, where 
+protection is provided by the environment they are housed in, will be provided by a layered 
+system of protection based on the required speed of recovery after an event. 
+DAFI10-2601  11 JANUARY 2022 
+21 
+4.3.1.1.  For those systems that must be up and running within a few minutes or up to 1 day 
+after an event, it is the responsibility of the mission owner to assure those protections are 
+in place (e.g., shielding, backup power, etc.). (T-1) 
+4.3.1.2.  Recovery of commercial power and other support services that will take longer 
+than a day to recover, as well as facility and infrastructure requirements that may be 
+required beyond those required for recovery within 1 day, shall be incorporated into new 
+facilities, including initial construction or an existing facility undergoing substantial 
+refurbishment (military construction (MILCON) or Facilities Sustainment, Restoration, 
+and Modernization level of effort). (T-1) 
+4.3.2.  For the purposes of this DAFI, existing facilities are defined as those facilities with 
+initial construction complete and the facility has been accepted by the installation.  Minor 
+facility refurbishment or renovation (below MILCON levels of effort) are accommodated 
+within the existing facility definition; however, the owning MAJCOM or FLDCOM will 
+resource any modifications or changes in EMP hardening features to their installation. (T-1) 
+4.3.3.  The requirement for EMP hardening in support of the NC3 mission set is established by 
+USSTRATCOM and the owning Combatant Command, MAJCOM, or /FLDCOM for all other 
+mission sets.  If the requirement impacts construction activities, those requirements must be 
+established as early as possible during the design phase of construction. EMP hardening 
+noncompliance must be waived by USSTRATCOM, the owning MAJCOM or owning 
+FLDCOM, as applicable. (T-0) 
+4.3.4.  Mission owners will integrate EMP survivability requirements into their mission set 
+equipment requirements, and will determine enduring testing requirements to maintain 
+certification. (T-0) Coordinate with AFNWC for technical expertise, as required. 
+4.3.5.  AFIMSC, in partnership with the owning MAJCOM or FLDCOM, will integrate EMP 
+survivability requirements in accordance with MIL-STDs into environment designs when 
+required and determine enduring testing requirements to maintain certification for real property 
+elements. (T-0)  Coordinate with AFNWC for technical expertise, as required. 
+4.3.6.  Coordinate with USSTRATCOM for real property listed facility and infrastructure 
+testing and certification of NC3 facilities. For other real property listed facilities, AFIMSC, in 
+partnership with the owning MAJCOM or FLDCOM execute necessary EMP survivability 
+testing and certification. EMP test non-compliance must be waived by USSTRATCOM, the 
+owning MAJCOM, or the owning/FLDCOM, as required. (T-0) 
+4.3.7.  The owning MAJCOM or FLDCOM is responsible for resourcing critical facilities and 
+infrastructure to meet EMP survivability and testing requirements. 
+4.3.8.  The owning MAJCOM or FLDCOM will report waived EMP survivability compliance 
+or EMP test compliance to AFGSC and AFNWC for inclusion in the annual DAF EMP 
+survivability and Surveillance Program report. (T-0) 
+4.3.9.  An existing facility being repurposed as a NC3 facility will comply with 
+USSTRATCOM hardening requirements and will be subjected to USSTRATCOM testing. (T-
+0)  Otherwise, the owning MAJCOM or FLDCOM is the authority for defining EMP 
+survivability requirements.  EMP hardening noncompliance must be waived by 
+USSTRATCOM, the owning MAJCOM, or owning FLDCOM, as applicable. (T-0) 
+22 
+DAFI10-2601  11 JANUARY 2022 
+4.3.10.  Owning MAJCOM and /FLDCOMs are responsible for: 
+4.3.10.1.  Sustaining existing EMP survivability requirements for real property listed 
+components and ensuring necessary periodic testing is accomplished. (T-1) 
+4.3.10.2.  Resourcing the mitigation of shortfalls caused by new MIL-STDs (See 
+Attachment 1) or new EMP hardening requirements. (T-1) 
+4.3.11.  The owning MAJCOM or FLDCOM is responsible for resourcing all desired facility 
+modifications that impact EMP survivability and testing requirements, and for resourcing the 
+mitigation of any EMP survivability shortfalls caused by facility modifications. (T-1) 
+4.3.11.1.  The Base Civil Engineer organization must be notified of planned facility 
+modifications to the determine potential impact to complete and usable functionality of real 
+property and partner with owning MAJCOM or FLDCOM responsible for EMP 
+survivability and testing. (T-1) 
+4.3.11.2.  The owning MAJCOM or FLDCOM collaborates with the Program office on 
+facility requirements. (T-1) 
+4.3.12.  The owning MAJCOM or FLDCOM is responsible for coordinating third party 
+interaction with AFIMSC such as non-DAF tenants and host nations.  For non-DAF owned 
+facilities, the using MAJCOM or FLDCOM is responsible for coordinating third-party facility 
+owner interaction with AFIMSC. 
+4.4.  Types of Tests. 
+4.4.1.  Injection Test -direct drive. This is the preferred approach for fixed ground based 
+facilities and is used most extensively for tests of hardened C3 facilities, missile silos, etc.  This 
+simulates the effects of the currents and/or voltages induced by high-altitude EMP (HEMP) on 
+cables by artificially injecting current pulses onto/into equipment cables and wires. Injection 
+tests are particularly well suited to the evaluation of interior equipment that is not directly 
+exposed to HEMP and amenable to in situ testing. 
+4.4.2.  Free-Field Test: Also known as threat-level field illumination is the preferred approach 
+for mobile systems unattached to long line networks (e.g., aircraft, ships, and transportable C3I 
+vans).  This is used to expose equipment, such as missiles, aircraft, vehicles, and radar antenna, 
+to HEMP. Most free-field HEMP testing is performed with either a broadcast simulator or a 
+bounded wave EMP simulator. 
+DAFI10-2601  11 JANUARY 2022 
+23 
+Chapter 5 
+RISK DECISION 
+5.1.  Waiver Process. 
+5.1.1.  A SPO seeking either an EMP requirement or testing waiver will submit a memorandum 
+to the EWG thirty (30) days prior to submitting the waiver to the Lead MAJCOM/FLDCOM 
+that includes justification for the waiver and the SEWG risk assessment. (T-1) 
+5.1.2.  Lead Command will either approve or deny the waiver request and then send AFGSC a 
+memorandum, courtesy copy to the SEWG and requesting SPO, stating the risk that is being 
+accepted by waiving the requirement. (T-1) 
+5.1.3.  Lead Command will annually review waivers granted for longer than one (1) year and 
+validate whether or not they are still required. If the waiver is extended, the Lead Command 
+will the send a memorandum to AFGSC, courtesy copy the SEWG and the requesting SPO, 
+stating the risk that is being accepted if it is extended. (T-1) 
+5.2.  Waiver Cancellation Process.  The SPO will submit a memorandum to the SEWG stating 
+which waiver/waivers it intends to cancel along with documentation showing that the waived 
+requirement(s) are now being met. (T-1) 
+5.3.  A temporary waiver is granted to.  AFMC until the EEPMO and resourcing are executed 
+NTE 10 years or upon completion of the EEPMO establishment and resourcing whichever is 
+sooner. (T-1) 
+ 
+JAMES C. DAWKINS, JR.,  
+Lt General, USAF 
+DCS, Strategic Deterrence & Nuclear Integration 
+24 
+DAFI10-2601  11 JANUARY 2022 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+DoDD 3020.40, Mission Assurance, 29 November 2016 
+DoDD 8260.05, Support for Strategic Analysis (SSA), 7 July 2011 
+DoDI 3150.09, The Chemical, Biological, Radiological, and Nuclear (CBRN) Survivability 
+Policy, 8 April 2015 
+DoDM 3020.45-V1, Defense Critical Infrastructure Program (DCIP) Management, 24 October 
+2008 
+MIL-STD-188-125-1, High-Altitude Electromagnetic Pulse (HEMP) Protection for Ground-
+Based C4I Facilities Performing Critical, Time-Urgent Missions: Part 1 - Fixed Facilities, 26 
+July 2021 
+MIL-STD-188-125-2, High-Altitude Electromagnetic Pulse (HEMP) Protection for Ground-
+Based C4I Facilities Performing Critical, Time-Urgent Missions: Part 2 - Transportable 
+Facilities, 7 April 2005 
+MIL-STD-461G, Requirements for the Control of Electromagnetic Interference Characteristics 
+of Subsystems and Equipment, 11 December 2015 
+MIL-STD-464D, Electromagnetic Environmental Effects Requirements for Systems, 24 
+December 2020 
+MIL-STD-1916, DOD Preferred Methods for Acceptance of Product, 5 June 2014 
+MIL-STD-1766C (USAF), Nuclear Hardness and Survivability Program Requirements ICBM 
+Weapon Systems, 17 January 2017 
+MIL-STD-2169D, High-Altitude Electromagnetic Pulse (HEMP) Environment (U) (SECRET), 
+30 March 2021 
+MIL-STD-3023, High-Altitude Electromagnetic Pulse (HEMP) Protection for Military Aircraft, 
+21 November 2011 
+MIL-HDBK-423, High-Altitude Electromagnetic Pulse (HEMP) Protection for Fixed and 
+Transportable Ground-Based C4I Facilities, Volume I Fixed Facilities, 19 November 2019 
+MIL-HDBK-516C, Airworthiness Certification Criteria, 7 October 2019 
+MIL-HDBK-2069, Aircraft Survivability, 30 August 2019 
+CJCSI 3222.01C, Chairman of the Joint Chiefs of Staff Requirements for Electromagnetic Pulse 
+Protection of Critical Nodes and Systems, 8 August 2019 
+CJCSI 6810.01C, Critical Nuclear Command, Control, and Communications Systems and 
+Facilities, 29 August 2019 
+AFPD 10-6, Capability Requirements Development, 6 November 2013 
+AFPD 10-9, Lead Command/Lead Agent Designation and Responsibilities for United States Air 
+Force Weapon Systems, Non-Weapon Systems, and Activities, 25 May 2021 
+DAFI10-2601  11 JANUARY 2022 
+25 
+AFPD 10-24, Mission Assurance, 5 November 2019 
+AFPD 10-26, Countering Weapons of Mass Destruction, 20 August 2019 
+AFPD 13-5, Air Force Nuclear Mission, 17 July 2018 
+AFPD 90-2, Inspector General-The Inspection System, 13 July 2018 
+AFI 10-201, Force Readiness Reporting, 22 December 2020 
+AFI 10-208, Continuity of Operations (COOP) Program, 10 October 2018 
+AFI 10-601, Operational Capability Requirements Development and Validation, 27 April 2021 
+AFI 10-2607, Air Force Chemical, Biological, Radiological, and Nuclear Survivability, 9 August 
+2018 
+AFI 13-500, Air Force Nuclear Mission Responsibilities, 14 November 2018  
+AFI 33-322, Records Management and Information Governance Program, 23 March 2020 
+AFI 63-101_20-101, Integrated Lifecycle Management, 30 June 2020 
+AFI 99-103, Capabilities-Based Test and Evaluation, 18 November 2019 
+Prescribed Forms 
+None 
+Adopted Forms 
+Air Force Form 847, 
+Abbreviations and Acronyms 
+AETC—Air Education and Training Command 
+AF/A2/6—Deputy Chief of Staff for Intelligence, Surveillance, Reconnaissance, and Cyber 
+Effects Operations 
+AF/A3—Deputy Chief of Staff for Operations 
+AF/A4—Deputy Chief of Staff for Logistics, Engineering, and Force Protection 
+AF/A5/7—Deputy Chief of Staff for Strategy, Integration, and Requirements 
+AF/A8—Deputy Chief of Staff for Plans and Programs 
+AF/A9—Director of Studies and Assessments 
+AF/A10—Deputy Chief of Staff for Strategic Deterrence and Nuclear Integration 
+AFGSC—Air Force Global Strike Command 
+AFI—Air Force Instruction 
+AFIMSC—Air Force Installation and Mission Support Center 
+AFLCMC—Air Force Life Cycle Management Center 
+AFMC—Air Force Materiel Command 
+26 
+DAFI10-2601  11 JANUARY 2022 
+AFNWC—Air Force Nuclear Weapons Center 
+AFPD—Air Force Policy Directive 
+AF/RE—Chief of Air Force Reserve 
+AFRC—Air Force Reserve Command 
+AFRL—Air Force Research Laboratory 
+AF/SE—Air Force Chief of Safety 
+AF/SG—Air Force Surgeon General 
+AF/TE—United States Air Force Director of Test and Evaluation 
+ANG—Air National Guard 
+BSA—Defense Threat Reduction Agency Balanced Survivability Report 
+CBRN—Chemical Biological Radiological Nuclear 
+C4I—Command, Control, Communications, Computers, and Intelligence 
+CJCSI—Chairman of the Joint Chiefs of Staff Instruction 
+COO—Chief Operations Officer (also SF/S2/3/4/6/7/10) 
+COOP—Continuity of Operations 
+CSAF—Chief of Staff of the Air Force 
+CSO—Chief of Space Operations 
+CSRO—Chief Strategy and Resourcing Officer (also SF/S5/8) 
+CTIO—Chief Technology and Innovation Officer 
+DAF—Department of the Air Force 
+DAFI—Department of the Air Force Instruction 
+DCI—Defense Critical Infrastructure 
+DCIP—Defense Critical Infrastructure Program 
+DoD—Department of Defense 
+DoDD—Department of Defense Directive 
+DoDI—Department of Defense Instruction 
+DRRS—Defense Readiness Reporting System 
+EEPMO—Electromagnetic Pulse Effects Program Management Office 
+EMP—Electromagnetic Pulse 
+ETPL—Electromagnetic Pulse Test Priority List 
+EWG—Electromagnetic Pulse Working Group 
+FLDCOM—Field command 
+DAFI10-2601  11 JANUARY 2022 
+27 
+HAF—Headquarters Air Force 
+HEMP—High Altitude Electromagnetic Pulse 
+HM/HS—Hardness Maintenance & Hardness Surveillance 
+ITW/AA—Integrated Tactical Warning/Attack Assessment 
+JCIDS—Joint Capabilities Integration and Development System 
+LLCW—Low Level Continuous Wave 
+MAJCOM—Major command 
+MACB—Mission Assurance Coordination Board 
+MAWG—Mission Assurance Working Group 
+MILCON—Military Construction 
+MIL-STD—Military Standard 
+NC3—Nuclear Command, Control, & Communications 
+NLCC—National Leadership Command Capabilities 
+OPR—Office of Primary Responsibility 
+PEO—Program Executive Office 
+PME—Professional Military Education 
+PMO—Program Management Office 
+SAF/AQ—Assistant Secretary of the Air Force for Acquisition, Technology, and Logistics 
+SAF/FM—Assistant Secretary of the Air Force for Financial Management and Comptroller 
+SAF/IA—Deputy Under Secretary of the Air Force for International Affairs 
+SAF/IE—Assistant Secretary of the Air Force for Installations, Environment, and Energy 
+SAF/IG—The Air Force Inspector General 
+SAF/SQ—Assistant Secretary of the Air Force for Space Acquisition and Integration 
+S/E—Survivable/Endurable 
+SecAF—Secretary of the Air Force 
+SEWG—Senior Electromagnetic Pulse Working Group 
+SIF—Strategic Integration Forum 
+SPO—System Program Office 
+SpOC—Space Operations Command 
+SSC—Space Systems Command 
+STARCOM—Space Training and Readiness Command 
+USAF—United States Air Force 
+28 
+DAFI10-2601  11 JANUARY 2022 
+USSF—United States Space Force 
+USSF/TE—United States Space Force Director of Test and Evaluation  
+USSTRATCOM—United States Strategic Command 
+Terms 
+Countering Electromagnetic Pulse—Actions to mitigate the effects of an electromagnetic pulse 
+on mission critical systems and infrastructure in compliance with EMP survivability requirements, 
+either through hardening those systems and infrastructure or rapid reconstitution of affected 
+equipment. 
+Electromagnetic Pulse—A strong burst of electromagnetic radiation caused by a nuclear 
+explosion, energy weapon, or by natural phenomenon (i.e., solar-induced space weather), that may 
+couple with electrical or electronic systems to produce damaging current and voltage surges. Also 
+called EMP. 
+Electromagnetic Pulse Hardness—The extent that a system or facility is protected, tested, and 
+certified to operate in or through a HEMP event in accordance with applicable Military Standards 
+(MIL-STD).  Many concepts of EMP survivability may be achieved through other requirements, 
+such as the MIL-STD-461G, Electromagnetic Compatibility, among others. 
+Electromagnetic Pulse Hardness Requirement—The identification of specific systems or 
+facilities requiring EMP survivability.  USSTRATCOM identifies NC3 facilities in accordance 
+with CJCSI 3221.01.  JCIDS identifies EMP survivability requirements for new systems.  Owning 
+MAJCOM or FLDCOM, in conjunction with AFIMSC, identifies non-NC3 facility EMP 
+survivability requirements.  Lead MAJCOM or FLDCOM, in conjunction with the supporting 
+system program office (SPO), identifies EMP survivability requirements for existing systems. (T-
+0)  
+Facilities and Infrastructure EMP Requirement—For the purposes of this DAFI, the 
+identification process for mission-critical systems will be accomplished in accordance with AFI 
+10-2607. 
+Hardness Maintenance/Hardness Surveillance (HM/HS)—With respect to EMP survivability, 
+HM/HS is the collected activities to sustain designed EMP survivability protection through 
+sustainment, and to verify EMP survivability performance through periodic assessment. 
+Hardness Maintenance—The collected activities by the using command and depot-level repair 
+facilities to maintain and preserve the hardness of fielded weapon systems throughout operational 
+life, especially with respect to spares procurement and repair actions as well as activities such as 
+corrosion prevention, EMP shielding maintenance, and configuration control in accordance with 
+Technical Orders (TO) and associated maintenance guidance. 
+Hardness Surveillance—Periodic hardness tests conducted at the component, sub-system, 
+system, and threat-level environments with the purpose of identifying on a timely manner any 
+degradations that reduce the EMP survivability of fielded systems and facilities.  Such 
+degradations may be due to aging, environmental effects, continuous operation, maintenance 
+actions, or system modifications. 
+ 
+ 
+DAFI10-2601  11 JANUARY 2022 
+29 
+Lead Command—The command that serves as the using command’s interface with the Program 
+Manager for a system as prescribed by AFPD 10-9, Lead Command/Lead Agent Designation and 
+Responsibilities for United States Air Force Weapon Systems, Non-Weapon Systems, and 
+Activities. Lead Command designation is not exclusive to MAJCOMs and FLDCOMs; Field 
+Operating Agencies and Direct Reporting Units may also be designated. 
+Mission Owner—The DoD Component having responsibility for the execution of all or part of a 
+mission assigned by statute or the Secretary of Defense. (DoDD 3020.40) 
+Mission Critical System—A system whose operational effectiveness and operational suitability 
+are essential to successful mission completion or to aggregate residual combat capability. If this 
+system fails, the mission likely cannot be completed. Such a system can be an auxiliary or 
+supporting system, as well as a primary mission system. (DoDI 3150.09) 
+Risk Acceptance—The informed decision by the Lead MAJCOM/FLDCOM for assigned 
+systems, or owning MAJCOM/FLDCOM for facilities, to intentionally forego EMP HM/HS on 
+new or existing capabilities. 
+System EMP Requirement—For the purposes of this DAFI, a system includes weapon systems, 
+communications and cyber systems, command and control systems, sensors, munitions, planning 
+systems, and any other non-facility capability that requires EMP hardening in accordance with 
+MIL-STDs for mission assurance. 
+Testing—For the purposes of this DAFI, testing includes pre- and post-testing and analysis 
+processes. 
+ 

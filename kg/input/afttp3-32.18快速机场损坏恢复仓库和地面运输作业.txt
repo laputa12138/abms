@@ -1,0 +1,1661 @@
+DRAFT — NOT FOR IMPLEMENTATION OR COMPLIANCE 
+RAPID AIRFIELD DAMAGE RECOVERY 
+WAREHOUSE AND GROUND 
+TRANSPORTATION OPERATIONS
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         AIR FORCE TACTICS, TECHNIQUES, 
+AND PROCEDURES 3-32.18 
+9 February 2024 
+DEPARTMENT OF THE AIR FORCE 
+This page intentionally left blank. 
+BY ORDER OF THE 
+ AIR FORCE TACTICS, TECHNIQUES, 
+SECRETARY OF THE AIR FORCE 
+        AND PROCEDURES 3-32.18 
+9 February 2024 
+Tactical Doctrine 
+RAPID AIRFIELD DAMAGE RECOVERY WAREHOUSE 
+ AND GROUND TRANSPORTATION OPERATIONS 
+ACCESSIBILITY: Publications and forms are available on the e-Publishing 
+website at www.e-Publishing.af.mil for downloading or ordering. 
+RELEASABILITY: There are no releasability restrictions on this publication. 
+OPR: AF/A4CX  
+Supersedes: AFTTP 3-32.18, 
+        Certified by: AF/A4C 
+ 
+20 September 2018 
+ Pages: 35 
+This publication supports Air Force Instruction (AFI) 10-210, Prime Base Engineer 
+Emergency Force (BEEF) Program, AFI 24-301, Ground Transportation, AFPAM 
+10-219, Volume 4, Airfield Damage Repair Operations, and Air Force Doctrine
+Publication 3-34, Engineer Operations. It provides tactics, techniques and
+procedures (TTP) for Rapid Airfield Damage Recovery (RADR) warehouse and
+ground transportation operations. This publication applies to the Regular Air
+Force, the Air Force Reserve, and the Air National Guard. This publication does
+not apply to the United States Space Force. Refer recommended changes and
+questions about this publication to the Office of Primary Responsibility using the
+Department of the Air Force (DAF) Form 847, Recommendation for Change of
+Publication; route DAF Forms 847 from the field through the appropriate
+functional chain of command and Major Command publications/ forms managers. 
+Ensure all records generated as a result of processes prescribed in this publication
+adhere to AFI 33-322, Records Management and Information Governance
+Program and are disposed in accordance with the Air Force Records Disposition
+Schedule, which is located in the Air Force Records Information Management
+System.
+2 
+AFTTP3-32.18, 9 FEBRUARY 2024 
+SUMMARY OF CHANGES 
+This document has been revised and should be completely reviewed. In addition 
+to updating terminology and references, the publication title was changed to 
+include ground transportation operations; Table 1.2 was changed to show primary 
+and suitable substitute manning positions for the Warehouse Team; and “ground 
+transportation operations” was incorporated throughout to address an important 
+element of RADR operations. 
+APPLICATION: This publication is intended for civil engineer and ground 
+transportation personnel performing RADR warehouse and ground transportation 
+operations. This document is authoritative but not directive and does not replace 
+mandatory compliance requirements in applicable Air Force Instructions (AFI) or 
+other directive publications. If the TTPs found in this publication conflict with 
+other nondirective publications, contact the AFCEC Reachback Center or CE 
+Dash (with contact info) for resolution. Contact the Reachback Center at 850-283-
+6995, Toll Free at 888-232-3721, Defense Switched Network 523-6995, or Email 
+at AFCEC.RBC@us.af.mil. Attachment 2 provides links to engineer Reachback 
+resources and other useful sites. 
+SCOPE: This publication provides TTPs to perform RADR warehouse and 
+ground transportation operations after an attack. It provides resource requirement 
+information for such things as manpower, vehicle, equipment, repair material, and 
+preparatory actions such as actions taken prior to an attack and before 
+commencing warehouse activities. Finally, the publication describes warehouse 
+setup and ground transportation delivery operations during airfield recovery 
+operations. 
+Chapter 1—INTRODUCTION 
+5 
+1.1. Overview ................................................................................... 5 
+Figure 1.1. Overview Rapid Airfield Damage Recovery (RADR) Process 5 
+AFTTP3-32.18, 9 FEBRUARY 2024 
+3 
+1.2. Warehouse and Ground Transportation Operations (GTO) 
+ Unit Type Codes (UTCs) ......................................................... 6 
+Table 1.1. RADR Warehouse and GTO UTCs .......................................... 6 
+1.3. Manning .................................................................................... 7 
+Table 1.2. Warehouse Team Manning and Responsibilities ...................... 7 
+1.4. General Safety Considerations .................................................. 9 
+1.5. Published Guidance ................................................................ 10 
+1.6. Personal Protective Equipment (PPE) ..................................... 11 
+Table 1.3. Listing of Typical PPE by Operation ...................................... 11 
+Chapter 2—CONCRETE REPAIRS 
+13 
+2.1. Overview ................................................................................. 13 
+2.2. Process .................................................................................... 13 
+Figure 2.1. Example Warehouse Pre-Attack Layout ................................. 14 
+Figure 2.2. Example Warehouse Post-Attack Layout ............................... 14 
+Figure 2.3. Expedient Ramp used to Unload Repair Material Containers 15 
+Table 2.1. Flowable-Fill Consumption Rate under Rapid-setting Concrete 
+Cap .......................................................................................... 15 
+Table 2.2. Rapid-setting Super Sack Consumption Rate for 10-Inch 
+Cap .......................................................................................... 16 
+Figure 2.4. Material Transfer Sequence .................................................... 17 
+Figure 2.5. Super Sack Placement ............................................................. 18 
+Figure 2.6. Empty Trailer Dropped for Load 4 ......................................... 19 
+Chapter 3—ASPHALT REPAIRS 
+21 
+3.1. Overview ................................................................................. 21 
+AFTTP3-32.18, 9 FEBRUARY 2024 
+4 
+3.2. Process .................................................................................... 21 
+Table 3.1. Flowable-Fill Consumption Rate under Asphalt Cap ............. 21 
+Table 3.2. Asphalt Consumption Rate for 4-Inch Cap (Tons) ................. 23 
+Table 3.3. Asphalt Production and Consumption Rates ........................... 24 
+Chapter 4—CRUSHED STONE REPAIRS 
+26 
+4.1. Crushed Stone Transport ......................................................... 26 
+4.2. Asphalt Cap ............................................................................. 26 
+4.3. Full Crushed Stone Repairs ..................................................... 26 
+Chapter 5—EXPEDITIOUS SPALL REPAIR CREW RESUPPLY 
+27 
+5.1. Overview ................................................................................. 27 
+5.2. Manning .................................................................................. 27 
+5.3. Vehicles .................................................................................. 27 
+Attachment 1—GLOSSARY OF REFERENCES AND 
+SUPPORTING INFORMATION 
+29 
+Attachment 2—ENGINEER REACH-BACK AND OTHER 
+USEFUL LINKS 
+33 
+AFTTP3-32.18, 9 FEBRUARY 2024
+5 
+Chapter 1 
+INTRODUCTION 
+1.1. Overview. Rapidly recovering an airfield requires the efficient storage, 
+movement, and delivery of repair materials; this role falls to warehouse and 
+ground transportation operations (GTO) personnel. They ensure repair materials 
+are accounted for, ready for use, and delivered in a timely manner. 
+1.1.1. In regard to RADR, the term warehouse refers to a process (Figure 1.1), 
+not necessarily a physical warehouse facility. The warehouse is an area for staging 
+and storing repair materials needed to recover the airfield. A fully prepared hard 
+surface is not required for the warehouse location. At a minimum, a semi-prepared 
+surface is required for staging repair materials. The warehouse forklift should not 
+be used when the warehouse location is not located on a fully prepared hard 
+surface. Telehandler forklifts will only be used on unprepared surfaces. If an all-
+terrain forklift is available, it can be used on any surface. 
+Figure 1.1. Overview Rapid Airfield Damage Recovery (RADR) Process. 
+AFTTP3-32.18, 9 FEBRUARY 2024 
+6 
+1.1.2. Flowable-fill and rapid-setting concrete super sacks are delivered to War 
+Reserve Materiel storage in containers that may be double-stacked and centrally 
+stored during peacetime. When threat of attack increases, containers are unstacked 
+(if applicable), dispersed to locations within a seven-minute, one-way travel time 
+to the airfield operating surfaces. Seven-minute travel time is calculated by the 
+mode of transportation used to transport flowable-fill and rapid-setting concrete 
+super sacks from the storage location to the operational location. Containers will 
+be placed in such a way as not to interfere with airfield geometric criteria outlined 
+in Unified Facilities Criteria 3-260-01, Airfield and Heliport Planning and 
+Design. Spare containers may be arranged to provide hardening and splinter 
+protection where required. Stockpiles of traditional repair materials such as 
+crushed stone should also be located within seven minutes travel time to the 
+airfield operating surfaces. 
+1.2. Warehouse and Ground Transportation Operations (GTO) Unit Type 
+Codes (UTCs). Table 1.1 identifies vehicle and material UTCs required for 
+warehouse and GTO. 
+Table 1.1. RADR Warehouse and GTO UTCs. 
+Quantity Per Capability 
+4FWWH-Warehouse Vehicles 
+Small 
+Med. Large Very Lg 
+Semi-Tractor Truck 
+1 
+3 
+5 
+7 
+Warehouse Forklift, 6K 
+1 
+3 
+5 
+7 
+Telehandler Forklift, 10K 
+2 
+6 
+10 
+14 
+Trailer, 20-T, 38’ Flatbed 
+3 
+9 
+15 
+21 
+Dump Truck, 10-T 
+3 
+9 
+15 
+21 
+4FWCM-Concrete Cap Materials 
+Small 
+Med. Large Very Lg 
+*Flowable-Fill Super Sacks
+60 
+180 
+300 
+420 
+*Rapid-setting Concrete Super Sacks
+48 
+144 
+240 
+336 
+Citric Acid (50-lb bags) 
+2 
+6 
+10 
+14 
+4FWAB-ADR Asphalt Repair Material 
+Small 
+Med. Large Very Lg 
+*Flowable-Fill Super Sacks
+84 
+252 
+420 
+588 
+*Pelletized Asphalt Super Sacks
+48 
+144 
+240 
+336 
+AFTTP3-32.18, 9 FEBRUARY 2024 
+7 
+Quantity Per Capability 
+4FWCW-Cold Weather Concrete 
+Additive 
+Small 
+Med. Large Very Lg 
+Aluminum Sulfate (50-lb Buckets) 
+70 
+210 
+350 
+490 
+*Super sacks are delivered in 20-foot International Standards Organization
+(ISO) shipping container, 12 per container.
+1.3. Manning. There is no dedicated personnel UTC for the warehouse and 
+ground transportation team; the eight personnel are presented through existing 
+Prime BEEF or Ground Transportation personnel UTCs. Table 1.2 lists 
+warehouse and GTO manning and their responsibilities. 
+Table 1.2. Warehouse Team Manning and Responsibilities. 
+Position Primary 
+Suitable Subs1 
+Veh./Equip./Tools 
+Lead 
+32E 
+3E671-Senior Non-
+Commissioned Officer 
+None 
+Operator 2T1X1 
+3E1X1, 3E6X1 
+Telehandler 
+Operator 2T1X1 
+3E1X1, 3E6X1 
+Telehandler 
+Operator2 2T1X1 
+3E1X1, 3E6X1 
+Warehouse forklift 
+Operator 2T1X1 
+3E2X1, 3E3X1 
+Tractor-trailer (three 20-
+ton flatbed trailers) 
+Operator 3E0X2 
+3E2X1, 3E3X1, 3E4X1, 
+3E4X3 
+Dump Truck 
+Operator 3E0X2 
+3E2X1, 3E3X1, 3E4X1, 
+3E4X3 
+Dump Truck 
+Operator 3E0X2 
+3E2X1, 3E3X1, 3E4X1, 
+3E4X3 
+Dump Truck 
+1. Any augmentee qualified on specific equipment can be an operator.
+2. If warehouse operations conducted on unimproved surface, the warehouse
+forklift operator may not be required unless there is an all-terrain forklift is
+available. The exception is a 2T1X1 Amn may not be used to support other
+airfield damage repair team requirements.
+AFTTP3-32.18, 9 FEBRUARY 2024 
+8 
+1.3.1. The Warehouse Lead supervises warehouse operations and manages 
+delivery of repair materials (i.e., flowable-fill, crushed stone, hot-mixed asphalt, 
+rapid-setting concrete, water, and spall repair material) to the crater and spall 
+repair teams and keeps track of materiel usage within each warehouse. The 
+Warehouse Lead reports status to the Logistics Chief, who typically resides in the 
+Civil Engineer Unit Control Center. 
+1.3.1.1. The initial material requirements are generated from damage inputs 
+processed through the Geospatial Expeditionary Planning Tool. The Upheaval 
+Marking Crew reports dimensions of surveyed repair patches to the supporting 
+Logistics Chief (located in the Civil Engineering Unit Control Center) for 
+comparison to initial Geospatial Expeditionary Planning Tool estimates to verify 
+sufficient stocks of repair material are available. After excavation, the spotter 
+reports actual repair volume (width x length x depth) to the supporting Warehouse 
+Lead to determine if sufficient repair material is on hand; material procurement, 
+production, substitution, and delivery must be adjusted accordingly when 
+different than the initial Geospatial Expeditionary Planning Tool estimates. 
+1.3.1.2. Warehouse Leads report on-hand material quantities, usage, and shortages 
+to the Logistics Chief to provide an overall material status so actions may be 
+initiated to share, acquire, or produce additional materiel as required. Also, the 
+Warehouse Leads inform the Logistics Chief when warehouse members have 
+completed their primary tasks and are available to assist elsewhere. 
+1.3.1.3. Typically, one warehouse supports one Repair Team performing either 
+concrete or asphalt capped repairs. When supporting asphalt repairs, the 
+Warehouse-1 Lead manages asphalt production and delivery. They determine the 
+number of plants required to meet the required tonnage, when to start production 
+to ensure asphalt is ready for placement, but not stockpiled too long to limit 
+cooling, and when to begin plant shutdown. He or she also manages the delivery 
+schedules from the batch plants to appropriate repair zone. 
+1.3.1.4. Warehouse teams support batch plants by hauling hot-mixed asphalt with 
+dump trucks from the batch plants to the appropriate repair zones. They may also 
+AFTTP3-32.18, 9 FEBRUARY 2024 
+9 
+haul asphalt (reclaimed asphalt pavement or virgin asphalt blocks referred to as 
+“cookies”) from storage to the batch plant if stockpiles are not collocated with the 
+batch plant. 
+1.3.1.5. The team’s dump truck operators may not always be fully employed 
+during the recovery process, especially when asphalt repairs are not required. In 
+these instances, dump truck operators may be directed to assist activities such as 
+hauling trash (such as empty super sacks) and/or foreign object debris from the 
+airfield. They may also assist with refilling water trailers. 
+1.3.1.6. Once RADR operations are complete and the warehouse team’s 
+assistance is not needed elsewhere, the team should begin reconstitution duties 
+such as refilling warehouse containers with repair material, refueling vehicles, and 
+replenishing stockpiles. Specifically, complete the following actions: 
+•
+Replenish repair materials (i.e., super sacks, crushed stone, etc.)
+•
+Load repair materials on trailers and dump trucks if more attacks are
+anticipated.
+•
+Perform vehicle post operational inspections and take appropriate action
+for any discrepancies found.
+•
+Refuel vehicles.
+•
+Clean and prep dump truck beds for asphalt loads.
+•
+Return vehicles to their duty locations or staging areas.
+1.4. General Safety Considerations. In standard and nonstandard construction 
+practices, there are multiple known risk factors in performing Rapid Airfield 
+Damage Recovery (RADR) duties. It is vital to protect workers from hazards such 
+as high-pressure subsystems and components, harmful solvents and adhesives, 
+and silica dust.  
+1.4.1. The risks and safety factors involved with materials and operations should 
+be identified prior and briefed to all personnel that could be involved. 
+AFTTP3-32.18, 9 FEBRUARY 2024 
+10 
+1.4.2. A key responsibility of supervisors is to ensure personnel have and wear 
+the necessary PPE and individual protective equipment (IPE) for the working 
+environment. Unsafe field operations while conducting RADR could cause long 
+and short-term injuries, health issues, disable equipment, and negatively affect the 
+mission. 
+1.5. Published Guidance. Review applicable safety standards and technical 
+manuals for additional safety requirements before performing RADR operations. 
+Guidance can be found in the following subparagraphs. Compliance with 
+Technical Order warnings and cautions is essential. 
+1.5.1. DAFMAN 91-203, Air Force Occupational Safety, Fire, and Health 
+Standards, lists PPE for selected CE activities. Although Technical Orders and 
+other job-related publications address proper wear and use of PPE and IPE, 
+workers ultimately have the responsibility to properly use, inspect, and care for 
+protective equipment assigned. 
+1.5.2. Consult AFI 48-137, Respiratory Protection Program for training 
+documentation procedures and inhalation guidance. Refer to 29 CFR 1910.133, 
+Eye and Face Protection, AFI 48-127, Occupational Noise and Hearing 
+Conservation Program, 29 CFR 1910.134, Respiratory Protection and 29 CFR 
+1926.1153, Respirable Crystalline Silica Standard for Construction for additional 
+guidance and information. 
+1.5.3. Handlers and users of any polymeric repair material should ensure a Safety 
+Data Sheet from the manufacturer always accompanies the material. Before use, 
+review and follow the Safety Data Sheet guidance for personal protective 
+equipment and other safety precautions. 
+1.5.4. In accordance with Air Force Medical Readiness Agency Bioenvironmental 
+Engineering (AFMRA/SG3PB) Policy Memo dated 30 Sept. 2020, “Commanders 
+have the discretion to elect the use of the Joint Service General Purpose Mask 
+M50 series protective mask as approved by Bioenvironmental Engineering or a 
+AFTTP3-32.18, 9 FEBRUARY 2024 
+11 
+National Institute for Occupational Safety and Health certified respirator for 
+“Training events Only”. PPE is identified in Table 1.3. 
+1.6. Personal Protective Equipment (PPE). Supervisors should coordinate with 
+the Bioenvironmental Engineering Flight and the Wing Safety office on the PPE 
+needed to perform RADR operations. Brief safety procedures and appropriate 
+PPE before operations and verify that all PPE has been approved for the work to 
+be performed. See Table 1.3. For a list of PPE for typical RADR operations. 
+Note: Breathing crystalline silica dust is a serious health hazard. Those 
+performing duties where they may be exposed to silica dust should wear 
+appropriate PPE (including respiratory and eye protection) according to 
+Commander’s guidance. 
+Table 1.3. Listing of Typical PPE by Operation. 
+Operation or Equipment 
+Typical PPE Required 
+Dump Truck 
+Safety-toe boots 
+Gloves 
+Loader, Grader, Sweeper, 
+Backhoe, Bulldozer, Roller, 
+Paver 
+Safety-toe boots 
+Gloves 
+Eye protection (dust and bright sun) 
+Hearing protection 
+Respiratory protection* 
+Jackhammer, Pneumatic Drill 
+Respiratory protection* 
+Safety-toe boots 
+Eye protection 
+Hearing protection 
+Gloves 
+AFTTP3-32.18, 9 FEBRUARY 2024 
+12 
+Operation or Equipment 
+Typical PPE Required 
+Concrete Saw 
+Safety-toe boots 
+Eye protection 
+Hearing protection 
+Respiratory protection* 
+Gloves 
+Concrete Mixer 
+Safety-toe boots 
+Eye protection 
+Respiratory protection* 
+Hearing protection 
+Portable Power Tools 
+Eye protection 
+Hearing protection 
+Respiratory protection* 
+Paint Striping 
+Safety-toe boots 
+Eye protection 
+Hearing protection 
+Respiratory protection* 
+Gloves 
+Coveralls 
+*-N-95, P-95, and R-95 respirator or M50, as directed by 
+Commander. 
+AFTTP3-32.18, 9 FEBRUARY 2024 
+13 
+Chapter 2 
+CONCRETE REPAIRS 
+2.1. Overview. The Warehouse Team delivers 3,000-pound super sacks (~1 cubic 
+yard) of flowable-fill and rapid-setting concrete when supporting concrete repairs. 
+It may also haul crushed stone and/or choke ballast when repairs have been over-
+excavated or when flowable-fill and/or rapid-setting concrete supplies are 
+depleted. 
+2.2. Process. During pre-attack actions, enough super sacks are unloaded from 
+the shipping containers to load the three warehouse trailers. The flatbed trailers 
+are loaded with 13 super sacks, mixture additives, and a wet weather kit if needed 
+(Figure 2.1). Preferably, the remaining sacks are unloaded as needed during 
+unexploded ordnance mitigation and positioned to be ready for loading (Figure 
+2.2). 
+Note: When a telehandler forklift is not available to unload containers, connect 
+the end of two chains near the bottom of the racks and the other end of chains to 
+a prime mover (e.g., loader, truck, compact track loader) and drag them to the end 
+of the container to allow a non-extendable forklift to unload them. 
+Note: Each sack is transported from the manufacturer in a metal rack. Sacks 
+should be removed from the racks and the racks should remain at the warehouse 
+location. Do NOT deliver sacks to the airfield still in the metal racks. 
+Note: Two Inclement Weather Kit containers replace two super sacks when 
+applicable. 
+Note:  To ease removal of sacks from containers, a makeshift ramp (Figure 2.3) 
+may be constructed to assist with the forklift entering and exiting the container. 
+14 
+AFTTP3-32.18, 9 FEBRUARY 2024
+Figure 2.1. Example Warehouse Pre-Attack Layout. 
+Figure 2.2. Example Warehouse Post-Attack Layout. 
+AFTTP3-32.18, 9 FEBRUARY 2024 
+15 
+Figure 2.3. Expedient Ramp used to Unload Repair Material Containers. 
+2.2.1. Table 2.1 depicts flowable-fill consumption rate and Table 2.2 represents 
+the rapid-setting concrete consumption rate. 
+Table 2.1. Flowable-Fill Consumption Rate under Rapid-setting Concrete 
+Cap. 
+L x W
+8
+8.5
+9
+9.5
+10
+10.5
+11
+11.5
+12
+12.5
+13
+13.5
+14
+14.5
+15
+8
+2.49
+2.64
+2.80
+2.96
+3.11
+3.27
+3.42
+3.58
+3.73
+3.89
+4.04
+4.20
+4.36
+4.51
+4.67
+8.5
+2.64
+2.81
+2.98
+3.14
+3.31
+3.47
+3.64
+3.80
+3.97
+4.13
+4.30
+4.46
+4.63
+4.79
+4.96
+9
+2.80
+2.98
+3.15
+3.33
+3.50
+3.68
+3.85
+4.03
+4.20
+4.38
+4.55
+4.73
+4.90
+5.08
+5.25
+9.5
+2.96
+3.14
+3.33
+3.51
+3.69
+3.88
+4.06
+4.25
+4.43
+4.62
+4.80
+4.99
+5.17
+5.36
+5.54
+10
+3.11
+3.31
+3.50
+3.69
+3.89
+4.08
+4.28
+4.47
+4.67
+4.86
+5.06
+5.25
+5.44
+5.64
+5.83
+10.5
+3.27
+3.47
+3.68
+3.88
+4.08
+4.29
+4.49
+4.70
+4.90
+5.10
+5.31
+5.51
+5.72
+5.92
+6.13
+11
+3.42
+3.64
+3.85
+4.06
+4.28
+4.49
+4.71
+4.92
+5.13
+5.35
+5.56
+5.78
+5.99
+6.20
+6.42
+11.5
+3.58
+3.80
+4.03
+4.25
+4.47
+4.70
+4.92
+5.14
+5.37
+5.59
+5.81
+6.04
+6.26
+6.48
+6.71
+12
+3.73
+3.97
+4.20
+4.43
+4.67
+4.90
+5.13
+5.37
+5.60
+5.83
+6.07
+6.30
+6.53
+6.77
+7.00
+12.5
+3.89
+4.13
+4.38
+4.62
+4.86
+5.10
+5.35
+5.59
+5.83
+6.08
+6.32
+6.56
+6.81
+7.05
+7.29
+13
+4.04
+4.30
+4.55
+4.80
+5.06
+5.31
+5.56
+5.81
+6.07
+6.32
+6.57
+6.83
+7.08
+7.33
+7.58
+13.5
+4.20
+4.46
+4.73
+4.99
+5.25
+5.51
+5.78
+6.04
+6.30
+6.56
+6.83
+7.09
+7.35
+7.61
+7.88
+14
+4.36
+4.63
+4.90
+5.17
+5.44
+5.72
+5.99
+6.26
+6.53
+6.81
+7.08
+7.35
+7.62
+7.89
+8.17
+14.5
+4.51
+4.79
+5.08
+5.36
+5.64
+5.92
+6.20
+6.48
+6.77
+7.05
+7.33
+7.61
+7.89
+8.18
+8.46
+15
+4.67
+4.96
+5.25
+5.54
+5.83
+6.13
+6.42
+6.71
+7.00
+7.29
+7.58
+7.88
+8.17
+8.46
+8.75
+AFTTP3-32.18, 9 FEBRUARY 2024 
+16 
+Table 2.2. Rapid-setting Super Sack Consumption Rate for 10-Inch Cap. 
+2.2.2. The Geospatial Expeditionary Planning Tool report generated by the 
+Airfield Damage Assessment Team provides projected crater repair dimensions. 
+The Warehouse Lead determines if sufficient repair materials are available and 
+prepares the appropriate load plans and delivery schedules. The Repair Team 
+reports the dimensions of the repairs, including depth, after the repair excavations 
+are complete. If a warehouse lacks sufficient materials, materials may be 
+transferred from warehouses with surplus materials. 
+2.2.3. The standard load configuration is: seven flowable-fill and six rapid-setting 
+concrete sacks (Figure 2.2). Eight loads are expected for 18 repairs. The first load 
+contains only flowable-fill (and wet weather kits as needed) and travels to the 
+airfield with the initial convoy as the recovery force is mobilized. The last load 
+configuration is adjusted to meet the calculated repair material required. If actual 
+repair sizes are larger than projected repair sizes, material delivery quantities are 
+L x W
+8
+8.5
+9
+9.5
+10
+10.5
+11
+11.5
+12
+12.5
+13
+13.5
+14
+14.5
+15
+8
+2.13
+2.27
+2.40
+2.53
+2.67
+2.80
+2.93
+3.07
+3.20
+3.33
+3.47
+3.60
+3.73
+3.87
+4.00
+8.5
+2.27
+2.41
+2.55
+2.69
+2.83
+2.98
+3.12
+3.26
+3.40
+3.54
+3.68
+3.83
+3.97
+4.11
+4.25
+9
+2.40
+2.55
+2.70
+2.85
+3.00
+3.15
+3.30
+3.45
+3.60
+3.75
+3.90
+4.05
+4.20
+4.35
+4.50
+9.5
+2.53
+2.69
+2.85
+3.01
+3.17
+3.33
+3.48
+3.64
+3.80
+3.96
+4.12
+4.28
+4.43
+4.59
+4.75
+10
+2.67
+2.83
+3.00
+3.17
+3.33
+3.50
+3.67
+3.83
+4.00
+4.17
+4.33
+4.50
+4.67
+4.83
+5.00
+10.5
+2.80
+2.98
+3.15
+3.33
+3.50
+3.68
+3.85
+4.03
+4.20
+4.38
+4.55
+4.73
+4.90
+5.08
+5.25
+11
+2.93
+3.12
+3.30
+3.48
+3.67
+3.85
+4.03
+4.22
+4.40
+4.58
+4.77
+4.95
+5.13
+5.32
+5.50
+11.5
+3.07
+3.26
+3.45
+3.64
+3.83
+4.03
+4.22
+4.41
+4.60
+4.79
+4.98
+5.18
+5.37
+5.56
+5.75
+12
+3.20
+3.40
+3.60
+3.80
+4.00
+4.20
+4.40
+4.60
+4.80
+5.00
+5.20
+5.40
+5.60
+5.80
+6.00
+12.5
+3.33
+3.54
+3.75
+3.96
+4.17
+4.38
+4.58
+4.79
+5.00
+5.21
+5.42
+5.63
+5.83
+6.04
+6.25
+13
+3.47
+3.68
+3.90
+4.12
+4.33
+4.55
+4.77
+4.98
+5.20
+5.42
+5.63
+5.85
+6.07
+6.28
+6.50
+13.5
+3.60
+3.83
+4.05
+4.28
+4.50
+4.73
+4.95
+5.18
+5.40
+5.63
+5.85
+6.08
+6.30
+6.53
+6.75
+14
+3.73
+3.97
+4.20
+4.43
+4.67
+4.90
+5.13
+5.37
+5.60
+5.83
+6.07
+6.30
+6.53
+6.77
+7.00
+14.5
+3.87
+4.11
+4.35
+4.59
+4.83
+5.08
+5.32
+5.56
+5.80
+6.04
+6.28
+6.53
+6.77
+7.01
+7.25
+15
+4.00
+4.25
+4.50
+4.75
+5.00
+5.25
+5.50
+5.75
+6.00
+6.25
+6.50
+6.75
+7.00
+7.25
+7.50
+AFTTP3-32.18, 9 FEBRUARY 2024 
+17 
+adjusted accordingly. The last trailer delivered to the repair zone will be unloaded 
+as needed. Additives and wet weather kit will be included in repair material 
+deliveries as needed. See Figure 2.4 for the material transfer sequence. 
+2.2.4. Upon arrival at the warehouse area, or if sheltered at the warehouse area 
+during the attack, perform a post attack reconnaissance sweep around the 
+warehouse. Report any unexploded ordnance or damage to the Civil Engineering 
+Unit Control Center. 
+Figure 2.4. Material Transfer Sequence. 
+2.2.5. As excavation is completed on each repair, the Repair Team Lead calls in 
+the depth of the repair to the Warehouse Lead to verify the appropriate amount of 
+repair material was delivered. If necessary, adjustments are made. 
+AFTTP3-32.18, 9 FEBRUARY 2024 
+18 
+Step 1: The first material trailer (13 flowable-fill super sacks) is hauled to the 
+airfield with the repair team as they convoy to the airfield after the attack. 
+Step 2: Upon arrival at the repair zone, the operator disconnects the trailer at the 
+location selected by the Repair Team Lead. After disconnecting the trailer, the 
+driver returns to the warehouse to pick up the next load of material. Then upon 
+arrival at the repair zone, the operator disconnects the trailer at the location 
+selected by the Repair Team Lead.  
+Step 3: The warehouse telehandler operator at the repair zone unloads super sacks 
+from warehouse trailers and places them in a designated location identified by the 
+Repair Team Lead. If the next loaded trailer has not arrived at the repair zone by 
+the time the previous trailer is unloaded, the warehouse telehandler operator may 
+assist the repair team by placing the appropriate number of flowable-fill super 
+sacks, identified by the Repair Team Lead, diagonally from a repair corner 
+approximately 15 feet away (Figure 2.5). This placement leaves room for 
+pavement cutting, breaking, and excavating processes if not already complete. 
+Align super sack handles so the backfill crew telehandler forks can slide through 
+both sacks without readjusting position. 
+Figure 2.5. Super Sack Placement. 
+AFTTP3-32.18, 9 FEBRUARY 2024 
+19 
+Step 4: When the tractor-trailer operator returns to the storage location, he/she 
+immediately connects to the trailer carrying the second load and delivers it to the 
+repair zone. 
+Step 5: The tractor-trailer operator positions the loaded trailer at the next 
+identified drop location near the repair zone. After disconnecting the second 
+load, the driver connects to the empty trailer that carried the first load and returns 
+to the warehouse to pick up the third loaded trailer. 
+Step 6: As soon as the second trailer is positioned at the repair zone, the 
+telehandler operator begins unloading and staging the second load of super 
+sacks. The trailer is unloaded before load 3 arrives. 
+Step 7: When the tractor-trailer operator arrives at the warehouse, he/she 
+drops the empty trailer in a location that provides the most efficient location for 
+loading load 4 (Figure 2.6). 
+Figure 2.6. Empty Trailer Dropped for Load 4. 
+AFTTP3-32.18, 9 FEBRUARY 2024 
+20 
+Step 8: The tractor-trailer driver then connects to the third loaded trailer and 
+delivers the load to the airfield. 
+Step 9: Warehouse telehandler operator begins loading the empty trailer with load 
+4 and is finished by the time the truck returns to drop the next empty trailer. 
+Note: To save time, sacks are not typically strapped down. The tractor-trailer 
+operator should stay aware of this lack of restraint to prevent losing sacks during 
+sharp turns. 
+Step 10: This process continues until all repair materials are delivered. 
+2.2.6. If asphalt repairs are not underway, the three dump trucks are available for 
+hauling crushed stone or choke-ballast, supporting the Foreign Object Debris 
+Team to remove debris and trash (e.g., empty super sacks and pallets) from the 
+airfield as needed, or replenish water as required. 
+Note: When all super sacks (flowable-fill backfill and rapid-setting concrete 
+capping material) have been delivered and unloaded, the Warehouse telehandler 
+operator on the airfield is tasked to directly support the Repair Team where 
+needed. 
+2.2.7. The Warehouse Lead informs the RADR Officer in Charge when personnel 
+have finished their tasks and are idle so they may be loaned to other crews as 
+necessary. 
+AFTTP3-32.18, 9 FEBRUARY 2024 
+21 
+Chapter 3 
+ASPHALT REPAIRS 
+3.1. Overview. The Warehouse Team delivers flowable-fill and asphalt 
+when supporting asphalt cap repairs. Total volume of material is determined 
+by the number and size of repairs. It may also haul crushed stone and/or choke 
+ballast as needed. The flowable-fill staging and asphalt production areas may or 
+may not be collocated but should each be within seven minutes driving time 
+to the airfield operating surfaces. 
+3.2. Process. 
+3.2.1. Flowable-Fill. Three trailers are loaded with 13 super sacks of flowable-
+fill each. The first trailer travels to the airfield with the initial convoy. To 
+initially determine total loads required, see Table 3.1 for flowable-fill 
+consumption rates under an asphalt cap. 
+Table 3.1. Flowable-Fill Consumption Rate under Asphalt Cap. 
+L x W
+8
+8.5
+9
+9.5
+10
+10.5
+11
+11.5
+12
+12.5
+13
+13.5
+14
+14.5
+15
+8
+3.56
+3.78
+4.00
+4.22
+4.44
+4.67
+4.89
+5.11
+5.33
+5.56
+5.78
+6.00
+6.22
+6.44
+6.67
+8.5
+3.78
+4.01
+4.25
+4.49
+4.72
+4.96
+5.19
+5.43
+5.67
+5.90
+6.14
+6.38
+6.61
+6.85
+7.08
+9
+4.00
+4.25
+4.50
+4.75
+5.00
+5.25
+5.50
+5.75
+6.00
+6.25
+6.50
+6.75
+7.00
+7.25
+7.50
+9.5
+4.22
+4.49
+4.75
+5.01
+5.28
+5.54
+5.81
+6.07
+6.33
+6.60
+6.86
+7.13
+7.39
+7.65
+7.92
+10
+4.44
+4.72
+5.00
+5.28
+5.56
+5.83
+6.11
+6.39
+6.67
+6.94
+7.22
+7.50
+7.78
+8.06
+8.33
+10.5
+4.67
+4.96
+5.25
+5.54
+5.83
+6.13
+6.42
+6.71
+7.00
+7.29
+7.58
+7.88
+8.17
+8.46
+8.75
+11
+4.89
+5.19
+5.50
+5.81
+6.11
+6.42
+6.72
+7.03
+7.33
+7.64
+7.94
+8.25
+8.56
+8.86
+9.17
+11.5
+5.11
+5.43
+5.75
+6.07
+6.39
+6.71
+7.03
+7.35
+7.67
+7.99
+8.31
+8.63
+8.94
+9.26
+9.58
+12
+5.33
+5.67
+6.00
+6.33
+6.67
+7.00
+7.33
+7.67
+8.00
+8.33
+8.67
+9.00
+9.33
+9.67
+10.00
+12.5
+5.56
+5.90
+6.25
+6.60
+6.94
+7.29
+7.64
+7.99
+8.33
+8.68
+9.03
+9.38
+9.72
+10.07 10.42
+13
+5.78
+6.14
+6.50
+6.86
+7.22
+7.58
+7.94
+8.31
+8.67
+9.03
+9.39
+9.75
+10.11 10.47 10.83
+13.5
+6.00
+6.38
+6.75
+7.13
+7.50
+7.88
+8.25
+8.63
+9.00
+9.38
+9.75
+10.13 10.50 10.88 11.25
+14
+6.22
+6.61
+7.00
+7.39
+7.78
+8.17
+8.56
+8.94
+9.33
+9.72
+10.11 10.50 10.89 11.28 11.67
+14.5
+6.44
+6.85
+7.25
+7.65
+8.06
+8.46
+8.86
+9.26
+9.67
+10.07 10.47 10.88 11.28 11.68 12.08
+15
+6.67
+7.08
+7.50
+7.92
+8.33
+8.75
+9.17
+9.58
+10.00 10.42 10.83 11.25 11.67 12.08 12.50
+AFTTP3-32.18, 9 FEBRUARY 2024 
+22 
+Step 1: Upon arriving at the repair zone, the trailer is dropped at the location 
+identified by the Repair Team Lead. After disconnecting the trailer, the driver 
+returns to the warehouse to pick-up the next loaded trailer. 
+Step 2: The Warehouse Team telehandler operator on the airfield unloads the 
+super sacks as soon as the first trailer is positioned. The first load should be 
+unloaded before load 2 arrives. 
+Step 3: The tractor-trailer operator returns to warehouse and picks up trailer 2. 
+Step 4: The tractor-trailer operator drops trailer 2 at the next identified location 
+near the repair zone. The driver connects to the empty trailer (load 1) and returns 
+to the warehouse to pick up the third loaded trailer. 
+Step 5: The telehandler operator at the repair site begins unloading and staging 
+the second load of super sacks. This trailer should be emptied before trailer 3 
+arrives. 
+Step 6: Upon arrival at the warehouse, the tractor-trailer operator drops the empty 
+trailer in a location that provides the most efficient location for loading load 4.  
+Step 7: The tractor-trailer operator connects to the third loaded trailer and delivers 
+the load to the designated repair zone. 
+Step 8: Forklift operators at the warehouse immediately begin loading empty 
+trailer with load 4. 
+Step 9: This process continues until all repair materials are delivered. 
+Note: When all super sacks (flowable-fill backfill) have been delivered and 
+unloaded, the warehouse telehandler operator at the repair zone is tasked to 
+support the Repair Team where needed. 
+AFTTP3-32.18, 9 FEBRUARY 2024 
+23 
+Step 10: Warehouse Lead informs the RADR Officer in Charge when 
+deliveries are complete, and personnel are idle so they may be loaned to 
+other crews as necessary. 
+3.2.2. Asphalt. The Warehouse 1 Lead manages the start of asphalt 
+batching, production, hold times (trucks and stockpiles), deliveries, and reports 
+status to the Logistics Chief. Therefore, Batch Teams should keep the 
+Warehouse 1 Lead informed of their production, stockpiling process, and dump 
+truck load times; and dump truck operators should inform the Warehouse 1 
+Lead of deliveries. Table 3.2 provides the consumption rate for asphalt 
+and Table 3.3 provides the production rates for asphalt. Dump truck 
+operators stage with the Asphalt Batch Team (one batch team can support one or 
+two repair teams). Dump truck operators should spray truck beds with release 
+agent before loading asphalt in trucks. The release agent and sprayer are 
+located in the Repair Team’s RADR tool trailer. 
+Table 3.2. Asphalt Consumption Rate for 4-Inch Cap (Tons). 
+24 
+AFTTP3-32.18, 9 FEBRUARY 2024
+Table 3.3. Asphalt Production and Consumption Rates. 
+Batch 
+Plant 
+Hourly 
+Prod. 
+Rate 
+(tons)* 
+Repair 
+Team 
+Hourly 
+Consump. 
+Rates** 
+Surplus/ 
+Deficit Per 
+Hr (tons) 
+Prod. Start 
+Time 
+Min. 
+Prod. 
+Time 
+(hrs) 
+1 
+14 
+1 
+9 tons 
++ 5
+2.5 hrs after 
+release 
+(1 hr before 
+need) 
+2.57 
+1 
+14 
+2 
+18 tons 
+- 4
+1.5 hrs after 
+release 
+(2 hrs before 
+need) 
+5.15 
+2 
+28 
+3 
+27 tons 
++ 1
+2 hrs after 
+release 
+(1.5 hrs before 
+need) 
+3.85 
+3 
+42 
+5 
+45 tons 
+- 3
+1.5 hrs after 
+release 
+(2 hrs before 
+need) 
+4.28 
+4 
+56 
+7 
+63 tons 
+- 7
+0.5 hr after 
+release 
+(3 hrs before 
+need) 
+4.5 
+*One batch plant using two asphalt recyclers, each one capable of 7 tons per hr.
+**Assumes 8.5 ft x 8.5 ft x 4 inch repair @ 150 lbs/ft3 mat density.
+Step 1: The Repair Team Lead informs the Warehouse 1 Lead that pavement 
+breaking is about to commence. The Warehouse 1 Lead directs the supporting 
+batch plant to begin batching operations and loading dump trucks as asphalt is 
+produced to ensure asphalt is ready and available at the designated repair site 
+AFTTP3-32.18, 9 FEBRUARY 2024 
+25 
+when needed. The Warehouse 1 Lead is notified as each dump truck is being 
+filled. 
+Note: When all available dump trucks are loaded, stockpile additional asphalt as 
+it is produced. A rule of thumb for the maximum hold time for a stockpile, being 
+consistently added to, in temperate and dry weather conditions is three hours. 
+There is no rule of thumb for cold weather conditions; stockpiles must be 
+constantly monitored in cold weather to ensure the stockpiles are used before 
+cooling below useable temperatures. Projects are scheduled to determine more 
+definitive stockpile hold times and will be added to this publication when projects 
+are complete. 
+Step 2: The Repair Team Lead requests asphalt from the Warehouse 1 Lead as 
+the first repair’s backfill is nearing completion. The Warehouse 1 Lead directs the 
+first dump truck delivery of asphalt. 
+Step 3: Upon arrival at the repair site, asphalt is dumped directly into the repair 
+when directed. Care must be taken with a full load to prevent over-filling the 
+repair. 
+Step 4: After dumping the load, the dump truck operator returns to the asphalt 
+batch plant to be reloaded and waits for direction to deliver the next load. 
+Step 5: Warehouse Lead informs the RADR Officer in Charge when personnel 
+have finished their tasks and are idle so they may be loaned to other crews as 
+necessary. 
+Note: Only two dump trucks are required to maintain asphalt supply for one 
+Repair Team. If not needed, the third dump truck may be used to support other 
+hauling operations where needed. 
+AFTTP3-32.18, 9 FEBRUARY 2024 
+26 
+Chapter 4 
+CRUSHED STONE REPAIRS 
+4.1. Crushed Stone Transport. If crushed stone is required due to shortage of 
+flowable-fill and/or rapid-setting concrete, the dump trucks are used as needed to 
+haul crushed stone from stockpiles to the airfield. 
+4.2. Asphalt Cap. Dump trucks stockpile crushed stone at the repair zone prior 
+to the commencement of hauling asphalt. Once asphalt hauling begins, one dump 
+truck may still be used to support crushed stone backfill operations if necessary. 
+4.3. Full Crushed Stone Repairs. Dump truck operators haul crushed stone and 
+ballast rock for these repairs. In addition, if fighter aircraft are supported the 
+tractor-trailer operator delivers FOD covers to cap the crushed stone repairs. 
+Technical Order 35E2-5-1-WA-1, Crushed Stone Crater Repair and Line-of-
+Sight Profile Measurement for Rapid Runway Repair, describes crushed stone 
+repair procedures. 
+AFTTP3-32.18, 9 FEBRUARY 2024 
+27 
+Chapter 5 
+EXPEDITIOUS SPALL REPAIR CREW RESUPPLY 
+5.1. Overview. Spall repair is occurring simultaneously with crater repair. The 
+installation’s RADR capability (i.e., small, medium, large, or very large) and the 
+scope of spall damage on the Minimum Airfield Operating Surface will determine 
+how many spall repair crews will be resupplied. In addition, the spall repair crews’ 
+vehicle configuration will determine how often repair material resupply is 
+required.  
+Note: Water will be resupplied by Repair Team’s water trucks. 
+5.2. Manning. Suggest the warehouse forklift operator, with unused spall repair 
+personnel, resupply repair material for the spall repair crews. 
+5.3. Vehicles. There are no dedicated vehicles for resupplying the spall crews. 
+Crews should determine vehicles that will be used during recovery prior to 
+hostilities commencing. Some potential vehicle options are identified below. 
+5.3.1. Back-hoe. Repair materials may be loaded in a back-hoe bucket (from the 
+Base Expeditionary Airfield Resources [BEAR] vehicle set) and delivered to the 
+spall repair crews. 
+5.3.2. Front-End Loader. Repair materials may be loaded in a front-end loader 
+bucket (from a Repair Team’s Capping Crew if asphalt repairs are not required, 
+or from the BEAR vehicle set) and delivered to the spall repair crews (See 
+AFPAM 10-219V4 for complete descriptions of airfield damage repair teams). 
+5.3.3. Trencher Trailer and Tow Vehicle. Repair materials may be loaded on the 
+BEAR Trencher trailer and delivered to the spall repair crews. 
+5.3.4. Warehouse Telehandler and Warehouse Forklift. After all crater repair 
+material loads have been loaded on flatbed trailers, the telehandler and/or 
+warehouse forklift may assist with resupplying the spall repair crews. 
+AFTTP3-32.18, 9 FEBRUARY 2024 
+28 
+5.3.5. Warehouse Tractor and Trailer. After all crater repair materials have been 
+delivered to the airfield, the warehouse tractor and one trailer may assist with 
+resupplying the spall repair crews. 
+TOM D. MILLER, Lt Gen, USAF  
+DCS/Logistics, Engineering & Force Protection 
+AFTTP3-32.18, 9 FEBRUARY 2024 
+29 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+29 CFR 1910.133, Eye and Face Protection, 22 November 2023 
+29 CFR 1910.134, Respiratory Protection, 22 November 2023 
+29 CFR 1926.1153, Respirable Crystalline Silica Standard for Construction, 
+22 November 2023 
+Air Force Doctrine Publication 3-34, Engineer Operations, 6 October 2021 
+AFI 10-210, Prime Base Engineer Emergency Force (BEEF) Program, 
+ 25 October 2023 
+AFI 48-127, Occupational Noise and Hearing Conservation Program, 
+ 26 February 2016 
+AFI 48-137, Respiratory Protection Program, 12 September 2018 
+DAFMAN 91-203, Air Force Occupational Safety, Fire and Health Standards, 
+25 March 2022 
+AFI 24-301, Ground Transportation, 22 October 2019 
+AFI 33-322, Records Management and Information Governance Program, 
+28 July 2021 
+AFPAM 10-219V4, Airfield Damage Repair Operations, 28 May 2008 
+Technical Order 35E2-5-1-WA-1, Crushed Stone Crater Repair and Line-of-
+Sight Profile Measurement for Rapid Runway Repair, 27 August 2007 
+Unified Facilities Criteria 3-260-01, Airfield and Heliport Planning and Design, 
+4 February 2019 
+30 
+AFTTP3-32.18, 9 FEBRUARY 2024 
+Prescribed Forms 
+No prescribed forms are implemented in this publication. 
+Adopted Forms 
+DAF Form 847, Recommendation for Change of Publication 
+. 
+Abbreviations and Acronyms 
+AFI—Air Force Instruction 
+AFPAM—Air Force Pamphlet 
+BEAR— Base Expeditionary Airfield Resources 
+BEEF—Base Engineer Emergency Force 
+DAF—Department of the Air Force 
+DAFMAN—Department of the Air Force Manual 
+FOD—Foreign Object Debris 
+GTO—Ground Transportation Operation 
+IPE—Individual Protective Equipment 
+OPR—Office of Primary Responsibility 
+PPE—Personal Protective Equipment 
+RADR—Rapid Airfield Damage Recovery 
+TTP—Tactics, Techniques, and Procedures 
+UTC—Unit Type Code 
+Office Symbols 
+AF/A4CX— Air Force Directorate of Civil Engineers, Readiness Division 
+AFTTP3-32.18, 9 FEBRUARY 2024 
+31 
+AF/A4CXB—Air Force Directorate of Civil Engineers, Readiness Division, 
+Prime BEEF Branch 
+Terms 
+Airfield—An area prepared for the accommodation (including any buildings, in-
+stallations, and equipment), landing, and takeoff of aircraft. 
+Base Expeditionary Airfield Resources (BEAR)—These are the vital equip-
+ment and supplies necessary to beddown and support combat forces at austere 
+locations where little or no infrastructure exists. 
+Crater—The pit, depression, or cavity formed in the surface of the earth by an 
+explosion. It may range from saucer-shaped to conical, depending largely on the 
+depth of burst. 
+Debris—Material ejected from the crater including broken pavement and soil. 
+Debris is some-times usable as backfill material particularly for large crater repair, 
+but for small crater or spall repair it is generally not advisable. 
+Facility—A real property entity consisting of one or more of the following: a 
+building, a structure, a utility system, pavement, and underlying land. 
+Minimum Airfield Operating Surface—The combined requirement for airfield 
+surfaces for both runway and access routes. The Minimum Operating Strip is part 
+of this surface. 
+Minimum Operating Strip—1. A runway which meets the minimum require-
+ments for operating assigned and/or allocated aircraft types on a particular airfield 
+at maximum or combat gross weight. 2. This surface is the smallest area to be 
+repaired to launch and/or recover aircraft after an attack. Selection depends upon 
+mission requirements, taxi access, resources available, and estimated time to re-
+pair. For fighter aircraft, the typically accepted dimensions are 5,000 feet long by 
+50 feet wide. 
+AFTTP3-32.18, 9 FEBRUARY 2024 
+32 
+Mission—1. The task, together with the purpose, that clearly indicates the action 
+to be taken and the reason, therefore. 2. In common usage, especially when ap-
+plied to lower military units, a duty assigned to an individual or unit; a task. 3. 
+The dispatching of one or more aircraft to accomplish one particular task.  
+Personnel—Those individuals required in either a military or civilian capacity to 
+accomplish the assigned mission. 
+Recovery—The development, coordination, and execution of service- and site-
+restoration plans for impacted communities and the reconstitution of government 
+operations and services through individual, private-sector, nongovernmental, and 
+public assistance programs that:  identify needs and define resources; provide 
+housing and promote restoration; address long-term care and treatment of affected 
+persons; implement additional measures for community restoration; incorporate 
+mitigation measures and techniques, as feasible; evaluate the incident to identify 
+lessons learned; and develop initiatives to mitigate the effects of future incidents. 
+Runway—A defined rectangular area of an airfield, prepared for the landing and 
+takeoff of aircraft along its length. A runway is measured from the outer edge of 
+the thresholds from one end of the runway to the others. The width of the runway 
+is typically measured from the outer edge of the load-bearing pavement on one 
+side to the outer edge of the load-bearing pavement on the other side. In some 
+cases, the runway may be measured from the outside edge of the runway marking 
+line on one side to the outside edge of the marking line on the other side and any 
+remaining load bearing pavement is considered shoulder. 
+Spall—Pavement damage that does not penetrate through the pavement surface 
+to the underlying soil layers. A spall damage area could be up to 1.5 meters (5 
+feet) in diameter. 
+Support—1. The action of a force that aids, protects, complements, or sustains 
+another force in accordance with a directive requiring such action. 2. A unit that 
+helps another unit in battle. 3. An element of a command that assists, protects, or 
+supplies other forces in combat. 
+Threat—An indication of possible violence, harm, or danger. 
+33 
+AFTTP3-32.18, 9 FEBRUARY 2024
+Attachment 2 
+ENGINEER REACHBACK AND OTHER USEFUL LINKS 
+Table A2.1. Useful Organizational and Product Links. 
+Organization and Products Links 
+Air Force Civil Engineer Center (AFCEC): https://www.afcec.af.mil/ 
+CE DASH (AFCEC Technical Support Portal): 
+https://usaf.dps.mil/teams/CEDASH/scripts/homepage/home.aspx 
+CE Playbooks: https://www.ceplaybooks.com 
+AFCEC Reachback Center: contact via email at AFCEC.RBC@us.af.mil 
+DAF Publications and Forms: https://www.e-publishing.af.mil/ 
+AF Design Guides (AFDG): https://www.wbdg.org/ffc/af-afcec 
+Whole Building Design Guide (WBDG): https://www.wbdg.org/ 
+US Army Corp of Engineers Official Publications, 
+http://www.publications.usace.army.mil/Home.aspx 
+Unified Facilities Criteria (UFC): 
+https://www.wbdg.org/ffc/dod/unified-facilities-criteria-ufc 
+Unified Facilities Guide Specifications (UFGS): 
+https://www.wbdg.org/ffc/dod/unified-facilities-guide-specifications-ufgs 
+USACE Reachback Operations Center (UROC): https://uroc.usace.army.mil 
+USACE Protective Design Center: 
+https://intelshare.intelink.gov/sites/pdc/SitePages/Home.aspx 
+Army Publications and Forms: https://armypubs.army.mil/ 
+Navy Doctrine Library System: https://doctrine.navy.mil/ 
+DOD Issuances: https://www.esd.whs.mil/DD/DoD-Issuances/ 
+Joint Publications: https://jdeis.js.mil/my.policy 

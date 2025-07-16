@@ -1,0 +1,1127 @@
+BY ORDER OF THE SECRETARY OF 
+THE AIR FORCE 
+ 
+AIR FORCE MANUAL 13-116 
+13 AUGUST 2020 
+Nuclear, Space, Missile, or Command and 
+Control Operations 
+TACTICAL DATA  
+LINK PLANNING AND OPERATIONS 
+COMPLIANCE WITH THIS PUBLICATION IS MANDATORY 
+ 
+ACCESSIBILITY:  Publications and forms are available for downloading or ordering on the 
+e-Publishing website at www.e-Publishing.af.mil 
+RELEASABILITY:  There are no releasability restrictions on this publication 
+ 
+ 
+OPR: ACC/A3CJ 
+ 
+Supersedes: 
+AFI 11-261, 15 October 2012 
+Certified by: AF/A3T  
+(Maj Gen James A. Jacobson) 
+Pages: 26 
+ 
+ 
+This publication implements Air Force Policy Directive (AFPD) 13-1, Command and Control 
+Enterprise, and is consistent with Chairman of the Joint Chiefs of Staff Instruction (CJCSI) 
+6232.01, Link 16 Spectrum Deconfliction and CJCSI 6610.01, Tactical Data Link 
+Standardization and Interoperability.”  It provides guidance and procedures on Tactical Data 
+Link (TDL) training, planning, and operations throughout the Air Force.  It applies to Regular 
+Air Force, Air Force Reserve, and Air National Guard military and civilian personnel at all levels 
+who train, plan, implement, and manage Link 16 and other TDLs that operate independently or 
+integrate into multi-TDL networks.  This includes both within the United States and Possessions 
+(US&P) and in theaters of operations outside the US&P.  Ensure records generated as a result of 
+processes prescribed in this publication adhere to Air Force Instruction (AFI) 33-322, Records 
+Management and Information Governance Program, and are disposed of in accordance with the 
+Air Force Records Disposition Schedule, which is located in the Air Force Records Information 
+Management System.  Refer recommended changes and questions about this publication to the 
+Office of Primary Responsibility (OPR) using the Air Force Form 847, Recommendation for 
+Change of Publication; route Air Force Forms 847 from the field through the appropriate 
+functional 
+manager’s 
+chain 
+of 
+command 
+to 
+include 
+ACC/A3CJ, 
+acca3cj.tdlomo.allpersonnel@us.af.mil.  This publication may be supplemented at any level, 
+but all supplements must be routed to the OPR for coordination prior to certification and 
+approval.  The authorities to waive wing/unit level requirements in this publication are identified 
+with a Tier (“T-0, T-1, T-2, T-3”) number following the compliance statement.  See AFI 33-360, 
+Publications and Forms Management, for a description of the authorities associated with the Tier 
+numbers.  Submit requests for waivers through the chain of command to include ACC/A3CJ, 
+2 
+AFMAN13-116  13 AUGUST 2020 
+acca3cj.tdlomo.allpersonnel@us.af.mil, to the appropriate Tier waiver approval authority, or 
+alternately, to the requestor’s commander for non-tiered compliance items.  The use of the name 
+or mark of any specific manufacturer, commercial product, commodity, or service in this 
+publication does not imply endorsement by the Air Force. 
+SUMMARY OF CHANGES 
+This document has been substantially revised and needs to be completely reviewed.  Major 
+changes include:  Tiered Waiver Authorities Compliance Statements, refined responsibilities for 
+commanders, updates to the Wing/Unit Manager and Tactical Data Link Manager (TDLM), 
+addition of a TDL Training Chapter, updates to frequency assignment and deconfliction 
+procedures and numerous edits for accuracy/formatting. 
+ 
+Chapter 1—INTRODUCTION 
+ 
+4 
+1.1. 
+Tactical Data Link Overview. ..................................................................................  
+4 
+Chapter 2—ROLES AND RESPONSIBILITIES 
+ 
+5 
+2.1. 
+Headquarters Air Force Continuity of Operations Branch (AF/A3OA). .................  
+5 
+2.2. 
+Air Combat Command Commander (ACC/CC). .....................................................  
+5 
+2.3. 
+ACC Director of Operations (ACC/A3). .................................................................  
+5 
+2.4. 
+ACC Chief, Command and Control, Intelligence, Surveillance and 
+Reconnaissance Operations Division (ACC/A3C). .................................................  
+5 
+2.5. 
+ACC TDL Operations and Management Organization (TDLOMO) / 
+(ACC/A3CJ). ...........................................................................................................  
+5 
+2.6. 
+The Wing Commander (applicable Commander). ...................................................  
+6 
+2.7. 
+The Tactical Data Link Manager (TDLM). .............................................................  
+6 
+2.8. 
+The Wing/Unit Manager. .........................................................................................  
+7 
+Chapter 3—TACTICAL DATA LINK OPERATIONS AND MANAGEMENT 
+ORGANIZATION (TDLOMO) 
+ 
+8 
+3.1. 
+Overview. .................................................................................................................  
+8 
+3.2. 
+TDLOMO. ...............................................................................................................  
+8 
+Chapter 4—DATA LINK MANAGEMENT 
+ 
+10 
+4.1. 
+General. ....................................................................................................................  
+10 
+4.2. 
+Wing/Unit Manager. ................................................................................................  
+10 
+4.3. 
+Tactical Data Link Manager (TDLM). ....................................................................  
+12 
+AFMAN13-116  13 AUGUST 2020 
+3 
+Chapter 5—TACTICAL DATA LINK (TDL) TRAINING 
+ 
+13 
+5.1. 
+General. ....................................................................................................................  
+13 
+5.2. 
+TDL Training. ..........................................................................................................  
+13 
+Table 5.1. 
+Knowledge/Performance Standards. ........................................................................  
+14 
+Table 5.2. 
+TDL Fundamentals (Guidelines). ............................................................................  
+15 
+Table 5.3. 
+Basics and Advanced TDL Courses. .......................................................................  
+17 
+Chapter 6—REQUESTING LINK 16 NETWORK DESIGN PRODUCTS 
+ 
+19 
+6.1. 
+Network Design Requests. .......................................................................................  
+19 
+Chapter 7—LINK 16 FREQUENCY ASSIGNMENT 
+ 
+20 
+7.1. 
+Background. .............................................................................................................  
+20 
+7.2. 
+Operations in the United States and Possessions (US&P). ......................................  
+20 
+7.3. 
+Operations Outside the US&P. ................................................................................  
+20 
+Chapter 8—LINK 16 DECONFLICTION PROCEDURES 
+ 
+21 
+8.1. 
+General. ....................................................................................................................  
+21 
+8.2. 
+Link 16 Pulse Deconfliction Server (LPDS)............................................................  
+21 
+8.3. 
+Link 16 Deconfliction Coordination Procedures. ....................................................  
+21 
+8.4. 
+Stop/Cease Buzzer. ..................................................................................................  
+22 
+Attachment 1—GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+23 
+ 
+4 
+AFMAN13-116  13 AUGUST 2020 
+Chapter 1 
+INTRODUCTION 
+1.1.  Tactical Data Link Overview.  In the Joint TDL Migration Plan (JTMP), Feb 2014, the 
+Department of Defense Chief Information Officer (DoD-CIO) stated “Tactical Data Links 
+(TDLs) are the primary means of exchanging tactical information between warfighting units 
+today and shall remain so into the future.”  The primary TDL employed by the DoD is Link 16, 
+therefore this Air Force Manual (AFMAN) focuses on Link 16 planning and operations.  The 
+United States Air Force (USAF) meets DoD TDL requirements by executing interoperability, 
+management, operations and training for TDL program overview.  This manual unifies various 
+planning and operational procedures used by Air Force TDL operators.  The information within 
+this manual also prepares the USAF for interoperable exchanges of tactical data through a 
+myriad of weapons, intelligence and command and control (C2) systems.  This bridges the seam 
+between operational and tactical echelons and provides integrated, synchronized operations 
+between joint forces and allied partners. 
+AFMAN13-116  13 AUGUST 2020 
+5 
+Chapter 2 
+ROLES AND RESPONSIBILITIES 
+2.1.  Headquarters Air Force Continuity of Operations Branch (AF/A3OA).  AF/A3OA 
+shall: 
+2.1.1.  Provide policy, guidance and advocacy for TDLs employed by USAF platforms. 
+2.1.2.  Provide advocacy for TDL functional areas to include training, operations and 
+maintenance funding, and development of special experience identifiers (SEI). 
+2.2.  Air Combat Command Commander (ACC/CC). 
+2.2.1.  ACC/CC is designated as the Air Force service lead command for TDLs. 
+2.2.2.  ACC/CC serves as the Tier 1 Waiver Authority for this publication. 
+2.3.  ACC Director of Operations (ACC/A3). 
+2.3.1.  ACC/A3 is designated by ACC/CC as the organization responsible for the oversight 
+authority for TDLs. 
+2.3.2.  ACC/A3 is delegated as the operational Link 16 network design and management 
+oversight authority. 
+2.3.3.  ACC/A3 shall serve as the Tier 2 Waiver Authority for this publication. 
+2.4.  ACC Chief, Command and Control, Intelligence, Surveillance and Reconnaissance 
+Operations Division (ACC/A3C).  ACC/A3C is designated as the Air Force lead command 
+responsible for TDLs with emphasis on the Link 16 operational network design and management 
+processes. 
+2.5.  ACC 
+TDL 
+Operations 
+and 
+Management 
+Organization 
+(TDLOMO) 
+/ 
+(ACC/A3CJ).  ACC/A3CJ shall: 
+2.5.1.  Serve as the Air Force’s OPR for operational Link 16 network design and 
+management. 
+2.5.2.  Provide warfighter support to ensure effective planning and management of 
+operational Link 16. 
+2.5.3.  Provide an infrastructure to support TDLs employed on USAF weapon systems and 
+TDLs included in the JTMP. 
+2.5.4.  Manage and administer the USAF Link 16 Network Design Facility (NDF). 
+2.5.4.1.  The USAF NDF supports theater commanders’ Link 16 requirements for joint, 
+combined, and coalition operations as part of the Joint Network Design Team as defined 
+in CJCSM 3115.03 Vol III, Joint Data Network Operations:Vol III Joint Interface 
+Control Officer. 
+2.5.4.2.  Ensure Link 16 network designs are developed, validated, published, managed, 
+and maintained in accordance with USAF, joint, and coalition/combined requirements. 
+6 
+AFMAN13-116  13 AUGUST 2020 
+2.5.4.3.  Provide technical expertise/on-site support of operational plans during exercises, 
+testing and unit training in order to comply with USAF, joint, and/or coalition 
+interoperability employment, as required. 
+2.5.4.4.  Issue USAF platform initialization data loads (IDLs) directly to users through 
+via the USAF NDF master library. 
+2.5.4.5.  Coordinate with unit TDL points of contact (POC) to define requirements and 
+assist in determining an existing Link 16 network to meet Information Exchange 
+Requirements (IER).  If a suitable network does not exist the USAF NDF will formalize 
+the development of a new network design. 
+2.5.4.6.  Act as USAF lead when collaborating IERs with other design facilities (e.g., 
+joint, allied and multi-national). 
+2.5.5.  Perform as Controlling Authority for USAF Link 16, F-22A, F-35A, and Situational 
+Awareness Data Link (SADL) Tactical Users Group cryptographic keys. 
+2.5.6.  Provide web-enabled support for USAF TDL operations. 
+2.5.7.  Represent the Air Force as service lead command for TDL operational and technical 
+issues in service/joint/combined/North Atlantic Treaty Organization (NATO)/bilateral 
+forums that address TDL network management and related issues. 
+2.5.8.  Conduct Air Force Link Network Management Working Group (AFLNMWG) 
+annually, not to exceed a two year period. 
+2.5.9.  Serve as USAF Joint Multi-TDL School (JMTS) Quota Manager. 
+2.6.  The Wing Commander (applicable Commander).  Wing Commander shall: 
+2.6.1.  Appoint, in writing, a Wing/Unit Manager and/or TDLM.  Any personnel category 
+(military, civilian or contractor with government oversight) may be selected to perform these 
+duties.  A copy of the completed appointment letter(s) shall be sent to the TDLOMO for 
+accountability. (T-3). 
+2.6.2.  Ensure the Wing/Unit Manager and/or TDLM roles are accomplished. (T-3). 
+2.6.3.  Ensure Wing/Unit Manager and/or TDLM receive academic and proficiency training 
+appropriate to the TDL mission and position for which the member has been appointed.  (T-
+3). (NOTE: See Chapter 5 for training guidelines) 
+2.7.  The Tactical Data Link Manager (TDLM).  TDLM shall: 
+2.7.1.  Be responsible for networks supporting operations such as daily training, test and 
+evaluation, and experimentation.  Networks may consist of only Link 16 participants or may 
+be part of a larger multi-TDL networks. (T-3). 
+2.7.2.  Coordinate, as required, with the Wing/Unit Manager to align TDL operations with 
+unit participants. (T-3). 
+2.7.3.  Perform all the responsibilities of a Wing/Unit Manager, as required. (T-3). 
+2.7.4.  Coordinate with the appropriate Link 16 deconfliction coordinators to satisfy all 
+frequency assignment authorization restrictions. (T-0). 
+AFMAN13-116  13 AUGUST 2020 
+7 
+2.7.5.  Be in accordance with TDL fundamentals and advanced training as outlined in 
+Chapter 5. (T-3). 
+2.8.  The Wing/Unit Manager.  Wing/unit manager shall: 
+2.8.1.  Coordinate wing/unit TDL equipment requirements and network selections to meet 
+local mission requirements and act as the interface between the wing and higher-level 
+agencies, such as the Installation Spectrum Manager and TDLOMO. (T-3). 
+2.8.2.  Identify/delegate duties and responsibilities to the Unit-level Manager(s). (T-3). 
+2.8.3.  Coordinate with the Installation Spectrum Manager and/or Major Command 
+(MAJCOM) Spectrum Management Office to ensure TDL platforms/systems are operating in 
+accordance with the frequency assignment. (T-0). 
+2.8.4.  Support TDL cryptographic key functions, to include acquisition, maintenance and 
+terminal fills. (T-3). 
+2.8.5.  Maintain a local TDL network design library accessible by local operations personnel. 
+(T-3). 
+2.8.6.  Ensure exchange of information is protected in accordance with security classification 
+guidelines. (T-3). 
+2.8.7.  Develop a local continuity book in accordance with Chapter 4. (T-3). 
+8 
+AFMAN13-116  13 AUGUST 2020 
+Chapter 3 
+TACTICAL DATA LINK OPERATIONS AND MANAGEMENT ORGANIZATION 
+(TDLOMO) 
+3.1.  Overview.  The TDLOMO is manned by personnel with technical experience and expertise 
+in USAF TDL operations and cryptographic capabilities.  This is required to accurately 
+incorporate operational IERs into the development and management of TDL networks.  The 
+primary focus of the TDLOMO shall be the administration of the USAF NDF, which is the sole 
+provider of Link 16 design products and services for both peacetime training and contingency 
+operations within the Air Force.  The TDLOMO provides support services to SADL users to 
+ensure interoperability with Link 16 operations.  This office addresses other data links 
+comprising the Joint Family of Tactical Data Link Systems and emerging data links as these 
+capabilities are fielded on USAF weapon systems and are integrated into multi-TDL networks.  
+Although Link 16 centric, the TDLOMO will migrate to network design and management 
+support for other operational TDL systems employed by USAF platforms. 
+3.2.  TDLOMO.  TDLOMO has been delegated as the service lead command for operational 
+TDL and management with emphasis on Link 16.  The TDLOMO is committed to adjudicating 
+and mitigating issues with the goal of fostering interoperability and cross-domain integration 
+solutions to enhance the digital kill chain.  Additionally, TDLOMO supports existing and future 
+Air Force requirements for operational validation, publication, management and maintenance of 
+the Link 16 library of network designs. 
+3.2.1.  The USAF NDF master library includes Link 16 networks for all Air Force platforms.  
+The library is a centralized source for Network Description Documents (NDD) and 
+predefined Link 16 IDL files for selection/implementation. 
+3.2.2.  The USAF NDF, and sister services, use the Joint Network Design Aid software tool 
+to develop networks and IDLs.  The USAF NDF coordinates with Program Offices to ensure 
+platform terminal parameters are maintained/updated. 
+3.2.3.  Controlling Authorities manage crypto needs to include establishing initial 
+distribution, revalidation and/or change requirements.  Cryptographic key material will be 
+administered in accordance with AFMAN 17-1302-O, Communications Security (COMSEC) 
+Operations. (T-3). 
+3.2.4.  Joint Multi-TDL School (JMTS) Scheduling.  The TDLOMO manages all USAF 
+Multi-TDL training at the JMTS and assists in the identification, development, and planning 
+of continuing education opportunities. (NOTE: Reference Chapter 5 for detailed TDL 
+course information) 
+3.2.5.  The TDLOMO website supports communications feedback and information-sharing 
+between operational commands and units.  The website may provide the ability to 
+disseminate platform IDLs to customers and assist in unit TDL continuity book development.  
+This 
+website 
+is 
+accessible 
+through 
+https://intelshare.intelink.gov/sites/tdlomo/default.aspx. 
+ 
+ 
+AFMAN13-116  13 AUGUST 2020 
+9 
+3.2.6.  Design information for testing, contingency operations and exercises may be classified 
+or contain sensitive information.  When documentation of this type is published, it will be 
+available 
+for 
+download 
+on 
+the 
+TDLOMO 
+secure 
+website 
+at: 
+https://intelshare.intelink.sgov.gov/sites/tdlomo/default.aspx. 
+ 
+Classified 
+design 
+information shall be handled, stored, and protected in accordance with its level of 
+classification. (T-0). 
+3.2.7.  The TDLOMO may assist in the development of non-platform-specific Defense 
+Collaboration Services training sessions as requested by the field. 
+3.2.8.  The TDLOMO supports efforts to develop and evaluate Link 16 enhancements and 
+new concepts of link employment and integrate them into network architectures.  Subject 
+Matter Expert support for Air Force documents and publications are also included, but not 
+limited to, the Air Force Tactics, Techniques and Procedures 3-1 and 3-3 series. 
+3.2.9.  The AFLNMWG supports the Link 16 network management process for USAF and 
+joint environments.  The working group may include topics representative of Link 16 
+network design, management, and training processes which may be implemented by existing 
+systems, interfaces, and personnel.  The AFLNMWG may verify and validate user 
+requirements for network design and management. 
+3.2.9.1.  The TDLOMO branch chief hosts the AFLNMWG, unless delegated. (T-3). 
+3.2.9.2.  The working group may meet within a 12-18 month period; however, the 
+schedule may vary based on the needs of the TDL community.  Any participating agency 
+can request the working group to convene more often; if not feasible the duration should 
+not exceed two years. 
+3.2.9.3.  The working group discusses, researches, and assists in the resolution of issues 
+related to Link 16 network management.  Topic areas include, but are not limited to, 
+communications security (COMSEC), link 16 spectrum support, TDL network 
+management, training, Wing/Unit Manager, and link 16 enhancements. 
+3.2.9.4.  The AFLNMWG consists of TDL managers as well as other agencies (e.g., Joint 
+Interoperability Division (JID), Network Enabled Weapons System Program Office, etc.) 
+that support the network management process. 
+10 
+AFMAN13-116  13 AUGUST 2020 
+Chapter 4 
+DATA LINK MANAGEMENT 
+4.1.  General.  TDLs provide participating platforms/systems the capability of operating together 
+as an integrated force by allowing operators to share tactical information in near real-time.  
+Different levels of planning, coordination, and technical management skills are required to 
+ensure successful operations.  There are two types of commander appointed USAF TDL manager 
+positions: Wing/Unit Manager and TDLM.  Additionally, a USAF organization may have a 
+TDLM to perform operational network management functions.  This document refers to the 
+TDLM as a person fulfilling the functions outlined in Para 2.7 and does not necessarily refer to a 
+specific crew position in any mission design series.  Commanders appoint these individuals to 
+meet the mission’s required level of responsibility.  Note: As detailed in CJCSM 3115.03, and 
+CJCSM 6120.01 Joint Multi-Tactical Data Link Operating Procedures, joint operations under 
+the responsibility of a Joint Force Commander are conducted in accordance with an Operation 
+Plan/Operation Order.  These multi-TDL network operations fall under the management of a 
+Joint Interface Control Officer (JICO) managing a Joint Interface Control Cell (JICC).  
+Individuals manning the JICCs are normally provided by service C2 facilities and are trained and 
+qualified as Interface Control Officers (ICO), Interface Control Technicians, or equivalent 
+(platform) duty position through their USAF/joint platform’s (unit specific) training program.  
+Although TDL training in C2 and Non C2 facilities are not governed by this manual, Chapter 5 
+provides guidance for training in data link management core functions. 
+4.1.1.  Wing/Unit Manager appointment letter template can be found on the TDLOMO 
+website https://intelshare.intelink.gov/sites/tdlomo/default.aspx. 
+4.1.2.  The TDLOMO website contains tools to be used as a basis for continuing education 
+programs for the Wing/Unit Managers and TDLMs. 
+4.1.3.  Units that do not possess radio frequency (RF) link 16 capability (e.g., platforms, 
+terminals) but still represent a distinct presence (e.g., direct or indirect Precise Participant 
+Location Identification, TDL connectivity) within the TDL interface are required to establish 
+a Wing/Unit Manager. (T-3).  Training requirements at a minimum should include an 
+understanding of the capabilities and interoperability requirements of their specific system or 
+platform and how it impacts the overall TDL architecture. 
+4.2.  Wing/Unit Manager.  The Wing/Unit Manager performs as the liaison between wing TDL 
+participants and other (internal/external) elements of the operational and testing infrastructure. 
+Note:  As needed these duties may be assigned or delegated to any level of an organization or 
+TDLM. 
+4.2.1.  Wing/Unit Managers shall possess TDL training, outlined in Chapter 5 for pre-
+execution planning and employment requirements for their organization TDL platforms and 
+systems to include mission planning, IERs collection criteria, and spectrum deconfliction for 
+their specific weapon systems/equipment. (T-2).  The Wing/Unit Manager will plan and 
+coordinate operations for the TDL(s) for which the member is appointed. (T-2). 
+ 
+ 
+AFMAN13-116  13 AUGUST 2020 
+11 
+4.2.2.  The Wing/Unit Manager acts as the network manager for TDL operations by 
+providing the appropriate information required to operate in the TDL network (e.g., 
+instructions/data from the Operations Tasking Link [OPTASKLINK] message) to 
+participants as required.  Requirements for networks will be determined and identified to 
+other USAF agencies tasked with providing network support. (T-2). 
+4.2.3.  For operations, training and testing events, the Wing/Unit Manager should review the 
+OPTASKLINK before coordinating with JICO, TDLM, or the USAF NDF.  The review is 
+used to determine which TDL networks will be utilized (either existing, modified or new) 
+based on operational requirements. (T-2). 
+4.2.4.  Effective TDL planning requires managers to have access to a standard set of 
+references to support TDL operations.  Resources include a library of reference documents, a 
+continuity book, and access to the internet. 
+4.2.4.1.  The TDLOMO website (under the “Wing Unit Manager (Smart Book)” tab) 
+contains applicable references, a Smart Book template, and an outline of the minimum 
+topics to be established and tracked in the continuity book. 
+4.2.4.2.  An additional resource for personnel planning TDL operations is to contact 
+ACC, Tactical Data Links Enterprise Division (ACC/A5J).  This division compiles the 
+Air Force Tactical Data Link System Capabilities and Limitations repository.  The 
+repository provides system TDL information, operational impacts and workarounds for 
+interoperability issues.  This will help facilitate successful TDL mission planning and 
+execution. 
+4.2.4.3.  As applicable, the Wing/Unit Manager will consolidate a central library that 
+identifies reference material for subordinate units. (T-3). 
+4.2.5.  When organizations are participating in TDL activity managed by another unit, JICO, 
+or nation (e.g., deployed or Temporary Duty [TDY] location), the Wing/Unit Manager will 
+coordinate to ensure TDL requirements are met. (T-2). 
+4.2.6.  TDL spectrum and deconfliction applies to direct RF link 16 participants only.  
+Radiation of RF link 16 is prohibited unless properly scheduled and deconflicted.  For units 
+operating with a RF link 16 terminal on the direct interface.  For more guidance on this topic 
+see Chapter 7 and Chapter 8. 
+4.2.7.  Wing/Unit Managers shall consult the appropriate Link 16 Controlling Authority for 
+the utilization plans and order the cryptographic key(s) indicated/chosen for TDLs being 
+operated. (T-0). 
+4.2.7.1.  Cryptographic keys are ordered via Unit COMSEC Responsible Officer and/or 
+the Wing/Base COMSEC office. 
+4.2.7.2.  The Wing/Unit Manager will decide which cryptographic keys to use for testing, 
+local training, and wing exercises. (T-2).  For large-scale multi-wing exercises/real-world 
+operations, refer to the appropriate OPTASKLINK message for the appropriate TDL 
+cryptographic key(s).  If the wing possesses Network Enabled Weapons, the Wing/Unit 
+Manager will ensure the required weapon key material is available and distributed to the 
+appropriate users. (T-1). 
+12 
+AFMAN13-116  13 AUGUST 2020 
+4.2.8.  The Wing/Unit Manager should ensure participating units understand, possess and 
+comply with the current OPTASKLINK during the mission. 
+4.2.8.1.  For TDL events where the wing/units are participating in operations or training 
+under the direction of an external JICO or TDL POC, the Wing/Unit Manager will extract 
+data from the (event associated) OPTASKLINK message, as defined in MIL-STD 6040 
+U.S. Message Text Format Description, and provide their unit’s platforms/systems with 
+data essential to operating TDLs in compliance with the OPTASKLINK message and 
+their unit’s platforms/systems constraints. (T-2).  As appropriate, the Wing/Unit Manager 
+will obtain the Identification Sets, IDLs, track numbers, and other appropriate network-
+specific identifiers as indicated in the appropriate TDL section of the OPTASKLINK. (T-
+2).  As needed, the Wing/Unit Manager will coordinate with the USAF NDF to obtain the 
+unit participant’s IDL associated to a generic designed participant. 
+4.2.8.2.  For TDL track producers, the Wing/Unit Manager will align track number 
+blocks with producers as indicated in the appropriate TDL section of the OPTASKLINK. 
+(T-2). 
+4.2.8.3.  The Wing/Unit Manager will determine which unit participants are designated to 
+play special roles, as indicated in the appropriate TDL section of the OPTASKLINK, and 
+will confirm roles that are appropriate to their capabilities. (T-2). 
+4.2.8.4.  The Wing/Unit Manager will extract instructions for activating the network and 
+provide them to expected link participants. (T-2). 
+4.2.8.5.  The Wing/Unit Manager shall align JTIDS Unit/Source Track Number, stacked 
+net usage and other link parameters as indicated in the appropriate TDL section of the 
+OPTASKLINK.  (T-1).  Note: In accordance with CJCSM 6520.01, Link 16 Joint Key 
+Management Plan, Link 16 time synchronization by default is based off Coordinated 
+Universal Time. If a command determines network time offset is the only workable 
+solution for mission deconfliction, a waiver must be requested and received from the 
+Joint Staff at js.pentagon.j6.list.dd-c4-cyber-c4t-div-mil@mail.smil.mil. (T-0). 
+4.2.9.  The Wing/Unit Manager will ensure unit TDL operators are knowledgeable of and 
+follow procedures mandated in CJCSM 6120.01. (T-2). 
+4.2.10.  As a stakeholder in TDL operations, Wing/Unit Managers should participate in 
+activities leading to the achievement of the AFLNMWG. 
+4.3.  Tactical Data Link Manager (TDLM).  As required, units may employ a TDLM. (Refer 
+to the appropriate weapons system’s or support system’s directives for the position title, specific 
+training and responsibilities).  Examples of Test and Training ranges/organizations employing 
+TDLMs are:  Nevada Test and Training Range, 46 Test Squadron, Barry M. Goldwater Air Force 
+Range, 412 Test Wing, and the Utah Test and Training Range. 
+AFMAN13-116  13 AUGUST 2020 
+13 
+Chapter 5 
+TACTICAL DATA LINK (TDL) TRAINING 
+5.1.  General.  This chapter provides the guidance necessary to help commanders, operators, and 
+instructors apply TDL training to ensure efficient usage of resources and improve 
+interoperability.  The standardized training guidance will aid units in preparing for additional 
+operator responsibilities as a result of expanded TDL employment capabilities and extended 
+interfaces.  In addition, this chapter includes advanced training that builds on fundamental 
+training for management and employment of TDL-capable platforms. 
+5.2.  TDL Training.  The TDL Training Program provides guidance to commanders on the 
+minimum fundamental tasks for TDL operators.  This includes core task requirements, 
+continuation training, advanced course options, SEI assignments, Wing/Unit Manager and 
+TDLM position training.  This guidance is not intended to replace existing mission design series 
+TDL training programs.  It should be used as a minimum measure when developing new mission 
+design series training programs or enhancing existing TDL training programs. 
+5.2.1.  Knowledge/Performance Standards in Table 5.1 lists the scaled knowledge and 
+performance standards as applied to USAF training.  These values are utilized in Table 5.2 
+and pertain to C2 and Non-C2 TDL operators. 
+ 
+ 
+14 
+AFMAN13-116  13 AUGUST 2020 
+Table 5.1.  Knowledge/Performance Standards. 
+Scale 
+Valu
+Definition: 
+The individual: 
+Task 
+Performance 
+Levels 
+1 
+Can do simple parts of the task. Needs to be told or shown 
+how to do most of the task. (EXTREMELY LIMITED) 
+2 
+Can do most parts of the task. Needs help only on hardest 
+parts. May not meet load demands for speed or accuracy. 
+(PARTIALLY PROFICIENT) 
+3 
+Can do all parts of the task. Needs only a spot check of 
+completed work. Meets minimum load demands for speed 
+and accuracy. (COMPETENT) 
+4 
+Can do the complete task quickly and accurately. Can tell or 
+show others how to do the task. (HIGHLY PROFICIENT) 
+Task 
+Knowledge 
+Levels* 
+a 
+Can name parts, tools and simple facts 
+about the task. (NOMENCLATURE) 
+b 
+Can determine step-by-step procedures for doing the task. 
+(PROCEDURES) 
+c 
+Can explain why and when the task must be done and why 
+each step is needed. (OPERATING PRINCIPLES) 
+d 
+Can predict, identify and resolve problems about the task. 
+(ADVANCED THEORY) 
+Subject 
+Knowledge 
+Levels** 
+A 
+Can identify basic facts and terms about the subject. (FACTS) 
+B 
+Can explain relationship of basic facts and state general 
+principles about the subject. (PRINCIPLES) 
+C 
+Can analyze facts and principles and draw conclusions 
+about the subject. (ANALYSIS) 
+D 
+Can evaluate conditions and make proper decisions about 
+the subject. (EVALUATIONS) 
+-Explanations- 
+* 
+A task knowledge scale value may be used alone or with a task performance scale 
+to define a level of knowledge for a specific task. (Example: b and 1b) 
+** 
+A subject knowledge scale value is used alone to define a level of knowledge for a 
+subject not directly related to any specific task, or for a subject common to several 
+tasks. 
+- 
+A dash indicates training is not required during that phase or, in the case of the Entry 
+column, there is no proficiency assumed upon entry. 
+5.2.2.  Commanders will ensure TDL qualification programs include specific training that 
+contains, but is not limited to, the tasks listed in Table 5.2 (T-2). 
+ 
+ 
+AFMAN13-116  13 AUGUST 2020 
+15 
+Table 5.2.  TDL Fundamentals (Guidelines). 
+TDL Standards 
+C2 Units 
+Non-C2 Units 
+Interface Control Fundamentals 
+ 
+ 
+TDL references and source documents 
+A 
+A 
+Voice communications 
+A 
+A 
+Applicable TDL equipment for unit platform 
+B 
+B 
+TDL theory and extended interfaces 
+B 
+B 
+Interface Control Team organization 
+B 
+A 
+Interface planning 
+B 
+B 
+Data forwarding 
+B 
+- 
+Information Exchange Requirements 
+B 
+B 
+Network Design 
+B 
+A 
+OPTASKLINK and United States Message Text Format message B 
+B 
+Introduction to networks 
+B 
+B 
+TDL Mission Planning 
+ 
+ 
+Determine requirements for Multi-TDL operations and 
+associated voice communications 
+1a 
+1a 
+Determine and coordinate information exchange 
+requirements with JICO 
+2b 
+2b 
+Extract and interpret pertinent information from the 
+OPTASKLINK 
+2b 
+2b 
+Conduct a TDL mission briefing 
+2b 
+2b 
+* Obtain appropriate Initialization Design Load 
+2b 
+2b 
+* Obtain appropriate cryptographic equipment and keys 
+2b 
+2b 
+* Determine if a temporary frequency authorization  is 
+needed 
+2b 
+2b 
+* Perform spectrum deconfliction  
+2b 
+2b 
+** Process a Satellite Access Request (SAT-J or JREAP-A 
+participants) 
+2b 
+2b 
+TDL Mission Execution (If applicable to platform) 
+ 
+ 
+Operate TDL equipment 
+2b 
+2b 
+              Configure own site information 
+2b 
+2b 
+              Configure Links 
+2b 
+2b 
+              Configure Data Forwarding  
+2b 
+2b 
+              Configure filters 
+2b 
+2b 
+             * Load Cryptographic Material 
+2b 
+2b 
+             * Initialize terminal 
+2b 
+2b 
+Operate TDL Radios 
+2b 
+2b 
+Conduct TDL operations 
+2b 
+2b 
+Implement secondary architecture  
+1a 
+2b 
+Conduct post-operation debrief 
+1a 
+1a 
+-Explanations- 
+*       RF Link 16 participants only 
+**     Satellite Link 16 participants only 
+16 
+AFMAN13-116  13 AUGUST 2020 
+5.2.3.  Training of personnel to effectively perform TDL pre-execution planning and 
+coordination is an ongoing process primarily consisting of local training programs and those 
+provided by the TDLOMO.  The goal of training should be to expand the trainee’s TDL 
+knowledge base and to ensure the trainee remains up-to-date on new developments in 
+network planning and operations.  Units must consider various means of reaching an 
+objective level of knowledge through the use of continuing education.  Some tools for 
+consideration include: locally developed refresher training modules, use of computer-based 
+training programs, development of local training guides for specific subject areas, and use of 
+a self-assessment or compliance checklist. (Ref AFI 90-201, The Air Force Inspection System 
+for Self-Assessment Program Guidelines).  The TDLOMO website contains tools to be used 
+as a basis for continuing education programs for the Wing/Unit Manager and TDLM. 
+5.2.4.  The Joint Interoperability Division (JID) is the DoD’s only joint data link training 
+organization and lead authority for operational interface training.  The JID, whose mission is 
+to develop and train the warfighter in network advanced data link interoperability concepts 
+and procedures for the CJCS, in order to meet joint and coalition commander’s enduring 
+emerging mission needs, is responsible for the JMTS. 
+5.2.4.1.  Certain TDL enabled platforms have a high level of responsibility and influence 
+on the multi-TDL network.  To successfully accomplish these responsibilities 
+commanders should select currently qualified and experienced TDL operators to attend 
+advanced TDL training.  Courses provided by the JMTS give operators advanced joint 
+training that allows for them to collaborate with other members of the TDL community 
+and fosters interoperability between services.  The decision to send TDL operators to 
+advanced training courses depends on the complexity of their mission design series 
+mission, MAJCOM priorities and/or the TDL environment. 
+5.2.4.2.  JMTS courses offered include a web-based training and advanced in-residence 
+courses.  The JMTS also has the ability to provide mobile training teams (MTT) to teach 
+at alternate locations.  MTT service is coordinated through the TDLOMO upon request 
+and is based on the JID instructors’ availability. (see Table 5.3) 
+5.2.4.2.1.  The TDLOMO is the Air Force allocations manager for JMTS courses.  
+Wing/units will submit their training requests to their MAJCOM POC for 
+prioritization before being submitted to the TDLOMO. (T-2).  Instructions for 
+applying for these courses are on the TDLOMO website under the “Training” tab. 
+5.2.4.2.2.  The TDLOMO will provide funding for travel (excluding rental vehicles at 
+the TDY location) and per diem for Regular Air Force/civilians/contractors, Air 
+National Guard Title 10 and/or Title 32 and Air Force Reserve Title 10. 
+5.2.4.2.3.  JMTS MTT funding is the responsibility of the requesting unit. 
+5.2.4.3.  SEIs establish  qualification and advanced courses accomplished by TDL 
+operators (see Table 5.3).  SEI requirements will be identified in the unit’s manpower 
+document and may be included in individual platform’s AFIs for those duty positions 
+which require specific or advanced TDL training. (T-2).  Commanders who believe their 
+operators require certain SEIs to successfully perform TDL duties must go through 
+proper channels to modify requirements in accordance with AFI 38-101, Manpower and 
+Organization. (T-2). 
+AFMAN13-116  13 AUGUST 2020 
+17 
+Table 5.3.  Basics and Advanced TDL Courses. 
+Course* 
+Title 
+SEIs* 
+Location 
+Access 
+JT-
+101(1380). 
+Intro to Multi 
+Tactical Data Link 
+Network Operations 
+Course 
+ 
+Web-Based 
+Training or Moblie 
+Training Team  
+JID via Joint Knowledge 
+Online 
+JT-102 
+Multi Tactical Data 
+Link Advanced Joint 
+Interoperability 
+Course 
+Enl- 1BB 
+Off- Y8E 
+JMTS In-residence 
+or Moblie Training 
+Team 
+USAF JMTS Allocations 
+Manager at ACC/A3CJ 
+JT-201 
+Multi Tactical Data 
+Link Planners 
+Course 
+Enl- 1BC 
+Off- Y8F 
+JMTS In-residence 
+or Moblie Training 
+Team s 
+USAF JMTS Allocations 
+Manager at ACC/A3CJ 
+JT-220 
+Link 16 Unit 
+Manager Course 
+Enl- 1BA 
+Off- Y8D 
+JMTS In-residence 
+or Moblie Training 
+Team 
+USAF JMTS Allocations 
+Manager at ACC/A3CJ 
+JT-301 
+Joint Interface 
+Control Officer 
+Course 
+Off-Y9B 
+Off- Y8H** 
+Training Exercise 
+(Location TBD) 
+USAF JMTS Allocations 
+Manager at ACC/A3CJ 
+JT-310 
+Advanced JICC 
+Operators Course 
+Enl-1BD 
+Off- Y8G 
+Training Exercise 
+(Location TBD) 
+USAF JMTS Allocations 
+Manager at ACC/A3CJ 
+JT-401 
+Interoperability 
+Executive Course 
+ 
+JMTS In-residence 
+or Moblie Training 
+Team 
+USAF JMTS Allocations 
+Manager at ACC/A3CJ 
+* The most current and complete course descriptions and SEIs awarded for each course can be 
+found on the TDLOMO website: https://intelshare.intelink.gov/sites/tdlomo/default.aspx under 
+the “Training” Tab, References Link. 
+ 
+** SEI Y8H will be awarded to those officers completing this course who have not completed 
+the AOC/ICO course and/or not assigned to an AOC in a JICO billet.  
+5.2.5.  Wing/Unit Managers will complete the Link 16 Unit Manager (LUM) Course JT-220 
+offered at the JMTS to obtain a basic level of knowledge and understanding of 
+responsibilities as soon as practical but not later than six months after being appointed. (T-2).  
+The LUM course is not mandatory if the Wing/Unit Manager has previously attended the 
+Multi-TDL Operations Planners Course, JT-201.  The TDLOMO will confirm training 
+requirements on a case-by-case basis after notification of appointment.  Wing/Unit Managers 
+will obtain additional training, when appropriate, based on the proficiency required for the 
+complexity of the TDL environment the member is assigned to manage.  If an appointed 
+individual is unable to complete the LUM course within the prescribed time, the unit 
+operations training officer will notify the TDLOMO in writing, and provide the unit’s plan 
+for completing the training. (T-2). 
+ 
+ 
+18 
+AFMAN13-116  13 AUGUST 2020 
+ 
+5.2.6.  Training for TDLMs will complete, as a minimum, the JT-102 and the JT-201. (T-2).  
+In addition, if a Unit Manning Document has been identified for SEI Master of Data Link 
+Employment, TDLM shall complete the JT-310 Advanced JICC Operators Course. (T-2).  If 
+an appointed TDLM is unable to complete the JT-102 and/or the JT-201 course within six 
+months of appointment, the unit operations training officer will notify the TDLOMO in 
+writing, and provide the unit’s plan for completing the training. (T-2). 
+AFMAN13-116  13 AUGUST 2020 
+19 
+Chapter 6 
+REQUESTING LINK 16 NETWORK DESIGN PRODUCTS 
+6.1.  Network Design Requests.  The Link 16 request process is located in CJCSM 6120.01.  
+Any unit planning to participate in Link 16 operations/training or testing where a Link 16 
+network design does not exist or has not been designated may submit a Link 16 design request to 
+ensure operational needs are met.  JICOs and TDLMs are the primary interface with the 
+TDLOMO’s USAF NDF to initiate the process for network designs. 
+6.1.1.  Prior to requesting a new design, review existing designs for applicability.  Users 
+should review the NDD and consider designs that support at least the maximum number and 
+type of participants required, applicability of interface units to other links/TDLs, functional 
+capabilities, connectivity/relay requirements, cryptographic isolation, and pulse density 
+compliance.  When an existing design meets the unit’s need, download the terminal IDLs for 
+platform participants and the NDD from the TDLOMO website. 
+6.1.2.  Units planning to participate in link 16 operations/training or testing under the 
+direction of a JICO, TDLM or Wing/Unit Manager should identify the design to be used 
+from the link 16 section of the appropriate OPTASKLINK.  Changes must be coordinated 
+with the JICO, TDLM or Wing/Unit Manager. 
+6.1.3.  If a new design or a modification to an existing design is required, or if there is 
+uncertainty as to whether an existing design fulfills the requirement, contact the USAF NDF 
+with unit platform requirements as indicated in Para 6.1 
+20 
+AFMAN13-116  13 AUGUST 2020 
+Chapter 7 
+LINK 16 FREQUENCY ASSIGNMENT 
+7.1.  Background.  Link 16 planners and managers must be aware of the complex issues 
+associated with Link 16 equipment operations within the 960 - 1215 Mega Hertz frequency band.  
+The Federal Aviation Administration (FAA) controls the use of this band in the US&P and is 
+responsible for ensuring all link 16 equipment is electromagnetically compatible in accordance 
+with the spectrum certification limits specified in the Interdepartment Radio Advisory Committee 
+Document 33583/1.  Additionally, CJCSI 6232.01, provides further direction as agreed upon by 
+the FAA and DoD.  This band is reserved worldwide for the safe operation of aeronautical radio 
+navigation equipment.  Therefore, operations within this band, undergoes considerable scrutiny 
+in regards to flight safety. 
+7.2.  Operations in the United States and Possessions (US&P).  Prior to Link 16 operations, 
+each Air Force unit shall verify the following: 
+7.2.1.  Link 16 equipment is listed on a DD Form 1494, Application for Equipment 
+Frequency Allocation as detailed in AFI 17-220, Spectrum Management. 
+7.2.2.  Approved permanent or temporary frequency assignment for the operating location. 
+7.2.3.  Link 16 activity is scheduled and deconflicted. (T-1).  If there is no frequency 
+assignment in place, the unit must obtain a link 16 frequency assignment for the area before 
+link 16 operations can be performed. (T-1). NOTE: Link 16 users will strictly adhere to the 
+restrictions or limitations placed on Link 16 operations specified in the frequency 
+assignment. 
+7.2.4.  Contact the installation spectrum manager to determine if a frequency assignment 
+exists in the desired area.  If a frequency assignment exists, it must be reviewed to ensure 
+platform type and class of terminals meets Time Slot Duty Factor (TSDF) requirements. (T-
+1).  Any operational requirement that exceeds the existing frequency assignment parameters 
+will require a temporary frequency assignment in order to operate. (T-1).  If the installation 
+spectrum manager cannot provide the necessary assistance, contact the MAJCOM Spectrum 
+Management Office to determine whether an existing assignment will meet event 
+requirements. (T-1).  If a frequency assignment exists that meets mission needs, the 
+Wing/Unit Manager/Deconfliction Coordinator must be contacted to schedule the operation 
+through the Link 16 Pulse Deconfliction Server (LPDS). (T-1). 
+7.3.  Operations Outside the US&P.  Prior to use of Link 16 outside the US&P, users must 
+identify, and comply with, host country procedures and restrictions. (T-1).  These restrictions 
+and procedures are country-dependent.  Guidance for requesting frequency assignments in 
+operating areas outside the US&P can be found in the JTIDS/Multi-Functional Information 
+Distribution System (MIDS) Spectrum Users Guide, Chapter 7, and the Link 16 Multinational Ad 
+Hoc 
+Spectrum 
+Support 
+Working 
+Group 
+(MNWG) 
+Notebook 
+found 
+at 
+http://www.link16mnwg.org/eic/site/040.nsf/eng/h_00076.html.  Other sources of guidance 
+include: nationally published Frequency Clearance Agreements, Standard Operating Procedures 
+(SOP), and guest force operating procedures.  Various nations have established TDL 
+management cells that deconflict and provide authorization to operate on a day-to-day basis. 
+AFMAN13-116  13 AUGUST 2020 
+21 
+Chapter 8 
+LINK 16 DECONFLICTION PROCEDURES 
+8.1.  General.  In accordance with the US Spectrum Certification, Interdepartment Radio 
+Advisory Committee Document 33583/1 the DoD must perform Link 16 Deconfliction 
+procedures.  CJCSI 6232.01 establishes the requirement to accomplish geographic area 
+deconfliction in order to ensure link 16 usage in the US&P does not exceed pulse density 
+restrictions/TSDF limitations specified by National Telecommunications and Information 
+Administration and subsequent US Military Communications-Electronics Board guidance. 
+8.2.  Link 16 Pulse Deconfliction Server (LPDS).  The LPDS is an automated approach to 
+support the deconfliction coordination process.  The Deputy Director, Joint Staff, J7 for Joint 
+Force Development provides technical and operational support for pulse density deconfliction 
+through the LPDS.  This office provides the LPDS website (https://lpds.jten.mil/) to assist with 
+scheduling, coordination, and deconfliction.  To safeguard the scheduling information contained 
+in the server database, a log-in is required to access the system. 
+8.2.1.  For routine operations, the Wing/Unit Manager, TDLM, and Deconfliction 
+Coordinator will ensure unit planned activities are input into the LPDS. (T-1).  The total 
+number of link 16 pulses for all operations in a geographic area must not exceed the TSDF 
+limitation established.  For complex exercises, tests, demonstrations, and special operations 
+outside of routine operations, the planning OPRs will ensure that pulse deconfliction 
+restrictions and procedures are followed. (T-1).  These OPRs will confirm that the planned 
+event is properly coordinated with the service-designated coordinator(s) and entered into the 
+LPDS. (T-1).  Events should be coordinated during the planning process of the exercise in 
+advance. 
+8.2.2.  In the case of conflicting operations, Wing/Unit Manager, TDLM, and Deconfliction 
+Coordinator will deconflict their operations to ensure compliance with frequency 
+assignments for the area. (T-1). 
+8.2.2.1.  If two or more units are unable to deconflict themselves, operators will 
+coordinate with Joint Staff, J-7 for deconfliction of Link 16 operations. (T-0). 
+8.2.2.2.  Link 16 operations outside US&P may be subject to similar deconfliction 
+procedures specific to theater frequency constraints. 
+8.3.  Link 16 Deconfliction Coordination Procedures.  The Wing/Unit Manager or TDLM 
+shall perform or appoint an individual to assist with these duties.  The responsible individual for 
+deconfliction coordination must: 
+8.3.1.  Ensure all participating link 16 forces are included in the coordination process and are 
+briefed on specific frequency assignment restrictions. (T-1). 
+8.3.2.  Ensure that entries for link 16 operations within their area of responsibility are entered 
+into the LPDS. (T-1).  For operations involving more than one unit, one of the participating 
+units’ deconfliction coordinators can be identified as the individual responsible for recording 
+the information in the server for all participants. 
+22 
+AFMAN13-116  13 AUGUST 2020 
+8.3.3.  Ensure link 16 operations within the frequency assignment authorizations have been 
+coordinated, comply with National Telecommunications and Information Administration 
+restrictions, and do not exceed the geographic area TSDF limits. (T-1). 
+8.3.4.  Coordinate with the Link 16 Wing/Unit Managers or TDLM to satisfy operational 
+requirements for use in their geographical area. (T-3). 
+8.3.5.  Coordinate with local frequency management agencies to obtain current link 16 
+assignments and restrictions. (T-0). 
+8.4.  Stop/Cease Buzzer.  These terms are used as direction to immediately stop radiating RF 
+energy in the TDL frequency spectrum.  An agency within the FAA has detected an indication of 
+interference that could affect navigational aids and directs immediate correction. 
+8.4.1.  Every link 16 frequency assignment request must contain a STOP/CEASE BUZZER 
+POC.  This is a 24-hour POC within the unit, or other command element in the area who can 
+be contacted when link 16 operations may be in violation of restrictions. (T-1). 
+8.4.2.  The STOP/CEASE BUZZER POC will immediately remedy the situation, if able, and 
+take action to ensure adherence to the restrictions if found to be in violation. (T-1). 
+ 
+JOSEPH T. GUASTELLA Jr.,  
+Lt Gen, USAF 
+Deputy Chief of Staff, Operations 
+AFMAN13-116  13 AUGUST 2020 
+23 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+AFI 17-220, Spectrum Management, 16 March 2017 
+AFI 33-322, Records Management and Information Governance Program, 23 March 2020 
+AFI 33-360, Publications and Forms Management, 1 December 2015 
+AFI 38-101, Management and Organization, 29 August 2019 
+AFI 90-201, The Air Force Inspection System, 20 November 2018, 
+AFMAN 17-1302-O, Communications Security, (COMSEC) Operations, 9 April 2020 
+CJCSI 6232.01, Link 16 Spectrum Deconfliction, 21 September 2012 
+CJCSI 6610.01, Tactical Data Link Standardization and Interoperability, 10 April 2014 
+CJCSM 3115.01, Joint Data Network (JDN) Operations, Vol I, 2 December 2014 
+CJCSM 3115.03, Joint Data Network (JDN) Operations, Vol III, Joint Interface Control Officer, 
+27 January 2014 
+CJCSM 6120.01, Joint Multi Tactical Data Link (TDL) Operating Procedures (JMTOP) 
+Overview, 9 June 2014 
+CJCSM 6520.01, Link 16 Joint Key Management Plan, 28 April 2015 
+Department of Defense Chief Information Officer (DoD-CIO) Joint TDL Migration Plan 
+(JTMP), 7 February 2014 
+Interdepartment Radio Advisory Committee (IRAC) Document 33583/1, 25 March 2004 
+Joint Tactical Data Link (TDL) Migration Plan (JTMP), Feb 2014 
+Link 16 Multinational Ad Hoc Spectrum Support Working Group Notebook, January 2016 
+Adopted Forms 
+AF Form 847, Recommendation for Change of Publication 
+DD Form 1494, Application for Equipment Frequency Allocation Abbreviations and Acronyms 
+Abbreviations and Acronyms 
+ACC—Air Combat Command 
+AFI—Air Force Instruction 
+AFLNMWG—Air Force Link 16 Network Management Working Group 
+AFMAN—Air Force Manual 
+AOC—Air Operations Center 
+C2—Command and Control 
+24 
+AFMAN13-116  13 AUGUST 2020 
+CJCSI—Chairman of the Joint Chiefs of Staff Instruction 
+CJCSM—Chairman of the Joint Chiefs of Staff Manual 
+COMSEC—Communications Security 
+DoD—Department of Defense 
+FAA—Federal Aviation Administration 
+ICO—Interface Control Officer 
+IDL—Initialization Data Load 
+IER—information exchange requirements 
+JICC—Joint Interface Control Cell 
+JICO—Joint Interface Control Officer 
+JID—Joint Interoperability Division 
+JMTOP—Joint Multi-TDL Operating Procedures (CJCSM 6120.01) 
+JMTS—Joint Multi-TDL School 
+JREAP—Joint Range Extension Application Protocol (MIL-STD 3011) 
+JTIDS—Joint Tactical Information Distribution System 
+JTMP—Joint Tactical Data Link (TDL) Migration Plan 
+LPDS—Link 16 Pulse Deconfliction Server 
+LUM—Link 16 Unit Manager (also known as Wing/Unit Manager) 
+MAJCOM—Major Command 
+MIDS—Multifunctional Information Distribution System 
+MIL STD—Military Standard 
+MNWG—Link 16 Spectrum Multinational Ad Hoc Spectrum Support Working Group (also 
+known as the Link16 Spectrum Multinational Working Group 
+MTT—mobile training team 
+NDD—Network Description Document 
+NDF—Network Design Facility 
+OPR—Office of Primary Responsibility 
+OPTASKLINK—Operational Tasking Data Links 
+POC—Point of Contact 
+RF—radio frequency 
+SADL—Situation Awareness Data Link 
+SEI—special experience identifiers 
+SOP—Standard Operating Procedures 
+AFMAN13-116  13 AUGUST 2020 
+25 
+TDL—Tactical Data Link 
+TDLM—Tactical Data Link Manager 
+TDLOMO—Tactical Data Link Operations and Management Organization 
+TSDF—Time Slot Duty Factor 
+USAF—United States Air Force 
+US&P—United States and Possessions 
+Terms 
+Approval Authority—Senior leader responsible for contributing to and implementing policies 
+and guidance/procedures pertaining to his/her functional area(s) (e.g., heads of functional two-
+letter offices). 
+Deconfliction Coordinator—A designated representative of an organization tasked with the 
+scheduling of JTIDS/MIDS operations for their platforms. 
+Frequency Assignment—Authorization given by an administration for a radio station to use a 
+radio frequency or radio frequency channel under specified conditions. 
+Initialization Data Load (IDL)—Platform initialization data files that, in the case of Link 16, 
+contain time slot assignments and standard parameter values fixed for the platform type and, for 
+other TDLs, contain the necessary timing, spectrum control, and addressing assignments used to 
+assure efficient and effective tactical digital communications. 
+Joint Range Extension Application Protocol (JREAP)—Enables tactical data to be 
+transmitted over digital media and networks not originally designed for tactical data exchange.  
+Formatted tactical digital messages are embedded inside of JREAP messages as data fields 
+within available commercial and Government protocols, such as those used over satellites and 
+terrestrial links. 
+JTIDS Unit—A unit communicating directly on Link 16. 
+Link 16 Network Management Process—Link 16 network management process comprises the 
+entire spectrum of actions and functions required to design, plan, establish, and maintain a Link 
+16 network. Network management comprises four phases over the life cycle of a Link 16 
+network. These phases are: Network Design, Mission Planning, Network Initialization, and 
+Network Operation. 
+Operational Tasking Data Links (OPTASKLINK)—The OPTASKLINK message is a 
+formatted message that disseminates the detailed instructions necessary for establishing and 
+maintaining the operational tactical data links in a multi-TDL network/multi-TDL architecture. 
+Stacked Net—-The coordinated use of a specific block of time slots for the same function but on 
+different nets in a Link 16 network design by different communities of users. 
+Tactical Data Link (TDL)—A Joint Staff-approved, standardized communication link suitable 
+for transmission of digital information.  Tactical data links interface two or more command and 
+control or weapons systems via a single or multiple architecture and multiple communications 
+media for exchange of tactical information. 
+26 
+AFMAN13-116  13 AUGUST 2020 
+Time Slot Duty Factor (TSDF)—A measure of the aggregate number of pulses transmitted by 
+all Link 16 units within a geographic area.  A pulse density of 396,288 pulses per frame is 
+defined as a TSDF of 100%. 
+Track Number (TN)—The unique numeric or alphanumeric octal identifier associated with a 
+specific set of track data representing a vehicular object, point, line of bearing, fix, or area of 
+probability. As used in source track number 
+United States and Possessions (US&P)—The term "United States and Possessions" includes 
+the 50 States, the District of Columbia, the Commonwealth of Puerto Rico, and the territories 
+and possessions. 
+ 

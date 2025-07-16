@@ -1,0 +1,420 @@
+BY ORDER OF THE SECRETARY  
+OF THE AIR FORCE 
+ 
+AIR FORCE INSTRUCTION 10-601 
+27 APRIL 2021 
+Operations 
+OPERATIONAL CAPABILITY 
+REQUIREMENTS DOCUMENTATION 
+AND VALIDATION 
+COMPLIANCE WITH THIS PUBLICATION IS MANDATORY 
+ 
+ACCESSIBILITY:  Publications and forms are available on the e-Publishing website at 
+www.e-Publishing.af.mil for downloading or ordering 
+RELEASABILITY:  There are no releasability restrictions on this publication 
+ 
+ 
+OPR: AF/A5RP 
+ 
+Supersedes: 
+AFI10-601,  
+                        6 November 2013 
+Certified by: AF/A5R  
+(Maj Gen Dawn M. Dunlop) 
+Pages: 12 
+ 
+ 
+This instruction implements Air Force Policy Directive (AFPD) 10-6, Capabilities Requirements 
+Development, and supports implementation of the policies and procedures described in Chairman 
+of the Joint Chiefs of Staff Instruction (CJCSI) 5123.01H, Charter for the Joint Requirements 
+Oversight Council (JROC) and Implementation of the Joint Capabilities Integration and 
+Development System (JCIDS), and DoD Instruction (DoDI) 5000.02, Operation of the Adaptive 
+Acquisition Framework.  This publication establishes the guidelines for the Air Force process 
+managed by the Directorate of Operational Capability Requirements (AF/A5R) for documentation 
+and validation of operational capability requirements under the authority described in 
+Headquarters Air Force (HAF) Mission Directive (MD) 1-7, Deputy Chief of Staff, Strategy, 
+Integration and Requirements. The guidance provided in this instruction applies to all personnel, 
+including Air Force Reserve and Air National Guard, who develop, review or approve operational 
+capability requirements documents as governed by this instruction, whether such programs are 
+designated as unclassified, collateral, compartmented, or special access.  This publication does not 
+apply to the United States Space Force.  The authorities to waive wing/unit level requirements in 
+this publication are identified with a Tier (“T-0, T-1, T-2, T-3”) number following the compliance 
+statement.  See DAFI 33-360, Publications and Forms Management, for a description of the 
+authorities associated with the Tier numbers.  Submit requests for waivers through the chain of 
+command to the appropriate Tier waiver approval authority, or alternately, to the requestor’s 
+commander for non-tiered compliance items.  This instruction may be supplemented at the Major 
+Command (MAJCOM) (or equivalent) level, but all supplements must be routed to AF/A5RP for 
+coordination before certification and approval. Submit recommended changes using the AF Form 
+2 
+AFI10-601  27 APRIL 2021 
+847, Recommendation for Change of Publication; route AF Forms 847 from the field through the 
+appropriate functional chain of command.  Ensure all records created as a result of processes 
+prescribed in this publication are maintained in accordance with Air Force Instruction 33-322, 
+Records Management and Information Governance Program, and disposed of in accordance with 
+Air Force Records Information Management System Records Disposition Schedule. 
+SUMMARY OF CHANGES 
+This document has been substantially revised and should be reviewed in its entirety. It incorporates 
+changes necessary to provide updated guidance for development and approval of requirements 
+documents within the Air Force that align with current guidelines of the Joint Capabilities 
+Integration and Development System  and the Adaptive Acquisition Framework. 
+ 
+ 
+AFI10-601  27 APRIL 2021 
+3 
+Section 1A— Overview 
+1.  Overview. 
+1.1.  Purpose.  The AF/A5R operational capability requirements documentation and 
+validation process provides approved requirements documents to facilitate timely 
+implementation of solutions to address identified deficiencies associated with validated 
+capability requirements (mission needs) or to otherwise take advantage of opportunities to 
+improve operational mission effectiveness. 
+1.2.  Scope.  Under the authority described in HAF Mission Directive 1-7, AF/A5R is 
+responsible for matters pertaining to the development and documentation of operational 
+capability requirements. Organizations wishing to utilize the documents or processes governed 
+by this instruction must adhere to the AF/A5R guidance and oversight as outlined herein. 
+Detailed process maps and specific guidance on the various operational capability 
+requirements documents and processes are captured in a series of AF/A5R Guidebooks which 
+are maintained by AF/A5RP and available on the AF Portal (www.my.af.mil); navigate to 
+“Organization A to Z”, then enter the keyword “A5RP.” 
+1.3.  Guidelines. 
+1.3.1.  All Air Force organizations will: 
+1.3.1.1.  In accordance with Public Law 109-364 Sec. 801, ensure only fully trained 
+and appropriately certified requirements managers are assigned responsibility for the 
+development of operational capability requirements and associated documentation 
+governed by this instruction. 
+1.3.1.2.  Use HAF approved Capabilities Based Assessments, or equivalent 
+studies/analysis, to inform decisions regarding solution pathway selection and 
+development of associated operational capability requirements documents. 
+1.3.1.3.  Ensure full consideration of non-materiel solution approaches and existing 
+solutions, including those in use or in development by other Services and components, 
+before pursuing new capability solutions via the requirements processes governed by 
+this instruction. 
+1.3.1.4.  Verify that proposed solution pathways align with need date and available 
+resources. 
+1.3.1.5.  Perform feasibility analysis to ensure proposed solution approaches are 
+technically achievable and executable with respect to cost targets and 
+fielding/deployment timelines. 
+1.3.1.6.  Perform cost-capability analysis to ensure proposed solutions and system 
+attributes are affordable with respect to expected future budget, resourcing and 
+investment strategies. 
+4 
+AFI10-601  27 APRIL 2021 
+Section 2A—Headquarters Air Force (HAF) level Requirements Oversight 
+2.  Roles and Responsibilities. 
+2.1.  Authority.  The Chief of Staff of the Air Force (CSAF) is designated as the Chief 
+Requirements Officer for the AF. The oversight for the AF capability development and 
+requirements processes and procedures has been further delegated through the Deputy Chief 
+of Staff, Strategy, Integration and Requirements to the Director of Operational Capability 
+Requirements (AF/A5R). The AF/A5RP Division Chief is the process owner and AF waiver 
+authority for the requirements activities covered by this instruction. 
+2.2.  HAF Subject Matter Expert (SME).  AF/A5R provides subject matter expertise on 
+operational capability requirements to support HAF-level review and decision making. When 
+a subject matter expert does not reside within AF/A5R, the designated AF/A5R division works 
+with the appropriate stakeholder organization to identify a HAF SME for the topic. The SME 
+facilitates communication between the Sponsor and the various HAF and Joint requirements 
+process owners and stakeholders and assists in providing prep sessions for senior leaders prior 
+to decision meetings and other forums. The designated AF/A5R division provides SME 
+endorsement as part of the HAF-level review. 
+2.3.  AF Gatekeeper (AFGK).  The AF/A5RP Division Chief serves as the AFGK. The 
+gatekeeping function serves as the entry point for HAF-level review of proposed solution 
+pathways and approval to begin development of associated requirements documents. The 
+AFGK is the single AF point of entry into the Joint Staff for the JCIDS process. AF/A5RP 
+conducts AFGK reviews at various points in the process in conjunction with appropriate 
+AF/A5R division(s), HAF SME(s) and other designated key stakeholders, to assess a Sponsor’s 
+readiness to begin or continue progression through the operational capability requirements 
+document development and validation process. 
+2.4.  AF Requirements Oversight Council (AFROC).  The AFROC consists of AF 
+operational capability requirements stakeholders and organizations tasked to review and make 
+recommendations on AF-sponsored requirements documents as part of document validation 
+and approval. The AF/A5R Director serves as the AFROC Chair and, as such, exercises 
+decision authority regarding recommendations made during AFROC review. 
+2.5.  Air Force Requirements Decision Authority (RDA).  Pursuant to Title 10 U.S.C. 
+Section 2547, Acquisition Related Functions of Chiefs of the Armed Forces, the Chief of Staff 
+of the Air Force is the AF decision authority for requirements documents associated with any 
+program designated as a Major Defense Acquisition Program (MDAP). Unless otherwise 
+specified, the AF decision authority for all other requirements documents is assigned to an 
+appropriate AF RDA, as designated by AF/A5R. 
+Section 3A—Joint Requirements Oversight 
+3.  Functional Capability Boards (FCBs).  The FCBs are the first level of joint oversight. They 
+advise the Joint Capabilities Board (JCB) and Joint Requirements Oversight Council (JROC) on 
+issues within their Joint Capability Area portfolio(s). FCBs are O-6 level forums chaired by a Joint 
+Staff General Officer (GO) or Flag Officer (FO), or civilian equivalent. AF/A5R designates an AF 
+FCB Lead and Action Officer(s) for each Functional Capability Board to ensure AF interests are 
+represented in the Joint process. 
+AFI10-601  27 APRIL 2021 
+5 
+3.1.  Joint Integration Forums.  The Joint Staff’s Force Structure, Resources, and 
+Assessment Directorate (Joint Staff J-8) leads O-6-level and GO/FO-level integration meetings 
+for deliberation of cross-cutting JCIDS issues. The AF/A5RP Division Chief is designated as 
+the AF representative to the Joint Integration Forums and oversees the activities of the Air 
+Force FCB Leads and Action Officers on behalf of AF/A5R. 
+3.2.  Joint Capabilities Board (JCB).  The JCB is one level above the Functional Capability 
+Boards and advises the JROC on issues across the capability portfolios. The JCB is a 1-star/2-
+star level forum chaired by the Director, Joint Staff J-8. The AF/A5R Director is designated as 
+the AF Principal to the JCB. 
+3.3.  Joint Requirements Oversight Council (JROC).  The JROC is the highest level of joint 
+oversight and the JCIDS process owner. The JROC is a 4-star level forum chaired by the Vice 
+Chairman of the Joint Chiefs. The Vice CSAF is designated as the AF Principal to the JROC. 
+AF/A5R exercises VCSAF authority to task responsible organizations within the HAF, 
+MAJCOMs, and Agencies to review and staff JCIDS requirement documents, Comment 
+Resolution Matrices (CRM), and responses to JROC memorandum directed taskings. 
+3.4.  Cyber Requirements Evaluation Board (CREB).  US Cyber Command has been given 
+authority for Cyberspace Operations capabilities and associated document validation. The 
+Director, AF/A5R is the AF representative to the CREB. The HAF lead is the AF/A5R Cyber 
+Division (AF/A5RK). 
+3.5.  Special Operations Command Requirements Evaluation Board (SOCREB).  US 
+Special Operations Command has been given authority for Special Operations capabilities and 
+associated document validation. AF Special Operations Command (AFSOC) is the AF 
+representative to the SOCREB. The HAF Lead is AF/A3. 
+Section 4A—Additional Oversight 
+4.  AF Capability Development Council.  The AF capability development governance bodies 
+(Working Group and Council) serve to prioritize, integrate, and verify new and ongoing capability 
+development efforts across the enterprise. These forums ensure key strategic questions related to 
+capability development have AF senior leadership direction. For more detail, refer to the Charter 
+for the Air Force Capability Development Council, available on the AFWIC Capability 
+Development SharePoint site. 
+4.1.  Office of the Secretary of Defense (OSD) Cost Assessment & Program Evaluation 
+(CAPE).  The Director, CAPE, has oversight authority for analysis documentation and cost 
+estimating associated with defense acquisition programs. For AF programs or studies where 
+CAPE elects not to provide oversight, the AF Capability Development Council provides 
+oversight of AF-sponsored studies and analysis documentation. 
+4.2.  Acquisition Decision Authority.  This is the designated individual who has overall 
+responsibility for an acquisition program. The individual has authority to approve the 
+acquisition strategy consistent with the chosen acquisition pathway and for entry of an 
+acquisition program into the next phase of the acquisition process. The acquisition decision 
+authority is accountable for associated cost, schedule, and performance reporting to higher 
+authority, including congressional reporting. Acquisition policies are governed by appropriate 
+DoD 5000-series instructions, as implemented by Air Force 63-series publications. 
+6 
+AFI10-601  27 APRIL 2021 
+Section 5A—Requirements Sponsor Responsibilities 
+5.  Sponsorship.  Requirements sponsorship is assigned to a MAJCOM/Agency or HAF 
+Organization to lead development of capability requirements and associated documentation for 
+assigned systems, programs, functions and/or missions. Sponsorship includes, but is not limited 
+to, advocating for resourcing, manpower, and other support necessary for the conduct of 
+requirements development activities, consistent with the following guidance: 
+5.1.  Utilize recommended guidelines for requirements document development as described in 
+the AF/A5R Requirements Development Guidebooks and coordinate with AF/A5RP for 
+tailoring or exceptions/exemptions. 
+5.2.  For JCIDS documents and related studies, sponsors will ensure document development 
+team lead, document point-of-contact and/or study lead is trained and certified, in accordance 
+with the JCIDS Requirements Manager Certification Training guidelines. (T-0) 
+5.3.  Ensure proper development and documentation of Concept of Operations (CONOPs) 
+(including Operational Mission Profile/Mode Summary as described in the JCIDS Manual), 
+applicable DoD Architecture Framework (DoDAF) products, and concepts relevant to the 
+mission context and required to support capability requirements analysis, acquisition, test, 
+operations and sustainment. 
+5.4.  Conduct studies and analyses with direct assistance from the AF/A5R Office of 
+Aerospace Studies. Utilize approved risk assessments when conducting capability gap 
+analysis. Provide risk assessment data in support of HAF-level decision bodies, and others as 
+required. 
+5.5.  Maintain close coordination with the acquisition program office to ensure capability 
+requirements and system-level attributes remain affordable, feasible, testable/measurable, 
+supportable and sustainable with respect to available resourcing, time and technology. Conduct 
+analysis to inform cost-capability tradeoffs and provide results to HAF-level capability 
+development, requirements and acquisition forums. 
+5.6.  Ensure key systems engineering considerations, as identified by the acquisition program 
+office, program manager, Program Executive Officer or Milestone Decision Authority 
+(including, but not limited to operational safety, suitability, and effectiveness; environmental, 
+safety, and occupational health; human systems integration, including incorporation of the 
+most current anthropomorphic standards/accommodation data for the US recruitment 
+population as maintained by Air Force Life Cycle Management Center’s office of Human 
+Factors Engineering, Survivability, and Habitability; maintenance and sustainment 
+engineering; product and system integrity; and software engineering) are appropriately 
+addressed in the associated capability requirements documents. 
+5.7.  For intelligence-sensitive capabilities, intelligence representatives from the sponsor 
+organization are responsible for obtaining (or injecting) the future threat environment and 
+accounting for the necessary intelligence support, data dependencies, and infrastructure for the 
+capability to be fully fielded, supported and sustained. 
+ 
+ 
+AFI10-601  27 APRIL 2021 
+7 
+5.8.  Consult with appropriate AF/A5R Division(s) and AF/A5RP FCB Lead(s) before 
+interacting with representatives from other services, components, or outside agencies on 
+operational capability requirements matters – in particular, for interactions involving the Joint 
+Staff, or OSD. Obtain AF/A5R Division Chief-level approval (as a minimum) prior to 
+submitting any presentation(s) for review or decision. 
+Section 6A—Key Stakeholder Responsibilities and Authorities 
+6.  Requirements Process Stakeholders.  Responsibilities for organizations and individuals 
+participating in the AF operational capability requirements development process are summarized 
+below in Table 1 This list is not exhaustive; other organizations not specified in this instruction 
+may be called on to provide expertise, as needed, to assist in the requirements process. AF/A5RP 
+maintains an updated list of stakeholders and roles, in the AF/A5R Guidebook, Volume 1. 
+Table 1.  Summary of Key Requirements Process Stakeholders. 
+Office 
+Symbol 
+Functional Area of Responsibility 
+SAF/AQ 
+Oversees implementation of the Agile Acquisition Framework policies and procedures: OPR 
+is SAF/AQX (Acquisition Integration) 
+SME for Development Planning, Experimentation, and Engineering: OPR is SAF/AQR 
+(Science, Technology, and Engineering) 
+Co-Secretariat of the Capability Development Council: OPR is SAF/AQR (along with 
+AF/A5A - Air Force Warfighting Integration Capability) 
+SAF/CN 
+Liaison with Joint Staff J6 for Interoperability and Net-Ready Attribute: OPR is SAF/CNZA 
+(Cyberspace Capabilities and Compliance Division) 
+SME for DoDAF and products: OPR is SAF/CNZA 
+SME for Cyber Security strategies and accreditations: OPR is SAF/CNZP (Cybersecurity 
+Division) 
+SAF/IE 
+SME for Operational Energy including support for Energy Supportability Analysis and 
+Liaison with Joint Staff J4 regarding the Energy Key Performance Parameter: OPR is 
+SAF/IEN (Deputy Assistant Secretary of the Air Force for Operational Energy) 
+SME for energy, environment, infrastructure (e.g. MILCON, facilities), occupational health 
+and safety (excluding aviation and weapon safety): OPR is SAF/IEE (Environment, Safety, 
+and Infrastructure) 
+SAF/SP 
+Oversight of acquisition management and feasibility review for programs under the Space 
+and Missile Systems Center: OPR is USSF/S5R (Space Requirements) 
+DAF/JA 
+SME for legal aspects of AF capability development and requirements processes and 
+procedures 
+AF/SE 
+SME for Air Force aviation, occupational, weapons, space and system mishap prevention 
+and nuclear surety programs and policy: OPR is the AF Safety Center 
+8 
+AFI10-601  27 APRIL 2021 
+AF/SG 
+SME for Medical Capabilities: OPR is AFMRA/SG3/4 (Air Force Medical Readiness 
+Agency - Medical Operations and Logistics) 
+AF/A2/6 
+SME for Intelligence threat integration and supportability planning within requirements 
+assessment and approval process and Liaison with Joint Staff J2 and DIA for Threat and 
+Intel Certifications: OPR is AF/A2/6O (Director for Intelligence, Surveillance, 
+Reconnaissance Operations) 
+SME for Information Operations: OPR is AF/A2/6/CX with AF/A3CX (Cyber Effects 
+Division) 
+AF/A3 
+Oversight of Headquarters AF Flight Standards Agency as the SME for Airfield Operations : 
+HAF OPR is AF/A3O (Directorate of Operations) 
+Oversight of AF Agency for Modeling and Simulation and SME for AF Operational 
+Training Infrastructure: OPR is AF/A3TI (Operational Training Infrastructure Division) 
+SME for Integrated Air and Missile Defense: OPR is AF/A3TY (Information Operations 
+Division) 
+SME for Air Force Special Warfare (formerly Battlefield Airmen): OPR is AF/A3S 
+(Directorate of Strategic Security) 
+SME for Air Force Weather capabilities: OPR is AF/A3W (Directorate of Weather) 
+AF/A4 
+SME for Civil Engineering: OPR is AF/A4C (Civil Engineers) 
+SME for Explosive Ordnance Disposal: OPR is AF/A4C 
+SME for Fire Protection and Emergency Services: OPR is AF/A4C 
+SME for Air Force Emergency Management: OPR is AF/A4C 
+ SME for Chemical, Biological, Radiological and Nuclear (CBRN) Defense: OPR is 
+AF/A4C 
+SME for Security Forces, Nuclear Security and Base Defense: OPR is AF/A4S (Security 
+Forces) 
+AF/A5 
+Co-Secretariat of the Capability Development Council: OPR is AF/A5A (Air Force 
+Warfighting Integration Capability) [with SAF/AQR] 
+Oversight of AF Operational Capability Requirements process: OPR is AF/A5RP 
+(Requirements Integration Division) 
+Secretariat of the AFROC: OPR is AF/A5RP  
+SME for Capability Studies and Analysis: OPR is AF/A5RA (Office of Aerospace Studies) 
+SME for Combat Air Forces capability requirements: OPR is AF/A5RC (Force Application 
+Division) 
+SME for Conventional Munitions inventory and capability requirements: OPR is AF/A5RW 
+(Weapons Requirements Division) 
+SME for non-nuclear Command & Control and Communications requirements and 
+Intelligence, Surveillance and Reconnaissance requirements: OPR is AF/A5RI (Command 
+and Control, Intelligence, Surveillance, and Reconnaissance Division) 
+SME for Air Mobility, Special Operations, and Personnel Recovery: OPR is AF/A5RM 
+(Mobility, Personnel Recovery, and Special Operations Requirements Division) 
+SME for Cyber capability requirements: OPR is AF/A5RK (Cyber Division) 
+AFI10-601  27 APRIL 2021 
+9 
+SME for Electronic Warfare: OPR is AF/A5L (Directorate of Electromagnetic Spectrum 
+Superiority) 
+AF/A8 
+Oversight of AF Planning and Programming activity: OPR is AF/A8X (Directorate of 
+Planning), AF/A8P (Directorate of Programming) 
+AF/A9 
+SME for  conducting studies, analyses, assessments, and modeling & simulation for 
+capability, capacity, and risk  
+AF/A10 
+SME for CBRN Survivability issues: OPR is AF/A10S (Countering Weapons of Mass 
+Destruction Division) 
+SME for Counter-Weapon of Mass Destruction Enterprise: OPR is AF/A10S  
+SME for Nuclear Weapons Delivery: OPR is AF/A10C (Capabilities Division) 
+SME for Nuclear Command, Control and Communications (NC3): OPR is AF/A10N 
+(Strategic Deterrence and Nuclear Integration) 
+SME for Arms Control, International Treaties & Agreements: OPR is AF/A10P (Policy) 
+AF/TE 
+Oversight of Test & Evaluation policy supporting requirements documentation: OPR is 
+AF/TEP (Policy, Programs, and Resources Division) 
+AFOTEC 
+SME for Operational Test & Evaluation and Testability determination 
+HQ AFMC 
+Oversight of acquisition management and feasibility review for programs under: 
+AF Life Cycle Management Center 
+AF Nuclear Weapons Center  
+AF Security Forces Center 
+AF Civil Engineering Center 
+HQ AETC 
+SME for Force Development Training and Education requirements issues 
+ 
+10 
+AFI10-601  27 APRIL 2021 
+MICHAEL R. SHOULTS, SES, DAF 
+Assistant DCS, Strategy, Integration and 
+Requirements 
+AFI10-601  27 APRIL 2021 
+11 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+CJCSI 5123.01H, Charter of the Joint Requirements Oversight Council (JROC) and 
+Implementation of Joint Capabilities Integration and Development System (JCIDS), 31 Aug 18 
+DoDI 5000.02, Operation of the Adaptive Acquisition Framework, 23 Jan 20 
+HAF MD 1-7, Deputy Chief of Staff Strategy, Integration and Requirements, 29 Oct 19 
+AFI 33-322, Records Management and Information Governance Program, 23 Mar 20 
+AF/A5R Guidebook, Volume 1, Guidelines, Oversight, and Governance, 24 Jun 20 
+Public Law 109-364 Sec. 801, 17 Oct 06 
+10U.S.C., Section 2547, Acquisition-related functions of Chiefs of the Armed Forces 
+Charter for the Air Force Capability Development Council, 20 June 19 
+Abbreviations and Acronyms 
+AF/A2/6—Deputy Chief of Staff for Intelligence, Surveillance and Reconnaissance and Cyber 
+Effects Operations 
+AF/A3—Deputy Chief of Staff for Operations, Plans and Requirements 
+AF/A4—Deputy Chief of Staff for Logistics, Engineering and Force Protection 
+AF/A5—Deputy Chief of Staff for Strategy, Integration and Requirements 
+AF/A5A—Air Force Warfighting Integration Capability 
+AF/A8—Deputy Chief of Staff for Plans and Programs 
+AF/A9—Deputy Chief of Staff for Studies, Analysis and Assessments 
+AF/A10—Deputy Chief of Staff for Strategic Deterrence and Nuclear Integration 
+AF/SE—Chief of Safety of the Air Force 
+AF/SG—Surgeon General of the Air Force 
+AF/TE—Director of Test and Evaluation 
+AFGK—Air Force Gatekeeper 
+AFOTEC—Air Force Operational Test & Evaluation Center 
+AFROC—Air Force Requirements Oversight Council 
+FCB—Functional Capabilities Board 
+HQ AETC—Headquarters Air Education and Training Command 
+HQ AFMC—Headquarters Air Force Materiel Command 
+JCB—Joint Capabilities Board 
+12 
+AFI10-601  27 APRIL 2021 
+JROC—Joint Requirements Oversight Council 
+SME—Subject Matter Expert 
+SAF/AQ—Assistant Secretary of the Air Force for Acquisition, Technology & Logistics 
+SAFAQX—Acquisition Integration 
+SAF/CN—Deputy Chief Information Officer of the Air Force 
+SAF/CNZA—Cyberspace Capabilities and Compliance Division 
+SAF/CNZP—Cybersecurity Division 
+SAF/IE—Assistant Secretary of the Air Force for Installations, Environment & Energy 
+SAF/SP—Deputy Undersecretary of the Air Force for Space Police 
+Terms 
+Capability Requirement (or Requirement, Need)—A capability required to meet organizational 
+roles, functions, and missions in current or future operations. To the greatest extent possible, 
+capability requirements are described in relation to tasks, standards and conditions in accordance 
+with the Universal Joint Task List or equivalent DoD Component Task List. 
+Materiel Capability Solution—Correction of a deficiency or incorporation of new technology 
+that results in development, acquisition, procurement, or fielding of a new item (including ships, 
+tanks, self-propelled weapons, aircraft, space vehicles and related software & data, spares, repair 
+parts, and support equipment, but excluding real property, installations, and utilities). 
+Non-Materiel Capability Solution—Changes to doctrine, organization, training, (previously 
+fielded) materiel, leadership and education, personnel, facilities, or policy implemented to satisfy 
+one or more capability requirements (or needs) and reduce or eliminate one or more gaps, without 
+the need to develop or purchase new materiel capability solutions. 
+ 

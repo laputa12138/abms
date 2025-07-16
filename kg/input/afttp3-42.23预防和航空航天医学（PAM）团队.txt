@@ -1,0 +1,2157 @@
+BY ORDER OF THE  
+SECRETARY OF THE AIR FORCE 
+AIR FORCE TACTICS, TECHNIQUES 
+AND PROCEDURES 3-42.23 
+19 JUNE 2018 
+Tactical Doctrine 
+PREVENTIVE AND AEROSPACE 
+MEDICINE (PAM) TEAM 
+ACCESSIBILITY:  Publications and forms are available on the e-Publishing website at 
+www.e-publishing.af.mil for downloading or ordering. 
+RELEASABILITY:  There are no release restrictions on this publication. 
+OPR: ACC/SGX 
+Certified by: AF/SG3/5X 
+(Col Colin Smyth) 
+Pages: 46 
+The Air Force Tactics, Techniques, and Procedures (AFTTP) 3-42 series of publications is the 
+primary reference for expeditionary medical support capability.  AFTTP 3-42.23 provides tactics, 
+techniques, and procedures (TTP) for the following unit type codes (UTCs): 
+FFPM1, PAM Team 1 
+FFPM2, PAM Team 2 
+FFPM3, PAM Team 3 
+FFPM4, PAM Advanced Echelon (ADVON) Equipment 
+FFPM5, PAM Sustainment Equipment 
+FFPM6, PAM Counter-Chemical, Biological, Radiological, and Nuclear (CBRN) Team 
+FFPM7, PAM Counter-CBRN Equipment 
+The doctrine in this document is authoritative but not directive.  It applies to all Air Force military 
+and civilian personnel, including Air Force Reserve Command (AFRC) and Air National Guard 
+(ANG) units.  Refer recommended changes and questions about this publication to the Office of 
+Primary Responsibility (OPR) using AF Form 847, Recommendation for Change of Publication.  
+2 
+AFTTP3-42.23  19 JUNE 2018 
+Route AF 847 through the appropriate functional chain of command and parent major command 
+(MAJCOM).  Ensure that all records created as a result of the processes prescribed in this 
+publication are maintained in accordance with (IAW) AFMAN 33-363, Management of Records, 
+and disposed of IAW the Air Force Records Disposition Schedule (RDS) located in the Air Force 
+Records Information Management System (AFRIMS).  The use of the name or mark of any 
+specific manufacturer, commercial product, commodity, or service in this publication does not 
+imply endorsement by the Air Force. 
+SUMMARY OF CHANGES 
+This publication introduces the PAM Counter-CBRN UTCs, FFPM6 and FFPM7.  These UTCs 
+replace FFGL1, Medical Bioenvironmental Engineering Nuclear, Biological, and Chemical (NBC) 
+Team, and FFGL7, Medical Bioenvironmental Engineering NBC Equipment, in the Air Force 
+inventory.  These UTCs can be used to augment and expand the PAM team’s existing medical 
+CBRN defense capabilities.  This publication has been substantially revised and should be 
+completely reviewed. 
+ 
+Chapter 1—INTRODUCTION 
+ 
+5 
+1.1. 
+ Purpose....................................................................................................................  
+5 
+1.2. 
+ Background .............................................................................................................  
+5 
+Chapter 2—CAPABILITIES 
+ 
+6 
+2.1. 
+ Mission....................................................................................................................  
+6 
+2.2. 
+ Personnel .................................................................................................................  
+6 
+Table 2.1. 
+ FFPM1 Manpower Detail. ......................................................................................  
+7 
+Table 2.2. 
+ FFPM2 Manpower Detail. ......................................................................................  
+7 
+Table 2.3. 
+ FFPM3 Manpower Detail. ......................................................................................  
+7 
+Table 2.4. 
+ FFPM6 Manpower Detail. ......................................................................................  
+8 
+2.3. 
+ Equipment ...............................................................................................................  
+8 
+Chapter 3—OPERATIONS 
+ 
+10 
+3.1. 
+ Pre-Deployment ......................................................................................................  
+10 
+3.2. 
+ Deployment .............................................................................................................  
+10 
+Table 3.1. 
+ Operational Buildup. ...............................................................................................  
+10 
+3.3. 
+ Employment ............................................................................................................  
+11 
+3.4. 
+ Redeployment .........................................................................................................  
+15 
+AFTTP3-42.23  19 JUNE 2018 
+3 
+Chapter 4—COMMAND AND CONTROL (C2) RELATIONSHIPS 
+ 
+16 
+4.1. 
+ C2 of Medical Teams ..............................................................................................  
+16 
+4.2. 
+ PAM Team Command Structure ............................................................................  
+16 
+Figure 4.1. 
+ Notional Command Structure. ................................................................................  
+16 
+4.3. 
+ Squadron Medical Elements (SME) .......................................................................  
+16 
+4.4. 
+ Global Reach Laydown (GRL) Team .....................................................................  
+17 
+Chapter 5—COMMUNICATIONS AND INFORMATION SYSTEMS 
+ 
+18 
+5.1. 
+ Communications Requirements ..............................................................................  
+18 
+5.2. 
+ Computer Systems ..................................................................................................  
+18 
+Table 5.1. 
+ Specialty-Specific Applications. .............................................................................  
+18 
+5.3. 
+ Information Assurance (IA) Policy .........................................................................  
+19 
+5.4. 
+ Tactical Communications .......................................................................................  
+19 
+Chapter 6—INTEGRATION AND INTEROPERABILITY 
+ 
+20 
+6.1. 
+ Integration and Interoperability with Other Systems ..............................................  
+20 
+6.2. 
+ Expeditionary Medical Support (EMEDS) Integration ..........................................  
+20 
+6.3. 
+ Air Force Medical CBRN Defense Force Module..................................................  
+20 
+Table 6.1. 
+ AFMS CBRN Defense Force Module. ...................................................................  
+20 
+6.4. 
+ Air Force Medical Theater-Level CBRN Defense Assets ......................................  
+20 
+6.5. 
+ Collaboration with CBRN Response Teams ...........................................................  
+21 
+6.6. 
+ Interaction with Other Preventive Medicine Teams ...............................................  
+22 
+6.7. 
+ Expeditionary Combat Support (ECS)/Base Operating Support (BOS) 
+Requirements ...........................................................................................................  
+22 
+Chapter 7—SECURITY 
+ 
+23 
+7.1. 
+ Security Roles and Responsibilities ........................................................................  
+23 
+7.2. 
+ Physical Security .....................................................................................................  
+23 
+7.3. 
+ Operations Security (OPSEC).................................................................................  
+23 
+7.4. 
+ Security of Weapons and Ammunition ...................................................................  
+23 
+Chapter 8—TRAINING 
+ 
+24 
+8.1. 
+ Medical Readiness Training Requirements ............................................................  
+24 
+4 
+AFTTP3-42.23  19 JUNE 2018 
+8.2. 
+ Formal Training ......................................................................................................  
+24 
+8.3. 
+ UTC Sustainment Training .....................................................................................  
+24 
+8.4. 
+ Mission Essential Task Lists (METLs) ...................................................................  
+24 
+8.5. 
+ Functional-Specific Training ..................................................................................  
+24 
+8.6. 
+ Vehicle Operation Training ....................................................................................  
+25 
+Chapter 9—LOGISTICS 
+ 
+26 
+9.1. 
+ Expeditionary Medical Logistics (EML) Support ..................................................  
+26 
+9.2. 
+ Medical Materiel Management ...............................................................................  
+26 
+9.3. 
+ Supplies and Equipment .........................................................................................  
+26 
+Table 9.1. 
+ PAM Equipment and AS Matrix. ............................................................................  
+26 
+9.4. 
+ Medical Equipment Maintenance and Repair .........................................................  
+26 
+9.5. 
+ Equipment Upgrades and Modernization ...............................................................  
+27 
+Attachment 1—GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+28 
+Attachment 2—FLIGHT MEDICINE DEPLOYMENT REFERENCES 
+ 
+34 
+Attachment 3—BIOENVIRONMENTAL ENGINEERING (BE) DEPLOYMENT 
+REFERENCES 
+ 
+35 
+Attachment 4—PUBLIC HEALTH DEPLOYMENT REFERENCES 
+ 
+37 
+Attachment 5—EXPEDITIONARY COMBAT SUPPORT (ECS) REQUIREMENTS 
+ 
+38 
+Attachment 6—OPERATING CAPABILITY CONDITIONS 
+ 
+41 
+Attachment 7—CBRN DEFENSE TASK SUMMARY 
+ 
+42 
+Attachment 8—NOTIONAL PAM COUNTER-CBRN OPERATIONS LAYOUT 
+ 
+46 
+ 
+ 
+ 
+AFTTP3-42.23  19 JUNE 2018 
+5 
+Chapter 1 
+INTRODUCTION 
+1.1.  Purpose.  This publication provides the tactics, techniques, and procedures (TTP) for the 
+Preventive and Aerospace Medicine (PAM) team.  It implements the preventive medicine guidance 
+defined in AFTTP 3-42.2, Health Service Support Casualty Prevention for Expeditionary 
+Operations, AFTTP 3-42.7, Aerospace Medical Contingency Ground Support System, and FM 4-
+02.7/MCRP 4-11.1F/NTTP 4-02.7/AFTTP 3-42.3, Multiservice Tactics, Techniques, and 
+Procedures for Health Service Support in a Chemical, Biological, Radiological, and Nuclear 
+(CBRN) Environment.  It describes the PAM team’s capabilities and provides a source document 
+for developing standardized policies, operating procedures, training programs, and allowance 
+standards (AS).  Operation plans (OPLANs) and regional guidance provide more specific 
+information that amplify and tailor the guidance contained in this publication. 
+1.2.  Background.  The PAM team works to prevent occupational, environmental, and public 
+health risk factors from having a detrimental impact on mission effectiveness.  The team provides 
+a broad portfolio of preventive medicine and medical counter-CBRN capabilities that can be scaled 
+and tailored based on the deployed location’s expected threat and operational needs.  PAM assets 
+are structured to ensure they can be deployed quickly to support joint task force (JTF), agile combat 
+support (ACS), or lead mobility wing (LMW) agencies with food and water safety, field sanitation, 
+occupational and environmental health (OEH) risk assessments, CBRN health assessments, and 
+waste management during site selection and setup. 
+1.2.1.  Disease and Injury Management.  Disease and injury induced by operational conditions 
+are a consistent threat to Air Expeditionary Forces (AEFs).  Health threats include endemic 
+disease as well as OEH hazards associated with the movement, billeting, and activities of large 
+numbers of military personnel working in field conditions.  The PAM team is responsible for 
+implementing preventive medicine and medical counter-CBRN measures, measuring and 
+assessing exposures, and recommending strategies to minimize these threats. 
+1.2.2.  CBRN Threat.  The release of a CBRN agent has the potential to significantly burden 
+or overwhelm medical assets.  These agents can cause early clinical symptoms that mimic 
+routine medical conditions and delay detection.  Platforms and materiel may become 
+contaminated and present a health risk to personnel or cross-contamination risk.  Based in part 
+on lessons learned from Operation TOMODACHI in 2011 as well as U.S. and international 
+industrial standards and best practices, the Department of Defense has identified criteria to 
+promote health and safety and ensure the freedom of transit of platforms and materiel.  The 
+PAM team supports an overarching and robust CBRN response force health protection mission 
+focused on casualty prevention through passive defense, surveillance, detection, identification, 
+quantification, field confirmation, consequence management, platform clearance, and 
+recovery. 
+ 
+ 
+6 
+AFTTP3-42.23  19 JUNE 2018 
+Chapter 2 
+CAPABILITIES 
+2.1.  Mission.  The PAM team provides preventive medicine and medical counter-CBRN services 
+to identify, quantify, prevent, monitor, and treat disease and injury and prevent acute or chronic 
+health hazards resulting from operations in deployed environments.  They conduct health hazard 
+surveillance, provide commanders with balanced risk assessments and management options, and 
+implement measures to protect personnel. 
+2.1.1.  Health Risk Assessment (HRA) and Management.  HRAs evaluate such factors as local 
+food and water safety and vulnerability, disease vectors, threats from local plants and wildlife, 
+local medical capabilities, and possible contamination sources.  They also evaluate threats from 
+toxic industrial chemical (TIC), toxic industrial material (TIM), CBRN, and OEH exposures.  
+The PAM team is responsible for health risk communication before, during, and after 
+deployments and for providing commanders with recommended courses of action. 
+2.1.2.  Health Hazard Surveillance.  The PAM team conducts on-going health hazard 
+surveillance to identify exposures and potential health risks and enable timely interventions.  
+Activities include the collection and analysis of OEH data, disease monitoring, food and water 
+safety, CBRN surveillance, and disease outbreak investigation.  During sustainment 
+operations, the team conducts OEH, CBRN, and facility sanitation assessments.  Health 
+surveillance data is tracked in the appropriate OEH management information system (OEH-
+MIS) and reported weekly to the JTF Surgeon (JTF/SG), Air Force Forces Surgeon 
+(AFFOR/SG), and Theater Epidemiology Team (TET) in accordance with (IAW) theater 
+policy. 
+2.1.3.  Health Hazard Control and Mitigation.  The PAM team provides clinical, OEH, 
+preventive medicine, and primary care capabilities to prevent, diagnose, and treat illness and 
+injuries caused by hazardous occupational, environmental, or CBRN exposures.  Disease 
+prevention and control measures include education and training, immunizations, prophylactic 
+medications, and use of personal protective equipment (PPE).  Bioenvironmental engineering 
+(BE) personnel design OEH and CBRN controls and protective measures.  Public health 
+personnel provide recommendations on infectious disease management and restriction of 
+movement procedures. 
+2.1.4.  CBRN Defense.  The PAM team provides medical CBRN defense capabilities scaled 
+to the threat environment.  They are responsible for CBRN HRAs based on available data from 
+medical surveillance, patient treatment, civil engineer (CE) reconnaissance teams, and other 
+medical and intelligence sources.  They conduct CBRN surveillance, identify, collect, and 
+analyze samples, and recommend force health protection measures.  Note:  If threat conditions 
+warrant, additional medical CBRN defense capabilities may be added.  See Chapter 6 for 
+more information about the Air Force Medical Service (AFMS) CBRN Defense Force 
+Package. 
+2.2.  Personnel.  The PAM team includes the following core personnel and augmentation unit type 
+codes (UTCs).  The team is scalable and tailorable based on the threat and operational needs.  See 
+Chapter 3 for more information on deployment scenarios. 
+AFTTP3-42.23  19 JUNE 2018 
+7 
+2.2.1.  FFPM1, PAM Team 1.  FFPM1 provides initial public health and OEH assessment, 
+surveillance, intervention, and abatement.  The team provides medical support planning and 
+input into site selection and layout of facilities.  The aerospace medicine specialist and 
+independent duty medical technician (IDMT) provide preventive medicine and limited clinical 
+services for up to 500 personnel.  Public health personnel provide food safety and vulnerability 
+assessments, field sanitation and hygiene, and infectious disease control.  BE personnel provide 
+TIC/TIM vulnerability assessments, water safety and vulnerability assessments, OEH 
+assessment and surveillance, and limited CBRN defense.  Table 2.1 provides the manpower 
+detail. 
+Table 2.1.  FFPM1 Manpower Detail. 
+AFSC 
+Title 
+Grade 
+Quantity 
+048A3 
+Aerospace Medicine Specialist 
+05 
+1 
+043E3A 
+Bioenvironmental Engineer (BEE) 
+04 
+1 
+043H3 
+Public Health Officer (PHO) 
+04 
+1 
+4N071C 
+Aerospace Medical Service Craftsman, IDMT  
+1 
+ 
+ 
+ 
+Total: 4 
+Note:  Air Force Specialty Code (AFSC), grade, and skill-level substitutions are IAW the 
+War and Mobilization Plan, Volume 1 (WMP-1), Air Force Medical Service (AFMS) 
+Supplement, AFI 10-403, Deployment Planning and Execution, and the mission capability 
+(MISCAP) statement. 
+2.2.2.  FFPM2, PAM Team 2.  FFPM2 provides BE and public health personnel augmentation 
+for FFPM1.  Table 2.2 provides the manpower detail. 
+Table 2.2.  FFPM2 Manpower Detail. 
+AFSC 
+Title 
+Grade 
+Quantity 
+4B071 
+BE Craftsman 
+ 
+1 
+4E071 
+Public Health Craftsman 
+ 
+1 
+ 
+ 
+ 
+Total: 2 
+Note:  Air Force Specialty Code (AFSC), grade, and skill-level substitutions are IAW the 
+War and Mobilization Plan, Volume 1 (WMP-1), Air Force Medical Service (AFMS) 
+Supplement, AFI 10-403, Deployment Planning and Execution, and the mission capability 
+(MISCAP) statement. 
+2.2.3.  FFPM3, PAM Team 3.  FFPM3 provides BE and public health augmentation for 
+FFPM1 and FFPM2.  Table 2.3 provides the manpower detail. 
+Table 2.3.  FFPM3 Manpower Detail. 
+AFSC 
+Title 
+Grade 
+Quantity 
+4B051 
+BE Journeyman 
+ 
+2 
+4E051 
+Public Health Journeyman 
+ 
+1 
+ 
+ 
+ 
+Total: 3 
+8 
+AFTTP3-42.23  19 JUNE 2018 
+AFSC 
+Title 
+Grade 
+Quantity 
+Note:  Air Force Specialty Code (AFSC), grade, and skill-level substitutions are IAW the 
+War and Mobilization Plan, Volume 1 (WMP-1), Air Force Medical Service (AFMS) 
+Supplement, AFI 10-403, Deployment Planning and Execution, and the mission capability 
+(MISCAP) statement. 
+2.2.4.  FFPM6, PAM Counter-CBRN Team.  FFPM6 provides BE augmentation for CBRN 
+defense, consequence management, and recovery activities at a deployed location.  The team 
+conducts CBRN surveillance, performs HRAs, and advises commanders on CBRN health 
+effects, threat impact, protective action posture, and recovery activities.  The team performs 
+environmental sampling, analysis, and monitoring for force health protection purposes and 
+participates in the confirmatory identification process for suspected biological threat agents 
+(BTA).  The team monitors and documents personnel exposures to CBRN agents, supports 
+decision-making on PPE donning and doffing (de-MOPPing and de-masking), and performs 
+chemical, biological, and radiological clearance missions.  The team can augment FFPM1-
+FFPM3 to provide more robust surveillance capabilities at a single operating location or more 
+limited CBRN defense for up to three dispersed locations.  Note:  This UTC replaces FFGL1, 
+Medical Bioenvironmental Engineering Nuclear, Biological, and Chemical (NBC) Team, in 
+the Air Force inventory. 
+Table 2.4.  FFPM6 Manpower Detail. 
+AFSC 
+Title 
+Grade 
+Quantity 
+043E3A 
+Bioenvironmental Engineer 
+03 
+1 
+4B071 
+BE Craftsman 
+ 
+1 
+4B051 
+BE Journeyman 
+ 
+4 
+ 
+ 
+ 
+Total: 6 
+Note:  Air Force Specialty Code (AFSC), grade, and skill-level substitutions are IAW the 
+War and Mobilization Plan, Volume 1 (WMP-1), Air Force Medical Service (AFMS) 
+Supplement, AFI 10-403, Deployment Planning and Execution, and the mission capability 
+(MISCAP) statement. 
+ 
+2.3.  Equipment.  The following equipment UTCs support the PAM team.  FFPM4 and FFPM5 
+are part of the initial deployment and can be augmented depending on mission requirements and 
+threat.  FFPM7 is deployed under moderate to high CBRN threat conditions, as warranted.  See 
+Chapter 3 for more information on deployment scenarios.  The AS provides a current list of 
+equipment included in each UTC.  See Chapter 9 for more information on logistics. 
+2.3.1.  FFPM4, PAM Advanced Echelon (ADVON) Equipment.  The FFPM4 man-portable 
+field packs provide equipment and supplies for initial clinical care, OEH sampling, food and 
+water safety inspections, and basic hazard/CBRN identification.  Based on the mission and 
+mode of transportation, team members may be required to travel with their field packs and 
+hand-carry them to the employment site. 
+2.3.2.  FFPM5, PAM Sustainment Equipment.  FFPM5 provides sufficient equipment and 
+supplies to sustain clinical, primary care, preventive medicine, OEH, and medical counter-
+CBRN operations for 30 days.  It includes a single-skin, quick-erect shelter system. 
+AFTTP3-42.23  19 JUNE 2018 
+9 
+2.3.3.  FFPM7, PAM Counter-CBRN Equipment.  FFPM7 provides supplemental CBRN 
+sampling and analysis equipment for deployed locations with a moderate to high CBRN threat.  
+Deployment with the appropriate collective protection (CP) equipment package is 
+recommended.  See AFTTP 3-42.71, Expeditionary Medical Support (EMEDS) and Air Force 
+Theater Hospital (AFTH), for more information on CP capabilities.  Note:  This UTC replaces 
+FFGL7, Medical Bioenvironmental Engineering NBC Equipment, in the Air Force inventory. 
+ 
+ 
+10 
+AFTTP3-42.23  19 JUNE 2018 
+Chapter 3 
+OPERATIONS 
+3.1.  Pre-Deployment.  PAM teams with assigned equipment UTCs must inventory, set up, and 
+operationally test their equipment annually IAW AFI 41-106, Medical Readiness Program 
+Management.  All team members must be fully qualified before deployment.  The PHO and BEE 
+should be informed of the deployment location as soon as possible to prepare medical intelligence 
+and initiate the occupational and environmental health site assessment (OEHSA) and CBRN 
+assessment.  Team members should work closely with the medical readiness office, emergency 
+management (EM), and theater medical personnel to prepare for deployment.  They should review 
+OPLANs, reporting instructions, threat and vulnerability assessments, intelligence reports, and 
+other pertinent deployment data. 
+3.2.  Deployment.  PAM personnel and equipment UTCs provide an incremental buildup of 
+capability based on the mission, population at risk (PAR), and threat environment as shown in 
+Table 3.1.  PAM UTCs typically deploy with an EMEDS package, but some components can 
+deploy as a stand-alone team under a JTF.  FFPM1 provides the core preventive medicine, BE, 
+and public health support and is generally the first medical presence at the beddown location.  The 
+team deploys as early as possible to assist expeditionary combat support (ECS) units in site 
+selection to ensure that OEH factors are taken into account.  They deploy with man-portable field 
+packs and can provide initial medical capability within 15 minutes of arrival.  Augmentation UTCs 
+are operation dependent.  FFPM2 and FFPM3 provide additional BE and public health personnel 
+to support a larger PAR or threat scenario.  FFPM6 and FFPM7 provide CBRN defense 
+augmentation for moderate to high-threat operating locations.  The full PAM team (FFPM1-
+FFPM7) provides a robust surveillance capability.  In a distributed operating environment, PAM 
+Counter-CBRN personnel may divide into smaller teams to provide limited CBRN defense for up 
+to three dispersed locations (e.g., a center hub and two satellite locations).  They can forward 
+deploy with hand-held or backpack equipment to support forward locations.  The PAM Counter-
+CBRN team can reach initial operational capability (IOC) within 8 hours of arrival and reach full 
+operational capability (FOC) within 24 hours of arrival.  See Attachment 6 for more information 
+on IOC and FOC parameters. 
+Table 3.1.  Operational Buildup. 
+Role 
+UTC 
+Tasking 
+Core Capability 
+FFPM1, PAM Team 1 
+FFPM4, ADVON Man-
+Portable Equipment 
+FFPM5, Sustainment 
+Equipment 
+Part of EMEDS Health 
+Response Team (HRT) core 
+capability 
+Can deploy as a stand-alone 
+team under a JTF to support 
+a PAR of up to 500 
+AFTTP3-42.23  19 JUNE 2018 
+11 
+Role 
+UTC 
+Tasking 
+Personnel Augmentation 
+FFPM2, PAM Team 2 
+Augments FFPM1 at an 
+EMEDS location or JTF 
+Can be added at the EMEDS 
+HRT or EMEDS+10 level, 
+depending on mission 
+requirements 
+FFPM3, PAM Team 3 
+Augments FFPM1 and 
+FFPM2 at an EMEDS 
+location or JTF 
+Part of EMEDS+10 core 
+capability 
+CBRN Defense Augmentation 
+FFPM6, PAM Counter-
+CBRN Team 
+FFPM7, PAM Counter-
+CBRN Equipment 
+For moderate to high CBRN 
+threat environments 
+Can augment FFPM1-
+FFPM3 at an EMEDS 
+location or JTF 
+ 
+3.3.  Employment.  The PAM team is led by an aerospace medicine specialist with a residency in 
+aerospace medicine (RAM).  The RAM and IDMT provide initial, limited medical care pending 
+the arrival of additional EMEDS providers.  The BEE is responsible for OEH exposure 
+surveillance, health risk assessments, medical CBRN response, water quality monitoring, and OEH 
+compliance IAW theater surgeon policy.  The PHO is responsible for OEH illness surveillance, 
+epidemiology, and initial food protection assessment and provides input on site assessments and 
+health risk assessments.  The PHO serves as the local medical intelligence officer.  The RAM, 
+BEE, and PHO are members of the Antiterrorism Working Group (ATWG) and Threat Working 
+Group (TWG), which are responsible for coordinating the medical response to CBRN events. 
+3.3.1.  RAM Tasks.  The RAM is the chief advisor to the deployed expeditionary unit 
+commander and wing staff on aerospace medicine issues.  The RAM performs the following 
+key functions: 
+3.3.1.1.  Establish first contact with local, joint, coalition, and host nation health care 
+authorities to arrange cross-coverage, evacuation, and referral procedures. 
+3.3.1.2.  Assess local medical capabilities. 
+3.3.1.3.  Work with public health to validate medical intelligence, assess local disease 
+threats, and analyze weekly disease reports. 
+3.3.1.4.  Establish access to the aeromedical evacuation (AE) system and serve as the AE 
+consultant to the deployed expeditionary unit commander. 
+3.3.1.5.  Recommend and implement medical countermeasures to disease and CBRN 
+threats. 
+3.3.1.6.  Assess medical aspects of OEH risk exposures and recommend controls and 
+surveillance measures (including baseline reviews and occupational illness and injury 
+investigations) in conjunction with BE and public health. 
+12 
+AFTTP3-42.23  19 JUNE 2018 
+3.3.1.7.  Conduct on-site OEH surveys with BE and public health. 
+3.3.1.8.  Assume functional leadership of squadron medical elements (SMEs). 
+3.3.1.9.  Serve as the local point of contact for the theater AFFOR command surgeon on 
+flight medicine policy. 
+3.3.1.10.  Provide medical input to the base support plan and develop local plans for aircraft 
+mishap response and mass casualty response. 
+3.3.1.11.  Work with BE and public health to accomplish site surveys for EMEDS facilities. 
+3.3.1.12.  Brief operations group and squadron commanders on aeromedical safety 
+concerns such as circadian rhythms and fatigue, G-tolerance, and heat and cold stress. 
+3.3.2.  IDMT Tasks.  The IDMT performs patient examination and treatment at remote sites 
+and deployed locations in the absence of an assigned licensed provider within the scope of care 
+defined in AFI 44-103, The Air Force Independent Duty Medical Technician Program. 
+3.3.2.1.  BE Support.  The IDMT may assist BE with the following functions:  medical 
+investigation of occupational illnesses and injuries; hazard communication (HAZCOM) 
+programs; workplace surveillance data management; water collection and treatment (e.g., 
+water chlorine residual, pH, and bacteriological testing); and CBRN testing under direct 
+supervision of the BEE. 
+3.3.2.2.  Public Health Support.  The IDMT may assist public health with the following 
+functions:  epidemiology; medical entomology; food safety programs and inspections; 
+rabies control; health and hygiene inspections of public gathering places and local billeting 
+facilities; communicable disease prevention and monitoring; vulnerability assessments and 
+site surveys; environmental risk assessments; evaluation of local medical facilities; and 
+risk assessments of disease vectors and pests. 
+3.3.3.  BE Tasks.  BE provides expertise in health hazard surveillance; sampling, identification, 
+quantification, assessment, analysis, and control of OEH and CBRN threats; risk 
+communication; real-time CBRN response; documentation of potential exposures; and 
+comprehensive potable and non-potable water safety.  BE is responsible for the following 
+overarching tasks.  See Attachment 7 for a summary of CBRN defense related tasks. 
+3.3.3.1.  Environmental Health Hazard Assessments.  Conduct water and TIC/TIM 
+vulnerability assessments IAW theater policy.  Develop surveillance strategies based on 
+threats, force protection conditions, and intelligence reviews in partnership with joint force 
+and line counterparts.  Provide recommendations to improve the survivability of key assets 
+to commanders and the ATWG and TWG, as appropriate. 
+3.3.3.2.  Site Assessment and Selection.  Work with commanders in the selection of the 
+beddown site and layout of operations.  Evaluate and integrate intelligence and 
+vulnerability assessment data to validate actual or potential health threats, determine 
+exposure pathways, and determine appropriate courses of action and countermeasures.  
+Identify local or regional sources of pollution and test for evidence of field and workplace 
+contamination.  Collect environmental samples (e.g., soil, air, water, vegetation) in support 
+of the OEHSA.  Document potential hazards and exposures to establish a health risk 
+baseline. 
+AFTTP3-42.23  19 JUNE 2018 
+13 
+3.3.3.3.  Predictive Exposure Assessments.  Work with EM to predict personnel exposures 
+from CBRN incidents and threats, TIC/TIM releases, industrial operations, and field 
+sanitation conditions.  Provide flexible and sustainable force health protection 
+recommendations to predict and reduce adverse health effects.  Use modeling and mapping 
+tools to predict concentrations, contamination plumes, and persistency rates from a 
+TIC/TIM or CBRN incident.  Examples of these tools include CBRN Health Assessment 
+and Risk Tool (CHART), Chemical Hazard Estimation Method and Risk Assessment Tool 
+(CHEMRAT), Joint Effects Model (JEM), and plots documented in AFTTP 3-2.56, 
+Multiservice Techniques and Procedures for Chemical, Biological, Radiological, and 
+Nuclear Contamination Avoidance.  Sampling data should be used to validate or refine the 
+predictions.  Brief findings and recommendations to commanders and the ATWG/TWG, 
+as appropriate. 
+3.3.3.4.  Water Quality and Safety.  Implement water quality sampling, system analysis, 
+field sanitation assessments, and monitoring procedures to ensure safe potable and non-
+potable water IAW theater commander and theater surgeon policy and geographically 
+specific threat conditions.  Identify safe sources and treatment processes for potable and 
+non-potable water.  Work closely with the U.S. Army Public Health Center and Force 
+Support to ensure all bottled water sources are approved, sampled, monitored, and properly 
+stored.  If necessary, approve temporary drinking water sources (e.g., bottled water) in 
+cases where no pre-approved water source is available. 
+3.3.3.5.  Incident Response.  Provide real-time CBRN response through surveillance, risk 
+assessment, decision support, protective measures, and sample preservation while 
+operating in cold, warm, and hot zones.  Provide commanders with an HRA and appropriate 
+risk communication.  Assist and advise on identification, monitoring, and contamination 
+control actions.  Conduct quantitative analysis of CBRN agents.  Perform soil, water, and 
+air sampling and assess the effectiveness of contamination control measures.  Assist 
+commanders and emergency services with contingency response planning, response, and 
+recovery.  Provide decontamination teams with recommendations on proper 
+decontaminants and disposal procedures. 
+3.3.3.6.  Health Risk Assessments and Management.  Anticipate, identify, assess, and 
+document health threats and develop controls and countermeasures.  Provide commanders 
+with recommendations on risk factors and implementation of controls to mitigate 
+unavoidable OEH and CBRN threats.  Evaluate data from OEH site assessments, 
+preliminary hazard assessments (PLHAs), industrial hazard assessments, environmental 
+baseline surveys, health surveillance activities, medical intelligence products, lessons 
+learned, and other available data for the deployment area. 
+3.3.3.7.  Personnel Exposure Monitoring.  Document personnel OEH and CBRN exposures 
+in the OEH-MIS.  Provide commanders with HRAs on deployment-specific exposures and 
+recommendations on associated controls.  Monitor work areas and personnel involved with 
+the storage, use, and disposal of ionizing and non-ionizing radiation sources and generation 
+devices. 
+3.3.4.  Public Health Tasks.  Public health provides expertise in food protection; sanitation; 
+communicable disease surveillance and mitigation; outbreak investigation; vector surveillance, 
+14 
+AFTTP3-42.23  19 JUNE 2018 
+disease testing, and mitigation; injury surveillance and education; and medical intelligence.  
+Public health is responsible for the following tasks. 
+3.3.4.1.  Site Selection.  Provide site commanders with recommendations on site selection 
+and preparation based on the potential for public health threats and sanitation concerns.  
+Coordinate recommendations with CE as applicable.  Provide BE with consultation and 
+support for OEHSA development. 
+3.3.4.2.  Medical Intelligence and Disease Surveillance.  Monitor local disease threats to 
+include trends in outbreaks, identify and report changes in disease threat, and provide 
+recommendations on preventive measures.  Develop and maintain a disease and injury 
+surveillance system, identify vector-borne disease potential, and implement proper 
+preventive measures.  Monitor for compliance with preventive measures. 
+3.3.4.3.  Food Protection.  Coordinate with Force Support, Security Forces, Office of 
+Special Investigations (OSI), and other responsible agencies to ensure food is procured 
+from safe sources.  Conduct food facility inspections to ensure food is properly stored, 
+prepared, and handled IAW AFI 48-116, Food Safety Program.  Inspect and approve local 
+food establishments not listed in the Directory of Sanitarily Approved Food Establishments 
+for Armed Forces Procurement when requested by the installation commander. 
+3.3.4.4.  OEH Prevention.  Work with BE to develop and maintain OEH prevention 
+programs (including hearing conservation).  Investigate potential occupational related 
+illnesses and injuries and recommend appropriate preventive actions. 
+3.3.4.5.  Health Education and Consultation.  Provide health education and consultation on 
+disease and injury prevention topics such as field sanitation and hygiene, local disease and 
+environmental threats and countermeasures, PPE, heat and cold stress, and food safety and 
+security. 
+3.3.4.6.  Contagious Casualty Management.  Public health personnel are responsible for 
+recommending initial infectious disease control measures.  If the PAM team is deployed as 
+a stand-alone team, the team chief should coordinate with the expeditionary wing 
+commander on isolation space for contagious casualties and restriction of movement IAW 
+AFI 10-2519, Public Health Emergencies and Incidents of Public Health Concern.  The 
+AFFOR/SG makes the determination on whether to move contagious patients or isolate 
+and treat in-place.  Public health technicians are responsible for verifying the immunization 
+status of personnel. 
+3.3.4.7.  Outbreak Investigation.  Conduct epidemiological investigations of food-borne 
+illness, communicable disease, and vector-borne disease outbreaks.  Recommend measures 
+to mitigate the outbreak and prevent future occurrences. 
+3.3.5.  Reporting Responsibilities.  The PAM team is responsible for recording and tracking 
+patient encounters, OEH exposures, and health surveillance data IAW DODI 6490.03, 
+Deployment Health, DODI 6055.05, Occupational and Environmental Health (OEH), and 
+theater surgeon policy.  The Theater Medical Information Program – Air Force (TMIP-AF) 
+provides the electronic system of record for reporting this data.  See Chapter 5 for more 
+information on TMIP-AF. 
+AFTTP3-42.23  19 JUNE 2018 
+15 
+3.4.  Redeployment.  The PAM team provides health service support during the ramp-down phase 
+and is generally one of the last Air Force medical assets redeployed.  If applicable, PAM team 
+members should establish contact with their replacement teams and provide operational plans and 
+status reports to ensure continuity.  Team chiefs are responsible for ensuring that custody of 
+equipment is signed over to the transportation officer.  Before departure, team chiefs should 
+provide the AFFOR/SG with shipment status and a copy of the shipping documents.  Team chiefs 
+should submit after-action reports and lessons learned IAW AFI 10-204, Participation in Joint and 
+National Exercises, and AFI 90-1601, Air Force Lessons Learned Program. 
+ 
+ 
+16 
+AFTTP3-42.23  19 JUNE 2018 
+Chapter 4 
+COMMAND AND CONTROL (C2) RELATIONSHIPS 
+4.1.  C2 of Medical Teams.  The chain of command for expeditionary medical units is through 
+line of the Air Force (LAF) commanders.  Air Force elements deployed into a theater are typically 
+aligned under the command of the Commander, Air Force Forces (COMAFFOR).  The 
+COMAFFOR exercises administrative control (ADCON) responsibilities for assigned and 
+attached Air Force forces IAW Air Force Doctrine Volume 3, Command.  Expeditionary medical 
+teams normally operate under the local direction of the deployed expeditionary unit commander 
+(usually the EMEDS or AFTH commander).  Deploying personnel should receive a chain of 
+command briefing before deployment. 
+4.2.  PAM Team Command Structure.  The PAM team is normally assigned to the senior 
+medical commander at the employment location.  The PAM team’s senior officer (usually the 
+RAM) is the team chief.  When deployed to a CBRN threat environment, the PAM team closely 
+coordinates with other AFMS CBRN defense teams such as the Biological Augmentation Team 
+(BAT) and Patient Decontamination team.  The team may also directly support sister service 
+equivalents.  Figure 4.1 provides a notional command structure. 
+Figure 4.1.  Notional Command Structure. 
+ 
+ 
+ 
+4.3.  Squadron Medical Elements (SME).  SME flight surgeons assigned to the medical facility 
+remain under the command of their squadron commanders but are functionally supervised by the 
+AFTTP3-42.23  19 JUNE 2018 
+17 
+RAM.  The RAM coordinates their interaction with the medical group and other components of 
+the theater medical system. 
+4.4.  Global Reach Laydown (GRL) Team.  When tasked, the GRL team deploys with the 
+contingency response group (CRG) to provide initial force protection and clinical support during 
+the rapid opening of contingency airfields.  During the deployment, the team remains under Air 
+Mobility Command (AMC) command.  The GRL team usually arrives before the PAM team and 
+redeploys with the CRG.  The PAM team should work closely with the GRL team during the 
+transition for turnover of information and surveillance data. 
+ 
+ 
+18 
+AFTTP3-42.23  19 JUNE 2018 
+Chapter 5 
+COMMUNICATIONS AND INFORMATION SYSTEMS 
+5.1.  Communications Requirements.  The PAM team deploys with DOD-approved land mobile 
+radios, satellite phone, and computer systems.  The team is not equipped with the communications 
+infrastructure needed for independent operation and relies on the host base’s communications units 
+for support.  The PAM team requires access to the Defense Switched Network (DSN), secure voice 
+communications, Non-classified Internet Protocol Router Network (NIPRNET), and Secret 
+Internet Protocol Router Network (SIPRNET).  DSN modem access is required to forward medical 
+epidemiological information to the JTF/SG, AFFOR/SG, and TET.  The PAM team requires access 
+to a classified computer system to complete the classified portions of the vulnerability assessments 
+and other classified documents.  See Attachment 5 for more information on communications 
+requirements. 
+5.2.  Computer Systems.  Computers issued to the PAM team include the DOD Standard Desktop 
+Configuration (SDC) and TMIP-AF.  The computers also contain software required for operation 
+of the team’s health surveillance equipment.  Substitution of other laptops is not authorized. 
+5.2.1.  Theater Medical Information Program – Air Force (TMIP-AF) Applications.  The 
+TMIP-AF software image contains the Joint Operational Medicine Information Systems 
+(JOMIS) applications tailored for the Air Force to support healthcare delivery in theater and 
+provide the combatant commands with critical, decision-making information. It includes 
+applications for electronic health record (EHR) management, exposure tracking and 
+surveillance, medical logistics, and medical C2 functions.  Contact the Chief Information 
+Officer (CIO), major command (MAJCOM), or Manpower and Equipment Force Packaging 
+(MEFPAK) Responsible Agency (MRA) for the current list of applications included in TMIP-
+AF. 
+5.2.2.  Specialty-Specific Applications.  In addition to the medical applications included in 
+TMIP-AF, PAM teams may have access to the specialty-specific applications listed in Table 
+5.1. 
+Table 5.1.  Specialty-Specific Applications. 
+Application 
+Purpose 
+Availability 
+Aeromedical Services 
+Information Management 
+System (ASIMS) 
+Immunization tracking 
+Web application 
+Air Force Disease Reporting 
+System internet (AFDRSi) 
+Reportable medical events 
+tracking and reporting 
+Web application 
+Corporate Dental Application 
+(CDA) 
+Electronic dental record 
+Note:  CDA is a U.S. Army 
+Dental Command application. 
+Web application 
+Defense Blood Standard 
+System (DBSS) 
+Blood operations 
+Web application 
+Medical Situational 
+Awareness in the Theater 
+(MSAT) 
+Medical surveillance 
+SIPRNET system 
+AFTTP3-42.23  19 JUNE 2018 
+19 
+Spectacle Request 
+Transmission System (SRTS) 
+Optometry services 
+Locally installed 
+Transportation Command 
+Regulating and Command and 
+Control Evacuation System 
+(TRAC2ES) 
+Medical regulating and patient 
+movement tracking 
+Web application 
+Note:  Locally installed applications come pre-installed and configured on laptops.  Web-
+based applications are accessed through a web browser, and laptops might include a 
+desktop shortcut. 
+ 
+5.3.  Information Assurance (IA) Policy.  PAM personnel must understand and follow IA 
+procedures, to include communications security (COMSEC) and computer security 
+(COMPUSEC), IAW AFI 17-130, Cybersecurity Program Management, AFMAN 17-1301, 
+Computer Security (COMPUSEC), and associated Air Force IA guidance.  Deploying personnel 
+must have current Air Force IA certification or complete refresher training. 
+5.4.  Tactical Communications.  The PAM team should establish mobile communications with 
+EM, the emergency operations center (EOC), and other DOD or partner response teams to properly 
+coordinate surveillance activities and establish rapid reporting protocols.  The teams should agree 
+on radio call signs and code words during the preparation phase. 
+ 
+ 
+20 
+AFTTP3-42.23  19 JUNE 2018 
+Chapter 6 
+INTEGRATION AND INTEROPERABILITY 
+6.1.  Integration and Interoperability with Other Systems.  Deployed medical personnel in a 
+theater or area of operation may support elements of an AEF, components of the AE system, joint 
+medical counterparts, Special Operations Forces (SOF), and other federal and civilian agencies.  
+In some instances, theater planners may request medical support for beddown locations not 
+associated with a typical AEF or ECS/base operating support (BOS) infrastructure. 
+6.2.  Expeditionary Medical Support (EMEDS) Integration.  In AEF missions, the PAM team 
+is integrated into the EMEDS package and works for the EMEDS commander.  All EMEDS 
+personnel provide cross-functional support.  The RAM augments primary care services at the 
+facility and helps develop the mass casualty response plan.  The IDMT provides clinical support 
+as needed.  Other PAM team members support their assigned disaster response roles as determined 
+by the EMEDS commander.  If a Collectively Protected EMEDS (CP-EMEDS) is deployed, the 
+PAM team works with medical logistics personnel to ensure CP capability is maintained. 
+6.3.  Air Force Medical CBRN Defense Force Module.  The PAM Counter-CBRN team may 
+deploy as part of the AFMS CBRN Defense Force Module.  This force module is a grouping of 
+manpower and equipment UTCs that provide a scalable, tailorable medical CBRN defense and 
+response capability for beddown locations in a moderate to high-threat environment.  It provides 
+a robust portfolio of installation-level response, agent identification, agent quantification, analysis, 
+infectious disease support, and patient decontamination.  Table 6.1 lists the UTCs included in the 
+force module. 
+Table 6.1.  AFMS CBRN Defense Force Module. 
+ 
+6.4.  Air Force Medical Theater-Level CBRN Defense Assets.  The Air Force Radiation 
+Assessment Team (AFRAT) and TET are theater-level assets that may be co-located with a PAM 
+or EMEDS team.  They are generally tasked with area support responsibilities.  They may work 
+AFTTP3-42.23  19 JUNE 2018 
+21 
+collaboratively and consult with the PAM team and other components of the AFMS CBRN 
+Defense Force Module that are providing installation-level support. 
+6.5.  Collaboration with CBRN Response Teams.  During an incident response, the PAM team 
+may work with other AFMS CBRN defense teams, EM, and reconnaissance teams to gather 
+information needed to assess the vulnerability of critical assets, identify potential health risks to 
+personnel, identify pathways of exposure, and implement protective measures.  The PAM Counter-
+CBRN team is equipped to provide decision-making support on PPE donning and doffing (de-
+MOPPing, de-masking) and chemical, biological, and radiological platform clearance support.  
+They may also assist in conducting quantitative assessments of potentially contaminated areas.  
+The PAM team chief advises commanders and the EOC on contamination avoidance measures, 
+such as collective protection, individual protection, fixed facilities, vaccines, prophylaxis, 
+therapeutics, and exposure assessment. 
+6.5.1.  CBRN Confirmation Support.  The PAM team can perform field analysis of CBRN 
+agents and field confirmation of chemical and radiological agents.  This information is used 
+by commanders to make operational risk management decisions and may be used by other 
+agencies and higher headquarters to help confirm a CBRN attack.  Medical data is not used 
+alone to determine a CBRN attack.  Field samples are sent to the designated reference 
+laboratory (e.g., United States Air Force School of Aerospace Medicine [USAFSAM], United 
+States Army Medical Research Institute of Infectious Diseases [USAMRIID]) in the 
+continental United States (CONUS) for further testing.  BE personnel rely on the reference 
+laboratory and co-located BAT personnel (if applicable) for technical advice and assistance in 
+shipping samples. 
+6.5.2.  Biological Augmentation Team (BAT) Collaboration.  The PAM team works closely 
+with the BAT on field confirmation of BTAs and biological contamination clearance support.  
+The two teams will be co-located when deployed together.  See Attachment 8 for a notional 
+site layout. 
+6.5.3.  Patient Decontamination Consultation.  The PAM team may provide consultation and 
+technical support to the patient decontamination team.  The PAM team can provide information 
+on CBRN agent concentrations, persistency, physical characteristics, chemical characteristics, 
+and other information to assist the team in establishing effective decontamination 
+procedures.6.5.4.  Patient Movement Consultation.  The combatant commander (CCDR) or 
+Joint Force Commander (JFC) establishes policy for intratheater patient movement in CBRN 
+environments.  United States Transportation Command (USTRANSCOM) is responsible for 
+intertheater patient movement policy.  Specialized theater-level support may be required to 
+properly transport and evacuate patients in certain contaminated environments.  The PAM team 
+may provide consultation to medical care providers on patient evacuation and transport issues 
+complicated by CBRN agent contamination.  The PAM team can provide information on the 
+type of agent, hazards, contamination control procedures, and recommended protective 
+postures for patients and medical personnel during ground or air transport. 
+6.5.4.  Sample Shipments.  The PAM team should coordinate with the transportation 
+management office, logistics, medical laboratory, and EM on local plans for shipping samples 
+of potential radiological, chemical, and biological agents for further testing, as well as chain 
+of custody procedures.  The plan should identify the OPR for packaging, storing, securing, 
+shipping, escorting, and receiving the samples. 
+22 
+AFTTP3-42.23  19 JUNE 2018 
+6.6.  Interaction with Other Preventive Medicine Teams.  The PAM team works closely with 
+other deployed preventive medicine teams to monitor and control disease and injury.  These teams 
+may include other DOD counterparts and partner nations.  The PAM team works with all medical 
+personnel at the beddown location to establish procedures for gathering reportable disease and 
+injury data. 
+6.7.  Expeditionary 
+Combat 
+Support 
+(ECS)/Base 
+Operating 
+Support 
+(BOS) 
+Requirements.  The PAM team deploys with limited organic capability and requires ECS/BOS.  
+ECS/BOS requirements include (but are not limited to) billeting, messing and other consumable 
+materials, power, water, ice, latrines, showers, laundry, waste management, transportation, fuels, 
+vehicle and equipment maintenance, general supplies, contracting, communications systems 
+support, and security.  ECS/BOS may be provided using the host base’s capabilities, deployable 
+bare base systems, and contracted civilian support.  See Attachment 5 for quantified estimates on 
+required support. 
+6.7.1.  Health Surveillance Transportation Requirements.  The PAM team requires access to a 
+four-passenger or larger all-terrain vehicle with sufficient cargo room for their equipment to 
+perform initial site assessments, CBRN response and assessment, and ongoing OEH 
+surveillance.  A second vehicle is required with the addition of the PAM Counter-CBRN team.  
+PAM team members may perform their duties off-base and should have an international 
+driver’s license and government passport. 
+6.7.2.  Backup Generator.  The PAM sustainment equipment package includes a backup 
+generator.  This generator provides emergency power for the team’s radiation monitoring 
+equipment and analytical instrumentation and is not intended to support the environmental 
+control unit (ECU).  The PAM team relies on ECS/BOS for connection to the base power 
+system.  The PAM Counter-CBRN equipment package is engineered for compatibility with 
+CP equipment and includes an ECU for proper overpressure. 
+ 
+ 
+AFTTP3-42.23  19 JUNE 2018 
+23 
+Chapter 7 
+SECURITY 
+7.1.  Security Roles and Responsibilities.  Medical personnel and equipment are non-combatant 
+assets as defined by the Geneva Conventions and Law of Armed Conflict (LOAC).  Medical 
+personnel and war reserve materiel (WRM) assemblages are protected IAW AFI 31-101, 
+Integrated Defense.  Current threat assessments provided by the CCDR and local threat conditions 
+established by the JTF, Air Expeditionary Wing (AEW), or Air Expeditionary Group (AEG) 
+commander dictate all local security measures.  Medical facility commanders are responsible for 
+ensuring security measures are in place to protect patients and personnel.  PAM personnel are 
+responsible for following personal protection measures outlined in AFI 31-101, area of 
+responsibility (AOR) security briefings, established force protection requirements, and local 
+guidance.  PAM personnel will deploy with standard PPE and follow theater arming instructions 
+as directed by the operational order (OPORD). 
+7.2.  Physical Security.  Security forces guard medical facilities only if deemed necessary as part 
+of the Integrated Defense Plan.  If the threat changes, security forces may appoint an augmented 
+detail to provide force protection and entry control. 
+7.3.  Operations Security (OPSEC).  PAM personnel must protect mission-critical information 
+(to include medical or casualty information) IAW CCDR OPSEC policy and AFI 10-701, 
+Operations Security (OPSEC).  Classified information must be transmitted by secure means and 
+protected IAW AFI 16-1404, Air Force Information Security Program.  Situation reports 
+(SITREPs), medical surveillance, site locations, and compiled patient data are examples of 
+information that may be classified. 
+7.4.  Security of Weapons and Ammunition.  Base security forces provide guidance and an 
+armory to ensure the safe storage of weapons and ammunition.  PAM personnel may maintain 
+issued weapons and ammunition when authorized by the medical facility commander or equivalent 
+at the direction of the JTF or AEW/AEG commander.  All weapons and ammunition must be 
+secured IAW AFI 31-101 and local procedures.  With the exception of security forces responding 
+to a request for assistance, personnel should not be allowed to enter the medical facility with a 
+loaded weapon. 
+ 
+ 
+24 
+AFTTP3-42.23  19 JUNE 2018 
+Chapter 8 
+TRAINING 
+8.1.  Medical Readiness Training Requirements.  Personnel assigned to a PAM UTC must 
+complete individual, deployment, and unit training requirements IAW AFI 41-106 and MRA 
+guidance.  Examples include Readiness Skills Training (RST), CBRN emergency preparedness 
+and response, and clinical AFSC training.  Completion of all medical readiness training and 
+equivalency training must be documented in the Medical Readiness Decision Support System 
+(MRDSS).  Theater-unique training requirements will be identified in deployment reporting 
+instructions or line remarks. 
+8.2.  Formal Training.  PAM personnel assigned to UTCs FFPM1, FFPM2, and FFPM3 must 
+attend the in-residence EMEDS formal course upon initial assignment to the UTC IAW AFI 41-
+106.  This course provides field operational training in EMEDS setup and packout, deployed 
+operations, equipment proficiency, and doctrine and is designed to promote team performance, 
+cohesion, and cross-functionality.  Personnel assigned to FFPM6 may attend the course, but it is 
+not required. 
+8.3.  UTC Sustainment Training.  UTC sustainment training occurs between formal course 
+attendance cycles and provides team training in the skills and knowledge a UTC must possess to 
+fulfill mission essential tasks (METs).  UTC sustainment training credit may be granted for 
+participation in MET-driven exercises, operational readiness exercises (OREs), local exercises, 
+and joint exercises.  Contact the ACC/SGX training branch for information on MRA-approved 
+sustainment training exercises. 
+8.4.  Mission Essential Task Lists (METLs).  METLs are designed to help assess, measure, and 
+report a unit’s ability to perform its mission.  PAM personnel are expected to be proficient in the 
+EMEDS Core METLs, as well as their UTC-specific METLs.  Core METLs and UTC-specific 
+METLs are available on the ACC/SG MEFPAK Playbook at https://cs3.eis.af.mil/sites/MD-SG-
+00-15/default.aspx or from the ACC/SGX training branch. 
+8.5.  Functional-Specific Training.  The following functional training is recommended for PAM 
+team members. 
+8.5.1.  Field Preventive Medicine Courses.  USAFSAM, U.S. Army Public Health Center, 
+United States Army Medical Research Institute of Chemical Defense (USAMRICD), and 
+USAMRIID offer various preventive medicine courses focused on field operations.  
+Recommended courses include Global Medicine, Combat Casualty Care, Operational 
+Entomology, Contingency Preventive Medicine, and Bioenvironmental Engineering Response 
+and Deployment Skills (BERDS). 
+8.5.2.  Patient Care Cross-Training.  BE and public health personnel should maintain patient 
+care training (e.g., basic life-saving skills, self-aid buddy care, patient movement) to augment 
+clinical personnel as needed.  Cross-functional training includes familiarization with triage and 
+emergency medical procedures, CBRN surveillance, environmental and industrial analysis, 
+and epidemiological investigation and reporting. 
+8.5.3.  EM Training.  BE personnel should familiarize and train with EM personnel before 
+deployment if the teams are co-located. 
+AFTTP3-42.23  19 JUNE 2018 
+25 
+8.5.4.  CBRN Defense Training.  The PAM team should be familiar with AFI 10-2501, Air 
+Force Emergency Management Program, and AFMAN 10-2503, Operations in a Chemical, 
+Biological, Radiological, Nuclear, and High-Yield Explosive (CBRNE) Environment.  
+Recommended courses for all PAM personnel include Field Management of Chemical and 
+Biological Casualties and Medical Management of Chemical and Biological Casualties offered 
+through USAMRICD.  BE personnel assigned to a PAM UTC should have recent training in 
+one of these courses within the past three years.  Other recommended courses include Radiation 
+Safety Officer (RSO), Medical Effects of Ionizing Radiation (MEIR), and Nuclear Emergency 
+Team Operations (NETOPS). 
+8.6.  Vehicle Operation Training.  PAM team members should obtain training in forklift and 
+vehicle operations to ensure adequate coverage.  Operators of material handling equipment, 
+ambulances, and other government motor vehicles must have a government driver’s license and 
+appropriate certification IAW AFI 24-301, Vehicle Operations.  PAM team members may perform 
+some of their duties off-base and may require an international driver’s license. 
+ 
+ 
+26 
+AFTTP3-42.23  19 JUNE 2018 
+Chapter 9 
+LOGISTICS 
+9.1.  Expeditionary Medical Logistics (EML) Support.  The EML system provides time-
+definite resupply of materiel by synchronizing the flow of materiel, information, and funds from 
+initial unit request to delivery.  It links all partners in a complex supply chain (e.g., vendors, depots, 
+carriers, third-party logisticians, and information managers).  The EML system uses a pull process 
+for resupply and a repair-and-return process for medical equipment maintenance to minimize 
+inventory and airlift requirements.  Within the EML system, a sustaining base is the materiel 
+lifeline for deployed medical units.  The sustaining base augments the deployed medical unit’s 
+limited logistical capability by assuming the bulk of the supply chain’s administrative, sourcing, 
+and tracking functions.  The AFFOR/SG, in coordination with the Air Force Medical Logistics 
+Operations Center (AFMLOC), determines the sustaining base.  In a mature theater, a Theater 
+Lead Agent for Medical Materiel (TLAMM) element may be linked to the combatant commands, 
+JTF/SG, AFFOR/SG, deployed medical units, sustaining base, and AFMLOC.  When a TLAMM 
+is established, it becomes the deployed unit’s primary point of contact for materiel and equipment 
+support in theater.  See AFTTP 3-42.8, Expeditionary Medical Logistics (EML) System, for more 
+information on logistics support. 
+9.2.  Medical Materiel Management.  Most CONUS-based expeditionary medical equipment is 
+managed and deployed through designated consolidated storage and deployment centers (CSDCs).  
+Equipment UTCs may be pre-positioned in theater based on requirements from geographic CCDRs 
+and the COMAFFOR. 
+9.3.  Supplies and Equipment.  Initial deployments include 30 days of supplies (the initial 10-
+day man-portable field packs and a sustainment package).  UTC team chiefs should coordinate 
+subsequent resupply through the medical logistics function at the deployed location.  Table 9.1 
+lists the PAM equipment UTCs and corresponding AS.  The AS lists the equipment and supplies 
+included in the equipment package.  UTC team chiefs should be familiar with the contents of their 
+equipment packages before deployment and should contact the medical logistics office for 
+assistance with reviewing the AS. 
+Table 9.1.  PAM Equipment and AS Matrix. 
+Equipment UTC 
+AS 
+FFPM4, ADVON Man-Portable Equipment 
+916E 
+FFPM5, Sustainment Equipment 
+916F 
+FFPM7, CBRN Support Equipment 
+902B 
+ 
+9.4.  Medical Equipment Maintenance and Repair.  Biomedical equipment technicians 
+(BMETs) provide routine maintenance and repair of medical equipment at the deployed location.  
+Medical equipment deemed broken beyond the medical facility’s ability to repair should be sent 
+to the regional Medical Equipment Repair Center (MERC) or the manufacturer.  Some MERCs 
+are designated Loan Repair & Return Centers (LRRC).  The LRRC loans some specialized 
+equipment to augment a deployed location’s capability when equipment cannot be repaired locally. 
+AFTTP3-42.23  19 JUNE 2018 
+27 
+9.5.  Equipment Upgrades and Modernization.  Changes to the PAM equipment package may 
+result from technology advances and lessons learned feedback.  MRAs typically budget and plan 
+for major equipment reviews every five years. 
+ 
+ROBERT I. MILLER 
+Brigadier General, USAF, MC 
+Director, Medical Operations and Research 
+28 
+AFTTP3-42.23  19 JUNE 2018 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+DODI 6055.05, Occupational and Environmental Health (OEH), 11 November 2008 
+DODI 6490.03, Deployment Health, 11 August 2006 
+Air Force Doctrine Volume 3, Command, 22 November 2016 
+AFI 10-204, Participation in Joint and National Exercises, 27 March 2015 
+AFI 10-403, Deployment Planning and Execution, 20 September 2012 
+AFI 10-701, Operations Security (OPSEC), 8 June 2011 
+AFI 10-2501, Air Force Emergency Management Program, 19 April 2016 
+AFI 10-2519, Public Health Emergencies and Incidents of Public Health Concern, 26 June 2015 
+AFI 16-1404, Air Force Information Security Program, 29 May 2015 
+AFI 17-130, Air Force Cybersecurity Program Management, 19 March 2018 
+AFI 24-301, Vehicle Operations, 1 November 2008 
+AFI 31-101, Integrated Defense, 5 July 2017 
+AFI 41-106, Medical Readiness Program Management, 22 April 2014 
+AFI 44-103, The Air Force Independent Duty Medical Technician Program, 6 December 2013 
+AFI 48-116, Food Safety Program, 19 August 2014 
+AFI 90-1601, Air Force Lessons Learned Program, 18 December 2013 
+AFMAN 10-2503, Operations in a Chemical, Biological, Radiological, Nuclear, and High-Yield 
+Explosive (CBRNE) Environment, 7 July 2011 
+AFMAN 17-1301, Computer Security (COMPUSEC), 10 February 2017 
+AFMAN 33-363, Management of Records, 1 March 2008 
+AFMAN 48-147, Tri-Service Food Code, 30 April 2014 
+AFTTP 3-2.56, Multiservice Techniques and Procedures for Chemical, Biological, Radiological, 
+and Nuclear Contamination Avoidance, 2 February 2006 
+AFTTP 3-2.82, Occupational and Environmental Health Site Assessment, April 2012 
+AFTTP 3-42.2, Health Service Support Casualty Prevention for Expeditionary Operations, 20 
+April 2004 
+AFTTP 3-42.7, Aerospace Medical Contingency Ground Support System, 24 August 2001 
+AFTTP 3-42.8, Expeditionary Medical Logistics (EML) System, 5 October 2011 
+AFTTP 3-42.22, Contagious Casualty Management, 7 May 2007 
+AFTTP 3-42.33, Expeditionary Medical Decontamination Team, 7 April 2005 
+AFTTP3-42.23  19 JUNE 2018 
+29 
+AFTTP 3-42.71, Expeditionary Medical Support (EMEDS) and Air Force Theater Hospital 
+(AFTH), 27 August 2014 
+Air Force Medical Concept of Operations (CONOPS) for the Biological Augmentation Team 
+(BAT), 14 July 1999 
+FM 4-02.7/MCRP 4-11.1F/NTTP 4-02.7/AFTTP 3-42.3, Multiservice Tactics, Techniques, and 
+Procedures for Health Service Support in a Chemical, Biological, Radiological, and Nuclear 
+(CBRN) Environment, 15 July 2009 
+Office of the Under Secretary of Defense memo,  Biological Clearance Guidelines for Platforms 
+and Materiel, 27 Sept 2016 
+Office of the Under Secretary of Defense memo, Radiological Clearance Criteria Guidelines for 
+Platforms and Materiel, 16 December 2011 
+Principal Deputy Under Secretary of Defense memo, Chemical Clearance Guidelines for 
+Platforms and Materiel, 26 August 2014 
+War and Mobilization Plan, Volume 1 (WMP-1), Air Force Medical Service (AFMS) 
+Supplement, 2 May 2012 
+Adopted Forms 
+AF Form 847, Recommendation for Change of Publication, 22 September 2009 
+Abbreviations and Acronyms 
+ACC—Air Combat Command 
+ACS—Agile Combat Support 
+ADCON—Administrative Control 
+ADVON—Advanced Echelon 
+AE—Aeromedical Evacuation 
+AEF—Air Expeditionary Force 
+AEG—Air Expeditionary Group 
+AEW—Air Expeditionary Wing 
+AFDRSi—Air Force Disease Reporting System internet 
+AFFOR—Air Force Forces 
+AFI—Air Force Instruction 
+AFMAN—Air Force Manual 
+AFMLOC—Air Force Medical Logistics Operations Center 
+AFMS—Air Force Medical Service 
+AFRAT—Air Force Radiation Assessment Team 
+AFRC—Air Force Reserve Command 
+30 
+AFTTP3-42.23  19 JUNE 2018 
+AFRIMS—Air Force Records Information Management System 
+AFSC—Air Force Specialty Code 
+AFTH—Air Force Theater Hospital 
+AFTTP—Air Force Tactics, Techniques, and Procedures 
+AMC—Air Mobility Command 
+ANG—Air National Guard 
+AOR—Area of Responsibility 
+AS—Allowance Standard 
+ASIMS—Aeromedical Services Information Management System 
+ATWG—Antiterrorism Working Group 
+BAT—Biological Augmentation Team 
+BE—Bioenvironmental Engineering 
+BEE—Bioenvironmental Engineer 
+BERDS—Bioenvironmental Engineering Response and Deployment Skills 
+BMET—Biomedical Equipment Technician 
+BOS—Base Operating Support 
+BTA—Biological Threat Agent 
+C2—Command and Control 
+CBRN—Chemical, Biological, Radiological, and Nuclear 
+CBRNE—Chemical, Biological, Radiological, Nuclear, and High-Yield Explosive 
+CCA—Contamination Control Area 
+CCDR—Combatant Commander 
+CDA—Corporate Dental Application 
+CE—Civil Engineer 
+CHART—CBRN Health Assessment and Risk Tool 
+CHEMRAT—Chemical Hazard Estimation Method and Risk Assessment Tool 
+CIO—Chief Information Officer 
+COMAFFOR—Commander, Air Force Forces 
+COMPUSEC—Computer Security 
+COMSEC—Communications Security 
+CONOPS—Concept of Operations 
+CONUS—Continental United States 
+AFTTP3-42.23  19 JUNE 2018 
+31 
+CP—Collective Protection, Collectively Protected 
+CP-EMEDS—Collectively Protected Expeditionary Medical Support 
+CRG—Contingency Response Group 
+DBSS—Defense Blood Standard System 
+DOD—Department of Defense 
+DODI—Department of Defense Instruction 
+DSN—Defense Switched Network 
+ECS—Expeditionary Combat Support 
+ECU—Environmental Control Unit 
+EHR—Electronic Health Record 
+EM—Emergency Management 
+EMEDS—Expeditionary Medical Support 
+EML—Expeditionary Medical Logistics 
+EOC—Emergency Operations Center 
+FM—Field Manual 
+FOC—Full Operational Capability 
+GRL—Global Reach Laydown 
+HAZCOM—Hazard Communication 
+HRA—Health Risk Assessment 
+HRT—Health Response Team 
+IA—Information Assurance 
+IAW—In Accordance With 
+IDMT—Independent Duty Medical Technician 
+IOC—Initial Operational Capability 
+JEM—Joint Effects Model 
+JFC—Joint Force Commander 
+JOMIS—Joint Operational Medicine Information Systems 
+JTF—Joint Task Force 
+LAF—Line of the Air Force 
+LMW—Lead Mobility Wing 
+LOAC—Law of Armed Conflict 
+LRRC—Loan Repair & Return Center 
+32 
+AFTTP3-42.23  19 JUNE 2018 
+MAJCOM—Major Command 
+MCRP—Medical Contingency Response Plan, Marine Corps Reference Publication 
+MEFPAK—Manpower and Equipment Force Packaging 
+MEIR—Medical Effects of Ionizing Radiation 
+MERC—Medical Equipment Repair Center 
+MET—Mission Essential Task 
+METL—Mission Essential Task List 
+MISCAP—Mission Capability 
+MOPP—Mission-Oriented Protective Posture 
+MRA—MEFPAK Responsible Agency 
+MRDSS—Medical Readiness Decision Support System 
+MSAT—Medical Situational Awareness in the Theater 
+MTF—Medical Treatment Facility 
+NBC—Nuclear, Biological, and Chemical 
+NCMI—National Center for Medical Intelligence 
+NETOPS—Nuclear Emergency Team Operations 
+NIPRNET—Non-classified Internet Protocol Router Network 
+NTTP—Navy Tactics, Techniques, and Procedures 
+OEH—Occupational and Environmental Health 
+OEH-MIS—Occupational and Environmental Health Management Information System 
+OEHSA—Occupational and Environmental Health Site Assessment 
+OPLAN—Operation Plan 
+OPORD—Operation Order 
+OPR—Office of Primary Responsibility 
+OPSEC—Operations Security 
+ORE—Operational Readiness Exercise 
+OSI—Office of Special Investigations 
+PAM—Preventive and Aerospace Medicine 
+PAR—Population at Risk 
+PHO—Public Health Officer 
+PLHA—Preliminary Hazard Assessment 
+POL—Petroleum, Oils, and Lubricants 
+AFTTP3-42.23  19 JUNE 2018 
+33 
+PPE—Personal Protective Equipment 
+QNFT—Quantitative Fit Test 
+RAM—Residency in Aerospace Medicine 
+RDS—Records Disposition Schedule 
+RSO—Radiation Safety Officer 
+RST—Readiness Skills Training 
+SDC—Standard Desktop Configuration 
+SG—Surgeon General, Surgeon 
+SIPRNET—Secret Internet Protocol Router Network 
+SITREP—Situation Report 
+SME—Squadron Medical Element 
+SOF—Special Operations Forces 
+SRTS—Spectacle Request Transmission System 
+TET—Theater Epidemiology Team 
+TIC—Toxic Industrial Chemical 
+TIM—Toxic Industrial Material 
+TLAMM—Theater Lead Agent for Medical Materiel 
+TMIP-AF—Theater Medical Information Program – Air Force 
+TRAC2ES—Transportation Command Regulating and Command and Control Evacuation 
+System 
+TTP—Tactics, Techniques, and Procedures 
+TWG—Threat Working Group 
+USAFSAM—United States Air Force School of Aerospace Medicine 
+USAMRICD—United States Army Medical Research Institute of Chemical Defense 
+USAMRIID—United States Army Medical Research Institute of Infectious Diseases 
+USTRANSCOM—United States Transportation Command 
+UTC—Unit Type Code 
+WMP—War and Mobilization Plan 
+WRM—War Reserve Materiel 
+ 
+34 
+AFTTP3-42.23  19 JUNE 2018 
+Attachment 2 
+FLIGHT MEDICINE DEPLOYMENT REFERENCES 
+DOD Publications 
+ 
+AFI 44-103, The Air Force Independent Duty Medical Technician Program, 6 December 2013 
+AFI 48-123, Medical Examinations and Standards, 5 November 2013 
+TC 4-02.3, Field Hygiene and Sanitation, 6 May 2015 
+ 
+Other Supporting Information 
+ 
+Aircraft Mishap Investigation Handbook, Fairborn, OH: Society of United States Air Force 
+Flight Surgeons, 2010. 
+Flight Surgeon Checklist, Fairborn, OH: Society of United States Air Force Flight Surgeons, 
+2013. 
+Gilbert, David N. et al, ed., The Sanford Guide to Antimicrobial Therapy 2015, 45th Edition, 
+Sperryville, VA: Antimicrobial Therapy, Inc., 2015. 
+Heymann, David L, ed., Control of Communicable Diseases Manual, 20th Edition, Washington, 
+DC: American Public Health Association Press, 2014. 
+Medical Environmental Disease Intelligence and Countermeasures (MEDIC), Fort Detrick, MD: 
+National Center for Medical Intelligence (NCMI), CD-ROM, 2010. 
+Emergency War Surgery: Fourth United States Revision, Fort Sam Houston, TX: Office of the 
+Surgeon General, Borden Institute, 2013. 
+United States Army Medical Research Institute of Chemical Defense, Field Management of 
+Chemical Casualties Handbook, Third Edition, Aberdeen Proving Ground, MD: USAMRICD, 
+2007. 
+United States Army Medical Research Institute of Chemical Defense, Medical Management of 
+Chemical Casualties Handbook, Fourth Edition, Aberdeen Proving Ground, MD: USAMRICD, 
+2007. 
+United States Army Medical Research Institute of Infectious Diseases, USAMRIID’s Medical 
+Management of Biological Casualties Handbook, 8th Edition, Fort Detrick, MD: USAMRIDD, 
+2014. 
+ 
+AFTTP3-42.23  19 JUNE 2018 
+35 
+Attachment 3 
+BIOENVIRONMENTAL ENGINEERING (BE) DEPLOYMENT REFERENCES 
+Air Force Publications 
+ 
+AFI 10-2501, Air Force Emergency Management Program, 19 April 2016 
+AFI 40-201, Radioactive Materials Management, 17 September 2014 
+AFI 48-109, Electromagnetic Field Radiation (EMFR) Occupational and Environmental Health 
+Program, 1 August 2014 
+AFI 48-127, Occupational Noise and Hearing Conservation Program, 26 February 2016 
+AFI 48-139, Laser and Optical Radiation Protection Program, 30 September 2014 
+AFI 48-144, Drinking Water Surveillance Program, 21 October 2014 
+AFI 48-145, Occupational and Environmental Health Program, 22 July 2014 
+AFMAN 10-2503, Operations in a Chemical, Biological, Radiological, Nuclear, and High-Yield 
+Explosive (CBRNE) Environment, 7 July 2011 
+AFMAN 48-125, Personnel Ionizing Radiation Dosimetry, 4 October 2011 
+AFMAN 48-138_IP, Sanitary Control and Surveillance of Field Water Supplies, 1 May 2010 
+AFMAN 48-154, Occupational and Environmental Health Site Assessment, 28 March 2007 
+AFMAN 48-155, Occupational and Environmental Health Exposure Controls, 1 October 2008 
+AFTTP 3-2.82, Occupational and Environmental Health Site Assessment, 1 April 2012 
+FM 4-02.7/MCRP 4-11.1F/NTTP 4-02.7/AFTTP 3-42.3, Multiservice Tactics, Techniques, and 
+Procedures for Health Service Support in a Chemical, Biological, Radiological, and Nuclear 
+(CBRN) Environment, 15 July 2009 
+ 
+Other Supporting Information  
+ 
+Air Force Medical Support Agency, Bioenvironmental Engineering Field Manual, Washington 
+DC: AFMSA, 2013. 
+American Conference of Governmental Industrial Hygienists, TLVs and BEIs, Cincinnati, OH: 
+ACGIH, 2016. 
+Armed Forces Radiobiology Research Institute, Medical Management of Radiological 
+Casualties, Fourth Edition, Bethesda, MD: AFRRI, 2013. 
+Headquarters Air Force, Air Force Biological Detection Concept of Employment, 15 September 
+2014. 
+National Institute for Occupational Safety and Health, NIOSH Pocket Guide to Chemical 
+Hazards, Third Edition, DHHS (NIOSH) Publication No. 2005-149, Atlanta: DHHS CDC 
+NIOSH, 2007. 
+United States Army Medical Research Institute of Chemical Defense, Field Management of 
+Chemical Casualties Handbook, Third Edition, Aberdeen Proving Ground, MD: USAMRICD, 
+2007. 
+United States Army Medical Research Institute of Chemical Defense, Medical Management of 
+Chemical Casualties Handbook, Fourth Edition, Aberdeen Proving Ground, MD: USAMRICD, 
+2007. 
+United States Army Medical Research Institute of Infectious Diseases, USAMRIID’s Medical 
+Management of Biological Casualties Handbook, 8th Edition, Fort Detrick, MD: USAMRIDD, 
+2014. 
+36 
+AFTTP3-42.23  19 JUNE 2018 
+United States Army Public Health Center, Environmental Health Risk Assessment and Chemical 
+Exposure Guidelines for Deployed Military Personnel, Technical Guide 230, Aberdeen Proving 
+Ground, MD: PHC, 2013. 
+United States Army Public Health Center, The Medical CBRN Battlebook, TG 244, Aberdeen 
+Proving Ground, MD: PHC, 2008. 
+United States Department of Transportation Pipeline and Hazardous Materials Safety 
+Administration, Emergency Response Guidebook, Washington DC: PHMSA, 2012. 
+ 
+AFTTP3-42.23  19 JUNE 2018 
+37 
+Attachment 4 
+PUBLIC HEALTH DEPLOYMENT REFERENCES 
+Air Force and DOD Publications 
+ 
+AFI 10-2519, Public Health Emergencies and Incidents of Public Health Concern, 26 June 2015 
+AFMAN 44-156, Treatment of Biological Warfare Agent Casualties, 17 July 2000 
+ATP 4-92, Contracting Support to Unified Land Operations, 15 October 2014 
+TC 4-02.3, Field Hygiene and Sanitation, 6 May 2015 
+ 
+Other Supporting Information 
+ 
+Armed Forces Pest Management Board, Contingency Pest Management Guide, Technical Guide 
+24, Silver Spring, MD:  AFPMB, September 2012. 
+Armed Forces Pest Management Board, Personal Protective Measures Against Insects and 
+Other Arthropods of Military Significance, Technical Guide 36, Silver Spring, MD:  AFPMB, 
+November 2015. 
+Navy and Marine Corps Public Health Center Pocket Guide to Malaria Prevention and Control, 
+NMCPHC-TIM 6250.1, Portsmouth, VA:  NMCPHC, 2011. 
+Heymann, David L, ed., Control of Communicable Diseases Manual, 20th Edition, Washington, 
+DC: American Public Health Association Press, 2014. 
+Medical Environmental Disease Intelligence and Countermeasures (MEDIC), Fort Detrick, MD: 
+National Center for Medical Intelligence (NCMI), CD-ROM, 2010. 
+United States Army Medical Research Institute of Chemical Defense, Medical Management of 
+Chemical Casualties Handbook, Fourth Edition, Aberdeen Proving Ground, MD: USAMRICD, 
+2007. 
+United States Army Medical Research Institute of Infectious Diseases, USAMRIID’s Medical 
+Management of Biological Casualties Handbook, 8th Edition, Fort Detrick, MD: USAMRIDD, 
+2014. 
+United States Army Natick Research, Development and Engineering Center, Guide to the 
+Salvage of Temperature-Abused Food Products in Military Commissaries, TR-88/050, Natick, 
+MA:  NSSC, April 1998. 
+ 
+Forms 
+ 
+CDC NORS 52.13, National Outbreak Reporting System:  Foodborne Disease Transmission, 
+Person-to-Person Disease Transmission, Animal Contact, May 2013 
+CDC VHSP 53.1, Viral Hepatitis Case Record for Reporting of Patients with Symptomatic Acute 
+Viral Hepatitis, June 1993 
+DD 2341, Report of Animal Bite–Potential Rabies Exposure, June 2015 
+ 
+38 
+AFTTP3-42.23  19 JUNE 2018 
+Attachment 5 
+EXPEDITIONARY COMBAT SUPPORT (ECS) REQUIREMENTS 
+Table A5.1.  PAM ECS Requirements. 
+PAM ECS Requirements 
+ECS calculations are IAW AFP 10-219, Vols 5 & 6, where applicable and data provided. 
+ 
+FFPM1 
+FFPM2 
+FFPM3 
+FFPM4 
+FFPM5 
+FFPM6 
+FFPM7 
+MOVEMENT REQUIREMENTS 
+Calculations IAW AFPAM 10-1403 and DTR 45000.9-R, Part III 
+Pallets (#) 
+ 
+ 
+ 
+1 
+2 
+ 
+3 
+C-130 (# aircraft) 
+ 
+ 
+ 
+1 
+1 
+ 
+1 
+C-17 (# aircraft) 
+ 
+ 
+ 
+1 
+1 
+ 
+1 
+C-5A (# aircraft) 
+ 
+ 
+ 
+1 
+1 
+ 
+1 
+M871 (# flatbed 
+semitrailers) 
+ 
+ 
+ 
+1 
+1 
+ 
+1 
+M872 (# flatbed 
+semitrailers) 
+ 
+ 
+ 
+1 
+1 
+ 
+1 
+SITE PREPARATION 
+Square Footage 
+(slight grade required) 
+ 
+ 
+ 
+ 
+1,200 
+ 
+1,200 
+Tents (#) 
+ 
+ 
+ 
+ 
+1 
+ 
+1 
+ECUs (# units) 
+ 
+ 
+ 
+ 
+1 
+ 
+1 
+Note:  CE maintenance support is required for generator and ECU equipment. 
+BASIC EXPEDITIONARY AIRFIELD RESOURCES (BEAR) REQUIREMENTS 
+Latrine/Showers (# 
+staff) 
+4 
+2 
+3 
+ 
+ 
+6 
+ 
+Billeting (# staff) 
+4 
+2 
+3 
+ 
+ 
+6 
+ 
+# Officers 
+3 
+0 
+0 
+ 
+ 
+1 
+ 
+# Enlisted 
+1 
+2 
+3 
+ 
+ 
+5 
+ 
+Meals (# meals/day) 
+(= # staff x 3 
+meals/day) 
+12 
+6 
+9 
+ 
+ 
+18 
+ 
+Laundry (lbs/week) 
+(= 32 
+lbs/person/week) 
+128 
+64 
+96 
+ 
+ 
+192 
+ 
+Ice (lbs/day) (= 4.4 
+lbs/person/day) 
+17.6 
+8.8 
+13.2 
+ 
+ 
+26.4 
+ 
+Potable Water 
+(gal/day) (= # staff x 
+10 gal/day) 
+40 
+20 
+30 
+ 
+ 
+60 
+ 
+Power (kW) (3-phase)  
+ 
+ 
+ 
+20 
+ 
+20 
+Power with CP-
+EMEDS (kW) (3-
+phase) 
+ 
+ 
+ 
+ 
+25 
+ 
+25 
+AFTTP3-42.23  19 JUNE 2018 
+39 
+PAM ECS Requirements 
+ECS calculations are IAW AFP 10-219, Vols 5 & 6, where applicable and data provided. 
+ 
+FFPM1 
+FFPM2 
+FFPM3 
+FFPM4 
+FFPM5 
+FFPM6 
+FFPM7 
+CIVIL ENGINGEERING REQUIREMENTS 
+Medical/Biohazard Waste 
+Liquid (gal/day) (=0.7 
+x potable water rate) 
+28 
+14 
+21 
+ 
+ 
+42 
+ 
+Solid (lbs/day) (= 4 
+lbs x # staff) 
+16 
+8 
+12 
+ 
+ 
+24 
+ 
+LOGISTICS REQUIREMENTS 
+POL 
+Diesel Fuel (gal/day) 
+(= 8.33 gal/hr x 24 
+hrs) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Diesel Fuel CP-
+EMEDS Mode 
+(gal/day) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Unleaded Fuel 
+(gal/day) (10kW 
+backup generator) 
+ 
+ 
+ 
+ 
+10 
+ 
+10 
+Vehicles 
+Vehicle Maintenance 
+Support 
+Required for all 
+Vehicle Requirements 1, 4x4 pickup truck for FFPM1-3 
+1 additional 4x4 pickup truck for FFPM6 
+Material Handling 
+Equipment 
+10K forklift 
+COMMUNICATIONS AND INFORMATION SYSTEMS REQUIREMENTS 
+Communication Equipment 
+Phone (# lines) (Note:  
+None organic; 
+external support 
+required) 
+1 
+1 
+1 
+ 
+ 
+1 
+ 
+Satellite/Telemedicine 
+(# equipment) 
+ 
+ 
+ 
+ 
+1 
+ 
+ 
+Land Mobile Radios 
+(# equipment) 
+ 
+ 
+ 
+ 
+4 
+ 
+6 
+Secure Telephone 
+Equipment (# 
+equipment) (Note:  
+None organic; 
+external support 
+required) 
+1 
+1 
+1 
+ 
+ 
+1 
+ 
+Information Systems and Network Support 
+40 
+AFTTP3-42.23  19 JUNE 2018 
+PAM ECS Requirements 
+ECS calculations are IAW AFP 10-219, Vols 5 & 6, where applicable and data provided. 
+ 
+FFPM1 
+FFPM2 
+FFPM3 
+FFPM4 
+FFPM5 
+FFPM6 
+FFPM7 
+Laptops (# 
+equipment) 
+ 
+ 
+ 
+1 
+1 
+ 
+ 
+Printers (# equipment)  
+ 
+ 
+ 
+2 
+ 
+ 
+Server Suite (# 
+equipment) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SIPRNET Access 
+Required for all 
+NIPRNET Access 
+Required for all 
+Operating 
+System/Office Suite 
+DOD SDC 
+RAM/Hard Drive 
+ITT Standard 
+Clinical Applications 
+TMIP-AF 
+Required Port 
+Number/Protocol 
+Access (TCP/UDP) 
+21/TCP; 443/TCP; 8080/TCP 
+CHAPLAINCY SUPPORT 
+ 
+Required for all 
+SECURITY FORCE SUPPORT 
+ 
+ 
+Required if not co-located on Air Base 
+ 
+AFTTP3-42.23  19 JUNE 2018 
+41 
+Attachment 6 
+OPERATING CAPABILITY CONDITIONS 
+A6.1.  Initial Operational Capability (IOC).  The PAM ADVON team is equipped with man-
+portable field packs and can provide initial medical capability within 15 minutes of arrival.  The 
+PAM Counter-CBRN team can reach IOC within 8 hours of arrival.  IOC is reached when the 
+following tasks have been completed: 
+A6.1.1.  Man-portable field packs have been delivered to the site and are in the team’s 
+possession. 
+A6.1.2.  Essential and emergent care has begun. 
+A6.1.3.  Phase I of the OEHSA has begun. 
+A6.1.4.  Initial public health assessment has begun, including input into site selection and 
+layout of facilities. 
+A6.2.  Full Operational Capability (FOC).  The PAM ADVON team can reach FOC within 12 
+hours of arrival.  The PAM-Counter CBRN team can reach FOC within 24 hours of arrival.  FOC 
+is reached when the following tasks have been completed: 
+A6.2.1.  PAM shelter is established and equipment is available for operational use. 
+A6.2.2.  Communications are established with the theater surgeon, other medical assets, and 
+line assets at the beddown location. 
+A6.2.3.  Initial employee data from the personnel office is entered into OEH-MIS. 
+A6.2.4.  Phase I of the OEHSA is complete and Phase II has begun IAW AFTTP 3-2.82. 
+A6.2.5.  TIC/TIM and food and water vulnerability assessments are initiated. 
+A6.2.6.  A safe source of food and water is established. 
+A6.2.7.  Medical personnel are participating in the ATWG and TWG. 
+A6.2.8.  Medical contingency response plans (MCRPs) are established and reviewed. 
+A6.2.9.  Patient encounter data is being analyzed and forwarded to the theater surgeon. 
+A6.2.10.  Methods of detection and tracking of potential exposures of harmful agents, OEH 
+sample results, and information on activities is being documented in the appropriate OEH-
+MIS. 
+A6.2.11.  Full-spectrum sampling, analysis, and identification of CBRN agents is being 
+performed. 
+ 
+42 
+AFTTP3-42.23  19 JUNE 2018 
+Attachment 7 
+CBRN DEFENSE TASK SUMMARY 
+Table A7.1.  Medical UTCs. 
+Medical UTCs 
+EM 
+PAM Team 
+BAT 
+Patient 
+Decontamination 
+Team 
+Pre-Attack 
+Conduct CBRN agent 
+hazard analysis 
+Conduct food, water, 
+disease, and TIC/TIM 
+assessments 
+Conduct lab analysis 
+of clinical and 
+environmental 
+samples for 
+pathogens 
+Establish patient 
+decontamination 
+capability at MTF 
+Determine CBRN 
+passive defense 
+measures 
+Provide medically 
+related CBRN 
+defense advice for 
+hazard analysis 
+Team with PAM 
+team to determine 
+sample handling and 
+referral procedures 
+Coordinate with 
+medical facility 
+commander and 
+casualty collection 
+points to establish 
+patient flow patterns 
+Set up and maintain 
+CBRN warning, 
+reporting, and 
+notification 
+capabilities 
+Initiate medical 
+surveillance to 
+support early BTA 
+identification 
+ 
+Establish 
+decontamination 
+capability for medical 
+equipment and 
+vehicles 
+Establish and monitor 
+contamination control 
+area (CCA) 
+Provide health data 
+on potential threat 
+agents 
+ 
+Obtain base sectoring 
+grid and base 
+contamination status 
+With BE input, 
+provide mission-
+oriented protective 
+posture (MOPP) level 
+recommendation to 
+EOC commander 
+Assist with 
+development of 
+passive defense 
+measures and MOPP 
+level 
+recommendation (to 
+include de-masking 
+and de-MOPPing) 
+ 
+ 
+ 
+Create annex to site 
+MCRP for CBRN 
+response 
+ 
+ 
+ 
+Provide quantitative 
+fit testing (QNFT) as 
+necessary 
+ 
+ 
+ 
+Establish detection 
+system at medical 
+facility 
+ 
+ 
+AFTTP3-42.23  19 JUNE 2018 
+43 
+Medical UTCs 
+EM 
+PAM Team 
+BAT 
+Patient 
+Decontamination 
+Team 
+ 
+Team with BAT to 
+determine BTA 
+sample handling 
+procedures 
+ 
+ 
+ 
+Evaluate ventilation 
+in shelters; provide 
+advice on medical 
+aspects of shelters 
+ 
+ 
+ 
+Advise EM on health 
+and medical issues 
+related to MOPP 
+levels 
+ 
+ 
+ 
+Increase CBRN 
+attack vigilance 
+ 
+ 
+During Attack 
+Provide advice on 
+activation of warning 
+and notification 
+system 
+Shelter medical 
+personnel and 
+equipment 
+Shelter medical 
+personnel and 
+equipment 
+Shelter medical 
+personnel and 
+equipment 
+ 
+Increase CBRN 
+attack vigilance 
+ 
+ 
+Post Attack 
+Conduct tactical 
+CBRN 
+reconnaissance to 
+determine 
+contamination 
+footprint and 
+operational protective 
+measures 
+Detect CBRN agents 
+at the MTF, complete 
+hazard evaluation, 
+and report to EOC 
+Perform lab analysis 
+and presumptive 
+identification 
+Perform patient 
+decontamination 
+Gather post-attack 
+information 
+Conduct medical 
+surveillance and 
+report information to 
+EOC 
+Report laboratory 
+diagnostic 
+information to EOC 
+Perform medical 
+vehicle, shelter, and 
+equipment 
+decontamination 
+Plot detailed CBRN 
+contamination 
+footprint 
+Dispatch to identified 
+CBRN footprint for 
+further identification 
+and quantification of 
+hazard concentrations 
+and collection of 
+samples (surveillance 
+for health protection) 
+Assist PAM team in 
+preserving, 
+packaging, and 
+shipping 
+confirmatory BTA 
+samples 
+ 
+44 
+AFTTP3-42.23  19 JUNE 2018 
+Medical UTCs 
+EM 
+PAM Team 
+BAT 
+Patient 
+Decontamination 
+Team 
+Plot CBRN attacks 
+for theater warning 
+and reporting 
+Report medical 
+surveillance data to 
+EOC 
+ 
+ 
+Advise EOC 
+commander on 
+operational aspects of 
+CBRN agents (e.g., 
+persistency, 
+contamination, 
+isolation, and control) 
+Document individual 
+exposures IAW 
+DODI 6490.03 
+ 
+ 
+Provide MOPP-level 
+recommendation 
+Advise in support of 
+reduced MOPP level 
+recommendation 
+(health/medical) 
+ 
+ 
+Oversee CCA 
+operations 
+Assess food and 
+water for potential 
+contamination and 
+mitigation  
+ 
+ 
+Oversee 
+contamination control 
+procedures 
+Identify groups of 
+personnel in hazard 
+areas (e.g., squadrons 
+in contaminated 
+sectors) and track 
+exposure to CBRN 
+agents IAW DODI 
+6490.03 
+ 
+ 
+ 
+Advise EOC 
+commander on health 
+effects and health 
+risks of CBRN agents  
+ 
+ 
+ 
+Conduct platform and 
+materiel 
+contamination 
+clearance IAW Under 
+Secretary of Defense 
+memorandums and 
+AOR OPORD  
+ 
+ 
+ 
+Conduct surveillance 
+activities in reduced 
+MOPP level sectors 
+ 
+ 
+ 
+Conduct 
+environmental 
+ 
+ 
+ 
+AFTTP3-42.23  19 JUNE 2018 
+45 
+Medical UTCs 
+EM 
+PAM Team 
+BAT 
+Patient 
+Decontamination 
+Team 
+surveillance in 
+support of health 
+hazard assessment 
+ 
+46 
+AFTTP3-42.23  19 JUNE 2018 
+Attachment 8 
+NOTIONAL PAM COUNTER-CBRN OPERATIONS LAYOUT 
+Figure A8.1.  Notional PAM Counter-CBRN Operations Layout. 
+ 
+ 
+ 

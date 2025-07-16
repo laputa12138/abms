@@ -1,0 +1,2028 @@
+BY ORDER OF THE SECRETARY  
+OF THE AIR FORCE 
+ 
+DEPARTMENT OF THE AIR FORCE 
+MANUAL 10-406 
+6 OCTOBER 2021 
+Operations 
+UNIT TYPE CODE MANAGEMENT 
+COMPLIANCE WITH THIS PUBLICATION IS MANDATORY 
+ 
+ACCESSIBILITY:  Publications and forms are available for downloading or ordering on the e-
+Publishing website at www.e-Publishing.af.mil 
+RELEASABILITY:  There are no releasability restrictions on this publication 
+ 
+ 
+OPR: AF/A3OD 
+ 
+ 
+Certified by: AF/A3O  
+(Mr. Trent Dudley) 
+Pages: 40 
+ 
+ 
+This publication implements Department of the Air Force Policy Directive (DAFPD) 10-4, 
+Operations Planning: Air Expeditionary Force and Global Force Management and is consistent 
+with Chairman Joint Chiefs of Staff Manual (CJCSM) 3150.24E Type Unit Characteristics Report 
+(TUCHAREP), and Department of the Air Force Instruction (DAFI) 10-401, Operations Planning 
+and Execution.  It provides guidance and procedures on the development, maintenance, and 
+reporting of unit type codes throughout the Department of the Air Force (DAF). If this publication 
+is in conflict with Department of Defense or joint guidance, the joint publication will take 
+precedence.  This publication applies to all civilian employees of the DAF and uniformed members 
+of the United States Space Force, Regular Air Force (RegAF), the Air Force Reserve (AFR), and 
+the Air National Guard (ANG).  The authorities to waive wing/Space Force equivalent/unit level 
+requirements in this publication are identified with a Tier (“T-0, T-1, T-2, T-3”) number following 
+the compliance statement.  See Department of the Air Force Instruction (DAFI) 33-360, 
+Publications and Forms Management, for a description of the authorities associated with the Tier 
+numbers.  Submit requests for waivers through the chain of command to the appropriate Tier 
+waiver approval authority, or alternately, to the requestor’s commander for non-tiered compliance 
+items.  Ensure all records generated as a result of processes prescribed in this publication adhere 
+to Air Force Instruction (AFI) 33-322, Records Management and Information Governance 
+Program, and are disposed of in accordance with the Air Force Records Disposition Schedule, 
+which is located in the Air Force Records Information Management System.  The use of the name 
+or mark of any specific manufacturer, commercial product, commodity, or service in this 
+publication does not imply endorsement by the Air Force. Refer recommended changes and 
+questions about this publication to office of primary responsibility (OPR), Headquarters Air Force 
+2 
+DAFMAN10-406  6 OCTOBER 2021 
+(HAF), Director of Current Operations, War Planning and Policy Division (AF/A3OD), on an Air 
+Force Form 847, Recommendation for Change of Publication; route Air Force Forms 847 from 
+the field through the appropriate functional chain of command. Compliance with attachments 1, 2, 
+3, and 4 in this publication is mandatory. 
+ 
+ 
+Chapter 1—UNIT TYPE CODE PURPOSE AND BACKGROUND 
+ 
+4 
+1.1. 
+Overview. .................................................................................................................  
+4 
+1.2. 
+UTC Definition. .......................................................................................................  
+4 
+1.3. 
+Types of UTCs. ........................................................................................................  
+4 
+1.4. 
+UTC Composition. ...................................................................................................  
+6 
+Figure 1.1. 
+MISCAP Example. ..................................................................................................  
+7 
+Table 1.1. 
+UTC Title Format. ...................................................................................................  
+10 
+Table 1.2. 
+DEPID Codes. ..........................................................................................................  
+11 
+1.5. 
+UTC Management Systems. ....................................................................................  
+12 
+Chapter 2—ROLES AND RESPONSIBILITIES 
+ 
+13 
+2.1. 
+Key Functions. .........................................................................................................  
+13 
+2.2. 
+AF/A3OD.................................................................................................................  
+13 
+2.3. 
+DAF FAM. ...............................................................................................................  
+13 
+2.4. 
+AFMAA. ..................................................................................................................  
+14 
+2.5. 
+MRA. .......................................................................................................................  
+14 
+Figure 2.1. 
+UTC Hierarchy Authority. .......................................................................................  
+15 
+2.6. 
+MRA Manager. ........................................................................................................  
+15 
+2.7. 
+MRA LOGDET Manager. .......................................................................................  
+16 
+Table 2.1. 
+LOGDET Deficiencies. ...........................................................................................  
+17 
+2.8. 
+MRA Manpower Office. ..........................................................................................  
+18 
+2.9. 
+FSM Officer. ............................................................................................................  
+18 
+2.10. 
+MRA FAM. ..............................................................................................................  
+18 
+2.11. 
+Pilot Unit. .................................................................................................................  
+19 
+2.12. 
+Non-Pilot Unit. .........................................................................................................  
+21 
+Chapter 3—UTC LIFE CYCLE 
+ 
+22 
+3.1. 
+UTC Life Cycle. ......................................................................................................  
+22 
+Figure 3.1. 
+UTC Life Cycle. ......................................................................................................  
+22 
+3.2. 
+Cause for New UTCs. ..............................................................................................  
+22 
+DAFMAN10-406  6 OCTOBER 2021 
+3 
+3.3. 
+UTC Development Process. .....................................................................................  
+23 
+Figure 3.2. 
+UTC Development Process. .....................................................................................  
+23 
+Table 3.1. 
+LOGMOD UTC Suffix Code Definitions. ...............................................................  
+24 
+3.4. 
+UTC Biennial Review Process. ................................................................................  
+25 
+3.5. 
+UTC Changes and Cancellations. ............................................................................  
+25 
+Figure 3.3. 
+UTC Change Process. ..............................................................................................  
+26 
+Attachment 1—GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+28 
+Attachment 2—FORCE TYPE CODES 
+ 
+32 
+Attachment 3—DEPLOYMENT ECHELONS 
+ 
+38 
+Attachment 4—DEPID COORDINATION WORKSHEET 
+ 
+40 
+ 
+4 
+DAFMAN10-406  6 OCTOBER 2021 
+Chapter 1 
+UNIT TYPE CODE PURPOSE AND BACKGROUND 
+1.1.  Overview.  Unit type codes (UTCs) are managed at all levels of DAF organizations.  
+AF/A3OD oversees DAF UTC management processes and DAF organizations maintain UTCs 
+using the information in this manual.  DAF organizations maintain UTCs on a regular basis to 
+present the most current and accurate capabilities to commanders at all levels for use in operation 
+plans and other planning systems. 
+1.1.1.  DAF Planners and Functional Area Managers (FAMs) will use the Manpower and 
+Equipment Force Packaging (MEFPAK) application in Deliberate and Crisis Action Planning 
+and Execution Segments (DCAPES) and the Logistics Force Packaging (LOGFOR) in 
+Logistics Module (LOGMOD) system for all UTC development, registration, and maintenance 
+activities. (T-1). 
+1.1.2.  Users with DCAPES MEFPAK permissions can find specific instructions in the 
+MEFPAK User’s Guide located on the DCAPES Home Page.  Users with LOGMOD 
+permissions can find specific instructions in the help file. 
+1.2.  UTC Definition.  A UTC is a capability focused on accomplishing a specific mission.  It 
+consists of a mission capability (MISCAP) Statement and a combination of two additional UTC 
+elements: manpower force element (MFE) and/or logistics detail (LOGDET).  UTCs are right-
+sized, modular and scalable, and are not theater or unit specific unless approved by AF/A3OD. 
+1.2.1.  UTCs are a unique, 5-character alphanumeric code.  UTC capabilities are categorized 
+into a class (UTC group) having common distinguishing characteristics controlled by 
+AF/A3OD and defined by CJCSM 3150.24E.  For most functional areas, the DAF further 
+defines the first two or three characters in order to identify distinct capabilities in each.  See 
+Table A2.1 for details. 
+1.2.2.  War planners use UTCs to document DAF capabilities, which include associated 
+manpower and logistics requirements to support the national military strategy during 
+operational planning and execution activities.  These requirements reside in the Joint Operation 
+Planning and Execution System (JOPES) and DCAPES Time-Phased Force and Deployment 
+Data (TPFDD) in support of an operational plan, contingency plan, or operational order. 
+1.3.  Types of UTCs.  There are two types of UTCs, standard and non-standard. 
+1.3.1.  Standard UTCs: 
+1.3.1.1.  Standard UTCs define standard, full mission capabilities. 
+1.3.1.2.  Standard UTCs have deployment indicators (DEPIDs) of E, P, 1, 2, or 3.  See 
+Table 1.2 for details. 
+1.3.1.3.  Standard UTCs have MFE and/or LOGDET.  If a UTC contains both MFE and 
+LOGDET, do not split the MFE and LOGDET into two separate UTCs (e.g., HFQL1 
+includes both to support the MISCAP Statement of a 12-ship force package of F-15Es). 
+1.3.1.4.  The MISCAP Statement associated with a standard UTC defines the basic mission 
+the UTC is capable of accomplishing.  See paragraph 1.4.4 for details. 
+DAFMAN10-406  6 OCTOBER 2021 
+5 
+1.3.1.5.  Task-organized capabilities that deploy as a cross-functional, self-sustaining team 
+should develop UTCs to include all necessary requirements rather than grouping individual 
+functional UTCs to ensure the entire capability is packaged together; for example, if a 
+maintenance capability requires a materiel management authorization, align the materiel 
+management capability under the appropriate maintenance UTC series (H-series), not a 
+materiel management UTC series (JF-series). 
+1.3.1.6.  Right-Sized.  A right-sized UTC is one that provides a generic building block 
+capability.  This provides ease of planning and enables optimal support to the combatant 
+commander.  These building blocks may be used to task organize Air Expeditionary Task 
+Forces (AETF) in support of DAF force presentation and generation policies. Right-sized 
+UTCs meet the following criteria: 
+1.3.1.6.1.  Identifies a complete capability (i.e., element or section level and above) 
+versus individual Air Force Specialty Code (AFSC) descriptions or requirements. 
+1.3.1.6.2.  Avoid one-person and two-person UTCs unless the UTC represents the 
+logical team or packaged size capability (e.g., historians, comptroller, public affairs). 
+1.3.1.7.  Modular and scalable.  Use standard UTCs to support the range of military 
+operations from exercises, peacekeeping missions, humanitarian relief, and small-scale 
+operations to full-scale major theater war while including employed-in-place operations.  
+UTCs that build upon each other provide greater capability at a given location.  Modular 
+and scalable UTCs are mutually exclusive of each other and when employed together, 
+provide additive capability. 
+1.3.1.7.1.  Air Reserve Component (ARC) specific UTCs.  Separate AFR and ANG 
+UTCs will not be created solely to account for manpower and equipment differences 
+with UTCs representing similar capabilities (i.e., RegAF and ANG UTCs with near-
+identical MISCAP Statements, but differing MFE) unless approved by AF/A3OD. (T-
+1). 
+1.3.1.7.2.  ARC manpower substitution rules should be included in the MISCAP 
+Statement when necessary to enable a single UTC to represent both RegAF and ARC 
+capability. 
+1.3.1.8.  Non-Unit and/or Non-Theater Specific UTCs.  UTCs define capabilities, not units 
+or theaters.  AF/A3OD is the approval authority for UTCs that represent a mission set 
+defined by a geographic area.  Units with a common mission set, which have 
+geographically defined missions (e.g., Air Force Forces (AFFOR) and Air Operations 
+Center (AOC) Units), do not justify distinct UTCs. 
+1.3.1.9.  A UTC is usable when published in the MEFPAK and Type Unit Characteristics 
+(TUCHA) with all required elements (MISCAP, MFE, and/or LOGDET).  Once published, 
+the UTC can be postured in the UTC Availability (UTA) listing and used to build TPFDD 
+for planning and execution purposes.  
+1.3.1.10.  Standard UTCs identify and assess DAF capabilities used to ready forces and to 
+plan and execute combatant commander operations.  They are not designed for use in any 
+other capacity except those listed in this manual, and joint policy and guidance governing 
+UTCs. 
+6 
+DAFMAN10-406  6 OCTOBER 2021 
+1.3.2.  Non-Standard UTCs: 
+1.3.2.1.  Non-Standard UTCs do not have a transportation movement requirement and do 
+not have complete movement characteristics but are published in the MEFPAK database. 
+1.3.2.2.  DAF Non-Standard UTCs have a DEPID of 9. See Table 1.2 for details. 
+1.3.2.3.  Non-standard UTCs, or commonly referred to as DEPID-9 UTCs, are used to 
+define organization type for unit registration in readiness reporting systems.  They define 
+a standard unit type (e.g., F-15 fighter squadron, logistics readiness squadron) and allow 
+for rapid categorization of like units for reporting and readiness analysis. 
+1.3.2.4.  Non-Standard UTCs are defined by the UTC group followed by “AAA,” “AA,” 
+or “A.”  Unit designations and functional areas with multiple DEPIDs may be exempt from 
+the “Alpha” construct due to character limitations.  AF/A3OD determines the UTC 
+construct for these instances. 
+1.3.2.5.  Non-Standard UTCs are developed with full coordination by DAF FAM through 
+AF/A3OD and the AF Directorate of Operations, Readiness Division (AF/A3TR).  The 
+DAF FAM processes DEPID 9 UTCs using the DEPID 9 worksheet (see Attachment 4). 
+1.4.  UTC Composition.  UTC composition is critical in outlining the capability. 
+1.4.1.  MEFPAK Responsible Agency (MRA).  The MRA is a single point of contact for all 
+UTC actions within the major command (MAJCOM) and field command (FLDCOM). 
+1.4.2.  Pilot Unit.  The MRA FAM will appoint a Pilot Unit responsible for developing and 
+maintaining the UTC. (T-2). 
+1.4.3.  Unit level code.  The unit level code defines the type of unit the UTC represents and 
+indicates the employed organizational level of the UTC.  See the unit level code table located 
+in DCAPES reference files. Reference files are located on the DCAPES homepage on the 
+Secret Internet Protocol Routing Network (SIPRNet). 
+1.4.4.  MISCAP Statement.  Defines UTC purpose and is the basis for developing all other 
+UTC elements. 
+1.4.4.1.  Must include basic capability in plain language, primary operating locations (e.g., 
+main operating base, forward operating base, forward operating site), and UTCs that must 
+be deployed in conjunction. (T-1). 
+1.4.4.2.  May include AFSC substitution rules, functional account codes (FAC) and 
+personnel accounting symbol codes, hand-held equipment requirements, weapons 
+qualifications, designed shifts if base operations support is required (e.g., 6 x 12-hour 
+shifts) and any other specific requirements or allowable modifications except references to 
+specific line number.  UTCs may be designed with appropriate wording in the MISCAP 
+Statement to accommodate unique unit circumstances (e.g., AFR does not have embedded 
+materiel management function in maintenance units).  Do not create UTCs solely to 
+accommodate these circumstances. 
+ 
+ 
+DAFMAN10-406  6 OCTOBER 2021 
+7 
+1.4.4.3.  Existing UTC MISCAPs include the MRA FAM’s office symbol (not rank and 
+name), Defense Switch Network (DSN), and most recent biennial review date (month and 
+year) as the final information in the MISCAP Statement.  Date will not reflect most recent 
+MISCAP Statement only review. (T-1).  See Figure 1.1 for MISCAP example.  The 
+MISCAP Statement is considered current unless overdue for biennial review.  See 
+paragraph 3.4 Biennial Review Process.  With DCAPES modernization, the MRA FAM’s 
+office symbol, DSN, and most recent biennial review date will no longer be in the MISCAP 
+and will be their own data fields. 
+1.4.4.4.  The MISCAP statement is the only part of the UTC that may be classified as 
+SECRET.  Classification of MISCAPs may not exceed SECRET.  Any individual who 
+receives or views a SECRET MISCAP will ensure secure transmission in accordance with 
+the DCAPES Classification Guide located on the SIPRNet. (T-1). 
+Figure 1.1.  MISCAP Example. 
+ 
+1.4.5.  LOGDET.  Identifies equipment requirements needed to support the UTC as maintained 
+and documented in LOGMOD.  463L pallets are the mandatory, standard shipping platform 
+for developing standard UTCs with the exception of rolling stock.  Hand-carried equipment is 
+not authorized in the LOGDET.  Personnel only UTCs may address hand-carried equipment 
+requirements in the MISCAP. 
+1.4.5.1.  Internal sling-able units, conex boxes, cadillac bins, or Brooks and Perkins 
+containers are not an authorized container for developing standard UTCs.  Exception:  In 
+accordance with AFI 25-101, War Reserve Materiel (WRM), bare base war reserve materiel 
+(e.g., basic expeditionary airfield resources, fuels support equipment, rapid airfield damage 
+recovery) are required to be shipped containerized and will not include other items within 
+the UTC that may be shipped using 463L pallets. (T-1). 
+1.4.5.2.  UTC LOGDETs adhere to the following guidelines: 
+ 
+ 
+8 
+DAFMAN10-406  6 OCTOBER 2021 
+1.4.5.2.1.  Palletized increments will list 463L pallet (1), top net (1), side nets (2), and 
+dunnage (3) as items 1-4, in this order and quantity. (T-1).  Exception:  WRM UTCs 
+may list chains, tie downs, or like materiel in lieu of top net and/or side nets. Pallet-
+Train increments will list couplers as item 5. (T-1).  Dunnage is a local purchase item 
+listed as 88” L x 4” W x 4” H and weighs 30 pounds.  All 463L pallets require dunnage 
+to protect the pallet and aid in use of forklifts.  The national stock numbers (NSN), 
+nomenclatures, and associated size and capacity for 463L pallets, top nets, and side 
+nets can be found in the Defense Transportation Regulation (DTR) 4500.9-R-Part VI, 
+Chapter 608-1, Table 608-1, Intermodal. 
+1.4.5.2.2.  Total weight of palletized increments cannot exceed the usable dimensions 
+of the 463L pallet, or the maximum pallet weight of 10,000 pounds. 
+1.4.5.2.3.  Rolling stock increments (vehicles or vehicular cargo) have an engine and 
+are self-propelled with at least two axles.  Approach, parking, roller, or sleeper shoring 
+may be required when deploying rolling stock (vehicle) increments in order to prevent 
+damage to DAF assets (e.g., aircraft floor, deploying personnel, and the vehicle itself).  
+Additional shoring (e.g., approach and bridge) may be required when deploying trailer 
+type 1 increments.  Increments will list shoring as an item/suffix-item if required per 
+the Air Transportability Test Loading Activity certificate. (T-2).  Standard sized lumber 
+and plywood are both used to shore aircraft loads.  Types of shoring definitions and 
+requirements can be found in the DTR 4500.9-R-Part II, Chapter 208, Cargo 
+Movement. 
+1.4.5.2.4.  Develop the LOGDET to sustain bare-base operations for up to 30 days 
+without resupply.  Unless specifically identified in the MISCAP Statement, must not 
+deviate from this 30-day planning factor. (T-2). 
+1.4.5.2.5.  FACs and NSNs are current, valid, and based on appropriate equipment 
+management programs and procedures (e.g., Defense Property Accountability System). 
+1.4.5.2.6.  Items will have accurate weight and dimensions. (T-1).  Weights and 
+dimensions are taken during initial or biennial review.  Item weight and dimensions 
+must be accurate to facilitate transportation movement via air, land or water. (T-1).  
+Dimensions will not equal zero. (T-1). 
+1.4.5.2.7.  In accordance with Air Force Manual (AFMAN) 24-604, Preparing 
+Hazardous Materials for Military Air Shipments, all increments, items, and suffix items 
+will annotate all current and valid hazard codes, valid United Nations/Identification 
+codes. (T-1). Additionally, UTC LOGDETs will annotate the corresponding special 
+handling codes as outlined in DTR 4500.9-R-Part II, Appendix Z. (T-0). 
+1.4.5.2.8.  Identify weapons, ammunition, and other sensitive equipment placed at the 
+item level as “SENSITIVE EQUIPMENT” for the item nomenclature.  Pilot Units will 
+list the actual descriptions and titles in suffix item nomenclature. (T-1). 
+1.4.5.2.9.  Pilot Units must develop vehicles in UFM- and UFW-series UTCs only. (T-
+1). Do not place vehicles in any other UTC LOGDET without approval from the 
+Logistics Vehicle Management FAM (AF/A4L).  Exception: Units with embedded 
+funded Vehicle Management manpower authorizations (e.g., RED HORSE) may 
+include vehicles in the LOGDET. 
+DAFMAN10-406  6 OCTOBER 2021 
+9 
+1.4.5.2.10.  The LOGDET must not list contents of mobility readiness spares packages, 
+consolidated tool kits, administrative supplies (e.g., pens, pencils, and paper), medical 
+supplies, or civil engineer kits unless directed by the MISCAP Statement. (T-1).  The 
+LOGDET does not capture expendable requirements that fluctuate based on mission 
+needs.  Pilot and Non-Pilot Units are responsible for maintaining local inventories for 
+these items.  LOGDET item dimensions and weights will reflect an estimate of the 
+average needed to fulfill the MISCAP Statement. (T-1).  Exception:  All hazardous or 
+supply Use Code “A” items will be reflected in the LOGDET. (T-1). 
+1.4.6.  MFE.  Identifies the minimum manpower requirements needed to meet a UTC MISCAP 
+Statement.  Base the MFE on expected shifts, level of support, and required skill and grade to 
+accomplish the UTC MISCAP Statement. 
+1.4.6.1.  Contains the following manpower detail elements: 
+1.4.6.1.1.  FAC (mandatory). 
+1.4.6.1.2.  AFSC (mandatory). 
+1.4.6.1.3.  Grade (mandatory for officer and civilian requirements). 
+1.4.6.1.4.  Special Experience Identifier. 
+1.4.6.1.5.  Command Remarks. 
+1.4.6.1.6.  Quantity (mandatory). 
+1.4.6.2.  The MFE is based solely on UTC MISCAP Statement requirements developed by 
+the Pilot Unit in coordination with the Pilot Unit Manpower Office, reviewed by the MRA.  
+MFE is validated and approved by the Air Force Manpower Analysis Agency (AFMAA). 
+1.4.6.3.  The UTC is developed to sustain bare base operations for up to 30 days.  The 30 
+day factor is based on personnel working the wartime sustaining manpower availability 
+factor of six (6) 10-hour shifts.  Surge operations typically last for 30 days of an operation 
+and entail six (6) 12-hour shifts. 
+1.4.6.4.  Development should consider difference between 24-hour availability and 24-
+hour coverage.  The difference between requiring personnel to be present vice on call 
+around the clock can mean tremendous impacts in personnel resources. 
+1.4.6.5.  Other than when documented by a valid Air Force Manpower Determinant, MFE 
+does not justify manpower authorizations. 
+1.4.7.  Other UTC data. 
+1.4.7.1.  Title.  UTC titles are a 31-character (maximum) brief description of the UTC 
+capability and format is contained in Table 1.1.  
+ 
+ 
+10 
+DAFMAN10-406  6 OCTOBER 2021 
+Table 1.1.  UTC Title Format. 
+CHARACTERS 
+DESCRIPTION 
+ 
+ 
+AVIATION UTCs 
+1-2 
+Primary Mission Aircraft Inventory (PMAI), 2 digits. Leading zero 
+(“04”) if less than 10. 
+3 
+Blank 
+4 
+Modified Mission Prefix (or blank) 
+5 
+Basic Mission 
+6-8 
+Design Number 
+9 
+Design Series (or blank) 
+10 
+Blank 
+11-221 
+Force Description (will contain lead “LD” or follow “FW” designation) 
+23-31 
+Blank 
+EXAMPLE: 
+    12 – F16CJ LD Block 50 
+ 
+NON-AVIATION UTCs 
+1-3 
+Force Type (Described in Attachment 2) 
+4 
+Blank 
+5-301 
+Force Description (characters 5-7 identify secondary Force Type, if 
+applicable) 
+31 
+Blank 
+EXAMPLE: 
+MNT SOF 3 CV 22B 
+POL FORWARD AREA REFUEL PNT TM 
+ 
+NOTE:  Separate force description characters by a single blank space if not all used.  
+Example:  MED DENTAL CORE PKG  
+1.4.7.2.  DEPID.  Codes used to categorize the capability and deployment status of a UTC.  
+DEPID codes are defined by CJCSM 3150.24E.  UTCs will only use codes found in Table 
+1.2. (T-1) 
+ 
+ 
+DAFMAN10-406  6 OCTOBER 2021 
+11 
+Table 1.2.  DEPID Codes. 
+DEPID MEANING 
+DEFINITION 
+MFE 
+LOGDET 
+0 
+Waiting Removal 
+UTC held in cancellation status for 12 
+months. 
+X 
+X 
+1 
+Standard 
+Standard, deployable UTC.  UTC is self-
+defined. 
+X 
+X 
+2 
+Fixed Provisional 
+UTC formed from existing resources 
+designed to meet the requirements of 
+operations. 
+X 
+X 
+3 
+Augmentation 
+UTC augments the capability of another 
+UTC. 
+X 
+X 
+E 
+Augmentation 
+(Equipment Only) 
+Equipment-only UTC used to augment 
+another UTC.  All equipment only UTCs 
+will have this DEPID. 
+- 
+X 
+P 
+Augmentation 
+(Personnel Only) 
+Personnel-only UTC used to augment 
+another UTC.  All personnel only UTCs 
+will have this DEPID. 
+X 
+- 
+9 
+Permanent Base 
+Non-Standard UTC.  UTCs used for unit 
+registration in readiness reporting 
+systems. 
+- 
+- 
+1.4.7.3.  Primary Mission Aircraft Inventory (PMAI).  Total number of aircraft provided 
+by UTC (aviation UTCs only). 
+1.4.7.4.  Authorized (AUTH) Positions.  Total number of manpower authorizations in 
+MFE. Sum of manpower required to perform the UTC MISCAP Statement. 
+1.4.7.5.  Passengers (PAX).  Total number of manpower authorizations requiring 
+transportation.  Generally, in Aviation UTCs, AUTH and PAX numbers only differ by the 
+number of aircrew flying aircraft to the deployed location. 
+1.4.7.6.  Total Short Tons (STONS).  Total LOGDET weight in short tons.  One short ton 
+equals 2,000 pounds. STONS has further classes (i.e., tenths of STONS) explained in 
+CJCSM 3150.17F, Type Unit Equipment Detail Report (TEDREP), located on the 
+SIPRNet. 
+1.4.7.7.  Bulk STONS.  Total LOGDET weight of the bulk equipment in STONS.  Cargo 
+is suitable for a 463L pallet. 
+1.4.7.8.  Oversized STONS.  Total LOGDET weight of the oversized equipment in 
+STONS.  Cargo that exceeds the usable dimension of a 463L pallet. 
+1.4.7.9.  Outsized STONS.  Total LOGDET weight of the outsized equipment in STONS.  
+Cargo requiring wide-bodied aircraft. 
+1.4.7.10.  Non-Air Transportable STONS.  Total LOGDET weight in STONS of the 
+equipment that is not air transportable.  Cargo too large for airlift. 
+1.4.7.11.  Table of Allowance Total STONS.  Total LOGDET weight of the table of 
+allowance equipment in STONS. 
+12 
+DAFMAN10-406  6 OCTOBER 2021 
+1.4.7.12.  Organic STONS.  Total LOGDET weight in STONS of the equipment moved 
+organically (i.e., carried in the unit’s aircraft). 
+1.4.7.13.  Cargo Category Code.  3-character code identifies cargo movement 
+characteristics, hazardous and special handling requirements.  Defined by CJCSM 
+3150.17F. 
+1.4.7.14.  Deployment Echelon.  Facilitates deployment planning by identifying movement 
+priority of equipment and personnel.  See Attachment 3. 
+1.4.7.15.  Functional account code (FAC).  A six-digit code that identifies a specific work 
+center within an organization.  The first four digits are controlled by DAF and the 
+MAJCOMs and FLDCOMs control the last two digits (shred out).  The only shred out used 
+when developing and maintaining UTC LOGDETs is “00” (zero, zero).  The FAC 
+originates in manpower and personnel systems and is used in LOGMOD to denote 
+equipment ownership within a squadron. 
+1.5.  UTC Management Systems. 
+1.5.1.  DCAPES. DAF tool used to plan and execute major combat operations, disaster 
+response, AETF activities and UTC management. Resides on the SIPRNet. 
+1.5.2.  MEFPAK. DAF library (authoritative data source) of approved UTCs and resides in 
+DCAPES.   Provides standard descriptions of UTC capabilities used for wartime, contingency, 
+and force planning at all levels of command. Allows DAF planners the ability to aggregate 
+data related to standard UTCs, to create summary products, and to feed data to joint systems.  
+Provides DAF planners with standardized force capabilities outlining manpower requirements 
+detailing specific MFE required to perform a UTC MISCAP statement.  The system is used to 
+automate building MFE associated with UTCs. 
+1.5.3.  Logistics Force Packaging (LOGFOR) Subsystem.  A component of MEFPAK residing 
+in LOGMOD.  The component collects and stores UTC materiel and equipment requirements 
+(i.e., LOGDET).  This data is also used for airlift planning estimates. 
+1.5.4.  Type Unit Characteristics (TUCHA).  The joint registry for all service UTCs updated 
+quarterly by the Joint Staff Support Center.  AF/A3OD exports DCAPES files used to update 
+UTCs within the TUCHA database. 
+1.5.5.  UTA.  Database within the DCAPES that stores UTCs postured to DAF units.  Posturing 
+is the process where UTCs are assigned to units tasked to provide and maintain the capability. 
+See DAFI 10-401 for details. 
+1.5.6.  Force System Management (FSM) Module.  A component of defense property 
+accountability which is the accountable property system of record for general support 
+equipment.  The FSM Module data feeds the Defense Readiness Reporting System and is the 
+source for accountable equipment UTC requirements.  This data takes precedence when 
+LOGDET mismatches occur pending FAM resolution. 
+DAFMAN10-406  6 OCTOBER 2021 
+13 
+Chapter 2 
+ROLES AND RESPONSIBILITIES 
+2.1.  Key Functions.  This chapter lists responsibilities of key players in development and 
+maintenance of UTCs. 
+2.2.  AF/A3OD. 
+2.2.1.  Acts as DAF MEFPAK manager. Responsible agency for reviewing, coordinating, and 
+approving all DAF UTCs. 
+2.2.2.  Will review submitted (UTC suffix 1) LOGDET from MRAs for accuracy and identify 
+critical edit errors for timely correction. 
+2.2.3.  Will review UTCs in the DCAPES MEFPAK/UTC request module.  Ensures UTCs are 
+unique, meet all necessary criteria and have complete movement data, as applicable. 
+2.2.4.  Will validate that LOGFOR packaging UTC header data matches DCAPES UTC 
+Request data. 
+2.2.5.  Will coordinate UTC reviews with the DAF FAMs and ensure timely responses. 
+2.2.6.  With DAF FAM concurrence, will approve all UTCs in appropriate system.  If non-
+concurs exist, will coordinate with UTC MRA to resolve discrepancies. 
+2.2.7.  Will act as the Pilot Unit and MRA for all UTCs with DEPID 9. 
+2.2.8.  Will host quarterly UTC management teleconferences to discuss discrepancies and 
+provide UTC management guidance.  Mandatory MRA participants include agency UTC 
+manager, LOGDET managers, and agency manpower representatives.  Other participants will 
+include the FSM Officer, Logistics Plans Career Field manager or designated alternate, and 
+AFMAA representative. 
+2.2.9.  Will conduct initial and reoccurring UTC development and maintenance training for 
+DAF FAMs. 
+2.2.10.  Will accomplish monthly LOGFOR Packaging equipment data imports into the 
+MEFPAK database to provide current equipment packages for planning and execution. 
+2.2.11.  Will submit DAF TUCHA updates to the Joint Staff Support Center to ensure most 
+current DAF capabilities are available for planning and execution. 
+2.3.  DAF FAM. 
+2.3.1.  Will complete FAM web-based training in accordance with DAFI 10-401.  Link to 
+training is located on the FAM Community of Practice website. 
+2.3.2.  DAF validator of new, changed, and cancelled UTCs in their assigned functional areas.  
+Will conduct reviews to ensure each UTC represents a single capability and ensures MRA 
+conducts biennial review of functional area UTCs.  
+2.3.3.  As part of the biennial review process, will evaluate and standardize UTCs with similar 
+manpower and equipment requirements for consistency across MAJCOMs and FLDCOMs. 
+14 
+DAFMAN10-406  6 OCTOBER 2021 
+2.3.4.  Will assign an MRA for each UTC in their functional area.  Will assign the agency at 
+the MAJCOM, FLDCOM, direct reporting unit, or field operating agency level unless the DAF 
+FAM chooses to retain responsibilities.  Will coordinate assignment with MAJCOM or 
+FLDCOM FAM or equivalent prior to designating the agency. 
+2.3.5.  Will conduct UTC review and provide response to AF/A3OD within 21 days of request. 
+2.4.  AFMAA. 
+2.4.1.  Acts as the DAF MFE manager and will manage MFE for all DAF UTCs. 
+2.4.2.  Will validate and approve all MFE adds, changes, and cancellations with UTC process 
+owners. 
+2.4.3.  Will perform AFSC and FAC direct conversion actions of the MFE. 
+2.4.4.  Will utilize DCAPES to validate and approve MFE in UTC Requests. 
+2.5.  MRA. 
+2.5.1.  Appointed by the DAF FAM to develop and maintain specific UTCs. 
+2.5.2.  Will appoint a MRA manager as a single point of contact for all UTC actions. (T-1). 
+2.5.3.  Must coordinate UTC actions within its headquarters and with all other commands and 
+agencies that utilize the UTCs to ensure the capability meets all user requirements. (T-1).  Will 
+forward UTC impasses to AF/A3OD and the DAF FAM for resolution. (T-1). 
+2.5.4.  Will review and certify accuracy and currency of UTCs at least biennially. (T-1).  As 
+part of the biennial review process, will evaluate and standardize UTCs with similar manpower 
+and equipment requirements for consistency across MAJCOMs and FLDCOMs.  MFE changes 
+must be coordinated, validated, and approved by the AFMAA prior to updating the MEFPAK 
+database. (T-1). The review must include all UTC elements. (T-1). 
+2.5.5.  Must ensure UTC coordination with FAMs at every level (Pilot Unit, MAJCOM, 
+FLDCOM, and DAF) prior to submitting the DCAPES UTC request to DAF FAM and 
+AF/A3OD. (T-1). 
+2.5.6.  The MRA is responsible for UTC coordination as seen in Figure 2.1. 
+DAFMAN10-406  6 OCTOBER 2021 
+15 
+Figure 2.1.  UTC Hierarchy Authority. 
+ 
+2.6.  MRA Manager. 
+2.6.1.  Appointed by the MRA and is responsible for processing new, changed, and cancelled 
+UTCs in their assigned agency. 
+2.6.2.  Will submit requests for UTC actions in the DCAPES UTC Request module. (T-1). 
+2.6.3.  Will review and analyze UTC data to ensure accuracy and validity in accordance with 
+this instruction. (T-1). 
+2.6.4.  Serves as the OPR for biennial review of all UTC elements in conjunction with 
+AFMAA, MRA FAM, MRA manpower office, FSM officer (FSMO), and MRA LOGDET 
+manager, as necessary.  As part of the biennial review process, will evaluate and standardize 
+UTCs with similar manpower and equipment requirements for consistency across MAJCOMs 
+and FLDCOMs. (T-2). 
+2.6.5.  Will establish timelines to prevent overdue biennial UTC reviews. (T-2). 
+2.6.6.  Ensures current contact information (Point of contact (POC), E-mail, and DSN) is on 
+file with AF/A3OD. 
+2.6.7.  Will develop and provide local guidance on UTC development and maintenance to 
+MRA FAM and Pilot Units. (T-2). 
+16 
+DAFMAN10-406  6 OCTOBER 2021 
+2.6.8.  Will assist the MRA with initial and recurring UTC development and maintenance 
+training for assigned FAMs. (T-2). 
+2.6.9.  Will coordinate with supporting offices (i.e., LOGDET manager) regarding UTC 
+actions affecting their portions of UTC development (e.g., Delete cancelled UTCs with 
+associated equipment separately in LOGMOD). (T-1). 
+2.6.10.  Will coordinate UTC cancellations with appropriate MAJCOM/air component plans 
+or FLDCOM offices for TPFDD actions and with MRA FAMs for UTA posturing actions. (T-
+1). 
+2.6.11.  MRA manager will ensure the DAF FAM approves the UTC Development prior to 
+submitting new UTC capability in DCAPES and LOGMOD. (T-1). 
+2.6.12.  Will coordinate simultaneous submission of UTC Request and LOGDET with the 
+MRA LOGDET Manager to ensure both are submitted within 3 business days of each other. 
+(T-1). 
+2.6.13.  Will attend UTC management teleconferences conducted by AF/A3OD. (T-1). 
+2.7.  MRA LOGDET Manager. 
+2.7.1.  Will assist MRA FAMs and Pilot Units in developing and maintaining LOGDETs for 
+assigned UTCs. (T-1). 
+2.7.2.  Will monitor LOGDET development and review of assigned UTCs. (T-1). 
+2.7.3.  Will ensure LOGMOD UTC Pilot Unit assignment matches the DCAPES UTC Pilot 
+Unit assignment. (T-1).  Exception:  Pilot Unit assignment in the LOGMOD may reflect either 
+the actual unit (appointed Pilot Unit) or the local unit with the assigned logistics plans function 
+(e.g., logistics readiness squadron).  This assignment allows unit hierarchy visibility of 
+assigned UTCs in the LOGMOD.  DCAPES is the authoritative data source for UTC Pilot Unit 
+assignment allowing this exception to take place. 
+2.7.4.  Will ensure MRA assignment in the LOGMOD matches assignment reflected in the 
+MEFPAK database. (T-1). 
+2.7.5.  Will disapprove the UTC LOGDET if any deficiencies identified in Table 2.1 exist. (T-
+1). 
+ 
+ 
+DAFMAN10-406  6 OCTOBER 2021 
+17 
+Table 2.1.  LOGDET Deficiencies. 
+LOGDET Deficiencies  
+1. 
+LOGMOD Data Base Verify reflects errors. 
+2. 
+UTC Header data does not match MEFPAK data. 
+3. 
+Invalid cargo dimensions (e.g., length, width, or height equal to 0). 
+4. 
+Incorrect increment types. 
+5. 
+Palletized increments do not list 463L pallet (1), top net (1), side nets (2), and 
+dunnage (3) as Items 1-4, in this order and quantity. 
+6. 
+Single pallet weight exceeds 10,000 pounds. 
+7. 
+Coupler is not listed as item 5 for pallet train increments.  
+8. 
+Incorrect special handling codes. 
+9. 
+Incorrect or missing hazardous codes. 
+10. Incorrect deployment echelon codes. 
+11. Incorrect cargo category codes. 
+12. 
+Unauthorized internal sling-able units, conex boxes, cadillac bins, or Brooks 
+and Perkins containers. 
+ 
+Exception:  Bare base WRM is required to be shipped containerized, not to 
+include other items within the UTC that may be shipped using 463L pallets. 
+13. Invalid FAC. 
+14. 
+Vehicle is in UTC that is not a UFM- and UFW-series UTCs or does not have 
+approval from AF/A4L to have a vehicle. 
+ 
+Exception:  Units with embedded funded Vehicle Management manpower 
+authorizations (e.g., RED HORSE) may include vehicles in the LOGDET. 
+15. 
+Incorrect Authorization Identification for Equipment Items and vehicles. 
+ 
+Note:  The reference for the correct authorization identification for an 
+equipment item is the authorization Id as provided by the host Logistics 
+Readiness Squadron, Equipment Accountability Element.  The reference for the 
+correct authorization identification for vehicles is the motor vehicle report host 
+Logistics Readiness Squadron, Fleet Management and Analysis section. 
+16. Weapons, ammunition, and other sensitive equipment placed at the item level 
+does not have an item nomenclature of “SENSITIVE EQUIPMENT”  
+2.7.6.  MRA LOGDET manager will submit the UTC LOGDET to AF/A3OD once validated 
+and approved by the MRA FAM. (T-1).  Will submit the UTC LOGDET within 3 business 
+days of the DCAPES UTC request. (T-1). 
+2.7.7.  MRA LOGDET manager will align Tenant Units under appropriate Plans and 
+Integration supporting function and/or Pilot Unit in the LOGMOD organization-visibility 
+tables. (T-1).  Alignment may require assistance of AF/A3OD or LOGMOD Program 
+Management Office’s Field Assistance Service. 
+2.7.8.  MRA LOGDET manager will attend UTC management teleconferences conducted by 
+AF/A3OD. (T-1). 
+18 
+DAFMAN10-406  6 OCTOBER 2021 
+2.8.  MRA Manpower Office. 
+2.8.1.  Will provide UTC manpower detail to MRA FAMs for review. (T-1).  Will update MFE 
+based on coordinated inputs to include grade, AFSC, special experience identifier, FAC and 
+minimum manpower quantities to support the UTCs MISCAP statement. (T-1). 
+2.8.2.  Will ensure UTC manpower requirements (MFE) do not exceed unit manpower 
+document funded authorizations. (T-1). 
+2.8.3.  Will input only AFMAA approved MFE data into the MEFPAK database. (T-1). 
+2.8.4.  Will submit AFSC and FAC conversions, if applicable. (T-1). 
+2.8.5.  Will attend UTC management teleconferences conducted by AF/A3OD. (T-1). 
+2.8.6.  Will assist FAMs with computing manpower costs in accordance with AFI 38-101, 
+Manpower and Organization. (T-2). 
+2.9.  FSM Officer. 
+2.9.1.  Resides at the 635th Supply Chain Operations Wing and will review AF Form 601, 
+Authorization Change Request, with the MRA FAM. (T-1). 
+2.9.2.  Will provide complete list of FSM module UTC authorizations for validation and 
+certification during UTC biennial reviews. (T-1). 
+2.9.3.  Will review FSM Module UTC requirements and requests MRA FAM justification for 
+authorizations inconsistent with Pilot Unit requirements and Non-Pilot Unit posturing. (T-1). 
+2.9.4.  Will assist the MRA LOGDET manager and the FAM with reviewing applicable 
+equipment items for currency and validity. (T-1).  Reviews will include: 
+2.9.4.1.  Validating items as expendability, recoverability, reparability category non-
+expendable codes S or U and verify requirements meet threshold for accountability in 
+accordance with AFI 23-101, Materiel Management Policy. (T-1). 
+2.9.4.2.  Ensuring authorizations are leveraged against Prime NSN if part of 
+interchangeable and substitute group. (T-1). 
+2.10.  MRA FAM. 
+2.10.1.  Will complete FAM web-based training in accordance with DAFI 10-401. (T-1).  Link 
+to training also located on the FAM Community of Practice website. 
+2.10.2.  Will coordinate all UTC action requests with the MRA manager. (T-1). UTC changes, 
+additions, and deletions must be coordinated with all using commands prior to submitting 
+action requests to the MRA manager. (T-1).  Prior coordination with DAF FAM is 
+recommended. 
+2.10.3.  Will participate in biennial review process as directed by the MRA manager. (T-2).  
+As part of the biennial review process, will evaluate and standardize UTCs with similar 
+manpower and equipment requirements for consistency across MAJCOMs and FLDCOMs. 
+(T-1). 
+2.10.4.  Will designate Pilot Units to develop and maintain UTCs.  Designate Pilot Units at the 
+squadron level whenever possible.  Ensure Pilot Units have the means (manpower and/or 
+equipment) to develop UTC requirements. (T-1). 
+DAFMAN10-406  6 OCTOBER 2021 
+19 
+2.10.4.1.  Will coordinate assignment of Pilot Units outside of the command with the 
+proposed Pilot Unit FAM along with the MRA manager prior to assignment. (T-1). 
+2.10.4.2.  National Guard Bureau, Plans and Integration Branch (NGB/A4RX) will 
+accomplish internal ANG coordination prior to Pilot Unit appointment to include written 
+concurrence of The Adjutant General of the unit’s state. (T-1). When coordination is 
+complete, NGB/A4RX will release a message appointing the Pilot Unit and send 
+informational copies to the appointed MRA manager and FAM. (T-1). 
+2.10.4.3.  Will identify Pilot Unit in writing with informational copies to Pilot Unit’s 
+supporting logistics readiness squadron, plans and integration section and MRA manager. 
+(T-1). Will notify appointment via any reasonable means (e.g., e-mail, memo) that allows 
+record of notification. (T-2). 
+2.10.4.4.  Will ensure Pilot and Non-Pilot Units review and validate FSM Module UTC 
+requirements. (T-1). 
+2.10.5.  Will develop MFE for assigned UTCs and submit changes to the MRA manpower 
+office for action. (T-2). When developing MFE, will accomplish MEFPAK risk mitigation 
+procedures when developing UTCs with 3 skill-level requirements. (T-1). 
+2.10.6.  Will ensure LOGDET is accurate and consistent with current FSM Officer guidance, 
+AFI 10-403, Deployment Planning and Execution, and AFI 25-101. (T-1). 
+2.10.7.  Will ensure all equipment items are current and valid NSNs are in use prior to 
+approving any LOGDET. (T-1). 
+2.10.8.  Will maintain current copies of complete UTC data for all UTCs within functional 
+area. (T-2). 
+2.11.  Pilot Unit. 
+2.11.1.  Responsible for developing and maintaining assigned UTCs.  Appointed in writing by 
+MRA FAMs using the unit designator.  For tenant units or geographically separated units, Pilot 
+Unit must be the actual unit responsible for UTC development and maintenance and not the 
+host unit or supporting function. (T-2). The MRA FAM may retain Pilot Unit responsibilities. 
+2.11.2.  The logistics readiness squadron, plans and integration section, acts as the overall POC 
+for Pilot Unit UTC processes for all supported units.  The installation deployment officer is 
+responsible for assisting unit deployment managers (UDMs) with developing and reporting 
+UTC detail.  Pilot Units will ensure current contact information (POC, E-mail, and DSN) is 
+available within the LOGMOD organizational tables. (T-2). 
+2.11.3.  Will submit UTC changes through the host logistics readiness squadron, plans and 
+integration section. (T-2). 
+2.11.4.  Will coordinate impasses with the MRA manager. (T-2). 
+2.11.5.  Will develop LOGDET to support the MISCAP Statement using the appropriate 
+equipment authorizations and coordinate with the local Materiel Management function to 
+ensure all equipment items are accurate, current, and valid. (T-2). The following will be 
+included: 
+20 
+DAFMAN10-406  6 OCTOBER 2021 
+2.11.5.1.  Equipment items coded as mobility equipment in appropriate allowance 
+standard. (T-2). 
+2.11.5.2.  Pilot Unit’s UDM or functional area representative for a designated UTC will 
+use the defense property accountability system to ensure all allowance standard mobility-
+coded (Use Code “A”) items are loaded in the standard UTC LOGDET. (T-1). Pilot Units 
+will obtain access to the accountability system via the nearest logistics readiness squadron 
+equipment management element. (T-1).  Pilot Units that are not collocated on a military 
+installation that have access to integrated logistics system - supply will request assistance 
+from the nearest logistics readiness squadron equipment management representative to 
+gain defense property accountability system access. (T-1).  Air Reserve Component units 
+may require assistance from their respective supply representatives at Numbered Air Force, 
+MAJCOM or gaining MAJCOM level. 
+2.11.5.3.  All allowance standard LOGDET information at the item and suffix item levels 
+will reflect: 
+2.11.5.3.1.  Primary NSNs. (T-1). 
+2.11.5.3.2.  Applicable Authorization Identification. (T-1). 
+2.11.5.3.3.  Tasked quantities (regardless of the tasked quantity, item level weights will 
+always be input as the single weight of one item). (T-1). 
+2.11.5.3.4.  Dimensional data for items (length, width, height) and weight. (T-1). 
+2.11.5.3.5.  Applicable hazard classes and divisions in accordance with AFMAN 24-
+604 as well as all corresponding Special Handling codes. (T-1). 
+2.11.5.3.6.  Approved readiness spares packages for aviation UTCs. 
+2.11.5.3.7.  Non-equipment (non-allowance standard), non-readiness spares packages 
+items necessary to directly support the MISCAP Statement (e.g., administrative 
+supplies). Do not include items in the LOGDET of one UTC that supports another (e.g., 
+do not include extra light-alls in an aviation UTC to support a security force entry 
+control point). (T-1). 
+2.11.5.4.  All non-equipment (non-allowance standard) or non-readiness spares package 
+LOGDET information at item and suffix item level will reflect: 
+2.11.5.4.1.  Primary NSN. (T-1). 
+2.11.5.4.2.  Tasked quantities (regardless of the tasked quantity, item level weights will 
+always be input as the single weight of one item). (T-1). 
+2.11.5.4.3.  Dimensional data at item level (length, width, height) and weight. (T-1). 
+2.11.5.4.4.  Applicable hazardous classes and divisions in accordance with AFMAN 
+24-604 as well as all corresponding Special Handling codes. (T-1). 
+ 
+ 
+DAFMAN10-406  6 OCTOBER 2021 
+21 
+2.11.5.5.  While standard DAF LOGDETs must contain primary NSNs, not every item or 
+suffix item has a NSN as reflected in the FSM module, allowance standard, federal logistics 
+database, or Integrated Logistics System – Supply.  In the event a NSN does not exist, Pilot 
+Units will associate the proper supply federal stock class, along with a “P” and the part 
+number for the item, to create a usable NSN (e.g., 7510P3409A). (T-1).  If the item does 
+not have a stock number or part number, the Pilot Unit will assign the proper supply federal 
+stock class, along with a brief nomenclature of the item, to create a NSN (e.g., 
+7510STAPLER). (T-1).  For civil engineering, use of a national stock listing number (e.g., 
+7510-00-NSL-001) will serve the same purpose when associated to a specific part. (T-1). 
+2.11.5.6.  Will build, measure, and weigh all cargo increments if weights or number of 
+items change by more than 10%. (T-1).  Equipment end items (e.g., vehicles, aerospace 
+ground equipment, trailers) do not require updated measurement or weights as these items 
+have static weights and dimensions that should not change. 
+2.11.5.7.  Will use standard DAF-approved FAC when developing, maintaining, and 
+reporting standard UTC Logistic Details. (T-1).  Will use the standard six digit FAC with 
+a shred out "00" (zero, zero) in standard UTC Logistic Details. (T-1). 
+2.11.6.  Will coordinate with servicing base level manpower office when developing the MFE. 
+(T-1). 
+2.11.7.  Will conduct biennial reviews as directed by MRA manager. (T-2).  As part of the 
+biennial review process, will evaluate and standardize UTCs with similar manpower and 
+equipment requirements for consistency across MAJCOMs and FLDCOMs. (T-2). 
+2.11.8.  Will coordinate with Non-Pilot Units to allow them the opportunity to provide inputs 
+to UTC reviews. (T-2).  Non-Pilot Unit involvement is critical in ensuring UTC validity and 
+accuracy. 
+2.12.  Non-Pilot Unit. 
+2.12.1.  Non-Pilot Units are tasked to provide a specific capability (UTC) as identified in the 
+UTA database and are not directly responsible for developing the UTC.  Non-Pilot Units must 
+provide input to UTC development and changes to the Pilot Unit. (T-1). 
+2.12.2.  Will evaluate Pilot Unit UTC proposals and provides comments, concurrence, or non-
+concurrence to the Pilot Unit within 30 calendar days of notification. (T-2). 
+2.12.3.  Will ensure contact information is accurate and available in the LOGMOD 
+organizational tables to facilitate review notifications. (T-2). 
+2.12.4.  Will ensure LOGMOD planning and exercise plan identifications (i.e., PIDs) have the 
+most current standard UTC LOGDET (suffix 0) by copying LOGFOR packaging UTC data 
+into local logistics planning packages prior to use. (T-2). 
+2.12.5.  Will procure and maintain all equipment and supply items identified by the UTC 
+MISCAP Statement and LOGDET. (T-2). Non-Pilot Units will establish a process for 
+budgeting and procuring equipment and expendable items required to support the UTC. (T-1). 
+22 
+DAFMAN10-406  6 OCTOBER 2021 
+Chapter 3 
+UTC LIFE CYCLE 
+3.1.  UTC Life Cycle.  The UTC Life Cycle covers development, maintenance, and cancellation.  
+Figure 3.1 identifies the key events in each phase. 
+Figure 3.1.  UTC Life Cycle. 
+ 
+3.2.  Cause for New UTCs. 
+3.2.1.  Develop UTCs to identify capabilities that support military operations from exercises, 
+peacekeeping missions, humanitarian relief, and small-scale operations as dictated by the UTC 
+MISCAP Statement. 
+3.2.2.  There are many considerations when creating a new UTC: 
+3.2.2.1.  New equipment enters the inventory (e.g., new airframes join the fleet, new 
+vehicles or equipment provide a new capability).  Do not develop a new UTC for small-
+scale changes to existing equipment items that do not affect the MISCAP Statement of an 
+existing UTC. 
+3.2.2.2.  New capability.  A new capability can support a new mission, the evolution of a 
+prior capability (e.g., changes in communications technology), or a new capability 
+replacing an existing function.  If a new capability is replacing an existing one, the outdated 
+UTC should be cancelled following guidance in paragraph 3.5.2  UTCs should not remain 
+in the MEFPAK database when a newer capability exists. 
+DAFMAN10-406  6 OCTOBER 2021 
+23 
+3.2.2.3.  Augmentation of an existing capability.  UTCs may augment existing UTCs, but 
+do not develop an augmentation UTC as a stand-alone capability.  As an example, direct 
+aviation support UTCs and their maintenance packages require augmentation to match 
+increased primary aerospace vehicle authorization requirements).  Augmentation UTCs 
+should be limited as the manpower should be included in the standard UTC. 
+3.2.2.4.  Unit mission changes.  A UTC does not define or determine unit manpower 
+authorizations.  UTCs should not be created if a unit’s home station mission changes or 
+new units are stood up unless those units present a new capability.  Additionally, UTCs are 
+not designed specifically to identify an employed-in-place unit’s manning (e.g., AOC and 
+AFFOR UTCs).  Changes to a unit’s mission or manpower authorizations will require a 
+review of the unit’s UTCs that are postured in accordance with DAFI 10-401. 
+3.3.  UTC Development Process. 
+3.3.1.  New UTC development follows the process outlined in Figure 3.2 and requires a new 
+UTC request that includes a MISCAP Statement, MFE and/or LOGDET short tons as 
+applicable. 
+Figure 3.2.  UTC Development Process. 
+ 
+3.3.2.  New UTCs should meet criteria outlined in this instruction.  Ask the following questions 
+before deciding to pursue a new UTC: 
+3.3.2.1.  Is this a new capability? 
+3.3.2.2.  Does this capability exist in a current UTC?  If so, will this UTC replace the 
+existing one? 
+24 
+DAFMAN10-406  6 OCTOBER 2021 
+3.3.2.3.  Will this UTC be available to all combatant commanders? 
+3.3.2.4.  Does this UTC represent a DAF capability, or a specific unit’s mission? 
+3.3.3.  The DAF FAM will identify a MRA responsible for the UTC.  This agency will initiate 
+all actions for UTC development and maintenance. 
+3.3.4.  The MRA FAM will assign a Pilot Unit according to the guidelines in paragraph 
+2.10.4. (T-1). 
+3.3.5.  The Pilot Unit and/or MRA FAM will develop the UTC MISCAP Statement. (T-1).  
+This statement will drive development of the MFE and/or LOGDET. (T-1). 
+3.3.6.  The MRA manager and FAM will review the UTC MISCAP Statement, MFE and/or 
+estimated LOGDET short tons for accuracy, currency, and validity. (T-1). 
+3.3.7.  The MRA manager will ensure the new UTC request is in compliance with the 
+information in this manual before submitting to DAF FAM for review via DCAPES. (T-1). 
+3.3.8.  The DAF FAM will review for functional relevance along with accuracy and certify 
+that the capability does not currently exist in the MEFPAK database.  The DAF FAM will then 
+approve or disapprove UTC creation (New UTC Request). 
+3.3.9.  After the DAF FAM approves the new UTC request, AF/A3OD will review the UTC 
+request for accuracy and then approve or disapprove UTC creation (New UTC Request).  After 
+AF/A3OD approves the request, the agency will complete the UTC build by filling out the 
+MFE details in UTC Requests. (T-1).  Once completed, the agency will submit the New UTC 
+Request through the DCAPES to the MRA manager. 
+3.3.10.  UTCs with DEPIDs E, 1, 2, or 3 require LOGDETs suffix 1 (see Table 3.1) in the 
+LOGMOD and DCAPES UTC Request.  Both submissions must be submitted to the DAF 
+MEFPAK manager within three (3) business days of one another.  DAF level UTC review in 
+the systems will not begin until both requirements are received. (T-1).  If either is not submitted 
+within three (3) business days, the request submitted will be returned to the MRA for action. 
+(T-1). 
+Table 3.1.  LOGMOD UTC Suffix Code Definitions. 
+SUFFIX DEFINITION 
+0 
+Standard, DAF-approved UTC. 
+1 
+Awaiting DAF Approval (Submitted by MRA) 
+5 
+Awaiting MRA Approval (Submitted by Pilot Unit) 
+8 
+Pilot Unit Working Copy (auto-generated on approval of standard) 
+9 
+Disapproved by DAF (Returned as Pilot Unit Working Copy) 
+3.3.11.  Once the MRA manager submits the new UTC request, AFMAA will review MFE for 
+accuracy and provide approval or disapproval.  When approved, the request will be submitted 
+to the appropriate DAF FAM for approval.  If AFMAA disapproves, the request is sent back 
+to the MRA manager. 
+ 
+ 
+DAFMAN10-406  6 OCTOBER 2021 
+25 
+3.3.12.  The DAF FAM will complete the UTC review within 21 calendar days of receipt. 
+3.3.13.  Once approved by the DAF FAM, approval is sent to AF/A3OD for review, final 
+approval and official MEFPAK publishing. 
+3.4.  UTC Biennial Review Process. 
+3.4.1.  Pilot Units will conduct a complete review of UTCs at least biennially or as directed by 
+Higher Headquarters. (T-1). Review will cover header data (Pilot Unit, DEPID, MRA 
+assignment, etc.), the MISCAP Statement, LOGDET, and the MFE where applicable. (T-1). 
+Upon completion of the review, the Pilot Unit will update the MISCAP Statement date to 
+reflect completion of total review. (T-2). 
+3.4.2.  The MRA manager will develop internal procedures and timelines to ensure assigned 
+UTCs are reviewed. (T-2). 
+3.4.3.  The Pilot Unit, LOGDET manager, MRA manager, AF/A3OD, and DAF FAM will 
+review UTC LOGDETs and approve them in the at least biennially or as directed by Higher 
+Headquarters (as part of total UTC biennial review). (T-1).  Biennial review must occur even 
+if the LOGDET remains unchanged. (T-1).  The LOGDET review and approval will be 
+identified by the “Transmit Date” field in the LOGFOR Packaging module for UTC suffix “0” 
+UTCs. (T-1).  This provides an identifiable review date for all stakeholders. 
+3.4.4.  The Pilot Unit, MRA manager, AF/A3OD, and DAF FAM will review UTC MISCAP 
+Statement and MFE details at least biennially or as directed by Higher Headquarters (as part 
+of total UTC biennial review). (T-1).  Biennial review must occur even if the MISCAP and 
+MFE detail remains unchanged. (T-1). UTC changes, additions, deletions must be coordinated 
+with all using commands prior to submitting action requests to the MRA manager. (T-1). 
+3.4.5.  To be considered as part of the biennial review, individual UTC elements (LOGDET 
+and/or MFE) must have been reviewed within 180 days of the total UTC reviewed date listed 
+in the MISCAP Statement. (T-1).  This ensures a complete review of UTC elements against 
+the most current MISCAP Statement.  For example, LOGDET (in LOGMOD) must reflect 
+review within 180 days of the MISCAP Statement or it must undergo LOGMOD review and 
+approval process prior to update of MISCAP. (T-1). 
+3.4.6.  UTCs overdue by 180 days based on the current calendar date and the date listed in the 
+MISCAP Statement are deemed obsolete.  AF/A3OD will direct the DAF FAM and the MRA 
+manager to take immediate action to conduct the review or submit for cancellation.  Waivers 
+for the180-day grace period must have signature from the Pilot Unit Wing/CC. (T-1). 
+3.5.  UTC Changes and Cancellations. 
+3.5.1.  UTC Changes.  UTC changes may occur to any individual element (LOGDET, MFE, 
+or MISCAP) of a UTC at any time.  The Pilot Unit, MRA, or DAF FAM may direct these 
+changes.  Individual element changes will not constitute a complete review of the UTC; 
+however, changes will follow the process identified in Figure 3.3 for UTC approval. (T-1).  
+The UTC MISCAP Statement must reflect the last time a total UTC review was completed. 
+(T-1). 
+3.5.1.1.  MRA managers will take appropriate actions for all impacted UTC elements (e.g., 
+removal of the LOGDET will require a DEPID change in the MEFPAK database). (T-1). 
+26 
+DAFMAN10-406  6 OCTOBER 2021 
+Figure 3.3.  UTC Change Process. 
+ 
+3.5.1.2.  Changes to a UTC MISCAP Statement affecting required manpower or equipment 
+authorizations will require a complete UTC review. (T-1).  Those changes will require an 
+update to the MISCAP statement with a new review date to reflect completion. 
+3.5.1.3.  MRA Changes.  When transferring a UTC to another agency, the losing agency 
+must ensure completed coordination with the gaining agency. (T-1).  The gaining agency 
+must agree to the transfer prior to any system transfers. (T-1). 
+3.5.1.3.1.  UTCs must be current for all reviews prior to transfer unless gaining agency 
+accepts responsibility of UTC as is. (T-1).  If the gaining agency does not accept the 
+UTC as is, the losing agency must accomplish a complete UTC review if the UTC is 
+overdue or coming due within 180 days of transfer. (T-1). 
+3.5.1.3.2.  The losing agency will submit the request in DCAPES. (T-1).  The gaining 
+agency will indicate acceptance and concurrence of transfer prior to the losing agency 
+submitting request to AF/A3OD. (T-1). 
+3.5.1.3.3.  AF/A3OD will accomplish mass transfers of UTCs with coordination from 
+losing and gaining MRAs.  Changes are made directly in the MEFPAK database once 
+all UTCs are current. 
+ 
+ 
+DAFMAN10-406  6 OCTOBER 2021 
+27 
+3.5.2.  UTC Cancellations.  UTC cancellations occur when a capability is no longer needed.  
+Cancelling a UTC removes it from the MEFPAK database, the LOGFOR packaging subsystem 
+and the TUCHA database.  Do not cancel a replaced UTC until the new UTC is published in 
+the MEFPAK database. 
+3.5.2.1.  UTCs will be removed from UTA prior to submitting cancellation request. (T-1).  
+If UTCs are not removed from UTA prior to submission, the cancellation request will be 
+returned to the MRA for action. (T-1). 
+3.5.2.2.  MEFPAK, LOGFOR, and the TUCHA systems will retain UTCs as DEPID 0 for 
+one year from cancellation request date to allow time for updates to TPFDDs and other 
+systems containing UTCs. 
+3.5.2.3.  AF/A3OD modifies LOGFOR UTCs to DEPID 0 (Suffix 0) once the UTC is 
+approved for cancellation or when the UTC LOGDET is removed from the UTC (e.g., 
+change from DEPID 1 to DEPID P).  The MRA LOGDET manager deletes all other 
+versions contained in LOGFOR. 
+ 
+JOSEPH T. GUASTELLA JR, Lt Gen, USAF 
+Deputy Chief of Staff, Operations 
+28 
+DAFMAN10-406  6 OCTOBER 2021 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+CJCSM 3150.24E, Type Unit Characteristics Report (TUCHAREP), 10 August 2018 
+CJCSM 3150.17F, Type Unit Equipment Detail Report (TEDREP), 26 November 2013 
+DTR 4500.9-R-Part VI, Management and Control of Intermodal Containers and System 463L 
+Equipment, June 2018 
+DTR 4500.9-R-Part II, Cargo Movement, May 2014 
+DAFI 10-401, Operations Planning and Execution, 13 January 2021 
+DAFI 33-360, Publications and Forms Management, 1 December 2015 
+DAFPD 10-4, Operations Planning: Air Expeditionary Force and Global Force Management, 4 
+April 2019 
+AFI 10-403, Deployment Planning and Execution, 17 April 2020 
+AFI 23-101, Materiel Management Policy, 22 October 2020 
+AFI 25-101, War Reserve Materiel (WRM), 27 August 2019 
+AFI 33-322, Records Management and Information Governance Program, 23 March 2020 
+AFI 38-101, Manpower and Organization, 29 August 2019 
+AFMAN 10-409-O, Support to Adaptive Planning, 19 April 2016 
+AFMAN 24-604, Preparing Hazardous Materials for Military Air Shipments, 9 October 2020 
+Prescribed Forms 
+None 
+Adopted Forms 
+AF Form 847, Recommendation for Change of Publication 
+AF Form 601, Authorization Change Request 
+Abbreviations and Acronyms 
+AETF—Air Expeditionary Task Forces 
+AFFOR—Air Force Forces 
+AFI—Air Force Instruction 
+AFMAN—Air Force Manual 
+AFMAA—Air Force Manpower Analysis Agency 
+AFR—Air Force Reserve 
+AFSC—Air Force Specialty Code 
+DAFMAN10-406  6 OCTOBER 2021 
+29 
+ANG—Air National Guard 
+AOC—Air Operations Center 
+ARC—Air Reserve Component 
+AUTH—Authorized 
+CJCSM—Chairman of the Joint Chiefs of Staff Manual 
+DAF—Department of the Air Force 
+DAFI—Department of the Air Force Instruction 
+DAFPD—Department of the Air Force Policy Directive 
+DCAPES—Deliberate and Crisis Action Planning and Execution Segments 
+DEPID—Deployment Indicator 
+DSN—Defense Switch Network 
+DTR—Defense Transportation Regulation 
+FAC—Functional Account Codes 
+FAM—Functional Area Manager 
+FLDCOM—Field Command 
+FSM—Force System Management 
+JOPES—Joint Operation Planning and Execution System 
+LOGDET—Logistics Detail 
+LOGFOR—Logistics Force Packaging 
+LOGMOD—Logistics Module 
+MAJCOM—Major Command 
+MEFPAK—Manpower and Equipment Force Packaging 
+MFE—Manpower Force Element 
+MISCAP—Mission Capability 
+MRA—MEFPAK Responsible Agency 
+NGB—National Guard Bureau 
+NSN—National Stock Number 
+OPR—Office of Primary Responsibility 
+PAX—Passenger 
+PID—Plan Identification 
+PMAI—Primary Mission Aircraft Inventory 
+POC—Point of Contact 
+30 
+DAFMAN10-406  6 OCTOBER 2021 
+RegAF—Regular Air Force 
+SIPRNet—Secret Internet Protocol Routing Network 
+STONS—Short Tons 
+TEDREP—Type Unit Equipment Detail Report 
+TPFDD—Time-Phased Force and Deployment Data 
+TUCHA—Type Unit Characteristics 
+TUCHAREP—Type Unit Characteristics Report 
+UDM—Unit Deployment Manager 
+UTA—UTC Availability 
+UTC—Unit Type Code 
+WRM—War Reserve Materiel 
+Terms 
+Bulk STONS—That which is generally shipped in volume where the transportation conveyance 
+is the only external container; such as liquids, ore, or grain.  Also referred to as bulk cargo. 
+Cross Functional UTC—A cross-functional UTC is a standard UTC made up of manpower 
+and/or equipment from different functional areas.  Members of cross-functional UTCs work 
+together and represent their functional expertise towards a common mission goal.  When functional 
+entities in a cross functional UTC only perform functionally-unique duties, then the capability 
+should be defined in a standard UTC with a functional mission.  Single functional areas that are 
+inherently linked to an organization UTC (e.g., a First Sergeant in a squadron-level UTC) do not 
+constitute a cross-functional UTC. 
+Forward Operating Base—An airfield used to support tactical operations without establishing 
+full support facilities. 
+Forward Operating Site—A scalable location outside the United States and US territories 
+intended for rotational use by operating forces. 
+Main Operating Base—A facility outside the United States and US territories with permanently 
+stationed operating forces and robust infrastructure.  Main operating bases are characterized by 
+command and control structures, enduring family support facilities, and strengthened force 
+protection measures.  
+Pilot Unit—A unit responsible for developing and maintaining assigned UTCs.  Appointed in 
+writing by MRA FAMs using the unit designator. 
+Non-Pilot Unit—A unit tasked to provide a specific capability (UTC) as identified in the UTA 
+database who is not directly responsible for developing the UTC.  Non-Pilot Units must provide 
+input to UTC development and changes to the Pilot Unit. 
+ 
+ 
+DAFMAN10-406  6 OCTOBER 2021 
+31 
+Unit Type Code (UTC)—A Joint Chiefs of Staff developed and assigned code, consisting of five 
+characters that uniquely identify a "type unit." 
+National Stock Number—The 13-digit number that identifies a stock item consisting of the 4-
+digit federal supply classification code plus the 9-digit national item identification number and 
+arranged as follows: 9999-00-999-9999. 
+Outsized STONS—A single item that exceeds 1,000 inches long by 117 inches wide by 105 
+inches high in any one dimension.  Also referred to as outsized cargo. 
+Oversized STONS—1.  Large items of specific equipment such as a barge, side loadable warping 
+tug, causeway section, powered, or causeway section, non-powered that require transport by sea. 
+2.  Air cargo exceeding the usable dimension of a 463L pallet loaded to the design height of 96 
+inches, but equal to or less than 1,000 inches in length, 117 inches in width, and 105 inches in 
+height.  Also referred to as oversized cargo. 
+Time-Phased Force and Deployment Data—The time-phased force data, non-unit cargo and 
+personnel data, and movement data for the operation plan or operation order or ongoing rotation 
+of forces. 
+Vehicular Cargo—Wheeled or tracked equipment, including weapons that require certain deck 
+space, head room, and other definite clearance. 
+ 
+32 
+DAFMAN10-406  6 OCTOBER 2021 
+Attachment 2 
+FORCE TYPE CODES 
+Table A2.1.  Force Type Codes. 
+UTC GROUP 
+FORCE 
+TYPE 
+FUNCTIONAL 
+AREA 
+SPECIFIC 
+CAPABILITY 
+1C 
+CYB 
+Cyberspace 
+ 
+1S 
+SPC 
+Space 
+ 
+1SN 
+NMS 
+Nuclear Missile 
+Support 
+ 
+3AG 
+ABC 
+Aviation - 
+Airborne C2 
+ 
+3AJ 
+SUR 
+Aviation - 
+Surveillance 
+ 
+3B 
+BMB 
+Aviation - Bomber 
+ 
+3C 
+NAC 
+Aviation – 
+National Airborne 
+Operations Center 
+ 
+3D 
+ELK 
+Aviation - 
+Electronic Warfare 
+ 
+3E 
+ADF 
+Aviation - Air 
+Defense 
+ 
+3F 
+TFE 
+Aviation - Fighter 
+ 
+3H 
+HEL 
+Aviation - 
+Helicopter 
+Operations Supt 
+ 
+3M 
+SAL 
+Aviation - Strategic 
+Airlift 
+ 
+3MAF 
+INS 
+Aviation - AF 
+Flight Inspection 
+ 
+3MK 
+OSA 
+Aviation - 
+Operational 
+Support 
+Operational 
+Support Aviation- 
+AFR 
+3N 
+TAL 
+Aviation - Tactical 
+Airlift 
+ 
+3NG 
+OSA 
+Aviation - 
+Operational 
+Support 
+ 
+3R 
+SRE 
+Aviation - 
+Reconnaissance 
+ 
+3S 
+SOF 
+Aviation - Special 
+Operations 
+ 
+3T 
+CSR 
+Aviation - Rescue 
+& Recovery 
+ 
+3W 
+WXX 
+Aviation - Weather 
+ 
+DAFMAN10-406  6 OCTOBER 2021 
+33 
+3Y 
+ARS 
+Aviation - Air 
+Refueling 
+ 
+4F 
+EN 
+Engineering 
+ 
+4FW 
+EN 
+Engineering 
+WRM Civil 
+Engineering 
+6A 
+C-E 
+Communications 
+and Electronics 
+Special 
+Operations Forces 
+Communications 
+6F 
+C-E 
+Communications 
+and Electronics 
+Weapon System 
+Support 
+6J 
+C-E 
+Communications 
+and Electronics 
+Joint 
+Communications 
+6K 
+C-E 
+Communications 
+and Electronics 
+ 
+6KQ 
+C-E 
+Communications 
+and Electronics 
+Engineering and 
+Installations 
+7C 
+CYB 
+Cyberspace 
+Cyber Operations 
+Center 
+7E 
+MOB 
+Mobile Command 
+and Control 
+ 
+7FV1/J/P/R/S/X 
+AOC 
+Ground Theater 
+Air Control System 
+- Air Operations 
+Center 
+ 
+7FVA 
+SCC 
+Space Command 
+and Control 
+ 
+7FVB/C/D/W 
+CRC 
+Ground Theater 
+Air Control System 
+- Control and 
+Reporting Center 
+ 
+7FVE/F/Q/T/U/V 
+TCP 
+Ground Theater 
+Air Control System 
+- Tactical Air 
+Control Party/Air 
+Mobility Liaison 
+Officer 
+ 
+7FVG 
+TCS 
+Ground Theater 
+Air Control System 
+- Theater Air 
+Control System 
+ 
+7FVL/7FVK 
+AOP 
+Airfield Operations  
+7FVM/N 
+AMD 
+Ground Theater 
+Air Control System 
+- Air Mobility 
+Division 
+ 
+34 
+DAFMAN10-406  6 OCTOBER 2021 
+7PR 
+PR 
+Personnel 
+Recovery 
+ 
+7R 
+SRO 
+Conventional 
+Operations 
+Reconnaissance 
+ 
+81 
+STT 
+Special Tactics 
+ 
+82 
+CAA 
+Combat Aviation 
+Assessment 
+ 
+9AA/B 
+HQS 
+Headquarters 
+Base Level 
+Headquarters 
+9AAG3/L/M 
+HQS 
+Headquarters 
+Base Level 
+Headquarters 
+9AC 
+C2O 
+Command and 
+Control Operations 
+ 
+9AD 
+HQS 
+Headquarters 
+Air Refueling 
+Headquarters 
+9AE 
+TCN 
+TCN Escorts 
+ 
+9AF 
+SGT 
+First 
+Sergeants/Chief 
+Enlisted Manager 
+ 
+9AG/H/M 
+HQS 
+Headquarters 
+Information 
+Protection 
+9AL 
+AFE 
+Aircrew Flt Equip 
+ 
+9AQ 
+ACQ 
+Acquisition 
+ 
+9AR 
+RCC 
+Rescue 
+Coordination 
+Center 
+ 
+9AS 
+SCI 
+Scientist/Combat 
+Analyst 
+ 
+9AU 
+UDM 
+Unit Deployment 
+Manager 
+ 
+9LR 
+LRO 
+Logistics 
+Readiness Officer 
+ 
+9R 
+HQS 
+Headquarters 
+Reconnaissance 
+Headquarters 
+CA/CB/CC/CH 
+CMD 
+Command Element  
+CQ 
+RTO 
+Rated 
+Officers/16XX 
+ 
+CT 
+HHQ 
+Higher 
+Headquarters 
+AFFOR 
+CTG 
+IG 
+Inspector General 
+ 
+CTH 
+HHQ 
+Higher 
+Headquarters 
+AFFOR Aug 
+DAFMAN10-406  6 OCTOBER 2021 
+35 
+CTJ 
+HHQ 
+Higher 
+Headquarters 
+Higher 
+Headquarters, 
+joint task force, 
+MAJCOM 
+EW 
+EWF 
+Electronic Warfare 
+Support 
+ 
+FF 
+MED 
+Medical 
+ 
+FFQC1/C2DH/DM/L1/N1/S1 
+AME 
+Aeromedical 
+Evacuation 
+Aeromedical 
+Evacuation 
+Equipment 
+FFQCC/CM/CR/DE/LL/NT/SC 
+AME 
+Aeromedical 
+Evacuation 
+Aeromedical 
+Evacuation 
+Personnel 
+FFQE 
+MED 
+Medical 
+Special 
+Operations Forces 
+Medical 
+HA/HB/HC/HD/HE/HF/HM/HN/HR/ 
+HS/HT/HW/HY 
+MNT 
+Maintenance 
+ 
+HBW/HFW/HMW/HYW 
+WRM 
+WRM 
+WRM 
+Maintenance 
+HFR 
+MNT 
+Maintenance 
+Recon 
+Maintenance 
+HFUA 
+BDR 
+Battle Damage 
+Repair 
+Battle Damage 
+Repair – 
+Maintenance 
+HFUD 
+ENG 
+Engineers 
+ 
+HFUE 
+BDR 
+Battle Damage 
+Repair 
+Battle Damage 
+Repair – 
+Engineers 
+HG 
+MMS 
+Munitions MX 
+ 
+HGW 
+WRM 
+WRM 
+WRM Munitions 
+HH 
+MMS 
+Munitions MX 
+ 
+HHH/W/X/Z 
+WRM 
+WRM 
+WRM Munitions 
+HP 
+AED 
+Atomic Energy 
+Detection 
+ 
+JFA/JFD 
+POL 
+Fuels 
+ 
+JFB/G/P & JFBFM 
+SUP 
+Materiel 
+Management 
+ 
+JFBF/K/G 
+RSP 
+Materiel 
+Management 
+Readiness Spares 
+Packages 
+Readiness Spares 
+Packages 
+JFR 
+GLS 
+Materiel 
+Management 
+Global Logistics 
+Support 
+Global Logistics 
+Support Ctr 
+36 
+DAFMAN10-406  6 OCTOBER 2021 
+KA 
+TEV 
+Test and 
+Evaluation 
+ 
+KAC 
+TEV 
+Test and 
+Evaluation 
+Cyber Test and 
+Evaluation 
+KC 
+R&D 
+Research & 
+Development 
+ 
+LB 
+PA 
+Public Affairs 
+Band 
+PF 
+INT 
+Intelligence 
+ 
+QFA/B 
+OSI 
+Counterintelligence 
+& Special 
+Investigations 
+ 
+QFD/E/F/L/M 
+SFS 
+Security Forces 
+ 
+RFB/P 
+PER 
+Personnel 
+ 
+RFC 
+REC 
+Recruiting 
+ 
+RFD 
+PFS 
+Personnel 
+Admin and Postal 
+RFG 
+HST 
+Historian 
+ 
+RFL 
+PFS 
+Personnel Force 
+Support 
+ 
+RFM 
+M-O 
+Manpower 
+ 
+RFS 
+SVS 
+Services 
+ 
+TBP 
+BPC 
+Building 
+Partnership 
+Capacity 
+ 
+TC 
+CYB 
+Cyberspace 
+Cyber Training 
+TFR 
+EDU 
+Education Support 
+ 
+TRF 
+TR 
+AFR Training 
+ 
+TRG 
+TG 
+ANG Training 
+ 
+TTM 
+TI 
+Training 
+Instructors and 
+Basic Military 
+Instructors 
+ 
+TTP 
+TI 
+Training 
+Instructors and 
+Basic Military 
+Instructors 
+ 
+UFB 
+APO 
+Aerial Port 
+ 
+UFM 
+VEH 
+Vehicle 
+Management 
+ 
+UFT 
+TMO 
+Traffic 
+Management 
+ 
+UFV 
+GT 
+Ground 
+Transportation 
+ 
+UFW 
+VEH 
+Vehicle 
+Management 
+WRM Vehicle 
+Management 
+DAFMAN10-406  6 OCTOBER 2021 
+37 
+XFCQ 
+CYB 
+Cyberspace 
+Cyber Quick 
+Reaction 
+Reprogramming 
+XFCT 
+CYB 
+Cyberspace 
+Cyber Tactics 
+Development 
+XFFA 
+CMP 
+Comptroller 
+ 
+XFFC 
+CHP 
+Chaplain 
+ 
+XFFG 
+PA 
+Public Affairs 
+ 
+XFFJ 
+JAG 
+Legal 
+ 
+XFFK 
+CON 
+Contracting 
+ 
+XFH 
+LOG 
+Logistics Plans 
+ 
+XFJ/XFP 
+OSS 
+Operational 
+Support Squadron 
+ 
+XFW 
+BBS 
+Bare Base Support 
+(WRM) 
+Bare Base Air/ 
+Bare Base 
+Surface 
+XMA/F/N 
+IO 
+Information 
+Operations 
+ 
+XMC 
+AOS 
+Airlift Operations 
+Staff 
+ 
+XSM 
+SFT 
+Safety 
+ 
+XW 
+WEA 
+Weather 
+ 
+ 
+ 
+38 
+DAFMAN10-406  6 OCTOBER 2021 
+Attachment 3 
+DEPLOYMENT ECHELONS 
+A3.1.  Deployment Echelons.  Two-position alphanumeric characters. The first position 
+represents a type of deployment echelon relative to the equipment deploying. The second position 
+represents priority (i.e., 1st, 2nd, 3rd). Air Force Manual (AFMAN) 10-409-O, Support to Adaptive 
+Planning, Chapter 4, should be taken into consideration when developing lead and follow-on or 
+augmentation packages and identifying the priority of the capabilities. 
+Table A3.1.  Deployment Echelons. 
+First 
+Position 
+Second 
+Position 
+Deployment Echelon Title 
+Definition 
+A 
+1-9 
+Contingency Response Group 
+Element  
+Self-Explanatory  
+B 
+1-9 
+Base Support Element  
+Normally composed of personnel and 
+materiel over and above the flight and 
+tactical support element.  The base 
+support element includes all personnel 
+and materiel required to support the 
+most demanding operation plan, 
+operation order, or tasking order under 
+which a unit is tasked. 
+C 
+D 
+E 
+1-9 
+Enroute Support Team  
+A functional package of personnel and 
+materiel, consisting of selected 
+personnel skills, equipment, and 
+supplies necessary to service and 
+perform limited specialized 
+maintenance on tactical aircraft at an 
+enroute base so the aircraft can 
+proceed to their destination base with 
+a minimum of delay.  Use E1, E2, E3 
+echelons for lead and follow-on 
+packages.  E4-9 deployment echelons 
+are reserved for future use. 
+F 
+1-9 
+Preflight Team 
+Self-Explanatory  
+G 
+1-9 
+Aerial Port Element 
+Self-Explanatory  
+H 
+1-9 
+DAF forces or Wing 
+Headquarters 
+Self-Explanatory  
+I 
+1-9 
+NOT USED 
+ 
+ 
+J 
+1-9 
+Aircrew Members 
+Self-Explanatory  
+K 
+1-9 
+Mission Support Element  
+Self-Explanatory  
+L 
+1-9 
+Medical Support Element 
+Self-Explanatory 
+M 
+1-9 
+Munitions Support Element 
+Self-Explanatory  
+DAFMAN10-406  6 OCTOBER 2021 
+39 
+N 
+1-9 
+Nuclear Augmentation 
+Self-Explanatory  
+O 
+1-9 
+NOT USED 
+ 
+ 
+P 
+1-9 
+PERSCO/Services 
+Self-Explanatory  
+Q 
+1-9 
+NOT USED 
+ 
+ 
+R 
+1-9 
+Combat Search and Rescue  
+Self-Explanatory  
+S 
+1-9 
+Initial Support Element  
+Organized and maintained for fighter, 
+reconnaissance, bomber units, and 
+other units.  An initial support element 
+includes personnel and equipment, 
+which normally precedes the 
+deploying aircraft to provide initial 
+support at the employment location.  It 
+is the basic building block for all 
+aviation deployment packages. May 
+use S1 as the Advanced Echelon.  
+T 
+1-9 
+Tactical Support Element  
+A TSE includes aviation maintenance 
+personnel and materiel which, when 
+combined with initial support 
+elements and enroute support teams, 
+provides a unit with the operational 
+capabilities pre-scribed by the UTC 
+MISCAPs. Use T1, T2, T3 echelons 
+for lead and follow-on packages.  T4-9 
+deployment echelons are reserved for 
+future use. 
+U 
+1-9 
+NOT USED 
+ 
+ 
+V 
+1-9 
+Air Force Audio Visual 
+Service 
+Self-Explanatory  
+W 
+1-9 
+Air Force Weather 
+Self-Explanatory  
+X 
+1-9 
+Miscellaneous Combat 
+Support/Combat Service 
+Support  
+Self-Explanatory  
+Y 
+1-9 
+NOT USED 
+ 
+ 
+Z 
+1-9 
+Others 
+Use this deployment echelon to denote 
+people and/or equipment not easily 
+fitting into other deployment echelons.  
+It is appropriate to use in LOGMOD 
+when units load weapons, 
+ammunition, mobility bags, bottled 
+water, and meal ready-to-eat 
+("additive requirements").  
+40 
+DAFMAN10-406  6 OCTOBER 2021 
+Attachment 4 
+DEPID COORDINATION WORKSHEET 
+Figure A4.1.  DEPID Coordination Worksheet. 
+ 
+ 

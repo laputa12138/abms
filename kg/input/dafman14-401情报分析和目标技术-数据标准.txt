@@ -1,0 +1,767 @@
+BY ORDER OF THE  
+SECRETARY OF THE AIR FORCE 
+ 
+DEPARTMENT OF THE AIR FORCE 
+MANUAL 14-401 
+26 MAY 2021 
+Incorporating Change 1, 2 October 2024 
+Intelligence 
+INTELLIGENCE ANALYSIS AND 
+TARGETING TRADECRAFT / DATA 
+STANDARDS 
+COMPLIANCE WITH THIS PUBLICATION IS MANDATORY 
+ 
+ACCESSIBILITY:  Publications and forms are available for downloading or ordering on the e-
+Publishing website at www.e-Publishing.af.mil 
+RELEASABILITY:  There are no releasability restrictions on this publication 
+ 
+ 
+OPR: AF/A2/6A 
+Certified by: AF/A2/6A  
+(Ms. Jeanette Rivera-Breznai)
+Supersedes: 
+AFMAN 14-401, 8 August 2019 
+Pages: 21 
+ 
+ 
+This publication implements Air Force Policy Directive 14-4, Management of the Air Force 
+Intelligence, Surveillance, Reconnaissance and Cyber Effects Operations Enterprise and is 
+consistent with Intelligence Community Directive (ICD) 121, Managing the Intelligence 
+Community Information Environment, ICD 191, Duty to Warn, ICD 203, Analytic Standards, ICD 
+204, National Intelligence Priorities Framework, ICD 205, Analytic Outreach, ICD 206, Sourcing 
+Requirements for Disseminated Analytic Products, ICD 501, Discovery and Dissemination or 
+Retrieval of Information within the Intelligence Community, ICD 503, Intelligence Community 
+Information Technology Systems Security Risk Management.  This publication applies to all 
+civilian employees and uniformed members of Regular Air Force, the Air Force Reserve, the Air 
+National Guard, the United States Space Force (USSF) and those who are contractually obligated 
+to comply with Department of the Air Force (DAF) publications.  Where this publication indicates 
+Air Force requirements, the requirements will apply to the Space Force Intelligence element until 
+the Secretary of the Air Force publishes policy and guidance applicable to the newly established 
+Space Force Intelligence element.  Ensure all records generated as a result of processes prescribed 
+in this publication adhere to Air Force Instruction (AFI) 33-322, Records Management and 
+Information Governance Program, and are disposed in accordance with the Air Force Records 
+Disposition Schedule which is located in the Air Force Records Information Management System.  
+Refer recommended changes and questions about this publication to the office of primary 
+responsibility (OPR) using the Air Force Form 847, Recommendation for Change of Publication; 
+route Air Force Form 847 from the field through the appropriate functional chain of command.  
+2 
+DAFMAN14-401  26 MAY 2021 
+This publication may be supplemented at any level, but all supplements must be routed to the OPR 
+of this publication for coordination prior to certification and approval.  The authorities to waive 
+wing/unit level requirements in this publication are identified with a tier (“T-0, T-1, T-2, T-3”) 
+number following the compliance statement.  See Department of the Air Force Instruction (DAFI) 
+33-360, Publications and Forms Management, for a description of the authorities associated with 
+the tier numbers.  Submit requests for waivers through the chain of command to the appropriate 
+tier waiver approval authority, or alternately, to the requestor’s commander for non-tiered 
+compliance items.  The use of the name or mark of any specific manufacturer, commercial product, 
+commodity, or service does not imply endorsement by the DAF.  Compliance with Attachments 1 
+and 2 in this publication are mandatory. 
+SUMMARY OF CHANGES 
+This interim change (IC) outlines the guidance regarding the FY23 National Defense 
+Authorization Act (NDAA), Section 6312, which mandates all Intelligence Analysts be trained 
+annually on the standards set forth in the Intelligence Community Directive 203 (ICD 203), 
+Analytic Standards. Analysis is the foundational core competency of ISR Airmen and Guardians, 
+underpinning all other DAF ISR core competencies directly driving decision making across the 
+spectrum of conflict. Incorporating ICD 203 in DAFMAN14-401 codifies DAF compliance with 
+the referenced NDAA directive. 
+ 
+1.  Overview. 
+1.1.  Purpose.  This manual establishes the responsibilities of Department of the Air Force 
+(DAF) organizations. It is an Intelligence, Surveillance, and Reconnaissance (ISR) technical 
+and career field-specific publication that defines organizational responsibilities for intelligence 
+analysis, targeting intelligence, and data standards in support of global integrated ISR and other 
+service core functions, while ensuring consistency with Intelligence Community, Department 
+of Defense (DoD), and DAF doctrine, policy, and guidance. 
+1.2.  General. 
+1.2.1.  Intelligence analysis is a core functional competency of ISR professionals. 
+Intelligence analysis is fundamental to all associated DAF activities, from planning and 
+mission execution to national mission integration and force modernization. The Analysis 
+Capability Working Group, Space Analysis and Tradecraft Working Group, and Analysis 
+Review Board are key forums that facilitate analysis unity of effort. Note: Refer to the ICD 
+203, Analytic Standards for analysis descriptions, processes, and best practices. 
+1.2.2.  Intelligence supportability analysis is a sub-set of intelligence analysis.  A key 
+attribute is employing standard processes to identify USAF customer capability and needs, 
+and then assessing Intelligence Community and USAF intelligence readiness to support.  
+To some degree, this activity occurs at unit-level intelligence for operational wings, but 
+intelligence supportability analysis has joint community standards that intelligence support 
+to acquisition adhere to for training and certification.  Impactful intelligence supportability 
+analysis is a key enabler for DAF capability development and requirements development 
+processes. 
+DAFMAN14-401  26 MAY 2021 
+3 
+1.2.3.  Targeting intelligence, as highlighted by Joint Publication (JP) 2-0, Joint 
+Intelligence, is one of eight categories of intelligence products.  It is a unique type of 
+intelligence analysis and a core functional competency of ISR professionals.  The DAF 
+aligns with the joint community’s perspective that the targeting process is a systematic, 
+comprehensive, and continuous analytical approach.  It is combined with clear 
+understanding of operational requirements, capabilities, and limitations to identify and 
+exploit critical adversary vulnerabilities within target systems.  The Targeting Capability 
+Working Group is a key forum that facilitates unity of effort across the DAF targeting 
+intelligence enterprise. 
+1.2.4.  Data is the fundamental unit of intelligence analysis and targeting.  The overall 
+USAF ISR enterprise operates in a data-centric environment that makes data discoverable, 
+accessible, interoperable, and secure to meet Intelligence Community requirements.  The 
+USAF manages intelligence data as an enterprise asset.  The USAF Intelligence Element 
+will make the data available to authorized USAF, DoD, national mission partners, and 
+partner nations in accordance with United States law, DoD, and Intelligence Community 
+guidance.  The USAF ISR Council provides governance for USAF intelligence data use. 
+2.  Roles and Responsibilities.  The Secretary of the Air Force, with consultation with the 
+Director of National Intelligence (DNI), has designated the Deputy Chief of Staff, ISR and Cyber 
+Effects Operations (AF/A2/6) as the Air Force Head of the Intelligence Community Element 
+(HICE) and the Deputy Chief of Space Operations for Intelligence (SF/S2) as the Space Force 
+HICE. A2/6 will continue coordination with SF/S2, USAF-designated programs, forums, and 
+representatives will include USSF requirements, as applicable. 
+2.1.  Deputy Chief of Staff, Intelligence, Surveillance, Reconnaissance, and Cyber Effects 
+Operations (AF/A2/6).  AF/A2/6 will: 
+2.1.1.  Designate a representative to serve as the Senior ISR Analyst; Analytic Ombudsman 
+in accordance with ICD 203 and Intelligence Community, Analytic Ombuds Activity – 
+Guide & Recommendations; Analytic Outreach Coordinator in accordance with ICD 205; 
+and Analytic Production Steward IAW ICD 501 or USAF analytic portfolio lead.  (T-0). 
+2.1.2.  Establish and oversee USAF targeting intelligence guidance that applies to ISR 
+activities, to include Target Coordinate Mensuration training and certification programs 
+and the Collateral Damage Estimation training program per Chairman, Joint Chiefs of Staff 
+Instruction (CJCSI) 3160.01C, No Strike and the Collateral Damage Estimation 
+Methodology, and CJCSI 3505.01D, Target Coordinate Mensuration Certification and 
+Program Accreditation.  (T-0). 
+2.1.3.  Designate a USAF Collateral Damage Estimation Program Manager to the Joint 
+Staff Deputy Directorate for Warfighter Support, Targeting Division. 
+2.1.4.  Designate USAF programs of record for target coordinate mensuration, target 
+material production, and target mensuration only programs. 
+2.1.5.  Appoint an Air Force ISR Chief Data Officer to establish ISR-specific guidance, 
+standards, data-centric architecture, and procedures to manage data during its life cycle to 
+meet Intelligence Community, DoD, and DAF requirements outlined in  ICD 121, ICD 
+501, ICD 503, DoD Instruction (DoDI) 8310.01, Information Technology Standards in the 
+DoD, DoDI 8320.02, Sharing Data, Information, and Information Technology (IT) 
+4 
+DAFMAN14-401  26 MAY 2021 
+Services in the Department of Defense, DoDI 8320.07, Implementing the Sharing of Data, 
+Information, and Information Technology (IT) Services in the Department of Defense, and 
+DoD Directive (DoDD) 5250.01, Management of Intelligence Mission Data (IMD) in DoD 
+Acquisition.  (T-0). 
+2.1.6.  Coordinate with the Deputy Chief of Staff for Plans and Programs (AF/A8) and 
+DAF acquisition leadership to ensure intelligence support is provided during the 
+development of requirements across the full acquisition life cycle. 
+2.1.7.  Coordinate intelligence analysis, targeting, and data standards guidance with 
+appropriate SF/S2 staff elements. 
+2.1.8.  As the Air Force HICE, and in consultation with the Space Force HICE, submit to 
+the congressional intelligence committees a certification asserting that all Intelligence 
+analysts in the USAF and USSF have completed the annual training in accordance with 
+ICD 203, Analytic Standards. 
+2.1.9.  As the HICE, submit to the congressional intelligence committees a certification 
+asserting that all Intelligence analysts in the USAF and USSF have completed the training. 
+2.2.  Director, 
+Intelligence 
+Analysis, 
+Partnerships, 
+and 
+Engagements 
+(AF/A2/6A).  AF/A2/6A will: 
+2.2.1.  Oversee analysis policy, guidance, strategic planning, advocacy, evaluation, 
+competencies, and tradecraft standards for the USAF ISR enterprise. 
+2.2.2.  Establish duty-to-warn procedures in accordance with ICD 191.  (T-0).  Designate 
+separate senior officers responsible for reviewing threat information and making waiver 
+determinations.  (T-0).  Coordinate processes with the Air Force Office of Special 
+Investigations.  (T-0). 
+2.2.3.  Serve as USAF ISR lead representative to the Intelligence Community, DoD, allies, 
+and industry for analysis policy, requirements, capabilities, standards, analytic outreach, 
+and disputes.  EXCEPTION:  The Commander, National Air and Space Intelligence 
+Center (NASIC/CC) serves as USAF lead representative for Defense Intelligence Analysis 
+Program-related analytic disputes. 
+2.2.4.  Serve as USAF intelligence analysis functional area manager for policy formulation, 
+standards, readiness, and requirements. 
+2.2.5.  In coordination with USSF/S2, advocate for analysis resources in DAF, DoD, and 
+Intelligence Community planning and programming forums. 
+2.2.6.  Provide oversight and annual development of a USAF ISR Program of Analysis in 
+accordance with DoDI 3115.17, Management and Oversight of DoD All-Source Analysis, 
+and Intelligence Community direction.  (T-0). 
+2.2.7.  Establish and oversee a USAF Intelligence Analysis Assessment Program to 
+evaluate compliance with Intelligence Community and DAF analysis tradecraft standards 
+and with Intelligence Community sourcing requirements for specific, pre-identified 
+covered products. 
+DAFMAN14-401  26 MAY 2021 
+5 
+2.2.7.1.  Include requirements, timelines, and minimum criteria to evaluate Intelligence 
+Community and DAF analysis tradecraft standards, including compliance with ICD 
+203. (T-0). 
+2.2.7.2.  Coordinate with SF/S2 staff, major command directors of intelligence, field 
+command directors of intelligence, and NASIC/CC to annually identify the subset of 
+DAF products to be included in the Office of the DNI covered product list in 
+accordance with ICD 206.  (T-0).  Annually submit a nomination list of covered 
+products in accordance with ICD 206.  (T-0). 
+2.2.7.3.  Annually identify shortfalls in Intelligence Community support for the 
+USAF’s ability to meet analytic priorities, USAF ISR Program of Analysis focus areas, 
+and key intelligence questions. 
+2.2.7.4.  Compile ISR analytic assessments and develop written reports that summarize 
+results, highlight trends, identify shortfalls, and make recommendations. 
+2.2.7.5.  Provide results of assessments, standards compliance, and Intelligence 
+Community shortfalls to the Office of the DNI, Office of the Under Secretary of 
+Defense for Intelligence, and the Defense Intelligence Agency. 
+2.2.8.  Administer the USAF Quality of Analysis Program for analytic professional 
+development. 
+2.2.9.  Lead the Analysis Review Board for the USAF, with Air Combat Command 
+Director of Intelligence (ACC/A2) and Space Operations Command Director of ISR 
+(SpOC/S2) as advisors (given their service analysis roles).  Provide oversight, assessment, 
+and improved coordination of intelligence analysis and production within the USAF ISR 
+enterprise. 
+2.2.10.  Advocate for intelligence-specific analysis and production systems; tools; and 
+technologies in coordination with AF/A2/6O, the Air Force ISR Chief Data Officer, 
+ACC/A2, SpOC/S2, and senior intelligence officers of Air Force Material Command and 
+Space Systems Command.  Coordinate with the Air Force ISR Chief Data Officer to 
+synchronize intelligence analysis technology initiatives with Intelligence Community and 
+DoD efforts. 
+2.2.11.  Adjudicate analysis and production disputes, and represent the USAF in national 
+forums with regard to disputes between customers and USAF intelligence producers.  
+Exception:  SF/S2 will adjudicate disputes pertaining to USSF intelligence producers. 
+2.2.12.  Serve as Analysis Capability Advocate to provide Intelligence Community and 
+USAF-level information, policy, and guidance to the Analysis Capability Working Group 
+that affect DAF intelligence analysis capabilities. 
+2.2.13.  Coordinate intelligence analysis guidance with appropriate SF/S2 staff elements. 
+2.2.14.  Oversee the establishment of an annual training program reinforcing ICD 203, 
+Analytic Standards. 
+ 
+ 
+6 
+DAFMAN14-401  26 MAY 2021 
+2.3.  Director, 
+Intelligence, 
+Surveillance, 
+and 
+Reconnaissance 
+Operations 
+(AF/A2/6O).  AF/A2/6O will: 
+2.3.1.  Oversee targeting intelligence policy, guidance, strategic planning, advocacy, and 
+competencies for the USAF ISR enterprise. 
+2.3.2.  Serve as USAF targeting intelligence functional area manager for policy 
+formulation, standards, readiness, and requirements. 
+2.3.2.1.  Serve as the overall and department-level functional manager for USAF-wide 
+targeting intelligence, and for target coordinate mensuration training and certification, 
+collateral damage estimation training, and implementation of CJSIs 3160.01C and 
+3505.01D. 
+2.3.2.2.  Serve as the waiver authority for individuals or units that wish to train with or 
+utilize a target coordinate mensuration program other than the AF/A2/6-designated 
+program(s) of record.  EXCEPTION:  SpOC/S2 will serve as waiver authority for 
+Space Force Intelligence element individuals and units. 
+2.3.2.3.  Serve as the single focal point regarding USAF position to the Joint Staff, 
+DoD, and Intelligence Community on targeting intelligence-related policy and 
+guidance issues. 
+2.3.3.  Oversee intelligence support to acquisition policy, guidance, strategic planning, 
+advocacy, and competencies for the USAF ISR enterprise. 
+2.3.4.  Serve as USAF intelligence support to acquisition functional area manager for 
+policy formulation, standards, readiness, and requirements. 
+2.3.5.  Serve as the USAF functional manager for intelligence support to acquisition and 
+implementation of CJCSI 5123.01H, Charter of the Joint Requirements Oversight Council 
+(JROC) and Implementation of the Joint Capabilities Integration and Development System, 
+DoDI 5000.86, Acquisition Intelligence, and Title 10 United States Code Section 2431a, 
+Acquisition Strategy. 
+2.3.6.  Plan and program for both analysis and targeting intelligence capabilities; review 
+all joint and AF requirements, planning, and acquisition documents for intelligence 
+interests; report critical intelligence parameter breaches to all applicable USAF Intelligence 
+elements; provide substantive intelligence support and oversee acquisition intelligence 
+support for all special access programs; and ensure the provision of adequate resources per 
+Public Law 108-458, Intelligence Reform and Terrorism Prevention Act of 2004, Section 
+1016(i).  (T-0). 
+2.3.7.  Integrate applicable collections policy, guidance, strategic planning, and advocacy 
+with analysis, targeting, and data standards initiatives to achieve a mutually supporting 
+USAF intelligence enterprise. 
+2.3.8.  Coordinate intelligence targeting and acquisition guidance with appropriate SF/S2 
+staff elements to ensure integrated USAF/USSF approach and synergy. 
+ 
+ 
+DAFMAN14-401  26 MAY 2021 
+7 
+2.4.  Air Force Intelligence, Surveillance, and Reconnaissance Chief Data Officer.  The 
+Air Force ISR Chief Data Officer is the senior AF/A2/6 leader responsible for establishing 
+ISR-specific policy and overseeing execution of all Air Force ISR-specific data management 
+activities, including data standards, tagging, stewardship, cataloging, and modeling according 
+to ICD 121, ICD 501, and Public Law 108-458.  The Air Force ISR Chief Data Officer will: 
+2.4.1.  Coordinate with the Air Force Chief ISR Information Officer to identify 
+technologies and solutions for automated discovery, access, and use of all available data 
+by the ISR enterprise. 
+2.4.2.  Serve as the principal USAF member on Intelligence Community and DoD data 
+standards forums, including the Intelligence Community Chief Data Officer Council.  
+SF/S2 serves as USSF member. 
+2.4.3.  Establish and chair an Air Force ISR data governance forum to coordinate with 
+major command senior intelligence officers in guiding ISR data use and collaboration on 
+data standards, models, and information enterprise unity of effort across the Air Force ISR 
+enterprise. 
+2.4.4.  Advocate for ISR data management and implementation of data standards and 
+resourcing through the Air Force corporate process. 
+2.4.5.  Coordinate with the Air Force Chief Data Officer on any ISR issues that impact or 
+affect larger Air Force-wide data management activities, standards, tagging, cataloging, 
+and modeling in accordance with Air Force Policy Directive (AFPD) 90-70, Enterprise 
+Data Management. 
+2.5.  Commander, Air Force Office of Special Investigations (AFOSI/CC).  AFOSI/CC 
+will: 
+2.5.1.  Serve as the OPR for conducting analysis of counterintelligence and international 
+terrorism threats to USAF equities. (T-1). 
+2.5.2.  Establish duty-to-warn procedures in accordance with ICD 191.  (T-0).  Collaborate 
+with USAF ISR and USSF ISR elements, United States, and foreign law enforcement 
+agencies to communicate threat data.  (T-0). 
+2.6.  Commander, National Air and Space Intelligence Center (NASIC/CC).  As the 
+Commander of the USAF service intelligence center and USAF and DoD center of analytical 
+excellence for foreign threats to United States air and space operations, NASIC/CC will: 
+2.6.1.  Collaborate across the DAF, DoD, and Intelligence Community, and with allies to 
+provide fusion and all-source analysis to meet operational, policy, requirements 
+community, and acquisition needs.  (T-0). 
+2.6.2.  Identify resource requirements for meeting customer analysis requirements in 
+accordance with CJCSI 5123.01H, Defense Intelligence Agency guidance, and Public Law 
+108-458.  (T-0). 
+2.6.3.  Establish duty-to-warn procedures per ICD 191 and DAF direction.  (T-0).  
+Designate separate senior officers responsible for reviewing threat information and making 
+waiver determinations.  (T-0).  Coordinate procedures with the Air Force Office of Special 
+8 
+DAFMAN14-401  26 MAY 2021 
+Investigations in their role as DAF analytic center for counterintelligence and international 
+terrorist threats.  (T-1). 
+2.6.4.  Establish procedures and implement USAF Intelligence Analysis Assessment 
+Program to evaluate and report compliance with ICD 203 tradecraft standards and two 
+additional USAF Intelligence Element standards of timeliness and customer engagement; 
+pre-identified covered products per ICD 206; and shortfalls in Intelligence Community and 
+USAF-level support for the center’s ability to meet analytic requirements, USAF Program 
+of Analysis focus areas, and key intelligence questions.  (T-1). 
+2.6.5.  Designate at least one ombudsman responsible for responding to concerns raised by 
+center analysts about adherence to USAF analytic tenets, standards, and production 
+guidelines per ICD 203 and Intelligence Community Analytic Ombuds Activity – Guide & 
+Recommendations.  (T-0). 
+2.6.6.  Establish and resource an ISR senior data officer to implement and manage NASIC-
+specific data standards and oversee proper life cycle management, storage, cataloging, and 
+tagging of all data of intelligence value per ICDs 121, 501, and 503, DoDIs 8310.01, 
+8320.02, and 8320.07, and DoDD 5250.01.  (T-0).  As required, identify subordinate units 
+needing ISR data portfolio leads and coordinate with other senior data officers and the Air 
+Force ISR Chief Data Officer to effectively manage ISR-specific data.  (T-1). 
+2.6.7.  Align analysis priorities with Intelligence Community, DoD, and DAF guidance, 
+including ICD 204, DNI unifying intelligence strategies, Defense Intelligence Agency 
+strategies, Defense Intelligence All-source Analysis Enterprise Management Guide, USAF 
+ISR Programs of Analysis, and multi-program prioritized production requirements.  (T-0). 
+2.6.8.  Annually produce and provide to AF/A2/6A a Program of Analysis that integrates 
+USAF ISR Program of Analysis focus areas, outlines center’s analytic priorities, and 
+identifies gaps in meeting customer requirements.  (T-1). 
+2.6.9.  Implement and oversee center-wide intelligence requirements, priorities, and 
+production management processes; maintain timely customer engagement according to the 
+needs of the customer on production requirements and requests for information.  (T-1). 
+2.6.10.  Serve as the USAF Validation Office for Defense Intelligence Analysis Program 
+production requirements and formally submit requirements into DAF, DoD, and 
+Intelligence Community requirements processes for evaluation by applicable producers at 
+the earliest stage.  (T-1). 
+2.6.11.  Perform analytic outreach responsibilities in accordance with ICD 205.  (T-0). 
+2.6.12.  Coordinate intelligence requirements and activities associated with foreign threats 
+to space operations with appropriate Space Force Intelligence elements. 
+2.7.  Major Command/Field Command/Numbered Air Force Directors of Intelligence 
+(A2/S2) and Operations (A3/S3).  A2/S2 and A3/S3 will execute the Tactics Analysis and 
+Reporting Program for their areas of responsibility and will appoint separate co-chairs for each 
+Tactics Analysis Team, as appropriate. 
+ 
+DAFMAN14-401  26 MAY 2021 
+9 
+2.8.  Tactics Analysis Team Co-Chairs.  Tactics Analysis Team Co-Chairs are responsible 
+for the organization, conduct, and execution of Tactics Analysis Teams.  Co-chairs will: 
+2.8.1.  Lead and manage all Tactics Analysis Team operations, teams, and working groups 
+to satisfy operational requirements.  (T-2). 
+2.8.2.  Oversee development of and discoverability of Tactics Analysis Team and Tactics 
+and Adversary Studies Element products within required timelines.  (T-2). 
+2.8.3.  Establish collection, requirements, analysis, and Tactics and Adversary Studies 
+Element priorities in support of each Tactics Analysis Team and operational requirements.  
+(T-3). 
+2.8.4.  Advocate for Tactics Analysis and Reporting Program funding through the DAF 
+corporate process and present programmatic issues to the Tactics Coordinating Committee.  
+(T-3). 
+2.9.  Major and Field Command Directors of Intelligence (A2 and S2).  A2 and S2 will: 
+2.9.1.  Oversee the analysis and production activities of command elements, to include 
+Tactics Analysis and Reporting Program and Tactics and Adversary Studies Element, in 
+response to validated mission requirements. 
+2.9.2.  Submit an endorsed memorandum via e-mail to AF/A2/6O requesting approval to 
+use a target coordinate mensuration program other than the AF/A2/6 and/or SpOC/S2 
+program of record. 
+2.9.3.  Establish duty-to-warn procedures according to ICD 191 and DAF direction.  (T-0).  
+Designate separate senior officers responsible for reviewing threat information and making 
+waiver determinations.  (T-0).  Coordinate processes with the Air Force Office of Special 
+Investigations in their role as DAF analytic center for counterintelligence and international 
+terrorist threats. 
+2.9.4.  Establish procedures and implement USAF Intelligence Analysis Assessment 
+Program to evaluate and report compliance with ICD 203 tradecraft standards and two 
+additional USAF standards of timeliness and customer engagement; pre-identified covered 
+products per ICD 206; and shortfalls in Intelligence Community and DAF-level support 
+for the command’s ability to meet analytic requirements, USAF ISR and USSF ISR 
+Program of Analysis focus areas (as applicable), and key intelligence questions. 
+2.9.5.  Designate at least one ombudsman responsible for responding to concerns raised by 
+command analysts about adherence to USAF analytic tenets, standards, and production 
+guidelines per ICD 203 and Intelligence Community Analytic Ombuds Activity – Guide & 
+Recommendations.  (T-0). 
+2.9.6.  Establish and resource an ISR senior data officer to implement and manage ISR-
+specific command data standards and oversee proper life cycle management, storage, 
+cataloging, and tagging of all data of intelligence value per ICDs 121, 501, and 503 and 
+DoDIs 8310.01, 8320.02, and 8320.07.  (T-0).  As required, identify subordinate units 
+needing ISR-specific data portfolio leads and coordinate with other senior data officers and 
+their respective service ISR Chief Data Officer to effectively manage ISR-specific data. 
+10 
+DAFMAN14-401  26 MAY 2021 
+2.9.7.  Implement and oversee command-wide intelligence requirements, priorities, and 
+production management processes and a tracking system in support of a distributed, 
+layered, and mutually supporting analysis and production enterprise. 
+2.9.8.  For ISR support to acquisition, ensure threat support analysis and intelligence 
+supportability processes, priorities, and requirements are submitted at the earliest possible 
+date to DAF, DoD, and Intelligence Community elements to facilitate optimum weapon 
+system interoperability, supportability, and sufficiency. 
+2.9.9.  Identify resource gaps for meeting end-user analysis requirements or as identified 
+in the USAF ISR Program of Analysis.  Formulate ISR analysis requirements in accordance 
+with USAF and USSF corporate (as applicable) and Joint Capabilities Integration and 
+Development System processes. 
+2.9.10.  Collaborate with and identify counterintelligence topics, vulnerabilities, 
+opportunities, and acquisition requirements to the Air Force Office of Special 
+Investigations per DoDI O-5240.24, Counterintelligence (CI) Activities Supporting 
+Research, Development, and Acquisition (RDA).  (T-0). 
+2.9.11.  Perform analytic outreach responsibilities in accordance with ICD 205.  (T-0). 
+2.9.12.  Implement and oversee an annual training program on the standards set forth in 
+ICD 203, Analytic Standards, ensuring all personnel who perform intelligence analysis 
+complete the annual training. 
+2.10.  Commander, Air Combat Command (COMACC).  As commander of the lead major 
+command for analysis and targeting, COMACC will guide the integration, synchronization, 
+and advocacy of analysis and targeting requirements in accordance with AFI 38-101, 
+Manpower and Organization, and AFPD 10-9, Lead Command Designation and 
+Responsibilities for Weapon Systems. 
+2.11.  Air Combat Command Director for Intelligence (ACC/A2).  ACC/A2 will: 
+2.11.1.  On behalf of COMACC, serve as the OPR for lead major command analysis and 
+targeting intelligence responsibilities. 
+2.11.2.  Chair the Analysis Capability Working Group and Targeting Capability Working 
+Group.  These cross-major command and field command entities are responsible for 
+coordinating, assessing, and synchronizaing USAF ISR enterprise analysis and targeting 
+intelligence policies, tradecraft, education, training, tools, and solutions.  Note:  SpOC/S2 
+will serve as Space Advisor to Analysis and Targeting Capability Working Groups. 
+2.11.3.  Serve as the program manager for the Tactics Analysis and Reporting Program, 
+Tactics and Adversary Studies Elements, threat to air operations, red threat matrix, and Air 
+Force Tactics, Techniques, and Procedures (AFTTP) 3-1, Threat Guide. 
+2.11.4.  Establish Tactics and Adversary Studies Element teams to optimize multi-source 
+adversary tactics analytic support for major and field command, numbered air force and 
+associated air, space, and cyberspace component elements through the analysis and 
+integration of data not readily available outside cryptologic channels. 
+2.11.5.  Serve as the program manager for the Collateral Damage Estimation Qualification 
+program and as the functional manager for overall USAF target program implementation, 
+DAFMAN14-401  26 MAY 2021 
+11 
+to include maintaining program accreditations.  Functional manager oversight 
+responsibilities cover the USAF Target Coordinate Mensuration, Target Material 
+Production, and Target Mensuration training and certification programs.  Target coordinate 
+mensuration program functional manager(s), collateral damage estimation qualification 
+program manager, and accreditation maintenance responsibilities may be delegated to a 
+lower level, as required. 
+2.11.6.  Ensure alignment of intelligence, surveillance, and reconnaissance wing analysis 
+and targeting priorities with the USAF ISR Program of Analysis.  Establish processes to 
+conduct wing production gap assessments and ability to meet customer requirements; 
+annually report findings to AF/A2/6A for incorporation into the USAF ISR Program of 
+Analysis. 
+2.11.7.  Coordinate closely with AF/A2/6A and AF/A2/6O to ensure USAF guidance is 
+sufficient to enable analysis and targeting intelligence operations, and to promote 
+associated doctrine, concepts, best practices, materials, and training across the USAF. 
+2.11.8.  Advocate for analysis and targeting intelligence funding, advise on program 
+direction, and foster collaboration among DAF organizations. 
+2.11.9.  Ensure Tactics Analysis and Reporting Program products are available and 
+discoverable on the Joint Worldwide Intelligence Communications System and the Secret 
+Internet Protocol Router Network. 
+2.12.  Commander, Air Force Materiel Command (AFMC/CC) and Commander, Space 
+and Missile Systems Center (SMC/CC).  AFMC/CC and SMC/CC will guide the integration, 
+sychronization, and advocacy of intelligence support to research and development, acquisition, 
+test, sustainment, and installation management.  AFMC/CC and SMC/CC will: 
+2.12.1.  Deliver new intelligence capabilities through the appropriate program 
+management office in accordance with DoDI 5000.75, Business Systems Requirements and 
+Acquisition, and AFI 63-101/20-101, Integrated Life Cycle Management.  (T-0). 
+2.12.2.  Perform intelligence support to research and development, acquisition, test, 
+sustainment, and installation management, which includes identifying and characterizing 
+intelligence requirements for minimization of DAF capability risk per DoDI 5000.02, 
+Operation of the Adaptive Acquisition Framework, DoDI 5000.86, AFI 63-101/20-101, 
+and the Joint Capabilities Integration and Development System.  (T-0). 
+2.13.  Commander, Air Education and Training Command (AETC/CC).  As the 
+commander of the lead major command for force development and training, AETC/CC directs 
+life cycle management of formal training courses for analysis and targeting intelligence per 
+AFI 36-2670, Total Force Development, and to ensure DoD and Intelligence Community 
+standards and training requirements are integrated for joint mission success. 
+ 
+ 
+12 
+DAFMAN14-401  26 MAY 2021 
+3.  GUIDANCE AND PROCEDURES. 
+3.1.  United States Air Force Intelligence Analysis Tradecraft Standards. 
+3.1.1.  All USAF ISR, analysis, and production will adhere to ID 203 tradecraft standards 
+of (1) Appropriate Sourcing, (2) Level of Uncertainty, (3) Assumptions vs Judgments, (4) 
+Analysis of Alternatives, (5) Customer Relevance, (6) Logical Argumentation, (7) 
+Consistency in Judgment, (8) Accuracy, and (9) Visual Information.  (T-0).  USAF analysis 
+and production will also adhere to two additional tradecraft standards of (1) Timeliness, 
+and (2) Customer Engagement, which align with global integrated ISR guidance while 
+emphasizing analytic priority attributes within the DAF.  (T-1).  Note:  Reference ICD 203 
+for descriptions of the first nine standards; Attachment 1, Terms for a description of the 
+two additional USAF standards; and the USAF Intelligence Analysis Handbook for a 
+sample assessment methodology. 
+3.1.2.  Analytic tradecraft standards will be incorporated in USAF initial and mission 
+qualification training requirements and used to conduct analysis operations and to report 
+on readiness.  (T-0). 
+3.1.3.  USAF intelligence analysis entities will periodically review their produced 
+intelligence products for compliance with USAF intelligence analysis tradecraft standards.  
+(T-0). 
+3.2.  Challenges to Analytic Tenets and Standards.  USAF ISR professionals will be trained 
+on and apply USAF analysis tenets (Note:  Reference Attachment 2 for a description), and 
+standards  raising concerns when others attempt, or appear to attempt, to influence analysis 
+outcomes.  (T-0).  As depicted in Figure 1., ISR professionals (P) will raise real or perceived 
+problems of analytic tradecraft or politicization, biased reporting, or lack of objectivity in 
+intelligence analysis through their chain of command (C).  (T-0).  If concerns remain after 
+internal procedures have been exhausted, per ICD 203 and Intelligence Community Analytic 
+Ombuds Activity – Guide & Recommendations, ISR professionals will directly report concerns 
+to the first analytic ombudsman in their chain, which may be their major or field command 
+ombudsman or the National Air and Space Intelligence Center Ombudsman (M).  (T-0).  If 
+analytic integrity concerns still remain, ISR professionals will directly report concerns to the 
+USAF Analytic Ombudsman, and subsequently the Office of the DNI Analytic Ombudsman.  
+(T-0). 
+DAFMAN14-401  26 MAY 2021 
+13 
+Figure 1.  Ombudsman Reporting Matrix. 
+ 
+ 
+3.3.  Requirements and Production Management. 
+3.3.1.  USAF intelligence analysis entities will follow the basic and enterprise request for 
+information flow processes identified in the DAF Intelligence Analysis Handbook to ensure 
+standardization across the USAF ISR enterprise.  (T-3). 
+3.3.2.  USAF analysis organizations will follow Defense Intelligence Analysis Program 
+(DIAP)-established timelines and procedures for managing requests for information that 
+fall within the DIAP purview.  (T-0). 
+3.3.3.  The USAF will use the Defense Intelligence Agency-developed Community On-
+Line Intelligence System for End-Users and Managers as the primary tool to research, 
+develop, submit and review, validate, and assign DIAP-related requirements to analysis 
+centers, as appropriate.  (T-2). 
+ 
+ 
+14 
+DAFMAN14-401  26 MAY 2021 
+3.3.4.  The USAF will post all identified covered analytic products, as defined by ICD 206, 
+to the Library of National Intelligence.  (T-0).  To the extent feasible, the DAF will post 
+all other published products to the Library of National Intelligence.  (T-3). 
+ 
+MARY F. O’BRIEN, Lt Gen, USAF 
+Deputy Chief of Staff, Intelligence, 
+Surveillance, Reconnaissance and Cyber Effects 
+Operations 
+DAFMAN14-401  26 MAY 2021 
+15 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+Public Law 108-458, Intelligence Reform and Terrorism Prevention Act of 2004, 17 December 
+2004 
+Public Law 117-263, FY23 National Defense Authorization Act, Section 6312, Annual Training 
+Requirement and Report Regarding Analytic Standards, 20 December 2022 
+Title 10 United States Code Section 4211, Acquisition strategy. 
+CJCSI 3160.01D, No Strike and the Collateral Damage Estimation Methodology, 21 May 2021 
+*CJCSI 3505.01E, Target Coordinate Mensuration Certification and Program Accreditation, 10 
+August 2022 
+CJCSI 5123.01I, Charter of the Joint Requirements Oversight Council (JROC) and 
+Implementation of the Joint Capabilities Integration and Development System, 30 October 2021 
+DoDD 5250.01, Management of Intelligence Mission Data (IMD) in DoD Acquisition, 29 
+August 2017 
+DoDI 3115.17, Management and Oversight of DoD All-Source Analysis, 21 September 2020 
+DoDI 5000.02, Operation of the Adaptive Acquisition Framework, 08 June 2022 
+DoDI 5000.75, Business Systems Requirements and Acquisition, 24 January 2020 
+DoDI 5000.86, Acquisition Intelligence, 11 September 2020 
+DoDI O-5240.24, Counterintelligence (CI) Activities Supporting Research, Development, and 
+Acquisition (RDA), 15 July 2020 
+DoDI 8310.01, Information Technology Standards in the DoD, 7 April 2023 
+DoDI 8320.02, Sharing Data, Information, and Information Technology (IT) Services in the 
+Department of Defense, 24 June 2020 
+DoDI 8320.07, Implementing the Sharing of Data, Information, and Information Technology (IT) 
+Services in the Department of Defense, 5 December 2017 
+ICD 121, Managing the Intelligence Community Information Environment, 19 January 2017 
+ICD 191, Duty to Warn, 21 July 2015 
+ICD 203, Analytic Standards, 21 December 2022 
+ICD 204, National Intelligence Priorities Framework, 7 January 2021 
+ICD 205, Analytic Outreach, 28 August 2013 
+ICD 206, Sourcing Requirements for Disseminated Analytic Products, 22 January 2015 
+ICD 501, Discovery and Dissemination or Retrieval of Information within the Intelligence 
+Community, 21 January 2009 
+16 
+DAFMAN14-401  26 MAY 2021 
+ICD 503, Intelligence Community Information Technology Systems Security Risk Management, 
+21 July 2015 
+AFPD 10-9, Lead Command Designation and Responsibilities for Weapon Systems, 25 March 
+2021 
+AFPD 14-4, Management of the Air Force Intelligence, Surveillance, Reconnaissance and Cyber 
+Effects Operations Enterprise, 11 July 2019 
+AFPD 90-70, Enterprise Data Management, 13 February 2020 
+AFI 33-322, Records Management and Information Governance Program, 23 March 2020 
+DAFI 90-160, Publications and Forms Management, 14 April 2022 
+AFI 36-2670, Total Force Development, 25 June 2020 
+AFI 38-101, Manpower and Organization, 29 August 2019 
+AFI 63-101/20-101, Integrated Life Cycle Management, 16 February 2024 
+AFTTP 3-1, Threat Guide, [SECRET Internet Protocol Router Network Caution-url:  
+https://intelshare.intelink.sgov.gov/sites/547intel/SitePages/TG.aspx] 
+USAF Intelligence Analysis Handbook, [Joint Worldwide Intelligence Communications System 
+Caution-url:  https://hafa2.highpoint.dodiis.ic.gov/#/content/home.html; Nonsecure Internet 
+Protocol Router Network:  https://intelshare.intelink.gov/sites/a2/analysis/default.aspx] 
+Defense Intelligence All-source Analysis Enterprise, Management Guide, March 2019, [Joint 
+Worldwide Intelligence Communications System Caution-url:  
+https://dia.coe.ic.gov/sites/DIAP/default.aspx] 
+Intelligence Community Analytic Ombuds Activity – Guide & Recommendations, January 2019, 
+[Joint Worldwide Intelligence Communications System Caution-url:  
+https://intelshare.intelink.ic.gov/sites/odni-
+mi/mpac/AIS/Pages/Analytic%20Ombudsman.aspx] 
+JP 2-0, Joint Intelligence, 26 May 2022 
+HAFMD 2-4, Special Management: Deputy Chief of Staff Space Operations for Intelligence, 24 
+April 2023 
+Prescribed Forms 
+None 
+Adopted Forms 
+AF Form 847, Recommendation for Change of Publication 
+Abbreviations and Acronyms 
+AF/A8—Deputy Chief of Staff for Plans and Programs 
+A2—Director of Intelligence 
+A3—Director of Operations 
+DAFMAN14-401  26 MAY 2021 
+17 
+ACC—Air Combat Command 
+AETC—Air Education and Training Command 
+AFI—Air Force Instruction 
+AFMAN—Air Force Manual 
+AFMC—Air Force Materiel Command 
+AFPD—Air Force Policy Directive 
+AFTTP—Air Force Tactics, Techniques, and Procedures 
+CJCSI—Chairman, Joint Chiefs of Staff Instruction 
+COMACC—Commander, Air Combat Command 
+DAF—Department of the Air Force 
+DIAP—Defense Intelligence Analysis Program 
+DNI—Director of National Intelligence 
+DoD—Department of Defense 
+DoDD—Department of Defense Directive 
+DoDI—Department of Defense Instruction 
+ICD—Intelligence Community Directive 
+INT—Intelligence 
+ISR—Intelligence, Surveillance, and Reconnaissance 
+JP—Joint Publication 
+NASIC—National Air and Space Intelligence Center 
+OPR—Office of Primary Responsibility 
+S2—Director of Intelligence 
+S3—Director of Operations 
+SMC—Space and Missile Systems Center 
+SpOC—Space Operations Command 
+U.S.—United States 
+USAF—United States Air Force 
+USSF—United States Space Force 
+Terms 
+All-Source Analysis—Intelligence analysis that employs all available sources of data and 
+information to enable the creation of new intelligence and knowledge. 
+18 
+DAFMAN14-401  26 MAY 2021 
+Analytic Ombudsman—Representative who is responsible for addressing organizational 
+concerns regarding bias, politicization, lack of objectivity, or other concerns in the application of 
+analysis and production standards. 
+Covered Products—A subset of disseminated analytic products or services that is officially 
+designated by an Intelligence Community element as falling under the authority of ICD 206. 
+Customer Engagement—Additional USAF analysis tradecraft standard.  Analysts should fully 
+address customer requirements within time constraints and in a manner most useful, as well as be 
+responsive to customer feedback.  While challenging to evaluate, this tradecraft standard is 
+foundational to USAF intelligence analysis. 
+Data Portfolio Lead—The decision authority at the wing or delta level for tagging, retention, 
+release, destruction of data holdings, and access to wing or delta data and information. 
+Duty—to-Warn—A requirement to warn United States and non-United States persons of 
+impending threats of intentional killing, serious bodily injury, or kidnapping.  Note:  See ICD 191 
+for details. 
+Fusion Analysis (also called Time-Dominant Fusion)—Analysis in a time-sensitive 
+environment in close proximity to the point of collection that entails quickly melding new 
+information with baseline knowledge to meet a specific operational need.  Emphasis is on the 
+process of managing information and on timeliness over completeness. 
+Intelligence Analysis—A cognitive activity–both art and science–applying tools, processes, 
+tradecraft, methods, and judgments to data and information to create and deliver new intelligence, 
+insights, and knowledge, with the goal of providing a decision advantage to commanders and 
+decision makers. 
+Intelligence Consumer  (also called Intelligence Customer )—A requestor or user of 
+intelligence, including an operational unit, an acquisition organization, a national policy maker, or 
+an intelligence organization. 
+Intelligence Product—Tangible information in written, visual, digital, and/or verbal form that 
+conveys information of intelligence value (e.g., written assessment, threat map, and targeting 
+materials). 
+Intelligence Production—The development, tailoring, and presentation of intelligence 
+knowledge via products and/or services that address customer requirements. 
+Intelligence Requirement—A need for intelligence to fill a gap in knowledge or understanding 
+of the environment, adversary capabilities, centers of gravity, or intentions. 
+Intelligence Service—Assistance provided to another entity during the performance of an ISR 
+mission:  (1) the actual action of delivering or conveying intelligence to a user (e.g., presenting a 
+briefing, tipping and cuing, collaboration, or threat modeling), or (2) the process of enabling an 
+ISR mission (e.g., exercise planning, skill knowledge training, or security clearance 
+indoctrination).  Some intelligence services result in additional intelligence products. 
+Key Intelligence Question—A strategic, high-level question that states the primary unknown, or 
+information need, about an intelligence issue or problem, which subsequently drives intelligence 
+analysis and/or production within an organization. 
+DAFMAN14-401  26 MAY 2021 
+19 
+Multi-Source Analysis (also called Multi-Intelligence Analysis)—Intelligence analysis that 
+makes use of more than one source when access to additional potential sources is limited by 
+reasons of timeliness, system access, location, or security levels. 
+Senior ISR Data Officer—An organization’s representative who oversees life cycle management, 
+storage, cataloging, tagging, and information sharing of ISR-specific data.  Senior ISR Data 
+Officers understand ISR enterprise automation and other infrastructure requirements, plans, and 
+activities of mission systems. 
+Single-Source Analysis (also called Exploitation)—Intelligence analysis that employs a single 
+source or expertise in a functional area to characterize events, people, or things.  Such analysis is 
+limited to describing, rather than evaluating, the topic of a particular analysis due to restrictions 
+inherent in single-source intelligence collection, precluding the ability to provide fully 
+contextualized intelligence assessments. 
+Targeting Intelligence Enterprise—An integrated system of technologies, standards, data, 
+processes, procedures, organizations, and people that are used to develop, plan, execute, assess, 
+and support military operations with decision-quality targeting material and intelligence. 
+Timeliness—Additional USAF analysis tradecraft standard.  Analysis must be timely to impact 
+planning, mission objectives, operations and aid in commanders' decisions.  The aim is to deliver 
+knowledge at the earliest time and place to enable effective decisions and action. 
+ 
+20 
+DAFMAN14-401  26 MAY 2021 
+Attachment 2 
+UNITED STATES AIR FORCE INTELLIGENCE ANALYSIS TENETS 
+A2.1.  USAF intelligence analysis tenets derive from and support.  Intelligence Community, 
+joint intelligence, and broader ISR principles, while simultaneously emphasizing analysis 
+attributes of particular interest and priority within the USAF.  These overarching principles are 
+held to be true and in common by USAF ISR professionals, and they cover the most important 
+tenets of USAF intelligence analysis. 
+A2.2.  ISR professionals are responsible for.  Applying the following six USAF intelligence 
+analysis tenets to the extent feasible and reporting related concerns in accordance with Paragraph 
+3.2. (T-0). 
+A2.2.1.  Objectivity  .  Analysis will be based on fact and be clear and truthful about what is 
+known versus what is judged.  (T-1).  It will not be distorted by emotion or personal or 
+organizational bias and will be independent of command or political considerations.  (T-1).  
+Further, it will clearly delineate underlying intelligence, assumptions, and judgments.  (T-1).  
+Analysts should address alternative perspectives and contrary information and avoid being 
+unduly constrained by previous judgments. 
+A2.2.2.  Integrity  .  While closely linked to objectivity, integrity involves a broader focus on 
+all activities, standards, and processes associated with intelligence analysis.  Analysts will 
+ensure complete honesty and reliability in their analysis combined with firm adherence to a 
+code of professional ethics and tradecraft standards such as accuracy, timeliness, and customer 
+responsiveness.  (T-1).  Integrity includes explaining changes in previous analytic judgments, 
+as well as addressing significant differences in judgment among various United States analytic 
+elements.  As stated in Joint Publication (JP) 2-0, integrity is “the cardinal element in 
+intelligence analysis and reporting, and the foundation on which credibility with the 
+intelligence consumer is built.” 
+A2.2.3.  Synthesis  .  Intelligence analysis requires analysts to use all available sources of 
+information to maximize completeness.  (T-1).  Analysts should also identify information gaps 
+and, where they exist, they should coordinate with collectors to develop access and collection 
+strategies.  Synthesis is founded on well-honed tradecraft skills, including critical thinking, 
+alternative analysis, and the ability to take the perspective of the adversary.  Compatible, 
+service-oriented information technology architectures and tools are also key to facilitating 
+synthesis. 
+A2.2.4.  Collaboration  .  Analysts must actively solicit opinions and assessments from other 
+analysts and seek to share ideas.  (T-1).  Data, information, and intelligence must be broadly 
+accessed and shared.  (T-1).  Collaboration should take place internally within the DAF ISR 
+enterprise, across the Intelligence Community, and with allies, academia, and other entities 
+outside the Intelligence Community, when feasible.  Effective collaboration facilitates 
+maximum synthesis. 
+ 
+ 
+DAFMAN14-401  26 MAY 2021 
+21 
+A2.2.5.  Anticipation  .  Analysis is far more than trend assessment; its true value resides in 
+warning and forecasting to be relevant to decision-making, warfighting, operations, and 
+acquisition.  Because information gaps routinely limit our ability to predict with complete 
+accuracy, it is incumbent on analysts to effectively apply tradecraft standards such as 
+alternative analysis, levels of confidence, assumptions vs. judgments, and appropriate 
+sourcing.  (T-1).  Intelligence warning and forecasting are not exact; however, analysts will 
+utilize the most recent information for all warning or forecast-related analysis.  (T-1). 
+A2.2.6.  Requirements  .  Analysts will continually engage with customers to comprehend 
+their dynamic requirements.  (T-1).  Customer requirements can be solicited from a variety of 
+sources such as:  understanding their operations; holding working groups or technical 
+exchanges with them; anticipating and listening to their questions; responding to feedback; and 
+addressing documented need statements and derivative data needs.  Effectively meeting 
+analysis mission requirements demands an effective balance of customer familiarity, 
+interpreted needs, collaboration, and analytical judgment. 
+ 

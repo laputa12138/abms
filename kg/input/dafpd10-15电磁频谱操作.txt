@@ -1,0 +1,716 @@
+BY ORDER OF THE SECRETARY  
+OF THE AIR FORCE 
+ 
+DEPARTMENT OF THE AIR FORCE 
+POLICY DIRECTIVE 10-15 
+25 NOVEMBER 2024 
+Operations 
+ELECTROMAGNETIC  
+SPECTRUM OPERATIONS 
+COMPLIANCE WITH THIS PUBLICATION IS MANDATORY 
+ 
+ACCESSIBILITY:  Publications and forms are available on the e-Publishing website at 
+www.e-Publishing.af.mil  for downloading or ordering 
+RELEASABILITY:  There are no releasability restrictions on this publication 
+ 
+ 
+OPR: AF/A2/6L 
+Certified by: AF/A2/6  
+(Lt Gen Leah G. Lauderback)
+Pages: 19 
+ 
+ 
+This publication implements Department of Defense Instruction (DoDI) 3222.03, DoD 
+Electromagnetic Environmental Effects (E3) Program; Department of Defense Directive (DoDD) 
+3610.01, Electromagnetic Spectrum Enterprise Policy, DoDD 3222.04, Electronic Warfare (EW) 
+Policy; DoDI 4650.01, Policy and Procedures for Management and Use of the Electromagnetic 
+Spectrum and is consistent with the guidance established with National Telecommunications and 
+Information Administration (NTIA), Manual of Regulations and Procedures for Federal Radio 
+Frequency Management (also known as “Redbook”). This Department of the Air Force Policy 
+Directive (DAFPD) is consistent with Headquarters Air Force Mission Directive (HAFMD) 1-18, 
+Assistant Secretary of the Air Force (Installations, Environment and Energy), DAFPD 13-6, Space 
+Policy, DAFPD 17-2, Cyberspace, AFPD 63-1, Integrated Life Cycle Management, AFPD 91-2, 
+Safety Programs, and AFPD 91-4, Directed Energy System Safety. This (DAFPD) provides 
+guidance for the United States Air Force (USAF) and United States Space Force (USSF) use of 
+Electromagnetic Spectrum Operations (EMSO) to enhance resiliency, responsiveness, and agility 
+of operations and permits the conduct of operations at a given time and place without prohibitive 
+interference while affecting an adversary’s ability to do the same. In addition, EMSO will enable 
+support to and achievement of Department of Defense (DoD), combatant commanders’, and other 
+commanders’ objectives and effects. This publication applies to all civilian employees and 
+uniformed members of the Regular Air Force, the Air Force Reserve, the Air National Guard, the 
+USSF, and those with a contractual obligation to abide by the terms of Department of the Air Force 
+(DAF) publications. If this publication conflicts with DoD or with joint guidance, the joint 
+publication will take precedence.  Ensure all records generated as a result of processes prescribed 
+in this publication adhere to Air Force Instruction (AFI) 33-322, Records Management and 
+2 
+DAFPD10-15  25 NOVEMBER 2024 
+Information Governance Program, and are disposed in accordance with the Air Force Records 
+Disposition Schedule, which is located in the Air Force Records Information Management System.  
+Refer recommended changes and questions about this publication to the office of primary 
+responsibility (OPR) using DAF Form 847, Recommendation for Change of Publication; route 
+DAF Forms 847 from the field through the appropriate functional chain of command. This DAFPD 
+may not be supplemented. 
+ 
+ 
+1. 
+Overview. .................................................................................................................  
+3 
+2. 
+Policy. ......................................................................................................................  
+3 
+3. 
+Roles and Responsibilities. ......................................................................................  
+5 
+Attachment 1—GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+15 
+ 
+ 
+ 
+DAFPD10-15  25 NOVEMBER 2024 
+3 
+1.  Overview. 
+1.1.  This directive establishes the DAF policy for electromagnetic spectrum (EMS) superiority 
+governance, management, capability development, operations and sustainment, and capability 
+divestment. In addition, this directive designates USAF Major Command (MAJCOM) and 
+USSF Field Command (FLDCOM) roles and responsibilities for these capabilities in support 
+of objectives and effects. This policy also provides the Director, Electromagnetic Spectrum 
+Superiority, AF/A2/6L, and Director, Cyber Operations and Spectrum Integration, 
+SF/COO/S6C, the authority to fulfill the duties established in federal laws and DoD issuances. 
+1.2.  The EMS is a maneuvering space and physical environment that exists regardless of 
+human interaction. It consists of physical and temporal properties characterized by frequency, 
+waveform, power, and time. It can be managed, occupied, and selectively controlled like other 
+physical environments where natural and artificial factors affect actions in and through the 
+EMS.  The EMS is pervasive and permeating, linking all military operations in and across the 
+air, land, maritime, cyberspace, and space warfighting domains in which warfighting concepts 
+such as mass, maneuver, and fires are employed. The EMS is finite, and the increasing demand 
+from military, civilian, and commercial users create congestion by increasing the number and 
+density of electromagnetic (EM) emitters. Operations in the EMS are constrained and framed 
+by physics, technology, and policy and are governed by domestic law and international legal 
+obligations.  Technology, and the continually changing regulatory environment make new 
+portions of the EMS accessible and exploitable. The EMS is contested and dynamic, allowing 
+potential adversaries to deny us the freedom of maneuver and action essential to U.S. and 
+multinational operations. 
+1.3.  The physical EM environment is comprised of all naturally occurring, friendly, neutral, 
+and enemy EM radiation within the area of operations. The DAF provides forces and 
+capabilities to employ EMSO ensuring friendly forces’ intended usage of the EMS while 
+creating effects such as detection, denial, degradation, deception, and destruction against an 
+adversary. EMSO involves the synchronized employment of electromagnetic warfare, signals 
+intelligence, spectrum management, and additional functions for controlling and defending 
+EMS access throughout the air, land, maritime, cyberspace, and space warfighting domains to 
+enable tactical, operational, and strategic advantage. 
+1.4.  EMSO, employed appropriately, enables the attainment of EMS superiority.  EMS 
+superiority is the degree of control that permits secure, reliable conduct of operations at a given 
+time and place in the EMS without prohibitive interference from the opposing force. 
+2.  Policy.  The Department of the Air Force (DAF) will: 
+2.1.  Achieve EMS superiority using EMSO to enable exploitation of the physical 
+electromagnetic environment to execute, enhance, and support DAF and combatant 
+commands’ core missions and support U.S. Strategic Command (USSTRATCOM) in 
+accomplishing its specific EMSO responsibilities. 
+ 
+ 
+4 
+DAFPD10-15  25 NOVEMBER 2024 
+2.2.  Execute EMSO to support joint and coalition warfighter operations, increase the 
+effectiveness of its core functions, and increase resiliency and survivability.  Successful 
+execution of EMSO requires integrated and synchronized execution of EW (electromagnetic 
+attack, electromagnetic protection, and electromagnetic support), space operations, signals 
+intelligence, electromagnetic battle management, spectrum management, and additional 
+functions for controlling the EMS throughout the air, land, maritime, cyberspace, and space 
+warfighting domains. 
+2.3.  Integrate EMS superiority concepts into the USAF, USSF, and joint military strategy, 
+plans, doctrine, operations, exercises, system architectures, electromagnetic spectrum-
+dependent (S-D) systems’ development, and functional and professional military and civilian 
+training and education so DAF personnel can use electromagnetic S-D systems as intended in 
+any relevant electromagnetic environments. 
+2.4.  Enable MAJCOMs and FLDCOMs to organize, train, and equip forces to provide EMSO 
+subject matter experts for operations and planning to combatant and component commanders, 
+as required. 
+2.5.  Enable MAJCOMs and FLDCOMs to organize, train, and provide EMS subject matter 
+experts in acquisition and system development efforts to ensure spectrum management 
+awareness, concepts, and design/integration requirements are embedded through the entire 
+weapons life cycle. 
+2.6.  Develop and employ common electromagnetic systems’ architectures, standards, and 
+protocols to ensure friendly-force interference mitigation (inclusive of infrastructure related 
+systems) and deliver desired warfighting effects within an electromagnetic environment via 
+electromagnetic battle management. 
+2.7.  Develop, acquire, and field electromagnetic and directed energy weapons capabilities; 
+operational tactics, techniques, and procedures; maintenance procedures; and associated 
+education, readiness training, and practical exercises for tactical, operational, peacetime, and 
+joint and coalition training at the National Space Test and Training Range and National Space 
+Test and Training Complex to enable joint EMSO. 
+2.8.  Develop platforms and systems that operate in the EMS (i.e., electromagnetic S-D 
+systems) using common architecture interfaces and protocols that result in the ability of 
+systems, equipment, and devices using the electromagnetic spectrum to operate in their 
+intended environments without causing or suffering unacceptable or unintentional degradation 
+because of electromagnetic radiation or response. 
+2.9.  Procure resilient electromagnetic S-D platforms and systems that can counter or indicate 
+service degradation to the operator due to intentional interference (e.g., jamming) or 
+unintentional interference (e.g., blue force electromagnetic interference, and atmospheric and 
+space-based weather) and provide this information for electromagnetic battle management and 
+other situational awareness capabilities. 
+2.10.  Acquire each electromagnetic S-D platform or system’s data sufficient to characterize 
+its employment in an electromagnetic operational environment to assess emerging threats to 
+systems and determine impacts to DAF missions resulting from reallocation or reprioritized 
+spectrum access. 
+DAFPD10-15  25 NOVEMBER 2024 
+5 
+2.11.  Sustain readiness by developing and maintaining an EMSO force structure with the 
+proper rank/grade and specialty allocations of military and civilian personnel, training and 
+educating mission-ready professionals, regularly exercising wartime system capabilities, and 
+equipping and maintaining an infrastructure capable of supporting high operations tempo 
+levels. 
+2.12.  Integrate Air Reserve Component strategic and operational EMSO capabilities to 
+perform steady-state and surge operations. 
+2.13.  Foster strong relationships with allies and partners to maximize the exchange of EMSO 
+information in support of mutual interests. 
+2.14.  Develop common architectures, systems, or procedures that permit electromagnetic S-D 
+platforms’ or systems’ data to be used by other U.S. government and international partners, as 
+appropriate, to facilitate U.S. and partner interoperability while minimizing the data’s risk of 
+exploitation. 
+2.15.  Comply with U.S. and host nation spectrum regulations and obtain applicable 
+authorizations before operating electromagnetic S-D systems. 
+2.16.  Identify and mitigate regulatory, technical, and operational spectrum supportability risks 
+in accordance with DoDI 4650.01. 
+2.17.  Use environmental intelligence of the atmospheric and space-based weather 
+environment to optimize EMSO. 
+3.  Roles and Responsibilities. 
+3.1.  Administrative Assistant to the Secretary of the Air Force (SAF/AA) will: 
+3.1.1.  Coordinate with AF/A2/6L and SF/COO/S6C on all EMS superiority policy. 
+3.1.2.  Coordinate with AF/A2/6L and SF/COO/S6C on the administration of special 
+access programs for EMSO and related all-domain capabilities. 
+3.2.  Assistant Secretary of the Air Force for Acquisition, Technology and Logistics (SAF/AQ) 
+will: 
+3.2.1.  Establish a focal point within AQ to address acquisition matters related to EMS 
+superiority with consultation from Assistant Secretary of the Air Force for Space 
+Acquisition and Integration (SAF/SQ) on space-related acquisitions. 
+3.2.2.  Participate in the DAF EMS governance structure. Support EMS working groups or 
+decision-making bodies as defined in their respective charters. 
+3.2.3.  With consultation from SAF/SQ on space-related considerations, serve as the OPR 
+for the Science & Technology and Research, Development, Testing, and Evaluation 
+(RDT&E) aspects of EMS superiority capabilities, including providing direction, guidance, 
+and supervision over all matters about the formulation, review, approval, and execution of 
+plans, policies, and programs relative to research, development, production, and 
+acquisition of EMSO programs. 
+ 
+ 
+6 
+DAFPD10-15  25 NOVEMBER 2024 
+3.2.4.  With support from SAF/SQ on space-related programs, enable the delivery of 
+EMSO capabilities in accordance with decisions made by the DAF Corporate Structure for 
+the USAF and USSF, DoD, and Congress, to include management of funds allocated for 
+acquisition programs within the RDT&E appropriation. 
+3.2.5.  Create incentives for industry partners to provide actionable information on 
+electromagnetic performance and control for their S-D systems.  Advocate for the 
+necessary visibility of the DAF and DoD into the spectrum behavior of industry solutions, 
+while respecting and protecting their essential proprietary information. 
+3.2.6.  Be responsible for validating DAF EMSO programs comply with regulations and 
+laws. 
+3.3.  Office of the Secretary of the Air Force, Chief Information Officer (SAF/CN) will: 
+3.3.1.  Participate in the DAF EMS governance structure. 
+3.3.2.  Support EMS working groups or decision-making bodies as defined in their 
+respective charters. 
+3.3.3.  Review spectrum supportability risk assessments and provide recommendations 
+when appropriate. 
+3.3.4.  Provide representatives to the Interdepartment Radio Advisory Committee and its 
+substructure. 
+3.3.5.  Ensure spectrum management interests are represented on the Military Command, 
+Control, Communications, and Computers Executive Board, its panels, and working 
+groups. 
+3.4.  Deputy Undersecretary of the Air Force, International Affairs (SAF/IA) will: 
+3.4.1.  Establish a focal point within International Affairs to address foreign military sales 
+of United States (US) EW systems and other US S-D systems that provide foreign 
+governments with a degree of EMS control. 
+3.4.2.  Participate in the DAF EMS governance structure. Support DAF EMS working 
+groups or decision-making bodies as defined in their charters. 
+3.4.3.  Coordinate with AF/A2/6L, SF/COO/S6C, Office of the Assistant Secretary of 
+Defense for Space Policy and others as required on EW system export policy. 
+3.4.4.  Coordinate with AF/A2/6L, Analysis, Partnerships & Engagements (AF/A2/6A), 
+Deputy Chief of Space Operations for Intelligence (SF/S2) and SF/COO/S6C on EMSO to 
+develop foreign disclosure policy and guidance to support effective EMS-related 
+information sharing and employment of EMSO with allies and partners. 
+3.5.  Assistant Secretary of the Air Force for Space Acquisition and Integration (SAF/SQ) will: 
+3.5.1.  Be responsible for global positioning system acquisition programs and processes, 
+spectrum allocations and processes, spectrum planning and integration with positioning, 
+navigation, and timing architectures, coordination with emitters/providers for radio-
+frequency compatibility and interoperability, and spectrum protection concerning bands 
+with positioning, navigation, and timing application. 
+DAFPD10-15  25 NOVEMBER 2024 
+7 
+3.5.2.  As authorized, coordinate with the International Telecommunications Union for 
+frequency deconfliction and orbital slot allocations consistent with DoDI 4650.01 and 
+NTIA Redbook procedures. 
+3.5.3.  Participate in the DAF EMS governance structure. Support DAF EMS working 
+groups or decision-making bodies as defined in their charters. 
+3.6.  Deputy Chief of Staff, Manpower, and Personnel and Services (AF/A1), Deputy Chief of 
+Space Operations for Human Capital (SF/S1) will: 
+3.6.1.  Establish a focal point within both AF/A1 and SF/S1 to address EMS Workforce 
+and personnel matters related to EMS superiority. 
+3.6.2.  Coordinate with AF/A2/6L and SF/COO/S6C on the career field and management 
+of EMS subject matter experts. 
+3.7.  Deputy Chief of Staff for Intelligence, Surveillance, and Reconnaissance and Cyber 
+Effects Operations (AF/A2/6) and Deputy Chief of Space Operations for Intelligence (SF/S2), 
+will: 
+3.7.1.  Establish a focal point within AF/A2/6 and SF/S2 to address intelligence matters 
+related to EMS superiority and coordinate with Joint Electromagnetic Warfare Center, the 
+National Air and Space Intelligence Center, and the National Space Intelligence Center as 
+required. 
+3.7.2.  Ensure AF/A2/6L and SF/COO/S6C are informed of intelligence capability and 
+capacity issues related to attaining and maintaining EMS superiority. 
+3.7.3.  Participate in the DAF EMS governance structure. Support DAF EMS working 
+groups or decision-making bodies as defined in their charters. 
+3.8.  Director, Electromagnetic Spectrum Superiority (AF/A2/6L) will: 
+3.8.1.  Lead the USAF in obtaining and maintaining EMS superiority across air, space, and 
+cyberspace domains through coordination across missions, core-functional, and cross-
+functional capability areas. 
+3.8.2.  Lead USAF guidance and oversight of EMS superiority doctrine, organization, 
+training, materiel, leadership and education, personnel, facilities, and policy issues. 
+3.8.3.  Advise on doctrine and develop policy, guidance, strategy, capability development, 
+and investment priorities to attain and maintain EMS superiority. 
+3.8.4.  Ensure EMSO requirements and capabilities are integrated across the USAF. 
+3.8.5.  Develop and oversee implementation of USAF EMS superiority policy and 
+guidance. 
+3.8.6.  With the support of the DAF EMS governance structure, ensure alignment of EMS 
+superiority goals and objectives across USAF functional mission areas and cross-functional 
+teams. 
+3.8.7.  Oversee all USAF EMS-related training for the EMS subject matter expert career 
+field, as well as general force training. 
+8 
+DAFPD10-15  25 NOVEMBER 2024 
+3.8.8.  Serve as the staffing OPR for EMS-related documents that address EMSO, and other 
+capabilities when necessary. 
+3.8.9.  Manage the USAF EMS Professional Career Force (military and government 
+civilians) concerning the performance of EMS-related activities in coordination with other 
+career field managers. 
+3.8.10.  Serve as the USAF EMSO Functional Manager for designated EMS 
+capabilities/programs and advise career field managers for the EMSO-centric AF Specialty 
+Code career fields, in accordance with DAFI 36-2670, Total Force Development. 
+3.8.11.  Serve as an advocate for DAF EMS superiority equities within the Joint 
+Capabilities Integration and Development System, DAF Corporate Structure, and DAF 
+capabilities development processes. 
+3.8.12.  Serve as the USAF OPR for EMS superiority Program Objective Memorandum 
+submission through the DAF Corporate Process. 
+3.8.13.  Coordinate all USAF programmatic actions related to EMS superiority with the 
+Deputy Chief of Staff, Plans and Programs (AF/A8) or other panel chairs as appropriate 
+and submit required changes through the DAF Corporate Structure, Office of the Secretary 
+of Defense and Joint Staff, as required. 
+3.8.14.  Coordinate with AF/A2/6 on the integration of EMSO activities into planning, 
+execution, and assessment to enable information warfare. 
+3.8.15.  Establish USAF working groups, as necessary, to address specific EMS superiority 
+issues or topics. 
+3.8.16.  Support USSTRATCOM in accomplishing its specific EMSO responsibilities as 
+requested. 
+3.9.  Deputy Chief of Staff for Intelligence, Surveillance, and Reconnaissance and Cyber 
+Effects Operations, Chief, Partnerships and Engagements Division (AF/A2/6AE) will: 
+3.9.1.  Develop intelligence disclosure policy and guidance in coordination with SAF/IA, 
+AF/A2/6L, SF/S2 and SF/COO/S6C to support EMS-related intelligence sharing 
+requirements with allies and partners. 
+3.9.2.  Coordinate on SAF/IA, AF/A2/6L and SF/COO/S6C requirements and proposals 
+for policy related to export of EW systems and disclosure of other categories of classified 
+military information. 
+3.10.  Director, Cyber Operations and Spectrum Integration (SF/COO/S6C) will: 
+3.10.1.  Lead the USSF in obtaining and maintaining EMS superiority across air, space, 
+and cyberspace domains through coordination across missions, core-functional and cross-
+functional capability areas. 
+3.10.2.  Establish USSF working groups, as necessary, to address specific EMS superiority 
+issues or topics. 
+3.10.3.  Ensure EMSO requirements and capabilities are integrated across the FLDCOMs. 
+DAFPD10-15  25 NOVEMBER 2024 
+9 
+3.10.4.  Develop and oversee implementation of USSF EMS superiority policy and 
+guidance. 
+3.10.5.  Ensure alignment of EMS superiority goals and objectives across USSF functional 
+mission areas and cross-functional teams. 
+3.10.6.  Serve as the USSF OPR for EMS superiority Program Objective Memorandum 
+submission through the DAF Corporate Process. 
+3.10.7.  Coordinate all USSF programmatic actions related to EMS superiority with the 
+Chief Strategy and Resourcing Officer (SF/CSRO) or other panel chairs as appropriate and 
+submit required changes through the DAF Corporate Structure, Office of the Secretary of 
+Defense and Joint Staff, as required. 
+3.10.8.  Manage the USSF EMS Professional Career Force concerning the performance of 
+EMS-related activities in coordination with other career field managers. 
+3.10.9.  Serve as the USSF EMS Superiority Functional Managers for designated EMS 
+capabilities/programs and advise the career field managers for the EMSO-centric USSF 
+Specialty Code career fields, in accordance with DAFI 36-2670. 
+3.10.10.  Execute USSF acquisition spectrum management policy and interface with the 
+USAF Spectrum Management Office (AF/A2/6LS). 
+3.10.11.  Support the Space Development Agency and Space Rapid Capability Office as 
+requested. 
+3.10.12.  Support USSTRATCOM in accomplishing its specific EMSO responsibilities as 
+requested. 
+3.11.  Deputy Chief of Staff for Operations (AF/A3) and Chief Operations Officer (SF/COO) 
+will: 
+3.11.1.  Provide subject matter expertise and coordination on EMS superiority issues 
+related to DAF and combatant command operations and deployment and employment of 
+electromagnetic warfare and with EMS-related systems. 
+3.11.2.  Work with Air Education and Training Command and Space Training and 
+Readiness Command to develop appropriate EMS superiority training and require all DAF 
+EMS superiority staff, units, and career field/force personnel to complete EMS superiority 
+training. 
+3.11.3.  Develop and implement EMSO readiness metrics for all DAF combat capabilities 
+that operate in the EMS. 
+3.11.4.  Participate in the DAF EMS governance structure. Support DAF EMS working 
+groups or decision-making bodies as defined in their charters. 
+3.12.  Deputy Chief of Staff, Air Force Futures (AF/A5/7) and Chief Strategy and Resourcing 
+Officer (SF/CSRO) will: 
+3.12.1.  Coordinate with AF/A2/6L, SF/COO/S6C, and the EW/EMS Capability 
+Development Team on EMS superiority capability development issues. 
+10 
+DAFPD10-15  25 NOVEMBER 2024 
+3.12.2.  Coordinate with Electromagnetic Spectrum Superiority Advanced Programs 
+(AF/A2/6LZ) and SF/COO/S6C on EMS superiority requirements processes, documents, 
+and issues. 
+3.12.3.  Participate in the DAF EMS governance structure. Support DAF EMS working 
+groups or decision-making bodies as defined in their charters. 
+3.13.  Deputy Chief of Staff for Plans and Programs (AF/A8) and Chief Strategy and 
+Resourcing Officer (SF/CSRO) will: 
+3.13.1.  Establish and maintain EMS Superiority equities within existing Service 
+programming panel structure to address planning and programmatic matters related to EMS 
+superiority, and function as liaison with AF/A2/6L and SF/COO/S6C.. 
+3.13.2.  Participate in the DAF EMS governance structure. 
+3.13.3.  Support DAF EMS working groups or decision-making bodies as defined in their 
+charters. 
+3.13.4.  Ensure EMSO planning and programming are integrated across the MAJCOMs 
+and FLDCOMs. 
+3.14.  Director, Department of the Air Force Studies & Analysis (SAF/SA), and Space Force 
+Analysis (SF/CTIO/S9) will: 
+3.14.1.  Coordinate EMS superiority capability development issues related to modeling and 
+simulation with AF/A2/6L and SF/COO/S6C. 
+3.14.2.  Participate in the DAF EMS governance structure. Support DAF EMS working 
+groups or decision-making bodies as defined in their charters. 
+3.15.  Director of Test and Evaluation (AF/TE) and Space Force Test and Evaluation (SF/TE) 
+will: 
+3.15.1.  Coordinate with AF/A2/6L, SF/COO/S6C, and other organizations on EMS 
+superiority capability development and sustainment issues related to air and space test and 
+evaluation. 
+3.15.2.  Participate in the DAF EMS governance structure. Support DAF EMS working 
+groups or decision-making bodies as defined in their charters. 
+3.16.  All MAJCOMs and FLDCOMs will: 
+3.16.1.  Establish a focal point within the MAJCOM and FLDCOM headquarters (HQ) to 
+address matters related to EMS superiority and function as the MAJCOM and FLDCOM 
+liaison with AF/A2/6L and SF/COO/S6C. 
+3.16.2.  Participate in the DAF EMS governance structure. Support DAF EMS working 
+groups or decision-making bodies as defined in their charters. 
+3.17.  Air Combat Command will: 
+3.17.1.  Establish a focal point within HQ Air Combat Command to address matters related 
+to EMS superiority and function as the MAJCOM liaison with AF/A2/6L. 
+3.17.2.  Support USAF EMS-related working groups or decision-making bodies as their 
+charters define. 
+DAFPD10-15  25 NOVEMBER 2024 
+11 
+3.17.3.  Lead EMS environment intelligence integration into EMS operations and 
+activities. 
+3.17.4.  Support integration of EMSO into the USAF Warfare Center’s academic training 
+and exercises. 
+3.17.5.  Develop, update, and maintain EMSO training course information in the Joint 
+Training Course Database according to Joint Staff guidance. 
+3.17.6.  Coordinate with the HQ Air Education and Training Command, HQ Air Combat 
+Command, and Air National Guard schoolhouses to refine/modify, review, validate, and 
+approve course objectives and education requirements. 
+3.17.7.  Provide global recommended sourcing solutions and feasibility risk analyses as 
+defined by Global Force Management Implementation Guidance, DAFI 10-401, 
+Operations Planning and Execution, and Joint Staff directives supporting joint force 
+provider responsibilities. 
+3.17.8.  In coordination with appropriate functional authorities, ensure sufficiently 
+proficient EMSO capabilities are available to Air Force forces and air operations 
+center/operations center. 
+3.17.9.  Coordinate testing and evaluation of emerging EMSO capabilities for operational 
+forces, national agencies, and the acquisition community. 
+3.17.10.  Develop EMSO tactics, techniques, and procedures for joint and USAF 
+operational planners supporting current and future operations. 
+3.18.  Space Operations Command will: 
+3.18.1.  Establish a focal point within HQ Space Operations Command to address matters 
+related to EMS superiority and function as the FLDCOM liaison with SF/COO/S6C. 
+3.18.2.  Support USSF EMS-related working groups or decision-making bodies as their 
+charters define. 
+3.18.3.  Lead EMS environment intelligence integration into EMS operations and 
+activities. 
+3.18.4.  Support integration of EMSO into Space Warfighting Analysis Center’s academic 
+analysis, modeling, wargaming, and experimentation. 
+3.18.5.  Provide global recommended sourcing solutions and feasibility risk analyses as 
+defined by Global Force Management Implementation Guidance, DAFI 10-401, and Joint 
+Staff directives supporting joint force provider responsibilities. 
+3.18.6.  In coordination with appropriate functional authorities, ensure sufficiently 
+proficient EMSO capabilities are available for presentation to combatant command space 
+components. 
+3.18.7.  Develop EMSO tactics, techniques, and procedures for joint and USSF operational 
+planners to support current and future operations. 
+3.19.  Air Education and Training Command will: 
+3.19.1.  Develop and execute initial EMSO training and education. 
+12 
+DAFPD10-15  25 NOVEMBER 2024 
+3.19.2.  Develop and execute EMSO training and education throughout professional 
+military education. 
+3.19.3.  Participate in, and chair when appropriate, utilization and training workshops and 
+USAF Training Planning Team when addressing EMSO training requirements. 
+3.20.  Space Training and Readiness Command will: 
+3.20.1.  Participate in and chair, when appropriate, utilization and training workshops and 
+USSF Training Planning Team when addressing EMSO training requirements. 
+3.20.2.  Develop, update, and maintain EMSO training course information in the Joint 
+Training Course Database according to Joint Staff guidance with support from HQ USSF 
+and FLDCOMs. 
+3.20.3.  Develop and execute EMSO training and education throughout professional 
+military education. 
+3.20.4.  Coordinate with the other FLDCOMs and the career field managers on Space 
+Training and Readiness Command -provided EMSO training to solicit input to 
+refine/modify, review, validate, and approve course objectives and training/education 
+requirements. 
+3.20.5.  Coordinate testing and evaluation of emerging EMSO capabilities for operational 
+forces, national agencies, and the acquisition community. 
+3.20.6.  Develop and maintain USSF EMSO doctrine. 
+3.21.  Air Force Materiel Command will: 
+3.21.1.  Establish a focal point within HQ Air Force Material Command to address matters 
+related to EMS superiority and function as the MAJCOM liaison with AF/A2/6L. 
+3.21.2.  Support USAF EMS-related working groups or decision-making bodies as their 
+charters define. 
+3.21.3.  Develop acquisition guidance for EMSO systems and include expectations for 
+industry partners to give USAF operators the necessary privileges in EMSO solutions, 
+while respecting and protecting any essential proprietary information of industry-provided 
+systems. 
+3.21.4.  Acquire, develop, and provide the subject matter expertise necessary to assist the 
+Air Force Materiel Command centers (specifically Air Force Life Cycle Management 
+Center and Air Force Research Laboratory), the Program Management Office and Air 
+Force forces and air operations center/operations center to explore alternative 
+developmental courses of action for new capabilities, as well as ensure integration of 
+EMSO into weapon systems’ RDT&E. 
+3.21.5.  Utilize common architectures, standard interfaces, and protocols in the acquisition 
+of EMS S-D systems to enable interoperability and improve technology insertion. 
+3.21.6.  Organize, train, and equip acquisition forces to provide EMSO subject matter 
+experts for planning, development, and sustainment of EMSO capabilities in support of 
+operations and planning to combatant and component commanders, as required. 
+DAFPD10-15  25 NOVEMBER 2024 
+13 
+3.21.7.  Ensure EMSO mid-term and long-term research and technology shortfall issues 
+are adequately addressed through the Air Force Research Laboratory. 
+3.21.8.  Maintain and communicate a list of spectrum management interests, priorities, 
+trends, and capability gaps to inform Headquarters Air Force, MAJCOMs, and Space 
+Systems Command of all relevant EMSO Science and Technology (S&T) and Research, 
+Development, Test, and Evaluation (RDT&E) efforts. 
+3.21.9.  Ensure protection of human subjects in all EMS research by conducting all such 
+activities through the Air Force Research Laboratory.  Acquisition plans for such activities 
+will include appropriate resourcing for human research protection oversight in accordance 
+with DoDI 3216.02. Protection of Human Subjects and Adherence to Ethical Standards in 
+DoD Conducted and Supported Research. 
+3.22.  Space Systems Command and Space Development Agency will: 
+3.22.1.  Develop acquisition guidance for EMSO systems and include expectations for 
+industry partners to give USSF operators the necessary privileges in EMSO solutions, 
+while respecting and protecting any essential proprietary information of industry-provided 
+systems. 
+3.22.2.  Utilize common architectures, standard interfaces, and protocols in the acquisition 
+of EMS S-D systems to enable interoperability and improve technology insertion. 
+3.22.3.  Provide the subject matter expertise necessary to assist the Space Systems 
+Command Program Executive Officer (PEOs) to explore alternative developmental 
+courses of action for new capabilities, as well as ensure integration of EMSO into weapon 
+systems’ RDT&E. 
+3.22.4.  Ensure EMSO mid-term and long-term research and technology shortfall issues 
+are adequately addressed to the Chief Technology and Innovation Officer. 
+3.22.5.  Inform USSF and FLDCOMs of all relevant EMSO S&T and RDT&E efforts to 
+Chief Technology and Innovation Officer/Science, Technology and Research 
+(CTIO/STR). 
+3.23.  ANG will: 
+3.23.1.  Coordinate EMSO education and training with HQ Air Combat Command, HQ 
+Air Education and Training Command, and Air Reserve Component to support EMSO 
+mission readiness requirements defined by DAF. 
+3.23.2.  Comply with USAF MAJCOM responsibilities as defined in paragraph 3.16 
+through paragraph 3.16.2. 
+3.23.3.  Comply with USAF MAJCOM, direct reporting unit, and field operation agency 
+responsibilities as defined in paragraph 3.24 through paragraph 3.24.7. 
+3.24.  All USAF MAJCOMs, Direct Reporting Units, and Field Operating Agencies will: 
+3.24.1.  Coordinate with AF/A2/6L to develop new EMSO initiatives into joint, coalition 
+and USAF experimentation and acquisition activities. 
+14 
+DAFPD10-15  25 NOVEMBER 2024 
+3.24.2.  Appoint MAJCOM functional managers and program managers for EMSO. Direct 
+Reporting Units and Field Operating Agencies are only required to appoint program 
+managers. 
+3.24.3.  Assist Headquarters Air Force in performing their doctrine, organization, training, 
+materiel, leadership and education, personnel, facilities, and policy capability development 
+responsibilities, as required. 
+3.24.4.  Organize, train, and equip EMSO career field/forces and capabilities to include 
+readiness assessment and evaluation functions and leading integration of EMSO into all 
+mission areas. 
+3.24.5.  Integrate EMSO into the strategic planning process and assist with developing 
+EMSO guidance and enabling concepts. 
+3.24.6.  As appropriate assist combatant commands, component-MAJCOMs/component-
+numbered air forces, or air operation centers with synchronizing and deconflicting EMSO 
+effects with other respective functional/geographical MAJCOMs. 
+3.24.7.  Coordinate EMSO with AF/A3 on all exercise and training requirements. 
+3.25.  All USSF FLDCOMs, Direct Reporting Units, and Field Operating Agencies will: 
+3.25.1.  Coordinate with SF/COO/S6C to develop new EMSO initiatives into joint, 
+coalition and USSF experimentation and acquisition activities. 
+3.25.2.  Appoint FLDCOMs functional managers and program managers for EMSO. 
+Direct Reporting Units and Field Operating Agencies are only required to appoint program 
+managers. 
+3.25.3.  Organize, train, and equip EMSO career field/forces and capabilities to include 
+readiness assessment and evaluation functions and leading integration of EMSO into all 
+mission areas. 
+3.25.4.  Integrate EMSO into the strategic planning process and assist with developing 
+EMSO guidance and enabling concepts. 
+3.25.5.  As appropriate assist combatant commands, component space forces or air 
+operation centers with synchronizing and deconflicting EMSO effects. 
+3.25.6.  Coordinate EMSO with SF/COO on all exercise and training requirements. 
+ 
+FRANK KENDALL 
+Secretary of the Air Force 
+DAFPD10-15  25 NOVEMBER 2024 
+15 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+DoDD 3610.01, Electromagnetic Spectrum Enterprise Policy, 04 September 2020 
+DoDI 3216.02, Protection of Human Subjects and Adherence to Ethical Standards in DoD-
+Conducted and -Supported Research, 29 June 2022 
+DoDI 3222.03, DoD Electromagnetic Environmental Effects (E3) Program, 25 August 2014 
+DoDD 3222.04, Electronic Warfare Policy, 26 March 2014 
+DoDI 4650.01, Policy and Procedures for Management and Use of the Electromagnetic 
+Spectrum, 09 January 2009 
+DoDI 8420.02, DoD Satellite Communications, 03 August 2023 
+JP 3-0, Joint Operations, 18 June 2022 
+JP 3-09, Joint Fire Support, 10 April 2019 
+JP 3-85, Joint Electromagnetic Spectrum Operations, May 2020 
+HAFMD 1-18, Assistant Secretary of the Air Force (Installations, Environment and Energy), 
+10 July 2014 (Note: Air Force Doctrine can be found at https://doctrine.af.mil/) 
+AFDP 3-13, Information in Air Force Operations, 1 February 2023 
+DAFPD 10-9, Lead Command/Lead Agent Designation and Responsibilities for United States 
+Air Force Weapon Systems, Non-Weapon Systems, And Activities, 25 May 2021 
+DAFPD 13-6, Space Policy, 05 December 2023 
+DAFPD 17-2, Cyberspace, 27 October 2020 
+AFPD 63-1, Integrated Life Cycle Management, 07 August 2018 
+AFPD 91-2, Safety Programs, 03 September 2019 
+AFPD 91-4, Directed Energy System Safety, 17 January 2020 
+DAFI 10-401, Operations Planning and Execution, 13 January 2021 
+DAFI 36-2670, Total Force Development, 25 June 2020 
+AFI 33-322, Records Management and Information Governance Program, 23 March 2020 
+Manual of Regulations & Procedures for Federal Radio Frequency Management, National 
+Telecommunications and Information Administration, January 2021 Edition - January 2023 
+Revision 
+Prescribed Forms 
+None 
+16 
+DAFPD10-15  25 NOVEMBER 2024 
+Adopted Forms 
+DAF Form 847, Recommendation for Change of Publication 
+Abbreviations and Acronyms 
+AFPD—Air Force Mission Directive 
+DAF—Department of the Air Force 
+DAFPD—Department of the Air Force Policy Directive 
+DoD—Department of Defense 
+DoDD—Department of Defense Directive 
+DoDI—Department of Defense Instruction 
+EM—Electromagnetic 
+EMS—Electromagnetic Spectrum 
+EMSO—electromagnetic spectrum operations 
+EW—electromagnetic warfare 
+E3—Electromagnetic Environmental Effects 
+HAFMD—Headquarters Air Force Mission Directive 
+RDT&E—Research, Development, Testing, and Evaluation 
+S-D—spectrum-dependent 
+S&T—science and technology 
+U.S.—United States 
+USAF—United States Air Force 
+USSF—United States Space Force 
+Office Symbols 
+AF/A1—Air Force Deputy Chief of Staff, Manpower, Personnel and Services 
+AF/A2/6—Air Force Deputy Chief of Staff, Air Force Intelligence, Surveillance, Reconnaissance 
+and Cyber Effects 
+AF/A2/6A—Analysis, Partnerships & Engagements 
+AF/A2/6AE—Deputy Chief of Staff for Intelligence, Surveillance, and Reconnaissance and Cyber 
+Effects Operations, Chief, Partnerships and Engagements Division 
+AF/A2/6L—Director, Electromagnetic Spectrum Superiority 
+AF/A2/6LS—Electromagnetic Spectrum Superiority Air Force Spectrum Management Office 
+AF/A2/6LZ—Electromagnetic Spectrum Superiority Advanced Programs 
+AF/A3—Air Force Deputy Chief of Staff, Operations 
+DAFPD10-15  25 NOVEMBER 2024 
+17 
+AF/A5/7—Air Force Deputy Chief of Staff, Air Force Futures 
+AF/A8—Air Force Deputy Chief of Staff, Plans and Programs 
+AF/TE—Director of Test and Evaluation 
+CTIO/STR—Chief Technology and Innovation Officer/Science, Technology and Research 
+FLDCOM—Field Command 
+HQ—Headquarters 
+MAJCOM—Major Command 
+OPR—The office of primary responsibility 
+SAF/AA—Secretary of the Air Force Administrative Assistant 
+SAF/AQ—Assistant Secretary of the Air Force for Acquisition, Technology and Logistics 
+SAF/CN—Office of the Secretary of the Air Force, Chief Information Officer 
+SAF/IA—Deputy Undersecretary of the Air Force, International Affairs 
+SAF/SA—Director, Department of the Air Force Studies & Analysis 
+SAF/SQ—Assistant Secretary of the Air Force for Space Acquisition and Integration 
+SF/COO—Chief Operations Officer 
+SF/COO/S6C—Director, Cyber Operations and Spectrum Integration 
+SF/CSRO—Chief Strategy and Resourcing Officer 
+SF/CTIO/S9—Space Force Analysis 
+SF/S1—Deputy Chief of Space Operations for Human Capital 
+SF/S2—Deputy Chief of Space Operations for Intelligence 
+USSTRATCOM—U.S. Strategic Command 
+Terms 
+Cyberspace Operations—The employment of cyberspace capabilities whose primary purpose is 
+to achieve objectives in or through cyberspace. (JP 3-0) 
+Defensive Space Operations—Actions taken to preserve friendly freedom of action in space. 
+Directed Energy—An umbrella term covering technologies that relate to the production of a beam 
+of concentrated electromagnetic energy or atomic or subatomic particles. See also directed-energy 
+weapon effects on a target. (JP 3-85) 
+Electromagnetic Attack—Division of electromagnetic warfare involving the use of 
+electromagnetic energy, directed energy, or anti-radiation weapons to attack personnel, facilities, 
+or equipment with the intent of degrading, neutralizing, or destroying enemy combat capability 
+and is considered a form of fires. See also electromagnetic warfare. (JP 3-85) 
+Electromagnetic Battle Management—The dynamic monitoring, assessing, planning, and 
+directing of operations in the electromagnetic spectrum in support of the commander’s concept of 
+operation. (JP 3-85) 
+18 
+DAFPD10-15  25 NOVEMBER 2024 
+Electromagnetic Environment—The resulting product of the power and time distribution, in 
+various frequency ranges, of the radiated or conducted electromagnetic emission levels 
+encountered by a military force, system, or platform when performing its assigned mission in its 
+intended operational environment. (JP 3-85) 
+Electromagnetic Interference—Any electromagnetic disturbance, induced intentionally or 
+unintentionally, that interrupts, obstructs, or otherwise degrades or limits the effective performance 
+of electromagnetic spectrum-dependent systems and electrical equipment. (JP3-85) 
+Electromagnetic Operational Environment—A composite of the actual and potential 
+electromagnetic energy radiation, conditions, circumstances, and influences that affect the 
+employment of capabilities and the decisions of the commander. It includes the existing 
+background radiation (i.e., electromagnetic environment) as well as the friendly, neutral, 
+adversary, and enemy electromagnetic systems able to radiate within the electromagnetic area of 
+influence. This includes systems currently radiating or receiving, or those that may radiate, that 
+can potentially affect joint operations. 
+Electromagnetic Protection—Division of electromagnetic warfare involving actions taken to 
+protect personnel, facilities, and equipment from any effects of friendly or enemy use of the EMS 
+that degrade, neutralize, or destroy friendly combat capability. See also electromagnetic warfare. 
+(JP 3-85) 
+Electromagnetic Spectrum (EMS)—The range of all types of electromagnetic radiation. 
+(National Aeronautics and Space Administration) 
+Electromagnetic Spectrum-Dependent Systems—All electronic systems, subsystems, devices, 
+and equipment that depend on the use of the spectrum to properly accomplish their functions. 
+(DoDD 3610.01) 
+Electromagnetic Spectrum Management—The operational, engineering, and administrative 
+procedures to plan and coordinate operations within the electromagnetic operational environment. 
+(JP 3-85) 
+Electromagnetic Spectrum Operations—Coordinated military actions to exploit, attack, protect, 
+and manage the electromagnetic environment. (JP 3-85) 
+Electromagnetic Spectrum Professional—A member of the EMS Workforce who has achieved 
+and maintained a demonstrated standard of expertise in EMS-related core skills. 
+Electromagnetic Spectrum Superiority—That degree of control in the electromagnetic spectrum 
+that permits the conduct of operations superiority at a given time and place without prohibitive 
+interference while affecting a threat’s ability to do the same. 
+Electromagnetic Support—Division of electromagnetic warfare involving actions tasked by, or 
+under direct control of, an operational commander to search for, intercept, identify, and locate or 
+localize sources of intentional and unintentional radiated electromagnetic energy for immediate 
+threat recognition, targeting, planning and conduct of future operations. See also electromagnetic 
+warfare. (JP 3-85) 
+ 
+ 
+DAFPD10-15  25 NOVEMBER 2024 
+19 
+Electromagnetic Warfare—Military action involving the use of electromagnetic and directed 
+energy to control the electromagnetic spectrum or to attack the enemy. (JP 3-85) 
+Electromagnetic Spectrum Workforce—The totality of personnel required to staff the EMS 
+Enterprise. 
+Fires—The use of weapon systems or other actions to create specific lethal or nonlethal effects on 
+a target. (JP 3-09) 
+Information Warfare—The AF term for the military capabilities employed in and through the 
+information environment to deliberately affect adversary human and system behavior and to 
+preserve friendly freedom of action during cooperation, competition, and conflict (AFDP 3-13). 
+Office of Primary Responsibility (OPR)—That office ensures that training is valid and current, 
+including directly supporting HQ Air Force with information operations, military deception, 
+military information support operations, and operational security efforts. 
+ 

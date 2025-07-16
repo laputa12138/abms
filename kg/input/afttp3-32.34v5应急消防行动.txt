@@ -1,0 +1,3478 @@
+Administrative Changes to AFTTP 3-32.34V5, Contingency Electrical Power Production and 
+Distribution Systems. 
+ 
+OPR:  AF/A4CX 
+ 
+Changes OPR from “AFCEC/CXX” to “AF/A4CX” 25 March 2025 
+ 
+References throughout to “AFI 32-1064, Electrical Safe Practices,” are hereby changed to 
+“AFMAN 32-1065, Grounding and Electrical Systems.” 25 March 2025 
+ 
+References throughout to “AFI 32-1065, Grounding Systems,” are hereby changed to “AFMAN 
+32-1065, Grounding and Electrical Systems.” 25 March 2025 
+ 
+References throughout to “AFMAN 91-201, Explosive Safety Standards,” are hereby changed to 
+“DESR6055.09_DAFMAN91-201, Explosives Safety Standards.” 25 March 2025 
+ 
+References throughout to “AFI 91-203, Air Force Consolidated Occupational Safety Instruction,” 
+are hereby changed to “DAFMAN 91-203, Air Force Occupational Safety, Fire, and Health 
+Standards.” 25 March 2025 
+BY ORDER OF THE  
+ AIR FORCE TACTICS, TECHNIQUES, 
+SECRETARY OF THE AIR FORCE               AND PROCEDURES 3-32.34V5       
+     28 February 2017
+ Certified Current, 6 May 2025 
+ Tactical Doctrine 
+CONTINGENCY ELECTRICAL POWER 
+PRODUCTION AND DISTRIBUTION SYSTEMS 
+ACCESSIBILITY: Publications and forms are available on the e-Publishing 
+website at www.e-publishing.af.mil for downloading or ordering. 
+RELEASABILITY: No releasability restrictions on this publication. 
+OPR: AFCEC/CXX  
+          Certified By: AF/A4C 
+Supersedes: AFH 10-222V5,  
+   (Maj Gen Timothy S. Green) 
+1 July 2008 
+        Pages: 61 
+PURPOSE: This publication supports Air Force Instruction (AFI) 10-209, Red 
+Horse Program and AFI 10-210, Prime Base Engineer Emergency Force (BEEF) 
+Program. It provides tactics, techniques, and procedures (TTP) that address 
+actions helpful when installing Basic Expeditionary Airfield Resources (BEAR) 
+contingency electrical generation and distribution systems. 
+APPLICATION: This publication applies to active duty Air Force, Air National 
+Guard (ANG), and Air Force Reserve Command (AFRC) Civil Engineer 
+personnel. The electrical and power production technicians using this TTP should 
+have a basic knowledge of electrical components of the contingency systems. This 
+TTP provides additional guidance by augmenting applicable electrical power 
+production distribution systems technical orders (TOs); TOs remain the final 
+authority. Refer to the applicable system TO for detailed installation, operation, 
+maintenance, and removal procedures. Readiness and deployment planners and 
+base level mobility team chiefs responsible for contingency planning may also find 
+this information helpful regarding bare base electrical generation and distribution 
+planning. This publication may also be used in support of peacetime contingencies. 
+Other users of this TTP should be familiar with basic contingency electrical 
+components.
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     2 
+ 
+ 
+SCOPE: This TTP applies to Electrical Systems and Electrical Power Production 
+technicians charged with providing electrical distribution and power generation for 
+contingency beddowns.  
+RECORDS MANAGEMENT: Ensure all records created as a result of processes 
+prescribed in this publication are maintained in accordance with (IAW) Air Force 
+Manual (AFMAN) 33-363, Management of Records, and disposed of IAW the Air 
+Force Records Disposition Schedule (RDS) in the Air Force Records Information 
+Management System. Refer recommended changes and questions about this 
+publication to the Office of Primary Responsibility (OPR) using the AF Form 847, 
+Recommendation for Change of Publication; route AF Forms 847 from the field 
+through the appropriate functional chain of command. 
+Chapter 1—INTRODUCTION .................................................................... 5 
+ 
+1.1. Contingency Electrical Systems Overview  .............................. 5 
+ 
+1.2. Deployment Packages ............................................................... 5 
+ 
+Table 1.1. BEAR Electrical Equipment by Unit Type Code (UTC) .......... 6 
+Chapter 2—MAJOR SYSTEMS COMPONENTS .................................... 7 
+ 
+2.1. Contingency Electrical Power Generation and                       
+                      Distribution Systems Components  ........................................... 7 
+ Figure 2.1. BEAR Power Unit (BPU)  ........................................................ 7 
+     Table 2.1. Generator Set Capability as a Function of Altitude                                    
+                      and Ambient Temperature kW at 60 Hz.................................... 8 
+     Table 2.2. Generator Set Capability as a Function of Altitude                                    
+                      and Ambient Temperature kW at 50 Hz.................................... 8 
+   Figure 2.2. MEP-12A Generator  ................................................................ 9 
+ Figure 2.3. Primary Switching Center (PSC) ............................................ 10 
+ Figure 2.4. Secondary Distribution Center (SDC), Low Voltage Side ...... 12 
+ Figure 2.5. Power Distribution Panels (PDP) ............................................ 13 
+ Figure 2.6. External Fuel System  ............................................................. 13 
+ Figure 2.7. Advanced Mobile Medium Power System (AMMPS)  ........... 14 
+ Figure 2.8. Tactical Quiet Generators (TQG) ............................................ 14 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     3 
+ Figure 2.9. Load Break Elbow (secured with Grip-All stick) ................... 15 
+ Figure 2.10. Cable Reel Pallet Assembly (CRPA) with Cable Installed ... 15 
+    Figure 2.11. Secondary Power Cables Connected to SDC ........................ 16 
+ Figure 2.12. RALS Container and Light Poles  ......................................... 16 
+  
+2.2. System Composition  .............................................................. 16 
+ Figure 2.13. Basic Electrical Distribution System Schematic ................... 17 
+Chapter 3—SITE PLANNING AND LAYOUT  ...................................... 18 
+ 
+3.1. Site Planning  .......................................................................... 18 
+ 
+Table 3.1. Bare Base Facility List  ........................................................... 19 
+ Figure 3.1. Initial Billeting Planning with Low and High Voltage ........... 22 
+ Figure 3.2. Low Voltage Billeting Planning with no Transition to High         
+                      Voltage .................................................................................... 22 
+  
+3.2. Layout  .................................................................................... 23 
+ Figure 3.3. Radial System  ........................................................................ 24 
+ Figure 3.4. Loop Feeder  ........................................................................... 25 
+ Figure 3.5. Tie Feeder ............................................................................... 25 
+ Figure 3.6. Linear Base Layout  ................................................................ 26 
+ Figure 3.7. Conventional Base Layout ...................................................... 26 
+ Figure 3.8. Typical Layout  ....................................................................... 28 
+ Figure 3.9. Power Plant Layout Example .................................................. 30 
+ Figure 3.10. Three-Unit Plant with PSC Configuration ............................ 32 
+ Figure 3.11. Four-Unit Plant with PSC Configuration .............................. 32 
+ Figure 3.12. Branch Connected SDCs ....................................................... 33 
+ 
+ Figure 3.13. Typical Fuel Bladder Placement ........................................... 35 
+  
+3.3. Electrical Planning  ................................................................. 36 
+ 
+ 
+Table 3.2. Typical BEAR Demand Factors .............................................. 37 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     4 
+ 
+Table 3.3. Typical BEAR Electrical Planning Factors ............................. 38  
+     Table 3.4. Example Wing Ops Group Secondary Distribution 
+                      Schedule ................................................................................. .42 
+ 
+Table 3.5. Example Wing Operations Group SDC Feeder Schedule ....... 43 
+ 
+ Figure 3.14. Example SDC Circuit for Wing Operations Group  .............. 45 
+Chapter 4—SAFETY .................................................................................. 48 
+ 
+ 
+4.1. Safety Summary ...................................................................... 48 
+ 
+4.2. Personnel Responsibilities  ..................................................... 50 
+ 
+4.3. Grounding  .............................................................................. 50 
+ 
+4.4. Trenching  ............................................................................... 51 
+ 
+ Figure 4.1. Tractor with Backhoe, Blade, and Trenching Wheel .............. 52 
+ Figure 4.2. Trench and Cable Detail ......................................................... 53 
+ Figure 4.3. Multiple Cable Runs in Common Trench ............................... 54 
+ Figure 4.4. Feeder Circuits Labeled  ......................................................... 55 
+ 
+Attachment 1—GLOSSARY OF REFERENCES AND 
+  
+SUPPORTING INFORMATION ................................... 56 
+Attachment 2—CONTINGENCY ELECTRICAL SYSTEM  
+INSTALLATION CHECKLIST ..................................... 60 
+ 
+ 
+ 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     5 
+Chapter 1 
+INTRODUCTION 
+ 
+ 
+1.1. Contingency Electrical Systems Overview. The contingency electrical 
+system is composed of three major subsystems: power generation, primary 
+(2,400/4,160-volt) distribution, and secondary (120/208-volt) distribution. The 
+equipment described in this TTP must be installed, operated, and maintained by 
+persons knowledgeable in contingency electrical power generation and 
+distribution equipment and their associated hazards as described in UFC 3-560-01, 
+Electrical Safety, O & M. 
+ 
+Note: Maintenance personnel shall wear appropriate personal protective 
+equipment (PPE), to include arc thermal performance value (ATPV) rated PPE, 
+IAW AFI 32-1064 and UFC 3-560-01 when working on or near energized 
+electrical equipment or circuits.  
+1.1.1. Within the major subsystems are components such as generators, primary 
+cable reels and pallets, secondary distribution centers (SDCs), primary switching 
+centers (PSC), remote area lighting system (RALS), secondary cable assemblies, 
+power distribution panels, and mission-critical cable assemblies. 
+1.1.2. Contingency electrical systems arrive at the beddown site in air transportable 
+and or surface deployment packages. These deployment packages are Force 
+Module Enablers necessary to open and operate any austere airbase across the 
+spectrum of Air Expeditionary Force operations. These packages may also be used 
+in other contingencies such as humanitarian operations. 
+1.2. Deployment Packages. BEAR provides vital equipment, facilities and 
+supplies necessary to beddown and support combat forces at austere airbases with 
+limited infrastructure and support facilities. It is assumed that the beddown 
+location has a runway, taxiways and aircraft parking areas suitable for the type of 
+aircraft deployed, and a source of water that can be made potable. BEAR provides 
+WARNING 
+Working on energized electrical equipment is 
+prohibited except in rare circumstances, and 
+then only when justified and approved by the 
+Base Civil Engineer (BCE) or equivalent IAW 
+AFI 32-1064, Electrical Safe Practices. 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     6 
+the electrical equipment listed in Table 1.1 in support of the Establish the Base 
+Force Module. 
+Table 1.1. BEAR Electrical Equipment by Unit Type Code (UTC). 
+ 
+XFA16 / XFS16 
+(Low Pwr Ind) 
+XFAPL / XFSPL 
+(Low Pwr Hskpg) 
+XFABP / XFSBP 
+(High Pwr) 
+XFASD / XFSSD 
+(SDC) 
+XFAEG / XFSEG 
+(Pwr Dist) 
+XFAZC / XFSZC 
+(RALS) 
+BPU 
+ 
+ 
+2 
+ 
+ 
+ 
+MEP-806 
+2 
+5 
+ 
+ 
+ 
+ 
+MEP-805 
+ 
+3 
+ 
+ 
+ 
+ 
+PSC 
+ 
+ 
+1 
+ 
+ 
+ 
+SDC 
+ 
+ 
+ 
+2 
+ 
+ 
+PDP - 60 
+2 
+8 
+ 
+ 
+ 
+ 
+CRPA (w/o wire) 
+ 
+ 
+ 
+ 
+2 
+ 
+Primary Wire (reel) 
+ 
+ 
+ 
+ 
+6 
+ 
+10K Fuel Bladder 
+ 
+ 
+2 
+ 
+ 
+ 
+ORT (laptop) 
+ 
+ 
+1 
+ 
+ 
+ 
+Cable, 25ft, 200A 
+2 
+8 
+ 
+ 
+ 
+ 
+Cable, 50ft, 60A 
+ 
+ 
+ 
+4 
+ 
+ 
+Cable, 100ft, 60A 
+ 
+ 
+ 
+8 
+ 
+ 
+RALS 
+ 
+ 
+ 
+ 
+ 
+2 
+Note: Items and quantities are subject to change without notice. 
+ 
+ 
+ 
+ 
+ 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     7 
+Chapter 2 
+MAJOR SYSTEMS COMPONENTS 
+ 
+2.1. Contingency Electrical Power Generation and Distribution Systems 
+Components. This system provides electrical power generation and distribution 
+equipment designed to support austere base power requirements. The design is 
+modular to support a broad range of contingency operations requiring electrical 
+power. Contingency operations ranging in size from relatively small deployments 
+requiring power generation and distribution at the hundreds of kilowatt level to 
+very large operations requiring power generation at the multi-megawatt level can 
+be supported. A brief description of the major components follows. 
+2.1.1. BEAR Power Unit (BPU). The BPU (Figure 2.1) is a fully enclosed, trailer-
+mounted, mobile generator set with a prime power output of 800 kW at 60 hertz 
+(Hz) and 435 kW at 50 Hz, both at 0.75 lagging PF. The BPU is a 3-phase, 4-wire 
+system that can operate at 60 Hz or 50 Hz. It delivers a nominal voltage of 
+4160/2400 VAC at 60 Hz and a nominal voltage of 3800/2200 VAC at 50 Hz. The 
+BPU can achieve this performance at altitudes from sea level up to 4,000 feet and 
+in ambient air temperatures from -25 ºF up to 122 ºF without derating. See Table 
+2.1 and Table 2.2 for altitude and ambient temperature derating information. The 
+BPU utilizes JP-8 fuel, but can also operate on alternate fuels that include JP-5, 1-
+D S15, 1-D S500, 1-D S5000, 2-D S15, 2-D S500, 2-D S5000, TS-1 with JP-8 
+additives, Jet A, and Jet A1. It can operate as a standalone generator, in parallel 
+with other BPUs, or in parallel with a commercial power grid. The BPU consists 
+of a diesel engine, an AC system, cooling system, fuel system, air intake system, 
+exhaust system, Digital Control System (DCS), enclosure, trailer, and DC 
+electrical system. 
+Figure 2.1. BEAR Power Unit (BPU). 
+ 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     8 
+Table 2.1. Generator Set Capability as a Function of Altitude & Ambient 
+Temperature kW at 60 Hz. 
+Altitude 
+-25 F 
+80 F 
+90 F 
+100 F 
+110 F 
+120 F 
+130 F 
+140 F 
+10,000 ft 
+800 
+800 
+800 
+792 
+620 
+515.2 
+440.8 
+384 
+  9,000 ft 
+800 
+800 
+800 
+800 
+784 
+584 
+489.6 
+472 
+  8,000 ft 
+800 
+800 
+800 
+800 
+800 
+680.8 
+526.8 
+560 
+  7,000 ft 
+800 
+800 
+800 
+800 
+800 
+779.6 
+547.04 
+656 
+  6,000 ft 
+800 
+800 
+800 
+800 
+800 
+800 
+768 
+736 
+  5,000 ft 
+800 
+800 
+800 
+800 
+800 
+800 
+796 
+792 
+  4,000 ft 
+800 
+800 
+800 
+800 
+800 
+800 
+800 
+800 
+ 
+Table 2.2. Generator Set Capability as a Function of Altitude & Ambient 
+Temperature kW at 50 Hz. 
+Altitude 
+-25 F 
+80 F 
+90 F 
+100 F 
+110 F 
+120 F 
+130 F 
+140 F 
+10,000 ft 
+800 
+800 
+800 
+792 
+620 
+515.2 
+440.8 
+384 
+  9,000 ft 
+800 
+800 
+800 
+800 
+784 
+584 
+489.6 
+472 
+  8,000 ft 
+800 
+800 
+800 
+800 
+800 
+680.8 
+526.8 
+560 
+  7,000 ft 
+800 
+800 
+800 
+800 
+800 
+779.6 
+547.04 
+656 
+  6,000 ft 
+800 
+800 
+800 
+800 
+800 
+800 
+768 
+736 
+  5,000 ft 
+800 
+800 
+800 
+800 
+800 
+800 
+796 
+792 
+  4,000 ft 
+800 
+800 
+800 
+800 
+800 
+800 
+800 
+800 
+ 
+2.1.1.1. The BPU Digital Control System (DCS) performs automatic voltage 
+regulator functions, engine governing, system fault annunciation, paralleling 
+functions, and operator and servicing control panel functions. The BPU also has a 
+software component that can be installed on a suitable PC that emulates the 
+Operator Control Panel functions of the DCS for remote operations. Remote 
+operation can be provided up to 250 feet from the generator set. This computer is 
+not furnished with the BPU, but is included in the High Power UTC. The DCS 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     9 
+display is a Video Graphics Adapter (640x480) full color, sunlight readable 
+display. The display switches and labels are backlit green for viewing under dark 
+conditions.  
+2.1.1.2. BPU tow vehicles must meet the following requirements: 6X4 tractor, with 
+a pintal hook height between 22 inches and 30 inches, and minimum 80,000 
+pounds gross combined weight rating. Do not use tow vehicles that do not meet all 
+requirements. Tow vehicle NSN 2320-00-721-1432 meets all these requirements. 
+Do not exceed 15 MPH on level paved road, 10 MPH on graded gravel, 8 MPH on 
+Belgian Block or equivalent. Failure to comply may result in damage to equipment.    
+2.1.2. MEP-12A. This generator set (Figure 2.2) is a trailer-mounted diesel engine 
+driven, prime power (Type II), utility (class 2A), mode I unit that produces 750 
+kW at 60 Hz and 625 kW at 50 Hz with 0.8 power factor, lagging. It provides 
+2400/4160 volts, 3 phase, 4-wire, wye (2400 volts line-to-neutral; 4160 volts line-
+to-line) for 60 Hz operation; and 2200-3800 volts, 3 phase, 4-wire, wye (2200 volts 
+line-to-neutral; 3800 volts line-to-line) for 50 Hz operation. 
+Figure 2.2. MEP-12A Generator. 
+ 
+2.1.2.1. The main control panel assembly allows local and remote start, stop, 
+monitor, and control of the generator set in operation. Operation can be achieved 
+up to 150 feet (45 meters) from the generator set. 
+2.1.2.2. The MEP-12A is designed to operate on a variety of fuels, which include 
+DF-2, JP-4, JP-8 DFA (Arctic Grade Diesel), and commercial jet A-1. One MEP-
+12A consumes 55 gallons of fuel per hour at full load under normal environmental 
+conditions, which equates to a consumption of about 1,320 gallons during daily 
+operation. To ensure an adequate continuous fuel supply, connections are provided 
+to accept fuel from two external fuel sources, such as a fuel trailer or a fuel bladder. 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     10 
+Note: There are very few MEP-12As currently in inventory. The MEP-12A is 
+being replaced by the BPU through attrition. Any mention of generators 
+concerning power plant operations in this TTP past step 2.1.2.2 will be in reference 
+to the BPU, unless otherwise specified.  
+2.1.2.3. MEP-12A tow vehicles must have a 25,000 pound towing capacity with a 
+pintal-hook connection. Do not exceed a speed of 20 MPH on a paved road or 5 
+MPH on an unpaved road.  
+2.1.4. The PSC provides for interconnection and safe isolation of primary 
+generators and the connection of loads to the system (Figure 2.3). The basic 
+electrical component of the PSC is the S&C VistaTM Switchgear. The switchgear is 
+housed in an enclosure that provides both environmental protection as well as a 
+stacking capability for transportation. The housed switchgear is referred to as a 
+PSC.   
+Figure 2.3. Primary Switch Center (PSC). 
+ 
+2.1.4.1. General Description. The PSC features load-interrupter switches for 
+switching 600-ampere main feeders and micro-processor-controlled, re-settable, 
+vacuum fault interrupters for switching and protection of 600-ampere main 
+feeders. These elbow-connected components are enclosed in an SF6-insulated, 
+welded steel tank. The three position (closed-open-grounded) load-interrupter 
+switches are manually operated and provide three-pole live switching of 600-
+ampere three phase circuits. These circuits also provide a visible gap when open 
+and internal grounding for all three phases. The 600-ampere fault interrupters 
+feature re-settable vacuum interrupters in series with manually operated three-
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     11 
+position (closed-open-grounded) disconnects for isolation and internal grounding 
+of each phase. Fault interrupters provide three-pole live switching of load circuits. 
+Fault interruption is initiated by a programmable over current control. The TO 
+includes instructions on programming the control. 
+ 
+The PSC allows for insulation testing without physically isolating the high voltage 
+cable to within the high voltage compartment by switching the Way to open 
+position. Then go to the nearest SDC and isolate and test from there. Note: PSCs 
+have 600-amp deadbreak bushing connections. Install 600-amp to 200A adapters 
+on bushings before connecting 200 amp load break elbows. 
+2.1.4.2. PSC Connections. The Primary Switch features six Way Switches and 
+provides for 3 phase inputs from a primary power generator. Primary power 
+(4160VAC, 60Hz, or 3800VAC, 50Hz, 3-phase, 3 wire) is supplied to the PSC via 
+three primary cables. A primary power connection is accomplished by connecting 
+three loadbreak elbows to the 600-amp-to-200-amp adapters that are connected to 
+the PSCs bushing wells. The bushing wells are connected to the Way Switches, or 
+“Ways.” The function of each way is either a switch or a combination of a switch 
+and a circuit breaker. A Load Interrupter Switch is comprised of only a switch. A 
+Fault Interrupter Switch is comprised of a switch and a circuit breaker. Way 1 and 
+Way 2 are Load Interrupter Switches; Way 3, 4, 5 and 6 are Fault Interrupter 
+Switches. Depending on the configuration of a specific application, the Way 
+Switches can either be inputs from a primary power generator, or outputs (feeders) 
+to a load such as an SDC or to another PSC. 
+2.1.4.3. Overcurrent Relay Settings. An operator’s remote terminal and 
+overcurrent control adapter cable is furnished with the PSC to input settings, 
+review settings, and interrogate the event recorder. However, the software for 
+programming the overcurrent control is contained within the control, allowing any 
+computer meeting minimum system requirements to input settings as long as the 
+adapter cable is available. Two data ports are provided, one port is for 
+programming ways 3 & 4 and the other is for programming ways 5 & 6. Procedures 
+for programming overcurrent controls are presented in TO 35F14-1-1, Attachment 
+CAUTION 
+All routine operating tasks, switching, voltage testing, and 
+grounding must be accomplished by a two-person team due 
+to potential exposure of high-voltage IAW AFI 32-1064. 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     12 
+3, Instruction Sheet 681-515, Instructions for Programming S&C Overcurrent 
+Control. 
+2.1.5. Secondary Distribution Center. The SDC features a 150-KVA three-phase 
+2400/4160 VAC primary 120/208 VAC secondary utility transformer and a low-
+voltage secondary distribution panel. The SDC has 16 secondary outputs, 60 amps 
+each (Figure 2.4), which are fed by 100 amp, 208 VAC output circuit breakers (16 
+each). The primary power connections are configured for a feed through 
+configuration. The high-voltage power is connected using 200 amp load break 
+quick disconnects, to a common high-voltage bus. The high-voltage bus is 
+designed to accept one input and two outputs and is equipped with three sets of 
+high-voltage disconnects. Two sets of disconnects are used to provide feed through 
+capability. The third set are fused disconnects (30 Amps) and provide overcurrent 
+protection to the high-voltage side of the transformer. The low-voltage power 
+distribution portion of the SDC provides 120/208 VAC, 60 Hz, 3-phase, wye 
+connected with ground (5 wire system) from a 3-Phase 800 Amp distribution bus 
+panel through a 600 amp, 208 VAC Main circuit breaker. Note: The SDCs are 
+available with both the “Commercial Connector” and the “Class-L 
+Connectors/cannon plugs.” AF SDCs only come with Class-L connectors and will 
+be the only ones discussed in this TTP. 
+Figure 2.4. Secondary Distribution Center (SDC), Low Voltage Side. 
+ 
+2.1.6. Power Distribution Panel (PDP). PDPs receive power from SDCs and 
+distribute it directly to both single and three phase loads. BEAR features a 25kW 
+and 60kW PDP (Figure 2.5). The PDPs receive 120/208V, 3-phase, 60Hz, wye-
+connected 4-wire with ground power through a Class L (MIL-C-22992) connector 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     13 
+and distributes to 3-phase Class L outputs, single-phase military standard outputs, 
+and single-phase NEMA L5-20R outputs. All outputs are circuit breaker protected. 
+Figure 2.5. Power Distribution Panels (PDP). 
+ 
+2.1.7. External Fuel System. Major components of the External Fuel System are 
+the manifolds, fuel lines, the 10,000 gallon fuel bladder and the Berm Liner 
+(Figure 2.6). 
+Figure 2.6. External Fuel System. 
+ 
+2.1.8. Advanced Mobile Medium Power System (AMMPS). Mission critical loads 
+are supported with 30kW and 60kW AMMPS generators (Figure 2.7). 
+2.1.8.1. MEP-1060. This is a diesel or JP-8 powered, mobile unit that provides 3-
+phase, 60-cycle, 120/208 or 240/416-volt power to support loads up to 30 kW. The 
+AMMPS series is light weight, electronically controlled, skid mounted and EPA 
+compliant. This generator may also be operated at 50 cycles, but will be de-rated 
+to 25 kW. Note: For altitude and temperature deratings see applicable TO. 
+2.1.8.2. MEP-1070. This is a diesel or JP-8 powered, mobile unit that provides 3-
+phase, 60-cycle, 120/208- or 240/416-volt power to support loads up to 60 kW. 
+The AMMPS series is light weight, electronically controlled, skid mounted and 
+EPA compliant.  This generator may also be operated at 50 cycles, but will be de-
+rated to 50 kW. Note: For altitude and temperature deratings see applicable TO. 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     14 
+Figure 2.7. Advanced Mobile Medium Power System (AMMPS).  
+ 
+2.1.9. Tactical Quiet Generators (TQG). Mission critical loads are supported with 
+30kW and 60kW TQG sets (Figure 2.8). Wheel kits are included to allow ease of 
+transport. Note: TQGs will be phased out through attrition. 
+Figure 2.8. Tactical Quiet Generators (TQG). 
+ 
+2.1.9.1. MEP-805B. This is a diesel or JP-8 powered, mobile unit that provides 3-
+phase, 60-cycle, 120/208 or 240/416-volt power to support loads up to 30 kW. This 
+generator may also be operated at 50 cycles, but will be de-rated to 25 kW. The 
+MEP-805B model is provided with digital controls and instruments. Note: For 
+altitude and temperature deratings see applicable TO. 
+2.1.9.2. MEP-806B. This is a diesel or JP-8 powered, mobile unit that provides 3-
+phase, 60-cycle, 120/208- or 240/416-volt power to support loads up to 60 kW. 
+This generator may also be operated at 50 cycles, but will be de-rated to 50 kW. 
+Note: For altitude and temperature deratings see applicable TO. The MEP-806B 
+model is provided with digital controls and instruments.  
+2.1.10. Primary Power Cable. The 1/0, 5kV cable provides the tie connections 
+between the BPU generator, PSC, and SDCs. The cable is also used for power 
+distribution. The primary cable uses load break elbows (Figure 2.9) as primary 
+connectors. 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     15 
+Figure 2.9. Load Break Elbow (secured with Grip-All Stick). 
+ 
+2.1.11. Cable Reel Pallet Assembly. Primary cables are provided on three cable 
+reels housed within a cable reel pallet assembly (Figure 2.10). 
+Figure 2.10. Cable Reel Pallet Assembly (CRPA) with Cable Installed. 
+ 
+2.1.12. Secondary Power Cable. Secondary Power Cables have Class L connectors 
+and are keyed for voltage, frequency, and current. Covers, cable grips, and glands 
+for both ends of the cable are supplied and properly secured to each connector. 
+There are three different secondary power cables: a 25 foot 200 amp cable that 
+distributes power from TQGs to the SDC or 60kW PDP, two 60 amp cables, 50 
+foot and 100 foot, that distributes power from the SDCs to PDPs, and in some 
+cases from the PDPs to Environmental Control Units (ECUs). 
+2.1.12.1. In lieu of a PDP, some BEAR facilities have power distribution panels 
+incorporated into the facility and therefore will be connected directly from the SDC 
+via secondary power cables. 
+2.1.12.2. When connecting cables to the SDC, start with the bottom row of 
+connectors and work your way up. This will keep connected cables from 
+interfering when connecting additional cables (Figure 2.11). 
+ 
+ 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     16 
+Figure 2.11. Secondary Power Cables Connected to SDC. 
+ 
+2.1.13. Remote Area Lighting System (RALS). The RALS provides a flexible 
+solution to support illumination requirements. The RALS features 13 telescoping 
+poles, twelve of which are positional through the use of “left-side” and “right-side” 
+cable loop assemblies originating from the RALS container. The RALS is required 
+to be fed by a 60 amp secondary power cable. The thirteenth pole is mounted on 
+the RALS container. Each RALS pole uses a single 150 watt, 16,000 lumen, high-
+pressure sodium lamp. The manual telescoping aluminum poles have locking 
+collars. Each cable loop assembly is comprised of two (2) RALS loop cord sections 
+of 375 feet each, thereby providing 750-foot of lighting string in each direction, 
+for a total of 1,500 feet. The RALS container and a representative pole are 
+illustrated in (Figure 2.12). 
+Figure 2.12. RALS Container and Light Poles. 
+ 
+2.2. System Composition. A typical contingency electrical distribution system is 
+depicted in (Figure 2.13). Note: If host nation commercial power is available and 
+compatible with BEAR system, plan to use it to supplement BEAR generation 
+capability; this will vastly reduce fuel consumption.   
+ 
+ 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     17 
+Figure 2.13. Basic Electrical Distribution System Schematic. 
+ 
+2.2.1. When all system components are placed together, they create an electrical 
+system with three subsystems: power generation, primary power (high-voltage) 
+distribution, and secondary power (low-voltage) distribution.  
+2.2.2. Primary system components are tied together with high-voltage cable, using 
+load break elbows, from the prime generator through the PSC, and onto the SDC.  
+ 
+2.2.3. The secondary system starts at the SDC and is provided to the user's PDP, 
+or service panel, through secondary voltage cables using cannon plug connectors. 
+The input can be made from either a prime generator, the output side feeders of 
+another PSC, or from a commercial power source. 
+ 
+ 
+CAUTION 
+If a commercial power source is used, ensure the maximum 
+voltage does not exceed the ratings of the SDC. 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     18 
+Chapter 3 
+SITE PLANNING AND LAYOUT 
+ 
+3.1. Site Planning. When most power production and electrical personnel begin 
+arriving to set up the power plant and electrical distribution system, basic beddown 
+planning will have likely already been accomplished, including designating and 
+siting facility groupings. 
+3.1.1. There are three main facility groupings: Flight-line Operations and 
+Maintenance, Industrial Operations and Base Support, and the Cantonment Area 
+(living and services facilities). In addition, Munitions, LOX and POL functions 
+should be located separately from these three main groupings. 
+3.1.2. If an austere base is being established with a view toward expansion, growth 
+should be addressed during all stages of planning. Therefore, siting of individual 
+facilities during initial stages of planning should also take the growth of the utility 
+systems into account.  
+3.1.2.1. Planners should recognize that the increase in physical size and number of 
+facilities for each facility group is not usually directly proportional to the increase 
+in base population. Most functional groups will not double, triple, etc. in facilities, 
+area size, or utility support if the population doubles, triples, etc. Supply, 
+Transportation, and Civil Engineering functions will increase marginally, while 
+Billeting, Maintenance, Squadron Operations, and Wing Operations may increase 
+between two to three times. 
+3.1.2.2. During initial planning, consider the possibility of the base growing in 
+population and identify locations for additional kitchens, laundries, power plants, 
+water plants, and sanitary waste facilities; each of which may require large support 
+areas and new electrical utility and backup generator support.  
+3.1.2.3. Preplanning for facilities layout should also take into account the base may 
+be expandable in only one or two directions without creating conflict with 
+previously sited roads, facilities, and utilities. 
+3.1.3. A major consideration when developing a base layout plan is the location 
+and spacing of key facilities and essential areas. Force protection measures help 
+minimize the vulnerability of facilities and reduce the risk to personnel from a 
+variety of threats. Structure separation, standoff, and dispersal force protection 
+measures affect facility siting decisions. Information on minimum standoff 
+distances and separation standards for new and existing facilities as well as 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     19 
+expeditionary and temporary structures can be found in AFPAM 10-219, Volume 
+5, Bare Base Conceptual Planning. 
+3.1.4. Deployment packages are standardized for the types of facility structures 
+that serve each functional grouping. For planning purposes, functional groupings 
+vary little and carry a common designation. Table 3.1 identifies basic designations 
+for facility groups and types of structures supplied to house major functions. Note: 
+The specific type and quantity of UTCs will determine the specific type and 
+quantity of structures. The BEAR Power Planning and Distribution Tool (PPDT) 
+helps plan the expeditionary beddown requirement by calculating the type and 
+number of BEAR UTCs required based on a series of questions presented to the 
+user. Additionally, the BEAR UTC Planning Factors within the tool can be viewed. 
+The BEAR Expeditionary UTC planning tool is available at the BEAR Global 
+Management 
+Office 
+SharePoint 
+website 
+at 
+<https://org1.eis.af.mil/sites/635scow/WM/Requirements%20Determination/For
+ms/AllItems.aspx> Note: If you receive an error message when you click on the 
+hyperlink, click on “Request access.” It will be at the bottom of the error message 
+in fine print. The PPDT software will download as a zip file from the SharePoint. 
+Once downloaded, your information technology support personnel should install 
+the software (requires admin rights). The software certificate for net worthiness is 
+located on the SharePoint with the PPDT.  
+Table 3.1. Bare Base Facility List.  
+Facility 
+Facility Group 
+Structure Type 
+SSS 
+MSS 
+LAMS 
+4K/8
+K 
+Dome 
+A 
+Avionics 
+X 
+X 
+ 
+ 
+B1 
+B2 
+Lodging & Services 
+Admin 
+X 
+ 
+ 
+ 
+C 
+Chapel 
+X 
+ 
+ 
+ 
+D 
+Dining Facility  
+X 
+ 
+ 
+ 
+E 
+Engineer 
+X 
+X 
+ 
+ 
+F 
+Maintenance 
+X 
+X 
+X 
+X 
+G 
+Squadron Operations 
+X 
+X 
+ 
+ 
+H 
+Support Group 
+X 
+X 
+ 
+ 
+I 
+Emergency Services 
+X 
+ 
+ 
+ 
+J 
+Aerial Port 
+X 
+ 
+ 
+ 
+L 
+Laundry 
+X 
+ 
+ 
+ 
+M 
+Munitions 
+X 
+X 
+ 
+ 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     20 
+Facility 
+Facility Group 
+Structure Type 
+SSS 
+MSS 
+LAMS 
+4K/8
+K 
+Dome 
+P 
+POL 
+X 
+ 
+ 
+ 
+R 
+Alert 
+X 
+ 
+ 
+ 
+S 
+Supply 
+X 
+ 
+ 
+X 
+T 
+Transportation 
+X 
+ 
+ 
+X 
+W 
+Wing Operations 
+X 
+ 
+ 
+ 
+EW1, EW2 
+Water Plant(s) 
+X 
+ 
+ 
+ 
+Note: The following facility groups provide their own structures:  
+Hospital (X), Communications (Y), and Airfield Facilities (Z)  
+3.1.5. Which facilities go where varies from location to location. In most cases, 
+physical size and topographic conditions may constrain or dictate the basic base 
+layout (e.g., a linear or conventional layout). The functional interrelation of flight-
+line operations, maintenance, and command structures may also dictate that some 
+facilities and functions be collocated differently, especially if the base supports 
+other US or allied military services. 
+3.1.6. Gather the following facts to determine the type of power system required.  
+3.1.6.1. Threat level of the deployed area. 
+3.1.6.1.1. If the threat is low and population of the base is not too large, one 
+centralized power plant may be all that is needed. 
+3.1.6.1.2. If the threat dictates facility dispersal, two power plants may be required 
+to increase survivability and to cover the extended area. Ensure enough PSCs are 
+available if two power plants are required. 
+3.1.6.2. Determine if plants can be located to allow connection between them. 
+3.1.6.3. Determine availability of primary cable to connect between power plants. 
+3.1.6.4. Determine if SDCs from separate plants can be located in close proximity 
+to quickly lay and park cable between critical SDCs for redundancy. 
+3.1.7. The issues above may be easily addressed after rechecking facility 
+groupings, loads, and layout plans. However, the situation can become 
+increasingly complicated when considering additional transient aircraft, personnel 
+support, and/or beddown expansions, especially if dispersed. The larger the size of 
+the area to be served, the more resources required for setup, support, and security. 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     21 
+3.1.8. Determine the system power factors and how they may affect power plant 
+operations and the distribution system. Consider the following basic limiting 
+factors when planning the layout of the electrical system. These system limitations 
+are based on transmission and distribution distances from the prime power source 
+to the PSC, the PSC to the SDCs, and the SDCs to the PDPs. 
+3.1.8.1. Keep the primary power cable runs between generators and PSCs to the 
+shortest distance possible (less than 100 feet). The primary reason for this is to 
+minimize the overall footprint of the power plant. 
+3.1.8.2. Limit the primary power cable runs from the PSC to the SDCs to one mile 
+where the SDCs are grouped at the end of the run. A one mile run may still 
+experience excessive voltage drop, but can be partially compensated for by 
+adjusting the tap settings of the SDC. To avoid changing tap settings, limit the 
+length of a run from the PSC to the SDCs to 4,000 feet. 
+3.1.8.3. Primary runs between the PSC and SDCs should not exceed two miles 
+where the SDCs are equally distributed along the run. Again, a two mile run may 
+experience excessive voltage drop that requires SDC tap adjustments. To help 
+avoid changing tap settings when SDCs are distributed equally along the run, limit 
+the length of a run to 1.5 miles.  
+3.1.8.4. Limit secondary runs from SDCs to PDPs and facility distribution panels 
+to 800 feet when it is necessary to keep the voltage drop below 10% for the 
+supported facility. Longer runs may be made for emergency use and use with 
+resistance type equipment less vulnerable to voltage drops. 
+3.1.9. An electrical distribution schematic should be developed during beddown 
+planning. Planners should calculate, determine, and/or identify load factors, 
+demand, maximum draw, and diversified load as related to individual facility 
+groups. The specific information is used to develop a detailed secondary 
+distribution schedule, placement of mission essential generators, and develop 
+individual feeder schedules used for installation. Given time and expertise, going 
+into this amount of detail during the initial beddown planning will significantly 
+limit the need to relocate SDCs, re-site/relocate facilities, and relocate cable runs. 
+During initial planning, basic planning factors can be followed to help minimize 
+duplication of work. Detailed schedules should be accomplished prior to installing 
+the electrical distribution system. 
+3.1.10. Initial billeting planning is essential. Figure 3.1 shows billeting in the 
+initial stages of low voltage (LV) set-up, with and without Field Deployable 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     22 
+Environmental Control Units (FDECUs), and eventually transitioning to high 
+voltage (HV).  
+3.1.10.1. Due to time and manpower required to set up and remove HV equipment 
+for billeting, it may not be practical to transition from LV to HV (Figure 3.2) for 
+short term contingencies.  
+Figure 3.1. Initial Billeting Planning with Low and High Voltage   
+ 
+Figure 3.2. Low Voltage Billeting Planning with no Transition to High Voltage 
+ 
+3.1.11. Basic electrical planning factors. System design should take into 
+consideration the minimum number of generators required to support the 
+maximum load at each power plant. This does not imply that each generator will 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     23 
+be online at all times, but ensures sufficient capacity is available to meet peak 
+demand.  
+3.1.11.1. Where FDECUs sustain their continuous maximum amperage draw, 
+consider the maximum load that one generator can support through the PSC and 
+SDCs. The total load on each SDC should not exceed 150 kVA and the load on 
+each SDC circuit should not exceed 21.6 kVA. 
+3.1.11.2. One BPU, 800 kW generator (operating at 80% of its maximum capacity) 
+will support no more than 5 SDCs per one 200-amp PSC output circuit when 
+facilities are operating at maximum loads with FDECUs. 
+3.1.11.3. Under normal operating loads, a power plant with at least two generators 
+operating will support 6 to 10 SDCs per PSC circuit when facilities have FDECUs, 
+and 10 to 15 SDCs per circuit when facilities do not have FDECUs. 
+3.1.11.4. Each SDC has two high voltage output circuits with loadbreak elbow 
+connections for feed through capabilities. A maximum of five SDCs can be 
+supported from these connections. Only 10 shelters per SDC can be connected 
+when the FDECU is used in each shelter. By properly balancing the number of 
+SDCs per plant, the number of SDCs per PSC should not exceed this maximum 
+number (maximum number depends on how many BPUs are connected). 
+ 
+3.2. Layout. All CE units with deployable UTCs should conduct bare-base layout 
+table-top exercises during home station training. Layouts should focus on which 
+facilities require close proximity to each other, both within and between facility 
+groups, in order to function effectively and efficiently (see AFPAM 10-219V5, 
+Bare Base Conceptual Planning). Site planners will need this information during 
+the “Open the Airbase” phase of the deployment. This exercise will also provide 
+opportunity for power production and electrical systems personnel to practice 
+layout of the electrical generation and distribution system and calculate secondary 
+distribution requirements and feeder schedules. Layout decisions need to consider 
+the threat, future growth of the base, and type of primary distribution system to be 
+installed. 
+WARNING 
+At full load, the FDECU draws 41 amps. For 
+ambient temperatures over 125°F, do not 
+operate SDCs at more than 60% load (i.e., no 
+more than 8 of 16 output connections used). 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     24 
+3.2.1. Bare base primary distribution systems can either be a radial or network 
+(loop or tie) system. 
+3.2.1.1. A radial system has a single simultaneous path of power flow to the load. 
+A radial feeder connects between a source and a load point, and it may supply one 
+or more additional load points between the two (Figure 3.3). Each load point can 
+be supplied from one direction only. Radial systems are easier and faster to 
+construct, but do not provide redundancy.  
+Figure 3.3. Radial System. 
+ 
+3.2.1.2. A network system has more than one simultaneous path and can have two 
+feeder arrangements, loop and tie. This system is more advantageous than the 
+radial system because they provide redundancy by feeding loads from more than 
+one direction. 
+3.2.1.2.1. A loop feeder has its ends connected to a source (usually a single source), 
+but its main function is to supply two or more load points in between (Figure 3.4). 
+Each load point can be supplied from either direction; so it is possible to remove 
+any section of the loop from service without causing an outage at other load points. 
+One section of the loop feeder cables are normally parked at one SDC ready to be 
+connected in case of an outage somewhere in the loop. 
+ 
+ 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     25 
+Figure 3.4. Loop Feeder. 
+ 
+3.2.1.2.2. The main function of a tie feeder is to connect two sources. It provides 
+a connection between two PSCs to provide service continuity for the load supplied 
+from each bus (Figure 3.5). Make sure that correct phasing is maintained and 
+concentric grounds are properly connected. Note: Use way point 6 as the tie feeder 
+in each PSC and ensure the trip rating of the PSC tie Way and the tie cable are 
+sized IAW Technical Order. 35F14-1-1.  
+Figure 3.5. Tie Feeder. 
+ 
+3.2.2. For expeditionary bases in a medium to high threat area, planners should 
+consider the base structure from an air base defense point-of-view, combined with 
+normal base operating requirements. In many cases, the boundary of the tactical 
+area of responsibility (AOR) for base defense may dictate the initial installation 
+pattern for the electrical system. 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     26 
+3.2.2.1. For some locations, the tactical AOR may dictate a linear base structure 
+(Figure 3.6) designed along a flight-line where the base is long and narrow. In this 
+case, a radial electrical distribution system may be necessary with loop and tie 
+feeders installed where possible. 
+Figure 3.6. Linear Base Layout. 
+ 
+3.2.2.2. When defense boundaries allow a more conventional layout to be 
+considered, support facilities, billeting, and services functions can be progressively 
+moved away from the flight-line operations and industrial support functions 
+(Figure 3.7). For this layout, a tie feeder may be achievable between two power 
+plants, even during the initial installation. A looped system for each power plant 
+may also be possible. 
+Figure 3.7. Conventional Base Layout. 
+ 
+3.2.2.3. For critical facilities, especially those that require emergency or backup 
+generators, SDCs can be connected with tie feeders parked on one end. This will 
+allow SDCs to be quickly connected in case one feeder circuit is disrupted. 
+Additionally, SDCs connected to critical facilities can be connected to an 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     27 
+emergency back-up 30Kw or 60Kw via the low-voltage mission input connector 
+of the SDC. 
+3.2.2.4. Cables provided with electrical generation and distribution systems are 
+adequate for initial installation based on non-dispersed facility separation 
+guidelines. However, if high-threat conditions require facility dispersal at the 
+maximum distances, some non-critical facilities may require portable generator 
+support, and/or additional primary and secondary cable and connectors. Be aware 
+that required separation criteria for some facilities (such as Munitions, POL, and 
+LOX) can be varied based on terrain, protection of assets, and mission/weapons 
+systems and should be determined for each individual base. This could have a 
+major impact on the layout of power plants, SDCs, and mission-critical generators. 
+3.2.3. Assets. If the population increases to accommodate two additional 
+squadrons, or other missions, most assets needed for expansion usually does not 
+triple with the population. When laying out the base, be aware that some functions 
+require additional planning, either due to large size (i.e., an aircraft hangar, 4K/8K 
+dome shelter, a 9-2 kitchen, or a medical facility) or minimum separation 
+requirements (i.e., a power or sewage plant). 
+3.2.3.1. An effective way to manage and delineate where facility groups will be 
+placed is to locate and line up the facility groups within a network of travel and 
+emergency response routes consisting of flight-line pavement, roadways, and 
+utility corridors (Figure 3.8). 
+3.2.3.2. If the base does not have a basic roadway system established, fire, security, 
+and base planners should make this a priority during the layout process. Roadways 
+should be created and fit easily between the groups (within the group separation 
+distances), while utility corridors and utility right-of-ways would run along and 
+between the groups and roadways. 
+3.2.3.3. Facility group grids should then be established within the “blocks” created 
+by roadways. Plan ahead; orient the tents/shelters and maintain adequate distances 
+between each tent/shelter to allow room for FDECUs and other utilities. 
+Otherwise, utility corridors can become cluttered with equipment, which make 
+repairs, maintenance, emergency response, and removal of equipment more 
+difficult. 
+ 
+ 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     28 
+Figure 3.8. Typical Layout. 
+ 
+ 
+ 
+A 
+Avionics 
+F 
+Maintenance 
+R 
+Alert 
+B1,2 
+Billeting 
+G1,2 
+Squadron Ops 
+S 
+Supply 
+C 
+Chaplain 
+H 
+Support Group 
+T 
+Transportation 
+D1,2 
+Dining Hall 
+I 
+Emergency Svcs 
+W 
+Wing HQ 
+E 
+Engineering 
+J 
+Aerial Port 
+X 
+Medical Fac. 
+EP1,2 
+Power Plant(s) 
+L 
+Laundry 
+Y 
+Comm Plant(s) 
+ES1 
+Sewage Treatment 
+M 
+Munitions 
+ 
+ 
+EW1 
+Water Plant(s) 
+P 
+POL 
+ 
+ 
+3.2.3.4. With expansion, facilities grow within the roadway system blocks. Flight-
+line facilities (such as Maintenance and Squadron Operations) normally grow 
+along the flight-line. Industrial operations and base support functions (such as 
+Civil Engineering, Wing Operations, and Support Group) normally expand 
+outward and away from each other. Billeting functions normally expand away 
+from the industrial operations, while additional key personnel services support 
+functions (i.e., mobile kitchen trailer, latrines, 9-2 kitchens, and laundry) are 
+located in areas where personnel are massed. Areas should be reserved to allow 
+growth of existing power and sewage plants and placement of new power plants. 
+3.2.4. Power Plant Layout. There are many ways to lay out a power plant as long 
+as available resources are not exceeded, systems operate safely, and the system is 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     29 
+installed in a secure environment. Layout power plants using planning factors 
+stated previously in this chapter and adhere to safety requirements in Chapter 4. 
+Figure 3.9 provides an example for a power plant layout. Key concerns for laying 
+out the plants are topography, noise prevention, and vehicle and equipment 
+accessibility.  
+3.2.4.1. Topography. The general location of the primary power plant is 
+determined by facility planners (primarily engineer officers and engineering 
+personnel) with input from electrical and power production personnel. If a 
+dispersed plant operation is called for, all plant locations need to be identified. 
+With general locations decided, specific sites can then be picked out by on-site 
+physical inspection. Consider the following when determining specific sites: 
+3.2.4.1.1. Ensure the area is large enough to accommodate all power plant assets 
+(e.g., generators, fuel bladders, berms, PSC, operator’s shelter, etc.). 
+3.2.4.1.2. Plan for a secure boundary around plant perimeter (e.g., concertina wire, 
+soil-filled wire fabric container). 
+3.2.4.1.3. Look for relatively level ground to minimize site preparation. 
+3.2.4.1.4. Plan to level ground for fuel bladders and PSC locations. Ensure the base 
+under the bladder is free of sharp objects (large rocks, etc.) Consider using sand or 
+small gravel under the base of the fuel bladder. 
+3.2.4.1.5. Check area for potential flooding and reasonable drainage patterns. 
+3.2.4.1.6. Ensure drainage ditches, swales, or irregular terrain does not inhibit 
+access to site. 
+3.2.4.1.7. If possible, leave trees on site to provide shade and some camouflage, 
+but do not allow to block airflow. 
+3.2.4.1.8. To minimize blowing dust and dirt, leave ground cover undisturbed to 
+the greatest extent possible. 
+3.2.4.2. Noise Considerations. When selecting the site, consider noise generated 
+by power plants. Planners normally take this into account by distancing power 
+plants as far as possible from cantonment and administrative type areas.  
+3.2.4.2.1. In addition to distance, the use of tree lines and natural ground contours 
+between power plants and highly populated areas can reduce noise intrusion.  
+3.2.4.2.2. In barren regions, man-made revetments and baffles may also be used as 
+noise barriers.  
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     30 
+Figure 3.9. Power Plant Layout Example. 
+ 
+3.2.4.2.3. When practical, locate power plants downwind of high-use areas to 
+allow prevailing winds to carry noise and exhaust fumes away from cantonment 
+and administrative areas.  
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     31 
+3.2.4.3. Vehicle access is of critical importance to power plant operation, 
+particularly for larger trucks and heavy equipment. Once the plant is constructed, 
+large vehicles require access for delivery of operating supplies, repair parts, and 
+fuel.  
+3.2.4.3.1. Sufficient space should be allowed to enable removal of an entire 
+generator unit for depot level repair without removing other plant equipment or 
+moving assets around.  
+3.2.4.3.2. Burial of electrical cables may be desired at a later time. Leave space for 
+trenching equipment when future trenching in plant area is anticipated. At 
+locations where cables cross roadways and in high-traffic areas, the lines should 
+be buried even in the initial phases of the operation. See section 4.4 through 4.4.6 
+for more detail concerning trenching and cable burial. 
+3.2.4.3.3. If an extended contingency operation appears probable, it is advisable to 
+build hard surface vehicle access ways, at least to the refueling points. If blacktop 
+roads are not possible, use soil-cement mixture or compacted gravel.  
+3.2.4.3.4. Be sure to consider fire-fighting access. Coordinate with the base fire 
+chief to determine realistic space requirements; different bases have different fire 
+fighting vehicle sets. As a minimum, plan your plant layout to allow complete 
+accessibility to its entire perimeter. 
+3.2.4.4. Power Asset Configurations. Although the same basic equipment is used 
+in all Air Force contingency power plants, there are many possible equipment 
+layout configurations. These configurations are influenced by two basic factors—
+the size of the base population (determines quantities of assets received) and 
+whether dispersed or non-dispersed operations are required (dictates number of 
+plants).  
+3.2.4.4.1. Layout with PSCs. One, two, and three generator plants are typically 
+configured with one PSC as shown in Figure 3.10. For a one and two generator 
+plant, remove generators starting with “Unit 3” as necessary. If using Way 3 as a 
+generator input, the PSC must be reprogramed to remove fault isolation on Way 3. 
+If not reprogramed, any fault will open Way 3. A four generator plant (Figure 
+3.11) requires the use of two PSCs for safe isolation. See TO 35F14-1-1 for proper 
+power plant set-up when using PSCs. 
+ 
+ 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     32 
+Figure 3.10. Three-Unit Plant with PSC Configuration. 
+ 
+Figure 3.11. Four-Unit Plant with PSC Configuration. 
+ 
+3.2.4.4.2. When only one prime generator is required for a limited area and in 
+unusual cases when a PSC is unavailable, an SDC can accept power directly from 
+a prime generator or from a commercial source of 4160VAC, 3-phase, 50/60Hz 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     33 
+power. Then, SDCs may be branch-connected (Figure 3.12) to sufficiently 
+distribute power. Theoretically, five SDCs can be connected in this manner to 
+distribute high-voltage power; however, such an installation will provide a lower 
+degree of safety for the generator than will be provided with the use of a PSC. 
+Figure 3.12. Branch Connected SDCs. 
+ 
+ 
+3.2.4.4.2.1. Managing loads coming from an SDC branched distribution system 
+must only be accomplished by experienced personnel who are qualified to make 
+primary electrical connections and disconnects IAW UFC 3-560-01; as the overall 
+branched system will be functioning as a PSC. Always communicate with power 
+production personnel before shedding sufficient loads from primary distribution.  
+Also, shed loads slowly at SDCs on the secondary side before isolating the high 
+voltage compartment of the SDC. 
+ 
+CAUTION 
+Standard SDC configuration with electric 
+fusible disconnects only in center pole position 
+does not provide over-current protection back 
+to the generator. 
+WARNING 
+Verify the secondary (load) system is de-
+energized before pulling outer poles with a hot 
+stick. 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     34 
+3.2.4.4.2.2. Unlike the PSC, which has load interrupter switches, the SDC has only 
+outer switch poles that may be removed. However, there is no recommended 
+procedure to allow emergency energized disconnects for the SDC.  
+3.2.4.4.3. Generator Siting. Typically, power plant generators are lined up in 
+parallel with one another. Position and ground the generators according to TOs or 
+manufacturers recommendations. While the minimum clearance between the four 
+sides of the generator and any obstructions is 15 feet, generators are usually 
+positioned up to 20 feet apart to provide plenty of room for maintenance access 
+and to ensure adequate air supply. Also, spacing of 20 feet allows for additional 
+cooling when prevailing winds have a range of directions.  
+3.2.4.4.3.1. For enduring deployments in hot regions, consider building sunshades 
+over the generators to reduce solar heat buildup. The BPU is 116 inches tall (almost 
+10 feet) and 152 inches tall (almost 13 feet) when the radiator outlet doors are 
+opened in order to operate the unit. It is recommended that the covering roof height 
+for generator sunshades be at least 240 inches (20 feet) to avoid re-circulation of 
+the air being drawn in and pushed out of the unit.  
+3.2.4.4.4. Locate Fuel Storage Area. When setting up a power plant, normally one 
+bladder is provided for every two generators. Figure 3.13 depicts the common 
+placement of the fuel bladder with respect to the generators.  
+3.2.4.4.4.1. Do not locate generators any closer than 50 feet to fuel bladders due to 
+flammability and fire protection purposes. Note: The BPU generator must not be 
+more than 100-ft from the fuel source IAW TO35C2-3-474-11.    
+3.2.4.4.4.2. Two 25 feet long by one inch diameter fuel lines are provided with 
+each generator; therefore, manifolds should be within 50 feet of the generator fill 
+ports, but should have enough slack to be moved and connected. 
+3.2.4.4.4.3. Three, three inch by 10 foot long discharge hoses are provided with 
+each bladder; therefore, the fuel manifold has to be within 30 feet of the bladders. 
+3.2.4.4.4.4. Carefully consider where you place fuel bladders. Do not place them 
+in a location that would permit fuel from a ruptured bladder and berm to flow 
+downhill into other base areas or waterways. Lastly, be sure you have developed a 
+plan for fuel containment in case a bladder and berm rupture or refueling 
+operations result in major spillage. 
+ 
+ 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     35 
+Figure 3.13. Typical Fuel Bladder Placement.  
+ 
+3.2.4.4.5. PSC Siting. The installation site should be in close proximity to the 
+generators and should be relatively level and capable of bearing the weight of the 
+PSC. Clear the site of brush, large rocks, and other items that might interfere with 
+the operation, maintenance, access to, or stability of the unit. Ensure area is free 
+from potential floods or potential washout from rains. Ensure adequate access to 
+all removable outside panels and door openings. Provide at least six feet of 
+overhead clearance for proper ventilation and ten feet for cable access and a safe 
+clearance zone. If possible, make use of terrain features to minimize the heat loads 
+on the PSC by placing the unit in a shady area. 
+3.2.4.4.6. The RALS is another item designated for the power plant area. It 
+provides overall general lighting for safety and security.  
+3.2.4.4.6.1. The RALS includes a panel box and receptacle container, 13 light 
+poles and fixture assemblies, cables to connect the lights to the panel box, and 
+cables to connect the panel box to an SDC. The panel box also serves as the storage 
+and shipping container for the cables and lights.  
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     36 
+3.2.4.4.6.2. The lights are controlled with photocells; however, the panel box 
+should be placed within the power plant perimeter for security purposes and in 
+case manual operation is ever desired.  
+3.2.4.4.6.3. The RALS receives power from an SDC. The cable provided for 
+connection to the SDC is 250 feet long; therefore you’ll have to ensure an SDC is 
+nearby. The same SDC should also provide service to the power plant shelter and 
+air conditioner.  
+3.2.4.4.6.4. Twelve of the 13 lights are connected to four 375-foot cable sections. 
+Normally two strings of six lights are set up, each string 750 feet long. Each string 
+is plugged into the panel box. The thirteenth light fixture is mounted on the panel 
+box itself.  
+3.2.4.4.7. Remote Generator Operation. This function is for long term operation, 
+or plant operation where several generators are in use simultaneously. 
+3.2.4.4.7.1. BPU Remote Operations. Establish a power plant control room and 
+set-up the Remote Operator Panel (ROP) for the BPU. Remote operations are 
+accomplished via the ROP laptop and the 250 foot remoting cable.   
+3.2.4.4.8. Other Facilities. Plan for a parts supply facility and POL storage area 
+near the generators for maintenance purposes. Finally, place a portable toilet and 
+hand washing station in the plant area for convenience. 
+3.3. Electrical Planning. Contingency electrical systems are pre-engineered; 
+however, they need be tailored to each beddown location. Determine the electrical 
+load on each SDC and then determine the electrical load on each primary feeder. 
+To do this, you need to know the power that will be required for each facility. The 
+information contained in this section will assist you in this task. 
+3.3.1. After determining what facilities will be erected in the base, the next step is 
+to identify total electrical demand loads from these facilities. Each type of facility 
+and function has a connected load, which is theoretically the maximum facility 
+load if all equipment was operating at the same time. This will not be the case in 
+most instances; therefore, a demand power load is more realistic. The demand load 
+is the load that a facility would draw during normal operations. Expressed as a 
+ratio, demand load over connected load provides a demand factor, which is 
+normally less than 1.0. Table 3.2 provides a list of typical demand factors by 
+facility type and function. Actual demands may vary by mission and deployed 
+equipment. Changes may be required for distribution and generation systems, 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     37 
+including mission-critical generators; adjust demand factors and requirements as 
+needed. 
+Table 3.2. Typical BEAR Demand Factors. 
+Type 
+Facility 
+Function 
+Demand 
+Factor 
+Type 
+Facility 
+Function 
+Demand 
+Factor 
+Small 
+Shelter 
+System 
+Wing Admin/ 
+Command 
+0.9 
+LAMS 
+Hangar 
+0.9 
+Billets 
+1.0 
+SSS 
+Engr Power Plant 
+1.0 
+9-2 Kitchen 
+0.9 
+Avionics Shop 
+0.7 
+Shower-Shave  
+0.9 
+Pneudraulics Shop 
+0.7 
+Latrine 
+0.8 
+NDI Shop 
+0.7 
+Laundry 
+0.9 
+Elect Shop 
+0.7 
+Engr Utility Shop 
+0.6 
+Bearing Shop 
+0.7 
+Engr Structures  
+0.6 
+Parachute Shop 
+0.8 
+Engr Electrical  
+0.6 
+Wheel/Tire Shop 
+0.7 
+Engr Fuels  
+0.6 
+Gen. Maint Shop 
+0.7 
+Squadron Ops 
+0.9 
+Life Support Shop 
+0.8 
+Base Admin 
+0.9 
+BX 
+0.8 
+Post Office 
+0.9 
+Communications 
+0.7 
+Legal Office 
+0.9 
+Armory 
+0.9 
+BX 
+0.9 
+SRC 
+0.9 
+Chapel 
+0.9 
+POL Lab 
+0.7 
+MWRS 
+0.8 
+Sup Processing 
+0.8 
+Fire Operations 
+0.7 
+Medium 
+Shelter 
+System 
+Wing Intelligence 
+0.8 
+Fire Tech Srvs 
+0.8 
+Warehouse 
+0.6 
+EOD 
+0.7 
+Avionics Shop 
+0.7 
+Base Operations 
+0.7 
+Engr Pow Pro  
+0.6 
+Engr Readiness 
+0.7 
+Engr Eqpt Shop 
+0.6 
+Mortuary 
+0.8 
+Propulsion Shop 
+0.7 
+Aerial Port 
+0.8 
+AGE Shop 
+0.7 
+Alert Facility 
+0.9 
+Gen. Maint Shop 
+0.8 
+Vehicle Ops 
+0.7 
+Sqd Ops Support   
+0.7 
+TMO 
+0.7 
+Gen. Support  
+0.7 
+Wing Briefing 
+0.9 
+Aerial Port 
+0.8 
+Wing Ops/Plans 
+0.8 
+4K/8K 
+Dome 
+Shelter 
+ 
+ 
+Munitions Maint 
+0.7 
+Wing Intelligence 
+0.8 
+Propulsion Shop 
+0.8 
+Maint/Job Control 
+0.8 
+Supply Storage 
+0.9 
+Maint Mat Control 
+0.7 
+Vehicle Maint 
+0.7 
+Maint QC 
+0.8 
+Packing/Crating 
+0.7 
+3.3.2. Table 3.3 details the power requirements for all base facilities by facility 
+groups, functions, and types of structures used to house the function, and typical 
+electrical planning factors in columns four and five. A diversity factor is applied 
+to the connected and air conditioning (AC) loads since all equipment is not likely 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     38 
+to be on at the same time. The diversity factors are usually 0.7 for connected power 
+and 1.0 for AC power. Based on values determined either in the field, or taken 
+from Table 3.3, total diversified power requirement is placed in the sixth column. 
+This figure is obtained by multiplying the respective diversity factors with the 
+respective connected power and adding that product to the AC power requirement. 
+If total diversified load in column 6 is greater than the maximum allowable load 
+on a single SDC circuit (i.e., 21.6 kVA at 100% load and 17.3 kVA at 80% load), 
+then diversified load should be broken up between two circuits as shown in the last 
+two columns. The seventh column is the requirement for mission-critical load; 
+standard values are provided in the table, but use the specific, mission essential 
+equipment loads if known. 
+Table 3.3. Typical BEAR Electrical Planning Factors.  
+Facility 
+Group 
+ 
+Function 
+Shelter 
+Type 
+Power Requirement 
+(Kilovolt-Ampere [kVA]) 
+kVA per  
+Circuit 
+Max 
+Load 
+AC 
+Load 
+Div.  
+M-C 
+Load 
+#1 
+#2 
+A   
+Avionics 
+Avionics 15 kVA 
+General Avionics  
+Latrine 
+RALS 
+SSS 
+MSS 
+SSS 
+ 
+15.0 
+15.0 
+6.0 
+7.2 
+10 
+20 
+20.5 
+30.5 
+4.2 
+5.0 
+11 
+20.5 
+20.5 
+4.2 
+5.0 
+ 
+10 
+B  
+Billeting  
+Billets 
+Latrine 
+Shower/shave 
+RALS 
+SSS 
+SSS 
+SSS 
+4.5 
+6.0 
+6.0 
+7.2 
+10 
+13.5 
+4.2 
+4.2 
+5.0 
+ 
+13.5 
+4.2 
+4.2 
+5.0 
+ 
+C  
+Chaplain 
+Chapel 
+SSS 
+7.8 
+10 
+5.5 
+ 
+15.5 
+ 
+D   
+Services 
+9-2 
+Kitchen/Dining 
+RALS 
+SSS 
+Up to 
+1501 
+7.2 
+70 
+150 ± 
+251 
+5.0 
+60 to 
+100 2 
+ 
+ 
+5.0 
+150 ± 
+252 
+E   
+Engineer 
+Eng Command 
+Eng Mngmt 
+Mat. Control 
+Eng Operations 
+Utilities 
+Structures 
+HVAC 
+Fuels 
+Electrical 
+Entomology 
+Power Pro 
+Equipment 
+Power Pro 
+Water Plant 
+Latrine 
+Eng Support  
+RALS 
+SSS 
+SSS 
+SSS 
+SSS 
+SSS 
+SSS 
+SSS 
+SSS 
+SSS 
+SSS 
+MSS 
+MSS 
+SSS 
+SSS 
+SSS 
+MSS 
+5.2 
+4.9 
+7.0 
+4.6 
+5.8 
+11.6 
+7.8 
+7.2 
+7.3 
+5.8 
+9.7 
+6.9 
+5.8 
+5.0 
+6.0 
+6.9 
+7.0 
+10 
+10 
+10 
+10 
+10 
+10 
+10 
+10 
+10 
+10 
+20 
+20 
+10 
+10 
+ 
+20 
+13.6 
+13.4 
+14.9 
+13.2 
+14.1 
+18.1 
+15.5 
+15.0 
+15.1 
+14.1 
+26.8 
+14.8 
+14.1 
+13.5 
+4.2 
+24.8 
+5.0 
+ 
+ 
+ 
+3 
+13.6 
+13.4 
+14.9 
+13.2 
+14.1 
+18.1 
+15.5 
+15.0 
+15.1 
+14.1 
+16.8 
+14.8 
+14.1 
+13.5 
+4.2 
+14.8 
+5.0 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+10 
+10 
+ 
+ 
+ 
+10 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     39 
+Facility 
+Group 
+ 
+Function 
+Shelter 
+Type 
+Power Requirement 
+(Kilovolt-Ampere [kVA]) 
+kVA per  
+Circuit 
+Max 
+Load 
+AC 
+Load 
+Div.  
+M-C 
+Load 
+#1 
+#2 
+F  
+Mainte-
+nance 
+Pneudraulics 
+NDI 
+Propulsion 
+Propulsion 
+Electrical 
+Bearing Clean 
+AGE 
+Command/Adm. 
+Parachute 
+Hangar 
+Wheel/Tire 
+Latrine 
+Gen Maint Sup. 
+Gen Maint Sup. 
+RALS 
+SSS 
+SSS 
+4K/8K 
+MSS 
+SSS 
+SSS 
+MSS 
+SSS 
+SSS 
+LAMS 
+SSS 
+SSS 
+MSS 
+SSS 
+28.1 
+7.7 
+36.0 
+15.0 
+15.6 
+5.8 
+8.2 
+6.2 
+6.6 
+36.0 
+6.0 
+6.0 
+10.0 
+8.0 
+7.2 
+10 
+10 
+ 
+20 
+10 
+10 
+20 
+10 
+10 
+ 
+10 
+ 
+20 
+10 
+29.7 
+15.4 
+25.2 
+30.5 
+20.9 
+14.1 
+25.7 
+14.3 
+14.6 
+25.2 
+14.2 
+4.2 
+27.0 
+15.6 
+5.0 
+20 
+ 
+21 
+10 
+11 
+ 
+6 
+4 
+5 
+25 
+19.7 
+15.4 
+15.2 
+20.5 
+20.9 
+14.1 
+15.7 
+14.3 
+14.6 
+15.2 
+14.2 
+4.2 
+17.0 
+15.6 
+5.0 
+10 
+ 
+10 
+10 
+ 
+ 
+10 
+ 
+ 
+10 
+ 
+ 
+10 
+ 
+G  Squad 
+Ops 
+Squadron Ops. 
+Life Support 
+Latrine 
+Squad Ops. Sup. 
+RALS  
+SSS 
+SSS 
+   SSS 
+MSS 
+5.9 
+5.7 
+6.0 
+6.5 
+7.2 
+10 
+10 
+ 
+20 
+14.1 
+14.0 
+4.2 
+24.6 
+5.0 
+4 
+4 
+14.1 
+14.0 
+4.2 
+14.6 
+5.0 
+ 
+ 
+ 
+10 
+H  
+Support 
+Group 
+Reproduction 
+Post Office 
+BITS 
+Legal/Contract. 
+Personnel 
+Administration 
+Latrine 
+Exchange 
+Exchange 
+Gen Support 
+Communications 
+MWRS 
+Armory 
+Command/SRC 
+RALS 
+SSS 
+SSS 
+SSS 
+SSS 
+SSS 
+SSS 
+SSS 
+SSS 
+SSS 
+MSS 
+SSS 
+SSS 
+SSS 
+SSS 
+5.6 
+3.9 
+5.2 
+4.9 
+4.6 
+5.0 
+6.0 
+6.0 
+8.0 
+7.0 
+9.0 
+4.6 
+4.5 
+4.5 
+7.2 
+10 
+10 
+10 
+10 
+10 
+10 
+ 
+10 
+10 
+20 
+10 
+10 
+10 
+10 
+13.9 
+12.7 
+13.6 
+13.4 
+13.2 
+13.5 
+4.2 
+14.2 
+15.6 
+24.9 
+16.3 
+13.2 
+13.2 
+13.2 
+5.0 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+6 
+ 
+ 
+4 
+13.9 
+12.7 
+13.6 
+13.4 
+13.2 
+13.5 
+4.2 
+14.2 
+15.6 
+14.9 
+16.3 
+13.2 
+13.2 
+13.2 
+5.0 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+10 
+I   
+Emergen
+cy 
+Services 
+Fire Tech Svs. 
+Fire Operations 
+Security Police 
+Disaster Prep. 
+EOD 
+Base Operations 
+RALS 
+SSS 
+SSS 
+SSS 
+SSS 
+SSS 
+SSS 
+5.0 
+4.5 
+4.5 
+4.5 
+6.2 
+4.5 
+7.2 
+10 
+10 
+10 
+10 
+10 
+10 
+13.5 
+13.2 
+13.2 
+13.2 
+14.3 
+13.2 
+5.0 
+4 
+3 
+3 
+ 
+4 
+13.5 
+13.2 
+13.2 
+13.2 
+14.3 
+13.2 
+5.0 
+ 
+J   
+Aerial 
+Port  
+Mortuary 
+Aerial Port 
+Port Support 
+RALS 
+SSS 
+SSS 
+MSS 
+6.3 
+4.5 
+6.5 
+7.2 
+10 
+10 
+20 
+14.4 
+13.2 
+24.6 
+5.0 
+4 
+3 
+14.4 
+13.2 
+14.6 
+5.0 
+ 
+ 
+10 
+L  
+Laundry 
+Laundry 
+SSS 
+10 
+10 
+17.0 
+ 
+17.0 
+ 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     40 
+Facility 
+Group 
+ 
+Function 
+Shelter 
+Type 
+Power Requirement 
+(Kilovolt-Ampere [kVA]) 
+kVA per  
+Circuit 
+Max 
+Load 
+AC 
+Load 
+Div.  
+M-C 
+Load 
+#1 
+#2 
+M  
+Muni-
+tions 
+Command/Adm. 
+Tool Crib 
+Munitions Maint. 
+RALS 
+SSS 
+SSS 
+MSS 
+6.5 
+5.0 
+8.2 
+7.2 
+10 
+10 
+20 
+14.6 
+13.5 
+25.7 
+5.0 
+5 
+4 
+6 
+14.6 
+13.5 
+15.7 
+5.0 
+ 
+ 
+10 
+P  
+POL 
+Administration 
+Laboratory 
+RALS 
+SS 
+SSS 
+5.4 
+4.5 
+7.2 
+10 
+10 
+13,8 
+13.2 
+5.0 
+ 
+13.8 
+13.2 
+5.0 
+ 
+R   
+Alert 
+Alert Facility 
+RALS 
+SSS 
+5.4 
+7.2 
+10 
+13.8 
+5.0 
+4 
+13.8 
+5.0 
+ 
+S   
+Supply 
+Command/Adm. 
+Demand Proc. 
+Latrine 
+Storage 
+RALS 
+SSS 
+SSS 
+SSS 
+4K/8K 
+5.1 
+5.1 
+6.0 
+10.0 
+7.2 
+10 
+10 
+13.6 
+13.6 
+4.2 
+7.0 
+5.0 
+ 
+13.6 
+13.6 
+4.2 
+7.0 
+5.0 
+ 
+T   
+Transpor
+tation 
+Vehicle Ops. 
+TMO 
+Latrine 
+Vehicle Maint. 
+Packing/Crating 
+SSS 
+SSS 
+SSS 
+4K/8K 
+4K/8K 
+4.5 
+4.5 
+6.0 
+18.5 
+12.0 
+10 
+10 
+13.2 
+13.2 
+4.2 
+13.0 
+8.4 
+ 
+13.2 
+13.2 
+4.2 
+13.0 
+8.4 
+ 
+W   
+Wing 
+Ops 
+Administration 
+Briefing 
+Plans 
+Operations 
+Targets 
+Intelligence 
+Intelligence 
+Maint Command 
+Job Control 
+Material Control 
+Quality Control 
+Maint Analysis 
+Maint Records 
+Maint Plans 
+Latrine  
+Finance 
+Command Post 
+Command/Adm. 
+RALS 
+SSS 
+SSS 
+SSS 
+SSS 
+SSS 
+SSS 
+SSS 
+SSS 
+SSS 
+SSS 
+SSS 
+SSS 
+SSS 
+SSS 
+SSS 
+SSS 
+SSS 
+SSS 
+5.7 
+7.0 
+4.5 
+4.6 
+4.5 
+5.6 
+5.6 
+4.5 
+4.8 
+6.3 
+6.3 
+4.5 
+4.5 
+6.3 
+6.0 
+4.5 
+7.0 
+5.7 
+7.2 
+10 
+10 
+10 
+10 
+10 
+10 
+10 
+10 
+10 
+10 
+10 
+10 
+10 
+10 
+ 
+10 
+10 
+10 
+14.0 
+14.9 
+13.2 
+13.2 
+13.2 
+13.9 
+13.9 
+13.2 
+13.4 
+14.4 
+14.4 
+13.2 
+13.2 
+14.4 
+4.2 
+13.2 
+14.9 
+14.0 
+5.0 
+ 
+5 
+ 
+ 
+3 
+4 
+4 
+ 
+4 
+4 
+4 
+ 
+ 
+ 
+ 
+ 
+4 
+ 
+14.0 
+14.9 
+13.2 
+13.2 
+13.2 
+13.9 
+13.9 
+13.2 
+13.4 
+14.4 
+14.4 
+13.2 
+13.2 
+14.4 
+4.2 
+13.2 
+14.9 
+14.0 
+5.0 
+ 
+X  
+Medical 
+Facility 
+See Specific 
+Type of Facility 
+Requirements  
+ 
+* 
+* 
+ 
+* 
+* 
+ 
+Y   
+Commu-
+nications 
+See Specific 
+Type of Facility 
+Requirements 
+ 
+* 
+* 
+ 
+* 
+* 
+ 
+Z    
+Airfield 
+Facilities 
+See Specific 
+Type of Facility 
+Requirements 
+ 
+* 
+* 
+ 
+* 
+* 
+ 
+EW  
+Water 
+Plants 
+Per Specific 
+Requirements 
+ 
+* 
+* 
+ 
+* 
+* 
+ 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     41 
+Facility 
+Group 
+ 
+Function 
+Shelter 
+Type 
+Power Requirement 
+(Kilovolt-Ampere [kVA]) 
+kVA per  
+Circuit 
+Max 
+Load 
+AC 
+Load 
+Div.  
+M-C 
+Load 
+#1 
+#2 
+Notes: 1 Loads vary for deployed freezer units. 
+2 Loads vary and may increase as new equipment comes into the inventory. 
+To prevent generator overload, two generators may be required even when 
+level of service is reduced and some equipment is isolated. 
+3.3.3. Keep in mind that electrical loads shown for the various facilities are 
+estimated in many cases. Often, users bring additional or differing equipment that 
+could alter these figures. If time permits, determine what equipment is actually 
+being supported, particularly in areas related to flight-line maintenance operations. 
+Do not be surprised to see containerized facilities arrive. Some organizations, such 
+as the medical unit, have these types of facilities for specialized functions. During 
+your planning efforts it would be wise to save a couple of circuits from the SDCs 
+for these specialized facilities, at least in the medical and aircraft maintenance 
+facility groups. 
+3.3.4. Pre-deployment discussions with aircraft maintenance, munitions, and 
+medical personnel prior to deployment may reveal unit-unique power requirements 
+greater than those normally supported by contingency electrical distribution 
+systems. The facility diversity factor for each plant should be evaluated during 
+operations by checking the average daily peak demand versus the total facility 
+demand. A major difference from planned versus actual loads may justify 
+rerouting electrical service to achieve greater efficiencies. 
+3.3.5. After the diversified loads are identified and excessive loads split between 
+circuits, the next step is to identify how many of each facility type will be included 
+in each of the facility groups. This will enable you to develop a secondary 
+distribution schedule for each group. 
+3.3.6. Based on the number of facilities and their function, a secondary distribution 
+schedule can be developed (Table 3.4) as a preliminary worksheet for determining 
+the specific number of functions and facilities to be served within a group. The 
+secondary distribution schedule can be used to brief commanders and control 
+centers in order to determine if specific changes will be required before actually 
+hard wiring the base. Using the suggested format in Table 3.4 and the information 
+from the previous tables, the third column beneath the headings shows the number 
+of facilities of the same type that will be included within a specific group. The 
+fourth and fifth columns beneath the headings shows the specific diversified loads 
+per circuit required to service each facility. The sixth column under the headings 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     42 
+shows the estimated basic mission-critical power required. The final line at the 
+bottom of this worksheet provides a preliminary total power demand, which is 
+determined by multiplying the number of facilities for each function by the kVA 
+load for each function, and then adding all the products together. By dividing the 
+results by the size of the SDC to be used, such as a 150 kVA SDC, you can 
+determine the preliminary number of SDCs that may be required to support the 
+group. 
+Table 3.4. Example Wing Ops Group Secondary Distribution Schedule. 
+Wing Operations 
+Function 
+Facility 
+Type       # 
+kVA Circuit 
+#1           #2 
+M-C 
+kW 
+Administration 
+SSS 
+2 
+14.0 
+ 
+ 
+Briefing 
+SSS 
+6 
+14.9 
+ 
+4 
+Plans 
+SSS 
+1 
+13.2 
+ 
+ 
+Operations 
+SSS 
+3 
+13.2 
+ 
+ 
+Targets 
+SSS 
+2 
+13.2 
+ 
+2.4 
+Intelligence 
+SSS 
+2 
+13.9 
+ 
+3.2 
+Maint Supervision 
+ SSS 
+2 
+13.2 
+ 
+ 
+Job Control 
+ SSS 
+1 
+13.4 
+ 
+3.2 
+Materiel Control 
+ SSS 
+1 
+14.4 
+ 
+3.2 
+Quality Control 
+ SSS 
+1 
+14.4 
+ 
+3.2 
+Maint Analysis 
+SSS 
+1 
+13.2 
+ 
+ 
+Maint Records 
+SSS 
+1 
+13.2 
+ 
+ 
+Maint Plans  
+SSS 
+1 
+14.4 
+ 
+ 
+Finance 
+SSS 
+1 
+13.2 
+ 
+ 
+Latrine  
+SSS 
+1 
+4.2 
+ 
+ 
+Command Post  
+SSS 
+1 
+14.0 
+ 
+3.2 
+Admin/Command 
+SSS 
+1 
+14.0 
+ 
+ 
+Total Loads  
+ 
+379.2 
+ 
+25.6 
+3.3.7. The FDECU is a heat-pump-type air conditioner and heater that is widely 
+used with most shelters and tents. When a beddown requires the use of FDECUs, 
+load planning factors for generators and the distribution system are greatly 
+increased. The result is that a significant number of fewer facilities can be 
+supported by each SDC when providing power to each facility’s FDECU. 
+3.3.8. After development of each group’s secondary distribution schedule, group 
+functional facilities by SDC as much as possible and arrange facilities to minimize 
+the number of required emergency/back-up generators. Doing this will help ensure 
+that emergency generators are properly loaded and decreases the manpower 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     43 
+required for maintenance and operations. If possible, complete this before site 
+planners finalize facility locations in each group. 
+3.3.9. Table 3.5 is an example of an SDC Feeder Schedule. It is based on the 
+secondary distribution schedule for a Wing Operations Group at a 3,300-person 
+base. The schedule expands on information from Table 3.4 and identifies circuit 
+designations for each SDC. 
+Table 3.5. Example Wing Operations Group SDC Feeder Schedule. 
+Group 
+Circuit 
+Designator 
+Function 
+KVA 
+M-C 
+kW 
+SDC-W1:  
+Wing  
+Operations 
+1 
+W1 
+Briefing Facility 
+14.9 
+4 
+2 
+W2 
+Briefing Facility 
+14.9 
+4 
+3 
+W3 
+Briefing Facility 
+14.9 
+4 
+4 
+W4 
+Briefing Facility 
+14.9 
+4 
+5 
+W5 
+Briefing Facility 
+14.9 
+4 
+6 
+W6 
+Briefing Facility 
+14.9 
+4 
+7 
+W7 
+Targets 
+13.2 
+2.4 
+8 
+W8 
+Targets 
+13.2 
+2.4 
+9 
+W9 
+Intel 
+13.9 
+3.2 
+10 
+W10 
+Intel 
+13.9 
+3.2 
+TOTAL  kVA 
+(Use 60-kW generator) TOTAL M-C  kW 
+143.6 
+ 
+35.2 
+SDC-W2: 
+Wing  
+Operations 
+1 
+W11 
+Job Control 
+13.4 
+3.2 
+2 
+W12 
+Material Control 
+14.4 
+3.2 
+3 
+W13 
+Quality Control 
+14.4 
+3.2 
+4 
+W14 
+Command Post 
+14.0 
+3.2 
+5 
+W15 
+Maint Supervision 
+13.2 
+ 
+6 
+W16 
+Maint Supervision 
+13.2 
+ 
+7 
+W17 
+Maint Analysis 
+13.2 
+ 
+8 
+W18 
+Maint Records 
+13.2 
+ 
+9 
+W19 
+Maint Plans 
+14.4 
+ 
+TOTAL  kVA 
+(Use 30-kW gen. or group w/another SDC) TOTAL M-C  kW 
+123.4 
+ 
+12.8 
+SDC-W3: 
+Wing 
+Operations 
+1 
+W20 
+Administration 
+14.0 
+ 
+2 
+W21 
+Operations 
+13.2 
+ 
+3 
+W22 
+Plans 
+13.2 
+ 
+4 
+W23 
+Plans 
+13.2 
+ 
+5 
+W24 
+Plans 
+13.2 
+ 
+6 
+W25 
+Admin/Command 
+14.0 
+ 
+7 
+W26 
+Finance 
+13.2 
+ 
+8 
+W27 
+Administration 
+14.0 
+ 
+9 
+W28 
+Latrine 
+  4.2 
+ 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     44 
+TOTAL  kVA 
+Total M-C  kW 
+112.2 
+ 
+0 
+TOTAL WING OPERATIONS GROUP  kVA 
+Total M-C  kW 
+379.2 
+ 
+48 
+3.3.9.1. This specific example shows that all circuits were kept within the capacity 
+of a 150 kVA SDC and similar facilities/functions with mission-critical power 
+requirements grouped together on two SDCs. 
+3.3.9.2. The 35.2 kW mission-critical load for SDC-W1 could be supported with a 
+60-kW emergency/back-up generator. The 12.8 kW on SDC-W2 could be 
+supported with a 30-kW emergency/back-up generator, or the facilities and SDC 
+could be sited near another group so that both groups could be fed from the same 
+SDC and 60 kW emergency/back-up generator. 
+3.3.10. The feeder schedule for each group should be used to develop a circuit 
+schematic to list the required connections. While the surveyors are determining the 
+rough layout of major facility groups, the circuit schematics can be annotated to 
+show concerns for a specific layout. Identify basic distances and locations for 
+placement of SDCs next to major facilities and circuits requiring emergency/back-
+up generators for initial operation of the base. Critical base facilities may operate 
+from emergency/back-up generators, linked by SDCs, for up to two weeks while 
+assets arrive and the main electrical distribution system is installed. The 
+schematics can be used to show and explain how facilities are located in proximity 
+to SDCs and emergency/back-up generators. They can also be used to flag the need 
+for an emergency/back-up generator at critical facilities where a load on the 
+generator would be so low that it should be shared with critical facilities in another 
+group; thus affecting the siting within two groups. Figure 3.14 depicts an example 
+of an SDC circuit.  
+ 
+ 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     45 
+Figure 3.14. Example SDC Circuit for Wing Operations Group.   
+ 
+3.3.11. Phase Balancing. To operate a power plant or generator efficiently, the load 
+on all three phases of the system have to be nearly equal. The difference between 
+phases should not exceed 10 percent; otherwise, generators will be out of balance 
+and not provide full output. Also, voltage regulation will be poor, which can 
+damage both generating equipment and equipment being powered. Even after all 
+load factors are known and system schematics developed, the system might require 
+further balancing (smaller generators are especially vulnerable to this condition 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     46 
+when connected to critical or isolated facilities). When laying out loads other than 
+three-phase, take into account the total loading on each phase. Equally distribute 
+the facility loads on an SDC by alternating which phase each facility is connected 
+to on the PDP (e.g., facility W1 connected to 25-kW PDP connector J5 [phase C], 
+W2 connected to J6 [phase B], W3 connected to J7 [phase A], etc.). 
+3.3.12. Radial versus Loop. Radial systems are normally used during initial stages 
+of a deployment or for smaller austere bases in a low threat environment. 
+Otherwise, plan to use a loop system, as they provide more reliable power, better 
+system grounding, and greater flexibility for handling everyday type power 
+demands and maintenance outages. The #1/0 aluminum, 5,000-volt primary cable, 
+and associated load break elbow connectors, are used to interconnect the power 
+plants and provide both adequate insulation and mechanical integrity when buried 
+to the proper depth.  
+3.3.13. Power Plant Dispersal. Plan to construct multiple power plants in a high-
+threat environment (where facility dispersal is required) and for larger 
+deployments. Power plant dispersal does not require greater separation of 
+equipment and controls within the plant. Protection of resources is provided 
+through the use of revetments, barriers, concertina wire, camouflage concealment 
+deception, and berms. Plants should have the capability to be electrically 
+interconnected to ensure some degree of electrical generation capability is retained 
+after an attack. For threat dispersal purposes, plants should be separated between 
+1,500 and 3,000 feet from each other as part of a loop electrical distribution 
+network. The primary method of looping is by interconnecting some PSCs 
+between plants. 
+ 
+3.3.13.1. To establish a looped system, a physical connection is made from the 
+Way Switches of one PSC to the Way Switches of another. 
+3.3.13.1.1. Larger beddowns may have two or three plants with more than one 
+PSC. There are greater opportunities to loop between each plant and interconnect 
+several PSCs to form a complete “parked” ring between plants. 
+WARNING 
+Ensure interconnecting cables are marked 
+properly and maps are updated to show 
+interconnecting cables to ensure future 
+rotations are aware of these cables. 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     47 
+3.3.13.2. When rerouting PSC feeder circuits to power additional SDCs, care 
+should be taken to not overload the circuit. 
+3.3.13.3. Always ensure correct phase to phase relationship and the concentric 
+grounds are properly connected on rerouted circuits. 
+ 
+ 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     48 
+Chapter 4 
+SAFETY 
+ 
+4.1. Safety Summary. As noted in paragraph 1.1, electricians and maintenance 
+personnel shall wear appropriate ATPV rated uniforms, as well as other 
+appropriate personal protective equipment IAW AFI 32-1064 and UFC 3-560-01 
+prior to working on or near energized electrical equipment or circuits. BCE or 
+equivalent approval is required prior to working on any energized circuits. The 
+following paragraphs are recommended safety precautions to apply during many 
+phases of operation and maintenance of contingency electrical generation and 
+distribution systems. 
+ 
+ 
+ 
+4.1.1. Ensure only qualified individuals install, operate, and maintain the 
+equipment described in this TTP IAW applicable TOs. A qualified person is one 
+who is trained and competent in: 
+WARNING 
+High voltage may cause severe shock or 
+death upon contact. Use caution and avoid 
+contact with energized components. Use a 
+hot stick when handling loadbreak elbows. 
+WARNING 
+Ensure loadbreak elbows are installed on 
+parking stands at the generator when 
+performing 
+maintenance 
+to 
+prevent 
+possibility of utility power being fed back 
+into equipment. Failure to comply may result 
+in death by electrocution. 
+WARNING 
+Ensure all high voltage switching and isolation 
+operations with grip-all switch sticks are 
+performed by trained and qualified 3E0X1 
+Electrical System Specialist.  
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     49 
+4.1.1.1. The skills and techniques necessary to distinguish energized parts from 
+non-energized parts of electronic and electrical equipment. 
+4.1.1.2. The skills and techniques necessary to determine the proper approach 
+distances corresponding to the voltages to which the qualified person will be 
+exposed. 
+4.1.1.3. The proper use of the special precautionary techniques, personal protective 
+equipment, insulating and shielding materials, and insulated tools for working on 
+or near exposed energized parts of electronic or electrical equipment. 
+4.1.2. Keep away from live circuits. Operators must at all times observe all safety 
+instructions IAW UFC 3-560-01. Do not replace components or make adjustments 
+inside the generator set with the high-voltage supply energized. Under certain 
+conditions, dangerous potentials may exist when the generator is not operating and 
+disconnected from the circuit due to charges retained by capacitors. To avoid 
+casualties, always remove power, test, and ground to assure it’s discharged before 
+touching. 
+4.1.3. High-Voltage Cable Connections and Disconnects. Always operate and 
+connect generators, PSCs, and SDCs IAW the applicable TOs. Only properly 
+trained and qualified 3E0X1 Electrical Systems personnel should connect and 
+disconnect this equipment. 
+4.1.3.1. Disconnects should be made in an de-energized state, which is normally 
+achieved by shutting down the power source and opening the load-interrupter 
+switches on a PSC, or turning off circuit breakers on an SDC. De-energized cables 
+and transformers should be grounded to prevent a shocking hazard from residual 
+voltages. 
+4.1.3.2. During placement of the units (i.e., PSCs, SDCs, and PDPs) and cable 
+laying prior to bringing generators on line, always use proper PPE and safety 
+practices. Use of a grip-all shot gun for placing the load break elbows on bushings 
+is always a good safety practice to ensure proper seating of the load break elbows. 
+4.1.3.3. PPE and electrical equipment must be used when connecting and 
+disconnecting energized load break elbows, opening PSC load-interrupter 
+switches, and fusible switches IAW UFC 3-560-01. 
+4.1.4. Resuscitation. Personnel working with or near high voltages will be trained 
+and certified on cardiopulmonary resuscitation IAW AFI 91-203.  
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     50 
+4.2. Personnel Responsibilities. Multi-skilling of power production and electrical 
+personnel is critical for installation and operation of contingency power generation 
+and distribution systems. Neither power nor electrical specialties have sufficient 
+numbers of personnel on standard mobility teams to accomplish all beddown and 
+recovery tasks following traditional skill breakouts. Contingency training 
+programs direct several training activities meant to enable engineer personnel to 
+perform beyond traditional peacetime-related skill requirements.  
+4.3. Grounding. Proper grounding of the electrical system is crucial for the safety 
+of electrical power production and electrical system personnel. Procedures for 
+grounding the deployable systems differ little from those used in standard 
+electrical system installations. The grounding system for the contingency electrical 
+generation and deployable system equipment consists of equipment grounds with 
+ground rods at major components and the (grounded) concentric neutral wires 
+throughout the high-voltage distribution portion of the system. 
+ 
+4.3.1. All equipment shall have a grounding resistance that does not exceed 25 
+ohms. Test grounds IAW AFI 32-1065, Grounding Systems. 
+4.3.2. Soil characteristics play a large part in the suitability of the grounding 
+network. The type of soil, its chemical content, and the moisture level surrounding 
+the ground rod will determine the resistance. Clay and loam soils with no rocks or 
+stones will have a much lower resistance than clay or loam soils with many rocks 
+or stones. Moisture content also affects resistance readings dramatically. As 
+moisture content increases, soil resistivity decreases. This is especially true at the 
+lower moisture content levels. Therefore, much of the dry, rocky, or sandy soils in 
+southwest Asia cannot provide the required soil resistivity of 25 ohms or less using 
+just the driven ground rods provided with each unit. 
+4.3.3. For proper grounding, you need to have a ground rod that will be in contact 
+with moist soil. Use as many ground rods as required to obtain adequate resistance 
+readings. If deployed to a location where a ground rod cannot be driven deep 
+enough to reach low resistance soil, or if ground rods are in short supply, then 
+WARNING 
+Do not energize equipment unless properly 
+grounded IAW applicable TO. Electrical 
+faults in generator set, load lines, or load 
+equipment can cause injury or electrocution 
+from contact with an ungrounded system. 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     51 
+alternate-grounding methods may be used. A horizontal ground rod installation, 
+buried metal well pipes, metal plate electrodes, or a laced wire grounding 
+installation can be used to obtain the adequate resistance reading. Dig a trench as 
+deep as feasible to reach wet soil or soil that can be moistened with water or brine. 
+Lace a copper wire up and down the bottom of the trench. To keep resistance 
+readings low under extremely adverse soil conditions, you may have to 
+continuously keep the grounding area damp using water or salt water/Reverse 
+Osmosis Water Purification Unit brine solutions. Thoroughly compact the soil 
+when backfilling the trench to maximize soil contact with the wire or rods. 
+4.3.4. For longer deployments, installation of a grounding grid under each 
+equipment item (i.e., generator, PSC, SDC, etc.) should be considered both for 
+additional safety and reliability. Each equipment item should have its own 
+equipment ground.  
+4.3.5. If deployed to a location in a climatic zone where the ground freezes, be sure 
+to lay the horizontal grounding system below the frost line, as resistivity readings 
+can increase substantially for frozen ground. Also, frost heaves that occur in soil 
+with different moisture contents may cause equipment to tilt or move if the buried 
+horizontal rod or wire system is located too close to the equipment. Keep the 
+disturbed, moistened soil of the buried grounding system at least 10 feet from the 
+supported equipment. The grounding system should normally be within 15 feet of 
+the supported equipment; this is not a hard and fast rule and is dictated more so by 
+the available area, materials, and the ability to obtain and maintain adequate 
+resistance readings. For driven ground rods, recheck the resistance readings 
+regularly throughout the deployment. Note: If 25 ohms is not able to be reached 
+for grounding systems, contact the Electronics Engineer SME (Grounding SME) 
+through the AFCEC Reachback Center at 888-232-3721 (toll free), Defense 
+Switched Network (DSN) 523-6995, or via email at afcec.rbc@us.af.mil.  
+ 
+4.4. Trenching. During the initial layout and early operation, the electrical 
+distribution network is an above ground system. When time permits, bury the 
+primary distribution electrical lines in trenches about 18-inches deep. Trenching 
+may be accomplished using a tractor with backhoe and blade (Figure 4.1). 
+WARNING 
+Prior to conducting trenching operations on 
+previous battlefields or in areas suspected of 
+unexploded ordnance consult Explosive 
+Ordnance Disposal. 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     52 
+Figure 4.1. Tractor with Backhoe, Blade, and Trenching Wheel. 
+ 
+ 
+4.4.1. When burying primary cables where rocks are present, place a layer of sand 
+or other soil (free of rocks) on the bottom and top of cables to ensure they are 
+protected. Trenches should be wide enough to provide a 6-inch separation between 
+cables. 
+4.4.2. At locations where cables cross roadways and in high-traffic areas, the lines 
+should be buried even in the initial phases of the operation. Consideration should 
+be given to running the lines in conduit under roadways and burying the cables 
+deeper to allow improving roads over these cables with gravel or hard surface. 
+Secondary distribution lines for service from SDCs should also be buried (when 
+time permits) in shallower trenches. Under most climactic conditions, secondary 
+distribution lines require only eight inches of cover, except for the following 
+conditions: 
+4.4.2.1. In areas subject to ground freezing, bury cables below the frost line. 
+4.4.2.2. In locations which may experience numerous freeze-thaw cycles 
+throughout the winter (where there is intermittent flooding and ground movement), 
+buried cannon plug cable connections may require some waterproofing protection 
+(i.e., wrap in plastic sheeting and tape) or be surrounded with free draining sandy 
+gravel. If winterizing procedures are required for the deployment, marking or 
+otherwise identifying buried cannon plug connections at critical facilities will 
+allow them to be checked if freeze-thaw cycles cause problems with electrical 
+connections. 
+CAUTION 
+To prevent damage to cables, do not lay them directly on 
+sharp rocks or in very rocky soil. 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     53 
+4.4.3. It is especially critical to maintain the six inch separation (Figure 4.2) for 
+primary power cables and to keep the cable from bundling together in the trench 
+for facilities that require more reliable power and for interconnecting power plants. 
+If a rotary-trencher is used, maintaining adequate separation will be difficult due 
+to the narrow width of the trench. Field conditions may dictate various installation 
+choices, which can be used to maintain a six inch separation and also meet required 
+cover and protection, such as multiple trenches with a wheel cutter trencher, wider 
+trenches, and/or deeper trenches and cable laid with horizontal and a vertical 
+separation between cables. 
+Figure 4.2. Trench and Cable Detail. 
+ 
+4.4.4. In the immediate power plant area, make sure the trenches are clearly 
+marked to ensure that future additional trenching operations will not hit buried 
+power cables. Plan ahead, especially when multiple power plants are used, to 
+provide access for routing of cables between plants. In some cases it may be 
+feasible to bury several sets of power lines in wider and deeper trenches (Figure 
+4.3) to accommodate base growth and/or expansion of the power plant. 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     54 
+Figure 4.3. Multiple Cable Runs in Common Trench. 
+ 
+4.4.5. Keep accurate, up-to-date records on the location of power lines and when 
+possible, mark the cable routes. Note: Contact the Engineering Assistant office to 
+ensure the continuity of records and the update of Geobase. Cable routes between 
+plants can be relatively long, traversing much of the camp area. During long-term 
+deployments, trenches can become overgrown or covered by blowing sand. If they 
+do not have accurate records, follow-on units can easily disrupt electrical and other 
+utilities when trenching to expand or repair/replace systems.  
+4.4.6. When burying cable, be sure to label SDCs with feeder and SDC numbers. 
+These numbers should accurately match the as-built drawings for troubleshooting 
+and safety purposes. When time permits, label the cable to show where it feeds and 
+from where it is fed (Figure 4.4). 
+ 
+ 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     55 
+Figure 4.4. Feeder Circuits Labeled. 
+ 
+                                         
+                                         
+ 
+                                                   JOHN B. COOPER, Lieutenant General, USAF  
+                                                   DCS/Logistics, Engineering and Force Protection 
+ 
+ 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     56 
+Attachment 1 
+GLOSSARY OF REFERENCES 
+AND 
+SUPPORTING INFORMATION 
+ 
+References 
+AFI 32-1064, Electrical Safe Practices, 7 January 2015 
+AFI 32-1065, Grounding Systems, 12 January 2015  
+AFMAN 33-363, Management of Records, 1 March 2008 
+AFMAN 91-201, Explosive Safety Standards, 12 January 2011 
+AFPAM 10-219 Volume 5, Bare Base Conceptual Planning, 30 March 2012 
+AFPAM 91-216, USAF Safety Deployment and Contingency Pamphlet,               
+9 August 2001 
+AF Handbook 10-222 Volume 1, Guide To Bare Base Development, 23 January 
+2012 
+AF Handbook 10-222 Volume 2, Guide To Bare Base Assets, 6 February 2012 
+AF Handbook 31-109, Integrated Defense in Expeditionary Environments, 1 
+May 2013 
+AFI 91-203, Air Force Consolidated Occupational Safety Instruction, 15 June 
+2012 
+UFC 3-560-01, Electrical Safety, O&M, 14 April 2015 
+T.O. 31-1-141-5, Basic Electronics Technology and Testing Practices 
+Mathematics for Electrical and Electronics Technicians, 7 April 2015 
+T.O. 35F14-1-1, Commercial Technical Manual, Primary Switch (PS), 15 June 
+2007  
+T.O. 35CA2-2-10-1, Operation and Maintenance Manual, Secondary 
+Distribution Center (JEU-191/E), 15 Aug 1984  
+T.O. 35CA2-2-17-1, Commercial Technical Manual, Secondary Distribution 
+Center (SDC), 13 Dec 2006  
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     57 
+T.O. 35CA3-18-1, Commercial Technical Manual, Cable Reel Pallet Assembly 
+(CRPA), 02 January 2003 
+T.O. 35CA6-1-101, Operation, Maintenance and Overhaul Instructions with IPB 
+– Power Distribution Panel, 9 December 2013 
+T.O. 35CA6-1-211, Commercial Technical Manual, Power Distribution Panel 
+(PDP) 25 KW, 12 November 2003  
+T.O. 35CA6-1-231, Commercial Technical Manual, Power Distribution Panel 
+(PDP) 60 KW, 14 November 2003  
+T.O. 35C2-3-474-1, MEP-012A Generator Set, Operator and Organizational 
+Maintenance Manual, 24 Jun 1999 
+T.O. 35C2-3-474-11, Basic Expeditionary Airfield Resource (BEAR) Power Unit 
+(BPU), Operation, Maintenance, and Overhaul Manual, 30 June 2014 
+T.O. 35C2–3-444–11-32, Operator’s Manual, Tactical Quiet Generator (TQG) 
+60 KW, 31 December 2012 
+T.O. 35C2-3-446-32, Operator and Maintenance Manual, Tactical Quiet 
+Generator, 30 KW, 11 April 2016 
+T.O. 35C2-3-534-1, Operator’s Manual for Generator Set, Skid Mounted 30KW 
+Advanced Medium Mobile Power Sources (AMMPS), 15 March 2011 
+TO 35C2-3-535-1, Operator’s Manual for Generator Set, Skid Mounted 60KW 
+Advanced Medium Mobile Power Sources (AMMPS), 15 February 2011 
+T.O. 37A12-15-1, DPGDS External Fuel Supply (EFS), 28 June 2010 
+Prescribed Forms  
+No prescribed forms are implemented in this publication.  
+Adopted Forms  
+AF Form 847, Recommendation for Change of Publication, 22 September 2009 
+Abbreviations and Acronyms 
+AC—Air Conditioning 
+AEF—Air and Space Expeditionary Force  
+AFI—Air Force Instruction 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     58 
+AFMAN—Air Force Manual 
+AFRC—Air Force Reserve Command  
+AOR—Area of Responsibility 
+ATPV—Arc Thermal Performance Value 
+BEAR—Basic Expeditionary Airfield Resources 
+BPU—BEAR Power Unit 
+CRPA—Cable Reel Pallet Assembly 
+DCS—Digital Control System  
+FDECU—Field Deployable Environmental Control Unit 
+Hz—Hertz 
+IAW—In Accordance With 
+KVA—Kilo-volt Ampere 
+LAMS—Large Area Maintenance Shelter 
+LOX—Liquid Oxygen  
+MSS—Medium Shelter System 
+OPR—Office of Primary Responsibility 
+PDP—Power Distribution Panel 
+PPDT— Power Planning and Distribution Tool  
+POL—Petroleum, Oil, and Lubricants  
+PPE—Personal Protective Equipment 
+PS—Primary Switch 
+PSC—Primary Switching Center 
+RALS—Remote Area lighting System 
+RDS—Records Disposition Schedule  
+ROP—Remote Operator Panel  
+SDC—Secondary Distribution Center 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     59 
+SSS—Small Shelter System 
+TQG—Tactical Quiet Generator 
+TO—Technical Order 
+TTP—Tactics, Techniques, and Procedures  
+UTC—Unit Type Code 
+ 
+ 
+ 
+ 
+ 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     60 
+Attachment 2 
+CONTINGENCY ELECTRICAL POWER SYSTEM 
+INSTALLATION CHECKLIST 
+ 
+Note: After the electrical system and power plants have been installed, and before 
+energizing the system, use the checklist to ensure the system is ready. 
+ 
+__ 
+1. Has a holding area for temporary storage of incoming electrical 
+system components been established? 
+__ 
+2. Have mission essential facilities been identified and coordinated 
+with the appropriate command? 
+__ 
+3. Have the locations of mission essential facilities been identified? 
+__ 
+4. Has a requirement for sustained operations at the contingency 
+location been confirmed? 
+__ 
+5. Has an initial estimate of the electrical loads of mission essential 
+facilities been made to aid in sizing generators to the requirements? 
+__ 
+6. Has vehicle/equipment support for moving electrical equipment to 
+site locations been arranged? 
+__ 
+7. Do all electrical installation crews have an individual capable of 
+operating materials handling equipment? 
+__ 
+8. Have SDCs been placed at locations where emergency/back-up 
+generators can serve multiple mission essential facilities? 
+__ 
+9. Have emergency/back-up generators been connected to mission 
+essential facilities? 
+__ 
+10. Have light carts been operationally checked and allocated to 
+critical flight-line functional areas? 
+__ 
+11. Have personnel been identified to perform routine maintenance and 
+refueling operations on emergency/back-up generators? 
+__ 
+12. Have electrical feeder schedules been developed based on the 
+layout of the various base facility groups? 
+__ 
+13. Have SDC circuits been sized to handle future AC loads (if 
+applicable)? 
+__ 
+14. Has a plan showing the layout of the electrical distribution system 
+been developed? 
+__ 
+15. Have locations for power plants been determined? 
+__ 
+16. Have prime generators been positioned at power plant locations? 
+__ 
+17. Have fuel bladders been installed at power plant locations? 
+AFTTP 3-32.34V5   28 February 2017 
+ 
+     61 
+__ 
+18. Have fuel bladders been properly bermed? 
+__ 
+19. Have control panels been correctly connected to prime generators? 
+__ 
+20. Have PSCs been placed and connected at power plants? 
+__ 
+21. Have adequate grounding systems been installed at power plants? 
+__ 
+22. Have SDCs been allocated to and placed in the various facility 
+groups in such a way that portions of the groups can be brought on line 
+as facilities are erected? 
+__ 
+23. Have SDCs been placed in areas accessible to vehicles, yet not 
+adjacent to heavy traffic or personnel flow? 
+__ 
+24. Have SDCs been grounded? 
+__ 
+25. Have the cables connecting facilities, panel boxes, SDCs, PSCs 
+initially been installed along the surface of the ground? 
+__ 
+26. Have cables that cross roadways been adequately protected from 
+damage by vehicle traffic? 
+__ 
+27. Have facilities been brought onto the base electrical grid as soon as 
+reasonably possible once electrical connections have been completed? 
+__ 
+28. Have emergency/back-up generators serving mission essential 
+facilities been placed in backup power mode once power plant 
+electrical service was available? 
+__ 
+29. Have personnel been specifically designated to provide around-the-
+clock power plant operation? 
+__ 
+30. Have RALS units been installed at locations requiring large-scale 
+area lighting? 
+__ 
+31. If sustained operations are planned and electrical system is fully 
+functional in an above ground mode, have efforts been started to bury 
+electrical cables? 
+__ 
+32. Have accurate records/drawings been made of buried electrical 
+cables? 
+__ 
+33. Have power plant operators been informed of what plant operation 
+records to maintain? 
+__ 
+34. Have arrangements been made for power plant refueling? 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,1129 @@
+BY ORDER OF THE  
+SECRETARY OF THE AIR FORCE 
+ 
+AIR FORCE INSTRUCTION 13-550 
+16 APRIL 2019 
+Nuclear, Space, Missile, Command and 
+Control 
+AIR FORCE NUCLEAR COMMAND, 
+CONTROL, AND COMMUNICATIONS 
+(NC3) 
+COMPLIANCE WITH THIS PUBLICATION IS MANDATORY 
+ 
+ACCESSIBILITY:  Publications and forms are available on the e-Publishing website at 
+www.e-publishing.af.mil for downloading or ordering. 
+RELEASABILITY:  There are no releasability restrictions on this publication. 
+ 
+ 
+OPR: AF/A10N 
+ 
+Supersedes: 
+AFI 13-550, 2 October 2014 
+Certified by: AF/A10  
+(Mr. James J. Brooks) 
+Pages: 29 
+ 
+ 
+This instruction implements Air Force Policy Directive (AFPD) 13-5, Air Force Nuclear Mission, 
+and establishes general Air Force (AF) direction, guidance, and responsibilities to execute Nuclear 
+Command, Control, and Communications (NC3) operations across AF forces. This instruction 
+applies to all Regular Air Force, Reserve, Air National Guard, civilian, contractors, and other 
+personnel or organizations, as required by binding agreement or obligation with the Department 
+of the Air Force. The authorities to waive wing/unit level requirements in this publication are 
+identified with a Tier (“T-0, T-1, T-2, T-3”) number following the compliance statement. See Air 
+Force instruction (AFI) 33-360, Publications and Forms Management, for a description of the 
+authorities associated with the Tier numbers. Submit requests for waivers through the chain of 
+command to the appropriate Tier waiver approval authority, or alternately, to the requestors 
+commander for non-tiered compliance items. Refer recommended changes and questions to the 
+Office of Primary Responsibility (OPR) on AF Form 847, Recommendation for Change of 
+Publication.  Route AF Forms 847 through the appropriate functional chain of command.  Any 
+level may supplement this publication, but must route all direct supplements to the OPR of this 
+publication for coordination prior to certification and approval.  Ensure all records created as a 
+result of processes prescribed in this publication are maintained in accordance with Air Force 
+Manual 33-363, Management of Records, and disposed of in accordance with the Air Force 
+Records Disposition Schedule located in the Air Force Records Information Management System. 
+2 
+AFI13-550  16 APRIL 2019 
+SUMMARY OF CHANGES 
+This is a complete revision to the previous version of this instruction. This instruction implements 
+Secretary of the Air Force (SecAF) and Chief of Staff of the Air Force (CSAF) direction to develop 
+a comprehensive and more centralized structure to manage the AF NC3 mission area.  It revises 
+the command relationships, roles and responsibilities, the governance structure, and addresses 
+resourcing, architecture and configuration management, resilience, and assessments.  The 
+instruction acknowledges consolidation of the communications systems and components of Air 
+Force NC3 systems into the Air Force NC3 Weapon System (AF NC3 WS), nomenclated and 
+referred throughout this instruction as AN/USQ-225, under Air Force Global Strike Command 
+(AFGSC) as the lead command, in accordance with Headquarters Air Force Deputy Chief of Staff, 
+Strategic Deterrence and Nuclear Integration Program Action Directive (PAD) D16-01 
+Centralized Management of the Nuclear Enterprise.  Finally, this instruction codifies the 
+specialized responsibilities of the Air Force NC3 Center (AFNC3C) as an AFGSC organization 
+with AF-wide responsibilities to lead centralized organize, train, and equip functions of the 
+AN/USQ-225; the Air Force Nuclear Weapons Center, NC3 Integration Directorate 
+(AFNWC/NC) as the principle integrator of the AN/USQ-225; and Air Force Materiel Command 
+(AFMC) as the lead for synchronizing NC3 materiel management across AFMC in support of 
+AFGSC. 
+ 
+Chapter 1— GENERAL INFORMATION 
+ 
+4 
+1.1. 
+ Purpose. ..................................................................................................................  
+4 
+1.2. 
+ Overview.  ...............................................................................................................  
+4 
+1.3. 
+ Scope .......................................................................................................................  
+4 
+1.4. 
+ Objectives.   ............................................................................................................  
+4 
+1.5. 
+ Key Terms and Definitions. ....................................................................................  
+4 
+1.6. 
+ Classification and Security Information.  ...............................................................  
+6 
+Chapter 2— GENERAL ROLES AND RESPONSIBILITIES 
+ 
+7 
+2.1. 
+ Overview.  ...............................................................................................................  
+7 
+2.2. 
+ Responsibilities. ......................................................................................................  
+7 
+Chapter 3— GOVERNANCE 
+ 
+11 
+3.1. 
+ Overview.  ...............................................................................................................  
+11 
+3.2. 
+ Air Force Governance Structure.  ...........................................................................  
+11 
+3.3. 
+ Responsibilities.  .....................................................................................................  
+11 
+Chapter 4— RESOURCING 
+ 
+13 
+4.1. 
+ Overview.  ...............................................................................................................  
+13 
+AFI13-550  16 APRIL 2019 
+3 
+4.2. 
+ The AF will holistically assess and evaluate NC3 resourcing needs across all 
+affected service core functions. ................................................................................  
+13 
+4.3. 
+ Responsibilities.   ....................................................................................................  
+13 
+Chapter 5— ARCHITECTURE AND CONFIGURATION MANAGEMENT 
+ 
+17 
+5.1. 
+ Overview.  ...............................................................................................................  
+17 
+5.2. 
+ The AF will develop and maintain an AF NC3 architecture and implement a 
+configuration management process. .........................................................................  
+17 
+5.3. 
+ Responsibilities.   ....................................................................................................  
+17 
+Chapter 6— RESILIENCE 
+ 
+19 
+6.1. 
+ Overview.  ...............................................................................................................  
+19 
+6.2. 
+ The AF will establish a resource-informed process to manage resilience against 
+threats to include, but not limited to, EMP and cyberspace threats IAW governing 
+DoD and CJCS directives and Military Standard documents.  ................................  
+19 
+6.3. 
+ Responsibilities. ......................................................................................................  
+19 
+Chapter 7— ASSESSMENTS 
+ 
+22 
+7.1. 
+ Overview.  ...............................................................................................................  
+22 
+7.2. 
+ The AF will establish and maintain an assessment program to measure 
+performance, identify shortfalls, and correct deficiencies in the AF NC3 system...  
+22 
+7.3. 
+ Responsibilities. ......................................................................................................  
+22 
+Attachment 1— GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+24 
+ 
+ 
+ 
+4 
+AFI13-550  16 APRIL 2019 
+Chapter 1 
+GENERAL INFORMATION 
+1.1.  Purpose.  This instruction establishes roles and responsibilities to ensure effective 
+stewardship and integrated planning, programming, budgeting and execution, and sustainment of 
+the AF NC3 mission area.  In addition, it provides a framework to ensure the Air Force properly 
+organizes, trains, and equips to enable Nuclear Command and Control (NC2) mission essential 
+functions. 
+1.2.  Overview.  NC2 is the exercise of authority and direction by the President to command and 
+control United States (U.S.) military nuclear weapon operations. NC2 consists of five mission 
+essential functions: Force Management, Planning, Situation Monitoring, Decision Making, and 
+Force Direction.  NC3 is the means to execute these mission essential functions.  NC3 provides an 
+integrated system comprised of facilities, equipment, communications, procedures, and personnel.  
+It is essential to the proper execution of the National Military Command System (NMCS), which 
+includes continuous, survivable, and secure nuclear command and control as one of its mission 
+essential functions. 
+1.3.  Scope  . By its nature, NC3 comprises a set of national level capabilities that must be assured, 
+reliable, and resilient across the range of threat conditions—from benign to highly contested—
+through all phases of nuclear (and, at times, non-nuclear) conflict.  AF NC3 has numerous external 
+stakeholders that include the Office of the Secretary of Defense (OSD), the Joint Staff (JS), 
+Combatant Commands (CCMDs), other Services, Combat Support Agencies (e.g., Defense 
+Information Systems Agency, National Security Agency), and the White House Military Office.  
+In addition to describing the roles and responsibilities of Air Force entities, this instruction also 
+informs and directs how the Air Force will interact with external stakeholders to ensure AF NC3 
+support to the President. 
+1.4.  Objectives. 
+1.4.1.  Establish a formal governance structure to oversee and manage the AF NC3 mission 
+area. 
+1.4.2.  Provide guidance and direction to resource the AF NC3 mission area in order to ensure 
+AF NC3 capabilities that fulfill warfighter requirements. 
+1.4.3.  Provide guidance and direction to manage the AF NC3 architecture and manage the 
+AN/USQ-225 configuration baseline. 
+1.4.4.  Provide guidance and direction to ensure AF NC3 system resilience IAW governing 
+Department of Defense (DoD) and Chairman, Joint Chiefs of Staff (CJCS) directives and 
+Military Standard documents. 
+1.4.5.  Establish and maintain an assessment program to measure performance, identify 
+shortfalls, and correct deficiencies. 
+1.5.  Key Terms and Definitions. 
+1.5.1.  NC2. The exercise of authority and direction by the President, as Commander-in-Chief 
+of the U.S. Armed Forces, through established national command authority lines over nuclear 
+AFI13-550  16 APRIL 2019 
+5 
+weapons, nuclear weapon systems, and nuclear weapon operations of military forces. (Source:  
+Presidential Policy Directive (PPD)-35) 
+1.5.2.  NC2 mission essential functions (Source: Chairman, Joint Chiefs of Staff Instruction 
+(CJCSI) 6811.01C, Nuclear Command and Control System Technical Performance Criteria): 
+1.5.2.1.  Force Management.  Force Management is the set of Command, Control, and 
+Communications (C3) activities relating to the assignment, training, deployment, 
+maintenance, and logistic support of nuclear forces and weapons, before, during, and after 
+any crisis. 
+1.5.2.2.  Planning.  Planning is the set of C3 activities relating to the development and 
+modification of plans for employment of nuclear weapons and other operations in support 
+of nuclear employment. 
+1.5.2.3.  Situation Monitoring.  Situation Monitoring is the set of C3 activities relating to 
+the collection, maintenance, assessment, and dissemination of information on friendly 
+forces; adversary forces and possible targets; emerging nuclear powers; and military, 
+political, environmental, and other events. 
+1.5.2.4.  Decision Making.  Decision Making is the set of C3 activities relating to the 
+assessment, review, and consultation regarding consideration for use or movement of 
+nuclear weapons or the execution of other nuclear control orders. 
+1.5.2.5.  Force Direction.  Force Direction is the set of C3 activities relating to the 
+implementation (preparation, dissemination, and authentication) of decisions regarding the 
+execution, termination, destruction, and disablement of nuclear weapons. 
+1.5.3.  Nuclear Command and Control System. The Nuclear Command and Control System is 
+the combination of capabilities necessary to ensure the authorized employment and termination 
+of nuclear weapon operations under all threats and scenarios; to secure against accidental, 
+inadvertent, or unauthorized access to U.S. nuclear weapons; and to prevent loss of control, 
+theft, or unauthorized use of U.S. nuclear weapons.  Collectively, these capabilities help ensure 
+the effectiveness of the U.S. nuclear deterrent. (Source: PPD-35) 
+1.5.4.  NC3 System. The NC3 System is the means through which Presidential authority is 
+exercised and operational command and control of nuclear operations is conducted.  The NC3 
+System is part of the larger National Leadership Command Capability (NLCC), which 
+encompasses the three broad mission areas of:  (1) Presidential and senior leader 
+communications; (2) NC3; and (3) continuity of operations and continuity of government 
+communications.  (Sources: PPD-35 and DoDI S-3730.01, Nuclear Command, Control, and 
+Communications (NC3) System, see sources for the full, classified definition) 
+1.5.5.  National Military Command System (NMCS). The NMCS provides senior leaders with 
+assured access to a secure and collaborative information environment that enables situational 
+awareness, course of action development, national-level decision-making, force execution, and 
+monitoring across the range of military operations.  CJCSI 3280.01D, National Military 
+Command System, identifies the five NC2 Mission Essential Functions as five of the six 
+Mission Essential Tasks supporting the NMCS mission essential function “continuous, 
+survivable, and secure NC2”. (Source: CJCSI 3280.01D) 
+6 
+AFI13-550  16 APRIL 2019 
+1.5.6.  AF NC3 WS (AN/USQ-225). The AN/USQ-225 is comprised of AF communications 
+systems and components (radios, terminals, messaging, and conferencing systems that 
+establish and function across the NC3 networks) through which the President exercises nuclear 
+command and control.  The AN/USQ-225 is operationalized via nomenclated Configuration 
+Elements that reside on or within the host platforms and facilities employed to execute nuclear 
+command and control and operations (e.g., fixed and mobile command centers, senior leader 
+aerial platforms, nuclear execution forces, etc.). Each Configuration Element encompasses the 
+host NC3 radios, terminals, messaging and conferencing systems within a single configuration 
+boundary and functions as the host’s “NC3 subsystem”.  Link and relay systems, or other 
+equipment external to the configuration elements, (e.g., communications satellites, ground 
+entry points, communications terminals not physically connected, and DoD Information 
+Network links) are categorized as “external dependencies”, and are considered for system of 
+systems integration, test, and certification purposes only.  The AN/USQ-225 is the AF 
+communications subset of the NC3 System, and while it provides critical connectivity, it does 
+not include all of the systems and components (e.g., early warning radar, planning systems) 
+necessary to execute all aspects of NC2. 
+1.6.  Classification and Security Information.  Refer to AFI 16-1404, Air Force Information 
+Security Program for classification and security information. 
+1.6.1.  The distribution of and access to NC2 Extremely Sensitive Information must be strictly 
+limited and based on rigorously justified operational requirements, or need-to-know, and must 
+be protected IAW CJCSI 3231.01B, Safeguarding Nuclear Command and Control Extremely 
+Sensitive Information.  Submit any deviation from procedures to the authorizing official 
+(formerly known as the Designated Accrediting Authority) for adjudication IAW AFI 13-502, 
+Safeguarding Nuclear Command and Control Extremely Sensitive Information. (T-0) 
+1.6.2.  Safeguard, protect, and mark NC3 classified and unclassified controlled nuclear 
+information IAW DoDI 5200.01, DoD Information Security Program and Protection of 
+Sensitive Compartmented Information, DoDI 5210.02, Access to and Dissemination of 
+Restricted Data and Formerly Restricted Data, DoDI 5210.83, DoD Unclassified Controlled 
+Nuclear Information, DoDM 5200.01, DoD Information Security Program, DoDM 5200.45, 
+Instructions for Developing Security Classification Guides, DoDM 5205.07, DoD Special 
+Access Program Security Manual, AFI 35-102, Security and Policy Review Process, AFI 61-
+201, Management of Scientific and Technical Information and all relevant DoD-approved 
+security classification guides. (T-0) 
+1.6.3.  Maintenance documentation of AN/USQ-225 shall be recorded IAW AF Technical 
+Order 00-20-2, Maintenance Data Documentation, paragraph 4.26, “Systems on which real 
+time reporting would divulge classified vulnerabilities will be reported only after the system 
+has been restored and the Job Control Number has been closed,” for systems otherwise, normal 
+maintenance documentation will be performed. (T-1) 
+ 
+ 
+AFI13-550  16 APRIL 2019 
+7 
+Chapter 2 
+GENERAL ROLES AND RESPONSIBILITIES 
+2.1.  Overview.   The following roles and responsibilities generally apply to the AF NC3 mission 
+area. The topical chapters that follow prescribe additional, more specific responsibilities. 
+2.2.  Responsibilities. 
+2.2.1.  Deputy Chief of Staff for Strategic Deterrence and Nuclear Integration  (AF/A10) 
+will: 
+2.2.1.1.  In accordance with AFPD 13-5, Air Force Nuclear Mission, provide guidance for 
+implementing AF NLCC/NC3 policy, strategy, and planning IAW national-level, DoD, 
+CJCS, and AF directives. (T-0) 
+2.2.1.2.  Act as the primary interface to the OSD, the JS, and serve as the HAF accountable 
+officer responsible to the Secretary of the Air Force (SecAF) and the CSAF for the AF 
+NLCC/NC3 mission area IAW HAF MD 1-60, Deputy Chief of Staff of the Air Force 
+Strategic Deterrence and Nuclear Integration. (T-0) 
+2.2.1.3.  Lead HAF efforts in the assessment of AF NC3 programs, policies, and 
+capabilities to ensure that the Service budgets for, develops, acquires, supports, and 
+maintains assigned AF NC3 systems and Air Force elements of the NMCS. 
+2.2.2.  Deputy Chief of Staff for Manpower, Personnel, and Services  (AF/A1) will provide 
+guidance for policies and practices affecting AF NLCC/NC3 human capital management, 
+recruitment, accession, development, promotion, compensation, recognition, and work force 
+planning. 
+2.2.3.  Deputy Chief of Staff for Intelligence, Surveillance, and Reconnaissance  (AF/A2) 
+will establish policies and processes to provide intelligence and threat support to Air Force 
+NLCC/NC3 programs IAW AFI 14-111, Intelligence Support to the Acquisition Life-Cycle, 
+and AFGSC Intelligence, Surveillance, and Reconnaissance Support to NC3 Standard 
+Operating Procedure. Additionally AF/A2 will promulgate these products with AF/A10, 
+AFGSC, and other relevant MAJCOMs, subordinate units, and other units. 
+2.2.4.  Deputy Chief of Staff for Operations  (AF/A3) will: 
+2.2.4.1.  As lead for the AF continuity of operations policy and programs, coordinate with 
+AF/A10 and Chief, Information Dominance and Chief Information Officer (SAF/CIO A6) 
+for AF continuity of operations communications requirements. 
+2.2.4.2.  As HAF lead for AF operational reporting, provide guidance to and coordinate 
+with AFGSC for AN/USQ-225 weapon system operational reporting requirements and 
+processes. 
+2.2.4.3.  As HAF lead for conventional command and control (C2) and operations, assist 
+in the integration of nuclear and conventional forces into NC3 operational strategies, 
+organizational concepts, policy, and guidance (e.g., conventional support to nuclear 
+operations, integrated nuclear and conventional operational planning, and integrated 
+conventional and nuclear C2 in any theater of operations). 
+8 
+AFI13-550  16 APRIL 2019 
+2.2.4.4.  In coordination with AF/A10, advocate for AF NC3 requirements and integration 
+with respect to military satellite communications, as well as space- and ground-based 
+missile warning systems, in order to ensure AF space equities and activities are integrated 
+and coordinated across Department and Interagency efforts. 
+2.2.5.  Deputy Chief of Staff for Logistics, Engineering, and Force Protection  (AF/A4) 
+will provide guidance for AN/USQ-225 maintenance documentation and reporting processes. 
+2.2.6.  Deputy Chief of Staff for Strategic Plans and Requirements  (AF/A5/8) will: 
+2.2.6.1.  Integrate AF NC3 into the Nuclear Deterrence Operations (NDO) corporate panel. 
+2.2.6.2.  Act as AF lead for AF NC3 requirements.  Represent the AF at appropriate Joint 
+Capabilities Integration and Development System boards and working groups (e.g., 
+C4/Cyber and Battlespace Awareness Functional Capability Boards) IAW CJCSI 
+5123.01H, Charter of the Joint Requirements Oversight Council (JROC) and 
+Implementation of the Joint Capabilities Integration and Development System (JCIDS).(T-
+0) 
+2.2.7.  Director for Studies, Analyses and Assessments  (AF/A9) will provide guidance and 
+feedback on the integration of AF NC3 analyses of programs, plans, and operations; 
+synchronizing DoD and Air Force NC3 capabilities; and requirements analyses designed to 
+optimize operations and sustainment efforts. 
+2.2.8.  Air Force Chief of Safety  (AF/SE), in coordination with AF/A10, will develop and 
+establish Air Force nuclear surety standards and policies for safety, and will assess nuclear 
+weapons systems and systems requirements for safety. 
+2.2.9.  The Assistant Secretary of the Air Force for Acquisition, Technology and 
+Logistics  (SAF/AQ), through multiple AF Program Executive Officers (PEO) to include the 
+Air Force Program Executive Office (AFPEO) NC3, will ensure the timely delivery and life-
+cycle sustainment of Air Force NC3 system capabilities and equipment to the warfighter based 
+on validated requirements and funding. (T-0) 
+2.2.10.  Chief, Information Dominance and Chief Information Officer (SAF/CIO 
+A6)  will: 
+2.2.10.1.  Serve as Headquarters Air Force lead for non-NC3 components of NLCC (senior 
+leader communications and continuity of operations communications). 
+2.2.10.2.  In accordance with AFI 17-130, Cybersecurity Program Management, serve as 
+lead for cybersecurity policy implementation. 
+2.2.11.  AFGSC  will: 
+2.2.11.1.  Serve as the lead command for the NC3 mission area and as designated Lead 
+Command for the AN/USQ-225 IAW PAD D16-01, AFPD 10-9, Lead Command 
+Designation and Responsibilities for Weapon Systems, and AFI 13-500, Air Force Nuclear 
+Mission Responsibilities. 
+2.2.11.2.  Integrate AN/USQ-225 into the NDO Service Core Function and Domain 
+Mission Chief Architect roles and responsibilities. 
+AFI13-550  16 APRIL 2019 
+9 
+2.2.11.3.  Develop AF NC3 strategic vision and roadmap and identify requirements to 
+weapon system lead and using commands. 
+2.2.12.  AFNC3C  , as the designated lead organization for centralized organize, train and 
+equip functions for the AN/USQ/225, will: 
+2.2.12.1.  In coordination with HAF functionals and MAJCOMs, act as focal point within 
+AFGSC to lead issue resolution across the entire AF NC3 mission area, including, but not 
+limited to, the following areas: requirements development and publication, architecture 
+development and publication, capability performance assessment, resiliency against 
+Electromagnetic Pulse (EMP) and cyber vulnerabilities, and human capital and training. 
+(T-1) 
+2.2.12.2.  Execute Lead Command oversight and management of the AN/USQ-225. (T-1) 
+2.2.12.3.  Develop and analyze metrics to support AN/USQ-225 health assessment, life 
+cycle and risk management processes and provide life cycle sustainment and resource 
+management oversight for the AN/USQ-225. (T-1) 
+2.2.12.4.  Coordinate with other MAJCOMs to organize, train, and equip AF NC3 systems 
+that are external to AFGSC or the AN/USQ-225. (T-1) 
+2.2.12.5.  IAW AFI 63-101 / 20-101, Integrated Life Cycle Management, establish 
+standardized procedures to review, validate, certify, prioritize, and implement modification 
+proposals to the AN/USQ-225. (T-1) 
+2.2.13.  AFMC  designates the Air Force Nuclear Weapons Center, NC3 Integration 
+Director (AFNWC/NC) as the designated Principle Integrator for AN/USQ-225 materiel 
+management and sustainment activities.  These responsibilities include authority and 
+responsibility for weapon system architecture, weapon system configuration management, 
+overall integration, system test, system verification, and system certification spanning 
+AN/USQ-225 constituent elements, external dependencies, and hosts across multiple 
+MAJCOMs. AFNWC/NC will: 
+2.2.13.1.  Sustain, modernize and recapitalize the AN/USQ-225. (T-1) 
+2.2.13.2.  Act as lead systems engineer and technical configuration manager for the 
+AN/USQ-225. (T-1) 
+2.2.13.3.  Assess the health of AN/USQ-225 processes, procedures, and practices of 
+Program Offices using standardized tools such as Logistics Health Assessment and 
+Systems Engineering Assessment Model. (T-1) 
+2.2.13.4.  Provide recommendations for AF leadership to use in making programmatic and 
+operational decisions. (T-1) 
+2.2.13.5.  Provide direct support to AFGSC by synchronizing modernization and 
+procurement of AN/USQ-225 systems using AFGSC delineation of prioritized warfighter 
+needs (based on its role as Lead Command). (T-1) 
+2.2.14.  AFMC  designates the Air Force Nuclear Weapons Center, Nuclear Technology 
+and Interagency Directorate (AFNWC/NT) as lead test organization for EMP protection 
+efforts for AF NC3 systems. (T-1) 
+10 
+AFI13-550  16 APRIL 2019 
+2.2.15.  AFMC designates the Air Force Installation and Mission Support Center 
+(AFIMSC) to advocate for and execute real property requirements for NC3 facilities to 
+mitigate against EMP protection, sustainment, and maintenance shortfalls. (T-1) 
+2.2.16.  All MAJCOMs, the Air National Guard (ANG), Field Operating Agencies (FOAs) and 
+Direct Reporting Units (DRUs), and their subordinate units will support Air Force NC3 
+systems, equipment, personnel, and partnerships to ensure viable AF NC3 operations, training, 
+and security. (T-1) 
+2.2.16.1.  Support AF NC3 operations with a responsibility for developing plans, guidance, 
+procedures, training, and budgets in accordance with the CSAF directed Strategic Planning 
+and Programming Process. (T-1) 
+2.2.16.2.  Support AF NC3 requirements development, metric development, metric 
+updating, and program management reviews. (T-1) 
+2.2.16.3.  Ensure subordinate units process status and discrepancy data for the AN/USQ-
+225 using the Integrated Maintenance Data System or Core Automated Maintenance 
+System for mobility aircraft. (T-1) 
+2.2.16.4.  Where an AF organization is the executive agent for components of the NMCS: 
+provide support, funding, and other program aspects to ensure the components enable the 
+NMCS to meet assigned responsibilities. In accordance with CJCSI 3280.01D, AF 
+executive agents will establish memorandums of agreement with user agencies to ensure 
+accurate assignment of responsibility, accountability, and resources. (T-0) 
+ 
+ 
+AFI13-550  16 APRIL 2019 
+11 
+Chapter 3 
+GOVERNANCE 
+3.1.  Overview.   The Office of the Secretary of Defense maintains robust and recurring oversight 
+of NLCC and NC3 issues across the DoD.  Under authority vested in Title 10 United States Code 
+Section 171a, Council on Oversight of the National Leadership Command, Control, and 
+Communications System (established by Section 1052 of the FY14 National Defense Authorization 
+Act), the DoD established a Council on Oversight of National Leadership Command, Control, and 
+Communications systems.  This Council, co-chaired by Vice Chairman of the Joint Chiefs of Staff 
+and Under Secretary of Defense for Acquisition and Sustainment, governs and oversees NLCC, to 
+include NC3, across all DoD agencies, including AF-owned portions.  The Council provides a 
+centralized decision-making structure and forum through which AF senior officials can elevate 
+AF-owned NC3 issues.  Subordinate to the Council, DoD Chief Information Officer (CIO) chairs 
+a NLCC Executive Management Board, Senior Steering Group, and numerous working groups 
+IAW DoDI S-5100.92, Defense and National Leadership Command Capability Governance, to 
+elevate issues through the Council’s governance structure. 
+3.2.  Air Force Governance Structure.  The AF will establish and maintain a governance 
+structure to evaluate and act on AF NC3 topics at the appropriate level, and to feed AF issues to 
+the OSD governance process.  The Air Force will use a Council, Board, and Group structure 
+described as follows: 
+3.2.1.  AF NLCC/NC3 Council.  The Air Force NLCC/NC3 Oversight Council implements 
+the authority to provide oversight of the AF-owned (funded) portions of NLCC/NC3 for the 
+national leadership of the United States across assigned mission areas.  The Council is a 4-Star 
+level forum, chaired by AFGSC/CC, to exercise authority, responsibility, and establish 
+priorities for AF NLCC/NC3. 
+3.2.2.  AF NLCC/NC3 Board.  The primary role of the AF NLCC/NC3 Oversight Board is to 
+provide senior-level Air Force oversight and strategic direction to resolve key NLCC/NC3 
+issues affecting the Air Force Nuclear Mission.  AFGSC/CD and AF/A10 co-chair the board, 
+which includes participation from MAJCOM/CDs and key Headquarters Air Force 
+functionals. 
+3.2.3.  AF NLCC/NC3 Group.  The primary role of the AF NLCC/NC3 Oversight Group is to 
+act as the action arm for the Council governance process by preparing and forwarding issue 
+recommendations to the Board.  The Group is tri-chaired by the AFNC3C Commander, 
+AFNWC/NC, and AF/A10N. Participation will include MAJCOM representatives and key 
+HAF functionals. 
+3.2.4.  Issues and topics addressed by the AF NLCC/NC3 governance process will include, but 
+are not limited to: AF NC3 requirements, AF NC3 resourcing, AF NC3 capability performance 
+assessment, AF NC3 acquisition program fielding, AF NC3 systems sustainment, AF NC3 
+architecture and configuration management, AF NC3 resiliency, AF NC3 operations and 
+maintenance, and AF NC3 human capital and training. 
+3.3.  Responsibilities.  
+3.3.1.  AF/A10  will: 
+12 
+AFI13-550  16 APRIL 2019 
+3.3.1.1.  Co-chair the AF NLCC/NC3 Board and Group. 
+3.3.1.2.  Act as the primary AF interface to DoD CIO who serves as the Secretariat for the 
+Council on Oversight of the National Leadership Command, Control, and Communications 
+Systems and chair for its subordinate boards and working groups. AF/A10 will defer to 
+SAF/CIO A6 on non-NC3 related NLCC issues. (T-0) 
+3.3.2.  Headquarters Air Force functionals will participate as advisory members in all AF 
+NLCC/NC3 governance forums as determined by agenda topics. 
+3.3.3.  AFGSC will: 
+3.3.3.1.  Chair the AF NLCC/NC3 Council. 
+3.3.3.2.  Co-chair the AF NLCC/NC3 Board and Group. 
+3.3.3.3.  Publish and maintain a charter governing the AF NLCC/NC3 governance 
+structure and process. 
+3.3.3.4.  Act as Secretariat for all forums. 
+3.3.4.  AFNWC/NC will co-chair the Group. 
+3.3.5.  MAJCOMs will participate as voting members in all AF NLCC/NC3 governance 
+forums. 
+ 
+ 
+AFI13-550  16 APRIL 2019 
+13 
+Chapter 4 
+RESOURCING 
+4.1.  Overview.  Appropriate and timely resourcing during development, acquisition, sustainment 
+and modernization of the AF NC3 mission area is the foundation of a sustainable, robust capability 
+for the proper execution of authorized command and control of the nation’s nuclear forces.  The 
+establishment of the AN/USQ-225, alignment of NC3 under the NDO Service Core Function, and 
+establishment of a governance structure helps to centralize resourcing processes and decisions.  
+However, due to the expansive scope and breadth of the nuclear command and control mission 
+space, NC3 will continue to overlap with other service core functions.  Nuclear mission roles for 
+numerous AF system platforms and personnel result in NC3 equities in the Space Superiority, 
+Cyberspace Superiority, Air Superiority, Global Precision Attack, Global Integrated Intelligence, 
+Surveillance and Reconnaissance, Command and Control, Rapid Global Mobility, Agile Combat 
+Support, and Education and Training service core functions. 
+4.2.  The AF will holistically assess and evaluate NC3 resourcing needs across all affected 
+service core functions. 
+4.3.  Responsibilities.   
+4.3.1.  AF/A10   will: 
+4.3.1.1.  Lead AF NC3 Issue Team participation in DoD Program and Budget Review for 
+the AF NC3 programs and resources. (T-0) 
+4.3.1.2.  Maintain AF-wide resourcing focus on AF NC3 systems and facilities, and 
+maintain close coordination with service core functions, Lead Commands/Lead Agents, 
+and corporate panels (e.g., NDO, Space, and C2). 
+4.3.2.  AF/A5/8  will integrate AF NC3 into Air Force long-range strategic planning, resource 
+allocation planning, and AF Program Objective Memorandum builds.  Coordinate with 
+AF/A10, SAF/AQ, AFGSC, and other appropriate Air Force components. 
+4.3.3.  SAF/AQ  will monitor execution status of AF NC3 acquisition programs, identify 
+program budget disconnects, and coordinate investment programming and reprogramming 
+actions. 
+4.3.3.1.  AFPEO NC3 will provide execution status to SAF/AQ for assigned NC3 
+programs in order to monitor the execution status, identify program budget disconnects, 
+and coordinate investment programming and reprogramming actions. 
+4.3.3.2.  All PEOs will provide execution status to SAF/AQ for assigned programs 
+providing constituents to the AN/USQ-225, or providing other capabilities supporting the 
+AF NC3 mission area (e.g., integrated tactical warning and attack assessment or military 
+satellite communications). 
+4.3.4.  AFGSC  will: 
+4.3.4.1.  Identify and coordinate inclusion of AF NC3 funding requirements in the NDO 
+Service Core Function portfolio budget. 
+14 
+AFI13-550  16 APRIL 2019 
+4.3.4.2.  Identify AF NC3-related facility requirements at AFGSC installations, to include 
+EMP protection, sustainment, and maintenance, and coordinate mitigation resourcing with 
+AFIMSC. 
+4.3.4.3.  Coordinate with relevant Lead Commands/Lead Agents to identify AF NC3-
+related funding requirements in non-NDO service core functions.  Synchronize planning 
+and programming activities for NC3 capability areas that overlap with those Service Core 
+Functions. 
+4.3.4.4.  Provide input to the AF NLCC/NC3 governance process and Air Force Corporate 
+process through a prioritized resource requirements list for all NC3 capability areas. 
+4.3.4.5.  Coordinate with appropriate CCMDs on modification proposals affecting the NC3 
+capability of AF procured delivery systems and supporting infrastructure to ensure system 
+sustainment and modernization is executable. 
+4.3.5.  Air Combat Command (ACC)  will: 
+4.3.5.1.  Identify AF NC3-related funding requirements within ACC and coordinate their 
+inclusion in the AF NC3 funding requirements list with AFGSC and the appropriate Lead 
+Command/Lead Agent. 
+4.3.5.2.  Identify AF NC3-related facility requirements at ACC installations (e.g. command 
+centers, wing command posts), to include EMP protection, sustainment, and maintenance, 
+and coordinate mitigation resourcing with AFIMSC. 
+4.3.5.3.  Identify shortfalls in AF NC3-related requirements within their Lead 
+Command/Lead Agent or installation portfolios and elevate through the AF NLCC/NC3 
+governance and AF Corporate Structure processes. 
+4.3.6.  Air Education and Training Command (AETC)  will: 
+4.3.6.1.  Identify funding and manning for AF NC3-related education and training 
+requirements and coordinate their inclusion in the AF NC3 funding requirements list with 
+AFGSC and the appropriate Lead Command/Lead Agent. 
+4.3.6.2.  Identify AF NC3-related facility requirements at AETC installations, to include 
+EMP protection, sustainment, and maintenance, and coordinate mitigation resourcing with 
+AFIMSC. 
+4.3.6.3.  Identify shortfalls in AF NC3-related requirements within their Lead 
+Command/Lead Agent or installation portfolios and elevate through the AF NLCC/NC3 
+governance and AF Corporate Structure processes. 
+4.3.7.  AFMC  will: 
+4.3.7.1.  Identify AF NC3-related funding requirements within AFMC and coordinate their 
+inclusion in the AF NC3 funding requirements list with AFGSC and the appropriate Lead 
+Command/Lead Agent. 
+4.3.7.2.  Identify AF NC3-related facility requirements at AFMC installations, to include 
+EMP protection, sustainment, and maintenance, and coordinate mitigation resourcing with 
+AFIMSC. 
+AFI13-550  16 APRIL 2019 
+15 
+4.3.7.3.  Identify shortfalls in AF NC3-related requirements within their Lead 
+Command/Lead Agent, installation portfolios, or acquisition portfolios and elevate through 
+the AF NLCC/NC3 governance and AF Corporate Structure processes. 
+4.3.7.4.  Oversee AFNWC/NC, as Principal Integrator for AN/USQ-225 sustainment, 
+modernization, and recapitalization, to offer recommendations and technical advice to 
+AFGSC to use in making programmatic resourcing decisions. 
+4.3.8.  Air Force Reserve Command (AFRC)  will: 
+4.3.8.1.  Identify NC3-related resource shortfalls and elevate them through the AF 
+NLCC/NC3 governance and AF Corporate Structure processes. 
+4.3.8.2.  Identify AF NC3-related facility requirements at AFRC installations (e.g. wing 
+command posts), to include EMP protection, sustainment, and maintenance, and coordinate 
+mitigation resourcing with AFIMSC. 
+4.3.9.  Air National Guard (ANG)  will: 
+4.3.9.1.  Identify NC3-related resource shortfalls and elevate them through the AF 
+NLCC/NC3 governance and AF Corporate Structure processes. 
+4.3.9.2.  Identify AF NC3-related facility requirements at ANG installations (e.g. wing 
+command posts), to include EMP protection, sustainment, and maintenance, and coordinate 
+mitigation resourcing with the owning MAJCOM and AFIMSC. 
+4.3.10.  Air Force Space Command (AFSPC)  will: 
+4.3.10.1.  Identify AF NC3-related funding requirements within AFSPC and coordinate 
+their inclusion in the AF NC3 funding requirements list with AFGSC and the appropriate 
+Lead Command/Lead Agent. 
+4.3.10.2.  Identify AF NC3-related facility requirements at AFSPC installations (e.g. 
+command centers, radar sites), to include EMP protection, sustainment, and maintenance, 
+and coordinate mitigation resourcing with AFIMSC. 
+4.3.10.3.  Identify shortfalls in AF NC3-related requirements within their Lead 
+Command/Lead Agent, installation portfolios, or acquisition portfolios and elevate through 
+the AF NLCC/NC3 governance and AF Corporate Structure processes. 
+4.3.11.  Air Mobility Command (AMC)  will: 
+4.3.11.1.  Identify AF NC3-related funding requirements within AMC and coordinate their 
+inclusion in the AF NC3 funding requirements list with AFGSC and the appropriate Lead 
+Command/Lead Agent. 
+4.3.11.2.  Identify AF NC3-related facility requirements at AMC installations (e.g. wing 
+command posts), to include EMP protection, sustainment, and maintenance, and coordinate 
+mitigation resourcing with AFIMSC. 
+4.3.11.3.  Identify shortfalls in AF NC3-related requirements within their Lead 
+Command/Lead Agent or installation portfolios and elevate through the AF NLCC/NC3 
+governance and AF Corporate Structure processes. 
+4.3.12.  Pacific Air Forces (PACAF)  will: 
+16 
+AFI13-550  16 APRIL 2019 
+4.3.12.1.  Identify U.S. Indo-Pacific Command theater unique AF NC3-related funding 
+requirements and coordinate their inclusion in the AF NC3 funding requirements list with 
+AFGSC and the appropriate Lead Command/Lead Agent. 
+4.3.12.2.  Identify AF NC3-related facility requirements at PACAF installations, to include 
+EMP protection, sustainment, and maintenance, and coordinate mitigation resourcing with 
+AFIMSC. 
+4.3.12.3.  Identify NC3-related resource shortfalls and elevate them through the AF 
+NLCC/NC3 governance and AF Corporate Structure processes. 
+4.3.13.  United States Air Forces in Europe (USAFE)  will: 
+4.3.13.1.  Identify European Command (EUCOM) theater unique AF NC3-related funding 
+requirements and coordinate their inclusion in the AF NC3 funding requirements list with 
+AFGSC and the appropriate Lead Command/Lead Agent. 
+4.3.13.2.  Identify AF NC3-related facility requirements at USAFE installations (e.g. 
+command centers, Munitions Support Squadron sites), to include EMP protection, 
+sustainment, and maintenance, and coordinate mitigation resourcing with AFIMSC. 
+4.3.13.3.  Identify NC3-related resource shortfalls and elevate them through the AF 
+NLCC/NC3 governance and AF Corporate Structure processes. 
+ 
+ 
+AFI13-550  16 APRIL 2019 
+17 
+Chapter 5 
+ARCHITECTURE AND CONFIGURATION MANAGEMENT 
+5.1.  Overview.  NC3 capabilities derive from a complex system of systems consisting of sensors, 
+platforms, and decision support tools connected via communications links and networks transiting 
+the terrestrial, aerial, and space domains.  The AF portion of the NC3 mission area has numerous 
+touch points to external systems managed by external organizations (e.g., Navy, Army, and 
+Defense Information Systems Agency (DISA)).  These characteristics dictate the need for forward 
+thinking architecture planning and deliberate configuration change control and change 
+management processes. 
+5.2.  The AF will develop and maintain an AF NC3 architecture and implement a 
+configuration management process. 
+5.3.  Responsibilities.   
+5.3.1.  AF/A10  will: 
+5.3.1.1.  Act as the primary AF interface on NC3-related architecture and configuration 
+management matters to other services and external agencies at the headquarters level. 
+5.3.1.2.  Coordinate AF participation in joint NLCC/NC3 architecture and configuration 
+management forums. (T-0) 
+5.3.2.  SAF/CIO A6  will: 
+5.3.2.1.  Serve as lead for the NC3 Enterprise Architecture. 
+5.3.2.2.  Coordinate with AF/A10, AF/A2, and AFGSC on AF NLCC/NC3 architecture 
+requirements. 
+5.3.2.3.  Provide NC3 architecture integration and planning support to improve design 
+integrity, survivability, endurability, interoperability, compatibility, security, performance, 
+and reliability as components of the NLCC. 
+5.3.3.  AFGSC  will: 
+5.3.3.1.  Appoint a Chief Architect for NDO (to include AF NC3) Service Core Function 
+architecture oversight as specified in, but not limited to, AFI 17-140, Architecting. 
+Establish the AF NC3 Enterprise Architecture. 
+5.3.3.2.  In coordination with AFNWC, engage with PEOs, Services, CCMDs, and 
+agencies with NC3 related programs not aligned to the AFPEO NC3, but who act as 
+architects for their NC3 related systems.  Coordinate with SAF/CIO A6 to negotiate 
+compatible interfaces to enable a federated approach to architecture IAW AFI 17-140. 
+5.3.4.  AFNC3C   will: 
+5.3.4.1.  Be a voting member of the AFNWC/NC-chaired AN/USQ-225 Configuration 
+Control Board (CCB). (T-1) 
+5.3.4.2.  Establish policy to assure fleet-wide interoperability of the NC3 mission area. (T-
+1) 
+18 
+AFI13-550  16 APRIL 2019 
+5.3.4.3.  Establish policy to assure fleet-wide commonality and configuration control 
+through the preservation of baselined characteristics to AN/USQ-225 constituents. (T-1) 
+5.3.4.4.  Ensure all operational changes or degradation of baselined characteristics to a 
+system or end-item are coordinated with and assessed by AFNWC/NC. (T-1) 
+5.3.4.5.  Perform periodic verification audits, each consisting of pre-audit preparation, 
+audit conduct, and post-audit reporting and follow-up for the AN/USQ-225. (T-1) 
+5.3.4.6.  Validate AN/USQ-225 configuration element capabilities to execute mission 
+essential tasks and responsibilities. (T-1) 
+5.3.4.7.  Establish a Requirements Review Board process to validate all AN/USQ-225 
+configuration modification or maintenance procedure change prior to submission to 
+AFNWC/NC. (T-1) 
+5.3.5.  AFNWC/NC  , as Principal Integrator of the AN/USQ-225, will: 
+5.3.5.1.  Establish and chair the AN/USQ-225 Configuration Control Board (CCB), to 
+include representatives of the operational, maintenance, sustainment, safety, and test and 
+evaluation communities. (T-1) 
+5.3.5.2.  Establish and maintain configuration management of AN/USQ-225 operational, 
+implementation, and target baselines. (T-1) 
+5.3.5.3.  Establish interface control documentation defining the system interfaces between 
+AN/USQ-225 and external sensors, platforms, facilities, and other critical external 
+dependencies. (T-1) 
+5.3.5.4.  Coordinate with other PEOs and MAJCOM facility owners or agency facility 
+owners to integrate AN/USQ-225 constituent systems with external sensors, platforms, 
+facilities, and other critical dependencies. (T-1) 
+5.3.5.5.  As the AN/USQ-225 mission worthiness certification authority, grant AN/USQ-
+225 operational baseline certification based on a technical assessment that the system will 
+perform in a known and understood manner. (T-1) 
+5.3.5.6.  Coordinate directly with external agencies (e.g., Navy, Army, DISA, and National 
+Security Agency) in order to coordinate system engineering and configuration management 
+activities across the broader DoD NC3 mission area. (T-0) 
+5.3.6.  MAJCOMs supporting AN/USQ-225 host facilities, constituents, or external 
+dependencies will coordinate requested or planned configuration baseline changes with 
+AFGSC and AFNWC/NC-AFPEO NC3 prior to implementation. 
+5.3.7.  AF PEOs will coordinate requested or planned AN/USQ-225 host platform, constituent, 
+or external dependency configuration baseline changes with AFGSC and AFNWC/NC-
+AFPEO NC3 prior to implementation.  Provide necessary configuration data (e.g. engineering 
+drawings) as required. 
+ 
+ 
+AFI13-550  16 APRIL 2019 
+19 
+Chapter 6 
+RESILIENCE 
+6.1.  Overview.  By national policy, NC3 capabilities must be assured, reliable, and resilient 
+across the range of threat conditions—from benign to highly contested—through all phases of 
+nuclear (and, at times, non-nuclear) conflict.  This chapter will focus on two of the most broadly 
+applied challenges: hardening against the effects of electromagnetic pulse and threats in the 
+cyberspace domain. 
+6.2.  The AF will establish a resource-informed process to manage resilience against threats 
+to include, but not limited to, EMP and cyberspace threats IAW governing DoD and CJCS 
+directives and Military Standard documents.  (T-0) 
+6.3.  Responsibilities. 
+6.3.1.  AF/A10  will: 
+6.3.1.1.  Coordinate AF responses to OSD and JS direction to develop EMP mitigation 
+plans for AF NC3 nodes and facilities and develop cybersecurity strategies and plans for 
+AF NC3 systems. (T-0) 
+6.3.1.2.  Coordinate AF participation in joint NC3 EMP and NC3 cybersecurity forums. 
+6.3.1.3.  Advise CSAF and SecAF on AF NC3 EMP and cybersecurity issues and 
+mitigation plans. 
+6.3.1.4.  In coordination with SAF/CIO A6, coordinate the appointment of AF NC3 system 
+authorizing officials to AF organizations IAW AFI 17-130. 
+6.3.2.  AF/A2  will: 
+6.3.2.1.  Implement NC3 and intelligence cybersecurity policy IAW AFI 17-130. 
+6.3.2.2.  Execute authorizing official duties for a subset of AF NC3 systems IAW DoDI 
+8510.01, Risk Management Framework for DoD Information Technology, AFI 17-130, and 
+applicable CDRUSSTRATCOM Memoranda delegating the authorizing official 
+responsibilities for specified systems. (T-0) 
+6.3.2.3.  Participate in designated NC3 system modernization efforts to ensure appropriate 
+controls are in place to protect mission data and system resources. 
+6.3.3.  AF/A3  will enter Mission Critical AF NC3 equipment and facilities as identified by 
+responsible AF offices on the Service’s annual Mission Critical Report (IAW DODI 3150.09, 
+The Chemical, Biological, Radiological, and Nuclear (CBRN) Survivability Policy). (T-0) 
+6.3.4.  SAF/CIO A6  will: 
+6.3.4.1.  Serve as AF lead for NC3 cybersecurity policy. 
+6.3.4.2.  Ensure cybersecurity is an integral part of AF NC3 systems and applications 
+design, guaranteeing appropriate controls are in place and provided to protect mission data 
+and system resources. 
+6.3.5.  SAF/AQ  will: 
+20 
+AFI13-550  16 APRIL 2019 
+6.3.5.1.  Ensure cybersecurity policy implementation for NC3 systems.  Ensure 
+cybersecurity is an integral part of NC3 system design such that appropriate design 
+principles and measures are used and controls are in place and provided to protect mission 
+data and system resources. 
+6.3.5.2.  Ensure acquisition security is an integral part of AF NC3 systems and applications 
+design IAW AFI 63-101 / 20-101. Implement appropriate program protection planning 
+measures to protect critical program information, critical components, mission data, and 
+system resources. 
+6.3.6.  AFGSC  will: 
+6.3.6.1.  Execute authorizing official duties for a subset of AF NC3 systems IAW DoDI 
+8510.01, AFI 17-130, and applicable CDRUSSTRATCOM Memoranda delegating 
+authorizing official responsibilities for specified systems. (T-0) 
+6.3.6.2.  Provide cybersecurity oversight for AF NC3 systems, including: strategies, 
+guidance, training, and support to AF organizations. 
+6.3.6.3.  Serve as the EMP Hardness Maintenance and Hardness Surveillance (HM/HS) 
+oversight authority for AF NC3 nodes and facilities. 
+6.3.6.3.1.  Coordinate mitigation plan cost estimates to bring AF NC3 nodes in 
+compliance with EMP survivability and endurability standards IAW CJCSI 3222.01B, 
+CJCS Requirements for High Altitude Electromagnetic Pulse Protection of Nuclear C3 
+Nodes and Systems and USSTRATCOM Instruction 501-2, Operations, Planning, and 
+Command and Control Survivability Certification.  Coordinate for subject matter 
+expert support, as required, with DOD organizations (e.g. USSTRATCOM, Defense 
+Threat Reduction Agency, AFNWC, AFIMSC, or other MAJCOMs) or industry 
+partners. (T-0) 
+6.3.6.3.2.  Provide EMP mitigation cost data to AFIMSC so they can fund and execute 
+facility modifications. 
+6.3.6.3.3.  Establish a HM/HS process to maintain AF NC3 node EMP compliance. 
+6.3.6.3.4.  Develop training programs on EMP effects, mitigation, and recovery of 
+system operations for AF NC3 systems and supporting architecture, installations, and 
+personnel. 
+6.3.7.  AFMC  will: 
+6.3.7.1.  Perform cyber vulnerability assessments for weapon system platforms with a 
+nuclear mission.  Provide results to owning MAJCOMs. 
+6.3.7.2.  Coordinate support from AFIMSC to fund and execute facility modifications to 
+mitigate EMP hardness shortfalls at AF NC3 nodes and facilities. 
+6.3.7.3.  Implement acquisition security for AF NC3 systems IAW AFI 63-101 / 20-101. 
+6.3.8.  AFSPC  will: 
+6.3.8.1.  Execute authorizing official duties for a subset of AF NC3 systems IAW DoDI 
+8510.01, AFI 17-130, and applicable CDRUSSTRATCOM Memoranda delegating 
+authorizing official responsibilities for specified systems. (T-0) 
+AFI13-550  16 APRIL 2019 
+21 
+6.3.8.2.  Coordinate resourcing for EMP protection shortfalls at AFSPC NC3 nodes and 
+facilities with AFIMSC. 
+6.3.8.3.  Coordinate with AFGSC on any modifications to identified AN/USQ-225 external 
+dependencies (e.g. communications satellites, ground entry points, non-collocated 
+communications terminals, and DoD Information Network links). 
+6.3.8.4.  Identify NC3 cybersecurity risks against AFSPC systems and facilities. 
+Coordinate mitigation planning with AF/A10, AFGSC, AFNC3C, and AFNWC. 
+6.3.9.  Remaining MAJCOMs, ANG, FOAs, and DRUs will: 
+6.3.9.1.  Identify NC3 cybersecurity risks against associated systems and facilities. 
+Coordinate mitigation planning with AF/A10, AFGSC, AFNC3C, AFNWC, and owning 
+MAJCOM (when applicable). 
+6.3.9.2.  Coordinate resourcing for EMP protection shortfalls at AF NC3 nodes and 
+facilities with AFIMSC and owning MAJCOM (when applicable). 
+ 
+ 
+22 
+AFI13-550  16 APRIL 2019 
+Chapter 7 
+ASSESSMENTS 
+7.1.  Overview.  Paramount to an effective nuclear deterrent is a ready, high-performing NC3 
+System. Given that the AF owns the preponderance of the overall NC3 system, a deliberate and 
+proactive AF assessment program is critical to the functionality of the overall system. 
+7.2.  The AF will establish and maintain an assessment program to measure performance, 
+identify shortfalls, and correct deficiencies in the AF NC3 system. 
+7.3.  Responsibilities. 
+7.3.1.  AF/A10  will: 
+7.3.1.1.  Act as the primary AF interface on AF NC3 assessment matters to OSD, JS, other 
+services, and external agencies at the headquarters level. (T-0) 
+7.3.1.2.  Coordinate AF participation in joint NC3 assessment forums. 
+7.3.1.3.  Conduct periodic comprehensive NC3 assessments and provide such assessments 
+to the SecAF, CSAF, and other organizations as directed by law. (T-0) 
+7.3.1.4.  Monitor consolidated assessments, exercises, and reporting regarding the health 
+and status of the AF NC3 mission area, with support from MAJCOMs, HAF functionals, 
+and others as required. 
+7.3.1.5.  Maintain situational awareness of AF participation and review metrics generated 
+by formal DoD NC3 assessment and exercise programs, such as: USSTRATCOM 
+Continuing Evaluation Program (CEP) (US Strategic Command Instruction 513-3, 
+Continuing Evaluation Program) and the Joint Staff POLO HAT and PAUL REVERE 
+programs (CJCSI 3264.01F, Nuclear Command, Control, and Communications (NC3) 
+Operational Assessment Programs). (T-0) 
+7.3.1.6.  Pull inspection reports from the Inspector General Evaluation Management 
+System on a recurring basis to conduct trend analysis and continual evaluation IAW AFI 
+90-201, The Air Force Inspection System. 
+7.3.2.  AF/A9  will support reliability and resource decision analysis with advanced data 
+analytics on AF NC3. 
+7.3.3.  MAJCOMs, FOAs, DRUs, and their subordinates will participate in formalized AF 
+NC3 System assessments and exercises IAW CJCSI 3264.01F and USSTRATCOM SI 513-3. 
+(T-0) 
+7.3.4.  AFGSC will: 
+7.3.4.1.  Implement and maintain an AF Continuing Evaluation Program IAW 
+USSTRATCOM Instruction SI 513-3. (T-0) 
+7.3.4.2.  Establish and maintain an AN/USQ-225 operational reporting process IAW 
+AFMAN 10-206, Operational Reporting, to identify, elevate, and resolve system 
+problems.  Conduct trend analyses to identify systemic issues. 
+AFI13-550  16 APRIL 2019 
+23 
+7.3.4.3.  Establish and maintain an AN/USQ-225 maintenance data-reporting tool to 
+identify, elevate, and resolve maintenance problems. Conduct trend analyses to identify 
+systemic issues. 
+7.3.4.4.  Establish an assessment process to review performance metrics generated from 
+CEP data, POLO HAT assessments, and operational and maintenance data reporting on a 
+periodic basis. The process should develop and mature an AN/USQ-225 health dashboard, 
+identify root causes, identify corrective measures, and track performance improvements 
+through issue resolution. 
+7.3.5.  AFNWC/NC  , as Principal Integrator for AN/USQ-225 sustainment, modernization, 
+and recapitalization, will: 
+7.3.5.1.  Perform AN/USQ-225 acquisition and sustainment health assessments and 
+integrate them into the Nuclear Weapon System Enterprise Review. 
+7.3.5.2.  Assess health of processes, procedures, and practices of program offices using 
+standardized tools such as Logistics Health Assessment and Systems Engineering 
+Assessment Model. 
+7.3.5.3.  Support AFGSC through the development of AF NC3 metrics collection tools, 
+development of tools to support an AN/USQ-225 health dashboard, and the provision of 
+technical expertise for root cause analysis and issue resolution. 
+7.3.6.  NC3 supporting MAJCOMs will: 
+7.3.6.1.  Establish a command NC3 assessment lead to coordinate MAJCOM participation 
+in, and issue resolution resulting from assessment programs to include POLO HAT and 
+CEP. 
+7.3.6.2.  Participate in cross-functional reviews of assessments to identify system 
+deficiencies, tactics, techniques, and procedures. 
+7.3.6.3.  Ensure participating units designate lead assessment agents for NC3 assessments. 
+ 
+RICHARD M. CLARK, Lt Gen, USAF 
+DCS, Strategic Deterrence & Nuclear Integration 
+24 
+AFI13-550  16 APRIL 2019 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References: 
+AFPD 13-5, Air Force Nuclear Mission, 17 July 2018 
+AFI 33-360, Publications and Forms Management, 1 December 2015 
+AFMAN 33-363, Management of Records, 1 March 2008 
+HQ USAF/A10 PAD D16-01, Centralized Management of the Nuclear Enterprise 
+Presidential Policy Directive-35, United States Nuclear Weapons Command and Control, Safety, 
+and Security, 8 December 2015 
+CJCSI 6811.0lC, Nuclear Command and Control System Technical Performance Criteria, 7 
+February 2014 (S) 
+DoDI S-3730.01, Nuclear Command, Control, and Communications (NC3) System, 6 November 
+2015 
+CJCSI 3280.01D, National Military Command System (NMCS), 7 April 2017 
+AFI 16-1404, Air Force Information Security Program, 29 May 2015 
+CJCSI 3231.01B, Safeguarding Nuclear Command and Control Extremely Sensitive Information, 
+6 June 2007 
+AFI 13-502, Safeguarding Nuclear Command and Control Extremely Sensitive Information, 2 
+February 2018 
+DoDI 5200.01, DoD Information Security Program and Protection of Sensitive Compartmented 
+Information, 21 April 2016 
+DoDI 5210.02, Access to and Dissemination of Restricted Data and Formerly Restricted Data, 3 
+June 2011 
+DoDI 5210.83, DoD Unclassified Controlled Nuclear Information, 12 July 2012 
+DoDM 5200.01, Volumes 1-4, DoD Information Security Program, dates vary by volume 
+DoDM 5200.45, Instructions for Developing Security Classification Guides, 2 April 2013 
+DoDM 5205.07, Volumes 1-4, DoD Special Access Program Security Manual, dates vary by 
+volume 
+AFI 35-102, Security and Policy Review Process, 4 May 2016 
+AFI 61-201, Management of Scientific and Technical Information (STINFO), 29 January 2016 
+AF Technical Order 00-20-2, Maintenance Data Documentation, 15 March 2016 
+HAFMD 1-60, Deputy Chief of Staff of the Air Force Strategic Deterrence and Nuclear 
+Integration, 22 June 2017 
+AFI 14-111, Intelligence Support to the Acquisition Life-Cycle, 18 May 2012 
+AFI13-550  16 APRIL 2019 
+25 
+CJCSI 5123.01H, Charter of the Joint Requirements Oversight Council (JROC) and 
+Implementation of the Joint Capabilities Integration and Development System (JCIDS), 31 
+August 2018 
+AFI 17-130, Cybersecurity Program Management, 31 August 2015 
+AFPD 10-9, Lead Command Designation and Responsibilities for Weapon Systems, 8 Mar 2007 
+AFI 63-101 / 20-101, Integrated Life Cycle Management, 9 May 2017 
+AFGM 2018-90-01 to AFPD 90-6, Air Force Strategy, Planning, Programming, Budgeting and 
+Execution (SPPBE) Process, 31 May 2018 
+Title 10 United States Code, Section 171a, Council on Oversight of the National Leadership 
+Command, Control, and Communications System 
+National Defense Authorization Act, Section 1052, Public Law 113-66, Council on Oversight of 
+the National Leadership Command, Control, and Communications System, December 2013 
+DoDI S-5100.92, Defense and National Leadership Command Capability Governance, 12 May 
+2009 
+AFI 17-140, Architecting, 29 June 2018 
+DoDI 8510.01, Risk Management Framework for DoD Information Technology, 12 March 2014 
+DoDI 3150.09, The Chemical, Biological, Radiological, and Nuclear (CBRN) Survivability 
+Policy, 8 April 2015 
+CJCSI 3222.01B, CJCS Requirements for High Altitude Electromagnetic Pulse Protection of 
+Nuclear C3 Nodes and Systems, 1 May 2013 (S) 
+USSTRATCOM SI 501-2, Operations, Planning, and Command and Control Survivability 
+Certification, 22 February 2012 
+USSTRATCOM SI 513-3, USSTRATCOM Communications Continuing Evaluation Program 
+(CEP), 8 February 2011 
+CJCSI 3264.01F, Nuclear Command, Control, and Communications (NC3) Operational 
+Assessment Programs, 7 October 2016 
+AFI 90-201, The Air Force Inspection System, 20 November 2018 
+AFMAN 10-206, Operational Reporting, 18 June 2018 
+AFI 13-500, Air Force Nuclear Mission Responsibilities, 14 November 2018 
+DoDD 3020.26, Department of Defense Continuity Policy, 14 February 2018 
+Adopted Forms 
+AF Form 847, Recommendation for Change of Publication, 22 September 2009 
+Abbreviations and Acronyms 
+ACC—Air Combat Command 
+AETC—Air Education and Training Command 
+26 
+AFI13-550  16 APRIL 2019 
+AFGSC—Air Force Global Strike Command 
+AF—Air Force 
+AFI—Air Force Instruction 
+AFIMSC—Air Force Installation and Mission Support Center 
+AFMAN—Air Force Manual 
+AFMC—Air Force Materiel Command 
+AFNC3C—Air Force Nuclear Command, Control, and Communications Center 
+AFNWC—Air Force Nuclear Weapons Center 
+AFPD—Air Force Policy Directive 
+AFPEO—Air Force Program Executive Office 
+AFRC—Air Force Reserve Command 
+AFSEC—Air Force Safety Center 
+AFSPC—Air Force Space Command 
+AMC—Air Mobility Command 
+ANG—Air National Guard 
+C2—Command and Control 
+C3—Command, Control, and Communications 
+C4—Command, Control, Communications, and Computers 
+CBRN—Chemical, Biological, Radiological, and Nuclear 
+CCB—Configuration Control Board 
+CCMD—Combatant Command 
+CEP—Continuing Evaluation Programs 
+CIO—Chief Information Officer 
+CJCS—Chairman of the Joint Chiefs of Staff 
+CJCSI—Chairman of the Joint Chiefs of Staff Instruction 
+CSAF—Chief of Staff of the Air Force 
+DISA—Defense Information Systems Agency 
+DoD—Department of Defense 
+DoDCIO—Department of Defense Chief Information Officer 
+DoDI—Department of Defense Instruction 
+DoDM—Department of Defense Manual 
+DRU—Direct Reporting Unit 
+AFI13-550  16 APRIL 2019 
+27 
+EMP—Electromagnetic Pulse 
+EUCOM—European Command 
+FOA—Field Operating Agency 
+HAF—Headquarters Air Force 
+HAFMD—Headquarters Air Force Mission Directive 
+HM/HS—Hardness maintenance/hardness Surveillance 
+IAW—In Accordance With 
+JS—Joint Staff 
+MAJCOM—Major Command 
+NC2—Nuclear Command and Control 
+NC3—Nuclear Command, Control, and Communications 
+NDO—Nuclear Deterrence Operations 
+NLCC—National Leadership Command Capability 
+NMCS—National Military Command System 
+OPR—Office of Primary Responsibility 
+OSD—Office of the Secretary of Defense 
+PACAF—Pacific Air Forces 
+PEO—Program Executive Officer 
+PPD—Presidential Policy Directive 
+SAF—Secretary of the Air Force 
+SecAF—Secretary of the Air Force 
+SI—STRATCOM Instruction 
+U.S.—United States 
+USAFE—United States Air Forces in Europe 
+USSTRATCOM—United States Strategic Command 
+WS—Weapon System 
+Terms  
+AF Nuclear Mission—The Air Force nuclear mission consists of the people, organizations, 
+processes, procedures, and systems conducting, executing, and supporting nuclear operations, and 
+developing and implementing nuclear policy and guidance. Reference AFI 13-500 for a description 
+of the major deliberative bodies of the Air Force Nuclear Governance Structure and a description 
+of key nuclear mission functions. (AFPD 13-5) 
+AN/USQ—225 Configuration Baselines - Three Configuration Baselines define management of 
+the AN/USQ-225: Operational, Implementation and Target. The Operational Baseline consists of 
+28 
+AFI13-550  16 APRIL 2019 
+the systems and associated support equipment, end-items and commodities comprising the 
+AN/USQ-225 currently fielded and in operational use. The Implementation Baseline consists of 
+those Post-Milestone B acquisition programs that are developing replacements for systems, end-
+items and commodities in the Operational Baseline.  The Target Baseline consists of those Pre-
+Milestone B programs identified to upgrade or replace NC3 systems, end-items or commodities 
+that are not yet in execution. 
+AN/USQ-225 
+Configuration 
+Element—The 
+AF 
+terminals, 
+radios, 
+direct 
+ancillary 
+communications devices and support equipment that reside on or within each NC3 platform or 
+within each NC3 mission facility employed to execute nuclear command and control. 
+AN/USQ-225 External Dependency—Systems, end-items and commodities external but directly 
+connected to one or more Air Force AN/USQ-225 Configuration Elements that are required to 
+support the host platform or facility NC3 mission and are critical for system-of-systems 
+integration. 
+Air Force AN/USQ—225 Mission Worthiness Certification - The verified and documented 
+degree, to which the Air Force AN/USQ-225 operational configuration baseline, through the 
+constituted Configuration Elements, can perform its mission with the confidence that capabilities, 
+limitations, and risks are known, understood and deemed acceptable. 
+Architecture—A systematic approach that organizes and guides design, analysis, planning, and 
+documentation activities. (AFI 17-140) 
+Configuration Management—Configuration Management is formalized change management of 
+the system Technical Baseline, which includes a Functional Baseline, an Allocated Baseline, and 
+a Product Baseline. (AFI 63-101 / 20-101) 
+Continuity of Operations—An internal effort within individual DoD Components to ensure 
+uninterrupted, essential DoD Component functions across a wide range of potential emergencies, 
+including localized acts of nature, accidents, and technological and/or attack related emergencies. 
+(DoDD 3020.26) 
+Cybersecurity—Prevention of damage to, protection of, and restoration of computers, electronic 
+communications systems, electronic communications services, wire communication, and 
+electronic communication, including information contained therein, to ensure its availability, 
+integrity, authentication, confidentiality, and nonrepudiation. (AFI 17-130) 
+Decision Making—The set of C3 activities relating to the assessment, review, and consultation 
+regarding consideration for use or movement of nuclear weapons or the execution of other nuclear 
+control orders. (CJCSI 6811.01C) 
+Electromagnetic Pulse—The electromagnetic radiation from a nuclear explosion caused by 
+Compton-recoil electrons and photoelectrons from photons scattered in the materials of the nuclear 
+device or in a surrounding medium. The resulting electric and magnetic fields may couple with 
+electrical or electronic systems to produce damaging current and voltage surges. Depending on the 
+burst type, can cause power spikes ranging from several hundred volts per meter up to more than 
+one million volts per meter. Can cause component or sub-system burnout or degradation and 
+system upset. (DoDI 3150.09) 
+AFI13-550  16 APRIL 2019 
+29 
+Force Direction—The set of C3 activities relating to the assignment, training, deployment, 
+maintenance, and logistic support of nuclear forces and weapons before, during and after any crisis. 
+(CJCSI 6811.01C) 
+Force Management—The set of C3 activities relating to the assignment, training, deployment, 
+maintenance, and logistic support of nuclear forces and weapons before, during and after any crisis. 
+(CJCSI 6811.01C) 
+National Leadership Command Capability (NLCC)—The combination of capabilities, to 
+include; command, control, communications, computer, intelligence, surveillance, and 
+reconnaissance systems, that provide national leadership (regardless of location and environment) 
+with diverse, accurate, integrated, timely, and assured access to data, information, intelligence, 
+communications, services, situational awareness, warnings, and indications from which planning, 
+understanding, and decision-making activities can be initiated, executed, and monitored. (PPD-35) 
+National Military Command System (NMCS)—The NMCS provides senior leaders with 
+assured access to a secure and collaborative information environment that enables situational 
+awareness, course of action development, national-level decision-making, force execution, and 
+monitoring across the range of military operations. (CJCSI 3230.01D) 
+Nuclear Command and Control (NC2)—The exercise of authority and direction by the 
+President, as Commander-in-Chief of the U.S. Armed Forces, through established national 
+command authority lines over nuclear weapons, nuclear weapon systems, and nuclear weapon 
+operations of military forces. (PPD-35) 
+Nuclear Command and Control System (NCCS)—The Nuclear Command and Control System 
+is the combination of capabilities necessary to ensure the authorized employment and termination 
+of nuclear weapon operations under all threats and scenarios; to secure against the accidental, 
+inadvertent, or unauthorized access to U.S. nuclear weapons; and to prevent the loss of control, 
+theft, or unauthorized use of U.S. nuclear weapons.  Collectively, these capabilities help ensure 
+the effectiveness of the U.S. nuclear deterrent. (PPD-35) 
+Nuclear Command, Control, and Communications (NC3) System—The NC3 System is the 
+means through which Presidential authority is exercised and operational command and control of 
+nuclear operations is conducted. The NC3 System is part of the larger National Leadership 
+Command Capability (NLCC), which encompasses the three broad mission areas of:  (1) 
+Presidential and senior leader communications; (2) NC3; and (3) continuity of operations and 
+continuity of government communications. (PPD-35; see PPD for the full, classified definition) 
+Planning—The set of C3 activities relating to the development and modification of plans for 
+employment of nuclear weapons and other operations in support of nuclear employment. (CJCSI 
+6811.01C) 
+Situation Monitoring—The set of C3 activities relating to the collection, maintenance, 
+assessment, and dissemination of information on friendly forces; adversary forces and possible 
+targets; emerging nuclear powers; and military, political, environmental, and other events. (CJCSI 
+6811.01C) 
+ 
+ 

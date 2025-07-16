@@ -1,0 +1,2146 @@
+Administrative Changes to AFTTP 3-42.34, Air Force Radiation Assessment Team (AFRAT) 
+ 
+OPR:  AFMED Agency/SGX 
+ 
+References throughout the publication to FFRN1 are hereby changed to FFNR1.  
+ 
+References throughout the publication to Rad/Nuc Incident Response Team are hereby changed to 
+Nuc/Rad Incident Response Team.  
+ 
+References throughout the publication to FFRN2 are hereby changed to FFNR2.  
+ 
+References throughout the publication to Rad/Nuc Surveillance Team are hereby changed to Nuc/Rad 
+Surveillance Team.  
+ 
+References throughout the publication to FFRN4 are hereby changed to FFNR4.  
+ 
+References throughout the publication to Rad/Nuc Laboratory Team are hereby changed to Nuc/Rad 
+Laboratory Team.  
+ 
+References throughout the publication to FFRN6 are hereby changed to FFNR6.  
+ 
+References throughout the publication to Rad/Nuc Dosimetry Team are hereby changed to Nuc/Rad 
+Dosimetry Team.  
+ 
+References throughout the publication to FFRN8 are hereby changed to FFNR8.  
+ 
+References throughout the publication to Rad/Nuc Tactical C2 Support Team are hereby changed to 
+Nuc/Rad Tactical C2 Support Team.  
+ 
+References throughout the publication to FFRN9 are hereby changed to FFNR9.  
+ 
+References throughout the publication to Rad/Nuc Response Liaison Team are hereby changed to 
+Nuc/Rad Response Liaison Team.  
+ 
+References throughout the publication to FFRNB are hereby changed to FFNRB.  
+ 
+References throughout the publication to Rad/Nuc Laboratory Equipment are hereby changed to Nuc/Rad 
+Laboratory Equipment.  
+ 
+References throughout the publication to FFRNC are hereby changed to FFNRC.  
+ 
+References throughout the publication to Rad/Nuc Dosimetry Equipment are hereby changed to Nuc/Rad 
+Dosimetry Equipment.  
+ 
+References throughout the publication to FFRND are hereby changed to FFNRD.  
+ 
+References throughout the publication to Rad/Nuc Surveillance Equipment are hereby changed to 
+Nuc/Rad Surveillance Equipment.  
+ 
+12 July 2024 
+BY ORDER OF THE  
+SECRETARY OF THE AIR FORCE 
+ 
+AIR FORCE TACTICS, TECHNIQUES 
+AND PROCEDURES 3-42.34 
+14 OCTOBER 2022 
+Tactical Doctrine 
+AIR FORCE RADIATION ASSESSMENT 
+TEAM (AFRAT) 
+ 
+ACCESSIBILITY:  Publications and forms are available on the e-Publishing website at 
+www.e-Publishing.af.mil for downloading or ordering. 
+RELEASABILITY:  There are no releasability restrictions on this publication. 
+ 
+ 
+OPR: ACC/SGX 
+Certified by: AF/SG3/5X  
+(Col Colin Smyth)
+Supersedes: 
+AFTTP 3-42.34, 19 September 2007 
+Pages: 36 
+ 
+ 
+The Air Force Tactics, Techniques, and Procedures (AFTTP) 3-42 series of publications is the 
+primary reference for expeditionary medical support capability. AFTTP 3-42.34 provides the 
+tactics, techniques, and procedures for the Air Force Radiation Assessment Team (AFRAT). The 
+doctrine in this document is authoritative but not directive. This publication applies to all civilian 
+employees and uniformed members of the Regular Air Force, the Air Force Reserve, and the Air 
+National Guard (ANG). This publication does not apply to the United States Space Force. Refer 
+recommended changes and questions about this publication to the Office of Primary Responsibility 
+(OPR) using Air Force Form 847, Recommendation for Change of Publication. Route AF 847 
+through the appropriate functional chain of command and parent major command. Ensure all 
+records generated as a result of processes prescribed in this publication adhere to Air Force 
+Instruction (AFI) 33-322, Records Management and Information Governance Program, and are 
+disposed of in accordance with the Air Force Records Disposition Schedule, which is located in 
+the Air Force Records Information Management System. The use of the name or mark of any 
+specific manufacturer, commercial product, commodity, or service in this publication does not 
+imply endorsement by the Air Force. 
+SUMMARY OF CHANGES 
+The AFRAT construct has been restructured to improve mobility, simplify force presentation, and 
+ensure support for the full spectrum of radiological and nuclear (rad/nuc) operations. This 
+document has been updated to reflect the changes to the AFRAT unit type code (UTC) mission 
+capabilities, organization, and employment. It updates UTC-specific training requirements, 
+expeditionary combat support requirements, and site layout. It includes general content refresh 
+2 
+AFTTP3-42.34  14 OCTOBER 2022 
+updates and administrative changes throughout. This document has been substantially revised and 
+should be completely reviewed. 
+ 
+Chapter 1—INTRODUCTION 
+ 
+5 
+1.1. 
+Purpose. ...................................................................................................................  
+5 
+1.2. 
+Background. .............................................................................................................  
+5 
+1.3. 
+Medical Threat Environment. ..................................................................................  
+5 
+Chapter 2—AFRAT SUPPORT CAPABILITIES AND FORCE PACKAGING 
+ 
+6 
+2.1. 
+Mission. ...................................................................................................................  
+6 
+2.2. 
+AFRAT Composition. ..............................................................................................  
+6 
+Table 2.1. 
+AFRAT Composition. ..............................................................................................  
+6 
+2.3. 
+FFRN1, Rad/Nuc Incident Response Team. ............................................................  
+7 
+2.4. 
+FFRN2, Rad/Nuc Surveillance Team. .....................................................................  
+8 
+2.5. 
+FFRND, Rad/Nuc Surveillance Equipment. ............................................................  
+8 
+2.6. 
+FFRN4, Rad/Nuc Laboratory Team. .......................................................................  
+8 
+Table 2.2. 
+Rad/Nuc Laboratory Analysis Capabilities. ............................................................  
+8 
+2.7. 
+FFRNB, Rad/Nuc Laboratory Equipment. ..............................................................  
+9 
+2.8. 
+FFRN6, Rad/Nuc Dosimetry Team. ........................................................................  
+9 
+2.9. 
+FFRNC, Rad/Nuc Dosimetry Equipment. ...............................................................  
+9 
+2.10. 
+FFRN8, Rad/Nuc Tactical C2 Support Team. .........................................................  
+9 
+2.11. 
+FFRN9, Rad/Nuc Response Liaison Team. .............................................................  
+9 
+2.12. 
+Operational Capability Timelines. ...........................................................................  
+10 
+Table 2.3. 
+AFRAT Operational Capability Timelines. .............................................................  
+10 
+Chapter 3—OPERATIONS 
+ 
+12 
+3.1. 
+UTC Posturing. ........................................................................................................  
+12 
+3.2. 
+Deployment Planning. .............................................................................................  
+12 
+3.3. 
+Pre-Deployment Preparations. .................................................................................  
+12 
+3.4. 
+Preparation of Equipment and Cargo. ......................................................................  
+12 
+3.5. 
+Deployment. .............................................................................................................  
+13 
+3.6. 
+Initial Employment. .................................................................................................  
+13 
+3.7. 
+Employment of AFRAT Support UTCs. .................................................................  
+13 
+3.8. 
+Domestic and International Chemical, Biological, Radiological, and Nuclear 
+(CBRN) Response. ...................................................................................................  
+14 
+AFTTP3-42.34  14 OCTOBER 2022 
+3 
+3.9. 
+Site Laydown Considerations. .................................................................................  
+14 
+3.10. 
+Operational Reports and Records. ...........................................................................  
+14 
+3.11. 
+Redeployment. .........................................................................................................  
+15 
+Chapter 4—COMMAND AND CONTROL RELATIONSHIPS 
+ 
+16 
+4.1. 
+Command and Control in Expeditionary Settings. ..................................................  
+16 
+4.2. 
+AFRAT Command Structure. ..................................................................................  
+16 
+4.3. 
+Air Combat Command Surgeon (ACC/SG) Responsibility. ...................................  
+16 
+Chapter 5—COMMUNICATIONS AND INFORMATION SYSTEMS 
+ 
+17 
+5.1. 
+Communications Requirements. ..............................................................................  
+17 
+5.2. 
+Radio Equipment. ....................................................................................................  
+17 
+5.3. 
+Computer Systems. ..................................................................................................  
+17 
+Table 5.1. 
+Specialty-Specific Applications. ..............................................................................  
+17 
+5.4. 
+Information Assurance Policy. .................................................................................  
+17 
+Chapter 6—INTEGRATION AND INTEROPERABILITY 
+ 
+18 
+6.1. 
+Integration and Interoperability with Other Systems. ..............................................  
+18 
+6.2. 
+Expeditionary Combat Support/Base Operating Support (ECS/BOS) 
+Requirements. ..........................................................................................................  
+18 
+6.3. 
+Field Response Integration. .....................................................................................  
+18 
+6.4. 
+Technical Reachback. ..............................................................................................  
+18 
+6.5. 
+Sample Shipments. ...................................................................................................  
+19 
+Chapter 7—SECURITY AND FORCE PROTECTION 
+ 
+20 
+7.1. 
+Security Roles and Responsibilities. ........................................................................  
+20 
+7.2. 
+Physical Security. .....................................................................................................  
+20 
+7.3. 
+Operations Security. .................................................................................................  
+20 
+7.4. 
+Security of Weapons and Ammunition. ...................................................................  
+20 
+Chapter 8—TRAINING 
+ 
+21 
+8.1. 
+Medical Readiness Training Requirements. ............................................................  
+21 
+8.2. 
+UTC and Job-Specific Training Requirements. .......................................................  
+21 
+Table 8.1. 
+AFRAT UTC and Job-Specific Training. ................................................................  
+21 
+8.3. 
+Recommended Training Courses. ............................................................................  
+22 
+Table 8.2. 
+Recommended Technical Training Courses. ...........................................................  
+22 
+8.4. 
+UTC Sustainment Training. .....................................................................................  
+24 
+4 
+AFTTP3-42.34  14 OCTOBER 2022 
+8.5. 
+Mission Essential Task Lists (METLs). ...................................................................  
+24 
+8.6. 
+Pre-Deployment Mission Training. .........................................................................  
+24 
+8.7. 
+CBRN Defense Training. .........................................................................................  
+24 
+8.8. 
+CBRN Response Force Training. ............................................................................  
+25 
+8.9. 
+Vehicle Operation Training. ....................................................................................  
+25 
+8.10. 
+Weapons Training. ...................................................................................................  
+25 
+8.11. 
+Communications and Information Systems Training. .............................................  
+25 
+Chapter 9—LOGISTICS 
+ 
+26 
+9.1. 
+Expeditionary Medical Logistics (EML) System. ...................................................  
+26 
+9.2. 
+Supplies and Equipment. .........................................................................................  
+26 
+Table 9.1. 
+AFRAT Equipment Allowance Standards. ..............................................................  
+26 
+9.3. 
+Medical Equipment Maintenance and Repair. .........................................................  
+26 
+9.4. 
+Equipment Upgrades and Modernization. ...............................................................  
+27 
+Attachment 1—GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+28 
+Attachment 2—EXPEDITIONARY COMBAT SUPPORT REQUIREMENTS 
+ 
+32 
+Attachment 3—FULL AFRAT LAYOUT 
+ 
+34 
+Attachment 4—AFRAT SURVEILLANCE TEAM (FFRN2) SHELTER 
+ 
+35 
+Attachment 5—USAFSAM RADIOANALYTICAL REACHBACK SUPPORT 
+CAPABILITIES 
+ 
+36 
+ 
+AFTTP3-42.34  14 OCTOBER 2022 
+5 
+Chapter 1 
+INTRODUCTION 
+1.1.  Purpose.  This publication provides general operational and planning guidance on the Air 
+Force Radiation Assessment Team (AFRAT).  It can be used as a source document for developing 
+standardized policies, operating procedures, training programs, and allowance standards.  
+Operation plans and regional guidance provide mission-specific details that amplify and tailor the 
+guidance contained in this publication. 
+1.2.  Background.  The AFRAT traces its roots to the 1960s and the height of the Cold War.  The 
+team’s primary mission was to respond to accidents involving nuclear weapons as Strategic Air 
+Command maintained the nation’s defense posture through Operation CHROME DOME.  Since 
+that time, the team’s focus has expanded to include the full spectrum of radiological and nuclear 
+threats (rad/nuc) across the competition continuum.  The team has deployed to conflict zones, 
+provided support to domestic civil authorities, and responded to nuclear reactor accidents.  
+Operation TOMODACHI in 2011 was the most extensive and longest running real-world 
+employment of the AFRAT since its inception.  Lessons learned from that event and numerous 
+field exercises since then have informed changes and improvements to the team’s tactics, 
+techniques, and procedures, force packaging concepts, and allowance standards. 
+1.3.  Medical Threat Environment.  The proliferation of weapons of mass destruction and 
+potential adversarial acts involving improvised nuclear devices, radiological dispersal devices, 
+radiological exposure devices, or an attack on nuclear facilities or transportation systems pose a 
+radiological threat to U.S. national security and U.S. forces.  Non-deliberate radiological threats 
+include nuclear weapons accidents (broken arrows), nuclear reactor incidents (faded giants), and 
+exposure to depleted uranium munitions and other radioactive materials. 
+1.3.1.  Radiation exposure poses a spectrum of possible health effects, depending on the 
+radiation dose received, that can range from acute radiation syndrome to increased cancer risk 
+as well as psychological impacts.  These effects have potential to reduce mission effectiveness, 
+impact immediate troop health, and contribute to long-term medical issues for deployed forces. 
+1.3.2.  Force health protection measures include comprehensive radiation surveillance and 
+dose prevention.  The AFRAT provides a specialized capability to measure, analyze, and 
+evaluate the radiation levels that exist in the environment, effectively quantify and 
+communicate these risks to field commanders, and provide guidance on personnel protective 
+measures.  The team performs internal and external dose assessments for personnel operating 
+in radiation contaminated areas to minimize exposure. 
+6 
+AFTTP3-42.34  14 OCTOBER 2022 
+Chapter 2 
+AFRAT SUPPORT CAPABILITIES AND FORCE PACKAGING 
+2.1.  Mission.  The AFRAT provides rapid, global response to rad/nuc accidents and incidents.  
+They provide expertise in planning, surveillance, analysis, and assessment of health, 
+environmental, and operational risks.  They advise commanders and other decision makers on 
+radiation health effects, operational impacts, protective actions, recovery activities, environmental 
+health risks, and risk management during contingency planning, response, and post-contingency 
+operations. 
+2.2.  AFRAT Composition.  AFRAT capabilities are grouped into distinct unit type codes (UTCs) 
+that provide scalable response options tailored to operational requirements.  The rapid response 
+team can support initial operations up to 72 hours.  Individual support teams can be added to 
+supplement the existing capabilities at an operating location.  Deployment of the full team is 
+recommended for large-scale or extended duration incidents.  See Chapter 3, OPERATIONS, 
+for more information on employment scenarios.  Table 2.1 provides the personnel details. 
+Table 2.1.  AFRAT Composition. 
+Title 
+AFSC 
+SEI 
+Grade 
+Quantity 
+Rapid Response Team 
+FFRN1, Rad/Nuc Incident Response Team 
+Bioenvironmental Engineer, Health 
+Physics 
+043E3G 
+ 
+05 
+1 
+Bioenvironmental Engineer, Health 
+Physics 
+043E3G 
+ 
+04 
+1 
+Bioenvironmental Engineering Craftsman 
+4B071 
+ 
+ 
+8 
+Medical Laboratory Craftsman 
+4T071 
+ 
+ 
+2 
+Total UTC Personnel 
+ 
+ 
+ 
+12 
+Support Teams 
+FFRN2, Rad/Nuc Surveillance Team 
+Bioenvironmental Engineering Craftsman 
+4B071 
+ 
+ 
+6 
+Total UTC Personnel 
+ 
+ 
+ 
+6 
+FFRN4, Rad/Nuc Laboratory Team 
+Bioenvironmental Engineer, Health 
+Physics 
+043E3G 
+ 
+04 
+1 
+Bioenvironmental Engineering Craftsman 
+4B071 
+ 
+ 
+1 
+Medical Laboratory Craftsman 
+4T071 
+ 
+ 
+1 
+Medical Laboratory Journeyman 
+4T051 
+ 
+ 
+6 
+Total UTC Personnel 
+ 
+ 
+ 
+9 
+FFRN6, Rad/Nuc Dosimetry Team 
+Bioenvironmental Engineering Craftsman 
+4B071 
+ 
+ 
+1 
+Medical Laboratory Journeyman 
+4T051 
+ 
+ 
+2 
+Total UTC Personnel 
+ 
+ 
+ 
+3 
+FFRN8, Rad/Nuc Tactical Command and Control (C2) Support Team  
+Health Services Management Craftsman 
+4A071 
+260 
+ 
+1 
+AFTTP3-42.34  14 OCTOBER 2022 
+7 
+Title 
+AFSC 
+SEI 
+Grade 
+Quantity 
+Medical Materiel Craftsman 
+4A171 
+ 
+ 
+1 
+Biomedical Equipment Craftsman 
+4A271 
+ 
+ 
+1 
+Total UTC Personnel 
+ 
+ 
+ 
+3 
+FFRN9, Rad/Nuc Response Liaison Team 
+Bioenvironmental Engineer, Health 
+Physics 
+043E3G 
+ 
+04 
+2 
+Bioenvironmental Engineer, Health 
+Physics 
+043E3G 
+ 
+03 
+2 
+Total UTC Personnel 
+ 
+ 
+ 
+4 
+Total AFRAT Personnel 
+ 
+ 
+ 
+37 
+Note: Air Force Specialty Code (AFSC), grade, and skill-level substitutions are in accordance 
+with the War and Mobilization Plan, Volume 1 (WMP-1), Enclosure F, Air Force Medical 
+Service (AFMS) Supplement, and AFI 10-403, Deployment Planning and Execution, unless 
+specified otherwise in the mission capability statement. 
+2.3.  FFRN1, Rad/Nuc Incident Response Team.  The Rad/Nuc Incident Response Team 
+provides technical expertise in crisis planning, field response, and consequence management 
+activities involving rad/nuc accidents, incidents, and threats.  The team can deploy as a standalone 
+team or to support other fielded consequence management capabilities (for example, the 
+Preventive and Aerospace Medicine [PAM] Team, Emergency Management personnel).  The team 
+does not deploy with its own shelter system and requires a dedicated workspace or shelter of 
+opportunity. 
+2.3.1.  The team is trained and equipped to identify and quantify health risks related to radiation 
+exposure.  They advise commanders and other decision makers on health and environmental 
+effects, operational impacts, protective actions, and risk management procedures. 
+2.3.2.  The team performs direct radiation measurements and collects air, water, soil, and 
+vegetation samples for environmental monitoring and radiation analyses.  They have limited 
+laboratory equipment and can conduct initial sample analysis and assessment of the type and 
+quantity of radioactive material present.  The team relies on reachback from the United States 
+Air Force School of Aerospace Medicine (USAFSAM) for more robust radioanalysis support. 
+2.3.3.  The team measures and records external radiation exposures.  They can issue electronic 
+dosimeters for up to 200 individuals. 
+2.3.4.  The team deploys with a small array of specialized radiation detection equipment 
+packaged in portable field packs.  Based on the mission, team members may be required to 
+travel with their field packs and hand carry them to the employment site.  The field packs 
+provide approximately three days of supplies and include the following equipment: 
+• Radiac kits with multi-function probes 
+• Electronic personal dosimeters with neutron detection and monitoring capabilities  
+• Air samplers 
+• Ion chambers 
+• Alpha/beta swipe survey counters 
+• Portable sodium iodide (NaI) gamma spectrometers 
+• Portable high purity germanium (HPGe) gamma spectrometers 
+8 
+AFTTP3-42.34  14 OCTOBER 2022 
+• Scintillation probes 
+• Environmental sampling kits 
+• Computer systems and software to support radiological risk assessment 
+• Personal protective equipment 
+2.4.  FFRN2, Rad/Nuc Surveillance Team.  The Rad/Nuc Surveillance Team provides 
+bioenvironmental engineering support personnel to extend field surveillance operations.  Team 
+members have expertise in environmental monitoring, field operations, and radiation assessment.  
+They perform direct radiation measurements and collect air, water, soil, and vegetation samples 
+for radiation analysis and risk assessment.  The team is not standalone.  It should be force packaged 
+with the Rad/Nuc Incident Response Team and equipment package, FFRND, Rad/Nuc 
+Surveillance Equipment. 
+2.5.  FFRND, Rad/Nuc Surveillance Equipment.  This equipment package provides field 
+surveillance supplies and equipment to support large-scale rad/nuc incidents or sustained 
+operations for up to 30 days.  This equipment package should be force packaged with FFRN2, 
+Rad/Nuc Surveillance Team.  It includes the following equipment: 
+• Radiac kits with multi-function probes 
+• Air samplers 
+• Field Instrument for Detection of Low Energy Radiation (FIDLER) probes 
+• Scintillation probes 
+• Ion chambers 
+• Neutron survey probes 
+• Mobile radiation monitoring system 
+• Portable NaI gamma spectrometers 
+• Environmental sampling kits 
+• Computer systems and software to support radiological risk assessment 
+• Global positioning system 
+• Workspace shelter and environmental control unit 
+• Personal protective equipment 
+2.6.  FFRN4, Rad/Nuc Laboratory Team.  The Rad/Nuc Mobile Laboratory Team provides 
+initial identification and quantification of radioactive material following a radiological or nuclear 
+incident or threat.  Team members have expertise in radiation measurement, gamma spectroscopy, 
+and radiation laboratory operations.  The team provides on-site analysis of the level of radioactivity 
+in environmental (air, water, soil, vegetation) and biological samples.  The team is not standalone.  
+It should be force packaged with the Rad/Nuc Incident Response Team and equipment package 
+FFRNB, Rad/Nuc Laboratory Equipment.  Table 2.2 provides an overview of the team’s on-site 
+analysis capabilities. 
+Table 2.2.  Rad/Nuc Laboratory Analysis Capabilities. 
+Target 
+Radiation 
+Medium 
+Initial Setup Time 
+Daily Calibration 
+Time 
+Analysis Complete 
+Time 
+High Purity Gamma Spectroscopy 
+Gamma 
+Swipes, soil, 
+vegetation, 
+48 hours 
+1.5 hours 
+8 hours 
+AFTTP3-42.34  14 OCTOBER 2022 
+9 
+Target 
+Radiation 
+Medium 
+Initial Setup Time 
+Daily Calibration 
+Time 
+Analysis Complete 
+Time 
+liquids, 
+foodstuffs 
+Passivated Implanted Planar Silicon Detection 
+Alpha, 
+Beta 
+Swipes, 
+liquids 
+6 hours 
+Not applicable 
+30 minutes 
+Liquid Scintillation Counting 
+Beta 
+Swipes, 
+liquid 
+6 hours 
+Not applicable 
+30 minutes 
+Note:  Analysis times are optimal estimates.  Actual timelines may vary depending on need, 
+resolution of results, and ambient radiation levels at the beddown location. 
+2.7.  FFRNB, Rad/Nuc Laboratory Equipment.  This equipment package provides advanced 
+laboratory equipment and supplies to support large-scale rad/nuc incidents or sustained operations 
+for up to 30 days.  This equipment package should be force packaged with FFRN4, Rad/Nuc 
+Laboratory Team.  It includes the following equipment: 
+• Radiac kits with multi-function probes 
+• Alpha/beta swipe survey counters 
+• Portable HPGe gamma spectrometers 
+• Liquid scintillation counting system with tritium columns 
+• Workspace shelter and environmental control unit 
+• Personal protective equipment 
+2.8.  FFRN6, Rad/Nuc Dosimetry Team.  The Rad/Nuc Dosimetry Team provides field 
+dosimetry support personnel to extend coverage following a large scale or extended duration 
+radiological or nuclear event.  The team is not standalone.  It should be force packaged with the 
+Rad/Nuc Incident Response Team and equipment package, FFRNC, Rad/Nuc Dosimetry 
+Equipment.  The combined teams can provide personal radiation monitoring, analysis, and dose 
+calculations for up to 1,100 individuals. 
+2.9.  FFRNC, Rad/Nuc Dosimetry Equipment.  This equipment package provides dosimetry 
+equipment and supplies to support large-scale rad/nuc incidents or sustained operations for up to 
+30 days.  It should be force packaged with FFRN6, Rad/Nuc Dosimetry Team.  It includes the 
+following equipment: 
+• Electronic personal dosimeters with neutron detection and monitoring capabilities 
+• Workspace shelter and environmental control unit 
+2.10.  FFRN8, Rad/Nuc Tactical C2 Support Team.  The Rad/Nuc Tactical C2 Support Team 
+provides supplemental medical command, administration, logistics, biomedical equipment repair, 
+and information systems personnel to support large-scale or extended duration AFRAT operations.  
+The team is not standalone and is typically force packaged with the Rad/Nuc Incident Response 
+Team or Rad/Nuc Surveillance Team. 
+2.11.  FFRN9, Rad/Nuc Response Liaison Team.  The Rad/Nuc Response Liaison Team 
+provides supplemental on-site health physics support for large-scale or extended duration AFRAT 
+operations.  The team has expertise in contingency planning, incident command and control, 
+10 
+AFTTP3-42.34  14 OCTOBER 2022 
+radiation detection and measurements, radiation health risk assessment, and assessment and 
+mitigation of radiation health effects.  The team deploys with computer systems and software to 
+support radiological risk assessment.  The team is typically force packaged with the Rad/Nuc 
+Incident Response Team but can also deploy as a standalone team for on-site health physics 
+support. 
+2.12.  Operational Capability Timelines.  The Rad/Nuc Incident Response Team deploys with 
+portable field packs and can provide initial support within an hour of arrival.  Initial capabilities 
+include preliminary health risk assessment, consequence management, data analysis reviews, 
+downrange mission planning, and electronic personal dosimeter distribution.  The team can reach 
+full operational capability within 24 hours and can operate up to 72 hours without resupply.  The 
+scope of capabilities increase with deployment of the full AFRAT.  The full AFRAT can reach 
+full operational capability within 48 hours of arrival.  Table 2.3 lists the key tasks performed at 
+each phase. 
+Table 2.3.  AFRAT Operational Capability Timelines. 
+ 
+Full AFRAT Capabilities 
+ 
+Tritium measurement 
+ 
+Swipe sample analysis for aircraft clearance 
+ 
+Liquid scintillation 
+ 
+Gamma spectroscopy 
+ 
+On-site laboratory analysis 
+ 
+Neutron detection 
+ 
+Low-energy radiation detection 
+ 
+Expanded dosimetry distribution and dose 
+tracking 
+Rad/Nuc Incident Response Team and 
+Initial Operational Capabilities 
+All initial operational capabilities 
+Active dosimetry distribution and dose 
+tracking 
+Swipe sample analysis for contamination 
+screening 
+Building clearance 
+Contamination screening 
+Air sampling 
+Source location identification 
+Quantitative field assessment 
+CBRNResponder/RadResponder 
+Radiation force health protection oversight 
+Risk projection 
+Risk communication and public affairs 
+involvement 
+Contingency support and consequence 
+management 
+Evacuation and protective actions 
+recommendations 
+AFTTP3-42.34  14 OCTOBER 2022 
+11 
+ 
+Full AFRAT Capabilities 
+Timeline:  24 hours 
+Timeline:  48 hours 
+Note:  Operational timelines assume availability of transport to the operational site, arrival of 
+personnel and equipment, and expeditionary combat support/base operating support 
+(ECS/BOS).  See Chapter 6, INTEGRATION AND INTEROPERABILITY, for more 
+information on ECS/BOS requirements.   
+12 
+AFTTP3-42.34  14 OCTOBER 2022 
+Chapter 3 
+OPERATIONS 
+3.1.  UTC Posturing.  AFRAT UTCs are postured against units in the Unit Type Code 
+Availability database and Medical Resource Letter.  AFRAT equipment and facility infrastructure 
+packages may be pre-positioned in theater based on requirements from geographic combatant 
+commanders and the Commander, Air Force Forces (COMAFFOR). 
+3.2.  Deployment Planning.  Planners consider a number of factors, including pre-positioned 
+materiel, host nation support agreements, contingency contracts, and acquisition cross-service 
+agreements, in planning deployments and tailoring unit-level personnel and equipment 
+requirements.  Time-phased force deployment data is built by the air component and flowed 
+through the major commands to the wing plans and operations centers for action. 
+3.3.  Pre-Deployment Preparations.  Team members should work closely with the medical 
+readiness office, emergency management, and theater medical personnel to prepare for 
+deployment.  They should review operation plans, reporting instructions, threat and vulnerability 
+assessments, intelligence reports, and other pertinent deployment data and follow the pre-
+deployment requirements in AFI 10-403 and AFI 41-106, Air Force Medical Readiness Program.  
+3.3.1.  All personnel considered for deployment with any AFRAT component should have 
+accomplished 70 percent or more of their UTC’s mission essential task list items unless waived 
+by the AFRAT chief. 
+3.3.2.  Due to the sensitive and highly classified nature of some AFRAT missions, team chiefs 
+should possess a Top Secret Sensitive Compartmented Information (TS/SCI) clearance or 
+interim clearance. 
+3.3.3.  The AFRAT chief and non-commissioned officer in charge (NCOIC) should ensure that 
+all deploying personnel and equipment meet the tasking requirements defined by the supported 
+command. 
+3.4.  Preparation of Equipment and Cargo.  UTC team chiefs should assess the deployability of 
+assigned equipment UTCs with medical logistics personnel and identify shortfalls.  Deploying 
+AFRAT chiefs should ensure an adequate number of personnel are qualified in pallet build-up and 
+cargo handling procedures (to include hazardous, protected, and classified cargo) to serve as cargo 
+increment monitors during deployment and redeployment in accordance with AFI 10-403. 
+3.4.1.  Hazardous cargo is subject to Defense Transportation Regulation (DTR) 4500.9-R Part 
+III, Mobility, Air Force Manual (AFMAN) 24-604, Preparing Hazardous Materials for 
+Military Air Shipments, and host nation requirements.  AFRAT equipment packages include 
+radiological check sources that require special shipment preparation.  The local radiation safety 
+officer should witness and verify the packaging of radiological sources.  AFRAT chiefs should 
+ensure an adequate number of personnel are trained in shipping and receiving radioactive 
+materials and adhere to Department of Transportation requirements specified in Title 49, Code 
+of Federal Regulations 172, Part 172, Hazardous Materials Table, Special Provisions, 
+Hazardous Materials Communications, Emergency Response Information, Training 
+Requirements, and Security Plans, and Nuclear Regulatory Commission requirements 
+specified in Title 10, Code of Federal Regulations 71.5, Transportation of Licensed Material, 
+AFTTP3-42.34  14 OCTOBER 2022 
+13 
+and Title 10 Code of Federal Regulations 20.1906, Procedures for Receiving and Opening 
+Packages.  While at the deployed location, radiological sources should be closely managed. 
+3.4.2.  Protected cargo includes controlled substances, items vulnerable to theft, and weapons 
+and ammunition.  A controlled medical item custodian should witness and verify the packaging 
+of medically controlled items.  At the deployed location, controlled items should be stored in 
+locked rooms or containers and managed in accordance with AFMAN 41-209, Medical 
+Logistics Support.  Units are responsible for assigning primary and alternate weapons and 
+ammunition couriers to ensure security and accountability during transit in accordance with 
+Department of the Air Force Instruction (DAFI) 31-101, Integrated Defense, and Department 
+of the Air Force Manual (DAFMAN) 21-201, Munitions Management. 
+3.4.3.  Classified material should be packaged, marked, safeguarded, and transported in 
+accordance with DAFI 24-602 Volume 2, Cargo Movement.  Units are responsible for 
+assigning appropriately cleared and trained couriers to accompany classified material. 
+3.5.  Deployment.  The AFRAT typically deploys in a crisis planning, consequence management, 
+and force health protection role following a radiological or nuclear incident.  Typical deployment 
+scenarios include nuclear weapons accidents (broken arrows), nuclear reactor accidents (faded 
+giants), release of a radiological dispersal or improvised nuclear device, and humanitarian 
+assistance following a nuclear incident.  The team may also deploy to high threat areas based on 
+available intelligence data and theater requirements to provide crisis planning support and limited 
+radiation surveillance.  The AFRAT may deploy in whole or in part, depending on the type of 
+event, magnitude, and capabilities of other field response resources.  The full complement of 
+AFRAT UTCs typically deploys in response to large-scale or extended duration radiological or 
+nuclear events.  Individual components may deploy to provide tailored support to planning, pre-
+positioning, or initial recovery operations.  The Rad/Nuc Incident Response Team deploys as soon 
+as possible upon notification to establish initial capability followed by the other AFRAT support 
+teams if necessary. 
+3.6.  Initial Employment.  The Rad/Nuc Incident Response Team provides ground commanders 
+a rapid-response force trained to conduct specialized consequence management.  The team may 
+provide direct support to the joint task force commander, air component, or other theater forces as 
+directed in the operation order.  During the initial phase of employment, priorities are to establish 
+command and control, provide input into site selection, conduct preliminary health risk 
+assessments, consequence management, surveillance, data analysis reviews, downrange mission 
+planning, and distribute electronic personal dosimeters.  The team works to determine the type and 
+extent of the radiological hazard and implement necessary protective actions to minimize radiation 
+doses.  Should the ground situation exceed the team’s capabilities, additional rad/nuc support 
+teams may be deployed. 
+3.7.  Employment of AFRAT Support UTCs.  The AFRAT support UTCs reinforce the 
+Rad/Nuc Incident Response Team and typically only deploy for large-scale or extended duration 
+operations or when the Incident Response Team’s on-scene assessment determines additional 
+support is needed.  They may deploy with the Incident Response Team or as follow-on support. 
+3.7.1.  The Rad/Nuc Surveillance personnel and equipment UTCs (FFRN2 and FFRND) 
+deploy to areas with extensive radiological contamination and when additional surveillance 
+and radiation assessment resources are needed.  The team can be operational within 24 hours 
+of initial arrival or redeployment. 
+14 
+AFTTP3-42.34  14 OCTOBER 2022 
+3.7.2.  The Rad/Nuc Laboratory personnel and equipment UTCs (FFRN4 and FFRNB) deploy 
+to areas with extensive radiological contamination or when onsite radioanalytical capabilities 
+are needed.  The team can be operational within 48 hours of initial arrival or redeployment. 
+3.7.3.  The Rad/Nuc Dosimetry personnel and equipment UTCs (FFRN6 and FFRNC) deploy 
+when a major incident occurs or when radiation dose monitoring for more than 200 field 
+personnel is required.  The team can be operational within 24 hours of initial arrival or 
+redeployment. 
+3.7.4.  The Tactical C2 Support Team (FFRN8) deploys for large-scale and extended duration 
+operations when dedicated administration, command center, material management, equipment 
+calibration and repair, and communications technical support is needed.  The team should 
+deploy with or closely after the Rad/Nuc Incident Response Team to help establish the team’s 
+operations center, medical communications, site laydown, and supply chain support.  The team 
+does not have a separate equipment package. 
+3.7.5.  The Rad/Nuc Response Liaison Team (FFRN9) deploys for large-scale and extended 
+duration operations where on-site liaison officer support is needed.  The team provides on-site 
+technical assistance in crisis planning, response, health risk assessment, and AFRAT command 
+support.  The four-person team can be split into smaller increments.  The team’s accompanying 
+supplies are hand portable and include radiological risk assessment tools. 
+3.8.  Domestic and International Chemical, Biological, Radiological, and Nuclear (CBRN) 
+Response.  Upon direction by higher headquarters, the AFRAT may deploy to assist in domestic 
+and international CBRN response efforts.  The combatant command for the area of responsibility 
+determines which AFRAT personnel and equipment UTCs support the mission based on mission 
+scope, threat assessment, and availability of forces.  The AFRAT can also augment the 
+consequence management efforts of civilian authorities overwhelmed by a significant or 
+catastrophic radiological or nuclear incident to the extent allowed by law to save lives, reduce 
+suffering, and protect the environment.  See Joint Publication (JP) 3-41, Chemical, Biological, 
+Radiological, and Nuclear Response, for more information on U.S. military support for domestic 
+and international CBRN Response. 
+3.9.  Site Laydown Considerations.  Beddown locations are at the discretion of the field 
+commander.  Ideally, AFRAT components should be positioned in a secure, forward operating 
+location within 5 kilometers of the supported contingency upwind of the impacted area.  The 
+equipment packages for the surveillance, laboratory, and dosimetry support teams include 
+workspace shelters to house operations.  Site laydown considerations include security, accessibility 
+to the impacted area, proximity to environmental hazards (flight-line noise, sewage plant, power 
+and communication lines), orientation to current and projected wind and weather patterns, and 
+terrain.  The AFRAT relies on current meteorological and imagery data for fallout and plume 
+projections, risk assessments, radiological monitoring, and determination of appropriate protective 
+actions.  See Attachment 3, FULL AFRAT LAYOUT, for a recommended site layout for the 
+full team.  See Attachment 4, AFRAT SURVEILLANCE TEAM (FFRN2) SHELTER, for a 
+sample shelter layout. 
+3.10.  Operational Reports and Records.  AFRAT chiefs and NCOICs submit required 
+operational reports in accordance with AFMAN 10-206, Operational Reporting (OPREP), and 
+specific combatant commander, joint force commander, and commander, Air Force forces 
+requirements.  Data generated by the AFRAT (such as surveillance findings, radioanalytical data, 
+AFTTP3-42.34  14 OCTOBER 2022 
+15 
+and external ionizing dose assessment data) should be reported through the chain of command and 
+in accordance with theater policy.  After-action reports and lessons learned are submitted in 
+accordance with AFI 10-204, Air Force Service Exercise Program and Support to Joint and 
+National Exercise Program, and AFI 10-1302, Air Force Lessons Learned Program.  Records 
+associated with AFRAT operations are maintained and disposed of in accordance with AFI 33-
+322, Records Management and Information Governance Program. 
+3.11.  Redeployment.  The AFRAT chief and NCOIC should actively participate in redeployment 
+planning to ensure a time-phased reduction in medical services consistent with the deactivation of 
+the deployed location, change in mission, or change in threat scenario.  If applicable, AFRAT 
+leadership should establish contact with their replacement teams to ensure continuity.  Team chiefs 
+should ensure that custody of equipment is signed over to the transportation officer.  Equipment 
+and supplies should be decontaminated in accordance with theater policy and applicable U.S. 
+Department of Agriculture guidelines.  Items not suitable for redeployment (such as the laboratory 
+waste stream) should be appropriately redirected within the theater or disposed of. 
+16 
+AFTTP3-42.34  14 OCTOBER 2022 
+Chapter 4 
+COMMAND AND CONTROL RELATIONSHIPS 
+4.1.  Command and Control in Expeditionary Settings.  Command and control for deployed 
+AFRAT units is through line of the Air Force commanders.  Air Force elements deployed into a 
+theater are typically aligned under the command of the COMAFFOR.  The AFRAT operates under 
+the command structure established by the air expeditionary task force or joint task force to which 
+they are assigned.  Command and control relationships are usually defined in the warning, 
+execution, operations, or task order.  The AFRAT chief and NCOIC should have a clear 
+understanding of the chain of command defined in the order before deployment and establish 
+contact with leadership upon arrival. 
+4.1.1.  The AFRAT normally operates under the local direction of the deployed expeditionary 
+unit commander.  However, due to the nature of the rad/nuc mission set, another Service may 
+have tactical control and in some instances operational control. 
+4.1.2.  AFRAT members may be organized under separate chains of command with different 
+missions.  For example, part of the team may be stationed with Joint Intelligence (J2) assets 
+while the rest of the AFRAT is organized within Task Force Operations (TFOPS). 
+4.2.  AFRAT Command Structure.  The AFRAT chief is typically the senior ranking officer on 
+the Rad/Nuc Incident Response Team.  The AFRAT chief establishes the AFRAT organizational 
+structure and identifies the team chiefs for each deployed AFRAT support UTC as necessary. 
+4.3.  Air Combat Command Surgeon (ACC/SG) Responsibility.  ACC/SG is the Manpower 
+and Equipment Force Packaging (MEFPAK) Responsible Agency (MRA) for medical ground-
+based UTCs.  ACC/SG has overall responsibility for AFRAT tactical doctrine, serves as the 
+medical consultant for AFRAT operations, and provides technical guidance and planning. 
+AFTTP3-42.34  14 OCTOBER 2022 
+17 
+Chapter 5 
+COMMUNICATIONS AND INFORMATION SYSTEMS 
+5.1.  Communications Requirements.  The AFRAT deploys with Department of Defense 
+(DOD)-approved radios and computer systems.  The team is not equipped with the 
+communications infrastructure needed for independent operation and relies on host base 
+communication units.  The team requires access to the Defense Switched Network (DSN), secure 
+voice communication, Non-classified Internet Protocol Router Network (NIPRNET), and 
+SECRET Internet Protocol Router Network (SIPRNET) for data collection, reporting, and 
+reachback purposes.  See Attachment 2, EXPEDITIONARY COMBAT SUPPORT 
+REQUIREMENTS, for more information on communication requirements. 
+5.2.  Radio Equipment.  AFRAT equipment includes Joint Tactical Radio System (JTRS) 
+compliant wideband and multiband land mobile radios.  These radios are interoperable with 
+existing DOD radio systems and joint networking waveforms.  They support secure voice, data, 
+and video communication over mobile, ad-hoc internet protocol based networks to include local 
+command and control networks.  Radios are allocated according to the allowance standard and 
+operational specific requirements.  These assets primarily support communications during 
+deployment and redeployment phases and in austere environments where access to an established 
+communications infrastructure may not be available. 
+5.3.  Computer Systems.  Computers issued to the AFRAT include the DOD Standard Desktop 
+Configuration, the Theater Medical Information Program (TMIP) suite for theater health service 
+support, and applications to support radiological risk assessment and dose assessment.  Table 5.1 
+lists the specialty-specific applications used by AFRAT. 
+Table 5.1.  Specialty-Specific Applications. 
+Application 
+Purpose 
+RadResponder 
+Prescribe operational instructions to AFRAT 
+members and document surveillance and 
+analytical data (Online) 
+RESRAD–BUILD 
+Residual radiation dose modeling 
+RadAssist 
+Mobile radiation monitoring (software for 
+RS-700 use) 
+WebREMS and Easy EPD 
+Interface with Air Force dosimetry system 
+Genie 2000 
+Gamma spectroscopy 
+5.4.  Information Assurance Policy.  AFRAT personnel must understand and follow information 
+assurance procedures, to include communications and computer security, in accordance with AFI 
+17-130, Cybersecurity Program Management, DAFMAN 17-1301, Computer Security 
+(COMPUSEC), and associated Air Force information assurance guidance. 
+18 
+AFTTP3-42.34  14 OCTOBER 2022 
+Chapter 6 
+INTEGRATION AND INTEROPERABILITY 
+6.1.  Integration and Interoperability with Other Systems.  Deployed medical personnel in a 
+theater or area of operation may support elements of an air expeditionary force, components of the 
+en route continuum of care system, joint medical counterparts, Special Operations Forces medical 
+components, and other federal and civilian agencies.  In some instances, theater planners may 
+request medical support for bed-down locations not associated with a typical air expeditionary 
+force or ECS/BOS infrastructure. 
+6.2.  Expeditionary 
+Combat 
+Support/Base 
+Operating 
+Support 
+(ECS/BOS) 
+Requirements.  The AFRAT deploys with limited organic capability and requires ECS/BOS.  
+ECS/BOS requirements include (but are not limited to) billeting, messing and other consumable 
+materials, power, water, ice, latrines, showers, laundry, waste management, exterior lighting, 
+transportation, fuels, vehicle maintenance, equipment maintenance, general supplies, contracting, 
+information and communications systems support, and security.  ECS/BOS services are provided 
+through the host base’s capabilities, deployable bare base systems, and contracted civilian support.  
+Chemical, radiological, and mixed waste disposal services are normally obtained on a contract 
+basis or as part of other base waste disposal services.  See Attachment 2, EXPEDITIONARY 
+COMBAT SUPPORT REQUIREMENTS, for quantified estimates on required support. 
+6.3.  Field Response Integration.  AFRAT components may work with other Air Force field 
+response teams (such as the PAM teams and emergency management) for rad/nuc mission support.  
+At the direction of higher headquarters, the AFRAT might integrate with other DOD radiological 
+assets, such as the Armed Forces Radiobiology Institute’s Medical Radiobiology Advisory Team 
+(MRAT), U.S. Army Radiological Advisory Medical Team (RAMT), U.S. Army Nuclear 
+Disablement Team (NDT), U.S. Marine Corps Chemical Biological Incident Response Force 
+(CBIRF), U.S. Army and Navy radiological control teams, and the Defense Threat Reduction 
+Agency Consequence Management Advisory Team (CMAT).  When tasked in support of a 
+Defense Support of Civil Authorities (DSCA) or large-scale foreign consequence management 
+operation, the AFRAT might integrate with Department of Energy emergency response teams and 
+other government agencies. 
+6.4.  Technical Reachback.  All AFRAT UTCs rely on USAFSAM for technical reachback 
+support.  USAFSAM provides radiation consulting, health physics expertise, electronic dosimeter 
+reading and calibration, radiation detector calibration and support, and specialized equipment not 
+found in the AFRAT deployable equipment packages.  The AFRAT can send samples that require 
+more rigorous analysis to USAFSAM’s radioanalytical lab.  The lab, which is accredited by the 
+National Voluntary Laboratory Accreditation Program (NVLAP), can perform nuclide-specific 
+analysis and other procedures that require more complex chemistry preparation, specialized 
+equipment, and lower limits of detection.  The lab’s capabilities include alpha spectroscopy, urine 
+and fecal analysis, in-vivo whole body counting, HPGe gamma spectropscopy, inductively-
+coupled–mass spectrometry, liquid scintillation, mobile monitoring, and electronic dosimetry.  
+USAFSAM maintains comprehensive radiation exposure records for Air Force occupational 
+radiation personnel.  AFRAT personnel may consult with USAFSAM for access to this data in 
+accordance with theater policy.  See Attachment 5, USAFSAM RADIOANALYTICAL 
+AFTTP3-42.34  14 OCTOBER 2022 
+19 
+REACHBACK SUPPORT CAPABILITIES, for more information on USAFSAM’s 
+radioanalytical support capabilities. 
+6.5.  Sample Shipments.  The AFRAT should coordinate with the transportation management 
+office, logistics, field laboratory, and emergency management on local plans for shipping samples 
+of radiological, chemical, or biological matter for further testing, as well as chain of custody 
+procedures.  The plan should identify the office of primary responsibility for packaging, shipping, 
+escorting, and receiving the samples. 
+20 
+AFTTP3-42.34  14 OCTOBER 2022 
+Chapter 7 
+SECURITY AND FORCE PROTECTION 
+7.1.  Security Roles and Responsibilities.  Medical personnel and equipment are non-combatant 
+assets and, along with medical equipment, have protected status under the Geneva Conventions 
+and the Law of Armed Conflict.  Medical personnel and war reserve materiel assemblages are 
+protected IAW DAFI 31-101.  Arming requirements for deploying AFRAT personnel are mission 
+and operating location specific and are provided in reporting instructions and theater guidance.  
+Current threat assessments provided by the combatant commander and local threat conditions 
+established by the joint task force, air expeditionary wing, or air expeditionary group commander 
+dictate all local security measures.  AFRAT personnel are responsible for following personal 
+protection measures outlined in DAFI 31-101, area of responsibility security briefings, established 
+force protection requirements, and local guidance. 
+7.2.  Physical Security.  Security forces guard medical facilities only if deemed necessary as part 
+of the Integrated Defense Plan.  If the threat changes, security forces may appoint an augmented 
+detail to provide force protection and entry control (for example, a mass casualty event).  AFRAT 
+personnel should coordinate with the defense force commander for tactical security element 
+support for surveillance missions outside the base perimeter or beddown location. 
+7.3.  Operations Security.  AFRAT personnel are responsible for protecting mission-critical 
+information (to include medical or casualty information) in accordance with theater policy and 
+AFI 10-701, Operations Security (OPSEC).  Classified information should be transmitted by 
+secure means and protected in accordance with Department of Defense Manual (DODM) 5200.01, 
+Volume 3_DAFMAN 16-1404, Volume 3, Information Security Program:  Protection of 
+Classified Information.  Situation reports, medical surveillance, site locations, and compiled 
+patient data are examples of information that may be classified and require protection. 
+7.4.  Security of Weapons and Ammunition.  Weapons and ammunition should be secured in 
+accordance with DAFI 31-101 and local procedures.  Normally, base security forces provide 
+weapons handling guidance and an armory.  In austere locations where access to an armory might 
+not be available, AFRAT personnel are responsible for the safe storage of weapons and 
+ammunition until the armory can assume responsibility.  AFRAT personnel should coordinate with 
+base security forces or the supported unit on local weapons handling guidance. 
+AFTTP3-42.34  14 OCTOBER 2022 
+21 
+Chapter 8 
+TRAINING 
+8.1.  Medical Readiness Training Requirements.  Personnel assigned to AFRAT UTCs must 
+complete the Comprehensive Medical Readiness Program (CMRP) training requirements 
+specified in AFI 41-106 and the CMRP Category III Training Guide.  Additional training that 
+might be required to meet operational or theater specific requirements is identified in deployment 
+reporting instructions, tasking line remarks, or (for domestic CBRN response missions) the 
+Defense Readiness Reporting System (DRRS). 
+8.2.  UTC and Job-Specific Training Requirements.  AFRAT members attend formal training 
+courses that are specific to their job function and UTC mission set as identified in Table 8.1  These 
+courses are a one-time requirement and are tracked in the Medical Readiness Decision Support 
+System (MRDSS).  Waivers or alternatives for these training requirements may be granted at the 
+discretion of the AFRAT chief with written approval from the MEFPAK responsible agency. 
+Table 8.1.  AFRAT UTC and Job-Specific Training. 
+FFRN1, Rad/Nuc Incident Response Team 
+Skill Level 
+Course 
+43E 
+ 
+7-Level 
+AFRAT Basic Workshop (Courses A and B) 
+(Offered twice a year through USAFSAM, Wright-
+Patterson Air Force Base [AFB], OH) 
+⚫ 
+ 
+⚫ 
+Applied Radiological Response Techniques (ARRT) 
+Level 1 
+(Distance learning course offered through Defense 
+Nuclear Weapons School, Kirtland, AFB, NM) 
+⚫ 
+ 
+⚫ 
+ARRT Level 2 
+(Offered through Defense Nuclear Weapons School, 
+Kirtland AFB, NM) 
+⚫ 
+ 
+⚫ 
+Environmental Monitoring 
+(Offered through Oak Ridge Associated Universities, 
+Oak Ridge, TN) 
+ 
+ 
+⚫ 
+Medical Effects of Ionizing Radiation (MEIR) 
+(Offered through Armed Forces Radiobiology Institute 
+mobile training team) 
+⚫ 
+ 
+⚫ 
+Nuclear Emergency Team Operations (NETOPS) 
+(Offered through Defense Nuclear Weapons School, 
+Kirtland AFB, NM) 
+ 
+ 
+⚫ 
+Nuclear Weapons Incident Response Training (NWIRT) 
+(NWIRT Domestic Basic is offered through Defense 
+Weapons Nuclear Weapons School, Kirtland AFB, NM.  
+NWIRT Overseas Basic is offered through the mobile 
+training team at a location in the European Command 
+area of responsibility.) 
+⚫ 
+ 
+ 
+FFRN2, Rad/Nuc Surveillance Team 
+Skill Level 
+22 
+AFTTP3-42.34  14 OCTOBER 2022 
+Course 
+ 
+ 
+7-Level 
+AFRAT Basic Workshop (Courses A and B) 
+ 
+ 
+⚫ 
+ARRT Level 1 
+ 
+ 
+⚫ 
+ARRT Level 2 
+ 
+ 
+⚫ 
+MEIR 
+ 
+ 
+⚫ 
+NETOPS 
+ 
+ 
+⚫ 
+FFRN4, Rad/Nuc Laboratory Team 
+Skill Level 
+Course 
+43E 
+5-Level 
+7-Level 
+AFRAT Basic Workshop (Courses A and B) 
+⚫ 
+⚫ 
+⚫ 
+MEIR 
+⚫ 
+⚫ 
+⚫ 
+FFRN6, Rad/Nuc Dosimetry Team 
+Skill Level 
+Course 
+ 
+5-Level 
+7-Level 
+AFRAT Basic Workshop (Courses A and B) 
+ 
+⚫ 
+⚫ 
+MEIR 
+ 
+⚫ 
+⚫ 
+FFRN8, Rad/Nuc Tactical C2 Support Team 
+Skill Level 
+Course 
+ 
+ 
+7-Level 
+AFRAT Basic Workshop (Courses A and B) 
+ 
+ 
+⚫ 
+Ludlum Calibration Course 
+(Offered through Ludlum, Sweetwater, TX) 
+ 
+ 
+4A271 
+only 
+MEIR 
+ 
+ 
+⚫ 
+Note:  The AFRAT Basic course includes an additional two to three-day training module 
+for the biomedical equipment repair technician (4A271), which includes specialized, 
+hands-on training on AFRAT equipment.  The biomedical equipment repair technician 
+should attend AFRAT Basic before attending the Ludlam Calibration Course. 
+FFRN9, Rad/Nuc Response Liaison Team 
+Skill Level 
+Course 
+43E 
+ 
+ 
+AFRAT Basic Workshop (Courses A and B) 
+⚫ 
+ 
+ 
+ARRT Level 1 
+⚫ 
+ 
+ 
+ARRT Level 2 
+⚫ 
+ 
+ 
+NWIRT – Domestic Basic 
+⚫ 
+ 
+ 
+MEIR 
+⚫ 
+ 
+ 
+ 
+8.3.  Recommended Training Courses.  Table 8.2 lists additional courses that are beneficial for 
+AFRAT members to attend if mission requirements and funding allow.  These suggestions are not 
+intended to be a complete list of all available technical training options. 
+Table 8.2.  Recommended Technical Training Courses. 
+FFRN2, Rad/Nuc Surveillance Team 
+Skill 
+Course 
+ 
+ 
+7-Level 
+Applied Health Physics 
+(Offered through Oak Ridge Associated Universities, 
+Oak Ridge, TN) 
+ 
+ 
+⚫ 
+Air Sampling for Radioactive Material (ASRM) 
+(Offered through Oak Ridge Associated Universities, 
+ 
+ 
+⚫ 
+AFTTP3-42.34  14 OCTOBER 2022 
+23 
+Oak Ridge, TN) 
+ARRT Level 1 
+ 
+ 
+ 
+ARRT Level 2 
+ 
+ 
+ 
+Basic Intermediate Radiological Nuclear Training 
+(B/IRNT) 
+(Offered through Defense Nuclear Weapons School, 
+Kirtland AFB, NM) 
+ 
+ 
+⚫ 
+Department of Transportation Radiological Shipping and 
+Transportation Course 
+(Offered at various locations and as distance learning) 
+ 
+ 
+⚫ 
+Environmental Monitoring 
+ 
+ 
+⚫ 
+Gamma Spectroscopy 
+(Distance learning course offered through Oak Ridge 
+Associated Universities, Oak Ridge, TN) 
+ 
+ 
+⚫ 
+Marine Chemical Biological Incident Response Force 
+(CBIRF) Basic Operations Course 
+(Offered through Indian Head, MD) 
+ 
+ 
+⚫ 
+Multi-Agency Radiation Survey and Site Investigation 
+Manual (MARSSIM) 
+(Offered through Oak Ridge Associated Universities, 
+Oak Ridge, TN) 
+ 
+ 
+⚫ 
+Nuclear Weapons Orientation Course (NWOC) 
+(Offered through Defense Nuclear Weapons School, 
+Kirtland AFB, NM) 
+ 
+ 
+ 
+NWIRT Domestic Basic 
+ 
+ 
+ 
+FFRN4, Rad/Nuc Laboratory Team 
+Skill 
+Course 
+43E 
+5-Level 
+7-Level 
+ASRM 
+ 
+⚫ 
+ 
+B/IRNT 
+ 
+ 
+⚫ 
+Environmental Monitoring 
+ 
+⚫ 
+ 
+Gamma Spectroscopy 
+⚫ 
+ 
+⚫ 
+NETOPS 
+ 
+⚫ 
+ 
+FFRN6, Rad/Nuc Dosimetry Team 
+Skill 
+Course 
+ 
+5-Level 
+7-Level 
+ARRT Level 1 
+ 
+⚫ 
+⚫ 
+ARRT Level 2 
+ 
+⚫ 
+⚫ 
+NETOPS 
+ 
+⚫ 
+⚫ 
+RESRAD–BUILD 
+(Offered through Argonne National Lab, Lemont, IL) 
+ 
+ 
+⚫ 
+FFRN8, Rad/Nuc Tactical C2 Support Team 
+Skill 
+Course 
+ 
+ 
+7-Level 
+Hazard Prediction and Assessment Capability Level I 
+(HPAC-1) 
+(Offered through Defense Nuclear Weapons School, 
+Kirtland AFB, NM) 
+ 
+ 
+4A071 
+24 
+AFTTP3-42.34  14 OCTOBER 2022 
+NWIRT Basic 
+ 
+ 
+4A071 
+FFRN9, Rad/Nuc Response Liaison Team 
+Skill 
+Course 
+43E 
+ 
+ 
+B/IRNT 
+⚫ 
+ 
+ 
+HPAC-1 
+⚫ 
+ 
+ 
+HPAC-2 
+⚫ 
+ 
+ 
+MARSSIM 
+⚫ 
+ 
+ 
+Marine CBIRF Basic Operations Course 
+⚫ 
+ 
+ 
+NWOC 
+⚫ 
+ 
+ 
+RESRAD–BUILD 
+⚫ 
+ 
+ 
+Note:  FFRN1 members should attend any of the courses that most closely correlates with 
+their job functions.  
+8.4.  UTC Sustainment Training.  UTC sustainment training occurs between formal course 
+attendance cycles to maintain the skills and knowledge the team needs to fulfill its mission 
+essential tasks.  UTC sustainment training credit may be granted for participation in mission 
+essential task-driven exercises, operational readiness exercises, local exercises, and joint exercises.  
+Contact the ACC Exercise and Training Branch for information on approved sustainment training 
+exercises. 
+8.4.1.  Following completion of the initial AFRAT Basic Workshop formal training courses, 
+AFRAT personnel should attend the AFRAT Basic functional exercise (Course B) or 
+equivalent approved exercise annually for refresher training.  Twice a year participation in the 
+AFRAT Basic functional exercise is recommended.  The AFRAT chief and ACC/SGX 
+determine whether other exercises are equivalent and acceptable. 
+8.4.2.  The biomedical equipment technician assigned to FFRN8 needs to maintain familiarity 
+and proficiency on the calibration, repair, and routine maintenance of the AFRAT’s radiation 
+measurement equipment.  USAFSAM provides in-service, hands-on training on the AFRAT’s 
+specialized equipment.  This training is typically done in conjunction with the AFRAT Basic 
+course and should be coordinated through the pilot unit. 
+8.5.  Mission Essential Task Lists (METLs).  Personnel assigned to an AFRAT UTC should be 
+proficient in their functional-specific and AFRAT full team core METLs.  METLs are available 
+on the ACC/SG MEFPAK Playbook (https://usaf.dps.mil/sites/12173/SitePages/ACC-SG-
+Ground-Medical-UTC-Management.aspx) or from the ACC Exercise and Training Branch. 
+8.6.  Pre-Deployment Mission Training.  When possible, deploying AFRAT personnel should 
+meet at USAFSAM two working days before departure for mission training.  This training includes 
+familiarization on mission communication and command structure, security and intelligence 
+briefings, public health briefings, and expected radiological hazards. 
+8.7.  CBRN Defense Training.  AFRAT personnel subject to deployment should complete the 
+CBRN defense training requirements prescribed in AFI 41-106 and DAFI 10-2501, Air Force 
+Emergency Management Program.  They should also be familiar with the CBRN passive defense 
+and consequence management procedures outlined in AFMAN 10-2503, Operations in a 
+Chemical, Biological, Radiological, and Nuclear (CBRN) Environment, JP 3-11, Operations in 
+Chemical, Biological, Radiological, and Nuclear Environments, and Planning Guidance for 
+Response to a Nuclear Detonation developed by the Homeland Security Council Interagency 
+AFTTP3-42.34  14 OCTOBER 2022 
+25 
+Policy Coordination Subcommittee for Preparedness and Response to Radiological and Nuclear 
+Threats. 
+8.8.  CBRN Response Force Training.  AFRAT personnel allocated to the CBRN Response 
+Enterprise participate in Defense CBRN Response Force (DCRF) and C2 CBRN Response 
+Element (C2CRE) training, exercises, and evaluations in accordance with the Joint Mission 
+Essential Task List.  Joint training plans, schedules, and training records are maintained in the 
+Joint Training Management Information System (JTIMS). 
+8.9.  Vehicle Operation Training.  Operators of government motor vehicles and material 
+handling equipment must have a government driver’s license and appropriate certification in 
+accordance with AFI 24-301, Ground Transportation. 
+8.10.  Weapons Training.  AFRAT personnel follow the weapons qualification training 
+requirements outlined in AFI 36-2654, Combat Arms Program, and AFMAN 36-2655, USAF 
+Small Arms and Light Weapons Qualification Programs, for Arming Group C.  Theater combatant 
+commands may impose additional or more stringent requirements, which are generally specified 
+in the operation’s execution order or reporting instructions.  See the AFMS Arming Requirements 
+document (also known as the Weapons and Munitions Forecasting Table) for weapons 
+authorizations for AFRAT UTCs.  This document is available on the ACC/SG MEFPAK Playbook 
+(https://usaf.dps.mil/sites/12173/SitePages/Playbooks.aspx) or by request from the ACC 
+Ground Medical UTC Management Branch. 
+8.11.  Communications and Information Systems Training.  AFRAT personnel should be 
+trained in the proper use of the communications and information systems included in their 
+equipment packages. 
+26 
+AFTTP3-42.34  14 OCTOBER 2022 
+Chapter 9 
+LOGISTICS 
+9.1.  Expeditionary Medical Logistics (EML) System.  The EML system provides global 
+support and sustainment to air expeditionary force medical forces across the full spectrum of 
+operations.  The EML system uses a pull process for resupply and a repair-and-return process for 
+medical equipment maintenance to minimize inventory and airlift requirements.  Each combatant 
+command has a supporting Theater Lead Agent for Medical Materiel (TLAMM).  The TLAMM 
+serves as a major theater medical distribution node and becomes the deployed unit’s primary point 
+of contact for materiel and equipment support in theater.  For early phase operations and 
+emergency situations in which a TLAMM is not able to provide support, the Air Force Forces 
+Surgeon (AFFOR/SG) staff in coordination with the Air Force Medical Logistics Operations 
+Center (AFMLOC) usually designate a sustaining base to provide reachback support.  Upon 
+notification of activation, the AFRAT chief or logistics lead should contact the AFMLOC for 
+guidance on the appropriate theater supply chain and points of contact.  See Department of the Air 
+Force Tactics, Techniques, and Procedures (DAFTTP) 3-42.8, Expeditionary Medical Logistics 
+(EML) System, for more information on medical logistics support capabilities, infrastructure, and 
+supply chain management. 
+9.2.  Supplies and Equipment.  Most expeditionary medical equipment based in the continental 
+United States is managed and deployed through designated consolidated storage and deployment 
+centers (CSDCs).  Equipment UTCs may also be pre-positioned in theater based on requirements 
+from geographic combatant commanders and the COMAFFOR.  Initial deployments include 72 
+hours of supplies packaged in hand-portable backpacks.  The full AFRAT deploys with 30 days 
+of supplies (the initial 72-hour incident response package plus three sustainment packages).  UTC 
+team chiefs should be aware of the contents of their equipment packages before deployment and 
+should contact their medical logistics office for assistance with reviewing their allowance 
+standards.  At the deployed location, UTC team chiefs coordinate subsequent resupply through 
+their medical logistics function.  Table 9.1 lists the allowance standard for each AFRAT 
+equipment package. 
+Table 9.1.  AFRAT Equipment Allowance Standards. 
+UTC 
+Title 
+Allowance Standard 
+FFRN1 
+Rad/Nuc Incident Response Team 
+902H 
+FFRNB 
+Rad/Nuc Laboratory Equipment 
+902N 
+FFRNC 
+Rad/Nuc Dosimetry Equipment 
+902P 
+FFRND 
+Rad/Nuc Surveillance Equipment 
+902L 
+FFRN9 
+Rad/Nuc Response Liaison Team 
+902G 
+9.3.  Medical Equipment Maintenance and Repair.  USAFSAM provides routine calibration 
+and maintenance of the AFRAT’s specialized radiation instrumentation and war reserve materiel.  
+In a deployed setting, the USAFSAM Radiation Calibration Laboratory (USAFSAM/OEAR) 
+provides reachback support for calibration and repair of equipment.  When deployed, the 
+biomedical equipment repair technician assigned to the Tactical C2 Support Team (FFRN8) 
+provides routine maintenance and repair of medical equipment at the deployed location. 
+AFTTP3-42.34  14 OCTOBER 2022 
+27 
+9.4.  Equipment Upgrades and Modernization.  Changes to the AFRAT assemblage may result 
+from technology advances and lessons learned feedback.  MRAs typically budget and plan for 
+major equipment reviews every five years. 
+ 
+SHARON R. BANNISTER 
+Major General, USAF, DC 
+Director, Medical Operations 
+28 
+AFTTP3-42.34  14 OCTOBER 2022 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+10 CFR 20.1906, Procedures for Receiving and Opening Packages, current edition 
+10 CFR 71.5, Transportation of Licensed Material, current edition 
+49 CFR 172, Hazardous Materials Table, Special Provisions, Hazardous Materials 
+Communications, Emergency Response Information, Training Requirements, and Security Plans, 
+current edition 
+AFI 10-204, Air Force Service Exercise Program and Support to Joint and National Exercise 
+Program, 12 April 2019 
+AFI 10-403, Deployment Planning and Execution, 17 April 2020 
+AFI 10-701, Operations Security (OPSEC), 24 July 2019 
+AFI 10-1302, Air Force Lessons Learned Program, 30 July 2019 
+AFI 17-130, Cybersecurity Program Management, 13 February 2020 
+AFI 24-301, Ground Transportation, 22 October 2019 
+AFI 33-322, Records Management and Information Governance Program, 23 March 2020 
+AFI 36-2654, Combat Arms Program, 16 April 2020 
+AFI 41-106, Air Force Medical Readiness Program, 29 July 2020 
+AFMAN 10-206, Operational Reporting (OPREP), 18 June 2018 
+AFMAN 10-2503, Operations in a Chemical, Biological, Radiological, and Nuclear (CBRN) 
+Environment, 14 May 2019 
+AFMAN 24-604, Preparing Hazardous Materials for Military Air Shipments, 09 October 2020 
+AFMAN 36-2655, USAF Small Arms and Light Weapons Qualification Programs, 17 April 2020 
+AFMAN 41-209, Medical Logistics Support, 04 January 2019 
+AFPAM 10-219V5, Bare Base Conceptual Planning, 30 March 2012 
+AFPAM 10-219V6, Planning and Design of Expeditionary Airbases, 01 February 2006 
+AFPAM 10-1403, Air Mobility Planning Factors, 24 Oct 2018 
+DAFI 10-2501, Air Force Emergency Management Program, 10 March 2020 
+DAFI 24-602V2, Cargo Movement, 12 June 2019 
+DAFI 31-101, Integrated Defense, 25 March 2020 
+DAFMAN 17-1301, Computer Security (COMPUSEC), 12 February 2020 
+DAFMAN 21-201, Munitions Management, 03 May 2022 
+DAFTTP 3-42.8, Expeditionary Medical Logistics (EML) System, 15 Jun 2021 
+AFTTP3-42.34  14 OCTOBER 2022 
+29 
+Defense Transportation Regulation (DTR) 4500.9-R-Part III, Mobility, June 2016 
+DODM 5200.01V3_DAFMAN 16-1404V3, Information Security Program:  Protection of 
+Classified Information, 23 December 2020 
+JP 3-11, Operations in Chemical, Biological, Radiological, and Nuclear Environments, 29 
+October 2018 
+JP 3-41, Chemical, Biological, Radiological, and Nuclear Response, 9 September 2016 
+Planning Guidance for Response to a Nuclear Detonation, Homeland Security Council 
+Interagency Policy Coordination Subcommittee for Preparedness and Response to Radiological 
+and Nuclear Threats, 16 Jan 2009 
+War and Mobilization Plan, Volume 1 (WMP-1), Enclosure F, Air Force Medical Service 
+(AFMS) Supplement, July 2019 
+Adopted Forms 
+AF Form 847, Recommendation for Change of Publication 
+Abbreviations and Acronyms 
+ACC—Air Combat Command 
+AF—Air Force 
+AFB—Air Force Base 
+AFFOR—Air Force Forces 
+AFI—Air Force Instruction 
+AFMAN—Air Force Manual 
+AFMLOC—Air Force Medical Logistics Operations Center 
+AFMS—Air Force Medical Service 
+AFPAM—Air Force Pamphlet 
+AFRAT—Air Force Radiation Assessment Team 
+AFSC—Air Force Specialty Code 
+AFTTP—Air Force Tactics, Techniques, and Procedures 
+ANG—Air National Guard 
+ARRT—Applied Radiological Response Techniques 
+ASRM—Air Sampling for Radioactive Material 
+B/IRNT—Basic Intermediate Radiological Nuclear Training 
+BEAR—Basic Expeditionary Airfield Resources 
+BOS—Base Operating Support 
+C2—Command and Control 
+30 
+AFTTP3-42.34  14 OCTOBER 2022 
+C2CRE—Command and Control CBRN Response Element 
+CBIRF—Chemical Biological Incident Response Force 
+CBRN—Chemical, Biological, Radiological, and Nuclear 
+CFR—Code of Federal Regulations 
+CMAT—Consequence Management Advisory Team 
+CMRP—Comprehensive Medical Readiness Program 
+COMAFFOR—Commander, Air Force Forces 
+COMPUSEC—Computer Security 
+CSDC—Consolidated Storage and Deployment Center 
+DAFI—Department of the Air Force Instruction 
+DAFMAN—Department of the Air Force Manual 
+DAFTTP—Department of the Air Force Tactics, Techniques, and Procedures 
+DCRF—Defense CBRN Response Force 
+DOD—Department of Defense 
+DODM—Department of Defense Manual 
+DRRS—Defense Readiness Reporting System 
+DSCA—Defense Support of Civil Authorities 
+DSN—Defense Switched Network 
+DTR—Defense Transportation Regulation 
+ECS—Expeditionary Combat Support 
+ECU—Environmental Control Unit 
+EML—Expeditionary Medical Logistics 
+FIDLER—Field Instrument for Detection of Low Energy Radiation 
+HPAC—Hazard Prediction and Assessment Capability 
+HPGe—High Purity Germanium 
+JP—Joint Publication 
+JTIMS—Joint Training Management Information System 
+JTRS—Joint Tactical Radio System 
+MARSSIM—Multi-Agency Radiation Survey and Site Investigation Manual 
+MEFPAK—Manpower and Equipment Force Packaging 
+MEIR—Medical Effects of Ionizing Radiation 
+METL—Mission Essential Task List 
+AFTTP3-42.34  14 OCTOBER 2022 
+31 
+MRA—MEFPAK Responsible Agency 
+MRAT—Medical Radiobiology Advisory Team 
+MRDSS—Medical Readiness Decision Support System 
+NaI—Sodium Iodide 
+NCOIC—Non-Commissioned Officer in Charge 
+NDT—Nuclear Disablement Team 
+NETOPS—Nuclear Emergency Team Operations (course) 
+NIPRNET—Non-classified Internet Protocol Router Network 
+NVLAP—National Voluntary Laboratory Accreditation Program 
+NWIRT—Nuclear Weapons Incident Response Training 
+NWOC—Nuclear Weapons Orientation Course 
+OPR—Office of Primary Responsibility 
+OPREP—Operational Reporting 
+OPSEC—Operations Security 
+PAM—Preventive and Aerospace Medicine 
+Rad/Nuc—Radiological and Nuclear 
+RAMT—Radiological Advisory Medical Team 
+SDC—Standard Desktop Configuration 
+SEI—Special Experience Identifier 
+SG—Surgeon 
+SIPRNET—SECRET Internet Protocol Router Network 
+STE—Secure Telephone Equipment 
+TCP—Transmission Control Protocol 
+TFOPS—Task Force Operations 
+TLAMM—Theater Lead Agent for Medical Materiel 
+TMIP—Theater Medical Information Program 
+TS/SCI—Top Secret Sensitive Compartmented Information 
+UDP—User Datagram Protocol 
+USAF—United States Air Force 
+USAFSAM—United States Air Force School of Aerospace Medicine 
+UTC—Unit Type Code 
+WMP—War and Mobilization Plan 
+32 
+AFTTP3-42.34  14 OCTOBER 2022 
+Attachment 2 
+EXPEDITIONARY COMBAT SUPPORT REQUIREMENTS 
+Table A2.1.  AFRAT Expeditionary Combat Support Requirements. 
+AFRAT Expeditionary Combat Support Requirements 
+Calculations are in accordance with AFPAM 10-219, Vols 5 & 6, where applicable unless otherwise specified. 
+ 
+FFRN1 
+FFRN2 
+FFRN4 
+FFRN6 
+FFRN8 
+FFRN9 
+FFRND 
+FFRNB 
+FFRNC 
+MOVEMENT REQUIREMENTS 
+Calculations are in accordance with AFPAM 10-1403 and DTR 4500.9-R Part III. 
+Pallets (#) 
+ 
+ 
+ 
+ 
+ 
+ 
+3 
+4 
+2 
+C-130 (# aircraft) 
+ 
+ 
+ 
+ 
+ 
+ 
+1 
+1 
+1 
+C-17 (# aircraft) 
+ 
+ 
+ 
+ 
+ 
+ 
+1 
+1 
+1 
+C-5 (# aircraft) 
+ 
+ 
+ 
+ 
+ 
+ 
+1 
+1 
+1 
+M871 (# flatbed 
+semitrailers) 
+ 
+ 
+ 
+ 
+ 
+ 
+1 
+1 
+1 
+M872 (# flatbed 
+semitrailers) 
+ 
+ 
+ 
+ 
+ 
+ 
+1 
+1 
+1 
+SITE PREPARATION 
+Square Footage 
+(slight grade required) 
+ 
+ 
+ 
+ 
+ 
+ 
+2,100 
+4,200 
+4,200 
+Tents (#) 
+ 
+ 
+ 
+ 
+ 
+ 
+1 
+1 
+1 
+ECUs (# units) 
+ 
+ 
+ 
+ 
+ 
+ 
+1 
+1 
+1 
+Note: Civil engineering maintenance support is required for ECUs and backup generators. 
+BASIC EXPEDITIONARY AIRFIELD RESOURCES (BEAR) REQUIREMENTS 
+Latrine/Showers (total 
+# people) 
+12 
+6 
+9 
+3 
+3 
+4 
+ 
+ 
+ 
+Billeting (# staff) 
+12 
+6 
+9 
+3 
+3 
+4 
+ 
+ 
+ 
+Officer (#) 
+2 
+0 
+1 
+0 
+0 
+4 
+ 
+ 
+ 
+Enlisted (#) 
+10 
+6 
+8 
+3 
+3 
+0 
+ 
+ 
+ 
+Meals (# meals/day, 
+total) (= 3 meals/day) 
+36 
+18 
+27 
+9 
+9 
+12 
+ 
+ 
+ 
+Laundry (lbs/week, 
+total) (= 32 
+lbs/person/week) 
+384 
+192 
+288 
+96 
+96 
+128 
+ 
+ 
+ 
+Ice (lbs/day, total) (= 
+4.4 lbs/person/day) 
+52.8 
+26.4 
+39.6 
+13.2 
+13.2 
+17.6 
+ 
+ 
+ 
+Potable Water 
+(gal/day) (= # staff x 
+10 gal/day) 
+120 
+60 
+90 
+30 
+30 
+40 
+ 
+ 
+ 
+Power (kW) 
+ 
+ 
+ 
+ 
+ 
+ 
+30 
+60 
+60 
+MEDICAL/BIOHAZARD WASTE MANAGEMENT 
+Liquid (gal/day), total 
+(= 0.7 x potable water 
+rate) 
+84 
+42 
+63 
+21 
+21 
+28 
+ 
+ 
+ 
+Solid (lbs/day, total) 
+(= 4 lbs x # people) 
+48 
+24 
+36 
+12 
+12 
+16 
+ 
+ 
+ 
+LOGISTICS REQUIREMENTS 
+Petroleum, Oil, Lubricants 
+Diesel Fuel 
+Consumption 
+(gal/day) (= 8.33 
+gal/hr x 24 hrs) 
+ 
+ 
+ 
+ 
+ 
+ 
+75 
+75 
+75 
+AFTTP3-42.34  14 OCTOBER 2022 
+33 
+Unleaded Fuel 
+Consumption 
+(gal/day) (10kW 
+backup generator) 
+ 
+ 
+ 
+ 
+ 
+ 
+20 
+20 
+20 
+Vehicles 
+Transportation 
+Requirements 
+UFMBJ: 
+4, 4x4 
+Pickup 
+Trucks 
+UFMBJ: 
+3, 4x4 
+Pickup 
+Trucks 
+UFMBJ: 
+2, 4x4 
+Pickup 
+Trucks 
+UFMBJ: 
+1, 4x4 
+Pickup 
+Truck 
+UFMBJ: 
+1, 4x4 
+Pickup 
+Truck 
+UFMBJ: 
+1, 4x4 
+Pickup 
+Truck 
+ 
+ 
+ 
+Materiel Handling 
+Equipment 
+ 
+ 
+ 
+ 
+ 
+ 
+10K 
+forklift 
+Flatbed 
+truck 
+10K 
+forklift 
+Flatbed 
+truck 
+10K 
+forklift 
+Flatbed 
+truck 
+Vehicle Maintenance 
+Support 
+Required 
+COMMUNICATIONS AND INFORMATION SYSTEMS 
+Organic Equipment 
+Satellite/Telemedicine 
+(#) 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+Land Mobile Radios 
+(#) 
+10 
+0 
+0 
+0 
+0 
+0 
+4 
+0 
+4 
+Secure Telephone 
+Equipment (STE) (#) 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+Laptop (#) 
+6 
+0 
+0 
+0 
+0 
+0 
+2 
+6 
+4 
+Printers (#) 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+Server Suite (#) 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+Base Communications Support Requirements 
+Phone (#) 
+4 
+1 
+1 
+1 
+1 
+1 
+ 
+ 
+ 
+Controlled 
+Cryptographic 
+Items/STE Cards (#) 
+1 
+1 
+1 
+1 
+1 
+1 
+ 
+ 
+ 
+NIPRNET Access 
+1 Cat 6E drop required 
+ 
+ 
+ 
+SIPRNET Access 
+Required 
+ 
+ 
+ 
+Computer Configuration 
+Operating 
+System/Office Suite 
+DOD SDC 
+ 
+ 
+ 
+RAM/Hard Drive 
+Enterprise Hardware Standard 
+ 
+ 
+ 
+Clinical Applications 
+TMIP 
+ 
+ 
+ 
+Required Port 
+Number/Protocol 
+Access (TCP/UDP) 
+21/TCP; 443/TCP; 8080/TCP 
+ 
+ 
+ 
+CHAPLAINCY SERVICE SUPPORT 
+ 
+Required for all modules 
+ 
+ 
+ 
+SECURITY FORCES SUPPORT 
+ 
+ 
+Required for all modules not co-located on Air Base 
+ 
+ 
+ 
+ 
+34 
+AFTTP3-42.34  14 OCTOBER 2022 
+Attachment 3 
+FULL AFRAT LAYOUT 
+Figure A3.1.  AFRAT Site Layout Diagram. 
+ 
+ 
+AFTTP3-42.34  14 OCTOBER 2022 
+35 
+Attachment 4 
+AFRAT SURVEILLANCE TEAM (FFRN2) SHELTER 
+Figure A4.1.  AFRAT Surveillance Team Shelter Layout. 
+ 
+ 
+36 
+AFTTP3-42.34  14 OCTOBER 2022 
+Attachment 5 
+USAFSAM RADIOANALYTICAL REACHBACK SUPPORT CAPABILITIES 
+Figure A5.1.  USAFSAM Radioanalytical Support. 
+ 
+Note:   Additional reachback support is available with coordination with the USAFSAM 
+Radioanalytical Laboratory. 
+ 

@@ -1,0 +1,740 @@
+BY ORDER OF THE SECRETARY  
+OF THE AIR FORCE 
+ 
+DEPARTMENT OF THE AIR FORCE 
+INSTRUCTION 17-221 
+31 JANUARY  2023 
+Cyberspace 
+SPECTRUM INTERFERENCE 
+RESOLUTION PROGRAM 
+COMPLIANCE WITH THIS PUBLICATION IS MANDATORY 
+ 
+ACCESSIBILITY:  This publication is available for downloading or ordering on the e-
+Publishing website at www.e-Publishing.af.mil 
+RELEASABILITY:  There are no releasability restrictions on this publication 
+ 
+ 
+OPR: AF/A2/6LS 
+Certified by: AF/A2/6L  
+(Brig Gen Gavin Marks)
+Supersedes: 
+AFI17-221, 11 May 2018 
+Pages: 18 
+ 
+ 
+This instruction implements Department of the Air Force (DAF) Policy Directive 17-2, Cyber 
+Warfare Operations and describes the DAF Spectrum Interference Resolution Program.  It 
+provides DAF guidance in accordance with Chairman of the Joint Chiefs of Staff Instruction 
+(CJCSI) 3320.02F, Joint Spectrum Interference Resolution (JSIR), CJCSI 3320.02E, Classified 
+Supplement to Joint Spectrum Interference Resolution (JSIR), and Chairman Joint Chiefs of Staff 
+Manual (CJCSM) 3320.02E, Joint Spectrum Interference Resolution (JSIR) Procedures.  It 
+provides guidance for reporting, identifying, evaluating, and controlling electromagnetic 
+interference (EMI) to meet electromagnetic compatibility goals of the in Department of Defense 
+(DoD) Electromagnetic Environmental Effects (E3) program as defined in DoD Instruction (DoDI) 
+3222.03, DoD Electromagnetic Environmental Effects (E3) Program.  It also provides guidance 
+for requesting Quick Fix Interference Resolution Capability (QFIRC) and related compatibility 
+measurements and specialized engineering services.  This publication is applicable to the entire 
+DAF, the United States Air Force (USAF), the United States Space Force (USSF), the Air Force 
+Reserve, the Air National Guard, the Civil Air Patrol, when conducting missions as the official Air 
+Force Auxiliary, all DAF civilian employees, and those with a contractual obligation to abide by 
+the terms of DAF issuances.  Ensure all records generated as a result of processes prescribed in 
+this publication adhere to Air Force Instruction 33-322, Records Management and Information 
+Governance Program, and are disposed in accordance with the Air Force Records Disposition 
+Schedule, which is located in the Air Force Records Information Management System.  Refer 
+recommended changes and questions about this publication to the office of primary responsibility 
+(OPR) using the DAF Form 847, Recommendation for Change of Publication; route DAF Forms 
+847 from the field through the appropriate functional chain of command.  This publication may be 
+2 
+DAFI17-221  31 JANUARY  2023 
+supplemented at any level, but all supplements must be routed to the office of primary 
+responsibility of this publication for coordination prior to certification and approval.  The 
+authorities to waive wing or unit level requirements in this publication are identified with a Tier 
+(“T-0, T-1, T-2, T-3”) number following the compliance statement.  See Department of the Air 
+Force Manual (DAFMAN) 90-161, Publishing Processes and Procedures, for a description of the 
+authorities associated with the tier numbers.  Submit requests for waivers through the chain of 
+command to the appropriate tier waiver approval authority or alternately to the requestor’s 
+commander for non-tiered compliance items.  The use of the name or mark of any specific 
+manufacturer, commercial product, commodity, or service does not imply endorsement by the 
+DAF. 
+SUMMARY OF CHANGES 
+This document has been substantially revised and must be completely reviewed.  Major changes 
+include: inclusion of the USSF, current reporting procedures, and updated terms to match Joint 
+Publication (JP) 3-85, Joint Electromagnetic Spectrum Operations. 
+ 
+1. 
+Overview. .................................................................................................................  
+3 
+2. 
+Roles and Responsibilities. ......................................................................................  
+3 
+3. 
+EMI. .........................................................................................................................  
+7 
+4. 
+EMI Resolution. .......................................................................................................  
+7 
+5. 
+Requesting QFIRC and JSC Assistance. .................................................................  
+10 
+Attachment 1—GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+11 
+Attachment 2—FOR EMI CHARACTERIZATION AND RESOLUTION OF EMI AT 
+THE LOCAL LEVEL 
+ 
+14 
+Attachment 3—OFFLINE REPORT FORMAT 
+ 
+16 
+ 
+ 
+ 
+DAFI17-221  31 JANUARY  2023 
+3 
+1.  Overview.  CJCSI 3320.02F, Joint Spectrum Interference Resolution (JSIR) states DoD 
+components will attempt to resolve interference affecting systems under their auspices at the 
+lowest level possible within their chain of command.  The DAF Spectrum Interference Resolution 
+program pertains to DAF units and organizations experiencing interference at any time except 
+when under the operational control of a Combatant Command and follows the principle of 
+attempting to resolve interference at the lowest possible level.  Major Command(s) (MAJCOM(s)) 
+and Field Command(s) (FLDCOM(s)) with units and organizations located outside of the 
+continental United States shall report and resolve interference in accordance with the procedures 
+of the Unified Combatant Command (CCMD) or Joint Task Force (JTF) designated that area of 
+responsibility and may request the Air Force Spectrum Management Office (AF/A2/6LS) or 
+QFIRC assistance, if needed. (T-0)  Interference to space systems, including space, ground, and 
+control segments must be reported to your MAJCOM/FLDCOM, in accordance with United States 
+Space Command Instruction (SPI) 3250.01A, Satellite Communications (SATCOM). (T-3)  
+Submit all reports, initial, follow-on, and closure, through the DoD Area Frequency Coordinator 
+(AFC) and MAJCOM/FLDCOM to AF/A2/6LS. 
+2.  Roles and Responsibilities. 
+2.1.  Director, Joint Spectrum Center: 
+2.1.1.  Manages the DoD JSIR program and the JSIR collaboration portal in accordance 
+with guidance from the DoD, Chief Information Officer, and the Joint Staff, Director for 
+Command, Control, Communications, and Computers/Cyber (J-6).  Maintains the DoD 
+interference database and status tracking, to include characteristics and methods of 
+resolution for each interference case reported and provides database access to DAF units 
+upon request. 
+2.1.2.  Upon request, assists in the resolution of EMI.  If on-site assistance is necessary, the 
+request is initiated by AF/A2/6LS. 
+2.2.  Director, Electromagnetic Spectrum Superiority (AF/A2/6L) will: 
+2.2.1.  Coordinate and recommend countermeasures, when applicable. 
+2.2.2.  In conjunction with AF/A2/6LS, assist in the resolution of operational frequency 
+deconfliction issues. 
+2.3.  Division Chief of Air Force Spectrum Management Office (AF/A2/6LS) will: 
+2.3.1.  Act as the DAF focal point for Spectrum Interference Program and EMI resolution 
+guidance. 
+2.3.2.  Coordinate all policy and instructional guidance with AF/A2/6L. 
+2.3.3.  Act as the focal point for EMI problems when the proposed solution involves 
+changes in frequency assignments. 
+2.3.4.  Submit U.S./Canada and U.S./Mexico radio interference reports as directed in the 
+National Telecommunications and Information Administration (NTIA) Manual of 
+Regulations and Procedures for Federal Radio Frequency Management. 
+2.4.  Commander, Air Force Materiel Command (AFMC) will: 
+4 
+DAFI17-221  31 JANUARY  2023 
+2.4.1.  Review and coordinate electromagnetic compatibility standards with other agencies, 
+in addition to developing military compatibility standards and specifications for the design, 
+development, procurement, production, test, and measurement of electrical, electronic, and 
+telecommunication equipment. 
+2.4.2.  Design equipment for maximum suppression of undesirable emissions and optimum 
+rejection of potential EMI in accordance with requirements from the NTIA's Manual of 
+Regulations and Procedures for Federal Radio Frequency Management. 
+2.4.3.  Conduct electromagnetic compatibility studies and analyses to ensure that 
+equipment in the design or development stages will meet or exceed established 
+specifications and standards and achieve compatibility in its intended operational 
+environment. 
+2.4.4.  Budget for and provide funds to the 85th Engineering Installation Squadron (EIS) 
+for managing and procuring QFIRC support equipment for their unique or specialized test 
+equipment needed to support EMI reduction efforts in regard to spectrum dependent 
+systems with unique electromagnetic operational environment requirements beyond 
+common test equipment capabilities. 
+2.5.  Commander, Space Systems Command (SSC) will: 
+2.5.1.  Review and coordinate electromagnetic compatibility standards with other agencies, 
+in addition to developing military compatibility standards and specifications for the design, 
+development, procurement, production, verification, and measurement of electrical, 
+electronic, and telecommunication equipment. 
+2.5.2.  Design equipment for maximum suppression of undesirable emissions and optimum 
+rejection of potential EMI in accordance with requirements from the NTIA's Manual of 
+Regulations and Procedures for Federal Radio Frequency Management. 
+2.5.3.  Provide funds to the 85th EIS for managing and procuring QFIRC support 
+equipment for their unique or specialized test equipment needed to support EMI reduction 
+efforts in regard to spectrum dependent systems with unique electromagnetic operational 
+environment requirements beyond common test equipment capabilities. 
+2.6.  Commander, Space Training and Readiness Command (STARCOM) will conduct 
+electromagnetic compatibility studies and analyses to ensure that equipment in the design or 
+development stages will meet or exceed established specifications and standards and achieve 
+compatibility in its intended operational environment. 
+2.7.  Commander, 85th EIS will: 
+2.7.1.  Act as the technical focal point for the QFIRC and EMI measurements. 
+2.7.2.  Maintain an electromagnetic compatibility office to analyze programs for electronic 
+facilities, identify interference problems and where possible, make or recommend planning 
+adjustments to eliminate or reduce EMI problems. 
+2.7.3.  Establish and maintain the QFIRC program for the DAF.  QFIRC services include: 
+ 
+ 
+DAFI17-221  31 JANUARY  2023 
+5 
+2.7.3.1.  Receiving and analyzing reports of interference to operational equipment and 
+systems and provide technical assistance when requested.  Technical assistance will 
+include, electromagnetic environmental effects studies, electromagnetic compatibility 
+and interference consultation, on-site interference investigations including direction-
+finding measurements to locate the source(s) of interference, as well as initiating and 
+recommending corrective actions to resolve interference problems. 
+2.7.3.2.  Procuring and maintaining reasonable quantities of interference reduction 
+devices to resolve operational interference problems. 
+2.7.3.3.  Advising all working levels of the other Military Services, nonmilitary 
+government agencies, and civilian users of electronic equipment, both domestic and 
+foreign, on methods to eliminate or reduce interference problems, where DAF 
+equipment is involved. 
+2.7.3.4.  Upon request, providing technical advice and measurement assistance to 
+AF/A2/6LS and MAJCOM/FLDCOMs on EMI problems during equipment and 
+systems acquisition.  The requesting organization normally funds assistance.  If funds 
+are not available, the requesting organization will need to address funding through their 
+higher HQ. 
+2.7.3.5.  Advising HQ AFMC and HQ SSC of interference trends or developments that 
+require changes in maintenance procedures, requirements for new equipment, or 
+modifications to present equipment. 
+2.7.3.6.  Reviewing and coordinating on compatibility standards, as necessary, with 
+other agencies and assist HQ AFMC and HQ SSC in the development of adequate and 
+useful military standards and specifications for the design, development, procurement, 
+production, test and measurement of electromagnetic spectrum-dependent equipment. 
+2.7.3.7.  Providing DAF activities with measurement services to analyze and resolve 
+EMI problems.  These services include prototyping and testing various configurations 
+of equipment to determine the best installation criteria when parameters cannot be 
+obtained from equipment design specifications or available test data. 
+2.7.3.8.  Procuring, developing, and employing reliable and accurate measurement 
+techniques and equipment with the sensitivity, accuracy, range, and stability necessary 
+to provide valid electromagnetic measurement data on DAF electronic equipment and 
+systems to evaluate electromagnetic compatibility and interference, and providing 
+measurements and specialized engineering services as outlined in this instruction. 
+2.7.3.9.  Maintaining an online reference library of technical information on actions 
+taken to resolve EMI problems and provide available information to the Joint Spectrum 
+Center (JSC) to be included in the JSIR database. 
+2.7.3.10.  Publishing a user/maintainer technical guide for resolving interference at the 
+local level. 
+2.8.  MAJCOM/FLDCOM, Field Operating Agencies, and Direct Reporting Unit 
+Commanders/Directors will: 
+2.8.1.  Adhere to the guidance herein for the DAF spectrum interference resolution 
+program. 
+6 
+DAFI17-221  31 JANUARY  2023 
+2.8.2.  Identify electromagnetic compatibility and interference requirements and request 
+the appropriate technical assistance to perform the required analysis, measurements and 
+evaluations. 
+2.8.3.  Provide a policy letter to establish reporting channels and office of primary 
+responsibility at each level of command or supplement this instruction, as necessary, to 
+include reporting channels and office of primary responsibility at each level of command.  
+Supplements must not impede the reporting of EMI or restrict the direct communication of 
+policy between subordinate units and DAF engineering agencies that provide QFIRC 
+consulting and technical support, measurements and specialized engineering services.  A 
+copy of the policy letter or supplement should also be sent to the 85th EIS email addresses 
+listed in paragraph 4.2.5.1 or mail to 670 Maltby Hall Drive, Ste 234, Keesler AFB MS 
+39534-2633. 
+2.8.4.  Provide a command point of contact for electromagnetic compatibility and 
+interference to the 85th EIS. 
+2.8.5.  Ensure that EMI is reported in accordance with the EMI reporting policy and 
+procedures. 
+2.8.6.  Assist subordinate organizations with EMI education and training, and the 
+development of local procedures, templates and checklists. 
+2.8.7.  Assist subordinate units in identifying, resolving and reporting EMI. 
+2.8.8.  Determine if the frequency assignments involved in the interference are in 
+compliance with respective spectrum certification and assignment parameters. 
+2.8.9.  Ensure that electromagnetic compatibility requirements are considered before 
+assigning frequencies. 
+2.8.10.  Coordinate actions to resolve interference. 
+2.9.  Installation/Wing (or equivalent) Spectrum Managers will: 
+2.9.1.  Implement a base-level interference resolution program using the guidance 
+contained in this DAFI or provided by the respective MAJCOM/FLDCOM and Numbered 
+Air Force (NAF) as applicable. 
+2.9.2.  Resolve EMI resulting from frequency assignment problems through coordination 
+with DoD AFCs, as required, MAJCOM/FLDCOMs, AF/A2/6LS, and other agencies and 
+foreign countries, through the appropriate Combatant Command, as required. 
+2.9.3.  With assistance from the higher HQ, develop a spectrum interference resolution 
+training program, local interference reporting checklists, and mission specific JSIR 
+templates for all installation spectrum users on all aspects of documenting, analyzing, and 
+reporting. 
+2.9.4.  Assist all victims/users in the completion of the actions noted in Attachment 2 and 
+prescribed offline reporting format and submission channels contained in Attachment 3. 
+2.9.5.  Ensure victim system is operating with a valid frequency assignment and within the 
+specified technical parameters of the assignment. 
+DAFI17-221  31 JANUARY  2023 
+7 
+2.9.6.  Coordinate all QFIRC assistance requests through MAJCOM/FLDCOM spectrum 
+management channels. 
+3.  EMI.  Can be caused by enemy, neutral, friendly, or natural sources, and is resolved on a case-
+by-case basis.  Users investigate and report as outlined in paragraph 4 using the recommended 
+checklist in Attachment 2. 
+3.1.  EMI from DoD Users.  When the interference clearly results from another DoD user, 
+attempt to resolve the interference at the lowest organizational level.  (T-3) After all local 
+efforts have been exhausted to resolve the interference, request assistance through command 
+spectrum management channels.  Within their area of responsibility, installation commanders 
+and DoD AFCs have the authority to implement radio silence/cease jamming operations (Cease 
+Buzzer) procedures for a suspected interfering activity until the interference issue can be 
+resolved. 
+3.2.  EMI from Non-DoD Users.  Request assistance through command spectrum management 
+channels, do not go directly to the Federal Communications Commission (FCC) or any other 
+federal agency. (T-1)  AF/A2/6LS coordinates with the FCC and other government agencies 
+at the national level if the investigation shows that non-federal equipment caused the 
+interference.  Within their designated areas, DoD AFCs are authorized to locally coordinate 
+with any federal or non-federal agency to resolve interference at the lowest level possible. 
+3.3.  EMI from Suspected Hostile Sources.  The primary difference between hostile and non-
+hostile EMI is intent.  In a training or exercise environment, EMI incidents should initially be 
+treated as non-hostile until proven otherwise.  EMI occurring in a hostile operational 
+environment is to be considered hostile until a determination can be made as to the source of 
+the problem.  Suspected hostile EMI or electromagnetic attack must be reported and up 
+channeled immediately to the appropriate MAJCOM/FLDCOM office and the Joint Spectrum 
+Center (JSC) in accordance with CJCSI 3320.02F and CJCSI 3320.02E-1. (T-0) Military 
+satellite communications incidents will be handled in accordance with the procedures outlined 
+in CJCSM 3320.02E and SPI 3250.01A. (T-0) 
+4.  EMI Resolution. 
+4.1.  The victim of the interference will contact the installation spectrum manager (ISM) or 
+other point of contact identified by the higher headquarters (HQ) where the interference has 
+occurred. (T-2)  The following actions should be initiated/accomplished prior to requesting 
+assistance from the higher HQ Spectrum Management Office (SMO) per paragraph 4.2. 
+4.1.1.  System operator contacts equipment maintenance personnel to determine if the 
+interference is the result of maintenance actions or an equipment malfunction. 
+4.1.2.  System operator contacts other known nearby units to ascertain if they are 
+experiencing the same type of EMI.  This may aid in identifying the interference source. 
+4.1.3.  When co-channel interference (interference between systems assigned similar 
+frequency assignments) is suspected, the ISM attempts to determine the location of 
+frequency assignments that fall within the bandwidth of the victim receiver. 
+ 
+ 
+8 
+DAFI17-221  31 JANUARY  2023 
+4.1.4.  After exhausting all local resolution efforts, the ISM, DoD AFC, or 
+MAJCOM/FLDCOM SMO can contact the 85th EIS located at Keesler AFB, MS to 
+request support for the problem.  Based on availability, risk to force, and risk to mission, 
+85th EIS can provide personnel and equipment on-site for further analysis as described in 
+paragraph 5.1. 
+4.2.  EMI  Reporting. 
+4.2.1.  Report Precedence.  The ISM and MAJCOM/FLDCOM SMO work with the 
+operator to determine precedence consistent with the urgency of the reported situation. If 
+interference is determined to be non-hostile, reporting should be accomplished within two 
+hours of the start of the event. 
+4.2.2.  Suspected Hostile EMI.  If EMI is suspected to be intrusion, jamming, or any other 
+potentially hostile activity, it must be reported immediately. (T-3) 
+4.2.3.  Security Classification of EMI Reports.  Guidelines for classifying interference 
+incidents are contained in CJCSI 3320.02F.  Units must evaluate the security sensitivity of 
+the interference on the affected system and classify the report accordingly. (T-0)  Security 
+classification of interference incidents/reports is determined principally by an 
+operation/platform/equipment security classification guide or stated source of the 
+interference and the sensitivity of the affected military system/operation. Stations located 
+in combat areas or having a sensitive military mission normally classify all interference 
+reports. 
+4.2.4.  Report Format.  EMI incidents shall be entered into the Joint Spectrum Interference-
+Online (JSIR-O) collaboration portal while resolution using local organic assets or host 
+nation assistance is pursued. (T-0)  Entering the incident in the JSIR-O collaboration portal 
+only provides situational awareness, it does not generate a request for technical support.  
+The JSIR-O collaboration portal is located on the Secure Internet Protocol Router Network 
+(SIPRNet) at https://intelshare.intelink.sgov.gov/sites/jsir/default.aspx and Joint 
+Worldwide 
+Intelligence 
+Communication 
+System 
+at 
+https://intelshare.intelink.ic.gov/sites/jsir/default.aspx.  All spectrum managers 
+involved with EMI resolution will ensure they have proper access and permissions to 
+access the JSIR-O portal to be able to establish alerts and to be able to edit and maintain 
+reports. (T-0)  As an alternative method of reporting, interference reports can be reported 
+by email.  See Attachment 3 for Offline Report Format. 
+4.2.5.  Current reporting addresses for email submissions. 
+4.2.5.1.  DAF units and organizations submitting email notification of JSIR-O reports 
+or offline interference reports through their chain of command to their higher HQ 
+(Wing/Delta, NAF, MAJCOM/FLDCOM SMOs) and DoD AFC as an action 
+addressee, will provide an info copy to AF/A2/6LS and 85th EIS, as the technical focal 
+point for the QFIRC and EMI measurements for the DAF using the appropriate email 
+address for the classification of the report. (T-3) NIPRnet email addresses: AF/A2/6LS; 
+afsmoccworkflow@us.af.mil, 
+85th 
+EIS; 
+85eis.scym.1@us.af.mil, 
+and 
+85eis.scx.1@us.af.mil 
+SIPRnet 
+email 
+addresses: 
+AF/A2/6LS; 
+usaf.jbanafw.afsmo.mbx-cc-mbx@mail.smil.mil and 85th EIS; USAF.Keesler.81-
+TW.MBX.85-EIS-SCY@mail.smil.mil. 
+DAFI17-221  31 JANUARY  2023 
+9 
+4.2.5.2.  MAJCOM/FLDCOMs can submit offline reports to the 85th EIS at the 
+addresses provided in paragraph 4.2.5.1 as the action addressee with an info copy to 
+appropriate JSC email address; NIPRnet email address disa.sosc@mail.mil or SIPRnet 
+email address disa.sosc@mail.smil.mil.  All requests for JSC support will be 
+coordinated through the MAJCOM/FLDCOM SMOs with an information copy to 
+AF/A2/6LS. (T-3) 
+4.2.5.3.  Reports classified above secret are handled on a case-by-case basis, contact 
+AF/A2/6LS for details. 
+4.3.  Exercise Interference.  During exercise periods, coordinate all interference reports with 
+the Electronic Warfare Cell in the Air Operations Center or Electronic Warfare Duty Officer.  
+Do not submit an exercise-related report if jamming or intrusion activities are authorized 
+during an exercise and determined to be the source of interference.  Depending on geographical 
+location, contact the appropriate Range Spectrum Manager, MAJCOM SMO, or DoD AFC to 
+determine if the interference is an approved part of the exercise. 
+4.4.  Exceptions to Reporting.  Do not report an incident when: 
+4.4.1.  The interference is transient EMI from natural sources (e.g., rain, lightning, etc.) 
+4.4.2.  The interference only affects training frequencies assigned on a non-interference 
+basis for training purposes. 
+4.4.3.  Space weather (e.g., high frequency fades, polar cap absorption events, geomagnetic 
+storming, etc.) are reasonably believed to be the cause of interference or confirmed as the 
+cause of the interference.  For assistance, notify the local weather unit of the interference 
+to include date, time, location, system, and frequency impacts. 
+4.4.4.  The interference is only experienced aboard intelligence, surveillance and 
+reconnaissance aircraft aloft and is localized when mission equipment or payload 
+equipment is turned on/off or used.  In these cases, the interference can be reported to the 
+flying unit's Director of Maintenance/Maintenance Officer and Director of Operations.  
+The unit's Director of Maintenance/Maintenance Officer may report the EMI to 
+AFMC/EN; the flying unit's Director of Operations can characterize the operational impact.  
+The unit's Director of Maintenance/Maintenance Officer can determine if unit maintenance 
+or calibration resolves the EMI before notifying AFMC.  If notified, AFMC determines if 
+any field or depot upgrades meant to resolve the interference are already scheduled. 
+4.5.  Laser Event Reporting.  The National Air & Space Intelligence Center (NASIC) and the 
+National Space Intelligence Center (NSIC) collectively provide analytical assistance 
+pertaining to hostile laser events against USAF, USSF, and other Military Service's assets as 
+requested, and will be processed in accordance with strategic intelligence priorities.  NASIC 
+and NSIC also determine the capability and performance of foreign airborne and spaceborne 
+laser systems, respectively.  Data collection on laser events is necessary to understand the 
+nature of the threat and to inform appropriate countermeasure TTPs.  Aircrew will report a 
+laser illumination event IAW AFMAN 11-202V3, Flight Operations. (T-3).  If analytical  
+ 
+ 
+10 
+DAFI17-221  31 JANUARY  2023 
+assistance with a laser event related to an airborne asset is required, contact NASIC Electronics 
+Analysis Squadron (NASIC/ACL) at the following numbers: 937-257-4911 or DSN 787-4911, 
+or the NASIC/ACL org box at NASIC.ACL.OrgBox@us.af.mil.  For analytical assistance 
+with a laser event related to a space asset, contact NSIC 2nd Space Analysis Squadron at 
+NASIC.NSIC2SAS_ORB_AllPersonnel@us.af.mil. 
+5.  Requesting QFIRC and JSC Assistance. 
+5.1.  The QFIRC reduces or eliminates unintentional (non-hostile) EMI associated with DAF 
+operational equipment.  The QFIRC service analyzes and recommends corrective actions for 
+reported interference problems.  The 85th EIS provides QFIRC to all DAF units.  This unit can 
+provide personnel and equipment to perform on-site direction finding and interference problem 
+analysis.  The 85th EIS will document corrective actions and give recommendations for solving 
+interference problems in a formal report that will be forwarded to the requesting unit and to 
+the DoD AFC, its parent MAJCOM/FLDCOM, and AF/A2/6LS. (T-3) 
+5.2.  The JSC maintains a central database of interference cases, resolutions, and lessons 
+learned for all DoD and provides analytical and on-site assistance in resolving EMI problems.  
+JSC assistance is requested by AF/A2/6LS after all DAF resources are exhausted. 
+ 
+LEAH LAUDERBACK, Lt Gen, USAF 
+Deputy Chief of Staff, Intelligence, Surveillance, 
+Reconnaissance, and Cyber Effects Operations 
+DAFI17-221  31 JANUARY  2023 
+11 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+DoDI 3222.03, DOD Electromagnetic Environmental Effects (E3) Program, August 25, 2014, 
+CJCSI 3320.02F, Joint Spectrum Interference Resolution (JSIR), 8 March 2013 
+CJCSM 3320.02E, Joint Spectrum Interference Resolution (JSIR) Procedures, 20 May 2022 
+CJCSI 3320.02E-1, Classified Supplement to Joint Spectrum Interference Resolution (JSIR), 10 
+February 2014 
+JP 3-85, Joint Electromagnetic Spectrum Operations, 22 May 2020 
+DAFPD 17-2, Cyber Warfare Operations, 27 October 2020 
+AFI 33-322, Records Management and Information Governance Program, 23 March 2020 
+AFMAN 11-202V3, Flight Operations, 10 January 2022 
+DAFI 90-160, Publications and Forms Management, 14 April 2022 
+DAFMAN 90-161, Publishing Processes and Procedures, 15 April 2022 
+National Telecommunications and Information Administration, Manual of Regulations and 
+Procedures for Federal Radio Frequency Management, January 2021 
+SPI 3250.01A, Satellite Communications (SATCOM), 18 May 2020 
+ACP 190 US SUPP-1(D), Guide to Frequency Planning, January 2015 
+Prescribed Forms 
+None 
+Adopted Forms 
+DAF Form 847, Recommendation for Change of Publication 
+Abbreviations and Acronyms 
+AFC—Area Frequency Coordinator 
+AFMC—Air Force Materiel Command 
+CCMD—Combatant Command 
+CJCSI—Chairman Joint Chiefs of Staff Instruction 
+CJCSM—Chairman Joint Chiefs of Staff Manual 
+DAF—the Department of the Air Force 
+DAFMAN—Department of the Air Force Manual 
+DoD—Department of Defense 
+DoDI—Department of Defense Instruction 
+12 
+DAFI17-221  31 JANUARY  2023 
+E3—Electromagnetic Environmental Effects 
+EIS—Engineering Installation Squadron 
+EMI—Electromagnetic Interference 
+FCC—Federal Communications Commission 
+FLDCOM—Field Command 
+HQ—Headquarters 
+ISM—Installation Spectrum Manager 
+JP—Joint Publication 
+JSC—Joint Spectrum Center 
+JSIR—Joint Spectrum Interference Resolution 
+JSIR-O—Joint Spectrum Interference Resolution-Online 
+JTF—Joint Task Force 
+MAJCOM—Major Command 
+NAF—Numbered Air Force 
+NASIC—National Air & Space Intelligence Center 
+NIPRnet—Non-classified Internet Protocol Router Network 
+NTIA—National Telecommunications and Information Administration 
+QFIRC—Quick Fix Interference Reduction Capability 
+SIPRNet—Secure Internet Protocol Router Network 
+SSC—Space Systems Command 
+SMO—Spectrum Management Office 
+SPI—United States Space Command Instruction 
+STARCOM—Space Training and Readiness Command 
+USAF—United States Air Force 
+USSF—United States Space Force 
+USSPACECOM—United States Space Command 
+Office symbols 
+85th EIS—85th Engineering Installation Squadron 
+AF/A2/6L—Electromagnetic Spectrum Superiority Directorate 
+AF/A2/6LS—Air Force Spectrum Management Office 
+AFMC/EN—HQ Air Force Material Command Engineering & Technical Management 
+JS/J6—Joint Staff, Director for Command, Control, Communications, and Computers/Cyber 
+DAFI17-221  31 JANUARY  2023 
+13 
+NASIC/ACL—National Air & Space Intelligence Center, Analysis Squadron 
+Terms 
+Department of Defense Area Frequency Coordinator (DoD AFC)—The DoD AFC is 
+responsible for ensuring successful frequency coordination in the areas that lie within, are adjacent 
+to, or are within radio line-of-sight to any range spectrum-dependent system, including all systems 
+brought to a national test range or other designated complex as defined in ACP 190 US SUPP-
+1(D) and the NTIA Manual, Chapter 8. 
+Electromagnetic compatibility—The ability of systems, equipment, and devices that use the 
+electromagnetic spectrum to operate in their intended environments without causing or suffering 
+unacceptable or unintentional degradation because of electromagnetic radiation or response.  Also 
+called EMC. (JP 3-85). 
+Electromagnetic environmental effects (E3)—The impact of the electromagnetic environment 
+upon the operational capability of military forces, equipment, systems, and platforms.  Also called 
+E3. (JP 3-85) 
+Electromagnetic interference—Any electromagnetic disturbance, induced intentionally or 
+unintentionally, that interrupts, obstructs, or otherwise degrades or limits the effective performance 
+of electromagnetic spectrum-dependent systems and electrical equipment.  Also called EMI. (JP 
+3-85) 
+ 
+14 
+DAFI17-221  31 JANUARY  2023 
+Attachment 2 
+FOR EMI CHARACTERIZATION AND RESOLUTION OF EMI AT THE LOCAL 
+LEVEL 
+Table A2.1.  Checklist for EMI Characterization and Resolution of EMI at the Local Level. 
+To assist users and spectrum managers at the local level, the following checklist can be used 
+to identify and potentially resolve interference.  This checklist should be implemented prior to 
+with submitting a JSIR-O interference report or contacting the 85th EIS.   
+EMI incidents that are suspected to be caused by hostile EAs shall be immediately reported 
+on the JSIRO collaboration portal, indicating the hostility of the incident, while attempting 
+resolution. For more information, see CJCSI 3320.02E-1, Classified Supplement to Joint 
+Spectrum Interference Resolution (JSIR). 
+STEP ACTION 
+COMPLETE 
+Y/N 
+1 
+Start a log and collect as much information about the EMI as 
+possible.  
+ 
+2 
+If appropriate measurement equipment is available, attempt to 
+quantify the interference signal characteristics.1) The interfering 
+source center frequency, 2) Bandwidth, 3) Relative amplitude, 4) 
+Modulation,… 
+ 
+ 
+Geographical Information 
+ 
+3-1 
+Contact other units in the geographical area to determine the area 
+affected.  
+ 
+3-2 
+Verify exact location of receiver/antenna using GPS, if available.  
+ 
+4 
+Determine interference start and stop times.  
+ 
+5 
+Have maintenance personnel: 
+ 
+Ensure all connectors are tight.  
+ 
+Ensure antenna cables are in good condition.  
+ 
+Ensure equipment is operating IAW technical manual 
+specifications and frequency assignment parameters.  
+ 
+6 
+Verify antenna is on the correct azimuth and elevation if applicable.   
+ 
+Environment Information 
+ 
+7-1 
+Contact nearby units to determine if there is any recently installed 
+equipment.  
+ 
+7-2 
+Contact the Electronic Warfare Officer to determine if there is any 
+local jamming or exercise occurring in the local area.  If air assets 
+are suspected, validate with spectrum analyzer and have the 
+Electronic Warfare Officer validate.  
+ 
+7-3 
+Check with equipment and facility maintenance personnel to 
+determine if the interference is the result of maintenance actions or 
+an equipment malfunction.  This should include non RF equipment 
+that can cause spark-type interference used to support the operation 
+of RF equipment (e.g., thermostat-controlled devices, electric 
+motors, welders, etc.) 
+ 
+DAFI17-221  31 JANUARY  2023 
+15 
+7-4 
+If possible, conduct a site survey looking for other users and 
+environmental considerations that may impact affected emitter. 
+ 
+7-5 
+Check to see if construction is being conducted in the immediate 
+area. 
+ 
+7-6 
+Determine whether the natural environment is the cause (e.g., High 
+Frequency fades, Polar Cap Absorption events, geomagnetic 
+storming, etc.) 
+ 
+ 
+Frequency Assignment Information 
+ 
+8-1 
+Verify through the ISM or MAJCOM/FLDCOM SMO that a valid 
+frequency assignment authorization exists. 
+ 
+8-2 
+If no assignment exists, cease transmission and request valid 
+frequency. 
+ 
+8-3 
+If valid assignment exists, change to alternate frequency and 
+determine if interference is present.  
+ 
+8-4 
+If a valid assignment exists and the interference persists after 
+changing to an alternate frequency, immediately submit an 
+interference report through MAJCOM/FLDCOM SMO and the 
+Joint Spectrum Center. 
+ 
+8-5 
+Where co-channel or adjacent channel interference is suspected 
+(i.e., the interfering signal overlaps the operating bandwidth of the 
+victim receiver), check with local and area frequency management 
+personnel to determine if other locally operated equipment has been 
+recently assigned a co-channel/or adjacent channel frequency. 
+ 
+ 
+General Characterization 
+ 
+9 
+If resources are available, system operations and equipment 
+maintenance personnel will attempt to determine the bandwidth, 
+relative amplitude, and modulation of the EMI with a spectrum 
+analyzer.  Find the approximate bandwidth by varying the receiver 
+frequency to determine the affected frequency band. 
+Determine if the following are true to help characterize the 
+interference: 
+ 
+The interfering signal is encrypted. 
+ 
+The interfering signal is understandable, e.g., voice. 
+ 
+Note all settings (demods, bandwidths, gains, etc.) of your 
+receiver equipment that enabled you to hear intelligible information 
+on the interfering signal. 
+ 
+The interference is due to a steady receive key indicating 
+equipment failures, glitches, or lapses in operational discipline. 
+ 
+ 
+ 
+16 
+DAFI17-221  31 JANUARY  2023 
+Attachment 3 
+OFFLINE REPORT FORMAT 
+Figure A3.1.  Offline Report Format. 
+ 
+Since all reported interference reports should be submitted to the DoD central repository 
+managed by the JSC at https://intelshare.intelink.sgov.gov/sites/jsir/default.aspx, the following 
+reporting format can be used to facilitate the process and should be reported by any electronic 
+means possible, email being the preferred method.  Alternately, a spreadsheet is available on 
+the same DoD central repository that can be downloaded for offline use and uploaded to the 
+repository using the instructions provided on the website. 
+All interference will be reported regardless of type, frequency, occurrences and source.  This 
+will supplement the database, which can be used to determine trends in area of interference. 
+SECURITY CLASSIFICATION 
+Subject: (Security Classification) AIR FORCE SPECTRUM INTERFERENCE 
+RESOLUTION  REPORT - INITIAL, FOLLOW-UP, or FINAL 
+MESSAGE TEXT: 
+Exercise Name (if applicable)  
+Operation Name/Plan Originator & Number 
+Activity Type (contingency, exercise, or project) 
+Originator & Office Code/000-00// (where 000- 00 is your local tracking number) 
+POC/Last Name, First, Middle Initial/Grade & Title/Organization & Office Code/Street 
+Address/Telephone (DSN)/Telephone (Comm)/e-mail (NIPRnet)/(NIPRnet)//24/7 POC 
+Information.  
+REMARKS: 
+1.  DESCRIPTION OF AFFECTED SYSTEM 
+A.  FREQUENCY(IES) AFFECTED:  
+B.  FREQUENCY ASSIGNMENT NUMBER: The Air Force serial number or unique 
+identification number of the frequency assignment being affected by the interference, if 
+known. 
+C.  NETWORK(S)/CIRCUIT(S) AFFECTED: Network circuits affected by the interference. 
+D.  LOCATION OF SYSTEM(S): Location of system(s) affected by the interference, i.e., 
+latitude, longitude, and site name. 
+DAFI17-221  31 JANUARY  2023 
+17 
+E.  SYSTEM AFFECTED: Include function, name, nomenclature, manufacturer with model 
+number, or other system description.  If available, include equipment characteristics of the 
+affected receiver, such as receiver bandwidth, antenna type, antenna size, and information 
+about any installed frequency band filters.  
+F.  OPERATING MODE: Operating mode of the affected system, if applicable (frequency 
+agile, pulse Doppler, search, upper/lower sideband, etc.).  
+G.  NETWORK CONTROL STATION & PRINCIPAL USER(s) and PRIORITY NUMBER: 
+Network control station and principal users.  This information may be used to determine the 
+priority of the restoration attempts.   
+H.  OTHER STATIONS/UNITS EXPERIENCING INTERFERENCE: 
+Other stations or units affected by the interference; include geographical location, coordinates, 
+and line-of-bearing and distance from reporting site. 
+ 
+2.  CHARACTERIZATION OF EMI 
+A.  INTERFERENCE FREQUENCY, BANDWIDTH, AND SIGNAL STRENGTH: Record 
+the frequency and bandwidth (in kHz, MHz, etc.) at which the interference is most apparent 
+and the EMI signal strength (in dBm, dBW, etc.). 
+B.  INTERFERENCE CHARACTERISTICS: CONTINUOUS, INTERMITTENT, 
+RANDOM, or CHARACTERISTIC pattern; VARIED or CONSTANT amplitude; NOISE 
+and/or PULSED. Include any other information that may assist in determining the source of 
+the problem. 
+C.  PERFORMANCE EFFECTS.  Description of interference effects on performance, e.g., 
+one or more of the following: usable or unusable, garbled, frame loss, steady receive 
+indication (SRI), reduced range, false targets, reduced intelligibility, data errors, etc.  
+D.  CIRCUIT RELIABILITY: Describe the quality of user circuit as affected by the 
+interference as observed through the symptoms, e.g., frequency USABLE or UNUSABLE for 
+DATA or VOICE, GARBLED, FRAME LOSS, SRI, etc. 
+E.  INTERFERENCE CAUSE(S) & SOURCE(S): For example, solar weather, atmospheric 
+conditions, terrestrial or structural blockage, stuck carrier or cryptographic phase, another unit 
+(include unit name, geographical coordinates, and line-of-bearing and distance from reporting 
+site, if available).  
+F.  DATES AND TIMES: Document approximate interference rate; include start and stop 
+times or “ongoing.”  Indicate whether the duration of the interference is continuous or 
+intermittent, if occurring at a regular or irregular time of day and if coincident with any 
+ongoing local activity. 
+18 
+DAFI17-221  31 JANUARY  2023 
+3.  RESOLUTION 
+A.  SPECIFIC ACTIONS TAKEN TO MITIGATE, NULLIFY, IDENTIFY SOURCE(S) OF 
+& RESOLVE INTERFERENCE: Include clear, concise description of steps taken to mitigate 
+or nullify, isolate source(s) of, and resolve interference.  Add additional narrative of anything 
+else known or suspected about interference that might be helpful in technical analysis.  
+Specify whether assessment is based on technical measurement, observation, or estimation. 
+B.  Electromagnetic interference STATUS: Indicate whether the problem has been identified 
+and resolved. 
+C.  REQUEST FOR RESOLUTION ASSISTANCE: Indicate if technical assistance is desired 
+or anticipated; request should be directed to operational chain of command.  Include 
+recommendation for specific action. 
+4.  ADDITIONAL INFORMATION: Include anything not addressed in previous paragraphs 
+and include declassification instructions as appropriate. 
+ 

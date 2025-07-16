@@ -1,0 +1,557 @@
+BY ORDER OF THE SECRETARY  
+OF THE AIR FORCE 
+ 
+DEPARTMENT OF THE AIR FORCE 
+POLICY DIRECTIVE 13-1 
+21 APRIL 2021 
+Nuclear, Space, Missile, Command and 
+Control Operations 
+COMMAND AND  
+CONTROL (C2) ENTERPRISE 
+COMPLIANCE WITH THIS PUBLICATION IS MANDATORY 
+ 
+ACCESSIBILITY:  Publications and forms are available for downloading or ordering on the e-
+Publishing web site at www.e-Publishing.af.mil 
+RELEASABILITY:  There are no releasability restrictions on this publication 
+ 
+ 
+OPR: AF/A3TY 
+ 
+Supersedes: 
+AFPD13-1, 6 August 2012 
+Certified by: AF/A3  
+(Lt Gen Joseph T. Guastella, Jr.) 
+Pages: 15 
+ 
+ 
+This Department of the Air Force Policy Directive (DAFPD) implements portions of Department 
+of Defense (DoD) Directive 3700.01, DoD Command and Control Enabling Capabilities.  This 
+directive is consistent with policy and responsibilities established in DAFPD 17-1, Information 
+Dominance Governance and Management.  This directive establishes key, broad policy for the 
+Department of the Air Force (DAF) Command and Control enterprise.  The directive establishes 
+policy for the integrating aspects of C2 capabilities across functional and geographic commands.  
+The Information Dominance and Chief Information Officer holds responsibility for oversight and 
+execution of information dominance governance and management.  Nuclear policy and guidance 
+is not contained in this publication.  This directive applies to all uniformed members and civilian 
+employees of the Regular Air Force, United States Space Force (USSF), Air Force Reserve, and 
+Air National Guard.  Ensure all records generated as a result of processes prescribed in this 
+publication adhere to Air Force Instruction 33-322, Records Management and Information 
+Governance Program, and are disposed in accordance with the Air Force Records Disposition 
+Schedule, which is located in the Air Force Records Information Management System.  Refer 
+recommended changes and questions about this publication to the Office of Primary Responsibility 
+using the Air Force Form 847, Recommendation for Change of Publication; route Air Force Forms 
+847 from the field through the appropriate functional chain of command.  This publication may 
+not be supplemented. 
+2 
+DAFPD13-1  21 APRIL 2021 
+SUMMARY OF CHANGES 
+This document has been substantially revised and must be completely reviewed.  Major changes 
+include:  adds and obligates the USSF to this document as a DAF organization, defines United 
+States Air Force (USAF) component enterprise and associated geographical and functional 
+components; identifies the air operations center (AOC) and the functional (space, cyber, special 
+forces, etc.) operations center as the weapons system of record for Air and Space Force 
+components; defines Air and Space Force Component force structure; highlights the requirement 
+for Air and Space Force Component’s weapon system interoperability; introduces concepts for 
+joint all-domain operations (JADO) and joint all-domain C2 (JADC2); defines the USAF Joint 
+Task Force Headquarters initiative; redefines the broad roles and responsibilities for Deputy Chief 
+of Staff of the Air Force, Operations (AF/A3), the USSF Chief Operations Officer (SF/COO), and 
+other stakeholders; removes references to the C2 Core Function Lead; directs Headquarters Air 
+Combat Command (ACC) Commander to manage USAF C2 requirements and capabilities as part 
+of a single enterprise; directs ACC to define 505th Command and Control Wing’s system 
+requirements for program resources to improve warfighter capability; directs ACC to provide 
+requirements to the AOC Weapon System Program Management Office; revises the Glossary of 
+References and Supporting Information sections in Attachment 1 to reflect the appropriate 
+references; and updates terminology and definitions.  Public Law 115-232, National Defense 
+Authorization Act for Fiscal Year 2019, established the USSF which incorporates proper 
+formatting of Public Law reference.  The creation of the USSF and subsequent transfer of forces 
+will drive future revisions to this directive as service command and control constructs mature. 
+ 
+ 
+DAFPD13-1  21 APRIL 2021 
+3 
+1.  Overview. 
+1.1.  Joint force operations in all domains are becoming increasingly interconnected, 
+interdependent, and challenged.  Anti-access and area denial threats, reduced freedom of 
+maneuver, and rapid proliferation of advanced technologies challenge the DAF’s ability to 
+operate effectively and efficiently in any one domain.  This operating environment requires 
+both services to examine and refine how forces will observe, orient, decide, and act rapidly 
+and in concert across all domains.  Achieving the necessary freedom of action will require the 
+ability to converge effects over all domains in a way that presents an adversary with multiple 
+dilemmas, with an operational tempo that complicates or negates adversary response and 
+enables the joint force to operate inside the adversary’s decision-making cycle.  The 
+complementary employment of capabilities in different domains will enhance effectiveness 
+and compensate for vulnerabilities, creating all-domain synergy in outcomes not readily 
+attainable through single-domain action. 
+1.2.  To address this challenge, the DoD is developing an approach to JADO in which actions 
+by the joint force in all domains are integrated in planning and synchronized in execution, at 
+the speed and scale needed to gain advantage and accomplish the mission. 
+1.3.  The DAF’s components support JADO by conducting operations principally in, from, and 
+through the domains of air, space, cyberspace, the information environment, and the 
+electromagnetic spectrum to enable convergence of effects in all domains.  The DAF must 
+enhance its C2 capabilities to enable and support JADO at a tempo the adversary cannot match. 
+1.4.  JADC2 is the emerging framework for describing the evolution of traditional C2 to 
+support JADO.  The US Air Force and US Space Force organize, train, equip, and present air, 
+space, and cyberspace forces capable of supporting effective JADO along with the ability to 
+command and control them, even in a contested environment. 
+1.5.  The C2 envisioned end state connects commanders, their support staffs, and fielded forces 
+via a resilient architecture which enables air, space, and cyberspace capabilities. 
+1.6.  The DAF C2 enterprise consists of the people, organizations, processes, procedures, 
+information, communications, facilities and systems used to plan, direct, coordinate, and 
+control forces and operations.  It includes the infrastructure and life-cycle activities for C2 
+systems, components, and supporting systems; intellectual and technical competencies; and 
+cultural mindset which ensures the effective and efficient employment of net-enabled, 
+integrated, reliable and enduring USAF and USSF C2 forces. 
+1.7.  Currently, day-to-day, at the operational level, the USAF organizes its C2 construct 
+around the C2 operations center of the supported Combatant Commanders Air Force Service 
+Component or the service component designated as the Combined/Joint Force Air Component 
+Commander (C/JFACC).  The AOC works directly for the C/JFACC and the AOC can receive 
+situational awareness building feeds from the theater air control system (TACS) or the Navy 
+tactical air control system to aid in execution of operations in line with the commander’s intent. 
+1.7.1.  The USAF C2 enterprise will include: the Air Force component enterprise 
+(Commander, Air Force Forces staff, AOC, and supporting functional operations centers), 
+the TACS, and the installation C2 elements. 
+4 
+DAFPD13-1  21 APRIL 2021 
+1.7.2.  The component enterprise consist of the Air Force components, Air Reserve 
+Component units (both Air National Guard and Air Force Reserve units), JADC2 
+experimentation and exercise support centers, Shadow Network, and ACC entities 
+responsible for facilitating the enterprise-wide training of people and processes. 
+1.7.3.  The current TACS is composed of the following weapon systems and elements: 
+AOC, Air Support Operations Center, Tactical Air Control Party, Forward Air Controller 
+(Airborne), Control and Reporting Center, the E-8C Joint Surveillance Target Attack Radar 
+System, and the E-3B/G Airborne Warning and Control System.  In addition, the battle 
+control center is a fixed TACS element employed at the tactical level in support of 
+homeland defense and civil support operations in the continental United States, Alaska, 
+Hawaii, United States territories, and surrounding territorial waters and airspace. 
+1.7.4.  The installation C2 elements consists of the command post, base defense operations 
+center, wing operations center, fire dispatch, emergency operations center, maintenance 
+operations center, intelligence, safety, base communications, civil engineers, airfield 
+operations, and other base level organizations with the goal of protecting personnel, base 
+infrastructure, and mission capabilities. 
+1.8.  As the services pursue JADC2 materiel solutions (e.g., advanced battle management 
+family of systems (ABMS)), they will ensure synchronization between the future C2 enterprise 
+and the nuclear command, control and communications next generation.  Securing prudent 
+coordination and mutually supportive relationships between JADC2 solutions and nuclear 
+command, control and communications next generation will enable the warfighter in highly 
+contested environments, allowing ordered transitions to fight in, around and through the 
+spectrum of conventional-nuclear conflicts. 
+1.9.  In the near-term, the USSF will continue to support Combatant Commands and the Space 
+Coordinating Authority responsibilities via the USAF’s C2 enterprise.  Key to this will be 
+USSF Directors of Space Forces within Air Operations Centers.  Supporting Directors of Space 
+Forces is the US Space Command’s Combined Space Operations Center, which oversees 
+global space operations and synchronizes space domain awareness activities with coalition 
+partners.  Support to United States Space Command’s space-domain protect and defend 
+mission will be via USSF personnel within the National Space Defense Center.  At the same 
+time, the USSF is determining its long-term plan for service support to Combatant Commands. 
+2.  Policy. 
+2.1.  The DAF will develop C2 capabilities and capacity to accomplish assigned functions and 
+tasks.  This must be predicated upon enterprise-wide agility and flexibility to plan early and 
+respond effectively in unison with interdepartmental, non-governmental, and international 
+partners.  To support that goal, USAF and USSF C2 capabilities must: 
+2.1.1.  Be able to survive and operate despite degradation or loss of C2 nodes or links. 
+2.1.2.  Enable improved access to tactical resources through national assets and greater 
+effects in multiple domains. 
+2.1.3.  Provide improved data fusion, data display, and tactical decision aids and 
+applications. 
+DAFPD13-1  21 APRIL 2021 
+5 
+2.1.4.  Possess an active defense architecture which focuses on rapid threat detection by 
+providing systems and processes designed from the beginning to resist intrusion and 
+interference, provide resiliency through multiple mission pathways, and support and 
+integrate support for the Combatant Command to provide rapid response and active 
+defense. 
+2.1.5.  Be network enabled for potential of dislocated leader operations, and ready to 
+operate in complex, chaotic and degraded information environments. 
+2.1.6.  Be agile and flexible, and enable commanders and forces to quickly transition from 
+one operation to another or to conduct multiple operations simultaneously across multiple 
+domains, regardless of location. 
+2.1.7.  Integrate and interoperate with coalition partners and allies to rapidly receive and 
+disseminate appropriately classified information and actions.  Be able to integrate and 
+interoperate with joint, select coalition, and allied forces; as well as synchronize with 
+governmental and non-governmental organizations to ensure unity of effort, maximize the 
+contribution of partners, and create the desired effects necessary to achieve the mission. 
+2.2.  In order to provide commanders with the ability to quickly respond to near peer threats 
+and events and integrate the appropriate mix of capabilities, the C2 enterprise will: 
+2.2.1.  Develop, test, and validate new C2 operating concepts that enhance command 
+relationships, authorities, processes, procedures, and doctrine to effectively support JADO. 
+2.2.2.  Mature the concepts of reach back and distributed operations and be capable of 
+decentralized execution during periods of degraded operations. 
+2.2.3.  Rapidly leverage advanced technology to improve situational awareness across the 
+Joint Force and improve the quality and speed of decision making, to focus the force’s 
+ability to direct lethal and non-lethal capabilities across the full spectrum of JADO. 
+2.2.4.  Prioritize efforts to improve relevant support structures for C2 that enable JADO 
+training and education, and security policy and processes. 
+2.2.5.  Conduct regular, substantive small and large-scale experiments and exercises to 
+quickly validate or reject new concepts, processes, systems and organizational structures 
+designed to enable more effective operational approaches. 
+2.3.  The DAF C2 enterprise will provide manpower for combat and combat support forces 
+who are directly responsible for emergency action messages from the Chairman of the Joint 
+Chiefs of Staff, Headquarters Air Force, Headquarters Space Force, or Combatant Commands.  
+In order to properly meet these joint force requirements: 
+2.3.1.  The USAF and USSF will shape their personnel and processes to fully support 
+JADC2 operations for combatant commands and the joint warfighter. 
+2.3.2.  The DAF will provide facilities, equipment, procedures, and staffing to support and 
+sustain military C2 operations. 
+2.4.  The C2 processes and systems of functional and geographic Air Force Forces staffs, 
+AOCs or functional operations center, imbedded USSF personnel and assigned and attached 
+forces must be interoperable to ensure seamless exchange of data, requirements, plans, and 
+programs across the C2 enterprise. 
+6 
+DAFPD13-1  21 APRIL 2021 
+3.  Responsibilities. 
+3.1.  Commander, Air Force Forces, imbedded USSF personnel and staffs will monitor air, 
+space and cyberspace, to plan, decide, direct, and support forces across the range of military 
+operations.  This includes the requisite personnel, technology, and processes to make and 
+disseminate informed and timely decisions to the appropriate forces and organizations.  Tasks 
+include but are not limited to: 
+3.1.1.  Executing standardized processes and procedures to employ integrated systems at 
+all levels down to and including installation C2, as required. 
+3.1.2.  Using commonly accepted joint C2 tools, doctrine, and processes (e.g., Operations 
+Plans, Operations Orders, Fragmentary Orders, etc.), to the maximum extent possible. 
+3.2.  When directed by the appropriate Joint Force Commander, Air Force Component 
+Commanders and staffs (with appropriate augmentation and authority) will be prepared to: 
+3.2.1.  When designated, accomplish the tasks of the C/JFACC, Joint Special Operations 
+Air Component Commander, Area Air Defense Commander, Airspace Control Authority, 
+Commander, United States Cyber Command, and Joint Electronic Warfare Coordinator. 
+3.2.2.  Continue to execute Space Coordinating Authority authorities in support of 
+Combatant Commanders as required and monitor space operations via the Directors of 
+Space Forces until the USSF presentation model is implemented. 
+3.2.3.  Form the core of a Joint Task Force Headquarters as set forth in Joint Publication 
+3-33, Joint Task Force Headquarters. 
+3.3.  Air and Space Force Component Commanders will act in a supporting and supported 
+manner to effectively implement C2 global and theater operations and coordinate with other 
+appropriately designated command authorities.  Air and Space Force components and 
+associated AOCs support Geographic Combatant Commands or subordinate unified 
+commands, use fielded AOC or Space Operations Center Program of Record system baseline 
+and additional coalition-required unique systems, and are tailored to the regional mission and 
+requirements. 
+3.4.  Assistant Secretary of the Air Force, Acquisition, Technology and Logistics, in 
+coordination with the Assistant Secretary of the Air Force for Space Acquisition and 
+Integration, will: 
+3.4.1.  Oversee the acquisition and fielding of C2 capabilities. 
+3.4.2.  Lead technology development risk reduction efforts to conduct C2 system 
+demonstrations and prototypes. 
+3.4.3.  Ensure C2 materiel solutions employ a modular and open design in order to enable 
+frequent upgrades, technology insertion, and innovation. 
+3.4.4.  Oversee the DAF Chief Architect functions. 
+3.4.5.  Resolve C2 architecture differences between the DAF Chief Architect and Program 
+Executive Offices. 
+ 
+ 
+DAFPD13-1  21 APRIL 2021 
+7 
+3.5.  AF/A3 will: 
+3.5.1.  Provide a common forum for stakeholders to provide advice and assessments on 
+overall C2 capability needs. 
+3.5.2.  Coordinate, in conjunction with Deputy Chief of Staff of the Air Force, Strategy, 
+Integration and Requirements (AF/A5) and the USSF Chief Strategy and Resources Officer 
+(SF/CSRO), current development, implementation, and sustainment efforts of the DoD 
+Joint Global C2 System family of systems and associated programs to: 
+3.5.2.1.  Facilitate evolution of existing C2 capabilities in the DoD Joint Global C2 
+System family of system-to-joint C2 way-ahead. 
+3.5.2.2.  Enhance interoperability with related C2 systems. 
+3.5.3.  Define and shape, in coordination with Deputy Chief of Staff of the Air Force, 
+Manpower, Personnel and Services, the operational-level C2 career fields for the Multi-
+Domain Warfare Officer and Information Operations Officer and associated enlisted career 
+fields, including all necessary activities needed for effective career field management. 
+3.5.4.  Shape, in coordination with Major Command (MAJCOM) operations, plans and 
+requirements (A3), the United States Air Force Warfare Center, and the Curtis E. LeMay 
+Center for Doctrine Development and Education, the evolution and validation of new C2 
+tactics, techniques, and procedures, and facilitate their incorporation into doctrine. 
+3.5.5.  Be the lead agent, through the Air Force Flight Standards Agency, for Airfield 
+Operations capability development, concept of operations, and sustainment and 
+modernization program resources for both geographic and functional USAF components. 
+3.5.6.  Coordinate with the SF/COO on issues affecting both the USAF and USSF as 
+required. 
+3.6.  Deputy Chief of Staff of the Air Force, Logistics, Engineering and Force Protection will: 
+3.6.1.  Develop and provide strategic warfighter communications. 
+3.6.2.  Provide expertise, advocacy, and requirements for those logistics, engineering and 
+force protection elements within the installation C2 enterprise in order to protect personnel, 
+base infrastructure, and mission capabilities. 
+3.6.3.  Coordinate with the SF/COO on issues affecting both services as required. 
+3.7.  Deputy Chief of Staff of the Air Force, Intelligence, Surveillance and Reconnaissance, 
+will: 
+3.7.1.  Develop and provide, in conjunction with AF/A3 and AF/A5, systems that enable 
+strategic warfighter communications. 
+3.7.2.  Provide advocacy to enable Air Force Forces to generate, project, and provide 
+resilient global assured communications, and provide cyberspace capabilities to enhance 
+Air Force core missions in air, cyberspace, and the electromagnetic spectrum. 
+3.7.3.  Coordinate with the SF/COO on issues affecting both services as required. 
+ 
+ 
+8 
+DAFPD13-1  21 APRIL 2021 
+3.8.  Deputy Chief of Staff of the Air Force, Strategy, Integration and Requirements will: 
+3.8.1.  Provide, in conjunction with AF/A3, coordination, synchronization, and integration 
+of joint C2 capabilities with the DoD Joint Global C2 system family of systems/Joint C2 
+family of programs and related C2 programs. 
+3.8.2.  Be responsible for the organization, analysis, and prioritization of joint warfighting 
+capabilities. 
+3.8.3.  Provide the assessments and recommendations required for the Joint Requirements 
+Oversight Council to validate and prioritize joint military cyber capabilities. 
+3.8.4.  Ensure the Air Force Warfighter Integration Capability will: 
+3.8.4.1.  Drive enterprise-wide C2 integration, guide future force design, and 
+recommend resource alignment by centralizing C2 enterprise design and capability 
+planning across the Air Force. 
+3.8.4.2.  Be the lead agency in developing an installation C2 concept of operations, 
+considering a base-wide common operating picture, situational awareness beyond the 
+base perimeter, air base defenses, assured communications, and continuity of 
+operations. 
+3.8.5.  Coordinate with the SF/COO on issues affecting both services as required. 
+3.9.  Deputy Chief of Staff of the Air Force, Plans and Programs will: 
+3.9.1.  Provide formal collaboration between the operational community, C2 capability 
+developers, and materiel developers to ensure developed products meet C2 capability 
+needs. 
+3.9.2.  Review and develop C2 resource allocation issues during program and budget 
+review, and make recommendations to the 3-Star Programmers Group. 
+3.9.3.  Coordinate with the SF/CSRO on issues affecting both services as required. 
+3.10.  All USAF MAJCOMs, USSF Field Commands, and Air and Space Force Service 
+Component Headquarters will: 
+3.10.1.  Provide forces in support of global contingency operations. 
+3.10.2.  Provide command, control, and support infrastructure of the Air Force components 
+which includes both geographic and functional component MAJCOMs and component 
+numbered air forces. 
+3.10.3.  Determine, in conjunction with AF/A3 and the Geographic and Functional 
+Combatant Commanders, what additional component numbered air forces or component 
+MAJCOMs will develop additional core Joint Task Force Headquarters. 
+3.10.4.  Direct changes to unit integration and alignment based on strategic priorities.  The 
+Air Force Reserve Component, consisting of the Air Force Reserve and Air National 
+Guard, will direct unit changes based on both strategic priorities and guidance received 
+from the lead command (ACC). 
+3.10.5.  Provide operational control through the AOCs and operations centers critical 
+support nodes and Air Force Forces staff, as well as support administrative C2. 
+DAFPD13-1  21 APRIL 2021 
+9 
+3.10.6.  Provide a sufficient number of C2 cadre capable of performing and supporting the 
+roles of Commander, Air Force Forces, Commander, Air Force Special Operations Forces, 
+C/JFACC, Joint Special Operations Air Component Commander, Commander, and Joint 
+Task Force. 
+3.10.7.  Leverage advanced technology to improve situational awareness as well as the 
+quality and speed of decision making, and focus the Air Force’s ability to direct kinetic 
+and non-kinetic forces and capabilities across the full spectrum of operations and across all 
+domains. 
+3.10.8.  Ensure, to the maximum extent possible, that exercises, wargames, and training 
+events include learning objectives with C2 of JADO. 
+3.10.9.  Ensure learning objectives drive operational-level tactics for advanced battle 
+management, JADC2 force packaging, dynamic distributed control, condition-based 
+authorities, and other comparable concepts. 
+3.10.10.  Ensure that installation C2 spans the full range of in-garrison, expeditionary 
+installation, and joint basing operations (e.g., emergency operations, disaster response, 
+combat operations, air mobility operations, etc.). 
+3.11.  Air Combat Command (ACC), as lead command for C2, will: 
+3.11.1.  In coordination with other stakeholders, develop governance for the Air Force 
+component C2 enterprise. 
+3.11.2.  Manage USAF C2 requirements and capabilities as part of a single enterprise.  
+ACC will advocate for sustainment and modernization program resources for both 
+geographic and functional Air Force components, 461st Air Control Wing, 552nd Air 
+Control Wing, 700th Air Support Squadron, Combined AOC, 505th Command and Control 
+Wing, Air Mobility Operations Squadrons, and the Air Reserve Component units.  Lead 
+commands and lead agents manage their respective requirements and capability 
+development for installation C2. 
+3.11.3.  Collaborate with geographic and functional Air Force components in order to 
+define AOC and operations center and Air Force Forces staff information exchange 
+requirements and program for system resources to ensure geographic and global 
+interoperability. 
+3.11.4.  Provide requirements and direction to AOC Weapon System Program 
+Management Office in order to field appropriate Air Operations Center hardware and 
+software family of systems necessary for mission accomplishment. 
+3.11.5.  Train, organize, equip, and posture highly qualified personnel organized for the C2 
+of an assigned joint task force as an equitable strategic partner in the Global Response 
+Force framework. 
+3.11.6.  Manage Air Force tactical data links operational employment and tactical data link 
+requirements, as an enabler of JADC2 to support joint and coalition interoperability. 
+ 
+ 
+10 
+DAFPD13-1  21 APRIL 2021 
+3.11.7.  Provide requirements and direction to Tactical Air Control Party Weapons System 
+Program Management Office in order to field appropriate Tactical Air Control Party 
+hardware and software family of systems necessary for Tactical Air Control Party, and Air 
+Support Operations Center mission accomplishment. 
+3.11.8.  Design, train, and certify designated core joint task force headquarters in 
+accordance with joint standards and timelines. 
+3.12.  Air Education and Training Command will: 
+3.12.1.  Ensure the Air Force continuum of learning accounts for joint C2 matters across a 
+career lifecycle, and ensure the USAF integrates the requisite knowledge, skills, and 
+abilities as an essential component of the Total Force development. 
+3.12.2.  In conjunction with ACC, Space Operations Command, Air Force Warfighter 
+Integration Capability, and SF/CSRO, continue to execute a wargame series to explore 
+joint all-domain warfighting concepts to improve interoperability between air, space, and 
+cyber forces. 
+3.12.3.  Ensure that Air Force forces’ development of continuum of learning incorporates 
+joint all-domain operational concepts in support of improving joint warfighting excellence. 
+3.12.4.  Redesign training and education for operational-level C2 personnel to ensure 
+comprehensive ability to execute JADC2 operations. 
+3.12.5.  Coordinate with USSF Space Training and Readiness Command on issues 
+affecting both services as required 
+3.13.  The LeMay Center for Doctrine Development and Education will: 
+3.13.1.  Confer with commanders and senior staff members to collect lessons learned and 
+isolate major problems associated with management and operations.  Air Force Lessons 
+Learned Offices will make recommendations for C2 improvements across the doctrine, 
+organizations, training, materiel, leadership and education, personnel, and facilities-policy 
+that inform leadership decisions. 
+3.13.2.  Develop Service doctrine and ensure content aligns with and informs joint doctrine 
+of the airpower capabilities available to joint force commanders. 
+3.14.  The National Guard Bureau and Air Force Reserve Command will ensure Air Reserve 
+Component augmentation units are organized, trained, and equipped to support both aligned 
+Air Force Component and worldwide deployment requirements. 
+3.15.  Air Force Materiel Command will be responsible for weapon systems’ lifecycle 
+management, sustainment and logistics, as well as installation and mission support functions. 
+3.16.  The USSF, Air Force Special Operations Command, Air Force Global Strike Command, 
+Air Force Cyber Command, and Air Mobility Command will coordinate with ACC to ensure 
+AOC and operations center weapon system program requirements, documentation, 
+sustainment, modernization efforts, and equipment fielding plans incorporate information 
+exchange and interoperability needs with each of the respective tailored AOC and operations 
+center C2 systems. 
+ 
+ 
+DAFPD13-1  21 APRIL 2021 
+11 
+3.17.  The SF/COO will: 
+3.17.1.  Serve as the USSF lead for the DAF C2 enterprise ensuring the joint force has the 
+ability to anticipate, detect and respond to threats or challenge adversaries in the space 
+domain in support of joint operations. 
+3.17.2.  As directed by the Chief of Space Operations, lead engagements to update space 
+training in Combatant Command and joint task force training courses to increase awareness 
+of space warfighting capabilities as both independent and integrated operational options. 
+3.17.3.  Coordinate with counterparts on all nuclear command, control and 
+communications-related issues such as sustainment of current systems, development of 
+future capabilities, and development of planning guidance for upcoming budget cycles. 
+3.17.4.  Establish policies to organize, train, and equip a USSF operations centers to 
+include the  USSF Watch to receive, process, and disseminate information needed to 
+comprehensively understand the current operational environment and posture of USSF 
+operational capabilities across space power disciplines. 
+3.17.5.  Develop and provide, in conjunction with SF/S5, systems that enable strategic 
+communications and data transfer between warfighters, operations centers, and agencies of 
+the intelligence community. 
+3.17.6.  Develop plans for the long-term presentation of USSF forces to combatant 
+commands to include necessary C2 node, as required. 
+3.17.7.  Coordinate with the AF/A3 on issues affecting both services as required. 
+ 
+JOHN P. ROTH 
+Acting Secretary of the Air Force 
+12 
+DAFPD13-1  21 APRIL 2021 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+Air Force Instruction 33-322, Records Management and Information Governance Program, 23 
+March 2020 
+DoD Directive 3700.01, DoD Command and Control Enabling Capabilities, 22 October 2014 
+DAFPD 17-1, Information Dominance Governance and Management, 12 April 2016 
+Joint Publication 3-33, Joint Task Force Headquarters, 31 January 2018 
+Public Law 115–232, John S. McCain National Defense Authorization Act for Fiscal Year 2019, 
+13 August 2018 
+Prescribed Forms 
+None 
+Adopted Form 
+AF Form 847, Recommendation for Change of Publication 
+Abbreviations and Acronyms 
+A3—Operations, Plans and Requirements 
+ABMS—Advanced battle management family of systems 
+ACC—Air Combat Command 
+AF/A3—Deputy Chief of Staff of the Air Force, Operations 
+AF/A5—Deputy Chief of Staff of the Air Force, Strategy, Integration and Requirements 
+AOC—Air operations center 
+C2—Command and control 
+C/JFACC—Combined/Joint Air Component Commander 
+DAF—Department of the Air Force 
+DAFPD—Department of the Air Force Policy Directive 
+DoD—Department of Defense 
+JADC2—Joint all-domain command and control 
+JADO—Joint all-domain operations 
+MAJCOM—Major Command 
+SF/COO—USSF Chief Operations Officer 
+SF/CSRO—USSF Chief Strategy and Resources Officer 
+TACS—Theater air control system 
+DAFPD13-1  21 APRIL 2021 
+13 
+USAF—United States Air Force 
+USSF—United States Space Force 
+Terms 
+Agile—The ability to rapidly deploy, employ, sustain, and redeploy capabilities in geographically 
+separated and environmentally diverse regions. 
+Airspace Control Authority—The commander designated to assume overall responsibility for 
+the operation of the airspace control system in the airspace control area. 
+Allied Forces—The relationship that results from a formal agreement (e.g., treaty) between two 
+or more nations for broad, longterm objectives that further the common interests of the members.  
+See also coalition. 
+Area Air Defense Commander—The component commander with the preponderance of air 
+defense capability and the required command, control, and communications capabilities who is 
+assigned by the joint force commander to plan and execute integrated air defense operations.  Also 
+called AADC. 
+Coalition—An arrangement between two or more nations for common action.  See also allied 
+forces. 
+Combined/Joint Force Air Component Commander (C/JFACC)—The commander within a 
+unified command, subordinate unified command, or joint task force responsible to the establishing 
+commander for recommending the proper employment of assigned, attached, and/or made 
+available for tasking air forces; planning and coordinating air operations; or accomplishing such 
+operational missions as may be assigned. 
+Command and Control (C2)—The exercise of authority and direction by a properly designated 
+commander over assigned and attached forces in the accomplishment of the mission.  Also called 
+C2. 
+Commander, Air Force Forces—The single Air Force commander of an Air Force Service 
+component assigned or attached to a Joint Force Commander at the unified combatant command, 
+sub-unified combatant command, or joint task force level. 
+Continuity of Operations—The degree or state of being continuous in the conduct of functions, 
+tasks, or duties necessary to accomplish a military action or mission in carrying out the national 
+military strategy. 
+Decentralized Execution—Delegation of execution authority to subordinate commanders. 
+Distributed Operations—When independent or interdependent forces, some of which may be 
+outside the joint operations area, participate in the operational planning and/or decision making to 
+accomplish missions and objectives for commanders. 
+Flexible—Capable of adjusting to changing requirements/conditions while taking advantage of 
+opportunities and maximizing efficiencies. 
+Integration—The arrangement of military forces and actions to create a force that operates by 
+engaging as a whole. 
+14 
+DAFPD13-1  21 APRIL 2021 
+Interoperability—1.  The ability to act together coherently, effectively, and efficiently to achieve 
+tactical, operational, and strategic objectives. 2.  The condition achieved among communications-
+electronics systems or items of communications-electronics equipment when information or 
+services can be exchanged directly and satisfactorily between them and/or their users. 
+Joint All-Domain Operations (JADO)—The evolving warfighting concept that synchronizes 
+major weapons systems and crucial data sources with revolutionary simplicity.  JADO allows 
+commanders to quickly predict adversaries’ next moves and disrupt and overwhelm them with a 
+new level of precision. 
+Major Command (MAJCOM)—A major subdivision of the USAF that is assigned a major part 
+of the USAF mission.  A MAJCOM is directly subordinate to Headquarters US Air Force.  Most 
+MAJCOMs have the word Command as part of their designation; MAJCOM headquarters are 
+management headquarters and thus have the full range of functional staff. 
+Non-governmental organization—A private, self-governing, not-for-profit organization 
+dedicated to alleviating human suffering; and/or promoting education, health care, economic 
+development, environmental protection, human rights, and conflict resolution; and/or encouraging 
+the establishment of democratic institutions and civil society. 
+Personnel—Those individuals required in either a military or civilian capacity to accomplish the 
+assigned mission. 
+Policy—Guidance that is directive or instructive, stating what is to be accomplished.  It reflects a 
+conscious choice to pursue certain avenues, and not others.  Policies may change due to changes 
+in national leadership, political considerations, or for fiscal reasons.  At the national level, policy 
+may be expressed in such broad vehicles such as the National Security Strategy.  Within military 
+operations, policy may be expressed not only in terms of objectives, but also in rules of 
+engagement—what we may or may not strike, or under what circumstances we may strike 
+particular targets. 
+Range of Military Operations—Military operations that vary in scope, purpose, and conflict 
+intensity across a range that extends from military engagement, security cooperation, and 
+deterrence activities to crisis response and limited contingency operations and, if necessary, to 
+major operations and campaigns. 
+Reach back—The process of obtaining products, services and applications or forces, equipment, 
+or materiel from USAF organizations that are not forward deployed. 
+Shadow Network—Multi-domain military networks that serve as a development and operations 
+environment that will allow us to experiment and rapidly design, develop and deploy enterprise-
+wide C2 technology. 
+Space Coordinating Authority—A commander responsible for coordinating joint space 
+operations and integrating space capabilities in the operational area. 
+Subordinate Unified (Sub-Unified) Command—A command established by commanders of 
+unified commands, when so authorized by the Secretary of Defense through the Chairman of the 
+Joint Chiefs of Staff, to conduct operations on a continuing basis in accordance with the criteria 
+set forth for unified commands. 
+DAFPD13-1  21 APRIL 2021 
+15 
+Support—1.  The action of a force that aids, protects, complements, or sustains another force in 
+accordance with a directive requiring such action.  2.  A unit that helps another unit in battle.  3.  
+An element of a command that assists, protects, or supplies other forces in combat. 
+Unity of Effort—Coordination and cooperation toward common objectives, even if the 
+participants are not necessarily part of the same command or organization— the product of 
+successful unified action. 
+ 

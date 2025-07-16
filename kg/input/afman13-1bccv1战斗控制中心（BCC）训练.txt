@@ -1,0 +1,2577 @@
+BY ORDER OF THE SECRETARY  
+OF THE AIR FORCE 
+ 
+AIR FORCE MANUAL 13-1 BCC, 
+VOLUME 1 
+17 JULY 2020 
+Nuclear, Space, Missile, Command and 
+Control Operations 
+BATTLE CONTROL  
+CENTER (BCC) TRAINING 
+COMPLIANCE WITH THIS PUBLICATION IS MANDATORY 
+ 
+ACCESSIBILITY:  Publications and forms are available on the e-Publishing website at 
+www.e-Publishing.af.mil for downloading or ordering 
+RELEASABILITY:  There are no releasability restrictions on this publication 
+ 
+ 
+OPR: ACC/A3C 
+ 
+Supersedes: 
+AFI 13-1 BCC Volume 1,  
+                        19 August 2014 
+Certified by: AF/A3T  
+(Maj Gen James A. Jacobson) 
+Pages: 61 
+ 
+ 
+This manual implements policy found in Air Force Policy Directive (AFPD) 13-1, Command 
+and Control Enterprise (C2 Enterprise) and AFPD 10-9, Lead Command Designation and 
+Responsibilities for Weapon Systems.  This manual provides guidance for the fixed Battle 
+Management Command and Control (BMC2) units, including Air National Guard units, within 
+Air Combat Command (ACC) and Pacific Air Forces (PACAF) that employ the Battle Control 
+Center (BCC) as well as the PACAF fixed BMC2 units in Korea and Japan, though they do not 
+currently employ the BCC.  This manual does not apply to Air Force Reserve, or Civil Air 
+Patrol.  This manual requires the collection and or maintenance of information protected by 
+Department of Defense Instruction (DoDI) 5400.11, DoD Privacy and Civil Liberties 
+Programs.”  The applicable SORN F011 AF XO A, Aviation Resource Management System 
+(ARMS), is available at  http://dpcld.defense.gov/Privacy/SORNs.aspx.  Ensure all records 
+created as a result of processes prescribed in this publication are maintained in accordance with 
+AFI 33-322, Records Management and Information Governance Program, and disposed of in 
+accordance with the Air Force Records Disposition Schedule located in the Air Force Records 
+Information Management System.  Refer recommended changes and questions about this 
+publication to the Office of Primary Responsibility (OPR) using the AF Form 847, 
+Recommendation for Change of Publication; route AF Forms 847 from the field through the 
+appropriate functional chain of command.  This publication may be supplemented at any level, 
+but all direct supplements must be routed to the OPR of this publication for coordination prior to 
+certification and approval in accordance with paragraph 1.10 of this publication.  The 
+authorities to waive wing/unit level requirements in this publication are identified with a Tier 
+2 
+AFMAN13-1BCCV1  17 JULY 2020 
+(“T-0, T-1, T-2, T-3”) number following the compliance statement.  See Air Force Instruction 
+(AFI) 33-360, Publications and Forms Management, for a description of the authorities 
+associated with the Tier numbers.  Submit requests for waivers through the chain of command to 
+the appropriate waiver authority, or alternately, to the requestor’s commander for non-tiered 
+compliance items.  See paragraph 1.10.2 for details on submitting waivers.  Compliance with 
+Attachments 4 and Attachment 5 in this publication are mandatory. 
+SUMMARY OF CHANGES 
+This manual has been completely revised and rewritten and must be completely reviewed due to 
+numerous operational changes.  This revision addresses the changes resulting from the stand-up 
+of Air National Guard Air Defense Squadrons.  It updates terminology to align with AFI 13-1 
+Vol.  2, Ground Command and Control Systems Standardization/Evaluation Program-
+Organization and Administration.  It expands and clarifies the instructor training program, 
+addresses the Emergency Action Coordinator as a complementary certification within the Battle 
+Control Centers (BCCs), and updates training reports and the use of electronic records 
+management data.  It reflects the transition of PACAF units in Korea and Japan to the Air Battle 
+Manager Qualification, with its accompanying certifications.  Waiver authorities have been 
+changed to reflect guidance in AFI 33-360. 
+ 
+Chapter 1—OVERVIEW AND CONCEPTS 
+ 
+6 
+1.1. 
+General. ....................................................................................................................  
+6 
+1.2. 
+Purpose. ...................................................................................................................  
+6 
+1.3. 
+Unit Recommendations for Change. ........................................................................  
+6 
+1.4. 
+Roles and Responsibilities. ......................................................................................  
+6 
+1.5. 
+Training. ...................................................................................................................  
+9 
+1.6. 
+Training Concepts and Guidance. ............................................................................  
+11 
+1.7. 
+Training Requirements. ...........................................................................................  
+12 
+1.8. 
+Training Records and Reports. ................................................................................  
+13 
+1.9. 
+Training Event Allocation Guidance. ......................................................................  
+13 
+1.10. 
+Supplements/Waivers. .............................................................................................  
+13 
+Chapter 2—INITIAL/MISSION QUALIFICATION TRAINING (IQT/MQT) 
+ 
+15 
+2.1. 
+General. ....................................................................................................................  
+15 
+2.2. 
+Authority. .................................................................................................................  
+15 
+2.3. 
+Prerequisites. ............................................................................................................  
+15 
+Table 2.1. 
+Positional Prerequisites (As Applicable). ................................................................  
+16 
+AFMAN13-1BCCV1  17 JULY 2020 
+3 
+2.4. 
+Timelines. ................................................................................................................  
+16 
+2.5. 
+Training Documentation, Reports and Forms. .........................................................  
+18 
+2.6. 
+Waivers. ...................................................................................................................  
+18 
+2.7. 
+Positional Training Requirements. ...........................................................................  
+19 
+Chapter 3—ACC AND PACAF BATTLE CONTROL CENTER (BCC) CONTINUATION 
+TRAINING 
+ 
+20 
+3.1. 
+General. ....................................................................................................................  
+20 
+3.2. 
+Training Cycle. ........................................................................................................  
+20 
+3.3. 
+Waivers. ...................................................................................................................  
+20 
+3.4. 
+Logging CT Requirements by Instructors/Evaluators. ............................................  
+20 
+3.5. 
+Proration of Training Cycle Requirements. .............................................................  
+20 
+3.6. 
+Regression from CMR/BMC Status. .......................................................................  
+21 
+Table 3.1. 
+Battle Control Center Equipped Unit 3-Month Lookback 
+(Inexperienced/Experienced[I/E]). ...........................................................................  
+23 
+3.7. 
+Continuation Training (CT) Requirements. .............................................................  
+23 
+Table 3.2. 
+Mission Crew Commander (MCC) Training Cycle Requirements 
+(Inexperienced/Experienced). ..................................................................................  
+25 
+Table 3.3. 
+Senior Director (SD) Training Cycle Requirements (Inexperienced/Experienced).  
+25 
+Table 3.4. 
+Air Weapons Officer (AWO)/Weapons Director (WD) Training Cycle 
+Requirements (Inexperienced/Experienced). ...........................................................  
+26 
+Table 3.5. 
+Air Surveillance Officer (ASO)/Air Surveillance Technician (AST) Training 
+Cycle Requirements (Inexperienced/Experienced). .................................................  
+27 
+Table 3.6. 
+Interface Control Technician (ICT) Event. ..............................................................  
+27 
+Table 3.7. 
+Surveillance Technician (ST) Training Cycle Requirements 
+(Inexperienced/Experienced). ..................................................................................  
+29 
+3.8. 
+Directed Downgrade to Unqualified (UQ). .............................................................  
+29 
+3.9. 
+Multi-Qualified Personnel. ......................................................................................  
+30 
+3.10. 
+Multiple Systems Qualified Personnel. ....................................................................  
+30 
+Chapter 4—UPGRADE/SPECIALIZED TRAINING 
+ 
+31 
+4.1. 
+General. ....................................................................................................................  
+31 
+4.2. 
+Requirements. ..........................................................................................................  
+31 
+4 
+AFMAN13-1BCCV1  17 JULY 2020 
+4.3. 
+Waivers/Extensions. ................................................................................................  
+31 
+4.4. 
+Instructor Upgrade. ..................................................................................................  
+31 
+4.5. 
+Air Weapons Officer Upgrades. ..............................................................................  
+32 
+4.6. 
+Unit Certification Program. .....................................................................................  
+32 
+4.7. 
+Qualification Transfers/Difference Training. ..........................................................  
+32 
+Chapter 5—MAJCOM SPECIFIC GUIDANCE 
+ 
+33 
+5.1. 
+General. ....................................................................................................................  
+33 
+5.2. 
+Supplements. ............................................................................................................  
+33 
+Chapter 6—OPERATIONS TRAINING DOCUMENTATION 
+ 
+34 
+6.1. 
+Introduction. .............................................................................................................  
+34 
+6.2. 
+Training Records Maintenance. ...............................................................................  
+34 
+6.3. 
+Forms. ......................................................................................................................  
+34 
+6.4. 
+Permanent Training Record. ....................................................................................  
+34 
+6.5. 
+Transfer of Records. ................................................................................................  
+35 
+6.6. 
+Documentation Forms. .............................................................................................  
+36 
+6.7. 
+Training Deficiency Reports (TDR). .......................................................................  
+36 
+Chapter 7—KOREAN TACTICAL AIR CONTROL SYSTEM 
+ 
+38 
+7.1. 
+General. ....................................................................................................................  
+38 
+7.2. 
+Waivers. ...................................................................................................................  
+38 
+7.3. 
+Logging CT Requirements by Instructors/Evaluators. ............................................  
+38 
+7.4. 
+Proration of Training Cycle Requirements. .............................................................  
+38 
+7.5. 
+Continuation Training (CT) Requirements. .............................................................  
+38 
+Table 7.1. 
+621 Air Control Squadron Quarterly Live Weapons Positional/3-month 
+Lookback Requirements. .........................................................................................  
+39 
+7.6. 
+Directed Downgrade to Unqualified (UQ) ..............................................................  
+40 
+7.7. 
+Unit Certification Program. .....................................................................................  
+41 
+7.8. 
+Multi-Qualified Personnel. ......................................................................................  
+41 
+7.9. 
+Augmenting Personnel. ............................................................................................  
+42 
+7.10. 
+Event Operations/Positional Hours. .........................................................................  
+42 
+AFMAN13-1BCCV1  17 JULY 2020 
+5 
+Chapter 8—JAPAN AIR SELF DEFENSE FORCE (JASDF) JAPAN AIR DEFENSE 
+GROUND ENVIORNMENT (JADGE) SYSTEM 
+ 
+44 
+8.1. 
+Purpose. ...................................................................................................................  
+44 
+8.2. 
+Waivers. ...................................................................................................................  
+44 
+8.3. 
+Logging CT Requirements by Instructors/Evaluators. ............................................  
+44 
+8.4. 
+Proration of Training Cycle Requirements. .............................................................  
+44 
+8.5. 
+Regression from CMR/BMC Status. .......................................................................  
+44 
+Table 8.1. 
+Japan 3-Month Lookback Requirements. ................................................................  
+44 
+8.6. 
+Continuation Training (CT) Requirements. .............................................................  
+44 
+Table 8.2. 
+Japan Training Cycle Requirements ........................................................................  
+45 
+8.7. 
+Event Operations/Positional Hours. .........................................................................  
+45 
+8.8. 
+Directed Downgrade to Unqualified (UQ). .............................................................  
+45 
+8.9. 
+Unit Certification Programs. ....................................................................................  
+45 
+8.10. 
+Multi-Qualified Personnel. ......................................................................................  
+45 
+8.11. 
+Augmenting Personnel. ............................................................................................  
+45 
+Attachment 1—GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+46 
+Attachment 2—INITIAL/MISSION QUALIFICATION TRAINING FLOWCHART 
+ 
+52 
+Attachment 3—CONTINUATION TRAINING LOOK BACK FLOWCHART 
+ 
+53 
+Attachment 4—TRAINING EVALUATION BOARD (TEB) PROCESS/PROCEDURES 
+ 
+54 
+Attachment 5—INSTRUCTIONS FOR COMPLETING AF FORM 4141, INDIVIDUAL’S 
+RECORD OF DUTIES AND EXPERIENCE GROUND ENVIRONMENT 
+PERSONNEL. 
+ 
+59 
+ 
+6 
+AFMAN13-1BCCV1  17 JULY 2020 
+Chapter 1 
+OVERVIEW AND CONCEPTS 
+1.1.  General.  This manual provides guidance for the fixed tactical Battle Management 
+Command and Control (BMC2) units within the Continental United States and Pacific Air 
+Forces (PACAF) to include the 169th Air Defense Squadron (ADS) and 176th ADS.  This 
+manual applies to Air National Guard (ANG) units employing the Battle Control Center (BCC).  
+It also applies to PACAF units that operate fixed tactical BMC2 platforms at locations in Japan 
+and Korea (610th Air Control Flight (ACF), 623d Air Control Squadron (ACS) and 621 ACS).  
+Throughout this manual, Air Force Specialty Code (AFSC) 13B refers to Air Battle Managers 
+(ABM), AFSC 1C5X1D refers to Weapons Directors (WD), and AFSC 1C5X1 refers to 
+Command and Control Battle Management Operators (all include Canadian equivalents). 
+1.2.  Purpose.  This manual establishes the minimum training requirements to ensure operations 
+personnel are adequately trained during Initial Qualification Training (IQT), Mission 
+Qualification Training (MQT) and Continuation Training (CT).  The lack of a dedicated Formal 
+Training Unit for these operational units, necessitates that IQT be conducted on the operational 
+mission system.  As such, the training activities are integrated into the operational equipment 
+suite.  To make the most effective use of positional training, IQT and MQT are fully integrated.  
+Trainees must meet the following Combat Mission Ready (CMR) requirements: 
+1.2.1.  Complete an Air Education and Training Command (AETC) approved formal training 
+course (AFSC Award) (T-2). 
+1.2.2.  Complete IQT/MQT.  Successful completion of an Initial Qualification (INIT 
+QUAL)/Mission Qualification (MSN) evaluation in accordance with  AFI 13-1 STAN/EVAL 
+Vol.  2 is the event that marks completion of IQT/MQT (T-2). 
+1.3.  Unit Recommendations for Change. 
+1.3.1.  Recommendations for changes are encouraged and focus on specific areas and 
+standards of performance.  Forward recommend changes through the chain of command to 
+Air Combat Command  C2 Intelligence, Reconnaissance and Surveillance Operations 
+Division (ACC/A3C), using AF Form 847.  The Air Force Deputy Chief of Staff, Operations, 
+Plans and Requirements (AF/A3/5) is the approval authority for changes to this AFMAN. 
+1.3.2.  PACAF and National Guard Bureau (NGB) will forward recommendations for change 
+and any Major Command (MAJCOM) supplement to this volume to ACC/A3C for 
+coordination prior to sending to Headquarters Air Force Command and Control and 
+Integrated Air and Missile Defense Division (AF/A3TY) for AF/A3/5 approval. 
+1.4.  Roles and Responsibilities. 
+1.4.1.  ACC/A3C is the Office of Primary Responsibility (OPR) for this volume, the Lead 
+Command for the Battle Control Center weapon system and: 
+1.4.1.1.  Coordinates all changes to the volume with applicable MAJCOM/A3s. 
+1.4.1.2.  Forwards change recommendations to AF/A3TY. 
+AFMAN13-1BCCV1  17 JULY 2020 
+7 
+1.4.1.3.  Coordinates Air Force Guidance Memorandums and Interim Changes with NGB 
+and PACAF OPRs prior to approval. 
+1.4.1.4.  Provides overarching Lead Command guidance and monitors the overall training 
+program. 
+1.4.1.5.  Provides command assistance in the resolution of major training problems and 
+coordinates with agencies both internal and external to the command for training 
+equipment, to include contracted training. 
+1.4.1.6.  Ensures allocation of training materials to meet training requirements. 
+1.4.1.7.  Uses Chapter 5 of this volume to document other MAJCOM supplements 
+and/or unique requirements and restrictions for specific units. 
+1.4.1.8.  Establishes standards, tasks, and formal training requirements.  Act as the OPR 
+for crew positional syllabi and provides training materials. 
+1.4.1.9.  Provides assistance, guidance, and resources for the implementation, direction, 
+and monitoring of the training program. 
+1.4.1.10.  Monitors/facilitates training programs to ensure all crew members are prepared 
+to perform roles and missions. 
+1.4.1.11.  Conducts Staff Assistance Visits (SAV) to subordinate units when requested by 
+unit commander (CC) to monitor and assist with implementation of unit training 
+programs. 
+1.4.2.  PACAF Theater Air Control System C2 Branch (A310): 
+1.4.2.1.  Uses Chapter 5 of this volume and MAJCOM-specific supplements for unique 
+mission considerations/requirements and establishes individual unit tasking as required. 
+1.4.2.2.  As the theater OPR for MAJCOM-level training matters, provides assistance, 
+guidance, and resources to subordinate units for the implementation, direction, and 
+monitoring of the training program. 
+1.4.2.3.  Monitors/facilitates training programs to ensure all units are prepared to perform 
+roles and missions. 
+1.4.2.4.  Monitors/coordinates actions to correct training deficiencies. 
+1.4.2.5.  Conducts SAVs to subordinate units when requested by unit CC to monitor and 
+assist with the implementation of unit training programs. 
+1.4.2.6.  Provides courtesy copy of all approved waivers affecting PACAF BCC units to 
+ACC and National Guard Bureau (NGB). 
+1.4.2.7.  Reviews and approves subordinate unit directives (as required) to ensure 
+compliance with published directives. 
+1.4.3.  National Guard Bureau Airfield Operations and Command and Control Forces 
+Division (NGB/A2/3/6/10Y) functions as the NGB OPR, and uses Chapter 5 of this volume 
+and supplements for unique ANG considerations/requirements. 
+1.4.4.  Numbered Air Force (NAF): 
+8 
+AFMAN13-1BCCV1  17 JULY 2020 
+1.4.4.1.  Provides assistance, guidance, and resources to subordinate units for the 
+implementation, direction, and monitoring of the training program to include use of the 
+courseware and the Learning Management System (LMS). 
+1.4.4.2.  Monitors/coordinates actions to correct training deficiencies. 
+1.4.4.3.  Conducts SAVs to subordinate units when requested by the unit CC to monitor 
+and assist with implementation of unit training programs. 
+1.4.5.  Unit Commanders: 
+1.4.5.1.  Ensure personnel/crews are trained to a level of mission/combat readiness that 
+meets the unit’s operational requirements. 
+1.4.5.2.  Request waivers in accordance with guidance provided in this volume. 
+1.4.5.3.  Ensure adequate continuity and supervision of crew/individual training needs, 
+experience, as well as the proficiencies of assigned and attached crewmembers. 
+1.4.5.4.  Appoint an instructor qualified AFSC 13B (or Canadian equivalent) as the Chief 
+of Training (COT), in writing, to implement and manage the operations training program. 
+1.4.5.5.  Ensure training scenarios develop and practice crew duties to include crew 
+integration and current tactics, techniques, and procedures. 
+1.4.5.6.  Submit Training Deficiency Reports (TDRs) in accordance with Chapter 6.   
+1.4.5.7.  Determine utilization of Basic Mission Capable (BMC) crewmembers. 
+1.4.5.8.  Ensure the COT manages trainee temporary duty (TDY) and leaves of personnel 
+in IQT/MQT status to reduce interruptions in training. 
+1.4.5.9.  Take administrative action in accordance with  Attachment 4, AFI 36-2101, 
+Classifying Military Personnel (Officer and Enlisted), AFI 11-401, Aviation 
+Management, and AFMAN 11-402, Aviation and Parachutist Service on individuals who 
+cannot perform or meet the unit’s training/physical mission requirements or are unable to 
+comply with AFSC requirements. 
+1.4.6.  Unit Chief of Training:  The term and/or acronym Chief of Training (COT) is generic 
+for the training officer and the actual term may vary from unit to unit, e.g., Operations 
+Training Officer.  The training officer is an AFSC 13B (or Canadian equivalent) qualified as 
+an instructor.  The COT: 
+1.4.6.1.  Uses MAJCOM-approved syllabi, courseware/training materials, and locally 
+developed materials (if necessary) to implement the unit training program, and use the 
+MAJCOM provided electronic management system to access online training materials 
+and recording of training accomplishments. 
+1.4.6.2.  Ensures 
+review 
+of 
+an 
+individual’s 
+previous 
+training 
+records/accomplishments/experience prior to entry into training, and recommend an 
+appropriate duty position to the Operations Officer. 
+1.4.6.2.1.  Establish a tailored requalification program (based on records review) for 
+individuals returning to the BCC, or those individuals with experience in other 
+tactical BMC2 platforms, and if appropriate, requalify in the same duty position. 
+AFMAN13-1BCCV1  17 JULY 2020 
+9 
+1.4.6.2.2.  Maintains a roster of unit CMR/BMC crewmembers. 
+1.4.6.3.  Ensures training supplies and current training materials are available to trainees. 
+1.4.6.4.  Verifys successful completion of training. 
+1.4.6.5.  Provides assistance in academic and positional subject areas and keep the 
+Director of Operations (DO) advised on personnel who are having difficulty with their 
+training. 
+1.4.6.6.  Forwards through their chain of command proposed changes, corrections, or 
+recommended improvements to training programs and materials to NAF/MAJCOM. 
+1.4.6.7.  Uses the Training Change Request Format (TCRF) located on the ACC Training 
+Support Squadron (TRSS) Detachment 9 Community of Practice to submit recommended 
+changes to training products.  The TCRF is used by 1AF Operations Training Division 
+(1AF/A3T) to nominate new courseware for development or revise existing BCC 
+courseware material.  Units will forward, through channels, the TCRF to 1AF/A3T.  The 
+recommendation shall include the rationale with references, and identify the type of 
+comment/recommendation (Critical, Major, Substantive, or Administrative) (T-2). 
+1.4.6.7.1.  Critical.  Critical comments highlight incorrect content that if not resolved 
+could result in personal injury, damage to equipment, or compromise safety of flight. 
+1.4.6.7.2.  Major.  Major comments are significant concerns within the training 
+materials that may result in non-effective training.  This category may be used with a 
+general statement of concern with a subject area, intent of the document, etc., 
+followed by detailed comments on specific entries in documents that, taken together, 
+constitute the concern. 
+1.4.6.7.3.  Substantive.  Substantive comments identify sections in the training 
+materials that may be incorrect, incomplete, misleading, or confusing. 
+1.4.6.7.4.  Administrative.  Administrative comments correct inconsistencies between 
+different sections, typographical errors, or grammatical errors. 
+1.4.7.  Flight Commanders and Supervisors: 
+1.4.7.1.  Ensure crew members are CMR/BMC in the duty position they are performing, 
+or supervised by an instructor. 
+1.4.7.2.  Ensure event objectives are briefed, debriefed, and assessed to determine 
+successful accomplishments. 
+1.5.  Training.  Battle Control Center (BCC) training is designed to progress crewmembers from 
+IQT (Basic Course or Requalification Training)/ MQT to CT.  Upon successful completion of 
+training (IQT/MQT) requirements, individuals are released to STAN/EVAL for evaluation.  
+STAN/EVAL awards a qualification in accordance with AFI 13-1 STAN/EVAL Vol.  2.  The 
+qualification statuses are Combat Mission Ready (CMR) and Basic Mission Capable (BMC). 
+1.5.1.  Upon successful completion of the Initial Qualification/Mission evaluation, 
+crewmembers are designated as CMR or BMC. 
+10 
+AFMAN13-1BCCV1  17 JULY 2020 
+1.5.1.1.  Combat Mission Ready (CMR).  CMR crewmembers maintain proficiency in all 
+core missions of the unit, accomplishing the required training in all of the mission tasks 
+for their duty position. 
+1.5.1.2.  Basic Mission Capable (BMC).  BMC is a status conferred on MAJCOM, NAF, 
+and attached personnel whose primary duties do not allow them to maintain CMR status 
+(i.e., lookback and CT requirements).  BMC crewmembers can be used to provide 
+additional mission generation/combat capability.  Unit/CC’s designate personnel as BMC 
+in writing. 
+1.5.1.2.1.  Commander approval is required for unsupervised mission participation by 
+BMC crewmembers. 
+1.5.1.2.2.  BMC crewmembers are exempt from academic training and/or special 
+training programs except where specifically directed by the host unit. 
+1.5.2.  Attached Personnel.  ACC Combat Integration Branch (A3CI) (PACAF/A310 for 
+PACAF units) determines/approves attached personnel requirements for personnel assigned 
+above NAF level.  Attached crewmembers will have a valid AF Form 8, Certificate of 
+Aircrew Qualification in accordance with AFI 13-1 STAN/EVAL Vol.  2 (T-2). 
+1.5.3.  Unqualified (UQ).  Crew members will be designated UQ for the following: 
+1.5.3.1.  Downgraded for being non-CMR/non-BMC (NCMR/NBMC) longer than 6 
+months (T-3). 
+1.5.3.2.  Downgraded for a demonstrated lack of ability (T-3). 
+1.5.3.3.  Downgraded for failure to meet standards during a periodic evaluation, failure to 
+complete an evaluation by the expiration date, or at the commander’s discretion 
+following a commander-directed downgrade in accordance with AFI 13-1 STAN/EVAL 
+Vol.  2.  (T-3). 
+1.5.4.  Crewmember Experience Level.  Crewmember experience levels indicate to unit/CCs 
+how much training crewmembers need to maintain CT requirements and proficiency.  The 
+unit DO designates all crewmembers as “Inexperienced” or “Experienced” after meeting the 
+criteria below.  The Chief of Training (COT) documents experience levels in accordance 
+with Chapter 6. 
+1.5.4.1.  An experienced Air Battle Manager (ABM), Air Weapons Officer (AWO), or 
+Weapons Director (WD): 
+1.5.4.1.1.  Has 1 year in the AFSC after award (T-3). 
+1.5.4.1.2.  Performed as a CMR/BMC ABM, AWO or WD for a minimum of 6 
+months (3 months for 621 ACS) on the unit’s assigned system of record (T-3). 
+1.5.4.1.3.  Has at least 50 controlled events (live/virtual/constructive (L/V/C)) in a 
+CMR/BMC status, of which a minimum of 25 must be on the unit’s assigned system 
+of record (T-3).  For AFSC 13Bs, Senior Director (SD) and AWO CMR events from 
+previous units can count toward controlled events.  Due to shortened assignment 
+timelines, the 621 ACS/CC may waive system of record minimums. 
+1.5.4.2.  An experienced crewmember (all other duty positions): 
+AFMAN13-1BCCV1  17 JULY 2020 
+11 
+1.5.4.2.1.  Has been formally awarded a AFSC 13BXX/1C5X1 AFSC (T-2). 
+1.5.4.2.2.  Has 1 year in the AFSC after award (T-3). 
+1.5.4.2.3.  Performed in the duty position for a minimum of 6 months (3 months for 
+621 ACS) on the unit’s assigned system of record (T-3). 
+1.5.4.2.4.  Has at least 50 career event operations (L/V/C) performing duties in the 
+corresponding qualification, of which a minimum of 25 must be on the unit’s 
+assigned system of record (T-3).  Due to shortened assignment timelines, the 621 
+ACS/CC may waive system of record minimums for assigned personnel. 
+1.5.5.  Upgrade/Specialized Training.  Upgrade/Specialized training is training in any special 
+skills necessary to carry out the unit’s assigned mission that is not required of every 
+crewmember.  Upgrade/Specialized training is normally accomplished after a crewmember is 
+assigned CMR/BMC status and is in addition to CMR/BMC requirements.  Unless otherwise 
+specified, CMR/BMC crewmembers may hold special certifications/qualifications as long as 
+they meet all additional training requirements.  (See Chapter 4)  Crewmembers upgrading to 
+Instructor maintain CMR status in their duty position.  Instructors may perform instructor 
+duties in accordance with the Instructor Syllabus.  Instructors who become Non-CMR 
+(NCMR) require unit/CC approval to continue academic and/or positional instructor duties. 
+1.6.  Training Concepts and Guidance. 
+1.6.1.  Training programs are designed to achieve the highest degree of combat readiness 
+consistent with flight safety and resource availability.  Training balances the need for realism 
+against the expected threat, crew capabilities, and safety.  This volume provides training 
+guidelines to be used with operational procedures specified in other applicable 
+flying/operations publications. 
+1.6.2.  Training missions are designed to provide unit personnel with the skills to accomplish 
+unit mission, roles/capability, maintain proficiency, as well as to enhance safety.  Training 
+missions emphasize combat/contingency skills through missions/scenarios that reflect 
+procedures and operations based on employment plans, location, current intelligence, and 
+opposition capabilities.  Units train using procedures and actions applicable to 
+combat/contingency scenarios (e.g., ,appropriate use of code words, authentication 
+procedures, combat tactics, safe recovery procedures, tactical deception, in-flight reports, 
+threat reactions, intelligence briefings and debriefings). 
+1.6.3.  Crewmember Supervision.  The following personnel must be under the direct 
+supervision of an instructor/evaluator when performing mission positional duties/tasks. 
+1.6.3.1.  Unqualified crewmembers (T-3). 
+1.6.3.2.  Crew members performing events in which they are not certified (T-3). 
+1.6.3.3.  Crew members performing IQT/MQT (T-3). 
+1.6.3.4.  Crew members regressed to NCMR/NBMC (T-3). 
+1.6.4.  Medical Clearance. 
+12 
+AFMAN13-1BCCV1  17 JULY 2020 
+1.6.4.1.  All AFSC 13B ABMs must maintain a medical clearance documented on DD 
+Form 2992, Medical Recommendation for Flying or Special Operational Duty in 
+accordance with AFI 11- 401.  (T-2). 
+1.6.4.2.  All AFSC 1C5Ds must maintain a medical clearance documented on DD Form 
+2992 in accordance with AFI 48-123, Medical Examinations and Standards.  (T-2). 
+1.6.4.3.  Individuals without a valid medical clearance will not conduct live 
+operations/exercises as part of the combat mission crew (T-2); the unit/CC will determine 
+what, if any, battle staff functions the individual may perform.  They can accomplish 
+virtual/constructive training. (NOTE: virtual/constructive training activities while on 
+Duty Not Involving Controlling (DNIC) status count towards CT requirements). 
+1.6.5.  The COT may adjust training time or remove personnel from IQT/MQT training due 
+to medical disqualification or DNIC status, emergency leave, operational exercises, 
+inspections, convalescent leave, work-related TDYs, or administrative action.  An entry 
+indicating the adjustment by the COT will be documented in accordance with Chapter 6 (T-
+3). 
+1.6.6.  Personnel TDY for 30 consecutive days (two Unit Training Assemblies (UTA)) (UTA 
+applies to Drill Status Guardsmen) or more to locations where IQT/MQT/CT is available will 
+accomplish training (T-3).   
+1.6.7.  Individuals not performing duties in the operations section because of disciplinary, 
+serious administrative issues, or lack of fitness for duty reasons, will not be entered 
+into/continued in training (T-3).  Individuals not performing duties in the operations section 
+for reasons of Uniform Code of Military Justice prosecution/conviction, drug abuse, 
+conscientious objector status, or loss of security clearance, will not be entered into/continued 
+in training (T-2). 
+1.7.  Training Requirements. 
+1.7.1.  This manual establishes the minimum training requirements used by the COT to 
+ensure operations personnel are trained during IQT/MQT and CT in accordance with 
+MAJCOM approved training syllabus.  Personnel assigned to units covered under this 
+manual have varying backgrounds and different levels of experience and proficiency.  The 
+COT ensures review of individuals’ training accomplishments and establishes an appropriate 
+course of training based on individual background and experience.  The COT records the 
+review on the AF Form 4141, Individual’s Record of Duties and Experience Ground 
+Environment Personnel. 
+1.7.2.  The total number of training missions/events accomplished is the primary factor for 
+maintaining an individual’s qualification status.  A review of the training missions/events 
+accomplished also considers specific event types. 
+1.7.3.  Progression from BMC to CMR requires: 
+1.7.3.1.  Evaluation of any additional specialized mission training required for CMR (T-
+2). 
+1.7.3.2.  Meeting 3-month lookback requirements as described in the respective tables in 
+Chapter 3, Chapter 7 & Chapter 8 (T-2). 
+AFMAN13-1BCCV1  17 JULY 2020 
+13 
+1.7.4.  Continuation Training (CT) requirements are further outlined in Chapter3 & 
+Chapter 8 . 
+1.8.  Training Records and Reports.  Units will maintain individual crewmember training 
+records in accordance with AFI 33-322, AFI 11-401, AFI 13-1 BCC Vol.  2, Battle Control 
+Center (BCC) Evaluation Criteria, guidance found in Chapter 6 of this volume, and appropriate 
+MAJCOM directives (T-3). 
+1.9.  Training Event Allocation Guidance.  Training event allocation prioritizes IQT/MQT 
+over CT (T-3).  In general, inexperienced crewmembers receive event allocation priority over 
+experienced crewmembers. 
+1.10.  Supplements/Waivers. 
+1.10.1.  Supplements. 
+1.10.1.1.  MAJCOMs may supplement this manual.  MAJCOMs will coordinate their 
+supplement to this manual with ACC/A3C before publication.  MAJCOM/A3s approve 
+the MAJCOM supplement.  The issuing MAJCOM OPR will provide copies of 
+MAJCOM-level supplements to AF/A3TY and the other MAJCOMs upon approval and 
+publication. 
+1.10.1.2.  Units coordinate their supplements through their chain of command for 
+approval.  MAJCOM OPRs will approve unit supplements.  ANG units will coordinate 
+their supplements with the NGB OPR (paragraph 1.4.3) who in-turn will forward to 
+MAJCOM OPRs for approval coordination (T-2). 
+1.10.1.2.1.  Supplementary guidance will not be less restrictive than the antecedent 
+publication, but can be more restrictive (T-2). 
+1.10.1.2.2.  Supplemental guidance will not contradict the antecedent publication (T-
+2). Waivers. 
+1.10.2.  Waiver authority for requirements of this volume will be in accordance with AFI 33-
+360.  Waiver requests must come from commanders (or civilian directors) of the affected unit 
+seeking relief from compliance through the command chain up to the appropriate waiver 
+authority (i.e., Tier 0, 1, 2, 3, or unit commander for non-tiered compliance items).  See AFI 
+33-360 for definition of Tier categories.  Tier 3 waiver authorities for this AFMAN are as 
+follows: (1) AFNORTH/A3 for 224 and 225 Air Defense Squadrons (ADS); (2) 611 
+AOC/CC for 176 ADS; (3) 298 ADG/CC for 169 ADS; (4) 607 AOC/CC for 621 ACS; (5) 
+35 FW/CC for 610 ACF; and (6) 18 WG/CC for 623 ACS. 
+1.10.2.1.  Submit waiver requests via email or memorandum, and include the following: 
+1.10.2.2.  Reference 
+and 
+text 
+of 
+the 
+specific 
+requirement 
+for 
+which 
+the 
+commander/director is requesting a waiver (T-2). 
+1.10.2.2.1.  Annotate which of the following three reasons apply (T-2).  and why: 
+1.10.2.2.1.1.  The cost of compliance creates unacceptable risk to a higher priority 
+task (T-2).   
+1.10.2.2.1.2.  The expected cost of compliance outweighs the benefit (T-2). 
+1.10.2.2.1.3.  Personnel cannot comply with the requirement due to a lack of 
+14 
+AFMAN13-1BCCV1  17 JULY 2020 
+resources (training, funds, equipment, facilities, guidance or manpower) (T-2). 
+1.10.2.2.2.  Circumstance and time period for waiver (T-2). 
+1.10.2.2.3.  Risk mitigation measures the requesting commander will implement 
+during the waiver period (T-2). 
+1.10.2.2.4.  Impact if waiver is disapproved (T-2). 
+1.10.2.3.  Approved waivers will be uploaded into the unit's Management Internal 
+Control Toolset for inspection activity review and publication OPR's situational 
+awareness/filing (T-2). 
+1.10.2.4.  PACAF/A310 and NGB/A2/3/6/10Y will forward a copy of all approved 
+waivers for their units to ACC/A3C.  ACC/A3C will forward a copy of all approved 
+waivers to AF/A3TY.  Units will forward all approved waivers and report all deviations 
+or exceptions without waiver, through their chain of command, to MAJCOM OPR (T-2). 
+1.10.2.5.  Waivers will not exceed the requested waiver period or 30 calendar days after 
+the approving commander’s tour length, whichever is shorter (T-2). 
+1.10.2.6.  Unless directed by the waiver authority, trainees continue to train while waiver 
+requests are being staffed. 
+1.10.2.7.  File a copy of approved written waivers with this volume in accordance with 
+AFI 33-322  (T- 2). 
+AFMAN13-1BCCV1  17 JULY 2020 
+15 
+Chapter 2 
+INITIAL/MISSION QUALIFICATION TRAINING (IQT/MQT) 
+2.1.  General.  This chapter outlines the conduct of IQT/MQT at the operational-unit level. 
+2.1.1.  Any individual whose qualification has expired and lapsed for longer than 60 months 
+must accomplish IQT/MQT (T-2).   
+2.1.2.  If a crewmember is in unqualified status for more than 1 year, the Chief of Training 
+(COT) coordinates with the Director of Operations/Operations Officer to determine the 
+course of action  (requalification training or IQT/MQT) (T-3). 
+2.2.  Authority. 
+2.2.1.  MAJCOM approved syllabi identify IQT/MQT requirements for each duty position.  
+Course syllabi do not take precedence over the guidance in this AFMAN; however, units will 
+conform/adhere to the grading criteria, academic/performance training standards, and 
+general/specific instructions unless it specifically conflicts with this AFMAN (T-2). 
+2.2.2.  1AF Operations and Training Division (1AF/A3T) functions as the lead to develop 
+BCC IQT/MQT syllabi and course training materials in coordination with PACAF/A310 
+with oversight by ACC/A3CI. 
+2.2.2.1.  1AF/A3T is responsible for developing, maintaining, and updating training task 
+lists, syllabi, grade sheets, interactive courseware, and related tests outlined in the BCC 
+IQT/MQT syllabi.  1AF/A3T ensures syllabi are reviewed every 24 months or sooner to 
+account for weapon system changes, course critiques, or other data that necessitate earlier 
+review.  1AF/A3T documents the results of the syllabus review and forwards a copy of 
+the documentation to ACC/A3CI, and ACC TRSS. 
+2.2.2.2.  Course training materials include academic lessons and ACC Form 206, 
+Individual Mission Gradesheet (or equivalent) to document training results when 
+conducting tasks, simulations, or live fly exercises. 
+2.2.3.  IQT/MQT is conducted by units using MAJCOM-approved syllabi and other course 
+material. 
+2.2.4.  Elimination Procedures.  Units will follow IQT/MQT elimination procedures outlined 
+in specific course syllabi and the guidance outlined in this AFMAN, Training Evaluation 
+Board at Attachment 4 and AFI 11-401 for rated aircrew members (T-2).  Note:  There are 
+tiered compliance items in Atch 4. 
+2.3.  Prerequisites.  Prior to entering IQT/MQT, trainees must meet Air Force Education and 
+Training 
+Course 
+Announcements 
+selection 
+prerequisites 
+at 
+site: 
+https://cs2.eis.af.mil/sites/app10-ETCA/SitePages/Home.aspx. (T-2).  Trainees in the 
+following CMR Duty positions will also meet positional prerequisites in Table 2.1 (T-3). 
+2.3.1.  Mission Crew Commander (MCC). 
+2.3.2.  Senior Director (SD). 
+2.3.3.  Air Surveillance Officer (ASO). 
+16 
+AFMAN13-1BCCV1  17 JULY 2020 
+2.3.4.  Interface Control Officer (ICO). 
+2.3.5.  Air Weapons Officer (AWO). 
+2.3.6.  Weapons Director (WD). 
+2.3.7.  Air Surveillance Technician (AST). 
+2.3.8.  Interface Control Technician (ICT). 
+2.3.9.  Surveillance Technician (ST). 
+Table 2.1.  Positional Prerequisites (As Applicable). 
+POSITION FOR WHICH 
+ENTERING TRAINING 
+MUST HAVE PREVIOUS 
+QUALIFICATION IN 
+Notes 
+MCC 
+SD, ASO, ICO,  Countermeasures 
+Officer (ECO) 
+1 
+SD 
+AWO 
+1 
+AWO/WD 
+Not Required 
+ASO 
+AWO 
+1 
+AST 
+ST, Data System Technician (DST) 
+1 
+ST 
+Not Required 
+ICO 
+AWO 
+1 
+ICT 
+Any Position 
+1 
+Note: 
+1.  Qualification in other Theater Air Control System units (e.g., Control and 
+Reporting Center/Airborne Warning and Control System may satisfy this 
+requirement. 
+2.4.  Timelines.  Personnel start and complete training in accordance with the appropriate duty 
+position syllabus/training guides timeline (T-3). 
+2.4.1.  Personnel attending First Term Airman Center or other mandatory Professional 
+Military Education courses enter IQT/MQT the first duty day after program or course 
+completion (T-3). 
+2.4.2.  The DO ensures the COT enters operations personnel into IQT/MQT not later than 
+(NLT) 30 calendar days after the member reports to the unit (10 days for Korea units).  (T-3).  
+Note:  Trainees may be required to complete core training prior to entry into IQT/MQT. 
+2.4.3.  Commanders will report through appropriate channels to the applicable waiver 
+authority individuals not entered into IQT/MQT within the above timeline and the reason for 
+the delay (T-3). 
+2.4.4.  Personnel awaiting a technical training course may enter IQT/MQT without a time 
+limitation. 
+AFMAN13-1BCCV1  17 JULY 2020 
+17 
+2.4.5.  Time Limitations.  All trainees must complete IQT/MQT requirements within 150 
+calendar days (24 UTAs) (60 days for 621 ACS) (T-3).  Failure of the trainee to complete 
+IQT/MQT requirements within the above time constraints results in the COT pursuing 
+actions outlined in the flowchart at Attachment 2 (T-3). Trainees continue to train during 
+staffing of the training extension request. 
+2.4.5.1.  Upon reaching the 150th calendar IQT/MQT day (24 UTAs) (60 days for 621 
+ACS), the trainee who does not complete IQT/MQT requirements is referred to the 
+unit/CC, who can authorize a 30-calendar day (two UTAs) (20 days for 621 ACS) 
+extended training period for primary qualifications.  The  unit/CC may take actions in 
+accordance with AFI 36-2101, and/or AFI 11-401 in lieu of extending the training period 
+by 30 calendar days (two UTAs) (20 days for 621 ACS) (T-3). NOTE: The COT in 
+coordination with the DO may authorize training extensions for secondary qualifications 
+(T-3). 
+2.4.5.2.  NLT the 180th calendar day (26 UTAs) (80th day for 621 ACS) of the training 
+period, one of the following occurs (T-3).  Either, 
+2.4.5.2.1.  The trainee completes IQT/MQT requirements and is released to 
+STAN/EVAL. 
+2.4.5.2.2.  The trainee does not complete IQT/MQT requirements and is referred to 
+the commander.  The commander may request a 30 calendar day (two UTAs) (10 day 
+for 621 ACS) extended IQT/MQT period from 1AF/A3T or PACAF/A310 who may 
+approve or disapprove the request.  The COT may authorize training extensions for 
+secondary qualifications. 
+2.4.5.2.2.1.  The unit/CC may take action in accordance with AFI 36-2101 and/or 
+AFI 11-401 in lieu of requesting an extended training period from the 1AF/A3T 
+or PACAF/A310. 
+2.4.5.2.2.2.  1AF/A3T or PACAF/A310 approves a 30-calendar day (two UTAs) 
+training period extension.  PACAF/A310 may delegate this authority.  
+Disapproval of the extended training period request results in unit/CC taking 
+actions in accordance with AFI 36-2101 and/or AFI 11-401. 
+2.4.5.3.  NLT the 210th calendar day (28 UTAs) (90th day for 621 ACS) of the training 
+period, one of the following occurs (T-3).  Either, 
+2.4.5.3.1.  The trainee completes the IQT/MQT requirements, and is released to 
+STAN/EVAL. 
+2.4.5.3.2.  The trainee does not complete IQT/MQT requirements and is referred to 
+the unit/CC who may request a 30 calendar day (two UTAs) additional extended 
+training period, through the chain of command from the MAJCOM OPR (ACC/A3C, 
+PACAF/A3/6C as applicable).  The COT may authorize training extensions for 
+secondary qualifications. 
+2.4.5.3.2.1.  The unit/CC may take actions in accordance with Attachment 4, AFI 
+36-2101, and/or AFI 11-401, in lieu of requesting an extended training period 
+from the MAJCOM. 
+ 
+ 
+18 
+AFMAN13-1BCCV1  17 JULY 2020 
+2.4.5.3.2.2.  The intermediate headquarters may deny the request and choose not 
+to forward to the MAJCOM, resulting in the unit/CC taking actions in accordance 
+with AFI 36-2101 and/or AFI 11-401. 
+2.4.5.3.2.3.  MAJCOM approves the 30-day (two UTAs) training period 
+extension.  MAJCOM disapproval of the extended training period request results 
+in the unit/CC taking actions in accordance with AFI 36-2101 and/or AFI 11-401. 
+2.4.5.4.  NLT the 240th calendar day (30 UTAs) (120th day for 621 ACS) of the training 
+period, one of the following occurs (T-3).  Either, 
+2.4.5.4.1.  The trainee completes IQT/MQT requirements and is released to 
+STAN/EVAL. 
+2.4.5.4.2.  The trainee does not complete IQT/MQT requirements.  Trainee is referred 
+to the unit/CC.  Commander takes action in accordance with AFI 36-2101 and/or AFI 
+11-401.  621 ACS may seek PACAF guidance instead of, or in addition to, 
+administrative actions. 
+2.4.5.5.  For units in Korea and Japan.  If a trainee successfully completes IQT/MQT 
+requirements, but fails INIT QUAL/MSN, the trainee enters a 30-training day additional 
+training period.  NLT 60 calendar days (30-days additional training plus 30-calendar day 
+evaluation period) from the time of QUAL failure, one of the following occurs (T-3).  
+Either, 
+2.4.5.5.1.  Trainee completes training requirements and passes the requalification 
+evaluation. 
+2.4.5.5.2.  Trainee does not complete the training requirements or fails the re-
+evaluation and is referred to the unit/CC who may request a 30-calendar day extended 
+training period or take appropriate administrative action in accordance with AFI 36-
+2101. 
+2.4.6.  Additional Training.  Additional training identified during any evaluation must be 
+completed in accordance with AFI 13-1 STAN/EVAL Vol.  2.  Trainees who fail to complete 
+additional training are referred to unit/CC for administrative action (T-3). 
+2.5.  Training Documentation, Reports and Forms.  Training documentation will be 
+completed in accordance with Chapter 6 (T-3). 
+2.6.  Waivers. 
+2.6.1.  Waiver authority for individual IQT/MQT entry is the Tier 3 authority identified at 
+paragraph 1.10.2.1 
+2.6.2.  1AF Director of Operations (A3) is the waiver authority for IQT/MQT and upgrade 
+course syllabi for ACC ANG BCC units.  PACAF/A310 is delegated waiver authority for 
+IQT/MQT and upgrade course syllabi for all PACAF units (to include ANG units).  Units 
+will forward waiver requests through channels to the appropriate MAJCOM OPR.  ANG 
+units will forward information copies to the NGB OPR (T-2).  MAJCOMs will forward a 
+copy of all approved waivers to AF/A3TY (T-3). 
+2.6.3.  The COT will be the approval authority for IQT/MQT proficiency advancement when 
+the student demonstrates performance above syllabus standards (T-3).   
+AFMAN13-1BCCV1  17 JULY 2020 
+19 
+2.6.4.  The COT may authorize training deviations to the order of training to flex to special 
+weather and/or peculiar local conditions for all student and instructor training.  Deviations 
+will be consistent with good training management, student progress, and student experience 
+level.  However all prerequisite academic training must be accomplished before associated 
+positional training.  Document all deviations and substitutions in accordance with Chapter 6  
+(T-3). 
+2.7.  Positional Training Requirements. 
+2.7.1.  The COT will review the records and evaluation folders of newly assigned personnel 
+to ensure an appropriate course of training.  Experience and previous qualifications in the 
+unit’s weapon system are considered in determining the specific training track.  With DO 
+approval, individuals with specific prior experience or positional qualifications can enter into 
+a tailored training program (T-3). 
+2.7.2.  The DO will ensure the COT provides the appropriate amount of training in each 
+academic and positional area.  The COT uses the MAJCOM approved syllabi to conduct 
+IQT/MQT (T-3). 
+2.7.2.1.  The MAJCOM-approved syllabus outlines the minimum training requirements 
+for IQT/MQT completion. 
+2.7.2.2.  The minimum standard for block progress checks in accordance with course 
+syllabus (T-3). 
+2.7.2.3.  Trainees must pass all blocks and complete applicable progress checks in 
+accordance with course syllabus (T-3). 
+20 
+AFMAN13-1BCCV1  17 JULY 2020 
+Chapter 3 
+ACC AND PACAF BATTLE CONTROL CENTER (BCC) CONTINUATION TRAINING 
+3.1.  General.  This chapter CT requirements to maintain Battle Control Centers (BCC) 
+qualification, and to requalify previously qualified crewmembers at the BCCs operated by 
+169/176/224/225 ADS.  CT provides crewmembers with the volume, frequency, and mix of 
+training necessary to maintain proficiency at the assigned qualification level. 
+3.2.  Training Cycle.  CT requirements are designed/planned for a specified training cycle with 
+specific requirements additionally defined by crew position.  Requirements are accomplished 
+during a 3-month sliding window lookback period (T-3).  The training cycle is a 12-month cycle 
+beginning 1 October.  Training requirements are based upon crewmember experience level.  
+Training should be balanced across the training cycle. 
+3.3.  Waivers. 
+3.3.1.  Waiver authority will act on requests within 30 days of receipt (T- 3). 
+3.3.2.  CT Waiver Process.  CCs forward to the waiver authority a list of crewmembers 
+requiring CT waivers and crewmembers downgraded for failure to meet CT requirements (T-
+3).  The waiver requests should arrive no later than 15 days after the end of their CT training 
+cycle. 
+3.3.2.1.  After final review and determination of waiver requests, the waiver authority 
+notifies subordinate units of the approval/disapproval of the waiver request. 
+3.3.2.2.  Non-MAJCOM level waiver authorities will forward an info copy to ACC/A3C 
+(T-2). 
+3.4.  Logging CT Requirements by Instructors/Evaluators. 
+3.4.1.  At the end of the training cycle, up to 50 percent of required positional CT training 
+cycle events (rounded down to the next whole number, but not below 1) may be credited 
+from instructor/evaluator monitored events.  The instructor/evaluator must have monitored 
+mission planning and any briefings, missions, and debriefings (T-3). 
+3.4.2.  Instructor/Evaluator Senior Directors (SD) cannot log control events for solely 
+supervising Air Weapons Officers (AWOs) or Weapons Directors (WDs) engaged in aircraft 
+control.  In order to log control events, SD must meet the provisions of paragraph 3.7.8.1 
+(T-3). 
+3.5.  Proration of Training Cycle Requirements. 
+3.5.1.  At the end of the training cycle, the COT may prorate all positional training 
+requirements when: 
+3.5.1.1.  An individual is TDY, medically disqualified/Duty Not Involving Controlling 
+(DNIC) on convalescent leave or emergency leave for more than 30 cumulative days 
+(two UTAs). 
+3.5.1.2.  An individual upgrade occurs after the start of the training cycle. 
+AFMAN13-1BCCV1  17 JULY 2020 
+21 
+3.5.2.  Contingency Operations.  Contingency operations can have a positive or negative 
+impact on a unit's overall CT program, as emphasis is on supporting contingency operations.  
+The DO will consider this during unit planning, at the end of the training cycle and prior to 
+submitting training cycle waivers.  Additionally, the following proration procedures are 
+intended to provide DO’s flexibility in accomplishing their unit's CT program. 
+3.5.3.  Crew members that become Combat Mission Ready (CMR)/Basic Mission Capable 
+(BMC) after the beginning of the training cycle accomplish a prorated share of existing 
+training cycle academic training requirements for the remainder of the period.  Proration 
+period starts with the first day of the following month.  Note: Training accomplished during 
+Initial Qualification Training (IQT)/Mission Qualification Training (MQT) does not count 
+toward CT requirements. 
+3.5.4.  Round down training requirement events to the next whole number when prorating; 
+however, no requirement can be less than one (1). 
+3.5.5.  Chapter 6  provides guidance on prorating requirements. 
+3.6.  Regression from CMR/BMC Status.  Crewmembers who are regressed to Non-Combat 
+Mission Ready/Basic Mission Capable (NCMR/NBMC) status are not authorized to perform 
+crew duties unless under instructor/evaluator supervision. 
+3.6.1.  Crew members are regressed to NCMR/NBMC status for one or more of the following 
+reasons: 
+3.6.1.1.  Failure to meet Table 3.1  lookback requirements.  To regain CMR/BMC status 
+crewmembers will follow paragraph 3.8 guidance (T-3). 
+3.6.1.2.  Failure to complete training cycle CT requirements.  To regain CMR/BMC 
+status crewmembers will follow paragraph 3.8 guidance (T-3). 
+3.6.1.3.  At CC direction.  To regain CMR/BMC status crewmembers are to complete an 
+approved training plan (T-3). 
+3.6.2.  Lookback.  Lookback is a management tool used to determine and monitor CMR 
+crewmember proficiency during the training cycle.  A lookback flow chart is located at 
+Attachment 3.  A crewmember’s lookback requirements are based on the crewmember’s 
+experience status at the end of the lookback period.  Lookback requirements are outlined in 
+Table 3.1 
+3.6.2.1.  Lookback does not apply to BMC crewmembers. 
+3.6.2.2.  DNIC 
+crewmembers’ 
+training 
+accomplishments 
+in 
+virtual/constructive 
+environments count towards lookback requirements. 
+3.6.2.3.  Lookback calculations are based on the previous 3-months (T-3).  Example: 
+Senior Airman (SRA) Jones (an inexperienced WD) participated in two control events in 
+June and one control event in July.  If SRA Jones had a 3-month lookback requirement of 
+eight control events, he/she would need to participate in five control events during the 
+month of August in order to stay CMR. 
+3.6.2.4.  The COT will submit the 3-month lookback report by the fifth duty day of the 
+new month (T-3). 
+22 
+AFMAN13-1BCCV1  17 JULY 2020 
+3.6.2.5.  Lookback computations for newly qualified crewmembers begin following 
+completion of Initial Qualification/Mission (INIT QUAL/MSN) evaluation, as applicable, 
+and three full months of CMR status.  Computation for crewmembers restored to CMR 
+status will start the month following return to CMR status (T-3). 
+3.6.2.6.  If a CMR crewmember fails to meet the 3-month lookback requirement, the 
+unit/CC may: 
+3.6.2.6.1.  Regress the individual to NCMR status (T-3). 
+3.6.2.6.2.  Remove the individual from the CMR position (T-3). 
+3.6.2.6.3.  Place the crewmember in probation status for 1 month (T-3).  If the 
+commander chooses probation, the crewmember is required to reestablish a 3- month 
+lookback by the end of the probation period to remain CMR.  Example: SRA Jones 
+(an inexperienced WD) participated in one control event in June, two control events 
+in July, and three control events in August.  In this example, SRA Jones did not meet 
+the requirement of eight control events for an inexperienced WD.  With a 
+commander-approved probationary period, SRA Jones must complete three control 
+events in September in order to remain CMR after his/her probation period expires.  
+The completion of these control events would reestablish SRA Jones’s lookback and 
+prevent him/her from becoming NCMR. 
+3.6.2.7.  Document all actions in accordance with Chapter 6 (T-3). 
+3.6.2.8.  Crewmembers that regress to NCMR status for less than 6 months (seven UTAs) 
+will complete training consisting (as a minimum) of the following before returning to 
+CMR status (T-3). 
+3.6.2.8.1.  Conduct a minimum of one effective control event, link event, and/or event 
+operation, applicable to the duty position while monitored by an instructor (T-3).  The 
+event may be live, virtual, or constructive. 
+3.6.2.8.2.  Upon completion of the training and instructor recommendation, the 
+commander returns the individual to CMR status (T-3).   
+3.6.2.8.3.  Events accomplished during the training count toward a crewmember’s CT 
+requirements. 
+3.6.2.9.  If a crewmember is NCMR for more than 6 months, (seven UTAs) downgrade 
+the individual to Unqualified (UQ) status and enter into requalification training with 
+subsequent requalification evaluation (T-3).   
+ 
+ 
+AFMAN13-1BCCV1  17 JULY 2020 
+23 
+Table 3.1.  Battle Control Center Equipped Unit 3-Month Lookback 
+(Inexperienced/Experienced[I/E]). 
+Control 
+Events I/E 
+Tracking 
+Events 
+Event 
+Operations 
+I/E 
+Link 
+Events 
+I/E 
+Environment Notes 
+MCC/ASO 
+ 
+3/2 
+L/V/C 
+3 
+AST 
+ 
+3/2 
+3/2 
+L/V/C 
+2,3 
+ST 
+ 
+3/2 
+ 
+L/V/C 
+2,3 
+SD 
+4/3 
+ 
+3/2 
+L/V/C 
+1,2,3,
+4 
+AWO/WD 
+8/6 
+L/V/C 
+1,2,3,
+4  
+ICO/ICT 
+4/3 
+L/V/C 
+4 
+Notes: 
+1. Any combination of controlled events may be used to attain the minimum requirements. 
+2. Virtual and Constructive accomplishments may be used for lookback. 
+3. Virtual and Constructive accomplishments by DNIC crewmembers will count towards  
+lookback (T-3). 
+4. Instructor/Evaluator Control and Link Events count towards lookback. 
+3.7.  Continuation Training (CT) Requirements.  The CT training cycle consists of academic 
+and positional training requirements.  A crewmember’s CT requirements are based on their 
+current experience status at the end of the training cycle. 
+3.7.1.  The DO is responsible for oversight of training crew personnel on the general 
+procedures and preparation for executing the unit’s mission under any applicable operations 
+plans (T-3). 
+3.7.2.  Academic Training Requirements.  The intent of the academic portion of continuation 
+training is to keep day-to-day training current with relevant tactics, techniques and 
+procedures as well as applicable intelligence training. 
+3.7.2.1.  The unit COT, in conjunction with the Weapons and Tactics officer, administers 
+and records the academic training that supports CT, based on the review, update, and 
+expansion of existing IQT/MQT materials, as well as the introduction of any unit unique 
+current operations interest/focus areas (T-3).   
+3.7.2.2.  The COT can adjust the training plan, throughout the training cycle, to meet a 
+dynamic operational training environment or to address any negative trends, with the 
+approval of the DO. 
+3.7.2.3.  The COT ensures documentation of CT in accordance with Chapter 6 (T-2). 
+3.7.3.  Positional Training Requirements.  The intent of the positional portion of CT is to 
+keep crewmembers proficient in the skill sets outlined in AFI 13-1 BCC Vol.  3, Operating 
+Procedures  Battle Control Center (BCC). 
+24 
+AFMAN13-1BCCV1  17 JULY 2020 
+3.7.3.1.  The COT will ensure CMR/BMC individuals meet positional training cycle 
+requirements contained in the respective duty position tables (T-3). 
+3.7.3.2.  The COT ensures documentation of positional CT in accordance with Chapter 6 
+(T-3). 
+3.7.3.3.  Failure to meet positional training requirements. 
+3.7.3.3.1.  Crewmembers who fail to accomplish positional training requirements are 
+regressed to NCMR/NBMC status (T-3). 
+3.7.3.3.2.  The crewmember will remain NCMR/NBMC until all overdue positional 
+training requirements are accomplished or the crewmember accomplishes 
+appropriate/specific training as directed by the unit/CC (T-3). 
+3.7.3.3.3.  All training requirements for the previous training cycle must be completed 
+before events can count toward the next training cycle (T-3). 
+3.7.4.  The commander must submit a TDR to inform applicable MAJCOM through their 
+chain of command when potential training shortfalls may result in individuals not meeting 
+their training cycle requirements (T-2).  In order to receive credit toward lookback and live 
+training cycle control events (WD/AWO/SD), the control events must be accomplished in 
+accordance with Tables 3.1, Table 3.3, and Table 3.4 Additionally, these control events 
+must be briefed/debriefed in accordance with AFI 11-214, Air Operations Rules and 
+Procedures (T-3). 
+3.7.4.1.  Although units need to take advantage of all training opportunities available, 
+events conducted without using live/virtual entities will be logged/counted toward 
+WD/AWO/SD constructive events (T-3). 
+3.7.4.2.  Exercises count towards event operation/tracking event/link event CT 
+requirements. 
+3.7.5.  CT-CMR Positional Training Requirements (TRs) are defined in terms of, Control 
+Events, Tracking Events, Event Operations, Link Events, and Exercises. 
+3.7.6.  Mission Crew Commander (MCC) 
+3.7.6.1.  Event Operations.  The MCC will receive credit for one operational event each 
+time they perform duties (mission planning, supervising the mission crew, and debriefing 
+the mission) as a CMR/BMC crewmember for a minimum of 2 hours (T-3). 
+3.7.6.2.  Exercises.  The MCC will receive credit for one exercise event each time they 
+perform  duties for a minimum of 50 percent of the exercise, or a minimum of 2 hours if 
+the exercise is longer than the entire duty shift (T-3). 
+ 
+ 
+AFMAN13-1BCCV1  17 JULY 2020 
+25 
+Table 3.2.  Mission Crew Commander (MCC) Training Cycle Requirements 
+(Inexperienced/Experienced). 
+CMR 
+I/E 
+BMC 
+I/E 
+Environment 
+Event Operations 
+12/9 
+            5 
+L/V/C 
+Exercises 
+2 
+             2 
+L/V/C 
+3.7.7.  Senior Director (SD) 
+3.7.7.1.  Event Operation.  The SD will receive credit for one operational event each time 
+they perform duties (mission planning, supervising the WDs/AWOs engaged in aircraft 
+control, and operations execution) as a CMR/BMC crewmember, for a minimum of 2 
+hours (T-3). 
+3.7.7.2.  Control Event.  The SD receives credit.for a control event in accordance with  
+3.7.8.1 below (T-3). 
+3.7.7.3.  Exercises.  The SD will receive credit for one exercise event each time they 
+perform duties for a minimum of 50 percent of the exercise, or a minimum of two hours 
+if the exercise is longer than the entire duty shift (T-3).  Exercises count towards event 
+operation/link event CT requirements. 
+Table 3.3.  Senior Director (SD) Training Cycle Requirements 
+(Inexperienced/Experienced). 
+ 
+CMR 
+I/E 
+BMC 
+I/E 
+Environment 
+Note 
+Event Operations 
+12/9 
+5 
+L/V/C 
+Control Events 
+20/14 
+8 
+L/V/C 
+Exercises 
+2 
+Not Applicable 
+(N/A) 
+L/V/C 
+3.7.8.  Air Weapons Officer (AWO)/Weapons Director (WD). 
+3.7.8.1.  Control Event.  A control event includes control of any of the following mission 
+types: 
+3.7.8.1.1.  Air-to-Air.  The AWO/WD provides control to at least one flight of aircraft 
+conducting air-to-air tactics against a dedicated adversary.  The AWO/WD will 
+control the flight from hand-off to hand-off (T-3). 
+ 
+ 
+26 
+AFMAN13-1BCCV1  17 JULY 2020 
+3.7.8.1.2.  Air Refueling (A/R).  The AWO/WD provides control to an aircraft/flight 
+conducting A/R in accordance with AFI 11-214.  The AWO/WD provides the 
+appropriate level of control to an aircraft, or flight of aircraft (where flight integrity is 
+maintained) that rendezvous with a tanker/cell (or fighter simulating a tanker).  Each 
+single receiver/set of receivers counts as one controlled event. 
+3.7.8.1.3.  Personnel Recovery (PR).  SDs/AWOs/WDs mission plan, brief and 
+debrief the conduct of the scenario including coordination with external agencies, 
+manage participants while executing the PR plan to include control or coordination of 
+PR air support, execute the communication plan and manage the airspace as tasked 
+(T-3). 
+3.7.8.2.  A control event counts (T-3) when the following criteria are met: 
+3.7.8.2.1.  Briefed and debriefed the event/mission(T-3)  . 
+3.7.8.2.2.  Provided close, tactical or broadcast control and assisted in the 
+accomplishment of mission objectives by managing the employment, weapons, fuel, 
+positioning or tasking of airborne asset(s) (T-3). 
+3.7.8.3.  Swapping Controllers.  During air-to-air training or A/R missions, the Senior 
+Director may hand over the mission to another controller so that more than one individual 
+may log a control event during the conduct of the mission.  To log a control event, each 
+AWO/WD provide control to fighters from initiation  (“fights-on”) through termination 
+(“knock-it-off”) or a prescribed vulnerability time (T-3).  For A/R mission each 
+controller must meet the minimum A/R mission requirements (T-3). 
+3.7.8.4.  Exercises.  The AWO/WD will receive credit for one exercise event each time 
+they perform duties for a minimum of 50 percent of the exercise, or a minimum of two 
+hours if the exercise is longer than the entire duty shift (T-3).   
+Table 3.4.  Air Weapons Officer (AWO)/Weapons Director (WD) Training Cycle 
+Requirements (Inexperienced/Experienced). 
+CMR 
+I/E 
+BMC 
+I/E 
+Environment 
+Note 
+Control Events 
+32/24 
+16/12 
+16/16 
+L/V/C 
+1 
+Exercise 
+2 
+2 
+L/V/C 
+Notes: 
+1.  Constructive missions may count toward 50% of control event requirements to bring an 
+operator back to CMR from NCMR. 
+ 
+ 
+ 
+AFMAN13-1BCCV1  17 JULY 2020 
+27 
+3.7.9.  Air Surveillance Officer/Air SurveillanceTechnician (ASO/AST) 
+3.7.9.1.  Event Operation.  The ASO/T receives credit for one operational event each time 
+they perform ASO/T duties (supervising the surveillance section, and performing air 
+picture management) for a minimum of two hours.  Units have the discretion of 
+employing available surveillance opportunities to meet practical training requirements 
+(T-3).   
+3.7.9.2.  Tracking Event.  The AST receives credit for one operational tracking event 
+each time he/she performs tracking of surveillance objects as a CMR/BMC qualified AST 
+for a minimum of 2 hours (T-3). 
+3.7.9.3.  Exercises.  The ASO/T will receive credit for one exercise event each time they 
+perform ASO/T duties for a minimum of 50 percent of the exercise, or a minimum of two 
+hours if the exercise is longer than the entire duty shift (T-3). 
+Table 3.5.  Air Surveillance Officer (ASO)/Air Surveillance Technician (AST) Training 
+Cycle Requirements (Inexperienced/Experienced). 
+CMR  I/E 
+BMC  I/E 
+Environment 
+Note 
+Event Operations 
+12/9 
+5 
+L/V/C 
+ 
+Tracking Events 
+12/9 
+5 
+L/V/C 
+1 
+Exercises 
+    2 
+2 
+L/V/C 
+ 
+Note 1: ASOs do not require tracking events 
+ 
+ 
+3.7.10.  Interface Control Technician (ICT) 
+3.7.10.1.  Link Event.  The ICT receives credit for one operational link event each time 
+he/she performs link operations for a minimum of 2 hours as a CMR/BMC qualified 
+crewmember (T-3).  The ICO/ICT must be actively involved in duty related tasks 
+(briefing the link, preparing to link, entering/exiting/maintaining the link, ensuring 
+accuracy in the air picture, designing, implementing, and/or monitoring filters, 
+coordinating changes to frequencies/ crypto modes/keys and the areas of responsibility 
+and debriefing the link). 
+3.7.10.2.  Exercises.  The ICT receives credit for one exercise link event each time he/she 
+performs ICO/ICT duties for a minimum of 50 percent of an exercise, or a minimum of 
+two hours if the exercise is longer than the entire duty shift.  The exercise must include 
+multiple active links with external units in accordance with Operational Tasking Data 
+Link (T-3).   
+Table 3.6.  Interface Control Technician (ICT) Event. 
+CMR 
+I/E 
+BMC 
+I/E 
+Environment 
+Link Events 
+12/6 
+           5 
+L/V/C 
+Exercises 
+1 
+          1 
+L/V/C 
+ 
+28 
+AFMAN13-1BCCV1  17 JULY 2020 
+ 
+ 
+AFMAN13-1BCCV1  17 JULY 2020 
+29 
+3.7.11.  Surveillance Technician (ST). 
+3.7.11.1.  Tracking Events:  The ST receives credit for one operational event each time 
+he/she performs surveillance duties (tracking/identification) for a minimum of 2 hours 
+(T-3). 
+3.7.11.2.  Exercises.  The ST receives credit for one exercise event each time they 
+perform for a minimum of 50 percent of the exercise, or a minimum of two hours if the 
+exercise is longer than the entire duty shift (T-3). 
+Table 3.7.  Surveillance Technician (ST) Training Cycle Requirements 
+(Inexperienced/Experienced). 
+CMR 
+I/E 
+BMC 
+I/E 
+Environment 
+Event Operations 
+12/9 
+            5 
+L/V/C 
+Exercises 
+2 
+           2 
+L/V/C 
+3.8.  Directed Downgrade to Unqualified (UQ). 
+3.8.1.  The commander will direct the downgrade of a CMR/BMC qualified individual to 
+Unqualified (UQ) status when the individual fails any positional evaluation, fails to complete 
+a Qualification Mission (QUAL/MSN) evaluation by the expiration date, fails to regain CMR 
+status within 6 months, or the commander determines an individual to be non-proficient.  
+When an individual is UQ, one of the following will occur (T-3): 
+3.8.1.1.  The commander will direct trainee entry into requalification training for 30 
+calendar days (two UTAs) as required. 
+3.8.1.2.  The commander takes appropriate administrative action in accordance with AFI 
+36-2101 and/or AFI 11-401. 
+3.8.2.  Upon successful completion of the requalification training, the COT releases the 
+individual to STAN/EVAL. 
+3.8.3.  NLT the 30th calendar day (two UTAs), of the requalification training period one of 
+the following occurs (T-3): 
+3.8.3.1.  The trainee completes the requalification training and is released to 
+STAN/EVAL (T-3). 
+3.8.3.2.  The trainee does not complete the requalification training.  The trainee is 
+referred to the unit/CC to do one of the following: 
+3.8.3.2.1.  Take administrative action in accordance with AFI 36-2101 and/or AFI 11-
+401 (T-3). 
+3.8.3.2.2.  Request an additional 30 calendar days (two UTAs) of extended 
+requalification training through the appropriate NAF to ACC/A3C (PACAF/A310 for 
+PACAF units).  The trainee will immediately enter the 30 calendar day (two UTAs) 
+extension while the request is being staffed (T-3).  These days will count towards the 
+30 days (two UTAs) of extended requalification training. 
+30 
+AFMAN13-1BCCV1  17 JULY 2020 
+3.8.4.  If the NAF or ACC/A3C (PACAF/A310 for PACAF units) denies the request then the 
+unit/CC takes action in accordance with AFI 36-2101 and/or AFI 11-401.  The MAJCOM is 
+the final approval for the additional 30 calendar days (two UTAs) of requalification training. 
+3.9.  Multi-Qualified Personnel.  The DO may permit multiple qualifications for personnel who 
+demonstrate the knowledge and proficiency skills required to maintain multiple BCC duty 
+position qualifications.  The purpose of multiple qualifications is to provide units with the 
+flexibility to address a dynamic training environment and to increase combat capability. 
+3.9.1.  Personnel selected to train in another position must complete IQT/MQT requirements 
+in accordance with Chapter 2 (T-3). 
+3.9.2.  Multi-qualified CMR/BMC personnel must achieve the performance standards and 
+academic TRs for each position, however, when the academic requirements are identical, 
+they need only be accomplished once (T-3). 
+3.9.3.  Upon completing an INIT QUAL/MSN for a secondary qualification, complete 
+documentation in accordance with Chapter 6. Additionally, ensure the documentation 
+reflects the primary duty position (T-3). 
+3.9.4.  A separate AF Form 4142, Individual Annual Training Record must be maintained for 
+each duty position an individual is qualified in (T-2). 
+3.10.  Multiple Systems Qualified Personnel.  Multiple system-qualified personnel are only 
+required to meet CT TRs as if qualified on a single system with the additional guidance below. 
+3.10.1.  Credit events accumulated during a TDY status, to include contingency operations as 
+CT events/count toward training cycle events with the following exceptions: 
+3.10.2.  A crewmember’s primary system training cycle events account for at least 50 percent 
+of total requirements (T-3). 
+3.10.3.  Contingency events count for only 50 percent of total CT requirements (T-3). 
+AFMAN13-1BCCV1  17 JULY 2020 
+31 
+Chapter 4 
+UPGRADE/SPECIALIZED TRAINING 
+4.1.  General. 
+4.1.1.  Upgrade training is defined as specific academic and positional training required to 
+qualify/certify in a supervisory/higher crew position.  Current or previous qualification in 
+another crew position (or experience level) within the same weapon system serve as 
+prerequisites for upgrade training. 
+4.1.2.  This chapter outlines/establishes the minimum eligibility criteria and the training 
+requirements for upgrade and specialized training. 
+4.2.  Requirements.  Upgrade training requirements provide crewmembers with the academic, 
+crew-training device, and/or control activity needed to attain a supervisory/higher level of crew 
+qualification. 
+4.3.  Waivers/Extensions.  Wing Commanders, wing-level equivalents or their designated 
+representatives are the waiver authority for upgrade requirements/prerequisites.  In cases where 
+current conflicts exist between IQT/MQT and upgrade training guidance, IQT/MQT guidance 
+will take precedence (T-2). 
+4.4.  Instructor Upgrade.  Instructor upgrade training prepares crewmembers for qualification 
+as an instructor. 
+4.4.1.  Academic training materials for instructor qualification are identified in the 
+MAJCOM-approved syllabus. 
+4.4.2.  Nominees for instructor upgrade will be experienced in the duty position (T-3).  
+Enlisted crewmembers must also hold an skill-level 5 AFSC (T-3). 
+4.4.3.  Prerequisites.  The commander may waive the experience requirement based on an 
+individual’s previous instructor experience.  The following may also be used to nominate 
+crewmembers for instructor upgrade. 
+4.4.3.1.  US Air Force Weapons School (USAFWS) Weapons Instructor Course and 
+Advanced Instructor Weapons Director Course graduates upon completion of the INIT 
+QUAL/MSN or QUAL/MSN.  An Instructor evaluation is required prior to assuming 
+instructor duties (T- 3). 
+4.4.3.2.  Academic Instructor Course, Flight Instructor Course, and Battle Management 
+Instructor Training graduates after 4 months as a Combat Mission Ready CMR 
+crewmember and exhibiting necessary BCC equipment knowledge.  Graduates of these 
+courses must still complete an Instructor evaluation prior to assuming instructor duties 
+(T-3). 
+4.4.4.  Those individuals who were instructor qualified on other weapons systems after a 
+minimum of 4 months of CMR status in the similar crew position, at the discretion of the 
+unit/CC. 
+4.4.5.  Crew Position Instruction. 
+32 
+AFMAN13-1BCCV1  17 JULY 2020 
+4.4.5.1.  Instructors in supervisory duty positions (e.g., BCC Mission Crew Commander 
+or Senior Director; Air Surveillance Officer/Technician, Section Leads [specific to units 
+in Korea and Japan]) may instruct the duty positions under their supervision. 
+4.4.5.2.  All instructors may instruct the core blocks of any mission crew position and any 
+other blocks of instruction that are associated with the position(s) for which they hold 
+qualification. 
+4.5.  Air Weapons Officer Upgrades.  Air Weapons Officers (AWOs) require a minimum of 12 
+months CMR/BMC status as an AWO prior to entering any upgrade training.  The unit/CC may 
+waive the experience prerequisite based a DO recommendation. 
+4.6.  Unit Certification Program.  Certification status is for positions (non-CMR/BMC) that 
+complement, augment or assist the mission.  AFI 13-1 BCC, Vol.  3 identifies these positions. 
+Each unit will develop and implement a training program for all unit certified positions in 
+accordance with MAJCOM/NAF/Group/unit directives (T-3).  Certification documentation is in 
+accordance with Chapter 6. 
+4.7.  Qualification Transfers/Difference Training.  With the gaining unit/CC’s approval, 
+crewmembers transferring from a unit with like mission equipment (e.g., AN/FYQ156A, 
+AN/TYQ23A,) may be continued in their previous training phase/qualification, upon completion 
+of any required equipment difference training and local procedures training. 
+4.7.1.  The COT prescribes the training requirements based on current mission equipment 
+and the crewmember’s system knowledge/experience (T-3). 
+4.7.2.  Syllabus training task list standards for the duty position are met (T-3). 
+4.7.3.  The difference training completion date and any test scores of written local area 
+procedures examinations are entered into the individual training record, in accordance with 
+Chapter 6. 
+AFMAN13-1BCCV1  17 JULY 2020 
+33 
+Chapter 5 
+MAJCOM SPECIFIC GUIDANCE 
+5.1.  General.  MAJCOMs may use separate chapter supplementation or publish a combined 
+basic publication that includes supplemental guidance.  If the combined method is used, 
+MAJCOM-specific guidance will follow the applicable paragraph in the basic volume with the 
+appropriate MAJCOM publications designator and number inserted after the paragraph number 
+(T-2). 
+5.2.  Supplements.  Units will process their supplements to this publication in accordance with 
+paragraph 1.10 (T-2). 
+34 
+AFMAN13-1BCCV1  17 JULY 2020 
+Chapter 6 
+OPERATIONS TRAINING DOCUMENTATION 
+6.1.  Introduction.  Documentation of academic and positional training accomplishments 
+provide a current record of an individual’s training.  This information is vital for an accurate 
+assessment of the individual’s three-month lookback, training cycle requirements (TRs), as well 
+as overall experience level. 
+6.2.  Training Records Maintenance.  Unit operations training will maintain operations training 
+records for all assigned/attached AFSC 13B/1C5 personnel (T-2).  Units with access to the 
+Patriot Excalibur (PEX), Learning Management System (LMS) or other MAJCOM approved  
+electronic management system will use those systems as the primary means to document 
+required data from the Air Force Forms identified below.  (T-3). 
+6.3.  Forms.  This manual prescribes and directs the recording the data found in AF Form 4141, 
+and AF Form 4142.  It also refers to the AF Form 8 prescribed by AFI 13-1 STAN/EVAL Vol.  
+2.  Instructions for completing these forms are contained within the electronic form, this chapter, 
+and Attachment 5. 
+6.3.1.  AF Form 4141.  Operations Training maintains AF Form 4141 data on all personnel 
+entered into qualification training in accordance with paragraphs 6.4.1 to 6.4.5 (T-2). 
+6.3.2.  AF Form 4142.  Operations Training maintains AF Form 4142 data for 
+assigned/attached personnel who are required to maintain Combat Mission Ready/Basic 
+Mission Capable CMR/BMC qualification.  Qualification data is in accordance with 
+paragraph 6.4.1 (T-2)  Each duty position qualification requires a separate AF Form 4142 
+(T-2). 
+6.3.3.  AF Form 8.  STAN/EVAL form used to record evaluations; however, the COT uses it 
+to certify completion of any additional training requirements that result from evaluations.  
+The instructor completing the additional training (or last training event if more than one) will 
+notify the COT, or designated representative if COT is not available, that additional training 
+is complete (along with providing supporting mission grade sheet documentation) (T-3).  The 
+COT, or designated representative, will sign and date the “Date Additional Training 
+Completed” block in Section II of the AF Form 8 (T-3).  The COT annotates completion of 
+the evaluation on the AF Form 4141 (T-3). 
+6.4.  Permanent Training Record.  The COT maintains a permanent training record for all 
+assigned and attached personnel.  The COT uses individual 6-part folders and identifies each 
+folder by typing the individual’s last name, first name, and middle initial in capital letters on a 
+standard size folder label.  This label is affixed to the folder’s tab.  The training officer may 
+pencil in additional information on the label (e.g., rank, crew, director designator).  Tests or test 
+answer sheets are not filed in this folder.  Current AF Form 4141/4142 data may be in a separate 
+binder for ease of record keeping, but will be returned to the permanent training records prior to 
+the individual’s permanent change of station (T-3).  Permanent training records may be 
+maintained electronically in lieu of hard copies.  If maintained electronically, the format will be  
+ 
+ 
+AFMAN13-1BCCV1  17 JULY 2020 
+35 
+identical to the six-part folder.  A backup system for recovering the "digital" records due to 
+system failure must be in-place (T-3).  The unit ensures continuous accessibility of the digital 
+records.  NOTE: The COT will ensure recording of all items within the LMS (T-3).  DD Form 
+2992 will be handled in accordance with paragraph 6.4.3 (T-3).  The permanent training record, 
+to include electronic versions, is as follows: 
+6.4.1.  Section I, Qualification Data.  This section contains the current data found in AF Form 
+4141 and AF Form 4142.  If hard copies are maintained for AF Form 4141 entries, place the 
+AF Form 4141 on the left side and AF Form 4142 on the right side of Section I (T-3).  Units 
+with the LMS, PEX or other MAJCOM-approved electronic programs may maintain the data 
+electronically; however, the information in both areas must match (T-3). 
+6.4.2.  Section II, Personal History.  This section contains any other current 
+records/documents pertaining to qualification or proficiency, to include waivers (T-2). 
+6.4.3.  Section III, Medical Qualification/Medical Waivers.  This section includes a current 
+copy of the DD Form 2992 for all AFSC 13B/1C5D personnel or Canadian equivalents.  A 
+DD Form 2992 placing an individual on Duty Not Involving Controlling (DNIC) status is 
+also kept during the DNIC period.  In addition, medical profiles that affect operational status 
+will be filed in this section (T-3).  Sensitive medical history or other records of a personal 
+medical nature will not be maintained in this file (T-3).  If medical documentation is 
+sensitive, a memorandum for record, signed by the DO, is placed in this section (T-3).  This 
+memo states the individual is removed from training and includes dates, if available (T-3).  
+After an individual is placed on DNIC status, the COT will ensure the DD Form 2992, is 
+maintained during the DNIC period (7 days or more), file it in the transitory files and 
+annotate the AF Form 4141 (T-3). 
+6.4.4.  Section IV, Training History.  This section includes certificates from AETC courses, 
+MAJCOM formal courses, and any formal ground environment training.  This material is 
+chronological with the latest date on top and kept as a permanent part of this folder.  Locally 
+generated training records may be in this section while the individual is in IQT/MQT 
+training.  The DO’s justification for late entry into IQT/MQT is in this section.  System 
+specific task/task qualification, or the computer-generated product, is in this section or in a 
+database.  Upon Permanent Change of Station (PCS), translate all computerized products into 
+hardcopy or electronic means and placed in the appropriate section (T-3).  If training shops 
+elect to use an alternative method to store Training History records, a memo for record 
+signed by the Chief of Training (COT), is in this section. 
+6.4.5.  Section V, Miscellaneous Experience.  This section contains completed AF Form 
+4141/4142 and control experience forms from other commands.  File these forms 
+chronologically with the latest date on top as a permanent part of the training folder (T-3). 
+6.5.  Transfer of Records.  When transferring to a new unit, a student will hand carry the 
+permanent records to the gaining unit (T-3).  If the gaining unit has access to the electronic 
+management system, the unit administrator may transfer the record.  Where available, the 
+information required by AF Form 4141/4142 will be in the LMS (instead of hardcopy) (T-3).  If 
+the LMS version is used, the losing unit may release the record and the COT may print a hard 
+copy or provide electronic copy of the AF Form 4141 and all AF Form 4142s data to be hand 
+carried with the individual.  Upon in-processing operations training, the gaining unit will transfer 
+the individual’s record into their unit’s domain (T-3). 
+36 
+AFMAN13-1BCCV1  17 JULY 2020 
+6.6.  Documentation Forms.  Training documentation consists of two forms: AF Form 4141 and 
+AF Form 4142.  The LMS is the primary system of documentation for those units that access the 
+LMS (T-2). 
+6.6.1.  AF Form 4141.  This form records significant occurrences during individual training 
+(T-3).  As a minimum the following events must be recorded: 
+6.6.1.1.  The COT reviews all newly arriving individuals’ training records and ensures 
+recording in the LMS (T-3).  The COT will use these instructions in conjunction with the 
+ACC/A3CI-provided training documentation table for completing the AF Form 4141 
+within the LMS (T-2). 
+6.6.1.2.  When an individual has completed a transfer of training status from another unit, 
+the COT will enter completion date and test scores (T-3). 
+6.6.1.3.  The COT will annotate any removal from unit training for purposes of formal 
+school attendance (T-3). 
+6.6.1.4.  The COT will certify that a trainee has completed IQT/MQT (T-3). 
+6.6.1.5.  The COT will record entry into CT-CMR or CT-BMC (T-3). 
+6.6.1.6.  The DO will identify the primary duty position of multi-qualified personnel (T-
+3). 
+6.6.1.7.  The COT will document the appointment of an individual as an instructor by 
+duty position (T-3). 
+6.6.1.8.  The COT will document regression to NCMR/NBMC status and return to 
+CMR/BMC status (T-3). 
+6.6.1.9.  When the commander (CC) grants a probationary period for an individual to 
+meet 3-month lookback requirements (T-3). 
+6.6.1.10.  The DO records and certifies proration of requirements (T-3). 
+6.6.1.11.  The COT will document specialized training/task certification (e.g., Emergency 
+Action Coordinator) (T-3). 
+6.6.2.  AF Form 4142, Individual Annual Training Record.  This form documents annual 
+training accomplishments.  The COT records academic and positional training requirements 
+and instructor or STAN/EVAL monitored accomplishments on AF Form 4142.  (T-2).   
+6.7.  Training Deficiency Reports (TDR).  Training Deficiency Reports identify problems 
+beyond the unit’s ability to resolve and that may prevent the unit, or individual(s) from satisfying 
+academic or positional TRs.  TDRs identify known or potential training problems to Higher 
+Headquarters for information and management purposes.  TDR identified issues need to be 
+resolved at the lowest level of command. 
+6.7.1.  TDRs contain the following information: 
+6.7.1.1.  Broken equipment that has an impact on training (to include simulation 
+equipment) (T-2). 
+6.7.1.2.  Lack of live and virtual events for training or evaluations (T-2). 
+6.7.1.3.  Instructor/evaluator shortfalls (T-2). 
+AFMAN13-1BCCV1  17 JULY 2020 
+37 
+6.7.1.4.  Airspace limitations (T-2). 
+6.7.1.5.  Inability to conduct effective exercises (T-2). 
+6.7.1.6.  Mode 4 training shortfalls (T-2). 
+6.7.1.7.  Computer operations to include hardware and software problems (T-2). 
+6.7.2.  Reporting Format.  Units submit TDRs through their chain of command via electronic 
+means in electronic memorandum format noted in AFMAN 33-326, Preparing Official 
+Communications (T-2).  Units include the following detail: 
+6.7.2.1.  Title: Training Deficiency Report. 
+6.7.2.2.  Unit: Unit submitting the training deficiencies. 
+6.7.2.3.  Description of problem. 
+6.7.2.4.  Date problem began/expected to begin. 
+6.7.2.5.  Corrective action taken/anticipated. 
+6.7.2.6.  Estimated date of problem correction. 
+6.7.2.7.  Recommended solution to resolve the training deficiency. 
+6.7.2.8.  Remarks. 
+6.7.3.  MAJCOMs will respond to these reports within 10 workdays of receipt, and if 
+appropriate, respond with specific guidance or a plan to resolve the identified issues with 
+estimated completion dates. 
+38 
+AFMAN13-1BCCV1  17 JULY 2020 
+Chapter 7 
+KOREAN TACTICAL AIR CONTROL SYSTEM 
+7.1.  General.  This chapter outlines CT requirements for personnel assigned to the 621 ACS.  
+CT provides crewmembers with the volume, frequency, and mix of training necessary to 
+maintain proficiency at the assigned qualification level.  All AFSC 13B and 1C5 personnel must 
+attain CMR status in an authorized duty position, unless otherwise stated (T-2). 
+7.2.  Waivers.  Submit waiver requests in accordance with paragraph 1.10.2 
+7.3.  Logging CT Requirements by Instructors/Evaluators.  At the end of the lookback 
+period, up to 50 percent of required positional CT events (rounded down to the next whole 
+number, but not below 1) may come from instructor/evaluator monitored events.  The 
+instructor/evaluator must have monitored mission planning and any briefings, missions, and 
+debriefings (T-3). 
+7.4.  Proration of Training Cycle Requirements. 
+7.4.1.  At the end of the lookback period, the COT may prorate all positional training 
+requirements when: 
+7.4.1.1.  An individual is TDY, medically disqualified/DNIC, convalescent leave, or on 
+emergency leave for 30 cumulative days or more.  Normal annual leave does not count as 
+non-availability (T-3). 
+7.4.1.2.  Upgrade occurs after the start of the lookback period.  Training accomplished 
+during IQT/MQT will not count toward CT requirements (T-3). 
+7.5.  Continuation Training (CT) Requirements.  The COT documents on the AF Form 4141 
+that the trainee has completed training requirements and is CMR (T-3).  CT requirements consist 
+of both academic and positional minimums identified below. 
+7.5.1.  Academic Training Requirements.  The intent of the academic portion of CMR/BMC 
+continuation training is to keep day-to-day training relevant and current with the unit’s tasked 
+missions as well as dynamic real-world environment and ever-changing tactics, techniques 
+and procedures. 
+7.5.1.1.  The unit COT, in conjunction with Weapons and Tactics, administers and 
+records the academic training that supports CT based on the review, update, and 
+expansion of existing IQT/MQT materials, as well as the introduction of any unit unique 
+current operations interest/focus areas (T-2). 
+7.5.1.2.  As a minimum, academic CT requirements consist of 7 hours of quarterly 
+training (T-3). 
+7.5.1.3.  Academic CT requirements are prorated based upon the month the upgrade 
+occurred (beginning the first full month following upgrade to CMR) (T-2). 
+7.5.1.4.  The COT ensures documentation of CT in accordance with Chapter 6 (T-2). 
+AFMAN13-1BCCV1  17 JULY 2020 
+39 
+Table 7.1.  621 Air Control Squadron Quarterly Live Weapons Positional/3-month 
+Lookback Requirements. 
+MISSION 
+TYPE 
+CMR WD (I/E) 
+CMR ABM 
+(I/E) 
+CMR  Senior Battle 
+Management  
+Technician 
+(SBMT)/DST (I/E) 
+Notes 
+Air-to-Air 
+12/6 
+9/2 
+N/A 
+2, 3, 4 
+Refueling 
+2/1 
+2/1 
+N/A 
+1, 4 
+Air-to-Surface 
+6/3 
+6/2 
+N/A 
+3, 4 
+Positional Hours 
+N/A 
+24 
+48/24 
+4, 5,6 
+Check In Hours 
+32/16 
+16/8 
+N/A 
+4,7 
+Notes: 
+1. Constructive Air Refueling (A/R) can count for 100% of live requirements. 
+2. Air-to-air missions must be a minimum of 2vX events or greater (T-3). 
+3. When live air-to-air and air-to-surface missions are not available to meet TRs, the DO may 
+authorize an individual to substitute 50% of live requirements with constructive events. 
+4. Instructor/evaluators can credit up to 50% of total training requirements from monitored 
+missions on a one-to-one basis. 
+5. Event operations equate to positional hours. 
+6. Only Section Lead certified ABMs require positional hours 
+7. Check-in will be a certification; however, there will continue to be lookback requirements. 
+7.5.2.  Positional Requirements.  Personnel will complete the required number of events in 
+Table 7.1 (T-3).  Due to annual rotation cycle associated with remote assignments, lookback 
+requirements replace annual requirements (T-3). 
+7.5.2.1.  Events accumulated during a TDY status, to include contingency operations, 
+count toward lookback events.  However, crewmembers’ primary system lookback events 
+will never be less than 50 percent of total requirements (T-3). 
+7.5.2.2.  DNIC crewmember training in the virtual/constructive environment will count 
+towards lookback requirements (T-3). 
+7.5.2.3.  Training requirements are based upon crewmember experience level at the end 
+of the 3-month lookback period (T-3). 
+7.5.2.4.  Lookback calculations are based on the previous 3-months (T-3). 
+7.5.2.5.  The COT will submit 3-month lookback reports no later than the 5th day of the 
+month (T-3). 
+ 
+ 
+40 
+AFMAN13-1BCCV1  17 JULY 2020 
+7.5.2.6.  Lookback computations for newly qualified crew members begins following 
+completion of INIT QUAL/MSN Eval, as applicable, and 3 full months of CMR status.  
+Computation for crewmembers restored to CMR status will start the month following 
+return to CMR status (T-3).  EXAMPLE: Capt Garza completed his/her INIT 
+QUAL/MSN on 17 October.  His/her lookback computations will not begin until 1 
+November.  Even though Capt Garza’s lookback does not start until 1 November, any CT 
+accomplishments accumulated from 17 - 31 October count toward lookback 
+requirements. 
+7.5.3.  Failure to meet 3-Month Lookback.  All actions must be documented in accordance 
+with Chapter 6 (T-2).  If a CMR crewmember fails to meet the 3-month lookback 
+requirement, the DO may: 
+7.5.3.1.  Regress the individual to NCMR status. 
+7.5.3.2.  Remove the individual from a CMR position. 
+7.5.3.3.  Place the crewmember in probation status for 1 month. 
+7.5.3.4.  Document all actions in accordance with Chapter 6 (T-2). 
+7.5.4.  Crewmembers that regress to NCMR status for less than 6 months will complete DO- 
+approved training consisting of the following (as a minimum) before returning to CMR 
+status: 
+7.5.4.1.  Conduct a minimum of one effective control event, link event, and/or event 
+operation, applicable to the duty position while monitored by an instructor (T-3).  The 
+event will be completed on a live mission (T-3). 
+7.5.4.2.  Upon completion of training, the instructor recommends return to CMR and the 
+COT returns the individual to CMR status (T-3). 
+7.5.4.3.  The missions and events accomplished during the training count toward a 
+crewmember’s 3-month lookback (T-3). 
+7.5.5.  If a crewmember is NCMR for more than 6 months, the COT will downgrade the 
+crewmember to UQ status and they will enter into requalification training with subsequent 
+requalification evaluation (T-3). 
+7.5.6.  If a crewmember is UQ for more than 1 year, the COT will determine if the 
+crewmember will be entered into requalification training or IQT/MQT (T-3). 
+7.6.  Directed Downgrade to Unqualified (UQ) 
+7.6.1.  The DO will direct the downgrade of a CMR/BMC qualified individual to UQ status 
+when the individual fails any positional evaluation, fails to complete a QUAL/MSN by the 
+expiration date, fails to regain CMR status within 6 months, or the DO determines an 
+individual to be non-proficient (T-3).  When an individual is UQ, one of the following 
+occurs: 
+7.6.1.1.  The DO directs trainee entry into requalification training for 30 calendar days as 
+required. 
+7.6.1.2.  Unit CC takes appropriate administrative action in accordance with AFI 36-2101 
+and/or AFI 11-401. 
+AFMAN13-1BCCV1  17 JULY 2020 
+41 
+7.6.1.3.  Upon successful completion of the requalification training, the COT releases the 
+individual to STAN/EVAL to complete the requalification evaluation within 30 days. 
+7.6.2.  NLT the 30th calendar day, of the requalification-training period (T-3) one of the 
+following occurs: 
+7.6.2.1.  The trainee completes the requalification training, and is released to 
+STAN/EVAL by the COT (T-3). 
+7.6.2.2.  The trainee does not complete the requalification training.  The trainee is 
+referred to the unit DO to do one of the following: 
+7.6.2.2.1.  Refer the trainee to the unit CC to take administrative action in accordance 
+with AFI 36-2101 and/or AFI 11-401 (T-3). 
+7.6.2.2.2.  Request an additional 30 calendar days of extended requalification training 
+through the appropriate NAF to PACAF/A310.  The trainee will immediately enter 
+the 30 calendar day extension while the request is being staffed (T-3).  These days 
+will count towards the 30 days of extended requalification training (T-3). 
+7.6.2.2.3.  If the NAF or PACAF/A310 denies the request then the unit CC takes 
+action AFI 36-2101 and/or AFI 11-401.  The MAJCOM is the final approval for the 
+additional 30 calendar days of requalification training. 
+7.7.  Unit Certification Program.  Certification status is for positions (non-CMR/BMC) that 
+complement, augment or assist the mission (T-3).  When applicable, each unit will develop and 
+implement a training program for all unit certified positions in accordance with 
+MAJCOM/NAF/Group/unit directives and document the certification in accordance with 
+Chapter 6 (T-3). 
+7.7.1.  The ABM Section Lead certification will train ABM’s responsible for supervising C2 
+effects employed within the construct of a Battle Management Area (BMA) within the 
+specified Area of Operations.  In coordination with the COT, the DO will recommend 
+qualified ABMs to upgrade to Section Lead (SL).  ABMs will not upgrade to Instructor 
+unless they have a SL certification (T-3). 
+7.7.2.  The ABM Mission Commander (MC) certification will focus on employment at the 
+C2 package commander level and higher, employing C2 effects in two or more BMAs at the 
+same time.  The MC is the conduit between the operational level of operations and tactical 
+execution.  The MC translates operational intent into tactical action by understanding assets 
+available in the BMA, by executing force packaging and fusing capabilities to achieve a 
+specified operational/tactical objective. 
+7.7.3.  Course entry requirements for the SL and MC certification programs are in the 
+applicable course control documents (T-3). 
+7.8.  Multi-Qualified Personnel.  The DO may multi-qualify personnel who demonstrate the 
+knowledge and proficiency skills required to maintain multiple duty position qualifications.  The 
+purpose of multiple qualifications is to provide unit with flexibility to address a dynamic training 
+environment and to increase combat capability. 
+7.8.1.  Personnel selected to train in another position must complete IQT/MQT requirements 
+in accordance with Chapter 2 (T-3). 
+42 
+AFMAN13-1BCCV1  17 JULY 2020 
+7.8.2.  Multi-qualified CMR/BMC personnel must achieve the performance standards and 
+academic TRs for each position, however, when the academic requirements are identical, 
+they need only be accomplished once (T-3).  Crewmembers who hold multiple qualifications 
+must meet full 3-month lookback in their documented primary position and half the 3-month 
+lookback in their documented secondary position.  No lookback requirement for either 
+position will be less than one (T-3). 
+7.8.3.  Upon completing an INIT QUAL/MSN for a secondary qualification, complete 
+documentation in accordance with Chapter 6. Additionally, ensure the documentation 
+reflects both a primary duty position and all other qualifications as secondary duty positions 
+(T-2).  Individual training folders require a separate AF Form 4142 for each duty position (T-
+2). 
+7.9.  Augmenting Personnel.  The 621 ACS is required to develop/implement a training 
+program for augmenting personnel (ABM/WD, AWO SD or Joint service equivalent) in 
+accordance with unit directives.  The DO will ensure augmenting personnel are CMR (or service 
+equivalent) in their home station primary weapon system.  Based on the unit approved training 
+program, augmenting personnel are monitored by an instructor until certified.  Upon completion 
+of certification, augmenting personnel may perform crew specific duties (T-3). 
+7.10.  Event Operations/Positional Hours. 
+7.10.1.  Senior Battle Management Technician (SBMT)/Data System Technician (DST) 
+Event Operations/Positional Hours.  The SBMT/DST will receive credit for one operational 
+event each time they perform duties (mission planning, supervising the mission crew, and 
+debriefing the mission) as a CMR/BMC crewmember for an entire crew shift (T-3). 
+7.10.2.  Section Lead (SL). 
+7.10.2.1.  Event Operations/Positional Hours.  The SL will receive credit for one 
+operational event each time they perform SL duties (mission planning, supervising the 
+weapons crew, operations execution and debriefing the crew) as a CMR/BMC 
+crewmember/lead, for an entire crew shift (T-3). 
+7.10.2.2.  Controlled Event.  A controlled event will be in accordance with paragraph 
+7.10.3.2 (T-3). 
+7.10.3.  Air Battle Manager (ABM)/Weapons Director (WD). 
+7.10.3.1.  Controlled Event.  A controlled event will include control of any of the 
+following mission types: air-to-air, PR, A/R and air-to-ground (T-3). 
+7.10.3.2.  A controlled event is credited when the following criteria are met (T-3): 
+7.10.3.2.1.  Briefed/debriefed the mission/controlled event. 
+7.10.3.2.2.  Took radar/radio control of the aircraft performing the mission. 
+7.10.3.2.3.  Accomplished at least one of the following: 
+7.10.3.2.3.1.  Air-to-Air.  The ABM/WD provides control to at least one flight of 
+aircraft conducting air-to-air tactics against a dedicated adversary.  The ABM/WD 
+will control the flight from hand-off to hand-off (T-3). 
+ 
+ 
+AFMAN13-1BCCV1  17 JULY 2020 
+43 
+7.10.3.2.3.2.  Air Refueling.  The ABM/WD provides control to an aircraft/flight 
+conducting A/R in accordance with AFI 11-214.  The ABM/WD provides close or 
+tactical control to an aircraft, or flight of aircraft (where flight integrity is 
+maintained) that rendezvous with a tanker/cell.  During A/Rs, the ABM/WD may 
+credit one A/R mission per set of receivers or single receiver.  Weapons personnel 
+may also credit more than one type mission during combined missions, in cases 
+where the flight conducts another mission in addition to the refueling.  For 
+example, if the ABM/WD conducts a rendezvous onto a tanker then takes the 
+fighters off tanker and conducts intercepts, the weapons individual credits both an 
+A/R and an air-to- air mission.  The A/R missions must be conducted in a live, 
+virtual, constructive environment (T-3). 
+7.10.3.3.  Swapping controllers: During air-to-air, air-to-ground or A/R missions, 
+controllers may hand over the mission to another controller so that more than one person 
+may log a control event during the conduct of the mission.  To log a control event, each 
+ABM/WD must control fighters from fights-on/vulnerable time through terminate/knock-
+it-off using close/tactical control.  For A/R mission each controller must meet the 
+minimum A/R mission requirements (T-3). 
+44 
+AFMAN13-1BCCV1  17 JULY 2020 
+Chapter 8 
+JAPAN AIR SELF DEFENSE FORCE (JASDF) JAPAN AIR DEFENSE GROUND 
+ENVIORNMENT (JADGE) SYSTEM 
+8.1.  Purpose.  This chapter outlines CT requirements for personnel conducting command and 
+control operations from Japan Air Self Defense Force (JASDF) JADGE facilities.  This includes 
+the 623 ACS and 610 ACF.  All AFSC 13B and 1C5 personnel are required to attain CMR/BMC 
+status in a duty position unless otherwise stated.  Personnel assigned to the 35 Operations 
+Group/35 Operations Support Squadron will attain CMR/BMC status in an operational duty 
+position at the 610 ACF (T-3). 
+8.2.  Waivers.  Submit Waiver requests in accordance with paragraph 1.10.2 
+8.3.  Logging CT Requirements by Instructors/Evaluators.  Follow the guidance in 
+paragraph 3.4 (T-3). 
+8.4.  Proration of Training Cycle Requirements.  Follow the guidance in paragraph 3.5 
+8.5.  Regression from CMR/BMC Status.  Follow the guidance in paragraph 3.6 with the 
+following exceptions (T-3): 
+8.5.1.  Japan lookback requirements are in accordance with Table 8.1 
+8.5.2.  Up to 50% of requirements may be conducted using simulated constructive missions. 
+Table 8.1.  Japan 3-Month Lookback Requirements. 
+Duty Position 
+Control Events 
+(I/E) 
+Event Operations 
+(I/E) 
+Link Events (I/E) 
+MC/SBMT/SL 
+ 
+6/3 
+ 
+SL 
+6/3 
+ 
+ 
+ABM/WD 
+8/6 
+ 
+ 
+ICT 
+ 
+ 
+3/2 
+8.6.  Continuation Training (CT) Requirements.  Follow the guidance in paragraph 3.7 with 
+the following exceptions. 
+8.6.1.  Japan positional training requirements are in accordance with Table 8.2 
+8.6.2.  Missions performed on other automated control systems equipment count toward the 
+completion of annual/lookback training requirements. 
+8.6.3.  Up to 50% of requirements may be conducted using simulated or constructive 
+missions. 
+8.6.4.  Participation in a bilateral exercise is required.  With ACF/CC approval, a wing-level 
+large force employment may be substituted if a bilateral exercise is not available (T-3). 
+AFMAN13-1BCCV1  17 JULY 2020 
+45 
+Table 8.2.  Japan Training Cycle Requirements 
+Control 
+Events (I/E) 
+Event 
+Operations (I/E) 
+Link 
+Events 
+(I/E) 
+Large 
+Scale 
+Exercises 
+Notes 
+MC/SBMT 
+24/12 
+2 
+1,2,3,4,
+5
+SL 
+12/8 
+16/9 
+2 
+1,2,3,4,
+ABM/WD 
+32/24 
+1,2,3 
+ICO/ICT 
+12/6 
+Notes: 
+1. Instructor/Evaluators can credit up to 50% of total training requirements from monitored 
+missions on a one-for-one basis. 
+2. Missions performed on other automated control systems equipment may be 
+counted toward the completion of annual training requirements. 
+3. Personnel can receive up to 50% of annual requirements on simulated missions. 
+4. Accomplish positional training while performing duties supervising their appropriate 
+section in accordance with AFI 13-1BCC Vol.  3 
+5. Participation in a bilateral exercise (e.g., COPE NORTH, KEEN EDGE, KEEN 
+SWORD) is required.  One wing-level large force employment may be substituted if a 
+bilateral exercise if not available. 
+8.7.  Event Operations/Positional Hours.  Follow the guidance for the respective duty positions 
+in paragraph 3.7  In addition, air-to-surface events may count as controlled missions.  During 
+large force employment and exercises involving multiple sets of aircraft, check-in may qualify 
+for currency requirements at the discretion of the DO. 
+8.8.  Directed Downgrade to Unqualified (UQ).  Follow the guidance in paragraph 3.8 
+8.9.  Unit Certification Programs.  Follow the guidance in paragraph 4.6 
+8.10.  Multi-Qualified Personnel.  Follow the guidance in paragraph 3.9 
+8.11.  Augmenting Personnel.  ACFs are required to develop/implement a training program for 
+augmenting personnel (AWO/WD or Joint service equivalent) (T-3).  Upon completion of 
+certification, augmenting personnel may perform crew specific duties (T-3). 
+ 
+MARK D. KELLY, Lt Gen, USAF 
+Deputy Chief of Staff, Operations 
+46 
+AFMAN13-1BCCV1  17 JULY 2020 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+AFPD 10-9, Lead Command Designation and Responsibilities for Weapon Systems, 8 March 
+2007 
+AFPD 13-1, Command and Control Enterprise (C2 Enterprise), 6 August 2012 
+AFI 33-324, The Air Force Information Collections and Reports Management Program, 22 July 
+2019 
+AFI 11-214, Air Operations Rules and Procedures, 14 August 2012 
+AFI 11-401, Aviation Management, 10 December 2010 
+AFMAN 11-402, Aviation and Parachutist Service, 24 January 2019 
+AFI 13-1 BCC Vol.  2, Battle Control Center (BCC) Evaluation Criteria, 24 November 2014 
+AFI 13-1 BCC Vol.  3, Operating Procedures Battle Control Center (BCC), 14 November 2014 
+AFI 13-1 STAN/EVAL Vol.  2, Ground Command and Control Systems 
+Standardization/Evaluation Program-Organization and Administration, 21 July 2015 
+AFI 16-1007, Management of Air Force Operational Training Systems, 1 October 2019 
+AFI 33-360, Publications and Forms Management, 1 December 2015 
+AFI 36-2101, Classifying Military Personnel (Officer and Enlisted), 25 June 2013 
+AFI 36-2626, Airman Retraining Program, 20 November 2018 
+AFI 48-123, Medical Examinations and Standards, 5 November 2013 
+AFMAN 33-326, Preparing Official Communications, 31 July 2019 
+AFI 33-322, Records Management and Information Governance Program, Management of 
+Records, 6 March 2020 
+Prescribed Forms 
+None 
+Adopted Forms 
+ACC Form 206, Individual Mission Grade Sheet 
+AF Form 8, Certificate of Aircrew Qualification 
+AF Form 702, Individual Physiological Training Record 
+AF Form 847, Recommendation for Change of Publication 
+AF Form 4141, Individual’s Record of Duties and Experience Ground Environment Personnel 
+AF Form 4142, Individual Annual Training Record 
+DD Form 2992, Medical Recommendation for Flying or Special Operational Duty 
+AFMAN13-1BCCV1  17 JULY 2020 
+47 
+Abbreviations and Acronyms 
+1AF—First Air Force 
+ABM—Air Battle Manager 
+ACC—Air Combat Command 
+ACF—Air Control Flight 
+ACS—Air Control Squadron 
+ADS—Air Defense Squadron 
+AETC—Air Education and Training Command 
+AF—Air Force 
+AFI—Air Force Instruction 
+AFPD—Air Force Policy Directive 
+AFSC—Air Force Specialty Code 
+ANG—Air National Guard 
+A/R—Air Refueling 
+ASO—Air Surveillance Officer 
+AST—Air Surveillance Technician 
+AWO—Air Weapons Officer 
+BCC—Battle Control Center 
+BMA—Battle Management Area 
+BMC—Basic Mission Capable 
+BMC2—Battle Management Command and Control 
+C2—Command and Control 
+CC—Commander 
+CMR—Combat Mission Ready 
+COT—Chief of Training 
+CT—Continuation Training 
+DNIC—Duty Not Involving Controlling 
+DO—Director of Operations 
+DST—Data Systems Technician 
+ICO—Interface Control Officer 
+ICT—Interface Control Technician 
+INIT—Initial 
+48 
+AFMAN13-1BCCV1  17 JULY 2020 
+IQT—Initial Qualification Training 
+JADGE—Japan Air Defense Ground Environment 
+JASDF—Japan Air Self Defense Forces 
+LMS—Learning Management System 
+L/V/C/—Live/Virtual/Constructive 
+MAJCOM—Major Command 
+MC—Mission Commander 
+MCC—Mission Crew Commander 
+MQT—Mission Qualification Training 
+MSN—Mission Qualification 
+N/A—Not Applicable 
+NAF—Numbered Air Force 
+NBMC—Non-Basic Mission Capable 
+NCMR—Non-Combat Mission Ready 
+NGB—National Guard Bureau 
+NLT—Not Later Than 
+OPR—Office of Primary Responsibility 
+PACAF—Pacific Air Forces 
+PEX—Patriot Excalibur 
+PR—Personnel Recovery 
+QUAL—Qualification 
+SAV—Staff Assistance Visit 
+SBMT—Senior Battle Management Technician 
+SD—Senior Director 
+SL—Section Lead 
+ST—Surveillance Technician 
+TCRF—Training Change Request Format 
+TDR—Training Deficiency Report 
+TDY—Temporary Duty 
+TEB—Training Evaluation Board 
+TRSS—Training Support Squadron 
+TR—Training Requirement 
+AFMAN13-1BCCV1  17 JULY 2020 
+49 
+UQ—Unqualified 
+USAF—United States Air Force 
+UTA—Unit Training Assembly 
+WD—Weapons Director 
+Terms 
+Academic Training—Training that results from self-study, group study, or classroom 
+instruction. 
+Additional Extended Training Period—Training period for individuals who fail to progress 
+after the syllabus defined training period or a previously approved extended training period. 
+Additional Training—Any training or action recommended by an examiner to remedy 
+deficiencies identified during an evaluation 
+Attached Personnel—Personnel not assigned to a unit’s manning document but assigned to the 
+unit and maintaining a positional qualification to support the attached unit’s mission.  MAJCOM, 
+NAF, and Group personnel are examples of attached personnel. 
+Basic Mission Capable (BMC)—The status of an individual, who successfully completes 
+IQT/MQT, passes INIT QUAL/MSN Evaluation, and complies with some CT requirements.  
+The individual requires proficiency training prior to obtaining CMR status. 
+Certification—1) Procedure used to document competency in a particular task.  Not 
+interchangeable with qualification, which requires AF Form 8 documentation.  2) A formal 
+indication of an individual’s ability to perform a task to required standards.  3) The formal action 
+of completing/signing documentation taken by a certification official, e.g., the unit/CC certified 
+the AF Form 8. 
+Certification Official—A commander or his designated representative, authorized to determine 
+an individual’s ability to perform a task to required standards. 
+Combat Mission Ready (CMR)—The status of an individual, who successfully completes 
+IQT/MQT, passes INIT QUAL/MSN Evaluation, and complies with CT requirements. 
+Controlled Events—A controlled event includes control of any of the following mission types: 
+air-to-air employment, air-to-surface, personnel recovery (PR), or air refueling (A/R).  The SD 
+and MCC considers the quality of training when determining whether a mission qualifies as a 
+controlled event. 
+Constructive—Constructive entities simulate real world or virtual systems automatically, or 
+manually driven by an operator or a white force - personnel supporting distributed training that 
+operate as training aids for warfighters accomplishing readiness training (in accordance with AFI 
+16-1007, Management of Air Force Operational Training Systems).  Models and simulations that 
+involve simulated people operating simulated systems.  Real people stimulate (make inputs) to 
+such simulations.  Constructive simulations can also be used to model natural processes without 
+human involvement (e.g., weather) 
+Continuation Training (CT)—Academic and positional training required to maintain 
+CMR/BMC qualification. 
+50 
+AFMAN13-1BCCV1  17 JULY 2020 
+Evaluation—The positional and written examinations used to determine proficiency as 
+prescribed by governing directives. 
+Event Operation—A term used to describe/capture training tasks by crew position that count 
+toward the crewmember’s continuation training requirements. 
+Exercise—A training or evaluation event, live or simulated, that tests detection and prosecution 
+of air defense threats, and exercises general employment capabilities of the air defense unit.  An 
+exercise counts as an event. 
+Experienced—A category of crewmembers associated to crew position, and defined by one or 
+more of the following criterion: type of qualification, amount of time the individual has been 
+qualified, and the number of events. 
+Extended Training Period—Training period designed for individuals who fail to progress into 
+the next phase of training. 
+Inexperienced—A category of crewmembers that do not meet the criterion required to establish 
+experienced status. 
+Initial Qualification/Mission (INIT QUAL/MSN)—The first evaluation given to determine an 
+individual’s qualification status.  It consists of a positional evaluation and a written examination. 
+Instructor—Experienced CMR/BMC qualified individual in operations positional duties 
+qualified/certified to instruct other individuals.  (For Instructor Qualification/Certification, see 
+Chapter 4.) 
+Initial Qualification Training (IQT)—Training necessary to qualify individuals in a basic crew 
+position to perform duties without regard to the unit’s mission. 
+Learning Management System (LMS)—An Air Combat Command-approved training 
+management system used to provide online courseware and tracking of training accomplishments 
+for the ground command and control units.  It provides a myriad of training management reports 
+on individual training accomplishments and is accessible via the internet to all users. 
+Mission—Department of Defense definition: The task, together with the purpose, that clearly 
+indicates the action to be taken and the reason therefore.  In common usage, especially when 
+applied to lower military units, a duty assigned to an individual or unit, a task.  For this AFMAN, 
+a more detailed explanation of this term applies: A mission includes briefing, controlling and 
+debriefing.  Briefings include training objectives.  Controlling consists of taking radio and radar 
+control of aircraft and accomplishing one or more types of mission, such as air- to-air, air 
+refueling, air-to-surface, and active air defense scrambles.  Debriefing with the pilots (and 
+instructor where applicable).  The brief/debrief may be accomplished via telephone/radio; 
+however, face-to-face briefs provide optimum training. 
+Mission Qualification Training (MQT)—Specific training designed to prepare crewmembers 
+to perform duties/tasks in support of a unit mission or tasking. 
+Mode 4—an electronic means to identify friendly aircraft  
+Non—Combat Mission Ready (NCMR) —The status of a crew member who: 1) failed to meet 
+look back, 2) failed to complete training cycle CT requirements, or 3) was downgraded at the 
+direction of their commander. 
+AFMAN13-1BCCV1  17 JULY 2020 
+51 
+Positional Training—Hands-on training resulting from performance of duties in assigned 
+positions. 
+Proficiency—A measure of how well a task is completed.  A crewmember is considered 
+proficient when they can perform tasks at the minimum acceptable levels of speed, accuracy, and 
+safety. 
+Prorating—A process used to determine a crewmember’s training requirement proportionately 
+based on approved consideration to include TDY (including contingency operations), medical 
+disqualified/DNIC, or emergency leave status for more than 30 cumulative days. 
+Qualification—A status assigned to a crewmember after completion of specific positional 
+training and the accomplishment of an evaluation resulting in the generation of AF Form 8 
+documentation. 
+Requalification Training—Training for crewmembers who are designated UQ who 1) fail any 
+positional evaluation, 2) fail to complete a MSN by the scheduled date, 3) fail to regain currency 
+within 180 days, or 4) are determined by the unit/CC to be non-proficient. 
+Training Day—A specific period of time that a unit designates as available for training. 
+Training Period—A specific amount of time to accomplish a prescribed phase of training. 
+Training Cycle—A specifically defined period associated with defining, tracking, reporting, and 
+documenting continuation training requirements.  The training cycle for units addressed in this 
+AFMAN is 1 October through 30 September. 
+Unit Training Assembly (UTA)—For the purpose of this manual, a UTA is the 2-day period 
+per month ANG personnel spend on duty.  The UTA is 1 full ANG drill weekend. 
+Unqualified—The status of an individual downgraded for: 1) Being non-CMR/non-BMC 
+(NCMR/NBMC) greater than 6-months or 2) Demonstrated lack of ability or 3) Failure to meet 
+standards during a periodic evaluation or at the commander discretion. 
+Virtual—Involves warfighters operating simulated systems (in accordance with AFI 16-1007).  
+Virtual simulations inject human-in-the-loop in a central role by exercising motor control skills 
+(e.g., flying an airplane), decision skills (e.g., committing fire control resources to action), or 
+communication skills (e.g., as members of a C4I team) 
+ 
+52 
+AFMAN13-1BCCV1  17 JULY 2020 
+Attachment 2 
+INITIAL/MISSION QUALIFICATION TRAINING FLOWCHART 
+Figure A2.1.  Training Flowchart. 
+ 
+ 
+ 
+AFMAN13-1BCCV1  17 JULY 2020 
+53 
+Attachment 3 
+CONTINUATION TRAINING LOOK BACK FLOWCHART 
+Figure A3.1.  Lookback Flowchart. 
+ 
+ 
+ 
+54 
+AFMAN13-1BCCV1  17 JULY 2020 
+Attachment 4 
+TRAINING EVALUATION BOARD (TEB) PROCESS/PROCEDURES 
+A4.1.  General.  The purpose of this attachment is to establish/outline specific procedures to be 
+taken when non-rated personnel fail to make satisfactory progress in initial qualification, mission 
+qualification, or continuation training.  Procedures to remove a rated officer from training and/or 
+flying related duties/operations are outlined in Air Force Manual (AFMAN) AFI 11-402, 
+Chapter 8, Flying Evaluation Boards.  This attachment only applies to non-rated personnel 
+(officer and enlisted) assigned to an ADS.  The rights of non-rated personnel are contained in 
+this attachment.  A TEB is not required for individuals in training for secondary or beyond 
+qualifications. 
+A4.2.  Guidance.  Per AFI 36-2626, Airman Retraining Program, Air Force guidance is to retain 
+and retrain only those Airmen who have demonstrated the ability to complete training and whose 
+past record clearly justifies further training.  In accordance with training syllabi elimination 
+procedures, utilization of the administrative actions outlined in this attachment are based upon 
+failure of an individual to attain a duty qualification, failure to re-qualify, or to maintain 
+proficiency levels outlined in this manual.  These procedures are not meant to replace or be used 
+in place of punitive disciplinary action and are not a substitute for action under the Uniform 
+Code of Military Justice, state military law, or other administrative directives. 
+A4.3.  Explanation of terms. 
+A4.3.1.  Training Evaluation Board (TEB).  The TEB is an administrative, fact-finding 
+proceeding designed to ensure the quality control of the ADS officer and enlisted force.  
+Board members examine an individual’s professional qualification for BCC-related duties 
+and evaluate/determine potential for use in future operations. 
+A4.3.2.  Flying Evaluation Board (FEB).  A FEB is an administrative, fact-finding 
+proceeding designed to ensure the quality control of the rated force.  Board members 
+examine an aircrew member’s professional qualification for aviation related service, evaluate 
+potential for use in future aviation duties, and make recommendations to higher authorities.  
+A FEB may be established for a rated officer due to lack of proficiency, lack of judgment in 
+the performance of duties, failure to attain/maintain qualification or meet training 
+requirements, or when a rated officer exhibits questionable professional qualities or 
+committed an intentional violation of aviation instructions or procedures.  Do not confuse 
+this rated force tool with the TEB outlined in this attachment. 
+A4.3.3.  Rated Aircrew Member.  A rated aircrew member is a commissioned officer who 
+holds a USAF aeronautical rating.  The USAF considers rated officers to be in career aviation 
+status and awards ratings only to pilots, navigators, ABMs, and flight surgeons. 
+A4.3.4.  Appeal Authority.  The appeal authority for the TEB process outlined in this 
+attachment is the convening authority.  In cases in which the unit/CC is the convening 
+authority, the appeal authority is the commander/organization having a command 
+relationship with the unit conducting the member’s training. 
+A4.3.5.  Cause.  Failure of a crewmember to attain or maintain qualification in a crew 
+position and/or failure to meet required standards when enrolled in an upgrade course. 
+AFMAN13-1BCCV1  17 JULY 2020 
+55 
+A4.3.6.  Respondent.  A crewmember for whom the TEB action has been requested or is 
+being considered.  The respondent will be given the opportunity to address the board to 
+provide personal insight into their training deficiencies or provide any other information 
+relevant to the boards’ recommendations.” 
+A4.3.7.  Evidence.  The information/facts presented to the TEB.  This information may 
+include anything related to the individual’s training, performance, or past evaluations.  The 
+material gathered by the respondent's organization as evidence will contain a total profile of 
+the individual (T-2).  Material may be collected from any source including past assignments.  
+The student/crew member facing possible commander action will be given the opportunity to 
+address the board to provide personal insight into their training deficiencies (T-2). 
+A4.3.8.  Preponderance of the Evidence.  The preponderance of the evidence is the standard 
+of proof to be used in arriving at findings in a TEB.  A preponderance of the evidence means 
+simply the greater weight of credible evidence.” 
+A4.3.9.  Board Administrator.  A designated unit member who ensures the TEB is 
+established, conducted, and documented in accordance with this attachment.  The Board 
+Chair determines additional administrator responsibilities and cessation of TEB related 
+duties. 
+A4.3.10.  Board Recorder.  An officer or non-commissioned officer charged with the 
+administrative details of the board to include publishing of minutes.  Board recorder duties 
+include: acquiring any necessary materials (tape recorder, steno pads, pencils, etc.), preparing 
+the TEB location, and most importantly capturing minutes of the board proceedings within 
+two duty days of the TEB (TEB board chair has authority for reasonable delay). 
+A4.3.11.  Board Composition.  The TEB will normally include the unit/CC, DO, and COT 
+Training and additional members as determined by the board chairperson (T-3).  The unit 
+operations superintendent will be a board member for enlisted personnel TEBs (T-3).   
+A4.4.  TEB Convening Authority.  The organization at the 1AF/A3T (PACAF/A310) level or 
+above, with the authority to direct a unit/CC to establish a TEB.  The commander/organization 
+having a command relationship with the unit conducting the respondent’s training has convening 
+authority/jurisdiction for establishment of the TEB.  The convening authority for ACC units is 
+1AF/A3T.  The convening authority for PACAF units is PACAF/A3/6/CX.  The commander 
+initiates the TEB process by forwarding a TEB request to the convening authority for 
+review/action.  Notify NGB OPR for ANG personnel. 
+A4.5.  TEB Procedures.  The Chief of Training will ensure the TEB is established, conducted, 
+and documented in accordance with this attachment (T-3). 
+A4.5.1.  The squadron commander initiates the TEB process by forwarding a TEB request to 
+the convening authority for review/action.  Upon approval from the convening authority, the 
+commander will: 
+A4.5.1.1.  Notify the respondent in writing of his/her suspension from training and 
+specify the cause of the TEB (T-2). 
+A4.5.1.2.  Appoint the board administrator (T-2). 
+56 
+AFMAN13-1BCCV1  17 JULY 2020 
+A4.5.1.3.  Schedule a time and location of the TEB ensuring availability of all board 
+members, the respondent, and any witnesses (T-2).  Witnesses may provide evidence to 
+the board remotely, e.g., by telephone, written statement, or other means. 
+A4.5.1.4.  Direct the board administrator to compile the following documents (T-2) for 
+the TEB’s review. 
+A4.5.1.4.1.  Complete training record to include academic and positional training 
+documentation.  (ACC Form 206, etc.) (T-2). 
+A4.5.1.4.2.  Training summary in chronological order (T-2). 
+A4.5.1.4.3.  Pertinent documentation (Letters of Counseling, TDYs, leave taken, etc.).  
+Material may be collected from any source, including past assignments, to present a 
+total profile of the individual (T-2). 
+A4.5.1.5.  Appoint a board recorder (T-2).  The board recorder is charged with the 
+following duties: 
+A4.5.1.5.1.  Preparing the TEB location (pads, pencils, etc.). 
+A4.5.1.5.2.  Capturing inputs, statements, and evidence presented before the board. 
+A4.5.1.5.3.  Publishing minutes of the board proceedings within two duty days of the 
+TEB. 
+A4.5.2.  Board Action.  NLT 15 calendar days (one UTA) from convening authority 
+approval, the board commander will hold the TEB (T-2) and: 
+A4.5.2.1.  Brief board members on their responsibility and TEB procedures (T-2) 
+A4.5.2.2.  Brief the Respondent on board proceedings, decisions that may be made, and 
+his/her rights pertaining to the board(T-2). 
+A4.5.2.3.  Brief the board recorder on duties during and after board proceedings (T-2). 
+A4.5.2.4.  Capture inputs, statements, and evidence for the board to consider and evaluate 
+(T-2).  Documentation includes statements from evaluators, instructors and supervisor, as 
+applicable.  The commander may consult with the local staff judge advocate if there are 
+questions about the adequacy of the process or legal sufficiency of the recommendations 
+A4.5.2.5.  Review and discuss, in a fair and impartial manner, all information relevant to 
+a member’s training and professional qualifications (T-2). 
+A4.5.2.6.  Review (in closed session) the evidence concerning the respondent's training 
+and performance, and evaluate the facts to arrive at findings (T-2).  Each finding must be 
+supported by a preponderance of the evidence The TEB recommends one of the 
+following: 
+A4.5.2.6.1.  No action, return to training.  Insufficient reason for removal from crew 
+duty (may not be an option depending on situation). 
+ 
+ 
+AFMAN13-1BCCV1  17 JULY 2020 
+57 
+A4.5.2.6.2.  Additional/continuation of training for a specific length of time.  Board 
+determines a specified period after taking into consideration all facts and the 
+requirement to request a Group (or equivalent) or MAJCOM waiver to extend the 
+training time in accordance with this manual (if not already exhausted).  Options 
+include regressing the student to earlier section of training. 
+A4.5.2.6.3.  Removal from training for failure to attain qualification in a crew 
+position and the initiation of AFI 36-2101 actions. 
+A4.5.2.7.  In closed session, the commander will notify the respondent of the board’s 
+decision and follow up on same day with notification in writing (T-2).  The respondent 
+will acknowledge receipt (not acceptance) of the decision by signing the In-Turn 
+notification memo (T-2). 
+A4.5.3.  Upon adjournment of the TEB, the chair will immediately notify the convening 
+authority of the board’s decision (T-2).   
+A4.6.  Respondent Actions.  No later than 2 duty days upon receipt of the TEB decision (T-3), 
+the respondent: 
+A4.6.1.  Accepts the board's decision in by signed/dated letter. 
+A4.6.2.  Requests an appeal of the board's decision by signed/dated memo. 
+A4.7.  Appeals.  If the respondent decides to appeal the decision of the board, within 3 duty 
+days, the respondent will deliver a memo containing the rationale for the appeal to the 
+commander (T-3). 
+A4.8.  Commander Actions.  The commander will forward the respondent’s appeal memo and 
+the results of TEB (the In-Turn Memo and supporting documentation to include the minutes of 
+the TEB) to the convening authority (T-2).  The commander may consult with the local staff 
+judge advocate if there are questions about the adequacy of the process or legal sufficiency of the 
+recommendations. 
+A4.9.  Convening Authority Actions.  The convening authority, who is the final appeal 
+authority, will notify the respondent, through the respondent’s chain-of-command, of the final 
+decision (T-2).  The commander will initiate appropriate action based on the convening 
+authority’s decision (T-2). 
+A4.10.  NGB Notification.  NGB OPR will be notified of any adverse actions taken against 
+NGB personnel (T-2). 
+A4.11.  Board Member Responsibilities.  Board members will review this manual and all 
+evidence made available during the TEB.  If statements are made by the member or witnesses, 
+listen and ask questions to make sure evidence is fully developed and all facts are identified.  
+Review the facts to arrive at findings and recommendations (T-2). 
+A4.12.  Member’s Rights.  The member undergoing the TEB has the following rights: 
+A4.12.1.  Be informed in writing of the specific reason(s) for convening the board. 
+A4.12.2.  Review all evidence and documents for the board before the board convenes. 
+ 
+ 
+58 
+AFMAN13-1BCCV1  17 JULY 2020 
+A4.12.3.  Be provided the opportunity to address the board (verbally or in a written 
+statement), provide relevant materials and evidence, and/or call witnesses, and to question 
+any witnesses.  Any written response (including evidence to the notification must be 
+provided to the commander within five duty days. 
+A4.12.4.  Appeal the convening authority’s decision. 
+ 
+AFMAN13-1BCCV1  17 JULY 2020 
+59 
+Attachment 5 
+INSTRUCTIONS FOR COMPLETING AF FORM 4141, INDIVIDUAL’S RECORD OF 
+DUTIES AND EXPERIENCE GROUND ENVIRONMENT PERSONNEL. 
+Figure A5.1.  Individual’s Record of Duties and Experience Ground Environment 
+Personnel. 
+NAME (Last, First, 
+Middle Initial) 
+UNIT OF ASSIGNMENT 
+GRADE 
+DATE 
+MANDATORY ACTIONS 
+TO BE REPORTED (One 
+Type of Action Per Line) 
+GRADE
+S 
+If Non-applicable, leave blank 
+RECORD OF 
+AUTHENTICATION 
+OF REMARKS 
+Written Date Positional Date 
+Signed into Unit 
+COT 
+Individual Records Review 
+COT 
+Entered IQT/MQT 
+COT 
+Completed IQT/MQT - 
+Released to STAN/EVAL  
+COT 
+Continued in IQT/MQT 
+CC 
+Entered Extended IQT/MQT 
+DO 
+Entered Additional 
+Extended IQT/MQT 
+CC 
+Entered MAJCOM Approved 
+Extended IQT/MQT 
+CC 
+Entered IQT/MQT Awaiting 
+Technical Training Course 
+COT 
+Removed from IQT 
+CC 
+INIT QUAL/MSN 
+Examiner 
+MAJCOM Waiver Request 
+Approved 
+COT 
+Entered CT CMR/BMC 
+COT 
+Entered Instructor Training 
+Program 
+COT 
+Completed Instructor 
+Training Program 
+COT 
+Removed from Instructor 
+Training Program 
+COT 
+Instructor Qualified 
+CC 
+Appointed Instructor 
+CC 
+Instructor Appointment 
+CC 
+Withdrawn 
+60 
+AFMAN13-1BCCV1  17 JULY 2020 
+Primary Duty Position 
+DO 
+CMR/BMC - Inexperienced 
+COT 
+CMR/BMC - Experienced 
+COT 
+Secondary Duty Position 
+COT 
+CMR/BMC - Inexperienced 
+COT 
+CMR/BMC - Experienced 
+COT 
+Periodic Evaluation 
+Examiner  
+Completed Objectivity 
+Evaluation 
+Examiner 
+SPOT Evaluation 
+Examiner 
+Downgraded to UQ 
+CC 
+Qualification Withdrawn 
+CC 
+Requalification Evaluation 
+Examiner 
+Appointed as Examiner 
+CC 
+Withdrawn as Examiner 
+CC 
+Regress to NCMR/NBMC 
+CC 
+Restore to CMR/BMC 
+CC 
+Started Additional Training 
+COT 
+Completed Additional 
+Training 
+COT 
+Removed from Additional 
+Training 
+DO 
+Entered Certification Training 
+COT 
+Completed Certification 
+Training 
+COT 
+Removed from 
+Certification Training 
+DO 
+Withdraw Certification 
+DO 
+Entered Recertification 
+Program 
+COT 
+Completed Recertification 
+Program 
+DO 
+Entered Difference Training 
+COT 
+Completed Difference 
+Training 
+COT 
+Removed Difference Training 
+COT 
+Prorate Training 
+Requirements 
+COT 
+Entered Probation Status 
+CC 
+Completed Probation 
+COT 
+Training Period Adjustment 
+COT 
+AFMAN13-1BCCV1  17 JULY 2020 
+61 
+Formal Operations 
+Related Training Course 
+COT 
+TDY, Location and Reason 
+COT  
+DNIC "Duty Not 
+Involving Controlling" 
+COT 
+Medically Cleared to Return 
+to Duty 
+COT 
+Memorandum for Record 
+COT 
+Instructor Monitored 
+"Missions/Events/Hours" 
+Completed 
+COT 
+Signed Out of Unit 
+COT  
+A5.1.  Date.  Entries on the form are in chronological order.  Dates indicate when action 
+occurred.  Keep backlog entries to a minimum. 
+A5.2.  Mandatory Action to be Reported.  This column contains all the events that must be 
+documented (T-3).  Do not enter events that are not operationally related (e.g., weapons/vehicle 
+qualification, ancillary training).  Note:  621ACS will annotate “CRC” in place of “BCC” for all 
+AF Form 4141/4142 LMS entries (T-2). 
+A5.3.  Grades.  Record the date and grade of any written exam/positional evaluation 
+A5.4.  Record of Authentication of Remarks.  This column contains the individual responsible 
+for authenticating the entry (via signature).  The incumbent at the time of the event is the only 
+one authorized to sign.  A signature block is required for hard copy records.  For positional 
+evaluations, only the rank and last name of the examiner is required.  If the form must be re-
+accomplished and the authorizing officials have departed the unit, enter the signature block and 
+type or print “Signature Not Available” above the signature block (T-3).  For those units using 
+the LMS, annotate the authorizing official in the comments field.  No signature is required 
+however, the appropriate name of the individual must be typed in (T- 3). 
+ 

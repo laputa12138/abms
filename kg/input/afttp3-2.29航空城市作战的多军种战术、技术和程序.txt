@@ -1,0 +1,2665 @@
+AUO 
+MULTI-SERVICE 
+TACTICS, TECHNIQUES, 
+AND PROCEDURES FOR 
+AVIATION URBAN 
+OPERATIONS 
+ATP 3-06.1 
+MCRP 3-20.4 
+NTTP 3-01.04 
+AFTTP 3-2.29 
+FEBRUARY 2022 
+DISTRIBUTION STATEMENT: Approved for public release; 
+distribution is unlimited. 
+*Supersedes ATP 3-06.1/MCRP 3-35.3A/NTTP 3-01.04/AFTTP 3-
+2.29, dated 27 April 2016.
+FOREWORD 
+This multi-Service tactics, techniques, and procedures (MTTP) publication is a product 
+of the Air Land Sea Application (ALSA) Center in accordance with the memorandum of 
+agreement between the headquarters of the United States (US) Army, Marine Corps, 
+Navy, and Air Force doctrine commanders directing ALSA to develop MTTP 
+publications to meet the immediate needs of the warfighter. 
+This MTTP publication has been prepared by ALSA under our direction for 
+implementation by our respective commands and for use by other commands as 
+appropriate. 
+CHARLES J. MASARACCHIA 
+E. R. QUEHL 
+Brigadier General, US Army 
+Colonel, US Marine Corps 
+Director 
+Director, Policy and Standards Division 
+Mission Command Center of Excellence 
+Training and Education Command 
+D. L. AAMODT
+WILLIAM G. HOLT II 
+Captain, US Navy
+Major General, US Air Force 
+Commander
+Commander  
+Navy Warfare Development Command
+Curtis E. Lemay Center for Doctrine 
+  Development and Education 
+This publication is available through the following websites:  
+ALSA (https://www.alsa.mil/);  
+US Army (https://armypubs.army.mil);  
+US Marine Corps 
+(https://homeport.usmc.mil/sites/mcdoctrine/SitePages/Home.aspx);  
+US Navy at Navy Warfare Library (https://doctrine.navy.mil);  
+US Air Force at US Air Force Center for Doctrine Development and Education 
+(http://www.doctrine.af.mil/); and Joint Electronic Library Plus 
+(https://jdeis.js.mil/jdeis/index.jsp?pindex=0). 
+i 
+PREFACE 
+1. Purpose
+This publication provides multi-Service tactics, techniques, and procedures (MTTP) for
+planning and executing aviation operations in an urban environment.
+2. Scope
+This manual is a tactical-level document for planning and conducting aviation operations
+in an urban environment. This publication complements established doctrine and
+provides a single-source reference to assist aviation and ground personnel in planning
+and executing tactical aviation support to urban operations. It promotes an
+understanding of the complexities of urban terrain, incorporating lessons learned into
+MTTP. This publication does not fully address all functions of airpower employment
+used in urban operations, as these topics are addressed in other appropriate joint and
+Service publications.
+3. Applicability
+This publication applies to all tactical-level commanders and their staffs that participate
+in aviation urban operations.
+4. Implementation Plan
+Participating Service command offices of primary responsibility will review this
+publication; validate the information; and, where appropriate, use it as a reference and
+incorporate it into Service manuals, regulations, and curricula as follows:
+Army. Upon approval and authentication, this publication incorporates the tactics, 
+techniques, and procedures contained herein into the United States (US) Army Doctrine 
+and Training Literature Program as directed by Commander, US Army Training and 
+Doctrine Command. Distribution is in accordance with applicable directives listed on the 
+authentication page. 
+Marine Corps.1 The Marine Corps will incorporate the procedures in this publication 
+in United States Marine Corps (USMC) doctrine publications as directed by 
+Commanding General, Training and Education Command (TECOM). Distribution is in 
+accordance with the Marine Corps Publication Distribution System. 
+Navy. The Navy will incorporate these procedures in US Navy training and doctrine 
+publications as directed by Commander, Navy Warfare Development Command 
+(NWDC) [N5]. Distribution is in accordance with MILSTRIP/MILSTRAP Desk Guide, 
+Naval Supply Systems Command Publication 409. 
+Air Force. The Air Force will incorporate the procedures in this publication in 
+accordance with applicable governing directives. Distribution is in accordance with Air 
+Force Instruction 33-360, Publications and Forms Management. 
+5. User Information
+a. US Army Combined Arms Center; USMC, TECOM; NWDC; Curtis E. LeMay
+Center for Doctrine Development and Education; and Air Land Sea Application
+1  Marine Corps PCN: 144 000088 00 
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+ii 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+(ALSA) Center developed this publication with the joint participation of the approving 
+Service commands. ALSA will review and update this publication as necessary. 
+b. This publication reflects current joint and Service doctrine, command and control
+organizations, facilities, personnel, responsibilities, and procedures. Changes in
+Service protocol, appropriately reflected in joint and Service publications, will be
+incorporated in revisions to this document.
+c. We encourage recommended changes for improving this publication. Key your
+comments to the specific page and paragraph and provide a rationale for each
+recommendation. Send comments and recommendations directly to:
+Army 
+Commander, US Army Combined Arms Center 
+ATTN: ATZL-MCD 
+Fort Leavenworth, KS 66027-6900 
+DSN 552-4885 COMM (913) 684-4885 
+E-mail: usarmy.leavenworth.mccoe.mbx.cadd-org-mailbox@mail.mil
+Marine Corps 
+Commanding General, Training and Education Command 
+Policy and Standards Division, Doctrine Branch 
+ATTN: C466 
+Quantico, VA 22134 
+DSN 278-6228 COMM (703) 784-6228 
+E-mail: doctrine@usmc.mil
+Navy 
+Commander, Navy Warfare Development Command 
+ATTN: N5 
+1528 Piersey St, Building O-27 
+Norfolk, VA 23511-2723 
+DSN 341-4185 COMM (757) 341-4185 
+E-mail: nwdc_nrfk_fleetpubs@navy.mil
+Air Force 
+Commander, Curtis E. LeMay Center for Doctrine Development and Education 
+ATTN: DDJ 
+401 Chennault Circle 
+Maxwell AFB, AL 36112-6428 
+DSN 493-7864/1681 COMM (334) 953-7864/1681 
+E-mail: afddec.ddj@us.af.mil
+ALSA 
+Director, ALSA Center 
+114 Andrews Street 
+Joint Base Langley-Eustis, VA 23665-2785 
+DSN 575-0902 COMM (757) 225-0902 
+E-mail: alsadirector@us.af.mil
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+iii 
+SUMMARY OF CHANGES 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29, Multi-Service Tactics, 
+Techniques, and Procedures for Aviation Urban Operations. 
+This revision: 
+Updates: 
+•
+Describes small unmanned aircraft systems (SUASs).
+•
+Replaces fratricide terminology with friendly fire.
+•
+Updates space support terminology.
+•
+Changes night vision goggle terminology to night vision devices.
+•
+Updates considerations for personnel recovery operations.
+•
+Expands convoy security communications planning considerations.
+•
+Simplifies sensor posture techniques.
+Removes: 
+•
+AC–130 attack techniques, as these assets are organic to special operations
+forces, not necessarily aviation urban operations.
+•
+Outdated rotary-wing tactics, techniques, and procedures with urban pre-assault
+fires and air movement.
+•
+Outdated or not applicable references.
+•
+Collateral damage methodology mitigation techniques removed as it is
+nonspecific to aviation urban operations.
+•
+Discussion of history, intent, and priority with intelligence, surveillance, and
+reconnaissance (ISR) in the urban environment.
+•
+Munitions versus acoustic warning chart as it is nonspecific to aviation urban
+operations.
+Adds: 
+•
+Implications of employing and avoiding SUASs in an urban environment.
+•
+Table depicting the different groups of unmanned aircraft systems.
+•
+Considerations for humanitarian assistance and disaster relief missions.
+•
+Description of ISR tactical controllers.
+•
+Considerations for electromagnetic interference.
+This page intentionally left blank. 
+DISTRIBUTION STATEMENT: Approved for public release; distribution is unlimited. 
+*Supersedes ATP 3-06.1/MCRP 3-35.3A/NTTP 3-01.04/AFTTP 3-2.29, dated 27 April 2016.
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+v 
+*ATP 3-06.1
+MCRP 3-20.4 
+NTTP 3-01.04 
+AFTTP 3-2.29 
+ATP 3-06.1 
+US Army Training and Doctrine Command 
+Joint Base Langley-Eustis, Virginia 
+US Army Combined Arms Center 
+Fort Leavenworth, Kansas 
+MCRP 3-20.4 
+USMC, Training and Education Command 
+Quantico, Virginia 
+NTTP 3-01.04 
+Navy Warfare Development Command 
+Norfolk, Virginia 
+AFTTP 3-2.29 
+Curtis E. LeMay Center for Doctrine 
+Development and Education 
+Maxwell Air Force Base, Alabama 
+22 FEB 2022 
+AUO 
+MULTI-SERVICE TACTICS, TECHNIQUES, AND PROCEDURES FOR 
+AVIATION URBAN OPERATIONS 
+EXECUTIVE SUMMARY ............................................................................................. viii 
+CHAPTER I THE URBAN ENVIRONMENT ................................................................... 1 
+1. The Nature of the Urban Environment ............................................................... 1 
+2. Components of the Urban Environment ............................................................. 1 
+3. Urban Areas ....................................................................................................... 3 
+4. Urban Zones ...................................................................................................... 4 
+5. Structures .......................................................................................................... 8 
+6. Characteristics of Buildings ................................................................................ 8 
+7. Aviation Operations in the Urban Environment ................................................ 14 
+CHAPTER II GENERAL PLANNING CONSIDERATIONS .......................................... 17 
+1. Introduction ...................................................................................................... 17 
+2. Joint Intelligence Preparation of the Operational Environment (JIPOE) .......... 17 
+3. Command, Control, and Communications Considerations .............................. 20 
+4. Contested and Congested Cyberspace and Electromagnetic Spectrum
+Considerations ........................................................................................................... 21 
+5. Congested Airspace......................................................................................... 21 
+vi 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+6. Operational Planning Products ........................................................................ 23 
+7. Urban Grids and Reference Techniques .......................................................... 24 
+8. Urban Flight Techniques .................................................................................. 29 
+9. Urban Navigation ............................................................................................. 30 
+10. Drop Zone (DZ) Techniques .......................................................................... 31 
+11. LZ Considerations .......................................................................................... 31 
+12. Rooftop Insertion and Extraction .................................................................... 33 
+13. FARP Operations and ADGR ........................................................................ 34 
+14. Environmental and Night Considerations ....................................................... 34 
+CHAPTER III URBAN AVIATION MISSIONS .............................................................. 37 
+1. Introduction ...................................................................................................... 37 
+2. ISR ................................................................................................................... 37 
+3. Escort ............................................................................................................... 38 
+4. Aviation Fires in Support of Ground Forces ..................................................... 39 
+5. Air Assault ........................................................................................................ 40 
+6. Air Movement ................................................................................................... 41 
+7. MEDEVAC and Casualty Evacuation (CASEVAC) .......................................... 42 
+8. Personnel Recovery Operations ...................................................................... 42 
+9. Humanitarian Assistance (HA) and Disaster Relief (DR) ................................. 44 
+10. Nonlethal Effects ............................................................................................ 45 
+CHAPTER IV WEAPONS EMPLOYMENT ................................................................... 47 
+1. Introduction ...................................................................................................... 47 
+2. Target Development ........................................................................................ 47 
+3. Target Acquisition ............................................................................................ 47 
+4. Marking Positions and Targets ........................................................................ 48 
+5. Weapon Selection ............................................................................................ 49 
+6. Collateral Damage ........................................................................................... 50 
+7. Friendly Fire Potential and Avoidance ............................................................. 51 
+8. Lasing .............................................................................................................. 51 
+9. General Weapons Delivery .............................................................................. 53 
+10. Rotary-wing Attack Techniques ..................................................................... 57 
+11. Indirect Fires and Standoff Munitions ............................................................. 57 
+APPENDIX A URBAN CAMOUFLAGE, CONCEALMENT, AND DECEPTION .......... 59 
+1. Camouflage ..................................................................................................... 59 
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+vii 
+2. Deception and Decoys ..................................................................................... 59 
+REFERENCES .............................................................................................................. 61 
+GLOSSARY .................................................................................................................. 65 
+List of Figures 
+Urban Terrain ............................................................................................... 2 
+Urban Zones ................................................................................................. 5 
+Strip Area in Farmland .................................................................................. 6 
+Strip Area Near River.................................................................................... 7 
+Shantytown ................................................................................................... 7 
+Distribution of Building Types ..................................................................... 12 
+Urban Street Patterns and Effects .............................................................. 13 
+MGRS GRG ................................................................................................ 25 
+Urban Sector GRG ..................................................................................... 26 
+Urban Operations Sketch ........................................................................... 27 
+Target Reference Point Technique ............................................................. 28 
+Building Wall (Side) Naming Convention .................................................... 29 
+Floor and Window Naming Conventions .................................................... 29 
+Podium Effect ............................................................................................. 53 
+Laser Designation Reflection Considerations ............................................. 53 
+Attack Along an Urban Canyon .................................................................. 54 
+A View Along a Street (A Low Angle is Possible) ....................................... 55 
+Look-Down View (A High Angle is Required) ............................................. 56 
+Look-Down Angle ....................................................................................... 56 
+List of Tables 
+Table 1. Population Breakdowns ..................................................................................... 4 
+Table 2. UAS Categorization Chart ............................................................................... 23 
+Table 3. Helicopter and Tiltrotor Landing Zone Considerations .................................... 32 
+Table 4. Sensor Postures .............................................................................................. 38 
+viii 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+EXECUTIVE SUMMARY 
+AUO 
+Multi-Service Tactics, Techniques, and Procedures (MTTP) for Aviation Urban 
+Operations:  
+• Provides MTTP for tactical-level planning and execution of aviation urban
+operations.
+• Provides reference material to assist aircrew and ground personnel in planning
+and executing tactical aviation urban operations.
+• Applies to all elements of force planning and conducting aviation urban
+operations, including commanders, planners, aircrews, and ground personnel
+requiring aviation support.
+Chapter I 
+The Urban Environment 
+Chapter I provides a detailed description of the urban environment, including the 
+components of the urban environment, the areas and zones within an urban 
+environment, and the types of structures. 
+Chapter II 
+General Planning Considerations 
+Chapter II discusses areas of concern when planning operations in the urban 
+environment, including intelligence, command and control, airspace usage, reference 
+techniques, and rotary-wing, tiltrotor, and fixed-wing operations. 
+Chapter III 
+Urban Aviation Missions 
+Chapter III discusses a range of aviation missions in support of urban operations. These 
+include intelligence, surveillance, reconnaissance, escort, aviation fire missions, air 
+assault, air movement, medical missions, rescue operations, humanitarian assistance, 
+and disaster relief operations. 
+Chapter IV 
+Weapons Employment 
+Chapter IV discusses specific considerations for weapons employment in the urban 
+environment. This includes targeting, marking, weapon selection, collateral damage 
+considerations, and friendly fire considerations. 
+Appendix A 
+Urban Camouflage, Concealment, and Deception 
+Appendix A provides an overview of common urban camouflage techniques. 
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+ix 
+PROGRAM PARTICIPANTS 
+The following commanders and agencies participated in creating this publication: 
+Joint 
+United States (US) Joint Staff (JS) J7, Suffolk, Virginia 
+US JS J6, Joint Fires Division, Joint Close Air Support Section, Suffolk, Virginia 
+Army 
+US Army Combined Arms Center, Fort Leavenworth, Kansas 
+US Army Training and Doctrine Command, Joint Base Langley-Eustis, Virginia 
+US Army Asymmetric Warfare Group, Fort Meade, Maryland 
+1st Armored Division, Combat Aviation Brigade, Fort Bliss, Texas 
+Marine Corps 
+Training and Education Command, Quantico, Virginia 
+Marine Corps Warfighting Laboratory, Quantico, Virginia 
+Marine Corps Tactics and Operations Group, Marine Corps Air-Ground Combat Center, 
+Twentynine Palms, California 
+Marine Aviation Weapons and Tactics Squadron 1, Marine Corps Air Station Yuma, 
+Arizona 
+Navy 
+Navy Warfare Development Command, Norfolk, Virginia 
+Helicopter Sea Combat Weapons School Atlantic, Norfolk, Virginia 
+Naval Aviation Warfighting Development Center, Naval Air Station Fallon, Fallon, 
+Nevada 
+Air Force 
+Curtis E. LeMay Center for Doctrine Development and Education, Maxwell Air Force 
+Base, Alabama 
+US Air Force Weapons School, 57th Wing, Nellis Air Force Base, Nevada 
+25th Attack Group, 432d Wing, Creech Air Force Base, Nevada 
+Headquarters Air Force Special Operations Command, Hurlburt Field, Air Force Base, 
+Florida 
+Coast Guard 
+Coast Guard Headquarters, Office of Aviation Forces, Washington D.C. 
+This page intentionally left blank.
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+1 
+Chapter I 
+The Urban Environment 
+1. The Nature of the Urban Environment
+a. This publication addresses planners’ and tactical operators’ unique
+considerations for conducting aviation operations within topographically complex
+areas and the adjacent natural terrain, where man-made construction or the density
+of population are the dominant features.
+b. Analysis of conflicts involving state-actor militaries shows that ill-equipped enemy
+forces may successfully use the complex nature of urban combat to overcome
+disadvantages in technology, numbers, and firepower. Urban terrain inherently
+favors the defense.
+Urban Growth 
+“Humanity is now a predominantly urban species. Urbanization will likely continue 
+to increase into the foreseeable future, with some 60% of the global population 
+living in cities, usually near oceans, by 2035.” 
+SOURCE: Joint Operating Environment 2035; 
+The Joint Force in a Contested and Disordered World 
+Joint Chiefs of Staff, Washington D.C., 14 July 2016 
+c. Man-made structures and the population density in urban terrain affect tactical
+options available to commanders and aircrews. These man-made structures mask
+the true number of occupants. Analyzing and understanding daily routines and traffic
+patterns of each urban environment enables aviation operations without
+unnecessary disruption of societal interconnectedness.
+d. The sheer density of the urban environment increases the complexity of planning
+and execution. For example, a one-block radius may include mixed-use skyscrapers,
+tunnels, utilities, traffic, infrastructure, and an extremely diverse population. Expect
+adversaries to use urban terrain for cover and concealment.
+2. Components of the Urban Environment
+a. The three components of urban environments are terrain (natural and
+man-made), society, and supporting infrastructure. The particulars of these
+components vary from one urban area to another. Knowledge of these components
+is important for planning and executing operations in an urban environment.
+b. Urban terrain has four categories: airspace, supersurface, surface, and
+subsurface as illustrated in figure 1. All aspects of urban terrain require careful
+analysis during planning.
+2 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+Urban Terrain 
+(1) Airspace. Urban-area airspace may be congested due to civilian air traffic
+operating under the host nation’s air traffic control system. Planners should
+identify all risks associated with operating among civilian air traffic and deconflict
+air operations to mitigate risk and to reduce disrupting air traffic. Planners should
+develop letters of agreement and emergency security control of air traffic
+procedures with host nations to operate within the airspace. With the proliferation
+of small unmanned aircraft systems (SUASs), planners and aircrews should be
+aware of and account for emerging aviation technology (e.g., commercial
+off-the-shelf, swarm technology) employed in the airspace by friendly and enemy
+forces and commercial users with no direct involvement in the conflict.
+(2) Supersurface. The supersurface is the area above ground level (AGL)
+consisting of man-made structures (e.g., buildings, towers, and power lines). The
+enemy can use the supersurface for cover, concealment, movement, and fighting
+positions. The supersurface provides the enemy excellent fields of view for
+antiaircraft defenses and can restrict friendly observation, communication, and
+weapons employment. Additional supersurface considerations include:
+(a) The supersurface can block radio transmission and video downlink.
+Ground personnel, including joint terminal attack controllers (JTACs), must
+understand the supersurface can restrict line of sight (LOS) communications.
+(b) The supersurface contains urban canyons, which can cause weapons
+delivery restrictions (i.e., the podium effect). The depth, length, and width of
+urban canyons varies based on the supersurface composition. See chapter 4
+for more details.
+(c) The height of structures within the supersurface can limit aircraft
+maneuvers and air-to-ground approach vectors.
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+3 
+(3) Surface. The surface is everything at ground level including streets, alleys,
+open lots, and parks. Normally, the surface is the maneuver space for ground
+forces.
+(4) Subsurface. The subsurface is the area below ground level consisting of
+sewers, drainage systems, subway tunnels, utility corridors, basements, bunkers,
+or other subterranean spaces. This space can be used for cover, concealment,
+and movement. Refer to Army Techniques Publication (ATP) 3-21.51,
+Subterranean Operations, for more information on the subsurface environment.
+The enemy’s knowledge of the subsurface may provide an advantage.
+(a) Communication is degraded from aviation assets to the subsurface due to
+LOS obstruction, distance below the surface, and construction materials.
+(b) Planners should consider using weapons capable of creating penetrating
+effects when engaging subsurface targets. However, consider the weapons
+effects to critical infrastructure (e.g., building foundations, power lines, gas
+lines, and water lines) prior to employment.
+(c) Ground forces can identify entrances and exits to subsurface sites, which
+allows air assets to observe, disrupt, or destroy the enemy’s use of
+subsurface areas.
+c. Society. Joint Publication (JP) 3-06, Joint Urban Operations, states “The
+commander should keep in mind the overall objectives regarding the civilian
+populace: to minimize civilian interference with military operations, minimize mission
+impact on the population, and observe the necessary legal, moral, and humanitarian
+obligations toward civilians.” Commanders should consider the population of an
+urban area as a center of gravity. Commanders should consider the societal and
+cultural implications of conducting operations in urban environments. For more
+information, see JP 3-06.
+d. Supporting Infrastructure. Destroying, controlling, or protecting vital parts of
+infrastructure can isolate a threat from potential sources of support. However,
+commanders should understand damaging or disrupting any portion of the urban
+infrastructure can have unintended consequences, particularly against the
+population.
+3. Urban Areas
+a. Urban areas are composed of more than one municipality; and large
+municipalities often have subordinate political units. Planners should identify and
+consider the boundaries of these political units. Planners should analyze civil
+considerations in terms of areas, structures, capabilities, organizations, people, and
+events (ASCOPE), which is outlined in ATP 2-01.3, Intelligence Preparation of the
+Battlefield. ASCOPE aligns with an urban area’s overlapping components of terrain,
+society, and supporting infrastructure.
+b. The most important characteristic of an urban area is its population. While there
+is no standard of population size for the various types of municipalities, for the
+purposes of this publication, urban areas are defined as seen in table 1.
+4 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+Table 1.  Population Breakdowns 
+Area 
+Description 
+Population 
+Homestead 
+Single-family house, with associated buildings, in 
+a rural area. 
+Under 25 
+Settlement 
+Small community or grouping of houses in a rural 
+area. 
+25 to 100 
+Village 
+Small community incorporated as a municipality 
+in a rural area. 
+100 to 2,500 
+Town (Rural) 
+Densely populated urban area incorporated as a 
+municipality and surrounded by rural terrain. 
+2,500 to 100,000 
+Town (Urban) 
+Densely populated urban area incorporated as a 
+municipality and part of a larger urban area. 
+2,500 to 100,000 
+City 
+Large, densely populated urban area 
+incorporated as a municipality that may be part of 
+a larger urban area. 
+100,000 to 
+1 million 
+Metropolis 
+Very large, densely populated urban area 
+consisting of several cities and towns. 
+1 million to 
+10 million 
+Megalopolis 
+(or megacity) 
+Huge, densely populated urban area consisting 
+of several large cities and towns. 
+Over 10 million 
+4. Urban Zones
+Most cities contain distinct zones, which are identified by geography. Normally, these 
+zones are categorized by the predominate activity within their boundaries. Some typical 
+urban zones are shown in figure 2. Planners can help reduce collateral damage (CD) by 
+identifying population variances throughout the day (depending on the zone). 
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+5 
+Urban Zones 
+a. City Core. The city core is the heart of the urban area (the downtown or central
+business district). It is relatively small and compact, but contains a large percentage
+of the urban area’s shops, offices, and public institutions. Normally, it contains the
+highest density of supersurface and subsurface areas. In most cities, the core has
+undergone more recent development than the core periphery. As a result, the two
+regions are often quite different.
+b. Core Periphery. The core periphery is located at the edges of the city core.
+Normally, the core periphery consists of streets 12 to 20 meters wide with
+continuous fronts of brick or concrete buildings. The building heights are fairly
+uniform; 2 or 3 stories in small towns and 5 to 10 stories in large cities.
+c. High-rise Residential Areas. High-rise residential areas are typical modern
+construction in large cities and towns, consisting of multistory apartments, separated
+open areas, and single-story buildings. Their wide streets are normally in rectangular
+patterns. These areas are often contiguous to industrial or transportation areas or
+interspersed with close, orderly, block areas.
+d. Commercial Areas. Commercial areas provide goods and services to the
+neighborhoods that surround them and to the city as a whole. Specific activities
+include buying and selling goods and services in retail businesses, wholesale
+businesses, and financial establishments.
+6 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+e. Industrial Areas. Industrial areas are generally on or along major rail and highway
+routes in urban complexes. It is important to identify the type of industrial activity and
+the presence of toxic industrial materials that can affect operations in these areas.
+f. Military Areas. Military areas are concentrated areas where the military operates
+and may include several types of fortifications or be part of a fortified line.
+g. Low-rise Residential Areas. Low-rise residential areas consist of row houses or
+single-family dwellings with yards, gardens, trees, and fences. Street patterns are
+normally rectangular or nonlinear. Residential zones are typically subdivided by
+income or culturally important factors, such as ethnicity or religion.
+h. Strip Areas. A strip area is a small urban area built predominately along a
+transportation route, such as a road or river (figures 3 and 4). The strip area may
+stand alone or link to nearby, larger urban areas. Strip areas often afford covered
+avenues of withdrawal to the flanks once an attacking force deploys and before the
+security force becomes decisively engaged.
+Strip Area in Farmland 
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+7 
+Strip Area Near River 
+i. Shantytowns. Shantytowns are areas composed of low-income or unemployed
+elements of the population living in poorly constructed or older buildings in various
+states of decay (figure 5). Most towns and villages in developing countries have
+shantytowns, which are often in multiple zones throughout an area.
+Shantytown 
+(1) Structures within shantytowns are made of readily available materials, such
+as cardboard, tin, adobe, or concrete block. These less structurally sound
+buildings have no common floor plan and often have only one room. Weapons
+fired in or at a structure may penetrate the walls of one or more adjacent
+structures and endanger friendly forces as well as noncombatants. There is also
+an increased risk of uncontrolled fires due to the flammability of the building
+materials.
+(2) Armored vehicles may knock down and traverse most shantytown structures
+easily, without significantly affecting mobility. However, their destruction may
+cause unacceptable civilian casualties. Narrow pathways may also constrict
+mobility of vehicles in shantytowns. These unique characteristics increase the
+risk of friendly fire incidents and civilian casualties. Commanders should consider
+8 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+the effects of their operations in this type of area based on the previous factors 
+discussed.  
+5. Structures
+a. Commanders and leaders should be capable of identifying the basic
+characteristics of buildings and be able to understand the effects of weapons against
+those buildings within their area of operations (AO). This enables commanders to
+give clear instructions concerning mission execution and assists leaders in choosing
+the appropriate effects to accomplish their missions.
+b. In addition to billeting enemy troops, the city also accommodates the businesses,
+government, noncombatants, schools, and similar functions critical to the normal
+operations of the city. Minimizing CD reduces the hardships within the city and leads
+to a faster return to normalcy. Planners and personnel must abide by the applicable
+rules of engagement (ROE), and all other applicable laws, in the targeting process.
+Questions about the legality of targeting any structure (whether inhabited or
+uninhabited) should be referred to the appropriate legal advisor. Planners and
+decision makers should consider proportionality, military necessity, and the effects of
+physical infrastructure destruction or reduction on the information environment.
+6. Characteristics of Buildings
+Planners should consider the following characteristics while executing aviation urban 
+operations: function, size, height, materials, exterior openings and floor plans, and 
+typical distribution of buildings. 
+a. Function. The most important characteristic is the reason for the building, its
+function. The four categories of building functions are:
+(1) Residential. Residential includes single-family and multifamily housing.
+(2) Public and Civic. Public and civic include government buildings, schools and
+gyms, airports, bridges, parks and plazas, and stadiums.
+(3) Commercial. Commercial includes hotels, restaurants, and retail stores.
+(4) Mixed-use. Mixed-use includes a combination of commercial and residential
+buildings.
+b. Size. The four sizes of buildings are small, medium, large, and massive. These
+four sizes have no firm dimensions and are often relative to the building’s function
+and the size of other structures in the surrounding urban area. Residential buildings,
+particularly single family homes, are categorized separately from other structures.
+For this publication, square footage for each of the four building sizes are the
+following.
+(1) Small buildings are less than 2,000 square feet in size.
+(2) Medium buildings are 2,000 square feet to 22,000 square feet (one-half of an
+acre).
+(3) Large buildings are 22,000 square feet (one-half of an acre) to 44,000 square
+feet (1 acre).
+(4) Massive buildings are greater than 44,000 square feet (1 acre).
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+9 
+c. Height. The height of a single floor varies slightly by locale, function, and
+construction method. However, individual floors, except for the first floor, are
+normally the same height throughout a building. For the purposes of this publication,
+13 feet (approximately 4 meters) is the average height for a floor. The following are
+terms commonly used to refer to building height.
+(1) Low-rises. Low-rises are 5 floors (65 feet) or below, often without an elevator.
+(2) Mid-rises. Mid-rises are 5 floors (65 feet) to 11 floors (150 feet). Common
+international building codes generally require at least one elevator.
+(3) High-rises. High-rises are between 12 to 37 floors high (160-490 feet). Most
+model international building codes require at least one elevator, as well as stairs,
+in all high-rise buildings.
+(4) Skyscrapers. Skyscrapers are taller than 500 feet (150 meters) or 37 floors.
+International building codes generally require skyscrapers to have at least two
+protected elevators and sets of stairwells that span the height of the building.
+d. Materials. Knowing a building’s materials and basic method of construction is
+important in urban operations. Leaders and planners should understand the basic
+effects that weapons cause on structures. Leaders should also understand the
+likelihood of fires starting or spreading and the potential effect the fires will have on
+thermal-imagery, other night-vision devices (NVDs), and the health of Service
+members and the local population. The following are four categories of building
+construction materials.
+(1) Wood. Wood is normally limited in use do to its flammable characteristics
+when other less combustible materials are readily available in the construction of
+public, civic, and commercial structures.
+(2) Masonry (brick, block, or stone). Masonry offers greater load-bearing
+capacity and fire resistance than wood. Brick is favored for residences, while
+block is favored for commercial purposes.
+(3) Reinforced Concrete. Reinforced concrete is a major structural material in
+most buildings. It is used in most foundations and is commonly used as support
+columns, exterior walls, interior walls, and roofs. Reinforced concrete is very
+strong, resistant to wind and tremors, and provides weatherproofing. Due to its
+hardness and reinforcing steel bars, it is difficult to breach.
+(4) Steel or Metal. Steel or metal is a major structural material in most framed
+buildings. Many public, civic, and commercial structures use steel frames
+because of large spans and future required flexibility.
+e. Exterior Openings and Floor Plans. Exterior openings and floor plans vary by
+building function, size, material, and height. The height and function of a building can
+establish distinct common trends. Most buildings limit the number of exterior
+openings due to privacy requirements, temperature control, and the higher cost of
+constructing these openings. This is especially true for the ground floor of residential
+buildings. For most commercial and service-oriented buildings, the ground floor
+tends to be open and inviting to attract entry. The following are other common trends
+based on the building’s height and function. The following descriptions should be
+considered typical but, variations may be encountered.
+10 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+(1) Residential Buildings.
+(a) Low-rise wood and light-metal frame houses have a variety of floor plans.
+Interior walls are often semi-permanent and relatively easy to remodel. Direct
+fire munitions, shell fragments, and shrapnel easily penetrate both exterior
+and interior walls. Breaching an entry point through walls is fairly simple with
+an axe or electric saw. The roofs vary greatly from slight, even slopes to
+steep, multiple slopes. Like the walls, most roofs are easily breached.
+(b) Low-rise masonry houses normally have similar floor plans on each floor.
+Exterior and interior walls are permanent and are not easily penetrated by
+direct fire munitions, shell fragments, or shrapnel. Breaching an entry point
+through a masonry wall requires explosives or an armored vehicle. Roofing
+material is often masonry, shale, or other rock-like materials, and the roof
+slant varies from flat to a high-angle slant. Breaching deeply slanted roofs or
+hard surface roofs is often difficult. Usually, a sledgehammer can breach flat
+roofs and a pry bar can breach slanted roofs.
+(2) Public, Civic, Commercial, and Mixed-use Buildings. The ground-level floor
+plans of these buildings are usually different from the upper-level floor plans. The
+ground floor tends to support the primary purpose of the building, and a large
+section of the ground floor is often very open, possibly two or three stories high.
+Typically, rooms (offices) are adjacent to this large ground floor area. Exterior
+walls and interior load-bearing walls typically extend throughout all floors,
+reducing in thickness with each height level. These walls can be breached with
+explosives. Non load-bearing interior walls are of light construction and easily
+breached. Roofs are typically flat and can typically be breached with a sledge
+hammer.
+(3) Low-rise and Mid-rise Reinforced-concrete Buildings. Reinforced concrete is
+relatively inexpensive and easily manufactured. It is used for many public, civic,
+commercial, and mixed-use buildings; and for multifamily, low-rise, and mid-rise
+apartments and condominiums. However, single-family residences are rarely
+made of reinforced concrete.
+(4) Residential and Mixed-use Buildings.
+(a) Normally, the ground floor of multistory, residential or mixed-use buildings
+are different from the upper floors. The floor plans of multistory reinforced
+concrete buildings usually are based on a centralized hallway, with stairways
+on opposite ends of the building. All four walls, load-bearing interior walls, and
+the roof are made of reinforced concrete. However, the ground floors of
+multistory buildings tend to include additional exterior openings and internal
+space.
+(b) For a residential building or the residential upper floors of a mixed-use
+building, the floor plans of each residential floor (other than the ground floor)
+are usually similar. The only common exception to this is the penthouse floor,
+which tends to have larger sized residences. Additionally, the roofs of these
+buildings often have roof access doors. Normally, the best way to enter this
+type of building is through a door or a ground floor opening.
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+11 
+(5) Public-gathering Buildings. Public gathering buildings (such as theaters,
+auditoriums, and gyms) have large, open interiors. Normally, interior walls are
+often not reinforced concrete and are easy to breach or dismantle. The roofs, for
+aesthetic purposes, are often geometric and not easily accessible. Public
+gathering buildings are most common in dispersed residential and high-rise
+residential areas.
+(6) Low-rise and Mid-rise, Steel-frame Buildings. Normally, steel frame buildings
+are recognized by the concrete beams and columns surrounding the steel and
+visible from the outside. The floor plans vary depending on the building’s function.
+Additionally, the use of light or heavy cladding varies in terms of aesthetics and
+function. Light cladding includes glass and light metal coverings. Heavy cladding
+includes reinforced concrete and thick composite materials. The floors of these
+buildings are heavy and provide moderate overhead cover.
+(7) Office and Residential Buildings. Normally, these buildings have three or four
+small offices or rooms connected to form an office group or residence. The
+offices have dimensions based on the distance between the steel columns and
+are connected to an interior hall, which is connected to stairs; and often, an
+elevator. Core rooms in framed buildings are much bigger than in other buildings.
+Light-weight materials used as partitions often subdivide the core rooms.
+(8) Factories. Factories have large windows and open interiors, which favor the
+use of most weapons. Since the structures are often made to support heavy
+machinery, these reinforced surfaces provide good overhead cover.
+(9) Commercial Buildings. Large commercial stores have large, open interiors.
+Steel fire doors, which are heat activated, often exist between sections of the
+buildings. Once closed, they are difficult to breach or force open, but they
+effectively divide the store into sections.
+(10) Public and Civic Buildings. Public and civic buildings are rarely made to the
+height of a high-rise or skyscraper. However, public and civic services may be
+integrated into the lower floors of a high-rise or skyscraper.
+(11) High-rise, Reinforced-concrete and Steel-frame Buildings and Skyscrapers.
+All high-rise buildings use a skeleton frame, and most have a central core
+containing two stairwells, elevators, and all other environmental support items. In
+some cases, lower floors of high-rise buildings use heavy cladding, while upper
+floors use light cladding.
+f. Typical Distribution of Buildings. Certain types of buildings dominate certain parts
+of a city, which establishes patterns within a city. Analysis of the distribution and
+nature of these patterns directly affects planning and selecting weapons (figure 6).
+12 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+Distribution of Building Types 
+(1) Urban zones and building types are interrelated. Residential areas
+predominately have low-rise framed or masonry buildings, while commercial and
+industrial zones have masonry and reinforced-concrete buildings. Availability of
+material and local culture determines which materials predominate. The central
+core usually contains the majority of high-rise, steel- and concrete-frame
+buildings. These multistory buildings occupy core areas (a city’s most valuable
+land), usually the center of the city’s economic and political power.
+(2) Open space accounts for about 15 percent of an average city’s area. Many
+open spaces are grass-covered parks, athletic fields, and preserves. Some are
+broad, paved areas. The largest open spaces are associated with suburban
+residential areas, where large tracts of land often act as recreation areas.
+(3) Streets serving areas that consist of primarily one building type, normally,
+have a common street pattern. For example, high land values in downtown areas
+often result in narrow angular streets. Street widths are grouped into three major
+classes:
+(a) Seven to 15 meters, located in older historical sections of
+pre-industrialized cities.
+(b) Fifteen to 25 meters, located in newer, planned sections of most cities.
+(c) Twenty-five to 50 meters, located along broad boulevards or set far apart
+on large parcels of land.
+(4) Streets consist of varying types of materials (asphalt, cement, gravel, and
+stone) which have different load bearing capabilities and take varying amounts of
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+13 
+force to render impassable. It is also important to consider the 2nd and 3rd order 
+effects of targeting road surfaces. Once destroyed they will be rendered 
+impassable to everyone (friendly forces, enemy forces, and the civilian 
+population). 
+g. Street Patterns.
+(1) Street patterns within an urban environment can be attributed to deliberate
+design, natural features, man-made structures, and the changing needs of the
+inhabitants. Urban areas can have any or all of the seven patterns shown in
+figure 7.
+(2) Street patterns influence all warfighting functions. For example, knowledge of
+street patterns and widths gives commanders and leaders a good idea of whether
+or not mounted mobility corridors permit movement and maneuver of wheeled or
+tracked vehicles, and facilitates command and control (C2) and sustainment
+operations.
+Urban Street Patterns and Effects 
+14 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+7. Aviation Operations in the Urban Environment
+Aviation units are involved in a variety of operations in an urbanized environment (e.g., 
+decisive action or stability operations). Employment of aviation assets enhances urban 
+operations, but presents unique tactical challenges. 
+a. Aviation enhances urban operations by providing:
+(1) Intelligence, surveillance, and reconnaissance (ISR).
+(2) Security.
+(3) Responsive and flexible resupply.
+(4) Rapid troop movement.
+(5) Rescue and evacuation of personnel and equipment.
+(6) Precision fires in support of ground forces.
+(7) The ability to quickly transition to new missions.
+b. Tactical challenges of aviation urban operations are as follows:
+(1) Physical Limitations.
+(a) Enemy Advantages. The availability of obstacles, cover, concealment,
+and familiarity of environment (e.g., subsurface, surface, and supersurface) to
+complement defense and maneuver.
+(b) Layouts. City layouts complicate traditional methods of military operations
+due to limited maneuvering space within the surface, supersurface, and
+airspace.
+(c) LOS Issues. Operating within vertical construction or subterranean
+infrastructure limits LOS communications.
+(d) Night Operations. Cultural lighting can degrade aircrews’ NVDs, reducing
+their effectiveness and obscuring low-flying aircraft.
+(2) Logistics and Medical Support.
+(a) Urban operations require a flexible logistical support systems due to
+potential unit dispersion in nonconsolidated urban areas. Units may be
+required to inhabit multiple bases of operation as opposed to consolidated
+staging areas.
+(b) A responsive and robust treatment and evacuation plan for casualties is
+critical.
+(c) To meet casualty and evacuation requirements, plan to establish aid
+stations, ambulance exchange points, and landing zones (LZs) as far forward
+as the situation allows.
+(3) Urban Population. The most difficult tactical challenge is the operators’ ability
+to distinguish between combatants and noncombatants.
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+15 
+c. Commanders conducting operations on or against objectives located within or
+adjacent to complex urban topology should emphasize the following:
+(1) Unified planning from concept through execution.
+(2) A single, common set of standards (e.g., graphics, terms, and times) usable
+by all ground, naval, and aviation forces.
+(3) C2 considerations requiring early integration and synchronization of:
+(a) Spectrum management.
+(b) Airspace management, with emphasis on SUAS employment and
+identification.
+(c) Precision fires in the vicinity of civilian populations and noncombatants.
+This page intentionally left blank. 
+17 
+Chapter II 
+GENERAL PLANNING CONSIDERATIONS 
+1. Introduction
+a. A clear understanding of the commander’s intent and ROE is imperative for
+mission planning and operations. Normally, the ground force commander is the
+supported commander for urban operations.
+b. Operations in urban terrain follow traditional planning and execution concepts
+with additional, unique planning considerations, which include:
+(1) Aircraft deconfliction in confined airspace.
+(2) Operations in urban canyons.
+(3) Urban terrain to include surface, supersurface, and subsurface development.
+(4) The presence of towers, wires, and antenna hazards.
+(5) The complications with target correlation in the supersurface and subsurface.
+(6) Difficulty in threat detection and identification.
+(7) A high concentration of noncombatants.
+(8) Political, social, cultural, operational, and strategic considerations, which
+influence ROE.
+(9) An increased potential for CD.
+c. Urban operations require planners to have a thorough knowledge and
+understanding of key terrain (i.e., intersections, roads, bridges, hospitals, schools,
+and cultural, religious, and municipal buildings), flight routes, and flight hazards (i.e.,
+towers, wires, and power lines). Space support personnel can produce a number of
+products to assist in the mitigation of unknown obstacles, such as recent
+unclassified satellite imagery that is releasable to coalition partners or the
+geographical view from a specific point and a virtual flythrough. These products can
+assist aircrews by minimizing the number of unknowns and for visualizing an
+objective area.
+d. Due to high concentrations of civilians and potential concealment advantages,
+urban operations require a significant planning effort devoted to suppression of
+enemy air defenses (SEAD). However, planners must be aware that effective SEAD
+effects may be unattainable in urban environments. While this publication will not
+address the specifics of SEAD, planners must consider CD concerns for SEAD
+operations in an urban environment.
+2. Joint Intelligence Preparation of the Operational Environment (JIPOE)
+Planners face unique challenges when conducting JIPOE in an urban environment. 
+Environmental variables and vertical development may preclude the effectiveness of 
+overhead imagery systems (i.e., intelligence collection operations). Planning 
+considerations for JIPOE in support of urban operations include the following. 
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+18 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+a. Urban Terrain. Urban terrain presents the enemy unique cover and concealment
+requiring the detailed integration of multiple intelligence sources such as signals
+intelligence (SIGINT), human intelligence, and geospatial intelligence.
+b. Hazards. Detailed analysis of flight hazards during mission planning is critical to
+safe flight operations and mission accomplishment. Flight hazards include:
+(1) Physical Hazards. The majority of physical hazards within an urban area are
+man-made and include kites, antennas, wires, power lines, and other
+obstructions (e.g., trash and debris). Cluttered environments (e.g., lights, fires,
+smoke, and marking lasers) may make identification of enemy surface-to-air fires
+difficult.
+(2) Environmental Hazards. These include impacts caused by meteorological
+effects conditions (e.g., haze, mist, dust, smog, precipitation, natural illumination,
+cloud cover, and winds), artificial illumination, turbulence caused by uneven
+convective heating, and unpredictable wind effects.
+(3) Natural Hazards. These include mountains, hills, trees, and areas with high
+concentrations of birds.
+(4) Air Traffic Hazards. A high volume of air traffic within urban areas include
+rotary-wing, tiltrotor, and fixed-wing aircraft, commercial and military SUAS, and
+civilian traffic. Missions employing SUASs, rotary-wing, or tiltrotor aircraft must
+consider vertical fields of fire for artillery, armor, and heavy machine guns.
+Furthermore, SUAS operations by friendly ground forces presents air hazards
+and must be integrated into airspace control planning.
+(5) Electromagnetic Hazards. High-intensity radio transmission areas (HIRTAs)
+may adversely affect aircraft communication, navigation, and electrical systems.
+Planners should review the location and effects of known and suspected HIRTA
+sites. Electromagnetic hazards can include the enemy’s use of Global Positioning
+System (GPS) jammers and spectrum interference from friendly jammers. Space
+operators can provide navigational accuracy predictions and plotting of known
+jammer effects to assist with planning considerations.
+c. Enemy.
+(1) JIPOE should account for surface and supersurface threats to ground forces.
+Such threats include the presence of snipers, improvised explosive devices
+(IEDs), explosive hazards, booby traps, subterranean fires assets, and
+high-energy laser pointers.
+(2) Urban operations provide opposing forces with unique options for
+surface-to-air attacks against friendly aircraft and a complex threat for friendly
+forces. The predominant threats to aviation assets in an urban environment
+include:
+(a) Small arms and machine guns. Weapons emplacement include
+supersurface (e.g., the upper floors of buildings and roof tops), ramps, and
+approach paths to airfields.
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+19 
+(b) Antiarmor rockets, such as rocket-propelled grenades (RPGs) and
+antitank guided missiles. These are readily available, inexpensive, and
+normally standard equipment at small-unit levels.
+(c) Light-to-medium air defense artillery (ADA). Adversaries can employ
+light-to-medium ADA from ground sites, tops of buildings, in or near otherwise
+protected structures (e.g., areas selected due to friendly force ROE
+constraints), or mounted on civilian vehicles.
+(d) Man-portable air defense systems (MANPADSs). MANPADs are small,
+allow for rapid engagements, and are easy to conceal.
+(e) Tank guns and antitank guided missiles. These contain modern fire
+control systems that permit effective engagements against hovering or
+slow-flying helicopters.
+(f) Commercial off-the-shelf SUAS. These SUAS can be weaponized or
+modified to carry military-grade munitions, can be employed alone or as
+swarms against ground forces and rotary-wing or tiltrotor aircraft while
+hovering, during takeoff and landing, or while refueling or rearming on the
+surface.
+(g) Heavy ADA and surface-to-air missiles (SAMs). Normally, heavy ADA
+and SAMs require extended beyond LOS detection capabilities due to radar
+or system aiming requirements. Adversaries can employ them within urban
+boundaries.
+(3) Every structure in an urban area is a potential enemy position. For example,
+enemy forces can establish a command post in a basement to take advantage of
+concealment and survivability.
+(a) Surface obstructions and airspace coordinating measures over urban
+areas limit low-altitude aircraft maneuvering options while providing the
+enemy excellent opportunities for establishing ambush sites.
+(b) Joint fires observers, JTACs, forward air controller (airborne) (FAC(A))
+and aircrews should anticipate danger-close scenarios when planning urban
+operations. For more information, refer to JP 3-09.3, Close Air Support.
+d. Friendly.
+(1) Pilots of low-flying aircraft need to be aware of fields of fire from air and
+ground forces. Low-flying aircraft can inadvertently fly through fields of fire from
+dismounted troops (e.g., troops firing at roofs of buildings).
+(2) Aircraft firing at enemy positions must ensure friendly forces are clear of
+weapons effects at the intended target.
+(3) Two-way communication and accurate graphic control measures tied to
+identifiable terrain features increases the ability to synchronize aviation effects in
+support of ground force.
+(4) A planner should consider the following civilian population issues:
+20 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+(a) Population density.
+(b) The ability to distinguish combatants from noncombatants.
+(c) Neighborhoods and their characteristics.
+(d) Patterns of life (e.g., religious practices, normal movements, and unique
+cultural characteristics).
+(e) Cultural and historical significance of structures and areas.
+3. Command, Control, and Communications Considerations
+a. C2 Planning.
+(1) A detailed, flexible, and redundant C2 plan alleviates the electromagnetic
+challenges associated with urban environments and enables uninterrupted
+communication.
+(2) Vertical structures can limit or negate LOS radio communications.
+(3) Natural disasters can degrade or damage preexisting C2 networks.
+(4) Airborne C2 and radio relay support systems, rooftop retransmission
+systems, radios using high-power transmissions, and remote antennas may
+overcome some of the transmission problems.
+b. Combined Arms Rehearsal. Joint operations in urban environments benefit from
+detailed combined arms rehearsals to synchronize effects. Combined arms
+rehearsals should include all aerial assets assigned or attached for the duration of
+the operation.
+c. Pre-mission Briefing. Prior to each mission, planners brief and update the
+aircrews with the most current intelligence assessments to include friendly force
+updates.
+d. Air Asset Deconfliction and Integration.
+(1) Airspace control elements (e.g., Airborne Warning and Control System
+(AWACS), tactical air operations centers (TAOCs), and control and reporting
+centers (CRCs)) use both positive and procedural control methods to deconflict
+and integrate air assets above the coordinating altitude. Beneath the coordinating
+altitude, other airspace control elements (e.g., joint air-ground integration center),
+direct air support center, airspace information center, and JTACs) use procedural
+control methods to deconflict and integrate air assets.
+(2) Other than Army attack aviation procedure missions, the JTAC, FAC(A), or
+air officer are the primary controllers for aircraft operating within their assigned
+AO.
+(3) Due to the high density of air traffic (military and civilian) in the urban
+environment it is important to properly plan for airspace control through effective
+use of coordination measures, air defense measures and fire support
+coordination measures.
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+21 
+(4) Following natural disasters, both civilian and government aircraft can be
+present and not in communication with military airspace control elements.
+(5) Aircrews should establish communications with ground maneuver elements
+as soon as possible while en route to the objective. Additionally, aircrews should
+establish communications with controlling agencies before crossing airspace
+boundaries.
+e. Frequency Management.
+(1) Saturation of the electromagnetic spectrum within the urban environment
+makes it essential to have a detailed frequency management plan for all voice
+and data spectrum users.
+(2) Urban areas can reduce radio frequency availability for airborne platforms
+due to preexisting public safety and commercial aviation usage.
+(3) Subordinate commands should deconflict all radio frequency assignments
+and requirements with the regional or area frequency manager.
+4. Contested and Congested Cyberspace and Electromagnetic Spectrum
+Considerations
+Commanders and staffs face the challenge of enabling joint, interorganizational, and 
+multinational collaboration while assuring access to critical data and information 
+networks in increasingly congested and contested cyberspace domain and 
+electromagnetic environment while simultaneously denying the same to the enemy. 
+Operating in congested and contested information environment requires commanders 
+and their staffs to synchronize signal, cyberspace, and electromagnetic warfare 
+capabilities through cyberspace electromagnetic activities. Cyberspace and 
+electromagnetic activities must be planned, integrated, and synchronized with 
+cyberspace and electromagnetic warfare operations in support of unified land 
+operations. 
+5. Congested Airspace
+a. A dense, three-dimensional, urban environment creates challenges in planning
+and executing airspace control. Planners should synchronize aviation assets and
+ground fires into the ground scheme of maneuver. Planning and execution become
+difficult given the enemy’s proximity to friendly forces, protected sites, and
+noncombatants. For example, a ground unit may request an air medical evacuation
+(MEDEVAC) and close air support (CAS) simultaneously, resulting in multiple
+aircraft operating within the same airspace.
+b. Planners should determine the necessary minimum airspace required for a
+mission. Allocating minimum airspace allows more missions to fly in dense airspace
+but can hinder tactical execution and threat reaction options. Airspace control
+planning considerations must include:
+(1) Host nation civil operations, foreign military airspace requirements, other
+governmental agencies, and civilian agencies.
+(2) Boundaries for participating and nonparticipating aircraft operating in the AO.
+22 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+(3) Airspace control plan, air tasking order, and airspace control order for
+deconfliction and synchronization of aviation assets, which may include
+multinational air assets.
+(4) Positive control procedures. Refrain from using see and avoid or sense and
+avoid as a primary deconfliction measure. Visual detection is difficult in the urban
+environment.
+(5) Communication procedures for aircraft to alert friendly ground forces of
+impending dangers (e.g., low passes, full-motion video (FMV) flight paths, and
+infrared (IR) pointer usage).
+c. Holding and Assembly Area Techniques.
+(1) Avoid loitering over urban terrain at low altitudes due to threats and physical
+hazards.
+(2) Plan for in-flight contingencies to use rally points or holding areas.
+(3) Select assembly or holding areas using the same considerations required
+when selecting helicopter LZs forward arming and refueling points (FARPs), and
+air-delivered ground refueling (ADGR) sites.
+(4) Consider concealment, presence of friendly ground forces for security, and
+protected facilities for personnel and equipment.
+d. Unmanned Aircraft System (UAS) Considerations.
+(1) SUAS.
+(a) SUAS are recognized as group 1 and 2 unmanned aircraft (UA) and its
+supporting ground control elements. These can be operated autonomously or
+remotely, can be expendable or recoverable, and can carry a lethal or
+nonlethal payload. Some Services include group 3 as SUAS. See table 2 for
+more information about UAS categories.
+(b) Many SUAS are not capable of positive control. Many of the coordination
+measures and basic deconfliction methods (e.g., time, lateral, altitude, or
+combination thereof) used to procedurally control manned aircraft can be
+used to control SUAS. Planners must take into account most SUAS ground
+control stations do not allow the operator to program a large number of
+navigation waypoints, some allowing four or less. Simple routing of SUAS
+transiting the battlespace (e.g., paralleling roads, train tracks, power lines,
+lower transit altitudes, etc.) may help manned aircrew avoid SUAS collisions
+avoid airspace congestion.
+(c) It is generally the low, slow, and smaller UASs (Groups 1, 2, and some 3)
+that pose a challenge to detect, track, identify, and engage. New capabilities
+are being developed to counter these systems and must be considered and
+integrated into the overall air defense plan.
+(2) Remotely-piloted Aircraft (RPA). The Air Force refers to its groups 4 and 5
+UASs as RPAs to differentiate its operators who have been trained to similar
+standards as manned aircraft pilots.
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+23 
+Table 2.  UAS Categorization Chart 
+UA 
+Category 
+Maximum Gross 
+Takeoff Weight 
+(pounds) 
+Normal Operating 
+Altitude  
+(feet) 
+Speed  
+(knots indicated 
+airspeed) 
+Representative UAS 
+Group 1 
+0-20
+< 1,200 AGL 
+100 knots 
+Wasp III, RQ-14A/B, Buster, 
+Nighthawk, RQ-11B, FPASS, 
+RQ-16A, Pointer, Aqua/Terra 
+Puma 
+Group 2 
+21-55
+< 3,500 AGL 
+< 250 
+ScanEagle, Silver Fox, 
+Aerosonde 
+Group 3 
+< 1320 
+< 18,000 MSL 
+< 250 
+RQ-7B Shadow, RQ-15 
+Neptune, XPV-1 Tern, XPV-2 
+Mako 
+Group 4 
+< 1320 
+Any Airspeed 
+MQ-8B Fire Scout, MQ-1C 
+Gray Eagle, MQ-1A/B/C 
+Predator 
+Group 5 
+> 1320
+>18,000 MSL
+Any Airspeed 
+MQ-9 Reaper, RQ-4 Global 
+Hawk, RQ-4N Triton 
+Legend 
+AGL—above ground level 
+MSL—mean sea level 
+FPASS—force protection airborne surveillance 
+system 
+UA—unmanned aircraft 
+UAS—unmanned aircraft system 
+(3) Route Planning. Planners must consider UAS lost-link contingency
+procedures. The pilot or operator should announce a lost-link condition over
+tactical chat and the common air battle net as soon as the tactical situation
+allows. This announcement should include the immediate contingency actions the
+UAS will take in its lost-link condition. Consider using airspace control elements
+(e.g., AWACS, TAOC, and CRC) to relay a lost-link situation.
+6. Operational Planning Products
+a. General Considerations. Consider all types of geospatial products, ranging from
+paper tourist maps to digital mapping databases (commercial and government).
+(1) Maps with a large scale provide greater detail for urban mission planning and
+execution than small-scale maps.
+(2) Due to the dynamics of urban growth, current maps and photographs are not
+always available. In the absence of these materials, detailed reconnaissance is
+required to minimize risk.
+WARNING 
+Check the reference system used to prepare a map or chart (i.e., 
+World Geodetic System 1984, the current joint standard, and 
+Tokyo Special). Different datum can cause significant confusion, 
+position errors, and lead to friendly fire incidents. 
+24 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+Note: Planners should ensure operational planning products are discernible from 
+ground and air perspectives. Once developed, the publishing headquarters should 
+disseminate the products to all units, including their higher headquarters. 
+b. Geospatial Products.
+(1) Units should maintain accurate and current geospatial products for their
+operational area and continuously update them as new features are identified.
+This is a shared responsibility for aircrews, intelligence personnel, and operations
+staff sections. For example, the intelligence staff may have the only source of
+hazard information, but they require aircrews’ input to produce relevant aviation
+maps and charts before mission execution.
+(2) Other hazard sources include the National Geospatial-Intelligence Agency
+and the airspace control element which publishes known flight hazards, such as
+notices to airmen.
+c. Common Operations Graphics.
+(1) Due to the constantly changing nature of the urban environment, it is
+especially important for participating units to have common operational graphics
+pertaining to the mission. Version control of paper and electronic mission
+products (i.e., maps, graphics, gridded reference graphic (GRG), etc.) is critical to
+planning and execution. Joint force, theater, or organizational standard operating
+procedures are typical documents where common terms and graphics are
+defined for the area of interest.
+(2) Depicting objectives and phase lines on common graphics illustrates the
+ground force commander’s scheme of maneuver and established control
+measures.
+7. Urban Grids and Reference Techniques
+a. It is essential for all forces to use the same reference system and GRG. Ground
+maneuver elements use a terrain-based reference system during urban operations
+because they allow for quick correlation between air and ground assets.
+b. Planners can overlay a grid reference system to most urban areas to produce the
+GRG. One technique uses the military grid reference system (MGRS) while the
+second uses a simple grid system. Both techniques use a number to identify each
+building, and code the corners of buildings to expedite fires. Target handover to the
+aircrew is simply the location from the grid system and a brief target description.
+c. The MGRS coordinate system allows joint planners to efficiently produce the
+required GRG for an entire AO. It provides easy plotting, that is, distance and
+reference determination for air and ground elements. For example Grid 96, 33 in
+figure 8 references the position marked by the X.
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+25 
+MGRS GRG 
+d. The simple grid system technique is useful when the objective area is not aligned
+with a north-up orientation or the objective area is small and requires additional
+detail. The scale of the grid should relate to distances common to urban
+engagements while making it usable as a quick reference. Label each grid and
+building in a consistent, sequential manner. For example, B3 in figure 9 references
+the position marked by the X.
+26 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+Urban Sector GRG 
+e. The GRG is the supported ground force commander’s product. The commander
+is responsible for disseminating it to supporting units, appropriate joint agencies, and
+subordinate commands. Graphics should include version numbers, a point of
+contact, phone numbers, and email addresses so the issuing organization can
+ensure it controls the versions and operators use the latest update. Graphics should
+also include date and time that the product was published to ensure that planners
+and operators are using proper documents.
+f. As time and mission objectives allow, add basic named areas of interest (such as
+cloverleaves, bridges, and other choke points) to the graphics template.
+g. Upon arrival in the objective area, aircrews should transition to the reference
+system in use by the ground element.
+h. Figure 10 is an example of reference areas. Reference areas are created by
+intersections of roads or by other dominant geographical features. For nonlinear
+road structures in some cities, this type of system may be useful.
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+27 
+Urban Operations Sketch 
+i. Planners and operators use objective area and target reference point (TRP)
+techniques to identify targets when given a fixed point, distance, and direction.
+Preplanned TRPs have multiple uses to coordinate fires, but not all TRPs are
+suitable for use as a target reference system when coordinating CAS. The supported
+unit and the supporting aircrew must recognize the TRP, or known point, which is
+either preplanned or agreed to on site. Figure 11 identifies five TRPs from the
+commander’s fire support plan. TRP 004 is unsuitable for the target reference
+technique because it is not easily identifiable from the air, but the water tower
+identified as TRP 002 is suitable. Also, figure 11 provides an example of a CAS
+9-line excerpt using the objective area reference-grid technique.
+28 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+Target Reference Point Technique 
+j. Building marking techniques give the aircrew a specific location in reference to a
+building or fixed structure. In figure 12, all building sides are numbered clockwise
+starting with the front. In figure 13, the floors, windows, and openings of the structure
+are labeled numerically (floors) and alphabetically (windows, openings). Number the
+floors starting with the ground floor and ascending to the top floor. Windows and
+openings are assigned letters, beginning with A, and are labeled from left to right.
+The lettering sequence starts over with each floor, ensuring all windows, openings,
+and obvious holes or breaches are assigned the appropriate letter. This technique
+may also incorporate a direct description (i.e., the window to the right of the flames).
+Note: Any numbering or labeling method can be used as long as agreed upon and 
+easily understood by all participants (e.g., colors, phase lines, and cardinal directions). 
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+29 
+Building Wall (Side) Naming Convention 
+Floor and Window Naming Conventions 
+8. Urban Flight Techniques
+a. Commanders should evaluate the tactical situation and weigh the requirements
+for tactical surprise. While low flight profiles increase surprise, they can increase the
+risk of controlled flight into terrain or obstacles. Conversely, while high profiles may
+enhance early enemy detection, they may lower the risk of enemy fire with small
+arms.
+30 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+b. Factors to consider when determining flight profiles include:
+(1) Tactical mission.
+(2) Risk assessment and mitigation.
+(3) Terrain relief and building height in and around the flight path.
+(4) Density of structures.
+(5) Accessibility and security of high rooftops.
+(6) Dominant natural terrain around the urban area.
+(7) Integrated air defense system.
+(8) Small arms, MANPADS, SAMs, RPGs, and laser pointers, which are easily
+concealed and operated from multiple urban vantage points.
+(9) Aircraft survivability equipment.
+(10) Aircraft defense or survivability tactics, techniques, and procedures.
+(11) Audible signature.
+(12) Terrestrial lighting.
+9. Urban Navigation
+a. Challenges in Urban Terrain.
+(1) A high concentration of structures.
+(2) A variety of geographical references.
+(3) Increased cultural lighting.
+(4) LOS interference.
+(5) Changing landscapes due to combat operations.
+(6) GPS and spectrum jamming.
+b. Mitigation Methods.
+(1) Familiarity with the characteristics of urban terrain and clearly identifiable
+landmarks for navigation.
+(2) The use of GPS reduces problems associated with night navigation and
+orientation. IR pointers, markers, or laser target designators may reduce the
+problems associated with orientation and target identification.
+(3) Effective navigation over large towns and cities requires using a variety of
+navigational systems and techniques discussed in the following paragraphs.
+c. Navigation Techniques. Man-made features may provide the majority of available
+navigation aids. If possible, pick unique and large recognizable features for
+navigation, such as cemeteries, stadiums, cathedrals, and highways.
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+31 
+(1) Linear features, such as major highways, rivers, railways, canals, and
+coastlines, provide easily recognizable boundaries and references to assist
+aircrews in maintaining orientation.
+(2) Prominent rail and highway interchanges are useful as en route checkpoints.
+However, these areas are high risk for enemy activity.
+10. Drop Zone (DZ) Techniques
+a. DZ operations in urban terrain require extensive planning due to limited
+availability of suitable sites. Surface obstructions, availability of alternate DZs, and
+positive identification (PID) of the primary DZ make airdrop operations difficult in the
+urban environment.
+b. Parks, roads, railroad yards, airfields, athletic stadiums, and industrial storage
+sites are examples of possible locations for airdrops.
+c. Positive control of personnel near the DZ or concealing the DZ until immediately
+before use, reduces the possibility of injuring civilians.
+11. LZ Considerations
+a. Studying city composition, imagery, and maps provides a good foundation for
+choosing LZs. However, selecting a LZ from only a map of the urban environment is
+not recommended because of the rapidly changing environment. Special
+considerations in an urban environment include enemy disposition, suitability,
+environment, and obstacles.
+b. Review current imagery to accurately assess LZ size and hazards. Ground
+photos can provide valuable information and terrain references. Examine products
+from reconnaissance assets and make these available to all participants. Annotate
+all images and diagrams with magnetic north and navigation references. Reference
+a LZ planning guide. See table 3 for LZ size requirements.
+32 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+Table 3.  Helicopter and Tiltrotor Landing Zone Considerations 
+Aircraft 
+Type 
+Landing Zone Size 
+(Length x Width) Feet 
+Remarks 
+Single Ship 
+Two Ship 
+AH-1/64 
+100 x 100 
+200 x 200 
+Narrow footprint; requires a smooth, 
+flat surface. 
+A/OH-6, H-6 
+65 x 65 
+130 x 130 
+Require a smooth, flat surface. 
+H-47
+120 x 120 
+240 x 240 
+Large rotor wash. 
+H-53
+200 x 300 
+300 x 400 
+Large rotor wash. 
+H-60
+100 x 100 
+200 x 200 
+Large rotor wash. 
+UH-1 
+100 x 75 
+150 x 150 
+Requires a 25 foot clearance from 
+the helicopter. 
+CV-22
+240 x 240 
+(170 x 170  
+visual conditions) 
+240 x 740 
+Significant rotor wash.  
+Brown-out conditions should be 
+anticipated. Numbers listed are for 
+brown-out conditions. 
+MV-22
+200 x 200 
+(160 x 180 night 
+visual conditions) 
+600 x 600 
+Notes: Service or unit standard operating procedures or aircrew proficiency may require 
+adjusting the landing zone size. 
+c. LZ Selection.
+(1) Primary LZ. LZs should be easily identifiable and accessible from the air and
+ground. Most major cities have urban parks that may provide a suitable LZ. Other
+potential LZs include athletic stadiums, golf courses, and parking lots. Due to the
+limited number of suitable areas, planners should assume the enemy knows and
+will observe the majority of suitable LZs.
+(2) Alternate LZ. Planners should use the same considerations and levels of
+detail when selecting alternate and emergency LZs.
+(3) Load-bearing Structures. Some structures can accommodate helicopters
+landing on their rooftop, but planners cannot accurately determine the load
+bearing capacity through observation unless they are marked (i.e., existing
+rooftop helipads).
+(4) Rooftop LZ Hazards. Roof clutter (e.g., antennas, satellite dishes, lightning
+rods, wires, furniture, and trash) can obstruct the landing area. Cultural
+considerations (e.g., building occupants sleeping on residential roof tops during
+summer months) should also be taken into account. Aircrews should expect
+unpredictable winds, turbulence, or vortices while flying in the urban environment.
+Mechanical turbulence will often be encountered near large heating, ventilating,
+and air conditioning and exhaust systems usually located on commercial and
+industrial building roof tops. Additionally, rooftop perimeter walls will amplify
+aircraft rotor downwash during landing. This will often create a pronounced
+suction effect, causing a rapid descent during the last few feet prior to landing. If
+not properly accounted for, the aircraft will land abruptly. Due to these conditions,
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+33 
+hover out-of-ground-effect power may be needed to conduct a safe roof-top 
+landing, even when the crew is planning to conduct a maneuver which may only 
+require in-ground-effect performance associated with flight in proximity of tall 
+buildings. 
+(5) LZs should be placed as close as tactically feasible to the periphery of the
+urban area edge. Additionally, approach and departure directions should be
+planned in advance to minimize exposure to enemy fire.
+(6) Urban environments create significant challenges for LOS communications
+and aircraft might need to establish communications at increased altitudes and
+sacrifice communications during final approach to the LZ. This can be mitigated
+using multi-ship operations or by using other airborne assets to relay
+communications.
+(7) Tactical Considerations.
+(a) If there are more aircraft than a single LZ can accommodate, select
+multiple LZs in proximity to the objective.
+(b) Control measures are essential to deconflict movement of all elements.
+• Give special consideration to deconflict egress routes from
+geographically separated LZs supporting the same objective area.
+• Light pollution associated with large cities can mask aircraft from one
+another in low illumination environments once aircraft are in the LZ.
+(c) Balance the availability of suitable LZs and exposure to observation,
+direct fire, or ambush. Execution considerations include:
+• Day operations allow for rapid ingress and egress, but facilitates
+observation and engagement by the enemy.
+• Night missions offer improved concealment and LZ security, but may
+require slower airspeeds and an increased pilot workload.
+12. Rooftop Insertion and Extraction
+a. Due to varying load bearing capabilities of urban structures, aircrews may use a
+variety of rooftop insertion and extraction techniques. Additionally, the presence of
+hazards (e.g., antennas, wires, and fences) present challenges to safe operations.
+These techniques include:
+(1) Remaining light on the landing gear after touchdown. This prevents structural
+damage or roof-top cave in under the loads of the landing aircraft. Unless landing
+on a rated helipad in which the load bearing capability is known, this technique
+should be used and emphasized for all rooftop landings.
+(2) Hovering with a single skid or landing gear touching the structure.
+(3) Performing a low hover.
+(4) Fast rope and rappelling.
+(5) Using rope ladders.
+34 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+(6) Performing hoist operations (preferred for evacuation of civilians).
+b. If more than one insertion and extraction element is required, consider using
+multiple insertion flight profiles to remain unpredictable and to avoid congestion at
+the objective area.
+13. FARP Operations and ADGR
+a. Assessment of potential FARP and ADGR locations are similar to the basic
+considerations for selection of LZs or pickup zones. Planners must consider the
+following when planning FARP and ADGR operations.
+(1) The size to accommodate the refueling and rearming element and the
+number and type of aircraft using the FARP and ADGR.
+(2) The number of FARPs and ADGRs required.
+(3) Security requirements of FARPs and ADGRs to mitigate the risk from
+combatants during refuel and rearm operations.
+(4) Ground entry and exit routes.
+(5) Predominant winds and obstacles.
+(6) Sufficient maneuver space to reposition, hover, and climb out for aircraft with
+limited power and heavy loads.
+(7) Ingress and egress routes to FARP are clear of wires, towers, and antennas
+to facilitate a shallow landing into a confined area.
+(8) Marshalling plans during normal and low-light visibility conditions for
+rotary-wing, tiltrotor, and fixed-wing aircraft.
+b. FARP and ADGR locations should provide concealment from the surrounding
+terrain and buildings to facilitate securing potential ground entry and exit routes.
+Consider the use of sports stadiums or established airfields.
+c. Consider normal and low-light visibility conditions at proposed FARP and ADGR
+sites before designing marshalling plans, especially when rotary-wing, tiltrotor, and
+fixed-wing assets are involved in the FARP and ADGR operation.
+14. Environmental and Night Considerations
+a. Environmental Concerns. Environmental concerns can include weather, lighting
+conditions, IR signatures, visibility, thermal reflection, and smoke or fog. For a
+detailed discussion of these conditions, refer to JP 3-09.3.
+b. Weather. Weather conditions affect individual weapons systems differently.
+Inertial navigation and GPS-aided guidance systems are not affected by weather
+conditions. While GPS is not affected by terrestrial weather, its accuracy can be
+affected during times of increased and excessive solar and geomagnetic storm
+activity. See JP 3-09.3 for weather effects on CAS.
+(1) Ceilings.
+(a) Low ceilings can obscure high-rise rooftops and other physical hazards
+and obstructions (e.g., power lines, towers, or smokestacks).
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+35 
+(b) Low ceilings can deny aircraft the required time and altitude to obtain
+satisfactory ordnance delivery and avoid fragmentation.
+(c) Artificial lighting with a low, overcast cloud condition may highlight aircraft
+to ground observers and adversely affect NVD performance.
+(2) Visibility. Reduced visibility (due to smog, smoke, rain, fog, or dust) can
+degrade the performance of aircraft sensors and weapon system effectiveness.
+(3) Winds. In urban areas, city structures affect wind patterns. High winds in an
+urban area may adversely affect the accuracy of low-altitude, unguided weapons
+because wind patterns are disrupted and funneled down streets and alleys.
+c. IR and NVD Use.
+(1) IR signatures are affected by the proximity of buildings and structures. Urban
+temperatures are generally higher than rural areas and can be 10 to 20 degrees
+higher than the surrounding environment. Thermal heating can adversely affect
+thermal sights and other IR sensors. In many cases, unaided vision is sufficient
+for some portions of target acquisition and engagement.
+(2) Urban lights may overwhelm aircrew NVDs and render them useless for
+standard night formation tactics. Plans may need adaptation to allow for
+additional deconfliction. The presence of urban lighting may preclude the use of
+IR strobe lights as effective marking tools, as it can be difficult for aircrew to
+discern one particular light sources from a multitude of others.
+This page intentionally left blank. 
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+37 
+Chapter III 
+URBAN AVIATION MISSIONS 
+1. Introduction
+Aircraft perform the same missions in urban environments as in other, more permissive 
+areas. The primary difference is the aircraft’s effectiveness in the urban environment. It 
+is important for ground force commanders, planners, and aircrews to understand the 
+capabilities and limitations of various aircraft to optimize performance and effectiveness. 
+2. ISR
+ISR synchronizes and integrates the planning and operation of sensors, assets, and 
+processing, exploiting, and dissemination systems in direct support of current and future 
+operations. 
+a. Specific Urban Considerations.
+(1) Urban environments contain significant clutter, which increases the time
+required to process information and produce intelligence. Real-time situational
+awareness (SA) gained from aircrew callouts, in response to onboard sensors or
+FMV, can aid the ground force commander in dynamic decision making.
+(2) ISR altitude selection criteria for urban environments.
+(a) Low altitudes may result in a greater chance of visual and audible
+detection. However, increased ambient ground noise may allow aircraft
+tasked with ISR to fly at lower altitudes without audible detection.
+(b) Sensor fidelity increases as slant range decreases.
+(c) Field of view decreases as slant range decreases.
+(d) Low altitudes increase the effects of urban canyons and grazing angle.
+(e) High altitudes reduce the clarity of three-dimensional characteristics.
+b. Specific Employment Techniques.
+(1) Tactical ISR provides the supported commander increased SA. Tactical ISR
+can provide direct communication between the aircrew and the ground force
+commander, which allows the commander to quickly adjust collection priorities.
+(2) When utilized, the ISR tactical controller synthesizes planning, execution, and
+initial assessments for near real-time, tactical integration of airborne collection
+assets into the supported commander’s scheme of maneuver.
+(3) Tactical ISR has a direct link to an intelligence analyst who conducts
+real-time analysis for the ground commander or airborne sensor operator trained
+to exploit raw data. This quick analysis helps mitigate risk from threats and
+reduce friendly fire and CD concerns. It also enables the find, fix, track, target,
+engage, and assess kill chain.
+(4) As early as possible, ISR aircrews should contact the supported unit to
+gather last-minute changes to the mission.
+38 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+(5) Sensor Integration.
+(a) Ensure all available assets and sensors are tasked to create an
+integrated sensor solution to meet the commander’s intent and priorities.
+Sensor postures can be offensive, defensive, or neutral. See table 4 for more
+information.
+Table 4.  Sensor Postures 
+Sensor Postures: 
+Used during patrols and convoys to provide sensor taskings. 
+Neutral 
+Lead aircraft’s responsibility is the friendly force. Wing aircraft is 
+primarily responsible for scanning the objective (or assigned checkpoint) 
+and back to the friendly force. 
+Offensive 
+Both lead and wing aircraft concentrate on the objective. 
+Defensive 
+Lead aircraft’s responsibility is the friendly force. Wing aircraft is 
+responsible for sanitizing the route directly in front of the friendly force. 
+(b) IR markers might be difficult to observe due to cultural lighting. Also,
+consider podium effect, direction of observation, and urban canyon situations
+with IR markers.
+(c) Planners should consider orbit geometry to maximize continuous sensor
+fidelity while maintaining safety to ground forces and aircraft.
+(d) Electro-optical (EO) and IR sensors require unobstructed LOS with the
+objective. Other sensors (i.e., SIGINT, electronic intelligence, and synthetic
+aperture radar) may require a specific orbit pattern relative to the objective.
+The commander’s priority for selecting collection sensors will determine the
+required orbit geometries.
+(e) Tasking handover between air assets may be difficult and require more
+time in urban environments due to population density (e.g., vehicles and
+people), the homogenous nature of urban terrain, differing perspectives of
+aircrews, large vertical structures, and urban canyons.
+3. Escort
+Urban operations provide unique challenges to commanders in regard to planning and 
+executing operations. The two primary escort operations in an urban environment are 
+escort of airborne and ground elements. 
+a. Detailed planning in communications, datalinks, and FMV frequency
+management is required to integrate the escort and escorted forces. The
+three-dimensional urban environment may drive an increased information flow with
+the presence of obstacles, defensive positions, or local populace and its canalizing
+effect. The need for increased vigilance for threat protection, coupled with the ability
+of the threat to remain camouflaged in the urban terrain, make the task of threat
+protection difficult. Consider the threat posture and activity to determine routes,
+altitudes, and airspeeds during the planning process.
+b. The responsibilities of the escorting aircraft include route reconnaissance,
+security, and actions on the objective. Some key elements must be identified,
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+39 
+regardless of the escort platform. They are the route (primary and any alternates), 
+key terrain, threat identification, fires coordination, and the objective. Planners 
+should consider dividing the tasks of route reconnaissance and protection of the 
+escorted force. 
+c. Convoy security planning considerations are very similar to airborne escort. The
+primary differences are the reduced maneuverability and speed of the escorted
+force. Whether dismounted or in vehicles, the urban environment provides unique
+challenges. It is difficult for escort aircraft to determine friendly positions and
+distinguish friendly forces from combatants, which will determine the altitude and
+flight profile to mitigate friendly fire incidents. The escorts and escorted force should
+consider:
+(1) Primary and alternate routes.
+(2) Primary, alternate, contingency, and emergency communication plans.
+(3) Communications out plan.
+(4) Location reporting contracts (e.g., friendly centric, objective centric,
+checkpoint centric, and common reference point centric).
+d. If available, planners should integrate all available battle-tracking capabilities
+(e.g., blue force tracker-Joint Capability Release, Tactical Airspace Integration
+System, and Link 16). Battle tracking capabilities will increase SA and allow time to
+scan for threats, turn points, and alternate routes.
+4. Aviation Fires in Support of Ground Forces
+The application of aviation fires in support of ground forces can occur in any phase of 
+combat operations. The ground force commander’s intent, the proximity of fires to 
+ground forces, and the level of detailed integration will determine the types of fires 
+required for an operation. See JP 3-03, Joint Interdiction, and JP 3-09.3 for more 
+information. 
+a. When a multitude of potential targets are contained in an urban area, numerous
+platforms may conduct offensive operations within a congested airspace, depending
+on the size of the urban area. In congested airspace, planners must provide aircrews
+with airspace coordinating measures that provide effective deconfliction.
+b. The urban environment provides excellent cover and concealment for a wide
+variety of enemy air defense systems, creates difficulty in locating targets, and
+increases CD risks, which can reduce the effectiveness of SEAD operations. If
+enemy air defense systems are prevalent in the urban environment, planners must
+create a detailed and integrated SEAD plan to protect threatened aviation assets.
+c. CAS and Army attack aviation procedures in the urban environment present
+unique challenges to aviators. The proximity of friendly forces, enemy forces, and
+civilian population in urban environments demand detailed integration of aviation
+fires.
+40 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+(1) A large concentration of ground units in a dense urban area may limit
+airspace allotted to each aircraft, reducing the ability to maneuver or react to
+threats.
+(2) Battle tracking may be particularly difficult. The use of phase lines, TRPs, and
+GRGs can aid in maintaining SA as the operation moves through an urban area.
+Additionally, communication between ground and air elements may be difficult
+due to interrupted LOS. (See Chapter 2, General Planning Considerations.)
+(3) Many aircraft are capable of transmitting FMV. JTACs or FAC(A)s can use
+aircraft to reconnoiter and engage targets outside the area of immediate
+engagement using FMV to confirm targets.
+(4) Urban canyons will present challenges for employing weapons requiring
+extended trajectory paths. Three-dimensional attack geometry and weapon flight
+profiles should be considered for each attack. Urban canyons may limit available
+attack headings for aircraft. However, JTACs or FAC(A)s working with aircrews
+should attempt to vary ingress and egress flight paths to mitigate the threat to the
+attacking aircraft. Additionally, the commander may prefer to use precision-
+guided munitions in urban operations to minimize the risk of CD and friendly fire.
+However, determining target elevation, due to vertical structures, may be difficult.
+See Chapter IV, Weapons Employment, for more details.
+d. Air Interdiction. While there are no specific urban characteristics that drastically
+alter the conduct of air interdiction missions, there are unique urban planning issues
+that must be considered for successful execution. Unlike CAS missions, air
+interdiction missions may require aircrews to determine resolutions for PID, CD, and
+ROE independently.
+(1) An urban environment can degrade the aircrew’s ability to accurately assess
+PID, CD, and ROE due to man-made structures, urban canyons, environmental
+concerns, and the civilian populace.
+(2) An urban environment may present aircrews with an abundance of targets
+listed in a commander’s intent and targeting priority guidance. A thorough
+understanding of the commander’s target priorities, will allow aircrews to provide
+efficient battlefield effects in accordance with the commander’s intent.
+5. Air Assault
+Air assaults are operations to engage and destroy enemy forces or to seize and hold 
+key terrain using assault forces moved by rotary-wing or tiltrotor aircraft. 
+a. Capabilities. Air assaults allow friendly forces to vertically maneuver against the
+enemy over extended distances and engage enemy forces at unexpected times and
+locations. Air assaults allow friendly forces to bypass enemy forces and obstacles
+that would prevent or disrupt ground movement. Air assaults are useful in urban
+environments where a ground assault would be slow and risky due to canalizing
+terrain or would provide the enemy early warning of friendly actions.
+b. Specific Urban Considerations.
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+41 
+(1) Available LZs may be limited, which will restrict the number of friendly forces
+that can be inserted at one time. Additionally, the enemy may be able to easily
+identify potential LZs and emplace obstacles or defensive positions to prevent or
+disrupt an air assault.
+(2) Structures within the range of the LZ can provide cover and concealment for
+enemy forces. Buildings and obstacles around LZs may require aircrews to
+perform a slow, deliberate approach to landing, which can increase aircraft
+vulnerability to ground fire. These buildings also provide high points of
+observation and areas from which to engage rotary-wing and tiltrotor aircraft from
+above.
+(3) Loose debris and poorly constructed structures may create a hazard when
+impacted by rotor wash, which could damage aircraft and injure personnel. The
+hazard is greater with larger aircraft.
+c. Mitigation and Employment Techniques.
+(1) Units must complete a deliberate reconnaissance of LZs, which may be more
+difficult and require more time due to obstacles.
+(2) If the ground force commander requires simultaneous infiltration of a large
+force, LZs outside dense urban terrain may be enlarged, allowing more aircraft to
+land simultaneously.
+(3) Aircrews should avoid overflight of urban terrain to reduce the risk of
+ground-to-air fire and reduce the enemy’s response time to the air assault.
+(4) Use pre-assault fires in the objective area to prevent the enemy from placing
+effective fires onto the air assault force.
+6. Air Movement
+Air movement operations involve using aircraft to move troops, equipment, and 
+supplies. The same planning sequence and phases used for air assault operations 
+apply to air movement operations. Typically, units conduct air movement operations to 
+secured LZs. In these operations, aircraft are not necessarily task-organized with other 
+members of the combined arms team. Using fixed-wing assets to conduct air movement 
+requires a suitable landing area within the urban environment (e.g., airfield under 
+friendly control, and road surfaces that would support fixed-wing operations). 
+a. Capabilities.
+(1) Utility and cargo aircraft provide the commander the ability to move
+time-sensitive, mission-critical personnel and cargo rapidly to sustain continuous
+offensive and defensive operations.
+(2) Air movement is useful when conditions of the urban environment restrict
+ground movement or when time is critical.
+b. Specific urban considerations and mitigation techniques for LZ selection are
+addressed in chapter 2.
+42 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+7. MEDEVAC and Casualty Evacuation (CASEVAC)
+MEDEVAC and CASEVAC operations move wounded, injured, or ill persons from the 
+battlefield, or other areas, to treatment facilities. MEDEVAC is conducted using 
+dedicated medical platforms, properly marked and protected by the Geneva 
+Conventions, and uses specially trained medical personnel and equipment to provide en 
+route care. CASEVAC is conducted using general-mission aircraft with no medical 
+markings or protections, and manned by crews who may not have specialized medical 
+training. Even when CASEVAC can move a person to treatment faster, the risk of not 
+having en route care could outweigh the time saved. Medical personnel should advise 
+the commander on whether to use MEDEVAC and CASEVAC, but the availability of 
+assets and medical personnel will dictate the method a commander decides to use. In 
+the urban environment, the specific nature of these missions have the same 
+considerations as air assault and air movement. See JP 4-02, Joint Health Services, for 
+more information. 
+a. Specific Urban Considerations.
+(1) MEDEVAC and CASEVAC operations in the urban environment will be
+constrained to limited numbers of suitable landing areas. This restriction
+necessitates detailed planning with ground forces. MEDEVAC and CASEVAC
+from the point of injury often is impractical.
+(2) Noncombatant casualties are more likely to occur in the urban setting, so
+commanders must be prepared to use MEDEVAC and CASEVAC assets for
+noncombatant casualties. Evacuation priorities will dictate this requirement.
+(3) Aircrews must understand the theater evacuation policy and medical rules of
+eligibility.
+(4) Communication LOS Challenges. MEDEVAC and CASEVAC aircrews should
+be prepared to receive relayed communications from overhead aircraft, en route
+to an LZ.
+b. Mitigation and Employment Techniques.
+(1) When possible, MEDEVAC and CASEVAC crews should have a copy of the
+scheme of maneuver and operational graphics with marked patient collection
+points, ambulance exchange points, and potential LZs.
+(2) Hoist-equipped aircraft can evacuate a casualty when landing is impractical,
+but extended hovering may put the aircraft at increased risk.
+(3) Structures with flat roofs may be used as LZs, but aircrews should plan to
+execute an alternate extraction (i.e., one wheel, ramp, or light landing) if the roof
+cannot support the weight of the aircraft.
+8. Personnel Recovery Operations
+Personnel recovery in the urban environment presents multiple challenges. Evasion in 
+the urban environment will be slow and difficult, depending on local populace support of 
+friendly forces, enemy forces density, and urban density. Therefore, the isolated 
+personnel (IP) may have to stay relatively fixed and the rescue force will have to recover 
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+43 
+IP at their location. Visual acquisition by overhead aircraft will be difficult and increased 
+time and effort to find the IP will be necessary. The urban environment can have 
+significant sources of light and heat which may make crash site identification and IP 
+observation difficult by overhead aircraft. Aircrew survival radios operate under low 
+power and have LOS voice capability with GPS and satellite imbedded data capability. 
+The vertical nature of the urban environment can limit the effectiveness of their 
+functions. 
+a. The designated mission commander will determine whether to conduct an
+immediate or deliberate recovery. An immediate recovery is executed with the forces
+on hand and reduces the risk to the IP. A deliberate recovery is conducted with
+some level of preplanning and reduces the risk to the recovery force. The decision
+point should be identified in mission planning to reduce delays in execution. Factors
+to consider for making a recovery decision include:
+(1) Number and condition of IPs.
+(2) Surface, supersurface, and air threats.
+(3) Fidelity of the IP’s location.
+(4) Proximity to friendly forces.
+(5) Environmental factors.
+b. As the number of aircraft and ground personnel increase, required planning and
+coordination increases. A recovery effort should be executed as soon as a suitable
+package can be assembled to increase the chances of a successful recovery and to
+mitigate risk.
+c. Locating the IP in an urban environment can require a large force and multiple
+sensors due to the complexity of the urban environment.
+d. If using an LZ, planners must consider the size of the LZ, the distance from the
+LZ to the IP’s location, and threats.
+e. Considerations for personnel recovery by ground forces:
+(1) In a permissive environment, recovery of IP may be expedited by using
+friendly ground forces. However, in a contested or congested environment,
+recovery by ground forces may be significantly delayed.
+(2) Ensure detailed coordination for fires and airspace control between the
+ground and airborne forces is complete and continuous until the end of the
+recovery mission. The urban environment exacerbates this requirement due to
+congested airspace and the density of ground forces (both friendly and enemy).
+(3) Detailed frequency planning is required for effective communications.
+Consider ground force use of the combat search and rescue (CSAR) common
+frequency to begin this coordination in a time-critical environment. As a last
+resort, CSAR A and B frequencies may be used.
+44 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+(4) Establish a geographical point at which the approaching ground force will
+establish communication with the on-scene commander and receive approval
+before proceeding into the recovery objective area.
+f. Considerations for personnel recovery by air assets.
+(1) The IP may lack communications.
+(2) The IP’s location may not be near suitable LZs.
+(3) The on-scene commander must coordinate with the AO owner and
+designated airspace control element(s) to gain required fire support coordination
+measures and airspace coordinating measures, respectively.
+(4) CD from the battle-space owner must be clearly passed and understood by
+the aircrew involved in the rescue.
+(5) Until the IP is located, use all fires judiciously.
+(6) Hoist-equipped aircraft can evacuate the IP when landing is impractical;
+however, extended hovering may put the aircraft at risk.
+9. Humanitarian Assistance (HA) and Disaster Relief (DR)
+HA and DR involve transporting life sustaining aid to displaced persons to alleviate 
+suffering, and possibly rescuing or evacuating survivors from unsafe conditions.  
+a. Airspace Control. Normal air traffic services may be disrupted or degraded during
+HA and DR operations. Due to the high volume of rotary- and fixed-wing and tiltrotor
+aircraft involved, consider establishing flight following services, course rules,
+mandatory reporting areas, and frequency plans. Civilian SUAS may be operating
+without regard to ongoing operations and deconfliction plans. Additionally, during HA
+and DR, the military may not control the airspace over the operational area. In these
+situations, the military will have to coordinate with civil organizations for airspace
+access and control, potentially without the benefit of previous rehearsals or
+exercises. For example, over the continental United States, the Federal Aviation
+Administration will likely fulfill their normal role as the airspace controlling agency
+during HA and DR operations.
+b. Local Authorities. Coordination with law enforcement, emergency medical
+services, and other local agencies should be considered to prioritize mission tasking
+and streamline communications. Imbedding liaison officers with aircrews or C2
+elements enables real-time retasking of assets to maximize effectiveness.
+c. Orientation. Natural disasters can flood roads, destroy landmarks, affect urban
+lighting, and otherwise alter the urban landscape. This can make orientation difficult
+for aviation and ground forces.
+d. LZ Considerations.
+(1) Maintaining security due to population size and distress levels.
+(2) Damage of local infrastructure.
+(3) Size and suitability of the LZ in the urban environment.
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+45 
+(4) Select alternate LZ if primary LZ is unavailable or fouled.
+e. Domestic and Foreign Considerations.
+(1) Defense Support of Civil Authorities (DSCA). DSCA is domestic support
+provided by Department of Defense forces, civilians, contractors, and component
+assets in response to request for assistance from civil authorities. For more
+information, refer to ATP 3-28.1/MCRP 3-30.6/NTTP 3-57.2/AFTTP 3-2.67/
+CGTTP 3-57.1, Multi-Service Tactics, Techniques, and Procedures for Defense
+Support of Civil Authorities (DSCA); JP 3-28, Defense Support of Civil
+Authorities; or Department of Defense Directive 3025.18, Defense Support of
+Civil Authorities.
+(2) Foreign HA. Department of Defense activities conducted outside the United
+States and its territories to directly relieve or reduce human suffering, disease,
+hunger, or privation falls under foreign HA. For more information see JP 3-29,
+Foreign Humanitarian Assistance.
+10. Nonlethal Effects
+Planners should consider using nonlethal effects to support operations in the urban 
+environment. Determine the priority among denial, disruption, and exploitation 
+operations to request support from appropriate liaison officers (e.g., the USMC SIGINT 
+deconfliction officer, USAF non-kinetic duty officer, and the USA fires and effects 
+coordination center). Planners should deconflict nonlethal effects with other operations. 
+a. Nonlethal effects planning considerations for the urban environment include:
+(1) Desired geographic scope and target selection.
+(2) Layering effects with other assets to deny, degrade, or exploit.
+(3) Density and proximity of the civilian populace.
+(4) Structural interference of signals.
+(5) Method and frequencies used by friendly and enemy forces.
+(6) Frequency spectrum saturation and interference.
+(7) Integrated cyberspace effects.
+(8) Integrated air defense system communication, sophistication, and doctrine.
+These considerations can make the effectiveness of creating nonlethal effects 
+unpredictable. Creation of nonlethal effects in an urban environment should attempt 
+to minimize the negative effects within urban terrain. Aircrews may be required to 
+employ nonlethal weapons at closer ranges than in nonurban environments. 
+This page intentionally left blank. 
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+47 
+Chapter IV 
+WEAPONS EMPLOYMENT 
+1. Introduction
+Considerations for aviation asset weapons employment during urban operations include 
+target development, CD constraints, sensor management, and weapons delivery, 
+marking, lasing, and sensor employment. 
+2. Target Development
+a. The ability to identify and engage targets in an urban environment may be
+complicated due to the density and height of structures, the population, and the
+availability of cover and concealment. Aircrews must consider the secondary effects
+of striking dual-use targets and the impact to the civilian population (e.g., dams,
+bridges, and airfields).
+b. Aircrews will have a limited engagement time from target identification to
+weapons employment because the enemy in an urban environment has the ability to
+quickly find cover and concealment and move to locations with a high CD concern.
+3. Target Acquisition
+a. Visual Acquisition.
+(1) Daytime acquisition of urban targets can be hindered due to visual cue
+saturation and limited marking options.
+(2) Nighttime acquisition increases marking options, but excessive light pollution
+can affect NVD capabilities.
+b. Sensor-aided Acquisition.
+(1) Planners and aircrews must consider the limitations of available sensors
+(e.g., IR, EO, and television (TV)) based on environmental factors, such as
+smoke, haze, and dust.
+(2) The requirement for objective fidelity will drive the sensor employment
+altitude and standoff, which determines podium and urban canyon effects. These
+concepts will be covered in detail later in this chapter and are depicted in figures
+14 and 16.
+(3) IR systems may detect targets not visible using TV, EO, charge-coupled
+device, and direct-view optics systems. However, thermal crossover periods
+during sunrise and sunset will degrade IR systems by causing them to lose the
+contrast between two adjacent objects.
+c. Ground Moving Target Indicator (GMTI) Radar.
+(1) Proliferation of traffic on urban roads, highways, and intersections during
+daylight hours cause radar correlation and track difficulties.
+48 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+(2) Vertical structure development can degrade radar acquisition due to masking
+and obstruction. When possible, align the radar sweep angle parallel to the
+direction of travel.
+(3) A GMTI can be advantageous in areas or times of low traffic density (e.g.,
+post-curfew hours or an evacuated population center) to conduct a large-area
+target search. Also, aircrews can use a GMTI in a focused area search for
+movement following lethal weapon employment in which the search area is
+obscured due to dust, debris, or haze (e.g., post-weapons engagement or after
+an IED explosion).
+d. Tactical Data Links and Digital Data Sharing.
+(1) Due to the proximity of fires to friendly forces in the urban environment,
+planners and operators must consider using all available tools to conduct battle
+tracking.
+(2) Visual, EO, or IR constraints may drive an increased use of digital
+battlespace awareness tools (e.g., fully integrated data link, Link 16, hand-held
+tablets, variable message format). Using digital data sharing can increase target
+handover efficiency, identify sensor points of interest, and serve as a secondary
+communications option.
+(3) The increase of electromagnetic interference in the urban environment can
+have detrimental effects on tactical data links and LOS communications.
+Consider using redundant communications via relay nodes or airborne
+controllers.
+4. Marking Positions and Targets
+a. When working in close proximity to friendly forces, positively identifying friendly
+positions and target locations is critical to preventing friendly fire incidents. Due to
+increased reliance on marking devices in the urban environment, all participants
+must understand the procedures for using the devices and their limitations.
+b. Friendly Marking.
+(1) Ensure marking methods are visible to air assets, compatible with fielded
+systems, and known by all personnel with friendly marking schemes and
+capabilities.
+(2) Use radar and IR beacons to assist in identifying friendly ground forces in
+urban terrain. Standardized use of ground lighting, thermal contrast, and
+positional relationship of structures influence the effectiveness of these devices.
+(3) Gated laser-intensifier tape, combat identification panels, and smoke present
+challenges and could be poor marking devices when used in the urban
+environment.
+(4) Enemy tactics can reduce the effectiveness of visual markings. Consider
+using digital marking methods as an alternate means (e.g. Link 16 and blue force
+tracker).
+(5) Friendly marking methods may compromise friendly locations.
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+49 
+c. Target Marking.
+(1) Positive air-to-ground communications are essential to coordinate and
+authenticate markings.
+(2) During high and low ambient-light conditions, significant urban shadowing
+from buildings can exist. Shadows may hide personnel and vehicular targets from
+ground forces and aircrews.
+d. Nontraditional Marking. Ground forces may use unconventional methods (e.g.,
+spray paint or bed sheets hung out of windows) to mark horizontal and vertical
+progress during building clearing operations.
+5. Weapon Selection
+a. The focus of weapons selection in an urban environment is to determine the
+correct type and quantity of lethal or nonlethal weapons required to achieve a
+desired effect on a target. Ground force commanders must articulate the desired
+effect for targets. Most lethal weapons are designed and built to create one or more
+of the following five effects:
+(1) Blast. A blast destroys objects through sudden and violent overpressure due
+to the expansion of gases. This is not the primary effect against most tactical
+targets, but it is useful against buildings. The over pressure within the building
+may take down walls and have potentially lethal effects against personnel within
+the building.
+(2) Fragmentation. The fragmentation effect is from high-velocity pieces of the
+munition casing that are propelled outward from the explosion. Normally, this
+provides the longest destructive reach from the point of detonation and is
+generally the most useful weapon effect.
+(3) Armor Penetration. Armor-penetration weapons use shaped-charges or
+kinetic-energy penetration warheads to breach protective coverings, such as tank
+armor. Penetration generally results in subsequent effects of blast and incendiary
+inside the targeted vehicle or structure.
+(4) Cratering. The cratering effect is achieved by delaying the fuse function until
+the weapon becomes buried in the target. Normally, cratering is intended for
+runways or critical transportation routes and may be used to delay or harass
+enemy forces. Cratering can significantly affect subsurface areas.
+(5) Incendiary. Incendiary effects are created by intense heat, causing the
+surrounding material to burn or melt. Incendiary effects often are incorporated
+into attack plans as secondary effects.
+b. Consider the following when choosing weapons in an urban environment:
+(1) Hard, smooth, flat surfaces with 90-degree angles are characteristic of man-
+made targets. Weapons achieve maximum penetration from a perpendicular
+impact in all relative directions (e.g., azimuth and elevation).
+50 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+(2) Due to aerial delivery parameters, munitions may strike an urban structure at
+an angle of less than 90 degrees and also may have an adverse azimuth angle.
+This can reduce the effects of munitions and increase the chance of ricochets.
+(3) Direct-fire weapons may shorten the engagement time necessary for fleeting
+targets.
+(4) Destroyed targets in an urban environment will cause various types of debris.
+Consider the debris effects on friendly, civilian, and enemy freedom of
+movement.
+(5) Smoke, dust, and shadows mask targets, possibly making close-range
+targets indistinct. These effects, along with debris can inhibit the shooter’s and
+observer’s ability to observe round impact and conduct battle damage
+assessment, which may negatively affect the ability to reengage.
+(6) Consider the effect of the weapon and the position of friendly, civilian, and
+enemy personnel in relation to the target.
+(7) When attacking personnel inside structures, select weapons based on the
+desired effects on the target and consider the secondary effects (e.g., building
+collapse, fire, and unintended damage to infrastructure).
+6. Collateral Damage
+a. Engaging targets in an urban environment can be difficult due to CD concerns.
+Minimizing CD protects noncombatants and property, facilitates future operations,
+and reduces the costs of rebuilding. The presence and proximity of friendly ground
+forces and weapons effects are important considerations in weapons selection (e.g.,
+using air burst vs. delay munitions) to include secondary munitions effects (e.g.,
+burning fires and debris). CD involving personnel can vary depending on the
+environment. The following are specific considerations for weapons effects on CD in
+an urban environment:
+(1) Blast effects create the highest concern for CD to surrounding structures.
+(2) Fragmentation effects have the highest risk to personnel; however, they may
+cause less damage to surrounding structures.
+(3) The most significant concern with armor penetration is CD behind the
+intended target. Nonexplosive rounds may penetrate structures in an urban
+environment due to an unreinforced building design.
+(4) Cratering effects can prevent future use of the infrastructure.
+(5) Incendiary effects can cause additional structural weakening and potential for
+building collapse. Dense urban environment may increase the opportunity for fire
+to spread beyond the target area.
+b. Planners and aircrews should consider the following to reduce CD from
+secondary effects:
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+51 
+(1) Blast induced debris can be a significant hazard to noncombatant personnel.
+Many urban combat injuries result from glass shards and falling debris due to
+blast and overpressure.
+(2) Although some delayed fuse munitions are ideal for urban engagements,
+unintentional structural weakening may occur.
+(3) In addition to the effects of a deployable munition (e.g., flechette rockets,
+illumination rounds, and cluster bomb units), the delivery components can also
+cause CD.
+(4) Nonexplosive rounds have a higher probability of ricochet than explosive
+rounds.
+(5) Weapon effects mechanisms can be mitigated by delayed fusing, variable
+time fusing, shielding, delivery heading, and aim-point offset. However, mitigation
+may decrease the weapons’ effectiveness.
+7. Friendly Fire Potential and Avoidance
+a. Organized, clear, and effective communication is the most critical element in
+preventing friendly fire incidents.
+b. Close quarters, identification problems, inaccurate battle tracking, and
+unintentional secondary weapons effects increase the potential for friendly fire
+incidents during urban operations.
+c. Friendly force trackers can be used for battle tracking to help identify the location
+of friendly forces. Forces involved in urban operations should understand the
+potential limitations with devices for friendly force tracking; specifically the reliability
+of friendly position marks due to obscuration, electromagnetic interference, and
+latency.
+d. Not all marking devices are compatible with all friendly aviation assets and
+aircraft systems.
+8. Lasing
+a. Lasing techniques in the urban environment are susceptible to backscatter,
+obscurants, attenuation, beam divergence, spot jitter, refraction, podium effect,
+entrapment, and over and under spill.
+b. It is critical that the individual lasing a target with a ground designator realizes the
+laser energy coming from the designator’s aperture can be seen and tracked by a
+missile; in effect, making the ground designator platform a target. Due to the likely
+proximity of the laser designator to the target in urban environments, this is more of
+a concern than in rural environments.
+c. Laser Designation of Reflective Surfaces.
+(1) Angled engagements can reflect a compact spot to somewhere other than
+the intended target. There can be a high number of reflective surfaces in an
+urban environment. A missile can acquire the reflected laser energy and track to
+52 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+an unintended location. Employ techniques to mitigate these concerns (see figure 
+15). 
+(2) A near perpendicular engagement against highly reflective targets (glass,
+mirrors, and polished metal) can return dangerously high levels of laser energy to
+the designator. Employment of a laser-guided missile (LGM) in an urban
+environment requires careful consideration of LOS geometry.
+(3) It is possible laser energy can penetrate windows resulting in laser spot
+entrapment and failure of the LGM to track laser energy (see figure 15). To
+mitigate reflection, place the laser designator on a nonreflective surface adjacent
+to the desired aim point.
+d. Buddy and Remote Lasing.
+(1) Rotary- and fixed-wing platforms can complement each other during the
+targeting process. This becomes important due to the vertical structure of the
+urban environment and possibility of having an obstructed LOS. Buddy lase may
+enhance the lethality and survivability of both platforms. Rotary-wing aircraft
+provide laser designation capability, but should limit hover time in a hostile
+environment.
+(2) When designating with a ground-based laser within an urban canyon, use
+caution if LOS geometry only allows the weapon to receive laser energy within
+the safety zone. Aircrews should consider employing buddy lasing for LGMs
+when urban obstructions preclude the attacking aircraft from maintaining LOS
+with the target through ordnance impact. See JP 3-09.3 for more information.
+(3) When employing buddy lasing, the terrain may restrict the attack axis due to
+the designator’s position.
+(a) When lasing for medium-to-high altitude attack aircraft, pick a desired
+point of impact on top of a vertically developed structure. Rotary-wing aircraft
+can lase for fixed-wing aircraft, but should consider the possibility of spillage
+when lasing a horizontal surface at an oblique angle.
+(b) When lasing for low-altitude attack aircraft, designators should lase a
+vertical surface, not the top of the target, to avoid creating a podium effect (as
+illustrated in figure 14). Designators should deconflict the gun and
+laser-to-target lines to mitigate podium effects prior to the engagement.
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+53 
+Podium Effect 
+Laser Designation Reflection Considerations 
+9. General Weapons Delivery
+a. Urban terrain introduces unique challenges to aircrews and ground personnel
+due to urban canyons. Urban canyons can shield a target set with vertical structures.
+The vertical characteristics of urban terrain can limit delivery options.
+54 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+b. Urban terrain creates visibility corridors running between structures. This will
+mask street-level targets and subterranean entry points making them only visible
+along the street axis or from high angles.
+c. Subsurface targets will present significant challenges to weapon delivery.
+d. Targeting a specific side or story of a building can limit the engagement heading.
+e. Factors, such as threats or weather, may force the aircraft to deliver from a low
+altitude. Planners and aircrews must consider obstacle clearance along the
+munition’s flight path.
+f. Achieving LOS with an objective at surface level is easier when commencing the
+attack run along the axis of an urban canyon as illustrated in figure 16.
+Attack Along an Urban Canyon 
+g. A look-down into areas surrounded by tall structures is required if roadways do
+not create an adequate avenue of observation, as illustrated in figure 17.
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+55 
+A View Along a Street (A Low Angle is Possible) 
+h. Fixed- and rotary-wing aircraft may experience significantly reduced ordnance
+employment ranges in urban areas compared to rural areas. Reasons for this
+include the following:
+(1) Delivery of direct fire weapons is typically at closer range due to masking
+effects of city structures.
+(2) The masking structures and their heights will determine the look-down angle
+required to achieve LOS.
+(3) High-angle deliveries may provide better look-down angles and visibility into
+a target area and a better ballistic trajectory when delivering ordnance near tall
+structures, as shown in figures 18 and 19.
+56 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+Look-Down View (A High Angle is Required) 
+Look-Down Angle 
+i. Confined spaces and unpredictable routes make moving vehicles difficult to
+target. Since urban operations inherently generate close-quarters engagements, an
+aircraft may not have time to achieve a firing solution on a moving vehicle. Ground
+forces must pass fire mission requests to an aircraft as early as possible for the best
+firing solution.
+j. Post-launch aborts may not be possible in the urban environment where the
+chance for CD is increased due to population density. See JP 3-09.3 for further
+discussion on post-launch aborts.
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+57 
+10. Rotary-wing Attack Techniques
+a. Running and diving fire are the preferred engagement techniques in urban terrain
+due to increased weapons accuracy and reduced ability for the enemy to achieve
+effective fires.
+b. Hovering in urban environments exposes aircraft to small-arms fire while in a
+low-energy state. Only plan or execute hovering fire if it is essential to the mission
+and adequate overwatch fires are available.
+c. Attack rotary-wing aircraft in direct support of ground forces maximize aviation
+reconnaissance, security, and attack capabilities to the supported force.
+d. Manned-unmanned teaming compatible aircraft should consider the use of
+unmanned systems for reconnaissance of the objective area to increase SA, which
+will facilitate:
+(1) Increased standoff due to positive target identification.
+(2) Expedited engagement of previously identified targets.
+(3) Remote engagements to maintain the increased standoff.
+e. Aerial Sniper Platform in the Urban Environment.
+(1) An urban conflict may require employing extremely low-yield, precision fires.
+In this case, employing snipers from rotary-wing aircraft offers the commander
+great operational flexibility in a CD-sensitive environment.
+(2) Sniper teams in an urban environment may occasionally find staying on the
+ground to conduct their mission is not feasible or tactically sound. Using an aerial
+platform may be a tactically advantageous method to rapidly position a sniper.
+Time constraints, possible loss of tactical surprise, and force protection
+challenges during sniper infiltration, or post-shot exfiltration are difficulties
+associated with ground-mobile snipers.
+11. Indirect Fires and Standoff Munitions
+a. Indirect fires, such as artillery, mortars, and naval surface fire support, are used
+in aviation urban operations for target marking, illumination, SEAD, as a diversion to
+mask the sound of rotary-wing aircraft, provide pre-assault fires for LZ occupation, or
+to draw attention from the primary attack.
+(1) Illumination rounds provide additional light to aid in night operations. They are
+used to illuminate areas of suspected enemy activity, provide direction, mark
+targets, or wash out enemy passive NVDs when used at ground level.
+(2) IR illumination rounds are especially effective in urban areas devoid of
+artificial light sources. JIPOE will determine the effectiveness of overt vs. covert
+illumination rounds.
+(3) Ground forces should coordinate the use of illumination rounds for target
+marking with aircrews flying with NVDs because of the increased likelihood of
+unwanted smoke and fires which could negatively impact NVD operations.
+58 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+(4) Artillery can provide effective SEAD fires in the urban environment because
+of their high trajectory-firing capability. Aircrews may rely largely on closely
+delivered SEAD fire for protection against surface-to-air threats. Closely
+coordinate all details of SEAD missions among aircrews, JTACs, observers, and
+fire support coordinators. Aircraft and indirect fire separation techniques provide
+protection from friendly SEAD fires.
+b. Standoff Weapons.
+(1) These weapons are designed for long-range employment and require
+coordination between JTACs and aircrews to identify precise target location,
+impact angle, and fusing options.
+(2) Ranges vary between weapon types, and consideration must be given to
+terrain, obstructions, routing, and environmental factors when selecting standoff
+weapons in the urban environment.
+(3) Standoff Considerations.
+(a) Minimize target location error when target is in proximity to collateral
+objects.
+(b) The lack of visibility with the target area may increase friendly or civilian
+casualty potential.
+(c) GPS jamming, spoofing, or loss can create large targeting accuracy
+errors. Requesting GPS planning products and encrypting GPS receivers can
+mitigate degradation issues.
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+59 
+Appendix A 
+URBAN CAMOUFLAGE, CONCEALMENT, AND DECEPTION 
+1. Camouflage
+a. Traditional camouflage systems are optimized to blend with a natural
+environment. They are designed to make the protected target look like terrain or
+vegetation in all spectrums. Camouflage paints and nets have significantly evolved
+over the last several years.
+b. Urban camouflage may involve a geometric paint pattern, sophisticated
+multispectral nets, or improvised camouflage of cardboard, tarps, sheets, and
+building debris.
+c. Enemy forces may attempt to exploit United States (US) forces’ ROE and friendly
+fire reduction techniques by deliberately employing methods of blending with friendly
+or neutral forces. Some enemy forces use uniforms nearly indistinguishable from US
+uniforms and equipment.
+d. Other nations may use military transport trucks with a commercial product logo
+and advertising depicted on its sides with an additional false skin applied to the cab,
+externally transforming a military vehicle into an apparent commercial truck.
+e. The enemy may also use civilian equipment for military purposes. A common
+example is the technical, a civilian pickup truck used as a mobile weapon’s platform.
+Additionally, civilian vehicles are often used for hauling small arms or vehicle-borne
+improvised explosive devices. The volume of civilian traffic present in urban
+environments will provide challenges to positively identifying threat vehicles within
+the normal patterns of life.
+f. Advanced camouflage techniques allow for changing the thermal signature of a
+target. This may include thermal blankets, cooling devices, and energy reflective
+materials. Another consideration is enemy forces using fires in proximity to their
+locations to cause thermal washout effects.
+g. The use of structures to mask firing locations (loopholes) create challenges in
+identifying the actual point of origin and weaponeering considerations for attack.
+2. Deception and Decoys
+Decoys are designed to force the shooter to waste time, combat power, and ammunition 
+on invalid targets. Decoys can range from very-low to very-high fidelity. On the low end, 
+decoys range from a broom stick placed in a window to appear to be a light machine 
+gun, to bifurcating smoke grenades leaving multiple hotspots in a smoke cloud to 
+counter forward-looking infrared targeting. High-end decoys provide a visible, infrared, 
+electromagnetic, or radar signature to misdirect fire to areas of the friendly force 
+choosing to dissipate probability of kill against friendly targets. 
+This page intentionally left blank. 
+61 
+REFERENCES 
+DEPARTMENT OF DEFENSE AND JOINT PUBLICATIONS 
+Department of Defense Dictionary of Military and Associated Terms, November 2021 
+DODD 3025.18, Defense Support of Civil Authorities (DSCA), 29 December 2010 
+(incorporating Change 2, 19 March 2018) 
+JP 1, Doctrine for the Armed Forces of the United States, 25 March 2013 (incorporating 
+change 1, 12 July 2017) 
+JP 2-01.3, Joint Intelligence Preparation of the Operational Environment, 21 May 2014 
+JP 2-03, Geospatial Intelligence in Joint Operations, 5 July 2017 
+JP 3-0, Joint Operations, 17 January 2017 (incorporating change 1, 22 October 2018) 
+JP 3-01, Countering Air and Missile Threats, 21 April 2017 (validated 2 May 2018) 
+JP 3-03, Joint Interdiction, 9 September 2016 
+JP 3-06, Joint Urban Operations, 20 November 2013 
+JP 3-09, Joint Fire Support, 10 April 2019 
+JP 3-09.3, Close Air Support, 10 June 2019 (validated 7 June 2021) 
+JP 3-28, Defense Support of Civil Authorities, 29 October 2018 
+JP 3-29, Foreign Humanitarian Assistance, 14 May 2019 
+JP 3-30, Joint Air Operations, 25 July 2019 
+JP 3-31, Joint Land Operations, 3 October 2019 (incorporating change 1, 16 November 
+2021) 
+JP 3-50, Personnel Recovery, 2 October 2015 
+JP 3-52, Joint Airspace Control, 13 November 2014 
+JP 3-59, Meteorological and Oceanographic Operations, 10 January 2018 
+JP 3-60, Joint Targeting, 28 September 2018 
+JP 3-84, Legal Support, 2 August 2016 
+JP 4-02, Joint Health Services, 11 December 2017 (incorporating change 1, 
+28 September 2018) 
+ARMY 
+ADP 3-0, Operations, 31 July 2019 
+ATP 2-01.3, Intelligence Preparation of the Battlefield, 1 March 2019 
+ATP 3-04.1, Aviation Tactical Employment, 5 May 2020 
+ATP 3-04.17, Techniques for Forward Arming and Refueling Points, 4 June 2018 
+ATP 3-07.5, Stability Techniques, 31 August 2012 
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+62 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+ATP 3-21.51, Subterranean Operations, 1 November 2019 
+ATTP 3-06.11, Combined Arms Operations in Urban Terrain, 10 June 2011 
+FM 1-02.2, Military Symbols, 10 November 2020 
+FM 3-90-1, Offense and Defense Volume 1, 22 March 2013 
+MARINE CORPS 
+MCRP 3-20F.7, Marine Air Traffic Control Detachment Handbook, 8 May 2019 
+MCRP 3-32D.1, Electronic Warfare, 10 September 2002 
+MCTP 3-01B, Air Assault Operations, 22 February 2019 
+MCTP 3-20B, Aviation Ground Support, 13 May 2021 
+MCTP 3-20D, Offensive Air Support, 4 April 2018 
+MCTP 3-20G, Air Reconnaissance, 4 April 2018 
+MCWP 3-20, Aviation Operations, 4 April 2018 
+MCWP 3-31, Marine Air-Ground Task Force Fires, 4 April 2018 
+AIR FORCE 
+Air Force Doctrine Publication 1, The Air Force, 10 March 2021 
+Air Force Doctrine Publication 3-0, Operations and Planning, 4 November 2016 
+Air Force Doctrine Publication 3-03, Counterland Operations, 21 October 2020 
+Air Force Doctrine Publication 3-05, Special Operations, 1 February 2020 
+Air Force Doctrine Publication 3-2, Irregular Warfare, 10 August 2020 
+Air Force Doctrine Publication 3-36, Air Mobility Operations, 28 June 2019 
+Air Force Doctrine Publication 3-50, Personnel Recovery, 18 March 2020 
+Air Force Doctrine Publication 3-52, Airspace Control, 31 December 2021 
+MULTI-SERVICE PUBLICATIONS 
+ATP 3-06/MCTP 12-10B, Urban Operations, 7 December 2017 
+ATP 3-07.31/MCTP 3-03B/AFTTP 3-2.40, Multi-Service Tactics, Techniques, and 
+Procedures for Peace Operations, 2 May 2019 
+ATP 3-28.1/MCRP 3-30.6/NTTP 3-57.2/AFTTP 3-2.67/CGTTP 3-57.1, Multi-Service 
+Tactics, Techniques, and Procedures for Defense Support of Civil Authorities 
+(DSCA), 11 February 2021 
+NTTP 4-02.2M/MCRP 3-40A.7, Patient Movement, July 2013 
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+63 
+OTHER PUBLICATIONS 
+Joint Operating Environment 2035; The Joint Force in a Contested and Disordered 
+World, Joint Chiefs of Staff, Washington D.C., 14 July 2016: Online: 
+https://www.jcs.mil/Portals/36/Documents/Doctrine/concepts/joint_concepts_jcoie.pdf
+This page intentionally left blank. 
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+65 
+GLOSSARY 
+PART I – ABBREVIATIONS AND ACRONYMS 
+A, B 
+ADA 
+air defense artillery 
+ADGR 
+air-delivered ground refueling 
+AFTTP 
+Air Force tactics, techniques, and procedures 
+AGL 
+above ground level 
+ALSA 
+Air Land Sea Application (Center) 
+AO 
+area of operations 
+ASCOPE 
+areas, structures, capabilities, organizations, people, and 
+events 
+ATP 
+Army techniques publication 
+AWACS 
+Airborne Warning and Control System 
+C 
+C2 
+command and control 
+CAS 
+close air support 
+CASEVAC 
+casualty evacuation 
+CD 
+collateral damage 
+CRC 
+control and reporting center 
+CSAR 
+combat search and rescue 
+D 
+DR 
+disaster relief 
+DSCA 
+defense support of civil authorities 
+DZ 
+drop zone 
+E 
+EO 
+electro-optical 
+F 
+FAC(A) 
+forward air controller (airborne) 
+FARP 
+forward arming and refueling point 
+FMV 
+full-motion video 
+FPASS 
+force protection airborne surveillance system 
+G 
+GMTI 
+ground moving target indicator 
+GPS 
+Global Positioning System 
+66 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+GRG 
+gridded reference graphic 
+H 
+HA 
+humanitarian assistance 
+HIRTA 
+high-intensity radio transmission area 
+I 
+IED 
+improvised explosive device 
+IP 
+isolated personnel 
+IR 
+infrared 
+ISR 
+intelligence, surveillance, and reconnaissance 
+J, K 
+JIPOE 
+joint intelligence preparation of the operational environment 
+JP 
+joint publication 
+JTAC 
+joint terminal attack controller 
+L 
+LGM 
+laser-guided missile 
+LOS 
+line of sight 
+LZ 
+landing zone 
+M 
+MANPADS 
+man-portable air defense system 
+MCRP 
+Marine Corps reference publication 
+MEDEVAC 
+medical evacuation 
+MGRS 
+military grid reference system 
+MSL 
+mean sea level 
+MTTP 
+multi-Service tactics, techniques, and procedures 
+N, O 
+NTTP 
+Navy tactics, techniques, and procedures 
+NVD 
+night vision device 
+NWDC 
+Navy Warfare Development Center 
+P, Q 
+PID 
+positive identification 
+R 
+ROE 
+rules of engagement 
+RPA 
+remotely-piloted aircraft 
+RPG 
+rocket-propelled grenade 
+S 
+SA 
+situational awareness 
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+67 
+SAM 
+surface-to-air missile 
+SEAD 
+suppression of enemy air defenses 
+SIGINT 
+signals intelligence 
+SUAS 
+small unmanned aircraft system 
+T 
+TAOC 
+tactical air operations center 
+TECOM 
+Training and Education Command 
+TRP 
+target reference point 
+TV 
+television 
+U, V, W, X, Y, Z 
+UA 
+unmanned aircraft 
+UAS 
+unmanned aircraft system 
+US 
+United States 
+USMC 
+United States Marine Corps 
+68 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+22 FEB 2022 
+PART II – TERMS AND DEFINITIONS 
+airspace control plan—The document approved by the joint force commander that 
+provides specific planning guidance and procedures for the airspace control 
+system for the joint force operational area. Also called ACP. (DOD Dictionary. 
+Source: (JP 3-52) 
+airspace control order—An order implementing the airspace control plan that provides 
+the details of the approved requests for airspace coordinating measures. Also 
+called ACO. (DOD Dictionary. Source: JP 3-52) 
+air tasking order—A method used to task and disseminate to components, subordinate 
+units, and command and control agencies projected sorties, capabilities, and/or 
+forces to targets and specific missions. Also called ATO. (DOD Dictionary. 
+Source: JP 3-30). 
+close air support—Air action by aircraft against hostile targets that are in close 
+proximity to friendly forces and that require detailed integration of each air 
+mission with the fire and movement of those forces. Also called CAS. (DOD 
+Dictionary. Source: JP 3-09.3). 
+collateral damage—A form of collateral effect that causes unintentional or incidental 
+injury or damage to persons or objects that would not be lawful military targets in 
+the circumstances ruling at the time. (DOD Dictionary. Source: JP 3-60).  
+command and control—The exercise of authority and direction by a properly 
+designated commander over assigned and attached forces in the 
+accomplishment of the mission. Also called C2. (DOD Dictionary. Source: JP 1). 
+direct fire—Fire delivered on a target using the target itself as a point of aim for either 
+the weapon or the director. (DOD Dictionary. Source: JP 3-09.3). 
+drop zone—A specific area upon which airborne troops, equipment, or supplies are 
+airdropped. Also called DZ. (DOD Dictionary. Source: JP 3-17). 
+fire support—Fires that directly support land, maritime, amphibious, space, 
+cyberspace, and special operations forces to engage enemy forces, combat 
+formations, and facilities in pursuit of tactical and operational objectives. (DOD 
+Dictionary. Source: JP 3-09). 
+night vision device—Any electro-optical device used to detect visible and infrared 
+energy and provide a visible image. Also called NVD. (DOD Dictionary. Source: 
+JP 3-09.3). 
+positive control—A method of airspace control that relies on positive identification, 
+tracking, and direction of aircraft within an airspace, conducted with electronic 
+means by an agency having the authority and responsibility therein. (DOD 
+Dictionary. Source: JP 3-52). 
+rules of engagement—Directives issued by competent military authority that delineate 
+the circumstances and limitations under which United States forces will initiate 
+and/or continue combat engagement with other forces encountered. Also called 
+ROE. (DOD Dictionary. Source: JP 3-84). 
+22 FEB 2022 
+ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29 
+69 
+supersurface—Areas above ground level that consist of man-made structures (e.g., 
+buildings, towers, power lines). (This term and its definition are applicable only in 
+the context of this publication and cannot be referenced outside this publication.) 
+target—1. An entity or object that performs a function for the threat considered for 
+possible engagement or other action. (DOD Dictionary. Source: JP 3-60). 
+target reference point—A predetermined point of reference, normally a permanent 
+structure or terrain feature that can be used when describing a target location. 
+Also called TRP. (DOD Dictionary. Source: JP 3-09.3). 
+This page intentionally left blank. 
+*ATP 3-06.1
+MCRP 3-20.4 
+NTTP 3-01.04 
+AFTTP 3-2.29
+ 22 FEB 2022 
+By Order of the Secretary of the Army 
+DISTRIBUTION: 
+Active Army, Army National Guard, and United States Army Reserve. Distributed in 
+electronic media only (EMO). 
+By Order of the Secretary of the Air Force 
+WILLIAM G. HOLT II  
+Major General, USAF 
+Commander 
+Curtis E. LeMay Center for Doctrine Development 
+ and Education 
+ACCESSIBILITY: 
+Publications and forms are available on the e-Publishing website at 
+www.e-publishing.af.mil for downloading or ordering. 
+RELEASABILITY: 
+DISTRIBUTION STATEMENT. Approved for public release; distribution 
+is unlimited. This determination was made on 1 Dec 2021. 
+* Supersedes ATP 3-06.1/MCRP 3-35.3A/NTTP 3-01.04/AFTTP 3-2.29, dated 27
+April 2016.
+Official: 
+MARK F. AVERILL 
+Administrative Assistant 
+to the Secretary of the Army 
+2204711 
+JAMES C. MCCONVILLE 
+General, United States Army 
+Chief of Staff 
+MARINE CORPS PCN: 144 000088 00 
+PIN: 103396-000

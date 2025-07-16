@@ -1,0 +1,969 @@
+DRAFT — NOT FOR IMPLEMENTATION OR COMPLIANCE 
+AFTTP 3-32.34V1, 30 May 2016 
+0 
+         AIR FORCE TACTICS, TECHNIQUES, 
+ AND PROCEDURES 3-32.14 
+19 JANUARY 2024 
+DEPARTMENT OF THE AIR FORCE 
+This page intentionally left blank. 
+BY ORDER OF THE 
+ AIR FORCE TACTICS, TECHNIQUES, 
+SECRETARY OF THE AIR FORCE 
+        AND PROCEDURES 3-32.14 
+19 JANUARY 2024 
+Tactical Doctrine 
+        ALTERNATE INSTALLATION SEQUENCE FOR 
+EMERGENCY AIRFIELD LIGHTING SYSTEM AFTER MAJOR ATTACK 
+ACCESSIBILITY: Publications and forms are available on the e-Publishing 
+website at www.e-Publishing.af.mil for downloading or ordering. 
+RELEASABILITY: There are no releasability restrictions on this publication. 
+OPR: AF/A4CX 
+ Certified by: AF/A4C 
+Pages: 39 
+This publication supports Air Force Instruction (AFI) 10-210, Prime Base 
+Engineer Emergency Force (BEEF) Program and Air Force Pamphlet (AFPAM) 
+10-219, Volume 4, Airfield Damage Repair Operations. It addresses the necessary 
+actions to provide an alternate installation sequence for the Emergency Airfield
+Lighting System (EALS) to meet the Air Component Commander’s Air Tasking
+Order (ATO) after an attack. This publication applies to the Regular Air Force,
+the Air Force Reserve, and the Air National Guard. This publication does not
+apply to the United States Space Force. Ensure all records generated as a result of
+processes prescribed in this publication adhere to Air Force Instruction 33-322,
+Records Management and Information Governance Program, and are disposed in
+accordance with the Air Force Records Disposition Schedule, which is located in
+the Air Force Records Information Management System. Refer recommended
+changes and questions about this publication to the office of primary
+responsibility using the Department of the Air Force (DAF) Form 847,
+Recommendation for Change of Publication; route DAF Forms 847 from the field
+through the appropriate functional chain of command. The use of the name or
+mark of any specific manufacturer, commercial product, commodity, or service
+in this publication does not imply endorsement by the Department of the Air
+Force.
+2 
+ AFTTP3-32.14  19 JANUARY 2024 
+SUMMARY OF CHANGES: This document has been revised and should be 
+completely reviewed. Changes include procedure, safety, and Personal Protective 
+Equipment (PPE) requirements during Rapid Airfield Damage Recovery (RADR) 
+operations. 
+Chapter 1—INTRODUCTION .................................................................... 4 
+1.1. Overview ................................................................................... 4 
+1.2. Variations of Procedures ........................................................... 4 
+1.3. Description ................................................................................ 5 
+1.4. General Safety Considerations .................................................. 6 
+1.5. Published Guidance .................................................................. 6 
+1.6. Personal Protective Equipment ................................................. 7 
+Table 1.1. Listing of Typical PPE by Operation ........................................ 7 
+1.7. Safety Summary ........................................................................ 9 
+Chapter 2—RESOURCES ......................................................................... 11 
+2.1. EALS Equipment .................................................................... 11 
+Figure 2.1. EALS Trailers ........................................................................ 11 
+Table 2.1. Use of EALS Trailers.............................................................. 12 
+2.2. Installation Team .................................................................... 12 
+Table 2.2. Personnel and Vehicle Assignments ....................................... 13 
+2.3. Tools and Spares ...................................................................... 13 
+2.4. Consumable Materials ............................................................. 13 
+Table 2.3. Consumable Materials List ..................................................... 14 
+AFTTP3-32.14  19 JANUARY 2024 
+ 3 
+Chapter 3—PREINSTALLATION ACTIONS ........................................ 15 
+3.1. Required Information ............................................................... 15 
+3.2. Pre-Employment Checks ......................................................... 15 
+3.3. Pre-Marking of Light Locations .............................................. 15 
+3.4. Tape Sweep Area ..................................................................... 16 
+Chapter 4—MOS LAYOUT AND MARKING ........................................ 17 
+4.1. Introduction ............................................................................. 17 
+4.2. Modified EALS Layout and Installation Sequence ................. 17 
+4.3. Taxiway Installation Procedures ............................................. 24 
+Attachment 1—GLOSSARY OF REFERENCES AND 
+SUPPORTING INFORMATION 
+25 
+Attachment 2—PREINSTALLATION CHECKLISTS 
+28 
+Attachment 3—ALTERNATE INSTALLATION SEQUENCE 
+34 
+4 
+ AFTTP3-32.14  19 JANUARY 2024 
+Chapter 1 
+INTRODUCTION 
+1.1. Overview. This publication provides an alternate sequence to install Emer-
+gency Airfield Lighting System (EALS) components when necessary to meet the 
+Air Component Commander’s ATO after a major enemy attack. However, it does 
+not replace component installation instructions found in Technical Order (T.O.) 
+35F5-3-17-1, Lighting System, Airfield, Emergency. Specifically, it describes re-
+quired resources, planning factors, and an alternate installation sequence of con-
+tingency airfield lighting systems. 
+1.2. Variation of Procedures. It is unlikely the contingency lighting system can 
+be installed without disruptions after a major attack. Legacy procedures direct 
+Minimum Operating Strip (MOS) marking precede lighting installation, and then 
+lighting installed in a specific sequence while pavement repairs are in progress. 
+Final connections and system checkout finishes after pavement repairs are com-
+plete. However, the time allotted to repair the amount of expected damage and 
+numbers of recovery equipment, personnel, and vehicles throughout the minimum 
+airfield operating surface (MAOS) during the recovery process will likely dictate 
+changes to the lighting installation sequence from those described in T.O. 35F5-
+3-17-1.
+1.2.1. Legacy marking procedures used “T” clear zones to mark crater repair areas 
+that should not be entered by support teams until the crater has been repaired. 
+With today’s threat, it is unlikely “T” clear zones will be used to mark repair areas; 
+doing so would likely produce “T” clear zones throughout the entire MOS leaving 
+little to no area for support teams (Aircraft Arresting System Installation Team, 
+MAOS Marking Team, Contingency Airfield Lighting Installation Team, and 
+Water and Fuel Expeditionary Repair System Team) to begin their recovery ef-
+forts. 
+1.2.2. Contingency lighting installation will most likely begin with tasks on the 
+MAOS periphery after a major attack. As pavement repairs are completed and 
+relieve congestion on parts of the MAOS, teams may begin installing MOS edge 
+AFTTP3-32.14  19 JANUARY 2024                                                            5 
+lighting and finish just before pavement repair final curing. Follow T.O. 35F5-3- 
+17-1 instructions and task sequencing to the greatest extent possible; however, 
+when contingency lighting installation processes conflict with other recovery op-
+erations, perform installation as described in Chapter 4 of this publication to ex-
+pedite the process.
+1.3. Description. The current Basic Expeditionary Airfield Resources contin-
+gency airfield lighting system is the EALS. The EALS is designed to be rapidly 
+installed at contingency airfields or at other locations that need temporary airfield 
+lighting. When installed, it provides runway edge lighting, approach lighting, 
+threshold/end lighting, taxiway lighting, visual glide slope indication, runway dis-
+tance marker (RDM) lighting, and obstruction lighting. The system is suitable for 
+Visual Flight Rules during contingency operations at night and during periods of 
+reduced visibility but do not qualify the airfield for instrument operations of any 
+kind. The standards in this publication do not apply to forward tactical airfields or 
+landing zones requirements. See Department of the Air Force Manual 
+(DAFMAN) 13-217, Drop Zone, Landing Zone, and Helicopter Landing Zone 
+Operations, for guidance on those requirements. 
+Note: RDMs are described as distance-to-go markers in T.O. 35F5-3-17-1; how-
+ever, they will be referred to as RDM within this publication to be consistent with 
+other Department of Defense publications. 
+1.3.1. The EALS can be installed and secured on all types of surfaces (e.g., sand, 
+frozen earth, mud, ice, asphalt, and concrete). The EALS can light a MOS up to 
+150 ft. by 10,000 ft. Installation of a 50 ft. by 5,000 ft. MOS can be accomplished 
+within 2.5 hours by a six-person crew using two general purpose vehicles (e.g., 
+0.75-ton pick-up, 1 ton, 1.5-ton trucks, etc.) under ideal conditions. The EALS 
+can be installed by personnel wearing chemical defense gear and/or arctic weather 
+clothing, including arctic mittens. 
+1.3.2. The EALS contains taxiway lighting and reflectors, approach lighting 
+equipment, RDM lights, obstruction lights, and Precision Approach Path Indica-
+tors (PAPIs). 
+6 
+ AFTTP3-32.14  19 JANUARY 2024 
+1.3.3. The EALS is designed for use as a unidirectional or bidirectional contin-
+gency lighting system. It is not designed for permanent use, to support Instrument 
+Flight Rules operations, or use when meteorological visibility is less than four 
+statute miles. 
+1.4. General Safety Considerations. In standard and nonstandard construction 
+practices, there are multiple known risk factors in performing RADR duties. It is 
+vital to protect workers from hazards such as high-pressure subsystems and com-
+ponents, harmful solvents and adhesives, and silica dust. The risks and safety fac-
+tors involved with materials and operations should be identified prior and briefed 
+to all personnel that could be involved. A key responsibility of supervisors is to 
+ensure personnel have and wear the necessary PPE and individual protective 
+equipment (IPE) for the working environment. Unsafe field operations while con-
+ducting RADR could cause long and short-term injuries, health issues, disable 
+equipment, and negatively affect the mission. 
+1.5. Published Guidance. Review applicable safety standards and technical man-
+uals for additional safety requirements before performing RADR operations. Guid-
+ance can be found in the following subparagraphs. Compliance with technical or-
+der warnings and cautions is essential. 
+1.5.1. DAFMAN 91-203, Air Force Occupational Safety, Fire, and Health Stand-
+ards, lists PPE for selected CE activities. Although technical orders and other job-
+related publications address proper wear and use of PPE and IPE, workers ulti-
+mately have the responsibility to properly use, inspect, and care for protective 
+equipment assigned. 
+1.5.2. AFI 48-137, Respiratory Protection Program, provides training documen-
+tation procedures and inhalation guidance. Refer to 29 CFR 1910.133, Eye and 
+Face Protection, and AFI 48-127, Occupational Noise and Hearing Conservation 
+Program, for additional guidance and information. For end users consult 29 CFR 
+1910.134, Respiratory Protection. 
+1.5.3. Handlers and users of any polymeric repair material should ensure the man-
+ufacturer product Safety Data Sheet always accompanies the material. Before use, 
+AFTTP3-32.14  19 JANUARY 2024 
+ 7 
+review and follow all product Safety Data Sheet guidance for personal protective 
+equipment and other safety precautions. 
+1.5.4. In accordance with Air Force Medical Readiness Agency Bioenvironmental 
+Engineering AFMRA/SG3PB Memorandum, Joint Service General Purpose 
+Mask M50 Use During Rapid Airfield Damage Recovery Training Events, dated 
+30 September 2020, “Commanders have the discretion to elect the use of the Joint 
+Service General Purpose Mask M50 series protective mask as approved by Bio-
+environmental Engineering or a National Institute for Occupational Safety and 
+Health certified respirator for “Training events Only”.” PPE is identified in Table 
+1.1. 
+1.6. Personal Protective Equipment. Supervisors should coordinate with Bioen-
+vironmental Engineering and the Wing Safety office on the PPE needed to per-
+form RADR operations. Brief safety procedures and appropriate PPE before op-
+erations and verify that all PPE has been approved for the work to be performed. 
+Table 1.1 is a listing of typical PPE by operation. Note: Breathing crystalline 
+silica dust is a serious health hazard. Those performing duties where they may be 
+exposed to silica dust should wear appropriate PPE (including respiratory and eye 
+protection) according to Commander’s guidance. 
+Table 1.1. Listing of Typical PPE by Operation. 
+Operation or Equipment 
+Typical PPE Required 
+Dump Truck 
+Safety-toe boots 
+Gloves 
+Hearing protection 
+Respiratory protection (windows open 
+and it’s dusty) 
+Loader, Grader, Sweeper, 
+Backhoe, Bulldozer, Roller, 
+Paver 
+Safety-toe boots 
+Gloves 
+Eye protection (dust and bright sun) 
+Hearing protection 
+Respiratory protection* 
+8 
+ AFTTP3-32.14  19 JANUARY 2024 
+Jackhammer, Pneumatic Drill 
+Respiratory protection* 
+Safety-toe boots 
+Eye protection 
+Hearing protection 
+Gloves 
+Concrete Saw 
+Safety-toe boots 
+Eye protection 
+Hearing protection 
+Respiratory protection* 
+Gloves 
+Concrete Mixer 
+Safety-toe boots 
+Eye protection 
+Respiratory protection* 
+Hearing protection 
+Portable Power Tools 
+Eye protection 
+Hearing protection 
+Respiratory protection* 
+Paint Striping 
+Eye protection 
+Respiratory protection* 
+Gloves 
+Coveralls 
+AFTTP3-32.14  19 JANUARY 2024 
+ 9 
+Spotters and Concrete Paving 
+Operators 
+Eye Protection 
+Respiratory protection 
+Hearing Protection 
+Gloves 
+Coveralls 
+Steel toe boots 
+Rubber Concrete boots (over the steel 
+toe boots) 
+*N-95, P-95, and R-95 respirator or M50 JSGPM, as directed by Com-
+mander.
+1.7. Safety Summary. The following paragraphs describe general safety precau-
+tions not related to any specific procedures and therefore do not appear elsewhere 
+in this publication. These are recommended precautions personnel should under-
+stand and apply during all phases of operation and maintenance. 
+1.7.1. Keep away from live circuits. Personnel should always observe safety reg-
+ulations. Do not replace components or make adjustments inside equipment with 
+the voltage supply energized. Under certain conditions, dangerous potentials may 
+exist when the system is de-energized due to charges retained by capacitors. To 
+avoid casualties, do not work on an energized circuit. Shut off generators before 
+working on a circuit and disconnect runway cables from regulator output termi-
+nals.  Before working inside a strobe unit, discharge both capacitors. 
+1.7.2. Do not service or adjust alone. Under no circumstances should any person 
+reach into or enter energized enclosures for servicing or adjusting equipment ex-
+cept in justified circumstances approved by the Base Civil Engineer, or equiva-
+lent, and in the presence of someone capable of rendering aid according to 
+AFMAN 32-1065, Grounding & Electrical Systems. 
+1.7.3. Do not drive over exposed cables. The EALS has cable protection strips, 
+which protect runway cable at points where it crosses active taxiways or at other 
+points where runway cable crossing by planes or vehicles is required. Only drive 
+over these protection strips. Driving over live/active power cables is an unsafe 
+10 
+ AFTTP3-32.14  19 JANUARY 2024 
+practice. Loose cables could create a spark resulting in fire, and/or injury to 
+ground support personnel. 
+1.7.4. Resuscitation. Personnel working on or near high voltages should be trained 
+in modern methods of resuscitation. 
+AFTTP3-32.14  19 JANUARY 2024 
+ 11 
+Chapter 2 
+RESOURCES 
+2.1. EALS Equipment. The EALS is packed on six trailers (Figure 2.1) that fit 
+within three 463L aluminum aircraft pallet positions. The equipment needed to 
+install a 50 ft. by 5,000 ft. MOS is packed on four trailers (trailers #2, 3, 4, and 5) 
+which fit on two pallet positions. Table 2.1 lists the stored location of equip-
+ment/components. See T.O. 35F5-3-17-1, Table 1-1 for a complete list of trailer 
+contents. 
+Figure 2.1. EALS Trailers. 
+12        
+ AFTTP3-32.14  19 JANUARY 2024 
+Table 2.1. Use of EALS Trailers. 
+Trailer 
+Primary Use 
+# 1 
+Contains primary control panel & regulator with 2 generator 
+connections. Contains taxiway lights & reflectors, obstruction 
+lights, a spare PAPI & strobe master unit. 
+# 2 
+Contains fixtures & cables for lighting one end & one edge of a 
+runway; and cables and light fixtures for approach lighting. 
+# 3 
+Contains fixtures & cables for lighting opposite end & edge of 
+runway; and cables and light fixtures for approach lighting. 
+# 4 
+Contains backup control panel & regulator with connection for 
+one generator. Also contains strobe slave units & extra cables for 
+edge & end lighting plus generator power & control cables & 
+ground cables. 
+# 5 
+Generator; serves as primary or backup power source. 
+# 6 
+Generator; serves as primary or backup power source. 
+2.2. Installation Team. Six people organized into four crews, with two general-
+purpose vehicles, can set-up the EALS. Both TEAM-A and TEAM-B have two 
+members and one truck each. TAG-A and TAG-B are each a one-person crew 
+traveling on foot for majority of the installation. The two-person teams lay the 
+series circuit cable and place equipment on the ground, while TAGs follow on 
+foot, approximately 800-feet behind the trailer, connecting components to the pri-
+mary series circuit. Table 2.2 identifies personnel and vehicle assignments. 
+ 13 
+AFTTP3-32.14  19 JANUARY 2024        
+Table 2.2. Personnel and Vehicle Assignments. 
+Position 
+AFSC 
+Vehicle 
+Lead, Crew A 
+3E0X1 
+Truck A 
+Operator, Vehicle A Any qualified general purpose vehicle operator Truck A 
+TAG-A 
+3E0X1 
+Truck A 
+Lead, Crew B 
+3E0X1 
+Truck B 
+Operator, Vehicle B Any qualified general purpose vehicle operator Truck B 
+TAG-B 
+3E0X1 
+Truck B 
+2.3. Tools and Spares. All tools required for installation and organization level 
+maintenance are provided with the EALS. Also, spares for 30 days of operation 
+are provided. 
+2.4. Consumable Materials. Lubricants are the only consumable materials re-
+quired for the operation and/or maintenance of the EALS but are not part of the 
+system. These consumable materials are listed in Table 2.3. 
+14 
+ AFTTP3-32.14  19 JANUARY 2024 
+Table 2.3. Consumable Materials List. 
+Nomenclature 
+Specification/Standard 
+Part No./NSN 
+Grease, lubricating, 
+auto and industrial 
+VV-G-632 or equiv.
+N/A 
+Grease, lubricating, 
+auto and artillery 
+MIL-G-10924 or equiv. 
+N/A 
+Transformer Oil 
+N/A 
+DIALA (Shell) 
+Silicone Gasket 
+N/A 
+#77C Ultra-Blue Per-
+matex 
+Thread Sealant 
+N/A 
+AV (Loctite) 
+Cloth, Cleaning, Low- 
+Lint 
+MIL-C-85043 or equiv. 
+NSN 7920-00-044-
+9281 
+Cleaning Compound, 
+Optical Lens 
+MIL-C-43454 or equiv. 
+NSN 6850-00-592-
+3283 
+Spray White Lithium 
+Grease 
+N/A 
+N/A 
+Non-detergent Motor 
+Oil (SAE 50W) 
+MIL –PRF-2104 or equiv. OE/HDO 50 
+Threadlocker, Loctite 
+#242 
+N/A 
+242-21
+Adhesive 
+N/A 
+CA40H 
+Lubricant, polywater 
+N/A 
+G-128
+AFTTP3-32.14  19 JANUARY 2024 
+ 15 
+Chapter 3 
+PREINSTALLATION ACTIONS 
+3.1. Required Information. Before beginning the EALS installation, the team 
+will receive information on the MOS location, taxiway locations, direction of air-
+craft takeoffs and landings, approach slope/PAPI aiming angle, arresting system 
+location, and lighting subsystems to be installed from the Support Chief (see 
+AFPAM 10-219V4, for airfield recovery command and control hierarchy). Table 
+A2.1 lists the required information needed before the installation begins. 
+3.2. Pre-Employment Checks. Observe safety precautions in Table A2.2 before 
+inspecting and/or servicing equipment. Perform equipment checks outlined in Ta-
+ble A2.3 before operating the system to ensure equipment is ready for installation 
+and operation. 
+3.3. Pre-Marking of Light Locations. Typically, a marking crew will mark the 
+location of the runway, taxiways, approach lights, strobes, PAPI, RDMs, and the 
+aircraft arresting systems prior to the EALS installation. Verify marked locations 
+are in compliance with criteria in T.O. 35F5-3-17-1. See UFC 3-535-01, Visual 
+Air Navigation Facilities, to determine proper PAPI system siting requirements. 
+3.3.1. The PAPI system should be securely installed on stabilized surfaces to keep 
+proper alignment and angle setting. If soil is used to elevate PAPI units, soil 
+should be placed within a form and compacted to prevent soil from shifting/set-
+tling due to environmental conditions (e.g., wind and rain), jet blasts, engine vi-
+brations, etc. Forms should be left in place after installation to maintain compac-
+tion. 
+3.3.2. If time permits, a concrete foundation may be poured with rapid-setting 
+crater repair material for mounting PAPI units using concrete anchors if available. 
+3.3.3. Additionally, a wooden mounting deck may be constructed during pre- at-
+tack actions. The deck legs should be long enough so when the PAPI unit is at the 
+proper elevation the top of the unit is not more than 6 feet above ground level and 
+16 
+ AFTTP3-32.14  19 JANUARY 2024 
+the legs are buried at least one foot for stability. If the proper mounting height is 
+below the six-foot maximum the legs may be cut but keep the legs long enough 
+so they may be buried at least one foot while still maintaining the proper PAPI 
+unit height. 
+3.4. Tape Sweep Area. Minimum tape sweep area is determined by sighting a 
+straight line from the position of the runway edge sheave to a point of maximum 
+tape payout (990- or 1200-ft) down the centerline in direction of arrestment. Re-
+move lights and cable within this area on both sides of the runway. Repeat process 
+in opposite direction for a bidirectional installation. Table A2.4 shows approxi-
+mate light free zone distances for a 990-ft tape payout, with 90/153-ft pendants, 
+and edge lights offset at 0, 5, and 10 ft. 
+AFTTP3-32.14  19 JANUARY 2024 
+ 17 
+Chapter 4 
+INSTALLATION SEQUENCE 
+4.1. Introduction. This chapter provides an alternate EALS layout and installa-
+tion sequence made necessary because of extensive damage from an attack and 
+may vary from sequences found in T.O. 35F5-3-17-1. The sequences provided in 
+this chapter are recommended to reduce layout and installation time to the greatest 
+extent possible. The EALS Team Lead determines if the current situation dictates 
+varying from T.O. sequencing. 
+4.2. Modified EALS Layout and Installation Sequence. The following para-
+graphs describe the preferred routes by the four EALS installation crews when the 
+airfield is saturated by bomb damage, repair crews, vehicles and equipment. They 
+also outline the corresponding sequence of tasks performed when unable to follow 
+the T.O. sequence. 
+4.2.1. Team-A Installation Sequence. Figure A3.1 illustrates the route taken and 
+outlines the basic tasks performed by Team-A during EALS installation. Ensure 
+Unexploded Explosive Ordnance (UXO) are cleared in work areas prior to begin-
+ning work. Team-A installation procedures are as follows: 
+4.2.1.1. Latch the Random Access Container door open and connect trailer #2 to 
+the vehicle. Make sure all straps are secured to prevent interference with cable 
+reel operation. 
+4.2.1.2. With TAG-A aboard, drive to End-A threshold and payout 200-ft runway 
+cable segments from the threshold to the strobe master unit location (1,200-ft from 
+threshold). 
+4.2.1.3. At the strobe master unit location (center strobe location) begin installing 
+End-A strobe segment as described in the paragraph titled “TEAM-A MOS Instal-
+lation Procedure” in T.O. 35E5-3-17-1. 
+18 
+ AFTTP3-32.14  19 JANUARY 2024 
+4.2.1.4. After strobe segment is installed, drop off TAG-A and three approach 
+lights, three 45W isolation transformers, three stakes or ballast rings, and two 10- 
+ft runway cables near the strobe slave unit nearest the threshold for the 1,000-ft 
+crossbar. This crossbar should be installed 3 to 5 feet in front of the strobe slave 
+nearest the threshold. 
+4.2.1.5. Place approach lights, 45W isolation transformers, stakes or ballast rings, 
+and 200-ft runway cable from the strobe slave unit location nearest the threshold 
+to the center of the threshold. Procedures for light fixture and transformer place-
+ment are provided in the paragraph titled “Light Fixture, DTG Marker Light, and 
+Transformer Placement” in T.O. 35F5-3-17-1. 
+4.2.1.6. At threshold, place and install End-A threshold/end lights, 100W isolation 
+transformers, 10-ft runway cable and two ballast rings per fixture. If threshold/end 
+lights are to be installed on soil, place one stake per fixture vice ballast rings. Place 
+10-ft cable segments so male ends of connectors point in a clockwise direction
+around the runway. Install fixtures 10-ft from threshold with light fixture cord
+oriented away from the MOS to prevent jet blasts from launching transformers
+towards light fixtures and causing possible damage. Space fixtures 10-ft apart and
+ensure outside threshold/end lights are lined up with edge lights. Cable between
+light fixture and transformer should be pulled taught so jet blasts do not displace
+transformers and cause movement of light fixtures. Place two ballast rings on each
+threshold/end light or stake fixtures down if possible.
+4.2.1.7. Begin installing End-A approach lights and 45W transformers along the 
+MOS centerline from the center of the threshold towards the strobes. The light 
+fixture cord should be oriented perpendicular to the centerline. Continue installing 
+approach lights until meeting TAG-A. If TAG-A has not completed assigned tasks 
+on End-A, assist TAG-A until all End-A tasks are complete. 
+4.2.1.8. Pick up TAG-A and drive to Edge-A PAPI location, place and install PA-
+PIs using procedures provided in T.O. 35F5-3-17-1, paragraph 3-48. 
+4.2.1.9. If applicable, drive to Edge-B PAPI location, place and install PAPIs. 
+AFTTP3-32.14  19 JANUARY 2024 
+ 19 
+4.2.1.10. Drop TAG-A at End-A and proceed towards End-B placing edge lights, 
+RDM lights, 45W transformers (for both edge lights and RDM lights), stakes, and 
+200-ft runway cable along Edge-A. In areas that have not been cleared of repair
+vehicles and debris, place items far enough from MOS edge where they will not
+be damaged.
+4.2.1.11. When reaching End-B, travel back along Edge-A from End-B threshold 
+toward End-A installing edge lights (and staking), RDM lights, transformers pre-
+viously placed on the ground until meeting up with TAG-A. 
+4.2.1.12. Pick up TAG-A and drive to regulator/control panel location and check 
+with Team-B to see if they need assistance. 
+4.2.2. TAG-A Installation Sequence. Figure A3.2 displays the route taken and 
+outlines the basic tasks performed by TAG-A during EALS installation. Ensure 
+UXO have been cleared prior to beginning work. TAG-A installation procedures 
+are as follows: 
+4.2.2.1. Carry out steps in paragraphs 4.2.2.2 and 4.2.2.3 with Team-A. 
+4.2.2.2. Payout 200-foot runway cable segments form End-A threshold to strobe 
+master unit location. 
+4.2.2.3. Install End-A strobe segment with Team-A as described in T.O. 35E5-3- 
+17-1, paragraph 3-23.d through l.
+4.2.2.4. Travel on foot to inboard strobe slave and install three End-A crossbar 
+approach lights and 45W transformers. The center crossbar approach light should 
+be placed on the approach side of the near strobe slave unit. The right crossbar 
+approach light should be installed even with the center approach light and 10-ft to 
+the right of the MOS centerline (use 10-ft cable as a measuring device). The left 
+crossbar approach light should be installed even with the center approach light 
+and 10-ft to the left of the MOS centerline. 
+20 
+ AFTTP3-32.14  19 JANUARY 2024 
+4.2.2.5. Install End-A approach lights and 45W transformers from the crossbar to 
+the center of the End-A threshold. The approach lights should be installed along 
+the centerline with the light fixture cord oriented perpendicular to the centerline. 
+4.2.2.6. When meeting Team-A while installing End-A approach lights, join 
+Team-A and assist with installing Edge-A PAPIs as described in paragraph “PAPI 
+Subsystem Installation” in T.O. 35F5-3-17-1. 
+4.2.2.7. Travel with Team-A to Edge-B PAPIs and assist with PAPI installation. 
+4.2.2.8. Travel with Team-A to End-A. Dismount and travel on foot installing 
+Edge-A light fixtures, RDM lights, and transformers toward End-B. Stake the fix-
+tures as needed. At the arresting barrier, ensure the runway cable is clear of the 
+arresting gear and tape sweep area (Team-A will be installing light fixtures and 
+transformers along Edge-A from End-B toward End-A simultaneously). 
+4.2.2.9. Upon meeting Team-A and edge light installation is complete, join Team-
+A and proceed to regulator/control panel location and assist Team-B if necessary. 
+4.2.3. Team-B Installation Sequence. Figure A3.3 shows the route taken and out-
+lines the basic tasks performed by Team-B during a bidirectional alternate EALS 
+installation. If the MOS is unidirectional, disregard paragraphs 4.2.3.1. through 
+4.2.3.12. Ensure UXO have been cleared prior to beginning work. Team-B instal-
+lation procedures are as follows: 
+4.2.3.1. Latch the RAC door open and connect trailer #3 to vehicle. Make sure all 
+straps are secured so they will not interfere with the operation of the cable reels. 
+4.2.3.2. If the MOS is bidirectional, drive to End-B threshold, with TAG-B 
+aboard, and payout 200-ft runway cable segments from the threshold to the strobe 
+master unit location (1,200-ft from threshold). If not bidirectional, skip to para-
+graph 4.2.3.6. 
+AFTTP3-32.14  19 JANUARY 2024 
+ 21 
+4.2.3.3. At the strobe master unit location (center strobe location) begin installing 
+End-B strobe segment as described in paragraph “TEAM-B MOS Installation Pro-
+cedure” in T.O. 35E5-3-17-1. 
+4.2.3.4. After strobe segment is installed, drop off three approach lights, three 
+45W isolation transformers, three stakes or ballast rings, and two 10-ft runway 
+cables for the 1,000-ft crossbar. This crossbar should be installed 3 to 5 feet in 
+front of the strobe slave nearest the threshold. 
+4.2.3.5. Place approach lights, 45W isolation transformers, stakes or ballast rings, 
+and 200-ft runway cable from inboard strobe slave unit to the center of the thresh-
+old. Ensure proper alignment with the MOS centerline. Procedures for light fix-
+ture and transformer placement are provided in paragraph “Light Fixture, DTG 
+Marker Light, and Transformer Placement” of T.O. 35F5-3-17-1. 
+4.2.3.6. At the threshold, place and install End-B threshold/end lights, 100W iso-
+lation transformers, 10-ft runway cable and two ballast rings per fixture. If the 
+threshold/end lights are to be installed on a soil surface, place one stake per light 
+fixture instead of ballast rings. Place the 10-ft cable segments so that the male 
+ends of the connectors point in a clockwise direction around the runway. Install 
+fixtures 10-ft from the threshold with the light fixture cord oriented away from 
+the MOS to prevent jet blasts from launching the transformers towards the light 
+fixtures and causing possible damage. Space the fixtures 10-ft apart and ensure 
+the outside threshold/end lights are lined up with the edge lights. The cable be-
+tween the light fixture and transformer should be pulled taught so that jet blasts 
+do not displace the transformers and cause movement of the light fixtures. Place 
+two ballast rings on each threshold/end light or stake the fixtures down if possible. 
+4.2.3.7. Begin installing End-B approach lights and 45W transformers along the 
+MOS centerline from the center of the threshold towards the strobes. The light 
+fixture cord should be oriented perpendicular to the centerline. Continue installing 
+approach lights until meeting TAG-B. If TAG-B has not completed their tasks on 
+End-B, assist TAG-B until all End-B tasks are complete. 
+22                                                                 AFTTP3-32.14  19 JANUARY 2024 
+4.2.3.8. Pick-up TAG-B and drive to the regulator/control panel location and place 
+200-ft runway cable from the regulator location to the edge of the MOS (to be 
+connected to the nearest edge light cable connector on the MOS edge). Place 200-
+ft runway cable segments back to the regulator.
+4.2.3.9. Install generators using procedures provided in paragraph “TEAM-B MOS 
+Installation Procedures” of T.O. 35F5-3-17-1. 
+4.2.3.10. Drop TAG-B at End-B and place Edge-B lights, RDM lights (if applica-
+ble), 45W transformers (for both edge lights and RDM lights), and 200- ft runway 
+cable segments from End-B threshold to End-A threshold. If light fixtures will be 
+staked down during this installation, place one stake with each light fixture. 
+Note: If the MOS is greater than 9,000-ft, disconnect trailer #3 and connect trailer 
+#4 to have enough cable for the installation. 
+4.2.3.11. Begin installing Edge-B lights and RDM lights (if applicable) starting at 
+End-A working towards End- B until meeting up with TAG-B. If the MOS is 
+bidirectional, connect End-B PAPIs to the Edge-B lighting circuit if arriving to 
+the PAPI location before TAG-B. 
+4.2.3.12. Pick up TAG-B and drive to regulator and control panel location. 
+4.2.4. TAG-B Installation Sequence. Figure A3.4 displays the route taken and 
+outlines the basic tasks performed by TAG-B during EALS installation. Ensure 
+UXO are cleared in work areas prior to beginning work. TAG-B installation pro-
+cedures are as follows: 
+4.2.4.1. TAG-B installation procedure begins with Team-B. Carry out steps in 
+paragraphs 4.2.4.2 and 4.2.4.3 with Team-B if the MOS is bidirectional; other-
+wise, begin at paragraph 4.2.4.6. 
+4.2.4.2. Payout 200-foot runway cable segments from End-B threshold to strobe 
+master unit location. 
+AFTTP3-32.14  19 JANUARY 2024 
+ 23 
+4.2.4.3. Install End-B strobe segment with Team-B as described in paragraph 
+“TAG-B MOS Installation Procedure” of T.O. 35E5-3- 17-1. 
+4.2.4.4. Travel on foot to inboard strobe slave and install the three End-B crossbar 
+approach lights and 45W transformers. The center crossbar approach light should 
+be placed on the approach side of the near strobe slave unit. The right crossbar 
+approach light should be installed even with the center approach light and 10-ft to 
+the right of the MOS centerline (use 10-ft cable as a measuring device). The left 
+crossbar approach light should be installed even with the center approach light 
+and 10-ft to the left of the MOS centerline. 
+4.2.4.5. Install End-B approach lights and 45W transformers from the crossbar to 
+the center of the End-B threshold. The approach lights should be installed along 
+the centerline with the light fixture cord oriented perpendicular to the centerline. 
+4.2.4.6. When meeting Team-B while installing End-B approach lights, join 
+Team-B and travel to the regulator and control panel location. 
+4.2.4.7. Ground generators, regulators, control panels, strobe masters, and series 
+circuit adapters. If a ground is not present, establish a ground by installing three 
+3-ft ground rods supplied. Connect a separate ground cable from the ground rod
+to each generator and regulator.
+4.2.4.8. Make power and control connections IAW paragraph “Power and Control 
+Electrical Connections” in T.O. 35F5-3-17-1. 
+4.2.4.9. Travel with Team-B to End-B and install edge light fixtures, RDM lights, 
+and transformers toward End-A. Stake the fixtures down as needed. At the arrest-
+ing barrier, ensure the runway cable is clear of the arresting gear. Team-B will be 
+installing light fixtures and transformers along Edge-B from End-A toward End-
+B. If the MOS is bidirectional, connect End-B PAPIs to the Edge-B lighting cir-
+cuit.
+4.2.4.10. Upon meeting Team-B, proceed with Team-B to the regulator and con-
+trol panel location and assist Team-A as necessary. 
+24 
+ AFTTP3-32.14  19 JANUARY 2024 
+4.3. Taxiway Installation Procedures. If damage, UXO, equipment, vehicles, 
+and/or repair personnel prevent MOS installation as described above and results 
+in work stoppage, the six-man team may begin taxiway installation where possible 
+as shown in T.O. 35F5-3-17-1, figure “Taxiway Lighting, Layout”. Otherwise, 
+perform taxiway installation after MOS lighting has been installed. 
+ TOM D. MILLER 
+ Lieutenant General, USAF 
+ DCS/Logistics, Engineering & Force Protection 
+AFTTP3-32.14  19 JANUARY 2024 
+ 25 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+29 CFR 1910.133, Eye and Face Protection, 25 April 2016 
+29 CFR 1910.134, Respiratory Protection, 20 April 2006 
+AFI 10-210, Prime Base Engineer Emergency Force (BEEF) Program, 25 Octo-
+ber 2023 
+AFI 33-322, Records Management and Information Governance Program, 23 
+March 2020 
+AFI 48-127, Occupational Noise and Hearing Conservation Program, 26 Feb-
+ruary 2016 
+AFI 48-137, Respiratory Protection Program, 12 September 2018 
+DAFMAN 13-217, Drop Zone, Landing Zone, and Helicopter Landing Zone Op-
+erations, 22 April 2021 
+DAFMAN 91-203, Air Force Occupational Safety, Fire, and Health Standards, 
+25 March 2022 
+AFMAN 32-1065, Grounding & Electrical Systems, 17 July 2022 
+AFPAM 10-219, Volume 4, Airfield Damage Repair Operations, 28 May 2008 
+T.O. 35F5-3-17-1, Lighting System, Airfield, Emergency, 12 May 2019 
+UFC 3-535-01, Visual Air Navigation Facilities, 11 April 2017 
+Prescribed Forms 
+None 
+Adopted Forms 
+DAF Form 847, Recommendation for Change of Publication 
+Abbreviations and Acronyms  
+AFI—Air Force Instruction 
+AFPAM—Air Force Pamphlet 
+ATO—Air Tasking Order 
+26 
+ AFTTP3-32.14  19 JANUARY 2024 
+DAF—Department of the Air Force 
+DAFMAN—Department of the Air Force Manual 
+EALS—Emergency Airfield Lighting System 
+MAOS—Minimum Airfield Operating Surface 
+MOS—Minimum Operating Strip  
+PAPI—Precision Approach Path Indicator  
+RADR—Rapid Airfield Damage Recovery 
+RDM—Runway Distance Marker 
+T.O.—Technical Order
+UXO—Unexploded Explosive Ordnance
+Office Symbols 
+AF/A4C—Director of Civil Engineers 
+AF/A4CX—Director of Civil Engineers, Readiness Division 
+AFMRA/SG3PB—Air Force Medical Readiness Agency, Bioenvironmental En-
+gineering 
+Terms 
+Air Tasking Order (ATO)—A method used to task and disseminate to compo-
+nents, subordinate units, and command and control agencies projected sorties, ca-
+pabilities and/or forces to targets and specific missions. Normally provides spe-
+cific instructions to include call signs, targets, controlling agencies, etc., as well 
+as general instructions.  
+Minimum Airfield Operating Surface (MAOS)—The combined requirement 
+for airfield surfaces for both runway and access routes. The MOS is part of the 
+MAOS. 
+Minimum Operating Strip (MOS)—1. A runway which meets the minimum 
+requirements for operating assigned and/or allocated aircraft types on a particular 
+airfield at maximum or combat gross weight. 2. The MOS is the smallest area to 
+be repaired to launch and/or recover aircraft after an attack. Selection depends 
+upon mission requirements, taxi access, resources available, and estimated time 
+to repair. For fighter aircraft, the typically accepted dimensions are 5,000 feet long 
+by 50 feet wide. 
+AFTTP3-32.14  19 JANUARY 2024 
+ 27 
+Runway edge—One of the long sides of the runway/MOS. EDGE-A is the side 
+in the clockwise (left) direction from End-A. EDGE-B is the other side (right). 
+Runway Threshold/End—The threshold is the beginning portion of the usable 
+pavement as viewed by the approaching pilot. The runway end is the last portion 
+of the usable runway/MOS available to a pilot. Green lights mark the threshold 
+end, and red lights mark the runway end. When the threshold of a runway is co- 
+located with the end of the opposite runway, the threshold/end lights have a split 
+lens with green on one side and red on the other. 
+TAG—1-person on installation team traveling on foot for majority of the instal-
+lation. 
+Taxiway—A specially-prepared or designated path on an airfield or heliport, 
+other than apron areas, on which aircraft move under their own power to and from 
+landing, takeoff, service, and parking areas. 
+Techniques—Non-prescriptive ways or methods use to perform missions, func-
+tions, or tasks. 
+Unexploded Explosive Ordnance (UXO)—Explosive ordnance which has been 
+primed, fused, armed, or otherwise prepared for action, and which has been fired, 
+dropped, launched, projected, or placed in such a manner as to constitute a hazard 
+to operations, installations, personnel, or material, and remains unexploded either 
+by malfunction or design.  
+Unidirectional Runway—A condition where, for whatever reason, aircraft 
+takeoff and land on the runway in only one direction. 
+28 
+ AFTTP3-32.14  19 JANUARY 2024 
+Attachment 2 
+PREINSTALLATION CHECKLISTS 
+Table A2.1. Required Information Checklist for System Installation. 
+Determine MOS location and size of runway. 
+Coordinates: Threshold 
+Departure 
+Length: 
+ft 
+Width: 
+ft 
+Centerline offset: 
+ ft       L or     R 
+Determine subsystems to install: 
+ Edge lights 
+ Threshold/end lights 
+Threshold:___ 
+Departure:___ 
+ Approach lighting 
+ Approach strobes 
+Threshold:___ 
+Departure:___ 
+ Approach lights 
+Threshold:___ 
+Departure:___ 
+ Taxiway lighting—Taxiways: 
+/ 
+/ 
+/ 
+/____ 
+ RDM lighting 
+ Aircraft arresting system marker lights 
+ PAPI lights 
+Approach slope angle/ PAPI aim-
+ing angle: 
+Threshold:_____° Departure:____° 
+ Distance from threshold: 
+Threshold:        ft Departure: 
+ ft 
+ Obstruction lights—Locations: 
+/ 
+/ 
+/ 
+/ 
+/ 
+AFTTP3-32.14  19 JANUARY 2024 
+ 29 
+  Coordinate with marking team to determine how when they plan to mark the 
+location of the runway/MOS threshold, edges, centerline, approach-zone cen-
+terline, aircraft arresting systems, taxiways, RDMs, PAPI lights, and obstruc-
+tion lights. 
+  Coordinate EALS setup with MAAS team. Determine if aircraft arresting 
+system is 
+unidirectional / 
+bidirectional. Determine tape sweep area 
+(light free zone):  
+ft (see Table A3.2). 
+  Coordinate with marking team to determine approximate set up location for 
+EALS regulator and generators. Preferred location is midway of MOS and at 
+least 200 feet from the MOS edge. 
+  Determine grounding schemes for power/control equipment and strobe seg-
+ments. 
+  Coordinate EALS installation and timing with crater repair operations. Do 
+not install EALS components in locations that conflict with repair operations, 
+including debris removal and paint striping. 
+30 
+ AFTTP3-32.14  19 JANUARY 2024 
+Table A2.2. Safety Checklist. 
+1.___ 
+Remove all rings, bracelets, watches, and metal-framed glasses. 
+2.___ 
+Wear safety-toed boots, gloves, hearing, and respiratory protection as required.
+3.___ 
+Use only general-purpose vehicles to tow trailers and always use spotters 
+when connecting trailers. Pintle-hook height should not exceed 18” from 
+ground (additional height can cause tow bar to bend or snap when making 
+turns). Raise tailgate on tow vehicle before moving.
+4.___ 
+Trailers are top heavy—do not exceed 25 mph on paved surfaces or 5
+mph on curves and unpaved surfaces. Stay on paved surfaces when 
+possible. When towing more than one trailer, reduce speed and allow 
+extra stopping distance when braking. Do not tow more than three 
+trailers at a time.
+Engage trailer parking-brake before performing any operation on or 
+around the trailer. Always disengage brake before moving a trailer. 
+Ensure people are clear of lighting components and cables before energizing a 
+circuit and during operation of the EALS. 
+Do not work on an energized circuit. Shut off generators before working 
+on a circuit and disconnect runway cables from regulator output terminals.
+Do not dispense cable from reel too quickly. Cable ends can fly off reel. Reel 
+operator should wear gloves. Ensure all bungee cords are tight.
+11.___
+Install PAPI approach lights in correct locations & properly set angles and 
+elevations.
+14.___   Ground generators, regulators, control panels, strobe masters, and series 
+circuit adapters before energizing the system 
+15.___   
+5.___ 
+6.___   
+Wear proper PPE for potential arc flash hazards IAW AFMAN 32-1065.
+7.___
+9.___ 
+10.___
+8.___ 
+Do not attempt to lift or carry a loaded removable container or series circuit 
+adapter alone. Do not attempt to open or close the under-trailer storage (UTS) 
+drawer alone.
+Discharge both capacitors before working inside a strobe unit.
+12.___
+13.___
+View as-built drawings to ensure utility lines are not present before driving
+ground rods (if areas where ground rods will be driven are known in advance, 
+submit an AF Form 103, Clearance Work Request, during pre-attack 
+measures).
+Do not look directly into an operating strobe.
+AFTTP3-32.14  19 JANUARY 2024 
+ 31 
+16.___   
+17.___  
+18.___   
+19.___  
+20.__
+Use 100W isolation transformers with threshold/end lights.
+Connect generator power & control cables to proper terminals on control panel.
+Pick up any debris in work areas to eliminate foreign object damage (FOD) 
+potential.
+Do not attempt to back trailers with tow vehicle, swivel tongues cause the 
+trailer to jackknife.
+Latch random access container (RAC) doors open or close them before towing 
+trailers.
+32 
+ AFTTP3-32.14  19 JANUARY 2024 
+Table A2.3. Pre-employment Equipment Checklist. 
+1.
+Inspect and service generators IAW applicable T.O.
+Trlr
+#5
+Trlr 
+#6
+Visual inspection for leaks, loose cables, and damage 
+Fuel level
+Oil level
+Engine coolant level
+Battery water level, charge, and terminal corrosion
+Belts
+Tire pressure (65 PSI)
+Hand brake
+2.
+Check trailers #1 - #4
+# 1 
+# 2 
+# 3 
+# 4 
+Tire pressure (65 PSI)
+Hand brake
+Inspect for damage
+Mounted equipment secured
+Inventory trailers (T.O. 35F5-3-17-1)
+3.
+Check cable reels for proper operations
+#2 
+#3 
+#4 
+Rewind
+Brake
+Freewheel
+Cable secured on reel
+ 33 
+AFTTP3-32.14  19 JANUARY 2024      
+Table A2.4. Light Free Zone Distances. 
+MOS WIDTH 
+(Feet) 
+PENDANT 
+LENGTH 
+(Feet) 
+EDGE LIGHT OFFSET 
+0-
+FEET 
+5-
+FEET 
+10-FEET
+50 
+90 
+550* 
+450* 
+350* 
+50 
+153 
+700 
+650 
+600 
+90 
+90 
+150 
+50 
+0 
+90 
+153 
+450 
+400 
+350 
+150 
+153** 
+50 
+0 
+0 
+* Distance from AAS to far edge of tape sweep area (in feet). Round up to
+nearest 50-ft; interpolate this data for other conditions.
+** No numbers are provided for a 90-ft pendant on a 150-ft wide runway; 
+the 90-ft pendant effectively reduces runway width to 90 ft. 
+34 
+ AFTTP3-32.14  19 JANUARY 2024 
+Attachment 3 
+ALTERNATE TEAM INSTALLATION SEQUENCES 
+Figure A3.1. Team-A MOS Installation Sequence. 
+AFTTP3-32.14  19 JANUARY 2024 
+ 35 
+Figure A3.2. TAG-A Installation Sequence. 
+36 
+ AFTTP3-32.14  19 JANUARY 2024 
+Figure A3.3. Team-B Installation Sequence. 
+AFTTP3-32.14  19 JANUARY 2024 
+ 37 
+Figure A3.4. TAG-B Installation Sequence. 

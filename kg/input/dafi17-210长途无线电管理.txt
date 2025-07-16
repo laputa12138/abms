@@ -1,0 +1,484 @@
+BY ORDER OF THE  
+SECRETARY OF THE AIR FORCE 
+ 
+DEPARTMENT OF THE AIR FORCE 
+INSTRUCTION 17-210 
+31 JULY 2023 
+Cyberspace 
+LONG HAUL RADIO MANAGEMENT 
+COMPLIANCE WITH THIS PUBLICATION IS MANDATORY 
+ 
+ACCESSIBILITY:  Publications and forms are available on the e-Publishing website at 
+www.e-Publishing.af.mil for downloading or ordering. 
+RELEASABILITY:  There are no releasability restrictions on this publication. 
+ 
+ 
+OPR: AF/A2/6CW 
+Certified by: AF/A2/6C /A3C  
+Brig Gen Terrence A. Adams 
+Supersedes: 
+AFI17-210, 26 May 2016 
+Pages: 12 
+ 
+ 
+This publication implements Department of the Air Force Policy Directive 17-2, Cyber Warfare 
+Operations.  It establishes guidance and procedures for Department of the Air Force (DAF) 
+management and use of the electromagnetic spectrum.  This publication applies to all civilian 
+employees and uniformed members of Regular Air Force, the Air Force Reserve, the Air National 
+Guard, the United States Space Force (USSF) and those who are contractually obligated to comply 
+with DAF publications.  Ensure all records generated as a result of processes prescribed in this 
+publication adhere to Air Force Instruction (AFI) 33-322, Records Management and Information 
+Governance Program, and are disposed in accordance with the Air Force Records Disposition 
+Schedule, which is located in the Air Force Records Information Management System.  Refer 
+recommended changes and questions about this publication to the office of primary responsibility 
+(OPR) using the Department of the Air Force Form 847, Recommendation for Change of 
+Publication; route Department of the Air Force Forms 847 from the field through the appropriate 
+functional chain of command.  This publication may be supplemented at any level, but all 
+supplements must be routed to the OPR of this publication for coordination prior to certification 
+and approval.  The authorities to waive wing and Space Force equivalent unit level requirements 
+in this publication are identified with a tier (“T-0, T-1, T-2, T-3”) number following the compliance 
+statement.  See Department of the Air Force Instruction (DAFI) 90-160, Publications and Forms 
+Management, for a description of the authorities associated with the tier numbers.  Submit requests 
+for waivers through the chain of command to the appropriate tier waiver approval authority, or 
+alternately, to the requestor’s commander for non-tiered compliance items.  The use of the name 
+2 
+DAFI17-210  31 JULY 2023 
+or mark of any specific manufacturer, commercial product, commodity, or service does not imply 
+endorsement by the DAF. 
+SUMMARY OF CHANGES 
+This document has been substantially revised and must be completely reviewed.  Major changes 
+include:  1) consolidation of several separate programs into radio management, 2) removal of 
+Satellite Communications as a major section except where it is used as part of a particular system 
+covered by this publication, 3) removal of Land Mobile Radios as a major section, and 4) removal 
+of Personal Wireless Communications from this publication. 
+1.  OVERVIEW AND BACKGROUND.  This publication establishes guidance and defines 
+roles for the management of long-haul radio communications DAF-wide. Our communication 
+systems require strict governance and standards to maintain operational readiness and ensure 
+reliability. This includes, but is not limited to, the High Frequency Global Communications 
+System, Mystic Star (MS) Communications, Military Auxiliary Radio System (MARS), and the 
+Department of the Air Force Call Sign Program. 
+1.1.  High Frequency Global Communications System is a globally networked, centrally 
+operated, high power high frequency system consisting of 13 high power high frequency 
+stations located around the globe and provides worldwide command and control 
+communications to Department of Defense aircraft, ships, and ground users.  All DAF users 
+with high-power high frequency (>1,000 watts) shall vet their requirements through the lead 
+command office IAW DAFPD 10-9. (T-2).  The lead command will coordinate and be the 
+focal point to collect and consolidate review of the requirement before the user seeks an 
+alternative material solution or acquisition contract to fill those requirements. (T-1).  This 
+guidance does not apply to the URC-119 Pacer Bounce and other portable and deployable high 
+frequency systems. 
+1.2.  Mystic Star (MS) Communications is a worldwide communications mission, executed by 
+elements of the Army, Navy, Air Force, and Space Force under the direction of Defense 
+Information Systems Agency (DISA).  MS consists of ultra-high frequency satellite and high 
+frequency networks supporting Presidential, special air, commander-in-chief, Joint Staff, very 
+important person, and command airborne missions.  The system consists of co-network control 
+stations, inter-station and inter-site circuits, as well as relay and auxiliary communications 
+subsystems. 
+1.3.  Military Auxiliary Radio System (MARS) is an organized network of civilian volunteers 
+whose mission is to assist Department of Defense or civilian authorities’ operations during, or 
+in response to, any major disruption of Department of Defense or other communications 
+networks.  MARS provides health, morale, and welfare radio communications support to 
+military members, civilian employees and contractors of Department of Defense components, 
+and civil agency employees and contractors, when in remote or isolated areas, in contingencies 
+or whenever appropriate.  DAF MARS provides worldwide fixed and mobile emergency 
+communications that support the disaster preparedness program as defined in DoDI 4650.02, 
+Military Auxiliary Radio System.  For current DAF policy and guidance pertaining to MARS, 
+contact 38.cyrs.scm.mars@us.af.mil. 
+DAFI17-210  31 JULY 2023 
+3 
+1.4.  DAF Call Sign Program establishes call sign procedures and Call Sign Lists (CSLs) to 
+identify military aircraft, organizations, activities, base units, operational facilities, staff, and 
+geographic locations.  Call Sign procedures will be adhered to by all users of the CSL-1 (DAF 
+Call Sign List), CSL-2 (Air Combat Command Standard CSL-1 Extract), and CSL-3 (Sensor 
+Pacer). (T-1).  Units will send all call sign requests through their Major Command (MAJCOM) 
+or Field Command (FLDCOM) representatives. (T-2). Supported units and/or activities outside 
+of DAF will submit requests directly to the DAF Call Sign Office. (T-2). For current DAF 
+CSLs and policy for DAF Call Sign management, contact aflcmc.hnc.usaf.vcs@us.af.mil. 
+2.  ROLES AND RESPONSIBILITIES. 
+2.1.  High Frequency Global Communications System. 
+2.1.1.  Deputy Chief of Staff for Strategy, Integration, and Requirements (AF/A5/7) 
+will: 
+2.1.1.1.  Oversee documentation and validation of operational requirements for 
+communications systems in accordance with AFI 10-601, Operational Capability 
+Requirements Documentation and Validation. (T-1). 
+2.1.1.2.  Support the development of high power high frequency systems and networks. 
+(T-1). 
+2.1.2.  Commander, Air Combat Command (COMACC) will: 
+2.1.2.1.  Ensure the coordination of policies and procedures for high frequency and the 
+high frequency global communications system. (T-1). 
+2.1.2.2.  Serve as the single entry point for new high power high frequency 
+requirements to reach Department of Defense High Frequency Working Group. (T-1). 
+2.1.2.3.  Review and implement recommended changes to the high frequency global 
+communications system procedures. (T-1). 
+2.1.2.4.  Coordinate mission requirements of high frequency users with appropriate 
+MAJCOM or FLDCOM plans and programs, operations, and requirement directorates. 
+(T-1). 
+2.1.2.5.  Ensure Nuclear Command, Control, and Communications (NC3) mission 
+requirements are coordinated with Air Force Global Strike Command in accordance 
+with AFI 13-550, Air Force Nuclear Command, Control, and Communications (NC3). 
+(T-1). 
+2.1.2.6.  Recommend, analyze, and approve systems, operations, and maintenance 
+support methods for high power high frequency systems. (T-1). 
+2.1.2.7.  Identify, review, and track all high-power high-frequency technical 
+requirements. (T-1). 
+2.1.2.8.  Provide life cycle management support for High Frequency Global 
+Communications System to include, but not limited to, hardware and software 
+obsolescence, expansion of existing capabilities and capacity, and modernize the high 
+frequency global communications system architecture to support high frequency users 
+worldwide. (T-1). 
+4 
+DAFI17-210  31 JULY 2023 
+2.1.2.9.  Support development and implementation of global and regional high 
+frequency system network standards to deliver capability to the warfighter, including 
+joint and international partners, as directed by combatant command requirements. 
+(T-1). 
+2.1.2.10.  Through the High Frequency Global Communications System Program 
+Office (HFGCS): 
+2.1.2.10.1.  Assess and respond to requests as necessary for inter-command and 
+inter-service special communications support. (T-1). 
+2.1.2.10.2.  Monitor high frequency global communications system network 
+performance. (T-1). 
+2.1.2.10.3.  Support MAJCOM and FLDCOM high frequency managers on staff 
+visits to evaluate operations, equipment use, and system integrity. (T-1). 
+2.1.2.10.4.  Evaluate all vetted proposals to reconfigure, relocate, encroach upon, 
+modify, or remove high frequency global communications system facilities, 
+antenna fields, or infrastructure. (T-1).  Provide technical evaluations (including 
+impacts) to using and operating mission owners and develop budgetary estimates. 
+(T-1). 
+2.1.2.10.5.  Provide high frequency noise interference study support for all existing 
+and proposed future high frequency global communications system station sites. 
+(T-1). 
+2.1.2.10.6.  Coordinate with MAJCOM and FLDCOM spectrum management 
+offices providing high frequency global communications system program office 
+support to ensure any new or upgraded radio frequency dependent systems are 
+spectrum supportable via the spectrum certification or host nation coordination and 
+frequency authorization processes. (T-1). 
+2.1.2.10.7.  Conduct site surveys to assess antenna and radio system health, and 
+develop a sustainment schedule. Identify sources of encroachments (physical or 
+electromagnetic), assess mission impairment, and collaborate with appropriate 
+agencies for resolution. (T-1). 
+2.1.3.  MAJCOM, FLDCOM, Direct Reporting Unit, Field Operating Agency, and 
+Numbered Air Force commanders will: 
+2.1.3.1.  Appoint high frequency program managers. (T-2). 
+2.1.3.2.  While supporting sister service operations, comply with United States and 
+Host Nation electromagnetic spectrum regulations by coordinating activities with 
+owning command’s spectrum management office. (T-0). 
+2.1.3.3.  While supporting sister service operations, coordinate with Air Force Civil 
+Engineering Center and Air Force Installation and Mission Support Center to secure 
+funding required to maintain and sustain all real property (including buildings, real 
+estate, fencing, and associated antennas) and utilities associated with high frequency 
+global communications system and MS mission requirements within their respective 
+commands. (T-2).  Respective MAJCOMs and FLDCOMs will be responsible for 
+DAFI17-210  31 JULY 2023 
+5 
+advocacy and building funding packages. (T-2).  Air Force Civil Engineering Center 
+and Air Force Installation and Mission Support Center will be responsible for 
+distributing funds through the appropriate channels. (T-1). 
+2.1.3.4.  Obtain lead command (IAW DAFPD 10-9) approval before reconfiguring, 
+relocating, encroaching on, modifying, or removing any high frequency global 
+communications system facility, antenna field, or infrastructure support item. (T-2). 
+2.1.3.5.  Obtain Air Force Global Strike Command approval before reconfiguring, 
+relocating, encroaching on, modifying, or removing any high frequency global 
+communications system facility, antenna field, or infrastructure support item to ensure 
+the nuclear command and control mission is not impacted. (T-2). 
+2.1.3.6.  Provide high frequency noise interference study to lead command for approval 
+before authorizing or funding any construction project, non- high frequency equipment 
+siting, civilian encroachment, or industrial projects located at or within one mile of any 
+high frequency global communications system antenna field perimeter. (T-2). 
+2.1.3.7.  Provide plans and configuration drawings to lead command for approval 
+before authorizing or funding any equipment installation within or adjacent to the high 
+frequency global communications system equipment racks. (T-2). 
+2.1.3.8.  Notify lead command (IAW DAFPD 10-9) of any plans to alter buildings 
+housing high frequency global communications system equipment. (T-2).  Originating 
+MAJCOMs and FLDCOMs will fund the proposed move and include in the Program 
+Objective Memorandum. (T-2). 
+2.1.3.9.  Ensure all scheduled and unscheduled equipment service interruptions 
+affecting NC3 links, systems, or networks within a high frequency global 
+communications system station are reported in accordance with current NC3 reporting 
+guidance. (T-2). 
+2.1.3.10.  Ensure operations and maintenance activities implement measures to prevent 
+personnel from exposure to electromagnetic frequency in excess of limits as required 
+by AFI 48-109, Electromagnetic Field Radiation (EMFR) Occupational and 
+Environmental Health Program. (T-1). 
+2.1.4.  DAF unit commanders will:  Appoint property custodians to conduct asset 
+tracking and accountability on all high value high frequency global communications 
+system equipment and property (valued at $5,000 or more) as applicable in accordance 
+with DoDI 5000.64, Accountability and Management of DoD Equipment and Other 
+Accountable Property. (T-0). 
+2.2.  MS Communication System. 
+2.2.1.  Commander, Air Combat Command (COMACC) will: 
+2.2.1.1.  Appoint a program manager to manage the life cycle, future planning, 
+programming, and budgeting of MS elements in accordance with current Defense 
+Information Systems Agency policy and guidance. (T-0). 
+2.2.1.2.  Oversee the activities of the MS program management office and operations 
+technical manager’s office. (T-1). 
+6 
+DAFI17-210  31 JULY 2023 
+2.2.2.  The Commander, 89th Communications Squadron will: 
+2.2.2.1.  Manage, operate, and evaluate co-network control stations. (T-2). 
+2.2.2.2.  Provide network status updates to the MS program manager through the MS 
+operations technical manager. (T-2). 
+2.2.2.3.  Provide facility, administrative, and logistical support for co-network 201 
+control station. (T-2). 
+2.2.2.4.  Ensure user mission requirements are satisfied. (T-2). 
+2.2.2.5.  Through MS technical managers, evaluate system facilities and assess network 
+performance. (T-2). 
+2.2.2.6.  Assess performance trends, standards, and recommended improvements 
+presented by the MS technical managers. (T-2). 
+2.2.2.7.  Coordinate on plans for operating, maintaining, managing, controlling, and 
+configuring the network. (T-2).  Oversee contract personnel through the applicable 
+contracting officer to ensure performance requirements are met. (T-2). 
+2.2.2.8.  Recommend operations, maintenance, sustainment, and upgrade budgets. 
+(T-2). 
+2.2.2.9.  Assist customers with developing new requirements for submission to 
+Cyberspace Capabilities Center (CCC). (T-2). 
+2.2.2.10.  Implement approved network plans and special system configurations. (T-2). 
+2.2.2.11.  Report the operational status, performance status, or limitations of the 
+network to CCC. (T-2). 
+2.2.3.  DAF Unit commanders will:  Appoint property custodians to conduct asset 
+tracking and accountability on all high value MS equipment and property (valued at $5,000 
+or more) as applicable in accordance with DoDI 5000.64. (T-0). 
+2.3.  DAF MARS. 
+2.3.1.  Deputy Chief of Staff for Intelligence, Surveillance, Reconnaissance, and 
+Cyber Effects Operations (AF/A2/6) will: 
+2.3.1.1.  Establish and organize a MARS entity within the DAF. (T-1). 
+2.3.1.2.  Develop overarching policy and guidance for the DAF MARS program. (T-1). 
+2.3.1.3.  Perform oversight and review documents (i.e., annual report) provided to 
+Department of Defense Chief Information Officer and other higher headquarters 
+outside the DAF. (T-1). 
+2.3.2.  Commander, Air Combat Command (COMACC) will: 
+2.3.2.1.  Appoint the DAF MARS chief. (T-1).  This individual may be a civilian or a 
+uniformed member of the regular Air Force or Air Force Reserve on active duty orders, 
+and will be the focal point for all lead command (IAW DAFPD 10-9) activities, 
+requirements, and Secretary of the Air Force delegated responsibilities. (T-1). 
+DAFI17-210  31 JULY 2023 
+7 
+2.3.2.2.  Develop MAJCOM, FLDCOM, or equivalent and below policy and guidance 
+for the DAF MARS program. (T-1). 
+2.3.3.  DAF MARS chief will: 
+2.3.3.1.  Collaborate with DAF active and reserve components; National Guard 
+Bureau, State Guard units, Civil Air Patrol, United States Coast Guard; and Federal, 
+civil and amateur agencies to enhance training and interoperability supporting primary, 
+alternative, contingency, and emergency communications. (T-1). 
+2.3.3.2.  Serves as DAF liaison to the amateur radio community. (T-1). 
+2.3.3.3.  Manage DAF MARS spectrum in accordance with DAFI 17-220, Spectrum 
+Management. (T-1). 
+2.3.3.4.  Coordinate DAF MARS spectrum authorizations and requests with Air 
+Combat Command Director of Cyberspace and Information Dominance (ACC/A6) 
+Spectrum Operations. (T-1). 
+2.3.3.5.  Collaborate with sister service MARS programs on joint MARS spectrum 
+authorizations and requests. (T-1). 
+2.3.3.6.  Oversee DAF MARS membership activities. (T-1). 
+2.3.3.7.  Oversee and manage the DAF MARS volunteer recognition program. (T-1). 
+2.3.4.  MAJCOM and FLDCOM commanders will: 
+2.3.4.1.  Coordinate spectrum request and authorizations with CCC. (T-2). 
+2.3.4.2.  Notify CCC of all DAF MARS appointments. (T-2). 
+2.3.4.3.  Submit spectrum authorization requests with the appropriate MAJCOM, 
+FLDCOM, or host installation spectrum office (or equivalent) in accordance with DAFI 
+17-220. (T-1). 
+2.3.4.4.  Collaborate with sister service MARS programs on joint MARS spectrum 
+authorizations and requests. (T-2). 
+2.4.  DAF Call Sign Program. 
+2.4.1.  DAF Call Sign Office leadership, the Cryptologic and Cyber Systems Division 
+of Air Force Life Cycle Management Center (AFLCMC/HNCC) will: 
+2.4.1.1.  Manage supported entities’ call signs and work with MAJCOMs and 
+FLDCOMs to ensure regulatory compliance. (T-1).  For inquiries pertaining to DAF 
+call signs, contact  CallSigns@us.af.mil. 
+2.4.1.2.  Manage the DAF call sign program. (T-1). 
+2.4.1.3.  Process call sign assignment and change requests to support non-DAF 
+agencies and services on a case-by-case basis. (T-1).  Ensure signed memorandum of 
+agreement between DAF Call Sign Office and the agency or service. (T-1). 
+2.4.2.  MAJCOM and FLDCOM commanders will: 
+2.4.2.1.  Ensure compliance with DAF Call Sign policy and serve as the call sign focal 
+point for all subordinate units. (T-2). 
+8 
+DAFI17-210  31 JULY 2023 
+2.4.2.2.  Ensure changes to personnel and contact information is provided to the DAF 
+Call Sign Office. (T-2).  Failure to maintain and provide call sign contact information 
+will result in deallocation of all subordinate units’ call signs. (T-2). 
+2.4.2.3.  Ensure requests regarding reallocation of previously used call signs are 
+requested in writing by the appropriate MAJCOM or FLDCOM, and endorsed by a 
+Colonel (O-6) or government civilian equivalent (e.g., GS-15). (T-2). 
+2.4.2.4.  Validate unique units registered in the Call Sign Program database at least 
+annually, or as requested by the DAF Call Sign Office. (T-2). 
+2.4.2.5.  Non-DAF entities will adhere to regulations and operating instructions 
+governing the DAF Voice Call Sign Program and execute a memorandum of agreement 
+with the DAF Call Sign Office in order to receive call sign management support from 
+the DAF. (T-1). 
+2.4.2.6.  Ensure Air National Guard representatives provide call sign management 
+support to Air National Guard units and DAF Call Sign Office. (T-2). 
+3.  PROGRAM DETAILS AND PROCEDURES. 
+3.1.  DAF MARS. 
+3.1.1.  For operating directives, training, and other MARS resources, contact 
+38.cyrs.scm.mars@us.af.mil. 
+3.1.2.  All DAF MARS members may ship or store military auxiliary radio system 
+equipment at government expense (see Joint Travel Regulations and paragraph 3.1.3.4. of 
+AFI 24-602V4, Personal Property Moving and Storage for additional guidance). 
+3.1.3.  DAF MARS officials may use government telephone systems to conduct official 
+military auxiliary radio system business. 
+3.1.4.  Per DoDI 4650.02, Military Auxiliary Radio System, all MARS members may be 
+considered for benefits associated with Department of Defense civilian service in 
+accordance with relevant Department of Defense guidance (i.e., DoDI 1015.10, Military 
+Morale, Welfare, and Recreation (MWR) Programs). 
+3.2.  DAF MARS Civil Agency Support.  Refer to Department of the Air Force Policy 
+Directive 10-8, Defense Support of Civil Authorities, AFI 10-801, Defense Support of Civil 
+Authorities, and AFI 10-2501, Emergency Management Program, for support guidance for 
+civil agencies near military installations. 
+3.3.  Waveform Sponsorship. 
+3.3.1.  In accordance with DoDI 4630.09, Communications Waveform Management and 
+Standardization, the DAF shall be the waveform sponsor if the DAF is responsible for all 
+program documentation, periodic reporting, and funding actions required to support the 
+capabilities development and acquisition process for the specific capability proposal. (T-0). 
+3.3.2.  AF/A2/6 is the DAF organizational point of contact for waveforms for which the 
+DAF is the waveform sponsor.  The Department of Defense Chief Information Officer 
+Command, Control, Communications, and Computers and Information Infrastructure 
+DAFI17-210  31 JULY 2023 
+9 
+Directorate maintains the Department of Defense Communications Waveform Inventory 
+on behalf of the services. 
+3.3.3.  AF/A2/6 shall be responsible, on behalf of the DAF, for ensuring compliance with 
+DoDI 4630.09. (T-0). 
+3.4.  Call Sign Procedures. 
+3.4.1.  Use English language dictionary words as the call sign, followed by a numeric 
+suffix. (T-0).  Call signs must be easy to pronounce and spell. (T-0).  Avoid using words 
+that are homophones, two words that sound alike but have different spellings (e.g., ‘quartz’ 
+and ‘quarts’).  Supported units must request only the minimum number of numeric suffixes 
+required for operations. (T-0). 
+3.4.2.  Aircraft call signs must be words four to six letters in length, followed by one-, two-
+, or three-digit suffix. (T-0).  For maximum operational security assurance, the one-, two-, 
+or three-digit call sign suffix should not contain any part of the aircraft registration number.  
+Call sign words must be either a single word or two words merged into one maximum six-
+letter group. (T-0).  Total combination of letters and numbers must not exceed seven 
+characters. (T-0).  Avoid truncations or shortening of words, truncation may cause errors 
+in Federal Aviation Administration (FAA) air traffic management systems.  One or two 
+letter call signs are not authorized. (T-1).  Coordination with FAA is required to ensure 
+DAF call signs do not duplicate or interfere with FAA Special Call Signs assigned to 
+Federal, State or local civilian government agencies. (T-0). 
+3.4.2.1.  Special DAF call signs that contain only three letters may be authorized, but 
+must be coordinated by Air Force Life Cycle Management Center (AFLCMC), Air 
+Force Civil/Military Aviation Integration Division (AF/A3OJ) and the FAA in order to 
+obtain International Civil Aviation Organization approval. (T-0).  These call signs are 
+generally reserved only for commercial airline use and thus must be specially 
+coordinated. 
+3.4.2.2.  This process is required to ensure they are approved by International Civil 
+Aviation Administration, included in the FAA Sensitive Flight Data security program, 
+and are compatible with FAA air traffic management systems.  Use of three-letter call 
+signs that are not approved through this process are not authorized. (T-0). 
+3.4.3.  Authorized variations and details are listed in Annex A of the Voice Call Sign 
+Operating Instruction located on Secure Internet Protocol Routing Network at 
+https://intelshare.intelink.sgov.gov/sites/usafcallsigns/sitepages/home.aspx. 
+3.4.4.  Units are authorized one static call sign for every permanently assigned aircraft. 
+3.4.5.  Use changing call signs to the maximum extent to enhance operational security 
+during operations, exercises and contingency operations, while conducting research and 
+development testing, and evaluating programs. 
+3.4.6.  Call signs will not contain any of the following unless specifically authorized by the 
+Voice Call Sign Operating Instruction:  Acronyms, MAJCOM, FLDCOM, or unit name, 
+abbreviations, phonetic alphabet, or spoken numbers other than authorized suffixes. (T-2). 
+3.4.7.  MAJCOM and FLDCOM authorized waivers must be submitted in writing to the 
+DAF Call Sign Office with compelling justification. (T-2). 
+10 
+DAFI17-210  31 JULY 2023 
+3.4.8.  Deviations will be published in Annex A of the Voice Call Sign Operating 
+Instruction, Authorized Voice Call Sign Variations, not in the Call Sign List. (T-2). 
+3.4.9.  Consider operational security before requesting static call sign assignments or other 
+unchanging variations outlined in Annex A of the Voice Call Sign Operating Instruction. 
+3.4.10.  The call sign office will make best efforts to assign requested call signs to meet 
+operational requirements. 
+3.5.  Call Sign Exceptions to Standard Procedures. 
+3.5.1.  Global high frequency systems are identified by the geographical name of the station 
+or location. 
+3.5.2.  Call signs used in theaters of operation are assigned and managed by the respective 
+commander, unless otherwise specified. 
+3.5.3.  Base land mobile radio call signs are managed by the land mobile radio 
+representative or equivalent. 
+3.5.4.  Air and Space Operations Centers must have spare call signs assigned at all times. 
+These will be properly designated as spares (e.g., 603AOC SPARE). (T-2). 
+3.6.  Application of the DAF Voice Call Sign Program. 
+3.6.1.  The Voice Call Sign Operating Instruction contains detailed procedures for 
+requesting, assigning, and using voice call signs.  This is located on Secure Internet 
+Protocol 
+Routing 
+Network 
+at 
+https://intelshare.intelink.sgov.gov/sites/usafcallsigns/sitepages/home.aspx. 
+3.6.2.  CSL-1 contains static and changing call sign assignments for use around the world 
+by various United States government and Canadian entities and has an overall classification 
+of CONFIDENTIAL//REL TO USA, CAN. 
+3.6.3.  CSL-2 is an operational publication extract from CSL-1 and is produced explicitly 
+for Air Combat Command.  This product is used aboard aircraft when authorized by the 
+controlling authority and ACC/A6.  CSL-2 has an overall classification of 
+CONFIDENTIAL. 
+3.6.4.  CSL-3 is an operational publication produced explicitly for the 16th Air Force.  This 
+product is used only by intelligence activities specifically authorized by 16th Air Force.  
+CSL-3 has an overall classification of SECRET//REL FVEY. 
+ 
+LEAH G. LAUDERBACK, Lt Gen, USAF 
+Deputy Chief of Staff, Intelligence, Surveillance, 
+Reconnaissance and Cyber Effects Operations 
+DAFI17-210  31 JULY 2023 
+11 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+DoD JTR, Joint Travel Regulations, Uniformed Service Members and DoD Civilian Employees, 
+current edition 
+DoDI 1015.10, Military Morale, Welfare, and Recreation (MWR) Programs, 6 July 2009 
+DoDI 4630.09, Communications Waveform Management and Standardization, 23 November 
+2020 
+DoDI 4650.02, Military Auxiliary Radio System, 20 December 2021 
+DoDI 5000.64, Accountability and Management of DoD Equipment and Other Accountable 
+Property, 27 April 2017 
+DAFI 17-220, Spectrum Management, 8 June 2021 
+DAFI 90-160, Publications and Forms Management, 14 April 2022 
+DAFMAN 90-161, Publishing Processes and Procedures, 15 April 2022 
+DAFPD 10-8, Defense Support of Civil Authorities (DSCA), 13 Sept 2022 
+DAFPD 10-9, Lead Command/Lead Agent Designation and Responsibilities for United States 
+Air Force Weapon Systems, Non-Weapon Systems, and Activities, 25 May 2021 
+DAFPD 17-2, Cyber Warfare Operations, 27 October 2020 
+AFI 10-601, Operational Capability Requirements Documentation and Validation, 27 April 2021 
+AFI 10-801, Defense Support of Civil Authorities, 29 January 2020 
+AFI 10-2501, Emergency Management Program, 10 March 2020 
+AFI 13-550, Air Force Nuclear Command, Control, and Communications (NC3), 16 April 2019 
+(or current version) 
+AFI 33-217, Communications and Information Voice Call Sign Program, current edition 
+AFI 33-322, Records Management and Information Governance Program, 23 March 2020 
+AFI 48-109, Electromagnetic Field Radiation (EMFR) Occupational and Environmental Health 
+Program, 1 August 2014 
+Adopted Forms 
+DAF Form 847, Recommendation for Change of Publication 
+Abbreviations and Acronyms 
+AFI—Air Force Instruction 
+AFLCMC—Air Force Life Cycle Management Center 
+AFMAN—Air Force Manual 
+12 
+DAFI17-210  31 JULY 2023 
+CCC—Cyberspace Capabilities Center 
+COMACC—Commander, Air Combat Command 
+COMSEC—Communications Security 
+CSL—Call Sign List 
+DAF—Department of the Air Force 
+DAFI—Department of the Air Force Instruction 
+DISA—Defense Information Systems Agency 
+DoDD—Department of Defense Directive 
+DoDI—Department of Defense Instruction 
+EMFR—Electromagnetic Field Radiation 
+FAA—Federal Aviation Administration 
+FLDCOM—Field Command 
+MAJCOM—Major Command 
+MARS—Military Auxiliary Radio System 
+MS—Mystic Star 
+NC3—Nuclear Command, Control, and Communications 
+OPR—Office of Primary Responsibility 
+UC—Unified Capability 
+USSF—United States Space Force 
+Office Symbols 
+ACC/A6—Air Combat Command Director of Cyberspace and Information Dominance, and Chief 
+Information Officer 
+AF/A2/6—Deputy Chief of Staff for Intelligence, Surveillance, Reconnaissance, and Cyber 
+Effects Operations 
+AF/A2/6C/A3C—Air Force Director for Cyberspace Operations and Warfighter Communications 
+AF/A2/6CW—Air Force Chief of Warfighter Communications 
+AF/A3O—Air Force Deputy Director of Current Operations 
+AF/A5/7—Air Force Futures 
+SF/COO—Space Force Chief of Space Operations for Operations, Cyber and Nuclear. 
+ 

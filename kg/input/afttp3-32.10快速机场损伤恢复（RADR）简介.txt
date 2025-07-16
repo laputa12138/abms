@@ -1,0 +1,4699 @@
+DRAFT — NOT FOR IMPLEMENTATION OR COMPLIANCE 
+AFTTP 3-32.34V1, 30 May 2016 
+0 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AIR FORCE TACTICS, TECHNIQUES, 
+AND PROCEDURES 3-32.10 
+ 
+29 NOVEMBER 2024 
+ 
+DEPARTMENT OF THE AIR FORCE 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This page intentionally left blank. 
+ 
+ 
+BY ORDER OF THE 
+ 
+   AIR FORCE TACTICS, TECHNIQUES, 
+SECRETARY OF THE AIR FORCE                  AND PROCEDURES 3-32.10 
+ 
+29 November 2024 
+ 
+Tactical Doctrine 
+ 
+INTRODUCTION TO RAPID AIRFIELD 
+DAMAGE RECOVERY (RADR) 
+ACCESSIBILITY: Publications and forms are available on the e-Publishing 
+website at www.e-Publishing.af.mil for downloading or ordering. 
+RELEASABILITY: There are no releasability restrictions on this publication. 
+OPR: AF/A4CX  
+ 
+ 
+ 
+        Certified by: AF/A4C 
+ 
+Supersedes: AFTTP 3-32.10, 15 October 2019 
+ 
+             Pages: 87 
+This publication supports Air Force Instruction (AFI) 10-210, Prime Base 
+Engineer Emergency Force (BEEF) Program, and AFI 10-209, RED HORSE 
+Program. This publication applies to the Regular Air Force, the Air Force 
+Reserve, and the Air National Guard. This publication does not apply to the 
+United States Space Force. This publication introduces Rapid Airfield Damage 
+Recovery (RADR) and reference RADR tactical doctrinal publications. Ensure all 
+records generated as a result of processes prescribed in this publication adhere to 
+AFI 33-322, Records Management and Information Governance Program, and 
+are disposed in accordance with the Air Force Records Disposition Schedule, 
+which is located in the Air Force Records Information Management System. Refer 
+recommended changes and questions about this publication to the office of 
+primary responsibility using the Department of the Air Force (DAF) Form 847, 
+Recommendation for Change of Publication; route DAF Forms 847 from the field 
+through the appropriate functional chain of command. 
+SUMMARY OF CHANGES This publication has been substantially revised and 
+must be completely reviewed. It includes additional guidance not available during 
+the last revision and new guidance on Explosive Ordnance Disposal mitigation 
+during contingency operations and returning to normal operations. 
+ 
+AFTTP 3-32.10, 29 November 2024 
+2 
+ 
+ 
+APPLICATION: This publication applies to individuals who perform and/or 
+manage RADR operations, including the Air Force Reserve and Air National 
+Guard, unless noted otherwise. This document is authoritative but not directive 
+and does not replace mandatory compliance requirements in applicable Air Force 
+Instructions (AFI) or other directive publications. If the TTPs found in this 
+publication conflict with other nondirective publications, contact the Air Force 
+Civil Engineer Center (AFCEC) Reachback Center or CE Dash (with contact info) 
+for resolution. Contact the Reachback Center at Commercial 850-283-6995, Toll 
+Free at 888-232-3721, and Defense Switched Network 523-6995, or Email at 
+AFCEC.RBC@us.af.mil. 
+ 
+SCOPE: This publication introduces RADR operations for airfield recovery after 
+attack. It describes the RADR phases, posturing assets, command and control, 
+manning requirements, recovery progress and personnel status reporting, setting 
+up temporary refueling stations to refuel vehicles while performing RADR 
+operations, maintenance actions required for assets in War Reserve Materiel 
+storage, and actions necessary to prepare for airfield recovery. 
+ 
+Chapter 1—INTRODUCTION .................................................................... 6 
+ 
+1.1. Overview ................................................................................... 6 
+ 
+1.2. Integration of Overlapping Phases ............................................ 7 
+  
+1.3. Scalability ................................................................................. 7 
+  
+1.4. Capability .................................................................................. 7 
+  
+1.5. Rapid Damage Assessment ....................................................... 8 
+  
+1.6. Rapid Explosive Hazards Mitigation (REHM) ......................... 9 
+  
+1.7. Rapid Damage Repair Phase ................................................... 12 
+Chapter 2—POSTURING RAPID AIRFIELD DAMAGE RECOVERY  
+(RADR) CAPABILITIES ..................................................... 15 
+ 
+2.1. Overview ................................................................................. 15 
+ 
+AFTTP 3-32.10, 29 November 2024 
+3 
+ 
+ 
+ 
+2.2. Vehicle Unit Type Codes (UTC) ............................................ 15 
+ 
+2.3. Crater Repair Equipment ........................................................ 16 
+Table 2.1. RADR Vehicle UTCs ............................................................. 16 
+Table 2.2. RADR Crater Repair Equipment (4FWCR) ........................... 18 
+ 
+2.4. Crater Repair Equipment ........................................................ 19 
+Table 2.3. RADR Crater Repair Material ................................................ 19 
+ 
+2.5. Spall Repair Kit (4FWSR) ...................................................... 20 
+ 
+2.6. Ramp and Taxiway Expansion (4FWAM) .............................. 20 
+ 
+2.7. AM-2 FOD Cover (4FWFC) ................................................... 20 
+ 
+2.8. Fiber Reinforced Polymer (FRP) Matting FOD Cover 
+(4FWFR) ................................................................................. 21 
+ 
+2.9. Asphalt Batching ..................................................................... 21 
+ 
+2.10. Warehouse............................................................................. 21 
+ 
+2.11. Dispersal Areas ..................................................................... 22 
+ 
+2.12. Water Storage ........................................................................ 23 
+ 
+  
+2.13. Water and Fuel Expedient Repair System (WaFERS) 
+ Overview ............................................................................... 23 
+Chapter 3—COMMAND AND CONTROL ............................................. 24 
+ 
+3.1. Overview ................................................................................. 24 
+ Figure 3.1. RADR Command and Control Overview ............................... 24 
+ 
+3.2. Communications Flow ............................................................ 25 
+ Figure 3.2. C2 Communications Flow ...................................................... 25 
+ 
+3.3. Communications Equipment ................................................... 26 
+ 
+AFTTP 3-32.10, 29 November 2024 
+4 
+ 
+ 
+Table 3.1. Land Mobile Radio Recommendations ................................... 26 
+ 
+3.4. Installation Recovery after Attack (IRAA) Tool ..................... 26 
+ 
+3.5. Emergency Operations Center ................................................ 27 
+ 
+3.6. Civil Engineer Unit Control Center (CE-UCC) ...................... 27 
+ 
+3.7. RADR Officer in Charge (OIC) .............................................. 27 
+ 
+3.8. Logistics Chief ........................................................................ 28 
+ 
+3.9. Warehouse Leads .................................................................... 28 
+ 
+3.10. Batch Plant Team Lead ......................................................... 29 
+ 
+3.11. Crater Chief ........................................................................... 29 
+ 
+3.12. Support Chief ........................................................................ 30 
+Chapter 4—MANNING ............................................................................. 31 
+ 
+4.1. Overview ................................................................................. 31 
+ 
+4.2. Force Presentation ................................................................... 31 
+Table 4.1. RADR Manning Numbers by Capability ................................ 32 
+ Figure 4.1. Example RADR C2 Center Structure ..................................... 33 
+ Figure 4.2. Example Manning for Small RADR Capability ...................... 34 
+Table 4.2. Approximate Crater Repair Production Numbers ................... 35 
+Chapter 5—STATUS REPORTING ......................................................... 37 
+ 
+5.1. Overview ................................................................................. 37 
+ 
+5.2. Personnel Status ...................................................................... 37 
+ 
+5.3. Recovery Status ...................................................................... 38 
+Chapter 6—FIELD FUELING STATIONS ............................................. 39 
+ 
+6.1. Overview ................................................................................. 39 
+ 
+AFTTP 3-32.10, 29 November 2024 
+5 
+ 
+ 
+Table 6.1. RADR Vehicles Diesel/JP-8 Fuel Consumption Rate ............ 39 
+ 
+6.2. Motor Gasoline (MOGAS) ..................................................... 40 
+Chapter 7—RADR VEHICLE MAINTENANCE WHILE IN WRM ... 41 
+ 
+7.1. General Information ................................................................ 41 
+ 
+7.2. Vehicle Maintenance Requirements while Stored in WRM ... 41 
+Chapter 8—PREPARATORY ACTIONS ................................................ 43 
+ 
+8.1. Pre-Threat Actions .................................................................. 43 
+ Figure 8.1. Profile Measurement Devices ................................................. 44 
+ Figure 8.2. Example AAS Installation Pads .............................................. 45 
+ 
+8.2. Attack Preparation Actions ..................................................... 47 
+Chapter 9—RETURN TO NORMAL OPERATIONS ............................ 49 
+ 
+9.1. Overview ................................................................................. 49 
+ 
+9.2. Shop Tasks .............................................................................. 49 
+Attachment 1—GLOSSARY OF REFERENCES AND 
+SUPPORTING INFORMATION ................................... 51 
+Attachment 2—RADR VEHICLE REFUELING PLAN EXAMPLE ... 64 
+Attachment 3—RADR TEAM STATUS CHARTS ................................. 66 
+Attachment 4—WORK TOOL ATTACHMENT TRAILER LOAD 
+ PLAN ................................................................................ 82 
+Attachment 5—ENGINEER REACHBACK AND OTHER USEFUL 
+LINKS ............................................................................... 84 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+6 
+ 
+ 
+Chapter 1 
+ 
+INTRODUCTION 
+ 
+1.1. Overview. The ability to conduct uncontested aerial warfare and airlift 
+operations within proximity to the theater of operations has been, until recently, 
+an assumed ability—this assumption is no longer valid in all potential joint 
+mission scenarios. This assumed ability becomes increasingly invalid as potential 
+adversaries continue to increase their long range offensive capabilities. Joint 
+forces will conduct operations in the face of significant anti-access area denial 
+weapons, and the United States Air Force will be required to support combat sortie 
+generation within this environment. Accordingly, the ability to repair aircraft 
+operating surfaces after an anti-access area denial attack is crucial. 
+ 
+1.1.1. Rapid Airfield Damage Recovery (RADR) is an essential element of 
+enabling air base resiliency and continuation of airfield operations to ensure the 
+rapid projection and application of United States military power around the globe. 
+RADR encompasses all actions required to rapidly repair aircraft operating 
+surfaces and localized infrastructure to recover operations at an airfield after 
+attack, whether the airfield is offered for use by a host nation or established as a 
+United States operating location. 
+ 
+1.1.2. Preplanning should consider the scalability of the RADR capability to 
+support the Combatant Commander’s (CCDR) critical needs at various airfield 
+locations as RADR operations may differ by airfield and aircraft configurations. 
+ 
+1.1.3. RADR may be conducted under multiple conditions such as non-permissive 
+environments, all weather conditions, chemical, biological, radiological and in a 
+degraded environment. 
+ 
+1.1.4. RADR forces, equipment, and operational concepts should be identified in 
+the appropriate annex and attachments to the Installation Emergency Management 
+Plan 10-2 and in other installation response plans for post-attack activities. See 
+ 
+AFTTP 3-32.10, 29 November 2024 
+7 
+ 
+ 
+Department of the Air Force Instruction (DAFI) 10-2501 for more information on 
+the Installation Emergency Management Plan 10-2. 
+ 
+1.1.5. RADR is only one phase of recovery after an attack, which is only one 
+function within Airfield Damage Repair (ADR). In addition to RADR, which 
+rapidly establishes a minimum airfield operating surface (MAOS), other recovery 
+phases include: MAOS sustainment, MAOS expansion, and reconstitution of the 
+airfield. This AFTTP focuses only on RADR operations. 
+ 
+1.2. Integration of Overlapping Phases. After an attack on the airfield, hundreds 
+of craters, camouflets, spalls, and various quantities of unexploded explosive 
+ordnance (UXO) could be expected. RADR capability requires multiple critical 
+tasks be accomplished with seamless integration. These are often accomplished 
+within overlapping and simultaneous timeframes; otherwise, there is risk of 
+failing to meet time compression goals while keeping attrition of recovery 
+personnel, equipment, and vehicles within the CCDR’s acceptable levels. These 
+tasks include rapid airfield damage assessment, rapid mitigation of explosive 
+hazards, and rapid repair of damaged surfaces and critical infrastructure. Effective 
+damage assessment enables engineers to identify, assess, and analyze airfield 
+damage and hazards. Explosive Ordnance Disposal (EOD) personnel must then 
+mitigate the identified explosive hazards on the access routes, equipment and 
+material staging areas, and the selected MAOS. Finally, once explosive hazards 
+within repair areas are mitigated, teams begin repairing the MAOS and associated 
+critical infrastructure. 
+ 
+1.3. Scalability. Due to various installations, threats, and missions, RADR 
+capabilities are adaptive and scalable; a one-size, one-solution RADR capability 
+will not support this broad spectrum. RADR capabilities can support thousands of 
+combat sorties for all airframes, provide temporary to semi-permanent repair 
+options in all pavement conditions, and support employ-in-place and 
+expeditionary capabilities. 
+ 
+1.4. Capability. RADR equipment, material, personnel, and vehicles necessary 
+to recover an airfield following an attack are similar to those required for airfield 
+ 
+AFTTP 3-32.10, 29 November 2024 
+8 
+ 
+ 
+opening and operation. However, airfield recovery likely requires far more assets 
+in order to reestablish flying operations during day or night within acceptable 
+timeframes. These capabilities are tailored to address specific installation or threat 
+requirements. Commanders must be cognizant that RADR capabilities are directly 
+impacted by attrition, environmental conditions, the chemical, biological, 
+radiological and nuclear environment, and threat environment.  
+ 
+1.4.1. The RADR capability establishes a MAOS, including a Minimum 
+Operating Strip (MOS) up to 150 ft. x 10,000 ft., and associated taxiways, ramps, 
+access routes, and critical infrastructure. The resulting durable repairs provide an 
+acceptable number of passes for any combination of US aircraft types before 
+requiring sustainment maintenance. 
+ 
+1.4.2. As previously stated, RADR consists of three overlapping and 
+interdependent phases: 
+ 
+1.4.2.1. Rapid Damage Assessment to identify and characterize the damage and 
+hazards.  
+ 
+1.4.2.2. Rapid Explosive Hazard Mitigation (REHM) to neutralize UXO within 
+and in close proximity to repair zones. 
+ 
+1.4.2.3. Rapid Damage Repair (RDR) to repair selected pavement damage and 
+establish the MAOS. Each phase is critical to the RADR capability with the 
+coordinated REHM and RDR phases conducted concurrently to maximize time 
+compression. 
+ 
+1.5. Rapid Damage Assessment. This phase focuses on collecting and analyzing 
+data to determine the presence of hazards and overall airfield condition to include 
+the number, location and type of craters, UXO, and other damage characteristics 
+such as camouflets (cavities formed from a deep underground burst with minimal 
+surface rupture) and spalls (surface damage which does not penetrate the 
+pavement base course). Assessment is accomplished using a combination of 
+manual and automated data collection systems. Automated systems reduce the 
+ 
+AFTTP 3-32.10, 29 November 2024 
+9 
+ 
+ 
+UXO threat to Airmen and the assessment timeline. Data collected during this 
+phase is used to select the most appropriate MAOS to repair (see AFTTP 3-32.12, 
+Minimum Airfield Operating Surface (MAOS) Selection and Repair Quality 
+Criteria (RQC), for MAOS selection procedures). Airfield damage assessment 
+procedures are described in AFTTP 3-32.11, Airfield Damage Assessment after 
+Attack. 
+ 
+1.6. Rapid Explosive Hazards Mitigation (REHM). Expedient recovery of 
+airfields requires an Explosive Ordnance Disposal (EOD) capability that can 
+effectively remove hazards associated with UXO prior to the start of repairing 
+aircraft operating surfaces and repairing damaged infrastructure. EOD technicians 
+support RADR by removing, rendering safe, or detonating UXO impacting the 
+recovery process. A family of UXO assessment and mitigation tools, platforms, 
+and systems provides EOD technicians the capability to safely and rapidly 
+mitigate the UXO threat. These platforms and systems, operated (or supervised) 
+by EOD personnel, allow surface and subsurface UXO positive identification, 
+neutralization, collection, removal, and ultimate disposal on and off the airfield 
+operating surfaces, access routes, and equipment and material staging areas. See 
+AFTTP 3-32.5V10, Explosive Ordnance Disposal (EOD) Rapid Airfield Damage 
+Recovery (RADR) And Explosive Hazards Mitigation (EHM), for general 
+guidance on planning, training, equipping, and developing policy for RADR and 
+recovery of airbases denied by ordnance (RADBO) directed energy operations. 
+ 
+1.6.1. Process. UXO mitigation within the RADR program is allotted sixty 
+minutes from reception of the MAOS candidate to the recovery crews starting 
+restoration activities. This includes team and material staging areas, convoy 
+routes, and repair zones. Mitigation activities continue to clear the remaining 
+threats to the MAOS throughout the entire recovery process. 
+ 
+1.6.2. REHM Capabilities. REHM is a family of systems and techniques used to 
+locate, identify, and mitigate UXO threats. Each capability is packaged as a Unit 
+Type Code (UTC). 
+ 
+1.6.2.1. Manned Operations: 
+ 
+AFTTP 3-32.10, 29 November 2024 
+10 
+ 
+ 
+ 
+1.6.2.1.1. Commonly known as blow-and-gos or in-and-outs. Blow and go 
+involves walking a sweep line while setting charges to clear the maximum amount 
+of ground rapidly. In and outs involves deliberately setting charges in sweep line 
+and then initiating those charges while exiting the area.  The primary 
+consideration when choosing between the two is the safe area location in relation 
+to the starting point.  This process uses other munitions to detonate the extremely 
+small UXO. This process creates a spall per mitigated munition.   
+ 
+1.6.2.1.2. Multiple techniques for removing ordnance from the runway exist.  The 
+most common of these is using rope or chain as a drag line to move the ordnance 
+while maintaining a safe standoff during the move.  These techniques require 
+much more time than the explosive or heavy equipment methods, but still have a 
+role. 
+ 
+1.6.2.2. 4F9RD EOD Recovery of Airbases Denied by Ordnance (RADBO) 
+Vehicle: Large tactical vehicle with a laser. Intent is to eliminate small UXO by 
+forcing a low-order detonation. 
+ 
+1.6.2.3. Mass Mechanical Clearance (MMC): 
+ 
+1.6.2.3.1. EOD personnel will be the primary operators of the MMC vehicles. 
+Other licensed operators can be used to augment the driver pool. However, a 
+qualified EOD person should manage the MMC team due to their knowledge of 
+the UXO hazards. Driver augmentees should be provided additional UXO 
+familiarization by EOD personnel upon selection. 
+ 
+1.6.2.3.2. 4F9XL EOD REHM Loader and Large Clearance Blade Assembly. A 
+front-end loader with a specialized blade attached to the front of the vehicle. The 
+blade is designed to protect the operator from blast and fragmentation hazards 
+when pushing bomblet sized munitions to the side of the MAOS without causing 
+detonations or additional damage to the runway. Munitions are to be mitigated at 
+a later date or when time permits. This UTC is currently being fielded. 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+11 
+ 
+ 
+1.6.2.4. Munitions Reval Team (MRT). MRT can be formed to augment the EOD 
+team. Once EOD has rendered safe a UXO for transport, the bomb removal team 
+lifts, secures, and transports the UXO to a predetermined safe holding area. A 
+MRT should be considered if the local threat includes larger ordnance items such 
+as aircraft bombs or missiles. 
+ 
+1.6.2.4.1. Equipment commonly used for the MRT task are dump trucks and Front 
+End Loaders (FEL). Both vehicles and heavy equipment should be reinforced with 
+sandbags or sand to help cushion the UXO and provide protection in case of an 
+inadvertent detonation. 
+ 
+1.6.2.4.2. Operators do not have to be engineers since Civil Engineer (CE) will 
+more than likely be stretched to the limit. To the greatest extent possible, 
+personnel should be volunteers from the installation augmentation pool. See 
+AFTTP 3-32.5V10 for instructions on properly marking ordnance for the MRT. 
+ 
+1.6.2.4.3. The MRT will be trained by EOD personnel in accordance with AFTTP 
+3-32.5V10 during pre-attack actions. 
+ 
+1.6.3. Stockpiling/Marking. All munitions left adjacent to the MAOS must be 
+dealt with as both debris and as an explosive hazard. 
+ 
+1.6.3.1. Small and medium munitions must be pushed at least 30-ft from the edge 
+of the MAOS, and piled no higher than 36-in. However, due to the risk of 
+explosion; the munitions are not to be pushed off the paved surfaces. Note: This 
+may affect the MAOS selection process in that the pavement may be reserved for 
+stockpiled munitions. 
+ 
+1.6.3.2. EOD personnel will dictate the number of munitions allowed to be in a 
+single stockpile and the separation of the stockpiles. These calculations are based 
+on the combined net explosive weight of the piled munitions. The UXO should 
+be collected either on one side of the paved surface or on designated taxiways. 
+This decision should be made in conjunction with the MAOS selection team. 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+12 
+ 
+ 
+1.6.3.3. Each UXO stockpile will be marked with survey tape to highlight the piles 
+containing UXO and not just debris. Marking materials are being added to the 
+4FWCR, Crater Repair Vehicle UTC. The marking kit will be stored in the tool 
+trailer and consist of plastic buckets, a marking rod, and survey tape. Until fielded, 
+the survey tape can be attached to something within or near the stockpile. Note: 
+For more guidance on REHM procedures see AFTTP 3-32.5V10. 
+ 
+1.7. Rapid Damage Repair Phase. Once the explosive hazard threat has been 
+sufficiently mitigated in a repair zone, RDR teams begin repairing craters, 
+camouflets, spalls, and other damage impeding flying operations on the MAOS. 
+In some scenarios, hundreds of craters could require repair within acceptable time 
+frames to meet the commander’s Air Tasking Order. This requires multiple teams, 
+each using an assembly line process to achieve repair objectives. Where logistics 
+supply/resupply cannot support the repair in a timely manner, repair capabilities 
+are prepositioned.  
+ 
+1.7.1. Optimized techniques and advanced, rapid-setting materials are used to 
+minimize the Mean Time to Repair for both asphalt-concrete and Portland Cement 
+Concrete (PCC) surfaces. Materials and procedures provide pavement repair 
+supporting the range and intensity of joint aircraft traffic required to meet 
+airpower objectives. Rapid crater repair processes are listed below. See AFTTP 
+3-32.17, Rapid Airfield Crater and Spall Repair, for detailed descriptions of the 
+damage repair processes that follow. 
+ 
+1.7.1.1. Debris Removal. This process clears debris at least 15 feet from around 
+each crater to allow subsequent processes to proceed. After debris is removed 
+from around each crater, it is then pushed at least 30 feet from the edge of the 
+MAOS.  
+ 
+1.7.1.2. Upheaval Determination and Marking. The explosion from munitions 
+hitting the runway creates upheaved pavement around the crater. Upheaved 
+pavement is not always visible to the eye; therefore, upheaval determination is 
+accomplished through crater profile measurements to ensure all damaged 
+pavement is identified and removed. Unremoved upheaval will most likely fail 
+ 
+AFTTP 3-32.10, 29 November 2024 
+13 
+ 
+ 
+under traffic and create foreign object debris (FOD) hazards. Conversely, 
+removing more pavement than necessary increases repair times and uses more 
+repair material than necessary, possibly depleting repair material before all repairs 
+are complete. Identify extent of upheaval as described in Technical Order (T.O.) 
+35E2-5-1, Crushed-Stone Crater Repair and Line-of-Sight Profile Measurement 
+for Rapid Runway Repair for craters with an apparent size of 20 feet in diameter 
+or larger (Note: Marks should form square or rectangle pavement cut marks). Use 
+procedures in AFTTP 3-32.17 when apparent crater size is less than 20 feet in 
+diameter. 
+ 
+1.7.1.3. Pavement Cutting. In regard to time, pavement cutting is the most critical 
+step in the repair process. Two compact track loaders (CTL) with wheel saw 
+attachments cut pavement around craters by following the marks created during 
+the upheaval marking process. The conventional walk behind concrete saw may 
+be required in conjunction with the wheel saws when dowels or rebar are in the 
+saw path. 
+ 
+1.7.1.4. Pavement Breaking and Excavation. This process includes breaking the 
+damaged pavement within the cut lines with an excavator and hammer attachment 
+and removing the disturbed subsurface material from the repair using a separate 
+excavator with a bucket attachment. The Debris Removal Crew assists with 
+removing the excavated debris from the MAOS. 
+ 
+1.7.1.5. Backfilling Repair. This process utilizes a medium strength, high 
+viscosity, excavatable, rapid-setting, cementitious backfill material, known as 
+flowable fill, in place of traditional crushed stone. Prior to capping the repair with 
+PCC, the repair is backfilled with flowable fill using the dry placement technique 
+commonly known as “slash and splash.” This is accomplished by suspending a 
+3,000 pound super sack of flowable fill over the excavated area, “slashing” the 
+bottom of the sack to release the material into the repair, and then “splashing” the 
+backfill with 50 gallons of water until reaching the prescribed depth. The process 
+for backfilling beneath an asphalt cap is accomplished with the same flowable fill 
+material but mixed with a volumetric mixer and using a wet placement technique.  
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+14 
+ 
+ 
+Note: Crushed stone may be used in lieu of flowable fill; however, additional 
+time, equipment, and personnel may be required to haul, place, and compact the 
+stone. 
+ 
+1.7.1.6. Capping Repair. Capping material should match the existing material, but 
+when material is short or when a team is repairing craters in both existing PCC 
+and Asphalt-Concrete, mix-matching capping material and existing material is 
+allowable; however, life expectancy of the repairs may be diminished. A concrete 
+cap is placed using the volumetric mixer and a rapid-setting concrete mix 
+provided in 3,000 pound super sacks. The asphalt cap is placed with asphalt 
+produced by the asphalt recyclers and compacted with rollers. 
+ 
+Note: Airfield Matting (AM-2) may be used as a cap on aprons and taxiways, 
+with the exception of high-speed taxiways and intersections. Fiber-reinforced 
+Polymer (FRP) mat panels may be used as a cap depending on the aircraft type, 
+operations, and location on the airfield. Use of these materials as caps may require 
+additional monitoring and maintenance and will also require additional backfill 
+materials. Furthermore, they will not be as durable as asphalt or Concrete caps. 
+ 
+1.7.1.7. Spall Repair. Spalls are defined as pavement damage that does not 
+penetrate the full pavement thickness to the underlying base course, is not larger 
+than five feet in diameter, and does not cause upheaval in surrounding pavements. 
+Thousands of spalls will be expected after an attack with possibly hundreds 
+requiring repairs. Spalls are expediently repaired by first removing debris and 
+loose material from in and around them. Then, place rapid setting repair material 
+in the spalls ensuring the final repair is level with the surrounding pavement. 
+ 
+1.7.2. Foreign object debris is removed from the MAOS by scraping, sweeping, 
+and vacuuming all surfaces until accepted by Airfield Operations. As needed, 
+airfield marking, aircraft arresting systems, and airfield lighting teams work 
+simultaneously to restore required capability. 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+15 
+ 
+ 
+Chapter 2 
+ 
+POSTURING RAPID AIRFIELD DAMAGE RECOVERY (RADR) 
+CAPABILITIES 
+ 
+2.1. Overview. RADR capabilities are scalable and modular and postured as 
+primary and enabler UTCs. The baseline RADR capability (4FWCR) provides the 
+tools, equipment, and vehicles to repair 18 small craters (8.5 ft x 8.5 ft x 2 ft), or 
+two large craters (30 ft x 30 ft x 2 ft), within 6.5 hours utilizing flowable fill and 
+rapid-setting concrete, or flowable fill and asphalt materials, depending upon the 
+parent surface. Capabilities are typically considered “employ-in-place” UTCs and 
+postured primarily as Medium (4FWCR x 3), Large (4FWCR x 5), or Very Large 
+(4FWCR x 7) capabilities depending upon the local threat. In addition to the 
+4FWCR UTC, supporting UTCs (i.e. 4FWFD-FOD Removal, 4FWWH-
+Warehouse Operations, 4FWAE-Asphalt Batch Plant, and 4FWSR-Spall Repair) 
+are required to provide the full RADR capability. 
+ 
+2.1.1. While the smallest capability is known as the “Small Capability,” the name 
+is somewhat a misnomer. The Small Capability has a fairly large footprint 
+requiring approximately 93 personnel, 47 vehicles, and associated equipment and 
+tools to execute the full capability. 
+ 
+2.1.2. If an expeditionary airfield recovery capability is desired, the Small 
+Capability may be tailored to meet requirements. Transportation requirements can 
+be considerably reduced if repair materials (i.e. crushed stone, PCC, asphalt, rapid 
+setting concrete, or flowable fill) are available at the deployed location.  
+ 
+Note: If flowable fill, rapid-setting concrete, and/or asphalt materials are depleted, 
+legacy repair materials (i.e., crushed stone, FOD covers) are utilized to complete 
+repairs. 
+ 
+2.2. Vehicle UTCs. Vehicles listed in Table 2.1 will normally be postured at 
+installations with a required RADR capability (some major commands/combatant 
+commanders [CCDRs] may centrally store assets). In accordance with AFI 24-
+ 
+AFTTP 3-32.10, 29 November 2024 
+16 
+ 
+ 
+302, Vehicle Management, vehicles within RADR UTCs are considered War 
+Reserve Materiel (WRM) assets; however, with coordination with the 441 Vehicle 
+Support Chain Operations Squadron (VSCOS) some may be assigned to the CE 
+unit as joint-use assets for normal day-to-day shop use.  
+ 
+2.3. Crater Repair Equipment. The equipment listed in Table 2.2 will be 
+postured at applicable installations with a particular RADR capability. Equipment 
+is considered WRM assets, but some may be assigned to the CE unit as joint-use 
+assets for normal day-to-day shop use. 
+ 
+Table 2.1. RADR Vehicle UTCs. 
+ 
+Capability 
+Vehicle 
+Small 
+Medium 
+Large 
+Very Large 
+4FWCR – Crater Repair  
+Compact Track Loader 
+5 
+15 
+25 
+35 
+Front End Loader 
+2 
+6 
+10 
+14 
+Wheeled Excavator 
+2 
+6 
+10 
+14 
+Telehandler Forklift, 10K, 
+55ft Reach 
+2 
+6 
+10 
+14 
+Water Truck (Distributor), 
+1.5K Gal 
+2 
+6 
+10 
+14 
+Water Distributor Tank, 2K 
+Gal 
+4 
+12 
+20 
+28 
+Volumetric Mixer 
+2 
+6 
+10 
+14 
+Dump Truck, 10-T (w/Water 
+Skid) 
+1 
+3 
+5 
+7 
+Vibratory Roller, Dual Steel 
+Wheel 
+1 
+3 
+5 
+7 
+Roller, Pneumatic 
+1 
+3 
+5 
+7 
+Trailer, 20T, 38’ Flatbed, 
+Tool Attachments 
+2 
+6 
+10 
+14 
+ 
+AFTTP 3-32.10, 29 November 2024 
+17 
+ 
+ 
+Capability 
+Vehicle 
+Small 
+Medium 
+Large 
+Very Large 
+4FWFD – FOD Removal 
+Grader 
+2 
+2 
+2 
+2 
+Dozer 
+1 
+1 
+1 
+1 
+Semi-Tractor Truck 
+1 
+1 
+1 
+1 
+Trailer, Lowboy,  
+50-60 Ton  
+1 
+1 
+1 
+1 
+Front End Loader 
+1 
+1 
+1 
+1 
+Ind. Tractor w/Kick-broom 
+2 
+2 
+2 
+2 
+Vacuum Sweeper 
+3 
+3 
+3 
+3 
+4FWWH – Warehouse  
+Semi-Tractor Truck 
+1 
+3 
+5 
+7 
+*Warehouse Forklift, 6K 
+1 
+3 
+5 
+7 
+Telehandler Forklift, 10K, 
+55ft Reach 
+2 
+6 
+10 
+14 
+Trailer, 20-T, 38’ Flatbed 
+3 
+9 
+15 
+21 
+Dump Truck, 10-T 
+3 
+9 
+15 
+21 
+4FWAE – Asphalt Batch Plant Operations 
+Asphalt Recycler Set  
+(2 per set) 
+1 
+2 
+3 
+4 
+Front End Loader 
+1 
+2 
+3 
+4 
+TOTAL 
+47 
+117 
+187 
+257 
+*For use on improved surfaces only. 
+Note: During attack preparation actions marry prime movers with designated 
+item to be towed to ensure no coupling or clearance issues. Also, ensure light 
+and brake connections are compatible. Implement corrective actions as 
+necessary. 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+18 
+ 
+ 
+Note: Spall Repair Crew(s) requires a truck(s) to haul personnel, repair 
+material and tools, but is not included in the RADR vehicle UTCs. A 
+dedicated vehicle(s) from the installation vehicle fleet should be identified for 
+the spall crew(s) prior to commencement of hostilities (this situation holds true 
+for the aircraft arresting system, airfield lighting, airfield marking, and water 
+and fuel system repair teams). 
+ 
+Note: At the time of this writing, some volumetric mixers have experienced seized 
+water pumps while stored in WRM. Recommend full operational test of all units 
+before accepting from WRM. If pump is seized, WRM maintenance personnel 
+should perform corrective action by disassembling pump, replacing the shear pin, 
+and lubricating all lubrication points. 
+ 
+Table 2.2. RADR Crater Repair Equipment (4FWCR). 
+ 
+ 
+Capability 
+Equipment 
+Small Medium Large Very Large 
+Compact Track Loader (CTL) Attachment Package 
+Hammer, H65D 
+2 
+6 
+10 
+14 
+Chisel  
+2 
+6 
+10 
+14 
+Moil 
+2 
+6 
+10 
+14 
+Broom, Hyd, Angle 
+3 
+9 
+15 
+21 
+Broom, Poly Kit 
+3 
+9 
+15 
+21 
+Saw, Wheel, SW45  
+4 
+12 
+20 
+28 
+Saw, Wheel, SW60 
+5 
+15 
+25 
+35 
+Saw Teeth, Box (50 per box) 
+20 
+60 
+100 
+140 
+Compactor, Vibratory  
+1 
+3 
+5 
+7 
+Bucket-MP, BOCE 78” 
+1 
+3 
+5 
+7 
+Forks, 48” Pallet W/Carriage 
+2 
+6 
+10 
+14 
+Planer, Cold 
+1 
+3 
+5 
+7 
+Excavator Attachment Package  
+Hammer, AR75B, W/Chisel PT 
+2 
+6 
+10 
+14 
+Bucket, 24” 
+2 
+6 
+10 
+14 
+ 
+AFTTP 3-32.10, 29 November 2024 
+19 
+ 
+ 
+ 
+Capability 
+Equipment 
+Small Medium Large Very Large 
+Bucket, 48” 
+2 
+6 
+10 
+14 
+Compactor, Plate, 2300 
+2 
+6 
+10 
+14 
+Telehandler Forklift Attachment Package  
+Forks, 72 inches long 
+4 
+12 
+20 
+28 
+Frontend Loader Attachment Package 
+Bucket 
+3 
+9 
+15 
+21 
+Forks 
+3 
+9 
+15 
+21 
+Tool Trailer 
+1 
+3 
+5 
+7 
+Light Cart 
+6 
+18 
+30 
+42 
+Dump Truck Water Skid, 1K gal 
+2 
+6 
+10 
+14 
+Inclement Weather Kit 
+1 
+3 
+5 
+7 
+ 
+2.4. Crater Repair Materials. The materials listed in Table 2.3 are postured at 
+applicable installations with a particular RADR capability. Material will be 
+considered WRM assets but may be stored in CE storage yards if WRM has 
+insufficient storage space.  
+ 
+Table 2.3. RADR Crater Repair Material. 
+ 
+ 
+Capability 
+Material 
+Small Medium Large Very Large 
+4FWCM – WRM RADR Concrete Crater Repair Material 
+Flowable fill (3K-lb Super Sacks) 
+60 
+180 
+300 
+420 
+Rapid-Setting Concrete  
+(3K-lb Super Sacks) 
+48 
+144 
+240 
+336 
+Citric Acid (50-lb bags) 
+2 
+6 
+10 
+14 
+4FWAE – WRM RADR Asphalt Crater Repair Material 
+Flowable-Fill (3K-lb Super Sacks) 
+84 
+252 
+420 
+588 
+Asphalt (Tons) 
+40 
+120 
+200 
+280 
+ 
+AFTTP 3-32.10, 29 November 2024 
+20 
+ 
+ 
+ISO Containers to Store UTCs Above 
+ISO Container 
+20 
+60 
+100 
+140 
+Note: Installations should stockpile appropriate quantities (depending on the 
+RADR capability) of choke ballast, crushed stone, and sand. 
+ 
+2.5. Spall Repair Kit (4FWSR). The Spall Repair Kit contains all necessary tools 
+and material in three shipping containers (8-ft L x 6.5-ft W x 8-ft H) to 
+expeditiously repair up to 200 spalls with an average size of 24-inches in diameter 
+and 6-inches deep. Provide one 4FWSR per every 4FWCR tasked. A vehicle is 
+required, but not provided in UTC (see AFTTP 3-32.18, Rapid Airfield Damage 
+Recovery Warehouse and Ground Transportation Operations). 
+ 
+2.6. Ramp and Taxiway Expansion (4FWAM). Provides AM-2 matting, 
+specialized components and assembly tools to cover damaged pavement and/or 
+semi-improved airfield surfaces to expand/create a 216-ft x 198-ft aircraft parking 
+apron or a 72-ft x 200-ft taxiway (taxiway is limited to this distance due to limited 
+number of six foot panels). This capability consists of 98 bundles of 12-ft x 2-ft 
+AM-2 mat, and six bundles of 6-ft x 2-ft mat, eight ramp assembly kits (a bundle 
+contains nine ramp ends), one cruciform stake kit (56 stakes and edge clamps per 
+kit), three Y-connector kits (36 Y-connectors per kit), one keylock kit (63 12-ft 
+starter and typical keylocks per kit), one pavement anchor kit (400 concrete 
+expansion bolts and tri-talon earth anchors, and 84 five-gallon buckets of rapid-
+set grout), one AM-2 tool component chest. This capability facilitates expansion 
+of airfield operating surfaces.  
+ 
+2.7. AM-2 FOD Cover (4FWFC). Provides AM-2 matting, specialized 
+components and tools to assemble and cover 31 each 10-ft craters, nine 15-ft 
+craters, or three 30-ft craters. Package consists of nine bundles of 12-ft x 2-ft mat, 
+11 bundles of 6-ft x 2-ft mat, 14 ramp assembly kits (nine ramp ends per kit), one 
+pavement anchor kit (400 expansion bolts and tri-talon earth anchors, and 84 five-
+gallon bucket of rapid-set grout), one AM-2 tool/component kit, and one AM-2 
+tow kit.  
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+21 
+ 
+ 
+Note: Combining one 4FWFC with one 4FWAM will allow construction of a 72-
+ft x 612-ft taxiway and combining two 4FWFCs with one 4FWAM will allow 
+construction of a 72-ft x 780-ft or 54-ft x 1008-ft taxiway. 
+ 
+2.8. Fiber Reinforced Polymer (FRP) Matting FOD Cover (4FWFR). Each kit 
+provides matting and tools capable of providing a FOD cover for twenty 10-ft 
+craters, three 30-ft craters, or one large crater up to 50-ft diameter. The kit includes 
+35 full-size panels, 30 half-size panels, 15 full-size anchor panels, 20 half-size 
+anchor panels, 760 lower joining bushings, 875 upper joining bushings, and 625 
+anchor bushings. 
+ 
+Note: The use of FRP may not be compatible with some aircraft or operations. 
+ 
+2.9. Asphalt Batching. Asphalt batching requires space for storing asphalt 
+products (i.e. asphalt cookie stockpiles or reclaimed asphalt pavement [RAP]), 
+operational space for two recyclers, and space to load dump trucks. If batching 
+occurs indoors (e.g., inside a hangar) during inclement weather, provide proper 
+ventilation. See AFTTP 3-32.19, Rapid Airfield Damage Recovery-Asphalt Batch 
+Plant Operations, for more information on batching asphalt. 
+ 
+2.10. Warehouse. In the context of RADR, the term warehouse (and warehouse 
+operations) relates to the process, not a physical space. See AFTTP 3-32.18, Rapid 
+Airfield Damage Recovery Warehouse and Ground Transportation Operations, 
+for a complete description of warehouse operations. 
+ 
+2.10.1. Warehouse operations require semi-prepared areas, not actual facilities. 
+Flowable fill and rapid-set super sacks are delivered to WRM in containers that 
+may be double-stacked and centrally stored or dispersed. Stockpile(s) of 
+traditional repair materials (i.e., crushed stone and choke ballast) should be 
+located within seven minutes driving time to the runway. 
+ 
+2.10.2. When indications and warnings are observed, containers are unstacked (if 
+applicable), dispersed within 7 minutes driving time to the airfield, and laid out to 
+ 
+AFTTP 3-32.10, 29 November 2024 
+22 
+ 
+ 
+support recovery operations. Once the containers are unloaded, they may be 
+arranged to provide splinter protection for high priority assets. 
+ 
+2.10.3. Asphalt batching can be located near, or next to, warehouse operations to 
+facilitate movement of hot mixed asphalt to the repair area via dump trucks.  
+ 
+2.11. Dispersal Areas. When RADR assets are released from WRM and placed 
+in an operational configuration, several points should be considered: 
+ 
+Note: WRM long term storage locations should not be confused with RADR asset 
+dispersal areas. As determined by the Installation WRM Manager, RADR assets 
+residing within WRM during peacetime will most likely be stored in existing base 
+supply consolidated storage locations, or CE storage areas if WRM space is an 
+issue. In accordance with AFI 25-101, War Reserve Materiel (WRM), the 
+Logistics Readiness Squadron Commander, or equivalent, will assist in 
+development and execution of plans to move WRM when threat of attack is 
+heightened, or an attack is imminent, including movement to dispersed 
+operational locations.  
+ 
+2.11.1. Dispersal and operating locations should be congruent with defense 
+sectors, road barrier plans, chemical, biological, radiological and nuclear zones, 
+etc. 
+ 
+2.11.2. Dispersal areas should be relatively level, but slightly sloped to provide 
+adequate drainage. Storing loaded shipping containers on uneven surfaces may 
+cause damage to contents or injury to personnel when opening and unloading 
+containers.  
+ 
+2.11.3. The area should be at least semi-prepared to prevent standing water and 
+muddy conditions.  
+ 
+2.11.4. Single capabilities should be stored in multiple locations for survivability 
+purposes (i.e., FOD assets dispersed in multiple locations). 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+23 
+ 
+ 
+2.11.5. At locations with greater than a small capability, a single Crater Repair 
+Team may be staged together since other teams replicate this capability. 
+ 
+2.11.6. Maximize materiel shipping containers as splinter protection for dispersed 
+equipment, materials, and vehicles. 
+ 
+2.11.7. Staging areas are not more than seven minutes driving time from the 
+airfield, with a primary and alternate route pre-identified. 
+ 
+2.11.8. Equipment and materials are preloaded/attached (i.e., water tanks filled, 
+attachment and warehouse trailers loaded, 2 of 3 dump trucks per warehouse 
+loaded with crushed stone). Fill volumetric mixer’s water tanks, but do not load 
+material until repair types (i.e., concrete or asphalt cap) are assigned following 
+MAOS selection. 
+ 
+2.12. Water Storage. Flowable fill and rapid-setting concrete perform best when 
+mixed with water between 70 and 80°F. Indoor storage or mechanical heating 
+devices may be required to keep water at this temperature. During winter 
+operations maintain the water temperature above 50°F to avoid the need for 
+accelerants or longer cure times. 
+ 
+2.13. Water and Fuel Expedient Repair System (WaFERS) Overview. 
+WaFERS is a modular and scalable set of capability-based UTCs configured to 
+enable expedient repair or recovery of mission essential water and fuel 
+distribution systems. Repair and recovery capability includes but is not limited to 
+pipe repair and bypass; valves/manifold repair and bypass; hydrant capping; 
+storage tank patching; fuel or water pumping; fuel filtering, and fuel storage. The 
+UTCs may standalone or may be combined to provide sufficient repair capability 
+and restore water or fuel system operations. The modularity and scalability of 
+WaFERS also allows individualization or selection based on the installation’s 
+unique infrastructure and required specific contingency support planning. Input 
+and output connection points for all modules are standardized to a pre- existing 
+Department of Defense (DOD) configuration and allow for the use of quick-
+connect type fittings and couplers to the maximum extent possible. 
+ 
+AFTTP 3-32.10, 29 November 2024 
+24 
+ 
+ 
+Chapter 3 
+ 
+COMMAND AND CONTROL 
+ 
+3.1. Overview. Effective Command and Control (C2) is critical to recover an 
+airfield as effectively and rapidly as possible. RADR C2 occurs at four distinct, 
+yet interrelated, echelons: 1) the Emergency Operations Center (EOC), 2) Civil 
+Engineer Unit Control Center (CE-UCC), 3) repair material stockpiles/storage 
+locations (warehouse) and asphalt production locations located near the airfield, 
+and 4) repair teams on the airfield. The organizational structure shown in Figure 
+3.1 is recommended to orchestrate the RADR process. Note: Each Crater Repair 
+Team includes and controls one spall repair crew. 
+ 
+Figure 3.1. RADR Command and Control Overview. 
+ 
+ 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+25 
+ 
+ 
+3.2. Communications Flow. Although RADR is performed by many specialized 
+teams (e.g., Crater Repair, FOD Removal, Marking, and Lighting), teams are very 
+codependent; personnel and equipment are shared between teams  and often teams 
+contend for the same space on the MAOS; therefore, close coordination between 
+all teams is critical. Figure 3.2 illustrates the communications flow required to 
+effectively manage RADR operations once repairs commence. 
+ 
+Figure 3.2. C2 Communications Flow. 
+ 
+ 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+26 
+ 
+ 
+3.3. Communications Equipment. The Engineer UTC 4F9ER supports 
+communication requirements for RADR. Table 3.1 identifies the recommended 
+number and type of radios for RADR operations. Figure 4.2 identifies 
+recommended positions that should have radios during RADR operations. 
+ 
+Note: See AFPAM 10-219V3, Civil Engineer Contingency Response and 
+Recovery Procedures, for using alternative communications when primary 
+communications are inoperative. 
+ 
+Table 3.1. Land Mobile Radio Recommendations. 
+ 
+Team 
+Small 
+Medium 
+Large 
+Very Lg 
+OIC & Chiefs 
+4 
+4 
+4 
+4 
+Crater Repair 
+5 
+15 
+25 
+35 
+FOD Removal 
+8 
+8 
+8 
+8 
+Warehouse 
+4 
+12 
+20 
+28 
+Batch 
+1 
+2 
+3 
+4 
+MAOS Marking 
+2 
+2 
+2 
+2 
+EALS 
+2 
+2 
+2 
+2 
+AAS 
+2 
+2 
+2 
+2 
+WaFERS 
+1 
+1 
+1 
+1 
+Total per Capability 
+29 
+47 
+67 
+86 
+Note: Figure 4.2 identifies recommended positions with radios.  
+ 
+3.4. Installation Recovery after Attack (IRAA) Tool. The purpose of the IRAA 
+tool is to develop a database for Civil Engineer equipment, materials, personnel, 
+and vehicles. It provides tools to manage these assets and timelines used during 
+the recovery of an installation after attack. The tool is interoperable with other 
+geospatial applications such as Geospatial Expeditionary Planning Tool 
+(GeoExPT) and Joint Construction Management System. It allows input and data 
+storage capabilities to include creating domain values, equipment, materials, 
+personnel, and vehicle data. In addition, multi-user capabilities are provided so 
+ 
+AFTTP 3-32.10, 29 November 2024 
+27 
+ 
+ 
+users can synchronize changes to other IRAA application instances for data 
+sharing purposes. IRAA will be extended to mobile devices to enable real-time 
+field data to be entered and visualized at all command echelons. 
+ 
+3.5. Emergency Operations Center. The EOC is the C2 support element that 
+coordinates information and resources to support the installation’s enemy attack 
+preparation, response, and recovery actions. The EOC provides C2 functions 
+necessary to place multiple recovery plans into action and implement them as 
+needed. The EOC communication capabilities must include exchanging data with 
+First/Emergency Responders, the Incident Command Post, and installation UCCs. 
+Through Emergency Support Function (ESF)-3 (Public Works [CE]), they also 
+direct the Airfield Damage Assessment Team (ADAT), UXO mitigation teams, 
+and the MAOS Selection Team. 
+ 
+3.6. Civil Engineer Unit Control Center (CE-UCC). UCCs provide a focal 
+point within an organization to maintain unit C2, and to relay information to and 
+from unit personnel and the EOC. They provide expertise to the EOC or Incident 
+Commander, and leverage unit resources to respond to, and mitigate the attack. In 
+regard to RADR, the CE-UCC is charged with controlling all CE airfield recovery 
+actions. With considerable increases in equipment, manpower, and vehicles, asset 
+tracking is more crucial than during the legacy Rapid Runway Repair operations. 
+The EOC Director advises the CE representative of installation mission resource 
+priorities as personnel and equipment are now shared across recovery teams and 
+recovery operations are not limited to the confines of the airfield.  
+ 
+3.7. RADR Officer in Charge (OIC). The RADR OIC is the primary facilitator 
+between the CE-UCC Commander, Logistics Chief, Crater Chief, and the Support 
+Chief. The OIC assists RADR teams by addressing problems they cannot resolve 
+themselves. The OIC does this by requesting support from other RADR teams, or 
+through the CE UCC Commander when support is required from sources external 
+to CE. The RADR OIC must work closely with Operations Personnel (3E6X1) to 
+track personnel, vehicles, equipment, and materials (materials will be tracked by 
+the Logistics Chief and updates reported to the RADR OIC) and ensure resupply 
+actions happen in a timely manner to support future requirements. The OIC is 
+ 
+AFTTP 3-32.10, 29 November 2024 
+28 
+ 
+ 
+typically located in the CE-UCC or alternate UCC but may travel to the airfield 
+to observe or assist RADR operations. The RADR OIC notifies the airfield 
+manager when all recovery actions are complete and the MAOS is ready to be 
+opened. 
+ 
+3.8. Logistics Chief. The Logistics Chief manages operations of the warehouses 
+and batch plants. The Logistics Chief’s primary responsibility is to make certain 
+logistics teams (i.e., warehouse and batch teams) are completing their assigned 
+tasks as effectively as possible and to help remove obstacles that negatively 
+impact their operations. The Logistics Chief is typically located in the CE-UCC 
+or Alternate UCC but may travel to the warehouses and/or batch plants to observe 
+or assist operations. The Logistics Chief directly contacts the Crater or Support 
+Chiefs when logistics teams require their assistance. The Logistics Chief contacts 
+the RADR OIC when support is needed from external organizations (e.g., fuels, 
+vehicle maintenance, etc.). In addition to tracking repair materials (e.g., backfill 
+material, capping material, FOD covers, etc.), the Logistics Chief also manages 
+asphalt production including reclaimed asphalt pavement (RAP) stockpiles, batch 
+start times, batched hot mix quantities, hot mix maximum hold times, and delivery 
+schedules. Finally, the Logistics Chief notifies the RADR OIC when logistics 
+teams have completed their primary tasks and are available to assist elsewhere. 
+ 
+3.9. Warehouse Leads. Warehouse Leads manage the delivery of repair materials 
+(e.g., flowable fill, crushed stone backfill, rapid-set concrete) to the crater repair 
+teams and keep track of materiel usage within their warehouse. Sufficient repair 
+material must be on hand, produced, and/or delivered on-time to meet rigid repair 
+timelines. 
+ 
+3.9.1. The initial material requirements are generated from damage inputs 
+processed through GeoExPT. Repair teams report the pavement upheaval marking 
+dimensions to the supporting Warehouse Lead for comparison with the GeoExPT 
+reports. After debris is excavated, the excavation spotter reports actual crater 
+volume to the supporting Warehouse Lead. Material procurement, production and 
+delivery must be adjusted accordingly to ensure sufficient repair materials are 
+available. 
+ 
+AFTTP 3-32.10, 29 November 2024 
+29 
+ 
+ 
+3.9.2. Warehouse Leads report material quantities, usage, and shortages to the 
+Logistics Chief so actions may be initiated to share, acquire, or produce additional 
+materiel if shortages are expected. Warehouse Leads inform the Logistics Chief 
+when warehouse members have completed their primary tasks and are available 
+to assist elsewhere. 
+ 
+3.9.3. Warehouse 1 Lead manages the start of asphalt batching, production, hold 
+times (trucks and stockpiles), deliveries, and reports status to the Logistics Chief. 
+ 
+3.10. Batch Plant Team Lead. The Batch Plant Leads manage asphalt production 
+for applicable repairs and ensures produced asphalt is loaded in warehouse dump 
+trucks to be delivered to the airfield at appropriate times. Each plant supports two 
+repair teams and receives directions from the Warehouse 1 Lead on when to begin 
+and stop production. Raw asphalt material (e.g., cookies or RAP) inventory, 
+production, hold times, and deliveries are reported to the Logistics Chief so 
+actions may be initiated as needed to share material with other batch plants, 
+acquire, or produce additional materiel if shortages are expected. 
+ 
+3.11. Crater Chief. The Crater Chief actively manages all MAOS crater and spall 
+repair operations. The Crater Chief is responsible for the overall convoy brief and 
+works with the RADR OIC and Logistics and Support Chiefs to determine convoy 
+lineup. The Crater Chief’s primary responsibility is ensuring the crater and spall 
+repair crews are progressing in a timely manner and to address disruptions such 
+as equipment breakdowns, material shortages, or personnel problems. The Crater 
+Chief typically is located on the airfield to monitor and assist RADR operations. 
+The Crater Chief communicates with the Logistics Chief and Support Chief when 
+support is required from, or needed by, logistics and support teams. The Crater 
+Chief communicates with the Logistics Chief when support is needed from the 
+Warehouses or Batch Plants. The Crater Chief contacts the RADR OIC when 
+support may be needed from external organizations (e.g., fuels, additional vehicle 
+or manning requests). Finally, the Crater Chief notifies the RADR OIC when 
+crater team crews have completed their primary tasks and are available to assist 
+elsewhere. 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+30 
+ 
+ 
+3.12. Support Chief. The Support Chief manages the five support teams’ 
+operations (i.e., FOD, Marking, Emergency Airfield Lighting System [EALS], 
+aircraft arresting system [AAS], and Water and Fuel Expedient Repair System 
+[WaFERS]) and informs them when they should proceed to the airfield to begin 
+work. The Support Chief’s primary responsibility is to make certain the support 
+teams complete their assigned tasks as effectively as possible and to help remove 
+obstacles that negatively impact their operations. The Support Chief is typically 
+located on the airfield to monitor and/or assist the support teams. The Support 
+Chief directly contacts the Crater Chief or Logistics Chief when support teams 
+require their assistance. The Support Chief contacts the RADR OIC when support 
+is needed from external organizations (e.g., fuels, vehicle maintenance, etc.). 
+Finally, the Support Chief notifies the RADR OIC when support teams have 
+completed their primary tasks and are available to assist elsewhere. 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+31 
+ 
+ 
+Chapter 4 
+ 
+MANNING 
+ 
+4.1. Overview. Personnel UTCs to perform RADR also perform beddown or Base 
+Operating Support-Integrator missions. See the CE Supplement to the War and 
+Mobilization Plan-1 (WMP-1) for personnel UTCs required to perform the RADR 
+mission. Table 4.1 identifies manning required for each RADR capability to 
+finish repairs in 6.5 hours (not counting Damage Assessment and Response 
+Teams [DARTs], 3E7, 3E8, or 3E9 personnel). Personnel are not counted twice 
+where individuals transfer to other teams after initial duties have been completed 
+(their radios are distributed as needed). The 16-person (not counting DARTs, 3E7, 
+3E8, or 3E9 personnel) control center manning is depicted in Figure 4.1. An 
+additional two RADR C2 personnel (Crater Chief and Support Chief), totaling 18, 
+are identified in Figure 4.2, which illustrates an example of the 75 person Small 
+RADR Capability. In total,  93 persons are required for a Small RADR Capability 
+(minus ADATs, DARTs, 3E7, 3E8, or 3E9). Table 4.2 identifies approximate 
+time to complete repairs with different number of teams. 
+ 
+4.2. Force Presentation. RADR force presentation is provided through Civil 
+Engineer beddown UTCs whether employed at home station (fight-in-place) and 
+augmented by UTCs from other locations, or UTCs tasked through the Joint 
+Operation Planning and Execution System at forward operating bases. Therefore, 
+all traditional CE personnel will receive airfield damage repair/RADR training to 
+ensure required skill sets are available when needed. In addition, EOD manning 
+is determined by enemy threat and risk, and therefore may not necessarily be 
+adequate for the RADR mission at a particular location. In these instances, 
+additional EOD UTCs should be tasked to support the RADR mission. 
+ 
+4.2.2. See the Civil Engineer Supplement to the WMP-1, Attachment 1, for a full 
+listing of CE personnel UTCs that may be tasked to execute RADR capabilities. 
+ 
+4.2.3. Where RADR capabilities are postured (whether at contingency locations 
+or main operating bases), use Functional Force Module tables in the WMP-1, 
+ 
+AFTTP 3-32.10, 29 November 2024 
+32 
+ 
+ 
+Appendix 14, Attachment 4, to identify additional manpower requirements 
+needed to support the RADR mission. 
+ 
+Note: RADR Warehouse manning includes Ground Transportation (2T1XX) 
+personnel to operate forklifts and tractor-trailers (see Figure 4.2). 
+ 
+Table 4.1. RADR Manning Numbers by Capability. 
+ 
+Team 
+Small 
+Medium 
+Large 
+Very Large 
+C2 + RADR OIC/Chiefs 
+18 
+18 
+18 
+18 
+Crater Repair 
+29 
+87 
+145 
+203 
+FOD Removal 
+8 
+8 
+8 
+8 
+Warehouse 
+8 
+24 
+40 
+56 
+Batch 
+3 
+6 
+9 
+12 
+MAOS Marking 
+6 
+6 
+6 
+6 
+EALS 
+6 
+6 
+6 
+6 
+AAS 
+12 
+12 
+12 
+12 
+WaFERS 
+3 
+3 
+3 
+3 
+Total 
+93 
+170 
+247 
+324 
+Note: Personnel numbers in this table are for the RADR mission only. Addi-
+tional personnel are required to perform DART, 3E7, 3E8, or 3E9 duties. 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+33 
+ 
+ 
+Figure 4.1. Example RADR C2 Center Structure. 
+ 
+ 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+34 
+ 
+ 
+Figure 4.2. Example Manning for Small RADR Capability. 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+35 
+ 
+ 
+Table 4.2. Approximate Crater Repair Production Numbers. 
+ 
+Crater Repair Matrix 
+Large 
+Crater 
+(30’) 
+Small 
+Crater 
+(8.5’) 
+RADR 
+Capability 
+Estimated Repair Time (Hours) 
+6.5 7 
+8 
+9 
+10 11 12 13 14 15 16 
+Number of Crater Repair Teams/Equipment UTCs 
+2 
+18 
+Small 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+4 
+24 
+Small + 1 
+2 
+2 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+4 
+30 
+Small + 1 
+2 
+2 
+2 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+4 
+36 
+Small + 1 
+2 
+2 
+2 
+2 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+6 
+42 
+Med. 
+3 
+3 
+2 
+2 
+2 
+2 
+1 
+1 
+1 
+1 
+1 
+6 
+48 
+Med. 
+3 
+3 
+2 
+2 
+2 
+2 
+2 
+1 
+1 
+1 
+1 
+6 
+54 
+Med. 
+3 
+3 
+3 
+2 
+2 
+2 
+2 
+2 
+1 
+1 
+1 
+8 
+60 
+Med. + 1 
+4 
+3 
+3 
+2 
+2 
+2 
+2 
+2 
+1 
+1 
+1 
+8 
+66 
+Med. + 1 
+4 
+4 
+3 
+3 
+2 
+2 
+2 
+2 
+2 
+2 
+2 
+8 
+72 
+Med. + 1 
+4 
+4 
+3 
+3 
+3 
+2 
+2 
+2 
+2 
+2 
+2 
+10 
+78 
+Large 
+5 
+4 
+4 
+3 
+3 
+2 
+2 
+2 
+2 
+2 
+2 
+10 
+84 
+Large 
+5 
+5 
+4 
+3 
+3 
+3 
+2 
+2 
+2 
+2 
+2 
+10 
+90 
+Large 
+5 
+5 
+4 
+3 
+3 
+3 
+2 
+2 
+2 
+2 
+2 
+12 
+96 
+Large + 1 
+6 
+5 
+4 
+4 
+3 
+3 
+3 
+2 
+2 
+2 
+2 
+12 
+102 
+Large + 1 
+6 
+5 
+4 
+4 
+3 
+3 
+3 
+3 
+2 
+2 
+2 
+12 
+108 
+Large +1 
+6 
+6 
+5 
+4 
+4 
+3 
+3 
+3 
+2 
+2 
+2 
+14 
+114 
+Very Lg. 
+7 
+6 
+5 
+4 
+4 
+3 
+3 
+3 
+3 
+2 
+2 
+14 
+120 
+Very Lg. 
+7 
+6 
+5 
+4 
+4 
+3 
+3 
+3 
+3 
+2 
+2 
+14 
+126 
+Very Lg. 
+7 
+7 
+5 
+5 
+4 
+4 
+3 
+3 
+3 
+3 
+2 
+1 = 1 crater repair team, 1 warehouse team, and 1 batch plant team if required. 
+2 = 2 crater repair teams, 2 warehouse teams, and 1 batch plant team if required. 
+3 = 3 crater repair teams, 3 warehouse teams, and 2 batch plant teams if required. 
+4 = 4 crater repair teams, 4 warehouse teams, and 2 batch plant teams if required. 
+5 = 5 crater repair teams, 5 warehouse teams, and 3 batch plant teams if required. 
+6 = 6 crater repair teams, 6 warehouse teams, and 3 batch plant teams if required. 
+7 = 7 crater repair teams, 7 warehouse teams, and 4 batch plant teams if required. 
+ 
+AFTTP 3-32.10, 29 November 2024 
+36 
+ 
+ 
+Note: UTC for one repair team has enough consumables to repair 
+approximately 18 craters. Crater numbers in this table assume sufficient 
+consumables (e.g. saw teeth, blades) are available. 
+ 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+37 
+ 
+ 
+Chapter 5 
+ 
+STATUS REPORTING 
+ 
+5.1. Overview. Status reports are initiated to keep leadership apprised of 
+personnel accountability and progress of recovery actions. Example status 
+reporting and personnel tracking sheets are provided in Attachment 3. 
+ 
+5.2. Personnel Status. To keep radio traffic to a minimum, RADR personnel use 
+the following procedures to report personnel status: 
+ 
+5.2.1. When RADR personnel permanently transfer, or are temporarily loaned, to 
+another RADR team, the losing Team Lead contacts the gaining Team Lead to 
+notify them personnel are transferred to their team. When the personnel arrive, 
+the gaining Team Lead notifies the losing Team Lead the personnel have safely 
+arrived. In this scenario, the personnel status change is not up channeled to the 
+RADR OIC/UCC as all RADR personnel are still accounted for and still assigned 
+to RADR. 
+ 
+5.2.2. However, if personnel are injured, killed, or become missing, the status is 
+reported up the chain to the RADR OIC as soon as discovered. The RADR OIC 
+keeps the personnel status updated on his/her status sheet (see Attachment 3) as 
+called in by the RADR Chiefs and immediately reports the status changes to the 
+UCC. 
+ 
+5.2.3. If/when the UCC requests a periodic dead/injured/missing/extra (DIME) 
+report (NOT initiated after a significant event such as an attack) the RADR OIC 
+reports the latest status change documented on his/her status sheet. 
+ 
+5.2.4. After a significant event (such as an attack) the RADR Chiefs initiate a 
+DIME report from their respective Team Leads, using a personnel status sheet 
+such as the one provided in Attachment 3, and report the results to the RADR 
+OIC. The RADR OIC reports the RADR totals to the UCC. 
+ 
+AFTTP 3-32.10, 29 November 2024 
+38 
+ 
+ 
+5.2.5. Use the “Extra” column in the DIME report to document when personnel 
+from other units shelter-in-place or engineers are transferred or loaned to complete 
+tasks other than RADR (e.g., sent to respond to a non-RADR emergency tasking 
+such as isolating a fallen high voltage electrical cable posing danger to base 
+personnel), or when non-CE personnel from another unit are loaned to support 
+RADR operations. For example: if three non-RADR persons were added to a 
+team, the “E” would be reported as “plus” (+) 3 followed by the Personnel Support 
+to Contingency Operations (PERSCO) numbers of the extra persons. Conversely, 
+if three persons were removed (i.e., transferred or loaned outside RADR 
+operations) from a team, the “E” would be reported as “minus” (-) 3 followed by 
+the PERSCO numbers of the three persons removed and their new location if 
+known. When reporting is complete, numbers in the “E” column are summed and, 
+if they balance (i.e. “0”) all personnel are accounted for. When figures do not 
+balance, a review of all reports should identify where extra personnel are located 
+and a call is made to determine if the extra personnel are the missing persons. If 
+applicable, use the remarks column to document when individuals are expected 
+to return to their RADR duties. 
+ 
+5.3. Recovery Status. Again, to keep radio traffic to a minimum and to provide a 
+better overall picture of the recovery picture, recovery status reporting is task-
+based, not percentage-based as in legacy Rapid Runway Repair procedures. See 
+Attachment 3 for an example RADR Progress Report Worksheet. 
+ 
+5.3.1. Each Crater Repair Team Lead reports to the Crater Chief as each repair 
+crew completes their primary task. 
+ 
+5.3.2. Support Teams with a continual mission give status updates as milestones 
+are completed (e.g., trailer loading complete or material hauling complete). It may 
+not be possible to complete support processes in order (e.g., Emergency Airfield 
+Lighting System (EALS) team could report “Delta” before “Charlie”, etc.). 
+ 
+5.3.3. The Support, Logistics, and Crater Chiefs pass along the status to the RADR 
+OIC in the CE UCC where status boards/IRAA are updated. 
+ 
+AFTTP 3-32.10, 29 November 2024 
+39 
+ 
+ 
+Chapter 6 
+ 
+FIELD FUELING STATIONS 
+ 
+6.1. Overview. Repair and ancillary teams are expected to conduct recovery 
+operations for up to seven hours; therefore, many of the vehicles involved in the 
+process will require refueling before operations are complete (see Table 6.1 for 
+RADR vehicle fuel consumption rates). If available, select suitable locations to 
+stage fuel trucks for refueling RADR vehicles during the recovery process. If fuel 
+trucks are not available, develop a refueling plan to be supported by the Logistics 
+Readiness Squadron (LRS). See Attachment 2 for an example of a refueling plan. 
+ 
+Table 6.1. RADR Vehicles Diesel/JP-8 Fuel Consumption Rate. 
+ 
+Vehicle 
+Fuel Capacity 
+(gallons) 
+GPH Burn 
+Rate 
+Operating Hours 
+Per Tank (hours) 
+Compact Track Loader 
+25.0 
+3.7 
+6.70 
+Volumetric Mixer 
+60.0 
+2.3 
+26.00 
+Asphalt Recycler 
+84.8 
+15.0 
+5.60 
+1500 Gallon Water Truck 
+100.0 
+6.8 
+14.70 
+CD54B Vibratory Roller 
+50.0 
+2.9 
+17.24 
+M318D Wheeled Excavator 
+79.3 
+4.8 
+16.50 
+Telehandler Forklift 
+39.6 
+4.5 
+8.80 
+Tractor Mounted Sweeper 
+20.0 
+4.3 
+4.60 
+Vacuum Sweeper 
+50.0 
+6.5 
+7.60 
+4 CY Loader 
+51.5 
+4.0 
+12.80 
+10 Ton Dump Truck 
+60.0 
+6.8 
+8.80 
+10 Ton Tractor 
+100.0 
+6.8 
+8.80 
+Dozer 
+127.0 
+9.5 
+13.30 
+Grader 
+90.9 
+6.7 
+13.50 
+Warehouse Forklift 
+15.0 
+2.1 
+7.10 
+Pneumatic Roller 
+104.0 
+4.0 
+26.00 
+Note: Late model diesel fuel-operated vehicles may require Diesel Exhaust 
+Fluid. 
+ 
+AFTTP 3-32.10, 29 November 2024 
+40 
+ 
+ 
+6.2. Motor Gasoline (MOGAS). Many general purpose vehicles and several 
+small MOGAS engines (e.g. mud pumps, generators) may be required to support 
+recovery operations. Ensure a sufficient supply of MOGAS is available (at least 
+500 gallons for a small capability, 900 gallons for a medium capability, 1,300 
+gallons for a large capability, and 1,700 gallons for a very large capability). 
+ 
+AFTTP 3-32.10, 29 November 2024 
+41 
+ 
+ 
+Chapter 7 
+ 
+RADR VEHICLE MAINTENANCE WHILE IN WRM 
+ 
+7.1. General Information. War Reserve Materiel vehicle assets are managed in 
+accordance with AFI 25-101, War Reserve Materiel (WRM), and AFI 24-302.  In 
+addition to requirements identified in those publications, below are maintenance 
+actions for RADR-unique equipment and vehicles in WRM.   
+ 
+7.2. Vehicle Maintenance Requirements while Stored in WRM. The following 
+maintenance actions should be performed on RADR-unique equipment and 
+vehicles while stored in WRM, as coordinated with the 441st Vehicle Support 
+Chain Operations Squadron (VSCOS). 
+ 
+7.2.1. If no technical order or manufacturer guidance for operational inspections 
+exist for equipment stored, the following guidance applies. Perform a pre-
+operational inspection that consists of, at a minimum, a check of and/or adding 
+engine oil/pump oil, coolant, and hydraulic fluid. Inspect tire conditions and air 
+pressures; check operation of lights, horns, alarms, and perform corrosion control 
+as necessary. Correct any discrepancies prior to operating the equipment. 
+Functionally operate all vehicle/equipment and conduct a general condition 
+inspection for overall condition, leaks, and damage. Once operational 
+inspection/checkout actions are complete, document and prepare for storage. 
+Equipment will not be returned to storage until all discrepancies/malfunctions 
+have been corrected and documented. 
+ 
+7.2.2. Refer to individual equipment technical orders or manufacturer’s manuals 
+for guidance in preparing equipment for storage. If technical orders or manuals 
+do not include guidance for storage preparation, prepare the equipment in the 
+following manner. Drain all fuel from unit’s engine fuel tank. Leave engine oil in 
+crankcase at operating level. Disconnect batteries, remove and maintain batteries 
+in a ready state by periodic charging and rotating use during inspection/ 
+operational checkout. Open air valves, grease exposed cylinders, and cover assets 
+to protect from environment conditions if possible. 
+ 
+AFTTP 3-32.10, 29 November 2024 
+42 
+ 
+ 
+7.2.3. Vehicles maintained in active storage should be functionally tested semi-
+annually by CE personnel with assistance of vehicle maintenance personnel. 
+ 
+7.2.4. To assist with compact track loader and excavator attachment maintenance 
+while in storage, attachments may be configured on RADR attachment trailers as 
+shown in Figure A4.2; however, trailers must be reloaded in the survivability 
+configuration during pre-attack actions as shown in Figure A4.1. 
+ 
+7.2.5. Perform the following when equipment is stored in freezing temperatures: 
+ 
+7.2.5.1. Drain water from tanks and plumbing, leave water valves open, and use 
+compressed air to remove water that does not drain by gravity.  
+ 
+7.2.5.2. Verify battery electrolyte is filled to the indicated level. Ensure battery 
+terminals are free of debris and rust. Consider removing batteries from equipment, 
+store them inside a building or warehouse, and keep batteries charged using a 
+trickle charger. Avoid charging a frozen battery as it will normally explode. 
+ 
+7.2.5.3. Maintain proper tire pressures. 
+ 
+7.2.5.4. Keep fuel tanks full to prevent condensation inside the tanks (Exception: 
+drain volumetric mixer fuel tanks). Consider using an approved diesel fuel 
+treatment/stabilizer to keep fuel liquefied and to remove moisture from lines. 
+After adding the fuel treatment/stabilizer, run the engine for a few minutes to 
+circulate the additives to the pump and fuel injectors. 
+ 
+7.2.5.5. Properly grease all lubrication points to prevent moisture from building 
+up. Remember to use low-temp lube as recommended by manufacturers. 
+ 
+7.2.5.6. Monthly, check all fluid levels and add enough fuel to start the machine 
+and run it until the engine reaches working temperature. Remove grease from the 
+hydraulic cylinder pistons, and carefully operate the hydraulic controls, making 
+sure they function properly. When finished, lightly recoat the hydraulic cylinder 
+pistons with grease and drain remaining fuel. 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+43 
+ 
+ 
+Chapter 8 
+ 
+PREPARATORY ACTIONS 
+ 
+8.1. Pre-Threat Actions. These are actions that may require days to complete and 
+therefore should be accomplished before an immediate threat is recognized. 
+ 
+8.1.1. Conduct an airfield survey using as-built drawings and on-site inspections 
+to determine pavement types and thicknesses, whether or not load transfer devices 
+(dowels) or reinforcing bars are present within concrete pavement, and 
+shoulder/overrun construction features. Document location and depth of any 
+utility, pipe, drain or structural element that are beneath any airfield pavements. 
+If as-built drawings are unavailable locally, request airfield survey data from the 
+Air Force Civil Engineer Center Reach Back Center at DSN 523-6995, 
+Commercial 850-283-6995, or afcec.rbc@us.af.mil. If no survey data is found, 
+airfield damage may reveal whether or not load transfer devices are present. 
+Otherwise, treat the first repair as if load transfer devices are not present and adjust 
+if necessary. 
+ 
+8.1.2. Conduct airfield profile measurements and dynamic cone penetrometer 
+readings every 200-feet along the runway edges to determine locations with 
+suitable slope and California Bearing Ratio for aircraft arresting system 
+installations and suitable locations for Precision Approach Path Indicator (PAPI) 
+installations. Perform the measurements from the runway edges out to 300-feet 
+from the runway’s centerline. 
+ 
+8.1.3. Obtain a dozen cans each of red and black spray marking paint (and lumber 
+crayons for inclement weather, located in the RADR tool trailer) to be used by the 
+Upheaval Marking Crew to mark pavement cut lines. It is also used by the 
+Excavation Crew to mark lines for backfill levels within a repair, and to mark the 
+excavation level on the excavator’s bucket to assist the spotter in determining 
+when excavation has reached the appropriate depth. 
+ 
+AFTTP 3-32.10, 29 November 2024 
+44 
+ 
+ 
+8.1.4. Obtain a dozen tubes of construction adhesive to be used by the Capping 
+Crew to attach expansion joint board to adjacent slabs of a rapid large crater 
+repair. 
+ 
+8.1.5. Acquire a case of two-cycle oil for power equipment (e.g., blowers in 
+inclement weather kit) and store in RADR Tool Trailer. 
+ 
+8.1.6. If an asphalt capability is going to be utilized at the location, locally obtain 
+at least 40 tons of asphalt (RAP, cookies, etc.) when the airfield includes asphalt 
+pavement. 
+ 
+8.1.7. Ensure crushed stone stockpiles are sufficient. 
+ 
+8.1.8. Ensure line-of-sight measurement devices (Figure 8.1) are in the RADR 
+Tool Trailer upon receiving UTC 4FWCR. If devices are missing or damaged, 
+construct devices using specifications found in T.O. 35E2-5-1. 
+ 
+Figure 8.1. Profile Measurement Devices. 
+ 
+ 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+45 
+ 
+ 
+8.1.9. Marry prime movers with the designated item to be towed to ensure there 
+is no coupling or clearance issues. Also, ensure light and brake connections are 
+compatible. Implement corrective actions as necessary. 
+ 
+8.1.10. If the installation supports heavy airframes (e.g. airlift, tankers) and has 
+soil that makes driving cruciform stakes extremely difficult (e.g. coral, rock, 
+caliche), consider constructing concrete pads (aligned with pads constructed at the 
+runway shoulder for Mobile Runway Edge Sheave [MRES] installations) for 
+anchoring Mobile Aircraft Arresting System (MAAS) trailers for setback 
+installations (see Figure 8.2 for example configurations). Make these pads the 
+same dimensions and aligned with pads along runway’s edges. For design 
+considerations, consult the Air Force Civil Engineer Reach Back Center at DSN 
+523-6995, Commercial 850-283-6995, or afcec.rbc@us.af.mil. 
+ 
+Figure 8.2. Example AAS Installation Pads. 
+ 
+ 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+46 
+ 
+ 
+8.1.11. RADR asphalt recyclers have the ability to utilize RAP to create asphalt 
+crater capping materials. All peacetime paving projects at installations with a 
+RADR requirement should consider utilizing airfield mix in normal peacetime 
+construction projects so it can be milled or recycled if needed for RADR. For 
+design considerations, consult the Air Force Civil Engineer Reach Back Center at 
+DSN 523-6995, Commercial 850-283-6995, or afcec.rbc@us.af.mil. 
+ 
+8.1.12. There are not enough prime movers in the RADR vehicle sets to tow all 
+trailers and towable equipment to the airfield when convoying to the repair areas 
+after attack. Therefore, work with the unit vehicle control officer to coordinate 
+with LRS to develop a memorandum of agreement to provide a tractor-trailer and 
+driver to assist with delivering trailers and equipment to the airfield and dedicated 
+vehicle mechanics to assist with RADR operations after an attack. 
+ 
+8.1.13. Coordinate with airfield management to determine potential aircraft types 
+that may use the airfield, aircraft operational weights, and aircraft operations 
+modes (e.g. arrestment, take-off only, evacuation, short take-off, vertical landing), 
+and aircraft dispersal plans as these impact MAOS selection and may affect 
+RADR preposition layouts.  
+ 
+8.1.14. Coordinate with Security Forces on RADR dispersal locations and 
+potential haul routes to prevent friendly-fire incidents.  
+ 
+Note: Routes may require breaching of a fence or other barrier to the flightline. 
+ 
+8.1.15. Coordinate with Transportation for vehicle maintenance support 
+protocols. 
+ 
+8.1.16. Coordinate RADR refueling plans with Fuels. 
+ 
+8.1.17. Coordinate with all units, including LRS, that may supply manpower, 
+equipment/vehicles, or materials to augment CE during recovery efforts to ensure 
+accounting, marshaling, and transfers are efficient and effective. 
+ 
+AFTTP 3-32.10, 29 November 2024 
+47 
+ 
+ 
+8.2. Attack Preparation Actions. These are actions taken when indications and 
+warnings inform the commander of an adversary’s preparation and intent to 
+conduct offensive operations. 
+ 
+8.2.1. Retrieve line-of-sight measurement devices (see Figure 8.1) in the RADR 
+Tool Trailer and load devices in vehicle designated to transport Upheaval Marking 
+Crew to the airfield. 
+ 
+8.2.2. Load work-tool attachment trailers as illustrated in Figure A4.1. 
+ 
+8.2.3. Retrieve fuel cans and two-cycle oil from RADR Tool Trailer, fill fuel cans, 
+and place fuel cans and oil in Inclement Weather and Spall Kits. 
+ 
+8.2.4. Fill water trailers, water skids, and volumetric mixer water tank(s). Do NOT 
+load mixer with repair material until repair types are known (i.e., concrete or 
+asphalt caps).  
+ 
+Note: Flowable fill and rapid-setting concrete perform best when mixed with 
+water between 70°F and 80°F. Indoor storage or mechanical heating devices may 
+be required to keep water at this temperature. Maintain water at or above 50°F in 
+cold weather locations in order to eliminate the need to use accelerants or to 
+increase cure times. Currently, fresh water is required, however, testing using sea 
+water is ongoing and may be a viable option in the future. Stay informed. 
+ 
+8.2.5. Inspect vehicles and equipment for serviceability and fill fuel tanks. 
+ 
+8.2.6. Disperse vehicles and equipment per installation dispersal plan to include 
+dispersing repair materials to warehouse operating locations. 
+ 
+8.2.7. Repeated attacks should be anticipated. The probability of these continued 
+attacks will diminish as Allied air superiority is obtained. Proper planning should 
+include the protection of repair personnel, material, vehicles, and equipment 
+against repeated attacks on the airfield. 
+ 
+AFTTP 3-32.10, 29 November 2024 
+48 
+ 
+ 
+8.2.8. Run a minimum of one yard of material through the volumetric mixer to 
+ensure proper operation and correct settings; thoroughly clean mixer afterwards. 
+Also, stock the mixer catwalk with any required admixtures. 
+ 
+Note: Some volumetric mixers have experienced seized water pumps upon 
+removal from WRM. Recommend full operational test of all volumetric mixers 
+(and asphalt recyclers) before accepting from WRM. If pump is seized, WRM 
+maintenance personnel should perform corrective action by disassembling pump, 
+replacing the shear pin, and lubricating all lubrication points.  
+ 
+8.2.9. Break 2.5-inch-thick stockpiled asphalt cookies to a size less than 15 inches 
+by 15 inches. 
+ 
+8.2.10. If stockpiled sand is wet, move a bucket load where it can dry, and stay 
+dry, for use with the sand spreader in the inclement weather kit. 
+ 
+8.2.11. See AFTTP 3-32.17 for attack recovery action and mobilizing the repair 
+force. 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+49 
+ 
+ 
+Chapter 9 
+ 
+RETURN TO NORMAL OPERATIONS 
+ 
+9.1. Overview. This phase begins when an appropriate authority directs the return 
+to normal operations. Depending upon recovery actions after the attack, tasks may 
+be added to a shop’s normal operations.  
+ 
+9.2. Shop Tasks. The following are tasks for specific shops returning to normal 
+operations after attack. Note: May not be all inclusive. 
+ 
+9.2.1. Pavements & Construction Equipment Shop. The following tasks should be 
+performed after returning to normal operations after an attack: 
+ 
+• 
+Extend the MOS/MAOS to full operational capabilities. 
+• 
+Inspect and maintain airfield repairs. 
+• 
+Reform permanent spall repairs to expedient spall repairs. 
+• 
+Remove debris pushed off the airfield during repairs. 
+• 
+Schedule to make semi-permanent repairs permanent. 
+ 
+9.2.2. Electrical Systems Shop. Once the EALS is installed and operational, the 
+following tasks should be part of normal operations: 
+ 
+• 
+Conduct periodic inspections and preventative maintenance on 
+operational EALS in accordance with T.O. 35F5-3-17-1, Lighting 
+System, Airfield, Emergency. 
+• 
+Develop and refueling plan for EALS generators. 
+• 
+Blackout the EALS system when an attack is imminent and directed by 
+leadership. 
+• 
+Schedule repair/installation of permanent airfield lighting system. 
+ 
+9.2.3. Electrical Power Production Shop. Once the MAAS/MRES are installed 
+and operational, the following tasks should be part of normal operations: 
+ 
+AFTTP 3-32.10, 29 November 2024 
+50 
+ 
+ 
+• 
+Conduct periodic inspections and preventative maintenance on 
+MAAS/MRES in accordance with T.O. 35E8-2-10-1, Mobile Aircraft 
+Arresting System and T.O. 35E8-2-5-1, Operation and Maintenance 
+Instructions – Aircraft Arresting System Model BAK-12. 
+• 
+Perform periodic inspections and preventative maintenance on EALS 
+generators. 
+ 
+9.2.4. Engineering. 
+ 
+• 
+Update base map. 
+• 
+Update facility and infrastructure maps. 
+• 
+Track repair patch pass counts and update airfield pavement maps. 
+ 
+9.2.5. Structures Shop. Plan to restore permanent airfield markings. 
+ 
+9.2.6. Water & Fuel Systems Maintenance Shop. Periodically inspect repairs and 
+plan to make expedient repairs permanent. 
+ 
+ 
+ 
+ 
+TOM D. MILLER, Lt Gen, USAF 
+  
+ 
+ 
+ 
+DCS/Logistics, Engineering & Force Protection 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+51 
+ 
+ 
+Attachment 1 
+ 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+References 
+DAFI 10-2501, Air Force Emergency Management Program, 16 October 2023 
+AFI 10-209, RED HORSE Program, 11 June 2019 
+AFI 10-210, Prime Base Engineer Emergency Force (BEEF) Program,  
+25 October 2023 
+AFI 24-302, Vehicle Management, 21 February 2020 
+AFI 25-101, War Reserve Materiel (WRM), 27 August 2019 
+AFI 33-322, Records Management and Information Governance Program, 
+23 March 2020 
+AFMAN 10-2502, Air Force Incident Management System (AFIMS) Standards 
+and Procedures, 13 September 2018 
+AFPAM 10-219V3, Civil Engineer Contingency Response and Recovery 
+Procedures, 7 May 2015 
+Technical Order 35E2-5-1, Crushed Stone Crater Repair Instructions and Line-
+of-Sight Measurement Procedures, 27 August 2007 
+Technical Order 35E8-2-5-1, Operation and Maintenance Instructions – 
+Aircraft Arresting System Model BAK-12, 29 March 2001 
+Technical Order 35E8-2-10-1, Mobile Aircraft Arresting System, 28 July 2016 
+Technical Order 35F5-3-17-1, Lighting System, Airfield, Emergency, 6 June 
+2014 
+AFTTP 3-32.5V6, Explosive Ordnance Disposal (EOD) Unexploded Explosive 
+Ordnance (UXO) Response Operations, 10 October 2023 
+Civil Engineer Supplement to the War Mobilization Plan-1, 17 April 2020 
+ 
+AFTTP 3-32.10, 29 November 2024 
+52 
+ 
+ 
+AFTTP 3-32.5V10, Explosive Ordnance Disposal (EOD) Rapid Airfield 
+Damage Recovery (RADR) And Explosive Hazards Mitigation (EHM), 13 March 
+2023 
+AFTTP 3-32.11, Airfield Damage Assessment after Attack, 18 May 2022 
+AFTTP 3-32.12, Minimum Airfield Operating Surface Selection and Repair 
+Quality Criteria, 3 May 2024 
+AFTTP 3-32.17, Rapid Airfield Crater and Spall Repair, 10 October 2023 
+AFTTP 3-32.18, Rapid Airfield Damage Recovery Warehouse and Ground 
+Transportation Operations, 9 February 2024 
+AFTTP 3-32.19, Rapid Airfield Damage Recovery-Asphalt Batch Plant 
+Operations, 24 September 2018 
+ 
+Prescribed Forms 
+No prescribed forms are implemented in this publication. 
+ 
+Adopted Forms 
+DAF Form 847, Recommendation for Change of Publication. 
+ 
+Abbreviations and Acronyms 
+AAS—aircraft arresting system 
+ADAT—Airfield Damage Assessment Team 
+ADR—Airfield Damage Repair 
+AFCEC—Air Force Civil Engineer Center 
+AFI—Air Force Instruction 
+AFMAN—Air Force Manual 
+AFSC—Air Force Specialty Code 
+AFTTP—Air Force Tactics, Techniques, and Procedures 
+ 
+AFTTP 3-32.10, 29 November 2024 
+53 
+ 
+ 
+AM-2—Airfield Matting 
+BEEF—Base Engineer Emergency Force 
+C2—command and control 
+CCDR—combatant commander 
+CE—Civil Engineer  
+CE-UCC—Civil Engineer Unit Control Center 
+CTL—compact track loader 
+DAF—Department of the Air Force 
+DAFI— Department of the Air Force Instruction 
+DART—Damage Assessment and Repair Team 
+DIME—dead, injured, missing, extra 
+DTG—distance to go 
+EALS—Emergency Airfield Lighting System 
+EOC—Emergency Operations Center 
+EOD—explosive ordnance disposal 
+ESF—Emergency Support Function 
+FOD—foreign object debris 
+FRP—Fiber-reinforced Polymer 
+GeoExPT—Geospatial Expeditionary Planning Tool 
+IRAA—Installation Recovery after Attack 
+LRS—Logistics Readiness Squadron 
+MAAS—Mobile Aircraft Arresting System 
+MAOS—minimum airfield operating surface 
+ 
+AFTTP 3-32.10, 29 November 2024 
+54 
+ 
+ 
+MOS—minimum operating strip 
+MMC—Mass Mechanical Clearance 
+MRES—Mobile Runway Edge Sheave 
+OIC—officer in charge 
+PAPI—Precision Approach Path Indicator 
+PCC—Portland concrete cement 
+PERSCO—Personnel Support to Contingency Operations 
+RADBO—recovery of airbases denied by ordnance 
+RADR—Rapid Airfield Damage Recovery 
+RAP—reclaimed asphalt pavement 
+RED HORSE—Rapid Engineer Deployable Heavy Operational Repair 
+Squadron Engineer 
+RDR—Rapid Damage Repair 
+REHM—Rapid Explosive Hazard Mitigation 
+T.O.—technical order 
+TTP—tactics, techniques, and procedures 
+UCC—Unit Control Center 
+UTC—Unit Type Code 
+UXO—unexploded explosive ordnance 
+VSCOS—Vehicle Support Chain Operations Squadron 
+WaFERS—Water and Fuel Expeditionary Repair System 
+WMP—War Mobilization Plan 
+WRM—War Reserve Materiel 
+ 
+AFTTP 3-32.10, 29 November 2024 
+55 
+ 
+ 
+ 
+Office Symbols 
+AF/A4C—Director of Civil Engineers 
+441 VSCOS—441st Vehicle Support Chain Operations Squadron 
+ 
+Terms 
+Adversary—A party acknowledged as potentially hostile to a friendly party and 
+against which the use of force may be envisaged. 
+Airfield—An area prepared to accommodate (including any buildings, 
+installations, and equipment) landing, and takeoff of aircraft. 
+Air Tasking Order—A method used to task and disseminate to components, 
+subordinate units, and command and control agencies projected sorties, 
+capabilities and/or forces to targets and specific missions. Normally provides 
+specific instructions to include call signs, targets, controlling agencies, etc., as 
+well as general instructions. Source: JP 3-30. 
+Airfield Damage Assessment—Locating, classifying, and measuring the damage 
+(camouflet, crater, spall, and UXO) on the airfield operating surfaces. 
+Airfield Damage Assessment Team (ADAT)—An airfield recovery team, 
+typically located in or near the EOC and directed by the ESF 3, used to identify 
+and locate airfield damage and UXO following an attack. Their initial efforts are 
+normally targeted towards the airfield proper; but can also be employed elsewhere 
+as deemed necessary. The ADAT usually consists of one engineering technician 
+and two EOD technicians. A CE member trained as an EOD assistant may replace 
+one of the EOD technicians when two are unavailable for ADAT. The ADAT 
+should be equipped with an armored vehicle and communications enabling them 
+to report their observations to the MAOS Selection Cell. The ADAT damage 
+reports must be as accurate as possible as this information is used in MAOS 
+selection. 
+ 
+AFTTP 3-32.10, 29 November 2024 
+56 
+ 
+ 
+Anti-access—Action, activity, or capability, usually long-range, designed to 
+prevent an advancing enemy force from entering an operational area.  
+Application—1. The system or problem to which a computer is applied. 2. In the 
+intelligence context, the direct extraction and tailoring of information from an 
+existing foundation of intelligence and near real time reporting. 
+Area of operations—An operational area defined by a commander for land, air 
+and maritime forces that should be large enough to accomplish their missions and 
+protect their forces.  
+Assessment—1. A continuous process that measures the overall effectiveness of 
+employing capabilities during military operations. 2. Determination of the 
+progress toward accomplishing a task, creating a condition, or achieving an 
+objective. 3. Analysis of the security, effectiveness, and potential of an existing 
+or planned intelligence activity.  
+Camouflet—cavities formed from a deep underground burst with minimal 
+surface rupture. 
+Center—An enduring functional organization, with a supporting staff, designed 
+to perform a joint function within a joint force commander’s headquarters. 
+Chain of command—The succession of commanding officers from a superior to 
+a subordinate through which command is exercised. Also called command 
+channel. 
+Combatant Commander (CCDR)—A commander of one of the unified or 
+specified combatant commands established by the President.  
+Command and Control (C2)—The exercise of authority and direction by a 
+properly designated commander over assigned and attached forces in the 
+accomplishment of the mission. C2 functions are performed through an 
+arrangement of personnel, equipment, communications, facilities, and procedures 
+employed by a commander in planning, directing, coordinating, and controlling 
+forces and operations in the accomplishment of the mission. 
+Contingency—An emergency involving military forces caused by natural 
+disasters, terrorists, subversives, or by required military operations. Due to the 
+ 
+AFTTP 3-32.10, 29 November 2024 
+57 
+ 
+ 
+uncertainty of the situation, contingencies require plans, rapid response and 
+special procedures to ensure the safety and readiness of personnel, installations, 
+and equipment. 
+Contingency Location—A non-enduring location outside of the United States 
+that supports and sustains operations during named and unnamed contingencies 
+or other operations as directed by appropriate authority and is categorized by 
+mission life-cycle requirements as initial, temporary, or semi-permanent. 
+Contingency Operation—A military operation that is either designated by the 
+Secretary of Defense as a contingency operation or becomes a contingency 
+operation as a matter of law. 
+Control—Authority that may be less than full command exercised by a 
+commander over part of the activities of subordinate or other organizations.  
+Convoy—A group of vehicles organized for the purpose of control and orderly 
+movement with or without escort protection that moves over the same route at the 
+same time and under one commander. 
+Crater—The pit, depression, or cavity formed in the surface of the earth by an 
+explosion. It may range from saucer-shaped to conical, depending largely on the 
+depth of burst. 
+Damage Assessment—1. The determination of the effects that attacks have on 
+targets. 2. (DOD only) A determination of the effect of a compromise of classified 
+information on national security. 3. (AF/CE) The process of identifying and 
+locating damage and unexploded ordnance following an attack. Damage 
+assessment activities generally are separated into two categories: airfield 
+pavements and facility/utility. 
+Dispersal—Relocation of forces for the purpose of increasing survivability. 
+Emergency Operations Center (EOC)—The physical location at which the 
+coordination of information and resources to support incident management (on-
+scene operations) activities normally takes place. An EOC may be a temporary 
+facility or may be located in a more central or permanently established facility, 
+perhaps at a higher level of organization within a jurisdiction. EOCs may be 
+ 
+AFTTP 3-32.10, 29 November 2024 
+58 
+ 
+ 
+organized by major functional disciplines (e.g., fire, law enforcement, medical 
+services), by jurisdiction (e.g., federal, state, regional, tribal, city, county), or by 
+some combination thereof. (NIMS) 
+Emergency Support Functions— Used by the Air Force, federal government 
+and many state governments as the primary mechanism at the operational level to 
+organize and provide assistance. ESFs align categories of resources and provide 
+strategic objectives for their use. ESFs utilize standardized resource management 
+concepts such as typing, inventorying, and tracking to facilitate the dispatch, 
+deployment, and recovery of resources before, during, and after an incident. 
+(NRF.) For further information on ESFs and their function in the Air Force, refer 
+to AFMAN 10-2502 Attachment 2. 
+Equipment—In logistics, all nonexpendable items needed to outfit or equip an 
+individual or organization. 
+Explosive Hazard—Any hazard containing an explosive component to include 
+unexploded explosive ordnance (including land mines), booby traps (some booby 
+traps are nonexplosive), improvised explosive devices (which are an improvised 
+type of booby trap), captured enemy ammunition, and bulk explosives. 
+Explosive Ordnance—All munitions containing explosives, nuclear fission or 
+fusion materials, and biological and chemical agents. 
+Explosive Ordnance Disposal (EOD)—The detection, identification, on-site 
+evaluation, rendering safe, recovery, and final disposal of unexploded explosive 
+ordnance. It may also include explosive ordnance which has become hazardous 
+by damage or deterioration. 
+Facility—A real property entity consisting of one or more of the following: a 
+building, a structure, a utility system, pavement, and underlying land.  
+Force—An aggregation of military personnel, weapon systems, equipment, and 
+necessary support, or combination thereof. 
+Hazard—A condition with the potential to cause injury, illness, or death of 
+personnel; damage to or loss of equipment or property; or mission degradation. 
+ 
+AFTTP 3-32.10, 29 November 2024 
+59 
+ 
+ 
+Host Nation—A nation which receives the forces and/or supplies of allied nations 
+and/or NATO organizations to be located on, to operate in, or to transit through 
+its territory. 
+Intelligence—The product resulting from the collection, processing, integration, 
+evaluation, analysis, and interpretation of available information concerning 
+foreign nations, hostile or potentially hostile forces or elements, or areas of actual 
+or potential operations. 
+Main Operating Base—A facility outside the United States and US territories 
+with permanently stationed operating forces. Main operating bases are 
+characterized by command and control structures, enduring family support 
+facilities, and strengthened force protection measures.  
+MAOS Selection—The process of plotting damage and UXO locations on an 
+airbase runway map and using this information to select a portion of the damaged 
+runway which can be repaired most quickly to support aircraft operations. 
+Minimum Airfield Operating Surface (MAOS)—The combined requirement 
+for airfield surfaces for both runway and access routes. For example, the MOS is 
+part of the MAOS. 
+Minimum Operating Strip (MOS)—1. A runway which meets the minimum 
+requirements for operating assigned and/or allocated aircraft types on a particular 
+airfield at maximum or combat gross weight. 2. The MOS is the smallest amount 
+of area to be repaired to launch and recover aircraft after an attack. Selection of 
+this MOS will depend upon mission requirements, taxi access, resources 
+available, and estimated time to repair. For fighter aircraft, the typically accepted 
+dimensions are 5,000 feet long by 50 feet wide. 
+Mission—1. The task, together with the purpose, that clearly indicates the action 
+to be taken and the reason therefore. (JP 3-0) 2. In common usage, especially when 
+applied to lower military units, a duty assigned to an individual or unit; a task. (JP 
+3-0) 3. The dispatching of one or more aircraft to accomplish one particular task. 
+(JP 3-30) 
+Mitigation— Activities providing a critical foundation in the effort to reduce the 
+loss of life and property from natural and/or manmade disasters by avoiding or 
+ 
+AFTTP 3-32.10, 29 November 2024 
+60 
+ 
+ 
+lessening the impact of a disaster and providing value to the public by creating 
+safer communities. Mitigation seeks to fix the cycle of disaster damage, 
+reconstruction, and repeated damage. These activities or actions, in most cases, 
+will have a long-term sustained effect. (NIMS) 
+Objective—1. The clearly defined, decisive, and attainable goal toward which an 
+operation is directed. 2. The specific goal of the action taken which is essential to 
+the commander’s plan. 
+On Hand—The quantity of an item that is physically available in a storage 
+location and contained in the accountable property book records of an issuing 
+activity. 
+Ordnance—Explosives, chemicals, pyrotechnics, and similar stores, e.g., bombs, 
+guns and ammunition, flares, smoke, or napalm. 
+Pavement Upheaval—The vertical displacement of the airfield pavement around 
+the edge of an explosion-produced crater. The pavement upheaval is within the 
+crater damage diameter, but is outside the apparent crater diameter. In other 
+words, it is that part of the pavement out of “flush” tolerance which is elevated 
+above the adjacent undamaged surface. 
+Personnel—Those individuals required in either a military or civilian capacity to 
+accomplish the assigned mission. 
+Personnel Accountability—The process of identifying, capturing, and recording 
+the personal identification information of an individual usually through the use of 
+a database. 
+Procedures—Standard, detailed steps that prescribe how to perform specific 
+tasks. 
+Recovery—The development, coordination, and execution of service- and site-
+restoration plans for impacted communities and the reconstitution of government 
+operations and services through individual, private-sector, nongovernmental, and 
+public assistance programs that: identify needs and define resources; provide 
+housing and promote restoration; address long-term care and treatment of affected 
+persons; implement additional measures for community restoration; incorporate 
+ 
+AFTTP 3-32.10, 29 November 2024 
+61 
+ 
+ 
+mitigation measures and techniques, as feasible; evaluate the incident to identify 
+lessons learned; and develop initiatives to mitigate the effects of future incidents. 
+Recovery Operations—Operations conducted to search for, locate, identify, 
+recover, and return isolated personnel, human remains, sensitive equipment, or 
+items critical to national security. 
+RED HORSE—Wartime structured Air Force units providing a heavy engineer 
+capability that is mobile, rapidly deployable, and largely self-sufficient for limited 
+periods of time. 
+Response—Activities that address the short-term, direct effects of an incident. 
+Response includes immediate actions to save lives, protect property, and meet 
+basic human needs. Response also includes the execution of emergency 
+operations plans and of incident mitigation activities designed to limit the loss of 
+life, personal injury, property damage, and other unfavorable outcomes. As 
+indicated by the situation, response activities include: applying intelligence and 
+other information to lessen the effects or consequences of an incident; increased 
+security operations; continuing investigations into the nature and source of the 
+threat; ongoing public health and agricultural surveillance and testing processes; 
+immunizations, isolation or quarantine; and specific law enforcement operations 
+aimed at preempting, interdicting or disrupting illegal activity and apprehending 
+actual perpetrators and bringing them to justice. 
+Runway—A defined rectangular area of an airfield, prepared for the landing and 
+takeoff run of aircraft along its length. A runway is measured from the outer edge 
+of the thresholds from one end of the runway to the others. The width of the 
+runway is typically measured from the outer edge of the load-bearing pavement 
+on one side to the outer edge of the load-bearing pavement on the other side. In 
+some cases the runway may be measured from the outside edge of the runway 
+marking line on one side to the outside edge of the marking line on the other side 
+and any remaining load bearing pavement is considered shoulder. 
+Sortie—In air operations, an operational flight by one aircraft. 
+Source—A person, thing, or activity from which information is obtained. 
+ 
+AFTTP 3-32.10, 29 November 2024 
+62 
+ 
+ 
+Spall—Pavement damage that does not penetrate through the pavement structure 
+to the underlying base course. A spall damage area could be up to 1.5 meters (5 
+feet) in diameter. 
+Staging—Assembling, holding, and organizing arriving personnel, equipment, 
+and sustaining materiel in preparation for onward movement. 
+System—A functionally, physically, and/or behaviorally related group of 
+regularly interacting or interdependent elements; that group of elements forming 
+a unified whole. 
+Tactics—The employment and ordered arrangement of forces in relation to each 
+other. 
+Task—A clearly defined action or activity specifically assigned to an individual 
+or organization that must be done as it is imposed by an appropriate authority. 
+Taxiway—A specially-prepared or designated path on an airfield or heliport, 
+other than apron areas, on which aircraft move under their own power to and from 
+landing, takeoff, service, and parking areas. 
+Techniques—Non-prescriptive ways or methods used to perform missions, 
+functions, or tasks. 
+Threat—An indication of possible violence, harm, or danger. 
+Unexploded Explosive Ordnance (UXO)—Explosive ordnance which has been 
+primed, fuzed, armed, or otherwise prepared for action, and which has been fired, 
+dropped, launched, projected, or placed in such a manner as to constitute a hazard 
+to operations, installations, personnel, or material, and remains unexploded either 
+by malfunction or design. 
+Unidirectional Minimum Operating Strip (MOS)—A condition where, for 
+whatever reason, aircraft takeoff and land on the MOS in only one direction. If 
+that condition is not temporary, approach lights and strobes are required only at 
+the approach end, and place distance-to-go markers and their lights only on the 
+right side of the runway. 
+ 
+AFTTP 3-32.10, 29 November 2024 
+63 
+ 
+ 
+Unit—1. Any military element whose structure is prescribed by competent 
+authority. 2. An organization title of a subdivision of a group in a task force. 
+Unit Type Code (UTC)—A Joint Chiefs of Staff developed and assigned code, 
+consisting of five characters that uniquely identify a “type unit.” 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+64 
+ 
+ 
+Attachment 2 
+ 
+RADR VEHICLE REFUELING PLAN EXAMPLE 
+ 
+Table A2.1. Example Vehicle Refueling Plan. 
+ 
+Time 
+Team & 
+Work Area 
+Location 
+Duration 
+(Minutes) 
+Vehicles To 
+Refuel 
+Estimated 
+Gallons 
+12:00 
+Airfield, Zone 
+1, Repair 
+Team 1 
+309' to 1188' 
+runway 06L 
+30 
+CTLs,  
+Telehandlers 
+112 
+12:30 
+Airfield, Zone 
+2, Repair 
+Team 2 
+3221' to 4150' 
+runway 06L 
+30 
+CTL's, 
+Telehandlers 
+129 
+13:00 Airfield, FOD 
+Team 
+Call CE UCC for 
+location 
+30 
+Kick brooms 
+and Vacuum 
+sweepers 
+154 
+13:30 
+Airfield, Zone 
+3, Repair 
+Team 3 
+5777' to 6481' 
+runway 06L 
+30 
+CTL's, 
+Telehandlers 
+145 
+15:00 
+Batch Plant 1 
+and 
+Warehouse 1 
+Off of the West 
+Perimeter Road, 
+North of the 
+airfield 
+20 
+Asphalt 
+Recyclers, 
+Warehouse 
+Forklift and 
+Telehandler 
+109 
+15:20 Warehouse 2 
+In the vicinity of 
+Bldg 2552, 
+located outside of 
+the NW corner of 
+the airfield 
+10 
+Bagellas, 
+Warehouse 
+Forklift and 
+Telehandler 
+25 
+15:30 
+Batch Plant 2 
+and 
+Warehouse 3 
+Intersection of 
+East Perimeter 
+Road and 38th 
+Street 
+15 
+Warehouse 
+Forklift and 
+Telehandler 
+109 
+ 
+AFTTP 3-32.10, 29 November 2024 
+65 
+ 
+ 
+Time 
+Team & 
+Work Area 
+Location 
+Duration 
+(Minutes) 
+Vehicles To 
+Refuel 
+Estimated 
+Gallons 
+16:05 
+Airfield, Zone 
+1, Repair 
+team 1 
+309' to 1188' 
+runway 06L 
+30 
+CTL's, 
+Telehandlers 
+130 
+16:35 
+Airfield, Zone 
+2, Repair 
+team 2 
+3221' to 4150' 
+runway 06L 
+30 
+CTL's, 
+Telehandlers 
+130 
+17:05 Airfield, FOD 
+Team 
+Call CE UCC for 
+location 
+30 
+Kick brooms 
+and Vacuum 
+sweepers 
+125 
+17:35 
+Airfield, Zone 
+3, Repair 
+Team 3 
+5777' to 6481' 
+runway 06L 
+30 
+CTL's, 
+Telehandlers 
+130 
+Note: Items in grey 
+will only be required 
+on the airfield if the 
+team is still in 
+operation 
+Total refuel gallons estimated during repair 
+1914 
+Total refuel gallons estimated after 
+reconstitution 
+5950 
+ 
+ 
+ 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+66 
+ 
+ 
+Attachment 3 
+ 
+RADR TEAM STATUS CHARTS 
+ 
+Table A3.1. RADR OIC Personnel Accountability Sheet. 
+ 
+RADR OIC Personnel Accountability Sheet 
+Team 
+CE Personnel 
+Augmented From 
+External Unit 
+Notes 
+Assigned 
+Dead 
+Injured 
+Missing 
+Extra 
+Assigned 
+Dead 
+Injured 
+Missing 
+Extra 
+ 
+RADR 
+Chiefs 
+3  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Repair 1 
+29  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Repair 2 
+29  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Repair 3 
+29  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Repair 4 
+29  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Repair 5 
+29  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Repair 6 
+29  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Repair 7 
+29  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Warehouse 1 
+8  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Warehouse 2 
+8  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Warehouse 3 
+8  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Warehouse 4 
+8  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Warehouse 5 
+8  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Warehouse 6 
+8  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Warehouse 7 
+8  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+67 
+ 
+ 
+RADR OIC Personnel Accountability Sheet 
+Team 
+CE Personnel 
+Augmented From 
+External Unit 
+Notes 
+Assigned 
+Dead 
+Injured 
+Missing 
+Extra 
+Assigned 
+Dead 
+Injured 
+Missing 
+Extra 
+ 
+Batch 1 
+3  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Batch 2 
+3  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Batch 3 
+3  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Batch 4 
+3  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+FOD 
+8  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Marking 
+6  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+EALS 
+6  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AAS 
+12  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+WaFERS 
+3  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Totals 
+309  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+68 
+ 
+ 
+Table A3.2. Crater Chief Personnel Accountability Sheet. 
+ 
+RADR Crater Chief Personnel Accountability Sheet 
+Team 
+CE Personnel 
+Augmented From 
+External Unit 
+Notes 
+Assigned 
+Dead 
+Injured 
+Missing 
+Extra 
+Assigned 
+Dead 
+Injured 
+Missing 
+Extra 
+ 
+Repair 1 
+28  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Repair 2 
+28  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Repair 3 
+28  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Totals 
+84  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+69 
+ 
+ 
+Table A3.3. Logistics Chief Personnel Accountability Sheet. 
+ 
+RADR Logistics Chief Personnel Accountability Sheet 
+Team 
+CE Personnel 
+Augmented From 
+External Unit 
+Notes 
+Assigned 
+Dead 
+Injured 
+Missing 
+Extra 
+Assigned 
+Dead 
+Injured 
+Missing 
+Extra 
+ 
+Warehouse 1 
+8  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Warehouse 2 
+8  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Warehouse 3 
+8  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Batch 1 
+3  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Batch 2 
+3  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Totals 
+30  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+70 
+ 
+ 
+Table A3.4. Support Chief Personnel Accountability Sheet. 
+ 
+RADR Support Chief Personnel Accountability Sheet 
+Team 
+CE Personnel 
+Augmented From 
+External Unit 
+Notes 
+Assigned 
+Dead 
+Injured 
+Missing 
+Extra 
+Assigned 
+Dead 
+Injured 
+Missing 
+Extra 
+ 
+FOD 
+8  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Marking 
+6  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+EALS 
+6  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AAS 
+12  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+WaFERS 
+3  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Totals 
+35  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+71 
+ 
+ 
+Table A3.5. Crater Repair Team 1 Personnel Accountability Sheet. 
+ 
+Crater Repair Team 1 Lead Personnel Tracking Sheet 
+Name/Rank/AFSC 
+Crew/Position 
+PERSCO # 
+Loaned to 
+Loan from 
+Return 
+Status/Location 
+1. 
+Team Lead 
+ 
+ 
+ 
+ 
+ 
+2. 
+Debris Removal 
+ 
+ 
+ 
+ 
+ 
+3. 
+Debris Removal 
+ 
+ 
+ 
+ 
+ 
+4. 
+Marking 
+ 
+ 
+ 
+ 
+ 
+5. 
+Marking (Backfill 
+& Capping) 
+ 
+ 
+ 
+ 
+ 
+6. 
+Marking (Backfill 
+& Capping) 
+ 
+ 
+ 
+ 
+ 
+7. 
+Pavement Cutting  
+ 
+ 
+ 
+ 
+8. 
+Pavement Cutting  
+ 
+ 
+ 
+ 
+9. 
+Pavement Cutting  
+ 
+ 
+ 
+ 
+10. 
+Pavement Cutting  
+ 
+ 
+ 
+ 
+11. 
+Pavement Cutting  
+ 
+ 
+ 
+ 
+12. 
+Pavement Cutting  
+ 
+ 
+ 
+ 
+13. 
+Breaking 
+ 
+ 
+ 
+ 
+ 
+14. 
+Excavation 
+ 
+ 
+ 
+ 
+ 
+15. 
+Excavation 
+ 
+ 
+ 
+ 
+ 
+16. 
+Backfill 
+ 
+ 
+ 
+ 
+ 
+17. 
+Backfill 
+ 
+ 
+ 
+ 
+ 
+18. 
+Backfill 
+ 
+ 
+ 
+ 
+ 
+19. 
+Backfill 
+ 
+ 
+ 
+ 
+ 
+20. 
+Capping 
+ 
+ 
+ 
+ 
+ 
+21. 
+Capping 
+ 
+ 
+ 
+ 
+ 
+22. 
+Capping 
+ 
+ 
+ 
+ 
+ 
+23. 
+Capping 
+ 
+ 
+ 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+72 
+ 
+ 
+Crater Repair Team 1 Lead Personnel Tracking Sheet 
+Name/Rank/AFSC 
+Crew/Position 
+PERSCO # 
+Loaned to 
+Loan from 
+Return 
+Status/Location 
+24. 
+Capping 
+ 
+ 
+ 
+ 
+ 
+25. 
+Capping 
+ 
+ 
+ 
+ 
+ 
+26. 
+Capping 
+ 
+ 
+ 
+ 
+ 
+27. 
+Spall Repair 
+ 
+ 
+ 
+ 
+ 
+28. 
+Spall Repair 
+ 
+ 
+ 
+ 
+ 
+29. 
+Spall Repair 
+ 
+ 
+ 
+ 
+ 
+Loaned From Others 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+73 
+ 
+ 
+Table A3.6. Batch Team 1 Personnel Accountability Sheet. 
+ 
+Batch Team 1 Lead Personnel Tracking Sheet 
+Name/Rank/AFSC 
+Crew/Position 
+PERSCO # 
+Loaned to 
+Loan from 
+Return 
+Status/Location 
+1. 
+Team Lead 
+Recycler 
+ 
+ 
+ 
+ 
+ 
+2. 
+Loader 
+ 
+ 
+ 
+ 
+ 
+3. 
+Spotter 
+ 
+ 
+ 
+ 
+ 
+Loaned From Others 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+74 
+ 
+ 
+Table A3.7. FOD Team Personnel Accountability Sheet. 
+ 
+FOD Team Lead Personnel Tracking Sheet 
+Name/Rank/AFSC 
+Crew/Position 
+PERSCO # 
+Loaned to 
+Loan from 
+Return 
+Status/Location 
+1. 
+Team Lead, 
+Grader, Dozer, 
+Tractor-trailer 
+ 
+ 
+ 
+ 
+ 
+2. 
+Grader 
+ 
+ 
+ 
+ 
+ 
+3. 
+Loader 
+ 
+ 
+ 
+ 
+ 
+4. 
+Ind. Tractor 
+w/kick broom 
+ 
+ 
+ 
+ 
+ 
+5. 
+Ind. Tractor 
+w/kick broom 
+ 
+ 
+ 
+ 
+ 
+6. 
+Sweeper 
+ 
+ 
+ 
+ 
+ 
+7. 
+Sweeper 
+ 
+ 
+ 
+ 
+ 
+8. 
+Sweeper 
+ 
+ 
+ 
+ 
+ 
+Loaned From Others 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+75 
+ 
+ 
+Table A3.8. Warehouse Team Personnel Accountability Sheet. 
+ 
+Warehouse Team Lead Personnel Tracking Sheet 
+Name/Rank/AFSC 
+Crew/Position 
+PERSCO # 
+Loaned to 
+Loan from 
+Return 
+Status/Location 
+1. 
+Team Lead 
+ 
+ 
+ 
+ 
+ 
+2. 
+Telehandler F/L 
+ 
+ 
+ 
+ 
+ 
+3. 
+Telehandler F/L 
+ 
+ 
+ 
+ 
+ 
+4. 
+Warehouse F/L 
+ 
+ 
+ 
+ 
+ 
+5. 
+Tractor-trailer 
+ 
+ 
+ 
+ 
+ 
+6. 
+Dump Truck 
+ 
+ 
+ 
+ 
+ 
+7. 
+Dump Truck 
+ 
+ 
+ 
+ 
+ 
+8. 
+Dump Truck 
+ 
+ 
+ 
+ 
+ 
+Loaned From Others 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+76 
+ 
+ 
+Table A3.9. MAOS Marking Team Personnel Accountability Sheet. 
+ 
+MAOS Marking Team Lead Personnel Tracking Sheet 
+Name/Rank/AFSC 
+Crew/Position 
+PERSCO # 
+Loaned to 
+Loan from 
+Return 
+Status/Location 
+1. 
+Team Lead 
+ 
+ 
+ 
+ 
+ 
+2. 
+Stake Bed Truck 
+ 
+ 
+ 
+ 
+ 
+3. 
+Stake Bed Truck 
+ 
+ 
+ 
+ 
+ 
+4. 
+Paint Machine 
+ 
+ 
+ 
+ 
+ 
+5. 
+Helper 
+ 
+ 
+ 
+ 
+ 
+6. 
+Helper 
+ 
+ 
+ 
+ 
+ 
+Loaned From Others 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+77 
+ 
+ 
+Table A3.10. EALS Team Personnel Accountability Sheet. 
+ 
+EALS Team Lead Personnel Tracking Sheet 
+Name/Rank/AFSC 
+Crew/Position 
+PERSCO # 
+Loaned to 
+Loan from 
+Return 
+Status/Location 
+1. 
+Team Lead 
+ 
+ 
+ 
+ 
+ 
+2. 
+P/U Truck 
+ 
+ 
+ 
+ 
+ 
+3. 
+P/U Truck 
+ 
+ 
+ 
+ 
+ 
+4. 
+Helper 
+ 
+ 
+ 
+ 
+ 
+5. 
+Helper 
+ 
+ 
+ 
+ 
+ 
+6. 
+Helper 
+ 
+ 
+ 
+ 
+ 
+Loaned From Others 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+78 
+ 
+ 
+Table A3.11. AAS Team Personnel Accountability Sheet. 
+ 
+AAS Team Lead Personnel Tracking Sheet 
+Name/Rank/AFSC 
+Crew/Position 
+PERSCO # 
+Loaned to 
+Loan from 
+Return 
+Status/Location 
+1. 
+Team Lead 
+ 
+ 
+ 
+ 
+ 
+2. 
+Stake Bed Truck 
+ 
+ 
+ 
+ 
+ 
+3. 
+Stake Bed Truck 
+ 
+ 
+ 
+ 
+ 
+4. 
+AAS Member 
+ 
+ 
+ 
+ 
+ 
+5. 
+AAS Member 
+ 
+ 
+ 
+ 
+ 
+6. 
+AAS Member 
+ 
+ 
+ 
+ 
+ 
+7. 
+Helper 
+ 
+ 
+ 
+ 
+ 
+8. 
+Helper 
+ 
+ 
+ 
+ 
+ 
+9. 
+Helper 
+ 
+ 
+ 
+ 
+ 
+10. 
+Helper 
+ 
+ 
+ 
+ 
+ 
+11. 
+Helper 
+ 
+ 
+ 
+ 
+ 
+12. 
+Helper 
+ 
+ 
+ 
+ 
+ 
+Loaned From Others 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+79 
+ 
+ 
+Table A3.12. WaFERS Team Personnel Accountability Sheet. 
+ 
+WaFERS Team Lead Personnel Tracking Sheet 
+Name/Rank/AFSC 
+Crew/Position 
+PERSCO # 
+Loaned to 
+Loan from 
+Return 
+Status/Location 
+1. 
+Team Lead, Stake 
+Bed Truck 
+ 
+ 
+ 
+ 
+ 
+2. 
+Helper 
+ 
+ 
+ 
+ 
+ 
+3. 
+Helper 
+ 
+ 
+ 
+ 
+ 
+Loaned From Others 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+80 
+ 
+ 
+Table A3.13. RADR Progress Report Worksheet. 
+ 
+Team 
+Reporting Checkpoint 
+Alpha 
+Bravo 
+Charlie 
+Delta 
+Echo 
+Foxtrot 
+Golf 
+Hotel 
+India 
+Juliet 
+Kilo 
+EALS-1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+EALS-2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Repair Team 1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Repair Team 2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Repair Team 3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Marking 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Paint Striping 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AAS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+WaFERS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Warehouse 1 
+ 
+ 
+ 
+ 
+ 
+Warehouse 2 
+ 
+ 
+ 
+ 
+Warehouse 3 
+ 
+ 
+ 
+ 
+FOD 
+ 
+ 
+ 
+ 
+Batch 1 
+ 
+ 
+ 
+ 
+Batch 2 
+ 
+ 
+ 
+WaFERS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+81 
+ 
+ 
+Figure A3.1. Reporting Checkpoint Key. 
+ 
+ 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+82 
+ 
+ 
+Attachment 4 
+ 
+WORK TOOL ATTACHMENT TRAILER LOAD PLAN 
+ 
+Figure A4.1. Work Tool Attachment Load Plan. 
+ 
+ 
+ 
+Note: Divide like items and attachments between trailers for survivability 
+(dimensions may change without notice). 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+83 
+ 
+ 
+Figure A4.2. Optional Work Tool Attachment Load Plan While in Storage. 
+ 
+ 
+ 
+Note: This configuration assists with CTL and excavator attachment 
+maintenance while in storage; however, trailers must be reloaded in the 
+survivability configuration as shown in Figure A4.1 during pre-attack phase. 
+ 
+ 
+ 
+ 
+AFTTP 3-32.10, 29 November 2024 
+84 
+ 
+ 
+Attachment 5 
+ 
+ENGINEER REACHBACK AND OTHER USEFUL LINKS 
+ 
+Table A5.1. Useful Organizational and Product Links. 
+ 
+Engineer Reachback 
+Air Force Civil Engineer Center (AFCEC): https://www.afcec.af.mil/  
+CE DASH (AFCEC Technical Support Portal): 
+https://usaf.dps.mil/teams/CEDASH/scripts/homepage/home.aspx  
+CE Playbooks: https://www.ceplaybooks.com  
+AFCEC Reachback Center: email at AFCEC.RBC@us.af.mil 
+AF Publications and Forms: https://www.e-publishing.af.mil/  
+AF Design Guides (AFDG): https://www.wbdg.org/ffc/af-afcec  
+DOD Supplemental Technical Documents (TSPWG M): 
+https://www.wbdg.org/ffc/dod/supplemental-technical-documents 
+Whole Building Design Guide (WBDG): https://www.wbdg.org/  
+US Army Corp of Engineers Official Publications, 
+http://www.publications.usace.army.mil/Home.aspx  
+Unified Facilities Criteria (UFC):  
+https://www.wbdg.org/ffc/dod/unified-facilities-criteria-ufc   
+Unified Facilities Guide Specifications (UFGS): 
+https://www.wbdg.org/ffc/dod/unified-facilities-guide-specifications-ufgs  
+USACE Reachback Operations Center (UROC): https://uroc.usace.army.mil 
+USACE Protective Design Center:                                                          
+https://intelshare.intelink.gov/sites/pdc/SitePages/Home.aspx  
+ 
+AFTTP 3-32.10, 29 November 2024 
+85 
+ 
+ 
+Engineer Reachback 
+Army Publications and Forms: https://armypubs.army.mil/   
+Navy Doctrine Library System: https://doctrine.navy.mil/default.aspx 
+DOD Issuances: https://www.esd.whs.mil/DD/DoD-Issuances/  
+Joint Publications: https://jdeis.js.mil/my.policy   
+ 

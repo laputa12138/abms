@@ -1,0 +1,1301 @@
+BY ORDER OF THE  
+SECRETARY OF THE AIR FORCE 
+ 
+AIR FORCE TACTICS, TECHNIQUES 
+AND PROCEDURES 3-42.55 
+13 JULY 2023 
+TACTICAL DOCTRINE 
+AEROMEDICAL EVACUATION 
+COMMUNICATIONS TEAM (FFQCR) 
+COMPLIANCE WITH THIS PUBLICATION IS MANDATORY 
+ 
+ACCESSIBILITY:  Publications and forms are available on the e-Publishing website at 
+www.e-Publishing.af.mil. 
+RELEASABILITY:  There are no releasability restrictions on this publication. 
+ 
+ 
+OPR: HQ AMC/A38E 
+Certified by: AF/A3T  
+(Lt Col Jonathan H. Magill)
+Pages: 33 
+ 
+ 
+The Air Force Tactics, Techniques and Procedures (AFTTP) 3-42 series of publications is the 
+primary reference for medical combat support capability. This document builds upon AFTTP 3-
+42.5, Aeromedical Evacuation (AE), by providing the Tactics, Techniques and Procedures (TTP) 
+for the Aeromedical Evacuation Communications Team identified by the Unit Type Code (UTC) 
+FFQCR. This publication applies to all Air Force military personnel including Active Duty (AD), 
+Air Force Reserve Command (AFRC), and Air National Guard (ANG). This publication does not 
+apply to the United States Space Force. The doctrine in this document is authoritative but not 
+directive. Ensure all records generated as a result of processes prescribed in this publication adhere 
+to Air Force Instruction 33-322, Records Management and Information Governance Program, and 
+are disposed in accordance with the Air Force Records Disposition Schedule, which is located in 
+the Air Force Records Information Management System. Refer recommended changes and 
+questions about this publication to the OPR using DAF Form 847, Recommendation for Change 
+of Publication; route DAF Forms 847 from the field through the appropriate functional chain of 
+command. The use of the name or mark of any specific manufacturer, commercial product, 
+commodity, or service in this publication does not imply endorsement by the Air Force. 
+ 
+ 
+Chapter 1—OVERVIEW 
+ 
+4 
+1.1. 
+Purpose.....................................................................................................................  
+4 
+1.2. 
+Caution. ....................................................................................................................  
+4 
+2 
+AFTTP3-42.55  13 JULY 2023 
+1.3. 
+Mission/Capabilities. ...............................................................................................  
+4 
+1.4. 
+Roles and Responsibilities. ......................................................................................  
+5 
+1.5. 
+Threat. ......................................................................................................................  
+5 
+1.6. 
+Composition. ............................................................................................................  
+6 
+1.7. 
+Team Member Selection. .........................................................................................  
+6 
+Chapter 2—ORGANIZATION 
+ 
+7 
+2.1. 
+Theater Aeromedical Evacuation System (TAES). .................................................  
+7 
+2.2. 
+Pilot Unit. .................................................................................................................  
+7 
+2.3. 
+AE Communications Non Commissioned Officer in Charge (NCOIC). .................  
+7 
+2.4. 
+AE Communications Requirements. ........................................................................  
+7 
+Chapter 3—OPERATIONS 
+ 
+8 
+3.1. 
+Introduction. .............................................................................................................  
+8 
+3.2. 
+Pre-Deployment. ......................................................................................................  
+8 
+3.3. 
+Deployment. .............................................................................................................  
+8 
+3.4. 
+Redeployment.  ........................................................................................................  
+9 
+Chapter 4—PLANNING CONSIDERATIONS 
+ 
+10 
+4.1. 
+Instruction. ...............................................................................................................  
+10 
+4.2. 
+Physical Location. ....................................................................................................  
+10 
+4.3. 
+Electrical Power. ......................................................................................................  
+10 
+Chapter 5—TRAINING 
+ 
+11 
+5.1. 
+Introduction.  ............................................................................................................  
+11 
+5.2. 
+UTC Training. ..........................................................................................................  
+11 
+Chapter 6—COMMUNICATIONS AND INFORMATION SYSTEM SUPPORT 
+ 
+12 
+6.1. 
+Communications/Information System Operational Management.  ..........................  
+12 
+6.2. 
+Message Precedence. ...............................................................................................  
+12 
+6.3. 
+Message Traffic. ......................................................................................................  
+13 
+6.4. 
+Communications Systems Operations. ....................................................................  
+13 
+6.5. 
+Communication Equipment. ....................................................................................  
+13 
+6.6. 
+Communications and Operations Security. ..............................................................  
+14 
+Attachment 1—GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+16 
+Attachment 2—ADDITIONAL RESOURCES 
+ 
+21 
+Attachment 3—MESSAGE FORMS EXAMPLES 
+ 
+25 
+AFTTP3-42.55  13 JULY 2023 
+3 
+Attachment 4—SITUATION REPORT (SITREP) FORMAT 
+ 
+26 
+Attachment 5—PATIENT MOVEMENT REQUEST (PMR) 
+ 
+28 
+Attachment 6—AEROMEDICAL MISSION TASKING REPLY 
+ 
+29 
+Attachment 7—GENERAL MESSAGE WORKSHEET 
+ 
+30 
+Attachment 8—AEROMEDICAL MISSION TASKING MESSAGE (MTM) 
+ 
+31 
+Attachment 9—MASTER STATION LOG 
+ 
+32 
+Attachment 10—RADIO EQUIPMENT DESTRUCTION 
+ 
+33 
+ 
+4 
+AFTTP3-42.55  13 JULY 2023 
+Chapter 1 
+OVERVIEW 
+1.1.  Purpose.  This AFTTP describes the Communications Team (UTC: FFQCR) capabilities and 
+its deployment, employment, and redeployment in support of Aerospace Expeditionary Forces 
+(AEF), Humanitarian Assistance/Disaster Relief (HA/DR), Defense Support of Civil Authorities 
+(DSCA), and other Aeromedical Evacuation (AE) scenarios across the spectrum of military 
+operations. 
+1.1.1.  This document: (a) identifies and defines responsibilities; (b) describes command 
+relationships; (c) reviews general planning considerations; (d) ensures tasks, functions and 
+responsibilities are properly assigned; (e) describes allowance standards, equipment, and 
+resources available to support global AE operations; (f) provides a source document for 
+developing standard operating instructions and training programs; (g) recommends baseline 
+training requirements, available Aeromedical Evacuation Liaison Team (AELT) and 
+Aeromedical Evacuation Operations Team (AEOT) training platforms and programs. 
+1.1.2.  Information in this TTP should be tailored and augmented with additional information 
+found in related AE instructions, publications, TTPs, Technical Orders (TOs), Operations 
+Plans (OPLANs), Special Instructions (SPINS), Flight Crew Information Files (FCIF), Read 
+Files and other theater directives/instructions. 
+1.2.  Caution.  This document should not be used as permission to move patients (reference DAFI 
+48-107V1, En Route Care and Aeromedical Evacuation Medical Operations). Patient eligibility 
+for aeromedical transportation is in accordance with Department of Defense Instruction (DODI) 
+4515.13, Air Transportation Eligibility (additionally reference AFI 24-602V1, Passenger 
+Movement, Air Force Policy Directive [AFPD] 24-6, Distribution and Traffic Management, and 
+any current, operational Department of Defense [DOD], AF, or theater-specific directives). 
+1.3.  Mission/Capabilities.  The United States Air Force AE system provides fixed-wing 
+movement of patients requiring in-flight care and supervision by AE crew members to locations 
+offering appropriate roles of medical care. It is comprised of AD, AFRC and ANG personnel. The 
+AE system is designed to be flexible, enabling it to operate as far forward as aircraft are able, to 
+conduct air operations across the full range of military operations and in all operating 
+environments. The Communications Team constitutes a critical component of the Theater 
+Aeromedical Evacuation System (TAES) which directly supports the En Route Casualty Care 
+System (ERCCS). 
+1.3.1.  The AE organic command, control, communications, and computer (C4) infrastructure 
+provides worldwide deployable, secure and non-secure, voice and data communications 
+capabilities during deployment and redeployment phases and in austere locations where 
+established C4 is unavailable. The AE communications equipment embedded in the parent AE 
+equipment UTCs allows the greatest flexibility to support the maximum deployment and 
+redeployment options. During the early stages of a contingency, common-user 
+communications capability (i.e. phone lines and NIPRNET/SIPRNET) may not be available, 
+therefore, there may be complete reliance on organic communications capability. As common-
+user communications capabilities begin to stand up, the reliance upon organic assets is reduced. 
+During steady state operations, AE communication requirements may be sustained or non-
+AFTTP3-42.55  13 JULY 2023 
+5 
+existent due to established C2. Communication planners should consider common user 
+communications capability when building the AE communication requirement. In the 
+sustained phase of the operation full reliance is placed on common-user communication assets. 
+Organic communications are held for locations not served by mature theater infrastructure and 
+also for backup capability. 
+1.4.  Roles and Responsibilities. 
+1.4.1.  Air Mobility Command (AMC) is designated lead command for AE according to AFPD 
+10-29, Worldwide Aeromedical Evacuation Operations, AFPD 11-2, Aircrew Operations, and 
+AFPD 10-21, Rapid Global Mobility. The lead command is responsible for establishing and 
+standardizing AFTTP doctrine in coordination with user commands. 
+1.4.2.  AMC Directorate of Operations, Strategic Deterrence, and Nuclear Integration 
+(AMC/A3/10) is responsible for policy guidance and coordination with user commands related 
+to AFTTPs. 
+1.4.3.  AMC Command Surgeon (AMC/SG). Serves as the AE program medical director, 
+responsible for the overall supervision, safety, and quality of medical care provided worldwide 
+by the AE system and is the Manpower and Equipment Force Packaging (MEFPAK) 
+responsible agency. 
+1.4.4.  Communications Team (UTC FFQCR): 
+1.4.4.1.  Has the ability to rapidly deploy within 24 hours (Air Reserve Component (ARC) 
+UTCs deploy within 72 hours) and is operational, able to move patients, and established 
+communication with command and control within 4 hours of personnel and equipment 
+arrival. 
+1.4.4.2.  Employment of an AE support UTC within a defined Area of Responsibility 
+(AOR) is dependent upon processes established by the Aeromedical Evacuation Command 
+Squadron (AECS), AEOT, AELT, or En Route Patient Staging System (ERPSS) and/or 
+host service/unit. The support given is to include: work facilities, food service, billeting, 
+transportation, finance, security, Personnel Support for Contingency Operations 
+(PERSCO), logistics and re-supply. 
+1.5.  Threat.  The Communications Team can deploy to forward combat locations in support of 
+user service medical operations. They will be at risk of personal injury due to direct fire, indirect 
+fire, and fog of war accidents. 
+1.5.1.  During such deployments, the success of AE communications between and among the 
+multitude of AE and supporting elements will be critical. Threat to such communications could 
+be significant. Such a threat could take four forms: 
+1.5.1.1.  Physical: AE equipment, including communications equipment, is not intended to 
+survive the physical threats created by fire, blast or chemical exposure. However, the 
+required redundancy, communications security, and mutually exclusive transmission 
+modes provide a survivable environment by precluding a single component from causing 
+failure or disruption of the AE communications mission. 
+1.5.1.2.  Spectrum Interference: In time of crisis, the AE communication capability is 
+subject to a hostile communications environment and is vulnerable to potential disruption 
+and jamming. AE utilizes established operational C2 as sources to overcome this threat. 
+6 
+AFTTP3-42.55  13 JULY 2023 
+1.5.1.3.  Exploitation of Intercepted Communications Signals: To avoid exploitation of 
+intercepted communications, medical and operational information transfer will be provided 
+an appropriate level of protection (i.e. encryption). 
+1.5.1.4.  Computer Security: Physical security of the equipment is commensurate with the 
+level of threat. Security assigned to the operating echelons and or other measures will 
+protect the system against unauthorized access in accordance with approved standards and 
+procedures. Appropriate data management and security procedures will be in place to 
+prevent degradation of mission accomplishment. 
+1.5.2.  The Communications Team is embedded capability which resides in primary UTCs that 
+offers no protection from conventional (kinetic), biological, chemical, or nuclear weapons and 
+requires protective shelters from Expeditionary Combat Support sources (reference Joint 
+Publication (JP) 3-11, Operations in Chemical, Biological, Radiological, and Nuclear 
+Environments). 
+1.5.3.  Historically, some Communications Teams have been placed close to, or within, hostile 
+areas. Personnel should be fully versed in the Law of War, Conduct-After-Capture, theater 
+specific rules of engagement, and may require pre-deployment combat skills and weapons 
+proficiency training (reference deployment-specific reporting instructions). 
+1.6.  Composition.  The Communications Team is composed of 2 positions representing Air Force 
+Specialty Codes (AFSC) 1D7X1R. Positions and grade/skill level requirements may be found in 
+the 
+mission 
+capabilities 
+statement 
+(MISCAP) 
+at 
+https://usaf.dps.mil/teams/12956/All%20Document%20Sets/Forms/AllItems.aspx?FolderC
+TID=0x01200064414EFB7296C34084DAC1B0BA07AFEF&id=%2Fteams%2F12956%2F
+All%20Document%20Sets%2FPersonnel%20UTCs%2FAE%20UTCs%2FFFQCR%20A
+E%20COMMUNICATIONS%20TEAM%2FMISCAP&viewid=697b1704%2Dfb0e%2D4
+316%2D8349%2Df1ce6e43a145. All grade/skill level substitutions will be IAW War and 
+Mobilization Plan, Volume 1 (WMP-1), Annex F, Medical Service. 
+1.7.  Team Member Selection.  Home station squadron commanders are responsible for the 
+selection of team members assigned to the Communications Team (UTC FFQCR) in accordance 
+with AFI 10-2912, Aeromedical Evacuation Readiness Programs. When filling FFQCR 
+deployment positions, Commanders should fully consider a member’s AE knowledge and 
+experience, deployment history, leadership capabilities, and capacity to function independently 
+with minimal Air Force supervision in potentially austere or minimally secured environments. 
+Members should possess or obtain UTC training and personal equipment in accordance with 
+current guidelines and reporting instructions. 
+Note: Grade and skill level substitutions should be in accordance with United States Air Force 
+War Mobilization Plan-1 Functional Annexes, Supported Command processing guidance, 
+reporting instructions, and other functional AFIs. 
+AFTTP3-42.55  13 JULY 2023 
+7 
+Chapter 2 
+ORGANIZATION 
+2.1.  Theater Aeromedical Evacuation System (TAES).  AE Communications teams are a rapid 
+deployable resource available in selected situations to supplement the AE system. Once deployed, 
+the AE Communications teams are members of the UTC in which they are supporting. 
+2.2.  Pilot Unit.  The FFQCR pilot unit is 60th Aeromedical Evacuation Squadron (AES), Travis 
+AFB, CA. The pilot unit is responsible for developing and maintaining standard 
+manpower/equipment detail for all FFQCR UTCs IAW DAFI 10-401, Operations Planning and 
+Execution. Training requirements for FFQCR will be split between the 439 AES and 60 AES, 
+Travis AFB, CA; 439 AES will be responsible for the east coast and 60 AES will be responsible 
+for west coast. 
+2.3.  AE Communications Non Commissioned Officer in Charge (NCOIC).  The NCOIC is 
+normally the highest-ranking 1D7X1R on the team and ensures team needs are addressed and met, 
+and manages day-to-day communications operations (i.e. Master Station logs Attachment 9, 
+message traffic). 
+2.4.  AE Communications Requirements.  Support of patient movement must provide reliable, 
+real-time and when possible, redundant communications within a theater. They must also provide 
+a link between the most forward point where the patient enters the patient movement system and 
+each echelon in the Health Services System (HSS) to the destination MTF or medical element. 
+TAES communications capabilities are affected by the availability of a communications 
+infrastructure from the most forward point of patient entry into TAES, through each level of care. 
+This availability could range from a robust communications infrastructure at an established base 
+to minimal communications infrastructure at the initial employment phase of a forward operating 
+location of the user service. Communication must be maintained with subordinate deployed AE 
+elements that may not be on or near an Air Force wing. In order to provide AE with C4 across the 
+spectrum of contingencies, AE UTCs require multi-mode, short and long-haul communications. 
+These capabilities must adapt to different theater needs and at the same time increase reliability. 
+The steady state AE Communication process is defined in AFTTP 3-42.5, Aeromedical 
+Evacuation. 
+8 
+AFTTP3-42.55  13 JULY 2023 
+Chapter 3 
+OPERATIONS 
+3.1.  Introduction.  AE Communications Team (FFQCR). This team supports UTC voice and data 
+communication equipment that is interoperable, flexible, mobile, and secure. The FFQCR supports 
+phases of operations: 1) Initial contingency operations using organic communication devices; 2) 
+Sustainment contingency operations coordinating with user service to provide Non-classified 
+Internet 
+Protocol 
+Router 
+Network/Secret 
+Internet 
+Protocol 
+Router 
+Network 
+(NIPRNET/SIPRNET), local area network (LAN) lines, web-based applications, computer and 
+software support; and 3) Homeland/natural disaster responses (Continental United States 
+(CONUS) only). Equipment UTCs embedded with communication equipment are: Command 
+Squadron Equipment Package (FFQC1), Liaison Team Equipment Package (FFQL1), ERPSS 10 
+(FFPS1), and Medical Operations Team Equipment Package (FFQN1). 
+3.1.1.  AE Common User Access Requirements: Although each UTC satisfies their initial 
+operational communications requirements with organic assets, as the entire theater moves into 
+the build-up and theater maturity phases, common user architecture is established. This may 
+serve as a substitute or enhancement to AE system performance. The more robust theater 
+communication infrastructure becomes the preferred mode of operations, with organic assets 
+remaining as a temporarily re-deployable communications equipment unit to support AE 
+operations. 
+3.2.  Pre-Deployment.  Does not deploy independently. Provides communication capability to 
+any AE UTC when mission needed communications are unavailable. All FFQCR communications 
+teams will hand carry, when deployed, 90 days worth of COMSEC material (See current 
+MISCAP). AE Communications personnel must be flexible and adjust to changing situations. 
+Upon notification of deployment, the deploying AE Communications team will be notified which 
+UTC they are tasked to support. Equipment packages have been centralized for storage and 
+management, and it is unlikely AE communication personnel will have the opportunity to assist in 
+preparation of the package prior to deployment. The AE communication personnel should ensure 
+they are familiar with the Operations Order (OPORD) for the deployment location and any 
+applicable MAJCOM waiver guidance. Requirements for employment of the AE communications 
+team and associated equipment packages will be identified and requested by the theater CCDR. In 
+order to support initial operating capabilities during the opening phases of an operation, AE 
+communications team can either deploy with their primary UTC or fall-in on that UTC capability 
+inside the Continental United States CONUS or Outside the Continental United States (OCONUS) 
+locations. 
+3.3.  Deployment. 
+3.3.1.  Aeromedical Evacuation UTCs are not designed for self-sustainment greater than 90 
+days due to supplies and COMSEC. Therefore, it is essential that good working relationships 
+are established with Communication units, prior to and once within, the theater of operations. 
+3.3.2.  Initial inventory of equipment will be conducted and communicated to sending 
+organization. 
+3.3.3.  UTC team members should coordinate with user service the type of communications 
+available for early warning of chemical and Force Protection Condition (FPCON) (i.e. flags, 
+AFTTP3-42.55  13 JULY 2023 
+9 
+LMR radios, sirens, horns, whistles, voice) as well as type of land line or field phones that can 
+be installed in the bunkers for emergency use. When personnel are required to gather in one or 
+more bunkers, an emergency communication system is essential to ensure that all personnel 
+are accounted for. The Team Chief of the AE element should establish procedures of 
+notification, accounting, and evacuation of personnel. 
+3.3.4.  During bug out or fire, FFQCR personnel should ensure radios are zeroized and all 
+COMSEC materials and devices are either properly stowed or hand carried utilizing developed 
+emergency action plans. 
+3.4.  Redeployment.  Team members will inventory and re-pack all assets according to the pack-
+out list during redeployment. Familiarity with pallet building and airlift procedures are significant 
+for shipping of the equipment. Any hazardous items will require appropriate documentation. 
+3.4.1.  Forward deploying FFQCR team members will inventory available assets and re-pack. 
+Any items needing re-supply will be forwarded to the appropriate C2 for issue upon arrival to 
+the new site. 
+10 
+AFTTP3-42.55  13 JULY 2023 
+Chapter 4 
+PLANNING CONSIDERATIONS 
+4.1.  Instruction.  The FFQCR must evaluate, plan and execute communications implementation 
+according to the AE UTC assigned. Frequency requests, traffic volume analysis, antenna 
+configurations, power requirements, site surveys, and vulnerability corrections are particular for 
+each theater and are part of the AE communications system planning. The variability of specific 
+theater expectations, threat levels, and the ability to operate in any part of the globe mandate a 
+continuous and in-depth coordinated effort to define current and developing AE communications 
+requirements. 
+4.2.  Physical Location.  Each communication device has guidance for safety; refer to manual. 
+4.3.  Electrical Power.  Coordinate/plan to provide power for all allowance standard 
+communications equipment. 
+AFTTP3-42.55  13 JULY 2023 
+11 
+Chapter 5 
+TRAINING 
+5.1.  Introduction.  Unit training requirements will be maintained IAW AFI 10-2912. Smaller 
+personnel packages supporting expeditionary operations will require personnel to perform a 
+variety of functions (multi-tasking), which may not be in their specific AFSC responsibilities. 
+5.2.  UTC Training.  UTC training will cover deployed AE operations pertinent to patient 
+movement coordination and all phases of deployment, employment, and re-deployment. Readiness 
+training will be conducted in conjunction with sponsored or local training exercises, or in 
+conjunction with operational deployments. At home station, the AE Commander is responsible for 
+ensuring all training is completed and properly documented. 
+5.2.1.  All personnel assigned to this UTC must train to approved FFQCR UTC Mission 
+Essential Task Lists (METLs). 
+12 
+AFTTP3-42.55  13 JULY 2023 
+Chapter 6 
+COMMUNICATIONS AND INFORMATION SYSTEM SUPPORT 
+6.1.  Communications/Information System Operational Management.  The AE UTCs will 
+deploy with organic communications equipment as a primary resource to provide secure/unsecure 
+voice and data communications links capable of sustaining command and control, patient 
+movement data, and general message traffic capabilities. An AE communications system 
+consisting of primary and secondary links is established to process and track requests for AE, 
+follow mission progress, and maintain situational awareness. Secondary communications links, 
+such as LAN are obtained upon arrival in theater depending on the maturity of the theater 
+communications infrastructure and the availability of commercial or military service provided 
+circuits. Communications capabilities need to be mobile, reliable, and capable of supporting UTC 
+operations for any theater along with the full spectrum of contingencies. 
+6.1.1.  Some of the variables that affect the establishment of a UTC communications system 
+include intensity of the conflict, governing laws of the host nation regarding spectrum and 
+communications management, climate and geography, electromagnetic environment, 
+propagation conditions, and real estate (on-site) availability. Communications systems 
+planning and implementation procedures are contained in the OPLAN and/or ANNEX-K. 
+6.1.2.  The AEOT and AELT UTCs currently use satellite communications for its primary 
+command and control system and are open nets of communications established through the 
+Annex K. 
+6.1.2.1.  In the event of a catastrophic link failure at the primary Net Control Station (NCS), 
+procedures are established in the communications Annex K for an alternate station to 
+continue operations and actively pursue re-establishing contact with the primary station. 
+Designated alternate NCS maintain a duplicate image of essential theater AE mission’s 
+status and provide continuity of service until contact with the primary station is restored. 
+Higher command elements will augment communication personnel and equipment for 
+PRC-117 communications. 
+6.2.  Message Precedence.  All message traffic transmitted is assigned a precedence. It serves as 
+a guide to communication personnel to indicate the order of handling and notifies the addressee of 
+the significance or urgency of the content of the message. All messages are sent as soon as possible, 
+however, the one with the higher precedence is sent first. 
+6.2.1.  BROADCAST. This precedence is reserved for alerts, warnings, and other emergency 
+actions having immediate bearing on national, command, or area security. BROADCAST 
+based messages are hand carried, processed, transmitted, and delivered immediately ahead of 
+all other messages. 
+6.2.2.  Immediate. This precedence is reserved for vital communication having immediate 
+operational effect on tactical operations, communication directly concerning safety or rescue 
+operations, and communication affecting the intelligence community operational role. 
+6.2.3.  Priority. This precedence is reserved for calls that require prompt completion for 
+national defense and security, the successful conduct of war, or to safeguard life or property. 
+Normally, priority is the highest precedence that may be assigned to administrative matters for 
+which speed of handling is of vital importance. Maximum delivery time is 24 hours. 
+AFTTP3-42.55  13 JULY 2023 
+13 
+6.2.4.  Routine. This precedence is reserved for all official communications to which all of the 
+above listed precedence does not apply. Routine messages are handled in the order received 
+and after all messages of a higher precedence have been sent. Maximum delivery time is 72 
+hours. 
+6.3.  Message Traffic.  There are four basic message types in use in the AE system. They are 
+Patient Movement Requests (PMRs) Attachment 5, AE mission messages (Message Forms 
+Attachment 3, Aeromedical Mission Tasking Reply Attachment 6, General Message Worksheet 
+Attachment 7, Aeromedical Mission Tasking Message Attachment 8), AE operations reports, 
+and general messages. AE operational reports consist of the Situation Report (SITREP) 
+Attachment 4 and any other, as requested, reports or messages. SITREPs are used to report the 
+status of readiness of an element to the chain of command within the theater. Refer to AFMAN 
+10-206, Operational Reporting (OPREP), and specific joint task force (JTF) and/or Commander, 
+Air Force Forces (COMAFFOR) guidance. 
+6.4.  Communications Systems Operations.  The AE communication systems provide Satellite 
+Communications (SATCOM) and Line-of-Sight (LOS) capabilities through Very High Frequency 
+(VHF) to the AE system. Trained AE Radio Frequency Transmission personnel are assigned to set 
+up and initiate communications between elements. 
+6.4.1.  Secure and non-secure systems may be available during contingencies. The mode of 
+transmission is dependent on availability and the classification or sensitivity of the information 
+being passed. The degree to which the information needs to be protected will dictate the type 
+of system that should be utilized. 
+6.5.  Communication Equipment. 
+6.5.1.  Secure/Non-secure Communication. Any classified information must be transmitted by 
+secure means. SITREPs, medical surveillance, site locations, and compiled patient data are all 
+examples of information that can be classified and will need safeguarding. The types of secure 
+communication equipment usually available include secure telephone equipment (STE) and 
+various other encryption devices. Medical or casualty information becomes an OPSEC issue 
+when linked to a particular military mission or operation. While medical information itself is 
+not normally classified, in the context of a mission, it should be protected as part of the theater 
+overall OPSEC program to deny information to the enemy. The patient’s personally 
+identifiable information will not be used in radio or cell phone communications, use the 
+patients cite number only. Radio equipment, COMSEC, and classified material will be 
+destroyed IAW AFMAN 17-1302-O, Communications Security (COMSEC) Operations, or 
+current COMSEC Radio Equipment Destruction directives Attachment 10. 
+6.5.2.  Computer systems. The AEOT deploys with organic computer hardware and software 
+which provide word-processing, database management, and graphics. If available, LAN 
+connectivity such as NIPRNET and SIPRNET may be obtained through the user service. If 
+LAN capable, the AEOT will use TRAC2ES to maintain oversight for regulated patient needs, 
+and the GDSS2 for mission tracking and visibility. SITREPs must be transmitted by secure 
+means or in accordance with local communications policy. Access to both secure and non-
+secure communication networks will allow the team a direct connection to obtain operational, 
+administrative, and clinical input from the Air Operations Center (AOC), C2 authorities and 
+geographically separated units, Patient Movement Requirement Center (PMRC) access, and 
+secure internet sites for publications, forms, and operating instructions. 
+14 
+AFTTP3-42.55  13 JULY 2023 
+6.5.3.  Telephones/Radios. The FFQCR may be required to maintain radio communication and 
+24-hour operations using satellite radios and phones. 
+6.5.4.  Iridium phones with secure sleeve. Iridium phones are handheld satellite phones that 
+work anywhere in the world. It is larger than a typical mobile phone, but still small enough to 
+carry in a backpack, and is very simple to use. It provides secure/unsecure voice telephone 
+capabilities through satellites. For secure communications, a secure sleeve must be attached to 
+the phone handset. Each unit will use their local Program Designator Code (PDC) for the 
+purchase and activation of Subscriber Identity Module (SIM) cards for training and exercises. 
+WRM SIM cards will not be used for unit training or exercises. When iridium phones are 
+deployed the WRM SIM card will be activated using the appropriate contingency operation 
+consolidated PDC. 
+6.5.5.  Broadband Global Area Network (BGAN). Portable and easy to setup, the BGAN is 
+another satellite phone that uses satellites located around the earth for worldwide 
+telephone/data capabilities. This system can also interface with the STE to provide secure 
+communications. Each unit will use their local PDC for BGAN terminal activation to support 
+training/exercise operations. Upon deployment, the PDC will utilize the new cards located in 
+the WRM equipment packages, activated at the time of need. 
+6.5.6.  PRC-117. Provides breakthrough wideband data performance and legacy narrowband 
+interoperability in one lightweight package. Covering the 30 MHz to 2 GHz frequency range, 
+this single-channel radio is 30% smaller and 35% lighter than currently fielded multiband 
+manpack radios and operates off a single standard battery. This device can be used to pass 
+secure information as well as data transfer of sensitive material and documents such as PMRs 
+and SITREPs. 
+6.6.  Communications and Operations Security.  It is vital to protect and secure all classified 
+information. AE C2 will be capable of processing classified information up to and including 
+SECRET. All aircraft mission information is considered classified by the theater of operations. All 
+aspects of COMSEC and OPSEC must be fully implemented and rigidly enforced. FFQCR will 
+deploy with the current month COMSEC material plus a 90-day supply. The AE system will need 
+to establish a COMSEC account within the AOR if the operation will require secure 
+communications beyond 90 days. 
+6.6.1.  COMSEC Components: 
+6.6.1.1.  Cryptographic Security. Use proper communication procedures, secure systems 
+and codes. 
+6.6.1.2.  Physical Security. Protect classified equipment and documents against 
+compromise or loss by using proper accounting and storage procedures. If the need arises 
+for equipment/COMSEC destruction, have a plan ready. See attachment 10, Radio 
+Equipment Destruction. 
+ 
+ 
+AFTTP3-42.55  13 JULY 2023 
+15 
+6.6.1.3.  Transmission Security.  Eliminate unauthorized transmissions, protect 
+transmissions from interception and traffic analysis, and maintain radio discipline. 
+ 
+WILLIAM D. DRIES, JR., SES 
+Deputy Director, Training and Readiness 
+16 
+AFTTP3-42.55  13 JULY 2023 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+DODI 4515.13, Air Transportation Eligibility, 23 October 2020 
+DODI 6000.11, Patient Movement, 22 June 2018 
+DTR 4500.9R, Defense Transportation Regulation, Part II, Cargo Movement, May 2014 
+JP 3-36, Joint Air Mobility and Sealift Operations, 04 January 2021 
+JP 4-02, Joint Health Services, 11 December 2017, Incorporating Change 1, 28 September 2018 
+AFI 10-2912, Aeromedical Evacuation Readiness Programs, 20 June 2018 
+AFI 11-202V2, Aircrew Standardization and Evaluation Program, 06 December 2018 
+AFI 11-301V1, Aircrew Flight Equipment (AFE) Program, 10 October 2017 
+AFI 24-602V1, Passenger Movement, 15 December 2020 
+AFI 25-201, Intra-Service, Intra-Agency, and Inter-Agency Support Agreements Procedures, 18 
+October 2013 
+AFI 31-101, Integrated Defense, 25 March 2020 
+AFI 31-117, Arming and Use of Force by Air Force Personnel, 06 August 2020 
+AFI 33-322, Records Management and Information Governance Program, 23 March 2020 
+AFI 41-201, Managing Clinical Engineering Programs, 10 October 2017 
+AFI 44-102, Medical Care Management, 17 March 2015 
+AFI 44-108, Infection Prevention and Control Program, 04 June 2019 
+DAFI 10-401, Operations Planning and Execution, 13 January 2021 
+DAFI 48-107V1, En Route Care and Aeromedical Evacuation Medical Operations, 15 
+December 2020 
+DAFI 48-107V2, En Route Critical Care, 24 November 2020 
+DAFI 48-107V3, En Route Care Documentation, 17 December 2020 
+AFMAN 10-206, Operational Reporting (OPREP), 18 June 2018 
+AFMAN 10-2909, Aeromedical Evacuation (AE) Equipment Standards, 13 March 2019 
+AFMAN 11-2AEV2, Aeromedical Evacuation Aircrew Evaluation Criteria, 25 October 2018 
+AFMAN 11-2AEV3, Aeromedical Evacuations (AE) Operations Procedures, 19 October 2020 
+AFMAN 11-2AEV3 Addenda-A, Aeromedical Evacuation Operations Configuration/Mission 
+Planning, 16 June 2020 
+AFMAN 11-202V3, Flight Operations, 10 January 2022 
+AFTTP3-42.55  13 JULY 2023 
+17 
+AFMAN 11-301V2, Management and Configuration Requirements for Aircrew Flight 
+Equipment (AFE), 12 February 2020 
+AFMAN 41-209, Medical Logistics Support, 04 January 2019 
+AFMAN 11-421, Aviation Resource Management, 23 March 2020 
+DAFMAN 11-401, Aviation Management, 27 October 2020 
+AFPD 10-21, Rapid Global Mobility, 25 August 2019 
+AFPD 10-29, Worldwide Aeromedical Evacuation Operations, 12 February 2019 
+AFPD 11-2, Aircrew Operations, 30 January 2019 
+AFPD 24-6, Distribution and Traffic Management, 23 Mar 2018 
+AFPD 36-21, Utilization and Classification of Military Personnel, 21 Aug 2019 
+AFTTP 3-42.5, Aeromedical Evacuation, 23 July 2019 
+AFTTP 3-42.51, Critical Care Air Transport Team (CCATT), 07 April 2015 
+AFTTP 3-42.57, En Route Patient Staging System, 10 August 2016 
+AFTTP 3-42.6, USAF Medical Support for Special Operations Forces, 09 January 2012 
+AFTTP 3-42.8, Expeditionary Medical Logistics (EML) System, 15 June 2021 
+Air Force Doctrine Annex 3-0, Operations and Planning, 04 November 2016 
+Air Force Doctrine Annex 3-30, Command and Control, 07 January 2020 
+Air Force Doctrine Annex 3-36, Air Mobility Operations, 28 June 2019 
+AMCI 10-2102V1, Presentation of Air Mobility Forces, 17 July 2020 
+Aeromedical Evacuation Medical Equipment Compendium, Revision 8, 12 January 2022 
+ACP 125, Communications Instructions Radiotelephone Procedures, 28 November 2016 
+ACP 130, Communications Instructions Signaling Procedures in the Visual Medium, July 20 
+Prescribed Forms 
+None 
+Adopted Forms 
+DAF Form 847, Recommendation for Change of Publication 
+Abbreviations and Acronyms 
+ACP—Allied Communications Publication 
+AD—Active Duty 
+AE—Aeromedical Evacuation 
+AEC—Aeromedical Evacuation Crew 
+AECM—Aeromedical Evacuation Crewmember 
+18 
+AFTTP3-42.55  13 JULY 2023 
+AECS—Aeromedical Evacuation Command Squadron 
+AEF—Aerospace Expeditionary Forces 
+AELT—Aeromedical Evacuation Liaison Team 
+AEOT—Aeromedical Evacuation Operations Team 
+AES—Aeromedical Evacuation Squadron 
+AF—Air Force 
+AFE—Aircrew Flight Equipment 
+AFI—Air Force Instruction 
+AFMAN—Air Force Manual 
+AFRIMS—Air Force Records Information Management System 
+AFSC—Air Force Specialty Code 
+AFTTP—Air Force Tactics, Techniques and Procedures 
+ANG—Air National Guard 
+AOC—Air Operations Center 
+AOR—Area of Responsibility 
+ARC—Air Reserve Component 
+BGAN—Broadband Global Area Network 
+C2—Command & Control 
+C4—Command Control Communications and Computer 
+CCATT—Critical Care Air Transport Team 
+CCDR—Combatant Commander 
+COMAFFOR—Commander, Air Force Forces 
+COMSEC—Communications Security 
+CONUS—Continental United States 
+DSCA—Defense Support to Civil Authorities 
+ERCCS—En Route Casualty Care System 
+FCIF—Flight Crew Information File 
+FPCON—Force Protection Condition 
+GDSS2—Global Decision Support System 
+HA/DR—Humanitarian Assistance/Disaster Response 
+HQ—Headquarters 
+HSS—Health Services System 
+AFTTP3-42.55  13 JULY 2023 
+19 
+IAW—In Accordance With 
+JTF—Joint Total Force 
+LAN—Local Area Network 
+LMR—Land Mobile Radio 
+MAJCOM—Major Command 
+MEFPAK—Manpower and Equipment Force Packaging 
+METL—Mission Essential Task List 
+MISCAP—Mission Capabilities Statement 
+MTF—Medical Treatment Facility 
+NIPRNET—Non-classified Internet Protocol Router Network 
+NCOIC—Non-commissioned Officer in Charge 
+NCS—Net Control Station 
+OCONUS—Outside the Continental United States 
+OPLAN—Operations Plan 
+OPORD—Operations Order 
+OPR—Office of Primary Responsibility 
+OPREP—Operational Reporting 
+PERSCO—Personnel Support for Contingency Operations 
+PDC—Program Designator Code 
+PMR—Patient Movement Request 
+PMRC—Patient Movement Requirements Center 
+SATCOM—Satellite Communication 
+SIM—Subscriber Identity Module 
+SIPRNET—Secret Internet Protocol Router Network 
+SITREP—Situation Report 
+SPIN—Special Instruction 
+STE—Secure Telephone Equipment 
+TAES—Theater Aeromedical Evacuation System 
+TO—Technical Order 
+TRAC2ES—TRANSCOM Regulating and Command & Control Evacuation System 
+UTC—Unit Type Code 
+VHF—Very High Frequency 
+20 
+AFTTP3-42.55  13 JULY 2023 
+WMP—War and Mobilization Plan 
+WRM—War Readiness Material 
+Office Symbols 
+AMC/A3/10—Air Mobility Command Directorate of Operations, Strategic Deterrence, and 
+Nuclear Integration 
+HQ AMC/A38E—Air Mobility Command Aeromedical Evacuation Operation Branch 
+HQ AMC/SG—Air Mobility Command Surgeon General 
+ 
+AFTTP3-42.55  13 JULY 2023 
+21 
+Attachment 2 
+ADDITIONAL RESOURCES 
+Aeromedical Evacuation References 
+ 
+AFI 10-301, Managing Operational Utilization Requirements of the Air Reserve Component 
+Forces, 20 December 2017 
+ 
+AFMAN 11-2AEV1, Aeromedical Evacuation Aircrew Training, 06 December 2020 
+ 
+AFPD 10-29, Worldwide Aeromedical Evacuation Operations, 13 February 2019 
+ 
+AFPD 10-3, Operational Utilization of the Air Reserve Component Forces, 29 November 2017 
+ 
+AFTTP 3-2.18, Multi-Service Tactics, Techniques, and Procedures for Tactical Radios, 16 June 
+2017 
+ 
+AFTTP 3-2.67, Multi-Service Tactics, Techniques, and Procedures for Defense Support of Civil 
+Authorities (DSCA), 13 October 2015 
+ 
+AFTTP 3-2.68, Multi-Service Tactics, Techniques, and Procedures for Airfield Opening, 01 
+October 2018 
+ 
+AFTTP 3-42.3, Health Service Support in Nuclear, Biological, and Chemical Environments, 02 
+September 2013 
+ 
+AFTTP 3-42.71, Expeditionary Medical Support (EMEDS) and Air Force Theater Hospital 
+(AFTH), 27 August 2014 
+ 
+AFTTP 3-42.711, Blood Support Operations, 19 April 2013 
+ 
+Air Force Doctrine Annex 3-40, Counter-Weapons of Mass Destruction Operations, 05 April 
+2016 
+ 
+Air Force Doctrine Annex 4-02, Medical Operations, 12 November 2019 
+22 
+AFTTP3-42.55  13 JULY 2023 
+ 
+JP 3-11, Operations in Chemical, Biological, Radiological, and Nuclear Environments, 29 
+October 2018 
+ 
+Aeromedical Evacuation Resources 
+ 
+Current Aeromedical Evacuation Medical Equipment Compendium and Medical Equipment 
+Manuals may be found at Aircrew Pubs Library and on the Electronic Flight Bag: 
+https://usaf.dps.mil/teams/12679/Aircrew%20Pubs%20Library/Forms/Better.aspx?RootFo
+lder=%2Fteams%2F12679%2FAircrew%20Pubs%20Library%2FMaster%5FLibrary%5
+FVerified&FolderCTID=0x0120004E29D3C151194645806B4035F132FC90 
+ 
+AEF Online Personal Deployment Preparedness Tool (PDPT) (e-deployment folder, e-readiness 
+tracker [After signing in, click "PDPT," populates information from ADLS, ASIMS, MILPDS]): 
+https://aef.cloud.disa.mil/AFRIT/Afrit.aspx 
+ 
+AF Combat Support Tactics, Techniques, and Procedures (TTP) Repository: 
+https://www.doctrine.af.mil/Tactical-Level-Doctrine/ 
+ 
+AF Doctrine: http://www.doctrine.af.mil/ 
+ 
+AF E-Publishing: http://www.e-publishing.af.mil/ 
+ 
+AF Medical Readiness Decision Support System (MRDSS-Ultra): 
+https://mrdss1.health.mil/ultra4/login 
+ 
+AF Medical Service Knowledge Exchange Nurse Corps Consultants (including AE): 
+https://kx.health.mil/kj/kx2/AFNCConsultantsCorner/Pages/home.aspx 
+ 
+AF Medical Service Knowledge Exchange: https://kx.health.mil/Pages/default.aspx 
+ 
+AF Reporting Instruction Tool (AFRIT): https://aef.cloud.disa.mil/AFRIT/Afrit.aspx 
+ 
+Aviation/Airman Safety Action Program (ASAP): https://asap.safety.af.mil/ 
+ 
+AFTTP3-42.55  13 JULY 2023 
+23 
+Airman's Manual:  https://usaf.dps.mil/teams/TTP/Documents/AFTTP3-
+4AirmansManual.pdf 
+ 
+DOD Dictionary and Terminology Repository (Military Acronym Finder): 
+https://jdeis.js.mil/jdeis/index.jsp 
+ 
+DOD Directives Division (DOD Publications and Forms): http://www.esd.whs.mil/DD/ 
+ 
+Education & Training Course Announcements (ETCA): https://eoslearn.usafeos.net/courses  
+ 
+HQ AMC, Aircrew Standardization & Evaluation, Aeromedical Airlift (A3VM) 
+“Master_Library_Verified AE” Share Point 
+ 
+https://usaf.dps.mil/teams/12679/Aircrew%20Pubs%20Library/Forms/Better.aspx?FolderCTID=
+0x0120004E29D3C151194645806B4035F132FC90&id=%2Fteams%2F12679%2FAircrew%20
+Pubs%20Library%2FMaster%5FLibrary%5FVerified%2FAE&viewid=8d6a520c%2Dd6ea%2D
+4afd%2D84bf%2D9b10d78ccd6e 
+ 
+HQ AMC, Aircrew Standardization & Evaluation, MAF Aircrew Information Site, FCIF/SII 
+Library (Select "…" to filter for AE, SII, etc.): 
+https://usaf.dps.mil/teams/10370/FCIF/_layouts/15/viewlsts.aspx?BaseType=1&view=14 
+ 
+HQ AMC, Command Surgeon, Manpower & Equipment Force Packaging (MEFPAK) 
+SharePoint: https://usaf.dps.mil/teams/12956/default.aspx 
+ 
+Joint Chiefs of Staff Joint Doctrine Publications: http://www.jcs.mil/Doctrine/Joint-Doctine-
+Pubs/ 
+ 
+Joint Electronic Library Plus (JEL+): https://jdeis.js.mil/jdeis/ 
+ 
+Joint Knowledge Online: https://jkodirect.jten.mil/ 
+ 
+Medical Logistics Allowance Standard Management: https://medlog.us.af.mil/ 
+ 
+Multi-Service Tactics, Techniques, and Procedures (MTTPS) Publications on the Air, Land, Sea 
+Application Center website: http://www.alsa.mil/mttps/ 
+24 
+AFTTP3-42.55  13 JULY 2023 
+ 
+TRANSCOM Regulating and Command & Control Evacuation System (TRAC2ES): 
+https://trac2es.transport.mil/ 
+ 
+USAF Individual Medical Readiness (IMR) Status: 
+https://asimsimr.health.mil/imr/myIMR.aspx 
+ 
+AFTTP3-42.55  13 JULY 2023 
+25 
+Attachment 3 
+MESSAGE FORMS EXAMPLES 
+MESSAGE NUMBER DATE TIME GROUP (MSG NR DTG) 
+ 
+03 R 09011Z OCT 07 
+ 
+MSG NR PREC. DATE Z TIME MTH YEAR 
+ 
+Z=BROADCAST: LESS THAN 10 MINUTES. 
+ 
+O=IMMEDIATE: NO LONGER THAN 1 HOUR 
+ 
+P=PRIORITY: NO LONGER THAN 6 HOURS 
+ 
+R=ROUTINE: WITHIN 24 HOURS 
+ 
+TIME OF RECEIPT (TOR) / TIME OF DELIVERY (TOD) 
+ 
+TOR - WHEN A MESSAGE FROM ANOTHER STATION IS RECEIVED BY YOUR 
+LOCATION 
+ 
+TOD - WHEN A MESAGE, TRANSMITTED TO ANOTHER STATION, IS 
+ACKNOWLEDGED AS RECEIVED BY THAT STATION. 
+ 
+Message Releaser (MR) 10 1337Z OCT 04 //LL// WD 
+ 
+DATE Z TIME MTH YEAR FQ PERSONAL SIGN 
+ 
+26 
+AFTTP3-42.55  13 JULY 2023 
+Attachment 4 
+SITUATION REPORT (SITREP) FORMAT 
+Item 1 - Identity and Type of unit. 
+ 
+Item 2 - Operating location of unit. 
+ 
+Item 3 - List number of assigned personnel by AFSC. Note any gains or losses since last report. 
+ 
+Item 4A - Patients evacuated since last report, as:  
+ 
+(U.S) - (ALLIED) - (EPW) 
+ 
+Item 4B - Patients evacuated since last report, as: 
+ 
+Battle injury / Litter-Ambulatory+Attendant 
+ 
+Non battle injury / Litter-Ambulatory+Attendant 
+ 
+Item 4C - Patients waiting for evacuation, as: 
+ 
+Litter-Ambulatory+Attendant 
+ 
+Item 5 - Equipment status (vehicles, AGE, radios, admin, medical) to be listed as: 
+ 
+Green: Fully mission capable. 
+ 
+Yellow: Operational, but needs parts, repair or re-supply within 24 hours. 
+ 
+Red: Not operational, but expected to be within 24 hours. 
+ 
+Black: Not operational, and not expected to be within 24 hours. 
+ 
+AFTTP3-42.55  13 JULY 2023 
+27 
+NOTE: List “green” equipment on the Operational Employment (first) report only. For all other 
+colors, list exact problem and any corrective actions underway. 
+ 
+Item 6 - Comments or remarks section. List any factors that may adversely affect mission 
+effectiveness. 
+ 
+*** Classification: SITREPs are classified SECRET or EXERCISE SECRET!!! 
+ 
+28 
+AFTTP3-42.55  13 JULY 2023 
+Attachment 5 
+PATIENT MOVEMENT REQUEST (PMR) 
+Table A5.1.  Patient Movement Request (PMR). 
+Patient Movement Request (PMR) 
+1. Name: 
+2. Grade: 3. Service 
+4. SSN / 
+ID: 
+5. PMRC Cite 
+No: 
+ 
+ 
+ 
+ 
+ 
+6. Precedence: 7. Class: 8. Weight: 9. Age: 
+10. MTF 
+Origination: 
+11. Ready 
+Date: 
+12. MTF 
+Destination: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+13. Med Spec1: 
+14. Diagnosis: 
+ 
+ 
+15. History: 
+ 
+16. Equipment/Supplemental Info: 
+ 
+17. Attending Physician: 
+18. Phone No. 
+19. Reported by: 
+20. Phone No. 
+ 
+ 
+ 
+ 
+21. Notes: 
+ 
+ 
+ 
+AFTTP3-42.55  13 JULY 2023 
+29 
+Attachment 6 
+AEROMEDICAL MISSION TASKING REPLY 
+Table A6.1.  Aeromedical Mission Tasking Reply. 
+1. FROM: 
+ 
+2. TO: 
+ 
+3. DTG: 
+ 
+4. A/C TYPE: 
+ 
+5. MISSION #: 
+ 
+6. PRECEDENCE: 
+ 
+7. CALL SIGN: 
+ 
+8. AE CREW INFORMATION 
+a. CREW POS 
+b. FULL NAME/RANK 
+c. SSN or DoD 
+ID
+d. DEPLOYED UNIT 
+1. MCD 
+1.    
+1 
+1. 
+2. CMT 
+2.  
+2.  
+2. 
+3. 2/3AET 
+3.  
+3 
+3. 
+4. AECM 
+4. 
+4. 
+4. 
+5. AECM 
+5. 
+5. 
+5. 
+9. CCATT INFORMATION 
+a. AFSC 
+b. FULL NAME/RANK 
+c. SSN or DoD 
+d. DEPLOYED UNIT 
+1. 
+1.  
+1. 
+1. 
+2. 46N3E 
+2. 
+2. 
+2. 
+3. 4H0X1 
+3. 
+3. 
+3. 
+10. REMARKS 
+ 
+RELEASER: 
+ 
+ 
+ 
+1. FROM: 
+ 
+2. TO: 
+ 
+3. DTG: 
+ 
+4. A/C TYPE: 
+ 
+5. MISSION #: 
+ 
+6. PRECEDENCE: 
+ 
+7. CALL SIGN: 
+ 
+8. AE CREW: 
+ 
+9. CCATT: 
+ 
+10. ONLOAD INFORMATION 
+a. AFLD ICAO 
+b. ATA 
+c. ATD 
+ 
+ 
+ 
+d. LITTER 
+e. AMBULATORY 
+f. ATTENDANT 
+ 
+ 
+ 
+11. REMARKS 
+ 
+RELEASER: 
+ 
+30 
+AFTTP3-42.55  13 JULY 2023 
+Attachment 7 
+GENERAL MESSAGE WORKSHEET 
+GENERAL MESSAGE WORKSHEET 
+ 
+MESSAGE NUMBER DTG:__________________________ 
+ 
+FROM: ________________ 
+ 
+TO: ___________________ 
+ 
+INFO: _________________ 
+ 
+BT 
+______________________________________________________________________________
+______________________________________________________________________________
+______________________________________________________________________________
+______________________________________________________________________________
+______________________________________________________________________________
+______________________________________________________________________________
+_________________________________________ 
+ 
+BT 
+ 
+TOR / TOD 
+ 
+MR: _______________________ 
+ 
+AFTTP3-42.55  13 JULY 2023 
+31 
+Attachment 8 
+AEROMEDICAL MISSION TASKING MESSAGE (MTM) 
+Table A8.1.  Aeromedical Mission Tasking Message (MTM). 
+AEROMEDICAL MISSION TASKING MESSAGE (MTM) 
+1. FROM: 
+ 
+2. TO: 
+ 
+3. DTG: 
+ 
+4. ACFT TYPE: 
+ 
+5. MISSION #: 
+ 
+6. PRECEDENCE: 
+ 
+7. CALL SIGN: 
+ 
+8. AIRCRAFT ITINERARY 
+a. AFLD 
+1. 
+2.  
+3.  
+4. 
+5. 
+6. 
+b. ETA 
+1.  
+2. 
+3. 
+4. 
+5. 
+6. 
+c. ETD 
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+d. ONLOAD 
+1. 
+2.   
+3. 
+4. 
+5. 
+6. 
+e. OFFLOAD 
+1. 
+2.   
+3.  
+4. 
+5. 
+6. 
+f. DEPLOAD 
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+9. AE CREW 
+REQS: 
+ 
+10. CCATT REQS: 
+ 
+11. PATIENT 
+INFO: 
+ 
+12. REMARKS 
+ 
+13. 
+RELEASER: 
+ 
+ 
+32 
+AFTTP3-42.55  13 JULY 2023 
+Attachment 9 
+MASTER STATION LOG 
+Table A9.1.  Master Station Log. 
+MASTER STATION LOG 
+Facility 
+Date 
+Time Period 
+From 
+To 
+Channel of Circuit 
+Zulu Time 
+Op Initials Action / Event 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AFTTP3-42.55  13 JULY 2023 
+33 
+Attachment 10 
+RADIO EQUIPMENT DESTRUCTION 
+A10.1.  Types of Destruction.  The ranking official on site will determine whether the nature and 
+circumstances involved in the threat to the material requires precautionary destruction or total 
+destruction. 
+A10.1.1.  Precautionary Destruction. Precautionary destruction would include the destruction 
+of administrative documents, files and other material not required for continued operation. 
+Under no circumstances will equipment be destroyed under the precautionary destruction 
+order. Ensure that records indicate what material has been destroyed when precautionary 
+destruction is implemented. Retain all equipment, all operational and maintenance documents, 
+and a 90-day supply of COMSEC material. 
+A10.1.2.  Total Destruction. Total destruction includes the destruction of electronic keys, 
+documents, and equipment. This plan is implemented when the commander decides forces and 
+facilities are no longer adequate to protect classified and COMSEC material from impending 
+capture or loss. Normally, other individuals are empowered to put the plan into effect on their 
+own if conditions prevent contact with the commander. The person most familiar with the 
+amount and significance of COMSEC material on-hand must prepare a clear and concise plan. 
+Planners should consider the options available when preparing for hostile actions. Where and 
+when capture or overrun could be imminent; the plan should always be directed toward using 
+the most expeditious means consistent with insuring total destruction. 
+A10.2.  Precedence of Destruction.  Destroy assets in the following descending order: 
+A10.2.1.  TOP SECRET-CRYPTO and TOP SECRET simultaneously. 
+A10.2.2.  SECRET-CRYPTO. 
+A10.2.3.  SECRET. 
+A10.2.4.  CRYPTO CONTROLLED ITEMS (CCI). 
+A10.2.5.  Remaining classified material and equipment that could benefit the enemy. 
+A10.3.  Zeroing.  The term zeroized is used to describe the action taken to remove stored 
+information from the memory of electronic equipment. (Consult equipment-operating instructions 
+for zeroizing procedures.) 
+A10.4.  Methods of Destruction.  There are three basic methods of destruction: 
+A10.4.1.  Burning. If using thermite or sodium nitrate on equipment, use proper safety 
+procedures. Make sure the burn is complete and paper or plastic products are completely 
+destroyed. 
+A10.4.2.  Destroy. Completely destroy integral components to render the equipment 
+inoperable and beyond repair. 
+A10.4.3.  Shredding. Always use COMSEC approved cross cutting shredders to prevent 
+reconstruction of documents. 
+ 

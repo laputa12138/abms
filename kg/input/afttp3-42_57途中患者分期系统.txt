@@ -1,0 +1,4001 @@
+BY ORDER OF 
+  AIR FORCE TACTICS, TECHNIQUES 
+THE SECRETARY OF THE AIR FORCE 
+             AND PROCEDURES 3-42.57 
+10 AUGUST 2016 
+Tactical Doctrine 
+    EN ROUTE PATIENT STAGING SYSTEM 
+______________________________________________________________________________ 
+ACCESSIBILITY:  Publications and forms are available on the e-Publishing website at  
+www.e-Publishing.af.mil  and on the Air Mobility Command SG (AMC/SG) Manpower & 
+Equipment Force Packaging (MEFPAK) SharePoint at:  
+https://cs3.eis.af.mil/sites/27468/default.aspx  
+RELEASABILITY:  There are no release restrictions on this publication.
+____________________________________________________________________________________________________________________________________________________________ 
+OPR:  AMC/SGX 
+          Certified by: AF/SG3/5    
+ (Maj Gen R. Allen, Jr.) 
+      Pages: 103             
+____________________________________________________________________________________________________________________________________________________________
+PURPOSE:  The Air Force Tactics, Techniques and Procedures (AFTTP) 3-42 series of 
+publications is the primary reference for medical combat support capability.  Ensure that all 
+records created as a result of processes prescribed in this publication are maintained IAW Air 
+Force Manual (AFMAN) 33-363, Management of Records, and disposed of IAW the Air Force 
+Records Disposition Schedule (RDS) in the Air Force Records Information Management System 
+(AFRIMS).  This publication applies to all Air Force personnel, including Air Force Reserve 
+Command (AFRC) and Air National Guard (ANG).  For the purpose of this TTP, ANG is 
+included in the term Major Command (MAJCOM).  The doctrine in this document is 
+authoritative but not directive.  Refer recommended changes and questions about this publication 
+to the Office of Primary Responsibility (OPR) using the AF IMT 847, Recommendation for 
+Change of Publication.  Route AF Form 847 through the appropriate chain of command and 
+parent MAJCOM.  The use of the name or mark of any specific manufacturer, commercial 
+product, commodity, or service in this publication does not imply endorsement by the Air Force.  
+This Instruction requires collecting and maintaining information protected by the Privacy Act of 
+1974, System of Records Notices (SORN), F033 AF B, Privacy Act Request File, and F036 AF 
+PC Q, Personnel Data Systems (PDS) apply and are available at: 
+http://dpclo.defense.gov/Privacy/SORNs.aspx.  The use of the name or mark of any specific 
+manufacturer, commercial product, commodity, or service in this publication does not imply 
+endorsement by the Air Force. 
+SUMMARY OF REVISIONS:  This document reflects the transition from the Mobile 
+Aeromedical Staging Facility (MASF)/Contingency Aeromedical Staging Facility (CASF) 
+building block approach to the ERPSS modular building approach.  
+2 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+ 
+Chapter 1 – GENERAL.................................................................................................................5 
+1.1. Purpose .....................................................................................................................................5 
+1.2. Background ..............................................................................................................................5 
+1.3. Threat Environment  .................................................................................................................6 
+Chapter 2 – DESCRIPTION ........................................................................................................8 
+2.1. Mission .....................................................................................................................................8 
+2.2.  Essential Care...........................................................................................................................8 
+2.3. Assumptions .............................................................................................................................9 
+2.4.  ERPSS Force Module Builds/Doctrine ....................................................................................9 
+2.5. Incremental Build of the ERPSS from 10 to 200 Beds ............................................................9 
+Figure 2.1.  ERPSS Modular Build ................................................................................................10 
+Figure 2.2.  ERPSS UTC Build .....................................................................................................10 
+Figure 2.3.  ERPSS Personnel AFSCs by UTC .............................................................................14 
+Figure 2.4.  ERPSS Building Block Concept ................................................................................15 
+Chapter 3 – OPERATIONS ........................................................................................................16 
+3.1. Introduction ............................................................................................................................16 
+3.2. General Policies ......................................................................................................................16 
+3.3. ERPSS Support for the Global Patient Movement Plan (GPMP) ..........................................16 
+3.4. Deployment ............................................................................................................................17 
+3.5. Employment ...........................................................................................................................18 
+3.6. Generation/Sustainment of ERPSS Operations ......................................................................32 
+3.7. Redeployment .........................................................................................................................37 
+Chapter 4 – COMMAND AND CONTROL .............................................................................38 
+4.1. HQ AMC/SG Responsibility ..................................................................................................38 
+4.2. Command and Control (C2) ...................................................................................................38 
+4.3. Joint Force Structure ..............................................................................................................38 
+4.4. C2 Relationships .....................................................................................................................39 
+Chapter 5 – INTELLIGENCE, NATIONAL AGENCY & SPACE SUPPORT ...................41 
+5.1. Intelligence .............................................................................................................................41 
+5.2. National Agency .....................................................................................................................41 
+5.3. Space Support .........................................................................................................................41 
+Chapter 6 – COMMUNICATIONS & INFORMATION SYSTEMS SUPPORT .................42 
+6.1. Communication Requirements ...............................................................................................42 
+6.2. Air Force Command, Control, Communications, and Computer (C4) Policy .......................42 
+6.3. Network Operations ...............................................................................................................42 
+6.4. Information Assurance (IA) Policy ........................................................................................42 
+6.5. Communications Equipment ..................................................................................................42 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+3 
+ 
+ 
+6.6. Medical Reports and Communications ..................................................................................44 
+6.7. Classification of Information ..................................................................................................44 
+6.8. Message Precedence ...............................................................................................................44 
+6.9. Software Applications ............................................................................................................45 
+Table 6.1.  TMIP-AF Applications ................................................................................................45 
+6.10. Help Desk Support ................................................................................................................46 
+Chapter 7 – LINE INTEGRATION AND INTEROPERABILITY .......................................47 
+7.1. Integration and Interoperability with Other Systems .............................................................47 
+7.2. Expeditionary Combat Support (ECS) Requirements ............................................................47 
+Chapter 8 – SECURITY AND FORCE PROTECTION .........................................................48 
+8.1. Security ...................................................................................................................................48 
+8.2. Operations ..............................................................................................................................48 
+8.3. Physical Security ....................................................................................................................48 
+8.4. Operations Security (OPSEC) ................................................................................................48 
+8.5. Computer Security (COMPUSEC) ........................................................................................48 
+8.6. Security of Weapons and Ammunition ..................................................................................48 
+Chapter 9 – TRAINING ..............................................................................................................50 
+9.1. Education Programs ...............................................................................................................50 
+9.2. Training Environment ............................................................................................................50 
+9.3. Cross-Functionality ................................................................................................................50 
+9.4. Home Station Training Responsibility ...................................................................................50 
+9.5. Training Categories ................................................................................................................50 
+Chapter 10 – LOGISTICS ..........................................................................................................55 
+10.1. Medical Re-Supply ...............................................................................................................55 
+10.2. Medical Equipment ...............................................................................................................55 
+10.3. ECS Supported Capabilities ..................................................................................................56 
+10.4. Facility Requirements ...........................................................................................................57 
+Figure 10.1.  Requirements for ERPSS Operational Space ...........................................................58 
+Attachment 1 – GLOSSARY OF REFERENCES AND SUPPORTING  
+                          INFORMATION ................................................................................................60 
+Attachment 2 – EQUIPMENT PREDEPLOYMENT CHECKLIST .....................................67 
+Table A2.1. Equipment Predeployment Checklist .........................................................................67 
+Attachment 3 – PERSONAL PACKING PREDEPLOYMENT CHECKLIST ....................71 
+Table A3.1. Personal Packing PreDeployment Checklist ..............................................................71 
+Attachment 4 – ERPSS ECS REQUIREMENTS .....................................................................73                        
+Table A4.1. ERPSS ECS Requirements ........................................................................................73 
+Attachment 5 – ERPSS-10 SITE REQUIREMENTS...............................................................76 
+Table A5.1. Area Setup Requirements ..........................................................................................76 
+4 
+AFTTP3-42.57  10 AUGUST 2016 
+Attachment 6 – ERPSS-10 SITE ESTABLISHMENT .............................................................81 
+Attachment 7 – ERPSS-10 AIRFIELD CLEARANCES .........................................................83 
+Figure 7A.1. Airfield Clearances (Taxiway/Helo) ........................................................................83 
+Figure 7A.2. Airfield Clearances (Runway) ..................................................................................83 
+Attachment 8 – ERPSS-10 LAYOUT CONSIDERATIONS ...................................................84 
+Figure A8.1. ERPSS 10 Laydown Considerations ........................................................................84 
+Figure A8.2. ERPSS 10 Main Tent ................................................................................................85 
+Figure A8.3. ERPSS 10 Overflow Tent .........................................................................................85 
+Attachment 9 – ERPSS-50 TENT CONFIGURATION/SETUP .............................................86 
+Figure A9.1. ERPSS 50 Tent Configuration/Set up ......................................................................86 
+Figure A9.2. ERPSS 50 Supply Admin Tent .................................................................................87 
+Figure A9.3. ERPSS 50 Admin Tent .............................................................................................87 
+Figure A9.4. ERPSS 50 ER/Triage Tent .......................................................................................88 
+Figure A9.5. ERPSS 50 Patient Staging ........................................................................................88 
+Attachment 10 – SITUATION REPORT (SITREP) FORMAT AND OPERATIONAL 
+REPORT (OPREP-3) GUIDE ........................................................................89 
+Attachment 11 – MESSAGE FORMATS ..................................................................................91 
+Attachment 12 – WHEELS UP MESSAGE FORMAT ...........................................................93 
+Table A12.1. Wheels Up Message Format ....................................................................................93 
+Attachment 13 – WHEELS UP MESSAGE COMPLETION GUIDE ...................................94 
+Attachment 14 – RADIO EQUIPMENT DESTRUCTION PROCEDURES ........................95 
+Attachment 15 – AE INPATIENT HANDOFF CHECKLIST ................................................97 
+Figure A15.1. AE Inpatient Hand-off Checklist (Page 1 of 2) ......................................................97 
+Figure A15.2. AE Inpatient Hand-off Checklist (Page 2 of 2) ......................................................98 
+Attachment 16 – AE OUTPATIENT HANDOFF CHECKLIST ............................................99 
+Figure A16.1. AE Outpatient Handoff Checklist...........................................................................99 
+Attachment 17 – EXAMPLE SHIFT LEADER BOARD  .....................................................100 
+Figure A17.1. Example Shift Leader Board  ...............................................................................100 
+Attachment 18 – EXAMPLE MISSION BOARD...................................................................101 
+Figure A18.1. Example Mission Board  ......................................................................................101 
+Attachment 19 – EXAMPLE PATIENT WARD STATUS BOARD ....................................102 
+Figure A19.1. Example Patient Ward Status Board ....................................................................103 
+AFTTP3-42.57  10 AUGUST 2016 
+5 
+Chapter 1 
+GENERAL 
+1.1.  Purpose.  This document describes command relationships and publishes general guidance 
+for the development of ERPSS capabilities supporting the Aerospace Expeditionary Force (AEF) 
+in contingency operations; theater operation plans (OPLANs) and humanitarian 
+assistance/disaster relief (HA/DR).  Specific information to amplify and tailor guidance 
+contained in this TTP is included in Technical Orders (TOs), OPLANs, or other regional 
+guidance.  This TTP: (a) identifies and defines ERPSS responsibilities; (b) ensures ERPSS tasks, 
+functions, and responsibilities are properly assigned; (c) describes the resources available to 
+support global military operations associated with regional plans; and (d) provides a source 
+document for developing standardized ERPSS policies, operating procedures, training programs 
+and allowance standards (AS). 
+1.2.  Background. 
+1.2.1.  An AEF is a package of aerospace capabilities that provides tailored forces to meet 
+theater requirements across the full spectrum of military operations.  AEF forces respond to 
+sustainment and crisis action contingency operations.  The Air Force Medical Service 
+(AFMS) provides medical capabilities to the AEF identified in unit type codes (UTCs) to 
+support needed requirements.  As such, medical UTCs are assigned and deployed as the 
+mission dictates.   
+1.2.2.  Regarding medical capability, the Expeditionary Medical Support/Air Force Theater 
+Hospital (EMEDS/AFTH) system is designed to provide essential care in a theater of 
+operations to include deployment scenarios, war operations, deterrence and contingency 
+operations, peacetime engagement, crisis response, and HA/DR.  Aeromedical Evacuation 
+(AE) is necessary for patients who require definitive care not available in the EMEDS/AFTH.  
+1.2.3.  Patient staging is a key component of ensuring timely AE.  Patient staging is designed 
+to temporarily stage patients and prepare them for flight and aircraft loading while reducing 
+the amount of time an AE aircraft is on the ground.  Prior to the ERPSS concept, staging 
+patients for AE had historically been accomplished via MASFs, CASFs or Disaster 
+Aeromedical Staging Facilities (DASFs).   
+1.2.4.  In 2010, HQ AMC/SGX proposed re-structuring the CASF/MASF missions into the 
+ERPSS.  In doing so, the UTCs have been combined into force modules (FM) to meet mission 
+requirements.  Utilizing the ERPSS FMs, HQ AMC is able to accomplish patient staging from 
+bare base operations to a 200-bed patient staging capability at fixed facilities and allow 
+flexibility with ever changing operations.  The primary mission of the ERPSS is to provide 
+personnel and equipment necessary for 24-hour staging operations for patients entering and 
+transiting the Air Force components of the global AE system.  The ERPSS coordinates and 
+communicates with medical and AE elements to accomplish patient care and patient 
+movement (PM), including ground transportation.  It provides patient reception, complex 
+medical/surgical nursing, limited emergent intervention, and ensures patients are medically 
+and administratively prepared for flight.   
+6 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+1.3.  Threat.  The ERPSS ability to function within a Medical Counter- Chemical, Biological, 
+Radiological, Nuclear (MC-CBRN) environment is very different than that of the EMEDS.  
+There are no collectively protected ERPSS packages.  The AFMS has the capability to move one 
+or two contagious “index” patients utilizing the Patient Isolation Unit (PIU).  This capability 
+should not imply the need to have a collectively protected ERPSS package. 
+1.3.1.  Medical Threat Implications. 
+1.3.1.1.  Disease and Non-Battle Injury (DNBI).  Historically, DNBI accounted for over 
+80 percent of personnel admitted to hospitals during contingency operations.  The 
+medical community is exposed to a unique class of threats mitigated by infection control 
+practices, which include, sharp needle/scalpel sticks, and exposure to infection through 
+careless infection control procedures or neglect.  Personnel and patients, from high threat 
+areas, may show signs of suspected or known highly infectious agents.  ERPSS personnel 
+must be aware of possible signs and symptoms of these diseases as well as the 
+appropriate public health response in these instances.  Proper emphasis of infection 
+control practices should keep this threat to a minimum, but will require firm and 
+sustained enforcement.  Safety is paramount in an environment where small injuries can 
+become serious due to austere conditions.  Appropriate training of medical personnel 
+during peacetime should mitigate these potential threats. 
+1.3.1.2.  Conventional Weapons.  These weapons, including precision guided munitions, 
+antipersonnel/vehicle mines, tube and rocket artillery, aerial bombs, cruise and ballistic 
+missiles, and others carry the potential to inflict personal injury in widely varying 
+degrees.  Treatment of injuries caused by these weapons is enhanced through advanced 
+diagnostic capability, specialty consultation, medical information access, AE, and the 
+ability to process tests and data rapidly.  ERPSS offers no protection from conventional 
+(kinetic) weapons and requires protective shelters from Expeditionary Combat Support 
+(ECS) sources. 
+1.3.1.3.  Weapons of Mass Destruction (WMD).  For definitive guidance on biological 
+and chemical agents, and nuclear weapons and their effects, see JP 3-11, Operations in 
+Chemical, Biological, Radiological, and Nuclear Environments.  Refer to AFTTP 3-
+42.22, Contagious Casualty Management, for the guidance regarding movement of 
+contaminated/contagious casualties/personnel.  
+1.3.1.3.1.  Biological and Chemical Weapons (BW/CW).  The possibility of 
+biological or chemical attack poses a significant threat to deployed forces.  While 
+there are EMEDS packages fitted with collective protection components to allow for 
+continued operations in a contaminated environment, these same measures are not 
+available for ERPSS packages.  Large scale PM does not normally occur in a 
+contaminated environment.   
+1.3.1.3.2.  Nuclear/Radiological Weapons.  These weapons range greatly in size and 
+energy yield and are employed by a variety of means.  While blast and thermal injury 
+will account for most casualties, radiation effects will also be significant.  A nuclear 
+AFTTP3-42.57  10 AUGUST 2016 
+7 
+incident has the potential to produce a very large number of casualties 
+instantaneously, severely burdening the medical evacuation and treatment system.  
+ERPSS packages do not protect against radiation. 
+1.3.2.  Information Warfare (IW).  Our heavy reliance on information systems makes them 
+attractive targets to potential adversaries.  The threats to these systems are worldwide, 
+technically diverse, and growing rapidly.  Network Control Center (NCC) Information 
+Assurance (IA) programs provide information systems security support for the ERPSS.  The 
+medical facility abides by the Air Force Forces/Air Expeditionary Task Force 
+(AFFOR/AETF) Network Operation and Security Center–Deployed (NOSC-D) and NCC 
+communications design architectures, operational rules of engagement, and MAJCOM 
+preferred product lists to minimize the threat. 
+8 
+AFTTP3-42.57  10 AUGUST 2016 
+Chapter 2 
+DESCRIPTION 
+2.1.  Mission.  The ERPSS has a two-fold mission:  provide support and continuity of medical 
+care for PM and serve as an integral patient interface to the Air Force components of the Global 
+AE system.  The Global AE system consists of unregulated movement via Casualty Evacuation 
+(CASEVAC), Medical Evacuation (MEDEVAC), and/or AE from the point of patient injury, 
+illness, or wounding, through successive roles within the theater, to include evacuation to 
+definite care when warranted.  The ERPSS provides personnel and equipment necessary for 24-
+hour patient staging operations, administrative processing and patient ground transportation 
+between the staging facility and the aircraft.  
+2.2.  Essential Care. 
+2.2.1.  The ERPSS is designed to temporarily hold patients as they transit the AE system 
+while providing short-term complex medical-surgical nursing care and limited emergent 
+intervention.  The length of stay in an ERPSS facility may be from two to 72 hours.  Holding 
+times differ depending on the size of the staging facility.  At the 10-bed initial stage, holding 
+times are limited by the amount of space and supplies in this initial package.  Two to four 
+hours is the preferred hold time; not to exceed six hours.  At the larger staging facilities (50-
+100 bed), holding times will vary depending on the operational capability of the location and 
+the flight schedules, but should be limited to no more than 72 hours.   
+2.2.2.  Complex medical/surgical nursing is defined as utilizing multiple skill sets when 
+caring for patients with wide-ranging traumatic injury, cardiac, respiratory, gastrointestinal, 
+genitourinary, neurological and multi-system pathologies.  Skill sets include, but are not 
+limited to, managing multiple intravenous (IV) or central lines; administering numerous IV 
+medications and blood products; performing wound irrigations and dressing changes; and 
+assisting with placement and management of chest tubes.  Additionally, knowledge of flight 
+considerations for trauma and medical patients and the stresses of flight are important in this 
+environment. 
+2.2.3.  Complex care does not represent critical care.  Critically ill patients will be cared for at 
+the nearest/supporting Military Treatment Facility (MTF).  The co-located or supporting 
+inpatient MTF is responsible for holding/staging all patients with medical care requirements 
+outside the scope of the ERPSS.  In the event that the ERPSS cannot be geographically co-
+located with a supporting MTF and the MTF Chief of Medical Staff determines the distance 
+to be significant, emergent care personnel, such as a Critical Care Air Transport Teams 
+(CCATT), may be co-located with the ERPSS to assist in stabilizing patients. 
+2.2.4.  All ERPSS facilities (with the exception of the ERPSS-10) should be co-located with a 
+theater hospital level MTF to support patient treatment and movement.  It can be a stand-
+alone facility with providers, nursing personnel and flight surgeons assigned to assist in 
+stabilizing patients for movement in the Global AE system.  If the ERPSS facility is not co-
+located with an MTF that can provide the required clinical support, arrangements must be in 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+9 
+ 
+ 
+place to meet the clinical support levels needed for patients transiting the facility (host nation, 
+local civilian authorities, or Joint Service counterparts).    
+2.3.  Assumptions. 
+2.3.1.  Populations-at-risk (PAR) represent contingency/disaster support personnel or 
+international military and civilian personnel in a coalition operation.  US military population 
+supported will have predeployment medical screening, prophylaxis, immunizations and will 
+be trained in Self Aid Buddy Care (SABC). 
+2.3.2.  Airlift is available. 
+2.3.3.  Patients are evacuated IAW the theater evacuation policy. 
+2.3.4.  AE capabilities support rapid movement of stabilized patients. 
+2.3.4.1.  Patient Evacuation.  IAW AF directives and Combatant Commander directives, 
+patient medical supplies and patient movement items (PMI) may be prepositioned to meet 
+patient movement requirements.  If not prepositioned, the originating facility will be 
+responsible for providing these items and should provide a one-day minimum of supplies 
+for PM within the Continental United States (CONUS) or three-day minimum of supplies 
+for outside the CONUS (OCONUS) moves.  
+2.3.5.  Deployed medical forces may not be able to depend on host-nation medical support. 
+2.3.6.  ECS, including but not limited to communications, fuel, potable water, ice, electrical 
+power, transportation, living quarters for medical personnel, food service, base security, 
+protective shelters, site preparation, pallet movement, wastewater disposal, and human and 
+medical waste disposal, is provided.   
+2.4.  ERPSS FM Builds/Doctrine.  ERPSS is a medical war reserve materiel (WRM) supply 
+and equipment asset, with a building construct that allows medical planners to right size the 
+facility requirements based on PM requirements.  The ERPSS builds from a 10-bed mobile 
+facility (FFEPS).  As workload changes, or is projected to change, UTC packages (personnel and 
+equipment) may be deployed in small increments and combined with previously deployed 
+ERPSS UTCs to increase capability.   
+2.5.  Incremental Build of the ERPSS from 10 to 200 Beds.  Figures 2.1 and 2.2 demonstrate 
+the incremental build from a 10-bed to 200-bed ERPSS FM.  What follows are descriptions of 
+the UTCs contained within the ERPSS FM.  It is important to note vehicles (HMMWVs, 
+AMBUS, M1078 Truck and 10K Forklift) must be tasked separately in support of ERPSS 
+operations, as they are not part of the UTC AS (per the Mission Capability Statement 
+[MISCAP]).   
+2.5.1.  ERPSS-10.  This UTC is the first increment in building all ERPSS assemblages.  The 
+staging facility maintains the flexibility to be a mobile or fixed capability.  
+10 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+2.5.1.1.  ERPSS-10 Personnel UTC (FFEPS).  This UTC is a 13-person, ten-bed 
+capability that provides rapid response patient staging of ten patients at a time, a 
+maximum flow of 40 patients in a 24-hour period, and a maximum six hour patient hold 
+time.  Team should be able to sustain this tempo for 72 hours without augmentation. 
+Table 2.1.  ERPSS Modular Build. 
+ 
+Table 2.2.  ERPSS UTC Build. 
+ERPSS 10 (13 PAX) 
+FFEPS 
+Nursing, MSC 
+Med Tech, Med Admin 
+ERPSS 50 (28 PAX) 
+FFPPS 
+Nursing, Med Tech, FS, MSC, 
+Med Admin, Med Log, Nut Med 
+ERPSS 100 (23 PAX) 
+FFHPS 
+Nursing, Med Tech, FP, MSC, 
+BMET 
+  
+  
+ 
+UFMPR  
+UFMPR X 2 
+  
+  
+UFMPR 
+UFMT4  
+UFMT4 X 2 
+  
+  
+UFMT4 
+UFM81 X 3 
+UFM81 X 6 
+  
+UFMVH X 2 
+UFM81 X 2 
+FFPS4 X 2 
+FFPS4 X 4 
+UFMVH X 2 
+FFPS7₂ 
+FFPS4 
+FFPS3 X 2 
+FFPS3 X 4 
+FFPS7₂ 
+FFPS8₁ 
+FFPS3 
+FFPS2  
+FFPS2 X 2 
+FFPS8₁ 
+FFPS1 
+FFPS2 
+FFHPS 
+FFHPS X 2 
+FFPS1 
+FFPPS 
+FFFPS 
+FFFPS 
+FFFPS X 2 
+FFQCR 
+FFQCR 
+FFPPS 
+FFPPS 
+FFPPS X 2 
+FFEPS 
+FFEPS 
+FFEPS 
+FFEPS 
+FFEPS X 2 
+10 Bed Stage 
+10 Bed Med 
+Aug/Dr   
+50 Bed 
+100 Bed 
+200 Bed 
+15 personnel 
+25 personnel 
+51 personnel 
+74 personnel 
+ 148 personnel 
+₁ Re-supply 
+ 
+  
+  
+  
+₂ Environmental     
+Control Unit 
+(ECU) 
+RED = Pax 
+Green = Cargo 
+Black = vehicle 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+11 
+ 
+ 
+Pharmacy 
+ERPSS Clinical Augmentation (10 PAX) 
+FFPPS 
+FS/PA, Nursing, Med Tech, Med Log 
+FFPS1 
+Equipment Pkg:  Rapid Response (2 x UFMVH-packed), 7 – Day Supply, Tents & Communications 
+Deploys with FFEPS  
+FFPS2 
+Equipment Pkg:  Computers, Radios, Generator, Essential Med Equip & Supplies (Deploys with 
+FFFPS) 
+FFPS3 
+Supply Pkg:  30 Day Supply of Pharmacy & Treatment Supplies (Resupplies FFFPS) 
+FFPS4 
+Equipment Pkg:  Tentage, ECU, Electrical, Durable Med Equip, Patient Beds (Deploys with FFFPS) 
+ERPSS 10 
+2 x UFMVH 
+(HWMMV) 
+ERPSS 50/100/200 
+2x/3x/6x UFM81 
+(AMBUS) 
+ERPSS 50/100/200 
+1x/1x/2x UFMT4 
+(5 Ton Cargo Truck) 
+ERPSS 50/100/200 
+1x/1x/2x UFMPR 
+(10K Forklift) 
+FFPS7 
+Equipment Pkg:  Environmental Control Unit, Generator (Optional for deployment with FFPS1) 
+FFPS8 
+Supply Pkg:  15-Day Supply of Pharmacy & Treatment Supplies (Expands FFPS1 to a 22-day 
+Capability) 
+ 
+2.5.1.2.  ERPSS-10 Equipment UTC (FFPS1, AS 904F).  Provides equipment necessary 
+to establish a rapid response ERPSS-10.  The FFPS1 provides for an initial seven days of 
+supplies.  If operations are anticipated to exceed seven days it is vital a re-supply (FFPS8) 
+is immediately requested or sent with the initial UTC tasking.  This UTC can be deployed 
+12 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+as rolling stock (if the UFMVH UTC is tasked) or on aircraft pallets (463L).  If this UTC 
+is not deployed as rolling stock, it cannot be considered mobile.  This UTC comes with 
+heating capability; however, the ERPSS-10 Environmental Control Unit (FFPS7) UTC 
+must be tasked to add a cooling capability. 
+2.5.1.3.  ERPSS-10 AE Communication Team (FFQCR).  For the ERPSS-10, this two 
+person AE communication team (FFQCR) must be tasked separately for communications 
+support.  This UTC does not normally deploy with the 50, 100, or 200 bed ERPSS 
+packages.  For the 50, 100, or 200 bed ERPSS packages, communications support is an 
+ECS responsibility. 
+2.5.1.4.  ERPSS-10 Vehicle Support (UFMVH), High Mobility Multi-purpose Wheeled 
+Vehicle (HMMWV).  These two light, highly mobile, diesel-powered, four-wheel-drive 
+vehicles are equipped with an automatic transmission and are required for the ERPSS-10 
+to deploy as rolling stock.  These vehicles must be tasked in addition to the ERPSS-10 
+(FFPS1) equipment package, per the MISCAP. 
+2.5.1.5.  ERPSS-10 Environmental Control Unit (ECU) (FFPS7, AS 904J).  Provides an 
+ECU and augmentation equipment/generator to provide basic heating/cooling 
+environment capability to the ERPSS. 
+2.5.1.6.  ERPSS-10 Re-supply (FFPS8, AS 904K).  Provides 15-day re-supply for 
+employed ERPSS-10 based on 40 patients per 24 hours.  When combined with ERPSS-10 
+Equipment UTC (FFPS1), this package provides an initial 22 day capability to support 
+PM.  Re-supply arrives on 463L pallets.  If package is repositioned, receiving unit is 
+required to have ground support (10K forklift) to transport re-supply package to new 
+location.   
+2.5.2.  ERPSS-P Personnel UTC (FFPPS).  This 10-person UTC provides clinical providers, 
+additional nursing staff, and logistical support to enhance the clinical capability for any 
+ERPSS UTC.  Serves as a clinical interface capability between forward medical care and the 
+ERCC.  Can be deployed with or as a follow on to the ERPSS-10.  The ERPSS-P can deploy 
+independently to support the EMEDS where staging is deliberately planned.  Larger builds 
+require deployment of this UTC in combination with other UTCs to form the various 
+packages. 
+ 
+2.5.3.  ERPSS-50 thru 200 Bed Capabilities.  The ERPSS-50/100 UTCs provide staging 
+capabilities for 50 and 100 bed stages.  Patient stays at this level should be limited to 72 hours 
+or IAW theater operations policy.  When supporting an EMEDS, other service theater 
+hospitals, or CONUS MTFs, patients can remain in the facility as space and staging 
+requirements allow, depending on the casualty flow, nature of the injuries, availability of AE 
+resources, and requirements of the mission.  For robust AE and staging missions, patient stays 
+are reduced to 12 hours, thereby increasing throughput capability due to projected use of 
+retrograde airlift, civilian hospitals, air ambulances, and other-than-AE lift options.   
+2.5.3.1.  These configurations have more complete services than the ERPSS-10 and the  
+ERPSS-P.  Physician, biomedical equipment repair, administration, and logistics services 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+13 
+ 
+ 
+are components of larger personnel packages.  ERPSS-50/100 requires MTF support for 
+nutritional medicine, pharmacy, mental health and intensive care nursing.  If an ERPSS-
+50/100 is located with an MTF that does not have in-house food service, a support 
+agreement is to be established with base food service for patient feeding, addressing 
+specific therapeutic food items required for patients.   
+2.5.4.  ERPSS-50. 
+2.5.4.1.  ERPSS-50 Personnel UTC (FFFPS).  This 28-person UTC is used as a bed 
+extension/augmentation package for patient staging.  It administratively and clinically 
+prepares patients for flight and ensures patients are clinically supported while in the 
+ERPSS.  This UTC assists with the transportation of patients to and from the aircraft.  
+Builds with other ERPSS UTCs, or can be tasked to augment PM at other echelons of 
+care.  If ECS is limited, planners should add provisions for personnel with expertise in 
+Aerospace Ground Equipment (AGE) setup and management for generator, electrical 
+grid and lighting. 
+2.5.4.2.  ERPSS-50 Equipment UTC (FFPS2, AS 904G).  This UTC provides operational 
+equipment, computers, radios, C2, generator and essential medical equipment and 
+advanced cardiac life support medications.  It is used to build from the 50-bed capability 
+to the 200-bed capability.  One ERPSS - 50 equipment package supports the ERPSS-
+50/200.  The UTC is used in conjunction with the ERPSS Expendables (FFPS3) and 
+ERPSS Facility (FFPS4) packages to complete the initial ERPSS-50 (See Figures 2.1 and 
+2.2, pages 9 and 10).  ECS or Host Nation base support is required for medical equipment 
+repair, bioenvironmental engineering (BE), security, petroleum/oil/lubricants (POL), and 
+civil engineering (CE).   
+2.5.4.3.  ERPSS-50 Vehicle Support. 
+2.5.4.3.1.  UFM81, Ambulance Bus (AMBUS).  This UTC is required to safely move 
+patients and support the ERPSS system.  Planning should include consideration for 
+adequate maneuvering and parking for a bus 36 feet in length.  This UTC is required 
+to support PM.  
+2.5.4.3.2.  UFMT4, Vehicle, 5 Ton Cargo Truck.  UFMT4 provides a six-wheel drive, 
+5 ton cargo truck/prime mover capability.  This UTC is required to support equipment 
+and ERPSS. 
+2.5.4.3.3.  UFMPR, 10K Forklift.  This UTC provides a 10K standard forklift 
+capability.  This UTC is required to support ERPSS FM equipment packages.  
+2.5.4.4.  ERPSS-50 Expendables (FFPS3, AS 904H).  Provides expendable supplies, 
+pharmacy and treatment supplies for patient care.  ERPSS bed size as follows:  1 for 
+ERPSS-50, 2 for ERPSS-100, and 4 for ERPSS-200.  Must be utilized in conjunction 
+with the ERPSS-10 equipment package and ERPSS-50 Facility Package to complete the 
+capability of the ERPSS.  This package also serves as a re-supply package for the ERPSS 
+FM. 
+14 
+AFTTP3-42.57  10 AUGUST 2016 
+2.5.4.5.  ERPSS-50 Facility (FFPS4, AS 904I).  Package contains tentage, ECUs, 
+electrical assembly, oxygen, durable medical equipment and operating equipment.  
+Package includes patient beds, field cots, litters and other durable patient care items.  
+This UTC is used to build from the 50 bed capability to the 200 bed capability.  It can 
+also be used in conjunction with the ERPSS equipment and expendable UTCs to 
+complete the ERPSS FM capability.   
+2.5.5.  ERPSS-100. 
+2.5.5.1.  ERPSS-100 Personnel UTC (FFHPS).  This 23 person UTC is used as a bed 
+extension/augmentation package for the ERPSS FMs.  It can deploy independently or as a 
+staging augmentation package to an existing MTF with limited staging function.  It 
+administratively and clinically prepares patients for flight and ensures patients are 
+clinically supported while in the ERPSS.  Also assists with the transportation of patients 
+to and from the aircraft. 
+Table 2.3.  ERPSS Personnel AFSCs by UTC. 
+FFEPS 
+13 PAX 
+ERPSS-10 Bed 
+4-046N3, 1-4A071, 4-4N051, 3-4N071, 
+1-041A3  
+FFPPS 
+10 PAX 
+ERPSS-Provider/Support 
+Staff 
+1-048R3, 1-042G3, 2-046N3, 1-4A171, 
+4-4N051, 1-4N071 
+FFFPS 
+28 PAX 
+ERPSS-50 Bed 
+1-041A3, 5-046N3, 1-048R3, 1-4A271 
+1-4A051, 1-4A071, 8-4N051, 4-4N071, 
+1-4D071, 1-4A151, 1-4P071, 1-046A3, 
+1-4N091, 1-4A091  
+FFHPS 
+23 PAX 
+ERPSS-100 Bed 
+2-041A3, 2-046N3, 2-4A051, 1-4A071, 
+10-4N051, 4-4N071, 1-044F3, 1-4A251 
+AFTTP3-42.57  10 AUGUST 2016 
+15 
+Table 2.4.  ERPSS Building Block Concept. 
+16 
+AFTTP3-42.57  10 AUGUST 2016 
+Chapter 3 
+OPERATIONS 
+3.1.  Introduction.  Medical operations occur within five distinct phases:  deployment, 
+employment, generation/sustainment, redeployment, and reconstitution.  Each phase is 
+delineated by mission objectives, PAR, and operational objectives.  Overall, the health services 
+support objective is to enhance force protection by providing a modular, clinically enhanced, 
+tailored and more life-saving capability while reducing the medical footprint. 
+3.2.  General Policies. 
+3.2.1.  The ERPSS UTCs are postured against sourced units in the UTC Availability Tool 
+(UTA). ERPSS equipment/facility infrastructure packages may be pre-positioned in theater 
+based on Geographic Combatant Commanders (GCC) and AFFOR requirements. 
+3.2.2.  The ERPSS is employed according to the requirement dictated by the Joint component 
+surgeon, in support of (ISO) the Combatant Commander’s (CCDR) OPLAN.  The ERPSS is 
+considered a Combat Services Support (CSS) function when deployed in a Joint environment, 
+the same category as user service medical elements.  The ERPSS needs to be positioned to 
+fulfill its mission at the same time the user service is positioning its own CSS medical 
+elements.  Delivery methods used by user services for positioning combat support elements 
+vary.  CSS elements may be inserted via air/land delivery when the airfield is considered 
+secured enough for placing these elements.  They may also follow combat forces via ground 
+convoy, according to the CCDR’s plan.  Determining the insertion method of the ERPSS is a 
+responsibility of the AF planner, as dictated by the Joint component surgeon, and in keeping 
+with the ERPSS’s operational function, and support requirements.  
+3.2.3.  ERPSS personnel are required to be knowledgeable of Joint service operations and are 
+employed at operating locations where forward resuscitative capability and fixed/rotary wing 
+airfields are available.  Members should be familiar with all references to the  Global AE 
+system as referenced in Joint Publication 3-17, Air Mobility Operations, and Joint Publication 
+4-02, Health Service Support.  The ERPSS supports medical elements of the US Army, US 
+Navy, US Marine Corps, US Air Force, other coalition force medical elements and may be 
+tasked ISO HA/DR and DSCA operations.  The Medical Service Corp Officer (41A) and 
+Medical Admin (4AO) assigned to FFEPS will complete the following Federal Emergency 
+Management Agency (FEMA) courses:  IS-100, Introduction to Incident Command System, 
+IS-700, National Incident Management System – An Introduction and IS-800, National 
+Response Framework or the Air Force Response Operations, Introduction (AERO) web-based 
+training.   The training is located at http://training.fema.gov/IS/crslist.aspx.  satisfies this 
+requirement.  Other ERPSS personnel in leadership positions are recommended, but not 
+required, to complete the same FEMA training. 
+3.3.  ERPSS Support for the Global Patient Movement Plan (GPMP).  The GPMP may be 
+activated to facilitate significant global PM.  In many instances, an existing MTF will need 
+staging and holding capability and be able to support a small staging component through existing 
+resources such as physician support, nutritional medicine, logistics, mental health, and pharmacy.  
+AFTTP3-42.57  10 AUGUST 2016 
+17 
+3.4.  Deployment. 
+3.4.1.  Deployment planning and preparation is essential to support ERPSS operational 
+objectives during contingencies and must afford sufficient command emphasis to ensure unit 
+readiness.  The deployment can include a movement of troops, cargo, weapons systems, or a 
+combination of these elements, utilizing multiple types of transport.  ECS must provide the 
+goods and services to sustain the operations of a deployed ERPSS force package for the 
+duration of a deployment.  The planners and initial ERPSS UTC personnel arrange messing, 
+billeting, petroleum oil lubricants (POL), real estate and other support requirements for 
+deployed medical elements. 
+3.4.1.1.  The Time Phased Force Deployment Data (TPFDD) is built by the air 
+component and flowed through the MAJCOMs to the Wing plans and operations centers 
+for action.  Local installation Deployment Control Centers (DCC) establishes local 
+schedules to prepare units, personnel, and cargo IAW required delivery dates in theater.  
+Schedules are developed by working backward from an “aircraft commander briefing” or 
+“station” time to include the essential steps in the deployment process (i.e., manifesting, 
+subsistence palletizing, marshaling, personnel processing, and assembly of personnel and 
+cargo at unit assembly areas).  
+3.4.1.2.  Deployment Timelines. 
+3.4.1.2.1.  Regular Air Force (RegAF) ERPSS-10 and the ERPSS-P UTCs have the 
+ability to rapidly deploy within 24 hours of notification. 
+3.4.1.2.2.  Once all mobilization actions have been completed, ARC forces must be 
+ready for deployment within 72 hours.  
+3.4.2.  Cargo Processing.  The processing of ERPSS cargo begins immediately after a unit is 
+tasked for deployment (notification stage), and continues until the cargo arrives at the 
+deployed destination.  The DCC will publish the Deployment Schedule of Events (DSOE) 
+which demonstrates the unit’s deployment process, detailing critical deployment actions 
+required to meet movement departure times.   
+3.4.3.  Equipment Preparation.  When notified of a deployment tasking, equipment and 
+supplies must be ready and prepared for transport.  Units should have checklists and/or 
+flowcharts to assure procedures are followed for deployment of personnel and cargo.  
+Equipment mobility paperwork packages contain load and packing lists, hazardous materials 
+declarations, and hazardous cargo placards IAW AFI 41-209, Medical Logistics Support.  It is 
+essential that all man-portable equipment for the ERPSS is kept in the “ready mode” at all 
+times. 
+3.4.4.  Personnel Preparation.  Personnel assigned to the ERPSS should be fully trained and 
+ready to deploy prior to entering their deployment “band” or continuously ready for those 
+assigned as an “enabler.”  Upon notification of deployment, the deploying team leader will 
+coordinate with their assigned MTF medical readiness office staff, schedule a predeployment 
+conference, and then review key documents and responsibilities.  Key documents include: 
+18 
+AFTTP3-42.57  10 AUGUST 2016 
+deployment orders, TPFDD, force protection threats, medical intelligence reports, and overall 
+intelligence reports.  Please refer to Chapter 9 of this TTP for an inclusive list of training 
+requirements.  
+3.4.5.  Medical Intelligence.  During the deployment phase, the team will obtain a detailed 
+medical intelligence assessment for deployment briefings and inclusion in the force protection 
+plan from the Base Public Health Office.  Sources for this information may include the 
+MAJCOM medical and AE Plans and Readiness divisions, host base and theater intelligence, 
+Air Force Office of Special Investigations (AFOSI), National Center for Medical Intelligence 
+(NCMI), Medical Environmental Disease Intelligence and Countermeasures (MEDIC) CD-
+ROM data base, airfield surveys reports, Joint Lessons Learned Information System (JLLIS), 
+published lessons learned/after action reports, Department of State, and any in-country US 
+embassy or consulate.   
+3.5.  Employment: 
+3.5.1.  The ERPSS personnel should have a plan for rapidly setting up and taking down all 
+equipment.  Pack equipment like radios/antenna and tents where they will be quickly 
+assessable when arriving at the deployed site.  This allows the element to become operational 
+and begin casualty flow at the earliest possible time.  Equipment UTC pack-out guides (if 
+applicable) are available in the MEFPAK Playbook located at 
+https://cs3.eis.af.mil/sites/27468/default.aspx . 
+3.5.2.  Upon arrival at a deployed location, an ERPSS representative should immediately 
+make contact with supporting organizations command elements, medical commanders, 
+Contingency Response Groups (CRG) or Combat Control Team (CCT), airfield managers and 
+brief the ERPSS capabilities, function, and ECS requirements.  Final site selection, operating 
+perimeter, air base security plans are extremely important and must be reviewed and 
+coordinated with supporting authorities. 
+3.5.2.1.  ERPSS-10/ERPSS-P Employment. 
+3.5.2.1.1.  The ERPSS-10/ERPSS-P are employed within a defined Area of 
+Operations (AO) ISO contingency operations.  These UTCs are capable of relocating 
+in a minimal amount of time as contingency operations dictate.  Leadership is 
+required to interface with all local and host activities that provide ancillary support 
+services.  This relationship is critical to ensure that the UTC’s can provide effective 
+PM support to user service medical teams, and that reciprocal support needed to 
+sustain operations is provided.   
+3.5.2.1.2.  Initial Operational Capability (IOC) for the ERPSS-10 and ERPSS-P 
+should be achieved within one hour of arrival at the assigned location.  IOC is defined 
+as the initial ability to provide immediate reception of patients and establishment of a 
+communication link to the supporting Air Operations Center (AOC), AE Control 
+Team (AECT) and servicing Patient Movement Requirement Center (PMRC) to 
+coordinate PM.   
+AFTTP3-42.57  10 AUGUST 2016 
+19 
+3.5.3.  General Site Survey and Selection.  Aspects of site survey/selection process apply to all 
+deployed elements.  A crucial step in the establishment of any airfield operation is 
+determining where to establish the site,tent orientation and equipment placement.  Proper 
+assessment of the terrain and physical surroundings is critical and is required to be 
+accomplished correctly to avoid setting up operations on an unsuitable site.  At the operating 
+location, the ERPSS-10 should be physically located to afford ready access to active 
+taxiways/runways as feasible, while the ERPSS-50 to ERPSS-100 UTCs should be located in 
+close proximity to the nearest medical facility.  This promotes rapid patient enplaning 
+operations and supports the overall air mobility mission by minimizing aircraft ground-times 
+and delays.  Guidance for airfield safety clearances when operating near active taxiways or 
+runways can be found in Attachment 8.  The team chief appoints the site survey team to 
+survey those areas of the proposed site based on their expertise.  Note:  Prior to beginning the 
+site survey/selection process, the team chief needs to first coordinate with airfield 
+management authorities or supporting units.  See ERPSS-10 SITE ESTABLISHMENT 
+Attachment 6 for additional guidance, to include the criticality of good drainage for tents.  
+3.5.3.1.  Personal/Site Camouflaging.  When camouflaging is deemed necessary for Force 
+Protection (FP), personnel need to take into consideration the threat, time of year, 
+climate, and the natural surroundings.  Skin should be covered using camouflage face 
+paint, paint sticks, mud, or any other suitable material.  All areas of the head, neck, face, 
+hands, throat, ears, and any other exposed skin areas are to be covered.  Sleeves will be 
+rolled down.  Shiny areas of the face, which includes the forehead, nose, cheekbones, and 
+chin, should be subdued using darker colors like dark green, brown, and black.  Personnel 
+should remove or cover all reflective items such as rings, watches, earrings, etc.  
+Personnel should use branches, leaves, or other local vegetation to break up outlines for 
+themselves and their equipment.  Vehicles and equipment should be dispersed to the 
+maximum extent possible.  Vehicle windows and mirrors will need to be appropriately 
+covered or concealed to avoid reflections from the sun, moon, and other light sources.  
+Camouflaged netting should be used to the maximum extent possible.  Commanders  
+must understand that if personnel, facilities and equipment are camouflaged, any 
+protection these would receive under the Geneva Conventions as “marked” medical 
+personnel, facilities or equipment is foreited.  While not a war crime to camouflage – 
+there may be a operational reasons for doing so – it does not then equate to a LOAC 
+violation if an adversary strikes those being unaware of any protected status. 
+3.5.3.2.  Hardening Assets and Building Safe Defensive Fighting Positions and Bunkers.  
+Tents, POL, and generators should be hardened as much as possible, when FP conditions 
+require.   Generators should be located at least 50 feet from the work/sleeping areas.  The 
+generator power cable should be buried in the ground.  Generators should be shielded on 
+all sides with sandbags to a height equal with the uppermost portion of the generator.  
+This shielding or revetment should be big enough to allow free air ventilation and 
+movement around the generator.  Tents should be bunkered a minimum 3 ft. high by 3 ft. 
+deep with 3 ft. of clearance between the tent and sandbags.  This allows for additional 
+cover for personnel outside, adequate cover for personnel inside the tent, free air 
+ventilation and helps suppress light from the bottom of the tent during blackout 
+conditions.  The tentage doorways should have a protective barrier in front approximately 
+20 
+AFTTP3-42.57  10 AUGUST 2016 
+8 to 10 feet from the entrance/exit.  This allows for some protection from blasts and small 
+arms fire while providing space for litter casualty movement.  The ratio of bunkers to 
+personnel should be at least one bunker for every five to seven personnel.  Whether it is 
+provided by the user service or built by UTC personnel, the quantity of fighting positions 
+and bunkers should be adequate to support all personnel.  Assignments to them should be 
+made to prevent overcrowding.  Defensive fighting positions should be dug armpit deep.  
+Bunker walls should be at least three feet wide by four feet high.  To increase the height 
+of the interior space, dig into the ground.  Use available resources to cover the bunker.  
+These need to be supported by dunnage or interior walls built into the bunker.  A 
+protective layer of sandbags at least two bags thick will be placed on the roof.  The 
+placement of a protective wall in front of the doorway will further protect against blasts 
+or debris.   
+3.5.3.3.  Initial Site Security.  Security for ERPSS personnel and resources within the 
+immediate area of each deployed location is the responsibility of the host installation.  
+ERPSS-10/ERPSS-P should arrive at a forward operating location with the expectation 
+that it may be a semi-secure airfield and be prepared to set-up area defense prior to 
+establishing the facility There may be little or no time to prepare for hostile action in the 
+area.  Every situation will be different and actions will be determined by all available 
+information, such as intelligence reports and personal observation.  Threats should dictate 
+actions taken.  Personnel should always use good judgment, err on the side of caution, 
+and maintain a tactical posture whenever deployed.  Guards should be posted for 
+adequate safety and defense. 
+3.5.3.3.1.  Defensive Fighting Position.  When an area defense must be quickly 
+established, personnel should post a guard or guards;  immediately prepare hasty 
+fighting positions (shallow depressions or holes roughly 18 inches deep and long 
+enough for the body), and identify fields of fire.  Continue to refine fighting positions, 
+increasing survivability with more advanced positions as situation, mission, and time 
+dictate. 
+3.5.3.3.2.  ERPSS personnel engaged exclusively in medical duties are non-
+combatant;  however, personnel may be armed as dictated by theater instructions.  
+Facility security for asset protection, entry control, personal protection, and patient 
+protection is performed by armed ERPSS personnel IAW the Law of Armed Conflict 
+and Geneva Conventions.  Though ERPSS personnel are armed IAW theater 
+requirements, the ERPSS does not have forces assigned for security, other than 
+installation security limited to protection of assets, regulation of access, and 
+Unexploded Explosive Ordnance (UXO) sweeps.  Security for personnel and patients 
+against enemy aggressors is primarily the responsibility of, and should be provided 
+by, the host installation commander.  Security for patients and personnel resources 
+within the immediate area at each deployed medical site is a medical responsibility.  
+Enemy Prisoner of War (EPW) patients are the responsibility of security forces 
+personnel, not medical personnel.  Medical personnel are issued small arms IAW AFI 
+31-117, Arming And Use Of Force By Air Force Personnel.   Deployed medical site 
+assets, such as narcotics, are protected as a controlled area IAW AFI 31-101, 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+21 
+ 
+ 
+Integrated Defense.  Additional force protection measures should be determined by 
+the Deployed Medical Commander (DMC) or Senior Medical Officer (SMO) based 
+upon Force Protection Condition (FPCON) and the advice of the Defense Force 
+Commander (DFC).    
+3.5.3.3.3.  Entry Control Points (ECPs).  ECPs should be established in the same 
+manner as those on the flight line.  They are not designed to keep people out but to 
+give controlled access to authorized personnel.  Anyone entering the ERPSS area not 
+using an ECP should be considered “unfriendly” until proven otherwise. 
+3.5.3.3.4.  Code Words.  Sign/Countersign, authentication codes and duress words 
+should be used at all ECPs as the FP conditions dictate.  The host installation FP 
+Office is responsible for generating these requirements; however, ERPSS personnel 
+may need to establish these items upon arrival until the host installation FP Office is 
+functional.  Follow AFPAM 10-100, Airman’s Manual, for further guidance.  A 
+duress code should be established.  This is a word or phrase used during the 
+challenge/reply sequence to alert the guard that the member is under duress from an 
+enemy, e.g., gun pointed at member by enemy, but is out of sight of the guard.  
+Numbers equal to an established sum may also be used.  All challenge/responses 
+should be given in a clear voice, just loud enough to be heard. 
+3.5.3.3.5.  Running Passwords.  A running password should be made for times of 
+emergencies when the conventional challenge/reply would be too time consuming.  A 
+running password is used when a "friendly" member is being pursued by enemy 
+forces into the compound.  The running password identifies the "friendly" and alerts 
+the guards the enemy is right behind them.  It requires no reply from the guards and 
+should be shouted repeatedly by the incoming "friendly”.  The guards will 
+immediately take up defensive positions and fields of fire once the "friendly" has 
+entered the camp area.  Make sure the camp is quickly alerted by any means 
+available. 
+3.5.3.3.6.  Buddy System.  ERPSS personnel, who transit outside the area’s defined 
+security perimeter, will not do so alone.  ERPSS personnel who transit outside the 
+area’s defined security perimeter will do so in compliance with established force 
+protection measures.  The ERPSS leadership may consider implementation of a 
+‘wingman concept’ that requires personnel to travel outside the security perimeter in 
+pairs as threat conditions warrant/require. 
+3.5.3.4.  General Evasive Plan of Action (Bug-out).  During contingency operations, 
+escape and evasion routes and procedures will need to be established with other elements 
+at the deployed location to ensure all personnel are prepared in case of an emergency.  
+All PM elements will coordinate with the supporting collocated user service to see if an 
+evasive plan of action has been established.  The ERPSS personnel need to be identified 
+and included in the plans.  The team chief will ensure the security of personnel and 
+equipment are taken into consideration by the user service.  If one has not been 
+developed, assure a simple and direct plan is communicated.  Disseminate this to all 
+22 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+personnel on what items to take, which vehicles or aircraft to go in, and make sure routes 
+are specifically drawn out.  Map, compass, Global Positioning Satellite (GPS) training is 
+highly desirable for all personnel. 
+3.5.3.4.1.  Fire Evacuation Plan.  Each deployed element will develop a fire 
+evacuation plan.  This plan will include, at a minimum, a plan to egress the physical 
+structure or location, assembly point, and personnel accountability.  Additionally, the 
+plan will address the accountability for classified documents, encryption devices and 
+weapons. 
+3.5.3.4.2.  Base Recovery after Attacks.  Designate specific sweep areas, sector 
+assignments, and marking procedures for your recovery teams.  Assure processes are 
+in place to quickly notify your area control element on the status of recovery 
+assessments and accountability of all personnel. 
+3.5.3.5.  Survivability/Separation of Assets.  A crucial step in the survivability of all 
+elements in a hostile environment is the separation of all assets and/or the location and 
+protection of manpower and resources.  It is important to remember that to survive in 
+austere and hostile environments, effectively separating your assets and properly 
+camouflaging them will limit the amount of collateral damage sustained in the event of an 
+attack.  All assets, such as tents, generators, vehicles, personnel, POL, food, water, 
+supplies, and equipment should be separated as much as possible when threat conditions 
+warrant such actions to minimize loss of resources and personnel from a hostile action, 
+such as mortar or artillery attack, or individual sabotage.  All supplies, medical and non-
+medical, should be kept, stored, concealed, and secured at all times. 
+3.5.4.  Emergency Communications.  ERPSS team members should coordinate with user 
+service regarding the type of communications available for early warning of changes in 
+chemical and FPCON conditions (i.e. flags, Land Mobile Radios (LMR), sirens, horns, 
+whistles, voice levels) as well as phones installed in the bunkers for emergency use (when 
+bunkers are required).  When personnel are required to gather in one or more bunkers, an 
+emergency communication system is essential to ensure all personnel are accounted for.  The 
+team chief of the element should establish procedures of notification, accounting, and 
+evacuation of personnel.  
+3.5.5.  AGE.  AGE includes generators and heaters.  Electrical power sustains our vital 
+communication links, medical equipment, lighting, computers, and other equipment as 
+needed.  In order to operate AGE equipment safely, team members need to have knowledge 
+about placement, set up and operation of the equipment, recognize gauge reading and know 
+normal and emergency shutdown procedures.  Obtaining these skills creates a safe working 
+environment for equipment and personnel.  It is the team chief’s responsibility to ensure all 
+ERPSS-10/ERPSS-P personnel are trained on the equipment utilized prior to deployments or 
+participation in an exercise. 
+3.5.6.  Fuel Storage and Safety.  Proper fuel storage is critical to the continuing operations of 
+any given UTC.  The POL site should be a minimum of 50 feet from any semi-permanent 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+23 
+ 
+ 
+structure and should meet the same shielding criteria as generators.  There should be a 
+physical separation between full and empty fuel containers and the area should be clearly 
+marked. 
+3.5.7.  Personnel Responsibilities. 
+3.5.7.1.  Chief of Medical Staff.  Supporting MTF responsibility. 
+3.5.7.1.1.  Provides oversight to flight medicine, pharmacy, and nutritional medicine. 
+(There are no credentialed providers in an ERPSS-10). 
+3.5.7.1.2.  Coordinates with the validating flight surgeon to recommend whether 
+patients should be admitted to the supporting MTF, or are authorized to remain 
+overnight (RON) in the staging facility. 
+3.5.7.1.3.  Ensures appropriate clinical/surgical/ancillary support services are 
+available as required to meet the patient care needs for patients in RON status in the 
+staging facility. 
+3.5.7.2.  ERPSS Team Member Responsibilities. 
+3.5.7.2.1.  Team Chief.  The Team Chief is either established as Commander on G 
+Series orders, Operations Order (OPORD) or appointment by the supporting MTF or 
+is the senior medical officer of the team assembled regardless of AFSC. 
+3.5.7.2.1.1.  Establish communications with the deployed base commander and 
+airfield manager.  The ERPSS leadership team should also develop a relationship 
+with the Air Terminal Operations Center (ATOC), CE, communications, 
+transportation, dining facilities (DFAC), flight safety, fire and force protection 
+units.  These units should be notified of the presence of an ERPSS on the base and 
+the mission support requirements inherent in the ERCC. 
+3.5.7.2.1.2.  Develops and coordinates plans with the supporting MTF, Wing, 
+MAJCOM, supporting PMRC, and AECT to support peacetime and contingency 
+operations. 
+3.5.7.2.1.3.  Coordinate with the supporting MTF to establish administrative, 
+ancillary service, and clinical support requirements. 
+3.5.7.2.1.4.  Establish communications with the appropriate PMRC. 
+3.5.7.2.1.5.  Establish communications with all supported service tactical 
+evacuation assets/units. 
+3.5.7.2.1.6.  Establish communications with all MTFs moving patients to the 
+ERPSS to ensure transportation and continuity of patient care is maintained. 
+24 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+3.5.7.2.1.7.  Ensures staff training is provided to all assigned personnel for 
+environmental and any specific geographic issues of concern at the deployment 
+location.  Coordinates with supporting MTF to ensure clinical/ancillary support 
+requirements over and above the capability of the assigned ERPSS personnel are 
+met. 
+3.5.7.2.1.8.  Assesses overall personnel demands against authorized/allocated 
+resources. 
+3.5.7.2.1.9.  Ensures funding and accountability by submitting requirements to 
+MTF or co-located medical facility for budget and financial planning. 
+3.5.7.2.1.10.  Supports and oversees personnel management of unit. 
+3.5.7.2.1.11.  Ensure anti-hijacking procedures are followed IAW AFI 13-207, 
+Preventing and Resisting Aircraft Piracy (Hijacking), AFI 48-307 V1, En Route 
+Care and Aeromedical Evacuation Medical Operations, and Federal Aviation 
+Administration (FAA) directives. 
+3.5.7.2.1.12.  Ensure handling and storing of weapons and ammunition, 
+perimeter and entry control procedures are be accomplished IAW AFI 31-101, 
+Integrated Defense, and Area of Responsibility (AOR) Commanders’ local 
+policies and directives. 
+3.5.7.2.1.13.  Ensure UXO sweeps and perimeter maintenance are accomplished  
+IAW AFI 10-2501, Air Force Emergency Management (EM) Program Planning 
+and Operations and AFMAN 10-2503, Operations in a Chemical, Biological, 
+Radiological, Nuclear and High-Yield Explosive (CBRNE) Environment. 
+3.5.7.2.1.14.  Ensure handling, securing and processing EPWs and detainees is 
+IAW Geneva Convention rules and Laws of Armed Conflict (LOAC). 
+3.5.7.2.1.15.  Team chiefs need to consider operating without operational IM-IT 
+connectivity; therefore hard copy documentation work-arounds must be 
+considered.   
+3.5.7.2.2.  Flight Surgeon.  The flight surgeon will review the patient’s record, 
+prescribe treatment, diet and address any current medical complaints upon arrival 
+with appropriate documentation on the patient’s AF Form 3899, Patient Movement 
+Record, approved electronic health record, or DD Form 602, Patient Evacuation Tag.  
+The flight surgeon will determine if the patient can begin or continue travel in the AE 
+System and coordinate status with the appropriate PMRC.  A flight surgeon will 
+evaluate and document the patient's condition every 24 hours, consult with medical 
+specialists as needed and will be available on a 24-hour basis.  Make rounds with the 
+staging nurse, at least every 24 hours, and update the AF Form 3899.  In the event of a 
+patient status change, report the change through staging facility leadership and/or 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+25 
+ 
+ 
+PMRC for updating the TRANSCOM Regulating and Command & Control 
+Evacuation System (TRAC2ES). 
+3.5.7.2.2.1.  Credentialed Provider’s Orders.  Physicians will order en route 
+treatment on the AF Form 3899 or approved electronic charting, and sign the 
+order. 
+3.5.7.2.2.2.  With assistance of the supporting MTF Chief of Medical Services 
+and PMRC validating flight surgeon (VFS), determine whether each patient can 
+remain in the staging facility or must be transferred to the MTF for medical care.   
+3.5.7.2.2.3.  Placing patients on medical hold.  In the event of changes in the 
+patient’s condition, the flight surgeon may place a patient on medical hold, not to 
+exceed 72 hours.  Patients with severe conditional changes may require admission 
+to an MTF whereupon the flight surgeon will arrange for hospitalization.  
+3.5.7.2.3.  Family Physician/Physician Assistant.  The family physician/physician 
+assistant will review the patient’s record, prescribe treatment, diet and address any 
+current medical complaints with appropriate documentation on the patient’s AF 
+Form 3899.  Neither the family physician nor the physician assistant is authorized to 
+clear patients for flight.  
+3.5.7.2.4.  Nursing Services. 
+3.5.7.2.4.1.  Nursing services will document all patient care on AF Form 3899 or 
+other AF approved computer based charting.  All entries will be recorded in 
+ZULU time (example: 1837Z or 0245Z).  At a minimum, charting is required 
+upon admission, once a shift and upon discharge from an ERPSS.  Triage starts 
+with a review of the patient manifest and Patient Movement Request (PMR) and 
+continues through the patient’s arrival and nursing report.   
+3.5.7.2.4.2.  Ensure all patients have a patient identification (ID) bracelet.  The ID 
+bracelet will be printed or typed with the last name, first name, middle initial, date 
+of birth and TRAC2ES cite number. 
+3.5.7.2.4.3.  Medication Management. 
+3.5.7.2.4.3.1.  Nurses are responsible for daily accountability of patient 
+narcotics on each applicable AF Form 3899 for all inpatients and non-self-
+medicating outpatients.. 
+3.5.7.2.4.3.2.  Outpatients deemed compliant and competent to self-medicate, 
+may self-medicate with controlled/non-controlled medications  if determined 
+by the sending provider as being competent to self-medicate and when 
+designated by the clearing flight surgeon.  Self-medication orders will be 
+documented on the AF Form 3899 by the nurse on duty.  The Pharmacy/nurse 
+will provide an adequate supply of medications and an AF Form 3899I, 
+26 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+Patient Movement Medication Record, for identifying dosages and schedules 
+for self-administered medication.  The pharmacy technician will provide 
+instruction and information regarding their prescribed medication.  
+Education will be documented on the AF Form 3899 by the staging nurse. 
+3.5.7.2.4.3.2.1.  Provider order for self-administration of medications 
+(SAM). 
+3.5.7.2.4.3.2.2.  “Will self-medicate” boxes must be marked on the front 
+and back of the AF 3899. 
+3.5.7.2.4.3.2.3.  The following statement written and signed by the 
+verifying provider or nurse stating that the patient is compliant and 
+competent to self-medicate.:  “Patient is hand-carrying medication(s):  
+has been instructed on self-medication of (list medication name[s] and 
+verbalizes understanding)”. 
+3.5.7.2.4.3.2.4.  At a minimum, SAM patients will be reassessed at every 
+hand-off for continued competency and compliance. 
+3.5.7.2.4.3.2.5.  If an outpatient is deemed not compliant and/or not 
+competent for SAM at any point of the patient movement process, the 
+respective care provider (e.g. Medical Crew Director (MCD), Flight Nurse 
+(FN), ERPSS personnel, etc.) will: 
+3.5.7.2.4.3.2.5.1.  Immediately assume responsibility for and 
+administration of that patient’s medication(s). 
+3.5.7.2.4.3.2.5.2.  Clearly document the change in the patient's SAM 
+status on the AF Form 3899.  
+3.5.7.2.4.3.2.5.3.  Verbally communicate that change in status to the 
+accepting provider at the next patient hand-off. 
+3.5.7.2.4.3.2.5.4.  Initiate a DD Form 2852, AE Event and Near Miss 
+Report and submit to AMC/SG Patient Safety representative.   
+3.5.7.2.4.3.6.  Inpatients medications, both controlled and non-controlled will 
+be managed by en route care medical personnel.  Patient Controlled Analgesia 
+(PCA) will be managed through physician orders.  
+3.5.7.2.4.3.7.  When patient medical supplies and PMI are coordinated with 
+the AE system in advance, most items can be provided from the AE staging 
+base.  The originating facility will be responsible for providing these items 
+and should provide a one-day minimum of medical supplies.  The originating 
+facility will provide supplies; for intra-theater movement, a three-day supply; 
+for inter-theater movement, a two-three day minimum supply is required.  
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+27 
+ 
+ 
+During time of war, intra and inter-theater medication supply levels will be 
+based on command directives. 
+3.5.7.2.4.3.8.  It is the responsibility of the medical personnel in each patient 
+care area (user service, staging facility, AE crews, and destination MTF) to 
+administer controlled medications to their patient population as prescribed on 
+the AF Form 3899. 
+3.5.7.2.4.3.9.  Unaccompanied controlled medications (schedule II, III, IV) 
+will be turned into the pharmacy and documented on AF Form 3859, Turn-In 
+of Unaccompanied Narcotics. 
+3.5.7.2.4.3.10.  If controlled medication is stored at a remote location other 
+than a pharmacy (i.e. a nurse’s station), a nurse and another qualified person 
+must count narcotics at change of shift and document on AF Form 579, 
+Controlled Substances Register or in automated equipment logs (e.g. Pyxis ® 
+log), as appropriate. 
+3.5.7.2.4.3.11.  Controlled medications issued to patients and under patients’ 
+control may not be returned to pharmacy.  They must be destroyed IAW local 
+policies. 
+3.5.7.2.4.3.12.  Providers must use electronic order entry for prescriptions 
+whenever available, IAW AFI 44-102, Medical Care Management.  If not 
+using electronic order entry, use AF Form 781, Multiple Item Prescription, or 
+equivalent computer-generated means via an AF approved system. 
+3.5.7.2.4.4.  If a patient arrives without an AF Form 3899, for example, arrives 
+with a DD Form 1380, US Field Medical Card, information from those 
+documents will be transcribed onto an AF Form 3899 and the original 
+documentation will be attached to the AF Form 3899 and will become a 
+permanent part of the patient’s medical records. 
+3.5.7.2.4.5.  Prior to departing the staging facility for the aircraft, the patient will 
+be assessed for pain and, if required, administered medication within one hour of 
+departure from staging area.  If medically acceptable, delay administering 
+diuretics until after flight. 
+3.5.7.2.4.6.  Chief Nurse/Nurse Manager. 
+3.5.7.2.4.6.1.  Provides clinical oversight and management of Nursing 
+Services. 
+3.5.7.2.4.6.2.  Assesses nursing personnel demands against 
+authorized/allocated resources. 
+28 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+3.5.7.2.4.6.3.  Assesses clinical level and experience of assigned nursing 
+personnel and identifes and provides for additional clinical training needs as 
+applicable. 
+3.5.7.2.4.7.  Aerospace Medical Service Superintendent.  Provides oversight and 
+supervision for all assigned Aerospace Medical Service Journeyman/Craftsman.  
+ 3.5.7.2.4.8.  Clinical Nurse and Aerospace Medical Service 
+Journeyman/Craftsman.  Clinical nurses and Aerospace Medical Service 
+Journeyman/Craftsman make up the ERPSS patient care team.  They receive 
+reports on incoming patients, prepare patients for flight IAW AFI 48-307 V1, En 
+Route Care and Aeromedical Evacuation Medical Operations, complete patient 
+assessment and treatment documentation, keep patients informed concerning the 
+status of their care, and ensure anti-hijacking measures are accomplished for all 
+patients prior to enplaning.  
+3.5.7.2.5.  Administration. 
+3.5.7.2.5.1.  Maintain, IAW AF and local directives, a comprehensive events log 
+documenting activities, correspondence, communications and facility issues.  The 
+events log provides historical documentation of all activities within the facility 
+and can be used to verify activities, as well as actions taken by unit personnel. 
+3.5.7.2.5.2.  Maintain a status board displaying appropriate information, such as 
+mission, Estimated Time of Arrival (ETA), Estimated Time of Departure (ETD), 
+patient loads, and aircraft data in appropriate area out of view for protection of 
+information. 
+3.5.7.2.5.3.  Verify mission information, including patient information, load data, 
+special equipment requirements and aircraft information with appropriate 
+agencies as directed by higher headquarters and local directives.  Coordinate 
+patient and mission changes with appropriate PMRC and AECT to ensure lift and 
+crews are appropriate for mission. 
+3.5.7.2.5.4.  Coordinate mission requirements with appropriate personnel, such as 
+census, launch and recovery times/staffing needs, to include drivers or vehicles, 
+appropriate clinical points of contact at other MTFs and supporting agencies. 
+3.5.7.2.5.5.  Establish procedures to ensure the physician at the originating 
+facility initiates appropriate documentation and signs the AF Form 3899, or AF 
+approved electronic patient documentation, recommending movement of patients 
+and attendants.  The clinical staff will document patient assessment and care, 
+while at the administrative staff will ensure documentation is available for use.  
+Patient Administration or Medical Regulating Office will provide appropriate 
+documentation from TRAC2ES to meet mission requirements, such as PMRs, 
+patient manifest, patient baggage list, and any other additional paperwork. 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+29 
+ 
+ 
+3.5.7.2.5.6.  Information in TRAC2ES is subject to change on short notice based 
+on current operational requirements.  Changes are updated as quickly as possible, 
+but the PMR may not reflect the most current information available.  The facility 
+control center will be in contact with the PMRC to ensure the latest information is 
+provided to staff, but some changes will not get communicated until a flight 
+arrives on station.  The control center will communicate directly with the Officer 
+in Charge (OIC) of any changes to the patient manifest or patient condition to 
+ensure the most current medical information is available to the AE crew. 
+3.5.7.2.5.7.  Ensure patients and attendants are briefed regarding AE and staging 
+policies and procedures, including at a minimum, force protection issues, 
+unauthorized items in the facility, as well as on aircraft and anti-hijacking 
+requirements.  Unauthorized items will be confiscated and documented on AF 
+Form 1297, Temporary Issue Receipt.  Weapons and ammunition, should be 
+given to the patient’s unit Liaison Officer (LNO) for storage and/or return to 
+home station, with appropriate documentation in the Events Log or on an AF 
+Form 1297. 
+3.5.7.2.5.8.  Ensure patient accountability is maintained at all times.  Only 
+patients and medical/non-medical attendants identified with a current automated 
+Information System (AIS) allowing Intransit Visibility (ITV) will be staged.  This 
+can be maintained on status boards or log sheets, provided they are compliant 
+with the Health Insurance Portability and Accountability Act (HIPAA), 42 USC 
+1320d et seq, and personnel are briefed on use, maintenance and compliance 
+issues. 
+3.5.7.2.5.9.  Releasing Patients from the AE System.  See AFI 48-307 V1, En 
+Route Care and Aeromedical Evacuation Medical Operations.  This AFI provides 
+the current guidance on policies and procedures.  Note:  patients who are 
+removed from the AE System may not resume travel on their original TRAC2ES 
+cite number. 
+3.5.7.2.5.10.  All patients RONing in the MTF or other agency are census assets 
+of the ERPSS (if co-located with MTF).  If patients need to RON in the MTF or 
+other agency while transiting the AE System, they may be formally admitted to 
+the MTF.  The MTF flight surgeon or designee will manage the medical care of 
+such patients and will reaffirm their readiness for flight.  Patients in RON status at 
+a civilian medical facility may be admitted, but the ERPSS will retain them as 
+ERPSS RON patients. 
+3.5.7.2.5.11.  Health Services Administration Officers.  The Medical Service 
+Corps (MSC) officers assigned are responsible for ensuring all necessary 
+coordination is made with medical organizations requesting AE support.  Acts as 
+principle liaison with organizations sending patients to the ERPSS and ensures all 
+required reporting is completed.  Remains familiar with all communications 
+equipment and assists the AE Communications Team personnel if needed. 
+30 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+3.5.7.2.5.12.  Health Services Management Superintendent.  Provides oversight 
+and supervision for all assigned health services management 
+journeyman/craftsman.   
+3.5.7.2.5.13.  Health Services Management Journeyman/Craftsman.  The Health 
+Services Management Journeyman/Craftsman are responsible for managing and 
+accounting for patient records.  Initiates all necessary in-flight documentation; 
+ensuring paperwork is complete and accurate.  Additionally, work with the 
+supporting user service to verify AE mission arrival and departure times.  May 
+assist with anti-hijacking measures.  Personnel need to be familiar with all 
+communications equipment and assist the AE Communications Team personnel if 
+needed.  
+3.5.7.2.5.14.  Medical Materiel Journeyman/Craftsman.  Medical logistics support 
+is essential to the ERPSS mission success.  The logisticians manage, provide 
+guidance, technical support, and coordinate re-supply support channels. 
+3.5.7.2.5.15.  Biomedical Equipment Craftsman.  Is responsible for all medical 
+equipment maintenance activities.   
+3.5.7.2.6.  Diet Therapy Craftsman.  Informs Nutritional Medicine at the MTF of any 
+unique food requirements.  In the event of altered transportation plans, shall obtain 
+adequate nutritional provisions for patients and provide three-day feeding supply for 
+intra-theater PM and five-day supply for inter-theater PM. 
+3.5.7.2.6.1.  Nutritional Medicine Support.  Supporting MTF responsibility unless 
+nutritional medicine personnel are assigned to staging facility.  
+3.5.7.2.6.1.1.  Nutritional Medicine coordinates patient feeding requirements 
+with Base Operating Support (BOS) elements.  Nursing service orders patient 
+meals three to four times a day on AF Form 1094, Diet Order.  The form is 
+completed by Nursing Services, and all patient meals must be annotated on 
+the diet order form.  The patient meal tally is to be presented to the DFAC no 
+later than two hours prior to the start of meal preparation.  Patient nutritional 
+requirements are coordinated with the DFAC, flight kitchen, and Nutritional 
+Medicine.  The AF Form 129, Tally In/Out, is used to transfer rations from 
+an AF DFAC or MTF.  The AF Form 79, Head Count Record, is used to 
+account for patient meals prepared in an AF DFAC. 
+3.5.7.2.6.1.2.  The ERPSS provides meals to patients transiting the ERC 
+System  Attendants (medical and non-medical) are authorized to use the MTF 
+DFAC when available, at their own expense.  The staging facility provides 
+meals to patients using local DFAC or Meals Ready to Eat (MRE).  Refer to 
+AFI 41-307 for additional information regarding meals. 
+3.5.7.2.7.  Pharmacy.  Supporting MTF responsibility unless pharmacy personnel are 
+assigned to Staging Facility. 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+31 
+ 
+ 
+3.5.7.2.7.1.  Prepares patients’ medications for departure from the staging facility. 
+3.5.7.2.7.2.  Obtains and provides pharmaceuticals within the approved staging 
+formulary which may or may not be augmented by medications provided by the 
+MTF or other available resources. 
+3.5.7.2.7.3.  Assures or provides patients with an adequate supply of medications 
+to reach their prescribed destination.  Deployed locations should send a one-day 
+supply from a Role II to Role III facility in a combat operations theater and a two-
+day supply from a Role III to a theater hospital out of the combat operations 
+theater.  When inpatients are moving OCONUS to the CONUS, a two - three day 
+supply is required depending on if the inpatient is going to port or past port.  All 
+outpatients moving OCONUS to CONUS should receive a five-day supply.  
+When moving within the CONUS, a one-day supply is adequate. 
+3.5.7.2.7.4.  Outpatients may carry their own supply of controlled substances, if 
+determined by the sending provider to be competent to self-medicate.  Note:  
+Outpatient mental health patients (5C) will only be cleared to self-medicate after 
+consultation with a provider licensed or credentialed in mental health.  Prior to 
+flight, a registered nurse must personally interact with the patient to verify the 
+patient understands and provides additional education as appropriate, on proper 
+self-administration of medications.  Healthcare professionals must remain 
+cognizant of potential abuse and misuse of controlled medications and must 
+follow the below guidance as applicable. 
+3.5.7.2.7.5.  Originating MTF will ensure patient medication education for any 
+prescribed pharmaceuticals.  If geographically possible, patient education for 
+“new” medications dispensed at en route stops will be done by the dispensing 
+facility. 
+3.5.7.2.7.6.  Physicians are required to have AF Form 2383, Prescriber’s 
+Information, on file (one at MTF pharmacy, one with ERPSS pharmacy tech).  
+Nurses are required to have AF Form 2383 on file in the ERPSS pharmacy. 
+3.5.7.2.7.7.  Provide AF Form 579 to dispense narcotics to different nursing 
+stations (a separate form is needed for each controlled substance and dosage). 
+3.5.7.2.7.8.  Reviews the AS and formulary; tailor according to local requirements 
+and/or IAW local policy.  The formulary must be approved by the Medical Group 
+Commander (MDG/CC) and the MTF Pharmacy and Therapeutics 
+Committee/Function. 
+3.5.7.2.7.9.  Pharmacy Craftsman.  Prepares patient medications for departure 
+from the staging facility.  Assures or provides patients with an adequate supply of 
+medications to reach their destination.   
+32 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+3.5.7.2.8.  Patient Safety Manager.  The ERPSS Team Chief shall appoint a Patient 
+Safety Manager (PSM) and an alternate.  Typically the primary role is performed by 
+the senior nurse assigned to the ERPSS.  The PSM will review all DD Form 2852s, 
+Near Miss Reports, and ensure submission into the TRAC2ES system in the Patient 
+Movement Quality Report (PMQ-R) tab.  The PSM advises the local leadership on all 
+matters related to patient safety, tracks and trends data, and initiates and facilitates 
+completion of significant event root cause analysis when indicated, assists with 
+Medical Incident Investigations, provides patient safety related in-services as needed, 
+and maintains a current TRAC2ES account.  The PSM will provide a quarterly report 
+and an annual report (end of calendar year) to the ERPSS senior leadership and 
+associated EMEDS/MTF leadership as to the status of open reported trends, 
+resolutions, open events, and other patient safety issues, assessments or initiatives.  
+The local leadership will send reports through associated MAJCOM to HQ 
+AMC/SGK Patient Safety. 
+3.5.7.2.8.1.  The focus of a patient safety program is to keep staff current on 
+patient safety practices/initiatives, identify issues and trends for improvement, and 
+take action to plan and implement improvements.  A more detailed description of 
+this role and responsibilities and further information/guidance can be found in the 
+“Deployed Patient Safety Guide” and “AE Patient Movement Patient Safety 
+Program Guide” located on the Knowledge Exchange (see link below) under 
+‘Guidance & Policy’ and then select ‘Patient Safety Guides’.  Knowledge 
+Exchange Link:  
+https://Kx2.afms.mil/kj/kx2/CQMPatientSafety/Pages/home.aspx 
+3.5.7.2.9.  Vehicle Control Officer/NCO.  The ERPSS Team Chief shall appoint a 
+Vehicle Control Officer/Non-Commissioned Officer (VCO/VCNCO) in writing.  
+The VCO/VCNCO will manage the vehicles IAW AFI 24-302, Vehicle Operations, 
+and local directives.  The VCO/VCNCO’s ensure appropriate personnel are trained to 
+operate assigned vehicles, verify certification for flight line vehicle operations, and 
+prepare and submit vehicle reports according to local directives. 
+3.6.  Generation/Sustainment of ERPSS Operations. 
+3.6.1.  Staging Facility Personnel Will.   
+3.6.1.1.  Stage, enplane and deplane patients. 
+3.6.1.1.1.  Staging facilities at strategic hubs are responsible for the transportation of 
+patients between their MTF and/or the evacuation asset/aircraft.  The appropriate 
+vehicle support UTCs must be tasked in addition to the ERPSS personnel and 
+equipment UTCs.  Fixed staging facilities must have adequate AMBUS assets 
+assigned to support PM requirements. 
+3.6.1.1.2.  Depending upon the patient’s needs, a nurse, medical technician, and 
+health services management technician (in addition to the driver), plus emergency 
+equipment (i.e. Defibrillator/ Monitor, portable O2, portable medications kit {not an 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+33 
+ 
+ 
+all inclusive list}) will accompany patients in an AMBUS, ambulance or vehicles of 
+opportunity according to patient requirements.  Staging Facility personnel are also 
+required to load and unload patients on and off aircraft or other evacuation asset.  
+Additional medical personnel may be required due to patient acuity.  Additional 
+manpower will be necessary to facilitate large patient loads (i.e. baggage handling, 
+litter movement, etc.). 
+3.6.1.1.3.  Occupational Safety.  All staff involved in patient movement must exercise 
+extreme caution during enplaning and deplaning procedures.  A high accident 
+potential exists because of the noise level, vehicle activity around the aircraft, and 
+possibility of inclement weather. 
+3.6.1.1.4.  All personnel in the immediate area of an operating aircraft must wear ear 
+plugs.  All vehicles moving within 10 feet of the aircraft will use a spotter.  The 
+spotter will preposition wheel chocks to prevent the vehicles from damaging the 
+aircraft.  Chocks will remain in position until the vehicle(s) are ready for movement. 
+3.6.1.1.5.  All vehicles will approach parked aircraft with the driver side of the 
+vehicle toward the aircraft. 
+3.6.1.1.6.  Only vehicles required to deplane patients/passengers or service the aircraft 
+will be permitted to approach after aircraft block in.  All vehicles will stand clear until 
+directed to proceed. 
+3.6.1.2.  Receive regulated/unregulated patients and provide continuing and supportive 
+care. 
+3.6.1.3.  Prepare and clear patients for flight to ensure suitability for movement under 
+the guidance of the PMRC VFS. 
+3.6.1.4.  Brief patients and accomplish appropriate documentation and TRAC2ES inputs. 
+3.6.1.5.  Provide ground transportation between the staging facility and the aircraft. 
+3.6.1.6.  Provide facility security for the protection of assets, personnel and entry control. 
+3.6.2.  Mission Launch and Recovery.  ERPSS Commander/Team Chief will ensure Plans, 
+Policies, Procedures and Processes (P4) will be in place to include the following: 
+3.6.2.1.  Management and control of medical attendants. 
+3.6.2.2.  Stresses of flight. 
+3.6.2.3.  Billeting and recall. 
+3.6.2.4.  Attendant responsibility for assigned patients. 
+3.6.2.5.  Inventory and management of PMI equipment. 
+34 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+3.6.2.6.  Delivery and recovery of patient to and from aircraft. 
+3.6.2.7.  Medical and medication documentation to MCD. 
+3.6.2.8.  Special diet, patient medical records, X-rays, SF 600. 
+3.6.2.9.  Proper handling of litters, North Atlantic Treaty Organization (NATO) carriers 
+and attire. 
+3.6.2.10.  Management of administrative processes including: 
+3.6.2.10.1.  Reviews of AF Form 3899 and TRAC2ES PMR. 
+3.6.2.10.2.  Preparation of baggage list provided by TRAC2ES and patient baggage 
+tag (DD 600). 
+3.6.2.10.3.  Anti-hijacking process and presentation. 
+3.6.2.10.3.1.  All patients, attendants and baggage to be placed aboard AF aircraft 
+or HQ AMC contract aircraft must be anti-hijack checked by staging facility 
+personnel.  A staging facility representative will provide the MCD with a signed 
+statement listing the names of the individuals searched and that anti-hijacking 
+measures have been accomplished.  This statement will be: “Anti-hijacking 
+accomplished per AFI 13-207, Preventing and Resisting Aircraft Piracy 
+(Hijacking).” 
+3.6.2.10.3.2.  During contingencies, when performing anti-hijacking procedures, 
+personnel will wear personnel protective equipment (i.e. helmet, flack vest, etc.).  
+When possible, anti-hijacking procedures should be accomplished in an area 
+away from the facility. 
+3.6.2.10.3.3.  Inspect patients and attendants either with a hand held or walk 
+through metal detector, X-ray machine or by a physical check.  WARNING:  
+Electromagnetic interference from hand held and stationary surveillance systems 
+interferes with implantable cardiac pacemakers and implantable cardioverter-
+defibrillators.  Changes in pacing rates, shock, and possible cardiac arrest may 
+occur.  Use alternate anti-hijacking procedures for patients and passengers with 
+these medical devices. 
+3.6.2.10.3.4.  Notify security forces if suspicious items are found. 
+3.6.2.10.3.5.  Restrict inspected patients and attendants to a holding area. 
+3.6.2.10.3.6.  Inspect all hand-carried items. 
+3.6.2.10.3.7.  Honor requests for visual/physical inspection instead of using X-ray 
+or metal detectors. 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+35 
+ 
+ 
+3.6.2.10.3.8.  Identify any patients or attendant showing suspicious behavior. 
+3.6.2.10.3.9.  Ensure guards have been arranged to accompany prisoner patients to 
+their destination. 
+3.6.2.10.3.10.  Conduct all inspections with the highest standard of military 
+courtesy. 
+3.6.2.10.3.11.  Exempt classified materials held by official couriers from 
+inspections. 
+3.6.2.10.3.12.  Inform passengers they can’t carry weapons or explosives aboard.  
+Notify aircrew if authorized weapons are carried onboard. 
+3.6.2.10.4.  Vehicle control including drivers. 
+3.6.2.10.5.  Flight line authorization, chocks and radios. 
+3.6.2.10.6.  Configuration of AMBUS’s, ambulance or opportune conveyance. 
+3.6.2.10.7.  Vehicle mechanical and security checks. 
+3.6.2.10.8.  Flight line safety and security. 
+3.6.2.11.  Management of patient documentation.  
+3.6.2.11.1.  Completion of AF Form 3899A-L or AF approved computer based 
+charting, to include vital signs, ensure medication requirements are properly 
+documented.  
+3.6.2.11.2.  Complete other forms as necessary, including: 
+3.6.2.11.2.1.  AF Form 3899E, Patient Movement Intake & Output. 
+3.6.2.11.2.2.  AF Form 3899B, Patient Movement Physician Orders. 
+3.6.2.11.2.3.  AF Form 3899I, Patient Movement Medication Record.  
+3.6.2.11.2.4.  All special diets will be ordered by the physician and documented 
+on the  
+AF Form 3899.  Ensure all patients are allocated a meal for flight. 
+3.6.2.11.2.5.  Patient classification changes on PMR (can only be changed by 
+flight surgeon). 
+3.6.2.11.2.6.  Complete AF 3838, Do Not Resuscitate (DNR) Certification for 
+Aeromedical Evacuation, if required. 
+36 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+3.6.2.11.3.  Place all medical records (clinical records, outpatient treatment records, 
+X-rays, and any other pertinent patient information) in an envelope.  The following 
+information is required to be  printed on the outside of each patient envelope:  patient 
+name, rank or status, patient classification, Self-Administering Medications (SAM) or 
+Non-SAM Status, allergies, last five numbers of Social Security Number (SSN), cite 
+number for patients without SSN, nationality (if not a US citizen), organization, date 
+of departure, and destination.  The cite number is a TRAC2ES system specific 
+number that is utilized to track a patient/individual in the system without providing 
+personal identifying information (PII) description of the cite number.  Consists of 10 
+Characters:  Positions 1-2 = last 2 digits of year, Positions 3-5 = Julian date, Position 
+6 = PMRC designation, (1=TPMRCA; 2=TPMRCE; 3=TPMRCP; 4=JPMRC) 
+Positions 7-10 = system sequence number for one day.  All medical records, X-rays, 
+medications and supplies will be placed in a secure records container carried and 
+transported to and from the aircraft.  This carrier will be exchanged with the MCD at 
+origin and each end of the mission.  All information regarding patient information 
+must follow AFI 33-332, Air Force Privacy and Civil Liberties Program. 
+3.6.2.12.  Ensure adequate medication supply for patient. 
+3.6.2.13.  Brief patients scheduled for departure to include: 
+3.6.2.13.1.  Potential for unscheduled overnight stops. 
+3.6.2.13.2.  Possession of authorized/unauthorized articles. 
+3.6.2.13.3.  Use of restrooms. 
+3.6.2.13.4.  Hand carrying luggage, X-rays, medical records and medications. 
+3.6.2.13.5.  Sequence and order of patient loading. 
+3.6.2.13.6.  Procedure and patient requirements during transport to aircraft. 
+3.6.2.14.  Patient Handoff.  When preparing patients for departure, the nurse will 
+include the I-SBAR (Identify, Situation, Background, Assessment, and 
+Recommendation/Request) format for all outpatient handoffs (Attachment 16) and all 
+inpatients handoffs (Attachment 17).  These forms are available in TRAC2ES under 
+“Documents”. 
+3.6.2.15.  Patient Death in the ERPSS.  If a patient death occurs in the ERPSS, the 
+individual remains will be transported to the Host MTF with all records and appropriate 
+documentation, i.e. “Death Certificate.”  If at an ERPSS-10, individual remains are to be 
+transported back to the providing user service facility IAW AFI 48-307. 
+3.6.2.15.1.  Fill out a DD Form 2852 to report all deaths within the ERC system into 
+the Patient Safety Reporting System (TRAC2ES/PMQ-R). 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+37 
+ 
+ 
+3.6.3.  Conducting Anti-Hijacking Procedures and Security. 
+3.6.3.1.  Baggage Restrictions. 
+3.6.3.1.1.  Inform all passengers regarding baggage restrictions and prohibitions, to 
+include the current FAA provisions on liquids, and the general prohibition on bringing 
+weapons and explosives onboard the aircraft. 
+3.6.3.1.2.  IAW DoD 1415.13R, Air Transport Eligibility, Patients are authorized 70 
+pounds of personal baggage.  This 70 pound limit does not include issue items (i.e. 
+body armor or mobility bags). 
+ 
+3.6.3.1.3.  Patients being moved via small aircraft (i.e. C-21) are only authorized one 
+small bag IAW AFI 11-2AE Vol. 3.  Additional baggage must be sent via other 
+methods to the patient’s final destination. 
+3.7.  Redeployment. 
+3.7.1.  Redeployment or Notification.  The CCDR’s redeployment order authorizes the 
+redeployment of medical resources.  ERPSS team chief needs to ensure the command element 
+Aeromedical Evacuation Squadron (AES/CC and MDG/CC) are aware of the orders, and are 
+involved in the coordination to ensure PM capability, as required for operations.  The ERPSS 
+team chief will actively participate in redeployment planning, including preparing time-
+phased reduction in medical services consistent with the deactivation of the deployed location.  
+Associated activities will include inventory/re-pack of deployed medical assets, transportation 
+planning, transition planning (if required) and preparation of debriefs and after-action reports. 
+3.7.2.  Redeployment to Home Station.  Team members will inventory and re-pack all assets 
+according to the pack-out list.  At least one ERPSS staff member must be Hazardous 
+Materials (HAZMET)/Hazardous Materials Declaration (HAZDEC) certified and one person 
+should be load plan certified.  Familiarity with pallet building and airlift procedures are 
+significant for shipping equipment.  Any hazardous items will require appropriate 
+documentation.  All personal gear will be packed in personal bags only. 
+3.7.3.  Forward Deployment.  Personnel assigned to the ERPSS-10 will either redeploy or role 
+into an ERPSS-50 if directed.  
+  
+ 
+38 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+Chapter 4 
+COMMAND AND CONTROL (C2)  
+4.1.  HQ AMC/SG Responsibility.  HQ AMC/SG maintains MEFPAK responsibility and has 
+overall responsibility for ERPSS policy.  As the UTC MEFPAK Responsible Agency (MRA), 
+HQ AMC/SG will designate medical units to support ERPSS teams.  HQ AMC/SG is also 
+responsible for the UTC coordination and validation process.  The AEF Center will source units 
+to support ERPSS deployment taskings. 
+4.1.1.  AMC.  Inter-Theater AE forces normally remain under the Operational Control 
+(OPCON) of United States Transportation Command (USTRANSCOM), delegated downward 
+within AMC to 18th Air Force (18 AF) with planning, tasking and execution accomplished by 
+the 618th Air and Space Operations Center (Tanker Airlift Control Center) (618 AOC 
+(TACC)).  Intra-Theater AE forces are normally under the OPCON of the CCDR, delegated 
+downward to the Theater Air Operations Center (AOC) with planning, tasking and execution 
+accomplished by the AE Control Team (AECT) and AOC. 
+4.1.2.  Pilot Unit.  The pilot unit is responsible for assisting in the development of and 
+maintenance of standard manpower and logistics detail for all ERPSS UTCs IAW AFI 10-401 
+Chapter 5, Air Force Operations Planning and Execution.  The goal is a uniform and capable 
+package for all ERPSS teams. 
+4.1.3.  MDG/CC.  For Medical Groups with the assigned ERPSS teams, the MDG/CCs and 
+affiliated  Air Reserve Component (ARC) units are required to maintain the approved 
+AFTTPs to ensure team members are appointed, trained, and ready for deployment.  The 
+MDG/CC is required to provide support to ensure successful training, predeployment 
+planning, deployment and redeployment, and after action reporting. 
+4.1.4.  MTF Medical Readiness.  The Medical Readiness office staff is responsible for 
+identifying personnel shortages and reporting readiness of UTCs assigned as directed in          
+AFI 41-106, Medical Readiness Program Management. 
+4.2.  Command and Control (C2). 
+4.2.1.  C2 is the exercise of authority and direction by a properly designated commander over 
+assigned and attached forces in the accomplishment of the mission.  For definitive guidance 
+reference AFI 13-103, AFFOR Staff Operations, Readiness and Structures.  C2 functions are 
+performed through an arrangement of personnel, equipment, communications, facilities, and 
+procedures employed by a commander in planning, directing, coordinating, and controlling 
+forces and operations for mission accomplishment. 
+4.3.  Joint Force Structure. 
+4.3.1.  Unified Command Surgeon.  The Unified Command Surgeon establishes theater 
+medical policy, theater evacuation policy, requirements, and medical Concepts of Operations 
+(CONOPs) and communicates these matters through the AFFOR Surgeon to the deployed 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+39 
+ 
+ 
+medical units.  The chain of command for expeditionary medical units is through the Line of 
+the Air Force (LAF). 
+4.3.2.  Commander Air Force Forces (COMAFFOR).  The COMAFFOR provides unity of 
+command.   To a Joint Force Commander, the COMAFFOR provides a single face for all Air 
+Force issues.  Within the Air Force Servie component, the COMAFFOR is the single 
+commander who conveys commander’s intent and is responsible for operating and supporting 
+all Air Force forces assigned or attached to that joint force. 
+4.3.2.1.  A medical officer is a member of the COMAFFOR special staff and is the 
+director of AF health services operations.  This medical officer may be known as the 
+AFFOR Surgeon and is responsible for overall health resources management and 
+provides information on health surveillance and risk assessments, sustainment, and other 
+force health protection issues.  In coordination and planning for overall health service 
+support, the AFFOR Surgeon will engage with both LAF and SG assets to ensure 
+integrated PM and staging processes.  The AFFOR Surgeon does not exercise command 
+authority over deployed medical assets but provides a planning, coordinating, and 
+oversight role. 
+4.3.3.  Multinational or United Nations (UN) Operations C2.  C2 of medical operations in 
+multinational or UN operations are defined in the warning, execution, and operations orders.  
+Service component planners establish medical requirements and relay them through existing 
+tasking messages/mechanisms to MAJCOMs and wings. 
+4.4.  C2 Relationships. 
+4.4.1.  Aeromedical Evacuation Liaison Team (AELT).  If assigned, the AELT works with the 
+user MTF (AF Expeditionary Medical Support, Army Combat Support Hospital or Navy Fleet 
+Hospital for example) to facilitate patient staging and assists/inputs patient information into a 
+PMR via TRAC2ES in preparation for PM.  The AELT directs patient on-load activities (in 
+the absence of an AE Operations Team), provides AE related support services, and interfaces 
+with all local and host activities that provide ancillary AE mission support services.  The 
+AELT possesses a vehicle and can move with the supported MTF to a new operating location.   
+4.4.2.  Air Mobility Division (AMD).  The Theater AMD generates the aircraft and aviation 
+crews in preparation for PM. 
+4.4.3.  Patient Movement Requirement Center (PMRC).  Provides clinical and administrative 
+validation for PM via the VFS.  They coordinate PM by matching patients to the most 
+effective AE mission. 
+4.4.4.  Aeromedical Evacuation Operations Team (AEOT).  Provides management and 
+direction of assigned, attached and transiting AE crews, CCATTs and associated equipment.  
+The team works directly with the AOC and PMRC to coordinate AE missions and ensure on-
+time launch and recovery.  
+ 
+40 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+4.4.4.1.  The ERPSS will communicate with the AEOT to coordinate PM. 
+4.4.5.  ERPSS-10/ERPSS-P. 
+4.4.5.1.  When the ERPSS-10 and  ERPSS-P are deployed, they may fall under the 
+OPCON and Tactical Control (TACON) of the Joint Force Air Component Commander 
+(JFACC)/Commander Air Force Forces (COMAFFOR) exercised through the Director of 
+Mobility Forces-Air (DIRMOBFOR-AIR) and may be assigned to a deployed AE 
+element.  During exercise participation, OPCON/TACON will be outlined in the 
+EXPORD or OPORD describing exercise command and control. 
+4.4.5.2.  When deployed in support of AMC AE operations, the ERPPS-10 and ERPSS-P, 
+fall under the OPCON or TACON of the 618 AOC (TACC).   
+4.4.6.  ERPSS-50 through ERPSS-100. 
+4.4.6.1.  The ERPSS-50/ERPSS-100 UTCs will fall under TACON of the Air 
+Expeditionary Wing (AEW)/Air Expeditionary Group (AEG) commander. 
+4.4.6.2.  If there is no AF presence, the UTCs may align under TACON of the local MTF 
+IAW the OPORD, which defines specific command relationships.  OPCON remains with 
+the theater COMAFFOR.  These UTCs may be designated a squadron under the 
+expeditionary or fixed MDG/CC. 
+4.4.6.3.  If the UTCs are located on other than AF locations, the UTCs will be under the 
+OPCON of the AEW MDG/CC and TACON of host base commander unless otherwise 
+specified in the OPORD. 
+4.4.6.4.  When deployed to a location with a peacetime ERPSS, the ERPSS-50/ERPSS-
+100 UTCs may be merged with the peacetime assets and the commander will be 
+identified prior to deployment from the senior administrator, flight surgeon, and nurse, 
+with command and/or ERPSS-50/ERPSS-100 UTC experience.  If the assets are not 
+merged, the UTCs may become a squadron and will report to the host AF medical facility 
+commander. 
+ 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+41 
+ 
+ 
+Chapter 5 
+INTELLIGENCE, NATIONAL AGENCY AND SPACE SUPPORT 
+5.1.  Intelligence.  Accurate medical intelligence is critical to threat identification and 
+application of appropriate preventive medicine measures.  Prior to deployment, units, groups, 
+and/or individuals tasked to support an operation require deployment briefings IAW AFI 41-106, 
+and AFI 10-402, Mobilization Planning.  During the employment stage of an operation, ERPSS 
+personnel require periodic briefings for their deployed location and for areas transited while 
+conducting medical operations.  The AFFOR Surgeon is responsible to ensure periodic 
+medical/environmental intelligence updates are provided to all assigned units.  Wing and Group 
+commanders, in IAW with operational directives, coordinate communication of medical 
+intelligence information with other base agencies. 
+5.2.  National Agency.  The Defense Intelligence Agency (DIA) and the National Center for 
+Medical Intelligence (NCMI) https://www.intelink.gov/ncm, are primary sources for current 
+medical intelligence prior to deployment.  In the deployed environment, the Aerospace 
+Expeditionary Task Forces (ASETF)/AFFOR Surgeon is the primary source for dissemination of 
+theater/regional medical intelligence. 
+5.3.  Space Support.  Space-derived intelligence, weather updates, and troop movements are 
+examples of valuable information that are primarily acquired through base support 
+units/organizations.  Accurate medical intelligence is crucial to threat identification and 
+application of appropriate preventive medicine measures.  The AFFOR Surgeon is responsible 
+for ensuring assigned units receive periodic medical/environmental intelligence updates.  Space-
+based communication systems, linked with terrestrial C2 systems, give the theater surgeon and 
+deployed medical commander the ability to more effectively and efficiently direct, monitor, and 
+employ the deployed medical forces and resources. 
+ 
+ 
+42 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+Chapter 6 
+COMMUNICATIONS AND INFORMATION SYSTEM SUPPORT 
+6.1.  Communication Requirements.  The communication systems/equipment used must be 
+interoperable to optimize joint communications and frequency management operations. 
+Communication planners must coordinate frequency requirements through appropriate frequency 
+management channels (e.g. installation, MAJCOM, and theater) to ensure all radiating 
+equipment is spectrum certified and frequency supportable. 
+6.1.1.  Host nation coordination must be initiated before a full-scale deployment.  ERPSS 
+requires ECS for deployed NCC functionality, supplying networking core services (e.g. Wide 
+Area Network (WAN) network access, information protection, Network Operating System 
+(NOS) domain architecture, and Transmission Control Protocol/Internet Protocol (TCP/IP) 
+addressing).  
+6.2.  Air Force C4 Policy.  AFI 33-108, Compatibility, Interoperability, and Integration of 
+Command, Control, Communications, and Computer (C4) Systems, establishes guidance and 
+responsibilities to ensure compatibility, interoperability, and integration for new and modified 
+C4 systems, including automated information systems (AIS). 
+6.3.  Network Operations.  AFI 33-115, Air Force Information Technology (IT) Service 
+Management, identifies the responsibilities for training, equipping, and supporting AF 
+communications and information network users primarily through the use of Workgroup 
+Managers (WM), NCC and MAJCOM Network Operations and Security Centers (NOSC).  AF 
+network management adheres to the Defense Information Infrastructure Control Concept 
+(DIICC) consisting of areas of distributed responsibility at global, regional, and local levels. 
+6.4.  Information Assurance (IA) Policy.  The ERPSS personnel must understand and follow 
+IA procedures, to include Communications Security (COMSEC) and computer security 
+(COMPUSEC), IAW AFI 33-200, Information Assurance (IA) Management, and associated AF 
+IA guidance.  Deploying ERPSS personnel must have current AF IA certification. 
+6.5.  Communication Equipment.  The ERPSS deploys with organic computer hardware and 
+software.  While the ERPSS-10 does contain some limited self-sustaining communications, 
+longer-term and more robust systems support will be required from base and/or ECS 
+communication resources. 
+6.5.1.  Communication Personnel (FFQCR).  An FFQCR will be tasked in conjunction with 
+the ERPSS-10 to provide initial communication personnel support, set-up and initiate 
+communication between elements, process and track requests for AE, follow mission 
+progress, and maintain situational awareness. 
+6.5.2.  Satellite/Local Area Network (LAN) Connectivity.  Satellite Communication 
+(SATCOM) assets deploy with the ERPSS packages.  Though satellite connectivity is the 
+preferred connection, factors such as bandwidth availability and CCDR priorities may dictate 
+other than SATCOM usage.  Theater Deployable Communications (TDC) provides other 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+43 
+ 
+ 
+methods for theater communications.  Telemedicine, medical logistics support, video 
+transmission, and electronic mail require SATCOM capability when there is no LAN/WAN 
+connectivity or a TDC network available.  Satellite communications may be military or DOD 
+approved commercial systems.  Secondary communications links, such as LAN are obtained 
+upon arrival in theater (via ECS) depending on the maturity of the theater communications 
+infrastructure and the availability of commercial or military service provided circuits. 
+6.5.3.  Communication Systems. 
+6.5.3.1.  Laptops.  The ERPSS deploys with standard laptops containing the DOD 
+Standard Desktop Configuration (SDC) and Theater Medical Information Program 
+(TMIP)-AF software.  Both are capable of word processing, database management, store-
+forward telemedicine, tele-maintenance, message text formatting, graphics, and 
+LAN/WAN interface capability. 
+6.5.3.2.  Radio Systems.  The AE system uses organic Very High Frequency (VHF) and 
+SATCOM radio assets as a means of providing secure/non-secure communications 
+capability.  Radio equipment will be the AF current model and type with appropriate 
+encryption capability as supported by the CCDR.  This radio system is operationally 
+focused to manage intra-ERPSS communications and support flight line PM operations.  
+Communication requirements and frequency allocation issues need to be coordinated 
+prior to deployment.  The radio equipment is interoperable with a wide variety of DOD 
+and commercial radios.  Use of these radio sets in operations OCONUS, needs to be 
+approved through the appropriate theater leadership. 
+6.5.3.3.  Iridium Phones with secure sleeve.  Iridium phones are handheld satellite phones 
+that work anywhere in the world.  It is larger than a typical mobile phone, but still small 
+enough to carry in a backpack, is very simple to use, and provides secure/unsecure voice 
+telephone capabilities through satellites.  For secure communications, a secure sleeve 
+must be attached to the phone handset.  Each Unit will use their local Program Designator 
+Code (PDC) for the purchase and activation of Subscriber Identity Module (SIM) cards 
+for training and exercises. WRM SIM cards will not be used for unit training or exercises.  
+When iridium phones are deployed, the WRM SIM card will be activated using the 
+appropriate contingency operation consolidated PDC. 
+6.5.3.4.  Broadband Global Area Network (BGAN).  Portable and easy to setup the 
+BGAN is another satellite phone that uses satellites located around the earth for 
+worldwide telephone capabilities.  This system can also interface with the Secure 
+Terminal Equipment (STE) to provide secure communications.  Each Unit will use their 
+local Program Designator Code (PDC) for the purchase and activation of SIM cards for 
+training and exercises.  WRM SIM cards will not be used for unit training or exercises.  
+When BGAN phones are deployed, the WRM SIM card will be activated using the 
+appropriate contingency operation consolidated PDC. 
+44 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+6.5.3.4.1.  All applicable information for the Iridium and International 
+Marine/Maritime Satellite/(INMARSAT) can be found at the activation website:  
+https://www.disadirect.disa.mil/products/ASP/welcome.ASP 
+6.6.  Medical Reports and Communication.  ERPSS UTCs are required to provide a daily 
+SITREP and OPREP-3 when necessary.  All medical reports are submitted IAW AFI 10-206, 
+Chapter 4, Operational Reporting, specific Joint Task Force (JTF), and COMAFFOR guidance.  
+These reports are communicated to the AFFOR Surgeon, contributing MAJCOM Surgeons, and 
+the AF Surgeon General.  See Attachment 11 for SITREP and OPREP-3 Formats. 
+6.6.1.  SITREP.  SITREPs are completed by the deployed medical Team Chief (senior 
+medical officer) to provide daily medical input for inclusion in the deployed wing’s SITREP.  
+They are used to report the status of readiness of the element to the chain of command within 
+the theater.  All AE elements will provide SITREPs to the Aeromedical Evacuation Command 
+Cell (AECS) as directed, generally on a 24-hour basis, or when a major change in mission 
+capability occurs.  The reports are normally submitted no later than 0200Z, reflecting data 
+current as of 2359Z.  The AECS, then compiles the SITREPs and will provide daily status 
+report on the operational status of the AE System and PM mission data to Higher 
+Headquarters (HHQ) per AF directives. 
+6.6.2.  OPREP-3.  AF OPREP-3s are used to immediately notify HHQ of any significant event 
+or incident that rises to the level of DoD, CJCS, combatant command (CCMD), or Service 
+Level interests.  The Command Post will submit the applicable AF OPREP-3 regardless of 
+whether or not the event is being reported through other channels.  AF OPREP-3 reports do 
+not replace the requirement for more detailed reports such as the Commander's SITREP.    
+6.7.  Classification of Information.  Any classified information must be transmitted by secure 
+means:  i.e. SITREPs, site locations, and flight information.  
+ 6.7.1.  Physical Security.  Protect classified equipment and documents against compromise or 
+loss by using proper accounting and storage procedures.  Classified information that is not 
+under the personal control and observation of an authorized person is to be guarded or stored 
+in a General Services Administration (GSA) approved field safe.  One or two-drawer light 
+containers must be securely fastened to the structure or under constant surveillance to prevent 
+theft.  If the need arises for equipment/COMSEC destruction, see Attachment 15, Radio 
+Equipment Destruction. 
+6.7.2.  COMSEC Re-supply.  The AE Communications Team will deploy with the current 
+months COMSEC material plus 90 day supply.  The AE Communications Team will have to 
+establish a COMSEC account within the AOR if the operation will require secure 
+communications beyond 90 days. 
+6.8.  Message Precedence.  General Messages are all other message traffic with the precedence 
+being designated by the message originator.  All message traffic transmitted via High Frequency 
+(HF) communications is normally assigned precedence.  It serves as a guide to communication 
+personnel to indicate the order of handling and notifies the addressee of the significance or 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+45 
+ 
+ 
+urgency of the content of the message.  All messages are sent as soon as possible; however, the 
+one with the higher precedence is sent first. 
+6.8.1.  FLASH.  This precedence is reserved for alerts, warnings, and other emergency actions 
+having immediate bearing on national, command, or area security.  FLASH messages are 
+hand carried, processed, transmitted, and delivered immediately ahead of all other messages. 
+6.8.2.  Immediate.  This precedence is reserved for vital communication having immediate 
+operational effect on tactical operations; communications directly concerning safety or rescue 
+operations; and communications affecting the intelligence community operational role. 
+6.8.3.  Priority.  This precedence is reserved for calls that require prompt completion for 
+national defense and security, the successful conduct of war, or to safeguard life or property.  
+Normally, priority is the highest precedence that may be assigned to administrative matters for 
+which speed of handling is of vital importance.  Maximum delivery time is 24 hours. 
+6.8.4.  Routine.  This precedence is reserved for all official communications to which all of 
+the above listed precedence does not apply.  Routine messages are handled in the order 
+received and after all messages of a higher precedence have been sent.  Maximum delivery 
+time is 72 hours. 
+6.9.  Software Applications.   
+6.9.1.  TMIP-AF.  TMIP-AF provides the medical information systems needed to support 
+health care delivery, medical logistics, and medical C2 functions in theater. 
+Table 6.1.  TMIP-AF Applications. 
+APPLICATION 
+PURPOSE 
+Armed Forces Health Longitudinal 
+Technology Application – Theater 
+(AHLTA-T)  
+Electronic health record (EHR) for theater 
+environments  
+Note:  AHLTA-T is based on the EHR system used 
+at MTFs in CONUS and sustaining bases.  
+Defense Medical Logistics Standard 
+Support (DMLSS)  
+Medical logistics management 
+Defense Occupational and 
+Environmental Health Readiness System 
+(DOEHRS)  
+Occupational and Environmental Health (OEH) 
+exposure tracking and surveillance  
+Joint Medical Workstation (JMeWS)  
+Medical C2  
+46 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+Medical Situational Awareness in the 
+Theater (MSAT)  
+Medical surveillance  
+Patient Movement Items Tracking 
+System (PMITS)  
+AE medical equipment tracking  
+Theater Medical Data Store (TMDS)  
+ 
+Theater medical record database  
+Note:  AHLTA-T uploads medical data to TMDS 
+when network communications are available. 
+TMDS updates the central Clinical Data Repository 
+(CDR) in CONUS so that records can be retrieved 
+electronically at the member’s home MTF.  
+TMIP Composite Health Care System 
+(CHCS) Cache (TC2)  
+Ancillary services 
+TRAC2ES  
+Medical regulating and PM tracking 
+ 
+6.10.  Help Desk Support.  The TMIP-AF help desk, Maxwell AFB, Gunter Annex, AL 
+provides configuration control, technical, and help-desk support for AFMS UTCs.  The help desk 
+is available 24/7 and can be reached at the following telephone numbers and email address:  
+DSN: 312-596-5771 - options 1, 1, 3 
+Toll Free: 877-596-5771 - options 1, 1, 3 
+Commercial: 334-416-5771 - options 1, 1, 3  
+Email: team1@gunter.af.mil 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+47 
+ 
+ 
+Chapter 7 
+LINE INTEGRATION AND INTEROPERABILITY 
+7.1.  Integration and Interoperability With Other Systems.  Integration and interoperability 
+of deployed assets in an AOR are critical for successful medical operations.  Potential ERPSS 
+deployments include the full spectrum of deployed scenarios.  This requires that medical 
+integration and interoperability occur with line elements of an AEF, components of the ERCC, 
+joint medical counterparts, Special Operations Forces (SOF), SOF medical components, and 
+other federal and civilian support systems.  In some instances, theater planners may request an 
+ERPSS to support Army or SOF bed down locations not associated with typical AEF or ECS 
+infrastructure.  Coordinating logistics, integrating with other organic medical assets, and 
+understanding/clarifying command and control are essential to support a seamless casualty care 
+continuum. 
+7.2.  ECS Requirements.  Integration with the line counterparts is particularly critical for ECS 
+and PM.  ECS requirements include, but are not limited to, messing and other consumable 
+materials, water, ice, fuels, billeting, latrines, showers, laundry, mortuary affairs, public affairs, 
+chaplain, linguist, waste management, transportation (to include ambulance-type vehicles), 
+vehicle maintenance support, vehicle decontamination, equipment maintenance, general supplies, 
+contracting, information and communications systems support and maintenance, personnel 
+decontamination and security.  This is applicable to ERPSS support for the entire spectrum of 
+AEF operations.  
+ 
+48 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+Chapter 8 
+SECURITY AND FORCE PROTECTION 
+8.1.  Security.  Medical personnel and equipment are non-combatant assets as defined by 
+Geneva Conventions and the Law of Armed Conflict (LOAC).  Medical personnel are authorized 
+arms IAW AFI 31-117.  Security within the immediate area for patients and personnel resources 
+at each deployed medical site is a medical responsibility. 
+8.2.  Operations.  In most deployment scenarios the ERPSS deploys to secure locations.  The 
+DFC has overall responsibility for security operations, including physical security, and force 
+protection issues.  Current threat assessments provided by the combatant commander and local 
+threat conditions established by the AEW commander (or equivalent) dictate all local security 
+measures.  ERPSS personnel are required to provide site security within the immediate area of 
+their facilities.  Protection of ERPSS patients and personnel is the responsibility of the ERPSS 
+Team Chief. 
+8.3.  Physical Security.  Medical assets (personnel and WRM assemblages) are protected in 
+accordance with AFI 31-101, Integrated Defense.  ERPSS personnel are responsible for 
+following all personal protective measures as outlined in AFI 31-101, AOR security briefings, 
+established force protection requirements, and other guidance.  The DFC and security forces 
+provide technical advice and recommendations on physical plant protection issues for the 
+ERPSS.  The ERPSS medical control center must maintain direct radio contact with the 
+AEW/AEG Expeditionary Operations Center (EOC) and the Base Defense Operations Center 
+(BDOC). 
+8.3.1.  The ERPSS Team Chief is responsible for ensuring force protection measures are taken 
+to protect his/her unit and the Team Chief may request support personnel from security forces, 
+depending upon threat and AOR requirements.  The DFC will provide security for ERPSS 
+only if he/she deems it necessary as part of the overall base defense plan.  The security at 
+deployed locations is specifically sized.  If the threat changes, the DFC may appoint an 
+augmented security detail to provide the ERPSS with the required personnel for force 
+protection, entry control points and sentries. 
+8.4.  OPSEC.  OPSEC requirements will be adhered to IAW AFI 10-701, Operations Security.  
+To prevent an adversary from gaining a military advantage, ERPSS staff must control mission 
+critical information from inadvertent disclosure.  
+8.5.  COMPUSEC.  COMPUSEC requirements will be adhered to IAW AFI 33-201V2, 
+Communication Security (COMSEC) User Requirements, and AFI 33-332, The Air Force 
+Privacy and Civil Liberties Program.  ERPSS staff will protect systems against sabotage, 
+tampering, denial of service, espionage, fraud, misappropriation, misuse, or release to 
+unauthorized persons.  
+8.6.  Security of Weapons and Ammunition.  All members shall comply with AFI 31-207, and 
+local procedures when securing weapons and ammunition.  To minimize the threat to patients 
+and staff, a weapons clearing barrel should be placed outside the main entrance to the ERPSS 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+49 
+ 
+ 
+when threats require personnel to carry loaded weapons.  Personnel, other than Security Forces 
+responding to a request for assistance, should not be allowed to enter the ERPSS with a loaded 
+weapon.  
+8.6.1.  Staff Weapons.  ERPSS personnel may be issued weapons/ammunition and authorized 
+by the ERPSS facility commander at the direction of the AEW/AEG commander (or 
+equivalent) and IAW the Law of Armed Conflict and the Geneva Conventions to carry these 
+weapons during the performance of their duties.  Weapons and ammunition need to be 
+secured. 
+8.6.2.  Patient Weapons.  Normally, patient weapons/ammunition arriving at the ERPSS 
+facility will be transferred immediately to a member of the patient’s unit.  When not possible, 
+the ERPSS may temporarily store the weapons until the patient’s unit or AEW/AEG armory 
+can accept responsibility.  Properly clear all weapons before securing them. 
+50 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+Chapter 9 
+ERPSS TRAINING 
+9.1.  Education Programs.  Education programs improve Airman’s skills and knowledge across 
+the full range of military operations.  Unit training requirements will be maintained IAW  
+AFI 41-106.  The staging mission is a unique role integral to the successful movement of 
+patients.  Corporate knowledge and expertise of PM issues are the responsibility of the team 
+leader.  Smaller personnel packages supporting expeditionary operations will require personnel 
+to perform a variety of functions (multi-tasking), which may not be in their specific AFSC 
+responsibilities (i.e. Readiness Skill Verifications [RSVs] or Career Field Education and 
+Training Plans (CFETP)).  Accordingly, training shall emphasize a breadth of talents and skills. 
+9.2.  Training Environment.  Training should be conducted in an environment that permits 
+assigned personnel to exercise with the actual equipment and supplies of the ERPSS UTCs.  
+Educating and training as a UTC permits personnel to learn and support the duties of other team 
+members.  Some sustainment training and RSVs may be completed at operational exercises, 
+provided the exercise meets the criteria.  Readiness training will be conducted in conjunction 
+with sponsored or local training exercises, or in conjunction with operational deployments.  
+9.3.  Cross-Functionality.  Training to enhance multi/cross-functionality between AFSCs is 
+encouraged as it provides maximum capability and ensures all assigned personnel can function 
+throughout the ERPSS, regardless of AFSC.  Joint training is encouraged to foster relationships 
+and enhance capabilities of each service.  When the opportunity exists, it is highly beneficial for 
+all units to coordinate with co-located AE Squadrons to accomplish ERPSS UTC training.  This 
+cooperative training will serve to enhance team members overall ERCC knowledge, enhance 
+tasking and patient reporting skills, and will provide an opportunity for the AELT/AE 
+Communications Team and AEOT members to train with the ERPSS UTCs.  Familiarity with 
+CCATT and AE operations is also essential. 
+9.4.  Home Station Training Responsibility.  At home station, the MDG/CC is responsible to 
+ensure appropriate time is allowed to conduct and complete specific UTC training and that it is 
+properly documented (maintained within the unit Medical Readiness Office).  Personnel assigned 
+to the ERPSS should be fully trained and ready to deploy prior to entering their deployment 
+“band” or continuously ready for those assigned as an “enabler.”  ERPSS personnel should also 
+be aware that they may be performing strenuous work in an austere environment, so maintaining 
+physical fitness is a necessity.  The Medical Readiness Officer (MRO) is responsible for 
+reporting the training statistics to their parent MAJCOM using the MAJCOM prescribed format. 
+9.5.  Training Categories.  Medical Readiness training is grouped as Category I, II or III.  
+Medical personnel must complete all required Category I and II training upon initial assignment 
+to a UTC, before entering their deployment vulnerability period and ensure completed training 
+remains current for the duration of the vulnerability period or associated deployment.  UTC team 
+integrity should be maintained to the maximum extent possible during all training forums, that is, 
+medics who deploy together will have trained together prior to deploying. 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+51 
+ 
+ 
+9.5.1.  Category I.  Individual training is required for all medical personnel, and in some cases 
+assigned non-medical personnel, civilians, and contractors, regardless of their deployment 
+status. 
+9.5.1.1.  Readiness Skills Verification Program (RSVP).  Training must be completed 
+prior to deployment.  Exceptions to this policy must be approved by the specialty 
+consultant or Career Field Manager.  RSVP checklists can be accessed on the Air Force 
+Medical Service Knowledge Exchange (AFMS Kx) at: https://kx2.afms.mil/kj/kx9/RSVP 
+9.5.1.2.  Personnel must complete RSVP training for their Career Air Force Specialty 
+Code (CAFSC) for enlisted and Duty Air Force Specialty Code (DAFSC) for officers.  
+9.5.1.3.  Personnel who are utilized as authorized substitutes on a standard UTC must 
+complete RSVP training for the AFSC they are filling on the UTC, as well as their own.  
+Exceptions to this policy must be approved by the specialty consultants or Career Field 
+Managers (CFM) of both AFSCs. 
+9.5.2.  Category II:  Training required for medical personnel assigned to standard deployable 
+UTCs. 
+9.5.2.1.  Initial Formal Training.  UTC formal training is to be accomplished in 
+accordance with AFI 41-106, unless otherwise directed by the MRA or higher authority.  
+Personnel assigned to the ERPSS UTCs:  FFEPS, FFPPS, FFFPS, and FFHPS will 
+complete the Aeromedical Evacuation and Patient Staging (AEPS) formal course at 
+Camp Bullis, TX and complete the Aeromedical Evacuation and Patient Staging (AEPS) 
+Computer Based Training (CBT), located on MedLearn, through the ADLS Gateway 
+within 12 months of assignment.  These courses are designed to ensure ERPSS personnel 
+are proficient in the ERPSS UTC Mission Essential Tasks (METs).  Once initial training 
+is complete, ERPSS personnel will remain on that UTC for a minimum of 24 months or 
+until they permanently change stations (PCS).  The unit commander may waive the 24-
+month assignment requirement.  The waiver will identify why the individual was 
+removed from the position and when the 24-month period is completed.  The waiver will 
+be maintained in the MRO until the end of the 24-month period.  This requirement for a 
+24-month UTC waiver is not applicable to the ARC.  ARC sustainment training 
+requirements are every 48 months. 
+9.5.2.1.1.  Recurring Formal/Sustainment Training.  FFEPS and FFPPS personnel 
+will attend sustainment training every 24 months and personnel assigned to all other 
+ERPSS UTCs (FFFPS/FFHPS) will, after initial training, attend sustainment training 
+every 48 months.  This will occur by either participation in MET-driven exercises, 
+local exercises, and joint exercises approved by a Readiness Training Oversight 
+Committee (RTOC) or MRA (HQ AMC/SG), or they will go back to the formal 
+AEPS course.  Contact the HQ AMC/SGX MEFPAK branch for information on 
+MRA approved sustainment training exercises.  Personnel assigned to fixed ERPSS 
+facilities will complete AEPS course one time, within 12 months of assignment, 
+52 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+unless assigned to an ERPSS UTC that requires sustainment training as described 
+above. 
+9.5.2.2.  Miscellaneous/Mandatory Deployment Training. 
+9.5.2.2.1.  Passport.  All members, upon assignment to the ERPSS-10/ERPSS-P 
+enabler teams, will obtain official military passports.  The US State Department no 
+longer provides “blanket” approval waivers for official passports, thus team members 
+will need to identify one of the following countries, all of which require official 
+passports, with an estimated deployment date six months from the date of assignment 
+to the Enabler UTC: Azerbaijan, United Arab Emirates, Egypt, Libya, Saudi Arabia, 
+Jordan, Iraq, Uganda, Burkina Faso, Thailand, Honduras, Mali or Oman. Members 
+assigned to Enabler teams are required to have official passports prior to 
+employment/deployment.       
+9.5.2.2.2.  Secret Internet Protocol Router Network (SIPRNET) Access/Account.  The 
+ERPSS team chief will identify the team members who will be required to establish 
+current SIPRNET accounts and receive required training through their MRO per 
+AMCI 10-403, Air Mobility Command (AMC) Force Deployment. 
+9.5.3. Category III.  This training consists of unit level training. 
+9.5.3.1.  Sustainment Training.  ERPSS personnel training will cover the entire spectrum 
+of deployed PM operations and all phases of deployment, employment, and 
+redeployment.  Specific ERPSS training will be incorporated into regular UTC 
+sustainment training at the unit level. 
+9.5.3.2.  Required Quarterly/Annual Training Topics.  Quarterly training of ERPSS 
+operations is required to include training identified below.  The team chief will develop 
+an annual, team specific training agenda to ensure team members are fully trained.  
+Participation in a MAJCOM approved exercise can be utilized to meet this quarterly 
+training requirement.  
+Units with ERPSS personnel and equipment UTCs will ensure an operational test of the 
+associated equipment allowance standards are completed annually (e.g. pack equipment 
+into High Mobility Multipurpose Wheeled Vehicles( HMMWVs), drive HMMWVs to 
+on-base location, unpack/set-up/test all equipment, tear-down/repack equipment into 
+HMMWVs, inventory IAW AFI 41-201, and return allowance standards to storage. 
+9.5.3.2.1.  Pallet Build-up. 
+9.5.3.2.2.  Hazardous Material/ Hazardous Materials Declaration 
+(HAZMAT/HAZDEC).  Each unit should have a currently certified hazardous cargo 
+courier trained to deploy with each ERPSS increment. 
+9.5.3.2.3.  Vehicles.  All personnel assigned to an ERPSS are required to have a 
+government driver’s license with Ambulance Bus (AMBUS), HMMWV, and truck 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+53 
+ 
+ 
+cargo 5-ton capability.  Note:  For bases that do not have an AMBUS, training on the 
+44-PAX vehicle will meet this requirement as this vehicle can provide the same 
+familiarization with regard to handling, minus the seating configuration.  For the 
+ERPSS-P, ERPSS-50 and ERPSS-100 UTCs, any AF medic with their own 
+government issued driver’s license, officer or enlisted, can train for licensure.  Each 
+ERPSS module will contain multiple qualified drivers to provide 24/7 coverage at the 
+deployed location. 
+9.5.3.2.4.  Required training areas: The ERPSS Team Chief will designate team 
+members to be trained annually in the following areas: 
+9.5.3.2.4.1.  Forklift operation. 
+9.5.3.2.4.2.  Generators identified on the ERPSS Allowance Standards. 
+9.5.3.2.4.3.  Providing Oxygen Support.  
+9.5.3.2.4.4.  Vehicle Pack-out. 
+9.5.3.2.4.5.  Communication Equipment Operation (overview/awareness). 
+9.5.3.2.4.6.  Map/Compass/GPS training. 
+9.5.3.2.4.7.  Heaters identified on the ERPSS Allowance Standards.  
+9.5.3.2.4.8.  Tent Erection and Site Camouflage. 
+9.5.3.2.4.9.  Security and terrorism response training. 
+9.5.3.2.5.  Weapons Training.  All medical personnel are required to receive weapons 
+training.  Weapons qualification and currency will be annotated on AF Form 522, 
+USAF Firearms Qualification.  Category B personnel are those who would not 
+ordinarily be issued a weapon in peacetime operations, but may be issued a weapon 
+for designated hostile areas.  All assigned FFEPS team members are required to be 
+dual qualified in both M-16/M-4 and M-9.  Those personnel assigned to the UTC 
+FFEPS/FFPPS as “enablers”, are required to be current at all times.  
+9.5.3.2.5.1.  Weapons training requirements are outlined in AFI 31-117 and AFI 
+41-106.  The theater Combatant Commander may levy additional requirements, 
+which are generally specified in the operation’s Execution Order (EXORD) or 
+reporting instructions.  See the Weapons and Munitions Forecasting Table for 
+AFMS UTCs on the AFMS Medical Readiness site for more information.  
+Therefore, maximum weapons training for personnel assigned to standard UTCs 
+is highly encouraged. 
+9.5.3.2.5.2.  At least two personnel assigned to each ERPSS UTC are needed to 
+qualify as a weapons courier for each ERPSS UTC.  Units will coordinate with 
+54 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+their local Combat Arms personnel for additional weapons qualifications 
+requirements for personnel on alternate deployment UTC positions.  Failure to 
+qualify does not automatically remove an individual from deployment status.  All 
+medical personnel who qualify may be issued a weapon. 
+9.5.3.3.  Specialized Training.  Personnel may be identified to accomplish the following 
+training as applicable; Advanced Trauma/Critical Care Clinical, TRANSCOM Regulating 
+and Command & Control Evacuation System (TRAC2ES), Theater Medical Information 
+Program (TMIP), Aeromedical Evacuation Electronic Health Record (EHR), and/or 
+Armed Forces Health Longitudinal Technology Application – Theater (AHLTA-T). 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+55 
+ 
+ 
+Chapter 10 
+LOGISTICS 
+10.1.  Medical Re-Supply.  The ERPSS-10 deploys with an initial seven day supply and the 
+ERPSS-50 and ERPSS-100 a 30-day supply of expendable items.  Expeditionary Medical 
+Logistics provides timely re-supply of ordered items to deployed medical units.  Upon 
+deployment notification, medical logistics personnel should contact the Air Force Medical 
+Logistics Operations Center (AFMLOC) to receive re-supply guidance for specific 
+destination/location at DSN (312) 343-4172/2883/4294.  The Air Force expeditionary medical 
+logistics reachback program provides timely, single point re-supply of ordered medical items to 
+initally deployed medical unit until the Theater Lead Medical Materiel (TLAMM) is operational.  
+Interim to TLAMM support,  deployed units will place orders through the Operations Group to 
+AFMOA/SGALW at Port San Antonio, Texas.  AFMOA/SGALW receives orders from 
+deployed units and takes necessary actions to ensure 100% of all orders are transmitted to 
+vendors/depots, are immediately purchased, packed, marked, and shipped so that the materiel is 
+received by the deployed unit.  Once the theater has sustained operations, the TLAMM system 
+will become the source for all joint medical supply needs.  Fixed ERPSS’s will be supported by 
+the base MTF Medical Logisitics Account.  For further guidance, refer to AFTTP 3-42.8, 
+Expeditionary Medical Logistics (EML) System.  
+10.1.1.  Re-supply UTCs.  The ERPSS has two re-supply UTCs (a) FFPS8, AS 904K, which 
+provides 15 day re-supply to the ERPSS-10 and (b) FFPS3, AS 904H, which can be used to 
+re-supply the ERPSS-50.  Additional FFPS3 UTCs can be tasked to provide re-supply for 
+ERPSS 100 and 200 bed facilities. 
+10.2.  Medical Equipment. 
+10.2.1.  Maintenance/Repair.  A Biomedical Equipment Technician does not become a part of 
+the ERPSS until the  50-bed stage.  Medical Equipment Maintenance or Repair may be 
+coordinated with the EMEDS/AFTH/host MTF.  
+10.2.2.  Patient Movement Items.  HQ AMC/SG is the MRA for the Global PMI Program. 
+AMC/SG will provide funding, management direction and oversight in support of PMI 
+Centers, PMI operational support and training platforms, and will develop and maintain the 
+PMI CONOPS.  All Medical personnel must be familiar with the many aspects of the theater’s 
+PMI program, to include obtaining, storing, maintenance, tracking, and recycling practices of 
+the PMI commodity.  The PMI Tracking System (PMITS) is the Joint tool for asset visibility 
+and essential for timely AE equipment recycle support to prevent degradation of forward 
+element medical capability.  Personnel must work with the AE community in tracking assets 
+for optimal utilization.  Guidance for PMI is located in AFI 41-209, Medical Logistics 
+Support. 
+10.2.2.1.  All personnel working in PMI Centers, theater PMI Cell, and AE units will 
+scan all PMI equipment in their area of responsibility as READY/OUT/QA as applicable.  
+PMI Equipment must be scanned each time it moves or changes category. 
+56 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+10.2.2.2.  Personnel with questions regarding the PMI program should contact HQ 
+AMC/SGXM at 1-877-286-1931 / DSN: (312) 779-6952 or email hqamcpmi@us.af.mil. 
+10.3.  ECS Supported Capabilities (see Attachment 5).  Support services such as billeting, 
+food service, sewage and waste disposal, potable water, power, transportation and vehicle 
+maintenance will be provided by ECS to support the ERPSS needs. 
+10.3.1.  Non-Medical Equipment Maintenance.  Base Civil Engineering (CE) is responsible 
+for major maintenance of equipment (e.g., generators and Heating, Ventilation and Air 
+Conditioning (HVAC) systems).  Support will be provided using Basic Expeditionary Airfield 
+Resources (BEAR) assets or similar components. 
+10.3.2.  Electrical Power.  Deployed base electrical power systems provide prime and backup 
+power for the ERPSS facilities and equipment.  Initial support will be provided using power 
+generators.  High voltage primary power will be provided once installed, and the tactical 
+generators allocated for emergency backup power.  Ground power equipment specialists will 
+be provided to connect Power Distribution Panels (PDPs) to commercial or bare base power. 
+10.3.3.  Fuel.  Ground fuels support will normally be obtained on a contract basis.  Fuels for 
+the ERPSS vehicles, generators, etc., will be included with other base requirements. 
+10.3.4.  Medical Gases/Oxygen.  Refill of oxygen storage systems will be part of ECS 
+requirements.  This can also be accomplished by utilizing the EMEDS, Expeditionary 
+Deployable Oxygen Containment System (EDOCS), Mobile Oxygen Storage Tank (MOST), 
+or the deployable oxygen package (FF0X2).  For staging facilities that are over 100 beds, 
+recommend adding a dedicated FF0X2 for additional oxygen refill capability. 
+10.3.5.  Potable Water.  Potable water must be readily available either as a secure piped 
+supply, water buffalo, or bladder.  Since the ERPSS does not have its own Bioenvironmental 
+Engineer, water testing and guarantee of a constant uncontaminated supply of water needs to 
+be assured by the host facility IAW AF standards for initial and ongoing water 
+testing/verification. 
+10.3.6.  Sanitary Sewer.  Sewer and toilet facilities need to be provided either as part of a 
+building of opportunity, or as serviced port-a-potties for patients; control is essential. 
+10.3.7.  Communications Infrastructure.  Communications with the host facility and PMRCs 
+are crucial.  Radio or land-line (such as telephone or field phone) may be used, but is required 
+to be reliable and secure as the CCDR mandates. 
+ 
+ 
+ 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+57 
+ 
+ 
+10.4.  Facility Requirements. 
+10.4.1.  Physical Location.  The location of an ERPSS should be on or very near the flightline, 
+especially in a contingency.  If located adjacent to the flightline, planners have to take prop 
+wash into consideration.  Operational requirements for airfield storage, command space, 
+maintenance, supply, etc. might force the location of an ERPSS away from the airstrip; 
+however, the distance from the flight line will directly and proportionally affect requirements 
+for personnel, vehicles, and time required for planning and processing missions.  Ideally, 
+location for the ERPSS should be 200-500 feet from aircraft parking.  A distance of more than 
+one mile will adversely affect the ability of the ERPSS to complete its mission. 
+10.4.2.  Flightline Access.  The ERPSS requires clear access to the flight line, unencumbered 
+by natural barriers or excessive unfinished roadways.  If not bordering the aircraft parking 
+ramp, the road access to the ERPSS needs to be flat and either gravel or hard-surfaced since 
+the AMBUS can operate only on level flat surfaces and does not have 4-wheel drive 
+capability.  Heavy rain or snow could potentially shut down an ERPSS not appropriately 
+serviced with an all-weather road. 
+10.4.3.  Building of Opportunity Requirements.  In cases where there is availability of an 
+appropriate building(s) of opportunity, there are minimum standards and requirements that 
+must be met for safe conduct of ERPSS operations. 
+10.4.3.1.  Decontamination of Site/Building of Opportunity/Vehicles.  Support may be 
+provided using BEAR, Air Force Contract Augmentation Program (AFCAP) or 
+commercial assets.  In contaminated environments, base support may be required for 
+decontamination of deployed medical facility infrastructure and vehicles to include 
+decontamination of the site location when necessary. 
+10.4.4.  Size.  The ERPSS facility requires floor space as given in Figure 10.1.  It may be 
+partitioned or open as in a hangar or gymnasium.  Larger ERPSS’s will require buildings of 
+proportionately more floor space as calculated by the number and type of additional UTCs 
+deployed.  The ERPSS-10 utilizes the Utilis Tent System®.  Tentage requirements for the 
+ERPSS-50 to 200 use an Alaska Small Shelter System® (32 feet long x 20 feet wide).  If other 
+type of tents, such as temper tents, are substituted, similar floor space needs be provided.  
+Modular facilities or other buildings of opportunity should be of equivalent size. 
+ 
+ 
+ 
+ 
+ 
+58 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+Table 10.1.  Requirements for ERPSS Operational Space. 
+Facility Requirements for Tentage 
+ 
+ERPSS 10 
+ERPSS 50 
+ERPSS 100 
+ERPSS 200 
+Admin Tents 
+ 
+2 
+4 
+8 
+Clinical Tents 
+2 
+6 
+12 
+16 
+Total Tents 
+2 
+8 
+16 
+24 
+ 
+Total Sq. Ft. 
+1,300 
+5,120 
+10,240 
+15,360 
+10.4.5.  Tent Requirements.  If an appropriate building is not available, tentage must be used.  
+If tents are required, there are minimum requirements for their location and set up.  Location 
+selected should be level, unobstructed and of sufficient elevation to prevent flooding.  To 
+allow for incremental building of the ERPSS UTC’s correct initial placement of the ERPSS is 
+critical.  Adequate space on both ends of the ERPSS should be available to allow for the 
+addition of more tents if the ERPSS is required to incrementally increase in size.  Due to the 
+length of the electrical cables in the ERPSS AS, the following items are required to be 
+considered for initial placement of the ERPSS-10.  When increasing an ERPSS-50 to an 
+ERPSS-100, the additional tents should be attached to the generator end of the facility.  When 
+placing the ERPSS adjacent to a flight line or roadway the entrance doors of the ERPSS 
+should face the direction the patients will be transported to or from the facility.   
+10.4.6.  Fire Safety.  Approval of the shelter by the local fire chief authority should be 
+accomplished prior to patient use.  Adequate exits, alarms, smoke detectors, and fire 
+extinguishers are critical.  Briefings regarding use and planned evacuation routes will be 
+routinely provided to patients and staff. 
+10.4.7.  Evacuation.  Secondary and tertiary locations for evacuating are required to be 
+coordinated in advance.  These locations are required to be communicated to all members and 
+emergency response organizations.  The facility manager is responsible for maintaining and 
+updating evacuation plans. 
+10.4.8.  Utilities.  Electricity and lighting are essential and are required to be 110-120 Volts, 
+50-60Hz, with adequate outlets for servicing electronic patient equipment.  At least 12 outlets 
+for each 25 beds is a minimum.  Batteries for AE missions may be charged during patient 
+holding time in the ERPSS.  Lighting is required to be adequate to assure safe movement of 
+patients and personnel in the facility. 
+10.4.9.  Drainage.  The facilities should be on slightly crowned ground to facilitate drainage.  
+A ramp to the buildings is acceptable.  Steps into the buildings are hazardous.  A second floor 
+location is an unacceptable location. 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+59 
+ 
+ 
+10.4.10.  Contamination/Exposure.  The facility must be free of toxic contamination from 
+previous use.  Consideration should be given to carbon monoxide exposure from engines 
+running near the facility.  Proximity to fuel and petroleum products should be avoided since 
+patient movement is difficult during a flight line emergency or fire. 
+10.4.11.  Thermal.  Safe heating/cooling is required to maintain the facility temperature within 
+a temperature range, between 68-80 degrees F (approximate range). 
+10.4.12.  Security and Safety.  Security and safety should be the highest priority when 
+identifying a location.  Hardening of the facility can be accomplished if necessary.  Windows, 
+glass, high-unsupported ceilings, and wood construction are a liability.  
+10.4.13.  Roof.  The roof must be waterproof, the floor hardened and without risk of flooding.  
+If tentage is used, a rain fly is required to be affixed. 
+10.4.14.  Hardening/Force Protection.  Based on the situational environment, hardening 
+should be considered for any ERPSS structure. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+MARK A. EDIGER 
+Lieutenant General, USAF, MC, CFS 
+Surgeon General 
+ 
+60 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+DODI 1415.13R, Air Transport Eligibility, November, 1994 
+DODI 6000.11, Patient Movement, 4 May 2012 
+JP 3-0, Joint Operations, 11 August 2011 
+JP 3-17 CH 1, Joint Doctrine and Joint Tactics, Techniques, and Procedures for Air Mobility 
+Operations, 2 October 2009 
+JP 4-02, Health Service Support, 26 June 2012 
+AFDD 3-17, Air Mobility Operations, 14 Feb 2013 
+AFDD 4-02, Medical Operations, 21 June 2012 
+AFPD 10-29, Worldwide Aeromedical Evacuation Operations, 6 November 2012 
+AFPD 33-3, Information Management, 8 September 2011  
+AFI 10-206, Operational Reporting, 11 June 2014 
+AFI 10-401, Air Force Operations Planning and Execution, 7 December 2006 
+AFI 10-402, Mobilization Planning, 1 May 2012 
+AFI 10-403, Deployment Planning and Execution, 20 September 2012  
+AFI 10-404, Base Support and Expeditionary Site Planning, 11 October 2011 
+AFI 10-701, Operations Security, 8 June 2011 
+AFI 10-2501, Air Force Emergency Management (EM) Program Planning and Operations, 24 
+Jan 2007 
+AFI 11-2AEV3, Aeromedical Evacuations (AE) Operations Procedures, 15 August 2014 
+AFI 13-207, Preventing and Resisting Aircraft Piracy (Hijacking), 21 June 2010 
+AFI 13-103, AFFOR Staff Operations, Readiness and Structures, 19 August 2014 
+AFI 24-302, Vehicle Operations, 26 June 2012 
+AFI 25-101, War Reserve Materiel (WRM) Program Guidance and Procedures, 2 May 2005 
+AFI 31-101, Integrated Defense, 8 October 2009 
+AFI 31-117, Arming And Use Of Force By Air Force Personnel,02 Feb 2016 
+AFI 33-115, Air Force Information Technology (IT) Service Management, 16 September 2014 
+AFI 33-200, Information Assurance (IA) Management, 23 December 2008 
+AFI 33-201V2, Communication Security (COMSEC) User Requirements, 26 April 2005 
+AFI 33-215, Controlling Authorities for COMSEC Keying Material (KEYMAT), 1 January 1998 
+AFI 33-332, Air Force Privacy and Civil Liberties Program, 12 January 2015 
+AFI 41-106, Medical Readiness Program Management, 22 April 2014 
+AFI 41-209, Medical Logistics Support, 6 October 2014 
+AFI 44-102, Medical Care Management, 20 January 2012 
+AFI 44-119, Medical Quality Operations, 16 August 2011 
+AFI 48-101, Aerospace Medicine Enterprise, 19 October 2011 
+AFI 48-307V1, En Route Care and Aeromedical Evacaution Medical Operations 
+AFI 51-401, Training and Reporting to Ensure Compliance with the Law of Armed Conflict, 5 
+September 2014 
+AFMAN 10-2503, Operations in a Chemical, Biological, Radiological, Nuclear, and High-Yield  
+Explosive (CBRNE) Environment, 7 July 2011  
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+61 
+ 
+ 
+AFTTP 3-4, Airman’s Manual, 19 May 2015 
+AFTTP 3-42.5, Aeromedical Evacuation (AE), November 2003 
+AFTTP 3-42.7, Aerospace Medical Contingency Ground Support Systems as described in Air 
+Force Tactics, Techniques and Procedures, 24 August 2001 
+AFTTP 3-42.8, Expeditionary Medical Logistics (EML) System, 5 October 2011 
+AMCI 10-403, Air Mobility Command (AMC) Force Deployment, 24 July 2014 
+Readiness Skills Verification Program  
+Adopted Forms 
+DD Form 600, Patient Baggage Tag 
+DD Form 601, Patient Evacuation Manifest 
+DD Form 1300, Report of Casualty 
+DD Form 1854, US Customs Accompanied Baggage Declaration 
+DD Form 2064, Certificate of Death Overseas 
+DD Form 2852, Aeromedical Evacuation Event/Near Miss Report 
+AF From 146, Death Tag 
+AF Form 3829, Summary of Patients Evacuated by Air 
+AF Form 3836, Aeromedical Mission Management, part II 
+AF Form 3838, Do Not Resuscitate (DNR) Certification for AE 
+AF Form 3841, Certificate of Release 
+AF Form 3851, Patient Baggage Data 
+AF Form 3854, Receipt for Patient’s Valuables 
+AF Form 3858, C-130 Aeromedical Evacuation Mission Offload Message 
+AF Form 3859, Turn-In of Unaccompanied Narcotics 
+AF Form 3860, Aeromedical Patient Record Data 
+AF Form 3899, Patient Movement Record 
+AF Form 3899A, Patient Movement Record Progress Note 
+AF Form 3899B, Patient Movement Physician Orders 
+AF Form 3899C, Patient Movement Physical Assessment 
+AF Form 3899D, Patient Movement Hemodynamic/Respiratory Flow sheet 
+AF Form 3899E, Patient Movement Intake/Output 
+AF Form 3899F, Patient Movement Physician Orders for Behavior Management and Restraints 
+AF Form 3899G, Patient Movement Restraint Observation Flow sheet 
+AF Form 3899H, Patient Movement Neurological Assessment 
+AF Form 3899I, Patient Movement Medication Record 
+AF Form 3899J, Patient Movement Rhythm/Hemodynamic Strip 
+AF Form 3899K, Patient Movement/In-flight Resuscitation Flow Sheet 
+AFTO 350, Repairable Item Processing Tag 
+Worksheet - Aeromedical Evacuation Outpatient Handoff Report Form 
+Worksheet - Aeromedical Evacuation Inpatient (I-SBAR) Handoff Report Form 
+Blank Patient ID Bands 
+ Abbreviations and Acronyms 
+ACLS - Advanced Distributive Learning System 
+ADLS - Advanced Distributive Learning System 
+AE – Aeromedical Evacuation 
+ 
+62 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+AECS - Aeromedical Evacuation Command Cell 
+AECT - AE Control Team 
+AEF - Aerospace Expeditionary Forces 
+AEG - Air Expeditionary Group 
+AELT - Aeromedical Evacuation Liaison Team 
+AEPS - Aeromedical Evacuation Patient Staging 
+AES - Aeromedical Evacuation System 
+AEOT - Aeromedical Operations Team 
+AETF - Air Expeditionary Task Force 
+AEW - Air Expeditionary Wing 
+AF - Air Force 
+AFB - Air Force Base 
+AFCAP - Air Force Contract Augmentation Program 
+AFFOR - Air Force Forces 
+AFOSI - Air Force Office of Special Investigations 
+AFMAN - Air Force Manual 
+AFMLOC - Air Force Medical Logistics Operations Center 
+AFMS - Air Force Medical Service 
+AFSC - Air Force Specialty Code 
+AFTH - Air Force Theater Hospital 
+AGE - Aerospace Ground Equipment 
+AHLTA-T - Armed Forces Health Longitudinal 
+AIS - Automated Information Systems 
+AMBUS - Ambulance Bus 
+AMC - Air Mobility Command 
+AMD - Air Mobility Division 
+AO - Area of Operations 
+AOC - Air and Space Operations Center 
+AOR - Area of Responsibility 
+ARC - Air Reserve Component 
+AS - Allowance Standard 
+ASETF - Air and Space Expeditionary Task Force (USAF) 
+ATOC - Air Terminal Operations Center 
+BDOC - Base Defense Operations Center 
+BE - Bioenvironmental Engineering 
+BEAR - Basic Expeditionary Airfield Resources 
+BGAN - Broadband Global Area Network 
+BOS - Base Operating Support 
+BW/CW - Biological Warfare/Chemical Warfare 
+C2 - Command and Control 
+C4 - Critical Care Combat Casualty Course 
+CAC – Common Access Card 
+CAFSC - Career Air Force Specialty Code 
+CASF - Contingency Aeromedical Staging Facility 
+CASEVAC - Casualty Evacuation 
+CBRN - Chemical, Biological, Radiological, and Nuclear 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+63 
+ 
+ 
+CBT - Computer Based Training 
+CCT - Combat Control Team 
+CCATT - Critical Care Air Transport Team 
+CDR - Clinical Data Repository 
+CCDR - Combat Commander 
+CE - Civil Engineering 
+CFETP - Career Field Education and Training Plans 
+CFM - Career Field Manager 
+CHCS - Composite Health Care System 
+CN - Chief Nurse 
+COMAFFOR - Commander Air Force Forces 
+COMSEC - Communications Security 
+COMPUSEC - Computer Security 
+CONOPS - Concept of Operations 
+CONUS - Continental United States 
+CRG - Contingency Response Group 
+CSS - Combat Services Group 
+DAFSC – Duty Air Force Specialty Code 
+DCC - Deployment Control Centers 
+DFAC - Dining Facility 
+DFC - Defense Force Commander 
+DIA - Defense Intelligence Agency 
+DIICC - Defense Information Infrastructure Control Concept 
+DISA - Defense Information Systems Agency 
+DIRMOBFOR-AIR - Director of Mobility Forces-AIR 
+DMC - Deployed Medical Commander 
+DMLSS - Defense Medical Logistics Standard Support 
+DNBI - Disease Non Battle Injury 
+DNR - Do Not Resuscitate 
+DOD - Department of Defense 
+DOEHRS - Defense Occupational and Environmental Health Readiness System 
+DSCA - Defense Support to Civil Authorities 
+DSOE - Deployment Schedule of Events 
+ECAS - Electrical Cable Assembly Set 
+ECP - Entry Control Point 
+ECS - Expeditionary Combat Support 
+ECU - Environmental Control Unit 
+EDOCS - Expeditionary Deployable Oxygen Containment System 
+EHR - Electronic Health Record 
+EMEDS - Expeditionary Medical Support 
+EML - Expeditionary Medical Logistics 
+EOC - Expeditionary Operations Center 
+EPW - Enemy Prisoner of War 
+ERCC - En Route Care Capability 
+ERPSS - En Route Patient Staging Capability 
+ETA - Estimated Time of Arrival 
+64 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+ETD - Estimated Time of Departure 
+EXORD - Execution Order 
+FAA - Federal Aviation Administration 
+FDECU - Field Deployable Environmental Control Units 
+FEMA - Federal Emergency Management Agency 
+FM - Force Module 
+FN - Flight Nurse 
+FP - Force protection 
+FPCON - Force Protection Condition 
+GCC - Geographic Combatant Commanders 
+GPMP - Global Patient Movement Plan 
+GPS - Global Positioning Satellite 
+GSA - General Services Administration 
+HA/DR - Humanitarian Assistance/Disaster Response 
+HAZDEC - Hazardous Materials Declaration 
+HAZMAT - Hazardous Material 
+HF - High Frequency 
+HHQ - Higher Headquarters 
+HIPAA - Health Insurance Portability and Accountability Act 
+HMMWV - High Mobility Multipurpose Wheeled Vehicles 
+HSS - Health Support Services 
+HRT - Health Response Team 
+HVAC - Heating, Ventilation and Air Conditioning 
+IA - Information Assurance 
+IAW - In Accordance With 
+ID - Identification 
+INMARSAT - International Marine/Maritime Satellite 
+IOC - Initial Operational Capability 
+ISO - In Support Of 
+I-SBAR - Identify, Situation, Background, Assessment, and Recommendation 
+IV - Intravenous 
+IW - Information Warfare 
+JFACC - Joint Force Air Component Commander 
+JLLIS - Joint Lessons Learned Information System 
+JTF - Joint Task Force 
+JMEWS - Joint Medical Workstation 
+KW - Kilowatt 
+LAF - Line Air Force 
+LAN - Local Area Network 
+LMR - Land Mobile Radios 
+LNO - Liaison Officer 
+LOAC - Law of Armed Conflict 
+MAJCOM - Major Command 
+MASF - Mobile Aeromedical Staging Facility 
+MC-CBRN - Medical Counter- Chemical, Biological, Radiological, Nuclear 
+MCD - Medical Crew Director 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+65 
+ 
+ 
+MDG - Medical Group 
+MEDIC - Medical Environmental Disease Intelligence and Countermeasures 
+MEDEVAC - Medical Evacuation 
+MEFPAK - Manpower and Equipment Force Packaging System 
+MERC - Medical Equipment Repair Center 
+MET - Mission Essential Task 
+MHE - Materiel Handling Equipment 
+MISCAP - Mission Capability Statement 
+MOST - Mobile Oxygen Storage Tank 
+MRA - MEFPAK Responsible Agency 
+MRE - Meals Ready to Eat 
+MRO - Medical Readiness Officer 
+MSAT - Medical Situational Awareness in the Theater 
+MSC - Medical Service Corps 
+MTF - Medical Treatment Facility 
+NATO - North Atlantic Treaty Organization 
+NCC - Network Control Centers 
+NCMI - National Center for Medical Intelligence 
+NCOIC - Non Commissioned Officer In Charge 
+NIMS - National Incident Management System 
+NOS - Network Operating System 
+NOSC - Network Operations and Security Center 
+OCONUS - Outside Continental United States 
+OCO - Overseas Contingency Operations 
+OIC - Officer In Charge 
+OEH - Occupational and Environmental Health 
+OPCON - Operational Control 
+OPLAN - Operations Plan 
+OPORD - Operation Order 
+OPR - Office of Primary Responsibility 
+OPREP - Operational Reports 
+OPSEC - Operations Security 
+PAR - Population at Risk 
+PCA - Patient Controlled Analgesia 
+PCS - Permanent Change Of Station 
+PDC - Program Designator Code 
+PDP - Power Distribution Panels 
+PIU - Patient Isolation Unit 
+PM - Patient Movement 
+PMI - Patient Movement Item 
+PMITS - Patient Movement Items Tracking System (PMITS) 
+PMQ-R - Patient Movement Quality Report 
+PMR - Patient Movement Request 
+PMRC - Patient Movement Requirements Center 
+POC - Point of Contact 
+POL - Petroleum Oil Lubricants 
+66 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+PSS - Patient Staging System 
+PSM - Patient Safety Manager 
+P4 - Plans, Policies, Procedures and Processes 
+RDS - Records Disposition Schedule 
+RON - Remain Over Night 
+RSV - Readiness Skills Verification 
+RSVP - Readiness Skills Verification Program 
+RTOC - Readiness Training Oversight Committee 
+SABC - Self-Aid Buddy Care 
+SAM - Self-Administering Medications 
+SATCOM - Satellite Radio 
+SDC - Standard Desktop Configuration 
+SG - Surgeon General 
+SIM - Subscriber Identity Module 
+SIPRNET - Secret Internet Protocol Router Network 
+SITREP - Situation Report 
+SMO - Senior Medical Officer 
+SOF - Special Operations Forces 
+SSN - Social Security Number 
+STE - Secure Terminal Equipment 
+TACC - Tanker Airlift Control Center 
+TACON - Tactical Control 
+TC2 - TMIP Composite Health Care System (CHCS) Cache (TC2) 
+TCP/IP - Transmission Control Protocol/Internet Protocol 
+TDC - Theater deployable communications 
+TLAMM - Theater Lead Agent for Medical Materiel 
+TMDS - Theater Medical Data Store 
+TMIP - Theater Medical Information Program 
+TO – Technical Order 
+TPFDD - Time Phases Force Deployment Data 
+TTP - Tactics, Techniques and Procedures 
+TR - Telecom Request 
+TRAC2ES - TRANSCOM Regulating and Command & Control Evacuation System 
+UN - United Nations 
+USTRANSCOM - United States Transportation Command 
+UXO - Unexploded Ordinance 
+UTC - Unit Type Code 
+VCO - Vehicle Control Officer 
+VCNCO - Vehicle Control Non Commissioned Officer 
+VFS - Validating Flight Surgeon 
+VHF - Very High Frequency 
+WAN - Wide Area Network 
+WM - Workgroup Managers 
+WMD - Weapons of Mass Destruction 
+WRM - War Readiness Materiel 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+67 
+ 
+ 
+Attachment 2 
+EQUIPMENT PREDEPLOYMENT CHECKLIST 
+The following items are required in preparation for deployment of the ERPSS - 10: 
+Table A2.1. Equipment Predeployment Checklist. 
+ 
+Obtain LOGDET from unit mobility office to determine equipment 
+requirements 
+ 
+Are MRE’s/Water required for deployment 
+ 
+Aerospace ground equipment (AGE).  Check equipment for: 
+ 
+     Appropriate power cords 
+ 
+     Appropriate heater fuel tank match 
+ 
+     Fuel cans/Jerry cans for emersion heater 
+ 
+          Purged 
+ 
+          Damage free/empty/no smell 
+ 
+          Required to be plastic for international deployment 
+ 
+          Ensure gasket in place 
+ 
+          Appropriate spouts 
+ 
+     Oil cans 
+ 
+     Motor oil 
+ 
+Transportation 
+ 
+     Identify qualified drivers for appropriate vehicles 
+ 
+     Vehicle tie down straps (s-hooks). 
+ 
+     Obtain title for fuel procurement, fuel key, servo card 
+ 
+Vehicles 
+ 
+     Clean, inside and out, no fuel leaks 
+ 
+     Battery cleaned and secured 
+ 
+     Fuel tanks (not to exceed 1/2) 
+68 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+ 
+         Vehicle equipment secured 
+ 
+         Spare tire 
+ 
+     Fire extinguisher, first aid kit. 
+ 
+     Hazardous cargo declarations (Dash 2) as needed 
+ 
+     Hazardous placards as needed 
+ 
+     Weight and center of gravity posted 
+ 
+Logistic – Pallets 
+ 
+     Serviceable, no rust, tears or missing rings, and warp-free. 
+ 
+     Appropriate serviceable netting amount (one top netting, two side netting) 
+ 
+     Pallet bag 
+ 
+     Cargo tie-down straps as needed 
+ 
+     Three (3) pieces of dunnage per pallet (adequate amount) 
+ 
+Administrative  
+ 
+     Forms Pack list – hard copy of each form required to operate without 
+operational IM IT connectivity 
+ 
+ERPSS – 10 
+ 
+     Tentage and liners 
+ 
+     Tent pole sets 
+ 
+     Tent pegs 
+ 
+     Field desk 
+ 
+     Roll of Plastic 
+ 
+     Speed tape 
+ 
+     Tent repair kit 
+ 
+     550 cord, band cutters, entrenching tools / shovels 
+ 
+     Replacement tent ropes 
+ 
+     Camouflage netting appropriate for area deployed 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+69 
+ 
+ 
+ 
+     Sandbags (adequate amount)  
+ 
+Medications 
+ 
+     Controlled medications obtained and inventoried 
+ 
+     Appropriate narcotics control forms obtained 
+ 
+     Nurses assigned as narcotics couriers 
+ 
+    Appropriate means for securing narcotics available 
+ 
+          Lock box or tool chest 
+ 
+           Lock 
+ 
+           Keys 
+ 
+     All medication’s (controlled and routine) expiration dates checked and     current 
+throughout deployment length 
+ 
+     Packaging and contents free from damage or contaminants 
+ 
+Medical Equipment 
+ 
+     Inspection stickers checked and current 
+ 
+    All component parts present 
+ 
+    Operational check of 
+ 
+          Cardiac monitor’s battery accessory pack and batteries 
+ 
+          Portable suction 
+ 
+          Bag-valve mask resuscitator 
+ 
+          MOST  
+ 
+          Electrical cable assembly set (ECAS). 
+ 
+          Pulse oximetry (when available) 
+ 
+          Laryngoscope, light bulbs batteries 
+ 
+          Otoscope light bulbs, batteries 
+ 
+          Oxygen monitor 
+ 
+Medical Supplies 
+70 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+ 
+      Expiration dates and lot numbers checked and current 
+ 
+      Packaging and contents free from damage and contaminants 
+ 
+      Mission kit (publications, to include drug book, advance cardiac life  support 
+[ACLS] algorithms) stocked    
+ 
+       Infection control items stocked 
+ 
+       Biohazard bags 
+ 
+      Sharps containers 
+ 
+      Hand washing, antimicrobial solutions, or decontamination agents 
+ 
+IRIDIUM and INMARSAT (BGAN) Activation Note: The satellite phones are 
+not activated while stored in the UTC package 
+ 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+71 
+ 
+ 
+Attachment 3 
+PERSONAL PACKING PREDEPLOYMENT CHECKLIST 
+Table A3.1. Personal Packing PreDeployment Checklist. 
+ 
+"A" BAG (Issued by Base Mobility when required)    *Depends on Orders 
+ 
+A-3 Bag or Ruck 
+ 
+First Aid Kit 
+ 
+Canteen (2), Cup, CW Cap, Cover 
+ 
+Helmet 
+ 
+Flak Vest*  
+ 
+Poncho and Liner * (Sub Gortex) 
+ 
+Mess Kit w/Accessories 
+ 
+Sleeping Bag 
+ 
+Sleeping Pad 
+ 
+Goggles, Sun/Dust 
+ 
+Reflective Belt 
+ 
+Gloves, Work, Leather 
+ 
+Ammo Pouch (9mm) 
+ 
+Load Bearing Vest (LBV)* 
+ 
+ 
+ 
+Unit A Bag Augmentation Pkg - Suggested Issue Items (ESP Coded for 
+Overseas Contingency Operations (OCO) 
+ 
+Rucksack 
+ 
+Load Bearing Gear 
+ 
+Steel Toed Boots 
+ 
+Camel Back 
+ 
+Black Work Gloves 
+ 
+Leatherman 
+ 
+Flashlight 
+ 
+*Gortex Rain Coat/Pants 
+ 
+Overshoes, Rubber 
+ 
+ 
+ 
+"B" BAG (Issued by Base Mobility when required)    *Depends on Orders 
+ 
+A-3 Kit Bag 
+ 
+Lined Field Cap 
+ 
+Mitten Set 
+ 
+Mukluks / Inserts 
+ 
+N3B Parka 
+ 
+Wool, Socks / Sweater 
+ 
+Long Underwear Top / Bottom 
+ 
+ 
+ 
+"C" BAG (Issued by Base Mobility when required)    *Depends on Orders 
+ 
+Waterproof Bag 
+72 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+ 
+MCU2-P Filter Canister * 
+ 
+Hood , Chemical* 
+ 
+Gloves, Chemical * 
+ 
+Cotton Inserts* 
+ 
+GVO Boots * 
+ 
+M8 Paper 
+ 
+M9 Tape 
+ 
+MCU2-P Mask, Chemical   
+ 
+Carrier Chemical Mask 
+ 
+M258 Decon Kit  * 
+ 
+MCU2-P Filter  * 
+ 
+Chemical Suit  * 
+ 
+Helmet Cover (shower cover) * 
+ 
+ 
+ 
+Personal Bag (Suggested Items, not inclusive)     
+ 
+Chap stick 
+ 
+Sunscreen/Insect Repellant 
+ 
+ABUs and Cap 
+ 
+T-Shirts 
+ 
+Undergarments 
+ 
+PT Gear 
+ 
+Reflective Belt 
+ 
+Sunscreen 
+ 
+Foot Powder 
+ 
+Gloves  
+ 
+Socks (ABUs and PT Gear) 
+ 
+Towels  
+ 
+Handkerchiefs  
+ 
+Rucksack 
+ 
+Sewing Kit 
+ 
+Nail Clippers 
+ 
+Clothesline/Pins 
+ 
+Can Opener 
+ 
+Laundry Bag/Soap 
+ 
+Padlock 
+ 
+Cards/Games 
+ 
+Sunglasses 
+ 
+Hearing Protection 
+ 
+Shaving Kit 
+ 
+Deodorant 
+ 
+Soap, Shampoo, Conditioner 
+ 
+Tooth Paste, Toothbrush w/ Container 
+ 
+Comb or Brush 
+ 
+Feminine Hygiene Items (Females Only) 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+73 
+ 
+ 
+Attachment 4 
+ERPSS ECS REQUIREMENTS 
+Table A4.1. ERPSS ECS Requirements. 
+  
+FFEPS 
+Inc. FFQCR   
+(Comm UTC) 
+FFPPS 
+Provider 
+Augmentation 
+FFFPS 
+50 Bed 
+FFHPS 
+100 Bed 
+200 Bed 
+Staff Members 
+15 
+25 
+51 
+74 
+148 
+Patients 
+40 
+40 
+50 
+100 
+200 
+Total Personnel 
+55 
+65 
+101 
+173 
+348 
+BASIC EXPEDITIONARY AIRFIELD RESOURCES (BEAR) REQUIREMENTS 
+Site  Requirements with 
+slight grade      (sq. ft.) 
+5200 
+5200 
+36,400 
+62,400 
+124,800 
+Work Shelter (sq. ft.)  
+1,300 
+1,300 
+5,120 
+10,240 
+15,360 
+Latrines 
+staff (patients) 
+1:15 (latrines: people) 
+1 (3) =4 
+2 (3) =5 
+4 (3) =7 
+5 (7) =12 
+11 (14) =25 
+Showers 
+staff (patients) 
+1:20 (showers: people) 
+1 (2) =3 
+2 (2) =4 
+3 (3) =6 
+4 (5) =9 
+8 (10) =18 
+Lodging  
+(staff only beds) 
+15 
+25 
+51 
+74 
+148 
+Meals, Regular 
+staff (patients) 
+(per day)  
+45 (108)=153 
+75 (108)=183 
+159 (135)=294 
+225 (270)=495 
+474 (540)=1014 
+Meals, Liquid 
+(patients) 
+(per day) 
+12 
+12 
+15 
+30 
+60 
+Laundry   
+staff (patients)   
+(pers/wk.=32 lbs.) 
+480 (1280) 
+=1760 
+608 (1280) =1888 
+1696 (1600) 
+=3296 
+2400 (3200) 
+=5600 
+5056 (6400) 
+=11456 
+Ice  
+staff (patients) 
+(lbs./day) =4.4 lbs. 
+66 (176) 
+=242 
+110 (176) 
+=286 
+234 (220) 
+=454 
+330 (440) 
+=770 
+696 (880) 
+=1576 
+74 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Power (kW) 3 phase  
+0 
+0 
+1 – 100 kw 
+Generator 
+1 – 100 kw 
+Generator 
+2 - 100 kw 
+Generator 
+ECU Requiring Support (# 
+of Units) 
+0 
+0 
+8 
+16 
+32 
+Potable water  
+staff=10 (patients=65) 
+(gal/day) 
+150 (2600) 
+=2750 
+250 (2600) 
+=2850 
+530 (3250) 
+=3780 
+750 (6500) 
+=7250 
+1580 (13000) 
+=14580 
+MEDICAL / BIOHAZARD  WASTE 
+Waste, Liquid  
+staff (patients) 
+(gal/day) =.7x water  
+10.50 (28) 
+=38.5 
+17.5 (28) 
+=45.5 
+37.10 (35) 
+=72.1 
+52.50 (70) 
+=122.5 
+111 (140) 
+=251 
+Waste, Solid  
+staff (patients) 
+ (lbs./day=4 lbs.  
+60 (160)=220 
+100 (160)=260 
+212 (200)=412 
+300 (400)=700 
+632 (800)=1432 
+LOGISITICS REQUIREMENTS 
+POL (gal/day) 
+50 
+50 
+50 
+50 
+50 
+Diesel (gal/day)  
+50 
+50 
+20 
+20 
+20 
+VEHICLES 
+Vehicle Maintenance  
+TBD 
+TBD 
+TBD 
+TBD 
+TBD 
+Vehicle Requirements  
+2-UFMVH 
+(HMMWV)  
+2-UFMVH 
+(HMMWV) 
+2- UFM81 
+(Ambus), 1 
+UFMT4 
+(M1078 Truck, 
+1UFMPR (10K 
+Forklift) 
+3- UFM81 
+(Ambus), 2 
+UFMT4 
+(M1078 Truck, 
+2 UFMPR (10K 
+Forklift) 
+6- UFM81 
+(Ambus), 2 
+UFMT4 (M1078 
+Truck, 2UFMPR 
+(10K Forklift) 
+Equipment Movement  
+Rolling Stock  
+Personnel only no 
+equipment added 
+Pallet load 
+Pallet Load 
+Pallet Load 
+COMMUNICATIONS REQUIREMENTS 
+SIPRNET ACCESS 
+YES 
+YES 
+YES 
+YES 
+YES 
+NIPRNET ACCESS 
+YES 
+YES 
+YES 
+YES 
+YES 
+Phone  
+12 (8 CELL 4 
+LAND)  
+12 (8 CELL 4 
+LAND)  
+12 (8 CELL 4 
+LAND)  
+12 (8 CELL 4 
+LAND)  
+12 (8 CELL 4 
+LAND)  
+Satellite (Iridium)  
+1 
+1 
+1 
+1 
+1 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+75 
+ 
+ 
+Land Mobile Radios 
+(organic) requiring Comm 
+network support  
+9 
+9 
+18 
+18 
+36 
+Secure Telephone 
+Equipment Maintenance 
+(Organic)  
+1 
+1 
+1 
+1 
+1 
+NOTE: IAW AFI 10-219, Vol 5 & 6 where applicable and data provided 
+ 
+ 
+76 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+Attachment 5 
+ERPSS-10 SITE REQUIREMENTS 
+1.1.  Contact installation commander/airfield manager/Civil Engineer to coordinate ERPSS-10 
+establishment.  Brief commander on ERPSS-10 function and requirements. 
+1.2.  Determine site selection using the following guidelines: 
+1.2.1.  Area Setup Requirements: 
+Table A5.1. Area Setup Requirements. 
+Tent 
+Length 
+Width 
+Height 
+UTILIS® 
+34ft 
+20ft 
+10.5ft 
+Note: Allow room for tent pegs and rope extensions. 
+1.2.2.  ERPSS-10 tent distance from taxiway edge or runway centerline will depend on the 
+type of aircraft that will be using the airfield.  Note:  When setting up the ERPSS-10 at 
+airfields, carefully coordinate with the airfield authorities.  If at all possible, avoid set-up next 
+to an active runway.  At forward landing strips (FLSs) the runway and taxiway are often the 
+same in that the runway is also the taxi way and the turnaround area.  If this is encountered 
+contact the Combat Control Team or Contingency Response Group/Element. 
+1.3.  Determine billeting requirements using the following guidelines if not using ERPSS-10 
+tent as billet: 
+1.3.1.  Tented billeting or hard quarters 
+1.3.2.  Tented billeting supplies 
+1.3.3.  Assigned ERPSS - 10 personnel plus additional personnel in attached air crews or 
+manpower augmentation package: 
+1.3.3.1.  Male Officers/Enlisted 
+1.3.3.2.  Female Officers/Enlisted 
+1.3.3.3.  Bathing and shower requirements along with hours of operation 
+1.4.  Latrine requirements: 
+1.4.1.  Portable latrines 
+1.4.1.1.  Amount needed 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+77 
+ 
+ 
+1.4.1.2.  Who procures 
+1.4.2.  Can trenches be dug if no portable latrines 
+1.4.3.  Other latrine sources 
+1.5.  Messing requirements: 
+1.5.1.  Number of ERPSS-10 personnel given to appropriate Point of Contact (POC) for Food 
+Services 
+1.5.2.  Location of messing facility 
+1.5.3.  Field kitchen  
+1.5.4.  Meals ready-to-eat (MRE).  If MREs, identify POC for issuing and location of issue 
+1.5.5.  Dining Facility.  If dining facility, hours of operation 
+1.5.6.  Water point location 
+1.6.  Vehicle requirements: 
+1.6.1.  Your vehicles or someone else's 
+1.6.2.  Where are keys to vehicles 
+1.6.3.  When can they be picked up 
+1.6.4.  Crew bus available 
+1.6.5.  Shuttle bus service 
+1.6.6.  Hours of operation 
+1.6.7.  Type and number of vehicles required: 
+1.6.7.1.    Pickup truck 
+1.6.7.2.    Van 
+1.6.7.3.    Step van 
+1.6.7.4.     M1008 tactical pick-up truck 
+1.6.7.5.    M35 2.5-ton truck 
+1.6.7.6.    HMMWV 
+78 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+1.6.7.7.    Water Trailer (buffalo). 
+1.6.7.8.    M105 trailer 
+1.6.7.9.    Bus (number of passengers). 
+1.6.7.10.  Forklift 
+1.6.7.11.  M1078 Truck 
+1.6.7.12.  M1097 HVY HMMWV 
+1.6.8. Check vehicles for operability and maintenance requirements 
+1.6.9.  Vehicle fueling location and hours of operation 
+1.7.  Communication requirements (For sustainment operations):   
+1.7.1.  Class A phones 
+1.7.2.  Class B phones 
+1.8.  Fuel requirements (approximate): 
+1.8.1.  Ensure adequate fuel will be available for ERPSS - 10 operation using the following 
+guidelines: 
+1.8.2.  Generators: 
+1.8.2.1.  Three kilowatt (KW) requires 25 gallons of fuel and one pint of oil per day 
+1.8.2.2.  Five KW requires 35 gallons of fuel and one pint of oil per day 
+1.8.2.3.  Ten KW diesel requires 36 gallons of fuel and one pint of oil per day 
+1.8.2.4.  Thirty KW diesel requires 40 gallons of fuel and one pint of oil per day 
+1.8.2.5.  Sixty KW diesel requires 55 gallons of fuel and one pint of oil per day. 
+  1.8.3.  Identify fuel re-supply point (Note:  Source re-supply at base located): 
+1.8.3.1.  Hours of operation 
+1.8.3.2.  Type of fuels available: Diesel; MOGAS; JP8 
+1.8.3.3.  Fuel key required 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+79 
+ 
+ 
+1.8.3.4.  Where will we get one?  Note:  If JP8 fuel is available instead of diesel, 
+automatic transmission fluid is to be added to fuel tanks to keep seals on engines from 
+drying out. Where will we get this additive, and how much is required per gallon. 
+1.9.  Power requirements: 
+1.9.1.  Commercial power available (host), and what voltage 
+1.9.2.  Who will do work to tap in to commercial power 
+1.9.3.  Power carts available 
+1.9.4.  ERPSS-10 generators required 
+1.9.5.  How many tents will be powered 
+1.10.  Potable/NonPotable Water requirements: 
+1.10.1.  Commercial water available 
+1.10.2.  Water buffalo trailer required?  Identify re-supply point 
+1.10.3.  Bottled water?  Identify re-supply point 
+1.11.  Temporary storage requirements: 
+1.11.1.  Warehouse storage.  POC 
+1.11.2.  Contingency exercise storage.  POC 
+1.12.  Ramp services equipment available: 
+1.12.1.  10K Forklift 
+1.12.2.  K-loader 
+1.12.3.  Identify POC and location of Material Handling Equipment (MHE) at site 
+1.12.4.  If no MHE at site, can aircraft do combat offloads of pallets 
+1.13.  Oxygen re-supply and refill capabilities: 
+1.13.1.  Is a Liquid Oxygen (LOX) cart or plant available to refill patient LOX units?  Forty 
+liters per day minimum requirement 
+1.13.2.  If not, is a re-supply available for oxygen tanks?  Trade used ones for full ones 
+1.13.3.  Does ERPSS-10 have other means of re-supply LOX units or oxygen tanks 
+80 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+1.13.4.  Does the AECS have the means of re-supply LOX units or oxygen tanks 
+1.13.5.  Are oxygen concentrators available  
+1.13.6.  Should they be taken to supplement or replace Mobile Oxygen Storage Tank (MOST) 
+or oxygen tanks 
+1.14.  Transportation to ERPSS-10 set-up site (if not already at location): 
+1.14.1.  Obtain sufficient transportation to transport personnel and baggage.  Note:  ERPSS-10 
+vehicles do not provide enough room for movement of all personnel. 
+1.14.2.  Obtain following information before departure: 
+1.14.2.1.  Maps of route, as applicable 
+1.14.2.2.  Identify primary and alternate routes 
+1.14.2.3.  Refuel locations 
+1.14.2.4.  Convoy procedures required by local authorities or other services 
+1.14.2.5.  Local threat levels and what type 
+1.14.3.  Review convoy routes and procedures with ERPSS-10 personnel 
+1.14.4.  Identify projected break times or places.  Note:  Remember M35 drivers will usually 
+require frequent breaks 
+1.14.5.  Assign personnel to specific vehicles 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+81 
+ 
+ 
+Attachment 6 
+ERPSS-10 SITE ESTABLISHMENT 
+1.1.  Contact the installation commander /airfield manager/Civil Engineer to coordinate 
+ERPSS-10 establishment.  Brief commander on ERPSS-10 function and requirements. 
+1.2.  Determine site for ERPSS-10 set-up using the following guidelines: 
+1.2.1.  Find level ground high enough for good drainage and large enough for all tents.  If 
+necessary, trench around tents. 
+1.2.2.  Avoid getting too close to streams, lakes or rivers.  Ensure site is above high water 
+marks or levels and not in the pathway of a stream emptying into a potable water holding area. 
+1.2.3.  Avoid placing ERPSS-10 in canyons or near dry creek beds.  Look at the slope of the 
+ground and determine water runoff direction.  Avoid placing tents in a potential flood area. 
+1.2.4.  In hot weather, find shady area free of underbrush. 
+1.2.5. Avoid placing tents under dead trees. 
+1.2.6. In snow covered areas ensure snow is not concealing any crevices. 
+1.3.  Layout ERPSS-10 site using the following guidelines: 
+1.3.1.  Appropriate distance from taxiway/runway.  Do not set up beyond the “HOLD” line on 
+taxiway/runway. 
+1.3.2.  Twelve feet between pegs of nearest tent to allow for vehicle passage. 
+1.3.3.  Short side of tent away from generators or vehicle traffic, if possible. 
+1.3.4.  Short side of tents facing each other, if using two tents.  This keeps heater fuel cans and 
+power cords in a protected area. 
+1.3.5.  Generators placed with mufflers facing away from tents and grounded.  Note: All 
+electrical equipment must be grounded. 
+1.3.6.  Fuel storage area 50 feet away from generators, antenna and ERPSS-10.  Store in an 
+open area free from brush and debris.  Fire extinguisher available at storage site. 
+1.3.7.  Bury antenna cables and generator power lines. 
+1.3.8.  Latrine and latrine screen set up 100 feet from water source and messing facility. 
+1.3.9.  Install power cords for medical equipment (i.e., suction unit, ventilators, cardiac 
+monitors, pulse oximeters, etc.). 
+82 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+1.3.10.  Ensure site is secure from loose items, packing materials, cargo nets/straps, pallets, 
+dunnage etc., before aircraft arrival at site.  Secure all items to prevent foreign object debris 
+(FOD) damage and improve safety around ERPSS-10 site. 
+1.3.11.  Identify vehicle access roads and parking areas.  Secure vehicles. 
+1.3.12.  Establish daily duty schedule and post. 
+1.3.13.  Establish hand-washing facilities. 
+ 
+ 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+83 
+ 
+ 
+Attachment 7 
+ERPSS-10 AIRFIELD CLEARANCES 
+Figure 7A.1. Airfield Clearances (Taxiway/Helo). 
+ 
+Figure 7A.2. Airfield Clearances (Runway). 
+ 
+Note:  Runway/Taxiway/Helo Pad Safety margins Airfield authorities (CRG/CRE etc.) are to be 
+consulted prior to element establishment. 
+ 
+84 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+Attachment 8 
+ERPSS-10 LAYDOWN CONSIDERATIONS 
+Figure A8.1. ERPSS 10 Laydown Considerations. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+85 
+ 
+ 
+Figure A8.2. ERPSS 10 Main Tent. 
+ 
+ 
+Figure A8.3. ERPSS 10 Overflow Tent. 
+ 
+ 
+86 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+Attachment 9 
+ERPSS-50 TENT CONFIGURATION/SET-UP 
+Figure A9.1. ERPSS 50 Tent Configuration/Set up. 
+ 
+ 
+ 
+ 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+87 
+ 
+ 
+Figure A9.2. ERPSS 50 Supply Admin Tent. 
+ 
+ 
+ 
+Figure A9.3. ERPSS 50 Admin Tent. 
+ 
+88 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+Figure A9.4. ERPSS 50 ER/Triage Tent. 
+ 
+ 
+Figure A9.5. ERPSS 50 Patient Staging. 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+89 
+ 
+ 
+Attachment 10 
+EXAMPLE SITREP AND OPREP-3 GUIDE 
+SITREP 
+Item 1   
+Identity and Type of unit. 
+Item 2   
+Operating location of unit. 
+Item 3   
+List number of assigned personnel by AFSC. 
+ 
+ 
+Note any gains or losses since last report. 
+Item 4A   
+Patients evacuated since last report, as:  (U.S) - (ALLIED) - (EPW) 
+Item 4B  
+ Patients evacuated since last report, as: 
+ 
+ 
+ 
+ 
+BI / L /A+ Att 
+ 
+ 
+ 
+ 
+NBI / L /A+ Att 
+Item 4C   
+Patients waiting for evacuation, as:  L /A+ Att 
+Item 5   
+Equipment status (vehicles, AGE, radios, admin, medical) to be listed as: 
+Green:   
+Fully mission capable. 
+Yellow:   
+Operational, but needs parts, repair or re-supply within 24 hours. 
+Red:      
+ Not operational, but expected to be within 24 hours. 
+Black:   
+Not operational, and not expected to be within 24 hours. 
+Note:  List “green” equipment on the Operational Employment (first) report only.  For all other 
+colors list exact problem and any corrective actions underway. 
+Item 6   
+Comments or remarks section.  List any factors that may adversely affect mission 
+effectiveness. 
+OPREP-3  
+Item 1   
+Number of Medical Personnel impacted.  
+Item 2    
+Infrastructure impact as a result of the incident or natural disaster.  
+Item 3   
+Impact to operational capability as a result of the incident or natural disaster.  
+Item 4   
+Detailed medical equipment issues/requirements.  
+90 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+Item 5  
+Detailed Class VIII medical materiel issues/requirements, with separate reporting for 
+Class VIIIA medical supplies and Class VIIIB Blood and blood products.  
+Item 6   
+Detailed information on additional medical forces required.  
+Item 7   
+Medical unit commander’s narrative, as needed to provide more detail, clarification 
+of mission impact, corrective action/resolution and estimated get-well date. 
+*** Classification:  SITREPs/OPREP-3s are classified SECRET or EXERCISE SECRET! 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+91 
+ 
+ 
+Attachment 11 
+MESSAGE FORMATS 
+MESSAGE NUMBER DATE TIME GROUP 
+(MSG NR DTG) 
+03 R 090011Z OCT 12 
+MSG NR PREC.  DATE Z TIME MTH YEAR 
+Z=FLASH:  LESS THAN 10 MINUTES. 
+O=IMMEDIATE:  NO LONGER THAN 1 HOUR 
+P=PRIORITY:  NO LONGER THAN 6 HOURS 
+R=ROUTINE:  WITHIN 24 HOURS 
+TIME OF RECEIPT (TOR) / TIME OF DELIVERY (TOD) 
+TOR - WHEN A MESSAGE FROM ANOTHER STATION IS RECEIVED BY YOUR 
+LOCATION 
+TOD - WHEN A MESSAGE, TRANSMITTED TO ANOTHER STATION, IS 
+ACKNOWLEDGED AS RECEIVED BY THAT STATION. 
+10 1337Z OCT 04 //LL// WD 
+DATE Z TIME MTH YEAR FQ PERSONAL SIGN 
+GENERAL MESSAGE WORKSHEET 
+MESSAGE NUMBER DTG:__________________________ 
+FROM: ________________ 
+TO: ___________________ 
+INFO: _________________ 
+BT 
+BT 
+TOR / TOD 
+RE-SUPPLY REQUEST 
+92 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+NR: _______________________ 
+FROM: ____________________ 
+TO: _______________________  
+INFO: _____________________ 
+BT 
+DRILL / EXERCISE 
+LITTERS: ____________________________________________________________ 
+TENTAGE: ___________________________________________________________ 
+RATIONS: (Number of Meals): ____________________________________________ 
+WATER: (Gallons): _____________________________________________________ 
+FUEL: (Type & Gallons): _________________________________________________ 
+OTHER (Specify): ______________________________________________________ 
+________________________________________________________________________ 
+________________________________________________________________________ 
+REMARKS: __________________________________________________________ 
+_______________________________________________________________________ 
+TOR / TOD_____________________ RELEASER: _________________________ 
+EXPLANATION: Delta Message.  An optional re-supply request that can be added onto the 
+SITREP or sent separately to AECS on a daily basis, as needed. 
+ 
+ 
+ 
+ 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+93 
+ 
+ 
+Attachment 12 
+WHEELS UP MESSAGE FORMAT 
+Table A12.1. Wheels Up Message Format. 
+ 
+AEROMEDICAL MISSION WHEELS-UP MESSAGE 
+1. FROM: 
+ 
+2. TO: 
+ 
+3. DTG: 
+ 
+4. A/C TYPE: 
+ 
+5. MISSION #: 
+ 
+6. PRECEDENCE: 
+ 
+7. CALL SIGN: 
+ 
+8. AE CREW: 
+ 
+9. CCATT: 
+ 
+10. ONLOAD INFORMATION 
+a. AFLD ICAO 
+b. ATA 
+c. ATD 
+ 
+ 
+ 
+d. LITTER 
+e. AMBULATORY 
+f. ATTENDANT 
+ 
+ 
+ 
+11. REMARKS (#CCATT , #Vented pts. & Altitude Restrictions) 
+ 
+RELEASER: 
+ 
+ 
+Note: THIS INFORMATION IS REQUIRED BY EACH ERPSS TO BE TRANSMITTED 
+TO THEIR ASSOCIATED AEOT FOR ONWARD REPORTING PURPOSES.  
+INFORMATION SHOULD BE GATHERED IN THE ERPSS BY THE 
+ADMINISTRATIVE STAFF AND TRANSMITTED BY THE FFQCR PERSONNEL AS 
+REQUIRED, BUT NO LATER THAN 10 MINUTES AFTER TAKEOFF.  
+INFORMATION GOES TO ASSOCIATED AEOT, AND/OR CRE.  IF NO CONTACT IS 
+MADE WITH THE AEOT, THIS INFORMATION WILL BE PHONED INTO THE 618 
+AOC (TACC) AT COMMERCIAL NUMBER 1-618-229-4967 OR DSN (312) 779-4967. 
+94 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+Attachment 13 
+WHEELS-UP MESSAGE COMPLETION GUIDE 
+1.  FROM:  ERPSS Unit Call sign  
+2.  TO:  Receiving Unit (i.e. AEOT Call Sign, AECS Call Sign) 
+3.  DTG:  Date Time Group, message Number, Day, Time, Local or Zulu, Month and year 
+(01140923Z APR 13) 
+4.  A/C TYPE: C-130, C-17, KC-135, KC-10, C-5, C-21.  
+5.  MISSION NUMBER: Aircraft Mission # (i.e., JLWGK220F095) 
+6.  PRECEDENCE: Precedence of the mission (U – Urgent, P – Priority, R – Routine,  O – 
+Immediate) 
+7.  CALL SIGN: Aircraft Call sign 
+8.  AE CREW:  Medical Crew Director (MCD) name 
+9.  CCATT: Yes or No/If Yes, Annotate Physicians Name 
+10.  ONLOAD INFORMATION: 
+ 
+a.  AFLD ICAO: Airfield designator for the ERPSS’s deployed location 
+ 
+b.  ATA:  Actual time of Aircrafts Arrival 
+ 
+c.  ATD:  Actual time of Aircrafts Departure 
+ 
+d.  Litter:  Number of Patients on litters 
+ 
+e.  Ambulatory: Number of Ambulatory Patients 
+ 
+ 
+f.  Attendant:  Number of Non-medical/Medical Attendants 
+11.  Remarks 
+       
+Number of CCATT- Number of CCATT  Patients on Board  
+     
+Number of Vented Patients – Number of Vented patients on Board 
+    
+General Remarks – i.e. altitude restrictions  
+Releaser:  ERPSS appointed primary or alternate message releaser’s written name/initials 
+ 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+95 
+ 
+ 
+Attachment 14 
+RADIO EQUIPMENT DESTRUCTION 
+1.1.  Types of Destruction.  The ranking official on site will determine whether the nature and 
+circumstances involved in the threat to the material requires precautionary destruction or total 
+destruction.  
+1.1.1.  Precautionary Destruction.  Precautionary destruction would include the destruction of 
+administrative documents, files and other material not required for continued operation.  
+Under no circumstances will equipment be destroyed under the precautionary destruction 
+order.  Insure that records indicate what material has been destroyed when precautionary 
+destruction is implemented.  Retain all equipment, all operational and maintenance 
+documents, and a 90-day supply of COMSEC material. 
+1.1.2.  Total Destruction.  Total destruction includes the destruction of key tapes, documents, 
+and equipment.  This plan is implemented when the commander decides forces and facilities 
+are no longer adequate to protect classified and COMSEC material from impending capture or 
+loss.  Normally, other individuals are empowered to put the plan into effect on their own if 
+conditions prevent contact with the commander.  The person most familiar with the amount 
+and significance of COMSEC material on-hand must prepare a clear and concise plan.  
+Planners should consider the options available when preparing for hostile actions.  Where and 
+when capture or overrun could be imminent; the plan should always be directed toward using 
+the most expeditious means consistent with insuring total destruction. 
+1.2.  Precedence of Destruction.  Destroy assets in the following descending order: 
+1.2.1.  TOP SECRET-CRYPTO and TOP SECRET simultaneously. 
+1.2.2.  SECRET-CRYPTO. 
+1.2.3.  SECRET. 
+1.2.4.  CRYPTO CONTROLLED ITEMS (CCI). 
+1.2.5.  Remaining classified material and equipment that could benefit the enemy. 
+1.3.  Zeroing.  The term "zeroized" is used to describe the action taken to remove stored 
+information from the memory of electronic equipment.  The Secure Terminal Equipment (STE), 
+Iridium sleeve and loaded PSC-5 and PRC-150 must be erased in order to ensure complete 
+destruction.  (Consult equipment-operating instructions for zeroizing procedures.) 
+1.4.  Methods of Destruction.  There are three basic methods of destruction: 
+1.4.1.  Burning.  If using thermite or sodium nitrate on equipment, use proper safety 
+procedures.  Make sure the burn is complete and paper or plastic products are completely 
+destroyed.   
+96 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+1.4.2.  Smashing.  Completely destroy integral components to render the equipment 
+inoperable and beyond repair. 
+1.4.3.  Shredding.  Always use COMSEC approved cross cutting shredders to prevent 
+reconstruction of documents. 
+ 
+ 
+ 
+ 
+ Attachment 15 
+AE INPATIENT HANDOFF CHECKLIST 
+Figure A15.1. AE Inpatient Hand-off Checklist (Page 1 of 2). 
+ 
+ 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+             
+   97 
+ 
+98 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+Figure A15.2. AE Inpatient Hand-off Checklist (Page 2 of 2). 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+99 
+ 
+ 
+ 
+Attachment 16 
+AE Outpatient Handoff Checklist 
+100 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+Figure A16.1. AE Outpatient Handoff Checklist.
+ 
+Attachment 17 
+EXAMPLE SHIFT LEADER BOARD 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+101 
+ 
+ 
+Figure A17.1. Example Shift Leader Board.
+ 
+ 
+ 
+102 
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+ 
+ 
+Attachment 18 
+EXAMPLE MISSION BOARD 
+Figure A18.1. Example Mission Board.
+ 
+AFTTP3-42.57  10 AUGUST 2016 
+103 
+Attachment 19 
+EXAMPLE PATIENT WARD STATUS BOARD 
+Figure A19.1. Example Patient Ward Status Board.

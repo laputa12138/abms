@@ -1,0 +1,2542 @@
+BY ORDER OF THE SECRETARY  
+OF THE AIR FORCE 
+ 
+DEPARTMENT OF THE AIR FORCE 
+MANUAL 10-703 
+2 JUNE 2021 
+Operations 
+ELECTROMAGNETIC WARFARE 
+INTEGRATED REPROGRAMMING 
+COMPLIANCE WITH THIS PUBLICATION IS MANDATORY 
+ 
+ACCESSIBILITY:  Publications and forms are available for downloading or ordering on the e-
+Publishing web site at www.e-Publishing.af.mil 
+RELEASABILITY:  There are no releasability restrictions on this publication 
+ 
+ 
+OPR: AF/A5L 
+ 
+Supersedes: 
+AFI10-703, 4 June 2014 
+Certified by: AF/A5L  
+Brig Gen (S) Michael Manion  
+Pages: 63 
+ 
+ 
+This Department of the Air Force Manual (DAFMAN) implements Department of the Air Force 
+Policy Directive (DAFPD) 10-7, Information Operations, and provides guidance and procedures 
+for the Electromagnetic Warfare Integrated Reprogramming (EWIR) program. This publication 
+applies to the United States Space Force (USSF), Regular Air Force, the Air Force Reserve, and 
+the Air National Guard. This publication does not apply to the Civil Air Patrol. Ensure that all 
+records created as a result of processes prescribed in this publication are maintained in accordance 
+with Air Force Instruction (AFI) 33-322, Records Management and Information Governance 
+Program, and disposed of in accordance with Air Force Records Information Management System 
+Records Disposition Schedule. Compliance with the attachments in this publication is mandatory. 
+Refer recommended changes and questions about this publication to the Office of Primary 
+Responsibility (OPR) using the AF Form 847, Recommendation for Change of Publication; route 
+AF Forms 847 from the field through the appropriate functional chain of command then send to 
+Electromagnetic Spectrum Superiority Directorate (AF/A5L), email to the AF/A5L Workflow 
+AF.A5L.Workflow@us.af.mil. This publication may be supplemented at any level; supplements 
+are not required to be routed to the OPR of this publication for coordination prior to certification 
+and approval. The authorities to waive wing or unit level requirements in this publication are 
+identified with a Tier (“T-0, T-1, T-2, T-3”) number following the compliance statement. See 
+Department of the Air Force Instruction (DAFI) 33-360, Publications and Forms Management, 
+for a description of the authorities associated with the Tier numbers. Submit requests for waivers 
+through the chain of command to the appropriate Tier waiver approval authority, or alternately, to 
+the requestor’s commander for non-tiered compliance items. 
+2 
+DAFMAN10-703  2 JUNE 2021 
+SUMMARY OF CHANGES 
+This document has been substantially revised and needs to be completely reviewed. This 
+instruction reflects updated information based on portions of the Chairman of the Joint Chiefs of 
+Staff Manual (CJCSM) 3212.02E, Performing Electronic Attack in the United States and Canada 
+for Tests, Training, and Exercises; Joint Publication (JP) 3-85, Joint Electromagnetic Spectrum 
+Operations, Air Force Doctrine Annex 3-51, Electromagnetic Warfare and Electromagnetic 
+Spectrum Operations; and Air Force Manual (AFMAN) 16-101, Security Cooperation (SC) and 
+Security Assistance (SA) Management. Major changes include (1) replacing many acronyms with 
+correct terms to improve readability, (2) consolidating sections on process, terminology and 
+organizational functions to provide a single chapter on EWIR fundamentals, and (3) updating 
+office symbols throughout the text, acronym listing and EWIR committee membership matrix. 
+Additionally, organizational changes within the Department of the Air Force (DAF) are on-going. 
+At the time of publication, the USSF is still developing its headquarters organizational structure 
+with associated roles and responsibilities. The USSF will leverage Air Force structure and 
+capability until the USSF further defines its organizational structure, roles, and responsibilities. 
+The Air Staff will coordinate with equivalents on the Office of the Chief of Space Operations 
+(informally Space Staff), as necessary. Upon activation of the 350th Spectrum Warfare Wing, 
+EWIR processes with respect to air and space platforms will be defined and revised, as necessary. 
+ 
+Chapter 1—PURPOSE, PROCESS AND ORGANIZATIONAL FUNCTIONS 
+ 
+4 
+1.1. 
+Purpose. ...................................................................................................................  
+4 
+1.2. 
+EWIR Process. .........................................................................................................  
+4 
+Figure 1.1. 
+EWIR Process. .........................................................................................................  
+5 
+1.3. 
+Timeliness of Reprogramming Actions. ..................................................................  
+13 
+1.4. 
+Organizational Functions. ........................................................................................  
+13 
+1.5. 
+Required Coordination. ............................................................................................  
+15 
+Chapter 2—ROLES AND RESPONSIBILITIES 
+ 
+17 
+2.1. 
+Headquarters Air Force (HAF). ...............................................................................  
+17 
+2.2. 
+MAJCOMs, FLDCOMs, and Subordinate Units. ....................................................  
+21 
+2.3. 
+Air Components to Geographic Combatant Commands. .........................................  
+25 
+2.4. 
+Wings or Groups with Reprogrammable EW Systems. ...........................................  
+25 
+2.5. 
+Operational Reprogramming Centers (53 EWG, Det 1 492 SOW, AMC/OL-A 
+and AFLCMC/WNYI [for some foreign military sales]).  ......................................  
+28 
+2.6. 
+Support Reprogramming Center (AFLCMC/WNY).  .............................................  
+29 
+2.7. 
+Air Force Operational Test and Evaluation Center (AFOTEC)...............................  
+31 
+2.8. 
+Air Force Intelligence Mission Data (IMD) Producers. ..........................................  
+32 
+2.9. 
+Air Operations Center’s Electromagnetic Warfare Cell. .........................................  
+34 
+2.10. 
+EWIR Committee and Subcommittees. ...................................................................  
+35 
+DAFMAN10-703  2 JUNE 2021 
+3 
+2.11. 
+Program Managers of EW Systems or Systems Conducting EW.  ..........................  
+35 
+Chapter 3—EXERCISES AND EVALUATION PROGRAMS 
+ 
+39 
+3.1. 
+General. ....................................................................................................................  
+39 
+3.2. 
+HAF Directed Exercises. .........................................................................................  
+39 
+3.3. 
+MAJCOM Directed Exercises.  ...............................................................................  
+40 
+3.4. 
+Wing or Group Directed Exercise Goals Include: ...................................................  
+40 
+Chapter 4—INTERNATIONAL EWIR PROGRAM 
+ 
+41 
+4.1. 
+Purpose. ...................................................................................................................  
+41 
+4.2. 
+Scope. .......................................................................................................................  
+41 
+4.3. 
+Approach. .................................................................................................................  
+41 
+4.4. 
+Special Factors. ........................................................................................................  
+41 
+4.5. 
+International EWIR Program Disclosure. ................................................................  
+42 
+4.6. 
+EW Systems Support. ..............................................................................................  
+42 
+4.7. 
+Functional Responsibilities. .....................................................................................  
+42 
+4.8. 
+Foreign Military Sales Policy. .................................................................................  
+45 
+4.9. 
+Database Support for EW Reprogramming. ............................................................  
+45 
+4.10. 
+Communications. .....................................................................................................  
+47 
+4.11. 
+Foreign Military Sales EWIR Training and Exercise Support. ...............................  
+47 
+Attachment 1—GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+ 
+49 
+Attachment 2—EWIR COMMITTEE MEMBERSHIP MATRIX 
+ 
+58 
+Attachment 3—EWIR DATA TYPES 
+ 
+60 
+ 
+4 
+DAFMAN10-703  2 JUNE 2021 
+Chapter 1 
+PURPOSE, PROCESS AND ORGANIZATIONAL FUNCTIONS 
+1.1.  Purpose.  The purpose of EWIR is to provide a capability to characterize adversary, friendly, 
+and third-party electromagnetic emissions, understand their impact on operations, and to optimize 
+friendly system capability. 
+1.1.1.  Operations in the electromagnetic spectrum (EMS) are characterized by friendly, 
+neutral, and hostile threat systems that use the EMS. EWIR is an integrated, structured set of 
+processes and associated technologies designed to enable friendly forces to attack, maneuver, 
+and exploit the EMS to achieve mission success. 
+1.1.2.  EWIR optimization includes (but is not limited to) the capability to rapidly detect, 
+accurately identify, and respond appropriately. EWIR functions are foundational to successful 
+Electromagnetic Spectrum Operations and Electromagnetic Warfare (EW). 
+1.2.  EWIR Process.  The EWIR process consists of four processes (See Figure 1.1 below). These 
+interconnected processes are: 1) Change Detection Process; 2) Impact Determination Process; 3) 
+Reprogramming Process; and 4) Change Delivery Process. The overall combination of processes 
+is referred to by the unclassified code name PACER WARE. PACER WARE includes mission 
+data changes, missionware changes, operational flight program (OFP) changes, or minor hardware 
+changes that comply with the guidance in AFI 63-101/20-101, Integrated Life Cycle Management, 
+concerning modifications. These changes are categorized into 3 priority levels: routine, urgent, 
+and emergency. These levels are described in paragraph 1.2.1.4.3 Throughout the PACER 
+WARE process, requests, information, and direction are provided using a series of messages 
+presented starting on paragraph 1.2.1.3. Note: At the time of publication of this document, EWIR 
+process roles and responsibilities for USSF organizations such as field commands (FLDCOMs), 
+deltas and garrisons have not been fully defined. DAF staffs continue an on-going effort to define 
+these roles and responsibilities. As a result, the EWIR process is evolving to incorporate, as 
+appropriate, organizational changes and to support the attainment of EMS superiority as presented 
+in JP 3-85. 
+DAFMAN10-703  2 JUNE 2021 
+5 
+Figure 1.1.  EWIR Process. 
+ 
+1.2.1.  Change Detection Process: 
+1.2.1.1.  The US intelligence community collects and evaluates, using multiple sources, a 
+wide variety of data on foreign systems and makes these data available in databases 
+accessible by the reprogramming centers and other agencies. Functional responsibilities of 
+reprogramming centers are provided in paragraphs 2.5 and 2.6 Of the potential sources for 
+intelligence, electronic intelligence, imagery intelligence, foreign materiel exploitation, 
+and open source intelligence are the most commonly used to identify electromagnetic 
+characteristics of enemy systems. Note: This data is referred to as RED (adversary) and 
+GRAY (other foreign military) data. Other data sources may include data acquired via 
+testing and evaluation of exported (GRAY) systems. Table A3.1 in Attachment 3 provides 
+definitions of each color code. Table A3.2 defines US, non-US military, hostile, and non-
+hostile users. Table A3.3 consolidates information from the previous two tables into a 
+single matrix to explain the characteristics of each color code. 
+1.2.1.2.  In the future, the onboard digital recording and processing capabilities will 
+provide increasingly robust operational reconnaissance (OPS RECCE) capability. OPS 
+RECCE data will supplement traditional sources of data collection supporting change 
+detection. 
+1.2.1.3.  Along with the RED and GRAY data provided by the intelligence community, 
+other types of data are essential to programming electromagnetic warfare (EW) systems to 
+correctly identify and respond to detected signals. These other types of data include 
+characteristics of US military systems (BLUE data) and commercial systems (WHITE 
+data). The purpose of BLUE and WHITE data is similar to that of RED and GRAY data--
+to accurately identify systems operating in the electromagnetic environment. BLUE and 
+WHITE data are produced, databased, and used in reprogramming updates. All these data 
+6 
+DAFMAN10-703  2 JUNE 2021 
+types are provided to reprogramming centers via the EWIR database (EWIRDB) and other 
+sources, and are used to program EW systems to correctly identify systems by their 
+electromagnetic characteristics. See Attachment 3 for more information on data types. 
+Signal information on Department of the Air Force (DAF) platforms, and target or 
+environment information obtained to support DAF platforms, is shared through the AF 
+EWIR process. Note: Electromagnetic spectrum data is shared in accordance with 
+Department of Defense Instruction (DoDI) 8320.05, Electromagnetic Spectrum Data 
+Sharing. 
+1.2.1.4.  Intelligence and OPS RECCE data is filtered manually or through computer 
+flagging models to detect what threats or signals have changed. Periodic data review 
+identifies required changes. Refer to Chairman of the Joint Chiefs of Staff Instruction 
+(CJCSI) 3320.01D Joint Electromagnetic Spectrum Operations (JEMSO), for additional 
+guidance. All-source validation assessments by intelligence or service production centers 
+and observed signals validation assessments by the National Security Agency (NSA) of 
+signal changes are recommended to assist in the determination that actual electromagnetic 
+parameter changes have occurred in a given emitter. 
+1.2.1.4.1.  Threat Change Validation Request. The threat change validation request is 
+a request to the intelligence community to provide validation assessments to the 
+reprogramming centers. The assessments contribute to the knowledge base from which 
+reprogramming decisions are made. Reprogramming centers have the capability to 
+send a threat change validation request using the threat change messaging portal to the 
+appropriate service production center and the recognized national signals intelligence 
+(SIGINT) authority regarding collected parameters that indicate a change to the 
+reprogramming information for a threat system. This message contains information 
+concerning the system and parameters in question and a statement of what validation 
+assessments are needed. 
+1.2.1.4.2.  Threat Change Validation Message. The analysts at the service production 
+center or national SIGINT authority assess whether the parameters in question are a 
+true capability or mode of the threat system, and also determine whether the threat 
+change is valid. Then, using the threat change messaging portal, the analysts send the 
+determination via a threat change validation message. Timing of the threat change 
+validation assessment will be based upon the priority of the required reprogramming 
+action (routine, urgent or emergency) and coordinated with the appropriate 
+reprogramming center. Reprogramming centers do not await a validation assessment 
+and threat change validation message before beginning a reprogramming action. 
+1.2.1.5.  Operational Change Request. In addition to intelligence community activity, 
+electromagnetic equipment deficiencies reported by aircrew in post mission reports or a 
+joint spectrum interference resolution report may also start the EWIR process. These 
+deficiencies may come from: (1) new threats; (2) changed parameters of existing threats; 
+(3) aircrew or maintenance personnel interested in improving system operation including 
+support equipment or requests for specific mission data updates; (4) changes in operational 
+environment, or (5) changes in the intended use of the EW equipment. Organizations and 
+individuals performing EWIR must identify EW deficiencies via the operational change 
+request message. Operational change request message templates are located in 
+EWIR_OPS_PW_MSG_Templates library on the Multi-Service Data Distribution System. 
+DAFMAN10-703  2 JUNE 2021 
+7 
+1.2.1.5.1.  Distribution. Operational change requests are typically issued by wing or 
+group combat systems officer, EW officer or electronic combat pilots to their major 
+command (MAJCOM) or EW cell with an informational copy to the appropriate 
+operational reprogramming center. The operational reprogramming centers can send an 
+operational change request message to their MAJCOM with an informational copy to 
+the appropriate wing, or group combat systems officer, EW officer or electronic combat 
+pilot. When requesting specific mission data updates, units shall send the operational 
+change request message to the operational reprogramming center with a copy to the 
+MAJCOM. 
+1.2.1.5.2.  Validation. The MAJCOM or EW cell validates the request and tasks the 
+appropriate reprogramming center with developing corrective action. Air Combat 
+Command (ACC), as the combat air forces lead, validates and prioritizes, as necessary, 
+all combat air forces operational change requests [except for Air Force Global Strike 
+Command (AFGSC) bomber aircraft or systems]. AFGSC validates and prioritizes, as 
+necessary, all AFGSC operational change requests for AFGSC assets. Air Mobility 
+Command (AMC), as the mobility air forces lead, validates all mobility air forces 
+operational change requests. Air Force Special Operations Command (AFSOC), as the 
+Air Force special operations lead, validates and prioritizes, as necessary, all Air Force 
+special operations operational change requests. 
+1.2.1.5.3.  Prioritization. The MAJCOM or EW cell and reprogramming center 
+prioritize and evaluate the operational change request and suggest methods for 
+implementation. Originators submit an operational change request message with either 
+an emergency, urgent, or routine priority. The priority of the operational change request 
+message will be included in the text of the message. 
+1.2.1.5.3.1.  Reprogramming centers will work on emergency changes, to the 
+exclusion of all other activities, on a 24-hour basis until complete. (T-3). 
+Originators submit an emergency operational change request message (1) to change 
+operational characteristics that might seriously threaten national security; (2) when 
+a condition exists preventing an adequate response to a threat, and the situation 
+warrants immediate action; (3) to change operational characteristics that might 
+result in fatal or serious injury or extensive equipment damage or destruction. 
+1.2.1.5.3.2.  An urgent operational change request message shall be submitted with 
+a “need” date, and actual timelines and level of effort are determined by negotiation 
+between the submitting MAJCOM and the reprogramming center. (T-3). Urgent 
+changes shall reach the field within 72 hours, with the goal of having the 
+reprogramming center release the required change within 72 hours after a required 
+change has been validated. (T-3). These changes normally take precedence over 
+any other activity except emergency changes. Originators submit an urgent 
+operational change request message (1) to change operational characteristics that 
+might seriously threaten mission effectiveness; (2) when a condition exists 
+preventing an adequate response to a threat-associated system, and the situation is 
+normal but warrants immediate action; (3) to change operational characteristics that 
+might result in injury or equipment change. 
+ 
+ 
+8 
+DAFMAN10-703  2 JUNE 2021 
+1.2.1.5.3.3.  Routine operational change requests are normally scheduled and 
+included in block cycle updates for the affected EW equipment. Originators submit 
+a routine operational change request message when (1) the system has a high 
+probability of correctly responding to a threat or can compensate for threat and 
+friendly emitter changes, but minor deficiencies exist that may show an error; (2) 
+the situation is normal and does not warrant immediate action; (3) the deficiencies 
+or errors are not a hazard to personnel or equipment; (4) changes in training mission 
+data are desired. 
+1.2.1.6.  Software Change Message. The operational reprogramming center must send a 
+software change message to the supporting reprogramming center when the operational 
+change request affects the operational flight program, EW system hardware, etc. (T-3). 
+1.2.1.7.  Additionally, EW software reprogramming updates are consolidated and 
+produced to correct deficiencies or to make improvements in system performance. 
+Typically, these software changes are handled as routine updates, but in some cases these 
+changes become more pressing if the operational situation dictates. Reprogramming 
+centers maintain close coordination with affected MAJCOMs and remain flexible to meet 
+fielding requirements. 
+1.2.2.  Impact Determination Process: 
+1.2.2.1.  Reprogramming centers continue the process of assessing the threat change 
+impact on an EW system by performing engineering analysis, as well as laboratory tests. 
+RC’s also identify areas where they do not possess sufficient data to render a judgement. 
+1.2.2.2.  The reprogramming center, in coordination with the affected MAJCOMs or 
+commander, Air Force forces (usually the joint or combined force air component 
+commander’s EW cell as described in JP 3-85), determines how to respond to the threat 
+change. The response will be to: 
+1.2.2.2.1.  Take no action. (T-3). 
+1.2.2.2.2.  Change existing tactics. (T-3). 
+1.2.2.2.3.  Reprogram mission data or operational flight program system software. (T-
+3). 
+1.2.2.2.4.  Change existing hardware. (T-3). 
+1.2.2.2.5.  Acquire new hardware. (T-3). 
+1.2.2.3.  System Impact Message. The reprogramming center will report the impact of the 
+threat change, the effect on the EW system, an interim course of action, and recommended 
+course of action to the affected units, the MAJCOM and joint or combined force air 
+component commander in a system impact message. (T-3). The appropriate 
+reprogramming center sends the system impact message to the units and MAJCOM or EW 
+cell. Critical messages will require verbal contact with the units, MAJCOM or EW cell to 
+facilitate “pulling” these system impact messages (and other reprogramming messages) 
+from the Multi-Service Data Distribution System. (T-3). This message: 
+1.2.2.3.1.  Describes the impact of threat changes on an EW system. 
+1.2.2.3.2.  Discusses system deficiencies. 
+DAFMAN10-703  2 JUNE 2021 
+9 
+1.2.2.3.3.  Recommends interim corrections. Examples of these corrections include 
+interim tactics and recommended employment options. 
+1.2.2.4.  The receipt of a system impact message may be the first indication a unit receives 
+for a threat change. A unit will receive one system impact message followed shortly by the 
+reprogramming impact message, maintenance instruction message or time compliance 
+technical order, and implementation message for a particular EW system. A unit may also 
+receive a number of system impact messages affecting a particular EW system, over a 
+period of time, before the reprogramming impact message, maintenance instruction 
+message or time compliance technical order, and implementation message for that system 
+is received. 
+1.2.3.  Reprograming Centers will: 
+1.2.3.1.  Notify affected MAJCOM(s) of intent to develop the software or mission data 
+change. (T-3). 
+1.2.3.2.  Test the change in the laboratory (hardware-in-the-loop, computer simulation, or 
+critical analysis). (T-3). 
+1.2.3.3.  Determine mission data or system software compatibility with applicable field 
+loading equipment, such as: program loader verifiers; memory loader verifiers; Enhanced 
+Diagnostic Aide; common aircraft portable reprogramming equipment and applicable O-
+level support equipment, such as USM-670, USM- 464, PLM-4, APM-427; or enhanced 
+automated special test equipment. (T-3). Tests to determine mission data compatibility will 
+be performed prior to fielding routine and urgent changes. (T-3). Operational flight 
+program changes will always be tested against support equipment. (T-3). Emergency 
+mission data changes will be fielded prior to the tests being performed. (T-3). If the support 
+equipment indicates a previously undetected failure with the changed mission data or the 
+operational flight program, and the mission data or operational flight program is 
+determined to be the cause of the fault, the following actions shall occur: 
+1.2.3.3.1.  Describe the failure in the maintenance instruction message or 
+reprogramming impact message, as well as the appropriate actions or workarounds that 
+shall be taken. For example, ignore--does not indicate a true failure mode. (T-3). 
+1.2.3.3.2.  Contact the support reprogramming center and request a change to the 
+support equipment software to eliminate the false failure. (T-3). 
+1.2.3.4.  Flight test the change, if required. (T-3). EW systems that transmit 
+electromagnetic energy for testing, training and exercises in the US and Canada must 
+comply with electromagnetic spectrum use policy in accordance with AFI 17-220, 
+Spectrum Management, and CJCSM 3212.02E. (T-0). The Air Force Spectrum 
+Management Office is the focal point for frequency spectrum management in support of 
+EW within the US and US Territories. 
+1.2.3.5.  The reprogramming center making software change takes overall lead to 
+coordinate with support reprogramming centers and platform program managers. This 
+process is critical to facilitate long lead efforts, such as time compliance technical order 
+development, validation and verification, scheduling, etc. 
+10 
+DAFMAN10-703  2 JUNE 2021 
+1.2.3.6.  Program managers take appropriate steps to ensure MAJCOM A3 directed 
+timelines and guidance are adhered to during the implementation process. Program 
+managers are responsible to identify and ensure all actions necessary are accomplished for 
+their mission design series. (T-3). Program managers evaluate all software prior to 
+MAJCOM implementation decision and notify the MAJCOM if flight or ground testing is 
+required. (T-3). 
+1.2.3.7.  Recommend fielding of the software or mission data or missionware change to the 
+MAJCOM or the EW cell. If software affects multiple aircraft, such as different mission 
+design series with same EW system installed, the reprogramming center will coordinate 
+with the program managers prior to making the fielding recommendation to MAJCOM. 
+(T-3). Fielding recommendations imply that both the reprogramming center developing the 
+software and the program manager responsible for aircraft configuration have completed 
+all necessary actions, such as ground, flight or system integration lab testing, or technical 
+order documentation prior to recommending to MAJCOM or EW cell the software is ready 
+to install. 
+1.2.3.8.  The appropriate reprogramming center will send the reprogramming impact 
+message to units and MAJCOM or EW cell. (T-3). This message: 
+1.2.3.8.1.  Describes in detail how an EWIR change affects an EW system. 
+1.2.3.8.2.  States the impact of implementing or not implementing the change. 
+1.2.3.8.3.  Helps aircrews and commanders decide when or whether to implement a 
+change. 
+1.2.3.9.  Maintenance Instruction Message. The appropriate reprogramming center will 
+send the maintenance instruction message, which provides maintenance uploading 
+instructions, to units along with the changes for an EW system. (T-3). 
+1.2.3.10.  The appropriate air logistics complex in most cases, the Air Force Life Cycle 
+Management 
+Center, 
+Electronic 
+Warfare/Avionics 
+System 
+Program 
+Office 
+(AFLCMC/WNY) sends the time compliance technical order to units.  This message 
+includes information on: 
+1.2.3.10.1.  New block cycle or operational flight program. 
+1.2.3.10.2.  Changes to system handbooks or mission guides. 
+1.2.3.10.3.  Changes to mission data. 
+1.2.3.10.4.  Implementation instructions. 
+1.2.4.  Change Delivery Process: 
+ 
+ 
+DAFMAN10-703  2 JUNE 2021 
+11 
+1.2.4.1.  After coordinating with the MAJCOM or EW cell, the reprogramming centers 
+distribute the software changes to operational units and to platform program managers 
+electronically through classified organizational PACER WARE SECRET Internet Protocol 
+Router Network (SIPRNet) email accounts as well as posting it on the Multi-Service Data 
+Distribution System. (T-3). (This system is accessible via the SIPRNet at Detachment 1 
+492d Special Operations Wing (Det 1, 492 SOW) homepage http://ecsf.afsoc.af.smil.mil 
+or the EW Toolbox-- http://ewtoolbox.eglin.af.smil.mil and via direct secure 
+communications equipment connection). Operational unit commanders will implement 
+changes based on the guidance in this instruction. (T-3). 
+1.2.4.2.  Operational flight program software updates are normally implemented through 
+the computer program identification number distribution process. Computer program 
+identification number revisions are automatically distributed through technical order 
+distribution office accounts. New computer program identification number versions need 
+a time compliance technical order to identify the new computer program identification 
+number and to inform the technical order distribution officer to establish the identification 
+number. Current computer program identification number versions are listed in platform 
+manuals for reference by maintenance personnel. The time compliance technical order 
+process is temporary and is not be used for long term sustainment of configuration items. 
+Program managers will staff time compliance technical orders through appropriate 
+MAJCOM A3/A4 offices for approval to release operational flight program software. (T-
+3). 
+1.2.4.3.  Mission data software is typically implemented by PACER WARE message, upon 
+MAJCOM A3 approval. If both mission data and operational flight program software are 
+changed, they will be implemented together via time compliance technical order. However, 
+when operational flight programs are changed in time critical circumstances (urgent or 
+emergency) the program managers must coordinate with the reprogramming centers and 
+release the time compliance technical order in conjunction with approved PACER WARE 
+messages within MAJCOM directed timelines. (T-3). Upon approval to implement or 
+release software for fielding, the software will be distributed to EW maintenance shops via 
+the Multi-Service Data Distribution System. Installation instructions for mission data and 
+mission data bundled with an operational flight program are typically in the form of a 
+maintenance instruction message or embedded in a reprogramming impact message. 
+Mission data only changes are not considered an aircraft or system modification as 
+described in AFI 63-101/20-101; therefore an AF Form 1067, Modification Proposal, is 
+not required. If technical orders are impacted by mission data change (occurs if changes 
+impact test or walk-around procedures), the Air Force Life Cycle Management Center 
+(AFLCMC/WNY) or platform program manager will update the technical data and release 
+the update in an interim operational supplement. 
+1.2.4.4.  The MAJCOM or EW cell uses the reprogramming impact message, along with 
+previous coordination with reprogramming centers, to determine whether to install the new 
+software in their units' EW equipment and the priority used to implement the change. If the 
+MAJCOM A3 (or designated authority) or EW cell decide to install the software, they 
+authorize the installation using an implementation message (see PACER WARE Database 
+Users Guide https://wwwmil.53wg.eglin.af.mil/pacerware ) 
+12 
+DAFMAN10-703  2 JUNE 2021 
+1.2.4.5.  The implementation message is authorization, not direction, to load software. This 
+message will also include timing criteria and notification instructions. The implementation 
+message is also sent to the reprogramming centers to notify them of the status of the change. 
+During emergency or high priority software changes, the unit can expect to receive the 
+implementation message at nearly the same time as, or shortly after, the above messages. 
+For routine changes, the timing of implementation message release may vary widely. 
+MAJCOMs may choose to issue a standing implementation message that authorizes 
+loading based on reprogramming impact message, maintenance instruction message or 
+time compliance technical order messages. 
+1.2.4.6.  After coordination with the joint EW cell command EW officer, joint force air 
+component commander EW cell or air mobility division tactics section (for mobility air 
+forces), the wing or group EW officer recommends software to load for the commander’s 
+decision, as required. The MAJCOM, wing or group EW officer advises the commander 
+who makes the final decision on which software to load. When directed by the appropriate 
+authority, units load software reprogramming changes to combat coded aircraft. With wing 
+commander (or designated representative) approval, units schedule and upload software 
+changes on training and test coded aircraft as soon as possible, on a non-interference basis 
+with programmed training and testing. 
+1.2.4.7.  Unit Loading Message. Once units have installed the software or mission data in 
+its EW systems, the unit will report this to its MAJCOM, EW cell, and the appropriate 
+reprogramming centers using the unit loading message within 72 hours (3 duty days) of 
+completion. (T-3). The unit loading message includes implementation status and issues 
+affecting 100% aircraft upload (actual); or when the number of systems has been uploaded 
+as instructed by the implementing authority (exercise). Instructions and contact 
+information for unit loading message reporting are outlined in previous applicable PACER 
+WARE messages. 
+1.2.4.8.  Units report the following information to the MAJCOM, EW cell, reprogramming 
+centers and other appropriate addressees. (T-3). Note: Actual addressees are normally 
+identified by the MAJCOM in their implementation message for each software change; 
+classification of unit loading messages is in accordance with individual system or aircraft 
+classification guide; addressees for unit loading messages are normally provided by the 
+implementation authority in the implementation message(s). Templates are located in 
+EWIR_OPS_PW_MSG_Templates library on the Multi-Service Data Distribution System. 
+1.2.4.8.1.  A synopsis of reprogramming changes, including start and stop times for 
+each reprogramming action. (T-3). 
+1.2.4.8.2.  Any problems a unit encountered. (T-3). 
+1.2.4.8.3.  Any MAJCOM specific instructions. (T-3). 
+1.2.4.9.  Status Message. The status message is sent by the reprogramming centers to the 
+units, MAJCOMs, the EW cell, and any other interested parties, during periods of 
+heightened activity or exercises. This message provides updates of current reprogramming 
+actions, to include estimated time of completion. The reprogramming centers will send the 
+status message every 72 hours, or as requested by the lead MAJCOM, throughout the 
+period of activity or exercise. (T-3). 
+DAFMAN10-703  2 JUNE 2021 
+13 
+1.2.4.10.  EWIR messages and data are normally sent in the order listed above. However, 
+many factors can affect when an agency or unit receives these messages and in what order 
+they are received. These factors include, but are not limited to, priority of the change(s), 
+location of the originator, common-user messaging system traffic congestion, unit 
+distribution policies, and whether or not the unit has Multi-Service Data Distribution 
+System capability. 
+1.3.  Timeliness of Reprogramming Actions.  All reprogramming (PACER WARE) messages 
+will include either a “ROUTINE”, “URGENT” or “EMERGENCY” precedence in the subject 
+line. (T-3). Recipients (service production centers, reprogramming centers, MAJCOMs and flying 
+units) of reprogramming messages perform reprogramming actions, if required, based upon the 
+precedence of the message. Note: Precedence may change if a crisis occurs, or ends, in the middle 
+of specific reprogramming action. Use the following criteria when performing reprogramming 
+actions: 
+1.3.1.  EMERGENCY. Emergency changes, initiated during combat operations, will 
+necessitate reprogramming centers conduct 24-hour operations, with the goal of having the 
+reprogramming center release the required change within 24 hours after a required change has 
+been validated, depending on the complexity of the change. (T-3). Flying units will 
+immediately perform reprogramming actions as required by the reprogramming message. (T-
+3). Flying unit commanders will determine if training or operational missions can or cannot be 
+flown without reprogramming actions being performed. (T-3). Note: During all exercises, 
+MAJCOM or Inspector General timelines are used to determine the flying unit’s success in 
+meeting emergency timeliness. 
+1.3.2.  URGENT. Typically accomplished during crisis periods, reprogramming centers and 
+flying units will accomplish urgent changes during normal duty hours, but urgent changes will 
+take precedence over other activities until complete. (T-3). After a required change has been 
+validated, the reprogramming center’s goal is to release the required change and be received 
+by flying units within 72 hours. However, acceptable timelines for urgent changes are 
+negotiated between the applicable MAJCOM and reprogramming center, depending on the 
+complexity of the change. 
+1.3.3.  ROUTINE. Considered normal day-to-day operations. Flying units will schedule 
+around the daily training or maintenance schedule. (T-3).  Note: A no-later-than date for 
+completion will be given by the implementation authority. 
+1.4.  Organizational Functions.  The following are those organizations with primary EWIR 
+responsibilities within the DAF: 
+1.4.1.  53d Electronic Warfare Group (53 EWG), 53d Wing, Eglin AFB, FL. The 53 EWG is 
+an operational reprogramming center. The 53 EWG develops, modifies, and tests mission data 
+for combat air forces and combat search and rescue aircraft and selected foreign military sales-
+supported aircraft. The 53 EWG maintains engineering, operational, and intelligence expertise 
+and provide technical support for operational flight program updates and testing, fielding of 
+new EW systems, EW-related training, EW system configuration control, and other EW and 
+EWIR issues. 
+1.4.2.  The 453d Electronic Warfare Squadron (453 EWS), Joint Base San Antonio-Lackland, 
+TX is part of the 53 EWG. 
+14 
+DAFMAN10-703  2 JUNE 2021 
+1.4.2.1.  The 453 EWS develops and operates analytic capabilities necessary for the 
+support of EW mission planning, threat assessments, acquisition, and training. Their 
+expertise includes the fields of intelligence analysis (especially SIGINT), engineering 
+analysis, data production, modeling and simulation and distributed mission operations. 
+1.4.2.2.  The 453 EWS conducts parametric and model-based threat change detection 
+(referred to as "flagging") of SIGINT data to identify new or modified threat emitters. 
+1.4.3.  Air Force Life Cycle Management Center, Electronic Warfare/Avionics System 
+Program Office (AFLCMC/WNY), Air Force Materiel Command (AFMC), Robins Air Force 
+Base (AFB), GA. 
+1.4.3.1.  AFLCMC/WNY is a support reprogramming center. It develops, modifies, and 
+tests operational flight programs for most fighter, bomber, mobility and special operations 
+aircraft (except those whose operational flight program development is contracted out). It 
+maintains engineering and intelligence expertise for most AF systems. It supports the 
+operational reprogramming centers during the building and testing of mission data changes. 
+1.4.3.2.  The International Programs Branch (AFLCMC/WNYI) acts as an operational 
+flight program, mission data and test support reprogramming center for foreign military 
+sales. It conducts reprogramming of certain foreign military sales EW systems and acts as 
+an operational reprogramming center in this capacity. Also, it acts as a support 
+reprogramming center in support of other foreign military sales systems and processes. 
+This squadron is responsible for some foreign military sales mission data development as 
+agreed to with Det 1 492 SOW, Robins AFB, GA, and the 53 EWG. 
+1.4.4.  Det 1 492 SOW is Air Force Special Operations Command’s and Air Mobility 
+Command’s operational reprogramming center whose primary mission is to develop, modify, 
+test and maintain mission data for assigned special operations forces and mobility air forces 
+aircraft. Det 1 492 SOW maintains engineering, operational, and intelligence expertise and 
+provides technical support for operational flight program updates and testing, acquisition and 
+fielding of new EW systems, EW-related training, EW system modification and configuration 
+control, and other EW and EWIR issues. 
+1.4.5.  National Air and Space Intelligence Center (NASIC) EWIRDB technical manager, 
+Wright-Patterson AFB, OH. The EWIRDB office is responsible for hosting and disseminating 
+the EWIRDB. NASIC is also the Air Force technical electronic intelligence technical manager 
+and airborne technical electronic intelligence processing center. 
+1.4.6.  The Missile and Space Intelligence Center (MSIC), as a field production activity under 
+the Defense Intelligence Agency (DIA) Directorate for Analysis, is responsible for program 
+management of the EWIRDB. The program management office is DIA MSIC/MSD-4. 
+1.4.7.  The 57th Intelligence Squadron (57 IS), Joint Base San Antonio-Lackland, TX is part 
+of the Sixteenth Air Force (16 AF), 363d Intelligence, Surveillance and Reconnaissance Wing 
+(363 ISRW) and the 365th Intelligence, Surveillance and Reconnaissance Group (365 ISRG). 
+The 57 IS researches, analyzes, stores, and distributes intelligence mission data, consisting of 
+threat data, as well as US and friendly parametric and signature data. 
+ 
+ 
+DAFMAN10-703  2 JUNE 2021 
+15 
+1.4.7.1.  The 57 IS produces data on BLUE, BLUE+GRAY, such as BLUE gone GRAY, 
+specifically US systems sold to other countries through foreign military sales or similar 
+processes and WHITE systems, or emitters assigned by the Joint EW Center. As the US 
+Electromagnetic Systems database technical manager, the 57 IS stores BLUE data provided 
+by other military services. This data is stored and distributed in the US Electromagnetic 
+Systems database with portions electronically forwarded for input into the EWIRDB. 
+1.4.7.2.  The 57 IS maintains and archives data on aircraft radar cross sections, electro-
+optical signatures, infrared signatures and antenna patterns in the Blue Airborne Target 
+Signatures database. 
+1.4.7.3.  The 57 IS is the principal agent and a data producer for the Combat Support 
+database which combines threat system (RED) parameters, as well as BLUE and GRAY 
+aircraft signatures into an engineered product specifically formulated for use by mission 
+planning systems. 
+1.4.8.  Air Mobility Command Operating Location A (AMC OL-A), Robins AFB GA, is the 
+EW reprogramming center for the KC-46 Tactical Situation Awareness System and the ALR-
+69A. AMC OL-A provides technical and engineering assessments as requested by AMC, as 
+well as overall software management of the ALR-69A and the KC-46 Radio Frequency Self 
+Defense System Tactical Situation Awareness System. The unit develops, integrates, and fields 
+mission data files for these systems. Additionally, the unit provides reprogramming support 
+during SERENE BYTE exercises and PACER WARE operations. 
+1.5.  Required Coordination.  The primary means by which EWIR delivers capability is through 
+the production and delivery of software and hardware changes to electronic equipment used by 
+combat air forces, mobility air forces, special operations forces, and foreign military sales 
+customers. These software and hardware changes will be used in coordination with changes in 
+tactics, techniques and procedures, equipment employment guidance, aircrew training and training 
+devices, such as threat simulators and threat emitters and other support systems. Also, EWIR 
+requires close coordination with the spectrum management and intelligence community to: 
+1.5.1.  Employ an intelligence capability that rapidly collects, identifies compares, analyzes, 
+and distributes all-source intelligence information in support of EW reprogramming during 
+peacetime and all phases of conflict. 
+1.5.2.  Employ order of battle and other databases that provide an "electronic fit" (EW- system-
+to-weapon-system-platform correlation) of threats to generate regional mission data. The DAF 
+works with the intelligence community to ensure order of battle and related databases meet 
+EWIR requirements. 
+1.5.3.  Sustain a modernized integrated set of databases to include the EWIRDB and others to 
+provide an accurate, timely, and worldwide-accessible observed and assessed parametric data 
+(measured to meet power, pattern, and polarization [P-cubed] requirements), electromagnetic 
+attack data, communications externals data, platform-emitter fit, characteristics and 
+performance data (including engine data), signatures data (antenna pattern data, radar cross 
+section, and electro-optic and infrared signatures), specific emitter identification related data, 
+and additional data as requirements evolve for use in the reprogramming of onboard EW and 
+electromagnetic sensor systems. 
+16 
+DAFMAN10-703  2 JUNE 2021 
+1.5.4.  Support joint applications and joint and combined interoperability by disseminating 
+worldwide EW-related data in formats usable by operations and mission planning tools and 
+systems. Develop processes and tools for the evaluation of theater and unit EW operations, as 
+well as sufficient analytic capability to plan, monitor, and assess EW operations and the impact 
+of EW on operations. 
+1.5.5.  Develop, acquire and sustain facilities, equipment, personnel and resources to gather 
+and interpret the required parametric and characteristics and performance data for US military 
+and foreign military sales systems. (T-0). Refer to CJCSI 3320.01D, CJCSI 3210.04A, Joint 
+Electronic Warfare Reprogramming Policy, (Secret) and this instruction for additional 
+guidance. (T-0). 
+1.5.6.  Develop, acquire, and sustain EWIR support structures and processes that include 
+doctrine, tactics, techniques and procedures, employment guidance, and EWIR training at all 
+command levels. 
+1.5.7.  Develop, acquire, and sustain EWIR reach back procedures and mechanisms. 
+1.5.8.  Develop, acquire, and sustain research, development, test, and evaluation resources to 
+improve EW reprogramming to ensure effectiveness in an evolving electromagnetic 
+environment. 
+1.5.9.  Develop, acquire, and sustain facilities, equipment, personnel and procedures to create, 
+test, and distribute EW software and hardware changes to provide the capability to detect and 
+identify friendly, neutral, and adversary electromagnetic signals to improve warfighter 
+response and survivability against hostile threat systems that use the electromagnetic spectrum. 
+1.5.10.  Develop, acquire, and sustain timely, worldwide secure, and survivable means to send 
+and receive reprogramming change information. 
+DAFMAN10-703  2 JUNE 2021 
+17 
+Chapter 2 
+ROLES AND RESPONSIBILITIES 
+2.1.  Headquarters Air Force (HAF). 
+2.1.1.  Air Force Director of Electromagnetic Spectrum Superiority (AF/A5L) ensures DAF-
+sponsored Joint Capabilities Integration and Development System documents describing 
+systems that transmit electromagnetic energy include provisions for delivering and updating 
+system technical data (BLUE data) in the proper format for inclusion into EWIR process 
+databases. Refer to Department of Defense Directive (DoDD) 5250.01, Management of 
+Intelligence Mission Data (IMD) in DoD Acquisition, CJCSI 3320.01D, and CJCSI 3210.04A 
+for additional guidance. (T-0). Ensure documents clearly identify how BLUE data will be 
+provided to the 57 IS for incorporation into US Electromagnetic Systems or BLUE Airborne 
+Targeting Signature databases, as appropriate. (T-0). Ensure documents include details on 
+review and update of system data at least once every three years. 
+2.1.2.  AF/A5L manages all aspects of EWIR for the DAF. In this capacity, AF/A5L will: 
+2.1.2.1.  Chair the EWIR oversight committee and participate in the subcommittees. Table 
+A2.1 shows the EWIR committee and subcommittee membership. 
+2.1.2.1.1.  Use the committee to establish the common vision and goals for DAF 
+reprogramming, exchange information among reprogramming functions, and resolve 
+inter-agency disconnects. 
+2.1.2.1.2.  Convene the committee as necessary to address EWIR issues. 
+2.1.2.2.  Represent and provide advocacy for EWIR requirements in DAF weapon systems 
+acquisitions. Ensure the DAF EW reprogramming enterprise requirements are adequately 
+resourced for prioritized systems. This includes manpower, specialized mission data 
+laboratory equipment, threat replicators, EW system components and associated aircraft 
+subsystems required to produce and validate defensive system software designed for use 
+in contested airspace. 
+2.1.2.3.  Represent and provide advocacy for development and sustainment of EWIR 
+capabilities and facilities. When EWIR capabilities require the development of automatic 
+test systems, those requirements will be coordinated with the AF Automatic Test Systems 
+Product Group Manager (AFLCMC/WNA) to ensure compliance with DoDI 5000.85 
+Major Capability Acquisition. (T-0). 
+2.1.2.4.  Act as liaison with AF/A2/6, Air Force Intelligence, Surveillance, Reconnaissance 
+and Cyber Effects Operations and the various intelligence agencies to advocate for AF 
+EWIR foreign data collection, production, and EWIRDB requirements. 
+2.1.2.5.  Assist MAJCOMs, FLDCOMs, and combatant commands in documenting and 
+forwarding their operational EWIR data requirements to the appropriate agencies. Also, in 
+conjunction with AF/A2/6 staff, act as an advocate for their completion (see paragraph. 
+2.1.2.4). Facilitate availability of emitter data on commercial and foreign military sales 
+systems for inclusion into the AF EWIRDB and associated databases. 
+18 
+DAFMAN10-703  2 JUNE 2021 
+2.1.2.6.  Ensure the DAF regularly trains, exercises, and evaluates all phases of the EWIR 
+process. To the maximum extent possible, reprogramming exercises shall be conducted as 
+part of a major joint exercise, allowing joint and service components together to exercise 
+the reprogramming process. However, this requirement may be satisfied by a major real-
+world PACER WARE action involving DAF EW systems. 
+2.1.2.6.1.  Coordinate with the Joint Staff on the inclusion of emergency 
+reprogramming objectives in joint task force level exercises. 
+2.1.2.6.2.  Select and task the participating MAJCOM to function as the DAF lead to 
+plan, implement, and manage the reprogramming process. 
+2.1.2.7.  Serve as the DAF OPR for planning, coordination, and execution of AF 
+involvement in joint and coalition reprogramming activities. 
+2.1.2.8.  Represent DAF EWIR interests in release of information or equipment to foreign 
+nations or international organizations to include those governed by foreign military sales. 
+2.1.2.8.1.  Work with the Deputy Undersecretary of the Air Force, International 
+Affairs, Weapons Division (SAF/IAPW), on foreign military sales EW policies and 
+procedures for transferring DAF EW capabilities to allied and friendly nations. 
+2.1.2.8.2.  Ensure that the capabilities of all foreign military sales systems or programs 
+are captured for inclusion in EWIR and related databases. (T-0). Once the foreign 
+military sales system is outside of US control, coordinate transition of system data 
+responsibilities with 57 IS, AF/A2/6, DIA and NSA. (T-0). 
+2.1.2.8.3.  Oversee, along with SAF/IAPW, foreign military sales EWIR as described 
+in Chapter 4. 
+2.1.2.8.4.  Serve as office of corollary responsibility for coordinating emergency 
+reprogramming change releases to support foreign military sales customers. 
+2.1.2.9.  Represent DAF interests in EWIR-related testing and analysis to include 
+establishing priorities and ensuring timely dissemination of exploitation results. 
+Organizations and agencies to coordinate with include the service production centers, 
+AF/TE, SAF/IAPW, 453 EWS, 57 IS, the Joint Staff and NSA. 
+2.1.2.10.  Represent DAF EWIR interests in developing procedures, processes, and 
+systems to ensure rapid reporting and validation of threat changes. 
+2.1.2.11.  Contact AF/A4 when a requirement exists to replace legacy support equipment 
+supporting the EWIR program. 
+2.1.2.12.  Ensure applicable Joint Capability Integration Development System documents 
+for systems that transmit or receive electromagnetic energy include both electromagnetic 
+spectrum and EWIRDB data requirements. (T-0). Refer to DoDI 8320.05 for further 
+guidance. (T-0). 
+2.1.3.  Deputy Chief of Staff for Intelligence, Surveillance and Reconnaissance and Cyber 
+Effects Operations (AF/A2/6) will: 
+DAFMAN10-703  2 JUNE 2021 
+19 
+2.1.3.1.  In conjunction with DIA, ensure adequate resources are available at NASIC for 
+EWIRDB production and maintenance and for support to the EW reprogramming process. 
+(T-0). Refer to CJCSI 3210.04A for additional guidance. 
+2.1.3.2.  Advocate to NSA for SIGINT capabilities on behalf of DAF EWIR community 
+(reference paragraphs 2.1.2.4 and 2.1.2.5). 
+2.1.3.3.  Act as liaison with AF/A5L and the various intelligence agencies to advocate for 
+DAF EWIR foreign data collection, production, analysis, and EWIRDB requirements. 
+Work with AF/A5L, NSA and DIA to ensure identification of EWIR data requirements 
+and timely resolution of deficiencies. 
+2.1.3.4.  Act as liaison with the Under Secretary of Defense for Intelligence and ensure 
+applicable Joint Capability Integration Development System documents include provisions 
+for delivering and updating electromagnetic signature data requirements (including BLUE 
+data). (T-0). Refer to DoDD 5250.01 for additional guidance. (T-0). 
+2.1.3.5.  Provide 
+technical 
+assistance 
+on 
+all 
+EWIR 
+communications-computer 
+requirements. 
+2.1.3.6.  Assist MAJCOMs and reprogramming centers in developing and maintaining a 
+comprehensive EWIR communications plan outlining current and future connectivity to 
+common-user, base-level, and long-haul communications systems. 
+2.1.3.7.  Coordinate with AF/A5L on communications issues unique to EWIR. 
+2.1.3.8.  Provide spectrum management subject matter expertise and advice to EWIR 
+developers and operators. Also, assist MAJCOMs, FLDCOMs, and EWIR developers in 
+meeting compliance with applicable electromagnetic and EW policies and procedures. 
+2.1.3.9.  Participate, as requested, in HAF-directed EWIR exercises to provide spectrum 
+and cyberspace support. 
+2.1.4.  Deputy Chief of Staff for Logistics, Engineering and Force Protection (AF/A4) will: 
+2.1.4.1.  Establish logistical policy to support and sustain DAF EWIR equipment. 
+2.1.4.2.  Assist in the identification, definition, and integration of the users’ operational and 
+technical requirements of EWIR automated test system support tools for system software 
+and mission data. 
+2.1.4.3.  Ensure user needs (reliability, maintainability, reprogrammability, supportability, 
+and deployability) are addressed in the development and acquisition of EWIR-related 
+automated test systems. 
+2.1.4.4.  Advocate and ensure users’ EWIR supportability and sustainment needs are 
+addressed in the action and processes of the Central Automated Test System Product Group 
+Management Office (AFLCMC/WNA, Robins AFB, GA). 
+2.1.4.5.  Assist in resolution of EWIR-related automated test system logistics and 
+sustainability issues. 
+ 
+ 
+20 
+DAFMAN10-703  2 JUNE 2021 
+2.1.4.6.  Support AF/A5L in providing advocacy for EWIR requirements in DAF weapon 
+systems acquisitions, acquisition of data on US emitters and systems for inclusion in the 
+EWIR and related databases, and facilitating availability of emitter data on commercial and 
+foreign military sales systems for inclusion into the EWIRDB and related databases. 
+2.1.5.  Deputy Chief Information Officer (SAF/CN). Deputy Chief Information Officer is 
+responsible the standards, interoperability, architecture, and cybersecurity of enterprise 
+information technology and national security systems to meet the DAF mission requirements. 
+As well, SAF/CN leads the governance of enterprise information technology, provides 
+direction, oversight and guidance for management of DAF unclassified and classified 
+Information Technology (IT) Special Access Programs (SAP) network infrastructures, 
+provides portfolio management and information technology investment review, and enforces 
+information compliance laws. 
+2.1.6.  Director, Test and Evaluation (AF/TE) will: 
+2.1.6.1.  Ensure DAF test and evaluation infrastructure and facilities are adequate to 
+support EWIR test and evaluation activities. This includes industrial laboratory space 
+sufficient to accommodate rigorous software validation and verification testing of all DAF 
+EW systems. 
+2.1.6.2.  Ensure EWIR requirements are appropriately considered in foreign materiel 
+program acquisition and exploitation project prioritization deliberations. 
+2.1.6.3.  Facilitate the reprogramming centers’ participation in foreign materiel 
+exploitation and foreign materiel revisit testing when required. 
+2.1.7.  Deputy Under Secretary of the Air Force, International Affairs, Weapons Division 
+(SAF/IAPW) will: 
+2.1.7.1.  Act as the focal point for the sale of US EW systems and supporting foreign 
+military sales EWIRDB systems and products to allied and friendly nations. 
+2.1.7.2.  Inform the Joint Staff, appropriate HAF elements, Air Combat Command (ACC) 
+(to include 53 EWG), Air Mobility Command (AMC), Air Force Special Operations 
+Command (AFSOC) (to include Det 1 492 SOW), AFMC (to include AFLCMC/WNY), 
+and unified commanders of proposed and actual sales of systems that transmit or receive 
+electromagnetic radiation (to include hardware and software configurations and technical 
+data) to allied and friendly nations. (T-0). 
+2.1.7.3.  Act as the office of primary responsibility for transferring military information 
+and releasing DAF technology to partner nations. Manage policies and procedures for 
+transfer of DAF EW capabilities. 
+2.1.7.4.  Provide oversight, with AF/A5L, to the international EWIR process as described 
+in Chapter 4. 
+2.1.7.5.  In coordination with other services, formulate and staff DAF EW policy in support 
+of foreign military sales. 
+ 
+ 
+DAFMAN10-703  2 JUNE 2021 
+21 
+2.1.8.  Assistant Secretary of the Air Force for Acquisition, Technology and Logistics 
+(SAF/AQ) will execute all service acquisition executive (referred to in DoD policy as 
+Component Acquisition Executive) and senior procurement executive responsibilities and 
+authorities outlined (reference DAFPD 63-1/20-1 and AFI 63-101/20-101). (T-0). 
+2.2.  MAJCOMs, FLDCOMs, and Subordinate Units.  MAJCOMs and FLDCOMs with EW 
+responsibilities include Air Combat Command (ACC), Air Education and Training Command 
+(AETC), Air Force Global Strike Command (AFGSC), Air Force Materiel Command (AFMC), 
+Air Force Reserve Command (AFRC), Air Force Special Operations Command (AFSOC), Air 
+Mobility Command (AMC), Air National Guard (ANG), Pacific Air Forces, Space Operations 
+Command (SpOC), Space Systems Command (once established as a FLDCOM), Space Training 
+and Readiness Command (once established as FLDCOM), and US Air Forces Europe. The Air 
+Force Operational Test and Evaluation Center (AFOTEC) and Sixteenth Air Force (16 AF) also 
+retain MAJCOM equivalent responsibilities as designated within this section. These organizations 
+must work together to incorporate, as appropriate, USSF organizational roles and responsibilities 
+into the EWIR process. 
+2.2.1.  MAJCOMs, and subordinate units will: 
+2.2.1.1.  Plan and program for support of peacetime, wartime, contingency, and exercise 
+EWIR requirements as required. (T-3). 
+2.2.1.2.  Advise AF/A5L when EWIR and related database capabilities do not meet DAF 
+system specific requirements. (T-3). 
+2.2.1.3.  Work with the reprogramming centers to identify initial and upgrade requirements 
+and funding for reprogramming facilities, equipment, and manpower support for EW 
+systems currently fielded or under development. (T-3). 
+2.2.1.3.1.  Work with the reprogramming centers to ensure changes to fielded EW 
+systems, support equipment, and new systems are compatible with EWIR requirements 
+and associated communications support systems. (T-3). Work with the reprogramming 
+centers to prioritize routine actions based on MAJCOM requirements and actual 
+reprogramming center resources and capabilities. (T-3). 
+2.2.1.3.2.  Ensure reprogramming facilities, equipment, and staffing for these changes 
+are current, adequate, and funded. (T-3). 
+2.2.1.3.3.  Support force development evaluation required to fully evaluate all EW 
+software or mission data changes. (T-3). 
+2.2.1.3.4.  If the operational flight program and hardware updates directly impact the 
+form, fit, function and interfaces; initiate and submit the AF Form 1067, in accordance 
+with AFI 63-101/20-101 prior to the start of a program or as soon as impact is 
+determined in a program already in execution. (T-3). 
+2.2.1.4.  Ensure operational plans, contingency plans, and strategic war plans adequately 
+address EWIR in order to achieve effective rapid reprogramming of EW systems and to 
+achieve mutual joint service support. (T-3). Refer to JP 3-85 for additional guidance. 
+2.2.1.5.  Plan, implement, and manage EWIR reprogramming exercises. (T-3). This 
+responsibility may be delegated to the combatant numbered air force participating as the 
+AF component during joint exercises. Units will: 
+22 
+DAFMAN10-703  2 JUNE 2021 
+2.2.1.5.1.  Conduct exercise planning conferences and EWIR conferences, as required. 
+(T-3). 
+2.2.1.5.2.  Develop the reprogramming goals and objectives for the DAF components. 
+(T-3). 
+2.2.1.5.3.  Coordinate with 53 EWG for exercise planning and logistical support. (T-
+3). 
+2.2.1.5.4.  Ensure exercise participants identify, collect, and report critical EWIR 
+elements. (T-3). 
+2.2.1.5.5.  Consolidate major findings and lessons learned. Using the DAF Joint 
+Lessons Learned Information System, report findings and lessons learned as part of the 
+overall DAF or Joint exercise report. (T-3). 
+2.2.1.5.6.  Identify areas for improvement and submit to the EWIR Oversight 
+Committee. (T-3). 
+2.2.1.5.7.  Identify EW systems and units requiring reprogramming exercises and 
+coordinate this information with 53 EWG and the reprogramming centers. (T-3). 
+2.2.1.6.  Provide, in cooperation with reprogramming centers, guidance and tasking to 53 
+EWG in formulating flagging tools (ACC, AFGSC, and AFSOC only). (T-3). 
+2.2.1.7.  Train appropriate operations, intelligence, maintenance, and communications 
+personnel on EWIR processes and procedures on a recurring basis consistent with mission 
+readiness. (T-3). 
+2.2.1.8.  Develop EWIR hardware, software, personnel and infrastructure requirements and 
+coordinate them with other MAJCOMs and AF/A5L. (T-3). These requirements include 
+data automation, test capabilities, communication connectivity, support equipment, and 
+data distribution systems. 
+2.2.1.9.  Ensure urgent or emergency PACER WARE changes are given the highest 
+possible priority when scheduling range time. (T-3). 
+2.2.1.10.  Provide operational requirements for and oversight in the development, test, 
+distribution, and loading of mission data and system software changes. (T-3). 
+2.2.1.11.  Work with the reprogramming centers to prioritize and address operational 
+change requests generated in their organization (see section 1.2.1.4.) (T-3). Also, ensure 
+operational units are aware of and follow the proper content, format, and routing of 
+operational change requests to effect changes in EW equipment. (T-3). 
+2.2.1.12.  Provide oversight of fielded EW systems to ensure that those systems meet the 
+hardware, software, and mission data configuration standards set by the reprogramming 
+centers. (T-3). 
+2.2.1.13.  Develop requirements and advocate for foreign material acquisition based on 
+need for information impacting EWIR. (T-3). Provide EWIR-related requirements to 
+foreign materiel exploitation projects. (T-3). Provide requested support to reprogramming 
+centers for their participation in foreign materiel exploitation. (T-3). 
+2.2.1.14.  Support international EWIR as detailed in Chapter 4 of this instruction. (T-3). 
+DAFMAN10-703  2 JUNE 2021 
+23 
+2.2.1.15.  Monitor EW operational and support equipment to ensure units have adequate 
+EWIR logistics support. (T-3). 
+2.2.1.16.  Coordinate with platform program managers to ensure technical order changes 
+caused by PACER WARE updates are being accomplished. (T-3). 
+2.2.1.17.  Identify and coordinate operational test and evaluation requirements with 
+AFOTEC or the appropriate operational test organization for EW system acquisition and 
+modification programs. (T-3). 
+2.2.1.18.  Ensure data on emitters and systems used by MAJCOM organizations is included 
+in EWIRDB and associated databases. (T-3). Refer to DoDI 8320.05, CJCSI 3320.01D, 
+and CJCSI 3210.04A for additional guidance. 
+2.2.2.  MAJCOM Operations Directorate (A3) or equivalent or designee will: 
+2.2.2.1.  Oversee EW reprogramming within the MAJCOM. 
+2.2.2.2.  Approve software changes for all EW systems fielded in their area of 
+responsibility. AETC and Air Reserve Component units will follow guidance of applicable 
+lead MAJCOM (ACC, AFGSC, AFSOC, and AMC). 
+2.2.2.3.  Send implementation messages to applicable units, with informational copies to 
+other MAJCOM, and EW cell staffs, and the reprogramming centers. ANG and AFRC do 
+not have implementation authority. ANG and AFRC units will act on implementation 
+messages sent by their gaining MAJCOM, or EW cell. AETC units (and AETC-gained 
+ANG or AFRC units) will follow guidance of applicable major weapon system or EW 
+system lead MAJCOM (ACC, AFSOC, AFGSC, and AMC) or EW cell. Coordination with 
+other MAJCOM directorates prior to sending an implementation message will be 
+accomplished to ensure maintenance technical data changes are available, if applicable. 
+MAJCOMs will send an implementation message to their subordinate units only, unless 
+previously agreed to otherwise by coordination with the other affected MAJCOMs, EW 
+cells, or agencies, such as through memorandum of agreement or email coordination. 
+2.2.2.4.  Upgrade EW software flight-testing priorities during wartime and contingency 
+operations. 
+2.2.2.5.  Provide reprogramming centers information on employment of assets within 
+anticipated theaters of operations to allow tailoring of support (except AETC). 
+2.2.2.6.  Support the conduct and management of all mission data optimization and force 
+development evaluation required to fully evaluate all EW mission data and operational 
+flight program changes. 
+2.2.2.7.  Notify 53 EWG to provide 24-hour emergency flagging analysis operations when 
+required. 
+2.2.3.  MAJCOM Intelligence Directorate (A2) or equivalent will: 
+2.2.3.1.  Ensure resources and personnel are programmed to support MAJCOM EWIR 
+intelligence requirements. 
+24 
+DAFMAN10-703  2 JUNE 2021 
+2.2.3.2.  Ensure the reprogramming centers document their operational EWIR intelligence 
+production requirements and forward them to the appropriate intelligence agency for 
+action. 
+2.2.4.  MAJCOM Maintenance and Logistics Directorate (A4) or equivalent will ensure field 
+units receive and maintain adequate EW support equipment. 
+2.2.5.  MAJCOM Communications Directorate (A6) or equivalent will advise AF/A5L on 
+MAJCOM-specific EWIR communication requiring appropriate action or attention. 
+2.2.6.  MAJCOM Requirements and Acquisition Directorate (A5) or equivalent will: 
+2.2.6.1.  Coordinate EW system requirements with applicable reprogramming centers. 
+2.2.6.2.  Ensure applicable Joint Capability Integrated Development System documents on 
+systems that transmit electromagnetic energy (with MAJCOM/FLDCOM equity) include 
+provisions for delivering and updating system technical data (BLUE data) in the proper 
+format for inclusion into EWIR process databases. (T-0). Provide data to 57 IS for 
+incorporation into US Electromagnetic Systems or Blue Airborne Target Signatures 
+databases, as appropriate. (T-0). Review and update system data at least once every three 
+years. (T-0). Refer to DoDD 5250.01, CJCSI 3320.01D, and CJCSI 3210.04A for 
+additional guidance. (T-0). 
+2.2.6.3.  Ensure EW systems reprogramming training for operations, maintenance and 
+communications personnel is provided for new systems acquisitions. 
+2.2.6.4.  Ensure facilities, equipment, personnel and resources are programmed to develop 
+the required parametric, characteristics and performance, signatures and fit data for US 
+military (BLUE) and foreign military sales (GRAY) systems. See CJCSI 3320.01D and 
+CJCSI 3210.04A for additional guidance. 
+2.2.7.  53 EWG, 453 EWS will: 
+2.2.7.1.  Conduct the DAF EWIR flagging program based on requirements for the 
+reprogramming centers, MAJCOMs, service production centers and EW cells, as required, 
+to support peacetime, exercise, contingency, and wartime operations. (T-3). In doing so, 
+the 453 EWS will: 
+2.2.7.1.1.  Develop flagging tools to perform parametric and model-based flagging 
+based on customer requirements. (T-3). 
+2.2.7.1.2.  Identify emissions whose parameters fall outside of known limits and flag 
+them for further analysis. (T-3). 
+2.2.7.1.3.  Identify previously unknown threat emitters for further analysis. (T-3). 
+2.2.7.1.4.  Design, develop, maintain, and distribute the flagged-signals database to 
+identify locations of changed emitters as well as the new emitter operating parameters. 
+(T-3). 
+2.2.7.1.5.  Provide data for validation of threats for possible inclusion in the EWIRDB. 
+(T-3). 
+DAFMAN10-703  2 JUNE 2021 
+25 
+2.2.7.1.6.  Develop and maintain plans and manning to operate 24-hour emergency 
+flagging analysis operations in support of contingencies and combat operations or as 
+directed by MAJCOMs or the theater commanders. (T-3). 
+2.2.7.1.7.  Develop and maintain a contingency plan, location, and manning to support 
+24-hour Emergency or normal flagging analysis operations to ensure uninterrupted 
+support. (T-3). 
+2.2.7.1.8.  Coordinate with the service production centers for analysis of aircrew and 
+electromagnetic support inputs on threat parameter changes and new threats if reported 
+parameters are outside EWIRDB assessed limits. (T-3). 
+2.2.7.1.9.  Send flagging reports to the reprogramming centers, MAJCOMs, EW cells, 
+and other agencies when requested via SIPRNet. (T-3). 
+2.2.7.2.  Develop and sustain an analysis capability to support EW operations, acquisition 
+and training. (T-3). 
+2.2.7.2.1.  Design, develop and manage or acquire tools, processes, models and 
+simulations as necessary for MAJCOM, EW cell, and unit EW support. (T-3). 
+2.2.7.2.2.  Provide expertise to MAJCOMs for the operational impact of EW 
+technologies, capabilities, and tactics on operational plans, mission planning, and 
+current operations. (T-3). 
+2.3.  Air Components to Geographic Combatant Commands. 
+2.3.1.  Monitor their area of responsibility to identify and assess changes in the EW 
+environment. In doing so, air components will review and forward aircrew and electromagnetic 
+support inputs on parameter changes and new threats in their area of responsibility to notify 
+appropriate MAJCOM, reprogramming centers, and 453 EWS for further review and analysis. 
+(T-3). 
+2.3.2.  Support implementation of: 
+2.3.2.1.  Software changes. 
+2.3.2.2.  Equipment settings. 
+2.3.2.3.  Aircrew tactics changes. 
+2.3.3.  Verify subordinate units receive all applicable EWIR messages. 
+2.3.4.  Ensure appropriate plans, instructions, and responsibilities for EW reprogramming are 
+disseminated at the appropriate levels. 
+2.3.5.  Participate in and support reprogramming exercises as directed by MAJCOM. 
+2.4.  Wings or Groups with Reprogrammable EW Systems. 
+2.4.1.  These units will: 
+2.4.1.1.  Assign a primary and alternate EW point of contact (POC) to coordinate EWIR 
+activities. (T-3). The EW POC must be the wing or group combat systems officer, wing or 
+group EW officer or wing or group electronic combat pilot. (T-3). An alternate POC may 
+be any other member of the EWIR action team. 
+26 
+DAFMAN10-703  2 JUNE 2021 
+2.4.1.2.  Establish an EWIR action team consisting of operations, maintenance, 
+intelligence, and communications personnel as required. (T-3). The EWIR action team 
+will: 
+2.4.1.2.1.  Develop plans and instructions to implement reprogramming tasks. (T-3). 
+2.4.1.2.2.  Coordinate procedures with appropriate communications offices for 
+receiving, sending and distributing EWIR messages both at home station and deployed 
+locations. (T-3). 
+2.4.1.2.2.1.  Ensure access to the Multi-Service Data Distribution System and to the 
+PACER WARE Database (https://wwwmil.53wg.eglin.af.mil/pacerware ) (T-3). 
+2.4.1.2.2.2.  Ensure a PACER WARE message organizational account (classified 
+and unclassified) is established for the wing or group. (T-3). Ensure this account is 
+transferred upon change of the EW POC. (T-3). 
+2.4.1.2.2.3.  Provide EW POC information to applicable reprogramming center, 
+including functional electronic mail (E-mail) message addresses for members of 
+EWIR action team and 24-hour POC information. (T-3). Immediately advise 
+reprogramming centers of changes in POC information due to permanent change 
+of station, reassignment, deployment, or contingency operations. (T-3). 
+2.4.1.2.3.  Immediately report any errors in reprogramming procedures to the 
+MAJCOM and reprogramming center representatives. (T-3). 
+2.4.1.2.4.  Produce and staff operational change requests in accordance with 
+paragraph 1.2.1.4 to enhance or correct system operations. (T-3). 
+2.4.1.2.5.  Participate 
+in 
+reprogramming 
+exercises 
+as 
+directed 
+and 
+report 
+reprogramming exercise results in accordance with Chapter 3. (T-3). 
+2.4.2.  Wing or group EW POC will: 
+2.4.2.1.  Direct the EWIR action team. (T-3). 
+2.4.2.2.  Review applicable intelligence and system anomaly reports, recommend actions 
+to the commander, and if necessary, prepare an operational change request when system 
+performance discrepancies are found. (T-3). 
+2.4.2.3.  Ensure aircrews are informed of current EW equipment capabilities. (T-3). Use 
+the following: 
+2.4.2.3.1.  Test results. 
+2.4.2.3.2.  PACER WARE Messages. 
+2.4.2.3.3.  System handbooks or mission guides. 
+2.4.2.3.4.  Air Force Tactics Techniques and Procedures (AFTTP) 3-1, General 
+Planning and Employment Considerations. 
+2.4.2.4.  Maintain currency of an organizational E-mail account (classified and 
+unclassified, as required) for the wing or group. (T-3). Notify parent MAJCOM and 
+reprogramming centers of changes in connectivity and EW POC. (T-3). 
+DAFMAN10-703  2 JUNE 2021 
+27 
+2.4.2.4.1.  For 
+combat 
+air 
+forces, 
+notify 
+ACC/A3/2/6KL 
+and 
+ACC.A326KL.EWBranch@us.af.mil 
+and 
+53 
+PW 
+Admin: 
+53wg.ercpw.test@us.af.mil 
+2.4.2.4.2.  For mobility air forces, notify AMC/A3DT: amc.a3tw.ew@us.af.mil 
+2.4.2.4.3.  For AFSOC, notify Det 1 492 SOW: ecsf.pw.admin@us.af.mil 
+2.4.2.4.4.  For AFGSC, notify AFGSC/A3T: afgsc.a3t.workflow.1@us.af.mil. 
+2.4.2.5.  Notify the wing or group EWIR action team when EWIR messages have been 
+received. (T-3). 
+2.4.2.6.  Work with the operations group and maintenance group (or equivalents) to 
+implement EW equipment software or hardware changes. (T-3). 
+2.4.2.7.  Send all required EWIR reports and messages to higher headquarters and 
+subordinate organizations in accordance with reporting guidance provided in applicable 
+PACER WARE messages. (T-3). 
+2.4.2.8.  Maintain a current listing of operational and training software for each of the wing 
+or group’s EW systems. (T-3). 
+2.4.3.  Maintenance group and applicable maintenance squadrons with EW systems will: 
+2.4.3.1.  Ensure required EW reprogramming equipment, such as secure communications 
+equipment, program loader verifier, memory loader verifier, or common aircraft portable 
+reprogramming equipment is available and operational to support reprogramming at home 
+station and deployed locations. (T-3). Notify the wing or group EW POC of shortfalls. (T-
+3). 
+2.4.3.2.  Ensure adequate personnel have access to the Multi-Service Data Distribution 
+System to conduct actual and exercise reprogramming actions both at home station and 
+deployed locations. (T-3). 
+2.4.3.3.  Implement EWIR changes only after wing or group EW POC’s approval and keep 
+the wing or group EW POC informed of changes, as required. (T-3). 
+2.4.3.4.  Participate in the EWIR action team. (T-3). 
+2.4.4.  Wing, delta or group intelligence will: 
+2.4.4.1.  Notify the wing, delta or group EW POC of threat changes that will impact EW 
+systems. Include this information, along with PACER WARE messages, in aircrew mission 
+briefings. (T-3). 
+2.4.4.2.  Review aircrew debriefings and mission reports for EW equipment anomalies. 
+Report these findings to the wing or group EW POC for determination of possible threat 
+parameter changes and action, if necessary. (T-3). Unusual findings will be reported in 
+aircrew mission reports and Joint Spectrum Interference Resolution messages. (T-3). 
+2.4.4.3.  Assist the wing or group EW POC prepare operational change requests. (T-3). 
+2.4.4.4.  Participate in the EWIR action team. (T-3). 
+2.4.5.  The base or wing communications squadron will: 
+28 
+DAFMAN10-703  2 JUNE 2021 
+2.4.5.1.  Ensure base communications centers and network control centers understand the 
+importance of EWIR and facilitate the flow and proper handling of EW messages and data. 
+(T-3). 
+2.4.5.2.  Participate in the EWIR action team. (T-3). 
+2.4.5.3.  Immediately notify the wing or group EW POC of communications deficiencies 
+affecting EWIR capability. (T-3). 
+2.5.  Operational Reprogramming Centers (53 EWG, Det 1 492 SOW, AMC/OL-A and 
+AFLCMC/WNYI [for some foreign military sales]).  Reprogramming Centers will: 
+2.5.1.  Develop, produce, test and distribute all mission data. (T-3). Delegate as required. (T-
+3). Exception: Mission data development for foreign military sales EWIR customers shall be 
+accomplished according to Chapter 4 of this instruction and the Memorandum of Agreement 
+on 53 EWG and AFLCMC/WNYI Foreign Military Sales Mission Data Programming, dated 
+13 Jun 1997. 
+2.5.2.  Provide guidance and technical help with developing intelligence, logistics, and 
+communications systems in support of EWIR. (T-3). 
+2.5.3.  Evaluate EW mission data and support documentation to maintain configuration 
+control. (T-3). 
+2.5.4.  Support operational testing required to fully evaluate all EW software or mission data 
+changes. (T-3). 
+2.5.5.  Create training mission data for EW systems, as necessary. (T-3). 
+2.5.6.  Identify formal intelligence requirements and submit to parent MAJCOM/FLDCOM 
+intelligence directorate. (T-3). 
+2.5.7.  Maintain a data distribution system as a means of distributing reprogramming data. (T-
+3) Maintain the EW Tool Box SIPRNet web page http://ewtoolbox.eglin.af.smil.mil to ensure 
+required EW reprogramming software configuration, status, and information is available to 
+support reprogramming at home and deployed locations. (T-3). 
+2.5.8.  Provide field units the latest information on EWIR process, mission data releases, and 
+platform specific issues with systems experts. (T-3). 
+2.5.9.  Support EW force development evaluations to determine EW systems’ performance and 
+identify specific EW system deficiencies. (T-3). 
+2.5.10.  Prepare and distribute system impact messages when changes in the threat 
+environment might affect EW systems in the theater. (T-3). 
+2.5.11.  Prepare and distribute reprogramming impact messages to indicate impact of 
+reprogramming actions on EW systems. (T-3). 
+2.5.12.  Evaluate field operational change requests and make recommendations to MAJCOM 
+on resolution. (T-3). 
+2.5.13.  Produce or coordinate maintenance instruction message distribution when appropriate. 
+(T-3). 
+DAFMAN10-703  2 JUNE 2021 
+29 
+2.5.14.  Develop requirements and oversee facility design and provide construction or 
+renovation oversight for program office-funded EWIR facilities and manage facilities and 
+personnel to analyze, develop, and test changes to mission data. (T-3). 
+2.5.15.  Develop system handbooks or mission guides for each assigned EW system. (T-3). 53 
+EWG, Det 1 492 SOW and AMC/OL-A will update and distribute the handbooks or mission 
+guides when required or concurrently with each mission data update. (T-3). 
+2.5.16.  Assist in planning for and participate in reprogramming exercises. (T-3). 
+2.5.17.  Provide engineering support and tactical expertise to international EWIR as defined in 
+Chapter 4. (T-3). 
+2.5.18.  Submit threat change validation request messages to the appropriate service 
+production centers or the applicable national SIGINT authority for threat validation, and to 
+NSA for collection verification. (T-0). It is recommended these threat change validation 
+requests be submitted on the MSIC-sponsored EWIR portal on the SIPRNet at 
+http://www.msic.dia.smil.mil/tcmp. Threat validation must be considered during 
+reprogramming actions. (T-3). Coordination with the appropriate service production center or 
+SIGINT authority will occur to ensure reprogramming priority timelines are met. (T-3). 
+However, timeliness of reprogramming actions will be based upon reprogramming priority 
+(routine, urgent or emergency) and will not be delayed for threat validation. (T-3). 
+2.5.19.  Conduct the EW portion of foreign materiel revisit testing and foreign materiel 
+exploitation when required, and reprogram EW systems, as needed, based on the results. (T-
+3). 
+2.5.20.  Develop and maintain plans and manning to operate 24-hour emergency 
+reprogramming centers in support of contingencies and combat operations or as directed by 
+MAJCOMs or the theater commanders. (T-3). 
+2.5.21.  Inform MAJCOM A3 and A4, or their equivalents, of technical data change 
+requirements caused by upcoming PACER WARE updates as soon as practical. (T-3). 
+2.5.22.  Provide to 453 EWS: 
+2.5.22.1.  List of prioritized threats for flagging. (T-3). 
+2.5.22.2.  Current mission data for any flagging models desired to be kept current. (T-3). 
+2.5.23.  Submit EWIRDB problem reports using the EWIRDB Problem Reports link on 
+NASIC's EWIRDB website. (T-3). 
+2.5.24.  Provide assistance to parent MAJCOM in developing guidance and tasking to 453 
+EWS for formulating flagging tools. (T-3). 
+2.6.  Support Reprogramming Center (AFLCMC/WNY).  Support Reprogramming Centers 
+will: 
+2.6.1.  Develop, produce, conduct developmental tests, and distributes all operational flight 
+programs for all fielded EW systems or delegate these tasks to other agencies, as required (T-
+3).  Also ensures: 
+2.6.1.1.  Users receive fully developed and tested EW systems and EWIR improvements 
+with the operational capabilities specified by the Center. (T-3). 
+30 
+DAFMAN10-703  2 JUNE 2021 
+2.6.1.2.  Operational reprogramming centers are equipped with mission data generators to 
+rapidly reprogram all EW systems. Address and correct any reprogramming center-
+identified mission data generator deficiencies that prevent the user from accomplishing 
+rapid mission data reprogramming. (T-3). 
+2.6.1.3.  Each EW system engineering plan shall be a derivative from each system’s 
+appropriate acquisition documentation (for legacy systems refer to the Single Acquisition 
+Management Plan). (T-3). Each EW system engineering plan includes provisions for these 
+fully tested items, both at the reprogramming center and in the field as required, at delivery 
+of the first asset: 
+2.6.1.3.1.  Reprogramming support tools including mission data generators, hot bench 
+mock-ups, emulators, support computers, and coordinate necessary line replaceable 
+units with the Air Force Sustainment Center. 
+2.6.1.3.2.  Data transfer equipment, such as memory loader verifiers, common aircraft 
+portable reprogramming equipment, and enhanced diagnostic aid. 
+2.6.1.3.3.  Support equipment (field and depot-level). 
+2.6.1.3.4.  All aspects of software reprogramming and support facilities. 
+2.6.1.4.  Prior to the start of an operational flight program, assess to determine if form, fit, 
+function, and interfaces will be directly impacted, in accordance with AFI 63-101/20-101. 
+(T-3).  
+2.6.1.4.1.  Coordinate as required with platform program managers when the 
+operational flight program or hardware change impacts fit, function, and interfaces. 
+Follow AFI 63-101/20-101 AF Form 1067 procedures prior to the start of the program. 
+(T-3). 
+2.6.1.4.2.  If, while executing an operational flight program update, it is determined 
+that fit, function, and interfaces is impacted, the program will be suspended until the 
+requirements of AFI 63-101/20-101 can be satisfied. (T-3). Support reprogramming 
+centers will ensure timely completion of AF Forms 1067 related to operational flight 
+program software updates. (T-3). 
+2.6.1.4.3.  If fit, function, and interfaces is not impacted, the operational flight program 
+change is distributed through the computer program identification number revision 
+process. (T-3). 
+2.6.1.4.4.  When the software is fielded, a description of the operational impact of the 
+software change on the EW system is sent to the MAJCOM and commander air force 
+forces or joint force air component commander's EW cell and field units in a 
+reprogramming impact message. (T-3). 
+2.6.1.5.  Adequate coordination with using command, program managers, and other 
+agencies as required, to facilitate funding for and to ensure timely completion and fielding 
+of technical data associated with operational flight program software updates. (T-3). 
+2.6.2.  Support planning, integration, and acquisition of new EWIR systems. (T-3).  
+2.6.3.  Identify opportunities for acquiring joint systems. (T-3). 
+DAFMAN10-703  2 JUNE 2021 
+31 
+2.6.4.  Use the EWIRDB as the primary source for reprogramming actions for the EW systems 
+for which the AFLCMC/WNY is responsible. (T-3). (This includes all EW systems supported 
+via international agreements). If there are information gaps in EWIRDB, other reprogramming 
+center-approved information sources will be used to support reprogramming actions, as 
+required. (T-3). 
+2.6.5.  Provide logistics and engineering support for the hardware and software elements of 
+EW systems and their associated support, training, and range simulator equipment. (T-3). 
+2.6.6.  Establish and manage facilities and personnel to analyze, develop, and test changes to: 
+2.6.6.1.  Operational flight program. (T-3). 
+2.6.6.2.  EW system support tools. (T-3). 
+2.6.6.3.  Support equipment software. (T-3). 
+2.6.7.  Maintain facilities for complete EW system laboratory testing. (T-3). 
+2.6.8.  Maintain equipment to use the Multi-Service Data Distribution System to transmit EW 
+software changes to units worldwide. (T-3). 
+2.6.9.  Provide mission data support when requested by the operational reprogramming center. 
+(T-3). 
+2.6.10.  Identify, obtain, develop, and maintain EW systems software reprogramming tools. 
+(T-3). 
+2.6.11.  Provide data necessary (including parametric, characteristics and performance data, 
+and signatures data) for 57 IS to maintain accurate databases and for the 453 EWS to develop 
+flagging tools on systems AFMC manages. (T-3). 
+2.6.12.  Provide assistance to parent MAJCOM in developing guidance and tasking to 453 
+EWS for formulating flagging tools. (T-3). 
+2.6.13.  Provide EW engineering and logistics support to allied and friendly nations through 
+International EWIR, as detailed in Chapter 4. (T-3). 
+2.6.14.  Notify AF/A5L and the appropriate MAJCOM, joint or combined air component 
+commander, and NASIC of foreign military sales of EW equipment (including software 
+updates) that AFMC manages or develops. (T-0). 
+2.6.15.  Coordinate the foreign release of capabilities or data (including software) with all 
+affected MAJCOMs/FLDCOMs and agencies. (T-3). 
+2.7.  Air Force Operational Test and Evaluation Center (AFOTEC).  AFOTEC works closely 
+with MAJCOMs, FLDCOMs, program offices, intelligence support organizations and 
+reprogramming support organizations when conducting operational test and evaluation on EW 
+systems and associated reprogramming support equipment. AFOTEC will: 
+2.7.1.  Coordinate operational test and evaluation reprogramming requirements with 
+MAJCOMs and the program offices. (T-3). 
+2.7.2.  Participate in the EWIR oversight process. (T-3). 
+32 
+DAFMAN10-703  2 JUNE 2021 
+2.8.  Air Force Intelligence Mission Data (IMD) Producers. 
+2.8.1.  16 AF will: 
+2.8.1.1.  Ensure EWIR function owners understand the contribution of intelligence 
+collection assets to the EWIR process. 
+2.8.1.2.  Work with AF/A5L, NSA, and DIA to ensure supporting intelligence or service 
+production centers: 
+2.8.1.2.1.  Review national SIGINT requirements process intelligence need statements 
+and DIA Community On-Line Intelligence System for End-Users and Managers 
+production requirements and requests for information for compilation of requirements 
+regarding AF EWIR and EWIR-related database efforts. 
+2.8.1.2.2.  Assess technical and operational SIGINT for validation and reporting (using 
+available intelligence products) to the reprogramming center, agencies, and MAJCOM 
+A2. 
+2.8.1.2.3.  Advocate to NSA and DIA to ensure collection and production methods 
+exist to provide timely assessments of technical and operational SIGINT. 
+2.8.1.2.4.  Ensure theater and tactical collection assets provide SIGINT intercept and 
+other intelligence data to the reprogramming center and to the appropriate EWIRDB 
+production centers for timely engineering assessment of threat system capabilities. 
+2.8.2.  57 IS will: 
+2.8.2.1.  Produce data on DAF-owned systems. These systems include BLUE, 
+BLUE+GRAY, such as BLUE gone GRAY, specifically US systems sold to other 
+countries through foreign military sales, or similar processes and domestic commercial 
+(WHITE) systems or emitters assigned by the Joint EW Center. The data produced will 
+include radio frequency parametric data, platform data with-emitter fit, characteristics and 
+performance (including engine, radar cross section and electro-optical or infrared 
+signature), antenna pattern, and additional data as requirements dictate. (T-3). 
+2.8.2.2.  Store BLUE data provided by other military services as the US Electromagnetic 
+Systems Database technical manager. (T-0). This data is stored and distributed in the US 
+Electromagnetic Systems Database with portions electronically forwarded for input into 
+the EWIRDB. 
+2.8.2.3.  Maintain and archive data on aircraft radar cross sections and electro-optical or 
+infrared signatures and antenna patterns in the Blue Airborne Target Signatures database. 
+(T-3). 
+2.8.2.4.  Act as the principal agent and a data producer for the Combat Support Database 
+which combines threat system (RED) parameters and BLUE and GRAY aircraft signatures 
+into an engineered product specifically formulated for use by mission planning systems. 
+(T-3). 
+2.8.2.5.  Maintain the data storage capability of these databases, as necessary. (T-3). 
+2.8.2.6.  Provide access to the 53 EWG and coordinate with the 53 EWG regarding updates 
+to database formatting or any other changes that affect the 53 WG. (T-3). 
+DAFMAN10-703  2 JUNE 2021 
+33 
+2.8.2.7.  Use its designated flagging billets, matching billet rank requirements, to support 
+the 453 EWS with respect to its flagging mission. (T-3). 
+2.8.2.8.  List prioritized requirements for BLUE, GRAY and WHITE data to meet mission 
+needs. (T-3). 
+2.8.3.  National Air and Space Intelligence Center (NASIC) will: 
+2.8.3.1.  Serve as DoD technical manager for the EWIRDB, as required by DIA. (T-0). As 
+such, serve as the focal point for all EWIRDB technical database and data quality issues. 
+(T-0). 
+2.8.3.2.  Produce the EWIRDB product by merging data from NASIC analysis with data 
+from other EWIRDB production organizations and 57 IS (for US and friendly- foreign 
+data). (T-0). NASIC is the AF technical manager for technical electronic intelligence and 
+all processing of AF airborne technical electronic intelligence processing in support of EW. 
+Additionally, NASIC will coordinate with all production centers and ensure the EWIRDB 
+is updated online with validated threat changes. (T-0). 
+2.8.3.3.  Distribute and provide web access to the EWIRDB. (T-0). 
+2.8.3.4.  Perform administrative checks on the EWIRDB inputs to ensure the data is 
+correctly formatted. (T-3). 
+2.8.3.5.  Produce and update parametric and signature data information. (T-3). This 
+information includes electromagnetic parametric data, platform-emitter fit, characteristics 
+and performance, antenna pattern, signature related data and additional data as 
+requirements dictate. (T-3). Production is on foreign (RED) and friendly foreign (GRAY) 
+assigned foreign aerospace threat systems, ground-based early warning, acquisition, target 
+tracking radar threats, and hostile command and control, or information operations systems 
+and include in the EWIRDB. (T-3). Additionally, provide threat change validation 
+assessments, consistent with the production center roles and responsibilities, as required 
+by the reprogramming center. (T-3). Timeliness of threat change validation assessments 
+will be based upon reprogramming priority (routine, urgent or emergency) and available 
+intelligence. (T-3). Coordinate with the appropriate reprogramming center will occur to 
+ensure reprogramming priority timelines are met and intelligence limitations are 
+communicated. (T-3). Following threat change validation, EWIRDB shall be updated 
+online in accordance with reprogramming priority timelines (routine, urgent or 
+emergency). (T-3). 
+2.8.3.6.  Provide consumers with EWIRDB data for reprogramming during exercises, 
+contingencies, and wartime operations. (T-3). 
+2.8.3.7.  Coordinate with AF/TE, SAF/AQ, and AFMC, among others, to provide 
+equipment and support for ground and airborne testing against foreign assets. (T-3). 
+2.8.3.8.  Assist the reprogramming center’s participation in foreign materiel exploitation. 
+(T-3). 
+2.8.3.9.  Produce tailored EWIRDB products to support foreign military sales data 
+requirements at the direction of SAF/IAPW. (T-3). 
+2.8.3.10.  Participate in the DAF EWIR oversight process. (T-3). 
+34 
+DAFMAN10-703  2 JUNE 2021 
+2.8.3.11.  Ensure AF intelligence surveillance and reconnaissance asset collected data is 
+made available to the reprogramming centers and 453 EWS. (T-3). 
+2.8.3.12.  Produce and maintain the official DoD “electronic fit list” of threat airborne 
+platforms. (T-3). 
+2.9.  Air Operations Center’s Electromagnetic Warfare Cell.  These procedures apply to the 
+AF component of the joint or combined forces air component command. The air operations center 
+is the operations center of the commander of combat or mobility air forces. Within the air 
+operations center, threat evaluation and identification of changing target or mission requirements 
+are continuous and time-critical functions. AF units under control of joint or combined forces will 
+follow joint or combined forces procedures if the publication procedures conflict with the Joint or 
+Combined Forces procedures. (T-3). The EW cell and/or air mobility division tactics section for 
+mobility air forces aircraft will be the POCs within the air operations center for all EW 
+coordination. (T-3). The air operations center’s EW cell or air mobility division tactics will: 
+2.9.1.  Monitor the EW environment in the area of responsibility. (T-3). 
+2.9.2.  Perform preliminary operational deficiency analysis, as needed, generate, and submit 
+field operational change requests to the MAJCOMs and reprogramming centers. (T-3). 
+2.9.3.  Disseminate threat changes and advise action to minimize the impact of threat changes 
+to increase aircraft survivability. (T-3). These actions include, but are not limited to: 
+2.9.3.1.  Reviewing system impact messages for potential degradation to EW system 
+capabilities. 
+2.9.3.2.  Notifying aircrews of loss or degradation of EW capability. 
+2.9.3.3.  Notifying aircrews on use of new EW tactics. 
+2.9.3.4.  Recommending threat area avoidance tactics. 
+2.9.3.5.  Recommending alternate targets based on updated threat assessments. 
+2.9.3.6.  Advising use of suppression of enemy air defense assets. 
+2.9.4.  Distribute reprogramming change information to joint and combined organizations to 
+ensure interoperability and avoid EW frequency conflicts. (T-3). 
+2.9.5.  Report friendly force anomalies which lead to false identifications or inappropriate 
+responses and requests. (T-3). Reports go to supporting production centers, reprogramming 
+centers, and national SIGINT authorities to perform validation assessments of the identified 
+anomalies. (T-3). 
+2.9.6.  Review operational reports, mission reports, EWIR messages and flight reports. (T-3). 
+Ensure applicable theater mission reports and joint spectrum interference resolution messages 
+are sent to supporting reprogramming centers and 453 EWS. (T-3). Analyze these reports and 
+messages to find: 
+2.9.6.1.  Unusual EW equipment operation. (T-3). 
+2.9.6.2.  Changes in engagement tactics. (T-3). 
+2.9.6.3.  Changes in successful engagement rates. (T-3). 
+DAFMAN10-703  2 JUNE 2021 
+35 
+2.9.7.  Request 24-hour emergency flagging analysis from the 453 EWS and reprogramming 
+from the 53 EWG, as required. (T-3). 
+2.9.8.  Ensure units deployed to their theater have the capability to quickly receive and upload 
+reprogramming data. (T-3). 
+2.9.9.  Ensure deployed units have all required equipment to perform rapid reprogramming, to 
+include EW support equipment including program loader verifiers, memory loader verifiers, 
+common aircraft portable reprogramming equipment, enhanced diagnostic aid, secure 
+communications devices, mission support facilities, etc. (T-3). 
+2.9.10.  As delegated by the joint or combined air component commander, assess the need for 
+and, if deemed necessary, coordinate and implement software changes from the 
+reprogramming centers for its combat units. (T-3). Factors to consider in determining whether 
+to implement a change include: 
+2.9.10.1.  Nature and lethality of the threat change within the joint or combined air 
+component commander area of responsibility. 
+2.9.10.2.  Planned force movement. 
+2.9.10.3.  Critical timing. 
+2.10.  EWIR Committee and Subcommittees. 
+2.10.1.  Oversight Committee. This committee provides a forum for the key functions and 
+organizations within the EWIR community to exchange information and take action to improve 
+EWIR. The committee reviews subcommittee actions and mediates solutions to unresolved 
+problems. It advocates EWIR requirements within the DoD and works with other services to 
+seek areas of commonality, ensure interoperability, share best practices, and minimize 
+duplication. The Oversight Committee will: 
+2.10.1.1.  Convene meetings as necessary in person or through virtual collaboration. 
+2.10.1.2.  Detail Committee membership in the EWIR membership matrix in Attachment 
+2. Other AF, joint, DoD, and service organizations will be invited to attend as required. 
+2.10.2.  EWIR Subcommittees. EWIR subcommittees focus on an aspect of EWIR needing 
+greater attention than the oversight committee can provide. The Oversight committee will 
+review action items, including recommendations, and approve or disapprove for 
+implementation or closure. (T-3). 
+2.11.  Program Managers of EW Systems or Systems Conducting EW.  Program managers of 
+EW systems will: 
+2.11.1.  Develop, conduct developmental testing for, produce, and distribute initial operational 
+flight programs for all EW systems under development or modification; or delegate these tasks 
+to the support reprogramming centers (AFLCMC/WNY), if required. (T-3). Program 
+managers of EW systems will ensure: 
+2.11.1.1.  Users receive fully developed and tested EW systems including system software 
+and mission data meeting the operational capabilities that have been specified based on 
+operational need. (T-3). 
+36 
+DAFMAN10-703  2 JUNE 2021 
+2.11.1.2.  Systems in development or under contract that have not been transferred to a 
+reprogramming center for operational flight program and mission data support, must follow 
+the same reprogramming center procedures described in this instruction unless a waiver is 
+obtained through the listed tier waiver authority or AF/A5L. (T-3). 
+2.11.1.3.  The appropriate reprogramming center is equipped with mission data generators 
+to rapidly reprogram the new or modified system prior to developmental or operational test 
+and evaluation. (T-3). Tools which are common across the EW system portfolio will be 
+given precedence in the selection process. (T-3). 
+2.11.1.4.  Acquisition planning documents include provisions for the following fully tested 
+items, both at the reprogramming center and in the field as required, prior to initial 
+operational capability. (T-3). Provisions include: 
+2.11.1.4.1.  Reprogramming support tools (including mission data generators, hot 
+bench mock-ups, emulators, support computers, and necessary line replaceable units 
+and shop replaceable units). Tools which are common across the EW system portfolio 
+will be given precedence in the selection process. (T-3). 
+2.11.1.4.2.  Data transfer and loading equipment and any necessary aircraft adapter 
+group components. (T-3). (As of this writing, common aircraft portable reprogramming 
+equipment is the AF standard support equipment for this function). Host platform single 
+point reprogramming of installed EW systems shall be used when possible. (T-3). 
+2.11.1.4.3.  Support equipment (field and depot-level) and all aspects of software 
+reprogramming and support facilities. (T-3). End-to-end testing of installed and 
+integrated systems including all sensors, receivers, data buses, transmitters, dispensers 
+and displays shall be used whenever possible to test the system’s capability to detect 
+and react to the threat. (T-3). 
+2.11.1.4.4.  Software reprogrammable blanking systems must be included in the 
+platform integration and in the support centers. (T-3). A blanking system suppresses 
+the transmission or reception of electromagnetic signals in order to permit the 
+simultaneous operation of two or more pieces of electronic equipment without 
+interference. These systems serve to deconflict EW systems and other onboard receiver 
+or transmitter systems. Blanking directly impacts system performance and blanking 
+strategies must balance safety and performance impacts on all affected aircraft systems. 
+(T-3). Any software or hardware changes to aircraft systems that impact transmitted 
+outputs from EW or other platform avionics must be evaluated for blanking impacts 
+and any required blanking setting changes must be tested and fielded concurrently with 
+the system changes. (T-3). 
+2.11.2.  Plan, integrate, and acquire new EWIR systems to support the new or modified EW 
+system. (T-3). 
+2.11.3.  Monitor joint systems to identify acquisition opportunities in order to fulfill AF 
+operational needs. (T-3). 
+ 
+ 
+DAFMAN10-703  2 JUNE 2021 
+37 
+2.11.4.  Use the EWIRDB as the primary source for EW systems mission data development, 
+including for EW systems supported via international agreements. (T-3). If there are 
+information gaps in the EWIRDB, coordinate with the appropriate reprogramming center to 
+identify approved information sources to be used to support the development of mission data 
+for the new or modified EW system. (T-3). 
+2.11.5.  Provide logistics and engineering support for hardware and software elements of new 
+or modified EW system and its associated support, training, and range simulator equipment. 
+(T-3). 
+2.11.6.  Work with the support reprogramming center (AFLCMC/WNY) and applicable 
+operational reprogramming center to designate facilities and personnel to analyze, develop, 
+and test changes to: 
+2.11.6.1.  Operational flight program. (T-3). 
+2.11.6.2.  EW system support tools. (T-3). 
+2.11.6.3.  Support equipment software. (T-3). 
+2.11.7.  Maintain facilities for complete EW system laboratory testing. (T-3). 
+2.11.8.  Maintain equipment used to transmit EW software changes to units worldwide, such 
+as Multi-Service Data Distribution System. (T-3). 
+2.11.9.  Provide mission data support when requested by the reprogramming center which is 
+developing the mission data for test and evaluation of the new or modified EW system. (T-3). 
+2.11.10.  Identify, obtain or develop EW systems software reprogramming tools and blanker 
+reprogramming 
+tools 
+in 
+coordination 
+with 
+the 
+support 
+reprogramming 
+centers 
+(AFLCMC/WNY). (T-3). Tools which are common across the EW system portfolio will be 
+given precedence in the selection process. (T-3). 
+2.11.11.  Provide data necessary (including parametric and characteristics and performance 
+data) for the 57 IS to maintain accurate databases and for the 453 EWS to develop flagging 
+tools. (T-3). 
+2.11.12.  Provide assistance to the parent MAJCOM in developing guidance and tasking to the 
+453 EWS for formulating flagging tools. (T-3). 
+2.11.13.  Derive performance plans from a new or modified system’s appropriate acquisition 
+documentation. (T-3). These plans will be used to ensure a new or modified system performs, 
+as stated, in acquisition documents. (T-3). 
+2.11.14.  If applicable, provide EW engineering and logistics support to allied and friendly 
+nations through international EWIR, as detailed in Chapter 4. (T-3). 
+2.11.15.  Notify AF/A5L and the appropriate MAJCOM, FLDCOM, joint or combined air 
+forces component commander, and NASIC of foreign military sales of new or modified EW 
+equipment (including software updates). (T-3). 
+2.11.16.  Coordinate the foreign release of capabilities or data (including software) with 
+SAF/IA and other affected MAJCOMs, FLDCOMs and agencies. (T-3). 
+38 
+DAFMAN10-703  2 JUNE 2021 
+2.11.17.  For systems that transmit electromagnetic energy, ensure program planning 
+documents, budgets and schedules include provisions for development of BLUE, GRAY and 
+WHITE data, as applicable in accordance with DoDD 5250.01, CJCSI 3320.01D, and CJCSI 
+3210.04A. (T-0) Provide data to the 57 IS for incorporation into the US Electromagnetic 
+Systems and the Blue Airborne Target Signatures databases, as appropriate. Review and update 
+system data at least once every three years. (T-3). 
+2.11.18.  For systems that transmit or receive electromagnetic energy, document EWIR data 
+requirements (including RED, GRAY, BLUE or WHITE data) through development of a Life-
+Cycle Mission Data Plan in accordance with DoDD 5250.01. (T-0). 
+2.11.19.  For systems that involve modeling and simulation of the transmission or reception of 
+adversary electromagnetic energy, coordinate with the Intelligence Community to assess the 
+need and determine the most appropriate method to obtain EWIR data for modeling and 
+simulation. (T-3). 
+DAFMAN10-703  2 JUNE 2021 
+39 
+Chapter 3 
+EXERCISES AND EVALUATION PROGRAMS 
+3.1.  General. 
+3.1.1.  The DAF conducts exercises periodically to validate the production and delivery of 
+software and hardware changes to electronic equipment used to provide an awareness and 
+response capability within the electromagnetic environment. These exercises are referred to by 
+the name SERENE BYTE. SERENE BYTE exercises will be incorporated into large force 
+exercises and be conducted in conjunction with the electronic warfare analysis program in 
+accordance with DAFI 10-706, Electromagnetic Warfare. SERENE BYTE exercises are 
+intended to: 
+3.1.1.1.  Identify problem areas. 
+3.1.1.2.  Gain confidence in the process. 
+3.1.1.3.  Ensure a smooth flow of information during a crisis. 
+3.1.1.4.  Ensure readiness in response to threat parameter changes. 
+3.1.1.5.  Train operations, intelligence, communications, and maintenance personnel. 
+3.1.2.  Joint Exercises. Exercises shall be conducted as joint events to the maximum extent 
+possible. Joint exercises expose all levels of the EWIR process to communications limitations 
+inherent in large scale exercises, and the exercises also test joint coordination and cooperation 
+between the services. Joint exercises may include foreign military sales participation. 
+3.1.3.  Exercise Categories. Exercises fall into three categories: 
+3.1.3.1.  HAF directed. 
+3.1.3.2.  MAJCOM directed. 
+3.1.3.3.  Wing or group directed. 
+3.2.  HAF Directed Exercises. 
+3.2.1.  Are directed by the Deputy Chief of Staff, Air Force Futures (AF/A5/7). 
+3.2.2.  Normally cover the entire EWIR process. 
+3.2.3.  Duplicate, to the largest extent possible, real world operations. Reduce artificiality of 
+the exercise to the absolute minimum. 
+3.2.4.  May include foreign military sales participants. 
+3.2.5.  Document the capabilities and limitations of all major components of reprogramming, 
+including: 
+3.2.5.1.  Collecting, validating, and distributing intelligence information. 
+3.2.5.2.  Evaluating signals. 
+3.2.5.3.  Creating and testing changes. 
+3.2.5.4.  Distributing changes. 
+40 
+DAFMAN10-703  2 JUNE 2021 
+3.2.5.5.  Implementing changes. 
+3.2.5.6.  Validating equipment changes in combat units. 
+3.3.  MAJCOM Directed Exercises.  MAJCOM directed exercise goals include: 
+3.3.1.  Validating the procedures for distributing emergency reprogramming data to units. 
+3.3.2.  Identifying shortcomings in communications and support equipment. 
+3.3.3.  Unit Participation. Periodic exercise participation is at the unit commander’s discretion. 
+If the unit commander chooses not to participate, report reason for non-participation through 
+the command chain to the MAJCOM. Reasons must include: unit deployment, Inspector 
+General visit, unit stand-down, or other mission exigency. 
+3.4.  Wing or Group Directed Exercise Goals Include: 
+3.4.1.  For these exercises: 
+3.4.1.1.  Opportunity for personnel to practice reprogramming. 
+3.4.1.2.  Opportunity to correct or improve reprogramming capabilities based on previous 
+exercise results. 
+3.4.2.  A wing or group shall coordinate with its MAJCOM and appropriate reprogramming 
+center for availability of exercise data and messages. (T-3). SERENE BYTE request forms are 
+available on the PACER WARE Database and the Multi-Service Data Distribution System. 
+3.4.3.  EWIR messages and data will be sent to the unit via an appropriately classified email 
+or be made available on the Multi-Service Data Distribution System, as time and tasking 
+permits. 
+DAFMAN10-703  2 JUNE 2021 
+41 
+Chapter 4 
+INTERNATIONAL EWIR PROGRAM 
+4.1.  Purpose.  The International EWIR program supports building EW capacity for partner air 
+forces. Its purpose is to foster interoperability for future coalitions and to strengthen partner 
+countries’ defensive posture. This program provides acquisition, logistics, technical engineering, 
+and system familiarization services to ensure the effectiveness of EW systems sold to partner 
+nations. This support program is designed to provide for the standardization and reliability required 
+to field effective EW systems. 
+4.2.  Scope.  There are three basic areas of the international EWIR program: (1) international 
+agreements; (2) foreign military sales cases; and (3) US government support for direct commercial 
+sales. 
+4.2.1.  International Agreements. Agreements, such as cooperative research or data exchange, 
+joint development programs or joint exercises will require foreign military sales EWIR support 
+to enhance or maintain their effectiveness between partners. In accordance with AFI 51-403, 
+International Agreements, AF personnel must obtain written approval from a competent 
+authority before initiating, negotiating, or concluding an international agreement. (T-0). See 
+DoDI 5530.03, International Agreements, para 5.2.b.(6), for more information. 
+4.2.2.  Foreign Military Sales Cases. The majority of international EWIR programs are 
+accomplished using US Government contracts (foreign military sales cases). 
+4.2.3.  US Government support to direct commercial sales programs will encompass EW 
+management or oversight of EW sales by US industry. (T-3). EWIRDB support for direct 
+commercial sales programs must be provided under a foreign military sales case. (T-3). 
+4.3.  Approach.  The international EWIR program follows the AF EWIR process except for 
+additional foreign disclosure reviews. Procedures and organizational responsibilities outlined in 
+Chapter 2, and modified in this chapter form the basis for the international EWIR program. 
+Hardware and software support shall mirror the AF support processes where feasible. International 
+EWIR program support is developed in accordance with AF policies for security cooperation, 
+foreign disclosure and technology transfer as well as specific foreign partner requirements set for 
+in the terms of each foreign military sales case. The key administering agencies are the Foreign 
+Disclosure Division (SAF/IAPD), the Weapons Division (SAF/IAPW), AF/A5L, ACC Security 
+Assistance Branch (ACC/IAS), the Air Force Security Assistance and Cooperation Directorate, 
+and the Air Force Security Assistance Training Squadron. The foreign military sales EWIR 
+implementing agencies are NASIC, AFLCMC/WNYI, and the 53 EWG. 
+4.4.  Special Factors.  Transferring capabilities through international EWIR programs involves 
+several factors. Program changes requiring supporting documentation, such as memoranda of 
+understanding, foreign military sales cases, bilateral or multilateral agreements will require the 
+purchaser’s agreement before the program can move forward. (T-0). The purchaser must fund the 
+international EWIR program while EWIR activities, such as range testing, will be funded jointly 
+through international agreements. (T-0). EWIRDB support requirements for mission data file 
+development to support foreign military sales cases must be approved in principle as described in 
+paragraph 4.9 before appropriate hardware or software sales are completed through foreign 
+military sales or direct commercial sales programs. (T-0). 
+42 
+DAFMAN10-703  2 JUNE 2021 
+4.5.  International EWIR Program Disclosure.  Transfer of US EW capabilities to international 
+customers occur in accordance with applicable AF, DoD and national policies and procedures. EW 
+military capabilities can include: deliverable hardware or software, technical orders, operating 
+manuals, employment considerations, training, and databases for mission data file development, 
+deliverable mission data, and applicable documentation (handbooks or annexes). 
+4.6.  EW Systems Support. 
+4.6.1.  US Systems: 
+4.6.1.1.  Responsibility for mission data file development resides with 53 EWG, AMC/OL-
+A, Det 1 492 SOW, and AFLCMC/WNYI. The 53 EWG will develop mission data files 
+for fighters, bombers, and Airborne Warning and Control System platforms. (T-3). Det 1 
+492 SOW is responsible for mission data file development for special operations forces 
+and common EW systems on mobility air forces platforms. (T-3). AMC/OL-A will conduct 
+overall software management of the ALR-69A and the KC-46 radio frequency self-defense 
+system, the Tactical Situation Awareness System. (T-3). AFLCMC/WNYI will develop 
+mission data files in accordance with memoranda of agreement with the 53 EWG or Det 1 
+492 SOW. (T-3). Organizations responsible for developing mission data files shall 
+coordinate with appropriate agencies for technical order development. (T-3). Under 
+emergency or urgent reprogramming conditions, the responsible organization will 
+coordinate a concurrent delivery with other applicable organizations. (T-3) Combatant 
+commanders and the EW cell will be notified of all emergency reprogramming activities 
+accomplished for nations in their respective area of responsibility. (T-3). 
+4.6.1.2.  US EW systems installed on non-US platforms or integrated with other non-US 
+systems are supported on a case-by-case basis. 
+4.6.1.3.  The international EWIR program will support EW systems retired from the AF 
+inventory to the maximum extent feasible based on available hardware, software and 
+engineering expertise. 
+4.6.1.4.  Mission data file development under direct commercial sales programs requires 
+proper manpower, reprogramming tools, test support equipment, and database support. 
+4.6.2.  Non-US Systems. EW systems of foreign origin are generally not supported. Contact 
+SAF/IAPW for guidance on exceptions to this policy. 
+4.7.  Functional Responsibilities.  These specific responsibilities are in addition to those found in 
+Chapter 2 and cover the International EWIR program. 
+4.7.1.  Department of the Air Force Secretariat: 
+4.7.1.1.  The Assistant Secretary of the Air Force for Acquisition, Technology and 
+Logistics (SAF/AQ) is responsible for acquisition policy, program management, and 
+execution of all AF foreign military sales acquisition cases and will work with SAF/IA and 
+AFMC headquarters to accomplish necessary tasks (AFI 63-101/20-101). Within SAF/AQ, 
+the Capabilities Division (SAF/AQPC) oversees EW system acquisitions. 
+4.7.1.2.  The Deputy Under Secretary of the Air Force for International Affairs (SAF/IA) 
+manages security assistance policies and foreign military sales program execution. 
+DAFMAN10-703  2 JUNE 2021 
+43 
+4.7.1.2.1.  The Armaments Cooperation Division (SAF/IAPC) negotiates non-foreign 
+military sales agreements, such as cooperative developments or data exchanges. 
+4.7.1.2.2.  The Foreign Disclosure Division (SAF/IAPD) provides oversight 
+management for the international EWIR program and its associated disclosure. 
+4.7.1.2.3.  The Weapons Division (SAF/IAPW) provides oversight management for the 
+international EWIR program, authors the AF EW Export Baseline, manages requests 
+for the foreign military sales EWIR databases and participates in appropriate 
+international EWIR meetings. 
+4.7.2.  Air Force Air Staff. The Air Staff will coordinate with Space Staff equivalents, as 
+necessary. 
+4.7.2.1.  The Deputy Chief of Staff, Air Force Futures (AF/A5/7) oversees EW. The 
+Electromagnetic Spectrum Superiority Directorate (AF/A5L) in coordination with 
+SAF/IAPW manages the international EWIR program. AF/A5L responsibilities include 
+coordinating on the release of EW systems, reviewing the operational impact and 
+sensitivity of EW programs, and transfer of information and technology. AF/A5L provides 
+recommendations on foreign military sales program implementation addressing protection 
+of US operational capabilities, vulnerabilities, limitations, and ensuring interoperability. 
+(T-0). Also, AF/A5L is responsible for resolving foreign military sales or direct 
+commercial sales memoranda of agreement issues in conjunction with SAF/IAPW. (T-0). 
+AF/A5L functions as the OPR for the release of PACER WARE and SERENE BYTE (refer 
+to Chapter 3) mission data. Plus, AF/A5L extends invitations and approves foreign 
+participation in SERENE BYTE. 
+4.7.2.2.  AF/A2/6 reviews intelligence impacts on foreign military sales EW programs, 
+participates in related meetings, and advocates foreign military sales programs to other 
+organizations of the US intelligence community. AF/A2/6 also acts as signatory for 
+selected international intelligence arrangements involving the EWIRDB. 
+4.7.3.  Air Combat Command: 
+4.7.3.1.  The Air Combat Command, Director of Operations (ACC/A3) manages joint 
+operations and security assistance programs. 
+4.7.3.1.1.  ACC Security Assistance Branch (ACC/IAS) monitors foreign military sales 
+EW programs, performs ACC foreign disclosure duties, monitors international 
+participation in SERENE BYTE exercises, acts as the ACC focal point for international 
+programs, and tasks ACC subordinate units to support foreign military sales cases. 
+4.7.3.1.2.  The 53 EWG is the AF foreign military sales reprogramming center 
+responsible for operational mission data for fighter, bomber, and Airborne Warning 
+and Control System platforms to the extent specified in memoranda of agreement. 53 
+EWG will coordinate with the appropriate agencies to ensure prompt mission data 
+support, resolve mission data problems, conduct force development evaluations, and 
+provides EW system expertise. (T-3). 
+4.7.3.1.3.  The 57 IS will provide US systems data to NASIC for EWIRDB production 
+and provides support to AF/A5L for developing operational assessments in support of 
+EW capability disclosure. (T-3). 
+44 
+DAFMAN10-703  2 JUNE 2021 
+4.7.3.2.  The National Air and Space Intelligence Center (NASIC) provides foreign 
+capabilities information to SAF/IA in support of disclosure decisions. NASIC acts as 
+technical manager for production and distribution of EWIRDB, and establishes initial and 
+follow-on price and availability data for database support. 
+4.7.4.  Air Force Materiel Command: 
+4.7.4.1.  Provides AF EW capability planning and weapons system expertise and develops, 
+transitions and acquires EW systems. 
+4.7.4.2.  Develops, acquires, and sustains aerial targets and range instrumentation and their 
+related EW payload systems to test and evaluate weapon systems and conduct realistic 
+operational training. AFMC operates the Multi-Spectral Test and Training Environment 
+range at Eglin AFB and provides development testing to allied and foreign nations. AFMC 
+is responsible for acquisition of Air Combat Training Systems and associated threat 
+simulator interoperability. 
+4.7.4.3.  Programs aircrew training and range simulators for AF and foreign military sales 
+customers. Unit training devices are reprogrammed by the responsible air logistics center. 
+4.7.4.4.  Programs the E-3 Electronic Support Measures System using 53 EWG- developed 
+E-3 Electronic Database mission data. 
+4.7.4.5.  The Air Force Security Assistance Center (AFSAC) will manage a broad array of 
+foreign military sales cases that include EW system acquisition and logistics support. 
+AFSAC is also responsible for funding oversight and case closure. AFSAC/XPJ will be 
+AFMC's disclosure authority for the release of military information to foreign nations. (T-
+3). 
+4.7.4.6.  AFLCMC/WNY supports EW planning, development, acquisition, production, 
+and integration of EW systems; and provides system management and logistics support for 
+most AF EW systems. AFLCMC/WNY is AFMC’s single manager for providing system 
+management and logistics support for assigned EW systems, including software and 
+hardware. The Electronic Warfare Avionics Integration Support Facility (EWAISF) 
+manages assigned EW foreign military sales programs. The AFLCMC/WNYI is an AF 
+foreign military sales reprogramming center with the following development and 
+sustainment responsibilities: Operational flight program, mission data as defined by 
+memorandum of agreement, reprogramming tools, test software, hardware and software 
+configuration control for systems managed by EWAISF, setting up communication links, 
+block cycle or software changes coordination, EW products distribution for supported 
+systems, initial price and availability from all applicable organizations, reprogramming 
+exercise participation, and country specific system security classification guides. 
+4.7.5.  National Air and Space Intelligence Center (NASIC) will: 
+4.7.5.1.  Provide foreign capabilities information to SAF/IA in support of disclosure 
+decisions. (T-3). 
+4.7.5.2.  Act as technical manager for production and distribution of EWIRDB, and 
+establishes initial and follow-on price and availability data for database support. (T-3). 
+ 
+ 
+DAFMAN10-703  2 JUNE 2021 
+45 
+4.8.  Foreign Military Sales Policy.  SAF/IAPW and AF/A5L recommend policy changes and 
+develop guidance and procedures for Secretariat, Air Staff, or Space Staff approval and 
+incorporation into DAF instructions for the purpose of advocating and overseeing the export of 
+US EW systems and system support. 
+4.9.  Database Support for EW Reprogramming.  The EWIRDB support program is designed 
+for EW systems sold through DoD Security Cooperation. This program provides appropriate data 
+for all EW-related systems requiring intelligence-based information for mission data 
+programming. Direct commercial sales programs will obtain this support, if required and approved, 
+through a related foreign military sales case. Foreign EW systems are not supported under this 
+program. 
+4.9.1.  Foreign Military Sales vs. Direct Commercial Sales Support. EW database support is 
+only provided through a foreign military sales case. SAF/IAPD and SAF/IAPW can assist 
+countries to determine their data requirements, once a letter of offer and acceptance is signed. 
+Of note, contractors cannot provide EWIRDB support. (T-0). Direct commercial sales licenses 
+shall stipulate that if a country requires intelligence-related products for its EW system, the 
+country will work with the SAF/IAR desk officer for guidance in possibly obtaining the 
+required support through a foreign military sales case. (T-0). 
+4.9.2.  Foreign Military Sales EWIRDB Products. There are two types of foreign military sales 
+EWIRDB products. Depending on a country’s requirements and National Disclosure Policy, 
+the EWIRDB release will either be direct or indirect. (T-0). SAF/IAPW manages, develops, 
+orders production, and requests dissemination of approved components of the EWIRDB for 
+DAF foreign military sales. (T-0). 
+4.9.2.1.  Direct EWIRDB. The direct EWIRDB is a SECRET (REL XXX) product 
+delivered "directly" to an international customer. This product is developed to meet 
+requirements of an international customer that maintains an in-country reprogramming 
+capability. It is only disseminated to countries approved by the US Government to 
+accomplish in-country reprogramming on EW systems sold through foreign military sales 
+or direct commercial sales. A direct commercial sales program that requires support for in-
+country reprogramming activities must have an associated foreign military sales case to 
+obtain the direct EWIRDB. 
+4.9.2.2.  Indirect EWIRDB. The indirect EWIRDB is a SECRET NOFORN product 
+distributed only to US EW programming facilities (US government and/or US contractor). 
+Other releases will be staffed through appropriate government agencies. (T-0). 
+4.9.3.  Database Release Authority. The US intelligence community and the military services 
+maintain the contents of the EWIRDB and are the release authorities. SAF/IAPW coordinates 
+EWIRDB specific customer requirements and obtains required intelligence community or 
+military service approval for EWIRDB products. 
+4.9.4.  Justification for Database Dissemination to International Customers. SAF/IAPW 
+develops the required justification for the release of EWIRDB products based on a clear 
+understanding of the purpose for the release of data. Advance notice of pending EW systems 
+sales to SAF/IAPW is the most effective way to ensure required foreign military sales data 
+products are developed, produced, and distributed to the appropriate EW reprogramming 
+centers. 
+46 
+DAFMAN10-703  2 JUNE 2021 
+4.9.4.1.  Direct Commercial Sales Program Justification. US Government intelligence-
+based data products will be used only under a foreign military sales case to support EW 
+system sales. (T-0). SAF/IAPW begins the development of a database support program for 
+a specific country after a SAF/IA country desk officer develops the appropriate justification 
+for such support and a foreign military sales case is established or an existing one is 
+adjusted. To ensure support is available on a regular basis, SAF/IAPD is alerted to direct 
+commercial sales licenses that offer EW-type systems. 
+4.9.4.2.  Special Justification Requirements. Unless by exception, SAF/IAPD or 
+SAF/IAPW will require additional information from a theater command staff or country 
+team to justify establishing a country-specific database support program. (T-0). This 
+special justification could apply to either a foreign military sales case or direct commercial 
+sales license. Failure to gain the required justification from a theater command staff and 
+country team will result in selective denial of database support for the foreign military sales 
+or direct commercial sales program. This could result in a loss of EW system 
+reprogramming data. 
+4.9.5.  Database Support Development, Release Process for Foreign Military Sales and Direct 
+Commercial Sales Programs. A development and release process is maintained to ensure that 
+correct database products are developed, produced and disseminated to meet foreign military 
+sales or direct commercial sales requirements. (T-0). The process is divided into three phases: 
+Phase I – Release in Principle, Phase II – Development of Database Requirements; and Phase 
+III – Release in Specific. (T-0). The phases are aligned with standard Letter of Offer and 
+Acceptance (LOA) development for foreign military sales cases, but the phases can also be 
+used to support Technical Assistance Agreement/DSP-5 for direct commercial sales programs. 
+(T-0). 
+4.9.5.1.  Phase I – Release in Principle. The Release in Principle is the first phase in 
+development, production and dissemination of foreign military sales EW database products 
+to meet stated EW system requirements. (T-0). An approved Release in Principle stipulates 
+that some degree of support for the country's requirements will be available if and when a 
+foreign military sales case is signed. (T-0). 
+4.9.5.2.  Phase II – Development of Database Requirements. Upon official signature of the 
+foreign military sales case, the second phase begins by accomplishing an analysis of the 
+appropriate area of interest and developing a concise list of radar emitters for that area of 
+interest. (T-0). This list will be SAF/IAPW's recommendation to country representatives 
+during a technical coordination meeting. (T-0). If an adequate list is not developed during 
+or shortly after the technical coordination meeting, there may be a delay in delivery of the 
+database product to the EW reprogramming center. (T-0). After technical coordination 
+meeting completion, the final radar emitter list will be validated against US Government 
+disclosure guidelines prior to phase III initiation. (T-0). 
+4.9.5.3.  Phase III – Release in Specific. The Release in Specific begins immediately after 
+the final radar emitter list is validated. (T-0). This phase establishes a specific release 
+authority from appropriate DoD organizations for parametric data on selected radar 
+emitters. (T-0). SAF/IAPW directs production of the country-specific database once 
+Release in Specific approval is received from appropriate DoD organization. (T-0). 
+DAFMAN10-703  2 JUNE 2021 
+47 
+4.9.5.4.  Follow-on Data Support. The follow-on database support program complements 
+initial database support and ensures regular updates of data for changing area of interest or 
+requirements. In all cases, the process used, the funding required and the database provided 
+will be the same, as long as guidance and funding is provided in a foreign military sales 
+case. The preferred database support program would be defined as initial plus two follow-
+on databases with 24-month intervals between the deliveries of the three products. 
+4.10.  Communications. 
+4.10.1.  Foreign military sales EWIR reprogramming centers will maintain a secure 
+communications capability with US government personnel in country or direct to customer 
+points of contact. (T-3) These links can provide the necessary connectivity for transmitting 
+text and binary data between the reprogramming center and international customers. 
+4.10.2.  Security of International Transmissions. DoD ensures the establishment of secure 
+transmission channels for the physical transfer of documents, software and data. Electronic 
+transmission is the desired method of transfer. US government personnel supporting 
+international partners will receive and transmit reprogramming software and messages via the 
+SIPRNet or secure communications equipment. 
+4.11.  Foreign Military Sales EWIR Training and Exercise Support. 
+4.11.1.  Foreign military sales EWIR operational and technical training and logistics support 
+is provided from the following organizations: 
+4.11.1.1.  SAF/IAPW provides familiarization on the overall foreign military sales EWIR 
+process and its components. 
+4.11.1.2.  53 EWG will provide mission data familiarization and operational considerations 
+for international customer use of AF EW equipment. (T-3). 
+4.11.1.3.  Det 1 492 SOW will provide mission data and operations considerations for 
+systems similar to special operations forces and mobility air forces-configured EW 
+equipment. (T-3). 
+4.11.1.4.  AFLCMC/WNY will provide hardware and software familiarization support for 
+assigned systems. (T-3). 
+4.11.1.5.  ACC mobile training teams are available on request of the foreign government 
+(non-interference basis) for in-country instruction on EW subjects, EW systems’ 
+operations, and operational considerations. 
+4.11.1.6.  SAF/IAPW, in conjunction with NASIC, provides EWIRDB training support. 
+4.11.1.7.  DAF security assistance training develops and provides foreign military sales 
+training plans. 
+ 
+ 
+48 
+DAFMAN10-703  2 JUNE 2021 
+ 
+4.11.2.  DAF directed EW reprogramming exercises may include allied and friendly nations to 
+demonstrate AF support and provide training. 
+ 
+S. CLINTON HINOTE, Lt Gen, USAF 
+DCS, Strategy, Integration, and Requirements 
+DAFMAN10-703  2 JUNE 2021 
+49 
+Attachment 1 
+GLOSSARY OF REFERENCES AND SUPPORTING INFORMATION 
+References 
+DoD Directive 5250.01, Management of Intelligence Mission Data (IMD) in DoD Acquisition, 
+22 January 2013 
+DoD Instruction 5000.85, Major Capability Acquisition, 6 August 2020 
+DoD Instruction 5530.03, International Agreements, 4 December 2019 
+DoD Instruction 8320.05, Electromagnetic Spectrum Data Sharing, 18 August 2011 
+CJCSI 3210.04A, Joint Electronic Warfare Reprogramming Policy, 10 February 2011 
+CJCSI 3320.01D, Joint Electromagnetic Spectrum Operations (JEMSO), 21 January 2013 
+CJCSM 3212.02E, Performing Electronic Attack in the United States and Canada for Tests, 
+Training, and Exercises, 17 June 2019 
+Joint Publication 3-85, Joint Electromagnetic Spectrum Operations, 22 May 2020 
+DAFPD 10-7, Information Operations, 4 August 2014 
+DAFPD 63-1/20-1, Integrated Life Cycle Management, 7 August 2018 
+AFI 10-706, Electronic Warfare (EW), 14 May 2014 
+AFI 17-220, Spectrum Management, 16 March 2017 
+AFI 33-322, Records Management and Information Governance Program, 23 March 2020 
+AFI 51-403, International Agreements, 8 February 2019 
+AFI 63-101/20-101, Integrated Life Cycle Management, 30 June 2020 
+DAFI 33-360, Publications and Forms Management, 7 August 2020 
+AFMAN 16-101, Security Cooperation (SC) and Security Assistance (SA) Management, 2 
+August 2018 
+AF Doctrine Annex 3-51, Electromagnetic Warfare and Electromagnetic Spectrum Operations, 
+30 July 2019 
+Memorandum of Agreement on 53 EWG and AFLCMC/WNYI Foreign Military Sales Mission 
+Data Programming, 13 June 1997 
+Prescribed Forms 
+None 
+Adopted Forms 
+AF Form 847, Recommendation for Change of Publication 
+AF Form 1067, Modification Proposal 
+50 
+DAFMAN10-703  2 JUNE 2021 
+Abbreviations and Acronyms 
+ACC—Air Combat Command 
+AETC—Air Education and Training Command 
+AFGSC—Air Force Global Strike Command 
+AFI—Air Force Instruction 
+AFLCMC—Air Force Life Cycle Management Center 
+AFMC—Air Force Materiel Command 
+AFOTEC—Air Force Operational Test and Evaluation Center 
+AFRC—Air Force Reserve Command 
+AFSAC—Air Force Security Assistance Center 
+AFSOC—Air Force Special Operations Command 
+AMC—Air Mobility Command 
+AMC/OL-A—Air Mobility Command EW reprogramming center 
+ANG—Air National Guard 
+CJCSI—Chairman of the Joint Chiefs of Staff instruction 
+CJCSM—Chairman of the Joint Chiefs of Staff manual 
+DAF—Department of the Air Force 
+DAFMAN—Department of the Air Force Manual 
+DIA—Defense Intelligence Agency 
+DoD—Department of Defense 
+DoDD—Department of Defense Directive 
+DoDI—Department of Defense Instruction 
+EMS—Electromagnetic Spectrum 
+EW—electromagnetic warfare 
+EWAISF—Electronic Warfare Avionics Integration Support Facility 
+EWIR—electromagnetic warfare integrated reprogramming 
+EWIRDB—electronic warfare integrated reprogramming database 
+FLDCOM—field command 
+HAF—Headquarters Air Force 
+HQ—headquarters 
+IMD—intelligence mission data 
+JP—joint publication 
+DAFMAN10-703  2 JUNE 2021 
+51 
+MAJCOM—major command 
+MSIC—Missile and Space Intelligence Center 
+NASIC—National Air and Space Intelligence Center 
+NSA—National Security Agency 
+OFP—operational flight program 
+OPR—office of primary responsibility 
+POC—point of contact 
+RF—Radio Frequency 
+SA—security assistance 
+SAF—Secretary of the Air Force 
+SC—security cooperation 
+SIGINT—signals intelligence 
+SIPRNet—SECRET Internet Protocol Router Network 
+SpOC—Space Operations Command 
+USSF—United States Space Force 
+Terms 
+Block Cycle—In this process the reprogramming center receives software change requests from 
+the user, and other change requests from organizations, which are associated with the software 
+process. The reprogramming center evaluates these requests and identifies potential solutions. 
+When the user determines that sufficient changes have been identified to justify the expense of an 
+update, the reprogramming center implements the software changes. Changes are scheduled based 
+on the criticality of the requirement, with routine updates generally occurring approximately every 
+18 months for operational flight programs and mission data. 
+BLUE—Term used to describe the platforms, systems or the electromagnetic characteristics of 
+systems associated with US military users (see Attachment 3 for complete description). 
+Characteristics and Performance Data—Developed from parametric data and detailed analysis 
+of all-source intelligence, characteristics and performance data provide descriptive characteristics 
+used to define the system, its capabilities, and its behaviors. Examples of characteristics and 
+performance data include antenna patterns, radio frequency, electro-optical or infrared signatures, 
+electromagnetic protection capabilities, and maximum detection range. 
+All—source derived assessments of foreign military system capabilities and physical attributes. 
+(DoDD 5250.01) 
+ 
+ 
+52 
+DAFMAN10-703  2 JUNE 2021 
+Community On—Line Intelligence System for End-Users and Managers—The Defense 
+Intelligence Agency (DIA) on-line production and requirements management system. It provides 
+the mechanism for registering and validating requirements, deconflicting requirements, and 
+assigning and scheduling production within production centers under the purview of DIA. It 
+provides the ability to track and manage production activities across operational and national 
+planners and consumers. Production requirements and requests for information are used in 
+Community On-Line Intelligence System for End-Users and Managers to register the intelligence 
+product or service requirement and to assign the requirement to the appropriate production 
+center(s). 
+Electromagnetic Environment—The resulting product of the power and time distribution, in 
+various frequency ranges, of the radiated or conducted electromagnetic emission levels 
+encountered by a military force, system, or platform when performing its assigned mission in its 
+intended operational environment. 
+Electromagnetic Warfare (EW)—Any military action involving the use of electromagnetic and 
+directed energy (DE) to control the electromagnetic spectrum or to attack the enemy. The three 
+major subdivisions within EW are: electromagnetic attack, electromagnetic protection, and 
+electromagnetic warfare support. 
+Electromagnetic Warfare Integrated Reprogramming (EWIR)—The process that fully 
+integrates operations, intelligence, communications, logistics, and other support functions to 
+provide changes to reprogrammable electronic warfare equipment hardware and software, tactics, 
+and equipment settings. EWIR gives the Department of the Air Force a clear and comprehensive 
+picture of tasks, data, staffing, and the interrelationships between the agencies that reprogram EW 
+equipment. This process forms the basis for developing Air Force procedures, organizations, 
+facilities, and expertise to ensure responsive EW reprogramming during peacetime, wartime, and 
+contingencies. 
+Electronic Warfare Integrated Reprogramming Data Base (EWIRDB)—The EWIRDB is a 
+database that contains parametric and select characteristics and performance data describing EW 
+systems. It is the primary source for mission and reprogramming data. It is the primary DoD 
+approved source for technical parametric and performance data on non-communications electronic 
+emitters and associated systems. Scientific and technical intelligence and other centers (including 
+NASIC, National Ground Intelligence Center, National Maritime Intelligence Center, MSIC, 453 
+EWS, 57 IS and NSA) provide the data to NASIC for inclusion in the database. The EWIRDB 
+includes threat, neutral military, and friendly and commercial system mission data. 
+EWIR Data—All-source derived data describing observed and assessed radio frequency 
+parametric data. 
+Fit Data—Information about the internal and external equipment associated with a particular 
+platform. For example, knowledge of a specific grouping of aircraft avionics hardware and 
+software and how the components work together, provides the avionics fit for that platform. 
+Knowing the grouping (configuration) of the hardware and software helps to make the fit. 
+Similarly, having knowledge of the different possible weapon, launcher or fuel tank load 
+combinations on an aircraft contributes to the weapons fit for that platform. 
+ 
+ 
+DAFMAN10-703  2 JUNE 2021 
+53 
+Flagging—The process of identifying emissions whose parameters are outside of prescribed 
+limits. There are two methods: parametric-based flagging or model-based flagging. Parametric- 
+based flagging consists of comparing observed parametric data to the database of known emitter 
+parameters. Model-based flagging consists of using software-based models to analyze an EW 
+system’s response to observed parametric data. 453 EWS maintains automated flagging tools for 
+both methods. 
+GRAY—Term used to describe the platforms, systems or the electromagnetic characteristics of 
+systems associated with non-US, non-hostile military users (see Attachment 3 for complete 
+description). Examples: 
+Countries or coalitions traditionally identified as US allies (UK, CAN, AUS, NATO, 
+etc.). Countries or coalitions identified as neutral or unknown in their alliance with 
+US. US systems sold to other countries through foreign military sales or similar 
+processes. Different organizations may be assigned different parts of GRAY to 
+comply with existing laws and DoD, joint or service policies. 
+Implementation Message—MAJCOM, joint forces air and space component commander, 
+combined forces air and space component commander, or air operations center approval to load a 
+change that the reprogramming centers have made to electromagnetic warfare systems and sent to 
+the units. 
+Intelligence Community—The term "intelligence community" includes the following: 
+(A) The Office of the Director of National Intelligence. 
+(B) The Central Intelligence Agency. 
+(C) The National Security Agency. 
+(D) The Defense Intelligence Agency. 
+(E) The National Geospatial-Intelligence Agency. 
+(F) The National Reconnaissance Office. 
+(G) Other offices within the Department of Defense for the collection of specialized national 
+intelligence through reconnaissance programs. 
+(H) The intelligence elements of the Army, the Navy, the Air Force, the Marine Corps, the Coast 
+Guard, the Federal Bureau of Investigation, the Drug Enforcement Administration, and the 
+Department of Energy. 
+(I) The Bureau of Intelligence and Research of the Department of State. 
+(J) The Office of Intelligence and Analysis of the Department of the Treasury. 
+(K) The Office of Intelligence and Analysis of the Department of Homeland Security. 
+(L) Such other elements of any department or agency as may be designated by the President, or 
+designated jointly by the Director of National Intelligence and the head of the department or 
+agency concerned, as an element of the intelligence community. 
+International Agreement—As used in this instruction, the term International Agreement has the 
+same meaning as defined in Attachment 1 of AFI 51-403. 
+ 
+ 
+54 
+DAFMAN10-703  2 JUNE 2021 
+Mission Data—Elements or files a processor employs to perform signal discrimination, threat 
+warning, target a threat, or elicit countermeasure responses, such as jamming or expendables, 
+which are selectable, adaptable, or changeable by the using command with the exception being 
+foreign military sales customers. Mission data is also called emitter identification data, mission 
+data file, pre-flight message, code form message, or other related names that vary in function 
+according to the system using them. 
+Missionware—A combination of software applications and tailored mission data intended to 
+generate effects within a given mission or series of missions. Missionware possesses properties of 
+both traditional mission data and OFPs.  For example, Mission data supporting MW may be written 
+in various languages and consist of diverse data sets. Some data sets may be specific to a given 
+application and some may be shared across different applications. It may be applied across multiple 
+hardware sets and is not tightly tied to any one particular hardware system at the pre-mission 
+planning level although it may require manipulation at some point to account and correct for 
+unique RF chain configurations and sensitivities. 
+Multi-Service Data Distribution System—The Multi-Service Data Distribution System is a 
+means of transmitting digital data and EWIR message traffic to operational locations. Normally, 
+data and messages are available on the Multi-Service Data Distribution System almost 
+simultaneously with their transmission over SIPRNet. The Multi-Service Data Distribution System 
+uses secure communications equipment to transmit digital data, via commercial or Defense Switch 
+Network voice lines, or SIPRNet, from reprogramming centers directly to operational locations 
+which possess like equipment and appropriate communications software. Since the Multi-Service 
+Data Distribution System is a "pull" system, units must be notified by message or telephone that 
+new mission data software has been loaded on the Multi-Service Data Distribution System. (T-3). 
+The Multi-Service Data Distribution System provides a backup for the transmission of 
+reprogramming data and EWIR message traffic. 
+National SIGINT Requirements Process—An integrated system of policies, priorities, 
+procedures and technology used by the intelligence community to manage requests for national 
+level SIGINT products and services. SIGINT collectors satisfy tactical through national level 
+consumer information needs based on national SIGINT requirements process guidance. 
+Information need statements are used in the national SIGINT requirements process to relay 
+collection requirements to SIGINT collectors. 
+Operational Change Request—A formal request to the appropriate major command and support 
+command facilities that identifies the inability of an electromagnetic warfare system to meet 
+operational requirements. In emergencies, an operational change request identifies the inability to 
+discriminate or respond to a threat and then requests mission data or operational flight program 
+changes to correct the problem. 
+Operational Flight Program—The executable program resident in computer-controlled 
+electromagnetic warfare systems that contains the algorithms that receive, identify, process, and 
+do jamming tasks. This program does not contain any threat-specific data, and operational 
+commands cannot change the program. The reprogramming centers send a software change 
+message to Air Force Materiel Command to get an operational flight program modified. 
+ 
+ 
+DAFMAN10-703  2 JUNE 2021 
+55 
+Operational Reconnaissance (OPS RECCE)—A tactic to deliberately leverage sensor 
+capabilities on primarily strike aircraft to increase battlespace awareness and lethality beyond 
+those for which the sensors were originally intended. Source: Annex 2-0, Global Integrated 
+Intelligence, Surveillance & Reconnaissance Operations, Appendix C Multi-Role Aircraft with an 
+ISR Mission, 29 Jan 2015. 
+ 
+PACER WARE—The term for actual electromagnetic warfare system changes issued during 
+peacetime, contingencies, or wartime operations. PACER WARE actions can be at the routine, 
+urgent, or emergency level as required. 
+PACER WARE Database—53 EWG, working with Det 1 492 SOW Reprogramming Center, 
+developed a secure unclassified website to manage and distribute AF PACER WARE 
+information. This common access card-enabled database acts as a focal point for all AF EWIR 
+unit account information and message release data. Accessible 24/7 by users worldwide, the 
+PACER WARE Database provides a backup to other EWIR communication channels. This 
+system ensures units receive critical updates when SIPRNet channels are unavailable. The 
+database may be accessed at: Error! Hyperlink reference not valid. 
+PACER WARE Messages—PACER WARE messages templates and procedures (operational 
+change request, system impact message, reprogramming impact message, maintenance 
+instruction message, time compliance technical order, implementation message, system change 
+message, and unit loading message) are located on the classified Multi-Service Data Distribution 
+System (EWIR_OPS_PW_MSG_Templates library) and unclassified PACER WARE database at 
+Error! Hyperlink reference not valid.  
+Parametric Data—Directly measurable factors, such as frequency, pulse width, or polarization 
+that help to define a system or waveform and determine its behavior. They are data elements that 
+describe specific properties and timing. Some parametric data are expressed as a mean value, or 
+range of values. 
+Rapid Reprogramming—The term used to describe the method to reprogram EW systems in a 
+time sensitive manner. 
+RED— Term used to describe the platforms, systems or the electromagnetic characteristics of 
+systems associated with hostile (non-US) users (see Attachment 3 for complete description). 
+ 
+ 
+56 
+DAFMAN10-703  2 JUNE 2021 
+Reprogramming—Changes made to EW system software, such as mission data file or 
+operational flight program changes which alter programmed look-up tables, threat libraries, or 
+signal-sorting routines; hardware, such as long-term system modifications; or tactics, such as 
+procedures, equipment settings, or EW mission planning data changes.  These changes are made 
+to enable an operational commander to respond to changes in enemy threat systems, tailor 
+equipment to meet unique theater requirements, and to adjust to changing mission requirements. 
+Reprogramming Center—A term used to refer to centers which plan, design, test, and field 
+updates to mission data and operational flight programs. Operational reprogramming centers are 
+responsible for mission data while Support reprogramming centers are responsible for 
+operational flight programs. 
+Security Assistance Program—A program designed to provide assistance, such as training, 
+weapons, or hardware to a foreign government for furthering the US national security strategy. 
+SERENE BYTE—The nomenclature for exercising Air Force electromagnetic warfare system 
+changes. 
+Service Production Center—Organizations responsible for updating and maintaining assigned 
+emitters in EWIRDB. Emitter assignments are based primarily on areas of expertise. Service 
+production centers provide system-specific technical information to theater intelligence centers 
+and reprogramming centers. The following are the service production centers: National Ground 
+Intelligence Center; Office of Naval Intelligence; Marine Corps Intelligence Activity; National 
+Air and Space Intelligence Center; and 57th Intelligence Squadron. 
+Signature—A distinctive characteristic or set of characteristics that consistently recurs and 
+identifies a piece of equipment, material, activity, individual, or event, such as a radio 
+frequency or acoustic characteristics. 
+Software Validation—Integration, testing, and evaluation performed at the system or 
+subsystem level to ensure the final program satisfies system specifications and user or 
+supporting command requirements. 
+Specific Emitter Identification—A method to unambiguously identify a particular emitter or 
+class of emitters by exploiting unintentional or unique features of the emitter signal. 
+Threat Change Messaging Portal—A SIPRNet-based software portal used for the purpose of 
+facilitating the threat change validation process. This portal permits threat change validation 
+request submittal from reprogramming centers of all military services and threat change 
+validation message replies from participating service production centers, scientific and 
+technical intelligence centers, information warfare centers, service components, and observed 
+signal centers. When operational, the portal is the preferred messaging system for threat change 
+validation request or other message traffic. When non-operational, legacy threat change 
+validation request or other message traffic system and methods apply. The EWIRDB Program 
+Management Office at DIA MSIC maintains this portal. The threat change messaging portal is 
+located at http://www.msic.dia.smil.mil/tcmp. 
+Threat Change Validation—An EWIR intelligence community process for providing 
+validation assessments on suspected EW threat changes to the reprogramming centers so that a 
+valid reprogramming decision can be made. 
+DAFMAN10-703  2 JUNE 2021 
+57 
+Verification—Process of comparing two levels of an information system specification for 
+proper correspondence, such as a security policy model with top-secret specification, a top-level 
+specification with source code, or source code with object code. 
+WHITE— Term used to describe the platforms, systems or the electromagnetic characteristics 
+of systems associated with non-military, non-hostile users (see Attachment 3 for complete 
+description). 
+ 
+58 
+DAFMAN10-703  2 JUNE 2021 
+Attachment 2 
+EWIR COMMITTEE MEMBERSHIP MATRIX 
+Table A2.1.  EWIR Oversight Committee and Subcommittee Membership Matrix. 
+Organization 
+Oversight 
+Communication 
+Requirements Subcommittee 
+AF/A5L 
+C 
+I 
+AF/A2OCS 
+X 
+AF/A2DP 
+X 
+NASIC/ADE 
+X 
+EWIRDB Technical Manager 
+X 
+AF/A26/6CD 
+I 
+X 
+SAF/IAPD 
+X 
+X 
+SAF/IAPW 
+X 
+X 
+ACC 
+ACC/A3/2/6KL 
+X 
+X 
+16 AF 
+I 
+ 
+57 IS 
+X 
+X 
+53 EWG 
+X 
+X 
+68 EWS 
+X 
+C 
+16 EWS 
+X 
+X 
+36 EWS 
+X 
+X 
+53 CSS 
+X 
+X 
+453 EWS 
+X 
+X 
+513 EWS 
+X 
+X 
+AFGSC 
+AFGSC/A3T 
+X 
+X 
+AFMC 
+AFLCMC/WNY (EWAISF) 
+X 
+X 
+AFLCMC/WNYI (Int’l Programs 
+Branch) 
+X 
+X 
+AFSOC 
+Det 1 492 SOW 
+X 
+X 
+A3T 
+X 
+A4M 
+I 
+A6T 
+X 
+AMC 
+A3TW 
+X 
+A4M 
+X 
+DIA/MSIC (EWIRDB PMO) 
+I 
+NSA ADD/TSE 
+I 
+DAFMAN10-703  2 JUNE 2021 
+59 
+Note 1: 
+C = Chairperson 
+I = Invitee, non-voting 
+X = Member, voting 
+Note 2: In accordance with the Charter for the EWIR Communications Requirements 
+Subcommittee, the Subcommittee’s purpose is to ensure new and existing reprogramming 
+support equipment will support EWIR. The Subcommittee ensures communications capabilities 
+will adequately support current and future connectivity to common users, base-level, and long-
+haul systems. Additionally, the Subcommittee focuses on requirements to drive recommended 
+technical solutions for communications connectivity among reprogramming centers, 453 EWS, 
+57 IS, intelligence support agencies, MAJCOMs, joint or combined forces air component 
+commanders, air operations centers, EW cells and the wings or groups. 
+ 
+60 
+DAFMAN10-703  2 JUNE 2021 
+Attachment 3 
+EWIR DATA TYPES 
+A3.1.  Data Types.  An effective EWIR process requires accurate signal and system information, 
+not all of which can be actively collected or processed by a single organization. Over many years 
+US laws, policies, and DoD, joint and service guidance have created divisions of authority and 
+responsibility, leading to the development of several data types, or colors (RED, GRAY, BLUE, 
+WHITE), with different communities (operations, acquisition, intelligence) responsible for 
+different colors. To ensure that the DAF EWIR process obtains and disseminates all required 
+information, Table A3.1 defines the different data colors.  NOTE:  The type and color terms are 
+for planning, development and resource allocation purposes only--what is WHITE today may 
+become RED if hostile forces employ a commercially available system. Systems may have more 
+than one color. For example, if a currently fielded BLUE military system is sold to a GRAY 
+country but then political circumstances change and that country employs that system in a hostile 
+manner, that system is now both BLUE and RED. Differences in configuration will likely still 
+exist between the BLUE and RED version even though they are the same basic system. Also, the 
+US military may use the same commercial (WHITE) system a hostile user (RED) employs. If the 
+US military is a user, those systems are BLUE, the hostile used systems are RED and if there are 
+commercial users those systems are WHITE. 
+ 
+ 
+ 
+DAFMAN10-703  2 JUNE 2021 
+61 
+ 
+Table A3.1.  EWIR Color Codes. 
+ 
+TERM 
+DEFINITION 
+Color 
+Code User 
+Code 
+Indicates the general user category of a related set of entities or objects. 
+Can apply to a set of platoons, a set of platforms, or a set of sensor 
+systems.  The current codes are RED, BLUE, GRAY, and WHITE. 
+RED 
+Associated with hostile (non-US) users. 
+BLUE 
+Associated with US military users. 
+GRAY 
+Associated with non-US, non-hostile military users. Examples: 
+Countries or coalitions traditionally identified as US allies (UK, 
+CAN, AUS, NATO, etc.). 
+Countries or coalitions identified as “neutral” or “unknown” in 
+their alliance with US. 
+US systems sold to other countries through foreign military sales or 
+similar processes. 
+Literally, a “gray” area, where rules, responsibilities, and collection 
+authorities require significant attention to law and policy detail. 
+Different organizations may be assigned different parts of GRAY to 
+comply with existing laws and DoD, joint or service policies. 
+WHITE 
+Associated with non-military, non-hostile users. 
+Note: US Government systems that do not fall under the US Military, such as Drug 
+Enforcement Agency systems are considered as WHITE. 
+Note: Can be divided into US-WHITE and NON-US-WHITE if needed. 
+Table A3.2.  EWIR User Codes. 
+TERM (User Code) DEFINITION 
+US Military 
+US Army, US Navy, US Air Force, US Space Force, US Marine 
+Corps, and US Coast Guard. 
+Non-US Military 
+Any military service that is not organized under the US Government. 
+Hostile Users 
+Non-US users treated as threatening to US sovereignty or US people. 
+Note: No US users are treated as hostile. 
+Non-hostile Users 
+US or Non-US users treated as non-threatening to US sovereignty 
+or people. 
+62 
+DAFMAN10-703  2 JUNE 2021 
+Table A3.3.  EWIR Data Types and Colors. 
+ 
+A3.2.  Data Color Example.  Assume the XYZ system is used by US and Country X military 
+forces. Country X is non-US + non-hostile. Overall, the XYZ system can be described as 
+BLUE+GRAY.  That is, there are BLUE XYZ systems and GRAY XYZ systems, which may not 
+be identical. The EWIR organization(s) responsible for BLUE data would be responsible for the 
+BLUE version of XYZ; the EWIR organization(s) responsible for GRAY data would be 
+responsible for the GRAY version of XYZ. To the maximum extent possible, the BLUE and 
+GRAY organizations would collaborate to share or compare data across the versions of the XYZ 
+system. Each organization would ensure that each data set is updated over time as the system(s) 
+are changed or upgraded. 
+A3.3.  Data Color Designation and Assignment.  Much of the information required for the DAF 
+EWIR process is based on the work of the intelligence community, which has established lanes in 
+the road for assigning (primarily RED) systems to various production centers. For other systems 
+not explicitly assigned within the intelligence community (primarily BLUE, GRAY or WHITE), 
+AF/A5L will coordinate with AF/A2/6, NSA, DIA, 57 IS, NASIC, and other organizations to 
+ensure all required systems are assigned a data OPR consistent with current guidance and 
+organization missions. In general: 
+A3.3.1.  RED systems are assigned to appropriate production centers for collection and 
+analysis, with refinement or validation of data made by other supporting EWIR organizations. 
+A3.3.2.  BLUE system, aircraft signature and antenna pattern data are generated and updated 
+by operations, program offices (in association with the system vendors), and the 57 IS for 
+addition to US Electromagnetic Systems and Blue Airborne Target Signatures databases, as 
+applicable. BLUE data can then be merged into EWIRDB. 
+A3.3.3.  GRAY systems and data issues must be handled on a case-by-case basis. (T-3). 
+Options include: 
+A3.3.3.1.  Countries or coalitions traditionally identified as US allies may voluntarily 
+provide information to support the EWIR process. Information can then be added directly 
+into EWIRDB, or merged from other EWIR-related databases. 
+A3.3.3.2.  Countries or coalitions identified as “neutral” or “unknown” in their alliance 
+with the US may be assigned to appropriate production centers for collection and analysis, 
+with refinement or validation of data made by other supporting EWIR organizations. 
+ 
+ 
+DAFMAN10-703  2 JUNE 2021 
+63 
+A3.3.3.3.  GRAY data for US systems being sold to other countries (through foreign 
+military sales or similar processes) are generated by the program office (in association with 
+the system vendor) and provided to 57 IS before the system leaves US control. Once the 
+foreign military sales system is outside of US control, system data and update 
+responsibilities may be transferred to a production center, as applicable. 
+A3.3.4.  WHITE data must also be evaluated on a case-by-case basis. (T-3). Information may 
+be provided by or purchased from the commercial vendor(s), or system may be assigned to 
+appropriate production centers for collection and analysis, with refinement or validation of 
+data made by other supporting EWIR organizations in accordance with intelligence oversight 
+guidance. Information can then be added directly into EWIRDB, or merged from other EWIR-
+related databases. 
+ 
