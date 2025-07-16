@@ -163,11 +163,11 @@ class OutlineGeneratorAgent(BaseAgent):
                     # vector_top_k, keyword_top_k, hybrid_alpha will use defaults from RetrievalService/settings
                 )
                 if retrieved_docs:
-                    context_parts = []
-                    for i, doc in enumerate(retrieved_docs):
-                        context_parts.append(f"参考资料片段 {i+1}:\n\"\"\"\n{doc.get('document', '')}\n\"\"\"")
-                    retrieved_context_str = "\n\n".join(context_parts)
-                    logger.info(f"[{self.agent_name}] Successfully retrieved {len(retrieved_docs)} documents for pre-outline context using {len(all_queries_for_retrieval)} queries.")
+                    # 修改：不再添加 "参考资料片段" 标记，直接连接文档内容。
+                    # 这样可以防止 LLM 在生成大纲时模仿这种格式。
+                    context_parts = [doc.get('document', '') for doc in retrieved_docs]
+                    retrieved_context_str = "\n\n---\n\n".join(context_parts)
+                    logger.info(f"[{self.agent_name}] Successfully retrieved and concatenated {len(retrieved_docs)} documents for pre-outline context using {len(all_queries_for_retrieval)} queries.")
                 else:
                     logger.info(f"[{self.agent_name}] No documents found during pre-outline retrieval using {len(all_queries_for_retrieval)} queries.")
             except RetrievalServiceError as r_err:

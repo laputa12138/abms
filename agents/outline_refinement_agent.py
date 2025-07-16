@@ -31,36 +31,38 @@ class OutlineRefinementAgent(BaseAgent):
 
     def _format_global_retrieved_docs_for_prompt(
         self,
-        parsed_outline: List[Dict[str, any]],
         global_docs_map: Optional[Dict[str, List[Dict[str, any]]]],
-        max_docs_per_chapter_summary: int = 2,
-        max_text_snippet_len: int = 100 # Max length of text snippet from each doc
+        max_total_snippet_len: int = 4000  # 设置一个总的上下文长度限制
     ) -> str:
         """
-        Formats the globally retrieved documents into a string summary for the LLM prompt.
+        将全局检索到的所有文档整合成一个单一的、全面的上下文摘要，用于LLM prompt。
+        这避免了将特定章节与特定文档片段直接关联，降低了LLM误解的风险。
         """
         if not global_docs_map:
-            return "No globally retrieved information was provided or found."
+            return "没有提供或找到全局检索信息。"
 
-        summary_lines = []
-        for chapter_item in parsed_outline:
-            chapter_id = chapter_item.get('id')
-            chapter_title = chapter_item.get('title', 'Untitled Chapter')
+        all_docs = []
+        # 从map中收集所有文档，并去重
+        for docs in global_docs_map.values():
+            for doc in docs:
+                # 使用 'parent_id' 或 'child_id' 作为唯一标识符来去重
+                doc_id = doc.get('parent_id') or doc.get('child_id')
+                if doc_id and not any(d.get('parent_id') == doc_id or d.get('child_id') == doc_id for d in all_docs):
+                    all_docs.append(doc)
 
-            summary_lines.append(f"\nFor Chapter: \"{chapter_title}\" (ID: {chapter_id})")
+        if not all_docs:
+            return "没有可用的全局检索信息。"
 
-            docs_for_chapter = global_docs_map.get(chapter_id)
-            if docs_for_chapter:
-                for i, doc in enumerate(docs_for_chapter[:max_docs_per_chapter_summary]):
-                    doc_title = doc.get('title', f"Document {i+1}")
-                    doc_text_snippet = doc.get('text', '')[:max_text_snippet_len]
-                    if doc.get('text') and len(doc.get('text')) > max_text_snippet_len:
-                        doc_text_snippet += "..."
-                    summary_lines.append(f"  - Retrieved Doc: \"{doc_title}\"\n    Snippet: \"{doc_text_snippet}\"")
-            else:
-                summary_lines.append("  - No specific documents retrieved for this chapter title in the global pass.")
+        # 将所有文档内容拼接成一个大的上下文
+        context_parts = [doc.get('document', '') for doc in all_docs]
+        full_context = "\n\n---\n\n".join(filter(None, context_parts))
 
-        return "\n".join(summary_lines).strip()
+        # 截断到最大长度限制
+        if len(full_context) > max_total_snippet_len:
+            full_context = full_context[:max_total_snippet_len] + "..."
+            logger.debug(f"Global retrieved context was truncated to {max_total_snippet_len} characters.")
+
+        return full_context
 
     def _validate_suggestions(self, suggestions: List[Dict], parsed_outline: List[Dict]) -> List[Dict]:
         """Basic validation of suggestions from LLM."""
@@ -137,10 +139,9 @@ class OutlineRefinementAgent(BaseAgent):
         # Fetch and format globally retrieved documents
         global_retrieved_docs = workflow_state.get_global_retrieved_docs_map()
         global_info_summary_str = self._format_global_retrieved_docs_for_prompt(
-            parsed_outline,
             global_retrieved_docs
         )
-        logger.debug(f"Formatted global retrieved info summary for prompt:\n{global_info_summary_str}")
+        logger.debug(f"Formatted global retrieved info summary for prompt:\n{global_info_summary_str[:500]}...")
 
 
         prompt = self.prompt_template.format(
