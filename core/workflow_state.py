@@ -443,6 +443,9 @@ class WorkflowState:
             elif action == "modify_level":
                 idx = find_item_index(new_parsed_outline, item_id)
                 if idx != -1:
+                    # Fix for the typo 'new:level' -> 'new_level'
+                    if 'new:level' in op:
+                        op['new_level'] = op.pop('new:level')
                     new_parsed_outline[idx]['level'] = op['new_level']
                 else:
                     logger.warning(f"apply_refinements: 'modify_level' action's id '{item_id}' not found.")

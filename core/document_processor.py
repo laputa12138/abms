@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 # This is a one-time setup. In a production environment, this might be handled during deployment.
 try:
     nltk.data.find('tokenizers/punkt')
-except nltk.downloader.DownloadError:
+except LookupError:
     logger.info("NLTK 'punkt' model not found. Downloading...")
     nltk.download('punkt', quiet=True)
     logger.info("'punkt' model downloaded successfully.")
