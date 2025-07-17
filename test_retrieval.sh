@@ -1,2 +1,2 @@
-nohup python test_retrieval.py --query "美国空军人工智能相关技术现状调研、技术成熟度以及未来发展态势评估" > logs/1-retrieval.log 2>&1 &
+nohup python test_retrieval.py --query "AI驱动的陆海侦察平台与空间网络域数据融合系统架构设计" > logs/1-retrieval.log 2>&1 &
 tail -f logs/1-retrieval.log

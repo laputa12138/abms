@@ -88,6 +88,7 @@ DEFAULT_MAX_CHAPTER_QUERIES_GLOBAL_RETRIEVAL = int(os.getenv("DEFAULT_MAX_CHAPTE
 DEFAULT_MAX_CHAPTER_QUERIES_CONTENT_RETRIEVAL = int(os.getenv("DEFAULT_MAX_CHAPTER_QUERIES_CONTENT_RETRIEVAL", "20"))
 
 # --- Iterative Retrieval Settings ---
+# used in agents/topic_analyzer_agent.py
 # Global retrieval during topic analysis
 GLOBAL_RETRIEVAL_MAX_ITERATIONS = int(os.getenv("GLOBAL_RETRIEVAL_MAX_ITERATIONS", "2"))
 GLOBAL_RETRIEVAL_QUERIES_PER_ITERATION = int(os.getenv("GLOBAL_RETRIEVAL_QUERIES_PER_ITERATION", "5"))
@@ -101,7 +102,7 @@ CHAPTER_RETRIEVAL_QUERIES_PER_ITERATION = int(os.getenv("CHAPTER_RETRIEVAL_QUERI
 # ==============================================================================
 # Pipeline (工作流) 配置 (Pipeline Configuration)
 # ==============================================================================
-DEFAULT_MAX_REFINEMENT_ITERATIONS = int(os.getenv("DEFAULT_MAX_REFINEMENT_ITERATIONS", "2")) # 每个章节内容的最大精炼迭代次数
+DEFAULT_MAX_REFINEMENT_ITERATIONS = int(os.getenv("DEFAULT_MAX_REFINEMENT_ITERATIONS", "1")) # 每个章节内容的最大精炼迭代次数
 DEFAULT_PIPELINE_MAX_WORKFLOW_ITERATIONS = int(os.getenv("DEFAULT_PIPELINE_MAX_WORKFLOW_ITERATIONS", "1000")) # 工作流最大迭代次数，防止无限循环
 DEFAULT_EVALUATOR_REFINEMENT_THRESHOLD = int(os.getenv("DEFAULT_EVALUATOR_REFINEMENT_THRESHOLD", "80")) # Evaluator Agent 评估分数阈值，低于此分数则需要精炼
 RELEVANCE_CHECK_MAX_TEXT_LENGTH = int(os.getenv("RELEVANCE_CHECK_MAX_TEXT_LENGTH", "5000")) # 进行相关性检查时的最大文本长度

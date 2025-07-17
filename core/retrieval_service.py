@@ -214,9 +214,9 @@ class RetrievalService:
                         # logger.debug(f"Document with original index {original_idx} (child_id: {original_full_data.get('child_id')}) "
                         #              f"discarded due to rerank score {reranker_score:.4f} < threshold {settings.DEFAULT_RETRIEVAL_MIN_SCORE_THRESHOLD}.")
                         # print all documents full text and score, with reranker_score < threshold
-                        logger.info("Discarded documents:\n"+ '-'*50)
-                        logger.info(f"Full text: {original_full_data.get('parent_text', '')}")
-                        logger.info(f"Score: {reranker_score}")
+                        # logger.info("Discarded documents:\n"+ '-'*50)
+                        # logger.info(f"Full text: {original_full_data.get('parent_text', '')}")
+                        # logger.info(f"Score: {reranker_score}")
                         continue # Explicitly continue to avoid appending to results
 
                 # RerankerService.rerank already sorts by score and applies top_n.
