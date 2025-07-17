@@ -581,10 +581,32 @@ class ChapterWriterAgent(BaseAgent):
                         report_outline_summary=report_outline_summary, previous_chapters_summary=previous_chapters_summary,
                         is_recursive_call=True) # Still a recursive call
 
+                elif len(content_blocks) == 1:
+                    # If a single block is too long, split its text content
+                    single_block = content_blocks[0]
+                    text_to_split = single_block.get('generated_text', '')
+                    if len(text_to_split) > 1:
+                        mid_text_index = len(text_to_split) // 2
+                        first_text_half = text_to_split[:mid_text_index]
+                        second_text_half = text_to_split[mid_text_index:]
+
+                        split_blocks = [
+                            {'generated_text': first_text_half, 'citation_string': single_block.get('citation_string', '')},
+                            {'generated_text': second_text_half, 'citation_string': single_block.get('citation_string', '')}
+                        ]
+                        logger.info(f"Splitting a single oversized block's text content for chapter '{chapter_title}'.")
+                        return self._integrate_chapter_content(
+                            chapter_title=chapter_title, content_blocks=split_blocks,
+                            report_global_theme=report_global_theme, key_terms_definitions_formatted=key_terms_definitions_formatted,
+                            report_outline_summary=report_outline_summary, previous_chapters_summary=previous_chapters_summary,
+                            is_recursive_call=True)
+
+                    else:
+                        logger.error(f"Single content block is too large but has no text to split for chapter '{chapter_title}'. Cannot split further.")
+                        return f"[系统提示：章节内容整合失败，因为单个内容块过长且无法分割。错误详情: {e_llm_integrate}]"
                 else:
-                    logger.error(f"Single content block is too large for chapter '{chapter_title}'. Cannot split further. Returning error content.")
-                    # Fallback for when even a single block is too large
-                    return f"[系统提示：章节内容整合失败，因为单个内容块过长，无法处理。错误详情: {e_llm_integrate}]"
+                    logger.error(f"Content block is too large for chapter '{chapter_title}', but it's not a single block. This should not happen. Returning error content.")
+                    return f"[系统提示：章节内容整合失败，因为内容块过长，无法处理。错误详情: {e_llm_integrate}]"
 
             else:
                 logger.error(f"LLM service error during content integration for chapter '{chapter_title}': {e_llm_integrate}", exc_info=True)
