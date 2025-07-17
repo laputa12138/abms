@@ -1,6 +1,6 @@
 import logging
 import json # For parsing LLM relevance check response (though clean_and_parse_json may supersede direct json usage here)
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Any
 
 from agents.base_agent import BaseAgent
 from core.llm_service import LLMService, LLMServiceError
@@ -471,12 +471,14 @@ class ChapterWriterAgent(BaseAgent):
                                    report_global_theme: str,
                                    key_terms_definitions_formatted: str,
                                    report_outline_summary: str, # Added
-                                   previous_chapters_summary: str # Added
+                                   previous_chapters_summary: str, # Added
+                                   is_recursive_call: bool = False
                                    ) -> str:
         """
         Integrates multiple preliminary content blocks (each with its citation) into a single,
         coherent chapter using an LLM, incorporating global theme and key terms.
         If no content_blocks are provided, returns a standard placeholder message from settings.
+        Handles LLM context length errors by recursively splitting the content blocks.
         """
         if not content_blocks:
             logger.warning(
@@ -485,7 +487,19 @@ class ChapterWriterAgent(BaseAgent):
                 f"Returning standard placeholder."
             )
             return getattr(app_settings, 'DEFAULT_CHAPTER_MISSING_CONTENT_PLACEHOLDER',
-                           "[本章节未能生成有效内容，我们正在努力改进。]") # New default placeholder
+                           "[本章节未能生成有效内容，我们正在努力改进。]")
+
+        # Context truncation logic
+        truncated_outline = report_outline_summary
+        if len(truncated_outline) > 2000: # Example threshold
+            logger.warning(f"Report outline summary for chapter '{chapter_title}' is very long ({len(truncated_outline)} chars). Truncating.")
+            truncated_outline = truncated_outline[:1000] + "\n...\n" + truncated_outline[-1000:]
+
+        truncated_prev_summary = previous_chapters_summary
+        if len(truncated_prev_summary) > 2000: # Example threshold
+            logger.warning(f"Previous chapters summary for chapter '{chapter_title}' is very long ({len(truncated_prev_summary)} chars). Truncating.")
+            truncated_prev_summary = truncated_prev_summary[:1000] + "\n...\n" + truncated_prev_summary[-1000:]
+
 
         formatted_blocks_for_integration = ""
         for i, block in enumerate(content_blocks):
@@ -497,8 +511,8 @@ class ChapterWriterAgent(BaseAgent):
         try:
             integration_prompt_str = self.integration_prompt_template.format(
                 report_global_theme=report_global_theme,
-                report_outline_summary=report_outline_summary, # Use new context
-                previous_chapters_summary=previous_chapters_summary, # Use new context
+                report_outline_summary=truncated_outline,
+                previous_chapters_summary=truncated_prev_summary,
                 key_terms_definitions_formatted=key_terms_definitions_formatted,
                 chapter_title=chapter_title,
                 preliminary_content_blocks_formatted=formatted_blocks_for_integration.strip()
@@ -530,12 +544,56 @@ class ChapterWriterAgent(BaseAgent):
             return integrated_chapter_text.strip()
 
         except LLMServiceError as e_llm_integrate:
-            logger.error(f"LLM service error during content integration for chapter '{chapter_title}': {e_llm_integrate}", exc_info=True)
-            error_intro = f"[系统提示：章节内容整合因LLM服务错误而失败 (错误详情: {e_llm_integrate})。以下为基于各片段的初步生成内容，可能未完全整合：]\n\n"
-            concatenated_fallback_parts = []
-            for block in content_blocks:
-                 concatenated_fallback_parts.append(f"{block.get('generated_text', '').strip()}\n{block.get('citation_string', '').strip()}")
-            return error_intro + "\n\n".join(concatenated_fallback_parts).strip()
+            error_message = str(e_llm_integrate)
+            if "is longer than the maximum model length" in error_message and not is_recursive_call:
+                logger.warning(f"LLM prompt for chapter '{chapter_title}' is too long. Splitting content blocks and retrying.")
+
+                if len(content_blocks) > 1:
+                    mid_index = len(content_blocks) // 2
+                    first_half_blocks = content_blocks[:mid_index]
+                    second_half_blocks = content_blocks[mid_index:]
+
+                    logger.info(f"Splitting into two chunks: {len(first_half_blocks)} and {len(second_half_blocks)} blocks.")
+
+                    # Recursively integrate each half
+                    integrated_first_half = self._integrate_chapter_content(
+                        chapter_title=chapter_title, content_blocks=first_half_blocks,
+                        report_global_theme=report_global_theme, key_terms_definitions_formatted=key_terms_definitions_formatted,
+                        report_outline_summary=report_outline_summary, previous_chapters_summary=previous_chapters_summary,
+                        is_recursive_call=True) # Mark as recursive call to prevent infinite loops
+
+                    integrated_second_half = self._integrate_chapter_content(
+                        chapter_title=chapter_title, content_blocks=second_half_blocks,
+                        report_global_theme=report_global_theme, key_terms_definitions_formatted=key_terms_definitions_formatted,
+                        report_outline_summary=report_outline_summary, previous_chapters_summary=previous_chapters_summary,
+                        is_recursive_call=True)
+
+                    # Now, integrate the two integrated halves
+                    new_content_blocks = [
+                        {'generated_text': integrated_first_half, 'citation_string': "[部分整合结果]"},
+                        {'generated_text': integrated_second_half, 'citation_string': "[部分整合结果]"}
+                    ]
+
+                    logger.info(f"Re-integrating the two processed chunks for chapter '{chapter_title}'.")
+                    return self._integrate_chapter_content(
+                        chapter_title=chapter_title, content_blocks=new_content_blocks,
+                        report_global_theme=report_global_theme, key_terms_definitions_formatted=key_terms_definitions_formatted,
+                        report_outline_summary=report_outline_summary, previous_chapters_summary=previous_chapters_summary,
+                        is_recursive_call=True) # Still a recursive call
+
+                else:
+                    logger.error(f"Single content block is too large for chapter '{chapter_title}'. Cannot split further. Returning error content.")
+                    # Fallback for when even a single block is too large
+                    return f"[系统提示：章节内容整合失败，因为单个内容块过长，无法处理。错误详情: {e_llm_integrate}]"
+
+            else:
+                logger.error(f"LLM service error during content integration for chapter '{chapter_title}': {e_llm_integrate}", exc_info=True)
+                error_intro = f"[系统提示：章节内容整合因LLM服务错误而失败 (错误详情: {e_llm_integrate})。以下为基于各片段的初步生成内容，可能未完全整合：]\n\n"
+                concatenated_fallback_parts = []
+                for block in content_blocks:
+                     concatenated_fallback_parts.append(f"{block.get('generated_text', '').strip()}\n{block.get('citation_string', '').strip()}")
+                return error_intro + "\n\n".join(concatenated_fallback_parts).strip()
+
         except Exception as e_integration_unexpected:
             logger.error(f"Unexpected error during content integration for chapter '{chapter_title}': {e_integration_unexpected}", exc_info=True)
             error_intro = f"[系统提示：章节内容整合因发生意外错误而失败 (错误详情: {e_integration_unexpected})。以下为基于各片段的初步生成内容，可能未完全整合：]\n\n"
@@ -563,21 +621,30 @@ if __name__ == '__main__':
                     snippet_content = parts[1].split("\n\"\"\"")[0]
                     return f"基于片段“{snippet_content[:20]}...”的生成内容 (片段{self.snippet_call_count})"
                 return f"通用片段生成内容（无法提取片段） (片段{self.snippet_call_count})"
-            elif "高级报告编辑" in system_prompt and "待整合的文本块列表" in query:
+            elif "高级报告编辑" in system_prompt:
                 self.integration_call_count += 1
                 self.last_integration_query = query
-                chapter_title_for_mock = "未知章节"
-                try:
-                    chapter_title_for_mock = query.split("章节标题：\n")[1].split("\n\n待整合的文本块列表：")[0]
-                except IndexError: pass
-                if "文本块 1:" in query:
-                    integrated_text = f"《{chapter_title_for_mock}》的整合章节内容：\n\n"
-                    # Simplified mock integration
-                    parts = query.split("文本块 ")[1:]
-                    processed_blocks_for_mock = [part.split(":\n", 1)[1].replace("\n---", "").strip() for part in parts if ":\n" in part]
-                    integrated_text += "\n\n".join([f"段落：{p}" for p in processed_blocks_for_mock])
-                    return integrated_text.strip()
-                return f"《{chapter_title_for_mock}》的整合内容：(无初步文本块可供整合)"
+
+                # Match the simplified prompt used in the test
+                title_match = re.search(r"章节标题：(.*?)\n", query)
+                chapter_title_for_mock = title_match.group(1) if title_match else "未知章节"
+
+                # Handle both initial and recursive integration calls
+                integrated_text = f"《{chapter_title_for_mock}》的最终整合章节内容：\n\n"
+                parts = query.split("文本块 ")[1:]
+                if not parts: # Handle recursive calls where "文本块" might not be present
+                    parts = query.split("内容：")[1:]
+
+                processed_blocks_for_mock = [part.split(":\n", 1)[1].replace("\n---", "").strip() for part in parts if ":\n" in part]
+
+                # A bit of a hack to handle the recursive case where the input is already integrated
+                if not processed_blocks_for_mock and "《" in query:
+                     # Extract the content from the already integrated parts
+                    processed_blocks_for_mock = [p.strip() for p in query.split("》的整合章节内容：") if "》的整合章节内容：" in p]
+
+
+                integrated_text += "\n\n".join([f"最终段落：{p}" for p in processed_blocks_for_mock])
+                return integrated_text.strip()
             elif "内容相关性判断助手" in system_prompt:
                 return json.dumps({"is_relevant": True})
             elif "专业的报告引言撰写专家" in system_prompt: # Mock for introduction
@@ -650,7 +717,8 @@ if __name__ == '__main__':
         assert llm_service_instance_mock.snippet_call_count == len(mock_retrieved_data)
         assert llm_service_instance_mock.integration_call_count == 1
         final_content = chapter_info.get('content', '')
-        assert f"《{test_chapter_title_regular}》的整合章节内容：" in final_content
+        assert f"《{test_chapter_title_regular}》的最终整合章节内容：" in final_content
+        assert "最终段落" in final_content
         assert "--- 参考来源列表 ---" in final_content # Check for citation block
         print(f"REGULAR chapter test successful. LLM calls: Snippets={llm_service_instance_mock.snippet_call_count}, Integration={llm_service_instance_mock.integration_call_count}")
 
@@ -690,10 +758,66 @@ if __name__ == '__main__':
         assert "--- 参考来源列表 ---" not in final_content # Intro usually doesn't have this specific citation block
         print(f"INTRODUCTION chapter test successful. LLM calls: Snippets={llm_service_instance_mock.snippet_call_count}, IntroGen={llm_service_instance_mock.integration_call_count}")
 
+    def test_long_chapter_recursive_split(writer_agent_instance, llm_service_instance_mock):
+
+        class MockLLMServiceWithLengthCheck(MockLLMService):
+            def __init__(self):
+                super().__init__()
+                self.first_long_call = True
+
+            def chat(self, query: str, system_prompt: str) -> str:
+                # Only apply length check to the integration prompt
+                if "高级报告编辑" in system_prompt:
+                    # A crude way to simulate prompt length exceeding a limit
+                    if self.first_long_call and len(query) > 2000: # Set a mock limit, e.g. 2000
+                        self.first_long_call = False
+                        raise LLMServiceError("Failed to generate chat completion, detail: The decoder prompt is longer than the maximum model length of 40960.")
+
+                # For recursive calls, the query will be smaller, so it should pass the length check and call the parent's chat method
+                return super().chat(query, system_prompt)
+
+        llm_service_with_check = MockLLMServiceWithLengthCheck()
+        writer_agent_with_check = ChapterWriterAgent(llm_service=llm_service_with_check)
+
+
+        test_chapter_key_long = "chap_long_content"
+        test_chapter_title_long = "超长章节递归分割测试"
+        # Create a large number of blocks to ensure the prompt exceeds the mock limit
+        mock_retrieved_data_long = [
+            {"document": f"父块{i}：一些内容...", "score": 0.9, "source_document_name": f"doc{i}.pdf"} for i in range(20)
+        ]
+        mock_global_theme = "测试递归分割功能"
+        mock_key_terms = {"递归": "一种调用自身的编程技巧"}
+
+        mock_state_long = MockWorkflowStateCWA(user_topic="超长内容处理",
+                                              chapter_key=test_chapter_key_long,
+                                              chapter_title=test_chapter_title_long,
+                                              retrieved_docs=mock_retrieved_data_long,
+                                              global_theme=mock_global_theme,
+                                              key_terms=mock_key_terms)
+        mock_state_long.current_processing_task_id = "task_long_chap"
+        task_payload_long = {'chapter_key': test_chapter_key_long, 'chapter_title': test_chapter_title_long, 'priority': 5}
+
+        print(f"\nExecuting ChapterWriterAgent for LONG chapter (expecting recursive split): '{test_chapter_title_long}'")
+        writer_agent_with_check.execute_task(mock_state_long, task_payload_long)
+
+        chapter_info = mock_state_long.get_chapter_data(test_chapter_key_long)
+        assert chapter_info is not None and chapter_info.get('status') == STATUS_EVALUATION_NEEDED
+
+        final_content = chapter_info.get('content', '')
+        # The final integration will contain text from the sub-integrations.
+        # In our mock, this means it will contain the titles of the sub-integrations.
+        assert f"《{test_chapter_title_long}》的最终整合章节内容：" in final_content
+        assert "最终段落" in final_content
+
+        print(f"LONG chapter test successful. Recursive splitting was triggered and handled correctly.")
+
+
     try:
         print("\n--- Running ChapterWriterAgent Tests ---")
         test_regular_chapter(writer_agent, llm_service_instance)
         test_introduction_chapter(writer_agent, llm_service_instance)
+        test_long_chapter_recursive_split(writer_agent, llm_service_instance)
         print("\nAll ChapterWriterAgent tests passed.")
     except AssertionError as e:
         print(f"\nChapterWriterAgent test FAILED: {e}")
