@@ -344,7 +344,7 @@ if __name__ == "__main__":
 
     # Check if a special argument is passed to run the Gradio app
     if '--web' in sys.argv:
-        from app import iface
-        iface.launch()
+        # This will now correctly parse --host and --port
+        import app
     else:
         main()
