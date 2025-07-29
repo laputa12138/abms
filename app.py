@@ -59,9 +59,9 @@ def run_script(topic, data_path, output_path, report_title, xinference_url, llm_
 
     # Final status
     if process.poll() == 0:
-        yield log_output, "Completed", gr.update(visible=False)
+        yield log_output, "Completed", gr.update()
     else:
-        yield log_output, f"Error (code {process.poll()})", gr.update(visible=False)
+        yield log_output, f"Error (code {process.poll()})", gr.update()
 
 
 with gr.Blocks() as iface:
@@ -109,7 +109,7 @@ with gr.Blocks() as iface:
             with gr.Column(scale=2):
                 run_button = gr.Button("Run Report Generation", variant="primary")
                 status = gr.Label("Status: Idle")
-                progress = gr.Progress(visible=False)
+                progress = gr.Progress()
 
                 with gr.Tabs():
                     with gr.TabItem("Logs"):
@@ -131,4 +131,11 @@ with gr.Blocks() as iface:
         outputs=[log_output, status, progress]
     )
 
-iface.launch()
+import argparse
+
+parser = argparse.ArgumentParser(description="Gradio Web UI for RAG Report Generation")
+parser.add_argument("--host", type=str, default="127.0.0.1", help="Host to run the Gradio app on")
+parser.add_argument("--port", type=int, default=7860, help="Port to run the Gradio app on")
+args, unknown = parser.parse_known_args()
+
+iface.launch(server_name=args.host, server_port=args.port)
