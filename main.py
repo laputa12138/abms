@@ -341,4 +341,10 @@ if __name__ == "__main__":
     # python main.py --topic "The Future of Renewable Energy" --data_path "./sample_documents/"
     #                --output_path "reports/renewable_energy_report.md"
     #                --parent_chunk_size 1500 --child_chunk_size 300 --hybrid_search_alpha 0.6
-    main()
+
+    # Check if a special argument is passed to run the Gradio app
+    if '--web' in sys.argv:
+        from app import iface
+        iface.launch()
+    else:
+        main()
