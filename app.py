@@ -55,13 +55,13 @@ def run_script(topic, data_path, output_path, report_title, xinference_url, llm_
             break
         if output:
             log_output += output
-            yield log_output, "Running...", gr.update(visible=True)
+            yield log_output, "Running..."
 
     # Final status
     if process.poll() == 0:
-        yield log_output, "Completed", gr.update()
+        yield log_output, "Completed"
     else:
-        yield log_output, f"Error (code {process.poll()})", gr.update()
+        yield log_output, f"Error (code {process.poll()})"
 
 
 with gr.Blocks() as iface:
@@ -109,7 +109,6 @@ with gr.Blocks() as iface:
             with gr.Column(scale=2):
                 run_button = gr.Button("Run Report Generation", variant="primary")
                 status = gr.Label("Status: Idle")
-                progress = gr.Progress()
 
                 with gr.Tabs():
                     with gr.TabItem("Logs"):
@@ -128,7 +127,7 @@ with gr.Blocks() as iface:
             vector_store_path, index_name, force_reindex,
             log_level, debug, log_path
         ],
-        outputs=[log_output, status, progress]
+        outputs=[log_output, status]
     )
 
 import argparse
