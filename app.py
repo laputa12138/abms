@@ -74,7 +74,7 @@ with gr.Blocks() as iface:
             with gr.Column(scale=1):
                 topic = gr.Textbox(label="Topic", value="美国空军的情报、监视和侦察（Intelligence, Surveillance, and Reconnaissance,ISR）活动的总体情况调研分析")
                 data_path = gr.Textbox(label="Data Path", value="./data/")
-                output_path = gr.Textbox(label="Output Path", value="output/ISR-v21-#51-针对超长子块合并问题使用递归处理.md")
+                output_path = gr.Textbox(label="Output Path", value="output/ISR-v24-#55-webui.md")
                 report_title = gr.Textbox(label="Report Title", placeholder="Optional")
 
                 with gr.Accordion("Xinference and Model Configuration", open=False):
@@ -139,4 +139,4 @@ parser.add_argument("--host", type=str, default="127.0.0.1", help="Host to run t
 parser.add_argument("--port", type=int, default=7860, help="Port to run the Gradio app on")
 args, unknown = parser.parse_known_args()
 
-iface.launch(server_name=args.host, server_port=args.port)
+iface.launch(server_name=args.host, server_port=args.port,share=True)

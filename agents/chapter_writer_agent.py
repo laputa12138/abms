@@ -337,6 +337,8 @@ class ChapterWriterAgent(BaseAgent):
                     logger.error(f"[{self.agent_name}] Task ID: {task_id} - {err_msg_snippet_unexpected}", exc_info=True)
                     preliminary_text_str = f"[系统提示：生成此部分内容时发生意外错误 - {e_snippet_unexpected}]"
 
+
+                
                 citation_json_for_snippet["generated_text"] = preliminary_text_str.strip()
                 all_snippet_citation_jsons_for_chapter.append(citation_json_for_snippet)
 

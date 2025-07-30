@@ -68,9 +68,8 @@ DEFAULT_VECTOR_STORE_PATH = os.getenv("DEFAULT_VECTOR_STORE_PATH", "/home/ISTIC_
 DEFAULT_KEYWORD_SEARCH_TOP_K = int(os.getenv("DEFAULT_KEYWORD_SEARCH_TOP_K", "20"))
 # RAG检索后，送入LLM生成答案的最终文档数量。
 DEFAULT_RETRIEVAL_FINAL_TOP_N = int(os.getenv("DEFAULT_RETRIEVAL_FINAL_TOP_N", "40"))
-# 检索结果的最低分数阈值 (例如，基于相似度分数, 0.0 到 1.0)。低于此阈值的文档将被丢弃。
-# 注意: FAISS L2距离分数越低越好。BM25 和 Reranker 分数越高越好。
-# 此阈值将在 RetrievalService 中应用于归一化后的混合分数或Reranker分数。
+
+# RERANKER 阈值
 DEFAULT_RETRIEVAL_MIN_SCORE_THRESHOLD = float(os.getenv("DEFAULT_RETRIEVAL_MIN_SCORE_THRESHOLD", "0.4"))
 
 # --- Agent Specific Retrieval Settings ---
