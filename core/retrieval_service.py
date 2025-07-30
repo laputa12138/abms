@@ -178,6 +178,13 @@ class RetrievalService:
         results_after_processing: List[Dict[str, Any]] = []
 
         if self.reranker_service:
+            # Limit the number of documents sent to the reranker
+            if len(unique_child_chunks_for_reranking) > settings.DEFAULT_RERANKER_INPUT_LIMIT:
+                logger.info(f"Limiting documents for reranker from {len(unique_child_chunks_for_reranking)} to {settings.DEFAULT_RERANKER_INPUT_LIMIT}.")
+                # We don't have a good pre-rerank score, so we just truncate the list.
+                # This is a simple strategy to prevent OOM errors.
+                unique_child_chunks_for_reranking = unique_child_chunks_for_reranking[:settings.DEFAULT_RERANKER_INPUT_LIMIT]
+
             parents_for_reranking = [res['parent_text'] for res in unique_child_chunks_for_reranking]
             # Keep original items to map back after reranking, as reranker works on indices
             original_items_before_rerank = list(unique_child_chunks_for_reranking)
