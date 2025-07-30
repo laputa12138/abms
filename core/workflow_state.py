@@ -94,6 +94,9 @@ class WorkflowState:
         self.workflow_log.append(log_entry)
 
         # For direct logger output, use the level
+        # Also print to stdout for real-time tracking in UI
+        print(f"[WF_LOG] {message}")
+
         if level.upper() == "ERROR":
             logger.error(f"[WF Log] {message} {log_details if log_details else ''}")
         elif level.upper() == "WARNING":

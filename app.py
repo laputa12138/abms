@@ -49,13 +49,16 @@ def run_script(topic, data_path, output_path, report_title, xinference_url, llm_
 
     # Stream output
     log_output = ""
+    workflow_status = "Starting..."
     while True:
         output = process.stdout.readline()
         if output == '' and process.poll() is not None:
             break
         if output:
             log_output += output
-            yield log_output, "Running..."
+            if output.startswith("[WF_LOG]"):
+                workflow_status = output.strip()
+            yield log_output, workflow_status
 
     # Final status
     if process.poll() == 0:
@@ -110,7 +113,7 @@ with gr.Blocks() as iface:
 
             with gr.Column(scale=2):
                 run_button = gr.Button("Run Report Generation", variant="primary")
-                status = gr.Label("Status: Idle")
+                status = gr.Textbox(label="Workflow State", value="Idle", interactive=False)
 
                 with gr.Tabs():
                     with gr.TabItem("Logs"):
