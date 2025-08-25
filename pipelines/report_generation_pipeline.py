@@ -55,6 +55,7 @@ class ReportGenerationPipeline:
                 #  cli_overridden_hybrid_alpha: float = settings.DEFAULT_HYBRID_SEARCH_ALPHA,
                  cli_overridden_final_top_n_retrieval: int = settings.DEFAULT_RETRIEVAL_FINAL_TOP_N,
                  cli_overridden_max_refinement_iterations: int = settings.DEFAULT_MAX_REFINEMENT_ITERATIONS,
+                 use_llm_relevance_check: bool = settings.USE_LLM_RELEVANCE_CHECK,
                  # New parameter for key terms
                  key_terms_definitions: Optional[Dict[str, str]] = None
                 ):
@@ -81,6 +82,7 @@ class ReportGenerationPipeline:
         # self.hybrid_alpha = cli_overridden_hybrid_alpha
         self.final_top_n_retrieval = cli_overridden_final_top_n_retrieval
         self.max_refinement_iterations = cli_overridden_max_refinement_iterations # Used by WorkflowState
+        self.use_llm_relevance_check = use_llm_relevance_check
 
         # Initialize DocumentProcessor with effective chunking parameters
         self.document_processor = DocumentProcessor(
@@ -106,7 +108,10 @@ class ReportGenerationPipeline:
         # after retrieval_service is available.
         self.outline_generator: Optional[OutlineGeneratorAgent] = None
         # ContentRetrieverAgent is initialized in _initialize_retrieval_and_orchestration_components
-        self.chapter_writer = ChapterWriterAgent(llm_service=self.llm_service)
+        self.chapter_writer = ChapterWriterAgent(
+            llm_service=self.llm_service,
+            use_llm_relevance_check=self.use_llm_relevance_check
+        )
         # EvaluatorAgent now gets its threshold from config.settings
         self.evaluator = EvaluatorAgent(llm_service=self.llm_service)
         self.refiner = RefinerAgent(llm_service=self.llm_service)
@@ -362,19 +367,40 @@ if __name__ == '__main__':
     logger.info("ReportGenerationPipeline (Orchestrator & Indexing Logic) Example Start")
 
     class MockLLMServiceForPipeline(LLMService):
-        def __init__(self): super().__init__(api_url="mock://llm", model_name="mock-llm")
+        def __init__(self): pass
         def chat(self, query, system_prompt, **kwargs):
             # Simulate different responses based on task type indicators in query
-            if "主题分析专家" in query: return json.dumps({"generalized_topic_cn": "测试主题", "keywords_cn": ["测试", "流程"]})
+            if "主题分析专家" in query: return json.dumps({
+                "generalized_topic_cn": "测试主题",
+                "generalized_topic_en": "Test Topic",
+                "keywords_cn": ["测试", "流程"],
+                "keywords_en": ["test", "process"],
+                "core_research_questions_cn": ["这是一个测试问题吗？"],
+                "potential_methodologies_cn": ["测试方法"],
+                "expanded_queries": ["测试查询"]
+            })
             if "报告大纲撰写助手" in query: return "- 章节 A\n- 章节 B"
             if "专业的报告撰写员" in query: return f"这是关于 {kwargs.get('chapter_title', '未知章节')} 的模拟内容。"
-            if "资深的报告评审员" in query: return json.dumps({"score": 88, "feedback_cn": "内容良好，符合预期。"})
+            if "资深的报告评审员" in query: return json.dumps({
+                "score": 88,
+                "feedback_cn": "内容良好，符合预期。",
+                "evaluation_criteria_met": {
+                    "relevance_to_chapter_title": "高",
+                    "overall_coherence": "高",
+                    "richness_and_depth": "非常充实",
+                    "effective_use_of_references": "优秀",
+                    "contribution_to_report_goals": "高",
+                    "fluency": "优秀",
+                    "accuracy": "高"
+                }
+            })
             if "报告修改专家" in query: return "这是精炼后的模拟内容。"
+            if "内容相关性判断助手" in system_prompt: return json.dumps({"is_relevant": True})
             return "Default Mock LLM Response"
         def get_model(self, model_name): return self
 
     class MockEmbeddingServiceForPipeline(EmbeddingService):
-        def __init__(self): super().__init__(api_url="mock://emb", model_name="mock-emb")
+        def __init__(self): pass
         def create_embeddings(self, texts): return [[0.5]*5 for _ in texts] # Ensure consistent dummy embeddings
         def get_model(self, model_name): return self
 
@@ -396,7 +422,7 @@ if __name__ == '__main__':
             vector_store_path=dummy_vs_dir_pipe,
             index_name="pipeline_test_index",
             force_reindex=True, # Force reindex for consistent test runs
-            max_refinement_iterations=0, # No refinement for this test
+            cli_overridden_max_refinement_iterations=0, # No refinement for this test
             max_workflow_iterations=30, # Generous limit for test
             key_terms_definitions={"CLI_TERM": "Command Line Interface Term, provided at init."} # Test __init__ propagation
         )
