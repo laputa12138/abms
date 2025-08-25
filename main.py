@@ -169,7 +169,6 @@ def main():
         action='store_true',
         help="Disable the LLM-based relevance check for retrieved documents."
     )
-
     # Vector Store / Indexing arguments
     indexing_group = parser.add_argument_group('Vector Store and Indexing Parameters')
     indexing_group.add_argument(

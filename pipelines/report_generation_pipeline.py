@@ -84,6 +84,7 @@ class ReportGenerationPipeline:
         self.max_refinement_iterations = cli_overridden_max_refinement_iterations # Used by WorkflowState
         self.use_llm_relevance_check = use_llm_relevance_check
 
+
         # Initialize DocumentProcessor with effective chunking parameters
         self.document_processor = DocumentProcessor(
             parent_chunk_size=self.parent_chunk_size,
@@ -111,6 +112,7 @@ class ReportGenerationPipeline:
         self.chapter_writer = ChapterWriterAgent(
             llm_service=self.llm_service,
             use_llm_relevance_check=self.use_llm_relevance_check
+
         )
         # EvaluatorAgent now gets its threshold from config.settings
         self.evaluator = EvaluatorAgent(llm_service=self.llm_service)
