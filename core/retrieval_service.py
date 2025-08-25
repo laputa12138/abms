@@ -193,7 +193,7 @@ class RetrievalService:
                 logger.debug(f"Calling reranker service for {len(parents_for_reranking)} documents "
                              f"with representative query: '{representative_query_for_reranking[:100]}...'. "
                              f"Reranker top_n (from final_top_n): {final_top_n}, "
-                             f"Reranker score threshold: {settings.DEFAULT_RETRIEVAL_MIN_SCORE_THRESHOLD}")
+                             f"Reranker score threshold: {settings.RERANKER_SCORE_THRESHOLD}")
 
                 # The reranker service itself will sort by relevance_score and apply its own top_n
                 reranked_outputs = self.reranker_service.rerank(
@@ -211,7 +211,7 @@ class RetrievalService:
 
                     # Apply reranker score threshold
                     reranker_score = reranked_item_from_service['relevance_score']
-                    if reranker_score >= settings.DEFAULT_RETRIEVAL_MIN_SCORE_THRESHOLD:
+                    if reranker_score >= settings.RERANKER_SCORE_THRESHOLD:
                         temp_reranked_list.append({
                             **original_full_data,
                             'final_score': reranker_score, # Use reranker's score as the final score
@@ -219,7 +219,7 @@ class RetrievalService:
                         })
                     else:
                         # logger.debug(f"Document with original index {original_idx} (child_id: {original_full_data.get('child_id')}) "
-                        #              f"discarded due to rerank score {reranker_score:.4f} < threshold {settings.DEFAULT_RETRIEVAL_MIN_SCORE_THRESHOLD}.")
+                        #              f"discarded due to rerank score {reranker_score:.4f} < threshold {settings.RERANKER_SCORE_THRESHOLD}.")
                         # print all documents full text and score, with reranker_score < threshold
                         # logger.info("Discarded documents:\n"+ '-'*50)
                         # logger.info(f"Full text: {original_full_data.get('parent_text', '')}")
@@ -318,7 +318,7 @@ if __name__ == '__main__':
             return np.random.rand(len(self.corpus)) * 10
 
     class MockRerankerServiceForRS:
-        def rerank(self, query: str, documents: List[str], top_n: Optional[int]) -> List[Dict[str, Any]]:
+        def rerank(self, query: str, documents: List[str], top_n: Optional[int], batch_size: int, max_text_length: int) -> List[Dict[str, Any]]:
             logger.debug(f"MockRerankerService.rerank called for '{query}', {len(documents)} docs, top_n={top_n}")
             reranked = []
             for i, doc_text in enumerate(reversed(documents)):

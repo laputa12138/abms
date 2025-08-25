@@ -71,7 +71,10 @@ DEFAULT_KEYWORD_SEARCH_TOP_K = int(os.getenv("DEFAULT_KEYWORD_SEARCH_TOP_K", "20
 DEFAULT_RETRIEVAL_FINAL_TOP_N = int(os.getenv("DEFAULT_RETRIEVAL_FINAL_TOP_N", "40"))
 
 # RERANKER 阈值
-DEFAULT_RETRIEVAL_MIN_SCORE_THRESHOLD = float(os.getenv("DEFAULT_RETRIEVAL_MIN_SCORE_THRESHOLD", "0.4"))
+RERANKER_SCORE_THRESHOLD = float(os.getenv("RERANKER_SCORE_THRESHOLD", "0.4"))
+
+# Chapter Writer Agent Configuration
+USE_LLM_RELEVANCE_CHECK = os.getenv("USE_LLM_RELEVANCE_CHECK", "True").lower() == "true"
 
 # --- Agent Specific Retrieval Settings ---
 # For OutlineGeneratorAgent: Number of documents for initial outline context

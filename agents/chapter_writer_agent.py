@@ -24,11 +24,15 @@ class ChapterWriterAgent(BaseAgent):
     """
 
     def __init__(self, llm_service: LLMService,
+                 use_llm_relevance_check: bool = True,
+                 reranker_score_threshold: float = 0.5,
                  single_snippet_writer_prompt_template: Optional[str] = None,
                  integration_prompt_template: Optional[str] = None,
                  relevance_check_prompt_template: Optional[str] = None,
                  introduction_prompt_template: Optional[str] = None): # Added new template
         super().__init__(agent_name="ChapterWriterAgent", llm_service=llm_service)
+        self.use_llm_relevance_check = use_llm_relevance_check
+        self.reranker_score_threshold = reranker_score_threshold
         self.single_snippet_writer_prompt_template = single_snippet_writer_prompt_template or app_settings.DEFAULT_SINGLE_SNIPPET_WRITER_PROMPT
         self.integration_prompt_template = integration_prompt_template or app_settings.DEFAULT_CHAPTER_INTEGRATION_PROMPT
         self.relevance_check_prompt_template = relevance_check_prompt_template or app_settings.DEFAULT_RELEVANCE_CHECK_PROMPT
@@ -236,21 +240,27 @@ class ChapterWriterAgent(BaseAgent):
         )
 
         relevant_docs_for_generation = []
-        if not self.relevance_check_prompt_template:
-             logger.warning("Relevance check prompt template is missing from settings. ChapterWriterAgent will proceed assuming all documents are relevant.")
-             relevant_docs_for_generation = all_retrieved_docs_for_chapter
-        else:
-            for doc_idx, doc in enumerate(all_retrieved_docs_for_chapter):
-                doc_text = doc.get('document', '')
-                doc_id = doc.get('parent_id', doc.get('child_id', f'unknown_id_idx_{doc_idx}'))
-                if doc_text:
-                    if self._is_document_relevant(chapter_title, doc_text, doc_id):
-                        relevant_docs_for_generation.append(doc)
-                        logger.debug(f"Document '{doc_id}' (Source: {doc.get('source_document_name', 'N/A')}) deemed relevant for chapter '{chapter_title}'.")
+        if self.use_llm_relevance_check:
+            if not self.relevance_check_prompt_template:
+                logger.warning("Relevance check prompt template is missing from settings. ChapterWriterAgent will proceed assuming all documents are relevant.")
+                relevant_docs_for_generation = all_retrieved_docs_for_chapter
+            else:
+                for doc_idx, doc in enumerate(all_retrieved_docs_for_chapter):
+                    doc_text = doc.get('document', '')
+                    doc_id = doc.get('parent_id', doc.get('child_id', f'unknown_id_idx_{doc_idx}'))
+                    if doc_text:
+                        if self._is_document_relevant(chapter_title, doc_text, doc_id):
+                            relevant_docs_for_generation.append(doc)
+                            logger.debug(f"Document '{doc_id}' (Source: {doc.get('source_document_name', 'N/A')}) deemed relevant for chapter '{chapter_title}'.")
+                        else:
+                            logger.debug(f"Document '{doc_id}' (Source: {doc.get('source_document_name', 'N/A')}) deemed NOT relevant for chapter '{chapter_title}'.")
                     else:
-                        logger.debug(f"Document '{doc_id}' (Source: {doc.get('source_document_name', 'N/A')}) deemed NOT relevant for chapter '{chapter_title}'.")
-                else:
-                    logger.warning(f"Document '{doc_id}' (Source: {doc.get('source_document_name', 'N/A')}) has no text content. Skipping relevance check.")
+                        logger.warning(f"Document '{doc_id}' (Source: {doc.get('source_document_name', 'N/A')}) has no text content. Skipping relevance check.")
+        else:
+            logger.info(f"Skipping LLM relevance check. Filtering documents based on reranker score threshold: {self.reranker_score_threshold}")
+            for doc in all_retrieved_docs_for_chapter:
+                if doc.get('score', 0.0) >= self.reranker_score_threshold:
+                    relevant_docs_for_generation.append(doc)
 
         num_initial_docs = len(all_retrieved_docs_for_chapter)
         num_relevant_docs = len(relevant_docs_for_generation)
