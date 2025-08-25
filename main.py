@@ -164,6 +164,17 @@ def main():
         "--max_workflow_iterations", type=int, default=50, # Default from old pipeline init
         help="Maximum number of iterations for the main workflow loop to prevent infinite loops."
     )
+    pipeline_group.add_argument(
+        '--no-llm-relevance-check',
+        action='store_true',
+        help="Disable the LLM-based relevance check for retrieved documents."
+    )
+    pipeline_group.add_argument(
+        '--reranker-score-threshold',
+        type=float,
+        default=settings.RERANKER_SCORE_THRESHOLD,
+        help="Minimum score from the reranker for a document to be considered relevant."
+    )
 
     # Vector Store / Indexing arguments
     indexing_group = parser.add_argument_group('Vector Store and Indexing Parameters')
@@ -271,7 +282,18 @@ def main():
             reranker_service=reranker_service,
             vector_store_path=args.vector_store_path,
             index_name=args.index_name,
-            force_reindex=args.force_reindex
+            force_reindex=args.force_reindex,
+            max_workflow_iterations=args.max_workflow_iterations,
+            cli_overridden_parent_chunk_size=args.parent_chunk_size,
+            cli_overridden_parent_chunk_overlap=args.parent_chunk_overlap,
+            cli_overridden_child_chunk_size=args.child_chunk_size,
+            cli_overridden_child_chunk_overlap=args.child_chunk_overlap,
+            cli_overridden_vector_top_k=args.vector_top_k,
+            cli_overridden_keyword_top_k=args.keyword_top_k,
+            cli_overridden_final_top_n_retrieval=args.final_top_n_retrieval,
+            cli_overridden_max_refinement_iterations=args.max_refinement_iterations,
+            use_llm_relevance_check=not args.no_llm_relevance_check,
+            reranker_score_threshold=args.reranker_score_threshold,
         )
     except Exception as e:
         logger.error(f"Failed to initialize the report generation pipeline: {e}", exc_info=True)
