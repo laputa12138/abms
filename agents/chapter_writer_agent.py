@@ -25,14 +25,12 @@ class ChapterWriterAgent(BaseAgent):
 
     def __init__(self, llm_service: LLMService,
                  use_llm_relevance_check: bool = True,
-                 reranker_score_threshold: float = 0.5,
                  single_snippet_writer_prompt_template: Optional[str] = None,
                  integration_prompt_template: Optional[str] = None,
                  relevance_check_prompt_template: Optional[str] = None,
                  introduction_prompt_template: Optional[str] = None): # Added new template
         super().__init__(agent_name="ChapterWriterAgent", llm_service=llm_service)
         self.use_llm_relevance_check = use_llm_relevance_check
-        self.reranker_score_threshold = reranker_score_threshold
         self.single_snippet_writer_prompt_template = single_snippet_writer_prompt_template or app_settings.DEFAULT_SINGLE_SNIPPET_WRITER_PROMPT
         self.integration_prompt_template = integration_prompt_template or app_settings.DEFAULT_CHAPTER_INTEGRATION_PROMPT
         self.relevance_check_prompt_template = relevance_check_prompt_template or app_settings.DEFAULT_RELEVANCE_CHECK_PROMPT
@@ -257,6 +255,7 @@ class ChapterWriterAgent(BaseAgent):
                     else:
                         logger.warning(f"Document '{doc_id}' (Source: {doc.get('source_document_name', 'N/A')}) has no text content. Skipping relevance check.")
         else:
+
             logger.info(f"Skipping LLM relevance check. Filtering documents based on reranker score threshold: {self.reranker_score_threshold}")
             print(f"Skipping LLM relevance check. Filtering documents based on reranker score threshold: {self.reranker_score_threshold}")
             for doc in all_retrieved_docs_for_chapter:

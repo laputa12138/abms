@@ -169,13 +169,6 @@ def main():
         action='store_true',
         help="Disable the LLM-based relevance check for retrieved documents."
     )
-    pipeline_group.add_argument(
-        '--reranker-score-threshold',
-        type=float,
-        default=settings.RERANKER_SCORE_THRESHOLD,
-        help="Minimum score from the reranker for a document to be considered relevant."
-    )
-
     # Vector Store / Indexing arguments
     indexing_group = parser.add_argument_group('Vector Store and Indexing Parameters')
     indexing_group.add_argument(
@@ -293,7 +286,6 @@ def main():
             cli_overridden_final_top_n_retrieval=args.final_top_n_retrieval,
             cli_overridden_max_refinement_iterations=args.max_refinement_iterations,
             use_llm_relevance_check=not args.no_llm_relevance_check,
-            reranker_score_threshold=args.reranker_score_threshold,
         )
     except Exception as e:
         logger.error(f"Failed to initialize the report generation pipeline: {e}", exc_info=True)
