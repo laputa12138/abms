@@ -153,6 +153,10 @@ def main():
         "--final_top_n_retrieval", type=int, default=None, # Will default in pipeline if None
         help="Final number of documents to use for chapter generation after retrieval and reranking. Defaults to vector_top_k."
     )
+    retrieval_group.add_argument(
+        "--reranker-score-threshold", type=float, default=settings.RERANKER_SCORE_THRESHOLD,
+        help="The score threshold for the reranker model. Documents below this score will be discarded."
+    )
 
     # Pipeline execution arguments
     pipeline_group = parser.add_argument_group('Pipeline Execution Parameters')
@@ -286,6 +290,7 @@ def main():
             cli_overridden_final_top_n_retrieval=args.final_top_n_retrieval,
             cli_overridden_max_refinement_iterations=args.max_refinement_iterations,
             use_llm_relevance_check=not args.no_llm_relevance_check,
+            cli_overridden_reranker_score_threshold=args.reranker_score_threshold,
         )
     except Exception as e:
         logger.error(f"Failed to initialize the report generation pipeline: {e}", exc_info=True)
