@@ -1,0 +1,7 @@
+2025-07-30 17:36:54,967 - INFO - Loading faiss with AVX512 support.
+2025-07-30 17:36:54,980 - INFO - Successfully loaded faiss with AVX512 support.
+2025-07-30 17:36:54,985 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-30 17:36:56,677 - INFO - HTTP Request: GET http://localhost:1877/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-30 17:36:56,688 - INFO - HTTP Request: HEAD http://localhost:1877/ "HTTP/1.1 200 OK"
+2025-07-30 17:36:57,409 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-30 17:36:57,591 - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"

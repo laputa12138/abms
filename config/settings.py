@@ -3,7 +3,7 @@ import os
 # ==============================================================================
 # Xinference 服务配置 (Xinference Service Configuration)
 # ==============================================================================
-XINFERENCE_API_URL = os.getenv("XINFERENCE_API_URL", "http://124.128.251.61:1874") # Xinference API 服务器 URL
+XINFERENCE_API_URL = os.getenv("XINFERENCE_API_URL", "http://127.0.0.1:1874") # Xinference API 服务器 URL
 
 # ==============================================================================
 # 大语言模型 (LLM) 配置 (Large Language Model Configuration)
@@ -71,7 +71,7 @@ DEFAULT_KEYWORD_SEARCH_TOP_K = int(os.getenv("DEFAULT_KEYWORD_SEARCH_TOP_K", "20
 DEFAULT_RETRIEVAL_FINAL_TOP_N = int(os.getenv("DEFAULT_RETRIEVAL_FINAL_TOP_N", "40"))
 
 # RERANKER 阈值
-RERANKER_SCORE_THRESHOLD = float(os.getenv("RERANKER_SCORE_THRESHOLD", "0.4"))
+RERANKER_SCORE_THRESHOLD = float(os.getenv("RERANKER_SCORE_THRESHOLD", "0.6"))
 
 # Chapter Writer Agent Configuration
 USE_LLM_RELEVANCE_CHECK = os.getenv("USE_LLM_RELEVANCE_CHECK", "True").lower() == "true"

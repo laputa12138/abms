@@ -258,6 +258,7 @@ class ChapterWriterAgent(BaseAgent):
                         logger.warning(f"Document '{doc_id}' (Source: {doc.get('source_document_name', 'N/A')}) has no text content. Skipping relevance check.")
         else:
             logger.info(f"Skipping LLM relevance check. Filtering documents based on reranker score threshold: {self.reranker_score_threshold}")
+            print(f"Skipping LLM relevance check. Filtering documents based on reranker score threshold: {self.reranker_score_threshold}")
             for doc in all_retrieved_docs_for_chapter:
                 if doc.get('score', 0.0) >= self.reranker_score_threshold:
                     relevant_docs_for_generation.append(doc)
