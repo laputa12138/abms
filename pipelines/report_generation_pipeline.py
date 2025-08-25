@@ -56,6 +56,7 @@ class ReportGenerationPipeline:
                  cli_overridden_final_top_n_retrieval: int = settings.DEFAULT_RETRIEVAL_FINAL_TOP_N,
                  cli_overridden_max_refinement_iterations: int = settings.DEFAULT_MAX_REFINEMENT_ITERATIONS,
                  use_llm_relevance_check: bool = settings.USE_LLM_RELEVANCE_CHECK,
+                 cli_overridden_reranker_score_threshold: float = settings.RERANKER_SCORE_THRESHOLD,
                  # New parameter for key terms
                  key_terms_definitions: Optional[Dict[str, str]] = None
                 ):
@@ -83,6 +84,7 @@ class ReportGenerationPipeline:
         self.final_top_n_retrieval = cli_overridden_final_top_n_retrieval
         self.max_refinement_iterations = cli_overridden_max_refinement_iterations # Used by WorkflowState
         self.use_llm_relevance_check = use_llm_relevance_check
+        self.reranker_score_threshold = cli_overridden_reranker_score_threshold
 
 
         # Initialize DocumentProcessor with effective chunking parameters
@@ -111,8 +113,8 @@ class ReportGenerationPipeline:
         # ContentRetrieverAgent is initialized in _initialize_retrieval_and_orchestration_components
         self.chapter_writer = ChapterWriterAgent(
             llm_service=self.llm_service,
-            use_llm_relevance_check=self.use_llm_relevance_check
-
+            use_llm_relevance_check=self.use_llm_relevance_check,
+            reranker_score_threshold=self.reranker_score_threshold
         )
         # EvaluatorAgent now gets its threshold from config.settings
         self.evaluator = EvaluatorAgent(llm_service=self.llm_service)
