@@ -1,6 +1,6 @@
 import logging
 import json
-from typing import Dict, Optional, List
+from typing import Dict, Optional, List, Any
 
 from agents.base_agent import BaseAgent
 from core.llm_service import LLMService, LLMServiceError
@@ -115,6 +115,26 @@ class OutlineRefinementAgent(BaseAgent):
             valid_suggestions.append(op)
         return valid_suggestions
 
+    def _generate_markdown_from_filtered_outline(self, parsed_outline: List[Dict[str, Any]]) -> str:
+        """
+        Generates a Markdown string from a parsed outline structure.
+        This is a helper to reconstruct the outline after programmatic filtering.
+        """
+        md_lines = []
+        for item in parsed_outline:
+            title = item.get('title', 'Untitled')
+            level = item.get('level', 1)
+            # This logic can be adjusted to match the exact format expected by the LLM
+            if level == 1:
+                md_lines.append(f"# {title}")
+            elif level == 2:
+                md_lines.append(f"## {title}")
+            else:
+                indent_count = (level - 3) * 2
+                indent = " " * indent_count
+                md_lines.append(f"{indent}- {title}")
+        return "\n".join(md_lines)
+
     def execute_task(self, workflow_state: WorkflowState, task_payload: Dict) -> None:
         task_id = workflow_state.current_processing_task_id
         logger.info(f"[{self.agent_name}] Task ID: {task_id} - Starting execution.")
@@ -132,6 +152,33 @@ class OutlineRefinementAgent(BaseAgent):
             raise OutlineRefinementAgentError(err_msg)
 
         self._log_input(payload_keys=list(task_payload.keys()))
+
+        # --- Data-driven outline validation ---
+        global_docs_map = workflow_state.get_global_retrieved_docs_map() or {}
+        chapters_to_keep = []
+        programmatic_deletions = []
+
+        for item in parsed_outline:
+            chapter_key = item.get('id')
+            # A chapter is kept if its key exists in the map AND the document list is not empty.
+            if chapter_key and global_docs_map.get(chapter_key):
+                chapters_to_keep.append(item)
+            else:
+                deletion_info = {
+                    "title": item.get('title', 'N/A'),
+                    "id": chapter_key,
+                    "reason": "No supporting documents found in global retrieval map."
+                }
+                programmatic_deletions.append(deletion_info)
+                logger.info(f"Programmatically removing chapter '{item.get('title')}' (id: {chapter_key}) due to lack of supporting documents.")
+
+        # If any chapters were removed, update the outline variables to be used in the prompt
+        if programmatic_deletions:
+            workflow_state.log_event("Programmatically removed chapters from outline due to lack of sources.",
+                                     {"deleted_chapters": programmatic_deletions})
+            parsed_outline = chapters_to_keep  # Use the new, filtered outline
+            current_outline_md = self._generate_markdown_from_filtered_outline(parsed_outline)
+            logger.info(f"Outline has been filtered. New chapter count: {len(parsed_outline)}. Proceeding to LLM refinement with the filtered outline.")
 
         topic_description = topic_analysis_results.get('generalized_topic_cn', workflow_state.user_topic)
         parsed_outline_json_str = json.dumps(parsed_outline, ensure_ascii=False, indent=2)
@@ -216,30 +263,14 @@ if __name__ == '__main__':
 
     class MockLLMService:
         def chat(self, query: str, system_prompt: str) -> str:
-            # Simulate LLM returning a list of refinement operations as JSON string
-            mock_suggestions = [
-                {"action": "modify_title", "id": "ch_mock1", "new_title": "Revised Introduction"},
-                {"action": "add", "title": "New Conclusion", "level": 1, "after_id": "ch_mock2"},
-                {"action": "delete", "id": "ch_obsolete"}
-            ]
-            if "parsed_outline_json" in query: # Check if it's the refinement prompt
-                 # Extract parsed_outline from the prompt to make suggestions more realistic
-                try:
-                    prompt_json_part = query.split("Current Outline (Parsed Structure with IDs):\n---\n")[1].split("\n---")[0]
-                    parsed_outline_for_mock = json.loads(prompt_json_part)
-
-                    # Make mock suggestions slightly dependent on input
-                    suggestions = []
-                    if any(item['id'] == 'ch_mock1' for item in parsed_outline_for_mock):
-                         suggestions.append({"action": "modify_title", "id": "ch_mock1", "new_title": "Revised Mock Chapter 1 Title"})
-                    if any(item['id'] == 'ch_mock2' for item in parsed_outline_for_mock):
-                        suggestions.append({"action": "add", "title": "New Section after Mock 2", "level": 2, "after_id": "ch_mock2"})
-                    if not suggestions: # Default if no specific IDs match
-                         suggestions.append({"action": "add", "title": "Generic New Section", "level": 1, "after_id": None})
-                    return json.dumps(suggestions)
-                except Exception as e:
-                    logger.error(f"MockLLMService error parsing prompt for suggestions: {e}")
-                    return json.dumps([{"action": "add", "title": "Fallback New Section", "level": 1, "after_id": None}])
+            if "structuring and refining report outlines" in system_prompt:
+                # Just return a fixed, valid list of suggestions for the test.
+                # This makes the mock independent of the exact prompt template content.
+                suggestions = [
+                    {"action": "modify_title", "id": "ch_mock1", "new_title": "Revised Mock Chapter 1 Title"},
+                    {"action": "add", "title": "New Section after Mock 2", "level": 2, "after_id": "ch_mock2"}
+                ]
+                return json.dumps(suggestions)
             return "[]" # Default empty list
 
     # Mock WorkflowState
@@ -299,7 +330,10 @@ if __name__ == '__main__':
         added_apply_task = mock_state_ora.added_tasks_ora[0]
         assert added_apply_task['type'] == TASK_TYPE_APPLY_OUTLINE_REFINEMENT
         assert 'suggested_refinements' in added_apply_task['payload']
-        assert added_apply_task['payload']['original_outline_md'] == initial_md_outline
+        # The new logic filters the outline, so the "original" MD in the payload is the one generated from the *filtered* list.
+        # The test must be updated to reflect this correct behavior.
+        expected_filtered_md = "# Chapter 1\n# Chapter 2"
+        assert added_apply_task['payload']['original_outline_md'] == expected_filtered_md
 
         # Check if mock LLM produced expected suggestions based on input
         suggestions_in_payload = added_apply_task['payload']['suggested_refinements']

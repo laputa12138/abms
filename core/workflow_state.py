@@ -1,4 +1,5 @@
 import logging
+import json
 from typing import List, Dict, Any, Optional, Tuple
 from datetime import datetime
 import uuid
@@ -361,24 +362,38 @@ class WorkflowState:
         self.log_event("Global error count incremented.", {"current_error_count": self.error_count})
 
     def get_full_report_context_for_compilation(self) -> Dict[str, Any]:
-        """Prepares data needed by ReportCompilerAgent."""
-        # Filter chapter_data to only include chapters present in the current parsed_outline
-        # and format it as expected by ReportCompilerAgent (title -> content string)
-        valid_chapter_contents = {}
+        """
+        Prepares data needed by ReportCompilerAgent.
+        This now includes details for ALL chapters from the outline, not just completed ones.
+        """
+        chapter_details = {}
         for item in self.parsed_outline:
             chapter_key = item['id']
+            title = item.get('title', 'Untitled Chapter')
             data = self.chapter_data.get(chapter_key)
-            if data and data.get('status') == STATUS_COMPLETED and data.get('content'):
-                valid_chapter_contents[data['title']] = data['content'] # Use title as key for compiler
+
+            if data:
+                chapter_details[title] = {
+                    'status': data.get('status', STATUS_PENDING),
+                    'content': data.get('content'),
+                    'title': title
+                }
             else:
-                 logger.warning(f"Chapter '{data.get('title', chapter_key) if data else chapter_key}' not completed or has no content for compilation.")
+                # This case handles if a chapter exists in the outline but somehow lacks a data entry.
+                chapter_details[title] = {
+                    'status': STATUS_ERROR,
+                    'content': f"Error: Chapter data not found for key {chapter_key}",
+                    'title': title
+                }
+                logger.error(f"Data integrity issue: Chapter '{title}' (key: {chapter_key}) is in the parsed outline but has no entry in chapter_data.")
 
-
+        # The compiler agent will now iterate through the parsed_outline and use the title to look up details in this map.
         return {
             "report_title": self.report_title,
             "markdown_outline": self.current_outline_md,
-            "chapter_contents": valid_chapter_contents, # Dict[chapter_title, chapter_text_content]
-            "report_topic_details": self.topic_analysis_results
+            "chapter_details": chapter_details, # Changed from chapter_contents to chapter_details
+            "report_topic_details": self.topic_analysis_results,
+            "parsed_outline": self.parsed_outline # Pass the structured outline for iteration
         }
 
     def apply_refinements_to_parsed_outline(

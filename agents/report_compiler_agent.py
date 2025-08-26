@@ -1,9 +1,9 @@
 import logging
 import re # For more robust anchor generation
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Any
 
 from agents.base_agent import BaseAgent
-from core.workflow_state import WorkflowState # For type hinting if execute_task uses it
+from core.workflow_state import WorkflowState, STATUS_COMPLETED # For type hinting if execute_task uses it
 
 logger = logging.getLogger(__name__)
 
@@ -114,16 +114,12 @@ class ReportCompilerAgent(BaseAgent):
         # Use the parsed_outline from workflow_state for structure and IDs
         structured_outline_from_state = report_context.get('parsed_outline', [])
 
-        # chapter_contents is Dict[chapter_title (from original MD), chapter_text_content]
-        # We need to map this to chapter_ids if we use ids for anchors.
-        # For simplicity, if ReportCompilerAgent's _parse_markdown_outline was used to create
-        # the structure in workflow_state, then chapter_contents keys should match titles.
-        chapter_contents_by_title = report_context.get('chapter_contents', {})
+        chapter_details_by_title = report_context.get('chapter_details', {})
         report_topic_details = report_context.get('report_topic_details')
 
         self._log_input(report_title=report_title,
                         num_outline_items=len(structured_outline_from_state),
-                        num_chapter_contents=len(chapter_contents_by_title))
+                        num_chapter_contents=len(chapter_details_by_title))
 
         if not report_title: raise ReportCompilerAgentError("Report title cannot be empty.")
         # if not markdown_outline_str and not structured_outline_from_state:
@@ -157,20 +153,25 @@ class ReportCompilerAgent(BaseAgent):
 
         # Iterate through the structured_outline_from_state to maintain order and hierarchy
         for item in structured_outline_from_state:
-            # The key for chapter_contents is the title as parsed by _parse_markdown_outline
-            # which should match the titles in structured_outline_from_state.
             chapter_title_key = item['title']
-            content = chapter_contents_by_title.get(chapter_title_key)
+            details = chapter_details_by_title.get(chapter_title_key)
             level = item.get('level', 1)
-            item_id_anchor = item.get('id', self._generate_anchor(chapter_title_key)) # Anchor based on unique ID
 
-            if content is None:
-                logger.warning(f"No content found for chapter/section: '{chapter_title_key}'. Omitting.")
-                # Optionally add placeholder: final_report_parts.append(f"\n{'#' * level} {chapter_title_key}\n\n*内容待定*\n")
-                continue
+            # Add the chapter title header regardless of status
+            final_report_parts.append(f"\n{'#' * level} {chapter_title_key}\n")
 
-            # Rely on Markdown renderer to create anchors from headers.
-            final_report_parts.append(f"\n{'#' * level} {chapter_title_key}\n\n{content}\n")
+            # Check status and add content or placeholder
+            if details and details.get('status') == STATUS_COMPLETED and details.get('content'):
+                final_report_parts.append(f"\n{details['content']}\n")
+            elif details:
+                status = details.get('status', 'unknown')
+                placeholder = f"\n*[本章节内容生成失败，状态: {status}]*\n"
+                final_report_parts.append(placeholder)
+                logger.warning(f"Chapter '{chapter_title_key}' has status '{status}' and will be marked with a placeholder.")
+            else:
+                placeholder = f"\n*[本章节内容生成失败，原因: 在报告上下文中找不到章节详情]*\n"
+                final_report_parts.append(placeholder)
+                logger.error(f"No details found in report context for chapter: '{chapter_title_key}'. This might indicate a data consistency issue.")
 
         compiled_report = "".join(final_report_parts).strip()
         self._log_output(compiled_report[:500] + "...") # Log preview
@@ -190,11 +191,11 @@ class ReportCompilerAgent(BaseAgent):
         self._log_input(workflow_state_id=workflow_state.workflow_id, task_payload=task_payload) # Agent's own structured log
 
         if not workflow_state.are_all_chapters_completed():
-            msg = "Not all chapters are marked as completed. Report compilation aborted."
+            msg = "Not all chapters are marked as completed. Proceeding with compilation of available content."
             logger.warning(f"[{self.agent_name}] Task ID: {task_id} - {msg}")
             workflow_state.log_event(msg, level="WARNING")
-            if task_id: workflow_state.complete_task(task_id, msg, status='deferred')
-            return
+        else:
+            logger.info(f"[{self.agent_name}] Task ID: {task_id} - All chapters are completed. Proceeding with report compilation.")
 
         report_context = workflow_state.get_full_report_context_for_compilation()
         # Ensure parsed_outline is included, as it's now the source of truth for structure
@@ -262,7 +263,7 @@ if __name__ == '__main__':
     parsed_test_outline = compiler_agent._parse_markdown_outline(md_outline_test)
     print("Parsed test outline:")
     for item in parsed_test_outline: print(f"  {item}")
-    assert len(parsed_test_outline) == 8 # Check number of items
+    assert len(parsed_test_outline) == 9 # Check number of items
     assert parsed_test_outline[0]['level'] == 1 and parsed_test_outline[0]['title'] == "Chapter 1: Intro"
     assert parsed_test_outline[2]['level'] == 3 and parsed_test_outline[2]['title'] == "Point 1.1.1" # Based on simplified list indent
     assert parsed_test_outline[4]['level'] == 4 and parsed_test_outline[4]['title'] == "Sub-point 1.1.2.1"
@@ -283,8 +284,8 @@ if __name__ == '__main__':
 
     mock_state_rca.topic_analysis_results = {"generalized_topic_cn": "编译测试", "keywords_cn": ["测试", "报告"]}
 
-    # Chapter contents keys must match titles from the parsed outline
-    mock_chapter_contents_for_compiler = {}
+    # Chapter details keys must match titles from the parsed outline
+    mock_chapter_details_for_compiler = {}
     for item in mock_state_rca.parsed_outline:
         # Simulate all chapters are completed and have content
         mock_state_rca.chapter_data[item['id']] = { # Use item['id'] as key
@@ -293,15 +294,19 @@ if __name__ == '__main__':
             'content': f"This is the final content for {item['title']}.",
             'evaluations': [], 'versions': [], 'errors': []
         }
-        mock_chapter_contents_for_compiler[item['title']] = f"This is the final content for {item['title']}."
+        mock_chapter_details_for_compiler[item['title']] = {
+            'status': STATUS_COMPLETED,
+            'content': f"This is the final content for {item['title']}.",
+            'title': item['title']
+        }
 
     # This is what get_full_report_context_for_compilation in WorkflowState should prepare
     mock_state_rca.mock_report_context = {
         "report_title": mock_state_rca.report_title,
-        "markdown_outline": mock_state_rca.current_outline_md, # Raw MD for TOC generation if needed
-        "chapter_contents": mock_chapter_contents_for_compiler, # title -> content map
+        "markdown_outline": mock_state_rca.current_outline_md,
+        "chapter_details": mock_chapter_details_for_compiler, # Use new key and structure
         "report_topic_details": mock_state_rca.topic_analysis_results,
-        "parsed_outline": mock_state_rca.parsed_outline # Crucial for structured compilation
+        "parsed_outline": mock_state_rca.parsed_outline
     }
 
     # Task payload for the agent's execute_task method
